@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "swampdirtmaterial", "count" : 50 }
+    { "item" : "swampdirtffmaterial", "count" : 50 }
   ],
   "output" : {
     "item" : "nutrientpaste",
