@@ -1,6 +1,6 @@
 {
   "name" : "blacktarslow",
-  "blockingStat" : "tarImmunity",
+  "blockingStat" : "blacktarImmunity",
   "effectConfig" : {},
   "defaultDuration" : 8,
 

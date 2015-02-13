@@ -1,27 +1,14 @@
 {
-  "name" : "bogunderground",
-  "friendlyName" : "Bog Caverns",
+  "name" : "protocorelayer",
+  "friendlyName" : "Proto Core",
 
-  "spawnProfiles" : [
-    {
-      "profiles" : [ "mediumunderground1" ],
-      "extraSpawns" : [ ]
-    },
-    {
-      "profiles" : [ "mediumunderground2" ],
-      "extraSpawns" : [ ]
-    }
-  ],
+  "parallax" : "/parallax/underground/protoworldunderground.parallax",
 
-    "mainBlock" : "clay",
-    "subBlocks" : [ "mud", "rock01", "swampdirtff" ],
-    "ores" : "ff_deepsurfacebogOres",
+    "mainBlock" : "biostone",
+    "subBlocks" : [ "bioblock2" ],
+    "ores" : "ff_deepsurfaceprotoOres",
 
-  "parallax" : "/parallax/underground/bogunderground.parallax",
-
-
-
-  "ambientNoises" : {
+  "undergroundAmbientNoises" : {
     "day" : {
       "tracks" : [ "/sfx/environmental/desert_underground.ogg" ]
     },
@@ -30,7 +17,7 @@
     }
   },
 
-  "musicTrack" : {
+  "undergroundMusicTrack" : {
     "day" : {
       "tracks" : [ "/music/epsilon-indi.ogg", "/music/hymn-to-the-stars.ogg", "/music/planetarium.ogg", "/music/procyon.ogg", "/music/stellarformation.ogg", "/music/vastimmortalsuns.ogg", "/music/atlas.ogg", "/music/blue-straggler.ogg", "/music/cygnus-x1.ogg", "/music/europa.ogg", "/music/haiku.ogg", "/music/M54.ogg", "/music/on-the-beach-at-night.ogg" ]
     },
@@ -40,9 +27,28 @@
   },
 
   "undergroundPlaceables" : {
-    "grassMod" : [ "mossgrass1" ],
-    "grassModDensity" : 0.9,
     "items" : [
+        {
+          "mode" : "floor",
+          "priority" : 0.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:minibiomeChests",
+
+          "type" : "treasureBox",
+          "treasureBoxSets" : [ "ffprotoChest" ]
+        },
+        {
+          "mode" : "ceiling",
+          "priority" : 2.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:denseMedium",
+
+          "type" : "tree",
+          "treeFoliageHueShiftMax" : 300,
+          "treeStemHueShiftMax" : 300,
+          "treeStemList" : [ "bubblevine", "glitteringroot2", "vineroot2", "twistedvine2" ],
+          "treeFoliageList" : [ "flowery2", "starry2", "dreamy2", "nofoliagevine" ]
+        },
            {
              "mode" : "floor",
              "priority" : 1.0,
@@ -57,24 +63,7 @@
                }
              ]
            },
-        {
-          "mode" : "floor",
-          "priority" : 0.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:undergroundChests",
 
-          "type" : "treasureBox",
-          "treasureBoxSets" : [ "basicChest" ]
-        },
-        {
-          "mode" : "floor",
-          "priority" : 0.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:overgroundChests",
-
-          "type" : "treasureBox",
-          "treasureBoxSets" : [ "ffbasicChest2" ]
-        },
         {
           "mode" : "floor",
           "priority" : 0.0,
@@ -83,15 +72,6 @@
 
           "type" : "treasureBox",
           "treasureBoxSets" : [ "techChest" ]
-        },
-        {
-          "mode" : "floor",
-          "priority" : 0.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:undergroundChests",
-
-          "type" : "treasureBox",
-          "treasureBoxSets" : [ "weaponChest" ]
         },
         {
           "mode" : "floor",
@@ -109,6 +89,15 @@
         },
         {
           "mode" : "floor",
+          "priority" : 0.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:undergroundChests",
+
+          "type" : "treasureBox",
+          "treasureBoxSets" : [ "weaponChest" ]
+        },
+        {
+          "mode" : "floor",
           "priority" : 1.0,
           "variants" : 1,
           "distribution" : "/biomes/distributions.config:scatteredPots",
@@ -120,20 +109,10 @@
               "parameters" : { }
             }
           ]
-        },
-        {
-          "mode" : "ceiling",
-          "priority" : 2.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:denseMedium",
-
-          "type" : "tree",
-          "treeFoliageHueShiftMax" : 180,
-          "treeStemHueShiftMax" : 180,
-          "treeStemList" : [ "wildernessvine", "sulphurvine" ],
-          "treeFoliageList" : [ "flowery", "starry", "dreamy" ]
         }
     ]
   },
-    "hueShiftOptions" : [0]
+
+  "hueShiftOptions" : [-180, -135, -90, -45, 0, 45, 90, 135, 180]
 }
+

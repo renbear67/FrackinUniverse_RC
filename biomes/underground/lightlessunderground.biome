@@ -1,6 +1,6 @@
 {
-  "name" : "bogunderground",
-  "friendlyName" : "Bog Caverns",
+  "name" : "lightlessunderground",
+  "friendlyName" : "Lightless Cave",
 
   "spawnProfiles" : [
     {
@@ -13,13 +13,11 @@
     }
   ],
 
-    "mainBlock" : "clay",
-    "subBlocks" : [ "mud", "rock01", "swampdirtff" ],
-    "ores" : "ff_deepsurfacebogOres",
-
-  "parallax" : "/parallax/underground/bogunderground.parallax",
-
-
+    "mainBlock" : "darkstone",
+    "subBlocks" : [ "darkness", "matterblock" ],
+    "ores" : "depth3",
+    
+  "parallax" : "/parallax/underground/penumbraunderground.parallax",
 
   "ambientNoises" : {
     "day" : {
@@ -40,23 +38,23 @@
   },
 
   "undergroundPlaceables" : {
-    "grassMod" : [ "mossgrass1" ],
+    "grassMod" : [ "darkgrass" ],
     "grassModDensity" : 0.9,
     "items" : [
-           {
-             "mode" : "floor",
-             "priority" : 1.0,
-             "variants" : 1,
-             "distribution" : "/biomes/distributions.config:potsRare",
-   
-             "type" : "object",
-             "objectSets" : [
-               {
-                 "pool" : [ [0.50, "ffbioshroom" ],[0.50, "ffbioshroom1" ],[0.50, "ffbioshroom2" ],[0.50, "ffbioshroom3" ] ],
-                 "parameters" : { "startingStage" : 2 }
-               }
-             ]
-           },
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+          "type" : "object",
+          "objectSets" : [
+            {
+              "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+              "parameters" : { }
+            }
+          ]
+        },
         {
           "mode" : "floor",
           "priority" : 0.0,
@@ -65,15 +63,6 @@
 
           "type" : "treasureBox",
           "treasureBoxSets" : [ "basicChest" ]
-        },
-        {
-          "mode" : "floor",
-          "priority" : 0.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:overgroundChests",
-
-          "type" : "treasureBox",
-          "treasureBoxSets" : [ "ffbasicChest2" ]
         },
         {
           "mode" : "floor",
@@ -109,15 +98,31 @@
         },
         {
           "mode" : "floor",
-          "priority" : 1.0,
+          "priority" : 2.0,
           "variants" : 1,
-          "distribution" : "/biomes/distributions.config:scatteredPots",
+          "distribution" : "/biomes/distributions.config:scatteredSmall",
 
-          "type" : "object",
-          "objectSets" : [
+          "type" : "bush",
+          "bushes" : [
             {
-              "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-              "parameters" : { }
+              "name" : "tarcrystal",
+              "baseHueShiftMax" : 0,
+              "modHueShiftMax" : 0
+            }
+          ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 2.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+          "type" : "bush",
+          "bushes" : [
+            {
+              "name" : "tarbulb",
+              "baseHueShiftMax" : 0,
+              "modHueShiftMax" : 0
             }
           ]
         },
@@ -130,7 +135,7 @@
           "type" : "tree",
           "treeFoliageHueShiftMax" : 180,
           "treeStemHueShiftMax" : 180,
-          "treeStemList" : [ "wildernessvine", "sulphurvine" ],
+          "treeStemList" : [ "vine", "shadowvine" ],
           "treeFoliageList" : [ "flowery", "starry", "dreamy" ]
         }
     ]

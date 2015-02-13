@@ -338,6 +338,43 @@
         }
       }
    },
+   
+    {"op" : "add", 
+    "path" : "/planetTypes/lightless",
+    "value" : 
+      {
+      "threatRange" : [3, 6],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "lightless" ],
+          "secondaryRegion" : [ "hellhive", "elder", "protoworld", "irradiated" ],
+          "dungeonCountRange" : [0, 2],
+          "dungeons" : [ "wreck", "glitchsewer", "glitchvillage", "avianairship", "humanprison" ]
+        },
+        "subsurface" : {
+          "primaryRegion" : [ "lightlessunderground", "ffshadow" ]
+        },
+         "underground1" : {
+          "primaryRegion" : [ "lightlessunderground", "tarunderground", "ffshadow" ]
+        },
+        "underground2" : {
+          "primaryRegion" : [ "lightlessunderground", "tarunderground", "ffshadow" ]
+        },
+        "underground3" : {
+          "primaryRegion" : [ "lightlessunderground", "tarunderground", "ffshadow" ]
+        },
+        "underground4" : {
+          "primaryRegion" : [ "lightlessunderground", "tarunderground", "ffshadow" ]
+        },
+        "underground5" : {
+          "primaryRegion" : [ "lightlessunderground", "tarunderground", "ffshadow" ]
+        },
+        "underground6" : {
+          "primaryRegion" : [ "lightlessunderground", "tarunderground", "ffshadow" ]
+        }
+        }
+      }
+   },   
     {"op" : "add", 
     "path" : "/planetTypes/metallicmoon",
     "value" : 
@@ -488,7 +525,7 @@
           "primaryRegion" : [ "protoworldunderground" ]
         },
         "underground6" : {
-          "primaryRegion" : [ "protoworldunderground" ]
+          "primaryRegion" : [ "protocore" ]
         }
         }
       }
@@ -747,7 +784,7 @@
   "path" : "/regionTypes/icemoon",
   "value" : 
   {
-      "caveLiquid" : [ "liquidnitrogen", "fuel" ],
+      "caveLiquid" : [ "liquidnitrogen" ],
       "blockSelector" : [ "flatsSurface", "lowHillsSurface", "medHillsSurface", "mesasSurface", "ledgesSurface", "giantLedgesSurface" ],
       "fgCaveSelector" : [ "moonSurfaceCaves" ],
       "biome" : [
@@ -762,7 +799,7 @@
   {
       "caveLiquid" : [ "lava" ],
       "blockSelector" : [ "flatsSurface", "lowHillsSurface", "medHillsSurface", "mountainsSurface", "mesasSurface", "ledgesSurface", "giantLedgesSurface", "megaMountainsSurface" ],
-      "fgCaveSelector" : [ "coreCaves" ],
+      "fgCaveSelector" : [ "moonSurfaceCaves" ],
       "caveLiquidChanceRange" : [100, 100],
       "biome" : [
         [0, [ "infernus" ]]
@@ -905,11 +942,20 @@
     }
   },
 
+  {"op" : "add", 
+  "path" : "/regionTypes/lightless",
+  "value" : 
+  {
+      "caveLiquid" : [ "blacktar", "tarliquid" ],
+      "blockSelector" : [ "lowHillsSurface", "medHillsSurface", "ledgesSurface", "canyonsSurface", "mountainsSurface"  ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "lightless" ]]
+      ]
+    }
+  },
 
 
-
-
-  
 
   {"op" : "add", 
   "path" : "/regionTypes/badlands",
@@ -1678,6 +1724,17 @@
     }
   },  
   {"op" : "add", 
+  "path" : "/regionTypes/lightlessunderground",
+  "value" : 
+  {
+      "caveLiquid" : [ "blacktar", "tarliquid" ],
+      "caveLiquidChanceRange" : [5, 25],
+      "biome" : [
+        [0, [ "lightlessunderground"]]
+      ]
+    }
+  }, 
+  {"op" : "add", 
   "path" : "/regionTypes/nitrogencore",
   "value" : 
     {
@@ -1688,6 +1745,20 @@
       "fgCaveSelector" : [ "coreCaves" ],
       "biome" : [
         [0, [ "nitrogencorelayer"] ]
+      ]
+    }
+  },
+  {"op" : "add", 
+  "path" : "/regionTypes/protocore",
+  "value" : 
+    {
+      "caveLiquid" : [ "bio_ooze" ],
+      "caveLiquidChanceRange" : [25, 65],
+      "oceanLiquid" : [ "bio_ooze" ],
+      "oceanLevelOffset" : -20,
+      "fgCaveSelector" : [ "coreCaves" ],
+      "biome" : [
+        [0, [ "protocorelayer"] ]
       ]
     }
   }

@@ -132,12 +132,12 @@
     [0.4, "clear"],
     [0.5, "groundmist"],
     [0.5, "fog"],
-    [0.25, "hurricane"],
     [0.351, "mistyrain"],
     [0.355, "rain"],
     [0.255, "acidrain"],
     [0.01, "meteorshower"],
-    [0.005, "largemeteor"]]
+    [0.005, "largemeteor"]
+    ]
 },
   
   
@@ -203,6 +203,15 @@
 },  
 
 
+{
+"op" : "add",
+"path" : "/wasteland",
+"value" : [     
+    [0.5, "clear"],
+    [0.4, "ashstorm"],
+    [0.6, "ash"],
+    [0.05, "windstorm"]]
+},
 
 {
 "op" : "add",
@@ -212,6 +221,19 @@
     [0.4, "ashstorm"],
     [0.6, "ash"],
     [0.05, "windstorm"]]
+},
+
+{
+"op" : "add",
+"path" : "/lightless",
+"value" : [     
+    [0.5, "clear"],
+    [0.5, "fog"],
+    [0.5, "rain"],
+    [0.5, "acidrain"],
+    [0.01, "meteorshower"],
+    [0.005, "largemeteor"]
+    ]
 }
   
 ]
