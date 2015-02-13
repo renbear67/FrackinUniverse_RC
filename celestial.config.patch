@@ -36,7 +36,10 @@
 "path":"/planetaryTypes/Tier3/baseParameters/terrestrialType/-",
 "value":"forest"
 },
-
+{"op":"add",
+"path":"/planetaryTypes/Tier2/baseParameters/terrestrialType/-",
+"value":"lightless"
+},
 {"op":"add",
 "path":"/planetaryTypes/Tier3/baseParameters/terrestrialType/-",
 "value":"protoworld"
@@ -75,7 +78,10 @@
 "path":"/planetaryTypes/Tier3/baseParameters/terrestrialType/-",
 "value":"thickjungle"
 },
-
+{"op":"add",
+"path":"/planetaryTypes/Tier3/baseParameters/terrestrialType/-",
+"value":"lightless"
+},
 
 {"op":"add",
 "path":"/planetaryTypes/Tier4/baseParameters/terrestrialType/-",
@@ -159,7 +165,10 @@
 "path":"/planetaryTypes/Tier4/baseParameters/terrestrialType/-",
 "value":"thickjungle"
 },
-
+{"op":"add",
+"path":"/planetaryTypes/Tier4/baseParameters/terrestrialType/-",
+"value":"lightless"
+},
 
 
 {"op":"add",
@@ -261,7 +270,10 @@
 "path":"/planetaryTypes/Tier5/baseParameters/terrestrialType/-",
 "value":"thickjungle"
 },
-
+{"op":"add",
+"path":"/planetaryTypes/Tier5/baseParameters/terrestrialType/-",
+"value":"lightless"
+},
 
 
 
@@ -373,7 +385,10 @@
 "path":"/planetaryTypes/Tier6/baseParameters/terrestrialType/-",
 "value":"thickjungle"
 },
-
+{"op":"add",
+"path":"/planetaryTypes/Tier6/baseParameters/terrestrialType/-",
+"value":"lightless"
+},
 
 
 
@@ -387,18 +402,15 @@
 "value":"sulphuric"
 },
 
-
 {"op":"add",
 "path":"/planetaryTypes/Barren/baseParameters/terrestrialType/-",
 "value":"icewaste"
 },
 
-
 {"op":"add",
 "path":"/planetaryTypes/Barren/baseParameters/terrestrialType/-",
-"value":"atropus"
+"value":"lightless"
 },
-
 
 
 // Moons
@@ -420,7 +432,10 @@
 "path":"/satelliteTypes/Tier2/baseParameters/terrestrialType/-",
 "value":"bog"
 },
-
+{"op":"add",
+"path":"/satelliteTypes/Tier2/baseParameters/terrestrialType/-",
+"value":"lightless"
+},
 {"op":"add",
 "path":"/satelliteTypes/Tier2/baseParameters/terrestrialType/-",
 "value":"crystalmoon"
@@ -448,7 +463,10 @@
 "path":"/satelliteTypes/Tier3/baseParameters/terrestrialType/-",
 "value":"bloodstone"
 },
-
+{"op":"add",
+"path":"/satelliteTypes/Tier3/baseParameters/terrestrialType/-",
+"value":"lightless"
+},
 {"op":"add",
 "path":"/satelliteTypes/Tier3/baseParameters/terrestrialType/-",
 "value":"irradiated"
@@ -485,7 +503,10 @@
 "path":"/satelliteTypes/Tier3/baseParameters/terrestrialType/-",
 "value":"metallicmoon"
 },
-
+{"op":"add",
+"path":"/satelliteTypes/Tier4/baseParameters/terrestrialType/-",
+"value":"lightless"
+},
 {"op":"add",
 "path":"/satelliteTypes/Tier4/baseParameters/terrestrialType/-",
 "value":"icemoon"
@@ -564,7 +585,10 @@
 "path":"/satelliteTypes/Tier5/baseParameters/terrestrialType/-",
 "value":"atropus"
 },
-
+{"op":"add",
+"path":"/satelliteTypes/Tier5/baseParameters/terrestrialType/-",
+"value":"lightless"
+},
 {"op":"add",
 "path":"/satelliteTypes/Tier5/baseParameters/terrestrialType/-",
 "value":"infernus"
@@ -635,7 +659,10 @@
 "path":"/satelliteTypes/Tier6/baseParameters/terrestrialType/-",
 "value":"icemoon"
 },
-
+{"op":"add",
+"path":"/satelliteTypes/Tier6/baseParameters/terrestrialType/-",
+"value":"lightless"
+},
 {"op":"add",
 "path":"/satelliteTypes/Tier6/baseParameters/terrestrialType/-",
 "value":"atropus"
