@@ -1,0 +1,8 @@
+{
+  "itemName" : "flaskpurple",
+  "rarity" : "rare",
+  "inventoryIcon" : "flaskpurple.png",
+  "description" : "Completed research.",
+  "shortdescription" : "Prototype Formula C",
+    "learnBlueprintsOnPickup" : [ "beakerpurple" ]
+}

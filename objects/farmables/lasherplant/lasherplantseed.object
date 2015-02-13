@@ -1,0 +1,52 @@
+{
+  "objectName" : "lasherplantseed",
+  "rarity" : "Rare",
+  "category" : "farmable",
+  "description" : "Lashers are nasty things, and can induce rage.",
+  "shortdescription" : "Lasher Seed",
+  "objectType" : "farmable",
+  "printable" : false, 
+  
+  "apexDescription" : "A Lasher Seed.",
+  "avianDescription" : "A Lasher Seed.",
+  "floranDescription" : "A Lasher Seed.",
+  "glitchDescription" : "A Lasher Seed.",
+  "humanDescription" : "A Lasher Seed.",
+  "hylotlDescription" : "A Lasher Seed.",
+  
+  "lightColor" : [1, 1, 1],
+  "flickerDistance" : 0.0,
+  "flickerStrength" : 0.0,
+  "inventoryIcon" : "lasherplantseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "lasherplantseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [300, 600]
+    },
+    {
+      "duration" : [300, 600]
+    },
+    {
+      "alts" : 3,
+      "duration" : [110, 130]
+    },
+    {
+      "alts" : 3,
+      "harvestPool" : "lasherHarvest",
+      "resetToStage" : 2
+    }
+  ]
+}

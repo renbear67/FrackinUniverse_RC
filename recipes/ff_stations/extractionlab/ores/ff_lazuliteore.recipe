@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "lazuliteore", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "phosphorus",
+    "count" : 1
+  },
+  "groups" : [ "extractionlab", "all" ]
+}

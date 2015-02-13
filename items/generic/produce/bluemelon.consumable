@@ -1,0 +1,11 @@
+{
+  "itemName" : "bluemelon",
+  "rarity" : "Common",
+  "inventoryIcon" : "bluemelon.png",
+  "description" : "Soft texture and sweet flavour, yummm.",
+  "shortdescription" : "Blue Melon",
+      "effects" : [ [
+          "wellfed"
+    ] ]
+
+}

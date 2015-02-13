@@ -1,0 +1,13 @@
+{
+  "itemName" : "energiflower",
+  "rarity" : "Common",
+  "inventoryIcon" : "energiflowericon.png",
+  "description" : "Restores some energy.",
+  "shortdescription" : "Energiflower",  
+  "fuelAmount" : 4,
+  "effects" : [ [
+      {
+        "effect" : "energyregen96"
+      }
+    ] ]
+}

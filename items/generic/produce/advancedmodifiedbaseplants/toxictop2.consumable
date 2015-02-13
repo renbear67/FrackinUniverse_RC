@@ -1,0 +1,11 @@
+{
+  "itemName" : "toxictop2",
+  "rarity" : "rare",
+  "inventoryIcon" : "toxictop2.png",
+  "description" : "A toxic looking fruit.",
+  "shortdescription" : "Enhanced Toxictop",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      "wellfed"
+    ] ]
+}

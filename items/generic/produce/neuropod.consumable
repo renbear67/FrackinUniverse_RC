@@ -1,0 +1,35 @@
+{
+  "itemName" : "neuropod",
+  "rarity" : "Common",
+  "inventoryIcon" : "neuropod.png",
+  "description" : "A powerhouse of healing, energy and power.",
+  "shortdescription" : "Neuropod Bulb",
+  "handPosition" : [0, 8],
+  "effects" : [ [
+      {
+        "effect" : "energyregen96",
+        "amount" : 0.25,
+        "duration" : 15
+      },
+      {
+        "effect" : "foodheal120",
+        "amount" : 0.25,
+        "duration" : 15
+      },
+      {
+        "effect" : "runboost",
+        "amount" : 0.25,
+        "duration" : 15
+      },
+      {
+        "effect" : "powerMultiplier",
+        "amount" : 1.5,
+        "duration" : 15
+      },
+      {
+        "effect" : "jumpboost",
+        "amount" : 0.25,
+        "duration" : 15
+      }
+    ] ]
+}

@@ -1,0 +1,16 @@
+{
+  "itemName" : "blexsap",
+  "rarity" : "Common",
+  "inventoryIcon" : "blexsap.png",
+  "description" : "This sap is loaded with energizing nutrients. Restores energy.",
+  "shortdescription" : "Blex Cactus Sap",
+  "effects" : [ [
+      {
+        "effect" : "energyregen192",
+        "duration" : 10
+      }
+    ] ],
+  "blockingEffects" : [
+    "energyregen192"
+  ]
+}

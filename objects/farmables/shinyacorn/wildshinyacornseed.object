@@ -1,0 +1,55 @@
+{
+  "objectName" : "wildshinyacornseed",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "A shiny acorn. Shield your eyes!",
+  "shortdescription" : "Shiny Acorn Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "objectItem" : "shinyacornseed",
+
+  "apexDescription" : "Staring at this acorn shares the same harmful effects of staring at the sun.",
+  "avianDescription" : "I guess there's such a thing as being dangerously shiny.",
+  "floranDescription" : "Ssshiny acorn hurtss Floran eyesss!",
+  "glitchDescription" : "Analysis. Light intensity of acorn is too high to be measured.",
+  "humanDescription" : "That's one flashy acorn.",
+  "hylotlDescription" : "This acorn has so much beauty that it's apparently too much even for the Hylotl.",
+  "flamencoDescription" : "I'll need to wear sunglasses just to be able to look at this acorn.",
+  "snowstrifeDescription" : "The irritating shininess makes this more acorn a better projectile than food.",
+  "naylaDescription" : "The acorn's shininess gives my eyes pain.",
+  "mistfenDescription" : "The shiny acorn is an exception to the rule of bright things being tasty.",
+  "alienbutterflyDescription" : "My eyes! They burn!",
+
+  "inventoryIcon" : "shinyacornseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "shinyacornseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [300, 600]
+    },
+    {
+      "duration" : [300, 600]
+    },
+    {
+      "alts" : 5,
+      "duration" : [110, 130]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "wildshinyacornHarvest",
+      "resetToStage" : 2
+    }
+  ]
+}

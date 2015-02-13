@@ -1,0 +1,10 @@
+{
+  "itemName" : "wubstem",
+  "rarity" : "Common",
+  "inventoryIcon" : "wubstemicon.png",
+  "description" : "A strange tube plant.",
+  "shortdescription" : "Wubstem",
+  "effects" : [ [
+      "rage"
+    ] ]
+}

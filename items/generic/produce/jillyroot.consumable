@@ -1,0 +1,13 @@
+{
+  "itemName" : "jillyroot",
+  "rarity" : "uncommon",
+  "inventoryIcon" : "jillyroot.png",
+  "description" : "Grown roots can be used in recipes. Absorbs well.",
+  "shortdescription" : "Jilly Root",
+  "effects" : [ [
+      {
+        "effect" : "foodheal720",
+		"duration" : 3
+      }
+    ] ]
+}

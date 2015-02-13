@@ -1,0 +1,10 @@
+{
+  "itemName" : "shinyacorn",
+  "rarity" : "Common",
+  "inventoryIcon" : "shinyacornicon.png",
+  "description" : "It's so shiny!",
+  "shortdescription" : "Shiny Acorn",
+  "effects" : [ [
+      "wellfed"
+    ] ]
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "hellfireplantseed", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ammoniumsulfate",
+    "count" : 3
+  },
+  "groups" : [ "quantumextractor", "all" ]
+}

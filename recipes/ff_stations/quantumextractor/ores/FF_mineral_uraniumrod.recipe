@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "uraniumrod", "count" : 40 }
+  ],
+  "output" : {
+    "item" : "matteritem",
+    "count" : 2
+  },
+  "groups" : [ "quantumextractor", "all" ]
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "automato2",
+  "rarity" : "rare",
+  "inventoryIcon" : "automato2.png",
+  "description" : "Just like normal automatos...but prevents hunger after eating.",
+  "shortdescription" : "Enhanced Automato",
+  "effects" : [ [
+      "wellfed"
+    ] ]
+}

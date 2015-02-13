@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "alienrockmaterial", "count" : 50 }
+  ],
+  "output" : {
+    "item" : "geneticmaterial",
+    "count" : 1
+  },
+  "groups" : [ "extractionlab", "all" ]
+}

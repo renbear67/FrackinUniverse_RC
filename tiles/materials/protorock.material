@@ -1,0 +1,21 @@
+{
+  "materialId" : 6600,
+  "materialName" : "protorock",
+  "particleColor" : [100, 100, 100, 205],
+  "itemDrop" : "protorockmaterial",
+  "description" : "This is most...unusual.",
+  "shortdescription" : "Elder Stone",
+  "footstepSound" : "/sfx/blocks/footstep_stone3.wav",
+  "health" : 50,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "protorock.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}
+

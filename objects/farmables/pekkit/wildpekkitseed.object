@@ -1,0 +1,43 @@
+{
+  "objectName" : "wildpekkitseed",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "Pekkit can be tossed to freeze enemies.",
+  "shortdescription" : "Pekkit",
+  "objectType" : "farmable",
+  "printable" : false,
+  "objectItem" : "pekkitseed",
+
+  "inventoryIcon" : "pekkitseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "pekkitseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [300, 600]
+    },
+    {
+      "duration" : [300, 600]
+    },
+    {
+      "alts" : 5,
+      "duration" : [110, 130]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "wildpekkitHarvest",
+      "resetToStage" : 2
+    }
+  ]
+}

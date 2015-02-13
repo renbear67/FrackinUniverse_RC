@@ -1,0 +1,11 @@
+{
+  "itemName" : "bellpepper",
+  "rarity" : "Common",
+  "inventoryIcon" : "bellpeppericon.png",
+  "description" : "Yum!",
+  "shortdescription" : "Bell Pepper",
+    "effects" : [ [
+        "wellfed"
+    ] ]
+
+}

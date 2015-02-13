@@ -1,0 +1,16 @@
+{
+  "input" : [
+    { "item" : "imperviumcompound", "count" : 20 },
+    { "item" : "hellfireplantseed", "count" : 6 },
+    { "item" : "aliencompound", "count" : 16 },
+    { "item" : "ff_focusingarray", "count" : 4 },
+    { "item" : "gunhousing", "count" : 8 },
+    { "item" : "triggerassembly", "count" : 2 },
+    { "item" : "biochip", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "hellfirecannon",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "weapons", "all" ]
+}

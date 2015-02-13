@@ -1,0 +1,15 @@
+{
+  "name" : "blacktarslow",
+  "blockingStat" : "tarImmunity",
+  "effectConfig" : {},
+  "defaultDuration" : 8,
+
+  "scripts" : [
+    "blacktarslow.lua"
+  ],
+
+  "animationConfig" : "blacktarslow.animation",
+
+  "label" : "Slow",
+  "icon" : "/interface/statuses/tar.png"
+}

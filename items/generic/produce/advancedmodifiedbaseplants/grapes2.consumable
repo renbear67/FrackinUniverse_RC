@@ -1,0 +1,11 @@
+{
+  "itemName" : "grapes2",
+  "rarity" : "rare",
+  "inventoryIcon" : "grapesicon2.png",
+  "description" : "Grapes of POWER!",
+  "shortdescription" : "Enhanced Grapes",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      "wellfed"
+    ] ]
+}

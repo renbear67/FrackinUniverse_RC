@@ -1,0 +1,10 @@
+{
+  "itemName" : "diodia2",
+  "rarity" : "rare",
+  "inventoryIcon" : "diodiaicon2.png",
+  "description" : "Diodia, tastes like copper. Full of energy.",
+  "shortdescription" : "Enhanced Diodia",
+  "effects" : [ [
+     "wellfed"
+    ] ]
+}

@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "defensegene2", "count" : 1 },
+    { "item" : "explosivegene", "count" : 1 },
+    { "item" : "biosample", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "jillyrootseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "objects", "all", "tools" ]
+}

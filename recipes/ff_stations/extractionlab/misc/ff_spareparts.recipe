@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ff_spareparts", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "rawminerals",
+    "count" : 2
+  },
+  "groups" : [ "extractionlab", "all" ]
+}

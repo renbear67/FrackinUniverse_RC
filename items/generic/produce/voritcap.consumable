@@ -1,0 +1,23 @@
+{
+  "itemName" : "voritcap",
+  "rarity" : "Common",
+  "inventoryIcon" : "voritcap.png",
+  "description" : "A portable pocket of air.",
+  "shortdescription" : "Vorit Cap",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      {
+        "effect" : "maxBeath",
+        "amount" : 150.00,
+        "duration" : 20
+      },
+      {
+        "effect" : "breathRegenerationRate",
+        "amount" : 30.0,
+        "duration" : 2
+      }
+    ] ],
+  "blockingEffects" : [
+    "breathRegenerationRate", "maxBreath"
+  ]
+}

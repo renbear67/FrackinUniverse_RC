@@ -1,0 +1,9 @@
+{
+  "itemName" : "ffextremeradiationprotectionTech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/skins/ffextremeradiationprotection/overlay.png",
+  "description" : "A special insulated layer that blocks all radiation. Does not provide oxygen.",
+  "shortdescription" : "Extreme Radiation Protection",
+
+  "techModule" : "ffextremeradiationprotection"
+}

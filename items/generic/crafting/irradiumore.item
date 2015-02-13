@@ -1,0 +1,8 @@
+{
+  "itemName" : "irradiumore",
+  "rarity" : "Common",
+  "inventoryIcon" : "irradiumore.png",
+  "description" : "rare and valuable radioactive metal",
+  "shortdescription" : "Irradium Ore",
+  "learnBlueprintsOnPickup" : [ "irradiumbar" ]
+}

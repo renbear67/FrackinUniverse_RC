@@ -1,0 +1,21 @@
+{
+  "itemName" : "blisterpantsalt",
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Good times to be had with these.",
+  "shortdescription" : "Blister Greaves",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "statusEffects" : [
+    {
+      "stat" : "protection",
+      "amount" : 20
+    },
+	"glow"
+  ]
+}

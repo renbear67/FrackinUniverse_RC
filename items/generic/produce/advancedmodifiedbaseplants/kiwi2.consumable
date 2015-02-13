@@ -1,0 +1,10 @@
+{
+  "itemName" : "kiwi2",
+  "rarity" : "rare",
+  "inventoryIcon" : "kiwiicon2.png",
+  "description" : "Soft texture and sweet flavour, yum.",
+  "shortdescription" : "Enhanced Kiwi",
+  "effects" : [ [
+     "wellfed"
+    ] ]
+}

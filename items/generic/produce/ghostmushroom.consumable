@@ -1,0 +1,14 @@
+{
+  "itemName" : "ghostmushroom",
+  "rarity" : "uncommon",
+  "category" : "Farmable",
+  "inventoryIcon" : "ghostmushroom.png",
+  "description" : "Poof! You're gone!",
+  "shortdescription" : "Ghost Mushroom",
+  "effects" : [ [
+      {
+        "effect" : "invisible",
+		"duration" : 20
+	  }
+    ] ]
+}

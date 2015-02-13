@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "magmawall3", "count" : 60 }
+  ],
+  "output" : {
+    "item" : "rawminerals",
+    "count" : 6
+  },
+  "groups" : [ "quantumextractor", "all" ]
+}

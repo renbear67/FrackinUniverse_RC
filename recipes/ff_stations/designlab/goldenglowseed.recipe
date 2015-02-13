@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "celeritygene", "count" : 1 },
+    { "item" : "petalyellow", "count" : 3 },
+    { "item" : "luminescentpaste", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "goldenglowseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "objects", "all", "tools" ]
+}

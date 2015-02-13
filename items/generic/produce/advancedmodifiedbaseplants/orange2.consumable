@@ -1,0 +1,11 @@
+{
+  "itemName" : "orange2",
+  "rarity" : "rare",
+  "inventoryIcon" : "orange2.png",
+  "description" : "Various raw chunks of meat. I'm not even sure where they came from.",
+  "shortdescription" : "Enhanced Orange",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+      "wellfed"
+    ] ]
+}

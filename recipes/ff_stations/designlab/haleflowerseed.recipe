@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "chloroplast2", "count" : 1 },
+    { "item" : "adaptivecells", "count" : 1 },
+    { "item" : "diodiahybridseed", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "haleflowerseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "objects", "all", "tools" ]
+}

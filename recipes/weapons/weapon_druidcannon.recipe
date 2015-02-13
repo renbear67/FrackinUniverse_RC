@@ -1,0 +1,16 @@
+{
+  "input" : [
+    { "item" : "biospore", "count" : 12 },
+    { "item" : "vialproto", "count" : 2 },
+    { "item" : "ff_plastic", "count" : 10 },
+    { "item" : "algaegreen", "count" : 12 },
+    { "item" : "triggerassembly", "count" : 1 },
+    { "item" : "gunhousing", "count" : 1 },
+    { "item" : "biochip", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "druidcannon",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "weapons", "all" ]
+}

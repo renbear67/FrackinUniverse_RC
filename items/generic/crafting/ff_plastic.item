@@ -1,0 +1,8 @@
+{
+  "itemName" : "ff_plastic",
+  "rarity" : "Common",
+  "inventoryIcon" : "ff_plastic.png",
+  "description" : "Synthetic vinyl compound enhanced through science!",
+  "shortdescription" : "Advanced Plastic",
+  "learnBlueprintsOnPickup" : [ "ff_bubblegun", "mineralpistollite", "mineralcannonlite", "ff_gasmask", "ff_divingmaskhead" ]
+}

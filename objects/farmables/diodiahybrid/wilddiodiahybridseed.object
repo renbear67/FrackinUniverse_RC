@@ -1,0 +1,42 @@
+{
+  "objectName" : "wilddiodiahybridseed",
+  "rarity" : "Uncommon",
+  "category" : "farmable",
+  "description" : "Diodia Hybrid. Still coppery, but also energy regenerative-y.",
+  "shortdescription" : "Diodia Hybrid Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "objectItem" : "dnasample",
+  "inventoryIcon" : "diodiahybridseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "diodiahybridseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [300, 600]
+    },
+    {
+      "duration" : [300, 600]
+    },
+    {
+      "alts" : 5,
+      "duration" : [110, 130]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "wilddiodiahybridHarvest",
+      "resetToStage" : 2
+    }
+  ]
+}

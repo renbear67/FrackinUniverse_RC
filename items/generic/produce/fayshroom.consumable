@@ -1,0 +1,14 @@
+{
+  "itemName" : "fayshroom",
+  "rarity" : "uncommon",
+  "category" : "Farmable",
+  "inventoryIcon" : "fayshroom.png",
+  "description" : "Reflects stuff! (not bullets)",
+  "shortdescription" : "Fayshroom",
+  "effects" : [ [
+      {
+        "effect" : "bouncy",
+        "duration" : 20
+      }
+    ] ]
+}

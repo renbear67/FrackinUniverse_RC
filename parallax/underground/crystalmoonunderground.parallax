@@ -1,0 +1,11 @@
+{
+  "layers" : [
+    {
+      "kind" : "tile/crystalmoonunderground",
+      "nohueshift" : true,
+      "lightMapped" : true,
+      "parallax" : 1.2,
+      "repeatY" : true
+    }
+  ]
+}

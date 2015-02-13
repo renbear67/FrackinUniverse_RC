@@ -1,0 +1,16 @@
+{
+  "id" : "extractor12.gearup",
+  "title" : "^#9be3d6;Super-Hard Penumbrite",
+  "text" : "Your next task requires Penumbrite. Not surprisingly, this is found on Penumbra type planets. You'll first need to travel to the Beta sector to reach one. You'll first need to travel to the Beta sector to reach one. Seek one out, and be sure to bring a flashlight or twenty and a good pickaxe.",
+  "completionText" : "With this super-hard metal, you can create some truly great gear. Smelt it down to make it useful.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "penumbriteore", 6] }
+  ],
+  "moneyRange" : [500, 500],
+  "rewards" : [
+    [ [ "penumbriteore", 6] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "extractor13.gearup"
+}

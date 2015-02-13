@@ -1,0 +1,11 @@
+{
+  "itemName" : "goldenroot",
+  "rarity" : "Common",
+  "category" : "Farmable",
+  "inventoryIcon" : "goldenrooticon.png",
+  "description" : "Does nothing.", //powerboost not functioning
+  "shortdescription" : "Golden Root",
+  "effects" : [ [
+      "wellfed"
+    ] ]
+}

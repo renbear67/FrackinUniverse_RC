@@ -1,0 +1,16 @@
+{
+  "input" : [
+    { "item" : "vashtaplantseed", "count" : 4 },
+    { "item" : "vashtaclaw", "count" : 20 },
+    { "item" : "steelbar", "count" : 20 },
+    { "item" : "penumbriteshard", "count" : 5 },
+    { "item" : "triggerassembly", "count" : 1 },
+    { "item" : "gunhousing", "count" : 1 },
+    { "item" : "biochip", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "vashtagun",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "weapons", "all" ]
+}

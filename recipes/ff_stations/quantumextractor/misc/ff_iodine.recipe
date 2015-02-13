@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "calichewall", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "iodine",
+    "count" : 3
+  },
+  "groups" : [ "quantumextractor", "all" ]
+}

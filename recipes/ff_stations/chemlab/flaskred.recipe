@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "regengene2", "count" : 1 },
+    { "item" : "vialred", "count" : 1 },
+    { "item" : "ammoniumsulfate", "count" : 10 },
+    { "item" : "glassmaterial", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "flaskred",
+    "count" : 1
+  },
+  "groups" : [ "chemlab", "chemical", "all"  ]
+}

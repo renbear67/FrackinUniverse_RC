@@ -1,0 +1,10 @@
+{
+  "itemName" : "rice2",
+  "rarity" : "rare",
+  "inventoryIcon" : "rice2.png",
+  "description" : "Rice. Good for when you're hungry and want to eat a thousand of something.",
+  "shortdescription" : "Enhanced Rice",
+  "effects" : [ [
+      "wellfed"
+    ] ]
+}

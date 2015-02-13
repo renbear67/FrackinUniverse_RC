@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "irradiatedwall", "count" : 50 }
+  ],
+  "output" : {
+    "item" : "uraniumore",
+    "count" : 4
+  },
+  "groups" : [ "quantumextractor", "all" ]
+}

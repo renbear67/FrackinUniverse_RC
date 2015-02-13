@@ -1,0 +1,7 @@
+{
+  "itemName" : "biochip",
+  "rarity" : "Common",
+  "inventoryIcon" : "biochip.png",
+  "description" : "Biochips are great for superior genes.",
+  "shortdescription" : "Bio-Chip"
+}

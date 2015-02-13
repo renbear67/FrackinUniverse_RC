@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "organicsynthesis", "count" : 2 },
+    { "item" : "petalblue", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "bluemelonseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "objects", "all", "tools" ]
+}

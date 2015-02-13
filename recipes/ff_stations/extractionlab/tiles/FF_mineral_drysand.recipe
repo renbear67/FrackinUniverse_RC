@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "drysand", "count" : 30 }
+  ],
+  "output" : {
+    "item" : "liquidoil",
+    "count" : 2
+  },
+  "groups" : [ "extractionlab", "all" ]
+}

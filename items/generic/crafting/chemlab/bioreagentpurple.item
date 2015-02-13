@@ -1,0 +1,8 @@
+{
+  "itemName" : "bioreagentpurple",
+  "rarity" : "Common",
+  "inventoryIcon" : "bioreagentpurple.png",
+  "description" : "Specially formulated purple chemical powder",
+  "shortdescription" : "Purple Bio-Reagent",
+    "learnBlueprintsOnPickup" : [ "vialpurple" ]
+}

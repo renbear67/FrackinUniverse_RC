@@ -1,0 +1,13 @@
+{
+  "itemName" : "vashtaclaw",
+  "rarity" : "Common",
+  "inventoryIcon" : "vashtaclaw.png",
+  "description" : "Grants +40% Rage",
+  "shortdescription" : "Vashta Claw",
+  "effects" : [ [
+      "rage40"
+    ] ],
+  "blockingEffects" : [
+  "rage"
+  ]
+}

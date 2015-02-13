@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "celeritygene", "count" : 1 },
+    { "item" : "adaptivecells", "count" : 1 },
+    { "item" : "glassmaterial", "count" : 1 },
+    { "item" : "ammoniumsulfate", "count" : 6 }
+  ],
+  "output" : {
+    "item" : "vialgrey",
+    "count" : 1
+  },
+  "groups" : [ "chemlab", "chemical", "all"  ]
+}

@@ -1,0 +1,18 @@
+{
+  "itemName" : "pasaka",
+  "rarity" : "Common",
+  "inventoryIcon" : "pasaka.png",
+  "description" : "Eat this soggy bulb, and you'll glow faintly for a bit.",
+  "shortdescription" : "Pasaka Bulb",
+  "effects" : [ [
+      {
+        "effect" : "glow",
+        "amount" : "1.55",
+        "color" : [150, 150, 250],
+        "duration" : 120
+      }
+    ] ],
+  "blockingEffects" : [
+    "glow"
+  ]
+}

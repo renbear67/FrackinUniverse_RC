@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "sandstonematerial", "count" : 50 }
+  ],
+  "output" : {
+    "item" : "phosphorus",
+    "count" : 3
+  },
+  "groups" : [ "quantumextractor", "all" ]
+}

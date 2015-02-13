@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "floranpodapex", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "agaranichor",
+    "count" : 1
+  },
+  "groups" : [ "extractionlab", "all" ]
+}

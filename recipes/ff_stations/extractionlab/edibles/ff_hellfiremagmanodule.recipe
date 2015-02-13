@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "magmabomb", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ammoniumsulfate",
+    "count" : 5
+  },
+  "groups" : [ "extractionlab", "all" ]
+}

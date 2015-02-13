@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "uraniumore", "count" : 50 }
+  ],
+  "output" : {
+    "item" : "matteritem",
+    "count" : 2
+  },
+  "groups" : [ "quantumextractor", "all" ]
+}

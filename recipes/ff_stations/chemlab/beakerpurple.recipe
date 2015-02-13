@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "defensegene2", "count" : 1 },
+    { "item" : "flaskpurple", "count" : 1 },
+    { "item" : "protocitebar", "count" : 1 },
+    { "item" : "ammoniumsulfate", "count" : 10 },
+    { "item" : "glassmaterial", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "beakerpurple",
+    "count" : 1
+  },
+  "groups" : [ "chemlab", "chemical", "all"  ]
+}

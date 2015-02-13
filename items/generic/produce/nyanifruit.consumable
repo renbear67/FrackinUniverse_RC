@@ -1,0 +1,10 @@
+{
+  "itemName" : "nyanifruit",
+  "rarity" : "Common",
+  "inventoryIcon" : "nyanifruit.png",
+  "description" : "Surprisingly filling.",
+  "shortdescription" : "Nyani String",
+  "effects" : [ [
+      "wellfed"
+    ] ]
+}

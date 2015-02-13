@@ -1,0 +1,10 @@
+{
+  "itemName" : "feathercrown2",
+  "rarity" : "rare",
+  "inventoryIcon" : "feathercrown2.png",
+  "description" : "Feathercrown that keeps you warm.",
+  "shortdescription" : "Enhanced Feathercrown",
+  "effects" : [ [
+      "wellfed"
+    ] ]
+}

@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "iodine", "count" : 3 },
+    { "item" : "cellmatter", "count" : 4},
+    { "item" : "sulphur", "count" : 4},
+    { "item" : "defensegene1", "count" : 1},
+    { "item" : "calciumnitrate", "count" : 1}
+  ],
+  "output" : {
+    "item" : "bioreagentgrey",
+    "count" : 1
+  },
+  "groups" : [ "chemlab", "powder", "all"  ]
+}

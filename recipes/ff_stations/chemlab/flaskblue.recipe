@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "aquatichomeostasis", "count" : 1 },
+    { "item" : "aquaticcelerity", "count" : 1 },    
+    { "item" : "vialblue", "count" : 1 },
+    { "item" : "ammoniumsulfate", "count" : 10 },
+    { "item" : "glassmaterial", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "flaskblue",
+    "count" : 1
+  },
+  "groups" : [ "chemlab", "chemical", "all"  ]
+}

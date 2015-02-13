@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "particlecannister", "count" : 1 },
+    { "item" : "uraniumrod", "count" : 1 },
+    { "item" : "ceruliumcompound", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "particlegrenade",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "weapons", "all" ]
+}

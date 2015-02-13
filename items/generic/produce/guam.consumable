@@ -1,0 +1,14 @@
+{
+  "itemName" : "guam",
+  "rarity" : "uncommon",
+  "category" : "Farmable",
+  "inventoryIcon" : "guam.png",
+  "description" : "Repels radiation, which is rather useful.",
+  "shortdescription" : "Guam Herb",
+  "effects" : [ [
+   "ffextremeradiationimmunity"
+    ] ],
+  "blockingEffects" : [
+    "ffextremeradiationimmunity"
+  ]
+}

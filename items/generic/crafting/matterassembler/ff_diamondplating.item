@@ -1,0 +1,8 @@
+{
+  "itemName" : "ff_diamondplating",
+  "rarity" : "Common",
+  "inventoryIcon" : "ff_diamondplating.png",
+  "description" : "Diamond and Alloy. Ultra-Hard!",
+  "shortdescription" : "Diamond Plating",
+  "learnBlueprintsOnPickup" : [ "ff_focusingarray", "quantumextractor" ]
+}

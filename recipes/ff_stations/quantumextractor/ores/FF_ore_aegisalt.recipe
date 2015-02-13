@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "aegisaltore", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "rawminerals",
+    "count" : 2
+  },
+  "groups" : [ "quantumextractor", "all" ]
+}

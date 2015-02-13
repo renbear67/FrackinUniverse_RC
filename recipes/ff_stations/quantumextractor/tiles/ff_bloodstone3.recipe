@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "bloodstonewall3", "count" : 50 }
+  ],
+  "output" : {
+    "item" : "crystal",
+    "count" : 4
+  },
+  "groups" : [ "quantumextractor", "all" ]
+}

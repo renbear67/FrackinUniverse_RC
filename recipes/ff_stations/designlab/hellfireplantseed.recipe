@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "explosivegene", "count" : 1 },
+    { "item" : "firegene", "count" : 1 },
+    { "item" : "nervebundle1", "count" : 1 },
+    { "item" : "aliencompound", "count" : 40 }
+  ],
+  "output" : {
+    "item" : "hellfireplantseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "objects", "all", "tools" ]
+}

@@ -1,0 +1,23 @@
+{
+  "materialId" : 6576,
+  "materialName" : "biogravel",
+  "frames" : ".png",
+  "particleColor" : [54, 0, 54, 255],
+  "itemDrop" : "biogravelmaterial",
+  "description" : "This looks a bit odd...",
+  "shortdescription" : "Proto Gravel",
+  "footstepSound" : "/sfx/blocks/footstep_gravel.wav",
+  "falling" : true,
+  "cascading" : true,
+  "health" : 1.5,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "biogravel.png",
+    "variants" : 3,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

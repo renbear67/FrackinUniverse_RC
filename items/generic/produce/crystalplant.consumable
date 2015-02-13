@@ -1,0 +1,11 @@
+{
+  "itemName" : "crystalplant",
+  "rarity" : "rare",
+  "inventoryIcon" : "crystalplant.png",
+  "description" : "You can eat this. But why?!?!",
+  "shortdescription" : "Crystal Shard",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      "wellfed"
+    ] ]
+}

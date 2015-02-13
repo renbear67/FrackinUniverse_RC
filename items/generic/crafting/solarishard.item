@@ -1,0 +1,8 @@
+{
+  "itemName" : "solarishard",
+  "rarity" : "Common",
+  "inventoryIcon" : "solarishard.png",
+  "description" : "A unique crystalline material.",
+  "shortdescription" : "Lunari Shard",
+  "learnBlueprintsOnPickup" : [ "solaricrystal", "solarisword", "solarihammer", "solariblade", "solarispear" ]
+}

@@ -1,0 +1,13 @@
+{
+  "itemName" : "springvaultcoil",
+  "rarity" : "Common",
+  "inventoryIcon" : "springvaultcoil.png",
+  "description" : "60 glorious seconds of bouncy fun.",
+  "shortdescription" : "Springvault Coil",
+  "effects" : [ [
+      {
+        "effect" : "bouncy",
+        "duration" : 60
+      }
+    ] ]
+}

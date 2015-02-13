@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "eggshootseed", "count" : 3 },
+    { "item" : "cellhardening1", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "pekkitseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "objects", "all", "tools" ]
+}

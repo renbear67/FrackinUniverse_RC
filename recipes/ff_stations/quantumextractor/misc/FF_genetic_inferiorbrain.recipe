@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "inferiorbrain", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "geneticmaterial",
+    "count" : 13
+  },
+  "groups" : [ "quantumextractor", "all" ]
+}

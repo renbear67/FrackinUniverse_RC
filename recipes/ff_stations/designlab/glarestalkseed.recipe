@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "chloroplast2", "count" : 1 },
+    { "item" : "fleshstrand", "count" : 3 },
+    { "item" : "musclegene2", "count" : 1 },
+    { "item" : "oculargene", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "glarestalkseed",
+    "count" : 1
+  },
+  "groups" : [ "designlab", "objects", "all", "tools" ]
+}

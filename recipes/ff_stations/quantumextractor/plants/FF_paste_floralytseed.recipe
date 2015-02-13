@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "floralytplantseed", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "nutrientpaste",
+    "count" : 15
+  },
+  "groups" : [ "quantumextractor", "all" ]
+}

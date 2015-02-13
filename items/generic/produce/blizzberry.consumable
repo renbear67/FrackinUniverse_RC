@@ -1,0 +1,14 @@
+{
+  "itemName" : "blizzberry",
+  "rarity" : "Common",
+  "inventoryIcon" : "blizzberryicon.png",
+  "description" : "Astounding protection against cold.",
+  "shortdescription" : "Blizzberry",
+    "effects" : [ [
+    "ffextremecoldimmunity"
+    ] ],
+  "blockingEffects" : [
+    "ffextremecoldimmunity"
+  ]
+
+}

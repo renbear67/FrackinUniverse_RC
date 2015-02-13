@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "cellmateria", "count" : 5 },
+    { "item" : "synthesizedprotein", "count" : 2 },
+    { "item" : "geneticmaterial", "count" : 12 },   
+    { "item" : "aminoacid", "count" : 5 },
+	{ "item" : "dnasample", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "cellresistance1",
+    "count" : 1
+  },
+  "groups" : [ "xenostation", "objects", "all", "crafting" ]
+}

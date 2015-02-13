@@ -1,0 +1,11 @@
+{
+  "itemName" : "pussplum2",
+  "rarity" : "rare",
+  "inventoryIcon" : "pussplum2.png",
+  "description" : "Provides defense against explosions.",
+  "shortdescription" : "Enhanced Pussplum",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+      "wellfed"
+    ] ]
+}

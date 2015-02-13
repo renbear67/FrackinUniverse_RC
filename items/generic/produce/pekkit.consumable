@@ -1,0 +1,14 @@
+{
+  "itemName" : "pekkit",
+  "rarity" : "Common",
+  "inventoryIcon" : "pekkiticon.png",
+  "description" : "This thing radiates cold. Probably not tasty.",
+  "shortdescription" : "Pekkit",
+  "learnBlueprintsOnPickup" : [ "pekkitfreeze_freezegrenade" ],
+  "effects" : [ [
+      {
+        "effect" : "freeze",
+        "duration" : 5
+      }
+    ] ]
+}

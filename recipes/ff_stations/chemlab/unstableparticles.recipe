@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "vialproto", "count" : 1 },
+    { "item" : "magnesiumpowder", "count" : 2 },
+    { "item" : "bioreagentgrey", "count" : 1 },
+    { "item" : "penumbriteshard", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "unstableparticles",
+    "count" : 1
+  },
+  "groups" : [ "chemlab", "objects", "all", "other" ]
+}

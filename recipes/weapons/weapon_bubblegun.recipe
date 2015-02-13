@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "protocitebar", "count" : 8 },
+    { "item" : "triggerassembly", "count" : 1 },
+    { "item" : "glassmaterial", "count" : 2 },
+    { "item" : "biochip", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "ff_bubblegun",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "weapons", "all" ]
+}

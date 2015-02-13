@@ -1,0 +1,10 @@
+{
+  "itemName" : "onion",
+  "rarity" : "Common",
+  "inventoryIcon" : "onionicon.png",
+  "description" : "An onion! Great for washing all those tears away.",
+  "shortdescription" : "Onion",
+  "effects" : [ [
+      "wellfed"
+    ] ]
+}

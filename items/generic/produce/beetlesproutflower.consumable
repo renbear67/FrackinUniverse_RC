@@ -1,0 +1,20 @@
+{
+  "itemName" : "beetlesproutflower",
+  "rarity" : "Common",
+  "inventoryIcon" : "beetlesproutflower.png",
+  "description" : "Smells like bacon, tastes like snot. Grants a shield.",
+  "shortdescription" : "Beetle Sprout Flower",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      {
+        "effect" : "bubbleshield",
+        "shieldHealthMultiplier" : 0.5,
+        "initialPercentage" : "0.5",
+        "expirationTime" : 1.0,
+        "duration" : 90
+      }
+    ] ],
+  "blockingEffects" : [
+    "bubbleshield"
+  ]
+}

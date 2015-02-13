@@ -1,0 +1,11 @@
+{
+  "itemName" : "crystalplant2",
+  "rarity" : "rare",
+  "inventoryIcon" : "crystalplant2.png",
+  "description" : "Eating this will make you rage insanely for a while.",
+  "shortdescription" : "Enhanced Crystal Shard",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      "wellfed"
+    ] ]
+}

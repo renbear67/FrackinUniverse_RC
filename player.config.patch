@@ -1,0 +1,15 @@
+//not a single thing here will be needed apart from the guidebooks soon
+[
+	{ "op" : "add", 
+	"path" : "/defaultBlueprints/tier1/-", 
+	"value" : { "item" : "ffguide" } },
+	{ "op" : "add", 
+	"path" : "/defaultBlueprints/tier1/-", 
+	"value" : { "item" : "ffguide2" } },
+	{ "op" : "add", 
+	"path" : "/defaultBlueprints/tier1/-", 
+	"value" : { "item" : "ffguide3" } },
+	{ "op" : "add", 
+	"path" : "/defaultBlueprints/tier1/-", 
+	"value" : { "item" : "prototyper" } }
+]

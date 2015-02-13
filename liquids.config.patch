@@ -1,0 +1,202 @@
+[
+
+    { "op" : "replace", 
+    "path" : "/liquids/10/itemDrop", 
+    "value" : "liquidnitrogenitem" 
+    },
+    { "op" : "add", 
+    "path" : "/liquids/10/statusEffects", 
+    "value" : [ "nitrogenfreeze" ]
+    },
+    
+    
+    { "op" : "add", 
+    "path" : "/liquids/40", 
+	"value" : { 
+	"name" : "bloodliquid",
+	"tickDelta" : 1,		
+        "color" : [204, 13, 0, 225],
+	"itemDrop" : "liquidblood",
+        "statusEffects" : [ "swimming" ],
+        "interactions" : [
+          {
+            "liquid" : 3,
+            "liquidResult" : 3
+          },
+          {
+            "liquid" : 8,
+            "liquidResult" : 0
+          }
+        ],
+ 	"texture" : "/liquids/bloodtex.png",
+	"bottomLightMix" : [1, 0, 0],
+	"textureMovementFactor" : 2.6
+	}
+    },
+    { "op" : "add", 
+    "path" : "/liquids/41", 
+	"value" : { 
+	"name" : "bio_ooze",
+	"tickDelta" : 3,
+	"color" : [0, 200, 0, 225],
+	"radiantLight" : [0, 130, 0],
+        "statusEffects" : [ "biooozepoison" ],
+        "itemDrop" : "liquidbioooze",
+        
+        "interactions" : [
+          {
+            "liquid" : 3,
+            "liquidResult" : 41
+          },
+          {
+            "liquid" : 8,
+            "liquidResult" : 0
+          }
+        ],
+        
+        "texture" : "/liquids/bio_oozetex.png",
+        "bottomLightMix" : [70, 255, 0],
+        "textureMovementFactor" : 2.6        
+	}
+    },
+    { "op" : "add", 
+    "path" : "/liquids/42", 
+	"value" : { 
+	"name" : "blacktar",
+	"tickDelta" : 1,
+	"color" : [8, 8, 8, 225],
+        "statusEffects" : [ "blacktarslow" ],
+        "itemDrop" : "liquidblacktar",
+        "interactions" : [
+          {
+            "liquid" : 3,
+            "liquidResult" : 42
+          },
+          {
+            "liquid" : 8,
+            "liquidResult" : 0
+          }
+        ],
+        "texture" : "/liquids/blacktartex.png",
+        "bottomLightMix" : [0, 0, 0, 225],
+        "textureMovementFactor" : 0.6        
+	}
+    },
+    { "op" : "add", 
+    "path" : "/liquids/43", 
+	"value" : { 
+	"name" : "organicsoup",
+	"tickDelta" : 3,
+	"color" : [255, 0, 255, 225],
+	"radiantLight" : [75, 0, 75],
+        "statusEffects" : [ "organicsoupeffect" ],
+        "itemDrop" : "liquidorganicsoup",
+        "interactions" : [
+          {
+            "liquid" : 1,
+            "liquidResult" : 3
+          },
+          {
+            "liquid" : 8,
+            "liquidResult" : 0
+          }
+        ],
+        "texture" : "/liquids/watertex.png",
+        "bottomLightMix" : [70, 255, 0],
+        "textureMovementFactor" : 1.6        
+	}
+    },
+    { "op" : "add", 
+    "path" : "/liquids/44", 
+	"value" : { 
+	"name" : "protociteliquid",
+	"tickDelta" : 1,
+	"color" : [232, 244, 102, 220],
+        "statusEffects" : [ "energyregen288" ],
+        "itemDrop" : "vialproto",
+        "interactions" : [
+          {
+            "liquid" : 3,
+            "liquidResult" : 44
+          },
+          {
+            "liquid" : 8,
+            "liquidResult" : 0
+          }
+        ],
+        "texture" : "/liquids/protoliquidtex.png",
+        "bottomLightMix" : [232, 244, 102],
+        "textureMovementFactor" : 2.6        
+	}
+    },
+    { "op" : "add", 
+    "path" : "/liquids/45", 
+	"value" : { 
+	"name" : "swampwater",
+	"tickDelta" : 1,		
+	"color" : [107, 74, 34, 205],
+	"itemDrop" : "liquidswampwater",
+        "statusEffects" : [ "swimming" ],
+        "interactions" : [
+          {
+            "liquid" : 3,
+            "liquidResult" : 3
+          },
+          {
+            "liquid" : 8,
+            "liquidResult" : 0
+          }
+        ],
+ 	"texture" : "/liquids/watertex.png",
+	"bottomLightMix" : [42, 30, 15],
+	"textureMovementFactor" : 2.6
+	}
+    },
+    { "op" : "add", 
+    "path" : "/liquids/46", 
+	"value" : { 
+	"name" : "sulphuricacid",
+	"tickDelta" : 1,
+	"color" : [0, 200, 0, 225],
+        "statusEffects" : [ "sulphuricacideffect" ],
+        "itemDrop" : "liquidsulphuricacid",
+        "interactions" : [
+          {
+            "liquid" : 3,
+            "liquidResult" : 46
+          },
+          {
+            "liquid" : 8,
+            "liquidResult" : 0
+          }
+        ],
+        "texture" : "/liquids/watertex.png",
+        "bottomLightMix" : [156, 128, 31],
+        "textureMovementFactor" : 2.6        
+	}
+    },
+    { "op" : "add", 
+    "path" : "/liquids/47", 
+	"value" : { 
+	"name" : "irradiumliquid",
+	"tickDelta" : 1,
+	"color" : [102, 179, 244, 220],
+	"radiantLight" : [102, 179, 244],
+        "statusEffects" : [ "biomeradiation" ],
+        "itemDrop" : "liquidirradium",
+        "interactions" : [
+          {
+            "liquid" : 3,
+            "liquidResult" : 47
+          },
+          {
+            "liquid" : 8,
+            "liquidResult" : 0
+          }
+        ],
+        "texture" : "/liquids/liquidirradiumtex.png",
+        "bottomLightMix" : [102, 179, 244],
+        "textureMovementFactor" : 2.6        
+	}
+    }
+]

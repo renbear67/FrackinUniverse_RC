@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "crystal", "count" : 300 },
+    { "item" : "protocitebar", "count" : 25 },
+    { "item" : "icecrystal", "count" : 12 },
+    { "item" : "solaricrystal", "count" : 30 },
+    { "item" : "ff_silicon", "count" : 25 }    
+  ],
+  "output" : {
+    "item" : "crystallineblade",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "weapons", "all" ]
+}

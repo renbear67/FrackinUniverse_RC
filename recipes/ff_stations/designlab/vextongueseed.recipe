@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "cellhardening3", "count" : 1 },
+    { "item" : "tissueculture", "count" : 3 },
+    { "item" : "celeritygene", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "vextongueseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "objects", "all", "tools" ]
+}

@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ff_penumbraplating", "count" : 6 },
+    { "item" : "magneticshielding", "count" : 2 },
+    { "item" : "ff_diamondplating", "count" : 6 }
+  ],
+  "output" : {
+    "item" : "ff_diamondarmorhead",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "armors", "all" ]
+}

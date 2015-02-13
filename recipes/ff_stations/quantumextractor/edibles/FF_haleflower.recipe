@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "haleflowerpetal", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "tissueculture",
+    "count" : 5
+  },
+  "groups" : [ "quantumextractor", "all" ]
+}

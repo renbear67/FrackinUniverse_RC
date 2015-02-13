@@ -1,0 +1,8 @@
+{
+  "name" : "ffextremecoldprotection",
+  "type" : "suit",
+  "suitOverlay" : "/tech/skins/ffextremecoldprotection/suits/<species>-<gender>.png",
+
+  "scripts" : ["ffextremecoldprotection.lua"],
+  "actions" : []
+}

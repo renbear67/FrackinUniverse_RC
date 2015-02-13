@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "titanium", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "rawminerals",
+    "count" : 9
+  },
+  "groups" : [ "quantumextractor", "all" ]
+}

@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "organicsynthesis", "count" : 1 },
+    { "item" : "firegene", "count" : 25 },
+    { "item" : "talonseedseed", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "xaxseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "objects", "all", "tools" ]
+}

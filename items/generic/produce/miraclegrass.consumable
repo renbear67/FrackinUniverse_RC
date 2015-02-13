@@ -1,0 +1,17 @@
+{
+  "itemName" : "miraclegrass",
+  "rarity" : "Common",
+  "inventoryIcon" : "miraclegrass.png",
+  "description" : "Long term, weak regeneration.",
+  "shortdescription" : "Miracle Grass Clipping",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      {
+        "effect" : "foodheal10",
+        "duration" : 240
+      }
+    ] ],
+  "blockingEffects" : [
+    "foodheal10"
+  ]
+}

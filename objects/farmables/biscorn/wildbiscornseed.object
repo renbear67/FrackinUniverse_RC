@@ -1,0 +1,55 @@
+{
+  "objectName" : "wildbiscornseed",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "A farmable dog treat.",
+  "shortdescription" : "Biscorn Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "objectItem" : "biscornseed",
+
+  "apexDescription" : "Dog biscuits that grow in the place of corn.",
+  "avianDescription" : "It's a corn for pets.",
+  "floranDescription" : "Crunchy crunchy bissscorn!",
+  "glitchDescription" : "Wonder. Is this meant to be consumed by Glitch?",
+  "humanDescription" : "This makes a great snack for pets.",
+  "hylotlDescription" : "Not a very appetizing variant of corn.",
+  "flamencoDescription" : "It may be a dog treat, but I actually like it.",
+  "snowstrifeDescription" : "Biscorn. It tastes okay, but nothing amazing.",
+  "naylaDescription" : "This has a blandness of its flavor.",
+  "mistfenDescription" : "Biscorn. These are delicious!",
+  "alienbutterflyDescription" : "Farmable dog treats! I wish I had a puppy.",
+
+  "inventoryIcon" : "biscornseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "biscornseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [300, 600]
+    },
+    {
+      "duration" : [300, 600]
+    },
+    {
+      "alts" : 5,
+      "duration" : [110, 130]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "wildbiscornHarvest",
+      "resetToStage" : 2
+    }
+  ]
+}

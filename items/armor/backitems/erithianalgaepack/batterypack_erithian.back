@@ -1,0 +1,24 @@
+{
+  "itemName" : "batterypack_erithian",
+  "inventoryIcon" : "batterypack_erithianicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "Common",
+  "description" : "This lovely piece of gear increases your max energy.",
+  "shortdescription" : "Erithian Energy Pack",
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+
+  "statusEffects" : [
+    {
+      "stat" : "energyregen",
+      "amount" : 5.5
+    },
+    {
+      "stat" : "maxEnergy",
+      "amount" : 65
+    }
+  ]
+  
+  
+}

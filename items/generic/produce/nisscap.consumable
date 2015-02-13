@@ -1,0 +1,10 @@
+{
+  "itemName" : "nisscap",
+  "rarity" : "Common",
+  "inventoryIcon" : "nisscap.png",
+  "description" : "Niss posseses the ability to shield you from all cold for several minutes.",
+  "shortdescription" : "Niss Cap",
+  "effects" : [ [
+      "wellfed"
+    ] ]
+}

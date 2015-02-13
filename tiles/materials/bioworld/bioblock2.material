@@ -1,0 +1,20 @@
+{
+  "materialId" : 6574,
+  "materialName" : "bioblock2",
+  "particleColor" : [54, 0, 54, 255],
+  "itemDrop" : "bioblock2material",
+  "description" : "...the hell is this?.",
+  "shortdescription" : "Dense Proto Shale",
+  "footstepSound" : "/sfx/blocks/footstep_brains.wav",
+  "health" : 7,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "bioblock2.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

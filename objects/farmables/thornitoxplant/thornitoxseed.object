@@ -1,0 +1,44 @@
+{
+  "objectName" : "thornitoxseed",
+  "rarity" : "Uncommon",
+  "category" : "farmable",
+  "description" : "Can grow Thornitox Plants, which produces repulsive (but filling!) sprouts. Must be placed on Tilled Ground for it to grow.",
+  "shortdescription" : "Thornitox Seed",
+  "objectType" : "farmable",
+  "printable" : false, 
+  "learnBlueprintsOnPickup" : [ "spikesword", "thornrifle", "thornslinger" ],
+
+  "apexDescription" : "A Thornitox Plant Seed.",
+  "avianDescription" : "A Thornitox Plant Seed.",
+  "floranDescription" : "A Thornitox Plant Seed.",
+  "glitchDescription" : "A Thornitox Plant Seed.",
+  "humanDescription" : "A Thornitox Plant Seed.",
+  "hylotlDescription" : "A Thornitox Plant Seed.",
+  "inventoryIcon" : "thornitoxseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "thornitoxseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [300, 600]
+    },
+    {
+      "duration" : [300, 600]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "thornitoxHarvest"
+    }
+  ]
+}

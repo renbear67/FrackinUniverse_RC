@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "defensegene1", "count" : 1 },
+    { "item" : "advancedpeptide", "count" : 2 },
+    { "item" : "chloroplast1", "count" : 1 },
+    { "item" : "glassmaterial", "count" : 1 },
+    { "item" : "ammoniumsulfate", "count" : 6 }
+  ],
+  "output" : {
+    "item" : "vialpurple",
+    "count" : 1
+  },
+  "groups" : [ "chemlab", "chemical", "all"  ]
+}

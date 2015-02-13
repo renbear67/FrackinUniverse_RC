@@ -1,0 +1,20 @@
+{
+  "materialId" : 6590,
+  "materialName" : "blackslime",
+  "particleColor" : [89, 127, 52, 255],
+  "itemDrop" : "blackslimematerial",
+  "description" : "extremely viscous black slime.",
+  "shortdescription" : "Black Slime",
+  "footstepSound" : "/sfx/blocks/footstep_brains.wav",
+  "health" : 4,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "blackslime.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

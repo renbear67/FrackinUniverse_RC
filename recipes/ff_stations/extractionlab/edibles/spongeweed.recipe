@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "spongeweed", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "iodine",
+    "count" : 1
+  },
+  "groups" : [ "extractionlab", "all" ]
+}

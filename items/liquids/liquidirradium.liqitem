@@ -1,0 +1,10 @@
+{
+  "itemName" : "liquidirradium",
+  "rarity" : "Common",
+  "inventoryIcon" : "liquidirradiumicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Liquid Irradium",
+  "description" : "A measure of liquid irradium.",
+
+  "liquid" : "irradiumliquid"
+}

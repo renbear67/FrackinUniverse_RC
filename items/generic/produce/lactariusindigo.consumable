@@ -1,0 +1,14 @@
+{
+  "itemName" : "lactariusindigo",
+  "rarity" : "uncommon",
+  "category" : "Farmable",
+  "inventoryIcon" : "lactariusindigo.png",
+  "description" : "Said to help the user resist pain.",
+  "shortdescription" : "Lactarius Indigo Mushroom",
+  "effects" : [ [
+      {
+        "effect" : "foodheal720",
+        "duration" : 5
+      }
+    ] ]
+}

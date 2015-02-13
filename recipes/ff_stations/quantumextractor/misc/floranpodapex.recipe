@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "floranpodapex", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "geneticmaterial",
+    "count" : 2
+  },
+  "groups" : [ "quantumextractor", "all" ]
+}

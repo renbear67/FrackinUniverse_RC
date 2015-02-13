@@ -1,0 +1,25 @@
+{
+  "projectileName" : "healingrain",
+  "physics" : "weather",
+  "frames" : "healingrain.png",
+  "animationCycle" : 0.25,
+  "level" : 3,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : true,
+  "power" : 3.0,
+  "lightColor" : [189, 26, 0],
+  "damageKind" : "default",
+  "damageType" : "ignoresdef",
+  "damagePoly" : [ [-50, -50], [50, -50], [50, 50], [-50, 50] ],
+
+  "flippable" : true,
+  "universalDamage" : false,
+  "actionOnReap" : [ 
+    {
+      "action" : "liquid", 
+      "liquid" : "organicsoup", 
+      "quantity" : 4
+    }
+  ]
+}

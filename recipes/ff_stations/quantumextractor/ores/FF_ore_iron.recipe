@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ironore", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "lead",
+    "count" : 4
+  },
+  "groups" : [ "quantumextractor", "all" ]
+}

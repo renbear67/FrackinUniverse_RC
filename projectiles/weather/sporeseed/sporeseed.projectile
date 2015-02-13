@@ -1,0 +1,26 @@
+{
+  "projectileName" : "sporeseed",
+  "physics" : "grenadezbomb",
+  "bounces" : 0,
+  "level" : 3,
+  "frames" : "sporeseed.png",
+  "animationCycle" : 1,
+  "lightColor" : [253, 160, 57],
+  "frameNumber" : 1,
+  "actionOnReap" : [
+    {
+	    "action" : "config",
+		"file" : "/projectiles/explosions/poisonsmoke/poisonsmoke.config"
+	},
+	{
+        "action" : "spawnmonster",
+        "type" : "allergen2",
+        "arguments" : { "initialPauseTime" : 0, "targetNoticeDistance" : 1}
+    }
+  ],
+  "power" : 3,
+  "damageType" : "acid",
+  "damageKind" : "default",
+  "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],
+  "emitters" : [ "sparks" ]
+}

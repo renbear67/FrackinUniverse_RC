@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "monsterdna", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "dnasample",
+    "count" : 1
+  },
+  "groups" : [ "quantumextractor", "all" ]
+}

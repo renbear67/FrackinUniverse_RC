@@ -1,0 +1,8 @@
+{
+  "itemName" : "vialyellow",
+  "rarity" : "rare",
+  "inventoryIcon" : "vialyellow.png",
+  "description" : "Experimental chemical mixture.",
+  "shortdescription" : "Test Formula A",
+    "learnBlueprintsOnPickup" : [ "flaskyellow" ]
+}

@@ -1,0 +1,17 @@
+{
+  "id" : "create8.gearup",
+  "title" : "^#9be3d6;Thornitox",
+  "text" : "Now for a different sort of plant. ^orange;Thornitox^white; is ugly as heck, but has edible dongles that are quite filling. It can also be shaped into lethal weapons. Odd, I know.",
+  "completionText" : "Now let's plant those seeds and work on making more...",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "spikeplantseed", 3] }
+  ],
+  "moneyRange" : [200, 200],
+  "rewards" : [
+    [ [ "spikeplantseed", 3], [ "vialgreen", 1] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "create9.gearup"
+}
+

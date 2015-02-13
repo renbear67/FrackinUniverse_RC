@@ -1,0 +1,10 @@
+{
+  "itemName" : "wartweed2",
+  "rarity" : "rare",
+  "inventoryIcon" : "wartweed2.png",
+  "description" : "Wartweed with energy regeneration ability.",
+  "shortdescription" : "Enhanced Wartweed",
+  "effects" : [ [
+      "wellfed"
+    ] ]
+}

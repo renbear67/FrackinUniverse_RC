@@ -1,0 +1,9 @@
+{
+  "itemName" : "ffextremecoldprotectionTech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/skins/extremecoldprotection/overlay.png",
+  "description" : "Advanced nanotech that repels cold. Also supplies oxygen.",
+  "shortdescription" : "Extreme Cold Protection",
+
+  "techModule" : "ffextremecoldprotection"
+}

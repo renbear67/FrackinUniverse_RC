@@ -1,0 +1,10 @@
+{
+  "itemName" : "corn2",
+  "rarity" : "rare",
+  "inventoryIcon" : "cornicon2.png",
+  "description" : "Good for digestion! And healing!",
+  "shortdescription" : "Enhanced Corn",
+  "effects" : [ [
+      "wellfed"
+    ] ]
+}

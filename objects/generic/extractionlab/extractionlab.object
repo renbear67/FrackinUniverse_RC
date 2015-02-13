@@ -1,0 +1,36 @@
+{
+  "objectName" : "extractionlab",
+  "rarity" : "Common",
+  "race" : "generic",
+  "subtitle" : "Extracts genetic material.",
+  "objectType" : "container",
+  "printable" : false,
+  "description" : "Extracts materials from organic materials and fertile dirt.",
+  "shortdescription" : "^orange;Extraction Lab^white;",
+  "learnBlueprintsOnPickup" : [ "microscope", "saltpeter", "phosphorus", "ff_mercury", "magnesiumpowder", "rawminerals", "magnesiumpowder", "ammoniumsulfate", "penumbriteshard" ],
+  "price" : 450,
+
+  "inventoryIcon" : "extractionlabicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "extractionlab.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 4.5,
+
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [0, -1] ],
+      "collision" : "platform"
+    }
+  ],
+  "soundEffect" : "/sfx/objects/electriclight.wav",
+  "recipeGroup" : "extractionlab",
+  "openSounds" : [ "/sfx/objects/screen3.wav" ],
+  "slotCount" : 2,
+  "uiConfig" : "/interface/objectcrafting/extractionlab.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+
+}
+
+

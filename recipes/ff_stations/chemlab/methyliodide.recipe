@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "phosphorus", "count" : 15 },
+    { "item" : "iodine", "count" : 15},
+    { "item" : "methanol", "count" : 15},
+    { "item" : "glassmaterial", "count" : 4},
+    { "item" : "mineralsample", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "methyliodide",
+    "count" : 2
+  },
+  "groups" : [ "chemlab", "plain", "other", "all" ]
+}

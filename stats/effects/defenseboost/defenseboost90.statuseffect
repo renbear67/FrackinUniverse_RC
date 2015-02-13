@@ -1,0 +1,14 @@
+{
+  "name" : "defenseboost90",
+  "effectConfig" : {
+    "defenseAmount" : 90
+  },
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "defenseboost.lua"
+  ],
+
+  "label" : "Bonus Defense",
+  "icon" : "/interface/statuses/defense.png"
+}

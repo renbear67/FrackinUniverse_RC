@@ -1,0 +1,16 @@
+{
+  "input" : [
+    { "item" : "aliencompound", "count" : 12 },
+    { "item" : "dnasample", "count" : 50 },
+    { "item" : "beakergrey", "count" : 2 },
+    { "item" : "regengene3", "count" : 1 },
+    { "item" : "nervebundle3", "count" : 1 },
+    { "item" : "musclegene2", "count" : 1 },
+    { "item" : "aminoacid", "count" : 20 }
+  ],
+  "output" : {
+    "item" : "genesiberryseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "objects", "all", "tools" ]
+}

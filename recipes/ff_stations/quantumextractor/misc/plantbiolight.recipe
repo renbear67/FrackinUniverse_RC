@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "plantbiolight", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "biospore",
+    "count" : 3
+  },
+  "groups" : [ "quantumextractor", "all" ]
+}

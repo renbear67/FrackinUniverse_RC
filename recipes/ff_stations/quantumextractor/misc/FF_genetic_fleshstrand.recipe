@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "fleshstrand", "count" : 50 }
+  ],
+  "output" : {
+    "item" : "geneticmaterial",
+    "count" : 9
+  },
+  "groups" : [ "quantumextractor", "all" ]
+}

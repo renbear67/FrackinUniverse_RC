@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "leather", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "geneticmaterial",
+    "count" : 9
+  },
+  "groups" : [ "quantumextractor", "all" ]
+}

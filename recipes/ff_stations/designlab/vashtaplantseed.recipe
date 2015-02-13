@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "organicsynthesis", "count" : 1 },
+    { "item" : "regengene2", "count" : 1 },
+    { "item" : "cellmatter", "count" : 1 },
+    { "item" : "adaptivecells", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "vashtaplantseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "objects", "all", "tools" ]
+}

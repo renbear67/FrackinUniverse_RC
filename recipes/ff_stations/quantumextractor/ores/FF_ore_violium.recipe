@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "refinedviolium", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "rawminerals",
+    "count" : 15
+  },
+  "groups" : [ "quantumextractor", "all" ]
+}

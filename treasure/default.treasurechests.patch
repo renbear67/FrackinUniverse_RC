@@ -1,0 +1,52 @@
+[
+  { "op" : "add", "path" : "/ffbasicChest", 
+	"value" : 
+	[
+		{
+		"containers" : [ "ff_stonechest" ],
+		"treasurePool" : "ffbasicTreasure",
+		"minimumLevel" : 1
+		}
+	]
+  },
+  { "op" : "add", "path" : "/ffbasicChest2", 
+  "value" : 
+	[
+		{
+		"containers" : [ "ff_stonechest2" ],
+		"treasurePool" : "ffbasicTreasure",
+		"minimumLevel" : 1
+		}
+	]
+  },
+  { "op" : "add", "path" : "/fflabChest", 
+  "value" : 
+	[
+		{
+		"containers" : [ "ff_labchest" ],
+		"treasurePool" : "ffbasicTreasure",
+		"minimumLevel" : 1
+		}
+	]
+  },
+  { "op" : "add", "path" : "/ffprotoChest", 
+  "value" : 
+	[
+		{
+		"containers" : [ "protochest" ],
+		"treasurePool" : "ffbasicTreasure",
+		"minimumLevel" : 1
+		}
+	]
+  },
+  { "op" : "add", "path" : "/ffpenumbraChest", 
+  "value" : 
+	[
+		{
+		"containers" : [ "penumbrachest" ],
+		"treasurePool" : "ffbasicTreasure",
+		"minimumLevel" : 1
+		}
+	]
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "oculargene", "count" : 1 },
+    { "item" : "defensegene1", "count" : 1 }, 
+    { "item" : "fleshstrand", "count" : 3 },
+    { "item" : "immunegene2", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "lasherplantseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "objects", "all", "tools" ]
+}

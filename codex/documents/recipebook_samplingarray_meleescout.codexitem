@@ -1,0 +1,10 @@
+{
+  "codexId" : "recipebook_samplingarray_meleescout",
+  "title" : "(FF) Combat Armor",
+  "codexkind" : "codex",
+  "inventoryIcon" : "ffbook.png",
+  "itemName" : "recipebook_samplingarray_meleescout",
+  "rarity" : "common",
+  "description" : "enhancing the Scout Armor",
+  "shortdescription" : "Combat Armor"
+}

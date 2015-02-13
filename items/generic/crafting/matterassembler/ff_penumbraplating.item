@@ -1,0 +1,8 @@
+{
+  "itemName" : "ff_penumbraplating",
+  "rarity" : "Common",
+  "inventoryIcon" : "ff_penumbraplating.png",
+  "description" : "Super dense, super tough.",
+  "shortdescription" : "Penumbral Plating",
+  "learnBlueprintsOnPickup" : [ "ff_diamondplating" ]
+}

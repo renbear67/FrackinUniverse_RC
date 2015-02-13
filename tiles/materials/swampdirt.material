@@ -1,0 +1,25 @@
+{
+  "materialId" : 6609,
+  "materialName" : "swampdirt",
+  "frames" : ".png",
+  "variants" : 5,
+  "particleColor" : [99, 0, 0, 255],
+  "itemDrop" : "swampdirtmaterial",
+  "description" : "Swamp Dirt",
+  "shortdescription" : "Swamp Dirt",
+  "footstepSound" : "/sfx/blocks/footstep_dirt.wav",
+  "health" : 3,
+  "tillableMod" : 6777,
+  "soil" : true,
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "swampdirt.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

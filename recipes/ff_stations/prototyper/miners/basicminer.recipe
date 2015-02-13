@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 4 },
+    { "item" : "glassmaterial", "count" : 1 },  
+    { "item" : "solaricrystal", "count" : 1 },
+    { "item" : "biofuelcannister", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "basicminer",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "chemical", "all" ]
+}

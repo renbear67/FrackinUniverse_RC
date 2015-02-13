@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "sulphurstonematerial", "count" : 50 }
+  ],
+  "output" : {
+    "item" : "rawminerals",
+    "count" : 5
+  },
+  "groups" : [ "quantumextractor", "all" ]
+}

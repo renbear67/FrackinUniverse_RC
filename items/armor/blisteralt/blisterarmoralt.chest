@@ -1,0 +1,30 @@
+{
+  "itemName" : "blisterchestalt",
+  "inventoryIcon" : "icons.png:chest",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Blister-pod derived armor",
+  "shortdescription" : "Blister Chest",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "statusEffects" : [
+    {
+      "stat" : "protection",
+      "amount" : 42
+    }, 
+	"glow" 
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "itemName" : "solarihammer",
+  "level" : 2,
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "Forged from raw solari crystals.",
+  "shortdescription" : "Lunari Hammer",
+  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
+  "kind" : "Hammer",
+  "image" : "solarihammer.png",
+  "firePosition" : [23.5, 8.5],
+  "fireTime" : 1.2,
+  "fireAfterWindup" : true,
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_hammer.wav" } ] },
+
+  "primaryStances" : {
+	"directional" : true,
+    "projectileType" : "hammerswoosh1",
+    "projectile" : {
+      "speed" : 0.1,
+      "power" : 9.5
+    },
+    "idle" : {
+      "twoHanded" : false,
+      "armAngle" : -90,
+      "swordAngle" : -90,
+      "handPosition" : [-6.0, -17.0],
+      "armFrameOverride" : "idleMelee",
+      "duration" : 0.1
+    },
+    "windup" : {
+      "twoHanded" : true,
+      "armAngle" : 90,
+      "swordAngle" : 90,
+      "handPosition" : [-6.0, -17.0],
+      "duration" : 0.2,
+      "statusEffects" : []
+    },
+    "cooldown" : {
+      "twoHanded" : true,
+      "armAngle" : -45,
+      "swordAngle" : -90,
+      "handPosition" : [-6.0, -27.5],
+      "duration" : 0.4,
+      "statusEffects" : []
+    }
+  }
+}

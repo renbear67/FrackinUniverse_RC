@@ -1,0 +1,17 @@
+{
+  "itemName" : "gazelemon",
+  "rarity" : "Common",
+  "inventoryIcon" : "gazelemon.png",
+  "description" : "Focused light emits from your face.",
+  "shortdescription" : "Gazelemon",
+  "effects" : [ [
+      { 
+      "effect": "headlamp",
+      "duration" : 30
+      }
+    ] ],
+  "blockingEffects" : [
+    "headlamp"
+  ]
+
+}

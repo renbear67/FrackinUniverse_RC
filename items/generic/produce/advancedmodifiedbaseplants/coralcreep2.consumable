@@ -1,0 +1,10 @@
+{
+  "itemName" : "coralcreep2",
+  "rarity" : "rare",
+  "inventoryIcon" : "coralcreep2.png",
+  "description" : "Provides a slight boost to running speed.",
+  "shortdescription" : "Enhanced Coralcreep",
+  "effects" : [ [
+     "wellfed"
+    ] ]
+}

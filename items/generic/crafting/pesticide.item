@@ -1,0 +1,7 @@
+{
+  "itemName" : "pesticide",
+  "rarity" : "Common",
+  "inventoryIcon" : "pesticide.png",
+  "description" : "Kills bugs dead.",
+  "shortdescription" : "Pesticide"
+}

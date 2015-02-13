@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 1 },
+    { "item" : "dnasample", "count" : 2 },
+    { "item" : "mineralsample", "count" : 2 },
+    { "item" : "aminoacid", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "naileryseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "objects", "all", "tools" ]
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "tearnut",
+  "rarity" : "Common",
+  "inventoryIcon" : "tearnut.png",
+  "description" : "Extremely protein rich!",
+  "shortdescription" : "Tearnut",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      "wellfed"
+    ] ]
+}

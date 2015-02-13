@@ -1,0 +1,8 @@
+{
+  "itemName" : "nervebundle2",
+  "rarity" : "uncommon",
+  "inventoryIcon" : "nervebundle2.png",
+  "description" : "Nerve Bundle research.",
+  "shortdescription" : "Nerve Bundle II",
+  "learnBlueprintsOnPickup" : [ "nervebundle3" ]
+}

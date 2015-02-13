@@ -1,0 +1,219 @@
+[
+
+
+{
+"op" : "add",
+"path" : "/arboreal",
+"value" : [     
+    [0.50, "clear"],
+    [0.25, "fog"],
+    [0.25, "rain"],
+    [0.25, "storm"],
+    [0.50, "drizzle"],
+    [0.20, "windstorm"],
+    [0.40, "groundmist"],
+    [0.15, "glowingrain"],
+    [0.15, "heavyrain"]]
+},
+
+
+{
+"op" : "add",
+"path" : "/atropus",
+"value" : [     
+    [0.4, "clear"],
+    [0.4, "sandstorm"],
+    [0.4, "hurricane"],
+    [0.4, "drizzle"],
+    [0.4, "sporeshower"],
+    [0.01, "meteorshower"],
+    [0.005, "largemeteor"]]
+},
+
+
+
+{
+"op" : "add",
+"path" : "/bloodstone",
+"value" : [     
+    [0.4, "clear"],
+    [0.4, "crystalstorm"],
+    [0.4, "crystalstormmajor"],
+    [0.4, "acidrain"],
+    [0.01, "meteorshower"],
+    [0.005, "largemeteor"]]
+},
+
+
+
+{
+"op" : "add",
+"path" : "/bog",
+"value" : [     
+    [0.4, "clear"],
+    [0.57, "groundmist"],
+    [0.22, "fog"],
+    [0.413, "mistyrain"],
+    [0.420, "rain"],
+    [0.347, "heavyrain"],
+    [0.01, "meteorshower"],
+    [0.005, "largemeteor"]]
+},
+
+
+
+{
+"op" : "add",
+"path" : "/crystalmoon",
+"value" : [     
+    [0.40, "clear"],
+    [0.30, "crystalstorm"],
+    [0.05, "crystalstormmajor"],
+    [0.25, "healingstorm"],
+    [0.02, "meteorshower"],
+    [0.001, "largemeteor"]]
+},
+  
+
+{
+"op" : "add",
+"path" : "/icewaste",
+"value" : [     
+    [0.4, "clear"],
+    [0.36, "crystalstorm"],
+    [0.15, "crystalstormmajor"],
+    [0.25, "healingstorm"],
+    [0.01, "meteorshower"],
+    [0.005, "largemeteor"]]
+},
+  
+
+{
+"op" : "add",
+"path" : "/infernus",
+"value" : [     
+    [0.6, "firestorm"],
+    [0.4, "magmastorm"],
+    [0.20, "magmastormgreater"],
+    [0.4, "ember"],
+    [0.02, "meteorshower"],
+    [0.009, "largemeteor"]]
+},
+
+
+{
+"op" : "add",
+"path" : "/irradiated",
+"value" : [     
+    [0.5, "clear"],
+    [0.4, "acidrain"],
+    [0.01, "meteorshower"],
+    [0.005, "largemeteor"]]
+},
+
+
+{
+"op" : "add",
+"path" : "/nitrogensea",
+"value" : [     
+    [0.4, "clear"],
+    [0.32, "freezestorm"],
+    [0.25, "freezestormlesser"],
+    [0.15, "freezestormminor"],
+    [0.01, "meteorshower"],
+    [0.005, "largemeteor"]]
+},
+
+
+{
+"op" : "add",
+"path" : "/penumbra",
+"value" : [     
+    [0.4, "clear"],
+    [0.5, "groundmist"],
+    [0.5, "fog"],
+    [0.25, "hurricane"],
+    [0.351, "mistyrain"],
+    [0.355, "rain"],
+    [0.255, "acidrain"],
+    [0.01, "meteorshower"],
+    [0.005, "largemeteor"]]
+},
+  
+  
+
+{
+"op" : "add",
+"path" : "/protoworld",
+"value" : [     
+    [0.46, "clear"],
+    [0.15, "slimestorm"],
+    [0.25, "slimestormlesser"],
+    [0.15, "sporeshower"],
+    [0.12, "windstorm"],
+    [0.05, "hurricane"],
+    [0.01, "meteorshower"],
+    [0.005, "largemeteor"]]
+},
+  
+
+{
+"op" : "add",
+"path" : "/slimeworld",
+"value" : [     
+    [0.4, "clear"],
+    [0.4, "rain"],
+    [0.4, "drizzle"],
+    [0.4, "heavyrain"],
+    [0.15, "hurricane"],
+    [0.15, "acidrain"],
+    [0.20, "mistyrain"],
+    [0.2, "fog"],
+    [0.2, "slimestormlesser"],
+    [0.01, "meteorshower"],
+    [0.005, "largemeteor"]]
+},  
+  
+
+{
+"op" : "add",
+"path" : "/sulphuric",
+"value" : [     
+    [0.2, "clear"],
+    [0.6, "sulphurstormlesser"],
+    [0.5, "sulphurstorm"],
+    [0.01, "meteorshower"],
+    [0.005, "largemeteor"]]
+},  
+  
+
+
+{
+"op" : "add",
+"path" : "/thickjungle",
+"value" : [     
+    [0.4, "clear"],
+    [0.25, "heavyrain"],
+    [0.5, "rain"],
+    [0.5, "mistyrain"],
+    [0.05, "hurricane"],
+    [0.05, "windstorm"],
+    [0.01, "meteorshower"],
+    [0.005, "largemeteor"]]
+},  
+
+
+
+{
+"op" : "add",
+"path" : "/urbanwasteland",
+"value" : [     
+    [0.5, "clear"],
+    [0.4, "ashstorm"],
+    [0.6, "ash"],
+    [0.05, "windstorm"]]
+}
+  
+]
+
+

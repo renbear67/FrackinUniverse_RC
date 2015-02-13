@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "itaseed", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "iodine",
+    "count" : 1
+  },
+  "groups" : [ "extractionlab", "all" ]
+}

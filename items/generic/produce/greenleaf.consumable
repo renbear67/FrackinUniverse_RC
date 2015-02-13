@@ -1,0 +1,18 @@
+{
+  "itemName" : "greenleaf",
+  "rarity" : "uncommon",
+  "category" : "Farmable",
+  "inventoryIcon" : "greenleaf.png",
+  "description" : "Restores health and energy.",
+  "shortdescription" : "Greenleaf Herb",
+  "effects" : [ [
+      {
+        "effect" : "energyregen96",
+        "duration" : 10
+      },
+      {
+        "effect" : "foodheal95",
+        "duration" : 10
+      }
+    ] ]
+}

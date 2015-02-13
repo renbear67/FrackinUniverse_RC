@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "glassmaterial", "count" : 3 },
+    { "item" : "ironbar", "count" : 25 }
+  ],
+  "output" : {
+    "item" : "ff_divingmaskhead",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "armors", "all" ]
+}

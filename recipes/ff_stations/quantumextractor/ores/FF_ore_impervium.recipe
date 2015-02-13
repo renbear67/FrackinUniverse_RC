@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "imperviumcompound", "count" : 12 }
+  ],
+  "output" : {
+    "item" : "matterblock",
+    "count" : 2
+  },
+  "groups" : [ "quantumextractor", "all" ]
+}

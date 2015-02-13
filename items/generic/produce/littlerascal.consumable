@@ -1,0 +1,13 @@
+{
+  "itemName" : "littlerascal",
+  "rarity" : "uncommon",
+  "category" : "Farmable",
+  "inventoryIcon" : "littlerascal.png",
+  "description" : "Fills you with zappy power!",
+  "shortdescription" : "Little Rascal Herb",
+  "effects" : [ [
+      
+        "wellfed"
+      
+    ] ]  
+}

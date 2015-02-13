@@ -1,0 +1,15 @@
+{
+  "input" : [
+   { "item" : "aliencompound", "count" : 12 },
+   { "item" : "monsterplating", "count" : 6 },
+   { "item" : "bone", "count" : 50 },
+   { "item" : "refinedrubium", "count" : 15 },
+   { "item" : "vialproto", "count" : 3 },
+    { "item" : "biochip", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "warcleaver",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "weapons", "all" ]
+}

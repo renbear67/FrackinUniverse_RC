@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "bonematerial", "count" : 25 }
+  ],
+  "output" : {
+    "item" : "bone",
+    "count" : 1
+  },
+  "groups" : [ "extractionlab", "all" ]
+}

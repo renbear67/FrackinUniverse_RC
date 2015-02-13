@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "algaegreen", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "iodine",
+    "count" : 2
+  },
+  "groups" : [ "stonefurnace", "all" ]
+}

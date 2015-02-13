@@ -1,0 +1,13 @@
+{
+  "itemName" : "melodistar",
+  "rarity" : "Common",
+  "inventoryIcon" : "melodistaricon.png",
+  "description" : "A star plant from space!",
+  "shortdescription" : "Melodistar",
+  "effects" : [ [
+      {
+        "effect" : "foodheal720",
+        "duration" : 5
+      }
+    ] ]
+}

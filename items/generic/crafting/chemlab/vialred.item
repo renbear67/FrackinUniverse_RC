@@ -1,0 +1,8 @@
+{
+  "itemName" : "vialred",
+  "rarity" : "rare",
+  "inventoryIcon" : "vialred.png",
+  "description" : "Experimental chemical mixture.",
+  "shortdescription" : "Test Formula B",
+    "learnBlueprintsOnPickup" : [ "flaskred" ]
+}

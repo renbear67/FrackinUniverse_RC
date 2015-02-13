@@ -1,0 +1,49 @@
+{
+  "objectName" : "wilddeathblossomseed",
+  "rarity" : "Rare",
+  "category" : "farmable",
+  "description" : "Deathblossoms are not what you'd call a good snack. Toss em instead.",
+  "shortdescription" : "Deathblossom Spore",
+  "objectType" : "farmable",
+  "printable" : false, 
+  "apexDescription" : "A Deathblossom Seed.",
+  "avianDescription" : "A Deathblossom Seed.",
+  "floranDescription" : "A Deathblossom Seed.",
+  "glitchDescription" : "A Deathblossom Seed.",
+  "humanDescription" : "A Deathblossom Seed.",
+  "hylotlDescription" : "A Deathblossom Seed.",
+    "objectItem" : "dnasample",
+
+  "inventoryIcon" : "deathblossomseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "deathblossomseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [300, 600]
+    },
+    {
+      "duration" : [300, 600]
+    },
+    {
+      "alts" : 3,
+      "duration" : [110, 130]
+    },
+    {
+      "alts" : 3,
+      "harvestPool" : "wilddeathblossomHarvest",
+      "resetToStage" : 2
+    }
+  ]
+}

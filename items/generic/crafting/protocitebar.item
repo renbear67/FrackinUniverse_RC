@@ -1,0 +1,8 @@
+{
+  "itemName" : "protocitebar",
+  "rarity" : "legendary",
+  "inventoryIcon" : "protocitebar.png",
+  "description" : "Compressed protocyte",
+  "shortdescription" : "Protocyte Bar",
+  "learnBlueprintsOnPickup" : [ "batterypack_protocyte", "mineralblade", "particlegrenade", "mineralcannonlite", "mineralpistollite", "warcleaver", "protopistol", "protominer", "ff_protoplating" ]
+}

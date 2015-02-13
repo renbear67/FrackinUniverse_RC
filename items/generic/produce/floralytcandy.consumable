@@ -1,0 +1,16 @@
+{
+  "itemName" : "floralytcandy",
+  "rarity" : "Common",
+  "inventoryIcon" : "floralytcandy.png",
+  "description" : "Engineered to be regenerative candy. Heals lots, and fast.",
+  "shortdescription" : "Floralyt Candy",
+  "effects" : [ [
+      {
+        "effect" : "foodheal720",
+        "duration" : 12
+      }
+    ] ],
+  "blockingEffects" : [
+    "foodheal720"
+  ]
+}

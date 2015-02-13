@@ -1,0 +1,39 @@
+{
+  "objectName" : "samplingarray",
+  "rarity" : "Common",
+  "race" : "generic",
+  "category" : "crafting",
+  "printable" : false,
+  "price" : 200,
+  "objectType" : "container",
+  "learnBlueprintsOnPickup" : [ "biochipbase", "obsidianshard", "magneticshielding"  ],
+  "inventoryIcon" : "samplingarrayicon.png",
+  "description" : "Breaks down materials to create useful samples for experiments.",
+  "shortdescription" : "^orange;Sampling Array^white;",
+  "subtitle" : "Converts your resources.",
+  "orientations" : [
+    {
+      "dualImage" : "samplingarray.png:<color>.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 6,
+      "animationCycle" : 2.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "/objects/generic/samplingarray/samplingarray.animation",
+  "animationParts" : {
+    "samplingarrayanim" : "samplingarray.png"
+  },
+  "scripts" : [ "/objects/generic/samplingarray/samplingarray.lua" ],
+  "scriptDelta" : 5,
+  "recipeGroup" : "samplingarray",
+  "openSounds" : [ "/sfx/objects/locker_open.wav" ],
+  "slotCount" : 12,
+  "uiConfig" : "/interface/samplingarray/samplingarray.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+}

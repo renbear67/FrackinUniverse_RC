@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "plantfibre", "count" : 25}
+  ],
+  "output" : {
+    "item" : "geneticmaterial",
+    "count" : 2
+  },
+  "groups" : [ "quantumextractor", "all" ]
+}

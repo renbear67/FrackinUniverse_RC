@@ -1,0 +1,14 @@
+{
+  "itemName" : "mint",
+  "rarity" : "uncommon",
+  "category" : "Farmable",
+  "inventoryIcon" : "mint.png",
+  "description" : "Fresh and healy goodness.",
+  "shortdescription" : "Mint Herb",
+  "effects" : [ [
+      {
+        "effect" : "foodheal170",
+        "duration" : 20
+      }
+    ] ]
+}

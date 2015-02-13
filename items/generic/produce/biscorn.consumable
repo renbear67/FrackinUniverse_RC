@@ -1,0 +1,10 @@
+{
+  "itemName" : "biscorn",
+  "rarity" : "Common",
+  "inventoryIcon" : "biscornicon.png",
+  "description" : "Does nothing.",
+  "shortdescription" : "Biscorn",
+  "effects" : [ [
+      "wellfed"
+    ] ]
+}

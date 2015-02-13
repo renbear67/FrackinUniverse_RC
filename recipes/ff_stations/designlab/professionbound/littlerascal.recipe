@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "shockgene", "count" : 1 },
+    { "item" : "biosample", "count" : 3 },
+    { "item" : "luminescentcells", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "littlerascalseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "objects", "all", "tools" ]
+}

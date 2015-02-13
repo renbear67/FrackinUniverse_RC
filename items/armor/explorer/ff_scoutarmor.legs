@@ -1,0 +1,24 @@
+{
+  "itemName" : "ff_scoutpants",
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Look stylish while you travel.",
+  "shortdescription" : "Explorer Greaves",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "statusEffects" : [
+    {
+      "stat" : "protection",
+      "amount" : 23
+    },
+    {
+      "stat" : "energyRegen",
+      "amount" : 0.85
+    }
+  ]
+}

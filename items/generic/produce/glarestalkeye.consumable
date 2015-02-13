@@ -1,0 +1,14 @@
+{
+  "itemName" : "glarestalkeye",
+  "rarity" : "Common",
+  "inventoryIcon" : "glarestalkeye.png",
+  "description" : "Grants 75% Rage.",
+  "shortdescription" : "Glarestalk Eye",
+  "handPosition" : [0, 8],
+  "effects" : [ [
+      "rage75"
+    ] ],
+  "blockingEffects" : [
+  "rage75"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "currentcorn2",
+  "rarity" : "rare",
+  "inventoryIcon" : "currentcorn2.png",
+  "description" : "Provides food, as well as a jump boost.",
+  "shortdescription" : "Enhanced Currentcorn",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      "wellfed"
+    ] ]
+}

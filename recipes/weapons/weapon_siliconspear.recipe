@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ff_silicon", "count" : 120 },
+    { "item" : "ff_diamondplating", "count" : 8 },
+    { "item" : "penumbriteshard", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "siliconspear",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "weapons", "all" ]
+}

@@ -1,0 +1,16 @@
+{
+  "itemName" : "teratomato",
+  "rarity" : "Common",
+  "inventoryIcon" : "teratomatoicon.png",
+  "description" : "A bloody amalgamation in the shape of a fruit. Induces berserk rage.",
+  "shortdescription" : "Teratomato",
+  "effects" : [ [
+      {
+        "effect" : "rage",
+		"duration" : 60
+	  }
+    ] ],
+  "blockingEffects" : [
+    "rage"
+  ]
+}

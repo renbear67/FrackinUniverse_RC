@@ -1,0 +1,8 @@
+{
+  "itemName" : "ff_focusingarray",
+  "rarity" : "Common",
+  "inventoryIcon" : "ff_focusingarray.png",
+  "description" : "Can redirect passing particle streams",
+  "shortdescription" : "Focusing Array",
+  "learnBlueprintsOnPickup" : [ "mineralcannonadv", "mineralcannonadv2", "hybridminer3" ]
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "pineapple2",
+  "rarity" : "rare",
+  "inventoryIcon" : "pineappleicon2.png",
+  "description" : "Tropical warmth from every bite.",
+  "shortdescription" : "Enhanced Pineapple",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      "wellfed"
+    ] ]
+}

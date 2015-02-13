@@ -1,0 +1,11 @@
+{
+  "itemName" : "petrifiedroot",
+  "rarity" : "Common",
+  "category" : "Farmable",
+  "inventoryIcon" : "petrifiedrooticon.png",
+  "description" : "Does nothing.", //another power boost food
+  "shortdescription" : "Petrified Root",
+  "effects" : [ [
+      "wellfed"
+    ] ]
+}

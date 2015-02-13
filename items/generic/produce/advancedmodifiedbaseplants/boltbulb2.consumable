@@ -1,0 +1,11 @@
+{
+  "itemName" : "boltbulb2",
+  "rarity" : "rare",
+  "inventoryIcon" : "boltbulb2.png",
+  "description" : "Boltbulb that provides yum-yum power and narcotic enhancement.",
+  "shortdescription" : "Enhanced Boltbulb",
+  "handPosition" : [-6, 0],
+  "effects" : [ [
+      "wellfed"
+    ] ]
+}

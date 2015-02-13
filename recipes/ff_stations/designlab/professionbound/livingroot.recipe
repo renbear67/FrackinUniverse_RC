@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "advancedpeptide", "count" : 2 },
+    { "item" : "luminescentpaste", "count" : 2 },
+    { "item" : "plantfibre", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "livingrootseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "objects", "all", "tools" ]
+}

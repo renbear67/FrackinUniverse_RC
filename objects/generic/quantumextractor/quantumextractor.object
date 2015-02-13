@@ -1,0 +1,37 @@
+{
+  "objectName" : "quantumextractor",
+  "rarity" : "Common",
+  "description" : "The ultimate in extraction technology.",
+  "shortdescription" : "^orange;Quantum Extractor^white;",
+  "race" : "generic",
+  "subtitle" : "Extracts genetic material.",
+  "objectType" : "container",
+  "printable" : false,
+  "price" : 450,
+  "lightColor" : [75, 75, 170],
+
+  "inventoryIcon" : "quantumextractoricon.png",
+  "orientations" : [
+
+    {
+      "dualImage" : "quantumextractor.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 2.5,
+
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [0, -1] ],
+      "collision" : "platform"
+    }
+  ],
+  "soundEffect" : "/sfx/objects/electriclight.wav",
+  "recipeGroup" : "quantumextractor",
+  "openSounds" : [ "/sfx/objects/screen3.wav" ],
+  "slotCount" : 2,
+  "uiConfig" : "/interface/objectcrafting/extractionlab.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+
+}
+
+

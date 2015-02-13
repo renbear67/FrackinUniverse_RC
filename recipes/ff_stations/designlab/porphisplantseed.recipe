@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "adaptivecells", "count" : 1 },
+    { "item" : "tissueculture", "count" : 3 },
+    { "item" : "cellresistance2", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "porphisplantseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "objects", "all", "tools" ]
+}

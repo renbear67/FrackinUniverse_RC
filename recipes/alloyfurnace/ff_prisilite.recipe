@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "prisiliteore", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "prisilitestar",
+    "count" : 1
+  },
+  "groups" : [ "alloyfurnace", "all" ]
+}

@@ -1,0 +1,15 @@
+{
+  "input" : [
+    { "item" : "silk", "count" : 20 },
+    { "item" : "lasherplantseed", "count" : 4 },
+    { "item" : "vialred", "count" : 1 },
+    { "item" : "dnasample", "count" : 30 },
+    { "item" : "ff_protoplating", "count" : 2 },
+    { "item" : "biochip", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "lasherhook",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "weapons", "all" ]
+}

@@ -1,0 +1,14 @@
+{
+  "itemName" : "pinkloom",
+  "rarity" : "uncommon",
+  "category" : "Farmable",
+  "inventoryIcon" : "pinkloom.png",
+  "description" : "Herbs are useful for many recipes!",
+  "shortdescription" : "Pinkloom Herb",
+  "effects" : [ [
+      {
+        "effect" : "lowgrav",
+        "duration" : 30
+      }
+    ] ]
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "gyrvegvaelo", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "tissueculture",
+    "count" : 6
+  },
+  "groups" : [ "quantumextractor", "all" ]
+}

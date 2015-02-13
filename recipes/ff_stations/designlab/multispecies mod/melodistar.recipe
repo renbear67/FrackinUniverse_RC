@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "defensegene2", "count" : 1 },
+    { "item" : "musclegene2", "count" : 1 },
+    { "item" : "cellmatter", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "melodistarseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "objects", "all", "tools" ]
+}

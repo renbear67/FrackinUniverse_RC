@@ -1,0 +1,20 @@
+{
+  "materialId" : 6582,
+  "materialName" : "iceblock3",
+  "particleColor" : [209, 162, 80, 255],
+  "itemDrop" : "iceblock3material",
+  "description" : "frozen water",
+  "shortdescription" : "Ancient Ice",
+  "footstepSound" : "/sfx/blocks/footstep_stone2.wav",
+  "health" : 8,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "iceblock3.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "nervebundle2", "count" : 1 },
+    { "item" : "biosample", "count" : 3 },
+    { "item" : "luminescentpaste", "count" : 1 }    
+  ],
+  "output" : {
+    "item" : "blisterbushplantseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "objects", "all", "tools" ]
+}

@@ -1,0 +1,22 @@
+{
+  "materialId" : 6593,
+  "materialName" : "penumbriteblock",
+  "particleColor" : [109, 127, 223, 205],
+  "itemDrop" : "penumbriteblockmaterial",
+  "description" : "A solid block of penumbrite alloy.",
+  "shortdescription" : "Diamond block",
+  "multicolored" : false,
+  "footstepSound" : "/sfx/blocks/footstep_metallic.wav",
+  "health" : 44,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "penumbriteblock.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0,
+	"radiantLight" : [0.3, 0.05, 0.3]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "regengene2", "count" : 1 },
+    { "item" : "chloroplast1", "count" : 1 },
+    { "item" : "petalblue", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "silverleafseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "objects", "all", "tools" ]
+}

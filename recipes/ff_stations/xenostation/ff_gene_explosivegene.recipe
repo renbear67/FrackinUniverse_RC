@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "firegene", "count" : 1 },
+    { "item" : "saltpeter", "count" : 12 },
+    { "item" : "calciumnitrate", "count" : 6 },
+	{ "item" : "liquidoil", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "explosivegene",
+    "count" : 1
+  },
+  "groups" : [ "xenostation", "objects", "all", "crafting" ]
+}

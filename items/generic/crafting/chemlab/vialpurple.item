@@ -1,0 +1,8 @@
+{
+  "itemName" : "vialpurple",
+  "rarity" : "rare",
+  "inventoryIcon" : "vialpurple.png",
+  "description" : "Experimental chemical mixture.",
+  "shortdescription" : "Test Formula C",
+    "learnBlueprintsOnPickup" : [ "flaskpurple" ]
+}

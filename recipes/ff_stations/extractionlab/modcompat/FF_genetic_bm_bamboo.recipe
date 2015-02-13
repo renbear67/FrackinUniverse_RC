@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "bm_bamboostalk", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ff_bambooshoot",
+    "count" : 1
+  },
+  "groups" : [ "extractionlab", "all" ]
+}

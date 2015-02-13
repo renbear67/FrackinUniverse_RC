@@ -1,0 +1,8 @@
+{
+  "itemName" : "bioreagentyellow",
+  "rarity" : "Common",
+  "inventoryIcon" : "bioreagentyellow.png",
+  "description" : "Specially formulated yellow chemical powder",
+  "shortdescription" : "Yellow Bio-Reagent",
+    "learnBlueprintsOnPickup" : [ "vialyellow" ]
+}

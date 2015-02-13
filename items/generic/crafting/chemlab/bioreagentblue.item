@@ -1,0 +1,8 @@
+{
+  "itemName" : "bioreagentblue",
+  "rarity" : "Common",
+  "inventoryIcon" : "bioreagentblue.png",
+  "description" : "Specially formulated blue chemical powder",
+  "shortdescription" : "Blue Bio-Reagent",
+  "learnBlueprintsOnPickup" : [ "vialblue" ]
+}

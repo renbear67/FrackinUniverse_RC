@@ -1,0 +1,8 @@
+{
+  "itemName" : "obsidianshard",
+  "rarity" : "Common",
+  "inventoryIcon" : "obsidianshard.png",
+  "description" : "A jagged shard of obsidian. Quite sharp.",
+  "shortdescription" : "Obsidian Shard",
+  "learnBlueprintsOnPickup" : [ "obsidianblade" ]
+}

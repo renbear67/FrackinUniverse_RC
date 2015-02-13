@@ -1,0 +1,44 @@
+{
+  "objectName" : "wildshockshroomseed",
+  "rarity" : "Uncommon",
+  "category" : "farmable",
+  "description" : "A Shock Shroom seed. Zappy owwie pain.",
+  "shortdescription" : "Shock-Shroom Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "objectItem" : "dnasample",
+  "apexDescription" : "Electric Mushrooms.",
+  "avianDescription" : "Electric Toadstools.",
+  "floranDescription" : "Floran hatsss zappy fruitsss.",
+  "glitchDescription" : "Analysis. This fungus is electric.",
+  "humanDescription" : "Ow. Why does this have voltage?.",
+  "hylotlDescription" : "Mushrooms. With voltage. Odd, that.",
+
+  "inventoryIcon" : "shockshroomseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "shockshroomseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [300, 600]
+    },
+    {
+      "duration" : [300, 600]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "wildshockshroomHarvest"
+    }
+  ]
+}

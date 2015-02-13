@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "hive", "count" : 50 }
+  ],
+  "output" : {
+    "item" : "geneticmaterial",
+    "count" : 3
+  },
+  "groups" : [ "extractionlab", "all" ]
+}

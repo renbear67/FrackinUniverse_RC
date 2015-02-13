@@ -1,0 +1,11 @@
+{
+  "itemName" : "avesmingo2",
+  "rarity" : "rare",
+  "inventoryIcon" : "avesmingo2.png",
+  "description" : "This modified Avesmingo is really filling!",
+  "shortdescription" : "Enhanced Avesmingo",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+      "wellfed"
+    ] ]
+}

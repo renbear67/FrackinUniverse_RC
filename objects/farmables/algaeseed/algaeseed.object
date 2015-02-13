@@ -1,0 +1,36 @@
+{
+  "objectName" : "algaeseed",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "Green algae. Probably not too tasty.",
+  "shortdescription" : "Algae Pod",
+  "objectType" : "farmable",
+
+  "inventoryIcon" : "algaegreenicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "algaeseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [-4, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [300, 600]
+    },
+    {
+      "duration" : [300, 600]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "algaeHarvest"
+    }
+  ]
+}

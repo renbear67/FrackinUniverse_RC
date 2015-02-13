@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "nervebundle3", "count" : 4 },
+    { "item" : "cellhardening2", "count" : 1 },
+    { "item" : "protocitebar", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "neuropodseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "objects", "all", "tools" ]
+}

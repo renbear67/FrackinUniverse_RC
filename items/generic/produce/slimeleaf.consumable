@@ -1,0 +1,10 @@
+{
+  "itemName" : "slimeleaf",
+  "rarity" : "Common",
+  "inventoryIcon" : "slimeleaf.png",
+  "description" : "Tastes like ass. Upside? 30 Protection.",
+  "shortdescription" : "Slime Leaf",
+      "effects" : [ [
+          "defenseboost30"
+    ] ]
+}

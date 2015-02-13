@@ -1,0 +1,8 @@
+{
+  "itemName" : "ff_fertilizer2",
+  "rarity" : "rare",
+  "inventoryIcon" : "fertilizer.png",
+  "description" : "It's what plants crave.",
+  "shortdescription" : "Advanced Fertilizer",
+  "learnBlueprintsOnPickup" : [ "ff_fertilizer3", "methyliodide", "pesticide" ]
+}

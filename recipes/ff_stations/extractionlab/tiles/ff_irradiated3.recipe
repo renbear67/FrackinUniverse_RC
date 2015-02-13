@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "irradiatedwall3", "count" : 50 }
+  ],
+  "output" : {
+    "item" : "uraniumore",
+    "count" : 2
+  },
+  "groups" : [ "extractionlab", "all" ]
+}

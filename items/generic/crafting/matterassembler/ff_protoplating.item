@@ -1,0 +1,8 @@
+{
+  "itemName" : "ff_protoplating",
+  "rarity" : "Common",
+  "inventoryIcon" : "ff_protoplating.png",
+  "description" : "Energy-conductive super-alloy",
+  "shortdescription" : "Proto Plating",
+  "learnBlueprintsOnPickup" : [ "ff_scoutchest", "ff_scouthelm", "ff_scoutpants" ]
+}

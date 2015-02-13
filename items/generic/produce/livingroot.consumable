@@ -1,0 +1,12 @@
+{
+  "itemName" : "livingroot",
+  "rarity" : "uncommon",
+  "category" : "Farmable",
+  "inventoryIcon" : "livingrooticon.png",
+  "description" : "Glowy goodness.",
+  "shortdescription" : "Living Root",
+  "effects" : [ [
+      { "effect" : "glow",
+	  "duration" : 125 }
+    ] ]
+}

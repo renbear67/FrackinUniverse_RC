@@ -1,0 +1,16 @@
+{
+  "itemName" : "diodiahybrid",
+  "rarity" : "Common",
+  "inventoryIcon" : "diodiahybrid.png",
+  "description" : "This hybrid fruit restores some energy.",
+  "shortdescription" : "Diodia Hybrid Fruit",
+  "effects" : [ [
+      {
+        "effect" : "energyregen96",
+        "duration" : 15
+      }
+    ] ],
+  "blockingEffects" : [
+    "energyregen96"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "meteoriterock", "count" : 50 }
+  ],
+  "output" : {
+    "item" : "ff_silicon",
+    "count" : 2
+  },
+  "groups" : [ "extractionlab", "all" ]
+}

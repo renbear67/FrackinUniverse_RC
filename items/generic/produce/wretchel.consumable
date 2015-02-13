@@ -1,0 +1,11 @@
+{
+  "itemName" : "wretchel",
+  "rarity" : "Common",
+  "inventoryIcon" : "wretchel.png",
+  "description" : "Hideously unappealing pan-dimensional produce.",
+  "shortdescription" : "Wretchel Chunk",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      "wellfed"
+    ] ]
+}

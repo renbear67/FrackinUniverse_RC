@@ -1,0 +1,17 @@
+{
+  "itemName" : "varanberry",
+  "rarity" : "Common",
+  "inventoryIcon" : "varanberry.png",
+  "description" : "Tastes like joy and happy.",
+  "shortdescription" : "Varan Berries",
+  "effects" : [ [
+       {
+        "effect" : "regeneration1",
+        "amount" : 0.01,
+        "duration" : 2
+        }
+    ] ],
+    "blockingEffects" : [
+    "regeneration1"
+  ]
+}

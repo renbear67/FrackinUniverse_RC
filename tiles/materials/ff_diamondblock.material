@@ -1,0 +1,23 @@
+{
+  "materialId" : 6592,
+  "materialName" : "ff_diamondblock",
+  "particleColor" : [49, 127, 223, 205],
+  "itemDrop" : "diamondblockmaterial",
+  "description" : "A solid block of diamond alloy.",
+  "shortdescription" : "Diamond block",
+  "multicolored" : false,
+  "footstepSound" : "/sfx/blocks/footstep_metallic.wav",
+  "tillableMod" : 31,
+  "soil" : true,
+  "health" : 84,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "ff_diamondblock.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

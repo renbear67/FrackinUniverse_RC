@@ -1,0 +1,21 @@
+{
+  "materialId" : 6595,
+  "materialName" : "steelgirdirvertical",
+  "particleColor" : [100, 100, 100, 205],
+  "itemDrop" : "steelgirdirverticalmaterial",
+  "description" : "A solid steel girder",
+  "shortdescription" : "Steel Girder",
+  "multicolored" : false,
+  "footstepSound" : "/sfx/blocks/footstep_girdir.wav",
+  "health" : 34,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "steelgirdirvertical.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

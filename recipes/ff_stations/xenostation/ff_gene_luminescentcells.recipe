@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "synthesizedprotein", "count" : 4 },
+    { "item" : "peptidechain", "count" : 5 },
+    { "item" : "ff_resin", "count" : 4 },
+    { "item" : "biospore", "count" : 8 },
+    { "item" : "dnasample", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "luminescentcells",
+    "count" : 1
+  },
+  "groups" : [ "xenostation", "objects", "all", "crafting" ]
+}

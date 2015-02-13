@@ -1,0 +1,11 @@
+{
+  "input" : [
+	{ "item" : "chloroplast1", "count" : 3 },
+    { "item" : "nutrientpaste", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "beetlesproutseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "objects", "all", "tools" ]
+}

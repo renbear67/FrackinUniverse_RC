@@ -1,0 +1,21 @@
+{
+  "materialId" : 6603,
+  "materialName" : "elderblock1",
+  "particleColor" : [100, 140, 100, 205],
+  "itemDrop" : "elderblockmaterial",
+  "description" : "Cozy, in that malign sort of way.",
+  "shortdescription" : "Elder Temple Wall",
+  "footstepSound" : "/sfx/blocks/footstep_stone3.wav",
+  "health" : 10,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "elderblock1.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}
+

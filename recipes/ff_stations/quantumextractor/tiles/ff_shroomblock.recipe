@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "shroomblock", "count" : 50 }
+  ],
+  "output" : {
+    "item" : "geneticmaterial",
+    "count" : 3
+  },
+  "groups" : [ "quantumextractor", "all" ]
+}

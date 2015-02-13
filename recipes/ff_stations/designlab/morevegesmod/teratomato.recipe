@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "organicsynthesis", "count" : 1 },
+    { "item" : "aggressiongene", "count" : 1 },
+    { "item" : "dnasample", "count" : 4 },
+    { "item" : "organicsynthesis", "count" : 1 },
+    { "item" : "tomatoseed", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "teratomatoseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "objects", "all", "tools" ]
+}

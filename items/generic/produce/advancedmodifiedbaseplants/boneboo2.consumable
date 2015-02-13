@@ -1,0 +1,10 @@
+{
+  "itemName" : "boneboo2",
+  "rarity" : "rare",
+  "inventoryIcon" : "boneboo2.png",
+  "description" : "Crumbly, and provides an energy boost for a bit.",
+  "shortdescription" : "Enhanced Boneboo",
+  "effects" : [ [
+      "wellfed"
+    ] ]
+}

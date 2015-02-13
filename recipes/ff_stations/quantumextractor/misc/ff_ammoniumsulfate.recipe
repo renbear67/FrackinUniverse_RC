@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "mascagniteore", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "ammoniumsulfate",
+    "count" : 2
+  },
+  "groups" : [ "quantumextractor", "all" ]
+}

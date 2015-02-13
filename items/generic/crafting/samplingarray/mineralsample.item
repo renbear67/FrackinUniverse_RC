@@ -1,0 +1,7 @@
+{
+  "itemName" : "mineralsample",
+  "rarity" : "common",
+  "inventoryIcon" : "mineralsample.png",
+  "description" : "Useful sample of nutrient-rich minerals.",
+  "shortdescription" : "Mineral Sample"
+}

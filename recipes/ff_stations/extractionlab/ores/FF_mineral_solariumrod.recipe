@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "solariumstar", "count" : 14 }
+  ],
+  "output" : {
+    "item" : "matteritem",
+    "count" : 1
+  },
+  "groups" : [ "extractionlab", "all" ]
+}

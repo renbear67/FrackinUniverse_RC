@@ -1,0 +1,58 @@
+{
+  "objectName" : "energiflowerseed",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "An orb of energy growing from a plant.",
+  "shortdescription" : "Energiflower Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+
+  "apexDescription" : "Energiflowers act as a renewable source of fuel, but are not best to be eaten directly.",
+  "avianDescription" : "What a pretty glowing plant.",
+  "floranDescription" : "Glowy plant is not pleasssant to eat.",
+  "glitchDescription" : "Precaution. Energy orb could potentially provide power, but requires prior processing.",
+  "humanDescription" : "This flower contains an unhealthy dose of energy.",
+  "hylotlDescription" : "Beautiful, and also visible in the dark.",
+  "flamencoDescription" : "It's pretty and useful for fuel at the same time, but definitely causes tummy aches.",
+  "snowstrifeDescription" : "This plant glows brightly and is not tasty at all.",
+  "naylaDescription" : "This plant has a glow of great brightness.",
+  "mistfenDescription" : "Yip! Energiflower charges me up!",
+  "alienbutterflyDescription" : "Oh! Shiny, shiny, SHINY! It's so beautiful to look at.",
+
+  "lightColor" : [100, 255, 185],
+  "flickerDistance" : 0.5,
+  "flickerStrength" : 0.1,
+  
+  "inventoryIcon" : "energiflowerseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "energiflowerseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [300, 600]
+    },
+    {
+      "duration" : [300, 600]
+    },
+    {
+      "alts" : 5,
+      "duration" : [110, 130]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "energiflowerHarvest",
+      "resetToStage" : 2
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "solaricrystal", "count" : 4 },
+    { "item" : "triggerassembly", "count" : 1 },
+    { "item" : "gunhousing", "count" : 1 },
+    { "item" : "ironbar", "count" : 3 } 
+  ],
+  "output" : {
+    "item" : "ff_icechucker",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "weapons", "all" ]
+}

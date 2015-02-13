@@ -1,0 +1,10 @@
+{
+  "codexId" : "recipebook_samplingarray_mutavisk",
+  "title" : "(FF) Synthesis with Mutavisk Thread",
+  "codexkind" : "codex",
+  "inventoryIcon" : "ffbook.png",
+  "itemName" : "recipebook_samplingarray_mutavisk",
+  "rarity" : "common",
+  "description" : "A how-to for Mutavisk thread.",
+  "shortdescription" : "Synthesis with Mutavisk Thread"
+}

@@ -1,0 +1,16 @@
+{
+  "itemName" : "leafshell",
+  "rarity" : "Common",
+  "inventoryIcon" : "leafshellicon.png",
+  "description" : "A leafy egg vegetable. Bounce a little would ya'?.",
+  "shortdescription" : "Leafshell",
+  "effects" : [ [
+      {
+        "effect" : "bouncy",
+        "duration" : 30
+      }
+    ] ],
+  "blockingEffects" : [
+    "bouncy"
+  ]
+}

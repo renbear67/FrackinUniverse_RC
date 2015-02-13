@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "penumbriteshard", "count" : 2 },
+    { "item" : "ff_mercury", "count" : 2 },
+    { "item" : "lead", "count" : 2 },
+    { "item" : "steelbar", "count" : 1 },
+    { "item" : "mineralsample", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "ff_penumbraplating",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "armors", "all" ]
+}

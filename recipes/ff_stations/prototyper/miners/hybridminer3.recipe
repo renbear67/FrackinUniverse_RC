@@ -1,0 +1,12 @@
+{
+  "input" : [
+   { "item" : "refinedrubium", "count" : 5 },
+   { "item" : "nuclearcore", "count" : 1 }, 
+   { "item" : "hybridminer2", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "hybridminer3",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "chemical", "all" ]
+}
