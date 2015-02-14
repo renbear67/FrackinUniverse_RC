@@ -22,7 +22,7 @@
       "options" : [ "/sfx/projectiles/goocluster_pop.wav" ]
     }
   ],
-  "power" : 50.0,
+  //"power" : 50.0,
   "speed" : 25,
   //"damageType" : "hitTest",
   "damageKind" : "acid"

@@ -16,6 +16,7 @@
     "tooltipKind" : "gun",
     "fireTime" : 0.022,
     "twoHanded" : false,
+    "classMultiplier" : 0.007,
     "rateOfFire" : [2, 7],
     "muzzleEffect" : {
       "fireSound" : [ { "file" : "/sfx/projectiles/swing_electric1.wav" } ]

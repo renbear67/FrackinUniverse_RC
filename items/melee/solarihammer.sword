@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "rare",
   "description" : "Forged from raw solari crystals.",
-  "shortdescription" : "Lunari Hammer",
+  "shortdescription" : "Solari Hammer",
   "inspectionKind" : "sword",
   "tooltipKind" : "sword",
   "kind" : "Hammer",

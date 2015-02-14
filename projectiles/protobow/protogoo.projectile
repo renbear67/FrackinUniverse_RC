@@ -50,7 +50,7 @@
       "file" : "/projectiles/explosions/slimestormexplosion/slimestormexplosionbow.config"
     }
   ],
-  "power" : 5.0,
+  //"power" : 5.0,
   //"damageType" : "hitTest",
   "damageKind" : "acid"
 }

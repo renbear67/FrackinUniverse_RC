@@ -17,74 +17,75 @@
       "action" : "projectile",
       "type" : "molotovflame",
       "fuzzAngle" : 0,
-      "inheritDamageFactor" : 1,
+      "inheritDamageFactor" : 0.03,
       "angleAdjust" : 75
     },
     {
       "action" : "projectile",
       "type" : "molotovflame",
       "fuzzAngle" : 0,
-      "inheritDamageFactor" : 1,
+      "inheritDamageFactor" : 0.03,
       "angleAdjust" : -75
     },
     {
       "action" : "projectile",
       "type" : "molotovflame",
       "fuzzAngle" : 0,
-      "inheritDamageFactor" : 1,
+      "inheritDamageFactor" : 0.03,
       "angleAdjust" : -35
     },
     {
       "action" : "projectile",
       "type" : "molotovflame",
       "fuzzAngle" : 0,
-      "inheritDamageFactor" : 1,
+      "inheritDamageFactor" : 0.03,
       "angleAdjust" : 0
     },
     {
       "action" : "projectile",
       "type" : "molotovflame",
       "fuzzAngle" : 0,
-      "inheritDamageFactor" : 1,
+      "inheritDamageFactor" : 0.03,
       "angleAdjust" : 180
     },
     {
       "action" : "projectile",
       "type" : "molotovflame",
       "fuzzAngle" : 0,
-      "inheritDamageFactor" : 1,
+      "inheritDamageFactor" : 0.03,
       "angleAdjust" : 35
     },
     {
       "action" : "projectile",
       "type" : "molotovflame",
       "fuzzAngle" : 0,
-      "inheritDamageFactor" : 1,
+      "inheritDamageFactor" : 0.03,
       "angleAdjust" : -35
     },
     {
       "action" : "projectile",
       "type" : "molotovflame",
       "fuzzAngle" : 0,
-      "inheritDamageFactor" : 1,
+      "inheritDamageFactor" : 0.03,
       "angleAdjust" : -225
     },
     {
       "action" : "projectile",
       "type" : "molotovflame",
       "fuzzAngle" : 0,
-      "inheritDamageFactor" : 1,
+      "inheritDamageFactor" : 0.03,
       "angleAdjust" : 225
     },
     {
       "action" : "projectile",
       "type" : "molotovflame",
       "fuzzAngle" : 0,
-      "inheritDamageFactor" : 1,
+      "inheritDamageFactor" : 0.03,
       "angleAdjust" : 320
     }
   ],
-  "power" : 10.0,
+  //"power" : 10.0,
+  "damagePoly" : [ [-10, 0], [0, 7], [10, 10], [10, 0], [-10, -10], [0, -7] ],
   "damageKind" : "default",
   "emitters" : [ "javelinred" ]
 }

@@ -18,7 +18,7 @@
 
 
   "primaryStances" : {
-	"directional" : false,
+	"directional" : true,
     "projectileType" : "particleswoosh",
     "projectile" : {
       "speed" : 0.1,
@@ -26,8 +26,8 @@
     },
     "idle" : {
       "twoHanded" : false,
-      "armAngle" : -90,
-      "swordAngle" : -90,
+      "armAngle" : 999,
+      "swordAngle" : 999,
       "handPosition" : [-6.0, -17.0],
       "armFrameOverride" : "idleMelee",
       "duration" : 0.1

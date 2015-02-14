@@ -16,6 +16,7 @@
   "fireTime" : 0.40,
   "twoHanded" : true,  
   "walkWhileFiring" : false,
+  "classMultiplier" : 0.065,
   "spread" : 1,
   "learnBlueprintsOnPickup" : [ "mineralcannon" ],
   "projectileType" : "mineralcannonshot",

@@ -13,7 +13,6 @@
   "piercing" : false,
   "damagePoly" : [ [0, -8], [16, -8], [16, 8], [0, 8] ],
   "damageKind" : "plasma",
-  "harvestLevel" : 99,
   "actionOnReap" : [
     {
       "action" : "config",

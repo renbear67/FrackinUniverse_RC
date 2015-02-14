@@ -15,6 +15,6 @@
       "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
     }
   ],
-  "power" : 5.0,
+  //"power" : 5.0,
   "damageKind" : "slash"
 }

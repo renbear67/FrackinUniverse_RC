@@ -16,6 +16,7 @@
   "fireTime" : 0.25,
   "twoHanded" : false,
   "walkWhileFiring" : false,
+  "classMultiplier" : 0.08,
   "rateOfFire" : [2, 7],
   "muzzleEffect" : {
     "fireSound" : [ { "file" : "/sfx/gun/plasma_mp2.wav" } ],

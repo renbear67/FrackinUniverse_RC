@@ -18,11 +18,12 @@
 
   "fireOnRelease" : false,
   "walkWhileFiring" : false,
+  "classMultiplier" : 0.52,
   "spread" : 1,
   "projectileType" : "hellfireprojectile2small",
   "projectile" : { 
   "speed" : 50, 
-  "power" : 4 , 
+  "power" : 3.2 , 
   "color" : [255, 141, 40] 
   },
   

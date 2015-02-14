@@ -9,7 +9,7 @@
   "damageKindImage" : "icon.png",
   "timeToLive" : 6,
   "pointLight" : false,
-  "power" : 5,  
+  //"power" : 5,  
   "lightColor" : [181, 187, 29],
   "damageKind" : "testpoison",
   "statusEffects" : [ "weakpoison" ],
@@ -18,7 +18,7 @@
       "action" : "projectile",
       "type" : "protocluster",
       "inheritDamageFactor" : 0.2,
-      "power": 200
+      //"power": 200
     }
   ]  
 }
