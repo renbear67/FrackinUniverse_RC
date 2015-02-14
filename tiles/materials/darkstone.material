@@ -7,6 +7,7 @@
   "description" : "A stone of solid darkness.",
   "footstepSound" : "/sfx/blocks/footstep_stone.wav",
   "health" : 9,
+  "category": "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {

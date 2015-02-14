@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "gneissmaterial", "count" : 50 }
+  ],
+  "output" : {
+    "item" : "rawminerals",
+    "count" : 5
+  },
+  "groups" : [ "quantumextractor", "all" ]
+}

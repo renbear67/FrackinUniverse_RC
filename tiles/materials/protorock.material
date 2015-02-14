@@ -7,6 +7,7 @@
   "shortdescription" : "Elder Stone",
   "footstepSound" : "/sfx/blocks/footstep_stone3.wav",
   "health" : 50,
+  "category": "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {

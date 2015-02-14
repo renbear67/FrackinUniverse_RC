@@ -8,6 +8,7 @@
   "multicolored" : false,
   "footstepSound" : "/sfx/blocks/footstep_metallic.wav",
   "health" : 44,
+  "category": "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {

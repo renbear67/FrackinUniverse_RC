@@ -10,6 +10,7 @@
   "tillableMod" : 31,
   "soil" : true,
   "health" : 84,
+  "category": "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {

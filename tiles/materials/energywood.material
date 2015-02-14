@@ -10,6 +10,7 @@
   "footstepSound" : "/sfx/blocks/footstep_wood.wav",
   "health" : 6,
   "damageTable" : "/tiles/flammableDamage.config",
+  "category": "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
