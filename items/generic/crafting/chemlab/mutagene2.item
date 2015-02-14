@@ -2,6 +2,6 @@
   "itemName" : "mutagene2",
   "rarity" : "rare",
   "inventoryIcon" : "mutagene2.png",
-  "description" : "Dramatically alters genes",
-  "shortdescription" : "Powerful mutagenic extract"
+  "description" : "Powerful mutagenic extract",
+  "shortdescription" : "Dramatically alters genes."
 }

@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "vialproto", "count" : 1 },
     { "item" : "magnesiumpowder", "count" : 2 },
-    { "item" : "bioreagentgrey", "count" : 1 },
+    { "item" : "sulphur", "count" : 2 },
     { "item" : "penumbriteshard", "count" : 1 }
   ],
   "output" : {

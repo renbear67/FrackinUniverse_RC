@@ -9,6 +9,7 @@
   "florandescription" : "Ready to sssnap.",
   "footstepSound" : "/sfx/blocks/footstep_girder.wav",
   "health" : 6,
+  "category": "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {

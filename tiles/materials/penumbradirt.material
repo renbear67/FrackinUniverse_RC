@@ -8,6 +8,7 @@
   "footstepSound" : "/sfx/blocks/footstep_dirt.wav",
   "soil" : true,
   "health" : 5,
+  "category": "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {

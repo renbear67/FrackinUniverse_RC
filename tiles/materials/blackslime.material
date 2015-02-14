@@ -7,6 +7,7 @@
   "shortdescription" : "Black Slime",
   "footstepSound" : "/sfx/blocks/footstep_brains.wav",
   "health" : 4,
+  "category": "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {

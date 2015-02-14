@@ -9,6 +9,7 @@
   "health" : 6,
   "soil" : true,
   "damageTable" : "/tiles/flammableDamage.config",
+  "category": "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {

@@ -7,6 +7,7 @@
   "shortdescription" : "Dense Proto Shale",
   "footstepSound" : "/sfx/blocks/footstep_brains.wav",
   "health" : 7,
+  "category": "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
