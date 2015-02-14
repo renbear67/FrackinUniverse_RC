@@ -15,22 +15,22 @@
           "primaryRegion" : [ "arborealunderground" ]
         },
         "underground1" : {
-          "primaryRegion" : [ "arborealunderground", "bonecaves", "cellcaves" , "icecaves", "luminouscaves",  "minivillageunderground", "mushroomunderground", "stonecaves", "wildernessunderground", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave"]
+          "primaryRegion" : [ "arborealunderground", "bonecaves", "cellcaves" , "icecaves", "luminouscaves",  "minivillageunderground", "mushroomunderground", "wildernessunderground", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine" ]
         },
         "underground2" : {
-          "primaryRegion" : [ "arborealunderground", "bonecaves", "cellcaves" , "icecaves", "luminouscaves",  "minivillageunderground", "mushroomunderground", "stonecaves", "wildernessunderground", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave"]
+          "primaryRegion" : [ "arborealunderground", "bonecaves", "cellcaves" , "icecaves", "luminouscaves",  "minivillageunderground", "mushroomunderground", "wildernessunderground", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine" ]
         },
         "underground3" : {
-          "primaryRegion" : [ "arborealunderground", "bonecaves", "cellcaves" , "icecaves", "luminouscaves",  "minivillageunderground", "mushroomunderground", "stonecaves", "wildernessunderground", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave"] 
+          "primaryRegion" : [ "arborealunderground", "bonecaves", "cellcaves" , "icecaves", "luminouscaves",  "minivillageunderground", "mushroomunderground", "wildernessunderground", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine" ]
         },
         "underground4" : {
-          "primaryRegion" : [ "arborealunderground", "bonecaves", "cellcaves" , "icecaves", "luminouscaves",  "minivillageunderground", "mushroomunderground", "stonecaves", "wildernessunderground", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave"] 
+          "primaryRegion" : [ "arborealunderground", "bonecaves", "cellcaves" , "icecaves", "luminouscaves",  "minivillageunderground", "mushroomunderground", "wildernessunderground", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine" ]
         },
         "underground5" : {
-          "primaryRegion" : [ "arborealunderground", "bonecaves", "cellcaves" , "icecaves", "luminouscaves",  "minivillageunderground", "mushroomunderground", "stonecaves", "wildernessunderground", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave"] 
+          "primaryRegion" : [ "arborealunderground", "bonecaves", "cellcaves" , "icecaves", "luminouscaves",  "minivillageunderground", "mushroomunderground", "wildernessunderground", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine" ]
         },
         "underground6" : {
-          "primaryRegion" : [ "arborealunderground", "bonecaves", "cellcaves" , "icecaves", "luminouscaves",  "minivillageunderground", "mushroomunderground", "stonecaves", "wildernessunderground", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave"]
+          "primaryRegion" : [ "arborealunderground", "bonecaves", "cellcaves" , "icecaves", "luminouscaves",  "minivillageunderground", "mushroomunderground", "wildernessunderground", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine" ]
         }
        }
      }
@@ -52,22 +52,22 @@
           "primaryRegion" : [ "atropusunderground", "ffshadow" ]
         },
         "underground1" : {
-          "primaryRegion" : [ "atropusunderground", "fleshcaves", "cellcaves", "ffshadow", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "atropusunderground", "fleshcaves", "cellcaves", "ffshadow" ]
         },
         "underground2" : {
-          "primaryRegion" : [ "atropusunderground", "fleshcaves", "cellcaves", "ffshadow", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "atropusunderground", "fleshcaves", "cellcaves", "ffshadow" ]
         },
         "underground3" : {
-          "primaryRegion" : [ "atropusunderground", "fleshcaves", "cellcaves", "ffshadow", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "atropusunderground", "fleshcaves", "cellcaves", "ffshadow" ]
         },
         "underground4" : {
-          "primaryRegion" : [ "atropusunderground", "fleshcaves", "cellcaves", "ffshadow", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "atropusunderground", "fleshcaves", "cellcaves", "ffshadow" ]
         },
         "underground5" : {
-          "primaryRegion" : [ "atropusunderground", "fleshcaves", "cellcaves", "ffshadow", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "atropusunderground", "fleshcaves", "cellcaves", "ffshadow" ]
         },
         "underground6" : {
-          "primaryRegion" : [ "atropusunderground", "fleshcaves", "cellcaves", "ffshadow", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "atropusunderground", "fleshcaves", "cellcaves", "ffshadow" ]
         }
        }
      }
@@ -89,23 +89,23 @@
           "primaryRegion" : [ "bloodstoneunderground", "ffshadow" ]
         },
         "underground1" : {
-          "primaryRegion" : [ "bloodstoneunderground", "fleshcaves", "cellcaves", "ffshadow", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "bloodstoneunderground", "ffshadow", "fleshcaves", "ffvolcanic", "ffcrystalcavern" ]
         },
         "underground2" : {
-          "primaryRegion" : [ "bloodstoneunderground", "fleshcaves", "cellcaves", "ffshadow", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "bloodstoneunderground", "ffshadow", "fleshcaves", "ffvolcanic", "ffcrystalcavern" ]
         },
         "underground3" : {
-          "primaryRegion" : [ "bloodstoneunderground", "fleshcaves", "cellcaves", "ffshadow", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "bloodstoneunderground", "ffshadow", "fleshcaves", "ffvolcanic", "ffcrystalcavern" ]
         },
         "underground4" : {
-          "primaryRegion" : [ "bloodstoneunderground", "fleshcaves", "cellcaves", "ffshadow", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "bloodstoneunderground", "ffshadow", "fleshcaves", "ffvolcanic", "ffcrystalcavern" ]
         },
         "underground5" : {
-          "primaryRegion" : [ "bloodstoneunderground", "fleshcaves", "cellcaves", "ffshadow", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "bloodstoneunderground", "ffshadow", "fleshcaves", "ffvolcanic", "ffcrystalcavern" ]
         },
         "underground6" : {
-          "primaryRegion" : [ "bloodstoneunderground", "fleshcaves", "cellcaves", "ffshadow", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
-        } 
+          "primaryRegion" : [ "bloodstoneunderground", "ffshadow", "fleshcaves", "ffvolcanic", "ffcrystalcavern" ]
+        }
         
        }
      }
@@ -163,22 +163,22 @@
           "primaryRegion" : [ "crystalmoonunderground" ]
         },
          "underground1" : {
-          "primaryRegion" : [ "crystalmoonunderground", "icecaves", "luminouscaves", "ffshadow", "ffzen", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "crystalmoonunderground", "icecaves", "luminouscaves", "ffshadow", "ffcrystalcavern", "ffcoralcave" ]
         },
         "underground2" : {
-          "primaryRegion" : [ "crystalmoonunderground", "icecaves", "luminouscaves", "ffshadow", "ffzen", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "crystalmoonunderground", "icecaves", "luminouscaves", "ffshadow", "ffcrystalcavern", "ffcoralcave" ]
         },
         "underground3" : {
-          "primaryRegion" : [ "crystalmoonunderground", "icecaves", "luminouscaves", "ffshadow", "ffzen", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "crystalmoonunderground", "icecaves", "luminouscaves", "ffshadow", "ffcrystalcavern", "ffcoralcave" ]
         },
         "underground4" : {
-          "primaryRegion" : [ "crystalmoonunderground", "icecaves", "luminouscaves", "ffshadow", "ffzen", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "crystalmoonunderground", "icecaves", "luminouscaves", "ffshadow", "ffcrystalcavern", "ffcoralcave" ]
         },
         "underground5" : {
-          "primaryRegion" : [ "crystalmoonunderground", "icecaves", "luminouscaves", "ffshadow", "ffzen", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "crystalmoonunderground", "icecaves", "luminouscaves", "ffshadow", "ffcrystalcavern", "ffcoralcave" ]
         },
         "underground6" : {
-          "primaryRegion" : [ "crystalmoonunderground", "icecaves", "luminouscaves", "ffshadow", "ffzen", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "crystalmoonunderground", "icecaves", "luminouscaves", "ffshadow", "ffcrystalcavern", "ffcoralcave" ]
         },
         "core" : {
           "primaryRegion" : [ "mooncore"]
@@ -203,22 +203,22 @@
           "primaryRegion" : [ "icewasteunderground", "ffshadow", "ffzen", "fffrostcavern" ]
         },
          "underground1" : {
-          "primaryRegion" : [ "icewasteunderground", "icecaves", "luminouscaves", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "icewasteunderground", "icecaves", "luminouscaves", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
         },
         "underground2" : {
-          "primaryRegion" : [ "icewasteunderground", "icecaves", "luminouscaves", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "icewasteunderground", "icecaves", "luminouscaves", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
         },
         "underground3" : {
-          "primaryRegion" : [ "icewasteunderground", "icecaves", "luminouscaves", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "icewasteunderground", "icecaves", "luminouscaves", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
         },
         "underground4" : {
-          "primaryRegion" : [ "icewasteunderground", "icecaves", "luminouscaves", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "icewasteunderground", "icecaves", "luminouscaves", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
         },
         "underground5" : {
-          "primaryRegion" : [ "icewasteunderground", "icecaves", "luminouscaves", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "icewasteunderground", "icecaves", "luminouscaves", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
         },
         "underground6" : {
-          "primaryRegion" : [ "icewasteunderground", "icecaves", "luminouscaves", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "icewasteunderground", "icecaves", "luminouscaves", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
         },
         "core" : {
           "primaryRegion" : [ "nitrogencore" ]
@@ -278,26 +278,26 @@
            "dungeons" : [ "wreck", "apexresearchlab", "humanprison" ]
          },
         "subsurface" : {
-          "primaryRegion" : [ "infernusunderground", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "infernusunderground", "ffshadow", "ffvolcanic", "ffcrystalcavern" ]
         },
          "underground1" : {
-          "primaryRegion" : [ "infernusunderground", "tarunderground", "stonecaves", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
-        },
+           "primaryRegion" : [ "infernusunderground", "ffshadow", "ffvolcanic", "ffcrystalcavern" ]
+           },
         "underground2" : {
-          "primaryRegion" : [ "infernusunderground", "tarunderground", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
-        },
+          "primaryRegion" : [ "infernusunderground", "ffshadow", "ffvolcanic", "ffcrystalcavern" ]
+          },
         "underground3" : {
-          "primaryRegion" : [ "infernusunderground", "tarunderground", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
-        },
+          "primaryRegion" : [ "infernusunderground", "ffshadow", "ffvolcanic", "ffcrystalcavern" ]
+          },
         "underground4" : {
-          "primaryRegion" : [ "infernusunderground", "tarunderground", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
-        },
+           "primaryRegion" : [ "infernusunderground", "ffshadow", "ffvolcanic", "ffcrystalcavern" ]
+           },
         "underground5" : {
-          "primaryRegion" : [ "infernusunderground", "tarunderground", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
-        },
+           "primaryRegion" : [ "infernusunderground", "ffshadow", "ffvolcanic", "ffcrystalcavern" ]
+           },
         "underground6" : {
-          "primaryRegion" : [ "infernusunderground", "tarunderground", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
-        }
+          "primaryRegion" : [ "infernusunderground", "ffshadow", "ffvolcanic", "ffcrystalcavern" ]
+          }
        }
      }
    },
@@ -315,26 +315,26 @@
           "dungeons" : [ "wreck", "glitchsewer", "glitchvillage", "avianairship","floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison" ]
         },
         "subsurface" : {
-          "primaryRegion" : [ "irradiatedunderground", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "irradiatedunderground", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffcrystalcavern" ]
         },
          "underground1" : {
-          "primaryRegion" : [ "irradiatedunderground", "tarunderground", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
-        },
+          "primaryRegion" : [ "irradiatedunderground", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffcrystalcavern" ]
+          },
         "underground2" : {
-          "primaryRegion" : [ "irradiatedunderground", "tarunderground", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
-        },
+          "primaryRegion" : [ "irradiatedunderground", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffcrystalcavern" ]
+          },
         "underground3" : {
-          "primaryRegion" : [ "irradiatedunderground", "tarunderground", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
-        },
+          "primaryRegion" : [ "irradiatedunderground", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffcrystalcavern" ]
+          },
         "underground4" : {
-          "primaryRegion" : [ "irradiatedunderground", "tarunderground", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
-        },
+          "primaryRegion" : [ "irradiatedunderground", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffcrystalcavern" ]
+          },
         "underground5" : {
-          "primaryRegion" : [ "irradiatedunderground", "tarunderground", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
-        },
+          "primaryRegion" : [ "irradiatedunderground", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffcrystalcavern" ]
+          },
         "underground6" : {
-          "primaryRegion" : [ "irradiatedunderground", "tarunderground", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
-        }
+          "primaryRegion" : [ "irradiatedunderground", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffcrystalcavern" ]
+          }
         }
       }
    },
@@ -430,23 +430,23 @@
           "primaryRegion" : [ "nitrogenseafloor" ]
         },
          "underground1" : {
-          "primaryRegion" : [ "icewasteunderground", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "icewasteunderground", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
         },
         "underground2" : {
-          "primaryRegion" : [ "icewasteunderground", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
-        },
+          "primaryRegion" : [ "icewasteunderground", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
+          },
         "underground3" : {
-          "primaryRegion" : [ "icewasteunderground", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
-        },
+	  "primaryRegion" : [ "icewasteunderground", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
+	  },
         "underground4" : {
-          "primaryRegion" : [ "icewasteunderground", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
-        },
+	  "primaryRegion" : [ "icewasteunderground", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]        
+	  },
         "underground5" : {
-          "primaryRegion" : [ "icewasteunderground", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
-        },
+	  "primaryRegion" : [ "icewasteunderground", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]        
+	  },
         "underground6" : {
-          "primaryRegion" : [ "icewasteunderground", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
-        },
+	  "primaryRegion" : [ "icewasteunderground", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ] 	        
+	  },
         "core" : {
           "primaryRegion" : [ "nitrogencore" ]
         }        
@@ -545,25 +545,25 @@
           "dungeons" : [ "wreck", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "avianairship", "aviantemple","humanbunker", "floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison", "naturalcave" ]        
         },
         "subsurface" : {
-          "primaryRegion" : [ "slimeworldunderground", "tarunderground", "luminouscaves", "cellcaves", "stonecaves", "mushroomunderground", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave"  ]
+          "primaryRegion" : [ "slimeworldunderground", "tarunderground", "luminouscaves", "cellcaves" ]
         },
          "underground1" : {
-          "primaryRegion" : [ "slimeworldunderground", "tarunderground", "luminouscaves", "cellcaves", "stonecaves", "mushroomunderground", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave"  ]
+          "primaryRegion" : [ "slimeworldunderground", "tarunderground", "luminouscaves", "cellcaves" ]
         },
         "underground2" : {
-          "primaryRegion" : [ "slimeworldunderground", "tarunderground", "luminouscaves", "cellcaves", "stonecaves", "mushroomunderground", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave"  ]
+          "primaryRegion" : [ "slimeworldunderground", "tarunderground", "luminouscaves", "cellcaves" ]
         },
         "underground3" : {
-          "primaryRegion" : [ "slimeworldunderground", "tarunderground", "luminouscaves", "cellcaves", "stonecaves", "mushroomunderground", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave"  ]
+          "primaryRegion" : [ "slimeworldunderground", "tarunderground", "luminouscaves", "cellcaves" ]
         },
         "underground4" : {
-          "primaryRegion" : [ "slimeworldunderground", "tarunderground", "luminouscaves", "cellcaves", "stonecaves", "mushroomunderground", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave"  ]
+          "primaryRegion" : [ "slimeworldunderground", "tarunderground", "luminouscaves", "cellcaves" ]
         },
         "underground5" : {
-          "primaryRegion" : [ "slimeworldunderground", "tarunderground", "luminouscaves", "cellcaves", "stonecaves", "mushroomunderground", "ffshadow", "ffzen", "fffrostcavern" , "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "slimeworldunderground", "tarunderground", "luminouscaves", "cellcaves" ]
         },
         "underground6" : {
-          "primaryRegion" : [ "slimeworldunderground", "tarunderground", "luminouscaves", "cellcaves", "stonecaves", "mushroomunderground", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "slimeworldunderground", "tarunderground", "luminouscaves", "cellcaves" ]
         }
         }
       }
@@ -602,25 +602,25 @@
           "dungeons" : [ "wreck", "floranhuntinggrounds", "floranhell", "floranvillagetower" ]
         },
         "subsurface" : {
-          "primaryRegion" : [ "arborealunderground",  "luminouscaves", "minivillageunderground", "wildernessunderground", "bonecaves", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "arborealunderground",  "luminouscaves", "minivillageunderground", "wildernessunderground", "bonecaves", "ffvolcanic" ]
         },
         "underground1" : {
-          "secondaryRegion" : [ "arborealunderground",  "luminouscaves", "minivillageunderground", "wildernessunderground", "bonecaves", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "arborealunderground",  "luminouscaves", "minivillageunderground", "wildernessunderground", "bonecaves", "ffvolcanic" ]
         },
         "underground2" : {
-          "secondaryRegion" : [ "arborealunderground",  "luminouscaves", "minivillageunderground", "wildernessunderground", "bonecaves", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "arborealunderground",  "luminouscaves", "minivillageunderground", "wildernessunderground", "bonecaves", "ffvolcanic" ]
         },
         "underground3" : {
-          "secondaryRegion" : [ "arborealunderground",  "luminouscaves", "minivillageunderground", "wildernessunderground", "bonecaves", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "arborealunderground",  "luminouscaves", "minivillageunderground", "wildernessunderground", "bonecaves", "ffvolcanic" ]
         },
         "underground4" : {
-          "secondaryRegion" : [ "arborealunderground",  "luminouscaves", "minivillageunderground", "wildernessunderground", "bonecaves", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "arborealunderground",  "luminouscaves", "minivillageunderground", "wildernessunderground", "bonecaves", "ffvolcanic" ]
         },
         "underground5" : {
-          "secondaryRegion" : [ "arborealunderground",  "luminouscaves", "minivillageunderground", "wildernessunderground", "bonecaves", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "arborealunderground",  "luminouscaves", "minivillageunderground", "wildernessunderground", "bonecaves", "ffvolcanic" ]
         },
         "underground6" : {
-          "secondaryRegion" : [ "arborealunderground",  "luminouscaves", "minivillageunderground", "wildernessunderground", "bonecaves", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "arborealunderground",  "luminouscaves", "minivillageunderground", "wildernessunderground", "bonecaves", "ffvolcanic" ]
         }
         }
       }
@@ -639,25 +639,25 @@
           "dungeons" : [ "wreck", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "avianairship", "aviantemple","humanbunker", "floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison", "naturalcave" ]
         },
         "subsurface" : {
-          "primaryRegion" : [ "barrenunderground", "fleshcave", "cellcaves", "bonecaves", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "barrenunderground", "fleshcave", "cellcaves", "bonecaves", "ffshadow" ]
         },
         "underground1" : {
-          "primaryRegion" : [ "barrenunderground", "fleshcave", "cellcaves", "bonecaves", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "barrenunderground", "fleshcave", "cellcaves", "bonecaves", "ffshadow" ]
         },
         "underground2" : {
-          "primaryRegion" : [ "barrenunderground", "fleshcave", "cellcaves", "bonecaves", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "barrenunderground", "fleshcave", "cellcaves", "bonecaves", "ffshadow" ]
         },
         "underground3" : {
-          "primaryRegion" : [ "barrenunderground", "fleshcave", "cellcaves", "bonecaves", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "barrenunderground", "fleshcave", "cellcaves", "bonecaves", "ffshadow" ]
         },
         "underground4" : {
-          "primaryRegion" : [ "barrenunderground", "fleshcave", "cellcaves", "bonecaves", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "barrenunderground", "fleshcave", "cellcaves", "bonecaves", "ffshadow" ]
         },
         "underground5" : {
-          "primaryRegion" : [ "barrenunderground", "fleshcave", "cellcaves", "bonecaves", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "barrenunderground", "fleshcave", "cellcaves", "bonecaves", "ffshadow" ]
         },
         "underground6" : {
-          "primaryRegion" : [ "barrenunderground", "fleshcave", "cellcaves", "bonecaves", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave"  ]
+          "primaryRegion" : [ "barrenunderground", "fleshcave", "cellcaves", "bonecaves", "ffshadow" ]
         }
         }
       }

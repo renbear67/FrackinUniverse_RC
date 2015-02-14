@@ -8,7 +8,7 @@
   ],
   "moneyRange" : [300, 300],
   "rewards" : [
-    [ [ "talonseedseed", 3], [ "vialblue", 1] ]
+    [ [ "talonseedseed", 3], [ "agaranichor", 1] ]
   ],
   "planetMode" : "none",
   "questDungeons" : [ ],

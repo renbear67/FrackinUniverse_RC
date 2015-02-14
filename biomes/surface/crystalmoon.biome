@@ -145,7 +145,7 @@
               "pool" : [ 
               [0.65, "wildcrystalplantseed" ],
               [0.35, "wildwubstemseed" ],
-              [0.35, "wildfishtatoseed" ],
+              [0.35, "wildpekkitseed" ],
               [0.35, "wildmelodistarseed" ]
               ],
               "parameters" : { "startingStage" : 2 }
