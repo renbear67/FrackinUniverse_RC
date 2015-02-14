@@ -239,25 +239,25 @@
           "dungeons" : [ "wreck", "apexresearchlab", "scifidungeon" ]
         },
         "subsurface" : {
-          "primaryRegion" : [ "icewasteunderground", "fffrostcavern" ]
+          "primaryRegion" : [ "icemoonunderground", "fffrostcavern" ]
         },
          "underground1" : {
-          "primaryRegion" : [ "icewasteunderground", "icecaves", "fffrostcavern", "ffcrystalcavern" ]
+          "primaryRegion" : [ "icemoonunderground", "fffrostcavern" ]
         },
         "underground2" : {
-          "primaryRegion" : [ "icewasteunderground", "icecaves", "fffrostcavern", "ffcrystalcavern" ]
+          "primaryRegion" : [ "icemoonunderground", "fffrostcavern" ]
         },
         "underground3" : {
-          "primaryRegion" : [ "icewasteunderground", "icecaves", "fffrostcavern", "ffcrystalcavern" ]
+          "primaryRegion" : [ "icemoonunderground", "fffrostcavern" ]
         },
         "underground4" : {
-          "primaryRegion" : [ "icewasteunderground", "icecaves", "fffrostcavern", "ffcrystalcavern" ]
+          "primaryRegion" : [ "icemoonunderground", "fffrostcavern" ]
         },
         "underground5" : {
-          "primaryRegion" : [ "icewasteunderground", "icecaves", "fffrostcavern", "ffcrystalcavern" ]
+          "primaryRegion" : [ "icemoonunderground", "fffrostcavern" ]
         },
         "underground6" : {
-          "primaryRegion" : [ "icewasteunderground", "icecaves", "fffrostcavern", "ffcrystalcavern" ]
+          "primaryRegion" : [ "icemoonunderground", "fffrostcavern" ]
         },
         "core" : {
           "primaryRegion" : [ "nitrogencore" ]
@@ -602,25 +602,25 @@
           "dungeons" : [ "wreck", "floranhuntinggrounds", "floranhell", "floranvillagetower" ]
         },
         "subsurface" : {
-          "primaryRegion" : [ "arborealunderground",  "luminouscaves", "minivillageunderground", "wildernessunderground", "bonecaves", "ffvolcanic" ]
+          "primaryRegion" : [ "thickjungleunderground",  "luminouscaves", "wildernessunderground", "bonecaves", "ffvolcanic" ]
         },
         "underground1" : {
-          "primaryRegion" : [ "arborealunderground",  "luminouscaves", "minivillageunderground", "wildernessunderground", "bonecaves", "ffvolcanic" ]
+          "primaryRegion" : [ "thickjungleunderground",  "luminouscaves", "wildernessunderground", "bonecaves", "ffvolcanic" ]
         },
         "underground2" : {
-          "primaryRegion" : [ "arborealunderground",  "luminouscaves", "minivillageunderground", "wildernessunderground", "bonecaves", "ffvolcanic" ]
+          "primaryRegion" : [ "thickjungleunderground",  "luminouscaves", "wildernessunderground", "bonecaves", "ffvolcanic" ]
         },
         "underground3" : {
-          "primaryRegion" : [ "arborealunderground",  "luminouscaves", "minivillageunderground", "wildernessunderground", "bonecaves", "ffvolcanic" ]
+          "primaryRegion" : [ "thickjungleunderground",  "luminouscaves", "wildernessunderground", "bonecaves", "ffvolcanic" ]
         },
         "underground4" : {
-          "primaryRegion" : [ "arborealunderground",  "luminouscaves", "minivillageunderground", "wildernessunderground", "bonecaves", "ffvolcanic" ]
+          "primaryRegion" : [ "thickjungleunderground",  "luminouscaves", "wildernessunderground", "bonecaves", "ffvolcanic" ]
         },
         "underground5" : {
-          "primaryRegion" : [ "arborealunderground",  "luminouscaves", "minivillageunderground", "wildernessunderground", "bonecaves", "ffvolcanic" ]
+          "primaryRegion" : [ "thickjungleunderground",  "luminouscaves", "wildernessunderground", "bonecaves", "ffvolcanic" ]
         },
         "underground6" : {
-          "primaryRegion" : [ "arborealunderground",  "luminouscaves", "minivillageunderground", "wildernessunderground", "bonecaves", "ffvolcanic" ]
+          "primaryRegion" : [ "thickjungleunderground",  "luminouscaves", "wildernessunderground", "bonecaves", "ffvolcanic" ]
         }
         }
       }
@@ -784,7 +784,7 @@
   "path" : "/regionTypes/icemoon",
   "value" : 
   {
-      "caveLiquid" : [ "liquidnitrogen" ],
+      "caveLiquid" : [ "liquidnitrogen", "water" ],
       "blockSelector" : [ "flatsSurface", "lowHillsSurface", "medHillsSurface", "mesasSurface", "ledgesSurface", "giantLedgesSurface" ],
       "fgCaveSelector" : [ "moonSurfaceCaves" ],
       "biome" : [
@@ -1621,6 +1621,17 @@
     }
   },
   
+  {"op" : "add", 
+  "path" : "/regionTypes/icemoonunderground",
+  "value" : 
+  {
+      "caveLiquid" : [ "water", "liquidnitrogen" ],
+      "caveLiquidChanceRange" : [65, 85],
+      "biome" : [
+        [0, [ "icemoonunderground"]]
+      ]
+    }
+  },
   
   {"op" : "add", 
   "path" : "/regionTypes/icewasteunderground",
@@ -1731,6 +1742,17 @@
       "caveLiquidChanceRange" : [5, 25],
       "biome" : [
         [0, [ "lightlessunderground"]]
+      ]
+    }
+  }, 
+  {"op" : "add", 
+  "path" : "/regionTypes/thickjungleunderground",
+  "value" : 
+  {
+      "caveLiquid" : [ "water", "tarliquid" ],
+      "caveLiquidChanceRange" : [65, 100],
+      "biome" : [
+        [0, [ "thickjungleunderground"]]
       ]
     }
   }, 

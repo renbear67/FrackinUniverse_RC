@@ -23,7 +23,14 @@
 "path":"/planetaryTypes/Tier2/baseParameters/terrestrialType/-",
 "value":"thickjungle"
 },
-
+{"op":"add",
+"path":"/planetaryTypes/Tier2/baseParameters/terrestrialType/-",
+"value":"urbanwasteland"
+},
+{"op":"add",
+"path":"/planetaryTypes/Tier3/baseParameters/terrestrialType/-",
+"value":"urbanwasteland"
+},
 {"op":"add",
 "path":"/planetaryTypes/Tier3/baseParameters/terrestrialType/-",
 "value":"garden"
@@ -82,7 +89,10 @@
 "path":"/planetaryTypes/Tier3/baseParameters/terrestrialType/-",
 "value":"lightless"
 },
-
+{"op":"add",
+"path":"/planetaryTypes/Tier4/baseParameters/terrestrialType/-",
+"value":"urbanwasteland"
+},
 {"op":"add",
 "path":"/planetaryTypes/Tier4/baseParameters/terrestrialType/-",
 "value":"garden"
@@ -170,7 +180,10 @@
 "value":"lightless"
 },
 
-
+{"op":"add",
+"path":"/planetaryTypes/Tier5/baseParameters/terrestrialType/-",
+"value":"urbanwasteland"
+},
 {"op":"add",
 "path":"/planetaryTypes/Tier5/baseParameters/terrestrialType/-",
 "value":"garden"
@@ -275,7 +288,10 @@
 "value":"lightless"
 },
 
-
+{"op":"add",
+"path":"/planetaryTypes/Tier6/baseParameters/terrestrialType/-",
+"value":"urbanwasteland"
+},
 
 {"op":"add",
 "path":"/planetaryTypes/Tier6/baseParameters/terrestrialType/-",
@@ -416,6 +432,10 @@
 // Moons
 {"op":"add",
 "path":"/satelliteTypes/Tier2/baseParameters/terrestrialType/-",
+"value":"urbanwasteland"
+},
+{"op":"add",
+"path":"/satelliteTypes/Tier2/baseParameters/terrestrialType/-",
 "value":"icemoon"
 },
 {"op":"add",
@@ -453,7 +473,10 @@
 "path":"/satelliteTypes/Tier3/baseParameters/terrestrialType/-",
 "value":"icemoon"
 },
-
+{"op":"add",
+"path":"/satelliteTypes/Tier3/baseParameters/terrestrialType/-",
+"value":"urbanwasteland"
+},
 {"op":"add",
 "path":"/satelliteTypes/Tier3/baseParameters/terrestrialType/-",
 "value":"protoworld"
@@ -502,6 +525,10 @@
 {"op":"add",
 "path":"/satelliteTypes/Tier3/baseParameters/terrestrialType/-",
 "value":"metallicmoon"
+},
+{"op":"add",
+"path":"/satelliteTypes/Tier4/baseParameters/terrestrialType/-",
+"value":"urbanwasteland"
 },
 {"op":"add",
 "path":"/satelliteTypes/Tier4/baseParameters/terrestrialType/-",
@@ -576,7 +603,10 @@
 "path":"/satelliteTypes/Tier4/baseParameters/terrestrialType/-",
 "value":"thickjungle"
 },
-
+{"op":"add",
+"path":"/satelliteTypes/Tier5/baseParameters/terrestrialType/-",
+"value":"urbanwasteland"
+},
 {"op":"add",
 "path":"/satelliteTypes/Tier5/baseParameters/terrestrialType/-",
 "value":"icemoon"
@@ -654,7 +684,10 @@
 "path":"/satelliteTypes/Tier5/baseParameters/terrestrialType/-",
 "value":"metallicmoon"
 },
-
+{"op":"add",
+"path":"/satelliteTypes/Tier6/baseParameters/terrestrialType/-",
+"value":"urbanwasteland"
+},
 {"op":"add",
 "path":"/satelliteTypes/Tier6/baseParameters/terrestrialType/-",
 "value":"icemoon"
