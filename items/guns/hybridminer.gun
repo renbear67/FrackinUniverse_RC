@@ -14,7 +14,6 @@
     "recoilTime" : 0.1,
     "level" : 1,
     "tooltipKind" : "gun",
-    "classMultiplier" : 0.007,
     "twoHanded" : false,
     "fireTime" : 0.020,
     "rateOfFire" : [2, 7],

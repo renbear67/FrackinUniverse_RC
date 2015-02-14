@@ -13,7 +13,6 @@
   "level" : 3,
   "fireTime" : 1.2,
   "twoHanded" : true,
-  "classMultiplier" : 0.65,
 
   "fireOnRelease" : true,
   "walkWhileFiring" : false,

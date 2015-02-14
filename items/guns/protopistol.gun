@@ -16,7 +16,6 @@
     "tooltipKind" : "gun",
     "fireTime" : 0.25,
     "twoHanded" : false,
-    "classMultiplier" : 0.06,
     "rateOfFire" : [2, 7],
     "muzzleEffect" : {
       "fireSound" : [ { "file" : "/sfx/gun/plasma_mp5.wav" } ],

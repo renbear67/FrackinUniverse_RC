@@ -16,7 +16,6 @@
     "fireTime" : 0.75,
     "twoHanded" : true,
     "walkWhileFiring" : false,
-    "classMultiplier" : 0.08,
     "rateOfFire" : [2, 7],
     "muzzleEffect" : {
       "fireSound" : [ { "file" : "/sfx/projectiles/goo_spit2.wav" } ],

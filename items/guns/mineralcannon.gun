@@ -17,7 +17,6 @@
   "fireTime" : 0.45,
   "twoHanded" : true,  
   "walkWhileFiring" : false,
-  "classMultiplier" : 0.065,
   "spread" : 1,
   
   "projectileType" : "mineralcannonshot",

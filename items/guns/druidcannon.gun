@@ -16,11 +16,10 @@
   "fireTime" : 0.26,
   "twoHanded" : true,  
   "walkWhileFiring" : false,
-  "classMultiplier" : 0.046,
   "spread" : 1,
   
   "projectileType" : "ffpetal",
-  "projectile" : { "speed" : 25, "power" : 3 , "color" : [0, 0, 0] },
+  "projectile" : { "speed" : 25, "power" : 2.7 , "color" : [0, 0, 0] },
   "muzzleEffect" : {
        "fireSound" : [ { "file" : "/sfx/projectiles/thorn.wav" } ],
        "animation" :  "/animations/muzzleflash/smokemuzzle/smokemuzzle.animation"
