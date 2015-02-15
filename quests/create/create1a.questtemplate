@@ -8,7 +8,7 @@
   ],
   "moneyRange" : [100, 100],
   "rewards" : [
-    [ [ "biofuelcannister", 10], [ "vialred", 1] ]
+    [ [ "biofuelcannister", 10], [ "biosample", 5] ]
   ],
   "planetMode" : "none",
   "questDungeons" : [ ],
