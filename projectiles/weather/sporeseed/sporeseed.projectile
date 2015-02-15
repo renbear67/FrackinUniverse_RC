@@ -19,8 +19,8 @@
     }
   ],
   "power" : 3,
-  "damageType" : "acid",
-  "damageKind" : "default",
+  "damageType" : "ignoresdef",
+  "damageKind" : "acid",
   "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],
   "emitters" : [ "sparks" ]
 }
