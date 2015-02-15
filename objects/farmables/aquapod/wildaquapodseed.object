@@ -27,7 +27,6 @@
       "anchors" : [ "bottom" ]
     }
   ],
-
   "stages" : [
     {
       "duration" : [300, 600]
