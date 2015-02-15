@@ -8,7 +8,7 @@
   ],
   "moneyRange" : [300, 300],
   "rewards" : [
-    [ [ "oonfortaseed", 3], [ "vialyellow", 1] ]
+    [ [ "oonfortaseed", 3] ]
   ],
   "planetMode" : "none",
   "questDungeons" : [ ],

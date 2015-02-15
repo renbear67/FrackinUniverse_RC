@@ -2,8 +2,7 @@
   "input" : [
     { "item" : "organicsynthesis", "count" : 1 },
     { "item" : "aggressiongene", "count" : 1 },
-    { "item" : "dnasample", "count" : 4 },
-    { "item" : "organicsynthesis", "count" : 1 },
+    { "item" : "regengene1", "count" : 1 },
     { "item" : "tomatoseed", "count" : 3 }
   ],
   "output" : {
