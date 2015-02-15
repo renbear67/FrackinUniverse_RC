@@ -10,7 +10,7 @@
   "timeToLive" : 5,
   "damageKindImage" : "icon.png",
   "pointLight" : false,
-  "power" : 5.0,
+  //"power" : 5.0,
   "damageKind" : "acid",
 
   "statusEffects" : [ "weakpoison" ]

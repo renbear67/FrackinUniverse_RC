@@ -25,11 +25,12 @@
       "type" : "thornshot",
       "inheritDamageFactor" : 0.5,
       "angleAdjust" : -0.5
-    }
+	}
   ],
   
   "statusEffects" : [ "weakpoison" ],
   
-  "power" : 5.0,
+  //"power" : 5.0,
+  //"damageType" : "hitTest",
   "damageKind" : "acid"
 }
