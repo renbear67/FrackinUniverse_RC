@@ -1,8 +1,0 @@
-{
-  "itemName" : "vialgreen",
-  "rarity" : "rare",
-  "inventoryIcon" : "vialgreen.png",
-  "description" : "Experimental chemical mixture.",
-  "shortdescription" : "Test Formula E",
-    "learnBlueprintsOnPickup" : [ "flaskgreen" ]
-}
