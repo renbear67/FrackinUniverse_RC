@@ -4,6 +4,6 @@
 	{ "item" : "glowfibrered", "count" : 4 },
 	{ "item" : "glowfibregreen", "count" : 4 }
   ],
-  "output" : { "item" : "glowstickwhite", "count" : 1 },
+  "output" : { "item" : "whiteglowstick", "count" : 1 },
   "groups" : [ "craftingtable", "furniture", "objects", "all" ]
 }
