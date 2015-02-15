@@ -1,8 +1,0 @@
-{
-  "itemName" : "bioreagentgrey",
-  "rarity" : "Common",
-  "inventoryIcon" : "bioreagentgrey.png",
-  "description" : "Specially formulated grey chemical powder",
-  "shortdescription" : "Grey Bio-Reagent",
-    "learnBlueprintsOnPickup" : [ "vialgrey" ]
-}

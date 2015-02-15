@@ -1,8 +1,0 @@
-{
-  "itemName" : "bioreagentgreen",
-  "rarity" : "Common",
-  "inventoryIcon" : "bioreagentgreen.png",
-  "description" : "Specially formulated green chemical powder",
-  "shortdescription" : "Green Bio-Reagent",
-    "learnBlueprintsOnPickup" : [ "vialgreen" ]
-}

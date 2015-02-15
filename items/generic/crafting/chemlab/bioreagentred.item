@@ -1,8 +1,0 @@
-{
-  "itemName" : "bioreagentred",
-  "rarity" : "Common",
-  "inventoryIcon" : "bioreagentred.png",
-  "description" : "Specially formulated red chemical powder",
-  "shortdescription" : "Red Bio-Reagent",
-    "learnBlueprintsOnPickup" : [ "vialred" ]
-}

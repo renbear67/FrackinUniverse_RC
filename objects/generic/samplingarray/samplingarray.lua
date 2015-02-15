@@ -19,13 +19,13 @@ local recipes =
 {inputs = {"blisterhelm", "goldenglowseed", "penumbriteshard" }, outputs = { "blisterhelmalt-recipe" }, time = 120},
 {inputs = {"blisterhelm2", "goldenglowseed", "penumbriteshard" }, outputs = { "blisterhelmalt-recipe" }, time = 120},
 {inputs = {"ff_scouthelm", "penumbraplating", "diamond" }, outputs = { "skullreaperhelm-recipe" }, time = 120},
-{inputs = {"spikesword", "protocitebar", "bioreagentred" }, outputs = { "spikesword2-recipe" }, time = 120},
-{inputs = {"spikesword2", "ff_penumbraplating", "flaskpurple" }, outputs = { "spikesword3-recipe" }, time = 120},
-{inputs = {"spikesword3", "uraniumrod", "flaskgreen" }, outputs = { "spikesword4-recipe" }, time = 120},
-{inputs = {"spikesword4", "Ceruliumbar", "flaskblue" }, outputs = { "spikesword5-recipe" }, time = 120},
-{inputs = {"ff_scoutchest", "ff_mercury", "flaskred" }, outputs = { "ff_scoutchest_melee-recipe" }, time = 120},
-{inputs = {"ff_scouthelm", "ff_mercury", "flaskred" }, outputs = { "ff_scouthelm_melee-recipe" }, time = 120},
-{inputs = {"ff_scoutpants", "ff_mercury", "nutrientpaste" }, outputs = { "ff_scoutpants_melee-recipe" }, time = 120}
+{inputs = {"spikesword", "protocitebar", "cellmatter" }, outputs = { "spikesword2-recipe" }, time = 120},
+{inputs = {"spikesword2", "ff_penumbraplating", "cellmatter" }, outputs = { "spikesword3-recipe" }, time = 120},
+{inputs = {"spikesword3", "uraniumrod", "cellmatter" }, outputs = { "spikesword4-recipe" }, time = 120},
+{inputs = {"spikesword4", "prisilitestar", "cellmatter" }, outputs = { "spikesword5-recipe" }, time = 120},
+{inputs = {"ff_scoutchest", "ff_mercury", "ff_penumbraplating" }, outputs = { "ff_scoutchest_melee-recipe" }, time = 120},
+{inputs = {"ff_scouthelm", "ff_mercury", "ff_penumbraplating" }, outputs = { "ff_scouthelm_melee-recipe" }, time = 120},
+{inputs = {"ff_scoutpants", "ff_mercury", "ff_penumbraplating" }, outputs = { "ff_scoutpants_melee-recipe" }, time = 120}
 
 
 
