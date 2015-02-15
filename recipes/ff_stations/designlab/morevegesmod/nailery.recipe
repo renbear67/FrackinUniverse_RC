@@ -1,9 +1,8 @@
 {
   "input" : [
-    { "item" : "ironbar", "count" : 1 },
-    { "item" : "dnasample", "count" : 2 },
-    { "item" : "mineralsample", "count" : 2 },
-    { "item" : "aminoacid", "count" : 4 }
+    { "item" : "ironore", "count" : 1 },
+    { "item" : "organicsynthesis", "count" : 2 },
+    { "item" : "adaptivecells", "count" : 1 }
   ],
   "output" : {
     "item" : "naileryseed",

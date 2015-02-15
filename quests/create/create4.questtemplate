@@ -8,7 +8,7 @@
   ],
   "moneyRange" : [200, 200],
   "rewards" : [
-    [ [ "bamboochair", 1], [ "vialgrey", 1] ]
+    [ [ "bamboochair", 1] ]
   ],
   "planetMode" : "none",
   "questDungeons" : [ ],

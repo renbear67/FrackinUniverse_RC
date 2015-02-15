@@ -8,7 +8,7 @@
   ],
   "moneyRange" : [200, 200],
   "rewards" : [
-    [ [ "thornitoxseed", 3], [ "vialgreen", 1] ]
+    [ [ "thornitoxseed", 3] ]
   ],
   "planetMode" : "none",
   "questDungeons" : [ ],
