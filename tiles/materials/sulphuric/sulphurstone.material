@@ -7,6 +7,7 @@
   "shortdescription" : "Sulphuric Stone",
   "footstepSound" : "/sfx/blocks/footstep_stone2.wav",
   "health" : 11,
+  "category": "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {

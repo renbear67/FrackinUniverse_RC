@@ -26,7 +26,7 @@
   
   "statusEffects" : [ "glow" ],
     
-  "power" : 1,
+  //"power" : 1,
   "damageType" : "ignoresdef",
   "damageKind" : "acid"
 }

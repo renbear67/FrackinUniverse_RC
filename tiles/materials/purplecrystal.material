@@ -9,6 +9,7 @@
   "floranDescription" : "Pretty cryssstal.",
   "footstepSound" : "/sfx/blocks/footstep_crystal.wav",
   "health" : 24,
+  "category": "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {

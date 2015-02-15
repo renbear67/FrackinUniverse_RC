@@ -2,6 +2,6 @@
   "itemName" : "mutagene3",
   "rarity" : "uncommon",
   "inventoryIcon" : "mutagene3.png",
-  "description" : "Dramatically alters genes",
-  "shortdescription" : "Mutagenic extract III"
+  "description" : "Mutagenic extract",
+  "shortdescription" : "Mutagene."
 }

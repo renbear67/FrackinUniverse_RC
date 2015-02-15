@@ -21,6 +21,7 @@
 	}
 
     ],
-  "power" : 5,
-  "damageKind" : "crystalweapon"
+  //"power" : 5,
+  //"damageType" : "hitTest",
+  "damageKind" : "crystal"
 }

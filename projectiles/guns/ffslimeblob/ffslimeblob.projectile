@@ -33,7 +33,7 @@
       "options" : [ "/sfx/projectiles/goocluster_pop.wav" ]
     }
   ],
-  "power" : 100.0,
+  //"power" : 100.0,
   "speed" : 35,
   "damageKind" : "acid"
 }

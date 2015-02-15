@@ -7,6 +7,7 @@
   "shortdescription" : "Ancient Ice",
   "footstepSound" : "/sfx/blocks/footstep_stone2.wav",
   "health" : 7,
+  "category": "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {

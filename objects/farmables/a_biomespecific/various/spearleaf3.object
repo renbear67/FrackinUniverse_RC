@@ -23,10 +23,10 @@
   ],
   "smashSounds" : [ "/sfx/tools/axe_chop_alt_heavy.wav" ],
   "smashDropOptions" : [
-    [ [ "silkworm", 1, { } ] ]
+    [ [ "biosample", 1, { } ] ]
   ],
 
   "breakDropOptions" : [
-    [ [ "silkworm", 1, { } ] ]
+    [ [ "biosample", 1, { } ] ]
   ]
 }

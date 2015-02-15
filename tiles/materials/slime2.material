@@ -10,6 +10,7 @@
   "footstepSound" : "/sfx/blocks/footstep_brains.wav",
   "health" : 2,
   "soil" : true,
+  "category": "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {

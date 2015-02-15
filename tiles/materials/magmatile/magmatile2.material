@@ -7,6 +7,7 @@
   "shortdescription" : "Burning Volcanic Rock",
   "footstepSound" : "/sfx/blocks/footstep_stone2.wav",
   "health" : 12,
+  "category": "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {

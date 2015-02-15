@@ -23,10 +23,10 @@
   ],
   "smashSounds" : [ "/sfx/tools/axe_chop_alt_heavy.wav" ],
   "smashDropOptions" : [
-    [ [ "potato", 1, { } ] ]
+    [ [ "biosample", 1, { } ] ]
   ],
 
   "breakDropOptions" : [
-    [ [ "potato", 1, { } ] ]
+    [ [ "biosample", 1, { } ] ]
   ]
 }

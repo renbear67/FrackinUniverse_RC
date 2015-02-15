@@ -1,0 +1,12 @@
+{
+  "itemName" : "gneissmaterial",
+  "rarity" : "Common",
+  "inventoryIcon" : "gneiss.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Rough, unrefined gneiss.",
+  "shortdescription" : "Unrefined Gneiss",
+  "glitchDescription" : "Statement. Gneiss.",
+  "florandescription" : "Sssstonne.",
+  
+  "materialId" :19
+}

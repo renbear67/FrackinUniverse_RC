@@ -8,6 +8,6 @@
   "animationCycle" : 1,
   "timeToLive" : 1,
   "frameNumber" : 1,
-  "power" : 5,
-  "damageKind" : "crystalweapon"
+  //"power" : 5,
+  "damageKind" : "crystal"
 }
