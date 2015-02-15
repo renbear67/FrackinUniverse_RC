@@ -14,7 +14,7 @@
     {
       "action" : "projectile",
       "type" : "protogoo",
-      "inheritDamageFactor" : 0.2,
+      "inheritDamageFactor" : 0.2
       //"power" : 65
     },
     {
