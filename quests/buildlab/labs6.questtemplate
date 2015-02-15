@@ -1,14 +1,14 @@
 {
   "id" : "labs6.gearup",
   "title" : "^#9be3d6;Silk",
-  "text" : "To make the next batch of stations, you need ^orange;Silk^white;. Find a silk worm or silk spider in the wild hiding in growing plants. Extract the bugs for silk! Bracken trees make silk, too.",
+  "text" : "To make the next batch of stations, you need ^orange;Silk^white;. Silk worm live in Bracken trees so that's where you can gather it.",
   "completionText" : "Now on to Advanced Plastic. And then, more stations! Have some more bracken, to increase your silk and resin production.",
   "conditions" : [
     { "kind" : "gather", "item" : [ "silk", 10] }
   ],
   "moneyRange" : [400, 600],
   "rewards" : [
-    [ [ "silk", 10], [ "laboil", 2], [ "brackentreeseed", 3]  ]
+    [ [ "silk", 10], [ "laboil", 5], [ "oldtreeseed", 3]  ]
   ],
   "planetMode" : "none",
   "questDungeons" : [ ],
