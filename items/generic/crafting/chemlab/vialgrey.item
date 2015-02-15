@@ -1,8 +1,0 @@
-{
-  "itemName" : "vialgrey",
-  "rarity" : "rare",
-  "inventoryIcon" : "vialgrey.png",
-  "description" : "Experimental chemical mixture.",
-  "shortdescription" : "Test Formula D",
-    "learnBlueprintsOnPickup" : [ "flaskgrey" ]
-}
