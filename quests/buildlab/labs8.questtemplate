@@ -1,7 +1,7 @@
 {
   "id" : "labs8.gearup",
   "title" : "^#9be3d6;Fertilizer",
-  "text" : "^orange;Fertilizer^white;. You can't accomplish much without it, really. Always have some on hand. You'll need Synthesized Protein, Sulphur and Oil to make it.",
+  "text" : "^orange;Fertilizer^white;. You can't accomplish much without it, really. Always have some on hand. You'll need Ammonium sulphate, Sulphur and Methanol to make it.",
   "completionText" : "Well done. Take these seeds. Save them or plant them...it's up to you.",
   "conditions" : [
     { "kind" : "gather", "item" : [ "ff_fertilizer", 1] }
