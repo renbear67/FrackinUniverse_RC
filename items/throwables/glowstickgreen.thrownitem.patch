@@ -1,5 +1,5 @@
 [
-{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"glowstickpurple"},
-{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"glowstickred"},
-{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"glowstickwhite"}
+{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"purpleglowstick"},
+{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"redglowstick"},
+{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"whiteglowstick"}
 ]
