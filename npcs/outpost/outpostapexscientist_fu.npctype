@@ -4,7 +4,7 @@
 
     "scriptConfig" : {
         "offeredQuests" : [ "fu_matterassembler.gearup" ],
-        "turnInQuests" : [ "fu_matterassembler.gearup" ],
+        "turnInQuests" : [ "fu_matterassembler.gearup", "fu_extractor.gearup" ],
         "converse" : {
             "waitTime" : 0.5,
             "dialog" : {
@@ -19,9 +19,9 @@
         "default" : [
             [0, [
                 {
-                    "head" : [ { "name" : "goggles1" } ],
-                    "chest" : [ { "name" : "scientistchest", "parameters" : { "colorIndex" : 0 } } ],
-                    "legs" : [ { "name" : "scientistlegs", "parameters" : { "colorIndex" : 0 } } ]
+                    "head" : [ { "name" : "goggles1", "parameters" : { "colorIndex" : 0 } } ],
+                    "chest" : [ { "name" : "blisterchest", "parameters" : { "colorIndex" : 0 } } ],
+                    "legs" : [ { "name" : "blisterlegs", "parameters" : { "colorIndex" : 0 } } ]
                 }
             ] ]
         ]

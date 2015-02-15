@@ -1,0 +1,19 @@
+  {
+  "id" : "fu_extractor.gearup",
+  "title" : "^orange;Build an Extractor",
+  "prerequisites" : [ "fu_matterassembler.gearup" ],
+  "text" : "The next lab gear you'll need is absolutely essential. ^green;Create an ^orange;Extraction Lab ^white; and you can truly begin your research. ",
+  "completionText" : "Well. I stand corrected. Well done. Take this. Some goggles to complete your science ensemble!",
+  "conditions" : [
+    { "kind" : "gatherTrigger", "trigger" : "extractionlab", "consume" : false }
+  ],
+  "moneyRange" : [0, 0],
+  "rewards" : [   
+  [ [  "goggles1-recipe", 1 ] ]
+  ],
+  "canBeAbandoned" : false,
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "",
+  "requireTurnIn" : true
+}
