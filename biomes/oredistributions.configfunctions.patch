@@ -483,11 +483,11 @@
 "value": 
   [
     [0.5, [ [ "copper", 0.20], [ "silverore", 0.30], [ "gold", 0.50], [ "platinum", 0.80], [ "crystal", 0.70], [ "diamond", 0.30], [ "sulphur", 0.30], [ "prisilite", 0.20] ] ],
-    [0.5, [ [ "copper", 0.20], [ "silverore", 0.30], [ "gold", 0.50], [ "platinum", 0.80], [ "crystal", 0.70], [ "diamond", 0.35], [ "sulphur", 0.40], [ "prisilite", 0.30] ] ],
-    [0.5, [ [ "copper", 0.20], [ "silverore", 0.30], [ "gold", 0.50], [ "platinum", 0.80], [ "crystal", 0.70], [ "diamond", 0.40], [ "sulphur", 0.50], [ "prisilite", 0.40] ] ],
-    [0.5, [ [ "copper", 0.20], [ "silverore", 0.30], [ "gold", 0.50], [ "platinum", 0.80], [ "crystal", 0.70], [ "diamond", 0.45], [ "sulphur", 0.60], [ "prisilite", 0.50] ] ],
-    [0.5, [ [ "copper", 0.20], [ "silverore", 0.30], [ "gold", 0.50], [ "platinum", 0.80], [ "crystal", 0.70], [ "diamond", 0.50], [ "sulphur", 0.70], [ "prisilite", 0.60] ] ],
-    [0.5, [ [ "copper", 0.20], [ "silverore", 0.30], [ "gold", 0.50], [ "platinum", 0.80], [ "crystal", 0.70], [ "diamond", 0.55], [ "sulphur", 0.80], [ "prisilite", 0.70] ] ]
+    [1.5, [ [ "copper", 0.20], [ "silverore", 0.30], [ "gold", 0.50], [ "platinum", 0.80], [ "crystal", 0.70], [ "diamond", 0.35], [ "sulphur", 0.40], [ "prisilite", 0.30] ] ],
+    [2.5, [ [ "copper", 0.20], [ "silverore", 0.30], [ "gold", 0.50], [ "platinum", 0.80], [ "crystal", 0.70], [ "diamond", 0.40], [ "sulphur", 0.50], [ "prisilite", 0.40] ] ],
+    [3.5, [ [ "copper", 0.20], [ "silverore", 0.30], [ "gold", 0.50], [ "platinum", 0.80], [ "crystal", 0.70], [ "diamond", 0.45], [ "sulphur", 0.60], [ "prisilite", 0.50] ] ],
+    [4.5, [ [ "copper", 0.20], [ "silverore", 0.30], [ "gold", 0.50], [ "platinum", 0.80], [ "crystal", 0.70], [ "diamond", 0.50], [ "sulphur", 0.70], [ "prisilite", 0.60] ] ],
+    [5.5, [ [ "copper", 0.20], [ "silverore", 0.30], [ "gold", 0.50], [ "platinum", 0.80], [ "crystal", 0.70], [ "diamond", 0.55], [ "sulphur", 0.80], [ "prisilite", 0.70] ] ]
   ]
 },
 
@@ -496,11 +496,11 @@
 "value": 
   [
     [0.5, [ [ "copper", 0.80], [ "silverore", 0.80], [ "gold", 0.80], [ "platinum", 0.80], [ "crystal", 0.80], [ "diamond", 0.60], [ "sulphur", 0.90], [ "prisilite", 0.80] ] ],
-    [0.5, [ [ "copper", 0.80], [ "silverore", 0.80], [ "gold", 0.80], [ "platinum", 0.90], [ "crystal", 0.90], [ "diamond", 0.75], [ "sulphur", 1.00], [ "prisilite", 0.90] ] ],
-    [0.5, [ [ "copper", 0.80], [ "silverore", 0.90], [ "gold", 0.90], [ "platinum", 0.90], [ "crystal", 0.90], [ "diamond", 0.80], [ "sulphur", 1.10], [ "prisilite", 1.00] ] ],
-    [0.5, [ [ "copper", 0.90], [ "silverore", 1.00], [ "gold", 1.00], [ "platinum", 1.00], [ "crystal", 1.00], [ "diamond", 0.85], [ "sulphur", 1.10], [ "prisilite", 1.10] ] ],
-    [0.5, [ [ "copper", 0.90], [ "silverore", 1.10], [ "gold", 1.10], [ "platinum", 1.10], [ "crystal", 1.10], [ "diamond", 0.90], [ "sulphur", 1.10], [ "prisilite", 1.20] ] ],
-    [0.5, [ [ "copper", 1.00], [ "silverore", 1.20], [ "gold", 1.20], [ "platinum", 1.20], [ "crystal", 1.20], [ "diamond", 0.95], [ "sulphur", 1.10], [ "prisilite", 1.30] ] ]
+    [1.5, [ [ "copper", 0.80], [ "silverore", 0.80], [ "gold", 0.80], [ "platinum", 0.90], [ "crystal", 0.90], [ "diamond", 0.75], [ "sulphur", 1.00], [ "prisilite", 0.90] ] ],
+    [2.5, [ [ "copper", 0.80], [ "silverore", 0.90], [ "gold", 0.90], [ "platinum", 0.90], [ "crystal", 0.90], [ "diamond", 0.80], [ "sulphur", 1.10], [ "prisilite", 1.00] ] ],
+    [3.5, [ [ "copper", 0.90], [ "silverore", 1.00], [ "gold", 1.00], [ "platinum", 1.00], [ "crystal", 1.00], [ "diamond", 0.85], [ "sulphur", 1.10], [ "prisilite", 1.10] ] ],
+    [4.5, [ [ "copper", 0.90], [ "silverore", 1.10], [ "gold", 1.10], [ "platinum", 1.10], [ "crystal", 1.10], [ "diamond", 0.90], [ "sulphur", 1.10], [ "prisilite", 1.20] ] ],
+    [5.5, [ [ "copper", 1.00], [ "silverore", 1.20], [ "gold", 1.20], [ "platinum", 1.20], [ "crystal", 1.20], [ "diamond", 0.95], [ "sulphur", 1.10], [ "prisilite", 1.30] ] ]
   ]
 },
 

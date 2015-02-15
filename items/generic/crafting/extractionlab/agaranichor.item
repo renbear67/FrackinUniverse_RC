@@ -1,8 +1,0 @@
-{
-  "itemName" : "agaranichor",
-  "rarity" : "Common",
-  "inventoryIcon" : "agaranichor.png",
-  "description" : "An unstable goo that alters cells at genetical level.",
-  "shortdescription" : "Agaran ichor",
-  "learnBlueprintsOnPickup" : [ "mutagene2" ]
-}

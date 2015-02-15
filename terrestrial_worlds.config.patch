@@ -203,22 +203,22 @@
           "primaryRegion" : [ "icewasteunderground", "ffshadow", "ffzen", "fffrostcavern" ]
         },
          "underground1" : {
-          "primaryRegion" : [ "icewasteunderground", "icecaves", "luminouscaves", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "icewasteunderground", "icecaves", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
         },
         "underground2" : {
-          "primaryRegion" : [ "icewasteunderground", "icecaves", "luminouscaves", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "icewasteunderground", "icecaves", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
         },
         "underground3" : {
-          "primaryRegion" : [ "icewasteunderground", "icecaves", "luminouscaves", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "icewasteunderground", "icecaves", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
         },
         "underground4" : {
-          "primaryRegion" : [ "icewasteunderground", "icecaves", "luminouscaves", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "icewasteunderground", "icecaves", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
         },
         "underground5" : {
-          "primaryRegion" : [ "icewasteunderground", "icecaves", "luminouscaves", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "icewasteunderground", "icecaves", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
         },
         "underground6" : {
-          "primaryRegion" : [ "icewasteunderground", "icecaves", "luminouscaves", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
+          "primaryRegion" : [ "icewasteunderground", "icecaves", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
         },
         "core" : {
           "primaryRegion" : [ "nitrogencore" ]
@@ -639,25 +639,25 @@
           "dungeons" : [ "wreck", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "avianairship", "aviantemple","humanbunker", "floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison", "naturalcave" ]
         },
         "subsurface" : {
-          "primaryRegion" : [ "barrenunderground", "fleshcave", "cellcaves", "bonecaves", "ffshadow" ]
+          "primaryRegion" : [ "barrenunderground", "fleshcaves", "cellcaves", "bonecaves", "ffshadow" ]
         },
         "underground1" : {
-          "primaryRegion" : [ "barrenunderground", "fleshcave", "cellcaves", "bonecaves", "ffshadow" ]
+          "primaryRegion" : [ "barrenunderground", "fleshcaves", "cellcaves", "bonecaves", "ffshadow" ]
         },
         "underground2" : {
-          "primaryRegion" : [ "barrenunderground", "fleshcave", "cellcaves", "bonecaves", "ffshadow" ]
+          "primaryRegion" : [ "barrenunderground", "fleshcaves", "cellcaves", "bonecaves", "ffshadow" ]
         },
         "underground3" : {
-          "primaryRegion" : [ "barrenunderground", "fleshcave", "cellcaves", "bonecaves", "ffshadow" ]
+          "primaryRegion" : [ "barrenunderground", "fleshcaves", "cellcaves", "bonecaves", "ffshadow" ]
         },
         "underground4" : {
-          "primaryRegion" : [ "barrenunderground", "fleshcave", "cellcaves", "bonecaves", "ffshadow" ]
+          "primaryRegion" : [ "barrenunderground", "fleshcaves", "cellcaves", "bonecaves", "ffshadow" ]
         },
         "underground5" : {
-          "primaryRegion" : [ "barrenunderground", "fleshcave", "cellcaves", "bonecaves", "ffshadow" ]
+          "primaryRegion" : [ "barrenunderground", "fleshcaves", "cellcaves", "bonecaves", "ffshadow" ]
         },
         "underground6" : {
-          "primaryRegion" : [ "barrenunderground", "fleshcave", "cellcaves", "bonecaves", "ffshadow" ]
+          "primaryRegion" : [ "barrenunderground", "fleshcaves", "cellcaves", "bonecaves", "ffshadow" ]
         }
         }
       }
