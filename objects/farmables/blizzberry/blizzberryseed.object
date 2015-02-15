@@ -7,18 +7,12 @@
   "objectType" : "farmable",
   "printable" : false,
 
-
   "apexDescription" : "Blizzberries. They're only appropriate to consume in hot, arid conditions.",
   "avianDescription" : "These berries would make my beak frozen.",
   "floranDescription" : "Berries makesss Floran too cold.",
   "glitchDescription" : "Reluctant. Berries would impair internal system functionality.",
   "humanDescription" : "I have always wanted to freeze to death...Wait, actually no.",
   "hylotlDescription" : "An awful thing to eat, especially for aquatic people.",
-  "flamencoDescription" : "These berries are good if you want to become an icicle.",
-  "snowstrifeDescription" : "Very tasty and refreshing berries.",
-  "naylaDescription" : "These berries have a such of coldness.",
-  "mistfenDescription" : "Sweet, but way too cold.",
-  "alienbutterflyDescription" : "These berries are the opposite of chili peppers. They're very cool. That was a pun.",
 
   "inventoryIcon" : "blizzberryseedicon.png",
   "orientations" : [
@@ -31,10 +25,8 @@
       "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
-
     }
   ],
-
   "stages" : [
     {
       "duration" : [300, 600]

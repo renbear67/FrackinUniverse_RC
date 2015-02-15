@@ -2,14 +2,15 @@
   "objectName" : "blisterbushplantseed",
   "rarity" : "Rare",
   "category" : "farmable",
-  "description" : "Blister Pod. Yea...that sounds tasty.",
+  "description" : "Blister Pod. Yeah... That sounds tasty.",
   "shortdescription" : "Blister Pod",
   "objectType" : "farmable",
-  "printable" : false, 
+  "printable" : false,
+
   "apexDescription" : "A Blister Pod.",
   "avianDescription" : "A Blister Pod.",
-  "floranDescription" : "A Blister Pod.",
-  "glitchDescription" : "A Blister Pod.",
+  "floranDescription" : "A Blissster Pod.",
+  "glitchDescription" : "Statement. A Blister Pod.",
   "humanDescription" : "A Blister Pod.",
   "hylotlDescription" : "A Blister Pod.",
   
@@ -21,16 +22,15 @@
   "orientations" : [
     {
       "dualImage" : "blisterbushplantseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [-8, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
-      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+
+      "spaces" : [ [-1, 0], [-1, 1], [-1, 2], [-1, 3], [-1, 4], [-1, 5], [0, 0], [0, 1], [0, 2], [0, 3], [0, 4], [0, 5], [1, 0], [1, 1], [1, 2], [1, 3], [1, 4], [1, 5] ],
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
-
     }
   ],
-
   "stages" : [
     {
       "duration" : [300, 600]
