@@ -1,9 +1,0 @@
-{
-  "itemName" : "swampdirtmaterial",
-  "rarity" : "Common",
-  "inventoryIcon" : "swampdirtmaterial.png",
-  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
-  "description" : "Icky, slimy dirt.",
-  "shortdescription" : "Swamp Dirt",
-  "materialId" : 6609
-}
