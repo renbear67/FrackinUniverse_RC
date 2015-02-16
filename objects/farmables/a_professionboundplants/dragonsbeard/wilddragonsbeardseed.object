@@ -32,7 +32,7 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "wilddragonsbreathHarvest"
+      "harvestPool" : "wilddragonsbeardHarvest"
     }
   ]
 }

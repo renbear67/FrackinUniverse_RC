@@ -38,7 +38,7 @@
     },
     {
       "alts" : 3,
-      "harvestPool" : "nissseedHarvest"
+      "harvestPool" : "nissHarvest"
     }
   ]
 }

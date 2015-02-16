@@ -75,7 +75,7 @@
 {"op":"add","path":"/wildvextongueHarvest","value":[[0,{"fill":[{"item":"vextonguestamen"}],"pool":[{"weight":1,"item":"vextonguestamen"}],"poolRounds":[[0.7,2],[0.3,3]]}]]},
 {"op":"add","path":"/voritHarvest","value":[[0,{"fill":[{"item":"voritcap"}],"pool":[{"weight":0.6,"item":"voritseed"},{"weight":0.4,"item":"voritcap"}],"poolRounds":[[0.7,2],[0.3,3]]}]]},
 {"op":"add","path":"/wildvoritHarvest","value":[[0,{"fill":[{"item":"voritcap"}],"pool":[{"weight":0.6,"item":"voritcap"},{"weight":0.2,"item":"silkworm"},{"weight":0.2,"item":"voritcap"}],"poolRounds":[[0.7,2],[0.3,3]]}]]},
-{"op":"add","path":"/wretchelHarvest","value":[[0,{"fill":[{"item":"wretchel"}],"pool":[{"weight":0.6,"item":"silk"},{"weight":0.4,"item":"wretchel"}],"poolRounds":[[0.7,2],[0.3,3]]}]]},
+{"op":"add","path":"/wretchelHarvest","value":[[0,{"fill":[{"item":"wretchel"},{"item":"wretchelseed"}],"pool":[{"weight":0.6,"item":"silk"},{"weight":0.4,"item":"wretchel"}],"poolRounds":[[0.7,2],[0.3,3]]}]]},
 {"op":"add","path":"/wildwretchelHarvest","value":[[0,{"fill":[{"item":"wretchel"}],"pool":[{"weight":0.6,"item":"wretchel"},{"weight":0.2,"item":"silkworm"},{"weight":0.2,"item":"silk"}],"poolRounds":[[0.7,2],[0.3,3]]}]]},
 {"op":"add","path":"/xaxHarvest","value":[[0,{"fill":[{"item":"xaxseed"}],"pool":[{"weight":0.6,"item":"xaxwing"},{"weight":0.2,"item":"xaxseed"},{"weight":0.2,"item":"plantfibre"}],"poolRounds":[[0.7,2],[0.3,3]]}]]},
 {"op":"add","path":"/zathiHarvest","value":[[0,{"fill":[{"item":"zathiseed"}],"pool":[{"weight":0.6,"item":"zathitails"},{"weight":0.2,"item":"zathiseed"},{"weight":0.2,"item":"plantfibre"}],"poolRounds":[[0.7,2],[0.3,3]]}]]},
