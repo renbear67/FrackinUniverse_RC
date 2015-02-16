@@ -6,5 +6,8 @@
   "shortdescription" : "Liquid Nitrogen",
   "description" : "A measure of liquid nitrogen.",
 
-  "liquid" : "liquidnitrogen"
+  "liquid" : "liquidnitrogen",
+
+  "learnBlueprintsOnPickup" : [ "icecrystal" ]
+
 }

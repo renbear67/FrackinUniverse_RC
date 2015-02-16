@@ -7,7 +7,7 @@
        "layers" : {
         "surface" : {
           "primaryRegion" : [ "arboreal" ],
-          "secondaryRegion" : [ "forest", "hellhive", "elder", "corruptedforest", "fieldofwheat", "fieldofsugar",  "fieldofpotato", "fieldofcorn",  "fieldofgrape",  "fieldoftomato","pineforest", "flowerforest", "snowyforest", "taiga", "dryriverbed", "deadwood",    "giantflowers", "arctic",  "forest",  "jungle", "magma", "savannah", "snow",  "tundra", "volcanic" ],
+          "secondaryRegion" : [ "bloodgulch", "forest", "hellhive", "elder", "corruptedforest", "fieldofwheat", "fieldofsugar",  "fieldofpotato", "fieldofcorn",  "fieldofgrape",  "fieldoftomato","pineforest", "flowerforest", "snowyforest", "taiga", "dryriverbed", "deadwood",    "giantflowers", "arctic",  "forest",  "jungle", "magma", "savannah", "snow",  "tundra", "volcanic" ],
           "dungeonCountRange" : [0, 2],
           "dungeons" : [ "wreck", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "avianairship", "aviantemple","humanbunker", "floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison", "naturalcave" ]
         },
@@ -44,7 +44,7 @@
        "layers" : {
         "surface" : {
           "primaryRegion" : [ "atropus" ],
-          "secondaryRegion" : [ "hellhive", "elder", "corruptedforest", "fieldofwheat", "fieldofsugar",  "fieldofpotato", "fieldofcorn",  "fieldofgrape",  "fieldoftomato", "pineforest", "flowerforest", "snowyforest", "taiga", "dryriverbed", "deadwood",    "giantflowers", "arctic",  "forest",  "jungle", "magma", "savannah", "snow",  "tundra", "volcanic" ],
+          "secondaryRegion" : [ "bloodgulch", "hellhive", "elder", "corruptedforest", "fieldofwheat", "fieldofsugar",  "fieldofpotato", "fieldofcorn",  "fieldofgrape",  "fieldoftomato", "pineforest", "flowerforest", "snowyforest", "taiga", "dryriverbed", "deadwood",    "giantflowers", "arctic",  "forest",  "jungle", "magma", "savannah", "snow",  "tundra", "volcanic" ],
           "dungeonCountRange" : [0, 2],
           "dungeons" : [ "wreck", "apexresearchlab", "apextestchamber", "aviantomb", "aviantemple", "scifidungeon"]
         },
@@ -81,7 +81,7 @@
       "layers" : {
         "surface" : {
           "primaryRegion" : [ "bloodstone" ],
-          "secondaryRegion" : [ "hellhive", "elder", "corruptedforest", "fieldofwheat", "fieldofsugar",  "fieldofpotato", "fieldofcorn",  "fieldofgrape",  "fieldoftomato", "pineforest", "flowerforest", "snowyforest", "taiga", "dryriverbed", "deadwood",    "giantflowers", "arctic",  "forest",  "jungle", "magma", "savannah", "snow",  "tundra", "volcanic" ],
+          "secondaryRegion" : [ "bloodgulch", "hellhive", "elder", "corruptedforest", "fieldofwheat", "fieldofsugar",  "fieldofpotato", "fieldofcorn",  "fieldofgrape",  "fieldoftomato", "pineforest", "flowerforest", "snowyforest", "taiga", "dryriverbed", "deadwood",    "giantflowers", "arctic",  "forest",  "jungle", "magma", "savannah", "snow",  "tundra", "volcanic" ],
           "dungeonCountRange" : [0, 2],
           "dungeons" : [ "wreck", "apexresearchlab", "apextestchamber", "apextowerblock","avianairship", "scifidungeon"]        
         },
@@ -118,7 +118,7 @@
       "layers" : {
         "surface" : {
           "primaryRegion" : [ "bog" ],
-          "secondaryRegion" : [ "hellhive", "energyorbforest", "dryriverbed", "deadwood", "blackslimebog", "pitchfield", "irradiatedwaste", "bloodstonefield", "giantflowers", "forest", "jungle", "volcanic" ],
+          "secondaryRegion" : [ "bloodgulch", "hellhive", "energyorbforest", "dryriverbed", "deadwood", "blackslimebog", "pitchfield", "irradiatedwaste", "bloodstonefield", "giantflowers", "forest", "jungle", "volcanic" ],
           "dungeonCountRange" : [0, 2],
           "dungeons" : [ "wreck", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "avianairship", "aviantemple","humanbunker", "floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison", "naturalcave" ]
         },
@@ -310,7 +310,7 @@
       "layers" : {
         "surface" : {
           "primaryRegion" : [ "irradiated" ],
-          "secondaryRegion" : [ "hellhive", "elder",  "icewaste", "arctic", "snow",  "ocean", "protoworld", "irradiated" ],
+          "secondaryRegion" : [ "bloodgulch", "hellhive", "elder",  "icewaste", "arctic", "snow",  "ocean", "protoworld", "irradiated" ],
           "dungeonCountRange" : [0, 2],
           "dungeons" : [ "wreck", "glitchsewer", "glitchvillage", "avianairship","floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison" ]
         },
@@ -347,7 +347,7 @@
       "layers" : {
         "surface" : {
           "primaryRegion" : [ "lightless" ],
-          "secondaryRegion" : [ "hellhive", "elder", "protoworld", "irradiated" ],
+          "secondaryRegion" : [ "bloodgulch", "hellhive", "elder", "protoworld", "irradiated" ],
           "dungeonCountRange" : [0, 2],
           "dungeons" : [ "wreck", "glitchsewer", "glitchvillage", "avianairship", "humanprison" ]
         },
@@ -577,7 +577,7 @@
       "layers" : {
         "surface" : {
           "primaryRegion" : [ "sulphuric" ],
-          "secondaryRegion" : [ "crystalline" ],
+          "secondaryRegion" : [ "infernus" ],
           "dungeonCountRange" : [0, 2],
           "dungeons" : [ "wreck" ]
         },
@@ -634,7 +634,7 @@
       "layers" : {
         "surface" : {
           "primaryRegion" : [ "urbanwasteland" ],
-          "secondaryRegion" : [ "hellhive", "corruptedforest", "deadwood",   "savannah"],
+          "secondaryRegion" : [ "bloodgulch", "hellhive", "corruptedforest", "deadwood",   "savannah"],
           "dungeonCountRange" : [0, 2],
           "dungeons" : [ "wreck", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "avianairship", "aviantemple","humanbunker", "floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison", "naturalcave" ]
         },
@@ -1446,6 +1446,22 @@
 
     
 
+  {"op" : "add", 
+  "path" : "/regionTypes/bloodgulch",
+  "value" : 
+  {
+      "blockSelector" : [ "lowHillsSurface", "medHillsSurface", "flatsSurface", "mixedSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "caveLiquid" : [ "bloodliquid" ],
+      "caveLiquidChanceRange" : [65, 85],
+
+      "biome" : [
+        [0, [ "bloodgulch"]]
+      ]
+    }
+  },  
+  
+  
   {"op" : "add", 
   "path" : "/regionTypes/ffcoalmine",
   "value" : 
