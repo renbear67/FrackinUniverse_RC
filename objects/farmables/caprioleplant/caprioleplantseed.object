@@ -7,12 +7,12 @@
   "objectType" : "farmable",
   "printable" : false, 
   
-  "apexDescription" : "A Capriole Seed.",
-  "avianDescription" : "A Capriole Seed.",
-  "floranDescription" : "A Capriole Seed.",
-  "glitchDescription" : "A Capriole Seed.",
-  "humanDescription" : "A Capriole Seed.",
-  "hylotlDescription" : "A Capriole Seed.",
+  "apexDescription" : "A Capriole plant.",
+  "avianDescription" : "A Capriole plant.",
+  "floranDescription" : "A Capriole plant.",
+  "glitchDescription" : "Statement. A Capriole plant.",
+  "humanDescription" : "A Capriole plant.",
+  "hylotlDescription" : "A Capriole plant.",
 
   "inventoryIcon" : "caprioleplantseedicon.png",
   "orientations" : [
@@ -28,7 +28,6 @@
 
     }
   ],
-
   "stages" : [
     {
       "duration" : [300, 600]

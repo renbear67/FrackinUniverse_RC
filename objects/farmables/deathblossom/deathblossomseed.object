@@ -6,12 +6,12 @@
   "shortdescription" : "Deathblossom Spore",
   "objectType" : "farmable",
   "printable" : false, 
-  "apexDescription" : "A Deathblossom Seed.",
-  "avianDescription" : "A Deathblossom Seed.",
-  "floranDescription" : "A Deathblossom Seed.",
-  "glitchDescription" : "A Deathblossom Seed.",
-  "humanDescription" : "A Deathblossom Seed.",
-  "hylotlDescription" : "A Deathblossom Seed.",
+  "apexDescription" : "A Deathblossom mushroom.",
+  "avianDescription" : "A Deathblossom mushroom.",
+  "floranDescription" : "A Deathblossssom thing.",
+  "glitchDescription" : "Statement. A Deathblossom mushroom.",
+  "humanDescription" : "A Deathblossom mushroom.",
+  "hylotlDescription" : "A Deathblossom mushroom.",
 
   "inventoryIcon" : "deathblossomseedicon.png",
   "orientations" : [
@@ -21,13 +21,12 @@
       "frames" : 1,
       "animationCycle" : 0.5,
 
-      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1] ],
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
 
     }
   ],
-
   "stages" : [
     {
       "duration" : [300, 600]

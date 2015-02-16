@@ -7,12 +7,12 @@
   "objectType" : "farmable",
   "printable" : false, 
   
-  "apexDescription" : "A Goldenglow Seed.",
-  "avianDescription" : "A Goldenglow Seed.",
-  "floranDescription" : "A Goldenglow Seed.",
-  "glitchDescription" : "A Goldenglow Seed.",
-  "humanDescription" : "A Goldenglow Seed.",
-  "hylotlDescription" : "A Goldenglow Seed.",
+  "apexDescription" : "A Goldenglow flower.",
+  "avianDescription" : "A Goldenglow flower.",
+  "floranDescription" : "A Goldenglow flower.",
+  "glitchDescription" : "Statement. A Goldenglow flower.",
+  "humanDescription" : "A Goldenglow flower.",
+  "hylotlDescription" : "A Goldenglow flower.",
 
   "lightColor" : [255, 204, 0],
   "flickerDistance" : 0.7,
@@ -29,10 +29,8 @@
       "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
-
     }
   ],
-
   "stages" : [
     {
       "duration" : [300, 600]

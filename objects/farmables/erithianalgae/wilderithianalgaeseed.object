@@ -1,23 +1,28 @@
 {
-
   "objectName" : "wilderithianalgaeseed",
   "rarity" : "Common",
   "category" : "farmable",
-  "description" : "Funky fungus fuel.",
+  "description" : "Funky fungi fuel.",
   "shortdescription" : "Erithian Algae",
   "objectType" : "farmable",
   "printable" : false,
   "objectItem" : "erithianalgaeseed",
-  "inventoryIcon" : "erithianalgaeicon.png",
+  "apexDescription" : "A great source of bio-fuel",
+  "avianDescription" : "A great source of bio-fuel",
+  "floranDescription" : "A great sssource of bio-fuel",
+  "glitchDescription" : "Statement. A great source of bio-fuel",
+  "humanDescription" : "A great source of bio-fuel",
+  "hylotlDescription" : "A great source of bio-fuel",
 
+  "inventoryIcon" : "erithianalgaeicon.png",
   "orientations" : [
     {
-
       "dualImage" : "erithianalgaeseed.png:<color>.<stage>.<alt>",
       "imagePosition" : [0, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
-      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2] ],
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
 
