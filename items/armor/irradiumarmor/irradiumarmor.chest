@@ -1,21 +1,21 @@
 {
-  "itemName" : "ff_scoutchest_melee",
+  "itemName" : "irradiumchest",
   "inventoryIcon" : "icons.png:chest",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "Enhanced to increase damage",
-  "shortdescription" : "Warrior Chestpiece",
+  "description" : "Armor with regenerative properties",
+  "shortdescription" : "Irradium Chest",
   "tooltipKind" : "armor",
 
   "maleFrames" : {
-    "body" : "chest.png",
+    "body" : "chestm.png",
     "backSleeve" : "bsleeve.png",
     "frontSleeve" : "fsleeve.png"
   },
 
   "femaleFrames" : {
-    "body" : "chest.png",
+    "body" : "chestf.png",
     "backSleeve" : "bsleeve.png",
     "frontSleeve" : "fsleeve.png"
   },
@@ -23,11 +23,17 @@
   "statusEffects" : [
     {
       "stat" : "protection",
-      "amount" : 28
+      "amount" : 70
     },
+
     {
-      "stat" : "powerboost",
-      "amount" : 0.35
+      "stat" : "maxEnergy",
+      "amount" : 80
+    },
+
+    {
+      "stat" : "healthRegen",
+      "amount" : 1.5
     }
   ]
 }

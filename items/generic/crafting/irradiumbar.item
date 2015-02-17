@@ -3,5 +3,6 @@
   "rarity" : "Common",
   "inventoryIcon" : "irradiumbar.png",
   "description" : "Compressed, purified irradium.",
-  "shortdescription" : "Irradium Bar"
+  "shortdescription" : "Irradium Bar",
+      "learnBlueprintsOnPickup" : [ "irradiumrifle", "irradiumhelm", "irradiumchest", "irradiumlegs" ]
 }
