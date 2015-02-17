@@ -7,9 +7,7 @@
   "shortdescription" : "Unrefined Limestone",
   "glitchDescription" : "Statement. Limestone.",
   "florandescription" : "Sssstonne.",
-  "learnBlueprintsOnPickup" : [
-    "cobblestoneshard"
-  ],
+  "learnBlueprintsOnPickup" : [ "cobblestone" ],
   
   "materialId" : 71
 }
