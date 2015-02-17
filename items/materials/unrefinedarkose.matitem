@@ -7,6 +7,7 @@
   "shortdescription" : "Unrefined Arkose",
   "glitchDescription" : "Statement. Arkose.",
   "florandescription" : "Sssstonne.",
+  "learnBlueprintsOnPickup" : [ "cobblestone" ],
   
   "materialId" : 75
 }

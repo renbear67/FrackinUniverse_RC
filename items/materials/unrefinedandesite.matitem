@@ -7,6 +7,6 @@
   "shortdescription" : "Unrefined Andesite",
   "glitchDescription" : "Statement. Andesite.",
   "florandescription" : "Sssstonne.",
-  
+  "learnBlueprintsOnPickup" : [ "cobblestone" ],
   "materialId" : 17
 }

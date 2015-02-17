@@ -160,7 +160,7 @@
           "distribution" : "/biomes/distributions.config:scatteredSmall",
 
           "type" : "grass",
-          "grasses" : [ "curlythorns", "colourfulflower", "bell", "fancy", "geometric", "grass", "jungleflower1", "jungleflower2", "jungleflower3", "leafsy", "lillies", "pods", "shrooms", "signplant", "sprout"   ] 
+          "grasses" : [ "curlythorns", "cutter", "colourfulflower", "bell", "fancy", "geometric", "grass", "jungleflower1", "jungleflower2", "jungleflower3", "leafsy", "lillies", "pods", "shrooms", "signplant", "sprout"   ] 
         },
         {
           "mode" : "floor",
@@ -294,6 +294,16 @@
               "name" : "wicked",
               "baseHueShiftMax" : 40,
               "modHueShiftMax" : 180
+            },
+            {
+              "name" : "swampbush",
+              "baseHueShiftMax" : 40,
+              "modHueShiftMax" : 180
+            },
+            {
+              "name" : "thorns",
+              "baseHueShiftMax" : 40,
+              "modHueShiftMax" : 180
             }
           ]
         },
@@ -367,16 +377,16 @@
           [0.15, "redcap2" ],
           [0.15, "redcap3" ],
           [0.15, "redcap" ],
-              [0.15, "smalltree1" ],
-              [0.15, "smalltree2" ],
-              [0.15, "smalltree3" ],
-              [0.15, "shrubby1" ],
-              [0.15, "shrubby2" ],
-              [0.15, "shrubby3" ],
-              [0.15, "orangebush" ],
-              [0.15, "bladeplant1" ],              
-              [0.15, "ferny1" ],
-              [0.15, "fireflies1"]
+          [0.15, "smalltree1" ],
+          [0.15, "smalltree2" ],
+          [0.15, "smalltree3" ],
+          [0.15, "shrubby1" ],
+          [0.15, "shrubby2" ],
+          [0.15, "shrubby3" ],
+          [0.15, "orangebush" ],
+          [0.15, "bladeplant1" ],              
+          [0.15, "ferny1" ],
+          [0.15, "fireflies1"]
           ],
               "parameters" : { }
             }
@@ -403,8 +413,8 @@
           "type" : "tree",
           "treeFoliageHueShiftMax" : 180,
           "treeStemHueShiftMax" : 15,
-          "treeStemList" : [ "coconutwood", "tearnutstem" ],
-          "treeFoliageList" : [ "coconut", "tearnutfoliage" ]
+          "treeStemList" : [ "coconutwood", "tearnutstem", "pearlwood" ],
+          "treeFoliageList" : [ "coconut", "tearnutfoliage", "pearlfoliage" ]
         }
       ]
     },
@@ -478,7 +488,7 @@
              "type" : "object",
              "objectSets" : [
                {
-                 "pool" : [ [0.50, "ffbioshroom" ],[0.50, "ffbioshroom1" ],[0.50, "ffbioshroom2" ],[0.50, "ffbioshroom3" ] ],
+                 "pool" : [ [0.50, "bioshroom" ],[0.50, "bioshroom1" ],[0.50, "bioshroom2" ],[0.50, "bioshroom3" ],[0.50, "bioshroom4" ],[0.50, "bioshroom5" ] ],
                  "parameters" : { "startingStage" : 2 }
                }
              ]
