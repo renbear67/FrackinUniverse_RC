@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Blister-pod derived armor",
   "shortdescription" : "Blister Chest",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chest.png",

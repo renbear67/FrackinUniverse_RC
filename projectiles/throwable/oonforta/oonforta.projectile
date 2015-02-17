@@ -7,16 +7,16 @@
   "damageKindImage" : "icon.png",
   "physics" : "floatystickybomb",
   "pointLight" : false,
-  "timeToLive" : 300,
+  "timeToLive" : 60,
   "bounces" : 1,
   "lightColor" : [225, 174, 24],
   
   "actionOnReap" : [
     {
       "action" : "projectile",
-      "type" : "glowgas",
-      "inheritDamageFactor" : 1,
-      "angle" : 5
+      "type" : "biolightball",
+      "inheritDamageFactor" : 0.05,
+      "angle" : 1
     },
     {
       "action" : "sound",
@@ -26,9 +26,8 @@
   
   "statusEffects" : [ "glow" ],
     
-  "power" : 40,
+  "power" : 4,
+  "speed" : 1,
   "damageType" : "ignoresdef",
   "damageKind" : "acid"
 }
-
-

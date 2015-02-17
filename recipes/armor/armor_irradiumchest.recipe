@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "irradiumbar", "count" : 6 },
+    { "item" : "ceruliumcompound", "count" : 6 },
+    { "item" : "ff_silicon", "count" : 4 },
+    { "item" : "vialproto", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "irradiumchest",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "armors", "all" ]
+}

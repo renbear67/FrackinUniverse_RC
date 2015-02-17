@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "An effective, though colorful, lightsource.",
   "shortdescription" : "Blister Helm",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

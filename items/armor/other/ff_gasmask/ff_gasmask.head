@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Toxin filtering can't be a bad thing.",
   "shortdescription" : "Gasmask",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

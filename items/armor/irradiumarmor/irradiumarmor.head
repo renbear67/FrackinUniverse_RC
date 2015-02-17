@@ -1,11 +1,11 @@
 {
-  "itemName" : "goggles1",
+  "itemName" : "irradiumhelm",
   "inventoryIcon" : "icons.png:head",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "A pair of goggles.",
-  "shortdescription" : "Goggles for mad science.",
+  "description" : "Sturdy, with a build in targeting HUD.",
+  "shortdescription" : "Irradium Helm",
   "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
@@ -15,9 +15,18 @@
   "statusEffects" : [
     {
       "stat" : "protection",
-      "amount" : 10
+      "amount" : 70
     },
-    "glow"
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 65
+    },
+
+    {
+      "stat" : "powerMultiplier",
+      "amount" : 1.5
+    }
   ]
 
 }
