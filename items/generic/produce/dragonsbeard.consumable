@@ -2,7 +2,7 @@
   "itemName" : "dragonsbeard",
   "rarity" : "uncommon",
   "inventoryIcon" : "dragonsbeard.png",
-  "description" : "Exceptional heat protection.",
+  "description" : "Exceptional extreme heat protection.",
   "shortdescription" : "Dragons Beard Herb",
     "effects" : [ [
     "ffextremeheatimmunity"

@@ -3,11 +3,20 @@
   "rarity" : "uncommon",
   "category" : "Farmable",
   "inventoryIcon" : "littlerascal.png",
-  "description" : "Fills you with zappy power!",
+  "description" : "Increases health and energy caps.",
   "shortdescription" : "Little Rascal Herb",
   "effects" : [ [
       
-        "wellfed"
+      {
+        "effect" : "maxHealth",
+        "amount" : 60,
+        "duration" : 40
+      },
+      {
+        "effect" : "maxEnergy",
+        "amount" : 60,
+        "duration" : 40
+      }
       
     ] ]  
 }

@@ -8,7 +8,6 @@
       {
         "effect" : "glow",
         "amount" : "1.55",
-        "color" : [150, 150, 250],
         "duration" : 120
       }
     ] ],

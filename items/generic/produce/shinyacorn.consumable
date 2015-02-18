@@ -5,6 +5,10 @@
   "description" : "It's so shiny!",
   "shortdescription" : "Shiny Acorn",
   "effects" : [ [
-      "wellfed"
+      {
+        "effect" : "maxHaalth",
+        "amount" : 50,
+        "duration" : 30
+      }
     ] ]
 }

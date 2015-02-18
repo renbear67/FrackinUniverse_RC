@@ -2,7 +2,7 @@
   "itemName" : "aquapod",
   "rarity" : "Common",
   "inventoryIcon" : "aquapod.png",
-  "description" : "Grants a boost to speed.",
+  "description" : "Increases your speed in liquids.",
   "shortdescription" : "Aquapod Bulb",
   "handPosition" : [0, 8],
       "effects" : [ [

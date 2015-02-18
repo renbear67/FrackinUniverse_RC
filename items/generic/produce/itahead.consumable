@@ -2,16 +2,11 @@
   "itemName" : "itahead",
   "rarity" : "Common",
   "inventoryIcon" : "itahead.png",
-  "description" : "Possesses potent anti-toxins..",
+  "description" : "Possesses potent anti-toxins. Cures poison.",
   "shortdescription" : "Ita Flower Head",
   "handPosition" : [8, 0],
     
-  "effects" : [ [
-      {
-        "effect" : "antidote",
-	"duration" : 30
-      }
-    ] ],
+  "effects" : [ [ "antidote" ] ],
   "blockingEffects" : [
   "antidote"
   ]

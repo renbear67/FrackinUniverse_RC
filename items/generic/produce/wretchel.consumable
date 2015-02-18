@@ -2,7 +2,7 @@
   "itemName" : "wretchel",
   "rarity" : "Common",
   "inventoryIcon" : "wretchel.png",
-  "description" : "Hideously unappealing pan-dimensional produce.",
+  "description" : "Edible. Better for crafting.",
   "shortdescription" : "Wretchel Chunk",
   "handPosition" : [8, 0],
   "effects" : [ [

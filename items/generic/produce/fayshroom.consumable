@@ -3,11 +3,11 @@
   "rarity" : "uncommon",
   "category" : "Farmable",
   "inventoryIcon" : "fayshroom.png",
-  "description" : "Reflects stuff! (not bullets)",
+  "description" : "Stab those that harm you.",
   "shortdescription" : "Fayshroom",
   "effects" : [ [
       {
-        "effect" : "bouncy",
+        "effect" : "thorns",
         "duration" : 20
       }
     ] ]

@@ -3,12 +3,12 @@
   "rarity" : "uncommon",
   "category" : "Farmable",
   "inventoryIcon" : "lactariusindigo.png",
-  "description" : "Said to help the user resist pain.",
+  "description" : "Renders you immune to poison.",
   "shortdescription" : "Lactarius Indigo Mushroom",
   "effects" : [ [
       {
-        "effect" : "foodheal720",
-        "duration" : 5
+        "effect" : "poisonImmunity",
+        "duration" : 60
       }
     ] ]
 }

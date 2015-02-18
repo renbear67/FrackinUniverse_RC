@@ -2,7 +2,7 @@
   "itemName" : "biscorn",
   "rarity" : "Common",
   "inventoryIcon" : "biscornicon.png",
-  "description" : "Does nothing.",
+  "description" : "Does nothing yet.",
   "shortdescription" : "Biscorn",
   "effects" : [ [
       "wellfed"

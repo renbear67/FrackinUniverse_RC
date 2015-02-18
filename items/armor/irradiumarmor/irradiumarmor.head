@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "Sturdy, with a build in targeting HUD.",
+  "description" : "Sturdy, with a built in targeting HUD.",
   "shortdescription" : "Irradium Helm",
   "tooltipKind" : "armor",
 
@@ -27,6 +27,8 @@
       "stat" : "powerMultiplier",
       "amount" : 1.5
     }
-  ]
+  ],
+
+"effectSources" : [ "icetrail" ]
 
 }

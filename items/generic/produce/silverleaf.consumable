@@ -3,11 +3,11 @@
   "rarity" : "uncommon",
   "category" : "Farmable",
   "inventoryIcon" : "silverleaf.png",
-  "description" : "Regenerates energy",
+  "description" : "Immunity to most cold.",
   "shortdescription" : "Silverleaf Herb",
   "effects" : [ [
       {
-        "effect" : "energyregen384",
+        "effect" : "coldImmunity",
         "duration" : 15
       }
     ] ]  

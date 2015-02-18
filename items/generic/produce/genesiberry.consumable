@@ -2,12 +2,9 @@
   "itemName" : "genesiberry",
   "rarity" : "Common",
   "inventoryIcon" : "genesiberry.png",
-  "description" : "The genesis of a new plant human starts here. Heals HP. Very filling.",
+  "description" : "Restores health when you are hit near-death.",
   "shortdescription" : "Genesiberry",
   "effects" : [ [
-      {
-        "effect" : "foodheal720",
-        "duration" : 1
-      }
+      "brainreboot"
     ] ]
 }
