@@ -3,9 +3,12 @@
   "rarity" : "Common",
   "category" : "Farmable",
   "inventoryIcon" : "goldenrooticon.png",
-  "description" : "Does nothing.", //powerboost not functioning
+  "description" : "Instantly restores half  of your shield.", 
   "shortdescription" : "Golden Root",
   "effects" : [ [
-      "wellfed"
+      {
+        "effect" : "shieldregen",
+        "amount" : 0.5
+      }
     ] ]
 }

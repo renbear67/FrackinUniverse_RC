@@ -3,9 +3,13 @@
   "rarity" : "Common",
   "category" : "Farmable",
   "inventoryIcon" : "petrifiedrooticon.png",
-  "description" : "Does nothing.", //another power boost food
-  "shortdescription" : "Petrified Root",
+  "description" : "Gives insane speed boost for a short time.", 
+  "shortdescription" : "Shadow Root",
   "effects" : [ [
-      "wellfed"
+      {
+        "effect" : "runboost",
+        "amount" : 1.5,
+        "duration" : 5
+      }
     ] ]
 }

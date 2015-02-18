@@ -3,12 +3,12 @@
   "rarity" : "uncommon",
   "category" : "Farmable",
   "inventoryIcon" : "yellowfoot.png",
-  "description" : "I don't really know if I should eat this..",
+  "description" : "Tar won't slow you down with yellow foot!",
   "shortdescription" : "Yellow-foot Mushroom",
   "effects" : [ [
       {
-        "effect" : "runboost",
-        "duration" : 20
+        "effect" : "tarImmunity",
+        "duration" : 60
       }
     ] ]
 }

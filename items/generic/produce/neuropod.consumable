@@ -2,7 +2,7 @@
   "itemName" : "neuropod",
   "rarity" : "Common",
   "inventoryIcon" : "neuropod.png",
-  "description" : "A powerhouse of healing, energy and power.",
+  "description" : "A powerhouse of healing, energy and strength.",
   "shortdescription" : "Neuropod Bulb",
   "handPosition" : [0, 8],
   "effects" : [ [

@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "Protects against impact as well as damage.",
+  "description" : "Cybernetically increases leg strength.",
   "shortdescription" : "Irradium Greaves",
   "tooltipKind" : "armor",
 
@@ -23,8 +23,9 @@
     },
 
     {
-      "stat" : "fallDamageMultiplier",
+      "stat" : "jumpboost",
       "amount" : 0.25
     }
-  ]
+  ],
+"effectSources" : [ "icetrail" ]
 }

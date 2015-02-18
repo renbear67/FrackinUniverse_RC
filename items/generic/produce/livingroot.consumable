@@ -3,10 +3,10 @@
   "rarity" : "uncommon",
   "category" : "Farmable",
   "inventoryIcon" : "livingrooticon.png",
-  "description" : "Glowy goodness.",
-  "shortdescription" : "Living Root",
+  "description" : "Grants limited protection from harm.",
+  "shortdescription" : "Freya Root",
   "effects" : [ [
-      { "effect" : "glow",
+      { "effect" : "defenseboost30",
 	  "duration" : 125 }
     ] ]
 }

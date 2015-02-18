@@ -3,7 +3,7 @@
   "rarity" : "uncommon",
   "category" : "Farmable",
   "inventoryIcon" : "pinkloom.png",
-  "description" : "Herbs are useful for many recipes!",
+  "description" : "Affects your personal gravity. Seriously.",
   "shortdescription" : "Pinkloom Herb",
   "effects" : [ [
       {

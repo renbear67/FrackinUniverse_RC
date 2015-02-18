@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "Armor with regenerative properties",
+  "description" : "Armor with regenerative properties.",
   "shortdescription" : "Irradium Chest",
   "tooltipKind" : "armor",
 
@@ -35,5 +35,7 @@
       "stat" : "healthRegen",
       "amount" : 1.5
     }
-  ]
+  ],
+"effectSources" : [ "icetrail" ]
+
 }

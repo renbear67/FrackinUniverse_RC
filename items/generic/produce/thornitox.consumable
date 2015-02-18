@@ -2,9 +2,12 @@
   "itemName" : "thornitox",
   "rarity" : "Common",
   "inventoryIcon" : "thornitox.png",
-  "description" : "Disgusting flavor, but filling. It also makes weapons. That's worrisome.",
+  "description" : "Poisonous. Makes weapons.",
   "shortdescription" : "Thornitox Dongle",
   "effects" : [ [
-      "wellfed"
+      {
+        "effect" : "weakpoison",
+        "duration" : 12
+      }
     ] ]
 }

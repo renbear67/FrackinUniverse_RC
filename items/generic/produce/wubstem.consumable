@@ -2,7 +2,7 @@
   "itemName" : "wubstem",
   "rarity" : "Common",
   "inventoryIcon" : "wubstemicon.png",
-  "description" : "A strange tube plant.",
+  "description" : "This edible crap makes you angry!",
   "shortdescription" : "Wubstem",
   "effects" : [ [
       "rage"

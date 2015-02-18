@@ -2,7 +2,7 @@
   "itemName" : "varanberry",
   "rarity" : "Common",
   "inventoryIcon" : "varanberry.png",
-  "description" : "Tastes like joy and happy.",
+  "description" : "Grants a minor healing boost.",
   "shortdescription" : "Varan Berries",
   "effects" : [ [
        {

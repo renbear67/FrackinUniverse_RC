@@ -3,7 +3,7 @@
   "rarity" : "uncommon",
   "category" : "Farmable",
   "inventoryIcon" : "guam.png",
-  "description" : "Repels radiation, which is rather useful.",
+  "description" : "Repels extreme radiation, which is rather useful.",
   "shortdescription" : "Guam Herb",
   "effects" : [ [
    "ffextremeradiationimmunity"

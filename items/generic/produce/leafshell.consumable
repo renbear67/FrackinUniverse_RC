@@ -2,11 +2,11 @@
   "itemName" : "leafshell",
   "rarity" : "Common",
   "inventoryIcon" : "leafshellicon.png",
-  "description" : "A leafy egg vegetable. Bounce a little would ya'?.",
+  "description" : "Complete immunity to fire.",
   "shortdescription" : "Leafshell",
   "effects" : [ [
       {
-        "effect" : "bouncy",
+        "effect" : "fireImmunity",
         "duration" : 30
       }
     ] ],
