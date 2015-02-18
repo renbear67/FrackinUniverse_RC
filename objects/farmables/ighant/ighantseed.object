@@ -7,12 +7,13 @@
   "objectType" : "farmable",
   "printable" : false, 
   
-  "apexDescription" : "An Ighant Seed.",
-  "avianDescription" : "An Ighant Seed.",
-  "floranDescription" : "An Ighant Seed.",
-  "glitchDescription" : "An Ighant Seed.",
-  "humanDescription" : "An Ighant Seed.",
-  "hylotlDescription" : "An Ighant Seed.",
+  "apexDescription" : "An Ighant plant.",
+  "avianDescription" : "An Ighant plant.",
+  "floranDescription" : "An Ighant plant.",
+  "glitchDescription" : "Statement. An Ighant plant.",
+  "humanDescription" : "An Ighant plant.",
+  "hylotlDescription" : "An Ighant plant.",
+
   "inventoryIcon" : "ighantseedicon.png",
   "orientations" : [
     {
@@ -21,13 +22,11 @@
       "frames" : 1,
       "animationCycle" : 0.5,
 
-      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2] ],
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
-
     }
   ],
-
   "stages" : [
     {
       "duration" : [300, 600]

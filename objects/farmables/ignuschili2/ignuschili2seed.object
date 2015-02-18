@@ -2,16 +2,17 @@
   "objectName" : "ignuschili2seed",
   "rarity" : "rare",
   "category" : "farmable",
-  "description" : "ow. This is hot.",
+  "description" : "Yeowch! This is even hotter!",
   "shortdescription" : "Advanced Ignus Chili Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "apexDescription" : "240x as spicy as ordinary Chili.",
-  "avianDescription" : "240x as spicy as ordinary Chili.",
-  "floranDescription" : "240x as spicy as ordinary Chili.",
-  "glitchDescription" : "240x as spicy as ordinary Chili",
-  "humanDescription" : "240x as spicy as ordinary Chili.",
-  "hylotlDescription" : "240x as spicy as ordinary Chili.",
+  
+  "apexDescription" : "Two hundred and forty times as spicy as ordinary Chili.",
+  "avianDescription" : "Two hundred and forty times as spicy as ordinary Chili.",
+  "floranDescription" : "Two hundred and forty timesss asss hot as ordinary Chili.",
+  "glitchDescription" : "Fearful. Two hundred and forty times as spicy as ordinary Chili.",
+  "humanDescription" : "Two hundred and forty times as spicy as ordinary Chili.",
+  "hylotlDescription" : "Two hundred and forty times as spicy as ordinary Chili.",
 
   "inventoryIcon" : "ignuschili2seedicon.png",
   "orientations" : [
@@ -24,10 +25,8 @@
       "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
-
     }
   ],
-
   "stages" : [
     {
       "duration" : [300, 600]
