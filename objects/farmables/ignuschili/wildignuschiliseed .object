@@ -2,17 +2,17 @@
   "objectName" : "wildignuschiliseed",
   "rarity" : "Uncommon",
   "category" : "farmable",
-  "description" : "ow. This is hot.",
+  "description" : "Yow. This is hot.",
   "shortdescription" : "Ignus Chili Seed",
   "objectType" : "farmable",
   "objectItem" : "dnasample",
 
-  "apexDescription" : "20x as spicy as ordinary Chili.",
-  "avianDescription" : "20x as spicy as ordinary Chili.",
-  "floranDescription" : "20x as spicy as ordinary Chili.",
-  "glitchDescription" : "20x as spicy as ordinary Chili",
-  "humanDescription" : "20x as spicy as ordinary Chili.",
-  "hylotlDescription" : "20x as spicy as ordinary Chili.",
+  "apexDescription" : "Twenty times as spicy as ordinary Chili.",
+  "avianDescription" : "Twenty times as spicy as ordinary Chili.",
+  "floranDescription" : "Twenty timesss asss hot as ordinary Chili.",
+  "glitchDescription" : "Statement. Twenty times as spicy as ordinary Chili.",
+  "humanDescription" : "Twenty times as spicy as ordinary Chili.",
+  "hylotlDescription" : "Twenty times as spicy as ordinary Chili.",
 
   "inventoryIcon" : "ignuschiliseedicon.png",
   "orientations" : [
@@ -22,13 +22,11 @@
       "frames" : 1,
       "animationCycle" : 0.5,
 
-      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3], [1, 4], [0, 4] ],
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
-
     }
   ],
-
   "stages" : [
     {
       "duration" : [300, 600]
