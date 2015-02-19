@@ -33,7 +33,7 @@
 
     {
       "stat" : "healthRegen",
-      "amount" : 1.5
+      "amount" : 0.5
     }
   ],
 "effectSources" : [ "icetrail" ]

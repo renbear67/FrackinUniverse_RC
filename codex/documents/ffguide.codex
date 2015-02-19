@@ -17,7 +17,7 @@
 
 "^green;Sampling2^white; - Bio-Chips require a Mineral Sample, a DNA Sample and a Bio-Chip Base. Sampling takes time, so you can toss a ton of resources in there at once, and leave to go do some stuff. Note that this machine can take other resources too, and produce other things besides the dna and mineral samples...",
 
-"^green;Finding Resources^white; - Genetic Material is most commonly found in meats, certain plants and similar stuff. You'll find Raw Minerals in stone, ore and other things rich in mineral content. Tissue Culture is most common from plants, seeds and produce. Oil is not found in many places. Sand and Tar are your best bets.",
+"^green;Finding Resources^white; - Genetic Material is most commonly found in meats, certain plants and similar stuff. You'll find Raw Minerals in stone, ore and other things rich in mineral content. Tissue Culture is most common from plants, seeds and produce. Oil is now found in many places. Sand and Tar are your best bets.",
 
 "^green;Methanol^white; - Methanol is an important resource for several goods. Where it's found is pretty straightforward. Cut down some trees. Extract from the wood in your extractor. Simple as that!",
 
@@ -27,7 +27,7 @@
 
 "^green;Bio-Chemistry^white; - The BioChem Lab is your all-in-one chemistry station. Any sort of tinkering involving formulas is done here. Likewise, you can produce some more...interesting things. Such as unstable particles for use in energy weapons. Without the formulas made here, you will not be able to create the more interesting plants.",
 
-"^green;Plastic and Silicon pt 1^white; - To make some of the later labs, you'll need Plastic. In order to make Plastic, you first need to get some silk. You can find it by extracting from silkworms or silk spiders. Bracken trees also shed silk. Plant some of those if you want easy access plastic.",
+"^green;Plastic and Silicon pt 1^white; - To make some products, you'll need Plastic. In order to make Plastic, you first need to get some silk. Bracken trees shed silk. Plant some of those if you want easy access plastic.",
 
 "^green;Plastic and Silicon pt 2^white; - On the other hand, a super-pure form of Silicon can only be found on crystal moons. No other silicon is pure enough for the complex gear you will be creating. So, go check one out and get cracking. Crystal is hard to break, though. Bring a sturdy pickaxe.",
 
@@ -35,7 +35,7 @@
 
 "^green;Designing Genes^white; - The Gene Design Lab is your best friend. Here, you combine all the things you've made in previously built stations in order to create new seeds! Without this, you're sunk!",
 
-"^green;Cloning from Seeds^white; - Finally, the Cloning Lab can be built, though it is not necessarily essential. Here you can create modified versions of basic seeds, increasing yield and decreasing growth time. You need 3 of a seed, and a BioReagent powder, of which there are 6 craftable at the BioChem Lab.",
+"^green;Cloning from Seeds^white; - Finally, the Cloning Lab can be built, though it is not necessarily essential. Here you can create modified versions of seeds, with new effects. You need 3 of a seed, a mutagen and a chemical reagent, which are craftable at the BioChem Lab if you can find the recipes.",
 
 "^green;Storing Your Goods^white; - Need somewhere to store the dozens of resources you're inevitably going to create through your research? Well, the solution is simple enough: Gene Cabinets. Build a couple of these and you will be good to go. And they're cheap and easy to make!",
 

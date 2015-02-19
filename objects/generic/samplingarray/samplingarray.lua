@@ -9,9 +9,9 @@ local recipes =
 {inputs = {"glassmaterial", "geneticmaterial", "tissueculture" }, outputs = { "dnasample" }, time = 15},
 {inputs = {"mineralsample", "dnasample", "biochipbase" }, outputs = { "biochip" }, time = 30},
 {inputs = {"glassmaterial", "protocitebar", "dnasample" }, outputs = { "vialproto", "vialproto" }, time = 30},
-{inputs = {"glassmaterial", "blisterbushplantfood", "dnasample" }, outputs = { "blisterextract", "blisterextract" }, time = 30},
-{inputs = {"glassmaterial", "mutavisksilk", "dnasample" }, outputs = { "mutaviskthread", "mutaviskthread" }, time = 20},
-{inputs = {"glassmaterial", "protorockmaterial", "mineralsample" }, outputs = { "aliencompound" }, time = 5},
+{inputs = {"moonstoneore", "blisterbushplantfood", "dnasample" }, outputs = { "blisterextract", "blisterextract" }, time = 30},
+{inputs = {"mineralsample", "mutavisksilk", "dnasample" }, outputs = { "mutaviskthread", "mutaviskthread" }, time = 20},
+{inputs = {"prisilitestar", "protorockmaterial", "mineralsample" }, outputs = { "aliencompound" }, time = 5},
 
 -- armor, weapons etc
 {inputs = {"blisterchest", "goldenglowseed", "penumbriteshard" }, outputs = { "blisterchestalt-recipe" }, time = 120},

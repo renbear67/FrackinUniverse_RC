@@ -494,14 +494,6 @@
              ]
            },
         {
-          "mode" : "floor",
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:scatteredSmall",
-
-          "type" : "grass",
-          "grasses" : [ "curlythorns", "grass", "jungleflower1", "jungleflower2", "jungleflower3"  ] 
-        },
-        {
           "mode" : "ceiling",
           "variants" : 1,
           "distribution" : "/biomes/distributions.config:scatteredSmall",

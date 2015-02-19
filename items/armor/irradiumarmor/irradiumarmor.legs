@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "Cybernetically increases leg strength.",
+  "description" : "Provides excess energy reserves.",
   "shortdescription" : "Irradium Greaves",
   "tooltipKind" : "armor",
 
@@ -23,8 +23,8 @@
     },
 
     {
-      "stat" : "jumpboost",
-      "amount" : 0.25
+      "stat" : "energyRegen",
+      "amount" : 0.5
     }
   ],
 "effectSources" : [ "icetrail" ]

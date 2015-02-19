@@ -1,4 +1,8 @@
 [
+{"op":"add",
+"path":"/planetaryTypes/Tier2/baseParameters/terrestrialType/-",
+"value":"ffunknown"
+},
 
 {"op":"add",
 "path":"/planetaryTypes/Tier2/baseParameters/terrestrialType/-",
@@ -26,6 +30,11 @@
 {"op":"add",
 "path":"/planetaryTypes/Tier2/baseParameters/terrestrialType/-",
 "value":"urbanwasteland"
+},
+
+{"op":"add",
+"path":"/planetaryTypes/Tier3/baseParameters/terrestrialType/-",
+"value":"ffunknown"
 },
 {"op":"add",
 "path":"/planetaryTypes/Tier3/baseParameters/terrestrialType/-",
@@ -88,6 +97,11 @@
 {"op":"add",
 "path":"/planetaryTypes/Tier3/baseParameters/terrestrialType/-",
 "value":"lightless"
+},
+
+{"op":"add",
+"path":"/planetaryTypes/Tier4/baseParameters/terrestrialType/-",
+"value":"ffunknown"
 },
 {"op":"add",
 "path":"/planetaryTypes/Tier4/baseParameters/terrestrialType/-",
@@ -179,7 +193,10 @@
 "path":"/planetaryTypes/Tier4/baseParameters/terrestrialType/-",
 "value":"lightless"
 },
-
+{"op":"add",
+"path":"/planetaryTypes/Tier5/baseParameters/terrestrialType/-",
+"value":"ffunknown"
+},
 {"op":"add",
 "path":"/planetaryTypes/Tier5/baseParameters/terrestrialType/-",
 "value":"urbanwasteland"
@@ -406,7 +423,10 @@
 "value":"lightless"
 },
 
-
+{"op":"add",
+"path":"/planetaryTypes/Tier6/baseParameters/terrestrialType/-",
+"value":"ffunknown"
+},
 
 {"op":"add",
 "path":"/planetaryTypes/Barren/baseParameters/terrestrialType/-",
@@ -430,6 +450,11 @@
 
 
 // Moons
+
+{"op":"add",
+"path":"/satelliteTypes/Tier2/baseParameters/terrestrialType/-",
+"value":"ffunknown"
+},
 {"op":"add",
 "path":"/satelliteTypes/Tier2/baseParameters/terrestrialType/-",
 "value":"urbanwasteland"
@@ -469,6 +494,10 @@
 "value":"thickjungle"
 },
 
+{"op":"add",
+"path":"/satelliteTypes/Tier3/baseParameters/terrestrialType/-",
+"value":"ffunknown"
+},
 {"op":"add",
 "path":"/satelliteTypes/Tier3/baseParameters/terrestrialType/-",
 "value":"icemoon"
@@ -525,6 +554,11 @@
 {"op":"add",
 "path":"/satelliteTypes/Tier3/baseParameters/terrestrialType/-",
 "value":"metallicmoon"
+},
+
+{"op":"add",
+"path":"/satelliteTypes/Tier4/baseParameters/terrestrialType/-",
+"value":"ffunknown"
 },
 {"op":"add",
 "path":"/satelliteTypes/Tier4/baseParameters/terrestrialType/-",
@@ -610,6 +644,11 @@
 {"op":"add",
 "path":"/satelliteTypes/Tier5/baseParameters/terrestrialType/-",
 "value":"icemoon"
+},
+
+{"op":"add",
+"path":"/satelliteTypes/Tier5/baseParameters/terrestrialType/-",
+"value":"ffunknown"
 },
 {"op":"add",
 "path":"/satelliteTypes/Tier5/baseParameters/terrestrialType/-",
@@ -765,6 +804,11 @@
 {"op":"add",
 "path":"/satelliteTypes/Tier6/baseParameters/terrestrialType/-",
 "value":"metallicmoon"
+},
+
+{"op":"add",
+"path":"/satelliteTypes/Tier6/baseParameters/terrestrialType/-",
+"value":"ffunknown"
 }
 
 ]
