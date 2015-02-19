@@ -1,0 +1,8 @@
+{
+  "itemName" : "fu_nodule",
+  "rarity" : "Common",
+  "inventoryIcon" : "fu_nodule.png",
+  "description" : "nodule",
+  "shortdescription" : "A nodule from the deeps.",
+  "learnBlueprintsOnPickup" : [ "mutagene4" ]
+}

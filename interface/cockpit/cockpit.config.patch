@@ -1,4 +1,6 @@
 [
+{"op":"add","path":"/planetTypeToDescription/ffunknown",
+"value":"^#e43774;Unknown^white; interference prevents scanning of the planet surface. Proceed carefully."},
 {"op":"add","path":"/planetTypeToDescription/arboreal",
 "value":"^#76fe68;Giant trees^white; are abundant on this ancient ^#76fe68;Primeval Forest^white; world."},
 {"op":"add","path":"/planetTypeToDescription/atropus",

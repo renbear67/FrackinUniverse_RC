@@ -27,12 +27,15 @@
 
 "^green;Irradiated^white; - These radioactive rocks are curiously abundant in native life. Granted, it's not edible and you still don't want to hang out there too much. You'll find heaps of radioactive resources here, obviously.",
 
-"^green;Infernus^white; - I'd not suggest going here without a lot of protection. Their surfaces are far from hospitable, though at least they have the courtesy of providing a breathable atmostphere most of the time. And cinnabar.",
+"^green;Infernus^white; - I'd not suggest going here without a lot of protection. Their surfaces are far from hospitable, though at least they have the courtesy of providing a breathable atmostphere most of the time. And ressources like cinnabar and magma stone.",
 
 "^green;Frozen Moon^white; - These frigids moons are quaint, and not altogether threatening. No life walks on their surfaces. On account of the whole no-air thing.",
 
 "^green;Nitrogen Sea^white; - Doesn't this sound like a fun place to swim? Yea, it really isn't. Some handy liquid there, though."
 
+"^green;Metallic Moon^white; - Not much to say. Moons composed almost entirely of metal. Quite useful when you need metallic ores.",
+
+"^green;Lightless^white; - These unusual worlds are ancient and something prevents any sun from reaching their surfaces. There may be some useful things there, however. Bring lots of lights!"
 
   ]
 }
