@@ -33,7 +33,7 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "wildpasakavineHarvest"
+      "harvestPool" : "wildpasakaHarvest"
     }
   ]
 }

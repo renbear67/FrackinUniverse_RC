@@ -8,12 +8,12 @@
   "effects" : [ [
       
       {
-        "effect" : "maxHealth",
+        "effect" : "maxhealthboost",
         "amount" : 60,
         "duration" : 40
       },
       {
-        "effect" : "maxEnergy",
+        "effect" : "maxenergyboost",
         "amount" : 60,
         "duration" : 40
       }

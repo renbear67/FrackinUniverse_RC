@@ -1,0 +1,7 @@
+{
+  "itemName" : "corvex",
+  "rarity" : "legendary",
+  "inventoryIcon" : "corvex.png",
+  "description" : "An alien resource.",
+  "shortdescription" : "Corvex"
+}
