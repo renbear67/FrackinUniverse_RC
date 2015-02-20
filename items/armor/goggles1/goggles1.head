@@ -4,8 +4,8 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "A pair of goggles.",
-  "shortdescription" : "Goggles for mad science.",
+  "description" : "Look good while obliterating reality.",
+  "shortdescription" : "Mad Science Goggles",
   "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
@@ -15,9 +15,8 @@
   "statusEffects" : [
     {
       "stat" : "protection",
-      "amount" : 10
-    },
-    "glow"
+      "amount" : 6
+    }
   ]
 
 }
