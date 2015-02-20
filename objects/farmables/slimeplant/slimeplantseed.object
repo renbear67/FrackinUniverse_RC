@@ -7,10 +7,6 @@
   "objectType" : "farmable",
   "printable" : false, 
   
-  "lightColor" : [1, 1, 1],
-  "flickerDistance" : 0.0,
-  "flickerStrength" : 0.0,
-  
   "inventoryIcon" : "slimeplantseedicon.png",
   "orientations" : [
     {

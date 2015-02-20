@@ -488,7 +488,7 @@
              "type" : "object",
              "objectSets" : [
                {
-                 "pool" : [ [0.50, "bioshroom" ],[0.50, "bioshroom1" ],[0.50, "bioshroom2" ],[0.50, "bioshroom3" ],[0.50, "bioshroom4" ],[0.50, "bioshroom5" ] ],
+                 "pool" : [ [0.50, "bioshroom1" ],[0.50, "bioshroom2" ],[0.50, "bioshroom3" ],[0.50, "bioshroom4" ],[0.50, "bioshroom5" ] ],
                  "parameters" : { "startingStage" : 2 }
                }
              ]

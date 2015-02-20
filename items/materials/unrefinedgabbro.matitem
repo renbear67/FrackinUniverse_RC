@@ -7,7 +7,7 @@
   "shortdescription" : "Unrefined Gabbro",
   "glitchDescription" : "Statement. Gabbro.",
   "florandescription" : "Sssstonne.",
-  "learnBlueprintsOnPickup" : [ "cobblestone" ],
+  "learnBlueprintsOnPickup" : [ "cobblestonematerial" ],
 
   "materialId" : 76
 }

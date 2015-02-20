@@ -6,10 +6,7 @@
   "shortdescription" : "Slime Seed",
   "objectType" : "farmable",
   "printable" : false, 
-    "objectItem" : "dnasample",
-  "lightColor" : [1, 1, 1],
-  "flickerDistance" : 0.0,
-  "flickerStrength" : 0.0,
+  "objectItem" : "dnasample",
   
   "inventoryIcon" : "slimeplantseedicon.png",
   "orientations" : [
@@ -34,7 +31,7 @@
       "duration" : [300, 600]
     },
     {
-      "alts" : 5,
+      "alts" : 3,
       "harvestPool" : "wildslimeplantHarvest"
     }
   ]

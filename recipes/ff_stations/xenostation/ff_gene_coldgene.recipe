@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "cellresistance1", "count" : 1 },
+    { "item" : "methanol", "count" : 8 },
+    { "item" : "Methyl iodine", "count" : 8 },
+    { "item" : "ff_fertilizer", "count" : 1 },
+	{ "item" : "liquidswampwater", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "coldgene",
+    "count" : 1
+  },
+  "groups" : [ "xenostation", "objects", "all", "crafting" ]
+}

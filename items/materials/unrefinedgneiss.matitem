@@ -7,7 +7,7 @@
   "shortdescription" : "Unrefined Gneiss",
   "glitchDescription" : "Statement. Gneiss.",
   "florandescription" : "Sssstonne.",
-  "learnBlueprintsOnPickup" : [ "cobblestone" ],
+  "learnBlueprintsOnPickup" : [ "cobblestonematerial" ],
   
   "materialId" :19
 }
