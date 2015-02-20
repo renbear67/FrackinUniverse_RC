@@ -283,7 +283,7 @@
           "distribution" : "/biomes/distributions.config:randomEncounter",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "randomencounter", "treasureroom", "avianencounter", "miniboss", "glitchencounter" ]
+          "microdungeons" : [ "randomencounter", "treasureroom", "avianencounter", "glitchencounter" ]
         },
         
         {

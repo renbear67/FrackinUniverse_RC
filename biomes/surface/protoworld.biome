@@ -366,7 +366,7 @@
           "distribution" : "/biomes/distributions.config:randomEncounter",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "randomencounter", "treasureroom", "avianencounter", "miniboss", "glitchencounter", "shroomencounter" ]
+          "microdungeons" : [ "randomencounter", "treasureroom", "avianencounter", "glitchencounter", "shroomencounter" ]
         },
         
         {
