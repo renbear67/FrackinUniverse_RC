@@ -159,15 +159,7 @@
           "microdungeons" : [ "randomencounter", "apexencounter", "avianencounter", "floranencounter", "glitchencounter", "humanencounter" ]
 
         },
-        {
-          "mode" : "floor",
-          "priority" : 3.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:minibossoverground",
-
-          "type" : "microdungeon",
-          "microdungeons" : [ "minibossoverground" ]
-        },
+        
         {
           "mode" : "floor",
           "priority" : 3.0,
