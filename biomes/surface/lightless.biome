@@ -127,7 +127,15 @@
           "type" : "microdungeon",
           "microdungeons" : [ "randomencounter", "treasureroom", "avianencounter", "glitchencounter", "shroomencounter" ]
         },
-        
+        {
+          "mode" : "floor",
+          "priority" : 3.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:minibossoverground",
+
+          "type" : "microdungeon",
+          "microdungeons" : [ "minibossoverground" ]
+        },        
         {
           "mode" : "floor",
           "priority" : 3.0,
@@ -167,6 +175,37 @@
             }
           ]
         },
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:ffCommon",
+
+          "type" : "object",
+          "objectSets" : [
+            {
+              "pool" : [ 
+              [0.35, "rotbulb1" ],
+              [0.35, "rotbulb2" ],
+              [0.35, "rotbulb3" ],
+              [0.35, "tonguebush1" ],
+              [0.35, "tonguebush2" ],
+              [0.35, "shadecoral1" ],
+              [0.35, "shadecoral2" ],
+              [0.35, "shadecoral3" ],
+              [0.35, "shadecoral4" ],
+              [0.35, "blobbush1" ],
+              [0.35, "blobbush2" ],
+              [0.35, "blobbush3" ],
+              [0.35, "shadowgrass1" ],
+              [0.35, "shadowgrass2" ],
+              [0.35, "shadowgrass3" ],
+              [0.35, "shadowgrass4" ]
+              ],
+              "parameters" : { }
+            }
+          ]
+        },   
         {
           "mode" : "floor",
           "priority" : 1.0,

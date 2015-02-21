@@ -8,7 +8,7 @@
   ],
   "moneyRange" : [400, 600],
   "rewards" : [
-    [ [ "silk", 10], [ "laboil", 5], [ "oldtreeseed", 3]  ]
+    [ [ "silk", 10], [ "laboil", 1], [ "brackentreeseed", 3]  ]
   ],
   "planetMode" : "none",
   "questDungeons" : [ ],

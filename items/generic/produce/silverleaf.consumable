@@ -3,7 +3,7 @@
   "rarity" : "uncommon",
   "category" : "Farmable",
   "inventoryIcon" : "silverleaf.png",
-  "description" : "Immunity to most cold.",
+  "description" : "Grants immunity to most cold.",
   "shortdescription" : "Silverleaf Herb",
   "effects" : [ [
       {

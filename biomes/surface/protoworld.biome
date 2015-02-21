@@ -366,9 +366,17 @@
           "distribution" : "/biomes/distributions.config:randomEncounter",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "randomencounter", "treasureroom", "avianencounter", "glitchencounter", "shroomencounter" ]
+          "microdungeons" : [ "newhumanmicro", "newavianmicro", "randomencounter", "treasureroom", "avianencounter", "miniboss", "glitchencounter", "shroomencounter" ]
         },
-        
+        {
+          "mode" : "floor",
+          "priority" : 3.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:minibossoverground",
+
+          "type" : "microdungeon",
+          "microdungeons" : [ "minibossoverground" ]
+        },
         {
           "mode" : "floor",
           "priority" : 3.0,

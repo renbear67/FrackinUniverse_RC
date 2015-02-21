@@ -2,15 +2,15 @@
   "itemName" : "leafshell",
   "rarity" : "Common",
   "inventoryIcon" : "leafshellicon.png",
-  "description" : "Complete immunity to fire.",
+  "description" : "Complete immunity to most liquids.",
   "shortdescription" : "Leafshell",
   "effects" : [ [
       {
-        "effect" : "fireImmunity",
+        "effect" : "liquidimmunity",
         "duration" : 30
       }
     ] ],
   "blockingEffects" : [
-    "bouncy"
+    "liquidimmunity"
   ]
 }
