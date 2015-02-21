@@ -1,0 +1,3 @@
+[
+	{ "op" : "add", "path" : "/enableCommandsAtLevel/2/-", "value" : "StartFUQ" }
+]
