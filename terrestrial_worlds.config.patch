@@ -4,7 +4,7 @@
    "path" : "/planetTypes/ffunknown",
    "value" : 
      {
-       "threatRange" : [2, 5],
+       "threatRange" : [2, 7],
        "layers" : {
         "surface" : {
           "primaryRegion" : [ "arboreal", "atropus", "bloodstone", "bog", "crystalmoon", "icemoon", "icewaste", "infernus", "irradiated", "lightless", "metallicmoon", "nitrogensea", "penumbra", "protoworld", "sulphuric", "thickjungle", "urbanwasteland", "alien", "barren", "desert", "forest", "garden", "jungle", "savannah", "scorched", "snow", "tundra", "volcanic" ],
@@ -44,7 +44,7 @@
    "path" : "/planetTypes/arboreal",
    "value" : 
      {
-       "threatRange" : [2, 5],
+       "threatRange" : [1, 5],
        "layers" : {
         "surface" : {
           "primaryRegion" : [ "arboreal" ],
@@ -81,7 +81,7 @@
    "path" : "/planetTypes/atropus",
    "value" : 
      {
-       "threatRange" : [4, 6],
+       "threatRange" : [4, 7],
        "layers" : {
         "surface" : {
           "primaryRegion" : [ "atropus" ],
@@ -155,7 +155,7 @@
     "path" : "/planetTypes/bog",
     "value" : 
       {
-      "threatRange" : [2, 5],
+      "threatRange" : [1, 5],
       "layers" : {
         "surface" : {
           "primaryRegion" : [ "bog" ],
@@ -192,7 +192,7 @@
     "path" : "/planetTypes/crystalmoon",
     "value" : 
       {
-      "threatRange" : [2, 5],
+      "threatRange" : [1, 5],
       "layers" : {
         "surface" : {
           "primaryRegion" : [ "crystalmoon" ],
@@ -232,7 +232,7 @@
     "path" : "/planetTypes/icewaste",
     "value" : 
       {
-      "threatRange" : [4, 6],
+      "threatRange" : [4, 7],
       "layers" : {
         "surface" : {
           "primaryRegion" : [ "icewaste" ],
@@ -271,7 +271,7 @@
     "path" : "/planetTypes/icemoon",
     "value" : 
       {
-      "threatRange" : [1, 4],
+      "threatRange" : [1, 3],
       "layers" : {
         "surface" : {
           "primaryRegion" : [ "icemoon" ],
@@ -310,7 +310,7 @@
    "path" : "/planetTypes/infernus",
    "value" : 
      {
-       "threatRange" : [4, 6],
+       "threatRange" : [4, 7],
        "layers" : {
          "surface" : {
            "primaryRegion" : [ "infernus" ],
@@ -459,7 +459,7 @@
     "path" : "/planetTypes/nitrogensea",
     "value" : 
       {
-      "threatRange" : [4, 6],
+      "threatRange" : [4, 7],
       "layers" : {
         "surface" : {
           "primaryRegion" : [ "nitrogensea" ],
@@ -577,7 +577,7 @@
     "path" : "/planetTypes/slimeworld",
     "value" : 
       {
-      "threatRange" : [2, 5],
+      "threatRange" : [1, 4],
       "layers" : {
         "surface" : {
           "primaryRegion" : [ "slimeworld" ],
@@ -614,7 +614,7 @@
     "path" : "/planetTypes/sulphuric",
     "value" : 
       {
-      "threatRange" : [4, 6],
+      "threatRange" : [4, 7],
       "layers" : {
         "surface" : {
           "primaryRegion" : [ "sulphuric" ],
@@ -634,7 +634,7 @@
     "path" : "/planetTypes/thickjungle",
     "value" : 
       {
-      "threatRange" : [2, 4],
+      "threatRange" : [1, 4],
       "layers" : {
         "surface" : {
           "primaryRegion" : [ "thickjungle" ],
@@ -671,7 +671,7 @@
     "path" : "/planetTypes/urbanwasteland",
     "value" : 
       {
-      "threatRange" : [1, 6],
+      "threatRange" : [1, 5],
       "layers" : {
         "surface" : {
           "primaryRegion" : [ "urbanwasteland" ],
