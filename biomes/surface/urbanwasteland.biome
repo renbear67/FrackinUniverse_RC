@@ -127,7 +127,7 @@
           "distribution" : "/biomes/distributions.config:randomEncounter",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "randomencounter", "miniboss" ] 
+          "microdungeons" : [ "randomencounter" ] 
         },
         {
           "mode" : "floor",
