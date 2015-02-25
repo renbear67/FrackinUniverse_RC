@@ -1,0 +1,19 @@
+{
+  "id" : "questoutpostbughunt3.gearup",
+  "prerequisites" : [ "questoutpostbughunt2.gearup" ],
+  "title" : "^green;Bug Hunt",
+  "text" : "Blessed day, traveller. I hear you're heading out to more exotic locales? If so, could you ^green;bring me a ^orange;frostfly ^green;for my research? Frostflies are found on snow planets. Don't go looking on arctic planets for them!",
+  "completionText" : "Thank you for your help. You're proving to be quite the fine assistant. As promised, your reward.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "frostfly", 1] }
+  ],
+  "moneyRange" : [0, 0],
+  "rewards" : [
+      [ [ "snowflake", 50 ] ]
+   ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "",
+  "canBeAbandoned" : true,
+  "requireTurnIn" : true
+}

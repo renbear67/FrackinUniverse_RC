@@ -1,0 +1,19 @@
+{
+  "id" : "questoutpostborderguard1.gearup",
+  "prerequisites" : [ "questoutpostarrival.gearup" ],
+  "title" : "^green;Thirsty",
+  "text" : "Hello there! I hope you've had a wonderful time at New Haven so far. Although being a customs agent makes one thirsty, saying 'papers, please' all the time...do you have some ^orange;bottled water ^white;you could spare?",
+  "completionText" : "Aah, that hit the spot. Thank you, comrade. You can have these from my own garden, they're really fresh!",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "bottledwater", 1] }
+  ],
+  "moneyRange" : [0, 0],
+  "rewards" : [
+      [ [ "banana", 5 ], ["bananaseed", 5] ]
+   ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "",
+  "canBeAbandoned" : true,
+  "requireTurnIn" : true
+}

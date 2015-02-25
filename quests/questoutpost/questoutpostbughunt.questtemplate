@@ -1,0 +1,19 @@
+{
+  "id" : "questoutpostbughunt1.gearup",
+  "prerequisites" : [ "questoutpostarrival.gearup" ],
+  "title" : "^green;Bug Hunt",
+  "text" : "Greetings, fine traveller. As you can see, I am en entomologist. Unfortunately, I am lacking specimens at the moment - ^green;if you bring me a ^orange;butterbee ^green;you will be adequately rewarded. Butterbees are found on lush garden planets, and you'll need a bug net to catch one.",
+  "completionText" : "An excellent specimen of the common butterbee. As promised, your reward.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "butterbee", 1] }
+  ],
+  "moneyRange" : [0, 0],
+  "rewards" : [
+      [ [ "generatedgun", 1, { "level" : 2, "definition" : "commonpistol" } ] ]
+   ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "",
+  "canBeAbandoned" : true,
+  "requireTurnIn" : true
+}
