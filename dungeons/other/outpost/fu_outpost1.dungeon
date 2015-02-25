@@ -11,7 +11,13 @@
     "protected" : true
   },
   "tiles" : [
-  //ff tiles
+  //fu tiles
+		{
+			"value" : [148, 228, 208, 255],
+			"comment" : "foreground hydrotube",
+			"brush" : [ [ "clear" ], [ "front", "hydrotube" ] ]
+		},
+  //fu objects
     {
       "value" : [197, 181, 143, 255],
       "comment" : "matterassembler facing right",
@@ -19,27 +25,27 @@
     },
     {
       "value" : [193, 177, 139, 255],
-      "comment" : "matterassembler facing left",
+      "comment" : "chemlab facing left",
       "brush" : [ [ "clear" ], [ "object", "chemlab", { "direction" : "left", "parameters" : { "defaultSwitchState" : true } } ] ]
     },  
     {
       "value" : [190, 172, 127, 255],
-      "comment" : "matterassembler facing left",
+      "comment" : "extractionlab facing left",
       "brush" : [ [ "clear" ], [ "object", "extractionlab", { "direction" : "right", "parameters" : { "defaultSwitchState" : true } } ] ]
     },
     {
       "value" : [82, 104, 28, 255],
-      "comment" : "matterassembler facing left",
+      "comment" : "xenostation facing left",
       "brush" : [ [ "clear" ], [ "object", "xenostation", { "direction" : "left", "parameters" : { "defaultSwitchState" : true } } ] ]
     }, 
     {
       "value" : [64, 79, 29, 255],
-      "comment" : "matterassembler facing left",
+      "comment" : "designlab facing left",
       "brush" : [ [ "clear" ], [ "object", "designlab", { "direction" : "left", "parameters" : { "defaultSwitchState" : true } } ] ]
     }, 
     {
       "value" : [132, 139, 104, 255],
-      "comment" : "matterassembler facing left",
+      "comment" : "samplingarray facing left",
       "brush" : [ [ "clear" ], [ "object", "samplingarray", { "direction" : "left", "parameters" : { "defaultSwitchState" : true } } ] ]
     }, 
 
