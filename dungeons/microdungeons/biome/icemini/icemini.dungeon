@@ -1,0 +1,246 @@
+{
+	"metadata" : {
+		"name" : "icemini",
+		"species" : "dummy",
+		"rules" : [],
+		"maxRadius" : 2000,
+		"maxParts" : 1,
+		"anchor" : [ "icemini1" ]
+	},
+	
+	// tiles //
+	
+	"tiles" : [
+	    {
+			"value" : [85, 255, 0, 255],
+			"comment" : "Player Spawn",
+			"brush" : [ [ "playerstart" ] ]
+		},
+		{
+			"value" : [255, 0, 220, 255],
+			"comment" : "magic pinkppp, a no-op value",
+			"connector" : false
+		}, 
+		{
+			"value" : [0, 0, 0, 255],
+			"comment" : "sky anchor",
+			"brush" : [["clear"]],
+			"rules" : [["worldGenMustContainAirBackground"], ["allowOverdrawing"]]
+		}, 
+		{
+			"value" : [255, 255, 255, 255],
+			"comment" : "ground anchor",
+			"brush" : [["surface"]],
+			"rules" : [["worldGenMustContainSolidBackground"], ["allowOverdrawing"]]
+		},
+		{
+			"value" : [10, 10, 10, 255],
+			"comment" : "Empty hole",
+			"brush" : [["clear"]],
+			"connector" : false
+		}, 
+		
+		{
+			"value" : [20, 20, 20, 255],
+			"comment" : "Empty hole overwritable",
+			"brush" : [["clear"]],
+			"rules" : [["allowOverdrawing"]]
+		}, 
+		{
+			"value" : [30, 30, 30, 255],
+			"comment" : "Biome tile brush overwritable",
+			"brush" : [["surface"]],
+			"rules" : [["allowOverdrawing"]]
+		}, 
+		{
+			"value" : [40, 40, 40, 255],
+			"comment" : "Biome tile brush non-overwritable",
+			"brush" : [["surface"]]
+		}, 
+		{
+			"value" : [50, 50, 50, 255],
+			"comment" : "Biome tile background brush",
+			"brush" : [["clear"], ["surfacebackground"]]
+		}, 
+		{
+			"value" : [0, 38, 255, 255],
+			"comment" : "bright blue, room coupler",
+			"connector" : true
+		},
+		
+		{
+			"value" : [255, 0, 38, 255],
+			"comment" : "bright red, entrance piece coupler",
+			"connector" : true
+		},
+		
+		{
+			"value" : [38, 255, 0, 255],
+			"comment" : "bright green, entrance piece coupler",
+			"connector" : true
+		},
+// 179 234 255 iceblock1
+// 138 196 218 iceblock1 back
+// 234, 240, 242  iceblock 2
+		{
+			"value" : [232, 242, 242, 255],
+			"comment" : "foreground ice",
+			"brush" : [ [ "clear" ], [ "front", "ice" ] ]
+		},
+		{
+			"value" : [242, 242, 242, 255],
+			"comment" : "foreground ice",
+			"brush" : [ [ "clear" ], [ "front", "ice" ] ]
+		},
+		{
+			"value" : [179, 234, 255, 255],
+			"comment" : "background iceblock1",
+			"brush" : [ [ "clear" ], [ "front", "iceblock1" ], [ "back", "iceblock1" ] ]
+		},
+		{
+			"value" : [138, 196, 218, 255],
+			"comment" : "background iceblock1",
+			"brush" : [ [ "clear" ], [ "back", "iceblock1" ] ]
+		},
+		{
+			"value" : [234, 240, 242, 255],
+			"comment" : "foreground iceblock2",
+			"brush" : [ [ "clear" ], [ "front", "iceblock2" ] ]
+		},
+		{
+			"value" : [234, 240, 242, 255],
+			"comment" : "foreground iceblock2",
+			"brush" : [ [ "clear" ], [ "back", "iceblock2" ] ]
+		},		
+		// npcs //
+		
+		{
+		"value" : [200, 100, 210, 255],
+		"comment" : "largefish monster",
+		"brush" : [ [ "npc",
+			{
+				"kind" : "monster",
+				"typeName" : "largefish",
+				"seed" : "stable",
+				"parameters" : {
+				"aggressive" : true,
+				"persistent" : true
+            }
+			}
+			] ]
+		},
+		
+		{
+			"value" : [0, 0, 160, 255],
+			"comment" : "floran wildhunter",
+			"brush" : [ [ "npc",
+				{
+					"kind" : "npc",
+					"species" : "floran",
+					"typeName" : "wildhunter"
+			}
+			] ]
+		},
+		
+		{
+			"value" : [0, 0, 161, 255],
+			"comment" : "floran wildhunter veteran",
+			"brush" : [ [ "npc",
+				{
+					"kind" : "npc",
+					"species" : "floran",
+					"typeName" : "wildhunterveteran"
+			}
+			] ]
+		},
+		
+		{
+			"value" : [0, 0, 162, 255],
+			"comment" : "floran hell prisoner",
+			"brush" : [ [ "npc",
+				{
+					"kind" : "npc",
+					"species" : "floran",
+					"typeName" : "hellprisoner"
+			}
+			] ]
+		},
+		
+		{
+			"value" : [0, 0, 163, 255],
+			"comment" : "floran dervish",
+			"brush" : [ [ "npc",
+				{
+					"kind" : "npc",
+					"species" : "floran",
+					"typeName" : "florandervish"
+			}
+			] ]
+		},
+		
+		{
+			"value" : [0, 0, 164, 255],
+			"comment" : "floran shieldgunner",
+			"brush" : [ [ "npc",
+				{
+					"kind" : "npc",
+					"species" : "floran",
+					"typeName" : "floranshieldgunner"
+			}
+			] ]
+		},
+		
+		{
+			"value" : [0, 0, 165, 255],
+			"comment" : "floran gladiator",
+			"brush" : [ [ "npc",
+				{
+					"kind" : "npc",
+					"species" : "floran",
+					"typeName" : "florangladiator"
+			}
+			] ]
+		},
+		
+		{
+			"value" : [152, 125, 0, 255],
+			"comment" : "miniboss quadruped npc",
+			"brush" : [ [ "npc",
+			{
+				"kind" : "monster",
+				"typeName" : "minibossquadruped",
+				"parameters" : {
+				"aggressive" : true,
+				"persistent" : true
+            }
+			}
+			] ]
+		},
+
+		// liquids //
+		
+		{
+			"value" : [64, 198, 255, 255],
+			"comment" : "water pool foreground",
+			"brush" : [ [ "clear" ], [ "liquid", "water" ] ]
+		},
+		
+		{
+			"value" : [28, 10, 254, 255],
+			"comment" : "healing pool foreground",
+			"brush" : [ [ "clear" ], [ "liquid", "healingliquid" ] ]
+		}
+		
+		],
+	
+	"parts" : [
+	
+	{
+      "name" : "icemini1",
+      "rules" : [ 
+	  ],
+      "def" : [ "image", [ "icemini1.png" ] ]
+    }
+	
+	]
+}

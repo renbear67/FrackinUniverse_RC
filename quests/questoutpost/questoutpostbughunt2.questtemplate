@@ -1,0 +1,19 @@
+{
+  "id" : "questoutpostbughunt2.gearup",
+  "prerequisites" : [ "questoutpostbughunt1.gearup" ],
+  "title" : "^green;Bug Hunt",
+  "text" : "Welcome back. I fear that I need to call upon your help once more for insect specimens - ^green;bring me a ^orange;sunskipper ^green;and I'll be grateful. Sunskippers are found on desert planets.",
+  "completionText" : "Thank you for your help. You're proving to be quite the fine assistant.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "sunskipper", 1] }
+  ],
+  "moneyRange" : [0, 0],
+  "rewards" : [
+      [ [ "throwingbones", 1 ], ["thorngrenade", 1] ]
+   ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "",
+  "canBeAbandoned" : true,
+  "requireTurnIn" : true
+}
