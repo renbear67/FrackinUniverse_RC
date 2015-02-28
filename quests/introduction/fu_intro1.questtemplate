@@ -1,0 +1,18 @@
+  {
+  "id" : "fu_intro1.gearup",
+  "prerequisites" : [ "ftlrepairmain.gearup" ],
+  "title" : "^orange;Introduction to Science",
+  "text" : "I'm glad you came. I wanted to ask you something. Are you interested in science? I mean real Science. If you show your interest, I'll give you the coordinates of a scientific outpost where they study some odd flora. Can you borrow some^orange; chemical flasks^white; in an Apex laboratory? I need them for... erm, research. Yea, that's it.",
+  "completionText" : "Aah, thanks! Now I can finally finish my latest research. Now about those coordinates...",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "redflask", 1], "consume" : true },
+    { "kind" : "gather", "item" : [ "blueflask", 1], "consume" : true },
+    { "kind" : "gather", "item" : [ "greenflask", 1], "consume" : true }
+  ],
+  "moneyRange" : [300, 400],
+  "rewards" : [ ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "fu_intro1a.gearup",
+  "requireTurnIn" : true
+}

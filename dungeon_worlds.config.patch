@@ -1,15 +1,15 @@
 [
 {
     "op": "add",
-    "path": "/fu_outpost1",
+    "path": "/scienceoutpost",
     "value": 
-      {"primaryDungeon":"fu_outpost1",
+      {"primaryDungeon":"scienceoutpost",
       "threatLevel":1,
       "gravity":80,
       "worldSize":[2000,1000],
       "dungeonBaseHeight":500,
       "ambientLightLevel":[255,255,255],
-      "biome" : "arboreal",
+      "biome" : "thickjungle",
       "musicTrack" : "/music/crystal-exploration1.ogg"
       }
 }

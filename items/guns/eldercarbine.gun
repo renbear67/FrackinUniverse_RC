@@ -11,9 +11,9 @@
   "firePosition" : [16, 0],
   "weaponType" : "Energy Weapon",
   "recoilTime" : 0.1,
-  "level" : 7,
+  "level" : 9,
   "tooltipKind" : "gun",
-  "fireTime" : 0.1,
+  "fireTime" : 0.24,
   "twoHanded" : true,  
   "walkWhileFiring" : true,
   "spread" : 1,
@@ -22,6 +22,6 @@
   "projectile" : { "speed" : 35, "power" : 3.2 , "color" : [0, 0, 0] },
   "muzzleEffect" : {
        "fireSound" : [ { "file" : "/sfx/gun/plasma_pistol2bassy.wav" } ],
-       "animation" :  "/animations/muzzleflash/smokemuzzle/smokemuzzle.animation"
+       "animation" :  "/animations/muzzleflash/plasmamuzzle4green/plasmamuzzle4green.animation"
 	   }   
 }
