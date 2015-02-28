@@ -2,11 +2,11 @@
 
 {
     "op": "add",
-    "path": "/fu_outpost1",
+    "path": "/scienceoutpost",
     "value": 
       {
 	"type" : "FloatingDungeon",
-    "dungeonWorld" : "fu_outpost1",
+    "dungeonWorld" : "scienceoutpost",
     "seed" : 1234,
     "worldProperties" : {
       "nonCombat" : true
