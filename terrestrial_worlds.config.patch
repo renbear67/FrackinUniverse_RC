@@ -772,7 +772,7 @@
   "value" : 
   {
       "caveLiquid" : [ "swampwater", "poison" ],
-      "blockSelector" : [ "ledgesSurface", "mixedSurface", "flatsSurface", "lowHillsSurface" ],
+      "blockSelector" : [ "mixedSurface", "flatsSurface", "lowHillsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "caveLiquidChanceRange" : [100, 100],
       "biome" : [

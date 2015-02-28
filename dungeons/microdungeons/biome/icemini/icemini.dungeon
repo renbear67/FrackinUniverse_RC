@@ -1,10 +1,10 @@
 {
   "metadata" : {
-    "name" : "icespikes",
+    "name" : "icemini",
     "species" : "dummy",
     "rules" : [
     ],
-    "anchor" : ["12", "13", "14" ],
+    "anchor" : [ "icemini1", "icemini2", "icemini3", "icemini4", "icemini5", "icemini6", "icemini7" ],
 
     "maxRadius" : 2000,
     "maxParts" : 15
@@ -482,74 +482,39 @@
 
   "parts" : [
     {
-      "name" : "1",
+      "name" : "icemini1",
       "rules" : [ ],
-      "def" : [ "image", [ "1.png", "1-objects.png" ] ]
+      "def" : [ "image", [ "icemini1.png", "icemini1-objects.png" ] ]
     },
     {
-      "name" : "2",
+      "name" : "icemini2",
       "rules" : [ ],
-      "def" : [ "image", [ "2.png", "2-objects.png" ] ]
+      "def" : [ "image", [ "icemini2.png", "icemini2-objects.png" ] ]
     },
     {
-      "name" : "3",
+      "name" : "icemini3",
       "rules" : [ ],
-      "def" : [ "image", [ "3.png", "3-objects.png" ] ]
+      "def" : [ "image", [ "icemini3.png", "icemini3-objects.png" ] ]
     },
     {
-      "name" : "4",
+      "name" : "icemini4",
       "rules" : [ ],
-      "def" : [ "image", [ "4.png", "4-objects.png" ] ]
+      "def" : [ "image", [ "icemini4.png", "icemini4-objects.png" ] ]
     },
     {
-      "name" : "5",
+      "name" : "icemini5",
       "rules" : [ ],
-      "def" : [ "image", [ "5.png", "5-objects.png" ] ]
+      "def" : [ "image", [ "icemini5.png", "icemini5-objects.png" ] ]
     },
     {
-      "name" : "6",
+      "name" : "icemini6",
       "rules" : [ ],
-      "def" : [ "image", [ "6.png", "6-objects.png" ] ]
+      "def" : [ "image", [ "icemini6.png", "icemini6-objects.png" ] ]
     },
     {
-      "name" : "7",
+      "name" : "icemini7",
       "rules" : [ ],
-      "def" : [ "image", [ "7.png", "7-objects.png" ] ]
-    },
-    {
-      "name" : "8",
-      "rules" : [ ],
-      "def" : [ "image", [ "8.png", "8-objects.png" ] ]
-    },
-    {
-      "name" : "9",
-      "rules" : [ ],
-      "def" : [ "image", [ "9.png", "9-objects.png" ] ]
-    },
-    {
-      "name" : "10",
-      "rules" : [ ],
-      "def" : [ "image", [ "10.png", "10-objects.png" ] ]
-    },
-    {
-      "name" : "11",
-      "rules" : [ ],
-      "def" : [ "image", [ "11.png", "11-objects.png" ] ]
-    },
-    {
-      "name" : "12",
-      "rules" : [ ],
-      "def" : [ "image", [ "12.png", "12-objects.png" ] ]
-    },
-    {
-      "name" : "13",
-      "rules" : [ ],
-      "def" : [ "image", [ "13.png", "13-objects.png" ] ]
-    },
-    {
-      "name" : "14",
-      "rules" : [ ],
-      "def" : [ "image", [ "14.png", "14-objects.png" ] ]
+      "def" : [ "image", [ "icemini7.png", "icemini7-objects.png" ] ]
     }
   ]
 }
