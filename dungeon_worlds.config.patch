@@ -9,7 +9,7 @@
       "worldSize":[2000,1000],
       "dungeonBaseHeight":500,
       "ambientLightLevel":[255,255,255],
-      "biome" : "thickjungle",
+      "biome" : "arboreal",
       "musicTrack" : "/music/crystal-exploration1.ogg"
       }
 }
