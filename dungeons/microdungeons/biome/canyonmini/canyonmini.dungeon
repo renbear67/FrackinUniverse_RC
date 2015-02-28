@@ -445,9 +445,7 @@
       "comment" : "thorns",
       "brush" : [ [ "random", [ [ "object", "thorns1" ], [ "object", "thorns2" ], [ "object", "thorns3" ], [ "object", "thorns4" ] ] ] ]
     },
-// 179 234 255 iceblock1
-// 138 196 218 iceblock1 back
-// 234, 240, 242  iceblock 2
+
 		{
 			"value" : [232, 242, 242, 255],
 			"comment" : "foreground ice",
@@ -495,7 +493,7 @@
       "name" : "canyonmini3",
       "rules" : [ ],
       "def" : [ "image", [ "canyonmini3.png" ] ]
-    }
+    },
     {
       "name" : "canyonmini4",
       "rules" : [ ],

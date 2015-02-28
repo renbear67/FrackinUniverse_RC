@@ -5,7 +5,7 @@
   "itemDrop" : "hydrotubematerial",
   "description" : "Great for growing crops.",
   "shortdescription" : "Hydroponic Tube",
-  "footstepSound" : "/sfx/blocks/footstep_metal.wav",
+  "footstepSound" : "/sfx/blocks/footstep_metallic.wav",
   "health" : 8,
   "category": "materials",
   "soil" : true,
