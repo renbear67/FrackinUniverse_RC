@@ -3,7 +3,7 @@
   "baseType" : "fuoutpostcivilian",
 
     "scriptConfig" : {
-        "offeredQuests" : [ "fu_intro2.gearup" ],
+        "offeredQuests" : [ "fu_intro2.gearup", "fu_intro3.gearup", "fu_intro4.gearup"  ],
         "turnInQuests" : [ "fu_intro2.gearup", "fu_intro3.gearup", "fu_intro4.gearup" ],
         "converse" : {
             "waitTime" : 0.5,

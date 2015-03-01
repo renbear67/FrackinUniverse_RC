@@ -7,7 +7,7 @@
   "conditions" : [],
   "moneyRange" : [0,0],
   "rewards" : [ 
-    [ [ "extractor-recipe", 1 ] ]
+    [ [ "extractionlab-recipe", 1 ] ]
     ],
   "planetMode" : "none",
   "questDungeons" : [ ],

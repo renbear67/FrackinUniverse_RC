@@ -1,5 +1,47 @@
 [
 
+
+   {"op" : "add", 
+   "path" : "/planetTypes/frozenvolcanic",
+   "value" : 
+     {
+       "threatRange" : [2, 7],
+       "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "frozenvolcanic" ],
+          "secondaryRegion" : [ "bioluminescence", "ice", "rust", "crystalline", "arctic", "magma","scorched", "snow", "volcanic", "ashgarden", "crystalplain", "elder", "hellfirefield", "pitchfield", "snowyforest", "sulphuricplain" ],
+          "dungeonCountRange" : [0, 2],
+          "dungeons" : [ "crystalcavern" ]
+        },
+        "subsurface" : {
+          "primaryRegion" : [ "icewasteunderground", "nitrogenseafloor"  ]
+        },
+        "underground1" : {
+          "primaryRegion" : [ "icecaves", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "sulphuricunderground", "ffcrystalcavern", "fffrostcavern", "ffvolcanic" ]
+        },
+        "underground2" : {
+          "primaryRegion" : [ "icecaves", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "sulphuricunderground", "ffcrystalcavern", "fffrostcavern", "ffvolcanic" ]
+        },
+        "underground3" : {
+           "primaryRegion" : [ "tarunderground", "icecaves", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "sulphuricunderground", "ffcrystalcavern", "fffrostcavern", "ffvolcanic" ]
+        },
+        "underground4" : {
+           "primaryRegion" : [ "icecaves", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "sulphuricunderground", "ffcrystalcavern", "fffrostcavern", "ffvolcanic" ]
+        },
+        "underground5" : {
+          "primaryRegion" : [ "icecaves", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "sulphuricunderground", "ffcrystalcavern", "fffrostcavern", "ffvolcanic" ]
+        },
+        "underground6" : {
+          "primaryRegion" : [ "icecaves", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "sulphuricunderground", "ffcrystalcavern", "fffrostcavern", "ffvolcanic" ]
+        },
+        "core" : {
+          "primaryRegion" : [ "nitrogencore", "core" ]
+        } 
+       }
+     }
+   },
+   
+   
    {"op" : "add", 
    "path" : "/planetTypes/ffunknown",
    "value" : 
@@ -804,6 +846,22 @@
       "fgCaveSelector" : [ "surfaceCaves", "denseCaves"  ],
       "biome" : [
         [0, [ "crystalmoon" ]]
+      ]
+    }
+  },
+
+  {"op" : "add", 
+  "path" : "/regionTypes/frozenvolcanic",
+  "value" : 
+  {
+      "caveLiquid" : [  "lava" ],
+      "caveLiquidChanceRange" : [100, 100],
+      "oceanLiquid" : [ "lava" ],
+      "oceanLevelOffset" : 9999,
+      "blockSelector" : [ "medHillsSurface", "flatsSurface", "mixedSurface", "mountainsSurface", "mesasSurface", "ledgesSurface", "giantLedgesSurface", "megaMountainsSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "frozenvolcanic" ]]
       ]
     }
   },
