@@ -12,6 +12,6 @@
   "questDungeons" : [ ],
   "requireTurnIn" : false,
   "canBeAbandoned" : false,
-  "followUp" : "5_methanol.gearup"
+  "followUp" : "6_methanol.gearup"
 }
  

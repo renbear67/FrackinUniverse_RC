@@ -482,37 +482,37 @@
     {
       "name" : "canyonmini1",
       "rules" : [ ],
-      "def" : [ "image", [ "canyonmini1.png" ] ]
+      "def" : [ "image", [ "canyonmini1.png", "canyonmini1.png" ] ]
     },
     {
       "name" : "canyonmini2",
       "rules" : [ ],
-      "def" : [ "image", [ "canyonmini2.png" ] ]
+      "def" : [ "image", [ "canyonmini2.png", "canyonmini2.png" ] ]
     },
     {
       "name" : "canyonmini3",
       "rules" : [ ],
-      "def" : [ "image", [ "canyonmini3.png" ] ]
+      "def" : [ "image", [ "canyonmini3.png", "canyonmini3.png" ] ]
     },
     {
       "name" : "canyonmini4",
       "rules" : [ ],
-      "def" : [ "image", [ "canyonmini4.png" ] ]
+      "def" : [ "image", [ "canyonmini4.png", "canyonmini4.png" ] ]
     },
     {
       "name" : "canyonmini5",
       "rules" : [ ],
-      "def" : [ "image", [ "canyonmini5.png" ] ]
+      "def" : [ "image", [ "canyonmini5.png", "canyonmini5.png" ] ]
     },
     {
       "name" : "canyonmini6",
       "rules" : [ ],
-      "def" : [ "image", [ "canyonmini6.png" ] ]
+      "def" : [ "image", [ "canyonmini6.png", "canyonmini6.png" ] ]
     },
     {
       "name" : "canyonmini7",
       "rules" : [ ],
-      "def" : [ "image", [ "canyonmini7.png" ] ]
+      "def" : [ "image", [ "canyonmini7.png", "canyonmini7.png" ] ]
     }
   ]
 }
