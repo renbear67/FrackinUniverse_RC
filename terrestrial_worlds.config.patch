@@ -871,6 +871,7 @@
   "value" : 
   {
       "caveLiquid" : [ "liquidnitrogen" ],
+      "caveLiquidChanceRange" : [55, 80],
       "blockSelector" : [ "flatsSurface", "lowHillsSurface", "medHillsSurface", "mountainsSurface", "mesasSurface", "ledgesSurface", "giantLedgesSurface", "megaMountainsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves", "denseCaves" ],
       "biome" : [
@@ -884,6 +885,7 @@
   "value" : 
   {
       "caveLiquid" : [ "liquidnitrogen", "water" ],
+      "caveLiquidChanceRange" : [40, 60],
       "blockSelector" : [ "flatsSurface", "lowHillsSurface", "medHillsSurface", "mesasSurface", "ledgesSurface", "giantLedgesSurface" ],
       "fgCaveSelector" : [ "moonSurfaceCaves", "surfaceCaves", "denseCaves"  ],
       "biome" : [
@@ -912,6 +914,7 @@
   "value" : 
   {
       "caveLiquid" : [ "water", "poison", "bio_ooze" ],
+      "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [ "flatsSurface", "lowHillsSurface", "medHillsSurface", "mountainsSurface", "mesasSurface", "ledgesSurface", "giantLedgesSurface" ],
       "fgCaveSelector" : [ "acidPoolCaves", "surfaceCaves", "denseCaves"  ],
       "biome" : [
@@ -924,7 +927,8 @@
   "path" : "/regionTypes/metallicmoon",
   "value" : 
   {
-      "caveLiquid" : [ "tarliquid", "fuel" ],
+      "caveLiquid" : [ "tarliquid", "fuel", "mercuryliquid" ],
+      "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [ "lowHillsSurface", "flatsSurface" ],
       "fgCaveSelector" : [ "moonSurfaceCaves" ],
       "biome" : [
@@ -965,6 +969,7 @@
   "value" : 
   {
       "caveLiquid" : [ "water", "blacktar", "alienjuice" ],
+      "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [ "lowHillsSurface", "ledgesSurface", "mountainsSurface" ],
       "fgCaveSelector" : [ "normalCaves" ],
       "biome" : [
@@ -994,6 +999,7 @@
   "value" : 
   {
       "caveLiquid" : [ "water", "swampwater" ],
+      "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [ "ledgesSurface", "giantLedgesSurface", "canyonsSurface" ],
       "fgCaveSelector" : [ "normalCaves" ],
       "biome" : [
@@ -1006,7 +1012,8 @@
   "path" : "/regionTypes/sulphuric",
   "value" : 
   {
-      "caveLiquid" : [ "water", "tarliquid" ],    
+      "caveLiquid" : [ "sulphuricacid", "blacktar" ],
+      "caveLiquidChanceRange" : [100, 100],
       "blockSelector" : [ "lowHillsSurface", "medHillsSurface", "ledgesSurface", "canyonsSurface", "mountainsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
@@ -1020,6 +1027,7 @@
   "value" : 
   {
       "caveLiquid" : [ "water", "tarliquid" ],
+      "caveLiquidChanceRange" : [25, 100],      
       "blockSelector" : [ "lowHillsSurface", "flatsSurface", "medHillsSurface" ],
       "fgCaveSelector" : [ "normalCaves" ],
       "biome" : [
@@ -1033,6 +1041,7 @@
   "value" : 
   {
       "caveLiquid" : [ "water", "tarliquid" ],
+      "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [ "flatsSurface", "lowHillsSurface", "mixedSurface" ],
       "fgCaveSelector" : [ "normalCaves" ],
       "biome" : [
@@ -1046,6 +1055,7 @@
   "value" : 
   {
       "caveLiquid" : [ "blacktar", "tarliquid" ],
+      "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [ "lowHillsSurface", "medHillsSurface", "ledgesSurface", "canyonsSurface", "mountainsSurface"  ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
@@ -1074,6 +1084,7 @@
   "value" : 
   {
       "caveLiquid" : [ "blacktar", "alienjuice" ],
+      "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [ "flatsSurface", "lowHillsSurface", "mixedSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
@@ -1088,6 +1099,7 @@
   "value" : 
   {
       "caveLiquid" : [ "alienjuice" ],
+      "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [ "flatsSurface", "lowHillsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
@@ -1101,6 +1113,7 @@
   "value" : 
   {
       "caveLiquid" : [ "bloodliquid", "poison" ],
+      "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [ "lowHillsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
@@ -1126,6 +1139,7 @@
   "value" : 
   {
       "caveLiquid" : [ "bio_ooze", "poison", "alienjuice" ],
+      "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [ "lowHillsSurface", "ledgesSurface", "mixedSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
@@ -1139,6 +1153,7 @@
   "value" : 
   {
       "caveLiquid" : [ "organicsoup", "alienjuice" ],
+      "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [ "lowHillsSurface", "mixedSurface", "mountainsSurface", "canyonsSurface", "spikesSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
@@ -1374,6 +1389,7 @@
   "value" : 
   {
       "caveLiquid" : [ "lava" ],
+      "caveLiquidChanceRange" : [67, 100],
       "blockSelector" : [ "lowHillsSurface", "flatsSurface", "canyonsSurface", "giantLedgesSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
@@ -1388,6 +1404,7 @@
   "value" : 
   {
       "caveLiquid" : [ "water", "poison", "alienjuice" ],
+      "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [ "lowHillsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
@@ -1467,6 +1484,7 @@
   "value" : 
   {
       "caveLiquid" : [ "tarliquid", "blacktar" ],
+      "caveLiquidChanceRange" : [55, 100],
       "blockSelector" : [ "lowHillsSurface", "medHillsSurface", "mixedSurface"  ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [

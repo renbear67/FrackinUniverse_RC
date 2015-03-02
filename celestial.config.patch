@@ -586,7 +586,7 @@
             {"weight" : 0.1, "item" : "habitableMoons"},
             {"weight" : 0.1, "item" : "habitableMoons"},
             {"weight" : 0.1, "item" : "habitableMoons"},
-            {"weight" : 0.7, "item" : "Moon"}
+            {"weight" : 0.05, "item" : "Moon"}
           ]
         },
         {
@@ -600,7 +600,7 @@
           ],
           "satelliteTypes" : [
             {"weight" : 0.5, "item" : "coldMoons"},
-            {"weight" : 0.5, "item" : "Moon"}
+            {"weight" : 0.05, "item" : "Moon"}
           ]
         },
         {
@@ -614,7 +614,7 @@
           ],
           "satelliteTypes" : [
             {"weight" : 0.5, "item" : "frozenMoons"},
-            {"weight" : 0.5, "item" : "Moon"}
+            {"weight" : 0.05, "item" : "Moon"}
           ]
         },
         {
@@ -685,7 +685,7 @@
           ],
           "satelliteTypes" : [
             {"weight" : 0.6, "item" : "scorchingMoons"},
-            {"weight" : 0.1, "item" : "Moon"}
+            {"weight" : 0.05, "item" : "Moon"}
           ]
         },
         {
@@ -730,7 +730,7 @@
             {"weight" : 0.1, "item" : "habitableMoons"},
             {"weight" : 0.1, "item" : "habitableMoons"},
             {"weight" : 0.1, "item" : "habitableMoons"},
-            {"weight" : 0.7, "item" : "Moon"}
+            {"weight" : 0.05, "item" : "Moon"}
           ]
         },
         {
@@ -744,7 +744,7 @@
           ],
           "satelliteTypes" : [
             {"weight" : 0.5, "item" : "coldMoons"},
-            {"weight" : 0.5, "item" : "Moon"}
+            {"weight" : 0.12, "item" : "Moon"}
           ]
         },
         {
@@ -878,7 +878,7 @@
           ],
           "satelliteTypes" : [
             {"weight" : 0.5, "item" : "hotMoons"},
-            {"weight" : 0.5, "item" : "Moon"}
+            {"weight" : 0.1, "item" : "Moon"}
           ]
         },
         {
@@ -892,7 +892,7 @@
           ],
           "satelliteTypes" : [
             {"weight" : 0.5, "item" : "warmMoons"},
-            {"weight" : 0.5, "item" : "Moon"}
+            {"weight" : 0.1, "item" : "Moon"}
           ]
         },
         {
@@ -906,7 +906,7 @@
           ],
           "satelliteTypes" : [
             {"weight" : 0.5, "item" : "habitableMoons"},
-            {"weight" : 0.5, "item" : "Moon"}
+            {"weight" : 0.1, "item" : "Moon"}
           ]
         },
         {
@@ -920,7 +920,7 @@
           ],
           "satelliteTypes" : [
             {"weight" : 0.5, "item" : "coolMoons"},
-            {"weight" : 0.5, "item" : "Moon"}
+            {"weight" : 0.1, "item" : "Moon"}
           ]
         },
         {
@@ -934,7 +934,7 @@
           ],
           "satelliteTypes" : [
             {"weight" : 0.5, "item" : "coldMoons"},
-            {"weight" : 0.5, "item" : "Moon"}
+            {"weight" : 0.1, "item" : "Moon"}
           ]
         },
         {
@@ -990,7 +990,7 @@
           ],
           "satelliteTypes" : [
             {"weight" : 0.5, "item" : "scorchedMoons"},
-            {"weight" : 0.5, "item" : "Moon"}
+            {"weight" : 0.1, "item" : "Moon"}
           ]
         },
         {
@@ -1004,7 +1004,7 @@
           ],
           "satelliteTypes" : [
             {"weight" : 0.5, "item" : "mutatedMoons"},
-            {"weight" : 0.5, "item" : "Moon"}
+            {"weight" : 0.1, "item" : "Moon"}
           ]
         },
         {
@@ -1018,7 +1018,7 @@
           ],
           "satelliteTypes" : [
             {"weight" : 0.5, "item" : "habitableMoons"},
-            {"weight" : 0.5, "item" : "Moon"}
+            {"weight" : 0.1, "item" : "Moon"}
           ]
         },
         {
@@ -1032,7 +1032,7 @@
           ],
           "satelliteTypes" : [
             {"weight" : 0.5, "item" : "mutatedMoons"},
-            {"weight" : 0.5, "item" : "Moon"}
+            {"weight" : 0.1, "item" : "Moon"}
           ]
         },
         {
@@ -1046,7 +1046,7 @@
           ],
           "satelliteTypes" : [
             {"weight" : 0.5, "item" : "coldMoons"},
-            {"weight" : 0.5, "item" : "Moon"}
+            {"weight" : 0.1, "item" : "Moon"}
           ]
         },
         {
@@ -1418,7 +1418,7 @@
     "path" : "/satelliteTypes/scorchedMoons",
     "value" : {
       "satelliteProbability" : 0.15,
-      "maxSatelliteCount" : 6,
+      "maxSatelliteCount" : 1,
 
       "baseParameters" : {
         "worldType" : "Terrestrial",
@@ -1453,7 +1453,7 @@
     "path" : "/satelliteTypes/hotMoons",
     "value" : {
       "satelliteProbability" : 0.15,
-      "maxSatelliteCount" : 6,
+      "maxSatelliteCount" : 1,
 
       "baseParameters" : {
         "worldType" : "Terrestrial",
@@ -1488,7 +1488,7 @@
     "path" : "/satelliteTypes/warmMoons",
     "value" : {
       "satelliteProbability" : 0.15,
-      "maxSatelliteCount" : 6,
+      "maxSatelliteCount" : 1,
 
       "baseParameters" : {
         "worldType" : "Terrestrial",
@@ -1523,7 +1523,7 @@
     "path" : "/satelliteTypes/habitableMoons",
     "value" : {
       "satelliteProbability" : 0.15,
-      "maxSatelliteCount" : 6,
+      "maxSatelliteCount" : 1,
 
       "baseParameters" : {
         "worldType" : "Terrestrial",
@@ -1558,7 +1558,7 @@
     "path" : "/satelliteTypes/coolMoons",
     "value" : {
       "satelliteProbability" : 0.15,
-      "maxSatelliteCount" : 6,
+      "maxSatelliteCount" : 1,
 
       "baseParameters" : {
         "worldType" : "Terrestrial",
@@ -1593,7 +1593,7 @@
     "path" : "/satelliteTypes/coldMoons",
     "value" : {
       "satelliteProbability" : 0.15,
-      "maxSatelliteCount" : 6,
+      "maxSatelliteCount" : 1,
 
       "baseParameters" : {
         "worldType" : "Terrestrial",
@@ -1628,7 +1628,7 @@
     "path" : "/satelliteTypes/frozenMoons",
     "value" : {
       "satelliteProbability" : 0.15,
-      "maxSatelliteCount" : 6,
+      "maxSatelliteCount" : 1,
 
       "baseParameters" : {
         "worldType" : "Terrestrial",
@@ -1664,7 +1664,7 @@
     "path" : "/planetaryTypes/lightlessWorlds",
     "value" : {
       "satelliteProbability" : 0.15,
-      "maxSatelliteCount" : 6,
+      "maxSatelliteCount" : 1,
 
       "baseParameters" : {
         "worldType" : "Terrestrial",
@@ -1701,7 +1701,7 @@
     "path" : "/satelliteTypes/lightlessMoons",
     "value" : {
       "satelliteProbability" : 0.15,
-      "maxSatelliteCount" : 6,
+      "maxSatelliteCount" : 1,
 
       "baseParameters" : {
         "worldType" : "Terrestrial",
@@ -1736,7 +1736,7 @@
     "path" : "/satelliteTypes/mutatedMoons",
     "value" : {
       "satelliteProbability" : 0.15,
-      "maxSatelliteCount" : 6,
+      "maxSatelliteCount" : 1,
 
       "baseParameters" : {
         "worldType" : "Terrestrial",
