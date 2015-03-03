@@ -1,7 +1,7 @@
   {
   "id" : "1_designlab.gearup",
   "prerequisites" : [ "8_todesignlab.gearup" ],
-  "title" : "^orange;Gene Design Lab",
+  "title" : "^#39bc2f;Gene Design Lab",
   "text" : "To ssstart, you need a ^orange;Gene Design Lab^white;. This is where your ssstrange plantsss are ssspliced! Build one now.",
   "completionText" : "Good. Now you huntssss.",
   "conditions" : [ 

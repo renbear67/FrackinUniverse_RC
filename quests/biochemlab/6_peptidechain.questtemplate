@@ -1,6 +1,6 @@
   {
   "id" : "6_peptidechain.gearup",
-  "title" : "^orange;Peptide chain",
+  "title" : "^#39bc2f;Peptide chain",
   "text" : "^orange;Peptide chains^white; are an essential brick of life. Craft one, and it's like crafting Life itself.",
   "completionText" : "We're almost done. Just one more step to self-sufficiency.",
   "conditions" : [ 
