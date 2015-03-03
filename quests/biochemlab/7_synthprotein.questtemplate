@@ -1,7 +1,7 @@
   {
   "id" : "7_synthprotein.gearup",
   "prerequisites" : [ "6_peptidechain.gearup" ],
-  "title" : "^orange;Synthesized protein",
+  "title" : "^#39bc2f;Synthesized protein",
   "text" : "The ^orange;synthesized protein^white; is another essential chemical component. You're now a good chemist, you should have no problem making some it.",
   "completionText" : "Good job. Really. You're ready to craft genes now.",
   "conditions" : [ 

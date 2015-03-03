@@ -1,7 +1,7 @@
   {
   "id" : "5_protocitebar.gearup",
-  "title" : "^orange;Liquid Protocite",
-  "text" : "^orange;Protocite^white; is found in very few places in the universe. It's a potent mineral that is both energy source and protection. It can also be broken down into a liquid. A DNA Sample, a bar of protocite and a glass vial. Combine them in the Array.",
+  "title" : "^#39bc2f;Liquid Protocite",
+  "text" : "^orange;Protocite^white; is found in very few places in the universe. It's a potent mineral that is both energy source and protection. It can also be broken down into a liquid. A DNA Sample, a bar of protocite some glass. Combine them in the Array.",
   "completionText" : "Now you can make liquid protocite. Handy, that.",
   "conditions" : [ { "kind" : "gather", "item" : [ "vialproto", 1], "consume" : false }
   ],

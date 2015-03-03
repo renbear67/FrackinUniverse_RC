@@ -2,6 +2,7 @@
   "itemName" : "mutavisksilk",
   "rarity" : "Common",
   "inventoryIcon" : "mutavisksilk.png",
-  "description" : "Superior natural silk.",
-  "shortdescription" : "Mutavisk Silk"
+  "description" : "Superior, resistant and durable silk fibres.",
+  "shortdescription" : "Mutavisk Silk",
+ "learnBlueprintsOnPickup" : [ "mutaviskhelm", "mutaviskchest", "mutavisklegs" ]
 }
