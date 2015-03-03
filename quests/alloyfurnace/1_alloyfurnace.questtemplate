@@ -1,7 +1,7 @@
   {
   "id" : "1_alloyfurnace.gearup",
   "prerequisites" : [ "1b_matterassembler.gearup" ],
-  "title" : "^#39bc2f;Smelting Your Way",
+  "title" : "^#1693d5;Smelting Your Way",
   "text" : "Before we start, you need to know that you're gonna work with some tough materials. You really should build an alloy furnace to make the process easier.",
   "completionText" : "Great! Now we can start smelting materials.",
   "conditions" : [ 

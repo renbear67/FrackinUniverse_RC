@@ -3,6 +3,5 @@
   "rarity" : "Common",
   "inventoryIcon" : "mutavisksilk.png",
   "description" : "Superior, resistant and durable silk fibres.",
-  "shortdescription" : "Mutavisk Silk",
- "learnBlueprintsOnPickup" : [ "mutaviskhelm", "mutaviskchest", "mutavisklegs" ]
+  "shortdescription" : "Mutavisk Silk"
 }

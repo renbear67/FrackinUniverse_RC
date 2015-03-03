@@ -1,6 +1,6 @@
   {
   "id" : "7_mutavisk.gearup",
-  "title" : "^orange;Armor: Mutavisk",
+  "title" : "^#1693d5;Armor: Mutavisk",
   "text" : "Now it's time for you to do more work. Build a ^orange;Mutavisk Helm^white; in the assembler. You'll need to collect the resources to create it, though!",
   "completionText" : "These are handy for survival in dangerous irradiated environments.",
   "conditions" : [ 

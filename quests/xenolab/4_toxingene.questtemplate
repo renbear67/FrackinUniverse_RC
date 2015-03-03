@@ -1,6 +1,6 @@
   {
   "id" : "4_toxingene.gearup",
-  "title" : "^#39bc2f;Toxin gene",
+  "title" : "^#1693d5;Toxin gene",
   "text" : "Statement. Now you need to create a ^orange;toxin gene^white;. Caution. Use protective gear.",
   "completionText" : "Enthusiastic. Great.",
   "conditions" : [ 
