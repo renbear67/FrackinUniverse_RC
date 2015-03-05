@@ -18,8 +18,8 @@
       "amount" : 19
     },
     {
-      "stat" : "powerboost",
-      "amount" : 0.15
+      "stat" : "maxHealth",
+      "amount" : 40
     },
     {
       "stat" : "rage",

@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "rare",
   "description" : "High energy regen",
-  "shortdescription" : "Explorer Chestpiece",
+  "shortdescription" : "Scout Chestpiece",
   "tooltipKind" : "armor",
 
   "maleFrames" : {
@@ -27,11 +27,11 @@
     },
     {
       "stat" : "maxHealth",
-      "amount" : 82
+      "amount" : 40
     },
     {
       "stat" : "energyRegen",
-      "amount" : 0.25
+      "amount" : 0.15
     }
   ]
 }

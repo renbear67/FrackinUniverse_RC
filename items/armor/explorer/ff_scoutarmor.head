@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "rare",
   "description" : "High energy regen",
-  "shortdescription" : "Explorer Helm",
+  "shortdescription" : "Scout Helm",
   "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
@@ -19,11 +19,11 @@
     },
     {
       "stat" : "maxEnergy",
-      "amount" : 70
+      "amount" : 40
     },
     {
       "stat" : "energyRegen",
-      "amount" : 0.25
+      "amount" : 0.10
     }
   ]
 }

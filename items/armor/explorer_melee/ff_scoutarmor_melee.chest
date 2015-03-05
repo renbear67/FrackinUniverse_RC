@@ -26,12 +26,12 @@
       "amount" : 28
     },
     {
-      "stat" : "powerboost",
-      "amount" : 0.35
+      "stat" : "maxHealth",
+      "amount" : 40
     },
     {
       "stat" : "rage",
-      "amount" : 0.10
+      "amount" : 0.15
     }
   ]
 }

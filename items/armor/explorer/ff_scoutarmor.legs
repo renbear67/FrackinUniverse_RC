@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "rare",
   "description" : "High energy regen",
-  "shortdescription" : "Explorer Greaves",
+  "shortdescription" : "Scout Greaves",
   "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
@@ -17,12 +17,12 @@
       "amount" : 23
     },
     {
-      "stat" : "energyRegen",
-      "amount" : 0.85
+      "stat" : "maxEnergy",
+      "amount" : 40
     },
     {
       "stat" : "energyRegen",
-      "amount" : 0.25
+      "amount" : 0.15
     }
   ]
 }
