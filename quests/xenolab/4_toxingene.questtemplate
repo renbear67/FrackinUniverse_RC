@@ -4,7 +4,7 @@
   "text" : "Statement. Now you need to create a ^orange;toxin gene^white;. Caution. Use protective gear.",
   "completionText" : "Enthusiastic. Great.",
   "conditions" : [ 
-    { "kind" : "gather", "item" : [ "toxingene", 1], "consume" : false }
+    { "kind" : "gather", "item" : [ "toxicgene", 1], "consume" : false }
   ],
   "moneyRange" : [0,0],
   "rewards" : [],

@@ -13,7 +13,7 @@
     "recoilTime" : 0.1,
     "level" : 9,
     "tooltipKind" : "gun",
-    "fireTime" : 0.25,
+    "fireTime" : 0.40,
     "twoHanded" : true,
     "walkWhileFiring" : false,
     "rateOfFire" : [2, 7],
