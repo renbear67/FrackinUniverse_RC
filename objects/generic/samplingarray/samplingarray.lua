@@ -13,7 +13,7 @@ local recipes =
 {inputs = {"mineralsample", "mutavisksilk", "dnasample" }, outputs = { "mutaviskthread", "mutaviskthread" }, time = 20},
 {inputs = {"prisilitestar", "protorockmaterial", "mineralsample" }, outputs = { "aliencompound" }, time = 5},
 {inputs = {"methanol", "iodine", "phosphorus" }, outputs = { "methyliodide" }, time = 5},
-{inputs = {"coal", "liquidwater", "ff_silicon" }, outputs = { "graphene" }, time = 15},
+{inputs = {"coalore", "liquidwater", "ff_silicon" }, outputs = { "graphene" }, time = 15},
 
 -- armor, weapons etc
 {inputs = {"blisterchest", "goldenglowseed", "penumbriteshard" }, outputs = { "blisterchestalt-recipe" }, time = 120},

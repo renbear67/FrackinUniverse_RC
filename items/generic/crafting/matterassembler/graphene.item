@@ -3,5 +3,6 @@
   "rarity" : "Common",
   "inventoryIcon" : "graphene.png",
   "description" : "Graphene is almost magical. Unlimited application.",
-  "shortdescription" : "^cyan;Graphene^white;"
+  "shortdescription" : "^cyan;Graphene^white;",
+  "learnBlueprintsOnPickup" : [ "eridianore" ]
 }
