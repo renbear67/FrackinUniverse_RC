@@ -1,10 +1,10 @@
 {
   "input" : [
     { "item" : "cellresistance1", "count" : 1 },
-    { "item" : "densiniumore", "count" : 8 },
-    { "item" : "aquatichomeostasis", "count" : 2 },
+    { "item" : "densiniumore", "count" : 4 },
+    { "item" : "aquatichomeostasis", "count" : 1 },
     { "item" : "aggressiongene", "count" : 1 },
-    { "item" : "liquidalienjuice", "count" : 6 }
+    { "item" : "shadowgasliquid", "count" : 200 }
   ],
   "output" : {
     "item" : "voidgene",

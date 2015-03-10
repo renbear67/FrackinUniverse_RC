@@ -1,11 +1,9 @@
 {
   "input" : [
-	{ "item" : "advancealloy", "count" : 4 },
 	{ "item" : "durasteelbar", "count" : 4 },
 	{ "item" : "cpu", "count" : 1 },
-	{ "item" : "particlecore", "count" : 1 },
-	{ "item" : "wire", "count" : 6 },
-	{ "item" : "coil", "count" : 6 }
+	{ "item" : "electromagnet", "count" : 2 },
+	{ "item" : "coil", "count" : 4 }
   ],
   "output" : {
     "item" : "fissionfurnace",
