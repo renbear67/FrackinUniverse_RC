@@ -3,8 +3,8 @@
     { "item" : "cellresistance1", "count" : 1 },
     { "item" : "densiniumore", "count" : 4 },
     { "item" : "aquatichomeostasis", "count" : 1 },
-    { "item" : "aggressiongene", "count" : 1 },
-    { "item" : "shadowgasliquid", "count" : 200 }
+    { "item" : "helium3cannister", "count" : 20 },
+    { "item" : "shadowgascannister", "count" : 20 }
   ],
   "output" : {
     "item" : "voidgene",

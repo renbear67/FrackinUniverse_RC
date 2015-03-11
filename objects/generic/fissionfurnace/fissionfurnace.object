@@ -4,7 +4,7 @@
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
     "config" : "/interface/windowconfig/fissionfurnace.config",
-    "filter" : [ "scififurnace", "fissionfurnace" ]
+    "filter" : [ "alloyfurnace", "scififurnace", "fissionfurnace" ]
   },
   "printable" : false,
   "description" : "This reliable unit is capable of making even the toughest alloys into usable metal.",
