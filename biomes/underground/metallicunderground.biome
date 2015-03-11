@@ -54,8 +54,7 @@
                  "pool" : [ 
               [0.50, "magmaceilingspike1" ],
               [0.50, "magmaceilingspike2" ],
-              [0.50, "magmaceilingspike3" ],
-              [0.50, "magmaceilingspike4" ]
+              [0.50, "magmaceilingspike3" ]
                  ],
                  "parameters" : { "startingStage" : 2 }
                }
@@ -74,7 +73,6 @@
               [0.50, "magmagroundspike1" ],
               [0.50, "magmagroundspike2" ],
               [0.50, "magmagroundspike3" ],
-              [0.50, "magmagroundspike4" ],
               [0.50, "copperrock" ], 
               [0.50, "copperrocksmall" ],
               [0.50, "silverrock" ],

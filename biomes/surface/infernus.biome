@@ -372,8 +372,7 @@
                  "pool" : [ 
               [0.50, "magmagroundspike1" ],
               [0.50, "magmagroundspike2" ],
-              [0.50, "magmagroundspike3" ],
-              [0.50, "magmagroundspike4" ]
+              [0.50, "magmagroundspike3" ]
                  ],
                  "parameters" : { "startingStage" : 2 }
                }

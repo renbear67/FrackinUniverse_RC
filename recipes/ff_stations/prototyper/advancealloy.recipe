@@ -1,10 +1,8 @@
 {
   "input" : [
     { "item" : "carbonplate", "count" : 1 },
-    { "item" : "ff_diamondplating", "count" : 1 },
-    { "item" : "ff_protoplating", "count" : 1 },
-    { "item" : "ff_penumbraplating", "count" : 1 },
-    { "item" : "densealloy", "count" : 1 }
+    { "item" : "protocitebar", "count" : 1 },
+    { "item" : "penumbriteshard", "count" : 1 }
   ],
   "output" : {
     "item" : "advancealloy",
