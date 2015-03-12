@@ -2,7 +2,8 @@
   "input" : [
     { "item" : "nervebundle3", "count" : 4 },
     { "item" : "cellhardening2", "count" : 1 },
-    { "item" : "protocitebar", "count" : 5 }
+    { "item" : "protocitebar", "count" : 3 },
+    { "item" : "shadowgascannister", "count" : 5 }
   ],
   "output" : {
     "item" : "neuropodseed",

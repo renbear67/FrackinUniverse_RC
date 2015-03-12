@@ -1,10 +1,10 @@
 {
   "input" : [
-    { "item" : "meteoriterock", "count" : 40 }
+    { "item" : "meteoriterock", "count" : 50 }
   ],
   "output" : {
     "item" : "ff_silicon",
-    "count" : 6
+    "count" : 3
   },
   "groups" : [ "quantumextractor", "all" ]
 }

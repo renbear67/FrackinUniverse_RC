@@ -1,0 +1,16 @@
+  {
+  "id" : "cheat.gearup",
+  "title" : "^#1693d5;Cheater!",
+  "text" : "If you're experienced, you can go ahead and skip all the nonsense these other scientists speak of.",
+  "completionText" : "It's dangerous to go alone. Take these!",
+  "conditions" : [ 
+    { "kind" : "gather", "item" : [ "coalore", 1], "consume" : false }
+  ],
+  "moneyRange" : [300, 400],
+  "rewards" : [ 
+    [ "extractionlab-recipe", "chemlab-recipe", "samplingarray-recipe", "designlab-recipe", "xenostation-recipe", "clonelab-recipe", "prototyper-recipe" ] 
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "requireTurnIn" : true
+}

@@ -17,7 +17,7 @@
 
 "^green;Sampling2^white; - Bio-Chips require a Mineral Sample, a DNA Sample and a Bio-Chip Base. Sampling takes time, so you can toss a ton of resources in there at once, and leave to go do some stuff. Note that this machine can take other resources too, and produce other things besides the dna and mineral samples...",
 
-"^green;Sampling3^white; - The array can also produce numerous other goods. Graphene, Blister Extract, Alien Compound and even some complicated enhancements to armor and weapons. You can find the basic recipes (Graphene, Alien Compound, Blister Extract, Mutavisk Thread) on the mod page for FrackinUniverse. The complicated ones are up to you to discover.",
+"^green;Sampling3^white; - The array can also produce numerous other goods. Graphene, Silicon, Blister Extract, Alien Compound and even some complicated enhancements to armor and weapons. You can find the basic recipes (Graphene, Alien Compound, Blister Extract, Mutavisk Thread, Silicon) on the mod page for FrackinUniverse. The complicated ones are up to you to discover.",
 
 "^green;Finding Resources^white; - Genetic Material is most commonly found in meats, certain plants and similar stuff. You'll find Raw Minerals in stone, ore and other things rich in mineral content. Tissue Culture is most common from plants, seeds and produce. Oil is now found in many places. Sand and Tar are your best bets.",
 
@@ -31,7 +31,7 @@
 
 "^green;Plastic and Silicon pt 1^white; - To make some products, you'll need Plastic. In order to make Plastic, you first need to get some silk. Bracken trees shed silk. Plant some of those if you want easy access plastic.",
 
-"^green;Plastic and Silicon pt 2^white; - On the other hand, a super-pure form of Silicon can only be found on crystal moons. No other silicon is pure enough for the complex gear you will be creating. So, go check one out and get cracking. Crystal is hard to break, though. Bring a sturdy pickaxe.",
+"^green;Plastic and Silicon pt 2^white; - On the other hand, a super-pure form of Silicon can only be found on Crystal Moons. No other silicon is pure enough for the complex gear you will be creating. So, go check one out and get cracking. Crystal is hard to break, though. Alternatively, create it in a Sampling Array with crystal, oil and raw minerals.",
 
 "^green;Xeno-Research Lab^white; - Now you'll need a Xeno Research Lab. This sweet baby will produce various sorts of research materials, gene sequences and other deliciously scientific things. With these, you can create plants by combining the goods in a Gene Design Lab. That's next. First, build yourself the Xeno Research Lab.",
 

@@ -318,7 +318,7 @@
           "mode" : "floor",
           "priority" : 3.0,
           "variants" : 1,
-          "distribution" : "/biomes/distributions.config:potsRare",
+          "distribution" : "/biomes/distributions.config:ffunCommon",
 
           "type" : "grass",
           "grasses" : [ "geometricflower", "nitrogengrass" ]

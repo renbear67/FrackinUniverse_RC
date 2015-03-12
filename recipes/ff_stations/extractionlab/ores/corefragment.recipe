@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "purplecrystalmaterial", "count" : 50 }
+    { "item" : "corefragmentore", "count" : 5 }
   ],
   "output" : {
-    "item" : "ff_silicon",
+    "item" : "ammoniumsulfate",
     "count" : 1
   },
   "groups" : [ "extractionlab", "all" ]

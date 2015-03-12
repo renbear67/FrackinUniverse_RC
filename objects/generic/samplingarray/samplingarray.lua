@@ -4,7 +4,6 @@ local recipes =
 
 -- basic materials
 {inputs = {"irradiumore" },{"irradiumore" },{"irradiumore" }, outputs = { "irradiumbar" }, time = 4},
-
 {inputs = {"glassmaterial", "rawminerals", "nutrientpaste" }, outputs = { "mineralsample" }, time = 15},
 {inputs = {"glassmaterial", "geneticmaterial", "tissueculture" }, outputs = { "dnasample" }, time = 15},
 {inputs = {"mineralsample", "dnasample", "biochipbase" }, outputs = { "biochip" }, time = 30},
@@ -14,7 +13,7 @@ local recipes =
 {inputs = {"prisilitestar", "protorockmaterial", "mineralsample" }, outputs = { "aliencompound" }, time = 5},
 {inputs = {"methanol", "iodine", "phosphorus" }, outputs = { "methyliodide" }, time = 5},
 {inputs = {"coalore", "liquidwater", "ff_silicon" }, outputs = { "graphene" }, time = 15},
-
+{inputs = {"crystal", "rawminerals", "liquidoil" }, outputs = { "ff_silicon" }, time = 5},
 -- armor, weapons etc
 {inputs = {"blisterchest", "goldenglowseed", "penumbriteshard" }, outputs = { "blisterchestalt-recipe" }, time = 120},
 {inputs = {"blisterpants", "goldenglowseed", "penumbriteshard" }, outputs = { "blisterpantsalt-recipe" }, time = 120},

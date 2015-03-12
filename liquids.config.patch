@@ -14,7 +14,7 @@
     "path" : "/liquids/40", 
 	"value" : { 
 	"name" : "bloodliquid",
-	"tickDelta" : 1,		
+	"tickDelta" : 1,
         "color" : [204, 13, 0, 225],
 	"itemDrop" : "liquidblood",
         "statusEffects" : [ "swimming" ],
