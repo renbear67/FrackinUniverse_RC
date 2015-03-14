@@ -2,10 +2,9 @@
   "itemName" : "tearnut",
   "rarity" : "Common",
   "inventoryIcon" : "tearnut.png",
-  "description" : "Extremely protein rich!",
+  "description" : "Extremely protein rich! Heals 10% health.",
   "shortdescription" : "Tearnut",
-  "handPosition" : [8, 0],
   "effects" : [ [
-      "wellfed"
+      "heal_10"
     ] ]
 }

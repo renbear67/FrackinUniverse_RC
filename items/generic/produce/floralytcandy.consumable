@@ -2,13 +2,10 @@
   "itemName" : "floralytcandy",
   "rarity" : "Common",
   "inventoryIcon" : "floralytcandy.png",
-  "description" : "Engineered to be regenerative candy. Heals lots, and fast.",
+  "description" : "Engineered to be regenerative candy. Heals 90% health",
   "shortdescription" : "Floralyt Candy",
   "effects" : [ [
-      {
-        "effect" : "foodheal720",
-        "duration" : 12
-      }
+       "heal_90"
     ] ],
   "blockingEffects" : [
     "foodheal720"

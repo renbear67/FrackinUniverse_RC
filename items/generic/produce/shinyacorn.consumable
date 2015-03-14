@@ -2,9 +2,10 @@
   "itemName" : "shinyacorn",
   "rarity" : "Common",
   "inventoryIcon" : "shinyacornicon.png",
-  "description" : "Provides a substantial health boost.",
+  "description" : "Provides a substantial health boost and 20% healing.",
   "shortdescription" : "Shiny Acorn",
   "effects" : [ [
+      "heal_20",
       {
         "effect" : "maxHealth",
         "amount" : 120,

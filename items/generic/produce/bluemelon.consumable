@@ -2,10 +2,10 @@
   "itemName" : "bluemelon",
   "rarity" : "Common",
   "inventoryIcon" : "bluemelon.png",
-  "description" : "Soft texture and sweet flavour, yummm.",
+  "description" : "Soft texture and sweet flavour, yummm. Heals 50% health.",
   "shortdescription" : "Blue Melon",
       "effects" : [ [
-          "wellfed"
+          "heal_50"
     ] ]
 
 }

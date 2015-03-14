@@ -1,0 +1,43 @@
+{
+  "projectileName" : "tesla3",
+  "frames" : "tesla.png",
+  "animationCycle" : 0.2,
+  "damageKindImage" : "icon.png",
+  "frameNumber" : 4,
+  "power" : 10,
+  "lightColor" : [96, 78, 155],
+  "speed" : 70,
+  "timeToLive" : 0.55,
+  "bounces" : 2,
+  "piercing" : true,
+  "damagePoly" : [ [0, -8], [16, -8], [16, 8], [0, 8] ],
+  "damageKind" : "default",
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "tesla4",
+      "inheritDamageFactor" : 0.5,
+      "angle" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "tesla4",
+      "inheritDamageFactor" : 0.5,
+      "angle" : 35
+    },
+    {
+      "action" : "projectile",
+      "type" : "tesla4",
+      "inheritDamageFactor" : 0.5,
+      "angle" : -35
+    },
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/electricexplosion/electricexplosion.config"
+    },
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/gun/lightningcoil1.wav" ]
+    }
+  ]
+}

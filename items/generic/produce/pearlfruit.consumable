@@ -2,10 +2,9 @@
   "itemName" : "pearlfruit",
   "rarity" : "Common",
   "inventoryIcon" : "pearlfruit.png",
-  "description" : "These fruits are damned delicious. And squishy.",
+  "description" : "These fruits are damned delicious. And squishy. Heals 10% health",
   "shortdescription" : "Pearlfruit",
-  "handPosition" : [0, 8],
   "effects" : [ [
-      "wellfed"
+      "heal_10"
     ] ]
 }

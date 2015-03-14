@@ -3,7 +3,7 @@
   "blockingStat" : "shadowgasfxImmunity",
 
   "effectConfig" : {},
-  "defaultDuration" : 10,
+  "defaultDuration" : 1,
 
   "scripts" : [
     "shadowgasfx.lua"

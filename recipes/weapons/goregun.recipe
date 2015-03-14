@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "triggerassembly", "count" : 1 },
+    { "item" : "gunbody", "count" : 2 },
+    { "item" : "fleshstrand", "count" : 45 },
+    { "item" : "advancealloy", "count" : 4 }
+  ],
+  "output" : { "item" : "goregun", "count" : 1 },
+  "groups" : [ "prototyper", "weapons", "all" ]
+}

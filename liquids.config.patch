@@ -89,7 +89,7 @@
 	"tickDelta" : 3,
 	"color" : [255, 0, 255, 225],
 	"radiantLight" : [75, 0, 75],
-        "statusEffects" : [ "organicsoupeffect" ],
+        "statusEffects" : [ "energy_5" ],
         "itemDrop" : "liquidorganicsoup",
         "interactions" : [
           {
@@ -230,7 +230,7 @@
 	"tickDelta" : 1,
 	"color" : [255, 255, 255, 0],
 	"radiantLight" : [0, 0, 0],
-        "statusEffects" : [ "lowgrav" ],
+        "statusEffects" : [ "helium3" ],
         "itemDrop" : "helium3gasliquid",
         "interactions" : [
           {

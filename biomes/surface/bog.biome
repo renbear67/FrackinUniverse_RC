@@ -248,7 +248,7 @@
           "mode" : "floor",
           "priority" : 3.0,
           "variants" : 1,
-          "distribution" : "/biomes/distributions.config:denseSmall",
+          "distribution" : "/biomes/distributions.config:ffunCommon",
 
           "type" : "grass",
           "grasses" : [ "jungleflower1", "jungleflower2", "jungleflower3", "blobby", "mushroom", "tiberia"  ]
@@ -347,7 +347,7 @@
           "distribution" : "/biomes/distributions.config:randomEncounter",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "newhumanmicro", "newavianmicro", "minigreenruins", "randomencounter", "treasureroom", "avianencounter", "glitchencounter", "shroomencounter" ]
+          "microdungeons" : [  "fuencountercultist", "newhumanmicro", "newavianmicro", "minigreenruins", "randomencounter", "glitchencounter", "shroomencounter" ]
         },
         {
           "mode" : "floor",

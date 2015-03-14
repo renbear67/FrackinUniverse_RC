@@ -2,9 +2,9 @@
   "itemName" : "wubstem",
   "rarity" : "Common",
   "inventoryIcon" : "wubstemicon.png",
-  "description" : "This edible...stuff...makes you angry!",
+  "description" : "Heals 20% of your health.",
   "shortdescription" : "Wubstem",
   "effects" : [ [
-      "rage"
+      "heal_20"
     ] ]
 }

@@ -969,7 +969,6 @@
   "path" : "/regionTypes/frozenvolcanic",
   "value" : 
   {
-      "oceanLiquid" : [ "lava" ],
       "caveLiquid" :  [ "lava" ],
       "caveLiquidChanceRange" : [100, 100],
       "blockSelector" : [ "flatDeepIslandsSurface", "medHillsSurface", "mixedSurface", "mountainsSurface", "mesasSurface", "ledgesSurface", "giantLedgesSurface" ],
@@ -1126,8 +1125,9 @@
   "path" : "/regionTypes/nitrogensea",
   "value" : 
   {
-      "oceanLiquid" : [ "liquidnitrogen" ],
-      "blockSelector" : [ "floatingIslandsSurface" ],
+      "caveLiquid" : [ "liquidnitrogen" ],
+      "caveLiquidChanceRange" : [100, 100],
+      "blockSelector" : [ "flatDeepIslandsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
         [0, [ "nitrogensea" ]]

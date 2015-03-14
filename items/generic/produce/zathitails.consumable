@@ -4,7 +4,6 @@
   "inventoryIcon" : "zathitails.png",
   "description" : "Stingy and painful to eat. But hey, low gravity!",
   "shortdescription" : "Zathi Node",
-  "handPosition" : [8, 0],
   "effects" : [ [
       {
         "effect" : "lowgrav",

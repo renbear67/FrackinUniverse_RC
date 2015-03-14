@@ -4,7 +4,6 @@
   "inventoryIcon" : "beetlesproutflower.png",
   "description" : "Smells like bacon, tastes like snot. Grants a shield.",
   "shortdescription" : "Beetle Sprout Flower",
-  "handPosition" : [8, 0],
   "effects" : [ [
       {
         "effect" : "bubbleshield",

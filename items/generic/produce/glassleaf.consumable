@@ -4,7 +4,6 @@
   "inventoryIcon" : "glassleaf.png",
   "description" : "Reflects walls and floors. PS: Not gonna work against bullets",
   "shortdescription" : "Glassleaf Fruit",
-  "handPosition" : [8, 0],
   "effects" : [ [
       {
         "effect" : "bouncy",

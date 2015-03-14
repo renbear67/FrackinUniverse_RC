@@ -1,16 +1,17 @@
-  {
-  "id" : "cheat.gearup",
+{
+  "id" : "fu_cheatquest.gearup",
   "title" : "^#1693d5;Cheater!",
-  "text" : "If you're experienced, you can go ahead and skip all the nonsense these other scientists speak of.",
+  "text" : "If you're experienced, you can go ahead and skip all the nonsense these other scientists speak of. Get some coal and I'll give you stuff.",
   "completionText" : "It's dangerous to go alone. Take these!",
   "conditions" : [ 
     { "kind" : "gather", "item" : [ "coalore", 1], "consume" : false }
   ],
-  "moneyRange" : [300, 400],
+  "moneyRange" : [0,2],
   "rewards" : [ 
     [ "extractionlab-recipe", "chemlab-recipe", "samplingarray-recipe", "designlab-recipe", "xenostation-recipe", "clonelab-recipe", "prototyper-recipe" ] 
   ],
   "planetMode" : "none",
   "questDungeons" : [ ],
-  "requireTurnIn" : true
+  "requireTurnIn" : false,
+  "followUp" : ""
 }

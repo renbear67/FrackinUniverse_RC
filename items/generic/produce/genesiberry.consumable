@@ -2,9 +2,9 @@
   "itemName" : "genesiberry",
   "rarity" : "Common",
   "inventoryIcon" : "genesiberry.png",
-  "description" : "Restores health when you are hit near-death.",
+  "description" : "Heals 90% health",
   "shortdescription" : "Genesiberry",
   "effects" : [ [
-      "brainreboot"
+      "heal_90"
     ] ]
 }

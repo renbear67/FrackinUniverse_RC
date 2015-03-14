@@ -6,9 +6,8 @@
   "description" : "Stab those that harm you.",
   "shortdescription" : "Fayshroom",
   "effects" : [ [
-      {
-        "effect" : "thorns",
-        "duration" : 20
-      }
+      
+       "burstfayshroom"
+      
     ] ]
 }

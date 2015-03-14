@@ -4,7 +4,6 @@
   "inventoryIcon" : "voritcap.png",
   "description" : "A portable pocket of air.",
   "shortdescription" : "Vorit Cap",
-  "handPosition" : [8, 0],
   "effects" : [ [
       {
         "effect" : "maxBeath",

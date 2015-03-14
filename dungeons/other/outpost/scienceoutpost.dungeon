@@ -275,6 +275,18 @@
           }
         ] ]
     },
+    {
+      "value" : [44, 0, 0, 255],
+      "comment" : "wire #2",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "npc",
+            "species" : "apex",
+            "typeName" : "fuoutpostcheatscientist",
+            "seed" : 6
+          }
+        ] ]
+    },
 
     {
       "value" : [3, 0, 0, 255],
