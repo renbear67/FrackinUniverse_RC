@@ -1,5 +1,5 @@
 {
-  "projectileName" : "eyeballspray",
+  "projectileName" : "ocucannonspray",
   "frames" : "ocucannonshot.png",
   "physics" : "bullet",
   "animationCycle" : 1,

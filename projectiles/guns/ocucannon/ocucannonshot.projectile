@@ -18,7 +18,7 @@
     },
     {
       "action" : "projectile",
-      "type" : "eyeballspray",
+      "type" : "ocucannonspray",
       "fuzzAngle" : 20,
       "inheritDamageFactor" : 0.33
     },
