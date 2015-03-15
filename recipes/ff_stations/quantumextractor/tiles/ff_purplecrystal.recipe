@@ -1,10 +1,10 @@
 {
   "input" : [
-    { "item" : "purplecrystalmaterial", "count" : 40 }
+    { "item" : "purplecrystalmaterial", "count" : 50 }
   ],
   "output" : {
     "item" : "ff_silicon",
-    "count" : 4
+    "count" : 2
   },
   "groups" : [ "quantumextractor", "all" ]
 }

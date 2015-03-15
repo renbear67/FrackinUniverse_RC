@@ -3,7 +3,7 @@
   "modName" : "hydrotilled",
   "Description" : "hydroponically specialized soil",
   "footstepSound" : "/sfx/blocks/footstep_stone2.wav",
-  "grass" : true,
+  "tilled" : true,
   "health" : 0,
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",

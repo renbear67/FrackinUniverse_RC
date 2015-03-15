@@ -1,123 +1,131 @@
-local recipes =
+local recipes=
 {
---  inputs = {{item = "lolitem",amount =3}, {item = "lolitem2", amount = 4}}   go like that if you want multiples
-
--- basic materials
-{inputs = {"irradiumore" },{"irradiumore" },{"irradiumore" }, outputs = { "irradiumbar" }, time = 4},
-
-{inputs = {"glassmaterial", "rawminerals", "nutrientpaste" }, outputs = { "mineralsample" }, time = 15},
-{inputs = {"glassmaterial", "geneticmaterial", "tissueculture" }, outputs = { "dnasample" }, time = 15},
-{inputs = {"mineralsample", "dnasample", "biochipbase" }, outputs = { "biochip" }, time = 30},
-{inputs = {"glassmaterial", "protocitebar", "dnasample" }, outputs = { "vialproto", "vialproto" }, time = 30},
-{inputs = {"moonstoneore", "blisterbushplantfood", "dnasample" }, outputs = { "blisterextract", "blisterextract" }, time = 30},
-{inputs = {"mineralsample", "mutavisksilk", "dnasample" }, outputs = { "mutaviskthread", "mutaviskthread" }, time = 20},
-{inputs = {"prisilitestar", "protorockmaterial", "mineralsample" }, outputs = { "aliencompound" }, time = 5},
-{inputs = {"methanol", "iodine", "phosphorus" }, outputs = { "methyliodide" }, time = 5},
-{inputs = {"coalore", "liquidwater", "ff_silicon" }, outputs = { "graphene" }, time = 15},
-
--- armor, weapons etc
-{inputs = {"blisterchest", "goldenglowseed", "penumbriteshard" }, outputs = { "blisterchestalt-recipe" }, time = 120},
-{inputs = {"blisterpants", "goldenglowseed", "penumbriteshard" }, outputs = { "blisterpantsalt-recipe" }, time = 120},
-{inputs = {"blisterhelm", "goldenglowseed", "penumbriteshard" }, outputs = { "blisterhelmalt-recipe" }, time = 120},
-{inputs = {"blisterhelm2", "goldenglowseed", "penumbriteshard" }, outputs = { "blisterhelmalt-recipe" }, time = 120},
-{inputs = {"ff_scouthelm", "penumbraplating", "diamond" }, outputs = { "skullreaperhelm-recipe" }, time = 120},
-{inputs = {"spikesword", "protocitebar", "cellmatter" }, outputs = { "spikesword2-recipe" }, time = 120},
-{inputs = {"spikesword2", "ff_penumbraplating", "cellmatter" }, outputs = { "spikesword3-recipe" }, time = 120},
-{inputs = {"spikesword3", "uraniumrod", "cellmatter" }, outputs = { "spikesword4-recipe" }, time = 120},
-{inputs = {"spikesword4", "prisilitestar", "cellmatter" }, outputs = { "spikesword5-recipe" }, time = 120},
-{inputs = {"ff_scoutchest", "ff_mercury", "ff_penumbraplating" }, outputs = { "ff_scoutchest_melee-recipe" }, time = 120},
-{inputs = {"ff_scouthelm", "ff_mercury", "ff_penumbraplating" }, outputs = { "ff_scouthelm_melee-recipe" }, time = 120},
-{inputs = {"ff_scoutpants", "ff_mercury", "ff_penumbraplating" }, outputs = { "ff_scoutpants_melee-recipe" }, time = 120}
+{inputs = {glassmaterial=1, rawminerals=2, nutrientpaste=2 }, outputs = { mineralsample=1 }, time = 6},
+{inputs = {glassmaterial=1, geneticmaterial=2, tissueculture=2 }, outputs = { dnasample=1 }, time = 6},
+{inputs = {mineralsample=1, dnasample=1, biochipbase=1 }, outputs = { biochip=1 }, time = 15},
+{inputs = {glassmaterial=1, protocitebar=1, dnasample=1 }, outputs = { vialproto=1 }, time = 15},
+{inputs = {moonstoneore=1, blisterbushplantfood=1, dnasample=1 }, outputs = { blisterextract=1 }, time = 7},
+{inputs = {mineralsample=1, mutavisksilk=1, dnasample=1 }, outputs = { mutaviskthread=1 }, time = 10},
+{inputs = {prisilitestar=1, protorockmaterial=1, mineralsample=1 }, outputs = { aliencompound=1 }, time = 5},
+{inputs = {methanol=1, iodine=1, phosphorus=1 }, outputs = { methyliodide=1 }, time = 5},
+{inputs = {coalore=3, liquidwater=2, ff_silicon=1 }, outputs = { graphene=1 }, time = 15},
+{inputs = {crystal=1, rawminerals=2, liquidoil=1 }, outputs = { ff_silicon=1 }, time = 5},
+{inputs = {blisterchest=1, goldenglowseed=1, penumbriteshard=5 }, outputs = { blisterchestalt=1 }, time = 60},
+{inputs = {blisterpants=1, goldenglowseed=1, penumbriteshard=5 }, outputs = { blisterpantsalt=1 }, time = 60},
+{inputs = {blisterhelm=1, goldenglowseed=1, penumbriteshard=5 }, outputs = { blisterhelmalt=1 }, time = 60},
+{inputs = {blisterhelm2=1, goldenglowseed=1, penumbriteshard=5 }, outputs = { blisterhelmalt=1 }, time = 60},
+{inputs = {ff_scouthelm=1, penumbraplating=1, diamond=1 }, outputs = { skullreaperhelm=1 }, time = 60},
+{inputs = {spikesword=1, protocitebar=1, cellmatter=1 }, outputs = { spikesword2=1 }, time = 60},
+{inputs = {spikesword2=1, ff_penumbraplating=1, cellmatter=1 }, outputs = { spikesword3=1 }, time = 60},
+{inputs = {spikesword3=1, uraniumrod=1, cellmatter=1 }, outputs = { spikesword4=1 }, time = 60},
+{inputs = {spikesword4=1, prisilitestar=1, cellmatter=1 }, outputs = { spikesword5=1 }, time = 60},
+{inputs = {ff_scoutchest=1, ff_mercury=1, ff_penumbraplating=4 }, outputs = { ff_scoutchest_melee=1 }, time = 60},
+{inputs = {ff_scouthelm=1, ff_mercury=1, ff_penumbraplating=4 }, outputs = { ff_scouthelm_melee=1 }, time = 60},
+{inputs = {ff_scoutpants=1, ff_mercury=1, ff_penumbraplating=4 }, outputs = { ff_scoutpants_melee=1 }, time = 60}
+}
 
 
 
 --  *************
 --  add random chance to drop higher or lower quality versions of samples? rares? etc?
 --  *************
--- local.samplingbenefit = 0 --this value will be set based on items used. 
+-- local.samplingbenefit = 0 --this value will be set based on items used.
 -- The higher the sampling benefit, the better chance at a super-item. These take the
 -- form of things like unlockable recipes via item as in vanilla starbound, or super-seeds
 -- and that sort of thing.
 
-
-}
-
 function init(args)
-    self.timer = 0
-    self.recipe = nil
+    if args then return end
+    self.timer = 5
+    self.mintick = 5
     self.crafting = false
+    self.output = {}
 end
 
-function hasValidRecipe()
-    local id = entity.id()
-    local contents = world.containerItems(entity.id())
-
-    for _, recipe in pairs(recipes) do
-        local hasRecipe = true
-        for id, item in pairs(recipe.inputs) do
-            local found = false
-            for i, inv in pairs(contents) do
-                if item == inv.name then
-                    found = true
-                    break -- Break the item search loop
+function getInputContents()
+        local id = entity.id()
+      
+        local contents = {}
+        for i=0,2 do
+            local stack = world.containerItemAt(entity.id(),i)
+            if stack ~=nil then
+                if contents[stack.name] ~= nil then
+                contents[stack.name] = contents[stack.name] + stack.count
+                else
+                contents[stack.name] = stack.count
                 end
             end
-           
-            if not found then
-                hasRecipe = false
-                break -- Break loop for current recipe
+        end
+      
+        return contents
+    end
+
+function map(l,f)
+    local res = {}
+    for k,v in pairs(l) do
+        res[k] = f(v)
+    end
+    return res
+end
+
+function filter(l,f)
+  return map(l, function(e) return f(e) and e or nil end)
+end
+
+
+function getValidRecipes(query)
+
+    local function subset(t1,t2)
+        if next(t2) == nil then return false end
+        if t1 == t2 then return true end
+            for k,_ in pairs(t1) do
+                if not t2[k] or t1[k] >= t2[k] then return false end
             end
-        end
-       
-        -- Do we have the match?
-        if hasRecipe then
-            return true, recipe
-        end
+        return true
     end
-   
-    return false, nil
+
+return filter(recipes, function(l) return subset(l.inputs, query) end)
+
 end
-
--- Adds in/Removes the items. If you added the amount param to tables, be sure to update it here.
-function generateRecipe()
-    local recipe = self.recipe
-    local entID = entity.id()
-   
-    -- Remove the input items
-    for k, v in pairs(recipe.inputs) do
-        if not world.containerConsume(entID, {item = v , count = 1}) then
-            return 
-        end
-    end
-   
-    -- Add the output items
-    for k, item in pairs(recipe.outputs) do
-        local itemsRemaining = world.containerAddItems(entID, { name= item, count = 1, data={}})
-
-        if itemsRemaining then
-            world.spawnItem(itemsRemaining.item, entity.position(), itemsRemaining.amount)
-        end
-    end
-end
-
+  
 function update(dt)
-    -- Are we already crafting?
-    if not self.crafting then
-        -- No? Check recipes.
-        local hasRecipe, recipe = hasValidRecipe()
-        if hasRecipe then
-            self.recipe = recipe
-            entity.setAnimationState("samplingarrayanim", "working") 
-            self.crafting = true
-        end
-    else
-        -- Yes? Run timer.
-        self.timer = self.timer + dt -- Make it work with actual SECONDS
-        if self.timer >= self.recipe.time then
-            generateRecipe() -- Take the recipe requirements and Generate the results
+
+    self.timer = self.timer - dt
+
+    if self.timer <= 0 then
+
+        if self.crafting then
+            for k,v in pairs(self.output) do
+                local leftover = world.containerAddItems(entity.id(), {item = k , count = v})
+                if leftover ~= nil then world.spawnItem(leftover.item, entity.position(), leftover.count) end
+            end
             self.crafting = false
-            self.timer = 1
+            self.output = {}
+            self.timer = self.mintick --reset timer to a safe minimum
             entity.setAnimationState("samplingarrayanim", "idle")
         end
+
+        local function startCrafting(result)
+            if next(result) == nil then return false
+            else _,result = next(result)
+
+                for k,v in pairs(result.inputs) do
+                    if not world.containerConsume(entity.id(), {item = k , count = v}) then return false end
+                end
+
+                self.crafting = true
+                self.timer = result.time
+                self.output = result.outputs
+                entity.setAnimationState("samplingarrayanim", "working")
+
+                return true
+            end              
+        end
+
+        if not self.crafting and self.timer <= 0 then --make sure we didn't just finish crafting
+            if not startCrafting(getValidRecipes(getInputContents()))
+            then self.timer = self.mintick end --set timeout if there were no recipes
+        end
+
     end
 end

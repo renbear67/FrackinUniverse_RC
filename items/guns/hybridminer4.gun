@@ -1,0 +1,35 @@
+{
+    "itemName" : "hybridminer4",
+    "inventoryIcon" : "hybridminer4.png",
+    "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+    "maxStack" : 1,
+    "rarity" : "rare",
+    "description" : "The absolutely perfect mining gun.",
+    "shortdescription" : "Miner (Super Quantum)",
+    "image" : "hybridminer4.png",
+    "handPosition" : [-8, 0],
+    "firePosition" : [8, 1.5],
+    "weaponType" : "Beam",
+    "recoilTime" : 0.1,
+    "level" : 1,
+    "tooltipKind" : "gun",
+    "fireTime" : 0.02,
+    "spread" : 2,
+    "twoHanded" : false,
+    "rateOfFire" : [2, 7],
+    "muzzleEffect" : {
+      "fireSound" : [ { "file" : "/sfx/projectiles/swing_electric2.wav" } ]
+    },
+  
+    "fireOnRelease" : false,
+    
+    "projectileType" : "hybridminershot3",
+
+    "powerProjectileTime" : [0.4, 50],
+    "projectile" : {
+      "speed" : 20, 
+      "power" : 0.07 , 
+      "color" : [120, 120, 120] 
+  	}
+}
+  

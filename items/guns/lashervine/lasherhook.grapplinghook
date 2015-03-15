@@ -12,7 +12,7 @@
   "fireTime" : 0,
   "twoHanded" : false,
   "handPosition" : [0, 1],
-  "strikeSound" : "/sfx/gun/bonepistol.wav",
+  "strikeSound" : "/items/guns/lashervine/spit.wav",
   "minLength" : -40,
   "maxLength" : 55,
   "hardMaxLength" : 65,

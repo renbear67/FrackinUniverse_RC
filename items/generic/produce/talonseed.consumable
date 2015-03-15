@@ -2,16 +2,9 @@
   "itemName" : "talonseed",
   "rarity" : "Common",
   "inventoryIcon" : "talonseed.png",
-  "description" : "Talonseed will heal your bruised body.",
+  "description" : "Heals 30% health.",
   "shortdescription" : "Talonseed Sprout",
-  "handPosition" : [0, 4],
   "effects" : [ [
-      {
-        "effect" : "foodheal70",
-        "duration" : 5
-      }
-    ] ],
-  "blockingEffects" : [
-    "foodheal70"
-  ]
+        "heal_30"
+    ] ]
 }

@@ -3,5 +3,6 @@
   "rarity" : "uncommon",
   "inventoryIcon" : "electromagnet.png",
   "description" : "An advanced electromagnet.",
-  "shortdescription" : "Electromagnet"
+  "shortdescription" : "Electromagnet",
+  "learnBlueprintsOnPickup" : [ "teslagun" ]
 }

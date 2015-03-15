@@ -2,7 +2,7 @@
   "itemName" : "tyvokkhook",
   "rarity" : "Common",
   "inventoryIcon" : "tyvokkhook.png",
-  "description" : "A powerful restorative food.",
+  "description" : "A powerful regenerative food.",
   "shortdescription" : "Tyvokk Hook",
   "effects" : [ [
       {

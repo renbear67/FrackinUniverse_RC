@@ -6,5 +6,6 @@
   "shortdescription" : "Helium-3",
   "description" : "A very useful material for nuclear reactions.",
 
-  "liquid" : "helium3gas"
+  "liquid" : "helium3gas",
+  "learnBlueprintsOnPickup" : [ "ionrifle" ]
 }

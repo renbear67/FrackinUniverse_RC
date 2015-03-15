@@ -1,21 +1,21 @@
 function init()
-  animator.setParticleEmitterOffsetRegion("icetrail", mcontroller.boundBox())
-  animator.setParticleEmitterActive("icetrail", true)
+  animator.setParticleEmitterOffsetRegion("shieldspark", mcontroller.boundBox())
+  animator.setParticleEmitterActive("shieldspark", true)
   effect.setParentDirectives("fade=000000=0.15")
 
   script.setUpdateDelta(5)
 
-  local slows = status.statusProperty("slows", {})
-  slows["frostslow"] = 0.50
-  status.setStatusProperty("slows", slows)
   self.tickDamagePercentage = 0.01
   self.tickTime = 1.2
   self.tickTimer = self.tickTime
 end
 
 function update(dt)
+  mcontroller.controlParameters({
+      normalLiquidFriction = 0
+    })
   mcontroller.controlModifiers({
-      groundMovementModifier = -0.7,
+      groundMovementModifier = -0.1,
       runModifier = -0.05,
       jumpModifier = -0.05
     })
@@ -34,7 +34,5 @@ function update(dt)
 end
 
 function uninit()
-  local slows = status.statusProperty("slows", {})
-  slows["frostslow"] = nil
-  status.setStatusProperty("slows", slows)
+
 end

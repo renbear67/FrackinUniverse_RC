@@ -10,9 +10,6 @@
         "effect" : "energyregen96",
         "duration" : 10
       },
-      {
-        "effect" : "foodheal95",
-        "duration" : 10
-      }
+      "heal_40"
     ] ]
 }

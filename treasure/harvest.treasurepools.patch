@@ -1,5 +1,13 @@
 [
 {"op":"add",
+	"path":"/fubioshroomHarvest",
+	"value":[[0, {"fill":[ {"item":"biospore"} ],
+	"pool":[ {"weight":0.05, "item":"biospore"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}]]
+},
+
+
+{"op":"add",
 	"path":"/aquapodHarvest",
 	"value":[[0, {"fill":[
 		{"item":"aquapodseed"}, 

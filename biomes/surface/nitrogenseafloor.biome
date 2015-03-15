@@ -7,11 +7,42 @@
   "spawnProfiles" : [
     {
       "groups" : [ "oceanfloor" ],
-      "extraSpawns" : [  ]
+      "extraSpawns" : [  ],
+      "monsterParameters" : {
+        "statusSettings" : {
+          "stats" : {
+            "ffextremecoldImmunity" : {
+              "baseValue" : 1.0
+            },
+            "biomecoldImmunity" : {
+              "baseValue" : 1.0
+            },
+            "nitrogenfreezeImmunity" : {
+              "baseValue" : 1.0
+            }
+          }
+        }
+      }
+
     },
     {
       "groups" : [ "oceanfloor" ],
-      "extraSpawns" : [  ]
+      "extraSpawns" : [  ],
+      "monsterParameters" : {
+        "statusSettings" : {
+          "stats" : {
+            "ffextremecoldImmunity" : {
+              "baseValue" : 1.0
+            },
+            "biomecoldImmunity" : {
+              "baseValue" : 1.0
+            },
+            "nitrogenfreezeImmunity" : {
+              "baseValue" : 1.0
+            }
+          }
+        }
+      }
     }
   ],
 

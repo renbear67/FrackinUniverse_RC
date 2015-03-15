@@ -4,7 +4,6 @@
   "inventoryIcon" : "mireurchin.png",
   "description" : "Move slower, but carry a big shield",
   "shortdescription" : "Mire Urchin",
-  "handPosition" : [-8, 0],
   "effects" : [ [
       {
         "effect" : "runboost",

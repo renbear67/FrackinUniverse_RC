@@ -5,7 +5,6 @@
   "description" : "A stem loaded with concentrated rage. Will make you berserk.",
   "shortdescription" : "Lasher Stem",
   "learnBlueprintsOnPickup" : [ "lasherhook" ],
-  "handPosition" : [0, 8],
   "effects" : [ [
       {
         "effect" : "rage50",

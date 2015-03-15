@@ -45,7 +45,6 @@
           "objectSets" : [
             {
               "pool" : [ 
-              [0.35, "wildalgaeseed" ],
               [0.35, "wildbambooseed" ],
               [0.35, "wildignuschiliseed" ],
               [0.35, "wildbrackentreeseed" ],
@@ -56,7 +55,6 @@
               [0.35, "wildginsengseed" ],
               [0.35, "wildgreenleafseed" ],
               [0.35, "wildmiraclegrassseed" ],
-              [0.35, "wildgingerseed" ],
               [0.35, "wildonionseed" ],
               [0.35, "flowerblue" ],
               [0.35, "flowerred" ],

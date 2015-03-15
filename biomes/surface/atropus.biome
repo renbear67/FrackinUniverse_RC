@@ -390,7 +390,7 @@
           "distribution" : "/biomes/distributions.config:randomEncounter",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "randomencounter", "treasureroom", "avianencounter", "glitchencounter", "shroomencounter" ]
+          "microdungeons" : [ "fuencountercultist", "randomencounter",  "avianencounter", "glitchencounter", "shroomencounter" ]
         },
         {
           "mode" : "floor",

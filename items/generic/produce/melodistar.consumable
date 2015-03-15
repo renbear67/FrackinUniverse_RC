@@ -2,12 +2,9 @@
   "itemName" : "melodistar",
   "rarity" : "Common",
   "inventoryIcon" : "melodistaricon.png",
-  "description" : "A star plant from space!",
+  "description" : "A star plant from space! Heals 60% health.",
   "shortdescription" : "Melodistar",
   "effects" : [ [
-      {
-        "effect" : "foodheal720",
-        "duration" : 5
-      }
+        "heal_60"
     ] ]
 }

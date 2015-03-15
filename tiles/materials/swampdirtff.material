@@ -9,7 +9,7 @@
   "shortdescription" : "Swamp Dirt",
   "footstepSound" : "/sfx/blocks/footstep_dirt.wav",
   "health" : 3,
-  "tillableMod" : 6777,
+  "tillableMod" : 31,
   "soil" : true,
   "damageTable" : "/tiles/flammableDamage.config",
   "category": "materials",

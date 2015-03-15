@@ -4,15 +4,9 @@
   "inventoryIcon" : "neuropod.png",
   "description" : "A powerhouse of healing, energy and strength.",
   "shortdescription" : "Neuropod Bulb",
-  "handPosition" : [0, 8],
   "effects" : [ [
       {
         "effect" : "energyregen96",
-        "amount" : 0.25,
-        "duration" : 15
-      },
-      {
-        "effect" : "foodheal120",
         "amount" : 0.25,
         "duration" : 15
       },

@@ -4,10 +4,7 @@
   "inventoryIcon" : "stranglevineroot.png",
   "description" : "Thorns damage attackers",
   "shortdescription" : "Stranglevine Root",
-  "handPosition" : [0, 8],
   "effects" : [ [
-      {
-        "effect" : "thornsstranglevine"
-      }
+        "thornsstranglevine"
     ] ]
 }

@@ -2,9 +2,9 @@
   "itemName" : "nyanifruit",
   "rarity" : "Common",
   "inventoryIcon" : "nyanifruit.png",
-  "description" : "Surprisingly filling.",
+  "description" : "Surprisingly filling. Heals 15% health.",
   "shortdescription" : "Nyani String",
   "effects" : [ [
-      "wellfed"
+      "heal_15"
     ] ]
 }

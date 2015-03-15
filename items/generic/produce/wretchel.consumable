@@ -4,7 +4,6 @@
   "inventoryIcon" : "wretchel.png",
   "description" : "Edible. Better for crafting.",
   "shortdescription" : "Wretchel Chunk",
-  "handPosition" : [8, 0],
   "effects" : [ [
       "wellfed"
     ] ]

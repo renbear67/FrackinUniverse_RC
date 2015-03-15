@@ -16,6 +16,9 @@
             },
             "fireImmunity" : {
               "baseValue" : 1.0
+            },
+            "ffextremeheatImmunity" : {
+              "baseValue" : 1.0
             }
           }
         }
@@ -32,6 +35,9 @@
               "baseValue" : 1.0
             },
             "fireImmunity" : {
+              "baseValue" : 1.0
+            },
+            "ffextremeheatImmunity" : {
               "baseValue" : 1.0
             }
           }

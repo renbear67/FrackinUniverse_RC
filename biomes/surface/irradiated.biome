@@ -5,11 +5,29 @@
   "spawnProfiles" : [
     {
       "groups" : [ "mediumsurface1" ],
-      "extraSpawns" : [ ]
+      "extraSpawns" : [ ],
+      "monsterParameters" : {
+        "statusSettings" : {
+          "stats" : {
+            "ffextremeradiationImmunity" : {
+              "baseValue" : 1.0
+            }
+          }
+        }
+      }
     },
     {
       "groups" : [ "mediumsurface2" ],
-      "extraSpawns" : [ ]
+      "extraSpawns" : [ ],
+      "monsterParameters" : {
+        "statusSettings" : {
+          "stats" : {
+            "ffextremeradiationImmunity" : {
+              "baseValue" : 1.0
+            }
+          }
+        }
+      }
     }
   ],
 
@@ -257,7 +275,7 @@
           "distribution" : "/biomes/distributions.config:randomEncounter",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "newhumanmicro", "newavianmicro", "minigreenruins", "randomencounter", "treasureroom", "avianencounter", "glitchencounter", "shroomencounter" ]
+          "microdungeons" : [ "fuencountercultist", "newhumanmicro", "newavianmicro", "minigreenruins", "randomencounter", "treasureroom", "avianencounter", "glitchencounter", "shroomencounter" ]
         },
         {
           "mode" : "floor",

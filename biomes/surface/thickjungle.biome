@@ -266,7 +266,7 @@
           "distribution" : "/biomes/distributions.config:randomEncounter",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "newhumanmicro", "newavianmicro", "minigreenruins", "randomencounter", "treasureroom", "avianencounter", "glitchencounter", "shroomencounter" ] 
+          "microdungeons" : [ "fuencountercultist", "newhumanmicro", "newavianmicro", "minigreenruins", "randomencounter", "treasureroom", "avianencounter", "glitchencounter", "shroomencounter" ] 
         },
         {
           "mode" : "floor",

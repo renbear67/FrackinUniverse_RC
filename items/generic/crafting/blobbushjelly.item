@@ -4,5 +4,5 @@
   "inventoryIcon" : "blobbushjelly.png",
   "description" : "A strange jelly with fascinating properties.",
   "shortdescription" : "Blob bush jelly",
-  "learnBlueprintsOnPickup" : [ "mutagene3" ]
+  "learnBlueprintsOnPickup" : [ "mutagene3", "swarmgun", "swarmgun2" ]
 }
