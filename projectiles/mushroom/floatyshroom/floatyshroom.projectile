@@ -1,9 +1,9 @@
 {
   "projectileName" : "floatyshroom",
-  "physics" : "flyhighbug",
+  "physics" : "fu_flybug",
   "speed" : 30,
   "bounces" : 0,
-  "timeToLive" : 1.25,
+  "timeToLive" : 2.0,
   "frames" : "floatyshroom.png",
   "animationCycle" : 1.5,
   "animationLoops" : false,

@@ -1,10 +1,10 @@
 {
   "input" : [
+    { "item" : "helium3cannister", "count" : 6 },
     { "item" : "triggerassembly", "count" : 1 },
     { "item" : "gunhousing", "count" : 2 },
-    { "item" : "fleshstrand", "count" : 45 },
-    { "item" : "advancealloy", "count" : 4 }
+    { "item" : "protocitebar", "count" : 4 }
   ],
-  "output" : { "item" : "goregun", "count" : 1 },
+  "output" : { "item" : "ionrifle", "count" : 1 },
   "groups" : [ "prototyper", "weapons", "all" ]
 }

@@ -3,7 +3,7 @@
   "frames" : "hellfireprojectile2.png",
   "animationCycle" : 0.3,
   "level" : 1,
-  "physics" : "bullet",
+  "physics" : "fu_boulder",
   "frameNumber" : 4,
   "pointLight" : true,
   "lightColor" : [255, 113, 0],

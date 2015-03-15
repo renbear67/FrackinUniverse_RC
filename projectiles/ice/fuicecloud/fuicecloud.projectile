@@ -1,7 +1,7 @@
 {
   "projectileName" : "fuicecloud",
   "frames" : "fuicecloud.png",
-  "physics" : "gas",
+  "physics" : "fu_lightgas",
   "animationCycle" : 1,
   "speed" : 10,
   "frameNumber" : 8,

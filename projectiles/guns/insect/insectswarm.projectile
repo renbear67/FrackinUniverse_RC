@@ -21,6 +21,7 @@
       "action" : "sound",
       "options" : [ "/sfx/projectiles/hivebomb_impact.wav" ]
     }
-  ]  
+  ],
+  "statusEffects" : [ "weakpoison" ]
 }
 

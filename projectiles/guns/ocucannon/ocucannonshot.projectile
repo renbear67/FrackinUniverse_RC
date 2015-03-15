@@ -1,7 +1,7 @@
 {
   "projectileName" : "ocucannonshot",
   "frames" : "ocucannonshot.png",
-  "physics" : "grenade",
+  "physics" : "fu_eyeball",
   "animationCycle" : 1,
   "frameNumber" : 8,
   "power" : 0,

@@ -71,5 +71,6 @@
   ],
   "power" : 1.5,
   "damageType" : "NoDamage",
-  "damageKind" : "default"
+  "damageKind" : "default",
+  "statusEffects" : [ "biooozepoison" ]
 }
