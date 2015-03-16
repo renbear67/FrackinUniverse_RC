@@ -1,5 +1,5 @@
 {
-  "projectileName" : "fuicebreath2",
+  "projectileName" : "fuicebreath",
   "frames" : "fuicebreath.png",
   "physics" : "gas",
   "animationCycle" : 0.1,

@@ -20,7 +20,7 @@
 
   "fireOnRelease" : false,
 
-  "projectileType" : "fuicebreath2",
+  "projectileType" : "fuicebreath",
   "projectile" : { 
   "speed" : 30, 
   "power" : 2 , 

@@ -1,6 +1,6 @@
 {
   "projectileName" : "tesla2",
-  "frames" : "tesla.png",
+  "frames" : "fftesla.png",
   "animationCycle" : 0.2,
   "damageKindImage" : "icon.png",
   "frameNumber" : 4,

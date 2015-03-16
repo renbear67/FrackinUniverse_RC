@@ -3,5 +3,6 @@
   "rarity" : "common",
   "inventoryIcon" : "mutagene3.png",
   "description" : "Mutagenic extract",
-  "shortdescription" : "Mutagene"
+  "shortdescription" : "Mutagene",
+  "learnBlueprintsOnPickup" : [ "goregun", "eyecannon" ]
 }

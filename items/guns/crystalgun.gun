@@ -8,7 +8,7 @@
   "shortdescription" : "Crystal Carbine",
   "image" : "crystalgun.png",
   "handPosition" : [-12, -3],
-  "firePosition" : [16, 2],
+  "firePosition" : [16, 1],
   "weaponType" : "Elemental Weapon",
   "recoilTime" : 0.1,
   "level" : 2,

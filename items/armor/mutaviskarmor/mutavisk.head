@@ -26,6 +26,15 @@
     {
       "stat" : "maxHealth",
       "amount" : 40
+    },
+    "ffextremeradiationimmunityicon",
+    {
+      "stat" : "ffextremeradiationImmunity",
+      "amount" : 1.0
+    },
+    {
+      "stat" : "biomeradiationImmunity",
+      "amount" : 1.0
     }
   ],
 

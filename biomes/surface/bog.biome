@@ -436,7 +436,7 @@
         {
           "mode" : "ceiling",
           "variants" : 1,
-          "distribution" : "/biomes/distributions.config:scatteredSmall",
+          "distribution" : "/biomes/distributions.config:ffunCommon",
 
           "type" : "grass",
           "grasses" : [ "glowceiling", "ceilingmushroom" ]
