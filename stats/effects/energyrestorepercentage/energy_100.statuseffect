@@ -1,5 +1,5 @@
 {
-  "name" : "energy_1",
+  "name" : "energy_100",
   "effectConfig" : { "energyrestore" : 1.0 },
   "defaultDuration" : 0.1,
 

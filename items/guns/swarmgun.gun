@@ -7,13 +7,13 @@
   "description" : "Fires swarming insects.",
   "shortdescription" : "Swarm Gun",
   "image" : "swarmgun.png",
-  "handPosition" : [-7, -1],
+  "handPosition" : [-12, -1],
   "firePosition" : [20, 0],
   "weaponType" : "Beam",
   "recoilTime" : 0.1,
   "level" : 6,
   "tooltipKind" : "gun",
-  "fireTime" : 2.0,
+  "fireTime" : 2.5,
   "twoHanded" : true,
   "walkWhileFiring" : false,
   "spread" : 1,
@@ -23,7 +23,7 @@
   "projectileType" : "insectswarm",
   "projectile" : { 
   "speed" : 50, 
-  "power" : 3.5 , 
+  "power" : 2.5 , 
   "color" : [255, 141, 40] 
   },
   

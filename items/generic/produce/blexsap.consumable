@@ -6,11 +6,11 @@
   "shortdescription" : "Blex Cactus Sap",
   "effects" : [ [
       {
-        "effect" : "energyregen192",
+        "effect" : "energyregenfu20",
         "duration" : 10
       }
     ] ],
   "blockingEffects" : [
-    "energyregen192"
+    "energyregenfu20"
   ]
 }

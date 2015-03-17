@@ -117,7 +117,7 @@
           "distribution" : "/biomes/distributions.config:undergroundtechChests",
 
           "type" : "treasureBox",
-          "treasureBoxSets" : [ "techChest" ]
+          "treasureBoxSets" : [ "ffRareLootShadowChest" ]
         },
         {
           "mode" : "floor",

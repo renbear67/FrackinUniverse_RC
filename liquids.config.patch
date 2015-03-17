@@ -149,7 +149,7 @@
     "path" : "/liquids/42", 
 	"value" : { 
 	"name" : "blacktar",
-	"tickDelta" : 1,
+	"tickDelta" : 5,
 	"color" : [8, 8, 8, 225],
         "statusEffects" : [ "blacktarslow" ],
         "itemDrop" : "liquidblacktar",
@@ -211,10 +211,10 @@
     "path" : "/liquids/43", 
 	"value" : { 
 	"name" : "organicsoup",
-	"tickDelta" : 3,
+	"tickDelta" : 2,
 	"color" : [255, 0, 255, 225],
 	"radiantLight" : [75, 0, 75],
-        "statusEffects" : [ "energy_5" ],
+        "statusEffects" : [ "energy_10" ],
         "itemDrop" : "liquidorganicsoup",
         "interactions" : [
           {
@@ -274,9 +274,9 @@
     "path" : "/liquids/44", 
 	"value" : { 
 	"name" : "protociteliquid",
-	"tickDelta" : 1,
+	"tickDelta" : 2,
 	"color" : [232, 244, 102, 220],
-        "statusEffects" : [ "energyregen288" ],
+        "statusEffects" : [ "energyregen20" ],
         "itemDrop" : "vialproto",
         "interactions" : [
           {
@@ -464,7 +464,7 @@
     "path" : "/liquids/47", 
 	"value" : { 
 	"name" : "irradiumliquid",
-	"tickDelta" : 1,
+	"tickDelta" : 3,
 	"color" : [102, 179, 244, 220],
 	"radiantLight" : [102, 179, 244],
         "statusEffects" : [ "biomeradiation" ],
@@ -527,7 +527,7 @@
     "path" : "/liquids/48", 
 	"value" : { 
 	"name" : "mercuryliquid",
-	"tickDelta" : 1,
+	"tickDelta" : 3,
 	"color" : [100, 100, 100, 220],
 	"radiantLight" : [12, 1, 1],
         "statusEffects" : [ "biomeradiation" ],

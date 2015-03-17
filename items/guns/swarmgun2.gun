@@ -7,7 +7,7 @@
   "description" : "Fires exploding parasitic insects.",
   "shortdescription" : "Hellion Swarm Gun",
   "image" : "swarmgun2.png",
-  "handPosition" : [-7, -1],
+  "handPosition" : [-12, -1],
   "firePosition" : [20, 0],
   "weaponType" : "Beam",
   "recoilTime" : 0.1,

@@ -6,9 +6,8 @@
   "shortdescription" : "Neuropod Bulb",
   "effects" : [ [
       {
-        "effect" : "energyregen96",
-        "amount" : 0.25,
-        "duration" : 15
+        "effect" : "energyregenfu50",
+        "duration" : 30
       },
       {
         "effect" : "runboost",

@@ -50,8 +50,7 @@
     "value" : "Red Star"
   }, 
 {"op":"add","path":"/planetTypeToDescription/fungus",
-"value":"^#13db57;Fungus^white; worlds are, unsurprisingly, coated fungal colonies."},
-
+"value":"^#13db57;Fungal^white; worlds are, unsurprisingly, coated in huge fungal colonies."},
 {"op":"add","path":"/planetTypeToDescription/frozenvolcanic",
 "value":"^#1693d5;Frozen Volcanic^white; worlds are a perfect balance of heat and cold. Their existence should be impossible."},
 {"op":"add","path":"/planetTypeToDescription/ffunknown",

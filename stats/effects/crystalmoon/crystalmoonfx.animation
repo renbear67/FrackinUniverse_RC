@@ -1,6 +1,6 @@
 {
   "particleEmitters" : {
-    "drips" : {
+    "coldbreath" : {
       "enabled" : true,
       "emissionRate" : 20.0,
       "particles" : [

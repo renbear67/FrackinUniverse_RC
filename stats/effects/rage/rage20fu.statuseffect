@@ -1,7 +1,7 @@
 {
   "name" : "rage40",
   "effectConfig" : {
-    "powerModifier" : 0.4
+    "powerModifier" : 0.2
   },
   "defaultDuration" : 15,
 

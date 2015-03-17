@@ -6,11 +6,11 @@
   "shortdescription" : "Hale Flower Petal",
   "effects" : [ [
       {
-        "effect" : "energyregen480",
+        "effect" : "energyregenfu75",
         "duration" : 30
       }
     ] ],
   "blockingEffects" : [
-    "energyregen480"
+    "energyregenfu75"
   ]
 }
