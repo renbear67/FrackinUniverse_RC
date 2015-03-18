@@ -1,0 +1,16 @@
+{
+  "projectileName" : "elderexplosion",
+  "frames" : "elderexplosion.png",
+  "animationCycle" : 0.4,
+  "level" : 1,
+  "frameNumber" : 12,
+  "speed" : 0,
+  "fallSpeed" : 0,
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+  "pointLight" : true,
+  "lightColor" : [0,200,0],
+  "universalDamage" : true,
+  "damageKind" : "default"
+}

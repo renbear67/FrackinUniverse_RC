@@ -16,6 +16,14 @@
     {
       "stat" : "protection",
       "amount" : 25
+    },
+    {
+      "stat" : "shadowgasImmunity",
+      "amount" : 1
+    },
+    {
+      "stat" : "helium3Immunity",
+      "amount" : 1
     }
   ],
 

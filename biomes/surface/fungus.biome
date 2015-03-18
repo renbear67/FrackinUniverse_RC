@@ -139,6 +139,8 @@
               [0.35, "wildlactariusindigoseed" ],
               [0.35, "wildlivingrootseed" ],
               [0.35, "wildgoldshroomseed" ],
+              [0.35, "wilddeathblossomseed" ],
+              [0.35, "wildshockshroomseed" ],
               [0.35, "wildfayshroomseed" ]
           ],
               "parameters" : { "startingStage" : 3 }

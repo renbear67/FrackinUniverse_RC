@@ -22,7 +22,7 @@
     },
     {
       "stat" : "energyRegen",
-      "amount" : 1.40
+      "amount" : 0.60
     }
   ],
 

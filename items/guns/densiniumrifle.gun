@@ -23,7 +23,7 @@
     },
     "fireOnRelease" : false,
     
-    "projectileType" : "plasmatorpedo",
+    "projectileType" : "densiniumblast",
 
     "powerProjectileTime" : [0.4, 50],
     "projectile" : {
