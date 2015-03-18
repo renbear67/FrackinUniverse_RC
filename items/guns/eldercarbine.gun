@@ -18,7 +18,7 @@
   "walkWhileFiring" : true,
   "spread" : 1,
   
-  "projectileType" : "elderblast1",
+  "projectileType" : "cellzap1",
   "projectile" : { "speed" : 35, "power" : 3.2 , "color" : [0, 0, 0] },
   "muzzleEffect" : {
        "fireSound" : [ { "file" : "/sfx/gun/plasma_pistol2bassy.wav" } ],

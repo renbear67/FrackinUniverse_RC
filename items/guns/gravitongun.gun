@@ -4,7 +4,7 @@
   "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Rare",
-  "description" : "Super-velocity flechette launcher.",
+  "description" : "Launches micro-gravity disruptions.",
   "shortdescription" : "Graviton Gun",
   "image" : "gravitongun.png",
   "handPosition" : [-7, -1],
@@ -18,7 +18,7 @@
   "walkWhileFiring" : false,
   "spread" : 1,
 
-  "projectileType" : "shuriken",
+  "projectileType" : "gravitonorb",
   "projectile" : { 
   "speed" : 90, 
   "power" : 1 , 
