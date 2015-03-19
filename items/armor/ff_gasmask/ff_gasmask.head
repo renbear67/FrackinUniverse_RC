@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "Toxin filtering can't be a bad thing.",
+  "description" : "Protects from harmful (and beneficial) gasses.",
   "shortdescription" : "Gasmask",
   "tooltipKind" : "armor",
 

@@ -25,7 +25,7 @@
   "color" : [255, 44, 44] 
   },
   "muzzleEffect" : {
-       "fireSound" : [ { "file" : "/sfx/gun/plasma_ar4.wav" } ],
+       "fireSound" : [ { "file" : "/sfx/weapons/gravitongun.wav" } ],
        "animation" :  "/animations/muzzleflash/smokemuzzle/smokemuzzle.animation"
 	   }
 }

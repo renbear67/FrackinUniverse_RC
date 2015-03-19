@@ -3,11 +3,11 @@
   "rarity" : "uncommon",
   "category" : "Farmable",
   "inventoryIcon" : "lactariusindigo.png",
-  "description" : "Renders you immune to poison.",
+  "description" : "Mimics the effects of organic soup for 60 seconds.",
   "shortdescription" : "Lactarius Indigo Mushroom",
   "effects" : [ [
       {
-        "effect" : "poisonImmunity",
+        "effect" : "organicsoupeffect",
         "duration" : 60
       }
     ] ]

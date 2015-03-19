@@ -21,7 +21,7 @@
   "projectileType" : "vashtagunshot",
   "projectile" : { "speed" : 25, "power" : 2 , "color" : [0, 0, 0] },
   "muzzleEffect" : {
-       "fireSound" : [ { "file" : "/sfx/gun/plasma_pistol1.wav" } ],
+       "fireSound" : [ { "file" : "/sfx/weapons/vashtagun.wav" } ],
        "animation" :  "/animations/muzzleflash/smokemuzzle/smokemuzzle.animation" 
 	   }   
 }

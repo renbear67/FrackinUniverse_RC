@@ -130,42 +130,17 @@
           "objectSets" : [
             {
               "pool" : [ 
-              [0.35, "fubioshroomblue" ],
-              [0.35, "fubioshroomgreen" ],
-              [0.35, "fubioshroomred" ],
-              [0.35, "fubioshroompurple" ],
-              [0.35, "fubioshroomyellow" ],
+              [0.35, "wildfubioshroomblue" ],
+              [0.35, "wildfubioshroomgreen" ],
+              [0.35, "wildfubioshroomred" ],
+              [0.35, "wildfubioshroompurple" ],
+              [0.35, "wildfubioshroomyellow" ],
               [0.35, "wildghostmushroomseed" ],
               [0.35, "wildlactariusindigoseed" ],
               [0.35, "wildlivingrootseed" ],
               [0.35, "wildgoldshroomseed" ],
               [0.35, "wilddeathblossomseed" ],
               [0.35, "wildshockshroomseed" ],
-              [0.35, "wildfayshroomseed" ]
-          ],
-              "parameters" : { "startingStage" : 3 }
-            }
-          ]
-        },
-        {
-          "mode" : "floor",
-          "priority" : 1.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:ffunCommon",
-
-          "type" : "object",
-          "objectSets" : [
-            {
-              "pool" : [ 
-              [0.35, "fubioshroomblue" ],
-              [0.35, "fubioshroomgreen" ],
-              [0.35, "fubioshroomred" ],
-              [0.35, "fubioshroompurple" ],
-              [0.35, "fubioshroomyellow" ],
-              [0.35, "wildghostmushroomseed" ],
-              [0.35, "wildlactariusindigoseed" ],
-              [0.35, "wildlivingrootseed" ],
-              [0.35, "wildgoldshroomseed" ],
               [0.35, "wildfayshroomseed" ]
           ],
               "parameters" : { "startingStage" : 3 }
@@ -258,15 +233,6 @@
 
           "type" : "treasureBox",
           "treasureBoxSets" : [ "weaponChest" ]
-        },
-        {
-          "mode" : "floor",
-          "priority" : 3.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures",
-
-          "type" : "microdungeon",
-          "microdungeons" : [ "bogmini" ]
         },
         {
           "mode" : "floor",
@@ -430,7 +396,6 @@
           "objectSets" : [
             {
               "pool" : [ 
-              [0.15, "waterpod" ],
               [0.15, "redcap2" ],
               [0.15, "redcap3" ],
               [0.15, "redcap" ],
@@ -443,8 +408,7 @@
               [0.15, "swamproot2" ],
               [0.15, "swamproot3" ],
               [0.15, "swamproot4" ],
-              [0.15, "swamproot5" ],
-              [0.15, "fireflies1"]
+              [0.15, "swamproot5" ]
           ],
               "parameters" : { }
             }

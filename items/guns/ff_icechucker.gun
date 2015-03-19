@@ -23,7 +23,7 @@
   },
 
   "muzzleEffect" : {
-    "fireSound" : [ { "file" : "/sfx/gun/pumpgun_draw3.wav" } ],
+    "fireSound" : [ { "file" : "/sfx/weapons/icechucker.wav" } ],
     "animation" : "/animations/muzzleflash/bulletmuzzle3/bulletmuzzle3.animation"
   }
 }

@@ -28,7 +28,7 @@
   },
   
   "muzzleEffect" : {
-       "fireSound" : [ { "file" : "/sfx/gun/lightningcoil3.wav" } ],
+       "fireSound" : [ { "file" : "/sfx/weapons/teslagun.wav" } ],
        "animation" :  "/animations/muzzleflash/electromuzzle/electromuzzle.animation"
 	   } 
 }

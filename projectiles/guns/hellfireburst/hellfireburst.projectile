@@ -1,0 +1,92 @@
+{
+  "projectileName" : "hellfireburst",
+  "frames" : "hellfireburst.png",
+  "animationCycle" : 0.9,
+  "physics" : "bullet",
+  "level" : 7,
+  "damageKindImage" : "icon.png",
+  "frameNumber" : 9,
+  "speed" : 0,
+  "power" : 7,
+  "lightColor" : [255,141,40],
+  "timeToLive" : 0.3,
+  "piercing" : false,
+  "damagePoly" : [ [-9, 0], [-6, -6], [0, -27], [6, -6], [9, 0], [6, 6], [0, 27], [-6, 6] ],
+  "damageKind" : "electroshock",
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/hellfireexplosion/hellfireexplosion.config"
+    },
+    {
+      "action" : "projectile",
+      "type" : "hellfireprojectile2",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.2,
+      "angleAdjust" : 75
+    },
+    {
+      "action" : "projectile",
+      "type" : "hellfireprojectile2",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.2,
+      "angleAdjust" : -75
+    },
+    {
+      "action" : "projectile",
+      "type" : "hellfireprojectile2",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.2,
+      "angleAdjust" : -35
+    },
+    {
+      "action" : "projectile",
+      "type" : "hellfireprojectile2",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.2,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "hellfireprojectile2",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.2,
+      "angleAdjust" : 180
+    },
+    {
+      "action" : "projectile",
+      "type" : "hellfireprojectile2",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.2,
+      "angleAdjust" : 35
+    },
+    {
+      "action" : "projectile",
+      "type" : "hellfireprojectile2",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.2,
+      "angleAdjust" : -35
+    },
+    {
+      "action" : "projectile",
+      "type" : "hellfireprojectile2",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.2,
+      "angleAdjust" : -225
+    },
+    {
+      "action" : "projectile",
+      "type" : "hellfireprojectile2",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.2,
+      "angleAdjust" : 225
+    },
+    {
+      "action" : "projectile",
+      "type" : "hellfireprojectile2",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.2,
+      "angleAdjust" : 320
+    }
+  ]
+}

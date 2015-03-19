@@ -28,7 +28,7 @@
   },
   
   "muzzleEffect" : {
-       "fireSound" : [ { "file" : "/sfx/gun/plasma_mp1.wav" } ],
+       "fireSound" : [ { "file" : "/sfx/weapons/gravitongun.wav" } ],
        "animation" :  "/animations/muzzleflash/smokemuzzle/smokemuzzle.animation"
 	   } 
 }

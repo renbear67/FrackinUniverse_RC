@@ -8,6 +8,18 @@
       {
         "effect" : "liquidimmunity",
         "duration" : 30
+      },
+      {
+        "effect" : "biooozeimmunity",
+        "duration" : 30
+      },
+      {
+        "effect" : "sulphuricacidimmunity",
+        "duration" : 30
+      },
+      {
+        "effect" : "nitrogenfreezeimmunity",
+        "duration" : 30
       }
     ] ],
   "blockingEffects" : [
