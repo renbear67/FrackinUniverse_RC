@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "Gold chestpiece. For the decadent.",
+  "description" : "Dark sorceror robe. Gives lots of energy.",
   "shortdescription" : "Cultist Robe",
   "tooltipKind" : "armor",
   "maleFrames" : {
@@ -22,9 +22,12 @@
   "statusEffects" : [
     {
       "stat" : "protection",
-      "amount" : 21.25
+      "amount" : 45
     },
-
+    {
+      "stat" : "maxEnergy",
+      "amount" : 140
+    },
     {
       "stat" : "maxHealth",
       "amount" : 52.5

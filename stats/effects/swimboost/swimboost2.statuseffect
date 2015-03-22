@@ -12,6 +12,6 @@
 
   "animationConfig" : "swimboost.animation",
   
-  "label" : "Swim Boost",
+  "label" : "Swim +",
   "icon" : "/interface/statuses/wet.png"
 }

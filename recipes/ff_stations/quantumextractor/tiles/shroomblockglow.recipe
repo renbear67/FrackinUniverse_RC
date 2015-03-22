@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "shroomblockglow", "count" : 50 }
+  ],
+  "output" : {
+    "item" : "agaranichor",
+    "count" : 3
+  },
+  "groups" : [ "quantumextractor", "all" ]
+}

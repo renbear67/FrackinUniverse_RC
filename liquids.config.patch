@@ -276,7 +276,7 @@
 	"name" : "protociteliquid",
 	"tickDelta" : 2,
 	"color" : [232, 244, 102, 220],
-        "statusEffects" : [ "energyregen20" ],
+        "statusEffects" : [ "energyregenfu20" ],
         "itemDrop" : "vialproto",
         "interactions" : [
           {

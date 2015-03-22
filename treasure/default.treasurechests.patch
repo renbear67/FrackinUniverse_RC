@@ -58,5 +58,15 @@
 		"minimumLevel" : 1
 		}
 	]
+  },
+  { "op" : "add", "path" : "/ffelderChest", 
+  "value" : 
+	[
+		{
+		"containers" : [ "elderchest" ],
+		"treasurePool" : "ffelderTreasure",
+		"minimumLevel" : 1
+		}
+	]
   }
 ]

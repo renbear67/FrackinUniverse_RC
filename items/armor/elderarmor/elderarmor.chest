@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "Gold chestpiece. For the decadent.",
+  "description" : "Unknown material provides insane protection.",
   "shortdescription" : "Elder Chestpiece",
   "tooltipKind" : "armor",
   "maleFrames" : {
@@ -22,12 +22,12 @@
   "statusEffects" : [
     {
       "stat" : "protection",
-      "amount" : 21.25
+      "amount" : 210
     },
-
+    "defenseboost30",
     {
       "stat" : "maxHealth",
-      "amount" : 52.5
+      "amount" : 120
     }
   ],
 

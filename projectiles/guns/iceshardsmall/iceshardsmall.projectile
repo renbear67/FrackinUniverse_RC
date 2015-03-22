@@ -16,5 +16,6 @@
       "file" : "/projectiles/explosions/iceexplosion2/iceexplosion2.config"
     }
   ],
-  "damageKind" : "slash"
+  "damageKind" : "slash",
+  "statusEffects" : [ "iceslip" ]
 }

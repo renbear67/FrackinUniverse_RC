@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "Gold helmet. For the decadent.",
+  "description" : "An abhorrent helm that increases potency.",
   "shortdescription" : "Elder Helmet",
   "tooltipKind" : "armor",
   "maleFrames" : "head.png",
@@ -14,12 +14,12 @@
   "statusEffects" : [
     {
       "stat" : "protection",
-      "amount" : 12.75
+      "amount" : 145
     },
-
+    "rage60",
     {
       "stat" : "maxEnergy",
-      "amount" : 52.5
+      "amount" : 80
     }
   ],
 

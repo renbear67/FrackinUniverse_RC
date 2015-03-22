@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "Gold helmet. For the decadent.",
+  "description" : "The cowl of a dark cultist.",
   "shortdescription" : "Cultist Cowl",
   "tooltipKind" : "armor",
   "maleFrames" : "head.png",
@@ -14,9 +14,12 @@
   "statusEffects" : [
     {
       "stat" : "protection",
-      "amount" : 12.75
+      "amount" : 24
     },
-
+    {
+      "stat" : "maxEnergy",
+      "amount" : 120
+    },
     {
       "stat" : "maxEnergy",
       "amount" : 52.5

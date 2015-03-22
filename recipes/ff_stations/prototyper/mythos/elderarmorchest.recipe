@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "densiniumbar", "count" : 11 },
+    { "item" : "densealloy", "count" : 6 },
+    { "item" : "aliencompound", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "elderarmorchest",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "armor", "all" ]
+}

@@ -10,5 +10,6 @@
   "frameNumber" : 4,
   "speed" : 20,
   "power" : 1.2,
-  "damageKind" : "default"
+  "damageKind" : "default",
+  "statusEffects" : [ "weakpoison" ]
 }

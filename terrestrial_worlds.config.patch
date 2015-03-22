@@ -1149,7 +1149,7 @@
       "caveLiquid" : [ "water", "poison", "bio_ooze" ],
       "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [ "flatsSurface", "lowHillsSurface", "medHillsSurface", "mountainsSurface", "mesasSurface", "ledgesSurface", "giantLedgesSurface" ],
-      "fgCaveSelector" : [ "acidPoolCaves", "surfaceCaves", "denseCaves"  ],
+      "fgCaveSelector" : [ "surfaceCaves", "denseCaves"  ],
       "biome" : [
         [0, [ "irradiated" ]]
       ]
@@ -2121,8 +2121,9 @@
   "path" : "/regionTypes/irradiatedunderground",
   "value" : 
   {
-      "caveLiquid" : [ "swampwater", "poison","bio_ooze", "alienjuice" ],
+      "caveLiquid" : [ "swampwater", "poison","bio_ooze", "alienjuice" ], 
       "caveLiquidChanceRange" : [5, 15],
+      "fgCaveSelector" : [ "acidPoolCaves", "denseCaves"  ],
       "biome" : [
         [0, [ "irradiatedunderground"]]
       ]

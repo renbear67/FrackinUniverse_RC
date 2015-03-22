@@ -1,9 +1,9 @@
 {
   "name" : "helium3",
   "effectConfig" : {
-    "gravityModifier" : 0.15
+    "gravityModifier" : 0.75
   },
-  "defaultDuration" : 15,
+  "defaultDuration" : 5,
 
   "scripts" : [
     "helium3.lua"
@@ -11,6 +11,6 @@
 
   "animationConfig" : "helium3.animation",
 
-  "label" : "Light",
+  "label" : "Low Grav",
   "icon" : "/interface/statuses/lowgrav.png"
 }
