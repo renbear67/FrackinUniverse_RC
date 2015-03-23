@@ -11,7 +11,7 @@
   "firePosition" : [26, 2],
   "weaponType" : "Beam",
   "recoilTime" : 0.1,
-  "level" : 7,
+  "level" : 6,
   "tooltipKind" : "gun",
   "fireTime" : 1.5,
   "twoHanded" : true,
@@ -20,7 +20,7 @@
 
   "fireOnRelease" : false,
 
-  "projectileType" : "fuicebreath2",
+  "projectileType" : "iceblade",
   "projectile" : { 
   "speed" : 30, 
   "power" : 4.5 , 

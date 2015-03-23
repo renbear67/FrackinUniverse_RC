@@ -3,7 +3,7 @@
     { "item" : "matteritem", "count" : 12 },
     { "item" : "eridianbar", "count" : 4 },
     { "item" : "hellfireplantseed", "count" : 1 },
-    { "item" : "coregragmentore", "count" : 8 }
+    { "item" : "corefragmentore", "count" : 8 }
   ],
   "output" : {
     "item" : "fubonusarmorchest",

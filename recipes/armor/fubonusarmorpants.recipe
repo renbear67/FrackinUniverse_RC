@@ -3,7 +3,7 @@
     { "item" : "matteritem", "count" : 12 },
     { "item" : "eridianbar", "count" : 6 },
     { "item" : "electromagnet", "count" : 2 },
-    { "item" : "coregragmentore", "count" : 5 }
+    { "item" : "corefragmentore", "count" : 5 }
   ],
   "output" : {
     "item" : "fubonusarmorpants",
