@@ -20,13 +20,57 @@
         "statusEffects" : [ "swimming" ],
         "interactions" : [
           {
+            "liquid" : 1,
+            "liquidResult" : 40
+          },
+          {
             "liquid" : 3,
             "liquidResult" : 3
           },
           {
             "liquid" : 8,
             "liquidResult" : 0
-          }
+          },
+          {
+          //bioooze
+            "liquid" : 41,
+            "liquidResult" : 41
+          },  
+          {
+          //black tar
+            "liquid" : 42,
+            "liquidResult" : 42
+          },      
+           {
+          //soup
+            "liquid" : 43,
+            "liquidResult" : 43
+          },  
+          {
+          //proto
+            "liquid" : 44,
+            "liquidResult" : 44
+          }, 
+          {
+          //swamp
+            "liquid" : 45,
+            "liquidResult" : 45
+          },     
+          {
+          //acid
+            "liquid" : 46,
+            "liquidResult" : 46
+          }, 
+          {
+          //irradium
+            "liquid" : 47,
+            "liquidResult" : 50
+          },   
+          {
+          //mercury
+            "liquid" : 48,
+            "liquidResult" : 47
+          }          
         ],
  	"texture" : "/liquids/bloodtex.png",
 	"bottomLightMix" : [1, 0, 0],
@@ -45,12 +89,51 @@
         
         "interactions" : [
           {
+            "liquid" : 1,
+            "liquidResult" : 41
+          },
+          {
             "liquid" : 3,
             "liquidResult" : 41
           },
           {
             "liquid" : 8,
             "liquidResult" : 0
+          },  
+          {
+          //black tar
+            "liquid" : 42,
+            "liquidResult" : 41
+          },      
+           {
+          //soup
+            "liquid" : 43,
+            "liquidResult" : 41
+          },  
+          {
+          //proto
+            "liquid" : 44,
+            "liquidResult" : 44
+          }, 
+          {
+          //swamp
+            "liquid" : 45,
+            "liquidResult" : 41
+          },     
+          {
+          //acid
+            "liquid" : 46,
+            "liquidResult" : 46
+          }, 
+          {
+          //irradium
+            "liquid" : 47,
+            "liquidResult" : 44
+          },   
+          {
+          //mercury
+            "liquid" : 48,
+            "liquidResult" : 44
           }
         ],
         
@@ -59,15 +142,22 @@
         "textureMovementFactor" : 2.6        
 	}
     },
+
+  
+  
     { "op" : "add", 
     "path" : "/liquids/42", 
 	"value" : { 
 	"name" : "blacktar",
-	"tickDelta" : 1,
+	"tickDelta" : 5,
 	"color" : [8, 8, 8, 225],
         "statusEffects" : [ "blacktarslow" ],
         "itemDrop" : "liquidblacktar",
         "interactions" : [
+          {
+            "liquid" : 1,
+            "liquidResult" : 42
+          },
           {
             "liquid" : 3,
             "liquidResult" : 42
@@ -75,6 +165,41 @@
           {
             "liquid" : 8,
             "liquidResult" : 0
+          },
+          {
+          //bioooze
+            "liquid" : 41,
+            "liquidResult" : 41
+          },       
+           {
+          //soup
+            "liquid" : 43,
+            "liquidResult" : 43
+          },  
+          {
+          //proto
+            "liquid" : 44,
+            "liquidResult" : 44
+          }, 
+          {
+          //swamp
+            "liquid" : 45,
+            "liquidResult" : 42
+          },     
+          {
+          //acid
+            "liquid" : 46,
+            "liquidResult" : 46
+          }, 
+          {
+          //irradium
+            "liquid" : 47,
+            "liquidResult" : 47
+          },   
+          {
+          //mercury
+            "liquid" : 48,
+            "liquidResult" : 48
           }
         ],
         "texture" : "/liquids/blacktartex.png",
@@ -86,10 +211,10 @@
     "path" : "/liquids/43", 
 	"value" : { 
 	"name" : "organicsoup",
-	"tickDelta" : 3,
+	"tickDelta" : 2,
 	"color" : [255, 0, 255, 225],
 	"radiantLight" : [75, 0, 75],
-        "statusEffects" : [ "energy_5" ],
+        "statusEffects" : [ "energy_10" ],
         "itemDrop" : "liquidorganicsoup",
         "interactions" : [
           {
@@ -97,8 +222,47 @@
             "liquidResult" : 3
           },
           {
+            "liquid" : 3,
+            "liquidResult" : 43
+          },
+          {
             "liquid" : 8,
             "liquidResult" : 0
+          },
+          {
+          //bioooze
+            "liquid" : 41,
+            "liquidResult" : 41
+          },  
+          {
+          //black tar
+            "liquid" : 42,
+            "liquidResult" : 48
+          },      
+          {
+          //proto
+            "liquid" : 44,
+            "liquidResult" : 43
+          }, 
+          {
+          //swamp
+            "liquid" : 45,
+            "liquidResult" : 43
+          },     
+          {
+          //acid
+            "liquid" : 46,
+            "liquidResult" : 46
+          }, 
+          {
+          //irradium
+            "liquid" : 47,
+            "liquidResult" : 46
+          },   
+          {
+          //mercury
+            "liquid" : 48,
+            "liquidResult" : 46
           }
         ],
         "texture" : "/liquids/watertex.png",
@@ -110,11 +274,15 @@
     "path" : "/liquids/44", 
 	"value" : { 
 	"name" : "protociteliquid",
-	"tickDelta" : 1,
+	"tickDelta" : 2,
 	"color" : [232, 244, 102, 220],
-        "statusEffects" : [ "energyregen288" ],
+        "statusEffects" : [ "energyregenfu20" ],
         "itemDrop" : "vialproto",
         "interactions" : [
+          {
+            "liquid" : 1,
+            "liquidResult" : 44
+          },
           {
             "liquid" : 3,
             "liquidResult" : 44
@@ -122,6 +290,41 @@
           {
             "liquid" : 8,
             "liquidResult" : 0
+          },
+          {
+          //bioooze
+            "liquid" : 41,
+            "liquidResult" : 47
+          },  
+          {
+          //black tar
+            "liquid" : 42,
+            "liquidResult" : 43
+          },      
+           {
+          //soup
+            "liquid" : 43,
+            "liquidResult" : 41
+          },  
+          {
+          //swamp
+            "liquid" : 45,
+            "liquidResult" : 44
+          },     
+          {
+          //acid
+            "liquid" : 46,
+            "liquidResult" : 46
+          }, 
+          {
+          //irradium
+            "liquid" : 47,
+            "liquidResult" : 44
+          },   
+          {
+          //mercury
+            "liquid" : 48,
+            "liquidResult" : 44
           }
         ],
         "texture" : "/liquids/protoliquidtex.png",
@@ -129,6 +332,8 @@
         "textureMovementFactor" : 2.6        
 	}
     },
+    
+  
     { "op" : "add", 
     "path" : "/liquids/45", 
 	"value" : { 
@@ -139,12 +344,51 @@
         "statusEffects" : [ "swimming" ],
         "interactions" : [
           {
+            "liquid" : 1,
+            "liquidResult" : 45
+          },
+          {
             "liquid" : 3,
             "liquidResult" : 3
           },
           {
             "liquid" : 8,
             "liquidResult" : 0
+          },
+          {
+          //bioooze
+            "liquid" : 41,
+            "liquidResult" : 41
+          },  
+          {
+          //black tar
+            "liquid" : 42,
+            "liquidResult" : 42
+          },      
+           {
+          //soup
+            "liquid" : 43,
+            "liquidResult" : 43
+          },  
+          {
+          //proto
+            "liquid" : 44,
+            "liquidResult" : 43
+          },     
+          {
+          //acid
+            "liquid" : 46,
+            "liquidResult" : 46
+          }, 
+          {
+          //irradium
+            "liquid" : 47,
+            "liquidResult" : 47
+          },   
+          {
+          //mercury
+            "liquid" : 48,
+            "liquidResult" : 48
           }
         ],
  	"texture" : "/liquids/watertex.png",
@@ -152,6 +396,7 @@
 	"textureMovementFactor" : 2.6
 	}
     },
+             
     { "op" : "add", 
     "path" : "/liquids/46", 
 	"value" : { 
@@ -162,12 +407,51 @@
         "itemDrop" : "liquidsulphuricacid",
         "interactions" : [
           {
+            "liquid" : 1,
+            "liquidResult" : 46
+          },
+          {
             "liquid" : 3,
             "liquidResult" : 46
           },
           {
             "liquid" : 8,
             "liquidResult" : 0
+          },
+          {
+          //bioooze
+            "liquid" : 41,
+            "liquidResult" : 46
+          },  
+          {
+          //black tar
+            "liquid" : 42,
+            "liquidResult" : 46
+          },      
+           {
+          //soup
+            "liquid" : 43,
+            "liquidResult" : 42
+          },  
+          {
+          //proto
+            "liquid" : 44,
+            "liquidResult" : 47
+          }, 
+          {
+          //swamp
+            "liquid" : 45,
+            "liquidResult" : 46
+          },     
+          {
+          //irradium
+            "liquid" : 47,
+            "liquidResult" : 46
+          },   
+          {
+          //mercury
+            "liquid" : 47,
+            "liquidResult" : 46
           }
         ],
         "texture" : "/liquids/watertex.png",
@@ -175,16 +459,21 @@
         "textureMovementFactor" : 2.6        
 	}
     },
+    
     { "op" : "add", 
     "path" : "/liquids/47", 
 	"value" : { 
 	"name" : "irradiumliquid",
-	"tickDelta" : 1,
+	"tickDelta" : 3,
 	"color" : [102, 179, 244, 220],
 	"radiantLight" : [102, 179, 244],
         "statusEffects" : [ "biomeradiation" ],
         "itemDrop" : "liquidirradium",
         "interactions" : [
+          {
+            "liquid" : 1,
+            "liquidResult" : 47
+          },
           {
             "liquid" : 3,
             "liquidResult" : 47
@@ -192,6 +481,41 @@
           {
             "liquid" : 8,
             "liquidResult" : 0
+          },
+          {
+          //bioooze
+            "liquid" : 41,
+            "liquidResult" : 41
+          },  
+          {
+          //black tar
+            "liquid" : 42,
+            "liquidResult" : 42
+          },      
+           {
+          //soup
+            "liquid" : 43,
+            "liquidResult" : 47
+          },  
+          {
+          //proto
+            "liquid" : 44,
+            "liquidResult" : 47
+          }, 
+          {
+          //swamp
+            "liquid" : 45,
+            "liquidResult" : 47
+          },     
+          {
+          //acid
+            "liquid" : 46,
+            "liquidResult" : 46
+          },   
+          {
+          //mercury
+            "liquid" : 48,
+            "liquidResult" : 47
           }
         ],
         "texture" : "/liquids/liquidirradiumtex.png",
@@ -203,12 +527,16 @@
     "path" : "/liquids/48", 
 	"value" : { 
 	"name" : "mercuryliquid",
-	"tickDelta" : 1,
+	"tickDelta" : 3,
 	"color" : [100, 100, 100, 220],
 	"radiantLight" : [12, 1, 1],
         "statusEffects" : [ "biomeradiation" ],
         "itemDrop" : "liquidmercury",
         "interactions" : [
+          {
+            "liquid" : 1,
+            "liquidResult" : 48
+          },
           {
             "liquid" : 3,
             "liquidResult" : 48
@@ -216,6 +544,41 @@
           {
             "liquid" : 8,
             "liquidResult" : 0
+          },
+          {
+          //bioooze
+            "liquid" : 41,
+            "liquidResult" : 41
+          },  
+          {
+          //black tar
+            "liquid" : 42,
+            "liquidResult" : 43
+          },      
+           {
+          //soup
+            "liquid" : 43,
+            "liquidResult" : 48
+          },  
+          {
+          //proto
+            "liquid" : 44,
+            "liquidResult" : 47
+          }, 
+          {
+          //swamp
+            "liquid" : 45,
+            "liquidResult" : 48
+          },     
+          {
+          //acid
+            "liquid" : 46,
+            "liquidResult" : 46
+          }, 
+          {
+          //irradium
+            "liquid" : 47,
+            "liquidResult" : 48
           }
         ],
         "texture" : "/liquids/watertex.png",
@@ -232,16 +595,7 @@
 	"radiantLight" : [0, 0, 0],
         "statusEffects" : [ "helium3" ],
         "itemDrop" : "helium3gasliquid",
-        "interactions" : [
-          {
-            "liquid" : 3,
-            "liquidResult" : 3
-          },
-          {
-            "liquid" : 8,
-            "liquidResult" : 8
-          }
-        ],
+
         "texture" : "/liquids/watertex.png",
         "bottomLightMix" : [255, 255, 255],
         "textureMovementFactor" : 1.6        

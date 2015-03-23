@@ -246,7 +246,7 @@
           "distribution" : "/biomes/distributions.config:overgroundChests",
 
           "type" : "treasureBox",
-          "treasureBoxSets" : [ "ffpenumbraChest" ]
+          "treasureBoxSets" : [ "ffRareLootShadowChest" ]
         },
         {
           "mode" : "ceiling",

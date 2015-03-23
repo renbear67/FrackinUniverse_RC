@@ -303,7 +303,42 @@
         }
       }
    },
-   
+   {"op" : "add", 
+   "path" : "/planetTypes/fungus",
+   "value" : 
+     {
+       "threatRange" : [1, 5],
+       "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "fungus" ],
+          "secondaryRegion" : [ "bloodgulch", "forest", "corruptedforest", "fieldofwheat", "fieldofsugar",  "fieldofpotato", "fieldofcorn",  "fieldofgrape",  "fieldoftomato","pineforest", "flowerforest", "snowyforest", "taiga", "dryriverbed", "deadwood", "giantflowers", "arctic",  "forest", "jungle", "savannah" ],
+          "dungeonCountRange" : [0, 2],
+          "dungeons" : [ "wreck", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "avianairship", "aviantemple","humanbunker", "floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison", "naturalcave" ]
+        },
+        "subsurface" : {
+          "primaryRegion" : [ "fungusunderground", "shroomcaveunderground" , "luminouscaves", "mushroomunderground", "wildernessunderground" ]
+        },
+        "underground1" : {
+          "primaryRegion" : [ "fungusunderground", "shroomcaveunderground" , "luminouscaves", "mushroomunderground", "wildernessunderground" ]
+        },
+        "underground2" : {
+          "primaryRegion" : [ "fungusunderground", "shroomcaveunderground" , "luminouscaves", "mushroomunderground", "wildernessunderground" ]
+        },
+        "underground3" : {
+          "primaryRegion" : [ "fungusunderground", "shroomcaveunderground" , "luminouscaves", "mushroomunderground", "wildernessunderground" ]
+        },
+        "underground4" : {
+          "primaryRegion" : [ "fungusunderground", "shroomcaveunderground" , "luminouscaves", "mushroomunderground", "wildernessunderground" ]
+        },
+        "underground5" : {
+          "primaryRegion" : [ "fungusunderground", "shroomcaveunderground" , "luminouscaves", "mushroomunderground", "wildernessunderground" ]
+        },
+        "underground6" : {
+          "primaryRegion" : [ "fungusunderground", "shroomcaveunderground" , "luminouscaves", "mushroomunderground", "wildernessunderground" ]
+        }
+       }
+     }
+   },   
     {"op" : "add", 
     "path" : "/planetTypes/icewaste",
     "value" : 
@@ -937,6 +972,20 @@
       ]
     }
   },
+
+  {"op" : "add", 
+  "path" : "/regionTypes/fungus",
+  "value" : 
+  {
+      "caveLiquid" : [ "bloodliquid", "poison", "water", "swampwater", "bio_ooze" ],
+      "caveLiquidChanceRange" : [100, 100],
+      "blockSelector" : [ "medHillsSurface", "lowHillsSurface", "ledgesSurface" , "flatsSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "fungus" ]]
+      ]
+    }
+  },
   
   {"op" : "add", 
   "path" : "/regionTypes/bogoceanfloor",
@@ -1100,7 +1149,7 @@
       "caveLiquid" : [ "water", "poison", "bio_ooze" ],
       "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [ "flatsSurface", "lowHillsSurface", "medHillsSurface", "mountainsSurface", "mesasSurface", "ledgesSurface", "giantLedgesSurface" ],
-      "fgCaveSelector" : [ "acidPoolCaves", "surfaceCaves", "denseCaves"  ],
+      "fgCaveSelector" : [ "surfaceCaves", "denseCaves"  ],
       "biome" : [
         [0, [ "irradiated" ]]
       ]
@@ -1988,13 +2037,36 @@
   "value" : 
   {
       "caveLiquid" : [ "poison", "blacktar", "tarliquid", "swampwater" ],
-      "caveLiquidChanceRange" : [15, 55],
+      "caveLiquidChanceRange" : [95, 100],
       "biome" : [
         [0, [ "bogunderground"]]
       ]
     }
   },
-
+  {"op" : "add", 
+  "path" : "/regionTypes/fungusunderground",
+  "value" : 
+  {
+      "caveLiquid" : [ "poison", "blacktar", "tarliquid", "swampwater" ],
+      "caveLiquidChanceRange" : [35, 55],
+      "biome" : [
+        [0, [ "fungusunderground"]]
+      ]
+    }
+  },
+  
+  {"op" : "add", 
+  "path" : "/regionTypes/shroomcaveunderground",
+  "value" : 
+  {
+      "caveLiquid" : [ "water", "poison", "alienjuice" ],
+      "caveLiquidChanceRange" : [65, 95],
+      "biome" : [
+        [0, [ "shroomcave"]]
+      ]
+    }
+  },
+  
   {"op" : "add", 
   "path" : "/regionTypes/crystalmoonunderground",
   "value" : 
@@ -2049,8 +2121,9 @@
   "path" : "/regionTypes/irradiatedunderground",
   "value" : 
   {
-      "caveLiquid" : [ "swampwater", "poison","bio_ooze", "alienjuice" ],
+      "caveLiquid" : [ "swampwater", "poison","bio_ooze", "alienjuice" ], 
       "caveLiquidChanceRange" : [5, 15],
+      "fgCaveSelector" : [ "acidPoolCaves", "denseCaves"  ],
       "biome" : [
         [0, [ "irradiatedunderground"]]
       ]

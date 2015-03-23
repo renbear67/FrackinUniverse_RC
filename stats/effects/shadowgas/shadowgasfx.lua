@@ -1,24 +1,41 @@
 function init()
-  animator.setParticleEmitterOffsetRegion("shieldspark", mcontroller.boundBox())
-  animator.setParticleEmitterActive("shieldspark", true)
+  local bounds = mcontroller.boundBox()
+  animator.setParticleEmitterOffsetRegion("shadowgaseffect", mcontroller.boundBox())
+  animator.setParticleEmitterActive("shadowgaseffect", true)
   effect.setParentDirectives("fade=000000=0.15")
 
   script.setUpdateDelta(5)
-
   self.tickDamagePercentage = 0.01
   self.tickTime = 1.2
   self.tickTimer = self.tickTime
+  
+  
+  self.liquidMovementParameter = {
+    groundForce = 100,
+    airForce = 20,
+    liquidForce = 30,
+    liquidFriction = 0.0,
+    liquidImpedance = 0.5,
+    minimumLiquidPercentage = 0.5,
+    liquidJumpProfile = {
+      jumpSpeed = 30.0,
+      jumpControlForce = 900.0,
+      jumpInitialPercentage = 0.75,
+      jumpHoldTime = 0.2,
+      multiJump = false,
+      reJumpDelay = 0.05,
+      autoJump = false,
+      collisionCancelled = true 
+    }
+  }  
 end
 
+
+
+  
+
 function update(dt)
-  mcontroller.controlParameters({
-      normalLiquidFriction = 0
-    })
-  mcontroller.controlModifiers({
-      groundMovementModifier = -0.1,
-      runModifier = -0.05,
-      jumpModifier = -0.05
-    })
+mcontroller.controlParameters(self.liquidMovementParameter)
 
   self.tickTimer = self.tickTimer - dt
   if self.tickTimer <= 0 then

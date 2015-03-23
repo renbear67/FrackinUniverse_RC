@@ -1,6 +1,6 @@
 function init()
-  animator.setParticleEmitterOffsetRegion("poisonsicknessdust", mcontroller.boundBox())
-  animator.setParticleEmitterActive("poisonsicknessdust", true)
+  animator.setParticleEmitterOffsetRegion("lights", mcontroller.boundBox())
+  animator.setParticleEmitterActive("lights", true)
   effect.setParentDirectives("fade=00FFBB=0.15")
   script.setUpdateDelta(5)
   self.tickDamagePercentage = 0.02

@@ -9,6 +9,6 @@
     "defenseboost.lua"
   ],
 
-  "label" : "Bonus Defense",
+  "label" : "Def +",
   "icon" : "/interface/statuses/defense.png"
 }

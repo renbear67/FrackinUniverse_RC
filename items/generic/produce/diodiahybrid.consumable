@@ -6,11 +6,11 @@
   "shortdescription" : "Diodia Hybrid Fruit",
   "effects" : [ [
       {
-        "effect" : "energyregen96",
+        "effect" : "energyregenfu15",
         "duration" : 15
       }
     ] ],
   "blockingEffects" : [
-    "energyregen96"
+    "energyregenfu15"
   ]
 }

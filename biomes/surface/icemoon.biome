@@ -1,7 +1,7 @@
 {
   "name" : "icemoon",
   "friendlyName" : "Frozen Moon",
-  "statusEffects" : [ ],
+  "statusEffects" : [ "iceslip" ],
   "airless" : true,
   "breathable" : false,
   

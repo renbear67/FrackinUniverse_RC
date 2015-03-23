@@ -7,15 +7,14 @@
   "effects" : [ [
       {
         "effect" : "regeneration3",
-        "amount" : 0.12,
-        "duration" : 1
+        "duration" : 20
       },      
       {
-        "effect" : "energyregen96",
-        "duration" : 12
+        "effect" : "energyregenfu25",
+        "duration" : 20
       }
     ] ],
   "blockingEffects" : [
-    "energyregen96", "regeneration3"
+    "energyregenfu25", "regeneration3"
   ]
 }

@@ -20,7 +20,7 @@
     },
     {
       "kind" : "bogback",
-      "offset" : [0, 350],
+      "offset" : [0, 250],
       "parallax" : 9,
       "nightCorrelation" : 0,
       "minSpeed" : 0,

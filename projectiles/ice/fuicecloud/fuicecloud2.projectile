@@ -7,7 +7,7 @@
   "frameNumber" : 8,
   "damageKindImage" : "icon.png",
   "pointLight" : false,
-  "timeToLive" : 1,
+  "timeToLive" : 0.5,
   "piercing" : false,
   "damageKind" : "default",
   "statusEffects" : [ "freeze" ],

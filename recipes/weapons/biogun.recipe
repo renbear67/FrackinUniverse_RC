@@ -1,0 +1,16 @@
+{
+  "input" : [
+   { "item" : "aliencompound", "count" : 4 },
+   { "item" : "mutagene4", "count" : 2 },
+   { "item" : "bone", "count" : 50 },
+   { "item" : "triggerassembly", "count" : 1 },
+   { "item" : "gunhousing", "count" : 2 },
+   { "item" : "toxicgene", "count" : 1 },
+   { "item" : "cellhardening2", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "biogun",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "weapons", "all" ]
+}

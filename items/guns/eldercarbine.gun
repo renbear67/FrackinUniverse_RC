@@ -8,7 +8,7 @@
   "shortdescription" : "Disruptor",
   "image" : "eldercarbine.png",
   "handPosition" : [-12, -3],
-  "firePosition" : [16, 0],
+  "firePosition" : [16, 2],
   "weaponType" : "Energy Weapon",
   "recoilTime" : 0.1,
   "level" : 9,
@@ -18,10 +18,10 @@
   "walkWhileFiring" : true,
   "spread" : 1,
   
-  "projectileType" : "cellzap2",
+  "projectileType" : "cellzap1",
   "projectile" : { "speed" : 35, "power" : 3.2 , "color" : [0, 0, 0] },
   "muzzleEffect" : {
-       "fireSound" : [ { "file" : "/sfx/gun/plasma_pistol2bassy.wav" } ],
+       "fireSound" : [ { "file" : "/sfx/weapons/eldercarbine.wav" } ],
        "animation" :  "/animations/muzzleflash/plasmamuzzle4green/plasmamuzzle4green.animation"
 	   }   
 }

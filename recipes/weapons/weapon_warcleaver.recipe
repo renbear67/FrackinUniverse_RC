@@ -1,11 +1,11 @@
 {
   "input" : [
-   { "item" : "aliencompound", "count" : 12 },
-   { "item" : "monsterplating", "count" : 6 },
+   { "item" : "aliencompound", "count" : 4 },
+   { "item" : "monsterplating", "count" : 4 },
    { "item" : "bone", "count" : 50 },
-   { "item" : "refinedrubium", "count" : 15 },
+   { "item" : "refinedrubium", "count" : 11 },
    { "item" : "vialproto", "count" : 3 },
-    { "item" : "biochip", "count" : 10 }
+    { "item" : "biochip", "count" : 4 }
   ],
   "output" : {
     "item" : "warcleaver",

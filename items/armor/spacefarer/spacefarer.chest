@@ -1,0 +1,40 @@
+{
+  "itemName" : "spacefarerchest",
+  "inventoryIcon" : "icons.png:chest",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A strong, illuminated chestguard.",
+  "shortdescription" : "Spacefarer Chest",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "statusEffects" : [
+    {
+      "stat" : "protection",
+      "amount" : 125
+    },
+
+    {
+      "stat" : "maxEnergy",
+      "amount" : 60
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 60
+    },
+    "glowgreen"
+  ]
+}

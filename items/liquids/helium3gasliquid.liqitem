@@ -7,5 +7,5 @@
   "description" : "A very useful material for nuclear reactions.",
 
   "liquid" : "helium3gas",
-  "learnBlueprintsOnPickup" : [ "ionrifle" ]
+  "learnBlueprintsOnPickup" : [ "ionrifle", "helium3cannister" ]
 }

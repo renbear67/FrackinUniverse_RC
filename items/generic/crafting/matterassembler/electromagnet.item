@@ -4,5 +4,5 @@
   "inventoryIcon" : "electromagnet.png",
   "description" : "An advanced electromagnet.",
   "shortdescription" : "Electromagnet",
-  "learnBlueprintsOnPickup" : [ "teslagun" ]
+  "learnBlueprintsOnPickup" : [ "teslagun", "spacefarerchest", "spacefarerhelm", "spacefarerpants" ]
 }

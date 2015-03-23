@@ -1,6 +1,6 @@
 {
   "particleEmitters" : {
-    "drips" : {
+    "shadowgaseffect" : {
       "enabled" : true,
       "emissionRate" : 5.0,
       "particles" : [

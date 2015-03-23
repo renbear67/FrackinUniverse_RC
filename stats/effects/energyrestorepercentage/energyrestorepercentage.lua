@@ -3,8 +3,7 @@ healP = effect.configParameter("healPercent", 0) -- Heal percent is the configPa
 self.healingRate = (status.resourceMax("energy") * healP) / effect.duration()
   script.setUpdateDelta(5)
 
-  self.tickDamagePercentage = 0.005
-  self.tickTime = 0.80
+  self.tickTime = 1.0
   self.tickTimer = self.tickTime
 end
 
@@ -20,3 +19,13 @@ end
 
 
 
+
+
+
+
+
+
+
+
+
+     

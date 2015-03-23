@@ -1,0 +1,14 @@
+{
+  "name" : "glowgreen",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "glowblue.lua"
+  ],
+
+  "animationConfig" : "glowgreen.animation",
+
+  "label" : "Glow",
+  "icon" : "/interface/statuses/glow.png"
+}

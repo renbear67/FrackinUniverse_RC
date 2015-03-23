@@ -48,5 +48,25 @@
 		"minimumLevel" : 1
 		}
 	]
+  },
+  { "op" : "add", "path" : "/ffRareLootShadowChest", 
+  "value" : 
+	[
+		{
+		"containers" : [ "penumbrachest" ],
+		"treasurePool" : "ffshadowTreasure",
+		"minimumLevel" : 1
+		}
+	]
+  },
+  { "op" : "add", "path" : "/ffelderChest", 
+  "value" : 
+	[
+		{
+		"containers" : [ "elderchest" ],
+		"treasurePool" : "ffelderTreasure",
+		"minimumLevel" : 1
+		}
+	]
   }
 ]

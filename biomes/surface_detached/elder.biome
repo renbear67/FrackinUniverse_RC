@@ -91,6 +91,7 @@
             {
         "pool" : [ 
               [0.35, "elderidol" ],
+              [0.35, "elderstatue" ],
               [0.35, "mound3" ],
               [0.35, "monolith3" ],
               [0.35, "plynth1" ],
@@ -110,6 +111,15 @@
 
           "type" : "treasureBox",
           "treasureBoxSets" : [ "basicChest" ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 0.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:overgroundChests",
+
+          "type" : "treasureBox",
+          "treasureBoxSets" : [ "ffelderChest" ]
         },
         {
           "mode" : "floor",

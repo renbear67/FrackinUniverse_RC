@@ -15,7 +15,11 @@
   "statusEffects" : [
     {
       "stat" : "protection",
-      "amount" : 30
+      "amount" : 60
+    },
+    {
+      "stat" : "maxEnergy",
+      "amount" : 60
     },
     {
       "stat" : "biomeradiationImmunity",

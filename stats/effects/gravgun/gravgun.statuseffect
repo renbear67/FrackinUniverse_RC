@@ -1,0 +1,16 @@
+{
+  "name" : "gravgun",
+  "effectConfig" : {
+    "gravityModifier" : -2.0
+  },
+  "defaultDuration" : 1,
+
+  "scripts" : [
+    "gravgun.lua"
+  ],
+
+  "animationConfig" : "gravgun.animation",
+
+  "label" : "Grav Gun",
+  "icon" : "/interface/statuses/lowgrav.png"
+}

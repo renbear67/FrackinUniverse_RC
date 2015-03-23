@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "graphene", "count" : 10 },
+    { "item" : "advancealloy", "count" : 4 },
+    { "item" : "vialproto", "count" : 1 },
+    { "item" : "cpu", "count" : 1 }
+  ],
+  "output" : { "item" : "spacefarerhead", "count" : 1 },
+  "groups" : [ "prototyper", "armors", "all" ]
+}

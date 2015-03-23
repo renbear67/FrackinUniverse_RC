@@ -11,7 +11,7 @@
   "kind" : "Broadsword",
 
   "image" : "mineralblade.png",
-  "firePosition" : [15.5, 4.5],
+  "firePosition" : [12.5, 4.5],
   "fireTime" : 0.75,
   "fireAfterWindup" : true,
   "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_twohanded.wav" } ] },

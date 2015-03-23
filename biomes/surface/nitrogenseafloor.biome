@@ -66,7 +66,7 @@
         "distribution" : "/biomes/distributions.config:scatteredSmall",
 
         "type" : "grass",
-        "grasses" : [ "corals", "seaweed", "nitrogengrass" ]
+        "grasses" : [ "oceangrass", "oceangrass2", "nitrogengrass", "crispy" ]
       },
       {
         "mode" : "floor",
@@ -90,7 +90,7 @@
         "type" : "bush",
         "bushes" : [
           {
-            "name" : "cone",
+            "name" : "oceanbush",
             "baseHueShiftMax" : 180,
             "modHueShiftMax" : 180
           }

@@ -11,7 +11,7 @@
   "kind" : "Hammer",
 
   "image" : "banehammer.png",
-  "firePosition" : [30.5, 8.5],
+  "firePosition" : [8, 2],
   "fireTime" : 1.12,
   "fireAfterWindup" : true,
   "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_twohanded.wav" } ] },
@@ -27,7 +27,7 @@
       "twoHanded" : false,
       "armAngle" : -90,
       "swordAngle" : -90,
-      "handPosition" : [-6.0, -27.0],
+      "handPosition" : [-2.7, -14.5],
       "armFrameOverride" : "idleMelee",
       "duration" : 0.1
     },
