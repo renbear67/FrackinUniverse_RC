@@ -1,0 +1,9 @@
+{
+  "itemName" : "fushieldTech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/shield.png",
+  "description" : "Press 'F' to create a dampening field that reduces damage. Duration: 10 seconds. Cost: 250 energy.",
+  "shortdescription" : "Defense Shield",
+
+  "techModule" : "fushield"
+}

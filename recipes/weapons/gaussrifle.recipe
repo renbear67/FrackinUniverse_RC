@@ -3,12 +3,12 @@
    { "item" : "corefragmentore", "count" : 8 },
    { "item" : "coil", "count" : 5 },
    { "item" : "triggerassembly", "count" : 1 },
-   { "item" : "gunhousing", "count" : 4 }
-   { "item" : "durasteelbar", "count" : 7 },
+   { "item" : "gunhousing", "count" : 4 },
+   { "item" : "graphene", "count" : 24 },
    { "item" : "electromagnet", "count" : 6 }
   ],
   "output" : {
-    "item" : "gaussrifle",
+    "item" : "fugaussrifle",
     "count" : 1
   },
   "groups" : [ "prototyper", "weapons", "all" ]

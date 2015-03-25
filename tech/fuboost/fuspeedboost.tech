@@ -1,0 +1,13 @@
+{
+  "name" : "fuspeedboost",
+  "type" : "body",
+
+  "scripts" : ["/scripts/vec2.lua", "fuspeedboost.lua"],
+  "actions" : [ "fuspeedboost" ],
+  "animator" : "fuspeedboost.animation",
+
+  "energyUsageRate" : 200.0,
+  "regenerationTime" : 5.0,
+
+  "maxDoubleTapTime" : 0.2
+}

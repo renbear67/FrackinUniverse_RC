@@ -1,6 +1,6 @@
 {
   "input" : [
-	{ "item" : "durasteelbar", "count" : 4 },
+	{ "item" : "steelbar", "count" : 4 },
 	{ "item" : "cpu", "count" : 1 },
 	{ "item" : "helium3cannister", "count" : 1 },
 	{ "item" : "electromagnet", "count" : 2 },

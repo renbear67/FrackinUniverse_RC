@@ -1,0 +1,78 @@
+{
+  "name" : "fusurfacecaves",
+
+  "type" : "max",
+  "sources" : [
+    //stringy karst caves
+    {
+      "type" : "karstcave",
+
+      "layerResolution" : 21,
+      "layerDensity" : 0.15,
+
+      "layerHeightVariation" : {
+        "type" : "perlin",
+        "octaves" : 2,
+        "frequency" : 0.009,
+        "amplitude" : 60
+      },
+      "bufferHeight" : 50,
+
+      "caveDecision" : {
+        "type" : "perlin",
+        "octaves" : 2,
+        "frequency" : 0.01,
+        "amplitude" : 1,
+        "bias" : -0.3
+      },
+      "caveTaperPoint" : 0.08,
+
+      "caveHeightVariation" : {
+        "type" : "perlin",
+        "octaves" : 2,
+        "frequency" : 0.052,
+        "amplitude" : 32,
+        "bias" : 8
+      },
+
+      "caveFloorVariation" : {
+        "type" : "perlin",
+        "octaves" : 2,
+        "frequency" : 0.1,
+        "amplitude" : 4,
+        "bias" : -2
+      }
+    }
+    ,
+    //worm caves
+    {
+      "type" : "displacement",
+      "xType" : "perlin",
+      "xOctaves" : 1,
+      "xFreq" : 0.05,
+      "xAmp" : 4,
+      "xXInfluence" : 0.34,
+      "yType" : "perlin",
+      "yOctaves" : 1,
+      "yFreq" : 0.15,
+      "yAmp" : 2,
+      "yYInfluence" : 0.65,
+
+      "source" : {
+        "type" : "wormcave",
+
+        "sectorSize" : 64,
+        "radius" : 4,
+        "numberOfWormsPerSectorRange" : [0.4, 0.5],
+        "wormSpeed" : 1.5,
+
+        "wormSizeRange" : [2.5, 7],
+        "wormLengthRange" : [70, 180],
+        "wormTaperDistance" : 15,
+        "wormAngleRange" : [4, 12.283],
+        "wormTurnChance" : 0.32,
+        "wormTurnRate" : 0.18
+      }
+    }
+  ]
+}

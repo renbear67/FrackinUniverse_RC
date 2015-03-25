@@ -1,0 +1,153 @@
+{
+  "name" : "megacore",
+
+  "type" : "max",
+  "sources" : [
+    //stringy karst caves
+    {
+      "type" : "karstcave",
+
+      "layerResolution" : 14,
+      "layerDensity" : 0.15,
+
+      "layerHeightVariation" : {
+        "type" : "perlin",
+        "octaves" : 2,
+        "frequency" : 0.029,
+        "amplitude" : 70
+      },
+      "bufferHeight" : 50,
+
+      "caveDecision" : {
+        "type" : "perlin",
+        "octaves" : 2,
+        "frequency" : 0.06,
+        "amplitude" : 1,
+        "bias" : -0.05
+      },
+      "caveTaperPoint" : 0.18,
+
+      "caveHeightVariation" : {
+        "type" : "perlin",
+        "octaves" : 2,
+        "frequency" : 0.032,
+        "amplitude" : 34,
+        "bias" : 20
+      },
+
+      "caveFloorVariation" : {
+        "type" : "perlin",
+        "octaves" : 2,
+        "frequency" : 0.32,
+        "amplitude" : 6,
+        "bias" : -4
+      }
+    }
+    ,
+    //larger karst chambers
+    {
+      "type" : "karstcave",
+
+      "layerResolution" : 27,
+      "layerDensity" : 0.075,
+
+      "layerHeightVariation" : {
+        "type" : "perlin",
+        "octaves" : 2,
+        "frequency" : 0.019,
+        "amplitude" : 20
+      },
+      "bufferHeight" : 40,
+
+      "caveDecision" : {
+        "type" : "perlin",
+        "octaves" : 3,
+        "frequency" : 0.022,
+        "amplitude" : 3.9,
+        "bias" : -1.9
+      },
+      "caveTaperPoint" : 0.42,
+
+      "caveHeightVariation" : {
+        "type" : "perlin",
+        "octaves" : 2,
+        "frequency" : 0.15,
+        "amplitude" : 24,
+        "bias" : 22
+      },
+
+      "caveFloorVariation" : {
+        "type" : "perlin",
+        "octaves" : 2,
+        "frequency" : 0.05,
+        "amplitude" : 8,
+        "bias" : -10
+      }
+    }
+    ,
+    //worm caves
+    {
+      "type" : "displacement",
+      "xType" : "perlin",
+      "xOctaves" : 1,
+      "xFreq" : 0.05,
+      "xAmp" : 2,
+      "xXInfluence" : 0.2,
+      "yType" : "perlin",
+      "yOctaves" : 1,
+      "yFreq" : 0.05,
+      "yAmp" : 2,
+      "yYInfluence" : 0.5,
+
+      "source" : {
+        "type" : "wormcave",
+
+        "sectorSize" : 74,
+        "radius" : 3,
+        "numberOfWormsPerSectorRange" : [0.2, 0.2],
+        "wormSpeed" : 1.5,
+
+        "wormSizeRange" : [2.5, 4],
+        "wormLengthRange" : [60, 220],
+        "wormTaperDistance" : 15,
+        "wormAngleRange" : [0, 12.283],
+        "wormTurnChance" : 0.5,
+        "wormTurnRate" : 0.1
+      }
+    },
+    {
+      //jaggy spikes
+      "type" : "displacement",
+      "xType" : "perlin",
+      "xOctaves" : 1,
+      "xFreq" : 0.03,
+      "xAmp" : 0,
+      "yType" : "perlin",
+      "yOctaves" : 3,
+      "yFreq" : 0.26,
+      "yAmp" : 30,
+      "yBias" : 0,
+      "yClamp" : [-5, 20],
+      "yClampSmoothing" : 5,
+      "yYInfluence" : 0,
+
+      "source" : {
+        //slightly shakey ceiling variation
+        "type" : "displacement",
+        "xType" : "perlin",
+        "xOctaves" : 1,
+        "xFreq" : 0.02,
+        "xAmp" : 10,
+        "yType" : "perlin",
+        "yOctaves" : 2,
+        "yFreq" : 0.015,
+        "yAmp" : 20,
+        "yYInfluence" : 0.2,
+
+        "source" : {
+          "type" : "flatSurface"
+        }
+      }
+    }
+  ]
+}

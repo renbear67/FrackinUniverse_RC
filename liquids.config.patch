@@ -214,7 +214,7 @@
 	"tickDelta" : 2,
 	"color" : [255, 0, 255, 225],
 	"radiantLight" : [75, 0, 75],
-        "statusEffects" : [ "energy_10" ],
+        "statusEffects" : [ "energyregenfu05" ],
         "itemDrop" : "liquidorganicsoup",
         "interactions" : [
           {

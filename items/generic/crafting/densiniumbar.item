@@ -4,5 +4,5 @@
   "inventoryIcon" : "densiniumbar.png",
   "description" : "A multi-phasic super-dense metal.",
   "shortdescription" : "Densinium Bar",
-  "learnBlueprintsOnPickup" : [ "densiniumlegs", "densiniumchest", "densiniumhead" ]
+  "learnBlueprintsOnPickup" : [ "densiniumrifle", "densiniumscythe", "densiniumlegs", "densiniumchest", "densiniumhead" ]
 }

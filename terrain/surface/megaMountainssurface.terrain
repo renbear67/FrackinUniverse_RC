@@ -5,12 +5,12 @@
   "type" : "displacement",
   "xType" : "perlin",
   "xOctaves" : 2,
-  "xFreq" : 0.215,
-  "xAmp" : 15,
-  "xXInfluence" : 1.0,
+  "xFreq" : 0.015,
+  "xAmp" : 20,
+  "xXInfluence" : 0.41,
   "yType" : "perlin",
-  "yOctaves" : 2,
-  "yFreq" : 0.3,
+  "yOctaves" : 1,
+  "yFreq" : 0.12,
   "yAmp" : 0,
   "yYInfluence" : 0,
 
@@ -22,13 +22,13 @@
     "xFreq" : 0.05,
     "xAmp" : 0,
     "yType" : "perlin",
-    "yOctaves" : 2,
+    "yOctaves" : 4,
     "yFreq" : 0.0085,
     "yAmp" : 240,
     "yBias" : -40,
     "yClamp" : [-90, 20],
-    "yClampSmoothing" : 8,
-    "yYInfluence" : 0.5,
+    "yClampSmoothing" : 6,
+    "yYInfluence" : 0.24,
 
     "source" : {
       //base terrain height variation
@@ -46,7 +46,7 @@
       "source" : {
         "type" : "flatSurface",
 
-        "adjustment" : 40
+        "adjustment" : 60
       }
     }
   }

@@ -40,7 +40,7 @@
 
     "mainBlock" : "magmatile4",
     "subBlocks" : [ "magmatile3", "rock14", "magmatile1", "magmatile2" ],
-    "ores" : "ff_surfacevolcanicOres",
+    "ores" : "ff_deepsurfacevolcanicOres",
 
   "ambientNoises" : {
     "day" : {

@@ -15,7 +15,7 @@
 
   "mainBlock" : "ice",
   "subBlocks" : [ "iceblock1", "iceblock2" ],
-  "ores" : "depth2",
+  "ores" : "ff_deepicemoonOres",
 
   "parallax" : "/parallax/underground/icewasteunderground.parallax",
 

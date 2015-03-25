@@ -15,7 +15,7 @@
 
   "mainBlock" : "purplecrystal",
   "subBlocks" : [ "crystalblock", "obsidian" ],
-  "ores" : "ffcrystalOres",
+  "ores" : "ff_deepcrystalmoonOres",
 
   "hueShiftOptions" : [0],
   "parallax" : "/parallax/underground/crystalmoonunderground.parallax",

@@ -1,0 +1,9 @@
+{
+  "itemName" : "fuspeedboost",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/regeneration.png",
+  "description" : "Double tap 'up' to boost your speed for 60 seconds. Costs 200 energy.",
+  "shortdescription" : "Speed Boost",
+
+  "techModule" : "fuspeedboost"
+}

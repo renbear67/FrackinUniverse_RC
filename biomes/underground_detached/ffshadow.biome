@@ -15,7 +15,7 @@
 
   "mainBlock" : "obsidian",
   "subBlocks" : [ "tar", "direstone" ],
-  "ores" : "depth3",
+  "ores" : "ff_deepsurfaceshadowOres",
 
   "hueShiftOptions" : [0],
   "parallax" : "/parallax/underground/dirtunderground.parallax",

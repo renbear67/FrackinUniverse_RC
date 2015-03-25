@@ -1,0 +1,38 @@
+{
+  "name" : "fugradualslopes",
+
+  //surface roughness
+  "type" : "displacement",
+  "xType" : "perlin",
+  "xOctaves" : 3,
+  "xFreq" : 4,
+  "xAmp" : 224,
+  "xXInfluence" : 0,
+  "yType" : "perlin",
+  "yOctaves" : 3,
+  "yFreq" : 0.1,
+  "yAmp" : 0,
+  "yYInfluence" : 0,
+  "yBias" : 0.5,
+  "yClamp" : [0, 1],
+
+  "source" : {
+    //clueless variation
+    "type" : "displacement",
+    "xType" : "perlin",
+    "xOctaves" : 2,
+    "xFreq" : 0.24,
+    "xAmp" : 0,
+    "yType" : "perlin",
+    "yOctaves" : 2,
+    "yFreq" : 0.45,
+    "yAmp" : 30,
+    "yYInfluence" : 0,
+
+    "source" : {
+      "type" : "flatSurface",
+
+      "adjustment" : 0
+    }
+  }
+}

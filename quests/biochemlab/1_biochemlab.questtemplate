@@ -8,7 +8,9 @@
     { "kind" : "gather", "item" : [ "chemlab", 1], "consume" : false }
   ],
   "moneyRange" : [0,0],
-  "rewards" : [],
+  "rewards" : [ 
+     [ [ "helium3gasliquid", 60 ] ]
+  ],
   "planetMode" : "none",
   "questDungeons" : [ ],
   "requireTurnIn" : false,
