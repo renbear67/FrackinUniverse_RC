@@ -3,7 +3,7 @@
   "blockingStat" : "biooozeImmunity",
 
   "effectConfig" : {},
-  "defaultDuration" : 8,
+  "defaultDuration" : 4,
 
   "scripts" : [
     "biooozepoison.lua"

@@ -17,71 +17,43 @@
       "action" : "projectile",
       "type" : "molotovflame",
       "fuzzAngle" : 0,
-      "inheritDamageFactor" : 0.2,
+      "inheritDamageFactor" : 0.42,
       "angleAdjust" : 75
     },
     {
       "action" : "projectile",
       "type" : "molotovflame",
       "fuzzAngle" : 0,
-      "inheritDamageFactor" : 0.2,
+      "inheritDamageFactor" : 0.42,
       "angleAdjust" : -75
     },
     {
       "action" : "projectile",
       "type" : "molotovflame",
       "fuzzAngle" : 0,
-      "inheritDamageFactor" : 0.2,
+      "inheritDamageFactor" : 0.42,
       "angleAdjust" : -35
     },
     {
       "action" : "projectile",
       "type" : "molotovflame",
       "fuzzAngle" : 0,
-      "inheritDamageFactor" : 0.2,
+      "inheritDamageFactor" : 0.42,
       "angleAdjust" : 0
     },
     {
       "action" : "projectile",
       "type" : "molotovflame",
       "fuzzAngle" : 0,
-      "inheritDamageFactor" : 0.2,
+      "inheritDamageFactor" : 0.42,
       "angleAdjust" : 180
     },
     {
       "action" : "projectile",
       "type" : "molotovflame",
       "fuzzAngle" : 0,
-      "inheritDamageFactor" : 0.2,
+      "inheritDamageFactor" : 0.42,
       "angleAdjust" : 35
-    },
-    {
-      "action" : "projectile",
-      "type" : "molotovflame",
-      "fuzzAngle" : 0,
-      "inheritDamageFactor" : 0.2,
-      "angleAdjust" : -35
-    },
-    {
-      "action" : "projectile",
-      "type" : "molotovflame",
-      "fuzzAngle" : 0,
-      "inheritDamageFactor" : 0.2,
-      "angleAdjust" : -225
-    },
-    {
-      "action" : "projectile",
-      "type" : "molotovflame",
-      "fuzzAngle" : 0,
-      "inheritDamageFactor" : 0.2,
-      "angleAdjust" : 225
-    },
-    {
-      "action" : "projectile",
-      "type" : "molotovflame",
-      "fuzzAngle" : 0,
-      "inheritDamageFactor" : 0.2,
-      "angleAdjust" : 320
     }
   ],
   "power" : 12.0,

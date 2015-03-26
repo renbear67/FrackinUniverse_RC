@@ -2,7 +2,7 @@ function init()
   local bounds = mcontroller.boundBox()
   animator.setParticleEmitterOffsetRegion("bubbles", mcontroller.boundBox())
   animator.setParticleEmitterActive("bubbles", true)
-  status.addEphemeralEffect("liquidimmunity")
+  --status.addEphemeralEffect("liquidimmunity")
   self.mouthPosition = status.statusProperty("mouthPosition") or {0,0}
   self.mouthBounds = {self.mouthPosition[1], self.mouthPosition[2], self.mouthPosition[1], self.mouthPosition[2]}
   self.boostAmount = effect.configParameter("boostAmount", 0)
@@ -38,5 +38,5 @@ function update(dt)
 end
 
 function uninit()
-  status.removeEphemeralEffect("liquidimmunity")
+ -- status.removeEphemeralEffect("liquidimmunity")
 end

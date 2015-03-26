@@ -3,7 +3,7 @@
   "blockingStat" : "slimestickImmunity",
 
   "effectConfig" : {},
-  "defaultDuration" : 10,
+  "defaultDuration" : 3,
 
   "scripts" : [
     "slimestick.lua"

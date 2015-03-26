@@ -2,7 +2,7 @@
   "name" : "blacktarslow",
   "blockingStat" : "blacktarImmunity",
   "effectConfig" : {},
-  "defaultDuration" : 8,
+  "defaultDuration" : 5,
 
   "scripts" : [
     "blacktarslow.lua"

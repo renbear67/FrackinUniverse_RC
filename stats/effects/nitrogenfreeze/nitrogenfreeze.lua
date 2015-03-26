@@ -4,7 +4,7 @@ function init()
   
   script.setUpdateDelta(5)
 
-  self.tickDamagePercentage = 0.005
+  self.tickDamagePercentage = 0.015
   self.tickTime = 1.0
   self.tickTimer = self.tickTime
 end
@@ -17,7 +17,7 @@ function update(dt)
     })
 
   mcontroller.controlParameters({
-      normalGroundFriction = 0.7
+      normalGroundFriction = 0.62
     })
     
   self.tickTimer = self.tickTimer - dt

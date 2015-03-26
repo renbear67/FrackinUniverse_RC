@@ -201,7 +201,18 @@
     [0.005, "largemeteor"]]
 },  
   
-
+{
+"op" : "add",
+"path" : "/tidewater",
+"value" : [     
+    [0.4, "fog"],
+    [0.4, "drizzle"],
+    [0.3, "rain"],
+    [0.2, "storm"],
+	[0.2, "snow"],
+    [0.05, "snowstorm"]
+	]
+},
 
 {
 "op" : "add",

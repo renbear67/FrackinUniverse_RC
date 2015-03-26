@@ -3,7 +3,7 @@
   "blockingStat" : "sulphuricImmunity",
 
   "effectConfig" : {},
-  "defaultDuration" : 5,
+  "defaultDuration" : 3,
 
   "scripts" : [
     "sulphuricacideffect.lua"

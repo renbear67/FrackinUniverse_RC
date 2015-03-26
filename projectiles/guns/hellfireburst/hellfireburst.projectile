@@ -7,7 +7,6 @@
   "damageKindImage" : "icon.png",
   "frameNumber" : 9,
   "speed" : 0,
-  "power" : 7,
   "lightColor" : [255,141,40],
   "timeToLive" : 0.3,
   "piercing" : false,
@@ -20,73 +19,38 @@
     },
     {
       "action" : "projectile",
-      "type" : "hellfireprojectile2",
+      "type" : "hellfireprojectile",
       "fuzzAngle" : 0,
-      "inheritDamageFactor" : 0.2,
-      "angleAdjust" : 75
+      "inheritDamageFactor" : 0.52,
+      "angleAdjust" : 45
     },
     {
       "action" : "projectile",
-      "type" : "hellfireprojectile2",
+      "type" : "hellfireprojectile",
       "fuzzAngle" : 0,
-      "inheritDamageFactor" : 0.2,
-      "angleAdjust" : -75
+      "inheritDamageFactor" : 0.52,
+      "angleAdjust" : -45
     },
     {
       "action" : "projectile",
-      "type" : "hellfireprojectile2",
+      "type" : "hellfireprojectile",
       "fuzzAngle" : 0,
-      "inheritDamageFactor" : 0.2,
-      "angleAdjust" : -35
+      "inheritDamageFactor" : 0.52,
+      "angleAdjust" : 90
     },
     {
       "action" : "projectile",
-      "type" : "hellfireprojectile2",
+      "type" : "hellfireprojectile",
       "fuzzAngle" : 0,
-      "inheritDamageFactor" : 0.2,
+      "inheritDamageFactor" : 0.52,
+      "angleAdjust" : -90
+    },
+    {
+      "action" : "projectile",
+      "type" : "hellfireprojectile",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.52,
       "angleAdjust" : 0
-    },
-    {
-      "action" : "projectile",
-      "type" : "hellfireprojectile2",
-      "fuzzAngle" : 0,
-      "inheritDamageFactor" : 0.2,
-      "angleAdjust" : 180
-    },
-    {
-      "action" : "projectile",
-      "type" : "hellfireprojectile2",
-      "fuzzAngle" : 0,
-      "inheritDamageFactor" : 0.2,
-      "angleAdjust" : 35
-    },
-    {
-      "action" : "projectile",
-      "type" : "hellfireprojectile2",
-      "fuzzAngle" : 0,
-      "inheritDamageFactor" : 0.2,
-      "angleAdjust" : -35
-    },
-    {
-      "action" : "projectile",
-      "type" : "hellfireprojectile2",
-      "fuzzAngle" : 0,
-      "inheritDamageFactor" : 0.2,
-      "angleAdjust" : -225
-    },
-    {
-      "action" : "projectile",
-      "type" : "hellfireprojectile2",
-      "fuzzAngle" : 0,
-      "inheritDamageFactor" : 0.2,
-      "angleAdjust" : 225
-    },
-    {
-      "action" : "projectile",
-      "type" : "hellfireprojectile2",
-      "fuzzAngle" : 0,
-      "inheritDamageFactor" : 0.2,
-      "angleAdjust" : 320
     }
   ]
 }

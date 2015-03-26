@@ -22,7 +22,6 @@
       "angleAdjust" : 35
     }
   ],
-  //"power" : 1500.0,
   "damageKind" : "default",
   "emitters" : [ "javelinred" ]
 }

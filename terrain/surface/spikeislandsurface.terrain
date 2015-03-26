@@ -1,0 +1,32 @@
+{
+  "name" : "spikeIslandsSurface",
+
+  "type" : "islandSurface",
+
+  "islandElevation" : -10,
+
+  "islandDecision" : {
+    "type" : "perlin",
+    "octaves" : 2,
+    "frequency" : 0.01,
+    "amplitude" : 1.1,
+    "bias" : -0.05
+  },
+  "islandTaperPoint" : 0.1,
+
+  "islandHeight" : {
+    "type" : "perlin",
+    "octaves" : 2,
+    "frequency" : 0.16,
+    "amplitude" : 35,
+    "bias" : 15
+  },
+
+  "islandDepth" : {
+    "type" : "perlin",
+    "octaves" : 2,
+    "frequency" : 0.032,
+    "amplitude" : 16,
+    "bias" : 35
+  }
+}
