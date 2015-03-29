@@ -47,7 +47,7 @@
   ],
 
 
-  "parallax" : "/parallax/surface/oceanfloor.parallax",
+  "parallax" : "/parallax/surface/nitrogenseafloor.parallax",
 
   "hueShiftOptions" : [-180, -135, -90, -45, 0, 45, 90, 135, 180],
 

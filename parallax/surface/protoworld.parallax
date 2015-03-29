@@ -1,12 +1,11 @@
 {
 
-    "verticalOrigin" : -15,
-
+  "verticalOrigin" : -15,
 
   "layers" : [
     {
-      "kind" : "divider/dirt",
-      "offset" : [0, 200],
+      "kind" : "divider/rock",
+      "offset" : [0, 300],
       "nohueshift" : true,
       "lightMapped" : true,
       "parallax" : 1.199
@@ -21,51 +20,45 @@
     },
     {
       "kind" : "bioworldback",
-      "offset" : [0, 500],
-      "parallax" : 9,
+      "baseCount" : 4,
+      "offset" : [0, 424],
+      "parallax" : 12,
       "nightCorrelation" : 0,
       "minSpeed" : 0,
       "maxSpeed" : 0,
       "modifiers" : "?brightness=20?saturation=-10",
       "fadePercent" : 0.15
     },
-    {
-      "kind" : "bioworldfront",
-      "offset" : [0, 400],
-      "parallax" : 2,
-      "nightCorrelation" : 0,
-      "minSpeed" : 0,
-      "maxSpeed" : 0,
-      "modifiers" : ""
-    },
 
     {
       "kind" : "bioworldfront",
       "offset" : [0, 300],
-      "parallax" : 2.4,
+      "baseCount" : 2,
+      "parallax" : 7,
       "nightCorrelation" : 0,
       "minSpeed" : 0,
       "maxSpeed" : 0,
       "modifiers" : ""
     },
     {
-      "kind" : "foliage/treeback",
-      "offset" : [0, 275],
-      "parallax" : 5,
-      "nightCorrelation" : 0,
-      "minSpeed" : 0,
-      "maxSpeed" : 0,
-      "modifiers" : "?saturation=-15?brightness=-10",
-      "fadePercent" : 0.20
+      "kind" : "foliage/treefront",
+      "offset" : [0, 305],
+      "parallax" : 2.5,
+      "directives" : "?saturation=-5?brightness=10",
+      "fadePercent" : 0.03
     },
     {
       "kind" : "foliage/treefront",
-      "offset" : [0, 255],
-      "parallax" : 2.5,
-      "nightCorrelation" : 0,
-      "minSpeed" : 0,
-      "maxSpeed" : 0,
-      "modifiers" : "?saturation=-5?brightness=10",
+      "offset" : [0, 245],
+      "parallax" : 3,
+      "directives" : "?saturation=-10?brightness=5",
+      "fadePercent" : 0.03
+    },
+    {
+      "kind" : "foliage/treeback",
+      "offset" : [0, 315],
+      "parallax" : 3.5,
+      "directives" : "?saturation=-5?brightness=10",
       "fadePercent" : 0.03
     },
     {
@@ -499,3 +492,18 @@
 
   ]
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

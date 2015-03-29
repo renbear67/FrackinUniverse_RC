@@ -39,7 +39,7 @@
     },
     {
       "kind" : "penumbraback",
-      "offset" : [0, 300],
+      "offset" : [0, 400],
       "parallax" : 6.4,
       "nightCorrelation" : 0,
       "minSpeed" : 0,

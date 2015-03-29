@@ -20,7 +20,8 @@
     },  
     {
       "kind" : "jungleback",
-      "offset" : [0, 500],
+      "offset" : [0, 440],
+      "baseCount" : 2,
       "parallax" : 9,
       "nightCorrelation" : 0,
       "minSpeed" : 0,

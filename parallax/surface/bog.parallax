@@ -20,20 +20,22 @@
     },
     {
       "kind" : "bogback",
-      "offset" : [0, 250],
+      "offset" : [0, 300],
+      "baseCount" : 5,
       "parallax" : 9,
       "nightCorrelation" : 0,
       "minSpeed" : 0,
       "maxSpeed" : 0,
       "lightningFrequency" : 0.15,
-      "modifiers" : "?brightness=20?saturation=-10",
+      "modifiers" : "",
       "fadePercent" : 0.15
     },
 
     {
       "kind" : "bogfront",
-      "offset" : [0, 310],
-      "parallax" : 2.4,
+      "baseCount" : 2,
+      "offset" : [0, 330],
+      "parallax" : 6,
       "nightCorrelation" : 0,
       "minSpeed" : 0,
       "maxSpeed" : 0,
@@ -41,22 +43,32 @@
     },
     {
       "kind" : "foliage/treefront",
-      "offset" : [0, 290],
+      "offset" : [0, 325],
       "parallax" : 3,
       "nightCorrelation" : 0,
       "minSpeed" : 0,
       "maxSpeed" : 0,
-      "modifiers" : "?saturation=-10?brightness=5",
+      "modifiers" : "",
+      "fadePercent" : 0.03
+    },
+    {
+      "kind" : "foliage/treefront",
+      "offset" : [0, 355],
+      "parallax" : 2.5,
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "modifiers" : "",
       "fadePercent" : 0.03
     },
     {
       "kind" : "foliage/treeback",
-      "offset" : [0, 275],
+      "offset" : [0, 325],
       "parallax" : 3.5,
       "nightCorrelation" : 0,
       "minSpeed" : 0,
       "maxSpeed" : 0,
-      "modifiers" : "?saturation=-5?brightness=10",
+      "modifiers" : "",
       "fadePercent" : 0.03
     },
 

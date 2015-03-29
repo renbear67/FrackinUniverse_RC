@@ -4,7 +4,7 @@
   "layers" : [
     {
       "kind" : "divider/alienrock",
-      "offset" : [0, 200],
+      "offset" : [0, 180],
       "nohueshift" : true,
       "lightMapped" : true,
       "parallax" : 1.199
@@ -20,35 +20,37 @@
 
     {
       "kind" : "irradiatedback",
-      "offset" : [0, 400],
+      "baseCount" : 5,
+      "offset" : [0, 330],
       "parallax" : 12,
       "directives" : "?brightness=20?saturation=-10",
       "fadePercent" : 0.15
     },
     {
       "kind" : "bioworldfront",
-      "offset" : [0, 350],
-      "parallax" : 12,
+      "baseCount" : 2,
+      "offset" : [0, 320],
+      "parallax" : 9,
       "directives" : "?brightness=20?saturation=-10",
       "fadePercent" : 0.15
     },
     {
       "kind" : "foliage/treefront",
-      "offset" : [0, 300],
-      "parallax" : 2.5,
+      "offset" : [0, 235],
+      "parallax" : 3,
       "directives" : "?saturation=-5?brightness=10",
       "fadePercent" : 0.03
     },
     {
       "kind" : "foliage/treefront",
-      "offset" : [0, 275],
-      "parallax" : 3,
+      "offset" : [0, 205],
+      "parallax" : 2.5,
       "directives" : "?saturation=-10?brightness=5",
       "fadePercent" : 0.03
     },
     {
       "kind" : "foliage/treeback",
-      "offset" : [0, 255],
+      "offset" : [0, 225],
       "parallax" : 3.5,
       "directives" : "?saturation=-5?brightness=10",
       "fadePercent" : 0.03

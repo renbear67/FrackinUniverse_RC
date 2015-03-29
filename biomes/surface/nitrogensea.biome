@@ -142,7 +142,7 @@
   "subBlocks" : [ "frozenwater", "iceblock2" ],
   "ores" : "surfaceOres",
 
-  "parallax" : "/parallax/surface/icewaste.parallax",
+  "parallax" : "/parallax/surface/arctic.parallax",
 
   "ambientNoises" : {
     "day" : {

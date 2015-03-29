@@ -5,6 +5,7 @@
   "layers" : [
     {
       "kind" : "irradiatedback",
+      "baseCount" : 5,
       "offset" : [0, 400],
       "parallax" : 12,
       "directives" : "?brightness=20?saturation=-10",
@@ -21,7 +22,8 @@
     },
     {
       "kind" : "bioworldfront",
-      "offset" : [0, 350],
+      "baseCount" : 2,
+      "offset" : [0, 360],
       "parallax" : 12,
       "directives" : "?brightness=20?saturation=-10",
       "fadePercent" : 0.15

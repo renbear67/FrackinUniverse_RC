@@ -19,19 +19,10 @@
     },
 
     {
-      "kind" : "crystalfront",
-      "offset" : [0, 500],
-      "parallax" : 2,
-      "nightCorrelation" : 0,
-      "minSpeed" : 0,
-      "maxSpeed" : 0,
-      "modifiers" : ""
-    },
-
-    {
-      "kind" : "crystalfront",
-      "offset" : [0, 400],
-      "parallax" : 2,
+      "kind" : "crystalback",
+      "baseCount" : 2,
+      "offset" : [0, 415],
+      "parallax" : 9,
       "nightCorrelation" : 0,
       "minSpeed" : 0,
       "maxSpeed" : 0,
@@ -39,8 +30,9 @@
     },
     {
       "kind" : "crystalfoliage",
-      "offset" : [0, 275],
-      "parallax" : 2.3,
+      "offset" : [0, 345],
+      "baseCount" : 3,
+      "parallax" :5,
       "nightCorrelation" : 0,
       "minSpeed" : 0,
       "maxSpeed" : 0,
@@ -48,8 +40,18 @@
       "fadePercent" : 0.1
     },
     {
+      "kind" : "crystalfront",
+      "offset" : [0, 325],
+      "baseCount" : 4,
+      "parallax" : 2,
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "modifiers" : ""
+    },
+    {
       "kind" : "foliage/treefront",
-      "offset" : [0, 160],
+      "offset" : [0, 240],
       "parallax" : 3,
       "nightCorrelation" : 0,
       "minSpeed" : 0,

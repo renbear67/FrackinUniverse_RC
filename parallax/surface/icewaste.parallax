@@ -33,14 +33,6 @@
       "parallax" : [3, 3.001],
       "nohueshift" : true
     },
-    // {
-    //   "kind" : "volcanic1unlit",
-    //   "offset" : [100, 400],
-    //   "noRandomOffset" : true,
-    //   "parallax" : [3, 3.502],
-    //   "nohueshift" : true,
-    //   "unlit" : true
-    // },
     {
       "kind" : "icewaste1",
       "offset" : [100, 400],

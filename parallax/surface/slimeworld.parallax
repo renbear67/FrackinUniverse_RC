@@ -22,20 +22,11 @@
       "maxSpeed" : 0,
       "modifiers" : ""
     },
-    {
-      "kind" : "foliage/treeback",
-      "offset" : [0, 200],
-      "parallax" : 5,
-      "nightCorrelation" : 0,
-      "minSpeed" : 0,
-      "maxSpeed" : 0,
-      "modifiers" : "?saturation=-15?brightness=-10",
-      "fadePercent" : 0.20
-    },
+
     {
       "kind" : "foliage/treefront",
-      "offset" : [0, 240],
-      "parallax" : 2.5,
+      "offset" : [0, 220],
+      "parallax" : 3,
       "nightCorrelation" : 0,
       "minSpeed" : 0,
       "maxSpeed" : 0,
@@ -44,13 +35,23 @@
     },
     {
       "kind" : "foliage/treefront",
-      "offset" : [0, 220],
-      "parallax" : 3,
+      "offset" : [0, 210],
+      "parallax" : 2,
       "nightCorrelation" : 0,
       "minSpeed" : 0,
       "maxSpeed" : 0,
       "modifiers" : "?saturation=-15?brightness=-20",
       "fadePercent" : 0.10
+    },
+    {
+      "kind" : "foliage/treeback",
+      "offset" : [0, 260],
+      "parallax" : 5,
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "modifiers" : "?saturation=-15?brightness=-10",
+      "fadePercent" : 0.20
     },
     {
       "kind" : "clouds3",

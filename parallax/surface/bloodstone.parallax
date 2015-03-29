@@ -5,8 +5,24 @@
 
   "layers" : [
     {
+      "kind" : "divider/dirt",
+      "offset" : [0, 200],
+      "nohueshift" : true,
+      "lightMapped" : true,
+      "parallax" : 1.199
+    },
+    {
+      "kind" : "tile/dirt",
+      "nohueshift" : true,
+      "lightMapped" : true,
+      "repeatY" : true,
+      "tileLimitTop" : 125,
+      "parallax" : 1.2
+    },
+    {
       "kind" : "bioworldback",
-      "offset" : [0, 600],
+      "baseCount" : 4,
+      "offset" : [0, 340],
       "parallax" : 9,
       "nightCorrelation" : 0,
       "minSpeed" : 0,
@@ -16,24 +32,35 @@
     },
     {
       "kind" : "bioworldfront",
-      "offset" : [0, 500],
-      "parallax" : 2,
+      "baseCount" : 2,
+      "offset" : [0, 360],
+      "parallax" : 5,
       "nightCorrelation" : 0,
       "minSpeed" : 0,
       "maxSpeed" : 0,
       "modifiers" : ""
     },
-
     {
-      "kind" : "bioworldfront",
-      "offset" : [0, 405],
-      "parallax" : 2.4,
-      "nightCorrelation" : 0,
-      "minSpeed" : 0,
-      "maxSpeed" : 0,
-      "modifiers" : ""
+      "kind" : "foliage/treefront",
+      "offset" : [0, 245],
+      "parallax" : 2.5,
+      "directives" : "?saturation=-5?brightness=10",
+      "fadePercent" : 0.03
     },
-
+    {
+      "kind" : "foliage/treefront",
+      "offset" : [0, 225],
+      "parallax" : 3,
+      "directives" : "?saturation=-10?brightness=5",
+      "fadePercent" : 0.03
+    },
+    {
+      "kind" : "foliage/treeback",
+      "offset" : [0, 255],
+      "parallax" : 3.5,
+      "directives" : "?saturation=-5?brightness=10",
+      "fadePercent" : 0.03
+    },
     {
       "kind" : "clouds3",
       "offset" : [0, 120],

@@ -348,8 +348,32 @@
           ]
         },
         {
-          "mode" : "ceiling",
+          "mode" : "floor",
           "priority" : 2.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:denseLarge",
+
+          "type" : "tree",
+          "treeFoliageHueShiftMax" : 220,
+          "treeStemHueShiftMax" : 180,
+          "treeStemList" : [ "prototree" ],
+          "treeFoliageList" : [ "protoleaves" ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:scatteredLarge",
+
+          "type" : "tree",
+          "treeFoliageHueShiftMax" : 220,
+          "treeStemHueShiftMax" : 15,
+          "treeStemList" : [ "twisty", "woody", "oldwood", "crackly", "palmlike" ],
+          "treeFoliageList" : [ "lushy", "junglepalm", "jungly", "jungleleaf" ]
+        },
+        {
+          "mode" : "ceiling",
+          "priority" : 1.0,
           "variants" : 1,
           "distribution" : "/biomes/distributions.config:denseMedium",
 
@@ -403,30 +427,6 @@
 
           "type" : "microdungeon",
           "microdungeons" : [ "greenplatforming" ]
-        },
-        {
-          "mode" : "floor",
-          "priority" : 1.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:denseLarge",
-
-          "type" : "tree",
-          "treeFoliageHueShiftMax" : 300,
-          "treeStemHueShiftMax" : 180,
-          "treeStemList" : [ "prototree" ],
-          "treeFoliageList" : [ "protoleaves" ]
-        },
-        {
-          "mode" : "floor",
-          "priority" : 1.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:scatteredLarge",
-
-          "type" : "tree",
-          "treeFoliageHueShiftMax" : 300,
-          "treeStemHueShiftMax" : 15,
-          "treeStemList" : [ "prototree", "twisty", "woody", "oldwood", "crackly", "palmlike" ],
-          "treeFoliageList" : [ "protoleaves", "lushy", "junglepalm", "jungly", "jungleleaf" ]
         }
       ]
     },

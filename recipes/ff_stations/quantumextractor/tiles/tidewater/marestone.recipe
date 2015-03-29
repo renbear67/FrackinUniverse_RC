@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "marestonematerial", "count" : 50 }
+  ],
+  "output" : {
+    "item" : "ff_silicon",
+    "count" : 4
+  },
+  "groups" : [ "quantumextractor", "all" ]
+}

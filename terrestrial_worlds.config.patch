@@ -1087,8 +1087,8 @@
   "path" : "/regionTypes/arboreal",
   "value" : 
   {
-      "caveLiquid" : [  "water", "blacktar", "swampwater" ],
-      "blockSelector" : [ "lowHillsSurface", "medHillsSurface", "flatsSurface", "mixedSurface", "fugradualslopes", "megaMountainsSurface" ],
+      "caveLiquid" : [  "water", "blacktar", "swampwater", "healingliquid" ],
+      "blockSelector" : [ "lowHillsSurface", "medHillsSurface", "flatsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves", "fusurfacecaves" ],
       "biome" : [
         [0, [ "arboreal" ]]
@@ -1113,7 +1113,7 @@
   "path" : "/regionTypes/bloodstone",
   "value" : 
   {
-      "caveLiquid" : [ "bloodliquid" ],
+      "caveLiquid" : [ "bloodliquid", "alienjuice" ],
       "blockSelector" : [ "flatsSurface", "lowHillsSurface", "ledgesSurface" ],
       "fgCaveSelector" : [ "surfaceCaves", "denseCaves" ],
       "biome" : [
@@ -1155,7 +1155,7 @@
   "path" : "/regionTypes/bog",
   "value" : 
   {
-      "caveLiquid" : [ "swampwater", "poison" ],
+      "caveLiquid" : [ "swampwater", "poison", "healingliquid" ],
       "blockSelector" : [ "mixedSurface", "flatsSurface", "lowHillsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves", "fusurfacecaves" ],
       "caveLiquidChanceRange" : [100, 100],
@@ -1197,7 +1197,7 @@
   "path" : "/regionTypes/crystalmoon",
   "value" : 
   {
-      "caveLiquid" : [ "organicsoup", "alienjuice" ],
+      "caveLiquid" : [ "organicsoup", "alienjuice", "healingliquid" ],
       "blockSelector" : [ "lowHillsSurface", "medHillsSurface", "ledgesSurface" ],
       "fgCaveSelector" : [ "surfaceCaves", "denseCaves"  ],
       "biome" : [
@@ -1453,7 +1453,7 @@
   "path" : "/regionTypes/slimeworld",
   "value" : 
   {
-      "caveLiquid" : [ "water", "swampwater" ],
+      "caveLiquid" : [ "water", "swampwater", "healingliquid" ],
       "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [ "ledgesSurface", "giantLedgesSurface", "canyonsSurface" ],
       "fgCaveSelector" : [ "normalCaves" ],
@@ -1481,7 +1481,7 @@
   "path" : "/regionTypes/thickjungle",
   "value" : 
   {
-      "caveLiquid" : [ "water", "tarliquid" ],
+      "caveLiquid" : [ "water", "tarliquid", "healingliquid" ],
       "caveLiquidChanceRange" : [25, 100],      
       "blockSelector" : [ "lowHillsSurface", "flatsSurface", "medHillsSurface", "mountainsSurface", "fugradualslopes" ],
       "fgCaveSelector" : [ "normalCaves" ],
@@ -1553,7 +1553,7 @@
   "path" : "/regionTypes/blisterbushfield",
   "value" : 
   {
-      "caveLiquid" : [ "alienjuice" ],
+      "caveLiquid" : [ "alienjuice", "healingliquid" ],
       "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [ "flatsSurface", "lowHillsSurface", "fugradualslopes" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
@@ -1593,7 +1593,7 @@
   "path" : "/regionTypes/coralcavern",
   "value" : 
   {
-      "caveLiquid" : [ "water" ],
+      "caveLiquid" : [ "water", "healingliquid" ],
       "caveLiquidChanceRange" : [99, 100],
       "blockSelector" : [ "spikesSurface", "ledgesSurface" ],
       "fgCaveSelector" : [ "denseCaves", "moonSurfaceCaves", "coreCaves", "normalmegacave" ],
@@ -1621,7 +1621,7 @@
   "path" : "/regionTypes/crystalplain",
   "value" : 
   {
-      "caveLiquid" : [ "organicsoup", "alienjuice" ],
+      "caveLiquid" : [ "organicsoup", "alienjuice", "healingliquid" ],
       "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [ "lowHillsSurface", "mixedSurface", "mountainsSurface", "canyonsSurface", "spikesSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
@@ -1649,7 +1649,7 @@
   "path" : "/regionTypes/desertoasis",
   "value" : 
   {
-      "caveLiquid" : [ "water" ],
+      "caveLiquid" : [ "water", "healingliquid" ],
       "blockSelector" : [ "flatsSurface", "lowHillsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
@@ -1689,7 +1689,7 @@
   "path" : "/regionTypes/fieldofbamboo",
   "value" : 
   {
-      "caveLiquid" : [ "water" ],
+      "caveLiquid" : [ "water", "healingliquid" ],
       "blockSelector" : [ "flatsSurface", "lowHillsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
@@ -1703,7 +1703,7 @@
   "path" : "/regionTypes/fieldofbanana",
   "value" : 
   {
-      "caveLiquid" : [ "water" ],
+      "caveLiquid" : [ "water", "healingliquid" ],
       "blockSelector" : [ "flatsSurface", "lowHillsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
@@ -1715,7 +1715,7 @@
   "path" : "/regionTypes/fieldofcarrots",
   "value" : 
   {
-      "caveLiquid" : [ "water" ],
+      "caveLiquid" : [ "water", "healingliquid" ],
       "blockSelector" : [ "flatsSurface", "lowHillsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
@@ -1728,7 +1728,7 @@
   "path" : "/regionTypes/fieldofcorn",
   "value" : 
   {
-      "caveLiquid" : [ "water" ],
+      "caveLiquid" : [ "water", "healingliquid" ],
       "blockSelector" : [ "flatsSurface", "lowHillsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
@@ -1743,7 +1743,7 @@
   "path" : "/regionTypes/fieldofgrape",
   "value" : 
   {
-      "caveLiquid" : [ "water" ],
+      "caveLiquid" : [ "water", "healingliquid" ],
       "blockSelector" : [ "flatsSurface", "lowHillsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
@@ -1758,7 +1758,7 @@
   "path" : "/regionTypes/fieldofpotato",
   "value" : 
   {
-      "caveLiquid" : [ "water" ],
+      "caveLiquid" : [ "water", "healingliquid" ],
       "blockSelector" : [ "flatsSurface", "lowHillsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
@@ -1773,7 +1773,7 @@
   "path" : "/regionTypes/fieldofsugar",
   "value" : 
   {
-      "caveLiquid" : [ "water" ],
+      "caveLiquid" : [ "water", "healingliquid" ],
       "blockSelector" : [ "flatsSurface", "lowHillsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
@@ -1789,7 +1789,7 @@
   "path" : "/regionTypes/fieldoftomato",
   "value" : 
   {
-      "caveLiquid" : [ "water" ],
+      "caveLiquid" : [ "water", "healingliquid" ],
       "blockSelector" : [ "flatsSurface", "lowHillsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
@@ -1802,7 +1802,7 @@
   "path" : "/regionTypes/fieldofwheat",
   "value" : 
   {
-      "caveLiquid" : [ "water" ],
+      "caveLiquid" : [ "water", "healingliquid" ],
       "blockSelector" : [ "flatsSurface", "lowHillsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
@@ -1816,7 +1816,7 @@
   "path" : "/regionTypes/flowerforest",
   "value" : 
   {
-      "caveLiquid" : [ "water", "poison", "tarliquid" ],
+      "caveLiquid" : [ "water", "poison", "tarliquid", "healingliquid" ],
       "blockSelector" : [ "lowHillsSurface", "flatsSurface", "mixedSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
@@ -1843,7 +1843,7 @@
   "path" : "/regionTypes/hellhive",
   "value" : 
   {
-      "caveLiquid" : [ "lava" ],
+      "caveLiquid" : [ "lava", "alienjuice", "bio_ooze" ],
       "blockSelector" : [ "spikesSurface", "mountainsSurface", "mesasSurface", "giantLedgesSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
@@ -1886,7 +1886,7 @@
   "path" : "/regionTypes/meadow",
   "value" : 
   {
-      "caveLiquid" : [ "water" ],
+      "caveLiquid" : [ "water", "healingliquid" ],
       "blockSelector" : [ "flatsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
@@ -1899,7 +1899,7 @@
   "path" : "/regionTypes/orchardapple",
   "value" : 
   {
-      "caveLiquid" : [ "water", "swampwater" ],
+      "caveLiquid" : [ "water", "swampwater", "healingliquid" ],
       "blockSelector" : [ "lowHillsSurface", "flatsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
@@ -1912,7 +1912,7 @@
   "path" : "/regionTypes/orchardpeach",
   "value" : 
   {
-      "caveLiquid" : [ "water", "swampwater" ],
+      "caveLiquid" : [ "water", "swampwater", "healingliquid" ],
       "blockSelector" : [ "lowHillsSurface", "flatsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
@@ -1925,7 +1925,7 @@
   "path" : "/regionTypes/orchardpear",
   "value" : 
   {
-      "caveLiquid" : [ "water", "swampwater" ],
+      "caveLiquid" : [ "water", "swampwater", "healingliquid" ],
       "blockSelector" : [ "lowHillsSurface", "flatsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
@@ -1966,7 +1966,7 @@
   "path" : "/regionTypes/primevalforest",
   "value" : 
   {
-      "caveLiquid" : [ "water", "blacktar", "swampwater" ],
+      "caveLiquid" : [ "water", "blacktar", "swampwater", "healingliquid" ],
       "blockSelector" : [ "lowHillsSurface", "medHillsSurface", "flatsSurface", "mixedSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
@@ -2021,7 +2021,7 @@
   "path" : "/regionTypes/energyorbforest",
   "value" : 
   {
-      "caveLiquid" : [ "bio_ooze", "alienjuice", "organicsoup", "blacktar" ],
+      "caveLiquid" : [ "bio_ooze", "alienjuice", "organicsoup", "blacktar", "healingliquid" ],
       "blockSelector" : [ "lowHillsSurface", "medHillsSurface", "flatsSurface", "mixedSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
@@ -2253,7 +2253,7 @@
   "path" : "/regionTypes/fungusunderground",
   "value" : 
   {
-      "caveLiquid" : [ "poison", "blacktar", "tarliquid", "swampwater" ],
+      "caveLiquid" : [ "poison", "blacktar", "tarliquid", "swampwater", "healingliquid" ],
       "caveLiquidChanceRange" : [35, 55],
       "biome" : [
         [0, [ "fungusunderground"]]
@@ -2265,7 +2265,7 @@
   "path" : "/regionTypes/shroomcaveunderground",
   "value" : 
   {
-      "caveLiquid" : [ "water", "poison", "alienjuice" ],
+      "caveLiquid" : [ "water", "poison", "alienjuice", "healingliquid" ],
       "caveLiquidChanceRange" : [65, 95],
       "biome" : [
         [0, [ "shroomcave"]]
@@ -2277,7 +2277,7 @@
   "path" : "/regionTypes/crystalmoonunderground",
   "value" : 
   {
-      "caveLiquid" : [ "organicsoup", "poison", "alienjuice" ],
+      "caveLiquid" : [ "organicsoup", "poison", "alienjuice", "healingliquid" ],
       "caveLiquidChanceRange" : [5, 15],
       "biome" : [
         [0, [ "crystalmoonunderground"]]
@@ -2367,7 +2367,7 @@
   "path" : "/regionTypes/slimeworldunderground",
   "value" : 
   {
-      "caveLiquid" : [ "water", "tarliquid", "poison" ],
+      "caveLiquid" : [ "water", "tarliquid", "poison", "healingliquid" ],
       "caveLiquidChanceRange" : [5, 15],
       "biome" : [
         [0, [ "slimeworldunderground"]]
@@ -2412,7 +2412,7 @@
   "path" : "/regionTypes/ffcellcaves",
   "value" : 
   {
-      "caveLiquid" : [ "bloodliquid", "alienjuice" ],
+      "caveLiquid" : [ "bloodliquid", "alienjuice", "healingliquid" ],
       "caveLiquidChanceRange" : [5, 75],
       "biome" : [
         [0, [ "ffcellcaves"]]

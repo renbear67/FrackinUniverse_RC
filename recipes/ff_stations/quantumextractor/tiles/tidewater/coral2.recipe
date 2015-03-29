@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "coral2material", "count" : 50 }
+  ],
+  "output" : {
+    "item" : "rawminerals",
+    "count" : 4
+  },
+  "groups" : [ "quantumextractor", "all" ]
+}

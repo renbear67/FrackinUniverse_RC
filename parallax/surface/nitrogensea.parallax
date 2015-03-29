@@ -5,13 +5,13 @@
     {
       "kind" : "tile/ocean",
       "repeatY" : true,
-      "tileLimitTop" : 610,
+      "tileLimitTop" : 310,
       "parallax" : 1.0,
       "nohueshift" : true
     },
     {
       "kind" : "oceanbelow",
-      "offset" : [0, 610],
+      "offset" : [0, 225],
       "parallax" : 1.0,
       "nohueshift" : true
     },

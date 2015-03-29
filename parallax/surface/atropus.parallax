@@ -3,8 +3,24 @@
 
   "layers" : [
     {
+      "kind" : "divider/alienrock",
+      "offset" : [0, 200],
+      "nohueshift" : true,
+      "lightMapped" : true,
+      "parallax" : 1.199
+    },
+    {
+      "kind" : "tile/dirt",
+      "nohueshift" : true,
+      "lightMapped" : true,
+      "repeatY" : true,
+      "tileLimitTop" : 125,
+      "parallax" : 1.2
+    },
+    {
       "kind" : "atropusback",
-      "offset" : [0, 500],
+      "baseCount" : 2,
+      "offset" : [0, 150],
       "parallax" : 12,
       "nightCorrelation" : 0,
       "minSpeed" : 0,
@@ -13,16 +29,16 @@
       "fadePercent" : 0.3
     },
     {
-      "kind" : "tentacletakeover",
-      "offset" : [0, 400],
-      "parallax" : 5.0,
+      "kind" : "atropusfront",
+      "baseCount" : 2,
+      "offset" : [0, 270],
+      "parallax" : 8,
       "nightCorrelation" : 0,
       "minSpeed" : 0,
       "maxSpeed" : 0,
-      "modifiers" : "?brightness=5?saturation=-4",
-      "fadePercent" : 0.1
+      "modifiers" : "",
+      "fadePercent" : 0.3
     },
-
     {
       "kind" : "clouds3",
       "offset" : [0, 120],

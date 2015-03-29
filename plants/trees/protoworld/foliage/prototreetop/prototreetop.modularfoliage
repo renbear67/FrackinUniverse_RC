@@ -21,15 +21,15 @@
         "density" : 3,
         "options" : [
           {
-            "color" : [26, 55, 24],
+            "color" : [26, 55, 75],
             "timeToLive" : 10
           },
           {
-            "color" : [51, 82, 39],
+            "color" : [51, 82, 75],
             "timeToLive" : 10
           },
           {
-            "color" : [64, 109, 63],
+            "color" : [64, 109, 75],
             "timeToLive" : 10
           }
         ]
@@ -38,17 +38,17 @@
         "density" : 3,
         "options" : [
           {
-            "color" : [26, 55, 24],
+            "color" : [26, 55, 75],
             "timeToLive" : 10,
             "initial" : "upwards"
           },
           {
-            "color" : [51, 82, 39],
+            "color" : [51, 82, 75],
             "timeToLive" : 10,
             "initial" : "upwards"
           },
           {
-            "color" : [64, 109, 63],
+            "color" : [64, 109, 75],
             "timeToLive" : 10,
             "initial" : "upwards"
           }
@@ -57,16 +57,8 @@
     }
   },
 
-  "parallax" : {
-    "definitions" : {
-      "treeback" : {
-        "baseCount" : 1
-      },
-      "treefront" : {
-        "baseCount" : 1
-      }
-    }
-  },
+  "parallaxFoliage" : true,
+  
   "crownLeaves" : {
     "crown1" : {
       "image" : "crown1.png",

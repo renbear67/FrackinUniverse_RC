@@ -58,16 +58,8 @@
   },
 
 
-  "parallax" : {
-    "definitions" : {
-      "treeback" : {
-        "baseCount" : 1
-      },
-      "treefront" : {
-        "baseCount" : 1
-      }
-    }
-  },
+  "parallaxFoliage" : true,
+  
   "crownLeaves" : {
     "crown1" : {
       "image" : "crown1.png",
