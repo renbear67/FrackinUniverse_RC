@@ -10,14 +10,12 @@
   "femaleFrames" : "back.png",
 
   "statusEffects" : [
-    {
-      "stat" : "energyregen",
-      "amount" : 6.5
-    },
+    "energyregenfu_proto",
     {
       "stat" : "maxEnergy",
       "amount" : 100
-    }
+    },
+    "glowyellow2"
   ]
   
   

@@ -5,7 +5,7 @@
   "spawnProfiles" : [
     {
       "groups" : [ "oceanfloor" ],
-      "extraSpawns" : [ ]
+      "extraSpawns" : [ "smallFishOcean1", "smallFishOcean2", "aggroLargeFish", "passiveLargeFish" ]
     }
   ],
 

@@ -20,7 +20,8 @@
     {
       "stat" : "maxEnergy",
       "amount" : 80
-    }
+    },
+      "energyregenfu_armor50"
   ],
 
   "colorOptions" : [

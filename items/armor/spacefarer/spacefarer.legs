@@ -19,12 +19,12 @@
 
     {
       "stat" : "maxEnergy",
-      "amount" : 65
+      "amount" : 75
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 45
+      "amount" : 65
     },
     "glowgreen"
   ]

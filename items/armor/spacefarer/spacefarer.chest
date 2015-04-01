@@ -28,12 +28,12 @@
 
     {
       "stat" : "maxEnergy",
-      "amount" : 60
+      "amount" : 70
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 60
+      "amount" : 70
     },
     "glowgreen"
   ]

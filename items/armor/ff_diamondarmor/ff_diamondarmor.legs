@@ -14,16 +14,13 @@
 
     {
       "stat" : "protection",
-      "amount" : 60
+      "amount" : 92
     },
     {
       "stat" : "maxHealth",
-      "amount" : 50
+      "amount" : 110
     },
-    {
-      "stat" : "energyRegen",
-      "amount" : 0.60
-    }
+      "energyregenfu_armor40"
   ],
 
   "colorOptions" : [

@@ -1,0 +1,16 @@
+{
+  "input" : [
+    { "item" : "nuclearcore", "count" : 1 },
+    { "item" : "focusingarray", "count" : 2 },
+    { "item" : "helium3cannister", "count" : 6 },
+    { "item" : "corefragmentore", "count" : 20 },
+    { "item" : "densealloy", "count" : 4 },
+    { "item" : "cpu", "count" : 2 },
+    { "item" : "advcircuit", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "batterypack_quantum",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "armors", "all" ]
+}

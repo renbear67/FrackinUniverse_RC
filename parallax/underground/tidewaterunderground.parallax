@@ -1,7 +1,7 @@
 {
   "layers" : [
     {
-      "kind" : "tile/tidewaterunderground",
+      "kind" : "tile/underground3a",
       "nohueshift" : true,
       "lightMapped" : true,
       "parallax" : 1.2,

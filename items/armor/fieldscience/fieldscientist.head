@@ -15,15 +15,13 @@
   "statusEffects" : [
       {
         "stat" : "protection",
-        "amount" : 12
+        "amount" : 22
       },
       {
         "stat" : "maxEnergy",
-        "amount" : 70
+        "amount" : 110
       },
-
       "headlamp"
-    
   ],
 
   "colorOptions" : [

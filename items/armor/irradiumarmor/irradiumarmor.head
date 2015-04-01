@@ -15,7 +15,7 @@
   "statusEffects" : [
     {
       "stat" : "protection",
-      "amount" : 70
+      "amount" : 90
     },
 
     {

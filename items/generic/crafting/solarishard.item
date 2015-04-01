@@ -4,5 +4,5 @@
   "inventoryIcon" : "solarishard.png",
   "description" : "A unique crystalline material.",
   "shortdescription" : "Lunari Shard",
-  "learnBlueprintsOnPickup" : [ "solaricrystal", "solarisword", "solarihammer", "solariblade", "solarispear" ]
+  "learnBlueprintsOnPickup" : [ "icecrystal", "solaricrystal", "solarisword", "solarihammer", "solariblade", "solarispear" ]
 }

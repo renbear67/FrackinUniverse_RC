@@ -2,7 +2,7 @@
   "id" : "fissionfurnace5.gearup",
   "title" : "^#1693d5;Irradium",
   "text" : "You should seek out an ^orange;Irradiated^white; world now, and while you're there dig deep and find some ^orange;irradium ore^white;. Then, smelt some in your ^orange;fission furnace^white;.",
-  "completionText" : "Great! Now go out and find other prime materials. ^orange;Penumbrite^white; is a logical next step, or ^orange;irradium^white; if you're brave.",
+  "completionText" : "Great! ^orange;Densinium^white; is a logical next step, but it won't be easy to find. It's among the strongest...and rarest...of all known metals.",
   "conditions" : [ 
     { "kind" : "gather", "item" : [ "irradiumbar", 1], "consume" : false }
   ],

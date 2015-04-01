@@ -8,7 +8,7 @@
   "glitchDescription" : "Admiration. A beautiful purple crystal.",
   "floranDescription" : "Pretty cryssstal.",
   "footstepSound" : "/sfx/blocks/footstep_crystal.wav",
-  "health" : 24,
+  "health" : 12,
   "category": "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",

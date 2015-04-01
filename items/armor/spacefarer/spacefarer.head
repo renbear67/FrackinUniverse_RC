@@ -20,12 +20,12 @@
 
     {
       "stat" : "maxEnergy",
-      "amount" : 65
+      "amount" : 75
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 40
+      "amount" : 60
     },
     "glowgreen",
     "headlamp"

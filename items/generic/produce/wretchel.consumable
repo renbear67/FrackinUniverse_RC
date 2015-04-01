@@ -4,6 +4,8 @@
   "inventoryIcon" : "wretchel.png",
   "description" : "Edible. Better for crafting.",
   "shortdescription" : "Wretchel Chunk",
+  "learnBlueprintsOnPickup" : [ "batterypack_eridian" ],
+
   "effects" : [ [
       "wellfed"
     ] ]

@@ -17,7 +17,7 @@ function update(dt)
     })
 
   mcontroller.controlParameters({
-      normalGroundFriction = 0.62
+      normalGroundFriction = 0.675
     })
     
   self.tickTimer = self.tickTimer - dt

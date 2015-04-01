@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Rare",
-  "description" : "Awesome. It feels like soggy underwear. Immune to Bio-ooze.",
+  "description" : "Awesome. It feels like soggy underwear. Immunity to sticky slime. Grants energy regen.",
   "shortdescription" : "Gelatinous Greaves",
   "tooltipKind" : "armor",
 
@@ -21,11 +21,7 @@
       "stat" : "maxEnergy",
       "amount" : 15
     },
-
-    {
-      "stat" : "energyRegen",
-      "amount" : 1.02
-    },
+    "energyregenfu_armor20",
     "slimestickimmunity"
   ],
   

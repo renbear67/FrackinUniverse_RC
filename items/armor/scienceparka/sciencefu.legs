@@ -14,12 +14,16 @@
   "statusEffects" : [
         {
           "stat" : "maxHealth",
-          "amount" : 80
+          "amount" : 130
         },
         {
           "stat" : "protection",
           "amount" : 120
         },
+      {
+        "stat" : "maxEnergy",
+        "amount" : 70
+      },
       "ffextremecoldimmunityicon",
       {
         "stat" : "ffextremecoldImmunity",

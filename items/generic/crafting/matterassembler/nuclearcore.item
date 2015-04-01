@@ -3,5 +3,6 @@
   "rarity" : "Common",
   "inventoryIcon" : "nuclearcore.png",
   "description" : "Great and terrible nuclear power.",
-  "shortdescription" : "Nuclear Core"
+  "shortdescription" : "Nuclear Core",
+  "learnBlueprintsOnPickup" : [ "batterypack_quantum" ]
 }

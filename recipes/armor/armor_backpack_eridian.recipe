@@ -1,0 +1,17 @@
+{
+  "input" : [
+    { "item" : "eridianbar", "count" : 12 },
+    { "item" : "irradiumbar", "count" : 8 },
+    { "item" : "shadowgascannister", "count" : 10 },
+    { "item" : "mutagene4", "count" : 2 },
+    { "item" : "wretchel", "count" : 16 },
+    { "item" : "densealloy", "count" : 4 },
+    { "item" : "cpu", "count" : 2 },
+    { "item" : "advcircuit", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "batterypack_eridian",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "armors", "all" ]
+}

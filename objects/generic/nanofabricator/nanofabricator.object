@@ -1,0 +1,31 @@
+{
+  "objectName" : "nanofabricator",
+  "rarity" : "common",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingtable.config",
+    "filter" : [ "nanofabricator" ]
+  },
+  "printable" : false,
+  "description" : "Used to create advanced resources.",
+  "shortdescription" : "^orange;Nano-Fabricator^white;",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 200,
+
+  "inventoryIcon" : "nanofabricatoricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "nanofabricator.png:<color>.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 2.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

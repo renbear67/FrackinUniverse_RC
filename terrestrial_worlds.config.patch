@@ -1,16 +1,19 @@
 [
-
 {"op" : "add",
 "path" : "/planetTypes/tidewater",
 "value" : {       
-      "threatRange" : [3, 6],
+      "threatRange" : [3, 3],
       "layers" : {
         "surface" : {
-          "primaryRegion" : [ "tidewater" ]},
+          "primaryRegion" : [ "tidewater" ], 
+	  "secondaryRegion" : [ "breakwater", "corrupt", "estuary" ]
+        },
         "subsurface" : {
-          "primaryRegion" : [ "tidewaterfloor" ] },
+          "primaryRegion" : [ "tidewaterfloor" ],
+	  "secondaryRegion" : [ "deepseavent" ]		  
+        },
         "underground1" : {
-	  "primaryRegion" : [ "tidewaterunderground" ], 
+		  "primaryRegion" : [ "tidewaterunderground" ], 
           "secondaryRegion" : [ "coralcavern", "luminouscaves", "stonecaves", "bonecaves", "icecaves" ]
         },
         "underground2" : {
@@ -45,15 +48,76 @@
 },
 
 {"op" : "add",
+"path": "/regionTypes/breakwater",
+"value" : 
+	{
+      "oceanLiquid" : [ "water" ],
+      "oceanLevelOffset" : 0, 
+      "blockSelector" : [ "breakwaterIslandsSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "breakwater" ]]
+      ]
+	}
+},
+
+{"op" : "add",
+"path": "/regionTypes/estuary",
+"value" : 
+	{
+      "oceanLiquid" : [ "water" ],
+      "oceanLevelOffset" : 0, 
+      "blockSelector" : [ "tidalflatsIslandsSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "estuary" ]]
+      ]
+	}
+},
+
+{"op" : "add",
+"path": "/regionTypes/corrupt",
+"value" : 
+	{
+      "oceanLiquid" : [ "water" ],
+      "oceanLevelOffset" : 0, 
+      "blockSelector" : [ "floatingIslandsSurface", "submergedIslandsSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "caveLiquid" : [ "darkwater" ],
+      "caveLiquidChanceRange" : [100, 100],
+      "biome" : [
+        [0, [ "corrupt" ]]
+      ]
+	}
+},
+
+{"op" : "add",
 "path":"/regionTypes/tidewaterfloor",
 "value" : 
 	{
       "oceanLiquid" : [ "water" ],
       "oceanLevelOffset" : 9999,
-      "blockSelector" : [ "ledgesSurface", "medHillsSurface" ],
+      "blockSelector" : [ "ledgesSurface", "medHillsSurface", "canyonsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
         [0, [ "tidewaterfloor" ]]
+      ]
+	}
+},
+
+{"op" : "add",
+"path":"/regionTypes/deepseavent",
+"value" : 
+	{
+      "oceanLiquid" : [ "water" ],
+      "oceanLevelOffset" : 9999,
+      "blockSelector" : [ "canyonsSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "bgCaveSelector" : [ "surfaceCaves" ],
+      "caveLiquid" : [ "lava" ],
+      "caveLiquidChanceRange" : [100, 100],
+      "biome" : [
+        [0, [ "deepseavent" ]]
       ]
 	}
 },

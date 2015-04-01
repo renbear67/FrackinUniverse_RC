@@ -10,14 +10,12 @@
   "femaleFrames" : "back.png",
 
   "statusEffects" : [
-    {
-      "stat" : "energyregen",
-      "amount" : 5.5
-    },
+    "energyregenfu_erithian",
     {
       "stat" : "maxEnergy",
       "amount" : 65
-    }
+    },
+    "glowgreen2"
   ]
   
   

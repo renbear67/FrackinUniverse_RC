@@ -17,12 +17,9 @@
     },
     {
       "stat" : "maxHealth",
-      "amount" : 80
+      "amount" : 110
     },
-    {
-      "stat" : "energyRegen",
-      "amount" : 0.42
-    }
+    "energyregenfu_armor40"
   ],
 
   "colorOptions" : [

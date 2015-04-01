@@ -15,11 +15,11 @@
   "statusEffects" : [
     {
       "stat" : "protection",
-      "amount" : 19
+      "amount" : 39
     },
     {
       "stat" : "maxHealth",
-      "amount" : 40
+      "amount" : 60
     },
     {
       "stat" : "rage",

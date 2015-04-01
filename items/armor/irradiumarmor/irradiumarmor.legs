@@ -14,18 +14,14 @@
   "statusEffects" : [
     {
       "stat" : "protection",
-      "amount" : 90
+      "amount" : 80
     },
 
     {
       "stat" : "maxEnergy",
       "amount" : 80
     },
-
-    {
-      "stat" : "energyRegen",
-      "amount" : 0.5
-    }
+    "energyregenfu_armor30"
   ],
 "effectSources" : [ "icetrail" ]
 }

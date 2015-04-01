@@ -624,5 +624,31 @@
         "bottomLightMix" : [0, 0, 0],
         "textureMovementFactor" : 1.6        
 	}
-    }
+    },
+//ItA-Tidewater
+    {"op" : "add", 
+    "path" : "/liquids/60", 
+	"value" : { 
+	"name" : "darkwater",
+	"tickDelta" : 1,
+        "color" : [44, 31, 51, 225],
+	"itemDrop" : "liquiddarkwater",
+        "statusEffects" :[ "swimming", "weakpoison", "tarslow" ],
+      "interactions" : [
+        //water
+		{ 
+          "liquid" : 1,
+          "liquidResult" : 60
+		},
+	//healingwater
+        {
+          "liquid" : 6,
+          "liquidResult" : 1
+        }
+      ],
+	"texture" : "/liquids/tartex.png",
+	"bottomLightMix" : [0, 78, 255],
+	"textureMovementFactor" : 2.6
+	} 
+	}
 ]

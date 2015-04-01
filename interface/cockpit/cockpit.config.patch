@@ -100,6 +100,6 @@
 {"op":"add","path":"/planetTypeToDescription/lightless",
 "value":"This strange ^#666666;lightless sphere^white; somehow reflects all sunlight. Mysterious."},
 {"op":"add","path":"/planetTypeToDescription/tidewater",
-"value":"Subject to massive tidal forces by it's moon, this oceanic planet is covered in treacherous ^#008aff;shoals."}
+"value":"This ^#008aff;tidewater^white; world is subject to massive tidal forces by it's satellites."}
 ]
 

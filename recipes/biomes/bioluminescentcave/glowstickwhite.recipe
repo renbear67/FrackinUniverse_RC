@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "glowfibreblue", "count" : 4 },
-	{ "item" : "glowfibrered", "count" : 4 },
+	{ "item" : "glowfibreorange", "count" : 4 },
 	{ "item" : "glowfibregreen", "count" : 4 }
   ],
   "output" : { "item" : "whiteglowstick", "count" : 1 },

@@ -33,7 +33,7 @@
 
     {
       "stat" : "healthRegen",
-      "amount" : 1.02
+      "amount" : 0.30
     },
     "biooozeimmunity"  
   ],

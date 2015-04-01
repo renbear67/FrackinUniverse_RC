@@ -15,11 +15,7 @@
       "stat" : "protection",
       "amount" : 72
     },
-
-    {
-      "stat" : "energyRegen",
-      "amount" : 0.33
-    },
+      "energyregenfu_armor30",
     {
       "stat" : "maxHealth",
       "amount" : 50

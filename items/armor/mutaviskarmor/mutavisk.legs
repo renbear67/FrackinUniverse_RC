@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Rare",
-  "description" : "Standing has never been so stylishly purple.",
+  "description" : "Standing has never been so stylishly purple. Immune to fall damage.",
   "shortdescription" : "Mutavisk Greaves",
   "tooltipKind" : "armor",
 

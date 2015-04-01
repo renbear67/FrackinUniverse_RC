@@ -23,15 +23,12 @@
   "statusEffects" : [
     {
       "stat" : "protection",
-      "amount" : 28
+      "amount" : 48
     },
     {
       "stat" : "maxHealth",
-      "amount" : 40
+      "amount" : 60
     },
-    {
-      "stat" : "energyRegen",
-      "amount" : 0.15
-    }
+   "energyregenfu_armor20"
   ]
 }

@@ -14,15 +14,13 @@
   "statusEffects" : [
     {
       "stat" : "protection",
-      "amount" : 16
+      "amount" : 26
     },
     {
       "stat" : "maxEnergy",
-      "amount" : 70
+      "amount" : 110
     },
-    
-    "lowgrav"
-    
+    "helium3"
   ],
 
   "colorOptions" : [

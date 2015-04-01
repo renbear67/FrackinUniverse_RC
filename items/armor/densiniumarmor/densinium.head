@@ -33,7 +33,8 @@
       {
         "stat" : "sulphuricImmunity",
         "amount" : 1.0
-      }
+      },
+      "energyregenfu_armor30"
   ],
 
   "colorOptions" : [
