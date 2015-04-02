@@ -260,6 +260,23 @@
     [0.01, "meteorshower"],
     [0.005, "largemeteor"]
     ]
+},
+
+{
+"op" : "add",
+"path" : "/mountainous",
+"value" : [     
+    [0.1, "rain"],
+    [0.05, "storm"],
+	[0.1, "snow"],
+	[0.1, "sandstorm"],
+    [0.025, "glowingrain"],
+    [0.125, "drizzle"],
+	[0.7, "clear"],
+	[0.05, "acidrain"],
+	[0.005, "meteorshower"],
+	[0.001, "largemeteor"]
+	]
 }
   
 ]

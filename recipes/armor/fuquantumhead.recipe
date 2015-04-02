@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "carbonplate", "count" : 22 },
-    { "item" : "eridianbar", "count" : 12 },
+    { "item" : "carbonplate", "count" : 8 },
+    { "item" : "eridianbar", "count" : 6 },
     { "item" : "advcircuit", "count" : 3 },
-    { "item" : "cpu", "count" : 3 }
+    { "item" : "cpu", "count" : 2 }
   ],
   "output" : { "item" : "fuquantumhead", "count" : 1 },
   "groups" : [ "prototyper", "armors", "all" ]

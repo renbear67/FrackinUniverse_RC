@@ -1,10 +1,10 @@
 {
   "input" : [
-    { "item" : "silk", "count" : 20 },
+    { "item" : "silk", "count" : 10 },
     { "item" : "lasherplantseed", "count" : 4 },
-    { "item" : "dnasample", "count" : 30 },
+    { "item" : "dnasample", "count" : 10 },
     { "item" : "ff_protoplating", "count" : 2 },
-    { "item" : "biochip", "count" : 10 }
+    { "item" : "biochip", "count" : 2 }
   ],
   "output" : {
     "item" : "lasherhook",

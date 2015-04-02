@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "protocitebar", "count" : 8 },
+    { "item" : "protocitebar", "count" : 2 },
     { "item" : "triggerassembly", "count" : 1 },
     { "item" : "glassmaterial", "count" : 2 },
-    { "item" : "biochip", "count" : 10 }
+    { "item" : "steelbar", "count" : 2 }
   ],
   "output" : {
     "item" : "ff_bubblegun",

@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "densiniumbar", "count" : 30 },
-    { "item" : "ff_diamondplating", "count" : 12 },
+    { "item" : "densiniumbar", "count" : 16 },
+    { "item" : "ff_diamondplating", "count" : 8 },
     { "item" : "ff_silicon", "count" : 25 },
     { "item" : "circuitboard", "count" : 4 }
   ],

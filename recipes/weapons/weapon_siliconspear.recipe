@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "ff_silicon", "count" : 120 },
-    { "item" : "ff_diamondplating", "count" : 8 },
-    { "item" : "penumbriteshard", "count" : 10 }
+    { "item" : "ff_silicon", "count" : 20 },
+    { "item" : "ff_diamondplating", "count" : 4 },
+    { "item" : "penumbriteshard", "count" : 6 }
   ],
   "output" : {
     "item" : "siliconspear",

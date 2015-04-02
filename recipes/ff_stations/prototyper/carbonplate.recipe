@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "durasteelbar", "count" : 1 },
-    { "item" : "coalore", "count" : 10 }
+    { "item" : "durasteelbar", "count" : 2 },
+    { "item" : "coalore", "count" : 4 }
   ],
   "output" : { "item" : "carbonplate", "count" : 1 },
   "groups" : [ "prototyper", "materials", "all" ]

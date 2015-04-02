@@ -1,11 +1,11 @@
 {
   "input" : [
     { "item" : "rawminerals", "count" : 25 },
-    { "item" : "ceruliumcompound", "count" : 12 },
-    { "item" : "lead", "count" : 20 },
+    { "item" : "ceruliumcompound", "count" : 9 },
+    { "item" : "lead", "count" : 12 },
     { "item" : "haleflowerseed", "count" : 3 },
     { "item" : "ighantseed", "count" : 3 },
-    { "item" : "biochip", "count" : 10 }
+    { "item" : "biochip", "count" : 4 }
   ],
   "output" : {
     "item" : "banehammer",

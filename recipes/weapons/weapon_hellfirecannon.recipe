@@ -5,8 +5,7 @@
     { "item" : "aliencompound", "count" : 16 },
     { "item" : "ff_focusingarray", "count" : 4 },
     { "item" : "gunhousing", "count" : 8 },
-    { "item" : "triggerassembly", "count" : 2 },
-    { "item" : "biochip", "count" : 10 }
+    { "item" : "triggerassembly", "count" : 2 }
   ],
   "output" : {
     "item" : "hellfirecannon",

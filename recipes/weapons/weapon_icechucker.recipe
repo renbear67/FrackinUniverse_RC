@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "solaricrystal", "count" : 4 },
+    { "item" : "icecrystal", "count" : 3 },
     { "item" : "triggerassembly", "count" : 1 },
     { "item" : "gunhousing", "count" : 1 },
-    { "item" : "ironbar", "count" : 3 } 
+    { "item" : "steelbar", "count" : 3 } 
   ],
   "output" : {
     "item" : "ff_icechucker",

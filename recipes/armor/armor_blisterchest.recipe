@@ -2,8 +2,8 @@
   "input" : [
     { "item" : "ff_penumbraplating", "count" : 5 },
     { "item" : "blisterextract", "count" : 8 },
-    { "item" : "ff_silicon", "count" : 25 },
-    { "item" : "biochip", "count" : 15 }
+    { "item" : "ff_silicon", "count" : 18 },
+    { "item" : "biochip", "count" : 8 }
   ],
   "output" : {
     "item" : "blisterchest",

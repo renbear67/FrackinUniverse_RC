@@ -1,10 +1,10 @@
 {
   "input" : [
-    { "item" : "crystal", "count" : 300 },
-    { "item" : "protocitebar", "count" : 25 },
-    { "item" : "icecrystal", "count" : 12 },
-    { "item" : "solaricrystal", "count" : 30 },
-    { "item" : "ff_silicon", "count" : 25 }    
+    { "item" : "crystal", "count" : 30 },
+    { "item" : "protocitebar", "count" : 8 },
+    { "item" : "icecrystal", "count" : 5 },
+    { "item" : "solaricrystal", "count" : 8 },
+    { "item" : "obsidianshard", "count" : 4 }    
   ],
   "output" : {
     "item" : "crystallineblade",

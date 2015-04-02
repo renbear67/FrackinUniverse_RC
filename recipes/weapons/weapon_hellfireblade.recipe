@@ -1,11 +1,10 @@
 {
   "input" : [
-    { "item" : "magmawall2", "count" : 250 },
+    { "item" : "obsidianshard", "count" : 16 },
     { "item" : "imperviumcompound", "count" : 24 },
     { "item" : "hellfireplantseed", "count" : 3 },
     { "item" : "ignuschili", "count" : 2 },
-    { "item" : "penumbriteshard", "count" : 50 },
-    { "item" : "biochip", "count" : 10 }
+    { "item" : "penumbriteshard", "count" : 12 }
   ],
   "output" : {
     "item" : "hellfireblade",

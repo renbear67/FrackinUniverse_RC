@@ -1,12 +1,12 @@
 {
   "input" : [
     { "item" : "vashtaplantseed", "count" : 4 },
-    { "item" : "vashtaclaw", "count" : 20 },
-    { "item" : "steelbar", "count" : 20 },
+    { "item" : "vashtaclaw", "count" : 8 },
+    { "item" : "steelbar", "count" : 12 },
     { "item" : "penumbriteshard", "count" : 5 },
     { "item" : "triggerassembly", "count" : 1 },
     { "item" : "gunhousing", "count" : 1 },
-    { "item" : "biochip", "count" : 10 }
+    { "item" : "biochip", "count" : 2 }
   ],
   "output" : {
     "item" : "vashtagun",

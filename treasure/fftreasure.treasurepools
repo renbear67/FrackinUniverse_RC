@@ -62,18 +62,22 @@
           {"weight" : 0.009, "item" : [ "thornitox", 3]},
           {"weight" : 0.009, "item" : [ "tyvokkhook", 1]},
           {"weight" : 0.009, "item" : [ "vashtaclaw", 1]},
-          {"weight" : 0.0333, "item" : [ "mineralsample", 15]},
+          {"weight" : 0.012, "item" : [ "mineralsample", 15]},
+          {"weight" : 0.012, "item" : [ "kungfuheadband", 1]},
+          {"weight" : 0.012, "item" : [ "jokeglasses", 1]},
+          {"weight" : 0.012, "item" : [ "steampunkmask", 1]},
+          {"weight" : 0.012, "item" : [ "duncecap", 1]},
           
           // sampling array recipes
-          {"weight" : 0.004, "item" : [ "recipebook_samplingarray_main", 1]},            
-	  {"weight" : 0.003, "item" : [ "recipebook_samplingarray_biochip", 1]}, 
-	  {"weight" : 0.002, "item" : [ "recipebook_samplingarray_blister", 1]}, 
-	  {"weight" : 0.002, "item" : [ "recipebook_samplingarray_liquidproto", 1]}, 
-	  {"weight" : 0.003, "item" : [ "recipebook_samplingarray_blisterextract", 1]}, 
-	  {"weight" : 0.001, "item" : [ "recipebook_samplingarray_skullreaper", 1]}, 
-	  {"weight" : 0.002, "item" : [ "recipebook_samplingarray_thornitox", 1]}, 
-          {"weight" : 0.002, "item" : [ "recipebook_samplingarray_meleescout", 1]}, 
-          {"weight" : 0.003, "item" : [ "recipebook_samplingarray_mutavisk", 1]}
+          {"weight" : 0.008, "item" : [ "recipebook_samplingarray_main", 1]},            
+	  {"weight" : 0.008, "item" : [ "recipebook_samplingarray_biochip", 1]}, 
+	  {"weight" : 0.008, "item" : [ "recipebook_samplingarray_blister", 1]}, 
+	  {"weight" : 0.008, "item" : [ "recipebook_samplingarray_liquidproto", 1]}, 
+	  {"weight" : 0.008, "item" : [ "recipebook_samplingarray_blisterextract", 1]}, 
+	  {"weight" : 0.008, "item" : [ "recipebook_samplingarray_skullreaper", 1]}, 
+	  {"weight" : 0.008, "item" : [ "recipebook_samplingarray_thornitox", 1]}, 
+          {"weight" : 0.008, "item" : [ "recipebook_samplingarray_meleescout", 1]}, 
+          {"weight" : 0.008, "item" : [ "recipebook_samplingarray_mutavisk", 1]}
         ],
         "poolRounds" : [
           [0.23, 1],

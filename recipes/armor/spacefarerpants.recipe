@@ -1,7 +1,8 @@
 {
   "input" : [
-    { "item" : "graphene", "count" : 8 },
-    { "item" : "advancealloy", "count" : 4 },
+    { "item" : "graphene", "count" : 10 },
+    { "item" : "protocitebar", "count" : 7 },
+    { "item" : "vialproto", "count" : 4 },
     { "item" : "electromagnet", "count" : 2 }
   ],
   "output" : { "item" : "spacefarerpants", "count" : 1 },

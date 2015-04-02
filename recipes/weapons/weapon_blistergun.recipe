@@ -4,7 +4,7 @@
     { "item" : "ff_penumbraplating", "count" : 6 },
     { "item" : "triggerassembly", "count" : 1 },
     { "item" : "gunhousing", "count" : 2 },
-    { "item" : "biochip", "count" : 10 }
+    { "item" : "biochip", "count" : 6 }
   ],
   "output" : {
     "item" : "blistergun",
