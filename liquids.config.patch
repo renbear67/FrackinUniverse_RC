@@ -83,8 +83,8 @@
 	"name" : "bio_ooze",
 	"tickDelta" : 3,
 	"color" : [0, 200, 0, 225],
-	"radiantLight" : [0, 130, 0],
-        "statusEffects" : [ "biooozepoison" ],
+	"radiantLight" : [0, 95, 0],
+        "statusEffects" : [ "swimming", "biooozepoison" ],
         "itemDrop" : "liquidbioooze",
         
         "interactions" : [
@@ -151,7 +151,7 @@
 	"name" : "blacktar",
 	"tickDelta" : 5,
 	"color" : [8, 8, 8, 225],
-        "statusEffects" : [ "blacktarslow" ],
+        "statusEffects" : [ "swimming", "blacktarslow" ],
         "itemDrop" : "liquidblacktar",
         "interactions" : [
           {
@@ -214,7 +214,7 @@
 	"tickDelta" : 2,
 	"color" : [255, 0, 255, 225],
 	"radiantLight" : [75, 0, 75],
-        "statusEffects" : [ "energyregenfu05" ],
+        "statusEffects" : [ "swimming", "energyregenfu05" ],
         "itemDrop" : "liquidorganicsoup",
         "interactions" : [
           {
@@ -276,7 +276,8 @@
 	"name" : "protociteliquid",
 	"tickDelta" : 2,
 	"color" : [232, 244, 102, 220],
-        "statusEffects" : [ "energyregenfu20" ],
+	"radiantLight" : [0, 100, 0],
+        "statusEffects" : [ "swimming", "energyregenfu20" ],
         "itemDrop" : "vialproto",
         "interactions" : [
           {
@@ -403,7 +404,7 @@
 	"name" : "sulphuricacid",
 	"tickDelta" : 1,
 	"color" : [215, 183, 73, 180],
-        "statusEffects" : [ "sulphuricacideffect" ],
+        "statusEffects" : [ "swimming", "sulphuricacideffect" ],
         "itemDrop" : "liquidsulphuricacid",
         "interactions" : [
           {
@@ -466,8 +467,8 @@
 	"name" : "irradiumliquid",
 	"tickDelta" : 3,
 	"color" : [102, 179, 244, 220],
-	"radiantLight" : [102, 179, 244],
-        "statusEffects" : [ "biomeradiation" ],
+	"radiantLight" : [90, 90, 130],
+        "statusEffects" : [ "swimming", "biomeradiation" ],
         "itemDrop" : "liquidirradium",
         "interactions" : [
           {
@@ -530,7 +531,7 @@
 	"tickDelta" : 3,
 	"color" : [100, 100, 100, 220],
 	"radiantLight" : [12, 1, 1],
-        "statusEffects" : [ "biomeradiation" ],
+        "statusEffects" : [ "swimming", "biomeradiation" ],
         "itemDrop" : "liquidmercury",
         "interactions" : [
           {

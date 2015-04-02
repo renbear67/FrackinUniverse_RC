@@ -1,9 +1,9 @@
 {
   "input" : [
     { "item" : "matteritem", "count" : 12 },
-    { "item" : "eridianbar", "count" : 4 },
-    { "item" : "hellfireplantseed", "count" : 1 },
-    { "item" : "corefragmentore", "count" : 8 }
+    { "item" : "eridianbar", "count" : 8 },
+    { "item" : "wretchel", "count" : 6 },
+    { "item" : "corefragmentore", "count" : 12 }
   ],
   "output" : {
     "item" : "fubonusarmorchest",

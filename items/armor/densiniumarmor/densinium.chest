@@ -21,14 +21,14 @@
   },
 
   "statusEffects" : [
-      {
-        "stat" : "maxHealth",
-        "amount" : 150
-      },
-      {
-        "stat" : "protection",
-        "amount" : 215
-      },
+    {
+      "stat" : "maxHealth",
+      "amount" : 150
+    },
+    {
+      "stat" : "protection",
+      "amount" : 265
+    },
     "ffextremecoldimmunityicon",
     {
       "stat" : "ffextremecoldImmunity",
@@ -38,10 +38,10 @@
       "stat" : "biomecoldImmunity",
       "amount" : 1.0
     },
-      {
-        "stat" : "sulphuricImmunity",
-        "amount" : 1.0
-      }
+    {
+      "stat" : "sulphuricImmunity",
+      "amount" : 1.0
+    }
   ],
 
   "colorOptions" : [

@@ -12,14 +12,14 @@
   "femaleFrames" : "pants.png",
 
   "statusEffects" : [
-        {
-          "stat" : "maxHealth",
-          "amount" : 120
-        },
-        {
-          "stat" : "protection",
-          "amount" : 200
-        },
+      {
+        "stat" : "maxHealth",
+        "amount" : 120
+      },
+      {
+        "stat" : "protection",
+        "amount" : 240
+      },
       "ffextremeheatimmunityicon",
       {
         "stat" : "ffextremeheatImmunity",

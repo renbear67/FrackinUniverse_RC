@@ -1,9 +1,10 @@
 {
   "input" : [
-    { "item" : "matteritem", "count" : 12 },
+    { "item" : "matteritem", "count" : 9 },
     { "item" : "eridianbar", "count" : 6 },
     { "item" : "electromagnet", "count" : 2 },
-    { "item" : "corefragmentore", "count" : 5 }
+    { "item" : "wretchel", "count" : 5 },
+    { "item" : "corefragmentore", "count" : 8 }
   ],
   "output" : {
     "item" : "fubonusarmorpants",

@@ -19,22 +19,22 @@
       },
       {
         "stat" : "protection",
-        "amount" : 197
+        "amount" : 240
       },
-    "ffextremeradiationimmunityicon",
-    {
+      "energyregenfu_armor50",
+      "ffextremeradiationimmunityicon",
+      {
       "stat" : "ffextremeradiationImmunity",
       "amount" : 1.0
-    },
-    {
+      },
+      {
       "stat" : "biomeradiationImmunity",
       "amount" : 1.0
-    },
+      },
       {
         "stat" : "sulphuricImmunity",
         "amount" : 1.0
-      },
-      "energyregenfu_armor30"
+      }
   ],
 
   "colorOptions" : [

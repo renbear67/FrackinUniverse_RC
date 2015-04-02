@@ -3,7 +3,8 @@
     { "item" : "matteritem", "count" : 8 },
     { "item" : "eridianbar", "count" : 2 },
     { "item" : "advcircuit", "count" : 1 },
-    { "item" : "corefragmentore", "count" : 4 }
+    { "item" : "wretchel", "count" : 4 },
+    { "item" : "corefragmentore", "count" : 6 }
   ],
   "output" : {
     "item" : "fubonusarmorhead",

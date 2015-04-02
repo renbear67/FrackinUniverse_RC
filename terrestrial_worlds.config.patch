@@ -152,27 +152,27 @@
         },
         "underground1" : {
           "primaryRegion" : [ "icewasteunderground", "nitrogenseafloor", "magmaoceanfloor"  ],
-          "secondaryRegion" : [ "icecaves", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "sulphuricunderground", "ffcrystalcavern", "fffrostcavern", "ffvolcanic" ]
+          "secondaryRegion" : [ "ffsupermatter", "icecaves", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "sulphuricunderground", "ffcrystalcavern", "fffrostcavern", "ffvolcanic" ]
         },
         "underground2" : {
           "primaryRegion" : [ "icewasteunderground", "nitrogenseafloor", "magmaoceanfloor"  ],
-          "secondaryRegion" : [ "icecaves", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "sulphuricunderground", "ffcrystalcavern", "fffrostcavern", "ffvolcanic" ]
+          "secondaryRegion" : [ "ffsupermatter", "icecaves", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "sulphuricunderground", "ffcrystalcavern", "fffrostcavern", "ffvolcanic" ]
         },
         "underground3" : {
           "primaryRegion" : [ "icewasteunderground", "nitrogenseafloor", "magmaoceanfloor"  ],
-           "secondaryRegion" : [ "tarunderground", "icecaves", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "sulphuricunderground", "ffcrystalcavern", "fffrostcavern", "ffvolcanic" ]
+           "secondaryRegion" : [ "ffsupermatter", "tarunderground", "icecaves", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "sulphuricunderground", "ffcrystalcavern", "fffrostcavern", "ffvolcanic" ]
         },
         "underground4" : {
           "primaryRegion" : [ "icewasteunderground", "nitrogenseafloor", "magmaoceanfloor"  ],
-           "secondaryRegion" : [ "icecaves", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "sulphuricunderground", "ffcrystalcavern", "fffrostcavern", "ffvolcanic" ]
+           "secondaryRegion" : [ "ffsupermatter", "icecaves", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "sulphuricunderground", "ffcrystalcavern", "fffrostcavern", "ffvolcanic" ]
         },
         "underground5" : {
           "primaryRegion" : [ "icewasteunderground", "nitrogenseafloor", "magmaoceanfloor"  ],
-          "secondaryRegion" : [ "icecaves", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "sulphuricunderground", "ffcrystalcavern", "fffrostcavern", "ffvolcanic" ]
+          "secondaryRegion" : [ "ffsupermatter", "icecaves", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "sulphuricunderground", "ffcrystalcavern", "fffrostcavern", "ffvolcanic" ]
         },
         "underground6" : {
           "primaryRegion" : [ "icewasteunderground", "nitrogenseafloor", "magmaoceanfloor"  ],
-          "secondaryRegion" : [ "icecaves", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "sulphuricunderground", "ffcrystalcavern", "fffrostcavern", "ffvolcanic" ]
+          "secondaryRegion" : [ "ffsupermatter", "icecaves", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "sulphuricunderground", "ffcrystalcavern", "fffrostcavern", "ffvolcanic" ]
         },
         "core" : {
           "primaryRegion" : [ "nitrogencore", "core" ]
@@ -189,31 +189,31 @@
        "threatRange" : [2, 8],
        "layers" : {
         "surface" : {
-          "primaryRegion" : [ "lightlessshadowsea", "metallicmoonshadowsea", "icemoonheliumsea", "metallicmoonheliumsea", "arboreal", "atropus", "bloodstone", "bog", "crystalmoon", "icemoon", "icewaste", "infernus", "irradiated", "lightless", "metallicmoon", "nitrogensea", "penumbra", "protoworld", "sulphuric", "thickjungle", "urbanwasteland", "alien", "barren", "desert", "forest", "garden", "jungle", "savannah", "scorched", "snow", "tundra", "volcanic" ],
-          "secondaryRegion" : [ "spring", "mushroom", "oasis", "tar", "alpine", "bioluminescence", "colourful", "bones", "giantflowers", "eyepatch", "ice", "rust", "crystalline", "alien", "arctic", "barren", "desert", "forest", "garden", "jungle", "magma", "ocean", "savannah", "scorched", "snow", "toxic", "tundra", "volcanic", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "calichefield", "bloodstonefield", "corruptedforest", "crystalplain", "deadwood", "desertoasis", "dryriverbed", "elder", "energyorbforest", "flowerforest", "hellfirefield", "hellhive", "icefire", "irradiatedwaste", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "pitchfield", "primevalforest", "snowyforest", "sulphuricplain", "taiga" ],
+          "primaryRegion" : [ "tidewater", "lightlessshadowsea", "metallicmoonshadowsea", "icemoonheliumsea", "metallicmoonheliumsea", "arboreal", "atropus", "bloodstone", "bog", "crystalmoon", "icemoon", "icewaste", "infernus", "irradiated", "lightless", "metallicmoon", "nitrogensea", "penumbra", "protoworld", "sulphuric", "thickjungle", "urbanwasteland", "alien", "barren", "desert", "forest", "garden", "jungle", "savannah", "scorched", "snow", "tundra", "volcanic" ],
+          "secondaryRegion" : [ "tidewater", "estuary", "breakwater", "corrupt", "spring", "mushroom", "oasis", "tar", "alpine", "bioluminescence", "colourful", "bones", "giantflowers", "eyepatch", "ice", "rust", "crystalline", "alien", "arctic", "barren", "desert", "forest", "garden", "jungle", "magma", "ocean", "savannah", "scorched", "snow", "toxic", "tundra", "volcanic", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "calichefield", "bloodstonefield", "corruptedforest", "crystalplain", "deadwood", "desertoasis", "dryriverbed", "elder", "energyorbforest", "flowerforest", "hellfirefield", "hellhive", "icefire", "irradiatedwaste", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "pitchfield", "primevalforest", "snowyforest", "sulphuricplain", "taiga" ],
           "dungeonCountRange" : [0, 2],
           "dungeons" : [ "wreck", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "avianairship", "aviantemple","humanbunker", "floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison", "naturalcave" ]
         },
         "subsurface" : {
-          "primaryRegion" : [ "lightlessshadowsea", "metallicmoonshadowsea", "icemoonheliumsea", "metallicmoonheliumsea", "bloodstonesea", "sulphuricoceanfloor", "magmaoceanfloor", "arcticoceanfloor", "toxicoceanfloor", "oceanfloor", "nitrogenseafloor", "desertsubsurface", "barrenunderground", "shallowunderground", "arborealunderground", "atropusunderground", "bloodstoneunderground", "bogunderground", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "irradiatedunderground", "lightlessunderground", "metallicunderground", "penumbraunderground", "slimeworldunderground", "sulphuricunderground", "thickjungleunderground", "arboreal", "atropus", "bloodstone", "bog", "crystalmoon", "icemoon", "icewaste", "infernus", "irradiated", "lightless", "metallicmoon", "nitrogensea", "penumbra", "protoworld", "sulphuric", "thickjungle", "urbanwasteland", "alien", "barren", "desert", "forest", "garden", "jungle", "magma", "savannah", "scorched", "snow", "tundra", "volcanic", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "calichefield", "bloodstonefield", "corruptedforest", "crystalplain", "deadwood", "desertoasis", "dryriverbed", "elder", "energyorbforest", "flowerforest", "hellfirefield", "hellhive", "icefire", "irradiatedwaste", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "pitchfield", "primevalforest", "snowyforest", "sulphuricplain", "taiga"  ]
+          "primaryRegion" : [ "ffsupermatter", "deepseavent", "tidewater", "tidewaterfloor", "tidewaterunderground", "lightlessshadowsea", "metallicmoonshadowsea", "icemoonheliumsea", "metallicmoonheliumsea", "bloodstonesea", "sulphuricoceanfloor", "magmaoceanfloor", "arcticoceanfloor", "toxicoceanfloor", "oceanfloor", "nitrogenseafloor", "desertsubsurface", "barrenunderground", "shallowunderground", "arborealunderground", "atropusunderground", "bloodstoneunderground", "bogunderground", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "irradiatedunderground", "lightlessunderground", "metallicunderground", "penumbraunderground", "slimeworldunderground", "sulphuricunderground", "thickjungleunderground", "arboreal", "atropus", "bloodstone", "bog", "crystalmoon", "icemoon", "icewaste", "infernus", "irradiated", "lightless", "metallicmoon", "nitrogensea", "penumbra", "protoworld", "sulphuric", "thickjungle", "urbanwasteland", "alien", "barren", "desert", "forest", "garden", "jungle", "magma", "savannah", "scorched", "snow", "tundra", "volcanic", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "calichefield", "bloodstonefield", "corruptedforest", "crystalplain", "deadwood", "desertoasis", "dryriverbed", "elder", "energyorbforest", "flowerforest", "hellfirefield", "hellhive", "icefire", "irradiatedwaste", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "pitchfield", "primevalforest", "snowyforest", "sulphuricplain", "taiga"  ]
         },
         "underground1" : {
-          "primaryRegion" : [ "fftarunderground","tarunderground", "mushroomunderground", "wildernessunderground", "minivillageunderground", "icecaves", "bonecaves", "stonecaves", "luminouscaves", "fleshcaves", "cellcaves","fffleshcaves", "ffcellcaves", "arborealunderground", "atropusunderground", "bloodstoneunderground", "bogunderground", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "irradiatedunderground", "lightlessunderground", "metallicunderground", "penumbraunderground", "slimeworldunderground", "sulphuricunderground", "thickjungleunderground", "ffcoalmine", "ffcoppermine", "ffcoralcave", "ffcrystalcavern", "fffrostcavern", "ffgoldmine", "ffshadow", "ffvolcanic", "ffzen"]
+          "primaryRegion" : [ "ffsupermatter", "deepseavent", "tidewater", "tidewaterfloor", "tidewaterunderground", "fftarunderground","tarunderground", "mushroomunderground", "wildernessunderground", "minivillageunderground", "icecaves", "bonecaves", "stonecaves", "luminouscaves", "fleshcaves", "cellcaves","fffleshcaves", "ffcellcaves", "arborealunderground", "atropusunderground", "bloodstoneunderground", "bogunderground", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "irradiatedunderground", "lightlessunderground", "metallicunderground", "penumbraunderground", "slimeworldunderground", "sulphuricunderground", "thickjungleunderground", "ffcoalmine", "ffcoppermine", "ffcoralcave", "ffcrystalcavern", "fffrostcavern", "ffgoldmine", "ffshadow", "ffvolcanic", "ffzen"]
         },
         "underground2" : {
-          "primaryRegion" : [ "fftarunderground","tarunderground", "mushroomunderground", "wildernessunderground", "minivillageunderground", "icecaves", "bonecaves", "stonecaves", "luminouscaves", "fleshcaves", "cellcaves", "fffleshcaves", "ffcellcaves","arborealunderground", "atropusunderground", "bloodstoneunderground", "bogunderground", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "irradiatedunderground", "lightlessunderground", "metallicunderground", "penumbraunderground", "slimeworldunderground", "sulphuricunderground", "thickjungleunderground", "ffcoalmine", "ffcoppermine", "ffcoralcave", "ffcrystalcavern", "fffrostcavern", "ffgoldmine", "ffshadow", "ffvolcanic", "ffzen" ]
+          "primaryRegion" : [ "ffsupermatter", "deepseavent", "tidewater", "tidewaterfloor", "tidewaterunderground", "fftarunderground","tarunderground", "mushroomunderground", "wildernessunderground", "minivillageunderground", "icecaves", "bonecaves", "stonecaves", "luminouscaves", "fleshcaves", "cellcaves", "fffleshcaves", "ffcellcaves","arborealunderground", "atropusunderground", "bloodstoneunderground", "bogunderground", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "irradiatedunderground", "lightlessunderground", "metallicunderground", "penumbraunderground", "slimeworldunderground", "sulphuricunderground", "thickjungleunderground", "ffcoalmine", "ffcoppermine", "ffcoralcave", "ffcrystalcavern", "fffrostcavern", "ffgoldmine", "ffshadow", "ffvolcanic", "ffzen" ]
         },
         "underground3" : {
-          "primaryRegion" : [ "fftarunderground","tarunderground", "mushroomunderground", "wildernessunderground", "minivillageunderground", "icecaves", "bonecaves", "stonecaves", "luminouscaves", "fleshcaves", "cellcaves", "fffleshcaves", "ffcellcaves","arborealunderground", "atropusunderground", "bloodstoneunderground", "bogunderground", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "irradiatedunderground", "lightlessunderground", "metallicunderground", "penumbraunderground", "slimeworldunderground", "sulphuricunderground", "thickjungleunderground", "ffcoalmine", "ffcoppermine", "ffcoralcave", "ffcrystalcavern", "fffrostcavern", "ffgoldmine", "ffshadow", "ffvolcanic", "ffzen" ]
+          "primaryRegion" : [ "ffsupermatter", "deepseavent", "tidewater", "tidewaterfloor", "tidewaterunderground", "fftarunderground","tarunderground", "mushroomunderground", "wildernessunderground", "minivillageunderground", "icecaves", "bonecaves", "stonecaves", "luminouscaves", "fleshcaves", "cellcaves", "fffleshcaves", "ffcellcaves","arborealunderground", "atropusunderground", "bloodstoneunderground", "bogunderground", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "irradiatedunderground", "lightlessunderground", "metallicunderground", "penumbraunderground", "slimeworldunderground", "sulphuricunderground", "thickjungleunderground", "ffcoalmine", "ffcoppermine", "ffcoralcave", "ffcrystalcavern", "fffrostcavern", "ffgoldmine", "ffshadow", "ffvolcanic", "ffzen" ]
         },
         "underground4" : {
-          "primaryRegion" : [ "fftarunderground","tarunderground", "mushroomunderground", "wildernessunderground", "minivillageunderground", "icecaves", "bonecaves", "stonecaves", "luminouscaves", "fleshcaves", "cellcaves", "fffleshcaves", "ffcellcaves","arborealunderground", "atropusunderground", "bloodstoneunderground", "bogunderground", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "irradiatedunderground", "lightlessunderground", "metallicunderground", "penumbraunderground", "slimeworldunderground", "sulphuricunderground", "thickjungleunderground", "ffcoalmine", "ffcoppermine", "ffcoralcave", "ffcrystalcavern", "fffrostcavern", "ffgoldmine", "ffshadow", "ffvolcanic", "ffzen" ]
+          "primaryRegion" : [ "ffsupermatter", "deepseavent", "tidewater", "tidewaterfloor", "tidewaterunderground", "fftarunderground","tarunderground", "mushroomunderground", "wildernessunderground", "minivillageunderground", "icecaves", "bonecaves", "stonecaves", "luminouscaves", "fleshcaves", "cellcaves", "fffleshcaves", "ffcellcaves","arborealunderground", "atropusunderground", "bloodstoneunderground", "bogunderground", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "irradiatedunderground", "lightlessunderground", "metallicunderground", "penumbraunderground", "slimeworldunderground", "sulphuricunderground", "thickjungleunderground", "ffcoalmine", "ffcoppermine", "ffcoralcave", "ffcrystalcavern", "fffrostcavern", "ffgoldmine", "ffshadow", "ffvolcanic", "ffzen" ]
         },
         "underground5" : {
-          "primaryRegion" : [ "fftarunderground","tarunderground", "mushroomunderground", "wildernessunderground", "minivillageunderground", "icecaves", "bonecaves", "stonecaves", "luminouscaves", "fleshcaves", "cellcaves", "fffleshcaves", "ffcellcaves","arborealunderground", "atropusunderground", "bloodstoneunderground", "bogunderground", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "irradiatedunderground", "lightlessunderground", "metallicunderground", "penumbraunderground", "slimeworldunderground", "sulphuricunderground", "thickjungleunderground", "ffcoalmine", "ffcoppermine", "ffcoralcave", "ffcrystalcavern", "fffrostcavern", "ffgoldmine", "ffshadow", "ffvolcanic", "ffzen" ]
+          "primaryRegion" : [ "ffsupermatter", "deepseavent", "tidewater", "tidewaterfloor", "tidewaterunderground", "fftarunderground","tarunderground", "mushroomunderground", "wildernessunderground", "minivillageunderground", "icecaves", "bonecaves", "stonecaves", "luminouscaves", "fleshcaves", "cellcaves", "fffleshcaves", "ffcellcaves","arborealunderground", "atropusunderground", "bloodstoneunderground", "bogunderground", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "irradiatedunderground", "lightlessunderground", "metallicunderground", "penumbraunderground", "slimeworldunderground", "sulphuricunderground", "thickjungleunderground", "ffcoalmine", "ffcoppermine", "ffcoralcave", "ffcrystalcavern", "fffrostcavern", "ffgoldmine", "ffshadow", "ffvolcanic", "ffzen" ]
         },
         "underground6" : {
-          "primaryRegion" : [ "fftarunderground","tarunderground", "mushroomunderground", "wildernessunderground", "minivillageunderground", "icecaves", "bonecaves", "stonecaves", "luminouscaves", "fleshcaves", "cellcaves", "fffleshcaves", "ffcellcaves","arborealunderground", "atropusunderground", "bloodstoneunderground", "bogunderground", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "irradiatedunderground", "lightlessunderground", "metallicunderground", "penumbraunderground", "slimeworldunderground", "sulphuricunderground", "thickjungleunderground", "ffcoalmine", "ffcoppermine", "ffcoralcave", "ffcrystalcavern", "fffrostcavern", "ffgoldmine", "ffshadow", "ffvolcanic", "ffzen" ]
+          "primaryRegion" : [ "ffsupermatter", "deepseavent", "tidewater", "tidewaterfloor", "tidewaterunderground", "fftarunderground","tarunderground", "mushroomunderground", "wildernessunderground", "minivillageunderground", "icecaves", "bonecaves", "stonecaves", "luminouscaves", "fleshcaves", "cellcaves", "fffleshcaves", "ffcellcaves","arborealunderground", "atropusunderground", "bloodstoneunderground", "bogunderground", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "irradiatedunderground", "lightlessunderground", "metallicunderground", "penumbraunderground", "slimeworldunderground", "sulphuricunderground", "thickjungleunderground", "ffcoalmine", "ffcoppermine", "ffcoralcave", "ffcrystalcavern", "fffrostcavern", "ffgoldmine", "ffshadow", "ffvolcanic", "ffzen" ]
         },
         "core" : {
           "primaryRegion" : [ "mooncore", "nitrogencore", "protocore", "core", "liquidprotocore", "irradiumcore" ]
@@ -325,27 +325,27 @@
         },
         "underground1" : {
           "primaryRegion" : [ "bloodstoneunderground" ],
-          "secondaryRegion" : [ "ffshadow", "fffleshcaves", "ffvolcanic", "ffcrystalcavern" ]
+          "secondaryRegion" : [ "ffsupermatter", "ffshadow", "fffleshcaves", "ffvolcanic", "ffcrystalcavern" ]
         },
         "underground2" : {
           "primaryRegion" : [ "bloodstoneunderground" ],
-          "secondaryRegion" : [ "ffshadow", "fffleshcaves", "ffvolcanic", "ffcrystalcavern" ]
+          "secondaryRegion" : [ "ffsupermatter", "ffshadow", "fffleshcaves", "ffvolcanic", "ffcrystalcavern" ]
         },
         "underground3" : {
           "primaryRegion" : [ "bloodstoneunderground" ],
-          "secondaryRegion" : [ "ffshadow", "fffleshcaves", "ffvolcanic", "ffcrystalcavern" ]
+          "secondaryRegion" : [ "ffsupermatter", "ffshadow", "fffleshcaves", "ffvolcanic", "ffcrystalcavern" ]
         },
         "underground4" : {
           "primaryRegion" : [ "bloodstoneunderground" ],
-          "secondaryRegion" : [ "ffshadow", "fffleshcaves", "ffvolcanic", "ffcrystalcavern" ]
+          "secondaryRegion" : [ "ffsupermatter", "ffshadow", "fffleshcaves", "ffvolcanic", "ffcrystalcavern" ]
         },
         "underground5" : {
           "primaryRegion" : [ "bloodstoneunderground" ],
-          "secondaryRegion" : [ "ffshadow", "fffleshcaves", "ffvolcanic", "ffcrystalcavern" ]
+          "secondaryRegion" : [ "ffsupermatter", "ffshadow", "fffleshcaves", "ffvolcanic", "ffcrystalcavern" ]
         },
         "underground6" : {
           "primaryRegion" : [ "bloodstoneunderground" ],
-          "secondaryRegion" : [ "ffshadow", "fffleshcaves", "ffvolcanic", "ffcrystalcavern" ]
+          "secondaryRegion" : [ "ffsupermatter", "ffshadow", "fffleshcaves", "ffvolcanic", "ffcrystalcavern" ]
         },
         "core" : {
           "primaryRegion" : [ "core" ]
@@ -368,27 +368,27 @@
         },
         "underground1" : {
           "primaryRegion" : [ "bloodstoneunderground" ],
-          "secondaryRegion" : [ "coralcavern", "ffshadow", "fffleshcaves", "ffvolcanic", "ffcrystalcavern" ]
+          "secondaryRegion" : [ "ffsupermatter", "coralcavern", "ffshadow", "fffleshcaves", "ffvolcanic", "ffcrystalcavern" ]
         },
         "underground2" : {
           "primaryRegion" : [ "bloodstoneunderground" ],
-          "secondaryRegion" : [ "coralcavern", "ffshadow", "fffleshcaves", "ffvolcanic", "ffcrystalcavern" ]
+          "secondaryRegion" : [ "ffsupermatter", "coralcavern", "ffshadow", "fffleshcaves", "ffvolcanic", "ffcrystalcavern" ]
         },
         "underground3" : {
           "primaryRegion" : [ "bloodstoneunderground" ],
-          "secondaryRegion" : [ "coralcavern", "ffshadow", "fffleshcaves", "ffvolcanic", "ffcrystalcavern" ]
+          "secondaryRegion" : [ "ffsupermatter", "coralcavern", "ffshadow", "fffleshcaves", "ffvolcanic", "ffcrystalcavern" ]
         },
         "underground4" : {
           "primaryRegion" : [ "bloodstoneunderground" ],
-          "secondaryRegion" : [ "coralcavern", "ffshadow", "fffleshcaves", "ffvolcanic", "ffcrystalcavern" ]
+          "secondaryRegion" : [ "ffsupermatter", "coralcavern", "ffshadow", "fffleshcaves", "ffvolcanic", "ffcrystalcavern" ]
         },
         "underground5" : {
           "primaryRegion" : [ "bloodstoneunderground" ],
-          "secondaryRegion" : [ "coralcavern", "ffshadow", "fffleshcaves", "ffvolcanic", "ffcrystalcavern" ]
+          "secondaryRegion" : [ "ffsupermatter", "coralcavern", "ffshadow", "fffleshcaves", "ffvolcanic", "ffcrystalcavern" ]
         },
         "underground6" : {
           "primaryRegion" : [ "bloodstoneunderground" ],
-          "secondaryRegion" : [ "coralcavern", "ffshadow", "fffleshcaves", "ffvolcanic", "ffcrystalcavern" ]
+          "secondaryRegion" : [ "ffsupermatter", "coralcavern", "ffshadow", "fffleshcaves", "ffvolcanic", "ffcrystalcavern" ]
         },
         "core" : {
           "primaryRegion" : [ "core" ]
@@ -454,27 +454,27 @@
         },
          "underground1" : {
          "primaryRegion" : [ "crystalmoonunderground" ],
-          "secondaryRegion" : [ "icecaves", "luminouscaves", "ffshadow", "ffcrystalcavern", "ffcoralcave" ]
+          "secondaryRegion" : [ "ffsupermatter", "icecaves", "luminouscaves", "ffshadow", "ffcrystalcavern", "ffcoralcave" ]
         },
         "underground2" : {
         "primaryRegion" : [ "crystalmoonunderground" ],
-          "secondaryRegion" : [ "icecaves", "luminouscaves", "ffshadow", "ffcrystalcavern", "ffcoralcave" ]
+          "secondaryRegion" : [ "ffsupermatter", "icecaves", "luminouscaves", "ffshadow", "ffcrystalcavern", "ffcoralcave" ]
         },
         "underground3" : {
         "primaryRegion" : [ "crystalmoonunderground" ],
-          "secondaryRegion" : [ "icecaves", "luminouscaves", "ffshadow", "ffcrystalcavern", "ffcoralcave" ]
+          "secondaryRegion" : [ "ffsupermatter", "icecaves", "luminouscaves", "ffshadow", "ffcrystalcavern", "ffcoralcave" ]
         },
         "underground4" : {
         "primaryRegion" : [ "crystalmoonunderground" ],
-          "secondaryRegion" : [ "icecaves", "luminouscaves", "ffshadow", "ffcrystalcavern", "ffcoralcave" ]
+          "secondaryRegion" : [ "ffsupermatter", "icecaves", "luminouscaves", "ffshadow", "ffcrystalcavern", "ffcoralcave" ]
         },
         "underground5" : {
         "primaryRegion" : [ "crystalmoonunderground" ],
-          "secondaryRegion" : [ "icecaves", "luminouscaves", "ffshadow", "ffcrystalcavern", "ffcoralcave" ]
+          "secondaryRegion" : [ "ffsupermatter", "icecaves", "luminouscaves", "ffshadow", "ffcrystalcavern", "ffcoralcave" ]
         },
         "underground6" : {
         "primaryRegion" : [ "crystalmoonunderground" ],
-          "secondaryRegion" : [ "icecaves", "luminouscaves", "ffshadow", "ffcrystalcavern", "ffcoralcave" ]
+          "secondaryRegion" : [ "ffsupermatter", "icecaves", "luminouscaves", "ffshadow", "ffcrystalcavern", "ffcoralcave" ]
         },
         "core" : {
           "primaryRegion" : [ "mooncore"]
@@ -498,22 +498,22 @@
           "primaryRegion" : [ "shroomcaveunderground" ]
         },
         "underground1" : {
-          "secondaryRegion" : [ "shroomcaveunderground" , "luminouscaves", "mushroomunderground", "wildernessunderground" ]
+          "secondaryRegion" : [ "ffsupermatter", "shroomcaveunderground" , "luminouscaves", "mushroomunderground", "wildernessunderground" ]
         },
         "underground2" : {
-          "secondaryRegion" : [ "shroomcaveunderground" , "luminouscaves", "mushroomunderground", "wildernessunderground" ]
+          "secondaryRegion" : [ "ffsupermatter", "shroomcaveunderground" , "luminouscaves", "mushroomunderground", "wildernessunderground" ]
         },
         "underground3" : {
-          "secondaryRegion" : [ "shroomcaveunderground" , "luminouscaves", "mushroomunderground", "wildernessunderground" ]
+          "secondaryRegion" : [ "ffsupermatter", "shroomcaveunderground" , "luminouscaves", "mushroomunderground", "wildernessunderground" ]
         },
         "underground4" : {
-          "secondaryRegion" : [ "coralcavern", "shroomcaveunderground" , "luminouscaves", "mushroomunderground", "wildernessunderground" ]
+          "secondaryRegion" : [ "ffsupermatter", "coralcavern", "shroomcaveunderground" , "luminouscaves", "mushroomunderground", "wildernessunderground" ]
         },
         "underground5" : {
-          "secondaryRegion" : [ "coralcavern", "shroomcaveunderground" , "luminouscaves", "mushroomunderground", "wildernessunderground" ]
+          "secondaryRegion" : [ "ffsupermatter", "coralcavern", "shroomcaveunderground" , "luminouscaves", "mushroomunderground", "wildernessunderground" ]
         },
         "underground6" : {
-          "secondaryRegion" : [ "coralcavern", "shroomcaveunderground" , "luminouscaves", "mushroomunderground", "wildernessunderground" ]
+          "secondaryRegion" : [ "ffsupermatter", "coralcavern", "shroomcaveunderground" , "luminouscaves", "mushroomunderground", "wildernessunderground" ]
         },
         "core" : {
           "primaryRegion" : [ "core" ]
@@ -538,27 +538,27 @@
         },
          "underground1" : {
          "primaryRegion" : [ "icewasteunderground" ],
-          "secondaryRegion" : [ "icecaves", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
+          "secondaryRegion" : [ "ffsupermatter", "icecaves", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
         },
         "underground2" : {
         "primaryRegion" : [ "icewasteunderground" ],
-          "secondaryRegion" : [ "icecaves", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
+          "secondaryRegion" : [ "ffsupermatter", "icecaves", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
         },
         "underground3" : {
         "primaryRegion" : [ "icewasteunderground" ],
-          "secondaryRegion" : [ "icecaves", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
+          "secondaryRegion" : [ "ffsupermatter", "icecaves", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
         },
         "underground4" : {
         "primaryRegion" : [ "icewasteunderground" ],
-          "secondaryRegion" : [ "icecaves", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
+          "secondaryRegion" : [ "ffsupermatter", "icecaves", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
         },
         "underground5" : {
         "primaryRegion" : [ "icewasteunderground" ],
-          "secondaryRegion" : [ "icecaves", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
+          "secondaryRegion" : [ "ffsupermatter", "icecaves", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
         },
         "underground6" : {
         "primaryRegion" : [ "icewasteunderground" ],
-          "secondaryRegion" : [ "icecaves", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
+          "secondaryRegion" : [ "ffsupermatter", "icecaves", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
         },
         "core" : {
           "primaryRegion" : [ "nitrogencore" ]
@@ -622,27 +622,27 @@
         },
          "underground1" : {
          "primaryRegion" : [ "infernusunderground" ],
-           "secondaryRegion" : [ "ffshadow", "ffvolcanic", "ffcrystalcavern" ]
+           "secondaryRegion" : [ "ffsupermatter", "ffshadow", "ffvolcanic", "ffcrystalcavern" ]
            },
         "underground2" : {
         "primaryRegion" : [ "infernusunderground" ],
-          "secondaryRegion" : [ "ffshadow", "ffvolcanic", "ffcrystalcavern" ]
+          "secondaryRegion" : [ "ffsupermatter", "ffshadow", "ffvolcanic", "ffcrystalcavern" ]
           },
         "underground3" : {
         "primaryRegion" : [ "infernusunderground" ],
-          "secondaryRegion" : [ "ffshadow", "ffvolcanic", "ffcrystalcavern" ]
+          "secondaryRegion" : [ "ffsupermatter", "ffshadow", "ffvolcanic", "ffcrystalcavern" ]
           },
         "underground4" : {
         "primaryRegion" : [ "infernusunderground" ],
-           "secondaryRegion" : [ "ffshadow", "ffvolcanic", "ffcrystalcavern" ]
+           "secondaryRegion" : [ "ffsupermatter", "ffshadow", "ffvolcanic", "ffcrystalcavern" ]
            },
         "underground5" : {
         "primaryRegion" : [ "infernusunderground" ],
-           "secondaryRegion" : [ "ffshadow", "ffvolcanic", "ffcrystalcavern" ]
+           "secondaryRegion" : [ "ffsupermatter", "ffshadow", "ffvolcanic", "ffcrystalcavern" ]
            },
         "underground6" : {
         "primaryRegion" : [ "infernusunderground" ],
-          "secondaryRegion" : [ "ffshadow", "ffvolcanic", "ffcrystalcavern" ]
+          "secondaryRegion" : [ "ffsupermatter", "ffshadow", "ffvolcanic", "ffcrystalcavern" ]
           },
         "core" : {
           "primaryRegion" : [ "core" ]
@@ -668,27 +668,27 @@
         },
          "underground1" : {
           "primaryRegion" : [ "irradiatedunderground" ],
-          "secondaryRegion" : [ "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffcrystalcavern" ]
+          "secondaryRegion" : [ "ffsupermatter", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffcrystalcavern" ]
           },
         "underground2" : {
          "primaryRegion" : [ "irradiatedunderground" ],
-          "secondaryRegion" : [ "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffcrystalcavern" ]
+          "secondaryRegion" : [ "ffsupermatter", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffcrystalcavern" ]
           },
         "underground3" : {
          "primaryRegion" : [ "irradiatedunderground" ],
-          "secondaryRegion" : [ "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffcrystalcavern" ]
+          "secondaryRegion" : [ "ffsupermatter", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffcrystalcavern" ]
           },
         "underground4" : {
          "primaryRegion" : [ "irradiatedunderground" ],
-          "secondaryRegion" : [ "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffcrystalcavern" ]
+          "secondaryRegion" : [ "ffsupermatter", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffcrystalcavern" ]
           },
         "underground5" : {
          "primaryRegion" : [ "irradiatedunderground" ],
-          "secondaryRegion" : [ "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffcrystalcavern" ]
+          "secondaryRegion" : [ "ffsupermatter", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffcrystalcavern" ]
           },
         "underground6" : {
          "primaryRegion" : [ "irradiatedunderground" ],
-          "secondaryRegion" : [ "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffcrystalcavern" ]
+          "secondaryRegion" : [ "ffsupermatter", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffcrystalcavern" ]
           },
         "core" : {
           "primaryRegion" : [ "core" ]
@@ -759,27 +759,27 @@
         },
          "underground1" : {
            "primaryRegion" : [ "metallicunderground" ],
-          "secondaryRegion" : [ "metallicmoonheliumsea", "metallicmoonshadowsea" ]
+          "secondaryRegion" : [ "ffsupermatter", "metallicmoonheliumsea", "metallicmoonshadowsea" ]
         },
         "underground2" : {
           "primaryRegion" : [ "metallicunderground" ],
-          "secondaryRegion" : [ "metallicmoonheliumsea", "metallicmoonshadowsea" ]
+          "secondaryRegion" : [ "ffsupermatter", "metallicmoonheliumsea", "metallicmoonshadowsea" ]
         },
         "underground3" : {
           "primaryRegion" : [ "metallicunderground" ],
-          "secondaryRegion" : [ "metallicmoonheliumsea", "metallicmoonshadowsea" ]
+          "secondaryRegion" : [ "ffsupermatter", "metallicmoonheliumsea", "metallicmoonshadowsea" ]
         },
         "underground4" : {
           "primaryRegion" : [ "metallicunderground" ],
-          "secondaryRegion" : [ "metallicmoonheliumsea", "metallicmoonshadowsea" ]
+          "secondaryRegion" : [ "ffsupermatter", "metallicmoonheliumsea", "metallicmoonshadowsea" ]
         },
         "underground5" : {
           "primaryRegion" : [ "metallicunderground" ],
-          "secondaryRegion" : [ "metallicmoonheliumsea", "metallicmoonshadowsea" ]
+          "secondaryRegion" : [ "ffsupermatter", "metallicmoonheliumsea", "metallicmoonshadowsea" ]
         },
         "underground6" : {
           "primaryRegion" : [ "metallicunderground" ],
-          "secondaryRegion" : [ "metallicmoonheliumsea", "metallicmoonshadowsea" ]
+          "secondaryRegion" : [ "ffsupermatter", "metallicmoonheliumsea", "metallicmoonshadowsea" ]
         },
         "core" : {
           "primaryRegion" : [ "core" ]
@@ -989,27 +989,27 @@
         },
          "underground1" : {
          "primaryRegion" : [ "sulphuricunderground" ],
-          "secondaryRegion" : [ "stonecaves", "fftarunderground", "ffvolcanic" ]
+          "secondaryRegion" : [ "ffsupermatter", "stonecaves", "fftarunderground", "ffvolcanic" ]
         },
         "underground2" : {
         "primaryRegion" : [ "sulphuricunderground" ],
-          "secondaryRegion" : [ "stonecaves", "fftarunderground", "ffvolcanic" ]
+          "secondaryRegion" : [ "ffsupermatter", "stonecaves", "fftarunderground", "ffvolcanic" ]
         },
         "underground3" : {
         "primaryRegion" : [ "sulphuricunderground" ],
-          "secondaryRegion" : [ "stonecaves", "fftarunderground", "ffvolcanic" ]
+          "secondaryRegion" : [ "ffsupermatter", "stonecaves", "fftarunderground", "ffvolcanic" ]
         },
         "underground4" : {
         "primaryRegion" : [ "sulphuricunderground" ],
-          "secondaryRegion" : [ "stonecaves", "fftarunderground", "ffvolcanic" ]
+          "secondaryRegion" : [ "ffsupermatter", "stonecaves", "fftarunderground", "ffvolcanic" ]
         },
         "underground5" : {
         "primaryRegion" : [ "sulphuricunderground" ],
-          "secondaryRegion" : [ "stonecaves", "fftarunderground", "ffvolcanic" ]
+          "secondaryRegion" : [ "ffsupermatter", "stonecaves", "fftarunderground", "ffvolcanic" ]
         },
         "underground6" : {
         "primaryRegion" : [ "sulphuricunderground" ],
-          "secondaryRegion" : [ "stonecaves", "fftarunderground", "ffvolcanic" ]
+          "secondaryRegion" : [ "ffsupermatter", "stonecaves", "fftarunderground", "ffvolcanic" ]
         },
         "core" : {
           "primaryRegion" : [ "core" ]
@@ -1032,27 +1032,27 @@
           },
          "underground1" : {
          "primaryRegion" : [ "sulphuricunderground" ],
-          "secondaryRegion" : [ "coralcavern", "stonecaves", "fftarunderground", "ffvolcanic" ]
+          "secondaryRegion" : [ "ffsupermatter", "coralcavern", "stonecaves", "fftarunderground", "ffvolcanic" ]
         },
         "underground2" : {
         "primaryRegion" : [ "sulphuricunderground" ],
-          "secondaryRegion" : [ "coralcavern", "stonecaves", "fftarunderground", "ffvolcanic" ]
+          "secondaryRegion" : [ "ffsupermatter", "coralcavern", "stonecaves", "fftarunderground", "ffvolcanic" ]
         },
         "underground3" : {
         "primaryRegion" : [ "sulphuricunderground" ],
-          "secondaryRegion" : [ "coralcavern", "stonecaves", "fftarunderground", "ffvolcanic" ]
+          "secondaryRegion" : [ "ffsupermatter", "coralcavern", "stonecaves", "fftarunderground", "ffvolcanic" ]
         },
         "underground4" : {
         "primaryRegion" : [ "sulphuricunderground" ],
-          "secondaryRegion" : [ "coralcavern", "stonecaves", "fftarunderground", "ffvolcanic" ]
+          "secondaryRegion" : [ "ffsupermatter", "coralcavern", "stonecaves", "fftarunderground", "ffvolcanic" ]
         },
         "underground5" : {
         "primaryRegion" : [ "sulphuricunderground" ],
-          "secondaryRegion" : [ "coralcavern", "stonecaves", "fftarunderground", "ffvolcanic" ]
+          "secondaryRegion" : [ "ffsupermatter", "coralcavern", "stonecaves", "fftarunderground", "ffvolcanic" ]
         },
         "underground6" : {
         "primaryRegion" : [ "sulphuricunderground" ],
-          "secondaryRegion" : [ "coralcavern", "stonecaves", "fftarunderground", "ffvolcanic" ]
+          "secondaryRegion" : [ "ffsupermatter", "coralcavern", "stonecaves", "fftarunderground", "ffvolcanic" ]
         },
         "core" : {
           "primaryRegion" : [ "core" ]
@@ -2483,7 +2483,17 @@
       ]
     }
   },  
- 
+  {"op" : "add", 
+  "path" : "/regionTypes/ffsupermatter",
+  "value" : 
+  {
+      "caveLiquid" : [ "organicsoup", "alienjuice", "healingliquid" ],
+      "caveLiquidChanceRange" : [45, 75],
+      "biome" : [
+        [0, [ "ffsupermatter"]]
+      ]
+    }
+  },  
   {"op" : "add", 
   "path" : "/regionTypes/sulphuricunderground",
   "value" : 

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "supermatter", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "liquidfuel",
+    "count" : 1
+  },
+  "groups" : [ "extractionlab", "all" ]
+}

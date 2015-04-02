@@ -6,7 +6,7 @@
   "conditions" : [],
   "moneyRange" : [0,0],
   "rewards" : [ 
-    [ [ "clonelab-recipe", 1] ]
+    [ [ "ff_gasmask", 1] ]
    ],
   "planetMode" : "none",
   "questDungeons" : [ ],

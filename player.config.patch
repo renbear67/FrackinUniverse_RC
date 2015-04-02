@@ -7,5 +7,8 @@
 	"value" : { "item" : "ffguide2" } },
 	{ "op" : "add", 
 	"path" : "/defaultBlueprints/tier1/-", 
-	"value" : { "item" : "ffguide3" } }
+	"value" : { "item" : "ffguide3" } },
+	{ "op" : "add", 
+	"path" : "/defaultBlueprints/tier1/-", 
+	"value" : { "item" : "prototyper" } }
 ]

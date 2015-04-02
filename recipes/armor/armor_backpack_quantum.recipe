@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "nuclearcore", "count" : 1 },
-    { "item" : "focusingarray", "count" : 2 },
+    { "item" : "ff_focusingarray", "count" : 2 },
     { "item" : "helium3cannister", "count" : 6 },
     { "item" : "corefragmentore", "count" : 20 },
     { "item" : "densealloy", "count" : 4 },

@@ -21,6 +21,9 @@
       "stat" : "maxEnergy",
       "amount" : 60
     },
-    "energyregenfu_armor20"
+    {
+      "stat" : "maxHealth",
+      "amount" : 42
+    }
   ]
 }
