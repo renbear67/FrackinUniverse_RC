@@ -2,7 +2,7 @@
   "itemName" : "batterypack_eridian",
   "inventoryIcon" : "batterypack_eridianicon.png",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
-  "rarity" : "Common",
+  "rarity" : "legendary",
   "description" : "The best energy pack ever created.",
   "shortdescription" : "Antimatter Energy Pack",
 

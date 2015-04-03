@@ -5,7 +5,7 @@
     { "item" : "gunhousing", "count" : 1 },
     { "item" : "triggerassembly", "count" : 1 },
     { "item" : "penumbriteshard", "count" : 4 },
-    { "item" : "durasteelbar", "count" : 15 }
+    { "item" : "moonstonebar", "count" : 4 }
   ],
   "output" : {
     "item" : "mineralpistol",

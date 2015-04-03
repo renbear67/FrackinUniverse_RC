@@ -63,10 +63,12 @@
           {"weight" : 0.009, "item" : [ "tyvokkhook", 1]},
           {"weight" : 0.009, "item" : [ "vashtaclaw", 1]},
           {"weight" : 0.012, "item" : [ "mineralsample", 15]},
-          {"weight" : 0.012, "item" : [ "kungfuheadband", 1]},
-          {"weight" : 0.012, "item" : [ "jokeglasses", 1]},
-          {"weight" : 0.012, "item" : [ "steampunkmask", 1]},
-          {"weight" : 0.012, "item" : [ "duncecap", 1]},
+          {"weight" : 0.023, "item" : [ "kungfuheadband", 1]},
+          {"weight" : 0.023, "item" : [ "jokeglasses", 1]},
+          {"weight" : 0.012, "item" : [ "steampunkhead", 1]},
+          {"weight" : 0.012, "item" : [ "steampunkchest", 1]},
+          {"weight" : 0.012, "item" : [ "steampunklegs", 1]},
+          {"weight" : 0.023, "item" : [ "duncecap", 1]},
           
           // sampling array recipes
           {"weight" : 0.008, "item" : [ "recipebook_samplingarray_main", 1]},            

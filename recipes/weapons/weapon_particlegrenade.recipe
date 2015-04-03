@@ -1,8 +1,7 @@
 {
   "input" : [
     { "item" : "particlecannister", "count" : 1 },
-    { "item" : "uraniumrod", "count" : 1 },
-    { "item" : "ceruliumcompound", "count" : 1 }
+    { "item" : "phosphorus", "count" : 4 }
   ],
   "output" : {
     "item" : "particlegrenade",

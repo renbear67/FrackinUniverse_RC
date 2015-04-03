@@ -3,7 +3,7 @@
   "inventoryIcon" : "icons.png:head",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Common",
+  "rarity" : "uncommon",
   "description" : "Look good while obliterating reality.",
   "shortdescription" : "Mad Science Goggles",
   "tooltipKind" : "armor",

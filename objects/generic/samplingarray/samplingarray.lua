@@ -3,13 +3,11 @@ local recipes =
 --  inputs = {{item = "lolitem",amount =3}, {item = "lolitem2", amount = 4}}   go like that if you want multiples
 
 -- basic materials
-{inputs = {"irradiumore" },{"irradiumore" },{"irradiumore" }, outputs = { "irradiumbar" }, time = 4},
-
 {inputs = {"glassmaterial", "rawminerals", "nutrientpaste" }, outputs = { "mineralsample" }, time = 6},
 {inputs = {"glassmaterial", "geneticmaterial", "tissueculture" }, outputs = { "dnasample" }, time = 6},
 {inputs = {"mineralsample", "dnasample", "biochipbase" }, outputs = { "biochip" }, time = 15},
 {inputs = {"glassmaterial", "protocitebar", "dnasample" }, outputs = { "vialproto", "vialproto" }, time = 15},
-{inputs = {"moonstoneore", "blisterbushplantfood", "dnasample" }, outputs = { "blisterextract", "blisterextract" }, time = 15},
+{inputs = {"moonstonebar", "blisterbushplantfood", "dnasample" }, outputs = { "blisterextract", "blisterextract" }, time = 15},
 {inputs = {"mineralsample", "mutavisksilk", "dnasample" }, outputs = { "mutaviskthread", "mutaviskthread" }, time = 10},
 {inputs = {"prisilitestar", "protorockmaterial", "mineralsample" }, outputs = { "aliencompound" }, time = 5},
 {inputs = {"methanol", "iodine", "phosphorus" }, outputs = { "methyliodide" }, time = 5},

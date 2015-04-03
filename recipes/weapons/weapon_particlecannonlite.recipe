@@ -4,7 +4,7 @@
     { "item" : "solaricrystal", "count" : 5 },
     { "item" : "gunhousing", "count" : 2 },
     { "item" : "triggerassembly", "count" : 1 },
-    { "item" : "penumbriteshard", "count" : 6 },
+    { "item" : "moonstonebar", "count" : 6 },
     { "item" : "steelbar", "count" : 7 }
   ],
   "output" : {
