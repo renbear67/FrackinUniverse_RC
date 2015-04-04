@@ -17,8 +17,8 @@
     },
     "swimboost3",
     {
-      "stat" : "energyRegen",
-      "amount" : 0.525
+      "stat" : "maxEnergy",
+      "amount" : 120
     }
   ],
 

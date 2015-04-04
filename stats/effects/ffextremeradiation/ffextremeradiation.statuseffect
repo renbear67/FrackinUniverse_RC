@@ -12,5 +12,5 @@
   "animationConfig" : "ffextremeradiation.animation",
 
   "label" : "Lethal Radiation",
-  "icon" : "/interface/statuses/biomeradioactive.png"
+  "icon" : "/interface/statuses/furadiation.png"
 }

@@ -7,7 +7,7 @@
   "description" : "Volcanic rock",
   "shortdescription" : "Volcanic Rock",
   "race" : "apex",
-
+  "health" : 25,
   "inventoryIcon" : "volcanicrock2seed6.png",
   "orientations" : [
     {

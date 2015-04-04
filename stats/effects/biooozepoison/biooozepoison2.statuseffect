@@ -12,5 +12,5 @@
   "animationConfig" : "biooozepoison.animation",
 
   "label" : "Oozed",
-  "icon" : "/interface/statuses/poison.png"
+  "icon" : "/interface/statuses/bioooze.png"
 }

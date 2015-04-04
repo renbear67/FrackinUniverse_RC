@@ -12,5 +12,5 @@
   "animationConfig" : "slimestick.animation",
 
   "label" : "Sticky Slime",
-  "icon" : "/interface/statuses/tar.png"
+  "icon" : "/interface/statuses/slime.png"
 }

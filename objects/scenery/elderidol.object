@@ -8,6 +8,7 @@
   "shortdescription" : "Altar to Cthulhu",
   "lightColor" : [0, 90, 0],
   "inventoryIcon" : "elderidol.png",
+  "health" : 75,
   "orientations" : [
     {
       "image" : "elderidol.png:<color>",

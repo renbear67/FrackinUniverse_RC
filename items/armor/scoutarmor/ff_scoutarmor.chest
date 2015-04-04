@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "rare",
-  "description" : "High energy regen",
+  "description" : "Reliable protection. Decent energy regen.",
   "shortdescription" : "Scout Chestpiece",
   "tooltipKind" : "armor",
 
@@ -30,8 +30,8 @@
       "amount" : 60
     },
     {
-      "stat" : "maxHealth",
-      "amount" : 50
+      "stat" : "maxEnergy",
+      "amount" : 70
     }
   ]
 }

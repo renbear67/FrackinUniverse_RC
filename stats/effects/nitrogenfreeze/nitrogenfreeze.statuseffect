@@ -12,5 +12,5 @@
   "animationConfig" : "nitrogenfreeze.animation",
 
   "label" : "Deadly Chill",
-  "icon" : "/interface/statuses/biomecold.png"
+  "icon" : "/interface/statuses/frozen.png"
 }

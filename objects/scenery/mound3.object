@@ -6,7 +6,7 @@
   "printable" : false,  
   "description" : "I should stick my @#$@ing hand in there!",
   "shortdescription" : "Insect Mound",
-
+  "health" : 45,
   "inventoryIcon" : "mound3.png",
   "orientations" : [
     {

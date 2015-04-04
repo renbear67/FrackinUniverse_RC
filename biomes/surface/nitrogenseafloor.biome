@@ -294,7 +294,9 @@
               [0.35, "iceball_rock" ],
               [0.35, "icebloom" ],
               [0.35, "iceplant2" ],
-              [0.35, "icespikeff" ]
+              [0.35, "icespikeff" ],
+              [0.35, "tonguebush1" ],
+              [0.35, "tonguebush2" ]
               ],
               "parameters" : { }
             }

@@ -8,7 +8,7 @@
   "shortdescription" : "Glowing Monolith",
   
   "lightColor" : [200, 25, 25],
-  
+    "health" : 46,
   "inventoryIcon" : "plynth2.png",
   "orientations" : [
     {

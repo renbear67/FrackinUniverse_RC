@@ -12,6 +12,6 @@
 
   "animationConfig" : "energyregenfu.animation",
 
-  "label" : "Energy Regeneration",
-  "icon" : "/interface/statuses/energyregen.png"
+  "label" : "E. Regen",
+  "icon" : "/interface/statuses/energyregen2.png"
 }

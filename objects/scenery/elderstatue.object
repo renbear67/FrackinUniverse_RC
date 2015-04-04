@@ -8,6 +8,7 @@
   "shortdescription" : "Cthulu Statue",
   "lightColor" : [0, 90, 0],
   "inventoryIcon" : "elderstatue.png",
+  "health" : 120,
   "orientations" : [
     {
       "image" : "elderstatue.png:<color>",
