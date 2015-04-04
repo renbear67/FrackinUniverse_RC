@@ -6,7 +6,7 @@
       "layers" : {
         "surface" : {
           "primaryRegion" : [ "mountainous" ], 
-	  "secondaryRegion" : [ "alpine", "spring" ],
+	  "secondaryRegion" : [ "alpine", "spring", "glacial", "hotsprings"  ],
           "dungeonCountRange" : [0, 2],
           "dungeons" : [ "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "humanbunker", "floranhuntinggrounds", "floranvillagetower" ]
         },
@@ -31,6 +31,35 @@
         }
       }
     }
+},
+
+{"op" : "add",
+"path": "/regionTypes/hotsprings",
+"value" : 
+	{
+      "blockSelector" : [ "mixedSurface", "medHillsSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+	  "caveLiquid" : [ "healingliquid" ],
+	  "caveLiquidChanceRange" : [100, 100],
+      "biome" : [
+        [0, [ "hotsprings" ]]
+      ]
+	}
+},
+{"op" : "add",
+"path": "/regionTypes/glacial",
+"value" : 
+	{
+      "oceanLiquid" : [ "water" ],
+	  "oceanLevelOffset" : 5, 
+      "blockSelector" : [ "canyonsSurface", "lowHillsSurface" ],
+      "fgCaveSelector" : [ "normalCaves" ],
+	  "caveLiquid" : [ "water" ],
+	  "caveLiquidChanceRange" : [50, 75],
+      "biome" : [
+        [0, [ "glacial" ]]
+      ]
+	}
 },
   {"op" : "add", 
   "path" : "/regionTypes/mountainous",
@@ -1508,7 +1537,7 @@
   {
       "caveLiquid" : [ "tarliquid", "sulphuricacid" ],
       "caveLiquidChanceRange" : [25, 100],
-      "blockSelector" : [ "submergedislandsurface", "flatDeepIslandsSurface", "floatingIslandsSurface" ],
+      "blockSelector" : [ "submergedIslandsSurface", "flatDeepIslandsSurface", "floatingIslandsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves","denseCaves" ],
       "biome" : [
         [0, [ "sulphuricocean" ]]
