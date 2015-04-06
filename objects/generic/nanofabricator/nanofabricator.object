@@ -1,13 +1,14 @@
 {
   "objectName" : "nanofabricator",
-  "rarity" : "common",
+  "rarity" : "uncommon",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
-    "config" : "/interface/windowconfig/craftingtable.config",
+    "config" : "/interface/windowconfig/nanofabricator.config",
     "filter" : [ "nanofabricator" ]
   },
   "printable" : false,
-  "description" : "Used to create advanced resources.",
+  "learnBlueprintsOnPickup" : [ "omegajumptech" ],
+  "description" : "This machine is specifically intended for upgrades and hi-tech solutions.",
   "shortdescription" : "^orange;Nano-Fabricator^white;",
   "race" : "generic",
   "category" : "crafting",
@@ -20,7 +21,7 @@
 
       "imagePosition" : [0, 0],
       "frames" : 4,
-      "animationCycle" : 2.0,
+      "animationCycle" : 0.5,
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],

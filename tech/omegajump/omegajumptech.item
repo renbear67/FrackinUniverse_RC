@@ -1,0 +1,8 @@
+{
+  "itemName" : "omegajumptechgrant",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "icon.png",
+  "description" : "Unlocks the Omega Jump tech.",
+  "shortdescription" : "Omega Jump",
+  "pickupQuestTemplates" : ["omegajump.gearup"]
+}

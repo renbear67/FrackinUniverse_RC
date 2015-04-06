@@ -1,0 +1,13 @@
+{
+  "name" : "omegaboosttech",
+  "type" : "legs",
+
+  "scripts" : ["omegaboost.lua"],
+  "actions" : [ "superjump" ],
+  "animator" : "omegaboost.animation",
+
+  "energyUsage" : 20.0,
+  "superjumpSpeed" : 250,
+  "superjumpControlForce" : 400,
+  "superjumpTime" : 0.1
+}

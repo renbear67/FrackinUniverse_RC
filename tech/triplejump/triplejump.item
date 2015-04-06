@@ -1,0 +1,8 @@
+{
+  "itemName" : "triplejumptechgrant",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "icon.png",
+  "description" : "Unlocks the Triple Jump tech.",
+  "shortdescription" : "Triple Jump",
+  "pickupQuestTemplates" : ["triplejump.gearup"]
+}

@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "blanktechcard", "count" : 1 },
+    { "item" : "graphene", "count" : 8 },
+    { "item" : "mutagene2", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "emergencybouncetechgrant2",
+    "count" : 1
+  },
+  "groups" : [ "nanofabricator", "armors", "all" ]
+}

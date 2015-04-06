@@ -1,0 +1,8 @@
+{
+  "itemName" : "quadjumptechgrant",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "icon.png",
+  "description" : "Unlocks the Quad Jump tech.",
+  "shortdescription" : "Quad Jump",
+  "pickupQuestTemplates" : ["quadjump.gearup"]
+}

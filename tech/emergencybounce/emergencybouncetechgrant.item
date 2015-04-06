@@ -1,0 +1,8 @@
+{
+  "itemName" : "emergencybouncetechgrant",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "bubble.png",
+  "description" : "Unlocks the Emergency Bounce tech.",
+  "shortdescription" : "Emergency Bounce",
+  "pickupQuestTemplates" : ["emergencybounce.gearup"]
+}

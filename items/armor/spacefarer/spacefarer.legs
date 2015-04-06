@@ -3,10 +3,11 @@
   "inventoryIcon" : "icons.png:pants",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "rare",
+  "rarity" : "uncommon",
   "description" : "Magnetic boots allow ship hull walking.",
   "shortdescription" : "Spacefarer Greaves",
   "tooltipKind" : "armor",
+  "learnBlueprintsOnPickup" : [ "spacefarerpantsadv" ],
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

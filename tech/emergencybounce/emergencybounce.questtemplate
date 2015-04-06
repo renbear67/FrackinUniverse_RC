@@ -1,0 +1,20 @@
+  {
+  "id" : "emergencybounce.gearup",
+  "prerequisites" : [ ],
+  "title" : "^orange;Emergency Bounce",
+  "text" : "This life-saving tech deploys when you reach terminal velocity, preventing you from dying on impact. ",
+  "completionText" : "This life-saving tech deploys when you reach terminal velocity, preventing you from dying on impact.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "emergencybouncetechgrant", 1], "consume" : true }
+  ],
+  "moneyRange" : [0, 0],
+  "rewards" : [
+   ],
+  "enableTech" : [
+    "emergencybouncetech"
+  ],
+  "canBeAbandoned" : true,
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : ""
+}

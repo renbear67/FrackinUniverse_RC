@@ -1,0 +1,33 @@
+{
+  "itemName" : "spacefarerheadadv",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "Enhanced protection and energy.",
+  "shortdescription" : "MK2 Spacefarer Helm",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+    {
+      "stat" : "protection",
+      "amount" : 115
+    },
+
+    {
+      "stat" : "maxEnergy",
+      "amount" : 95
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 90
+    },
+    "glowred",
+    "headlamp"
+  ]
+}

@@ -13,31 +13,7 @@ local recipes =
 {inputs = {"methanol", "iodine", "phosphorus" }, outputs = { "methyliodide" }, time = 5},
 {inputs = {"coalore", "liquidwater", "ff_silicon" }, outputs = { "graphene" }, time = 5},
 {inputs = {"crystal", "rawminerals", "liquidoil" }, outputs = { "ff_silicon" }, time = 5},
-
--- armor, weapons etc
-{inputs = {"blisterchest", "goldenglowseed", "penumbriteshard" }, outputs = { "blisterchestalt-recipe" }, time = 120},
-{inputs = {"blisterpants", "goldenglowseed", "penumbriteshard" }, outputs = { "blisterpantsalt-recipe" }, time = 120},
-{inputs = {"blisterhelm", "goldenglowseed", "penumbriteshard" }, outputs = { "blisterhelmalt-recipe" }, time = 120},
-{inputs = {"blisterhelm2", "goldenglowseed", "penumbriteshard" }, outputs = { "blisterhelmalt-recipe" }, time = 120},
-{inputs = {"ff_scouthelm", "penumbraplating", "diamond" }, outputs = { "skullreaperhelm-recipe" }, time = 120},
-{inputs = {"spikesword", "protocitebar", "cellmatter" }, outputs = { "spikesword2-recipe" }, time = 120},
-{inputs = {"spikesword2", "ff_penumbraplating", "cellmatter" }, outputs = { "spikesword3-recipe" }, time = 120},
-{inputs = {"spikesword3", "uraniumrod", "cellmatter" }, outputs = { "spikesword4-recipe" }, time = 120},
-{inputs = {"spikesword4", "prisilitestar", "cellmatter" }, outputs = { "spikesword5-recipe" }, time = 120},
-{inputs = {"ff_scoutchest", "ff_mercury", "ff_penumbraplating" }, outputs = { "ff_scoutchest_melee-recipe" }, time = 120},
-{inputs = {"ff_scouthelm", "ff_mercury", "ff_penumbraplating" }, outputs = { "ff_scouthelm_melee-recipe" }, time = 120},
-{inputs = {"ff_scoutpants", "ff_mercury", "ff_penumbraplating" }, outputs = { "ff_scoutpants_melee-recipe" }, time = 120}
-
-
-
---  *************
---  add random chance to drop higher or lower quality versions of samples? rares? etc?
---  *************
--- local.samplingbenefit = 0 --this value will be set based on items used. 
--- The higher the sampling benefit, the better chance at a super-item. These take the
--- form of things like unlockable recipes via item as in vanilla starbound, or super-seeds
--- and that sort of thing.
-
+{inputs = {"ff_scouthelm", "penumbraplating", "diamond" }, outputs = { "skullreaperhelm-recipe" }, time = 60}
 
 }
 

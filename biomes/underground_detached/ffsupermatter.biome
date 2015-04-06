@@ -13,7 +13,7 @@
     }
   ],
 
-  "mainBlock" : "magmastone",
+  "mainBlock" : "rostone",
   "subBlocks" : [ "crystalblock", "supermatter" ],
   "ores" : "ff_deepcrystalmoonOres",
 

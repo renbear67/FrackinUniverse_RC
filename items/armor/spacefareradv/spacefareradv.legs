@@ -1,0 +1,31 @@
+{
+  "itemName" : "spacefarerpantsadv",
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "Enhanced protection and energy.",
+  "shortdescription" : "MK2 Spacefarer Greaves",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "statusEffects" : [
+    {
+      "stat" : "protection",
+      "amount" : 105
+    },
+
+    {
+      "stat" : "maxEnergy",
+      "amount" : 95
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 95
+    },
+    "glowred"
+  ]
+}

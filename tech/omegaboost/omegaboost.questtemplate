@@ -1,0 +1,20 @@
+  {
+  "id" : "omegaboost.gearup",
+  "prerequisites" : [ ],
+  "title" : "^orange;Burst Jump",
+  "text" : "Burst Jump blasts you rapidly upward, and anything caught in the blast is dealt explosive damage.",
+  "completionText" : "Burst Jump blasts you rapidly upward, and anything caught in the blast is dealt explosive damage.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "omegaboosttechgrant", 1], "consume" : true }
+  ],
+  "moneyRange" : [0, 0],
+  "rewards" : [
+   ],
+  "enableTech" : [
+    "omegaboosttech"
+  ],
+  "canBeAbandoned" : true,
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : ""
+}

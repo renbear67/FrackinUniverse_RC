@@ -73,13 +73,9 @@
           // sampling array recipes
           {"weight" : 0.008, "item" : [ "recipebook_samplingarray_main", 1]},            
 	  {"weight" : 0.008, "item" : [ "recipebook_samplingarray_biochip", 1]}, 
-	  {"weight" : 0.008, "item" : [ "recipebook_samplingarray_blister", 1]}, 
 	  {"weight" : 0.008, "item" : [ "recipebook_samplingarray_liquidproto", 1]}, 
 	  {"weight" : 0.008, "item" : [ "recipebook_samplingarray_blisterextract", 1]}, 
-	  {"weight" : 0.008, "item" : [ "recipebook_samplingarray_skullreaper", 1]}, 
-	  {"weight" : 0.008, "item" : [ "recipebook_samplingarray_thornitox", 1]}, 
-          {"weight" : 0.008, "item" : [ "recipebook_samplingarray_meleescout", 1]}, 
-          {"weight" : 0.008, "item" : [ "recipebook_samplingarray_mutavisk", 1]}
+	  {"weight" : 0.008, "item" : [ "recipebook_samplingarray_skullreaper", 1]}
         ],
         "poolRounds" : [
           [0.23, 1],
@@ -145,14 +141,10 @@
           
           // sampling array recipes
           {"weight" : 0.004, "item" : [ "recipebook_samplingarray_main", 1]},            
-	  {"weight" : 0.003, "item" : [ "recipebook_samplingarray_biochip", 1]}, 
-	  {"weight" : 0.002, "item" : [ "recipebook_samplingarray_blister", 1]}, 
+	  {"weight" : 0.003, "item" : [ "recipebook_samplingarray_biochip", 1]},  
 	  {"weight" : 0.002, "item" : [ "recipebook_samplingarray_liquidproto", 1]}, 
 	  {"weight" : 0.003, "item" : [ "recipebook_samplingarray_blisterextract", 1]}, 
-	  {"weight" : 0.001, "item" : [ "recipebook_samplingarray_skullreaper", 1]}, 
-	  {"weight" : 0.002, "item" : [ "recipebook_samplingarray_thornitox", 1]}, 
-          {"weight" : 0.002, "item" : [ "recipebook_samplingarray_meleescout", 1]}, 
-          {"weight" : 0.003, "item" : [ "recipebook_samplingarray_mutavisk", 1]}
+	  {"weight" : 0.001, "item" : [ "recipebook_samplingarray_skullreaper", 1]}
         ],
         "poolRounds" : [
           [0.23, 1],
@@ -236,14 +228,10 @@
           {"weight" : 0.009, "item" :  [ "elderrelic7", 1]},
           // sampling array recipes
           {"weight" : 0.004, "item" : [ "recipebook_samplingarray_main", 1]},            
-	  {"weight" : 0.003, "item" : [ "recipebook_samplingarray_biochip", 1]}, 
-	  {"weight" : 0.002, "item" : [ "recipebook_samplingarray_blister", 1]}, 
+	  {"weight" : 0.003, "item" : [ "recipebook_samplingarray_biochip", 1]},  
 	  {"weight" : 0.002, "item" : [ "recipebook_samplingarray_liquidproto", 1]}, 
 	  {"weight" : 0.003, "item" : [ "recipebook_samplingarray_blisterextract", 1]}, 
-	  {"weight" : 0.001, "item" : [ "recipebook_samplingarray_skullreaper", 1]}, 
-	  {"weight" : 0.002, "item" : [ "recipebook_samplingarray_thornitox", 1]}, 
-          {"weight" : 0.002, "item" : [ "recipebook_samplingarray_meleescout", 1]}, 
-          {"weight" : 0.003, "item" : [ "recipebook_samplingarray_mutavisk", 1]}
+	  {"weight" : 0.001, "item" : [ "recipebook_samplingarray_skullreaper", 1]}
         ],
         "poolRounds" : [
           [0.23, 1],

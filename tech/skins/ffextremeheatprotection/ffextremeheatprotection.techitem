@@ -1,9 +1,0 @@
-{
-  "itemName" : "ffextremeheatprotectionTech",
-  "rarity" : "Legendary",
-  "inventoryIcon" : "/tech/skins/ffextremeheatprotection/overlay.png",
-  "description" : "Covers your armor in a layer of special heat-proof fibres. Also supplies oxygen.",
-  "shortdescription" : "Extreme Heat Protection",
-
-  "techModule" : "ffextremeheatprotection"
-}
