@@ -1,7 +1,6 @@
 {
   "itemName" : "ginseng",
   "rarity" : "uncommon",
-  "category" : "Farmable",
   "inventoryIcon" : "ginseng.png",
   "description" : "Known for healing and revitalizing properties.",
   "shortdescription" : "Ginseng Root",

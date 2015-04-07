@@ -1,7 +1,6 @@
 {
   "itemName" : "livingroot",
   "rarity" : "uncommon",
-  "category" : "Farmable",
   "inventoryIcon" : "livingrooticon.png",
   "description" : "Grants limited protection from harm.",
   "shortdescription" : "Freya Root",

@@ -1,7 +1,6 @@
 {
   "itemName" : "petrifiedroot",
   "rarity" : "Common",
-  "category" : "Farmable",
   "inventoryIcon" : "petrifiedrooticon.png",
   "description" : "Gives insane speed boost for a short time.", 
   "shortdescription" : "Shadow Root",

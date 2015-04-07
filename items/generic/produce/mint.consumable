@@ -1,7 +1,6 @@
 {
   "itemName" : "mint",
   "rarity" : "uncommon",
-  "category" : "Farmable",
   "inventoryIcon" : "mint.png",
   "description" : "Radiation-proof herb. Useless against Extreme radiation.",
   "shortdescription" : "Mint Herb",

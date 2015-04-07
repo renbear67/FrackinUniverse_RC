@@ -1,7 +1,6 @@
 {
   "itemName" : "lactariusindigo",
   "rarity" : "uncommon",
-  "category" : "Farmable",
   "inventoryIcon" : "lactariusindigo.png",
   "description" : "Mimics the effects of organic soup for 60 seconds.",
   "shortdescription" : "Lactarius Indigo Mushroom",

@@ -1,7 +1,6 @@
 {
   "itemName" : "ghostmushroom",
   "rarity" : "uncommon",
-  "category" : "Farmable",
   "inventoryIcon" : "ghostmushroom.png",
   "description" : "Provides invisibility to the eater of this fungus.",
   "shortdescription" : "Ghost Mushroom",

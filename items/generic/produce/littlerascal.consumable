@@ -1,7 +1,6 @@
 {
   "itemName" : "littlerascal",
   "rarity" : "uncommon",
-  "category" : "Farmable",
   "inventoryIcon" : "littlerascal.png",
   "description" : "Increases health and energy caps.",
   "shortdescription" : "Little Rascal Herb",

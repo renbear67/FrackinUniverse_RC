@@ -1,7 +1,7 @@
 {
   "itemName" : "triplejumptechgrant",
   "rarity" : "Legendary",
-  "inventoryIcon" : "icon.png",
+  "inventoryIcon" : "futech_t1.png",
   "description" : "Unlocks the Triple Jump tech.",
   "shortdescription" : "Triple Jump",
   "pickupQuestTemplates" : ["triplejump.gearup"]

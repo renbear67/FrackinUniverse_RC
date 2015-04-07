@@ -1,7 +1,6 @@
 {
   "itemName" : "goldshroom",
   "rarity" : "uncommon",
-  "category" : "Farmable",
   "inventoryIcon" : "goldshroom.png",
   "description" : "Provides glowing aura to the user.",
   "shortdescription" : "Gold Shroom",

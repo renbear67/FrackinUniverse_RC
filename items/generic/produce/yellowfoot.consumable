@@ -1,7 +1,6 @@
 {
   "itemName" : "yellowfoot",
   "rarity" : "uncommon",
-  "category" : "Farmable",
   "inventoryIcon" : "yellowfoot.png",
   "description" : "Tar won't slow you down with yellow foot!",
   "shortdescription" : "Yellow-foot Mushroom",

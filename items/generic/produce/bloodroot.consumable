@@ -1,7 +1,6 @@
 {
   "itemName" : "bloodroot",
   "rarity" : "uncommon",
-  "category" : "Farmable",
   "inventoryIcon" : "bloodroot.png",
   "description" : "Will increase your maximum health.",
   "shortdescription" : "Blood Root",

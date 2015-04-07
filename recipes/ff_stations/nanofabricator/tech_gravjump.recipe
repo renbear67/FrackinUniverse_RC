@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "wretchel", "count" : 12 },
-    { "item" : "graphene", "count" : 8 },
+    { "item" : "eridianbar", "count" : 8 },
     { "item" : "blanktechcard", "count" : 1 }
   ],
   "output" : {

@@ -1,7 +1,7 @@
 {
   "itemName" : "emergencybouncetechgrant",
   "rarity" : "Legendary",
-  "inventoryIcon" : "bubble.png",
+  "inventoryIcon" : "futech_t1.png",
   "description" : "Unlocks the Emergency Bounce tech.",
   "shortdescription" : "Emergency Bounce",
   "pickupQuestTemplates" : ["emergencybounce.gearup"]
