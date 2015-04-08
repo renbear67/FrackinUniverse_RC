@@ -1,5 +1,5 @@
 {
-  "name" : "ffshadow",
+  "name" : "ffspidernest",
   "friendlyName" : "Shadow",
 
   "spawnProfiles" : [
@@ -13,8 +13,8 @@
     }
   ],
 
-  "mainBlock" : "obsidian",
-  "subBlocks" : [ "tar", "direstone" ],
+  "mainBlock" : "corruptdirt",
+  "subBlocks" : [ "spidersilkblock", "rostone" ],
   "ores" : "ff_deepsurfaceshadowOres",
 
   "hueShiftOptions" : [0],
@@ -27,7 +27,7 @@
     "nightBottomColor" : [0, 0, 0]
   },
     "undergroundPlaceables" : {
-      "grassMod" : [ "blackslimegrass" ],
+      "grassMod" : [ "tentaclegrass" ],
       "grassModDensity" : 0.2,
 
       "items" : [
@@ -158,56 +158,6 @@
               "modHueShiftMax" : 180
             }
           ]
-        }, 
-        
-           {
-             "mode" : "floor",
-             "priority" : 1.0,
-             "variants" : 1,
-             "distribution" : "/biomes/distributions.config:potsRare",
-   
-             "type" : "object",
-             "objectSets" : [
-               {
-                 "pool" : [ [0.50, "bioshroom1" ],[0.50, "bioshroom2" ],[0.50, "bioshroom3" ],[0.50, "bioshroom4" ] ],
-                 "parameters" : { "startingStage" : 2 }
-               }
-             ]
-           },
-        {
-          "mode" : "floor",
-          "priority" : 1.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:ffunCommon",
-
-          "type" : "object",
-          "objectSets" : [
-            {
-              "pool" : [ 
-              [0.50, "ffbioshroom" ],
-              [0.50, "ffbioshroom1" ],
-              [0.50, "ffbioshroom2" ],
-              [0.50, "ffbioshroom3" ],
-              [0.50, "bioshroomblue" ],
-              [0.50, "bioshroomblue1" ],
-              [0.50, "bioshroomblue2" ],
-              [0.50, "bioshroomblue3" ],
-              [0.50, "bioshroomblue4" ],
-              [0.50, "bioshroomblue5" ],
-              [0.50, "bioshroomblue6" ],
-              [0.50, "bioshroomblue7" ] 
-              ],
-              "parameters" : { "startingStage" : 2 }
-            }
-          ]
-        },
-        {
-          "mode" : "ceiling",
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:scatteredSmall",
-
-          "type" : "grass",
-          "grasses" : [ "glowceiling", "ceilingmushroom" ]
         }
       ]
     }

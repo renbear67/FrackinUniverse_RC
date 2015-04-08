@@ -1,10 +1,10 @@
 {
   "name" : "hellhive",
-  "friendlyName" : "Scorched Hive",
+  "friendlyName" : "Hell Hive",
   "hueShiftOptions" : [-40, -25, 0, 25, 40],
 
     "mainBlock" : "hive",
-    "subBlocks" : [ "magmatile4", "obsidian" ],
+    "subBlocks" : [ "magmatile4", "obsidian", "spidersilkblock" ],
     "ores" : "ff_surfacearborealOres",
 
 

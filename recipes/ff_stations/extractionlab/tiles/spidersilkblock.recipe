@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "spidersilkblock", "count" : 50 }
+  ],
+  "output" : {
+    "item" : "silk",
+    "count" : 1
+  },
+  "groups" : [ "extractionlab", "all" ]
+}

@@ -83,7 +83,7 @@
 	"name" : "bio_ooze",
 	"tickDelta" : 3,
 	"color" : [0, 200, 0, 225],
-	"radiantLight" : [0, 95, 0],
+	"radiantLight" : [0, 125, 0],
         "statusEffects" : [ "swimming", "biooozepoison" ],
         "itemDrop" : "liquidbioooze",
         
@@ -213,7 +213,7 @@
 	"name" : "organicsoup",
 	"tickDelta" : 2,
 	"color" : [255, 0, 255, 225],
-	"radiantLight" : [75, 0, 75],
+	"radiantLight" : [115, 0, 115],
         "statusEffects" : [ "swimming", "energyregenfu05" ],
         "itemDrop" : "liquidorganicsoup",
         "interactions" : [
@@ -276,7 +276,7 @@
 	"name" : "protociteliquid",
 	"tickDelta" : 2,
 	"color" : [232, 244, 102, 220],
-	"radiantLight" : [0, 100, 0],
+	"radiantLight" : [0, 120, 0],
         "statusEffects" : [ "swimming", "energyregenfu20" ],
         "itemDrop" : "vialproto",
         "interactions" : [

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "spidersilkblock", "count" : 25 }
+  ],
+  "output" : {
+    "item" : "silk",
+    "count" : 1
+  },
+  "groups" : [ "quantumextractor", "all" ]
+}

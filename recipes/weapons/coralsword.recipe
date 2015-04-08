@@ -1,7 +1,7 @@
 {
   "input" : [
    { "item" : "coralfragment", "count" : 24 },
-   { "item" : "durasteel", "count" : 8 },
+   { "item" : "triangliumpyramid", "count" : 8 },
    { "item" : "bone", "count" : 8 }
   ],
   "output" : {

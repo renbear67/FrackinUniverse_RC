@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "ff_penumbraplating", "count" : 6 },
-    { "item" : "magneticshielding", "count" : 2 },
+    { "item" : "triangliumpyramid", "count" : 4 },
     { "item" : "ff_diamondplating", "count" : 3 },
     { "item" : "eridianbar", "count" : 4 }
   ],

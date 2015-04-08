@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "corefragmentore", "count" : 16 },
     { "item" : "electromagnet", "count" : 4 },
-    { "item" : "coil", "count" : 2 },
+    { "item" : "triangliumpyramid", "count" : 10 },
     { "item" : "particlecore", "count" : 1 },
     { "item" : "advcircuit", "count" : 2 },
     { "item" : "triggerassembly", "count" : 1 },

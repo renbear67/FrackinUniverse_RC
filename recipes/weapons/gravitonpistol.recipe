@@ -5,7 +5,7 @@
    { "item" : "triggerassembly", "count" : 1 },
    { "item" : "gunhousing", "count" : 3 },
    { "item" : "coil", "count" : 3 },
-   { "item" : "advcircuit", "count" : 3 }
+   { "item" : "triangliumpyramid", "count" : 3 }
   ],
   "output" : {
     "item" : "gravitonpistol",
