@@ -2,7 +2,7 @@
   "itemName" : "fu_nodule",
   "rarity" : "Common",
   "inventoryIcon" : "fu_nodule.png",
-  "description" : "nodule",
-  "shortdescription" : "A nodule from the deeps.",
+  "description" : "A nodule of strange gunk from the deep.",
+  "shortdescription" : "Plageus Nodule",
   "learnBlueprintsOnPickup" : [ "mutagene4" ]
 }

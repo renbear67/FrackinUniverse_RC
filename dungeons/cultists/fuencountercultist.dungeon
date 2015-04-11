@@ -43,13 +43,12 @@
     },
     {
       "value" : [200, 210, 0, 255],
-      "comment" : "glitch cultist npc",
+      "comment" : "floran cultistpredator npc",
       "brush" : [ [ "npc",
           {
             "kind" : "npc",
-            "species" : "glitch",
+            "species" : "floran",
             "typeName" : "cultistpredator",
-            // "seed" : "stable",
             "parameters" : {
               "persistent" : true
             }

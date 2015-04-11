@@ -2,7 +2,7 @@
   "objectName" : "aquapodseed",
   "rarity" : "Uncommon",
   "category" : "farmable",
-  "description" : "It's fruit enables rapid movement when suspended in liquid.",
+  "description" : "It's fruit increases swim speed. Must be planted in liquid.",
   "shortdescription" : "Aquapod Bud",
   "objectType" : "farmable",
   "printable" : false,
@@ -21,6 +21,7 @@
       "anchors" : [ "bottom" ]
     }
   ],
+  "scripts" : [ "/objects/farmables/aquapod/waterD.lua" ],
   "stages" : [
     {
       "duration" : [300, 600]

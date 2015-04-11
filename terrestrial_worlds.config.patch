@@ -219,7 +219,7 @@
        "layers" : {
         "surface" : {
           "primaryRegion" : [ "frozenvolcanic" ],
-          "secondaryRegion" : [ "bioluminescence", "ice", "rust", "crystalline", "arctic", "magma","scorched", "snow", "volcanic", "ashgarden", "crystalplain", "elder", "hellfirefield", "pitchfield", "snowyforest", "sulphuricplain" ],
+          "secondaryRegion" : [ "bioluminescence", "ice", "rust", "crystalline", "arctic", "infernus","scorched", "snow", "volcanic", "ashgarden", "crystalplain", "elder", "hellfirefield", "pitchfield", "snowyforest", "sulphuricplain" ],
           "dungeonCountRange" : [0, 2],
           "dungeons" : [ "crystalcavern" ]
         },

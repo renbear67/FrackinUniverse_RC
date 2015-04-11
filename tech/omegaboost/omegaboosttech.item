@@ -2,7 +2,7 @@
   "itemName" : "omegaboosttechgrant",
   "rarity" : "Legendary",
   "inventoryIcon" : "futech_t1.png",
-  "description" : "Unlocks the Omega Jump tech.",
-  "shortdescription" : "Omega Boost",
+  "description" : "Unlocks the Burst Jump tech.",
+  "shortdescription" : "Burst Jump",
   "pickupQuestTemplates" : ["omegaboost.gearup"]
 }
