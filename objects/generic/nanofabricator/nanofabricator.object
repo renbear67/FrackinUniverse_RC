@@ -7,7 +7,6 @@
     "filter" : [ "nanofabricator" ]
   },
   "printable" : false,
-  "learnBlueprintsOnPickup" : [ "omegajumptech" ],
   "description" : "This machine is specifically intended for upgrades and hi-tech solutions.",
   "shortdescription" : "^orange;Nano-Fabricator^white;",
   "race" : "generic",

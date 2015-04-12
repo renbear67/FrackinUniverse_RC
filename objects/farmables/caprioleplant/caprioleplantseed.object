@@ -7,13 +7,7 @@
   "objectType" : "farmable",
   "printable" : false, 
   
-  "apexDescription" : "A Capriole plant.",
-  "avianDescription" : "A Capriole plant.",
-  "floranDescription" : "A Capriole plant.",
-  "glitchDescription" : "Statement. A Capriole plant.",
-  "humanDescription" : "A Capriole plant.",
-  "hylotlDescription" : "A Capriole plant.",
-
+  "learnBlueprintsOnPickup" : [ "triplejumptechgrant" ],
   "inventoryIcon" : "caprioleplantseedicon.png",
   "orientations" : [
     {

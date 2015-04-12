@@ -1,5 +1,5 @@
 {
-  "name" : "bandage1",
+  "name" : "bandage2fu",
   "effectConfig" : {
     "healAmount" : 30,
     "emissionRate" : 3
@@ -7,7 +7,7 @@
   "defaultDuration" : 5,
 
   "scripts" : [
-    "bandage.lua"
+    "bandage2fu.lua"
   ],
 
   "animationConfig" : "bandage.animation",

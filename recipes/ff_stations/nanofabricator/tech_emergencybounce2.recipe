@@ -1,8 +1,8 @@
 {
   "input" : [
     { "item" : "blanktechcard", "count" : 1 },
-    { "item" : "corvex", "count" : 8 },
-    { "item" : "prisilitestar", "count" : 2 },
+    { "item" : "springvaultseed", "count" : 9 },
+    { "item" : "prisilitestar", "count" : 8 },
     { "item" : "mutagene3", "count" : 4 }
   ],
   "output" : {

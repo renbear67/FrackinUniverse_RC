@@ -3,5 +3,6 @@
   "rarity" : "Common",
   "inventoryIcon" : "explosivegene.png",
   "description" : "Makes things go boom. Could be explosive, restorative or defensive.",
-  "shortdescription" : "Reactive Burst"
+  "shortdescription" : "Reactive Burst",
+  "learnBlueprintsOnPickup" : [ "omegaboosttechgrant" ]
 }

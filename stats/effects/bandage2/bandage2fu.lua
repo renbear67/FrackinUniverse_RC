@@ -3,6 +3,8 @@ function init()
   animator.setParticleEmitterEmissionRate("healing", effect.configParameter("emissionRate", 3))
   animator.setParticleEmitterActive("healing", true)
   status.removeEphemeralEffect("bleeding05")
+  status.removeEphemeralEffect("bleedinglong")
+  status.removeEphemeralEffect("bleedingshort")
 end
 
 function update(dt)

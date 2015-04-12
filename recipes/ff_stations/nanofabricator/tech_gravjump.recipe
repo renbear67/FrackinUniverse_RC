@@ -1,7 +1,8 @@
 {
   "input" : [
-    { "item" : "wretchel", "count" : 12 },
-    { "item" : "eridianbar", "count" : 8 },
+    { "item" : "voidgene", "count" : 2 },
+    { "item" : "unstableparticles", "count" : 2 },
+    { "item" : "eridianbar", "count" : 6 },
     { "item" : "blanktechcard", "count" : 1 }
   ],
   "output" : {

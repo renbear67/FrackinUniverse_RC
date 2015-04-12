@@ -3,5 +3,6 @@
   "rarity" : "legendary",
   "inventoryIcon" : "voidgene.png",
   "description" : "Mysterious interdimensional genetic material.",
-  "shortdescription" : "Void Gene"
+  "shortdescription" : "Void Gene",
+  "learnBlueprintsOnPickup" : [ "omegajumptechgrant" ]
 }

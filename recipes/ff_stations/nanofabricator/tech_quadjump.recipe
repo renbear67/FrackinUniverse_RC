@@ -1,7 +1,8 @@
 {
   "input" : [
-    { "item" : "electromagnet", "count" : 2 },
+    { "item" : "particlecannister", "count" : 2 },
     { "item" : "densealloy", "count" : 4 },
+    { "item" : "caprioleplantseed", "count" : 3 },
     { "item" : "blanktechcard", "count" : 1 }
   ],
   "output" : {

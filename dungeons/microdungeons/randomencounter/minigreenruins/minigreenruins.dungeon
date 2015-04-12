@@ -296,7 +296,21 @@
 		},
 		
 		// npcs //
-		
+		{
+		"value" : [200, 110, 211, 255],
+		"comment" : "poptop monster",
+		"brush" : [ [ "npc",
+			{
+				"kind" : "monster",
+				"typeName" : "poptop",
+				"seed" : "stable",
+				"parameters" : {
+				"aggressive" : true,
+				"persistent" : true
+                                }
+			}
+			] ]
+		},		
 		{
 		"value" : [200, 100, 210, 255],
 		"comment" : "largefish monster",
@@ -308,7 +322,7 @@
 				"parameters" : {
 				"aggressive" : true,
 				"persistent" : true
-            }
+                                }
 			}
 			] ]
 		},

@@ -1,6 +1,7 @@
 {
   "input" : [
-    { "item" : "electromagnet", "count" : 2 },
+    { "item" : "goldenglowseed", "count" : 3 },
+    { "item" : "cellmatter", "count" : 20 },
     { "item" : "triangliumpyramid", "count" : 4 },
     { "item" : "blanktechcard", "count" : 1 }
   ],
