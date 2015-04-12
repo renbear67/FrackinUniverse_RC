@@ -1,7 +1,7 @@
 {
   "itemName" : "triplejumptech",
   "rarity" : "Legendary",
-  "inventoryIcon" : "/tech/omegajump.png",
+  "inventoryIcon" : "/tech/triplejump.png",
   "description" : "Jump up to three times.",
   "shortdescription" : "Triple Jump",
 

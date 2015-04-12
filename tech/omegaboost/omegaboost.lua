@@ -1,5 +1,8 @@
 function init()
   self.superJumpTimer = 0
+  self.damageProjectileType = "burstjumpboom"
+  self.damageMultiplier = 1.0
+  self.cooldown = 5
 end
 
 function input(args)
@@ -18,6 +21,13 @@ function update(args)
   if args.actions["superjump"] and mcontroller.onGround() and self.superJumpTimer <= 0 and tech.consumeTechEnergy(tech.parameter("energyUsage")) then
     tech.playSound("jumpSound")
     self.superJumpTimer = superJumpTime
+    status.addEphemeralEffects{{effect = "nofalldamage", duration = self.cooldown}}
+  local damageConfig = {
+    power = 150,
+    speed = 0,
+    physics = "default"
+  } 
+    world.spawnProjectile(self.damageProjectileType, vec2.sub(mcontroller.position(),{ 0, 2 }), entity.id(), {0, 0}, true, damageConfig)  
   end
 
   tech.setFlipped(mcontroller.facingDirection() < 0)
@@ -30,3 +40,6 @@ function update(args)
     tech.setParticleEmitterActive("jumpParticles", false)
   end
 end
+
+
+

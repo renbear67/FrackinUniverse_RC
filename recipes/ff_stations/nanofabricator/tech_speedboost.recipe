@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "electromagnet", "count" : 2 },
+    { "item" : "triangliumpyramid", "count" : 4 },
+    { "item" : "blanktechcard", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "speedboosttechgrant",
+    "count" : 1
+  },
+  "groups" : [ "nanofabricator", "armors", "all" ]
+}

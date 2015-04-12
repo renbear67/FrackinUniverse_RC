@@ -24,7 +24,10 @@
       "stat" : "protection",
       "amount" : 210
     },
-    "defenseboost30",
+    {
+      "stat" : "maxEnergy",
+      "amount" : 250
+    },
     {
       "stat" : "maxHealth",
       "amount" : 120

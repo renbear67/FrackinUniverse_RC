@@ -4,5 +4,5 @@
   "inventoryIcon" : "graphene.png",
   "description" : "Graphene is almost magical. Unlimited application.",
   "shortdescription" : "^cyan;Graphene^white;",
-  "learnBlueprintsOnPickup" : [ "eridianore", "fugausspistol", "fugaussrifle", "omegajumptechgrant", "omegaboosttechgrant", "emergencybouncetechgrant", "emergencybouncetechgrant2" ]
+  "learnBlueprintsOnPickup" : [ "eridianore", "fugausspistol", "fugaussrifle", "omegajumptechgrant", "speedboosttechgrant",  "omegaboosttechgrant", "emergencybouncetechgrant", "emergencybouncetechgrant2" ]
 }

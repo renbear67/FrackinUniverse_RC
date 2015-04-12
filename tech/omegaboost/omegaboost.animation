@@ -44,6 +44,6 @@
   },
 
   "sounds" : {
-    "jumpSound" : ["/sfx/tech/tech_superjump.wav"]
+    "jumpSound" : ["/sfx/weapons/explosion-large01.wav"]
   }
 }
