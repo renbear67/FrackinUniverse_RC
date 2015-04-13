@@ -1,0 +1,11 @@
+{
+  "input" : [
+   { "item" : "irradiumbar", "count" : 9 },
+   { "item" : "densealloy", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "irradiumsword",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "weapons", "all" ]
+}

@@ -4,5 +4,6 @@
   "inventoryIcon" : "futech_t1.png",
   "description" : "Unlocks the Burst Jump tech.",
   "shortdescription" : "Burst Jump",
-  "pickupQuestTemplates" : ["omegaboost.gearup"]
+  "pickupQuestTemplates" : ["omegaboost.gearup"],
+  "learnBlueprintsOnPickup" : [ "omegaboosttechgrant2" ]
 }
