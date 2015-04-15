@@ -1,4 +1,37 @@
 [
+
+	{
+		"op" : "add",
+		"path" : "/regionTypes/icecloudssurface",
+		"value" : {
+            "blockSelector" : [ "iceclouds" ],
+		    "fgCaveSelector" : [ "normalCaves" ],
+		    "bgCaveSelector" : [ "largeClumps" ],
+		    "fgOreSelector" : [ "empty" ],
+		    "bgOreSelector" : [ "empty" ],
+		    "subBlockSelector" : [ "largeClumps" ],
+		      "biome" : [
+		        [0, [ "tundra" ]]
+		      ]
+		    }
+	},
+
+	{
+		"op" : "add",
+		"path" : "/regionTypes/iceclouds",
+		"value" : {
+            "blockSelector" : [ "iceclouds" ],
+		    "fgCaveSelector" : [ "normalCaves" ],
+		    "bgCaveSelector" : [ "largeClumps" ],
+		    "fgOreSelector" : [ "empty" ],
+		    "bgOreSelector" : [ "empty" ],
+		    "subBlockSelector" : [ "largeClumps" ],
+		      "biome" : [
+		        [0, [ "iceclouds" ]]
+		      ]
+		    }
+	},
+	
 {"op" : "add",
 "path" : "/planetTypes/mountainous",
 "value" : {       
@@ -603,8 +636,11 @@
       {
       "threatRange" : [4, 7],
       "layers" : {
+        "atmosphere" : {
+        "primaryRegion" : [ "iceclouds" ]
+        },
         "surface" : {
-          "primaryRegion" : [ "icewaste" ],
+          "primaryRegion" : [ "icewaste", "icecloudssurface" ],
           "secondaryRegion" : [ "elder",   "ice", "snow", "icefire" ],
           "dungeonCountRange" : [0, 2],
           "dungeons" : [ "crystalcavern", "wreck", "apexresearchlab", "scifidungeon" ]
@@ -648,14 +684,17 @@
       {
       "threatRange" : [2, 4],
       "layers" : {
+        "atmosphere" : {
+        "primaryRegion" : [ "iceclouds" ]
+        },
         "surface" : {
-          "primaryRegion" : [ "icemoon" ],
+          "primaryRegion" : [ "icemoon", "icecloudssurface" ],
           "secondaryRegion" : [ "elder",   "ice", "snow", "icefire" ],
           "dungeonCountRange" : [0, 2],
           "dungeons" : [ "crystalcavern", "wreck", "apexresearchlab", "scifidungeon" ]
         },
         "subsurface" : {
-          "primaryRegion" : [ "icemoonunderground" ]
+          "primaryRegion" : [ "icemoonunderground", "iceclouds" ]
         },
          "underground1" : {
           "primaryRegion" : [ "icemoonunderground", "fffrostcavern", "icemoonheliumsea"  ]

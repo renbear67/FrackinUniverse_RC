@@ -1,0 +1,16 @@
+{
+  "name" : "regenerationminor",
+  "effectConfig" : {
+    "healTime" : 1
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "regenerationminor.lua"
+  ],
+
+  "animationConfig" : "regeneration.animation",
+
+  "label" : "Regeneration",
+  "icon" : "/interface/statuses/heal.png"
+}

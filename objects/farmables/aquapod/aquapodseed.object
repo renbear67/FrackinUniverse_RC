@@ -24,19 +24,24 @@
   "scripts" : [ "/objects/farmables/aquapod/waterD.lua" ],
   "stages" : [
     {
-      "duration" : [300, 600]
+      "duration" : [100, 200]
     },
     {
-      "duration" : [300, 600]
+      "duration" : [100, 200]
     },
     {
       "alts" : 5,
-      "duration" : [110, 130]
+      "duration" : [60, 200]
     },
     {
       "alts" : 5,
       "harvestPool" : "aquapodHarvest",
-      "resetToStage" : 2
+      "resetToStage" : 2,
+      "duration" : [420, 500]
+    },
+    {
+      "alts" : 1,
+      "duration" : [100, 200]
     }
   ]
 }

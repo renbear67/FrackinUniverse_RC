@@ -8,18 +8,12 @@ function init()
   local slows = status.statusProperty("slows", {})
   slows["frostslow"] = 0.75
   status.setStatusProperty("slows", slows)
-  self.tickDamagePercentage = 0.01
+  self.tickDamagePercentage = 0.05
   self.tickTime = 0.9
   self.tickTimer = self.tickTime
 end
 
 function update(dt)
-  mcontroller.controlModifiers({
-      groundMovementModifier = -0.7,
-      runModifier = -0.55,
-      jumpModifier = -0.55
-    })
-
   self.tickTimer = self.tickTimer - dt
   if self.tickTimer <= 0 then
     self.tickTimer = self.tickTime

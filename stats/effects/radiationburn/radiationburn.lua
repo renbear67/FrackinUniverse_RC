@@ -1,23 +1,16 @@
 function init()
   animator.setParticleEmitterOffsetRegion("lights", mcontroller.boundBox())
   animator.setParticleEmitterActive("lights", true)
-  effect.setParentDirectives("fade=00FFBB=0.15")
+  effect.setParentDirectives("fade=00FF33=0.15")
   script.setUpdateDelta(5)
-  self.tickDamagePercentage = 0.05
+  self.tickDamagePercentage = 0.012
   self.tickTime = 1.0
   self.tickTimer = self.tickTime
-
 end
 
 
 
 function update(dt)
-  mcontroller.controlModifiers({
-      groundMovementModifier = -0.10,
-      runModifier = -0.20,
-      jumpModifier = -0.15
-    })
-    
   self.tickTimer = self.tickTimer - dt
   if self.tickTimer <= 0 then
     self.tickTimer = self.tickTime

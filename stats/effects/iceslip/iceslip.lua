@@ -1,11 +1,13 @@
 function init()
-  animator.setParticleEmitterOffsetRegion("iceslip", mcontroller.boundBox())
-  animator.setParticleEmitterActive("iceslip", true)
+  animator.setParticleEmitterOffsetRegion("snow", mcontroller.boundBox())
+  animator.setParticleEmitterActive("snow", true)
 end
 
 function update(dt)
   mcontroller.controlParameters({
-      normalGroundFriction = 0.7
+        normalGroundFriction = 0.5,
+        groundForce = 10,
+        slopeSlidingFactor = 0.5
     })
 end
 
