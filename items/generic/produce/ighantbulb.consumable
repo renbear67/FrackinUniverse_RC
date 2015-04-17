@@ -8,7 +8,7 @@
   "effects" : [ [
       {
         "effect" : "bouncy",
-        "amount" : 0.50,
+        "amount" : 1.0,
         "duration" : 20
       }
     ] ],

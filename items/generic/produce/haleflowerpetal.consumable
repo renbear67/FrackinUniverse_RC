@@ -5,10 +5,7 @@
   "description" : "Tastes like bacon, restores energy like fusion.",
   "shortdescription" : "Hale Flower Petal",
   "effects" : [ [
-      {
-        "effect" : "energyregenfu75",
-        "duration" : 30
-      }
+        "energyregenfu75"
     ] ],
   "blockingEffects" : [
     "energyregenfu75"

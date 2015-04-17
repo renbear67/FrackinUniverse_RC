@@ -8,6 +8,6 @@
        "heal_90"
     ] ],
   "blockingEffects" : [
-    "foodheal720"
+    "heal_90"
   ]
 }

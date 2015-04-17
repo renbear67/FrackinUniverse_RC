@@ -5,7 +5,9 @@
   "description" : "Grants limited protection from harm.",
   "shortdescription" : "Freya Root",
   "effects" : [ [
-      { "effect" : "defenseboost30",
-	  "duration" : 125 }
+      { 
+      "effect" : "defenseboost30",
+	  "duration" : 30 
+	  }
     ] ]
 }

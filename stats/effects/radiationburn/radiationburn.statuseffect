@@ -1,6 +1,6 @@
 {
   "name" : "radiationburn",
-  "blockingStat" : "ffextremeradiationImmunity",
+  "blockingStat" : "biomeradiationImmunity", 
 
   "effectConfig" : {},
   "defaultDuration" : 5,

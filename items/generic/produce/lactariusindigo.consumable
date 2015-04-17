@@ -2,12 +2,12 @@
   "itemName" : "lactariusindigo",
   "rarity" : "uncommon",
   "inventoryIcon" : "lactariusindigo.png",
-  "description" : "Mimics the effects of organic soup for 60 seconds.",
+  "description" : "Alters gravity for the user.",
   "shortdescription" : "Lactarius Indigo Mushroom",
   "effects" : [ [
       {
-        "effect" : "organicsoupeffect",
-        "duration" : 60
+        "effect" : "helium3",
+        "duration" : 20
       }
     ] ]
 }

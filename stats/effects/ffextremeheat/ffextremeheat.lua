@@ -3,8 +3,8 @@ function init()
   animator.setParticleEmitterActive("flames", true)
   effect.setParentDirectives("fade=FF8800=0.2")
   script.setUpdateDelta(5)
-  self.tickDamagePercentage = 0.075
-  self.tickTime = 0.8
+  self.tickDamagePercentage = 0.056
+  self.tickTime = 1.0
   self.tickTimer = self.tickTime
 end
 

@@ -9,6 +9,5 @@
 
   "animationConfig" : "fumudslow.animation",
 
-  "label" : "Slow",
-  "icon" : "/interface/statuses/slow.png"
+  "label" : "Slow"
 }

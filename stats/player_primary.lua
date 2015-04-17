@@ -99,7 +99,7 @@ function update(dt)
       status.addEphemeralEffects{{effect = "slimestick"}}
     end
     
--- black slime (no bounce, slightly affects traction)
+-- black slime (bounce, slightly affects traction, poisonous)
     if groundmat == "blackslime" then
       status.addEphemeralEffects{{effect = "slimestick"}}
       status.addEphemeralEffects{{effect = "weakpoison"}}
@@ -120,29 +120,34 @@ function update(dt)
       status.addEphemeralEffects{{effect = "webstick"}}
     end
     
--- irradiated tiles (radiation burn)
+-- irradiated tiles (light radiation)
     if groundmat == "irradiatedtile" or groundmat == "irradiatedtile2" or groundmat == "irradiatedtile3" then
       status.addEphemeralEffects{{effect = "radiationburn"}}
     end
     
--- proto tiles
-
--- elder stone (poisonous)
-    if groundmat == "protorock" then
-      status.addEphemeralEffects{{effect = "weakpoison"}}
+-- proto tiles (slight regen)
+    if groundmat == "bioblock" or groundmat == "bioblock2" or groundmat == "biodirt" then
+      status.addEphemeralEffects{{effect = "regenerationminor"}}
+      mcontroller.controlModifiers({
+        groundMovementModifier = -0.15,
+        runModifier = -0.15,
+        jumpModifier = -0.15
+      })
     end
     
--- penumbra stone ()
---
---
+-- elder stone (severe radioactive)
+    if groundmat == "protorock" then
+      status.addEphemeralEffects{{effect = "ffextremeradiation"}}
+    end
+    
 
 -- *****ohgoditburns original terrain effects************
     if groundmat == "snow" then
       fallDistanceDamageFactor = 1
       mcontroller.controlModifiers({
-        groundMovementModifier = -0.8,
-        runModifier = -0.8,
-        jumpModifier = -0.8
+        groundMovementModifier = -0.73,
+        runModifier = -0.73,
+        jumpModifier = -0.73
       })
     end
 
@@ -154,17 +159,18 @@ function update(dt)
         slopeSlidingFactor = 0.2
         })
       mcontroller.controlModifiers({
-        groundMovementModifier = -0.4,
-        runModifier = -0.4,
-        jumpModifier = -0.4
+        groundMovementModifier = -0.3,
+        runModifier = -0.3,
+        jumpModifier = -0.3
       })
     end
 
     if groundmatl == "ice" or groundmatr== "ice" or
     groundmatl == "iceblock" or groundmatr == "iceblock" or
     groundmatl == "frozenwater" or groundmatr == "frozenwater" or
-    -- ***FrackinUniverse Ice Waste ice blocks below
-    groundmatl == "iceblock1" or groundmatr== "iceblock2" then
+    -- ***FrackinUniverse Ice Waste blocks below
+    groundmatl == "iceblock1" or groundmatr== "iceblock1" or
+    groundmatl == "iceblock2" or groundmatr== "iceblock2" then
       status.addEphemeralEffects{{effect = "iceslip"}}
     end
 

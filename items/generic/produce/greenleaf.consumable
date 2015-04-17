@@ -5,10 +5,7 @@
   "description" : "Restores health and energy.",
   "shortdescription" : "Greenleaf Herb",
   "effects" : [ [
-      {
-        "effect" : "energyregen96",
-        "duration" : 10
-      },
+      "energyregenfu25",
       "heal_40"
     ] ]
 }

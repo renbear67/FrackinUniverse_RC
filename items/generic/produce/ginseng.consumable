@@ -9,9 +9,6 @@
         "effect" : "heal_30",
         "duration" : 12
       },
-      {
-        "effect" : "energyregen96",
-        "duration" : 12
-      }
+      "energyregenfu15"
     ] ]
 }

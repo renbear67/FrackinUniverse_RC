@@ -8,8 +8,8 @@ function init()
   local slows = status.statusProperty("slows", {})
   slows["frostslow"] = 0.75
   status.setStatusProperty("slows", slows)
-  self.tickDamagePercentage = 0.05
-  self.tickTime = 0.9
+  self.tickDamagePercentage = 0.04
+  self.tickTime = 1.0
   self.tickTimer = self.tickTime
 end
 
