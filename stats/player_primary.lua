@@ -2,14 +2,13 @@ function init()
   self.lastYVelocity = 0
   self.fallDistance = 0
   self.hitInvulnerabilityTime = 0
+  self.suffocateSoundTimer = 0
 
   local ouchNoise = status.statusProperty("ouchNoise")
   if ouchNoise then
     animator.setSoundPool("ouch", {ouchNoise})
   end
-
 end
-
 
 function applyDamageRequest(damageRequest)
   if world.getProperty("invinciblePlayers") then
@@ -71,6 +70,7 @@ end
 
 function update(dt)
   local minimumFallDistance = 14 * (1 + status.stat("fallProtection"))
+ -- local fallDistanceDamageFactor = 3
   local minimumFallVel = 40
   local baseGravity = 80
   local gravityDiffFactor = 1 / 30.0
@@ -78,7 +78,6 @@ function update(dt)
   local curYVelocity = mcontroller.yVelocity()
 
   local yVelChange = curYVelocity - self.lastYVelocity
-
   --- edits here. If player is on ground, then we want to check material and maybe apply fall damage.
   if mcontroller.onGround() then
     local position = mcontroller.position()
@@ -208,7 +207,14 @@ function update(dt)
   end
 
   if not status.resourcePositive("breath") then
+    self.suffocateSoundTimer = self.suffocateSoundTimer - dt
+    if self.suffocateSoundTimer <= 0 then
+      self.suffocateSoundTimer = 0.5 + (0.5 * status.resourcePercentage("health"))
+      animator.playSound("suffocate")
+    end
     status.modifyResourcePercentage("health", -status.statusProperty("breathHealthPenaltyPercentageRate") * dt)
+  else
+    self.suffocateSoundTimer = 0
   end
 
   self.hitInvulnerabilityTime = math.max(self.hitInvulnerabilityTime - dt, 0)
@@ -217,7 +223,7 @@ function update(dt)
   if self.hitInvulnerabilityTime > 0 and math.fmod(self.hitInvulnerabilityTime, flashTime) > flashTime / 2 then
     status.setPrimaryDirectives("multiply=ffffff00")
   else
-    status.clearPrimaryDirectives()
+    status.setPrimaryDirectives()
   end
 
   if status.resourceLocked("energy") and status.resourcePercentage("energy") == 1 then
@@ -238,9 +244,4 @@ function update(dt)
   if not status.resourcePositive("energyRegenBlock") then
     status.modifyResourcePercentage("energy", status.stat("energyRegenPercentageRate") * dt)
   end
-
-
-  
-  
-
 end

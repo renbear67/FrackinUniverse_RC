@@ -16,8 +16,8 @@
   "fireTime" : 0.35,
   "twoHanded" : false,
   "walkWhileFiring" : false,
-  "spread" : 1,
-    "learnBlueprintsOnPickup" : [ "blistergun" ],
+
+  "learnBlueprintsOnPickup" : [ "blistergun" ],
 
   "projectileType" : "blisterpistolshot",
   "projectile" : { "speed" : 50, "power" : 4 , "color" : [255, 0, 235] },

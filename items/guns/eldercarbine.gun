@@ -16,7 +16,6 @@
   "fireTime" : 0.20,
   "twoHanded" : true,  
   "walkWhileFiring" : true,
-  "spread" : 1,
   
   "projectileType" : "cellzap1",
   "projectile" : { "speed" : 35, "power" : 3.2 , "color" : [0, 0, 0] },

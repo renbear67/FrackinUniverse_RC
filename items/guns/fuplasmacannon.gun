@@ -16,7 +16,6 @@
   "fireTime" : 1.075,
   "twoHanded" : true,
   "walkWhileFiring" : false,
-  "spread" : 1,
 
   "projectileType" : "fuplasmarifleblast",
   "projectile" : { 

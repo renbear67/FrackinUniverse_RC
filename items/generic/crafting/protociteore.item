@@ -4,5 +4,9 @@
   "inventoryIcon" : "protociteore.png",
   "description" : "A unique element found only on protoworlds.",
   "shortdescription" : "Protocyte",
-  "learnBlueprintsOnPickup" : [ "protobow", "biofuelcannistermax", "protoblockmaterial", "protocitebar" ]
+  "learnBlueprintsOnPickup" : [ 
+  "protobow", 
+  "biofuelcannistermax", 
+  "protoblockmaterial", 
+  "protocitebar" ]
 }

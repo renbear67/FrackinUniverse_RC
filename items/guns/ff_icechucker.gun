@@ -10,11 +10,12 @@
   "image" : "ff_icechucker.png",
   "handPosition" : [-4, -3],
   "firePosition" : [-10, 2],
-
   "level" : 3,
   "twoHanded" : false,
   "walkWhileFiring" : false,
   "fireTime" : 0.35,
+  "inaccuracy" : 0.06,
+  
   "projectileType" : "iceshardsmall",
   "projectile" : {
     "power" : 2.3,

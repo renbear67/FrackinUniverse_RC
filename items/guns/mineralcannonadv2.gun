@@ -16,7 +16,7 @@
   "fireTime" : 2.3,
   "twoHanded" : true,
   "walkWhileFiring" : false,
-  "spread" : 3,
+  "projectileCount" : 3,
 
   "fireOnRelease" : false,
 

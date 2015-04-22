@@ -15,10 +15,9 @@
   "tooltipKind" : "gun",
   "fireTime" : 0.5,
   "twoHanded" : true,
-
   "fireOnRelease" : false,
   "walkWhileFiring" : false,
-  "spread" : 1,
+
   "projectileType" : "hellfireprojectile2small",
   "projectile" : { 
   "speed" : 50, 

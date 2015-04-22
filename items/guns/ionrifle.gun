@@ -14,10 +14,9 @@
   "level" : 3,
   "tooltipKind" : "gun",
   "fireTime" : 0.15,
+  "inaccuracy" : 0.15,
   "twoHanded" : true,
   "walkWhileFiring" : false,
-  "spread" : 1,
-
   "fireOnRelease" : false,
 
   "projectileType" : "ionrifleshot",

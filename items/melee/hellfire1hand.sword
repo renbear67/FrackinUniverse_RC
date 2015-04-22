@@ -36,7 +36,7 @@
       "armAngle" : 90,
       "swordAngle" : 90,
       "handPosition" : [-6.0, -17.0],
-      "duration" : 0.2,
+      "duration" : 0.05,
       "statusEffects" : []
     },
     "cooldown" : {

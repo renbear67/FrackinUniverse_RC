@@ -14,9 +14,10 @@
   "level" : 2,
   "tooltipKind" : "gun",
   "fireTime" : 0.40,
+    "inaccuracy" : 0.09,
   "twoHanded" : true,  
   "walkWhileFiring" : false,
-  "spread" : 1,
+
   "learnBlueprintsOnPickup" : [ "mineralcannon" ],
   "projectileType" : "mineralcannonshot",
   "projectile" : { "speed" : 50, "power" : 5.7 , "color" : [0, 180, 0] },

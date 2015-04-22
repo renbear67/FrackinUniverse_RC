@@ -15,9 +15,9 @@
   "level" : 3,
   "tooltipKind" : "gun",
   "fireTime" : 0.45,
+    "inaccuracy" : 0.09,
   "twoHanded" : true,  
   "walkWhileFiring" : false,
-  "spread" : 1,
   
   "projectileType" : "mineralcannonshot",
   "projectile" : { "speed" : 50, "power" : 6 , "color" : [0, 180, 0] },

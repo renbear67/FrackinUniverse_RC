@@ -14,9 +14,9 @@
   "level" : 2,
   "tooltipKind" : "gun",
   "fireTime" : 0.1,
+  "inaccuracy" : 0.09,
   "twoHanded" : true,  
   "walkWhileFiring" : false,
-  "spread" : 1,
   
   "projectileType" : "razorleaf",
   "projectile" : { "speed" : 35, "power" : 0.7  },

@@ -4,12 +4,12 @@
 
   "spawnProfiles" : [
     {
-      "groups" : [ "oceansurface1" ],
-      "extraSpawns" : [  ]
+      "groups" : [ "mediumsurface1" ],
+      "extraSpawns" : [ ]
     },
     {
-      "groups" : [ "oceansurface2" ],
-      "extraSpawns" : [  ]
+      "groups" : [ "mediumsurface2" ],
+      "extraSpawns" : [ ]
     }
   ],
 
@@ -119,6 +119,10 @@
   "surfacePlaceables" : {
     "grassMod" : [ "mossgrass2" ],
     "grassModDensity" : 0.9,
+    
+    "ceilingGrassMod" : [ "undergrowth" ],
+    "ceilingGrassModDensity" : 0.5,
+    
       "items" : [
         {
           "mode" : "floor",
@@ -251,7 +255,7 @@
           "distribution" : "/biomes/distributions.config:ffunCommon",
 
           "type" : "grass",
-          "grasses" : [ "jungleflower1", "jungleflower2", "jungleflower3", "blobby", "mushroom", "tiberia"  ]
+          "grasses" : [ "jungleflower1", "jungleflower2", "jungleflower3", "blobby", "mushroom", "tiberia", "rockstacks"  ]
         },
         {
           "mode" : "floor",
@@ -262,7 +266,7 @@
           "type" : "object",
           "objectSets" : [
             {
-              "pool" : [ [0.35, "flowerred" ], [0.35, "flowerblue" ], [0.35, "floweryellow" ], [0.35, "junglebush1" ], [0.35, "junglebush2" ], [0.35, "junglebush3" ], [0.35, "junglebush4" ], [0.35, "junglebush5" ], [0.35, "junglebush6" ], [0.35, "junglebush7" ], [0.35, "junglebush8" ], [0.35, "junglebush9" ], [0.35, "junglebush10" ], [0.35, "junglebush11" ], [0.35, "junglebush12" ], [0.35, "junglebush13" ], [0.35, "junglebush14" ], [0.35, "junglebush15" ], [0.35, "junglebush16" ], [0.35, "junglebush17" ], [0.35, "junglebush18" ] ],
+              "pool" : [ [0.35, "rootbush1" ], [0.35, "rootbush2" ], [0.35, "rootbush3" ], [0.35, "rootbush4" ], [0.35, "rootbush5" ], [0.35, "swamproot1" ], [0.35, "swamproot2" ], [0.35, "swamproot3" ], [0.35, "swamproot4" ], [0.35, "swamproot5" ], [0.35, "junglebush8" ], [0.35, "junglebush9" ], [0.35, "junglebush10" ], [0.35, "junglebush11" ], [0.35, "junglebush12" ], [0.35, "junglebush13" ], [0.35, "junglebush14" ], [0.35, "junglebush15" ], [0.35, "junglebush16" ], [0.35, "junglebush17" ], [0.35, "junglebush18" ] ],
               "parameters" : { }
             }
           ]
@@ -409,18 +413,18 @@
           "treeStemList" : [ "roottree", "fleshy", "slobby", "slimey" ],
           "treeFoliageList" : [ "hanging", "lushgreen", "redleaves", "greenleaves" ]
         },
-        {
-          "mode" : "floor",
-          "priority" : 1.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:denseLarge",
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredLarge",
 
-          "type" : "tree",
-          "treeFoliageHueShiftMax" : 180,
-          "treeStemHueShiftMax" : 15,
-          "treeStemList" : [ "weeping" ],
-          "treeFoliageList" : [ "weeping" ]
-        },
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 180,
+        "treeStemHueShiftMax" : 15,
+        "treeStemList" : [ "weeping" ],
+        "treeFoliageList" : [ "weepingleaves" ]
+      },
         {
           "mode" : "floor",
           "priority" : 1.0,
@@ -445,7 +449,10 @@
     },
     "undergroundPlaceables" : {
       "grassMod" : [ "mossgrass1" ],
-      "grassModDensity" : 0.2,
+      "grassModDensity" : 0.5,
+
+      "ceilingGrassMod" : [ "roots" ],
+      "ceilingGrassModDensity" : 0.3,
 
       "items" : [
            {

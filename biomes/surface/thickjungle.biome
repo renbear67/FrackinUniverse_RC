@@ -144,6 +144,10 @@
   "surfacePlaceables" : {
     "grassMod" : [ "thickjunglegrass" ],
     "grassModDensity" : 0.9,
+    
+    "ceilingGrassMod" : [ "undergrowth" ],
+    "ceilingGrassModDensity" : 0.5,
+    
       "items" : [
            {
              "mode" : "floor",
@@ -472,8 +476,11 @@
     },
     "undergroundPlaceables" : {
       "grassMod" : [ "mossgrass2" ],
-      "grassModDensity" : 0.2,
+      "grassModDensity" : 0.5,
 
+    "ceilingGrassMod" : [ "roots" ],
+    "ceilingGrassModDensity" : 0.3,
+    
       "items" : [
         {
           "mode" : "floor",

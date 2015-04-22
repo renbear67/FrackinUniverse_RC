@@ -21,7 +21,7 @@
       "anchors" : [ "bottom" ]
     }
   ],
-  "scripts" : [ "/objects/farmables/aquapod/waterD.lua" ],
+  //"scripts" : [ "/objects/farmables/aquapod/waterD.lua" ],
   "stages" : [
     {
       "duration" : [100, 200]

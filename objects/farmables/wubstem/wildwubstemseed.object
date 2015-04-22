@@ -6,6 +6,8 @@
   "shortdescription" : "Wubstem Seed",
   "objectType" : "farmable",
   "printable" : false,
+  "soundEffect" : "/sfx/objects/wubstem.wav",
+  "soundEffectRadius" : 15,  
   "objectItem" : "dnasample",
   "inventoryIcon" : "wubstemseedicon.png",
   "orientations" : [

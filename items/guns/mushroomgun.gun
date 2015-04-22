@@ -16,7 +16,6 @@
   "fireTime" : 0.35,
   "twoHanded" : true,
   "walkWhileFiring" : false,
-  "spread" : 1,
 
   "fireOnRelease" : false,
 

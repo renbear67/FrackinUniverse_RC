@@ -5,7 +5,7 @@
   "spawnProfiles" : [
     {
       "groups" : [ "mediumsurface1" ],
-      "extraSpawns" : [ "Tidefly" ]
+      "extraSpawns" : [ ]
     },
     {
       "groups" : [ "mediumsurface2" ],

@@ -3,5 +3,9 @@
   "rarity" : "Common",
   "inventoryIcon" : "triangliumpyramid.png",
   "description" : "A melding of trianglium shards.",
-  "shortdescription" : "Trianglium Pyramid"
+  "shortdescription" : "Trianglium Pyramid",
+  "learnBlueprintsOnPickup" : [ 
+  "fuplasmagun", 
+  "fuplasmacannon"
+  ]
 }

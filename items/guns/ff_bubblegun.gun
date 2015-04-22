@@ -11,6 +11,7 @@
   "firePosition" : [20, 1.5],
   "level" : 2,
   "fireTime" : 0.08,
+  "inaccuracy" : 0.12,
   "twoHanded" : false,
   "walkWhileFiring" : false,
   "projectileType" : "friendlybubble",
