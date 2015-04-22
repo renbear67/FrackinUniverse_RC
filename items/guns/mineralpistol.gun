@@ -18,7 +18,6 @@
     "twoHanded" : false,
     "walkWhileFiring" : false,
     "rateOfFire" : [2, 7],
-    "inaccuracy" : 0.04,
     "muzzleEffect" : {
       "fireSound" : [ { "file" : "/sfx/gun/plasma_mp5.wav" } ],
       "animation" : "/animations/muzzleflash/smokemuzzle/smokemuzzle.animation"

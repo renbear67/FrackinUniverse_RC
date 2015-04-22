@@ -14,7 +14,7 @@
   "twoHanded" : false,
   "walkWhileFiring" : false,
   "fireTime" : 0.35,
-  "inaccuracy" : 0.06,
+  "inaccuracy" : 0.03,
   
   "projectileType" : "iceshardsmall",
   "projectile" : {

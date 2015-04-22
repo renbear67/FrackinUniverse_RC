@@ -15,7 +15,7 @@
     "tooltipKind" : "gun",
     "twoHanded" : true,
     "fireTime" : 0.30,
-    "inaccuracy" : 0.05,
+    "inaccuracy" : 0.035,
     "rateOfFire" : [2, 7],
     "muzzleEffect" : {
       "fireSound" : [ { "file" : "/sfx/weapons/irradiumrifle.wav" } ]

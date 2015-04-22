@@ -14,7 +14,7 @@
   "level" : 3,
   "tooltipKind" : "gun",
   "fireTime" : 0.185,
-  "inaccuracy" : 0.086,
+  "inaccuracy" : 0.025,
   "twoHanded" : true,  
   "walkWhileFiring" : false,
   "projectileType" : "blueboltsmall",

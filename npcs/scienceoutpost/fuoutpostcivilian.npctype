@@ -13,7 +13,7 @@
     "/scripts/stateMachine.lua",
     "/scripts/util.lua",
     "/scripts/vec2.lua",
-
+    "/scripts/pathing.lua",
     "/npcs/chatState.lua",
     "/npcs/converseState.lua",
     "/npcs/fleeState.lua",

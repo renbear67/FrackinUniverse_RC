@@ -14,7 +14,7 @@
   "level" : 5,
   "tooltipKind" : "gun",
   "fireTime" : 0.82,
-  "inaccuracy" : 0.32,
+  "inaccuracy" : 0.12,
   "twoHanded" : true,
   "walkWhileFiring" : false,
 
