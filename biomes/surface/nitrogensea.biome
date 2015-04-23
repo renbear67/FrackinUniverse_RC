@@ -1,7 +1,7 @@
 {
   "name" : "nitrogensea",
   "friendlyName" : "Nitrogen Ocean",
-  "statusEffects" : [ "ffextremecold", "iceslip"  ],
+  "statusEffects" : [ "ffextremecold"],
   "airless" : true,
   "breathable" : false,
   "spawnProfiles" : [

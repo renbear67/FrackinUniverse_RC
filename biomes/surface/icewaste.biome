@@ -1,7 +1,7 @@
 {
   "name" : "icewaste",
   "friendlyName" : "Frozen Wastes",
-  "statusEffects" : [ "ffextremecold", "iceslip"  ],
+  "statusEffects" : [ "ffextremecold" ],
   "airless" : true,
   "breathable" : false,
   
