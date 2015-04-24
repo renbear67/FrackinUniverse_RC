@@ -1,6 +1,6 @@
 {
   "name" : "mistyrain",
-  "icon" : "/interface/cockpit/weather/rain.png",
+  "icon" : "/interface/cockpit/weather/mistyrain.png",
 
     "particles" : [
       {

@@ -1,6 +1,6 @@
 {
   "name" : "sulphurstormlesser",
-  "icon" : "/interface/cockpit/weather/sandstorm.png",
+  "icon" : "/interface/cockpit/weather/sulphurstorm.png",
 
   "particles" : [
     {

@@ -8,7 +8,7 @@
   "shortdescription" : "Druidic Carbine",
   "image" : "druidcannon.png",
   "handPosition" : [-12, -3],
-  "firePosition" : [-4, 0],
+  "firePosition" : [8, 0],
   "weaponType" : "Bio-Weapon",
   "recoilTime" : 0.1,
   "level" : 2,

@@ -144,9 +144,9 @@ function update(dt)
     if groundmat == "snow" then
       fallDistanceDamageFactor = 1
       mcontroller.controlModifiers({
-        groundMovementModifier = -0.73,
-        runModifier = -0.73,
-        jumpModifier = -0.73
+        groundMovementModifier = -0.53,
+        runModifier = -0.53,
+        jumpModifier = -0.53
       })
     end
 

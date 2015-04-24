@@ -1,6 +1,6 @@
 {
   "name" : "firestorm",
-  "icon" : "/interface/cockpit/weather/ember.png",
+  "icon" : "/interface/cockpit/weather/firestorm.png",
 
   "particles" : [
     {

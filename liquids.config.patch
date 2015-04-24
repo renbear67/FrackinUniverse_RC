@@ -50,11 +50,6 @@
           //proto
             "liquid" : 44,
             "liquidResult" : 44
-          }, 
-          {
-          //swamp
-            "liquid" : 45,
-            "liquidResult" : 45
           },     
           {
           //acid
@@ -114,11 +109,6 @@
           //proto
             "liquid" : 44,
             "liquidResult" : 44
-          }, 
-          {
-          //swamp
-            "liquid" : 45,
-            "liquidResult" : 45
           },     
           {
           //acid
@@ -180,11 +170,6 @@
           //proto
             "liquid" : 44,
             "liquidResult" : 44
-          }, 
-          {
-          //swamp
-            "liquid" : 45,
-            "liquidResult" : 45
           },     
           {
           //acid
@@ -243,12 +228,7 @@
           //proto
             "liquid" : 44,
             "liquidResult" : 43
-          }, 
-          {
-          //swamp
-            "liquid" : 45,
-            "liquidResult" : 45
-          },     
+          },    
           {
           //acid
             "liquid" : 46,
@@ -306,12 +286,7 @@
           //soup
             "liquid" : 43,
             "liquidResult" : 41
-          },  
-          {
-          //swamp
-            "liquid" : 45,
-            "liquidResult" : 45
-          },     
+          },       
           {
           //acid
             "liquid" : 46,
@@ -339,7 +314,7 @@
     "path" : "/liquids/45", 
 	"value" : { 
 	"name" : "elderfluid",
-	"tickDelta" : 9,		
+	"tickDelta" : 6,		
 	"color" : [55, 205, 161, 225],
 	"radiantLight" : [35, 125, 101],
 	"itemDrop" : "liquidswampwater",
@@ -439,11 +414,6 @@
           //proto
             "liquid" : 44,
             "liquidResult" : 47
-          }, 
-          {
-          //swamp
-            "liquid" : 45,
-            "liquidResult" : 45
           },     
           {
           //irradium
@@ -503,12 +473,7 @@
           //proto
             "liquid" : 44,
             "liquidResult" : 47
-          }, 
-          {
-          //swamp
-            "liquid" : 45,
-            "liquidResult" : 47
-          },     
+          },      
           {
           //acid
             "liquid" : 46,
@@ -566,12 +531,7 @@
           //proto
             "liquid" : 44,
             "liquidResult" : 47
-          }, 
-          {
-          //swamp
-            "liquid" : 45,
-            "liquidResult" : 45
-          },     
+          },      
           {
           //acid
             "liquid" : 46,

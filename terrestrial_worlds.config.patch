@@ -1855,7 +1855,7 @@
   "path" : "/regionTypes/elder",
   "value" : 
   {
-      "caveLiquid" : [ "blacktar", "bio_ooze", "alienjuice" ],
+      "caveLiquid" : [ "elderfluid", "bio_ooze", "alienjuice" ],
       "blockSelector" : [ "lowHillsSurface", "mixedSurface", "mountainsSurface", "canyonsSurface", "spikesSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
