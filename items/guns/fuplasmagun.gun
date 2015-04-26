@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "rare",
   "description" : "A lovely friend to bring to a party.",
-  "shortdescription" : "Plsama Rifle",
+  "shortdescription" : "Plasma Rifle",
   "image" : "fuplasmagun.png",
   "handPosition" : [-12, -1],
   "firePosition" : [18, 1],
