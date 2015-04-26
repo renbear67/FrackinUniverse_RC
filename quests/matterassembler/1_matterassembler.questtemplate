@@ -7,7 +7,7 @@
   "conditions" : [],
   "moneyRange" : [0,0],
   "rewards" : [ 
-    [ [ "scientisthead-recipe", 1 ] ]
+    [ [ "scientisthead", 1 ] ]
     ],
   "planetMode" : "none",
   "questDungeons" : [ ],

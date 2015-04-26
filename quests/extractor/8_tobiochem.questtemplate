@@ -5,7 +5,7 @@
   "completionText" : "So, are you ready to work on the REAL stuff? I'm talking of complex chemistry. You'll need a BioChem Lab. Make one. Come back to me when you have completed most of the tasks from my colleagues.",
   "conditions" : [],
   "moneyRange" : [ 0,0 ],
-  "rewards" : [ [ "scientistchest-recipe"] ],
+  "rewards" : [ [ "scientistchest"] ],
   "planetMode" : "none",
   "questDungeons" : [ ],
   "requireTurnIn" : true,
