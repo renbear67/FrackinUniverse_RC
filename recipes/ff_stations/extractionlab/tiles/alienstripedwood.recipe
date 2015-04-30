@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "eyepiles", "count" : 50 }
+    { "item" : "alienstripedwood", "count" : 50 }
   ],
   "output" : {
     "item" : "tissueculture",

@@ -2674,7 +2674,8 @@
       "caveLiquid" : [ "liquidnitrogen" ],
       "caveLiquidChanceRange" : [35, 85],
       "oceanLiquid" : [ "liquidnitrogen" ],
-      "oceanLevelOffset" : -20,
+      "oceanLevelOffset" : 10,
+      "subBlockSelector" : [ "lowHillsSurface" ],
       "fgCaveSelector" : [ "coreCaves", "megacore", "normalmegacave" ],
       "biome" : [
         [0, [ "nitrogencorelayer"] ]
@@ -2688,7 +2689,7 @@
       "caveLiquid" : [ "bio_ooze" ],
       "caveLiquidChanceRange" : [25, 65],
       "oceanLiquid" : [ "bio_ooze" ],
-      "oceanLevelOffset" : -20,
+      "oceanLevelOffset" : 10,
       "fgCaveSelector" : [ "coreCaves", "megacore", "normalmegacave" ],
       "biome" : [
         [0, [ "protocorelayer"] ]
@@ -2702,7 +2703,7 @@
       "caveLiquid" : [ "bio_ooze" ],
       "caveLiquidChanceRange" : [25, 65],
       "oceanLiquid" : [ "protociteliquid" ],
-      "oceanLevelOffset" : -20,
+      "oceanLevelOffset" : 10,
       "fgCaveSelector" : [ "coreCaves", "megacore", "normalmegacave" ],
       "biome" : [
         [0, [ "protocorelayer"] ]
@@ -2716,7 +2717,7 @@
       "caveLiquid" : [ "irradiumliquid" ],
       "caveLiquidChanceRange" : [25, 65],
       "oceanLiquid" : [ "irradiumliquid" ],
-      "oceanLevelOffset" : -20,
+      "oceanLevelOffset" : 10,
       "fgCaveSelector" : [ "coreCaves", "megacore", "normalmegacave" ],
       "biome" : [
         [0, [ "obsidiancorelayer"] ]

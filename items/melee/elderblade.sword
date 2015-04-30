@@ -26,14 +26,14 @@
       "twoHanded" : false,
       "armAngle" : -90,
       "swordAngle" : -90,
-      "handPosition" : [-4.0, -18.5],
+      "handPosition" : [-4.0, -15.5],
       "duration" : 0.1
     },
     "windup" : {
       "twoHanded" : false,
       "armAngle" : 0,
       "swordAngle" : -60,
-      "handPosition" : [0.2, -30],
+      "handPosition" : [0.2, -24],
       "duration" : 0.05,
       "statusEffects" : [ ]
     },
@@ -41,9 +41,12 @@
       "twoHanded" : false,
       "armAngle" : -140,
       "swordAngle" : -90,
-      "handPosition" : [2.0, -15],
+      "handPosition" : [2.0, -10],
       "duration" : 0.4,
       "statusEffects" : [ ]
     }
   }
 }
+
+
+

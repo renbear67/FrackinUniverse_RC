@@ -31,5 +31,13 @@
       "alts" : 5,
       "harvestPool" : "shockshroomHarvest"
     }
-  ]
+  ],
+
+          "touchDamage" : {
+            "poly" : [ [0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0] ],
+            "damage" : 8,
+
+            "damageType" : "IgnoresDef",
+            "damageSourceKind" : "electroshock"
+          }
 }

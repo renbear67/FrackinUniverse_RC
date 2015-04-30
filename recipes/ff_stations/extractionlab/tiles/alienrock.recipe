@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "eyepiles", "count" : 50 }
+    { "item" : "ff_silicon", "count" : 50 }
   ],
   "output" : {
-    "item" : "tissueculture",
+    "item" : "ff_silicon",
     "count" : 1
   },
   "groups" : [ "extractionlab", "all" ]

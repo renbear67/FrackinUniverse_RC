@@ -37,5 +37,12 @@
       "harvestPool" : "deathblossomHarvest",
       "resetToStage" : 2
     }
-  ]
+  ],
+          "touchDamage" : {
+            "poly" : [ [0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0] ],
+            "damage" : 8,
+
+            "damageType" : "IgnoresDef",
+            "damageSourceKind" : "poison"
+          }
 }
