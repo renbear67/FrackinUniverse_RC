@@ -223,6 +223,22 @@
               [0.15, "orangebush" ],
               [0.15, "bladeplant1" ],              
               [0.15, "ferny1" ],
+              [0.15, "fireflies1"]
+          ],
+              "parameters" : { }
+            }
+          ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:ffCommon",
+
+          "type" : "object",
+          "objectSets" : [
+            {
+              "pool" : [ 
               [0.15, "rootbush1" ],
               [0.15, "rootbush2" ],
               [0.15, "rootbush3" ],
@@ -232,8 +248,7 @@
               [0.15, "swamproot2" ],
               [0.15, "swamproot3" ],
               [0.15, "swamproot4" ],
-              [0.15, "swamproot5" ],
-              [0.15, "fireflies1"]
+              [0.15, "swamproot5" ]
           ],
               "parameters" : { }
             }

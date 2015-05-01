@@ -72,8 +72,8 @@
 	{
       "blockSelector" : [ "mixedSurface", "medHillsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
-	  "caveLiquid" : [ "healingliquid" ],
-	  "caveLiquidChanceRange" : [100, 100],
+      "caveLiquid" : [ "healingliquid" ],
+      "caveLiquidChanceRange" : [100, 100],
       "biome" : [
         [0, [ "hotsprings" ]]
       ]
@@ -84,11 +84,11 @@
 "value" : 
 	{
       "oceanLiquid" : [ "water" ],
-	  "oceanLevelOffset" : 5, 
+      "oceanLevelOffset" : 5, 
       "blockSelector" : [ "canyonsSurface", "lowHillsSurface" ],
       "fgCaveSelector" : [ "normalCaves" ],
-	  "caveLiquid" : [ "water" ],
-	  "caveLiquidChanceRange" : [50, 75],
+      "caveLiquid" : [ "water" ],
+      "caveLiquidChanceRange" : [50, 75],
       "biome" : [
         [0, [ "glacial" ]]
       ]
@@ -1305,6 +1305,7 @@
   "path" : "/regionTypes/bloodstonesea",
   "value" : 
   {
+      "oceanLiquid" : [ "bloodliquid" ],
       "caveLiquid" : [ "bloodliquid" ],
       "blockSelector" : [ "flatDeepIslandsSurface", "floatingIslandsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
@@ -1334,6 +1335,7 @@
   "path" : "/regionTypes/bog",
   "value" : 
   {
+      "oceanLiquid" : [ "swampwater" ],
       "caveLiquid" : [ "swampwater", "poison", "healingliquid" ],
       "blockSelector" : [ "mixedSurface", "flatsSurface", "lowHillsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves", "fusurfacecaves" ],
@@ -1545,6 +1547,7 @@
   "path" : "/regionTypes/nitrogensea",
   "value" : 
   {
+      "oceanLiquid" : [ "liquidnitrogen" ],
       "caveLiquid" : [ "liquidnitrogen" ],
       "caveLiquidChanceRange" : [100, 100],
       "blockSelector" : [ "flatDeepIslandsSurface", "fusubmergedIslandsSurface", "fuislandsurface", "fuislandsurface2", "submergedIslandsSurface" ],
@@ -1574,6 +1577,7 @@
   "path" : "/regionTypes/sulphuricocean",
   "value" : 
   {
+      "oceanLiquid" : [ "sulphuricacid" ],
       "caveLiquid" : [ "tarliquid", "sulphuricacid" ],
       "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [ "submergedIslandsSurface", "flatDeepIslandsSurface", "floatingIslandsSurface" ],

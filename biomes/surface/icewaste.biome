@@ -155,6 +155,10 @@
           "objectSets" : [
             {
               "pool" : [ 
+              [0.35, "icesphere1" ],
+              [0.35, "icesphere2" ],
+              [0.35, "icesphere3" ],
+              [0.35, "icesphere4" ],
               [0.35, "icestalk" ],
               [0.35, "iceball_rock" ],
               [0.35, "icespikeff" ], 
