@@ -1,9 +1,7 @@
 {
   "input" : [
     { "item" : "liquidnitrogenitem", "count" : 24 },
-    { "item" : "triggerassembly", "count" : 1 },
-    { "item" : "gunhousing", "count" : 2 },
-    { "item" : "advancealloy", "count" : 6 },
+    { "item" : "denseealloy", "count" : 6 },
     { "item" : "icecrystal", "count" : 6 }
     
   ],

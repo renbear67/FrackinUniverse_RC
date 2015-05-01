@@ -2,10 +2,8 @@
   "input" : [
     { "item" : "solaricrystal", "count" : 2 },
     { "item" : "crystal", "count" : 12 },
-    { "item" : "triangliumpyramid", "count" : 4 },
-    { "item" : "icecrystal", "count" : 2 },
-    { "item" : "triggerassembly", "count" : 1 },
-    { "item" : "gunhousing", "count" : 2 }
+    { "item" : "moonstonebar", "count" : 4 },
+    { "item" : "icecrystal", "count" : 2 }
   ],
   "output" : {
     "item" : "crystalgun",

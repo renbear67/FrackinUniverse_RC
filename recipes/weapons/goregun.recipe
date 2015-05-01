@@ -1,7 +1,5 @@
 {
   "input" : [
-    { "item" : "triggerassembly", "count" : 1 },
-    { "item" : "gunhousing", "count" : 2 },
     { "item" : "fleshstrand", "count" : 45 },
     { "item" : "advancealloy", "count" : 4 }
   ],

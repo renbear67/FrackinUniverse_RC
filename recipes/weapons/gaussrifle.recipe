@@ -2,9 +2,7 @@
   "input" : [
    { "item" : "corefragmentore", "count" : 8 },
    { "item" : "coil", "count" : 5 },
-   { "item" : "triggerassembly", "count" : 1 },
-   { "item" : "gunhousing", "count" : 4 },
-   { "item" : "graphene", "count" : 24 },
+   { "item" : "graphene", "count" : 16 },
    { "item" : "electromagnet", "count" : 6 }
   ],
   "output" : {

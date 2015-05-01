@@ -1,9 +1,8 @@
 {
   "input" : [
     { "item" : "helium3cannister", "count" : 6 },
-    { "item" : "triggerassembly", "count" : 1 },
-    { "item" : "gunhousing", "count" : 2 },
-    { "item" : "protocitebar", "count" : 4 }
+    { "item" : "titaniumbar", "count" : 4 },
+    { "item" : "protocitebar", "count" : 3 }
   ],
   "output" : { "item" : "ionrifle", "count" : 1 },
   "groups" : [ "prototyper", "weapons", "all" ]

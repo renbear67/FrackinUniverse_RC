@@ -2,21 +2,12 @@
   "itemName" : "voritcap",
   "rarity" : "Common",
   "inventoryIcon" : "voritcap.png",
-  "description" : "A portable pocket of air.",
+  "description" : "Greatly increases swimming speed.",
   "shortdescription" : "Vorit Cap",
   "effects" : [ [
-      {
-        "effect" : "maxBeath",
-        "amount" : 150.00,
-        "duration" : 20
-      },
-      {
-        "effect" : "breathRegenerationRate",
-        "amount" : 30.0,
-        "duration" : 2
-      }
+  "swimboost3"
     ] ],
   "blockingEffects" : [
-    "breathRegenerationRate", "maxBreath"
+    "breathRegenerationRate", "swimboost3"
   ]
 }

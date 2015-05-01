@@ -1,11 +1,10 @@
 {
   "input" : [
-    { "item" : "imperviumcompound", "count" : 20 },
+    { "item" : "imperviumcompound", "count" : 12 },
     { "item" : "hellfireplantseed", "count" : 6 },
-    { "item" : "aliencompound", "count" : 16 },
-    { "item" : "ff_focusingarray", "count" : 4 },
-    { "item" : "gunhousing", "count" : 8 },
-    { "item" : "triggerassembly", "count" : 2 }
+    { "item" : "aliencompound", "count" : 10 },
+    { "item" : "ff_focusingarray", "count" : 1 },
+    { "item" : "prisilitestar", "count" : 4 }
   ],
   "output" : {
     "item" : "hellfirecannon",

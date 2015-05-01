@@ -5,7 +5,6 @@
     { "item" : "densiniumbar", "count" : 3 },
     { "item" : "elderrelic4", "count" : 1 },
     { "item" : "eridianbar", "count" : 2 },
-    { "item" : "triggerassembly", "count" : 1 },
     { "item" : "prisilitestar", "count" : 2 }
   ],
   "output" : {

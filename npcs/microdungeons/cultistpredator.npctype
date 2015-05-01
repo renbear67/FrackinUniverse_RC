@@ -13,6 +13,7 @@
     "/scripts/sensors.lua",
     "/scripts/stateMachine.lua",
     "/scripts/util.lua",
+    "/scripts/pathing.lua",
     "/scripts/vec2.lua",
 
     "/npcs/meleeAttackState.lua",

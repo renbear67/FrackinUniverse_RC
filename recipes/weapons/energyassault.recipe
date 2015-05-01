@@ -1,11 +1,8 @@
 {
   "input" : [
    { "item" : "steelbar", "count" : 5 },
-   { "item" : "gunhousing", "count" : 2 },
-   { "item" : "triggerassembly", "count" : 1 },
-   { "item" : "unstableparticles", "count" : 1 },
    { "item" : "electromagnet", "count" : 2 },
-   { "item" : "wire", "count" : 6 },
+   { "item" : "solaricrystal", "count" : 2 },
    { "item" : "coil", "count" : 1 }
   ],
   "output" : {

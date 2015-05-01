@@ -1,10 +1,8 @@
 {
   "input" : [
-   { "item" : "advancealloy", "count" : 10 },
-   { "item" : "electromagnet", "count" : 8 },
-   { "item" : "triggerassembly", "count" : 1 },
-   { "item" : "gunhousing", "count" : 6 },
-   { "item" : "coil", "count" : 8 },
+   { "item" : "densealloy", "count" : 8 },
+   { "item" : "electromagnet", "count" : 4 },
+   { "item" : "coil", "count" : 6 },
    { "item" : "triangliumpyramid", "count" : 6 }
   ],
   "output" : {

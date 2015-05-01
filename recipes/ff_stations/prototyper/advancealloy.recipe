@@ -1,9 +1,8 @@
 {
   "input" : [
-    { "item" : "carbonplate", "count" : 1 },
+    { "item" : "titaniumbar", "count" : 1 },
     { "item" : "protocitebar", "count" : 1 },
-    { "item" : "penumbriteshard", "count" : 1 },
-    { "item" : "triangliumpyramid", "count" : 1 }
+    { "item" : "penumbriteshard", "count" : 1 }
   ],
   "output" : {
     "item" : "advancealloy",

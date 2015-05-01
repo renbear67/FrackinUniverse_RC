@@ -1,10 +1,8 @@
 {
   "input" : [
-   { "item" : "carbonplate", "count" : 12 },
+   { "item" : "carbonplate", "count" : 8 },
    { "item" : "biofuelcannister", "count" : 12 },
-   { "item" : "corefragmentore", "count" : 14 },
-   { "item" : "triggerassembly", "count" : 1 },
-   { "item" : "gunhousing", "count" : 3 }
+   { "item" : "corefragmentore", "count" : 14 }
   ],
   "output" : {
     "item" : "napalmcannon",

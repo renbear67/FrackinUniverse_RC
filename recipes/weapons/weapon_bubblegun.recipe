@@ -1,7 +1,6 @@
 {
   "input" : [
-    { "item" : "protocitebar", "count" : 2 },
-    { "item" : "triggerassembly", "count" : 1 },
+    { "item" : "copperbar", "count" : 2 },
     { "item" : "glassmaterial", "count" : 2 },
     { "item" : "steelbar", "count" : 2 }
   ],

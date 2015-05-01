@@ -1,8 +1,6 @@
 {
   "input" : [
     { "item" : "shroom", "count" : 24 },
-    { "item" : "triggerassembly", "count" : 1 },
-    { "item" : "gunhousing", "count" : 2 },
     { "item" : "durasteelbar", "count" : 4 }
   ],
   "output" : { "item" : "mushroomgun", "count" : 1 },

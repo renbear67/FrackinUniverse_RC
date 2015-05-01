@@ -2,9 +2,7 @@
   "input" : [
     { "item" : "blisterextract", "count" : 3 },
     { "item" : "ff_penumbraplating", "count" : 3 },
-    { "item" : "triggerassembly", "count" : 1 },
-    { "item" : "gunhousing", "count" : 1 },
-    { "item" : "biochip", "count" : 3 }
+    { "item" : "titaniumbar", "count" : 3 }
   ],
   "output" : {
     "item" : "blisterpistol",

@@ -1,11 +1,9 @@
 {
   "input" : [
     { "item" : "protocitebar", "count" : 8 },
-    { "item" : "icecrystal", "count" : 2 },
     { "item" : "moonstonebar", "count" : 6 },
-    { "item" : "penumbriteshard", "count" : 2 },
-    { "item" : "diamond", "count" : 4 },
-    { "item" : "biochip", "count" : 2 }
+    { "item" : "penumbriteshard", "count" : 1 },
+    { "item" : "diamond", "count" : 2 }
   ],
   "output" : {
     "item" : "protobow",

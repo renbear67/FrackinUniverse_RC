@@ -775,7 +775,11 @@
       "comment" : "background mirror",
       "brush" : [ [ "clear" ], [ "back", "mirror" ] ]
     },
-
+    {
+      "value" : [80, 94, 80, 255],
+      "comment" : "cthulhu statue",
+      "brush" : [ [ "clear" ], [ "front", "mirror" ] ]
+    },
     {
       "value" : [200, 217, 85, 255],
       "comment" : "foreground mirror",
@@ -787,7 +791,20 @@
       "comment" : "background ancientblock",
       "brush" : [ [ "clear" ], [ "back", "ancientblock" ] ]
     },
-
+    {
+      "value" : [222, 204, 249, 255],
+      "comment" : "floran cultistpredator npc",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "npc",
+            "species" : "floran",
+            "typeName" : "cultistpredator",
+            "parameters" : {
+              "persistent" : true
+            }
+          }
+        ] ]
+    },
     {
       "value" : [87, 165, 217, 255],
       "comment" : "foreground ancientblock",
@@ -1675,7 +1692,11 @@
       "comment" : "lunarbaselantern - off state",
       "brush" : [ [ "clear" ], [ "object", "lunarbaselantern", { "parameters" : { "defaultLightState" : false } } ] ]
     },
-    
+    {
+      "value" : [85, 229, 23, 255],
+      "comment" : "2stoptele",
+      "brush" : [ [ "clear" ], [ "object", "2stoptele", { "parameters" : { "interactData" : "/interface/warping/outpostteleporter.config", "teleporterUniqueId" : "scienceoutpost" } } ] ]
+    },    
     {
       "value" : [92, 23, 229, 255],
       "comment" : "lunarbaselocker facing left",
