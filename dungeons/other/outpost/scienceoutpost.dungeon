@@ -11,13 +11,15 @@
     "protected" : true
   },
   "tiles" : [
-  //fu tiles
+  //fu stuff
+  
 		{
 			"value" : [148, 228, 208, 255],
 			"comment" : "foreground hydrotube",
 			"brush" : [ [ "clear" ], [ "front", "hydrotube" ] ]
 		},
-  //fu objects
+		
+
     {
       "value" : [197, 181, 143, 255],
       "comment" : "matterassembler facing right",
@@ -48,6 +50,91 @@
       "comment" : "samplingarray facing left",
       "brush" : [ [ "clear" ], [ "object", "samplingarray", { "direction" : "left", "parameters" : { "defaultSwitchState" : true } } ] ]
     }, 
+
+// ELDER GOODIES
+    {
+      "value" : [222, 204, 249, 255],
+      "comment" : "floran cultistpredator npc",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "npc",
+            "species" : "floran",
+            "typeName" : "cultistpredator",
+            "parameters" : {
+              "persistent" : true
+            }
+          }
+        ] ]
+    },
+    {
+      "value" : [130, 53, 26, 255],
+      "comment" : "background elderblock1",
+      "brush" : [ [ "clear" ], [ "back", "elderblock1" ] ]
+    },
+    {
+      "value" : [161, 66, 33, 255],
+      "comment" : "background elderblock2",
+      "brush" : [ [ "clear" ], [ "back", "elderblock2" ] ]
+    },
+    {
+      "value" : [169, 89, 79, 255],
+      "comment" : "background elderblock1",
+      "brush" : [ [ "clear" ], [ "back", "elderblock1" ], [ "front", "elderblock1" ] ]
+    },
+    {
+      "value" : [212, 78, 32, 255],
+      "comment" : "background elderblock2",
+      "brush" : [ [ "clear" ], [ "back", "elderblock2" ], [ "front", "elderblock2" ] ]
+    },
+    {
+      "value" : [236, 81, 27, 255],
+      "comment" : "background elderblock2",
+      "brush" : [ [ "clear" ], [ "front", "elderblock1" ] ]
+    },
+    {
+      "value" : [253, 103, 51, 255],
+      "comment" : "background elderblock2",
+      "brush" : [ [ "clear" ], [ "front", "elderblock2" ] ]
+    },
+    {
+      "value" : [243, 229, 203, 255],
+      "comment" : "bone chair",
+      "brush" : [ [ "clear" ], [ "object", "bonechair", { "direction" : "right" } ] ]
+    }, 
+    {
+      "value" : [253, 229, 205, 255],
+      "comment" : "bone chair",
+      "brush" : [ [ "clear" ], [ "object", "bonechair", { "direction" : "left" } ] ]
+    }, 
+    {
+      "value" : [241, 226, 198, 255],
+      "comment" : "bone table",
+      "brush" : [ [ "clear" ], [ "object", "bonetable", { "direction" : "right" } ] ]
+    },  
+    {
+      "value" : [242, 236, 188, 255],
+      "comment" : "bone table",
+      "brush" : [ [ "clear" ], [ "object", "bonetable", { "direction" : "left" } ] ]
+    },  
+    {
+      "value" : [220, 209, 186, 255],
+      "comment" : "bone door",
+      "brush" : [ [ "clear" ], [ "object", "bonedoor", { "direction" : "right" } ] ]
+    },  
+    {
+      "value" : [80, 94, 80, 255],
+      "comment" : "cthulhu statue",
+      "brush" : [ [ "clear" ], [ "object", "elderstatue" ] ]
+    },
+    {
+      "value" : [200, 0, 200, 255],
+      "comment" : "SWITCH",
+      "brush" : [ [ "clear" ], [ "object", "medievalswitchlever" ] ]
+    },
+
+
+
+
 
  
     {
@@ -163,7 +250,16 @@
       "comment" : "water pool foreground",
       "brush" : [ [ "clear" ], [ "liquid", "healingliquid" ] ]
     },
-
+    {
+      "value" : [171, 53, 53, 255],
+      "comment" : "blood pool foreground",
+      "brush" : [ [ "clear" ], [ "liquid", "bloodliquid" ] ]
+    },
+    {
+      "value" : [220, 255, 203, 255],
+      "comment" : "bioooze pool foreground",
+      "brush" : [ [ "clear" ], [ "liquid", "bio_ooze" ] ]
+    },
     {
       "value" : [150, 255, 0, 255],
       "comment" : "poison pool foreground",
@@ -780,90 +876,6 @@
       "comment" : "foreground mirror",
       "brush" : [ [ "clear" ], [ "front", "mirror" ] ]
     },
-    
-
-// ELDER GOODIES
-    {
-      "value" : [222, 204, 249, 255],
-      "comment" : "floran cultistpredator npc",
-      "brush" : [ [ "npc",
-          {
-            "kind" : "npc",
-            "species" : "floran",
-            "typeName" : "cultistpredator",
-            "parameters" : {
-              "persistent" : true
-            }
-          }
-        ] ]
-    },
-    {
-      "value" : [130, 53, 26, 255],
-      "comment" : "background elderblock1",
-      "brush" : [ [ "clear" ], [ "back", "elderblock1" ] ]
-    },
-    {
-      "value" : [161, 66, 33, 255],
-      "comment" : "background elderblock2",
-      "brush" : [ [ "clear" ], [ "back", "elderblock2" ] ]
-    },
-    {
-      "value" : [169, 89, 79, 255],
-      "comment" : "background elderblock1",
-      "brush" : [ [ "clear" ], [ "back", "elderblock1" ], [ "front", "elderblock1" ] ]
-    },
-    {
-      "value" : [212, 78, 32, 255],
-      "comment" : "background elderblock2",
-      "brush" : [ [ "clear" ], [ "back", "elderblock2" ], [ "front", "elderblock2" ] ]
-    },
-    {
-      "value" : [236, 81, 27, 255],
-      "comment" : "background elderblock2",
-      "brush" : [ [ "clear" ], [ "front", "elderblock1" ] ]
-    },
-    {
-      "value" : [253, 103, 51, 255],
-      "comment" : "background elderblock2",
-      "brush" : [ [ "clear" ], [ "front", "elderblock2" ] ]
-    },
-    {
-      "value" : [243, 229, 203, 255],
-      "comment" : "bone chair",
-      "brush" : [ [ "clear" ], [ "object", "bonechair", { "direction" : "right" } ] ]
-    }, 
-    {
-      "value" : [253, 229, 205, 255],
-      "comment" : "bone chair",
-      "brush" : [ [ "clear" ], [ "object", "bonechair", { "direction" : "left" } ] ]
-    }, 
-    {
-      "value" : [241, 226, 198, 255],
-      "comment" : "bone table",
-      "brush" : [ [ "clear" ], [ "object", "bonetable", { "direction" : "right" } ] ]
-    },  
-    {
-      "value" : [242, 236, 188, 255],
-      "comment" : "bone table",
-      "brush" : [ [ "clear" ], [ "object", "bonetable", { "direction" : "left" } ] ]
-    },  
-    {
-      "value" : [220, 209, 186, 255],
-      "comment" : "bone door",
-      "brush" : [ [ "clear" ], [ "object", "bonedoor", { "direction" : "right" } ] ]
-    },  
-    {
-      "value" : [80, 94, 80, 255],
-      "comment" : "cthulhu statue",
-      "brush" : [ [ "clear" ], [ "object", "elderstatue" ] ]
-    },
-    
-    
-    
-    
-    
-    
-    
     {
       "value" : [56, 107, 140, 255],
       "comment" : "background ancientblock",
@@ -2120,7 +2132,7 @@
       "rules" : [
         [ "maxSpawnCount", [1] ]
       ],
-      "def" : [ "image", [ "scienceoutpost.png", "scienceoutpost-objects.png" ] ]
+      "def" : [ "image", [ "scienceoutpost.png", "scienceoutpost-objects.png", "scienceoutpost-liquids.png", "scienceoutpost-wires.png" ] ]
     }
   ]
 }
