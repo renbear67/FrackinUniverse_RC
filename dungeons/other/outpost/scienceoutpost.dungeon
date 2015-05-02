@@ -129,11 +129,28 @@
     {
       "value" : [200, 0, 200, 255],
       "comment" : "SWITCH",
-      "brush" : [ [ "clear" ], [ "object", "medievalswitchlever" ] ]
+      "brush" : [ [ "clear" ], [ "object", "consoletribal" ] ]
     },
-
-
-
+    {
+      "value" : [88, 98, 88, 255],
+      "comment" : "elder carving1",
+      "brush" : [ [ "clear" ], [ "object", "eldercarving1" ] ]
+    },
+    {
+      "value" : [89, 99, 89, 255],
+      "comment" : "elder carving1",
+      "brush" : [ [ "clear" ], [ "object", "eldercarving2" ] ]
+    },    
+    {
+      "value" : [87, 97, 87, 255],
+      "comment" : "elder carving1",
+      "brush" : [ [ "clear" ], [ "object", "eldercarving3" ] ]
+    },
+    {
+      "value" : [86, 96, 86, 255],
+      "comment" : "elder carving1",
+      "brush" : [ [ "clear" ], [ "object", "eldercarving4" ] ]
+    },
 
 
  
