@@ -8,7 +8,7 @@
   "shortdescription" : "Strange Monument",
   "lightColor" : [171, 177, 39],
   "inventoryIcon" : "monolith4.png",
-    "health" : 75,
+    "health" : 275,
   "orientations" : [
     {
       "image" : "monolith4.png:<color>",

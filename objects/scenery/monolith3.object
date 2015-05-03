@@ -6,7 +6,7 @@
   "printable" : false,  
   "description" : "Who could have built this?",
   "shortdescription" : "Strange Monument",
-  "health" : 75,
+  "health" : 275,
   "inventoryIcon" : "monolith3.png",
   "orientations" : [
     {

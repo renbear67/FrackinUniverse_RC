@@ -77,6 +77,46 @@
       "brush" : [ [ "clear" ], [ "back", "elderblock2" ] ]
     },
     {
+      "value" : [207, 255, 60, 255],
+      "comment" : "background protorock",
+      "brush" : [ [ "clear" ], [ "back", "protorock" ] ]
+    },
+    {
+      "value" : [207, 225, 80, 255],
+      "comment" : "background protorock",
+      "brush" : [ [ "clear" ], [ "front", "protorock" ] ]
+    },
+    {
+      "value" : [103, 48, 29, 255],
+      "comment" : "background elderstone",
+      "brush" : [ [ "clear" ], [ "back", "elderstone" ] ]
+    },
+    {
+      "value" : [88, 38, 21, 255],
+      "comment" : "background elderstone",
+      "brush" : [ [ "clear" ], [ "back", "elderstone2" ] ]
+    },
+    {
+      "value" : [193, 48, 29, 255],
+      "comment" : "background elderstone",
+      "brush" : [ [ "clear" ], [ "front", "elderstone" ] ]
+    },
+    {
+      "value" : [128, 38, 21, 255],
+      "comment" : "background elderstone",
+      "brush" : [ [ "clear" ], [ "front", "elderstone2" ] ]
+    },
+    {
+      "value" : [136, 86, 69, 255],
+      "comment" : "background elderblock1",
+      "brush" : [ [ "clear" ], [ "back", "elderstone" ], [ "front", "elderstone" ] ]
+    },
+    {
+      "value" : [136, 77, 56, 255],
+      "comment" : "background elderblock2",
+      "brush" : [ [ "clear" ], [ "back", "elderstone2" ], [ "front", "elderstone2" ] ]
+    },
+    {
       "value" : [169, 89, 79, 255],
       "comment" : "background elderblock1",
       "brush" : [ [ "clear" ], [ "back", "elderblock1" ], [ "front", "elderblock1" ] ]

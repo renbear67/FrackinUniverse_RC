@@ -6,9 +6,8 @@
   "printable" : false,  
   "description" : "Yep. That's creepy.",
   "shortdescription" : "Glowing Monolith",
-  
   "lightColor" : [200, 25, 25],
-    "health" : 46,
+  "health" : 346,
   "inventoryIcon" : "plynth2.png",
   "orientations" : [
     {
