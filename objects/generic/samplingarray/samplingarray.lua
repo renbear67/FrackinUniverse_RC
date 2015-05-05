@@ -13,7 +13,7 @@ local recipes =
 {inputs = {"methanol", "iodine", "phosphorus" }, outputs = { "methyliodide" }, time = 5},
 {inputs = {"coalore", "liquidwater", "ff_silicon" }, outputs = { "graphene" }, time = 5},
 {inputs = {"crystal", "rawminerals", "liquidoil" }, outputs = { "ff_silicon" }, time = 5},
-{inputs = {"ff_scouthelm", "penumbraplating", "diamond" }, outputs = { "skullreaperhelm-recipe" }, time = 60}
+{inputs = {"ff_scouthelm", "ff_penumbraplating", "diamond" }, outputs = { "skullreaperhelm-recipe" }, time = 60}
 
 }
 

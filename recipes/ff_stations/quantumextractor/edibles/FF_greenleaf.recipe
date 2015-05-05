@@ -1,10 +1,10 @@
 {
   "input" : [
-    { "item" : "riceseed", "count" : 1 }
+    { "item" : "greenleaf", "count" : 1 }
   ],
   "output" : {
     "item" : "tissueculture",
-    "count" : 10
+    "count" : 6
   },
   "groups" : [ "quantumextractor", "all" ]
 }

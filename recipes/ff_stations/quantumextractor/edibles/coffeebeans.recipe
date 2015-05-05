@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "tomato", "count" : 1 }
+    { "item" : "coffeebeans", "count" : 1 }
   ],
   "output" : {
-    "item" : "tissueculture",
+    "item" : "geneticmaterial",
     "count" : 6
   },
   "groups" : [ "quantumextractor", "all" ]

@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "vashtaclaw", "count" : 8 },
     { "item" : "titaniumbar", "count" : 12 },
-    { "item" : "penumbraplating", "count" : 5 },
+    { "item" : "ff_penumbraplating", "count" : 5 },
     { "item" : "biochip", "count" : 2 }
   ],
   "output" : {
