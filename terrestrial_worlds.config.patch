@@ -710,22 +710,28 @@
           "primaryRegion" : [ "icemoonunderground", "iceclouds" ]
         },
          "underground1" : {
-          "primaryRegion" : [ "icemoonunderground", "fffrostcavern", "icemoonheliumsea"  ]
+          "primaryRegion" : [ "icemoonunderground" ],
+          "secondaryRegion" : [ "fffrostcavern", "icemoonheliumsea" ] 
         },
         "underground2" : {
-          "primaryRegion" : [ "icemoonunderground", "fffrostcavern", "icemoonheliumsea"  ]
+          "primaryRegion" : [ "icemoonunderground" ],
+          "secondaryRegion" : [ "fffrostcavern", "icemoonheliumsea" ] 
         },
         "underground3" : {
-          "primaryRegion" : [ "icemoonunderground", "fffrostcavern", "icemoonheliumsea"  ]
+          "primaryRegion" : [ "icemoonunderground" ],
+          "secondaryRegion" : [ "fffrostcavern", "icemoonheliumsea" ] 
         },
         "underground4" : {
-          "primaryRegion" : [ "icemoonunderground", "fffrostcavern", "icemoonheliumsea"  ]
+          "primaryRegion" : [ "icemoonunderground" ],
+          "secondaryRegion" : [ "fffrostcavern", "icemoonheliumsea" ] 
         },
         "underground5" : {
-          "primaryRegion" : [ "icemoonunderground", "fffrostcavern", "icemoonheliumsea"  ]
+          "primaryRegion" : [ "icemoonunderground" ],
+          "secondaryRegion" : [ "fffrostcavern", "icemoonheliumsea" ] 
         },
         "underground6" : {
-          "primaryRegion" : [ "icemoonunderground", "fffrostcavern", "icemoonheliumsea"  ]
+          "primaryRegion" : [ "icemoonunderground" ],
+          "secondaryRegion" : [ "fffrostcavern", "icemoonheliumsea" ] 
         },
         "core" : {
           "primaryRegion" : [ "nitrogencore" ]
