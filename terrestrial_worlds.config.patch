@@ -640,7 +640,7 @@
         "primaryRegion" : [ "iceclouds" ]
         },
         "surface" : {
-          "primaryRegion" : [ "icewaste", "icecloudssurface" ],
+          "primaryRegion" : [ "icewaste", "icecloudswastesurface" ],
           "secondaryRegion" : [ "elder",   "ice", "snow", "icefire" ],
           "dungeonCountRange" : [0, 2],
           "dungeons" : [ "crystalcavern", "wreck", "apexresearchlab", "scifidungeon" ]
@@ -678,17 +678,30 @@
         }
       }
    },
+	{
+		"op" : "add",
+		"path" : "/regionTypes/icecloudswastesurface",
+		"value" : {
+                    "blockSelector" : [ "iceclouds" ],
+		    "fgCaveSelector" : [ "normalCaves" ],
+		    "bgCaveSelector" : [ "largeClumps" ],
+		    "fgOreSelector" : [ "empty" ],
+		    "bgOreSelector" : [ "empty" ],
+		    "subBlockSelector" : [ "largeClumps" ],
+		      "biome" : [
+		        [0, [ "icewaste" ]]
+		      ]
+		    }
+	},
+	
     {"op" : "add", 
     "path" : "/planetTypes/icemoon",
     "value" : 
       {
       "threatRange" : [2, 4],
       "layers" : {
-        "atmosphere" : {
-        "primaryRegion" : [ "iceclouds" ]
-        },
         "surface" : {
-          "primaryRegion" : [ "icemoon", "icecloudssurface" ],
+          "primaryRegion" : [ "icemoon", "icecloudsmoonsurface" ],
           "secondaryRegion" : [ "elder",   "ice", "snow", "icefire" ],
           "dungeonCountRange" : [0, 2],
           "dungeons" : [ "crystalcavern", "wreck", "apexresearchlab", "scifidungeon" ]
@@ -720,6 +733,25 @@
         }
       }
    },
+
+	{
+		"op" : "add",
+		"path" : "/regionTypes/icecloudsmoonsurface",
+		"value" : {
+                    "blockSelector" : [ "iceclouds" ],
+		    "fgCaveSelector" : [ "normalCaves" ],
+		    "bgCaveSelector" : [ "largeClumps" ],
+		    "fgOreSelector" : [ "empty" ],
+		    "bgOreSelector" : [ "empty" ],
+		    "subBlockSelector" : [ "largeClumps" ],
+		      "biome" : [
+		        [0, [ "icemoon" ]]
+		      ]
+		    }
+	},
+	
+	
+	
    {"op" : "add", 
    "path" : "/planetTypes/infernus",
    "value" : 
