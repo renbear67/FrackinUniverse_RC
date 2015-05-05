@@ -2518,7 +2518,7 @@
   "path" : "/regionTypes/icemoonunderground",
   "value" : 
   {
-      "caveLiquid" : [ "water", "liquidnitrogen" ],
+      "caveLiquid" : [ "water" ],
       "caveLiquidChanceRange" : [65, 85],
       "biome" : [
         [0, [ "icemoonunderground"]]
