@@ -708,13 +708,13 @@
       "threatRange" : [2, 4],
       "layers" : {
         "surface" : {
-          "primaryRegion" : [ "icemoon", "icecloudsmoonsurface" ],
+          "primaryRegion" : [ "icemoon" ],
           "secondaryRegion" : [ "elder",   "ice", "snow", "icefire" ],
           "dungeonCountRange" : [0, 2],
           "dungeons" : [ "crystalcavern", "wreck", "apexresearchlab", "scifidungeon" ]
         },
         "subsurface" : {
-          "primaryRegion" : [ "icemoonunderground" ]
+          "primaryRegion" : [ "icemoonunderground", "icecloudsmoonsurface" ]
         },
          "underground1" : {
           "primaryRegion" : [ "icemoonunderground" ],
@@ -1464,10 +1464,10 @@
   {
       "caveLiquid" : [ "liquidnitrogen", "water" ],
       "caveLiquidChanceRange" : [30, 60],
-      "blockSelector" : [ "flatsSurface", "lowHillsSurface", "medHillsSurface", "mesasSurface", "ledgesSurface", "giantLedgesSurface" ],
+      "blockSelector" : [ "flatsSurface", "lowHillsSurface", "medHillsSurface", "ledgesSurface" ],
       "fgCaveSelector" : [ "moonSurfaceCaves", "surfaceCaves", "denseCaves"  ],
       "biome" : [
-        [0, [ "icemoon" ]]
+        [0, [ "icemoon" ] ]
       ]
     }
   },
@@ -1538,7 +1538,7 @@
       "blockSelector" : [ "iceclouds", "gassea"  ],
       "fgCaveSelector" : [ "surfaceCaves", "denseCaves" ],
       "biome" : [
-        [0, [ "icemoon" ]]
+        [0, [ "icemoonheliumsea" ]]
       ]
     }
   },
@@ -2543,9 +2543,9 @@
   "value" : 
   {
       "caveLiquid" : [ "water", "liquidnitrogen" ],
-      "caveLiquidChanceRange" : [25, 65],
+      "caveLiquidChanceRange" : [25, 55],
       "biome" : [
-        [0, [ "icemoonunderground"]]
+        [0, [ "icemoonunderground"] ]
       ]
     }
   },
