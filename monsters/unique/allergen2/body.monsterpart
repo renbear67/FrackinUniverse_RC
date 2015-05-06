@@ -1,9 +1,0 @@
-{
-  "name" : "body",
-  "category" : "allergen2",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "allergen2.png"
-  }
-}

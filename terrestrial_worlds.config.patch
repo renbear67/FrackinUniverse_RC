@@ -1458,7 +1458,7 @@
   "value" : 
   {
       "caveLiquid" : [ "liquidnitrogen", "water" ],
-      "caveLiquidChanceRange" : [40, 60],
+      "caveLiquidChanceRange" : [30, 60],
       "blockSelector" : [ "flatsSurface", "lowHillsSurface", "medHillsSurface", "mesasSurface", "ledgesSurface", "giantLedgesSurface" ],
       "fgCaveSelector" : [ "moonSurfaceCaves", "surfaceCaves", "denseCaves"  ],
       "biome" : [
@@ -2524,8 +2524,8 @@
   "path" : "/regionTypes/icemoonunderground",
   "value" : 
   {
-      "caveLiquid" : [ "water" ],
-      "caveLiquidChanceRange" : [65, 85],
+      "caveLiquid" : [ "water", "liquidnitrogen" ],
+      "caveLiquidChanceRange" : [25, 65],
       "biome" : [
         [0, [ "icemoonunderground"]]
       ]
