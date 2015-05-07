@@ -1,6 +1,6 @@
 {
-  "name" : "icewasteunderground",
-  "friendlyName" : "Nitrogen Cavern",
+  "name" : "icecloudsmoonunderground",
+  "friendlyName" : "Ice Moon Ice Clouds",
 
   "spawnProfiles" : [
     {
@@ -12,11 +12,12 @@
       "extraSpawns" : [ ]
     }
   ],
+
   "skyOptions" : [],
   
-    "mainBlock" : "ice",
-    "subBlocks" : [ "iceblock2", "slush", "snow" ],
-    "ores" : "depth3",
+  "mainBlock" : "iceblock2",
+  "subBlocks" : [ "ice", "slush", "iceblock2" ],
+  "ores" : "ff_deepicemoonOres",
     
   "parallax" : "/parallax/underground/icewasteunderground.parallax",
 
@@ -43,45 +44,6 @@
     "grassMod" : [ "icegrass2" ],
     "grassModDensity" : 0.9,
     "items" : [
-           {
-             "mode" : "ceiling",
-             "priority" : 1.0,
-             "variants" : 1,
-             "distribution" : "/biomes/distributions.config:potsRare",
-   
-             "type" : "object",
-             "objectSets" : [
-               {
-                 "pool" : [ 
-              [0.50, "icestalactite1" ],
-              [0.50, "icestalactite2" ],
-              [0.50, "icestalactite3" ],
-              [0.50, "icestalactite4" ]
-                 ],
-                 "parameters" : { "startingStage" : 2 }
-               }
-             ]
-           },
-           {
-             "mode" : "floor",
-             "priority" : 1.0,
-             "variants" : 1,
-             "distribution" : "/biomes/distributions.config:potsRare",
-   
-             "type" : "object",
-             "objectSets" : [
-               {
-                 "pool" : [ 
-              [0.50, "icespike" ],
-              [0.50, "icestalagmite1" ],
-              [0.50, "icestalagmite2" ],
-              [0.50, "icestalagmite3" ],
-              [0.50, "icestalagmite4" ]              
-                 ],
-                 "parameters" : { "startingStage" : 2 }
-               }
-             ]
-           },
         {
           "mode" : "floor",
           "priority" : 0.0,

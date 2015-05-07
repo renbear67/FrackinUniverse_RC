@@ -1,0 +1,9 @@
+{
+  "name" : "elderarmorimmunityicon",
+  "effectConfig" : {},
+
+  "scripts" : [],
+  
+  "label" : "Elder",
+  "icon" : "/interface/statuses/elderimmunity.png"
+}

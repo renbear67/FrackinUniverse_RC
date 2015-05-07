@@ -9,6 +9,7 @@
         "effect" : "runboost",
         "amount" : 1.5,
         "duration" : 5
-      }
+      }, 
+      "shadowgasimmunity"
     ] ]
 }

@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "legendary",
-  "description" : "Unknown material provides insane protection.",
+  "description" : "Unknown material provides astounding protection.",
   "shortdescription" : "Elder Chestpiece",
   "tooltipKind" : "armor",
   "maleFrames" : {
@@ -22,16 +22,17 @@
   "statusEffects" : [
     {
       "stat" : "protection",
-      "amount" : 210
+      "amount" : 300
     },
     {
       "stat" : "maxEnergy",
-      "amount" : 250
+      "amount" : 300
     },
     {
       "stat" : "maxHealth",
-      "amount" : 120
-    }
+      "amount" : 500
+    },
+    "elderarmorimmunity"
   ],
 
   "colorOptions" : [

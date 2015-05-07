@@ -1,7 +1,6 @@
 function init()
   effect.addStatModifierGroup({
-    {stat = "biooozeImmunity", amount = 1},
-    {stat = "poisonImmunity", amount = 1}
+    {stat = "fumudslowImmunity", amount = 1}
   })
 end
 

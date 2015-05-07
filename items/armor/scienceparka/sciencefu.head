@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "description" : "warm and wooly for arctic research",
-  "shortdescription" : "Scientist Hood",
+  "shortdescription" : "Arctic Hood",
   "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",

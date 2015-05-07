@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "legendary",
-  "description" : "An abhorrent helm that increases potency.",
+  "description" : "An abhorrent helm that empowers, but drives the user mad.",
   "shortdescription" : "Elder Helmet",
   "tooltipKind" : "armor",
   "maleFrames" : "head.png",
@@ -14,14 +14,14 @@
   "statusEffects" : [
     {
       "stat" : "protection",
-      "amount" : 145
+      "amount" : 175
     },
     "rage60",
     {
       "stat" : "maxEnergy",
-      "amount" : 140
+      "amount" : 180
     },
-      "energyregenfu_armor50"
+      "elderarmorimmunity"
   ],
 
   "colorOptions" : [

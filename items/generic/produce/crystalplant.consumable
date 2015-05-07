@@ -2,9 +2,9 @@
   "itemName" : "crystalplant",
   "rarity" : "rare",
   "inventoryIcon" : "crystalplant.png",
-  "description" : "You can eat this. But why?!?!",
+  "description" : "Provides immunity to poison and acid.",
   "shortdescription" : "Crystal Shard",
   "effects" : [ [
-      "wellfed"
+      "poisonImmunity", "sulphuricImmunity"
     ] ]
 }

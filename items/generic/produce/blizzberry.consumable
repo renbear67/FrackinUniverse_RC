@@ -5,7 +5,7 @@
   "description" : "Astounding protection against extreme cold.",
   "shortdescription" : "Blizzberry",
     "effects" : [ [
-    "ffextremecoldimmunity"
+    "ffextremecoldimmunity", "nitrogenfreezeimmunity"
     ] ],
   "blockingEffects" : [
     "ffextremecoldimmunity"
