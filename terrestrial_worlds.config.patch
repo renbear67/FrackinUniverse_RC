@@ -2378,6 +2378,7 @@
   {
       "caveLiquid" : [ "water", "poison" ],
       "caveLiquidChanceRange" : [5, 75],
+            "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
         [0, [ "ffcoalmine"]]
       ]
@@ -2389,6 +2390,7 @@
   {
       "caveLiquid" : [ "water", "poison" ],
       "caveLiquidChanceRange" : [5, 75],
+            "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
         [0, [ "ffcoppermine"]]
       ]
@@ -2400,6 +2402,7 @@
   {
       "caveLiquid" : [ "water", "poison" ],
       "caveLiquidChanceRange" : [5, 75],
+            "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
         [0, [ "ffsilvermine"]]
       ]
@@ -2411,6 +2414,7 @@
   {
       "caveLiquid" : [ "water", "poison" ],
       "caveLiquidChanceRange" : [5, 75],
+            "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
         [0, [ "ffgoldmine"]]
       ]
@@ -2422,6 +2426,7 @@
   {
       "caveLiquid" : [ "water", "protociteliquid", "helium3gas" ],
       "caveLiquidChanceRange" : [75, 99],
+            "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
         [0, [ "ffcoralcave"]]
       ]
@@ -2433,6 +2438,7 @@
   {
       "caveLiquid" : [ "organicsoup", "blacktar", "alienjuice", "helium3gas" ],
       "caveLiquidChanceRange" : [45, 75],
+            "bgOreSelector" : [ "commonVeins" ],  
       "biome" : [
         [0, [ "ffcrystalcavern"]]
       ]
@@ -2444,6 +2450,7 @@
   {
       "caveLiquid" : [ "water", "liquidnitrogen" ],
       "caveLiquidChanceRange" : [55, 75],
+            "bgOreSelector" : [ "commonVeins" ],  
       "biome" : [
         [0, [ "fffrostcavern"]]
       ]
@@ -2455,6 +2462,7 @@
   {
       "caveLiquid" : [ "poison", "bio_ooze", "shadowgas" ],
       "caveLiquidChanceRange" : [45, 75],
+            "bgOreSelector" : [ "commonVeins" ],  
       "biome" : [
         [0, [ "ffshadow"]]
       ]
@@ -2466,6 +2474,7 @@
   {
       "caveLiquid" : [ "lava", "blacktar" ],
       "caveLiquidChanceRange" : [55, 75],
+            "bgOreSelector" : [ "commonVeins" ],  
       "biome" : [
         [0, [ "ffvolcanic"]]
       ]
@@ -2492,6 +2501,7 @@
   {
       "caveLiquid" : [ "water", "swampwater", "poison", "blacktar" ],
       "caveLiquidChanceRange" : [5, 35],
+            "bgOreSelector" : [ "commonVeins" ],  
       "biome" : [
         [0, [ "arborealunderground"]]
       ]
@@ -2505,6 +2515,7 @@
   {
       "caveLiquid" : [ "bloodliquid", "bio_ooze", "blacktar" ],
       "caveLiquidChanceRange" : [1, 25],
+            "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
         [0, [ "atropusunderground"]]
       ]
@@ -2517,6 +2528,7 @@
   {
       "caveLiquid" : [ "bloodliquid" ],
       "caveLiquidChanceRange" : [5, 15],
+            "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
         [0, [ "bloodstoneunderground"]]
       ]
@@ -2529,6 +2541,7 @@
   {
       "caveLiquid" : [ "poison", "blacktar", "tarliquid", "swampwater" ],
       "caveLiquidChanceRange" : [95, 100],
+            "bgOreSelector" : [ "commonVeins" ],  
       "biome" : [
         [0, [ "bogunderground"]]
       ]
@@ -2540,6 +2553,7 @@
   {
       "caveLiquid" : [ "poison", "blacktar", "tarliquid", "swampwater", "healingliquid" ],
       "caveLiquidChanceRange" : [35, 55],
+            "bgOreSelector" : [ "commonVeins" ],  
       "biome" : [
         [0, [ "fungusunderground"]]
       ]
@@ -2552,6 +2566,7 @@
   {
       "caveLiquid" : [ "water", "poison", "alienjuice", "healingliquid" ],
       "caveLiquidChanceRange" : [65, 95],
+            "bgOreSelector" : [ "commonVeins" ],  
       "biome" : [
         [0, [ "shroomcave"]]
       ]
@@ -2564,6 +2579,7 @@
   {
       "caveLiquid" : [ "organicsoup", "poison", "alienjuice", "healingliquid" ],
       "caveLiquidChanceRange" : [5, 15],
+            "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
         [0, [ "crystalmoonunderground"]]
       ]
@@ -2576,6 +2592,7 @@
   {
       "caveLiquid" : [ "water", "liquidnitrogen" ],
       "caveLiquidChanceRange" : [25, 55],
+            "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
         [0, [ "icemoonunderground"] ]
       ]
@@ -2588,6 +2605,7 @@
   {
       "caveLiquid" : [ "liquidnitrogen" ],
       "caveLiquidChanceRange" : [25, 45],
+            "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
         [0, [ "icewasteunderground"]]
       ]
@@ -2601,6 +2619,7 @@
   {
       "caveLiquid" : [ "lava", "blacktar" ],
       "caveLiquidChanceRange" : [5, 25],
+            "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
         [0, [ "infernusunderground"]]
       ]
@@ -2615,6 +2634,7 @@
       "caveLiquid" : [ "swampwater", "poison","bio_ooze", "alienjuice" ], 
       "caveLiquidChanceRange" : [5, 15],
       "fgCaveSelector" : [ "acidPoolCaves", "denseCaves"  ],
+            "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
         [0, [ "irradiatedunderground"]]
       ]
@@ -2628,6 +2648,7 @@
   {
       "caveLiquid" : [ "water", "blacktar", "organicsoup", "bio_ooze", "alienjuice" ],
       "caveLiquidChanceRange" : [5, 25],
+            "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
         [0, [ "penumbraunderground"]]
       ]
@@ -2641,6 +2662,7 @@
   {
       "caveLiquid" : [ "water", "blacktar", "organicsoup", "bio_ooze", "poison" ],
       "caveLiquidChanceRange" : [5, 25],
+            "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
         [0, [ "protoworldunderground"]]
       ]
@@ -2654,6 +2676,7 @@
   {
       "caveLiquid" : [ "water", "tarliquid", "poison", "healingliquid" ],
       "caveLiquidChanceRange" : [5, 15],
+            "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
         [0, [ "slimeworldunderground"]]
       ]
@@ -2666,6 +2689,7 @@
   {
       "caveLiquid" : [ "tarliquid", "blacktar" ],
       "caveLiquidChanceRange" : [5, 75],
+            "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
         [0, [ "fftarpit"] ]
       ]
@@ -2677,6 +2701,7 @@
   {
       "caveLiquid" : [ "bloodliquid", "organicsoup", "tarliquid" ],
       "caveLiquidChanceRange" : [5, 75],
+            "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
         [0, [ "fffleshcaves"]]
       ]
@@ -2688,6 +2713,7 @@
   {
       "caveLiquid" : [ "bloodliquid", "alienjuice", "sulphuricacid" ],
       "caveLiquidChanceRange" : [5, 75],
+            "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
         [0, [ "ffbonecaves"]]
       ]
@@ -2699,6 +2725,7 @@
   {
       "caveLiquid" : [ "bloodliquid", "alienjuice", "healingliquid" ],
       "caveLiquidChanceRange" : [5, 75],
+            "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
         [0, [ "ffcellcaves"]]
       ]
@@ -2710,6 +2737,7 @@
   {
       "caveLiquid" : [ "organicsoup", "alienjuice", "healingliquid" ],
       "caveLiquidChanceRange" : [45, 75],
+            "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
         [0, [ "ffsupermatter"]]
       ]
@@ -2721,6 +2749,7 @@
   {
       "caveLiquid" : [ "sulphuricacid" ],
       "caveLiquidChanceRange" : [5, 5],
+            "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
         [0, [ "sulphuricunderground"]]
       ]
@@ -2732,6 +2761,7 @@
   {
       "caveLiquid" : [ "tarliquid", "fuel" ],
       "caveLiquidChanceRange" : [5, 25],
+            "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
         [0, [ "metallicunderground"]]
       ]
@@ -2743,6 +2773,7 @@
   {
       "caveLiquid" : [ "blacktar", "tarliquid" ],
       "caveLiquidChanceRange" : [5, 25],
+            "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
         [0, [ "lightlessunderground"]]
       ]
@@ -2754,6 +2785,7 @@
   {
       "caveLiquid" : [ "water", "tarliquid" ],
       "caveLiquidChanceRange" : [65, 100],
+            "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
         [0, [ "thickjungleunderground"]]
       ]
@@ -2769,6 +2801,7 @@
       "oceanLevelOffset" : 10,
       "subBlockSelector" : [ "lowHillsSurface" ],
       "fgCaveSelector" : [ "coreCaves", "megacore", "normalmegacave" ],
+      "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
         [0, [ "nitrogencorelayer"] ]
       ]
@@ -2783,6 +2816,7 @@
       "oceanLiquid" : [ "bio_ooze" ],
       "oceanLevelOffset" : 10,
       "fgCaveSelector" : [ "coreCaves", "megacore", "normalmegacave" ],
+      "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
         [0, [ "protocorelayer"] ]
       ]
@@ -2797,6 +2831,7 @@
       "oceanLiquid" : [ "protociteliquid" ],
       "oceanLevelOffset" : 10,
       "fgCaveSelector" : [ "coreCaves", "megacore", "normalmegacave" ],
+      "bgOreSelector" : [ "denseVeins" ],        
       "biome" : [
         [0, [ "protocorelayer"] ]
       ]
@@ -2811,6 +2846,7 @@
       "oceanLiquid" : [ "irradiumliquid" ],
       "oceanLevelOffset" : 10,
       "fgCaveSelector" : [ "coreCaves", "megacore", "normalmegacave" ],
+      "bgOreSelector" : [ "denseVeins" ],   
       "biome" : [
         [0, [ "obsidiancorelayer"] ]
       ]
