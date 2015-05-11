@@ -1334,7 +1334,7 @@
       "caveLiquid" : [ "swampwater", "poison", "healingliquid" ],
       "blockSelector" : [ "mixedSurface", "flatsSurface", "lowHillsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves", "fusurfacecaves" ],
-      "bgOreSelector" : [ "sommonVeins" ],       
+      "bgOreSelector" : [ "commonVeins" ],       
       "caveLiquidChanceRange" : [100, 100],
       "biome" : [
         [0, [ "bog" ]]
