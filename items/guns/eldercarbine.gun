@@ -17,7 +17,7 @@
   "twoHanded" : true,  
   "walkWhileFiring" : true,
   
-  "projectileType" : "cellzap1",
+  "projectileType" : "elderburst",
   "projectile" : { "speed" : 35, "power" : 3.2 , "color" : [0, 0, 0] },
   "muzzleEffect" : {
        "fireSound" : [ { "file" : "/sfx/weapons/eldercarbine.wav" } ],

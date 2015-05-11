@@ -2,7 +2,7 @@
   "itemName" : "diodiahybrid",
   "rarity" : "Common",
   "inventoryIcon" : "diodiahybrid.png",
-  "description" : "This hybrid fruit restores some energy.",
+  "description" : "Restores energy and blocks mud.",
   "shortdescription" : "Diodia Hybrid Fruit",
   "effects" : [ [
       {

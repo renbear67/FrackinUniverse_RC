@@ -2,7 +2,7 @@
   "itemName" : "petrifiedroot",
   "rarity" : "Common",
   "inventoryIcon" : "petrifiedrooticon.png",
-  "description" : "Gives insane speed boost for a short time.", 
+  "description" : "Boosts speed and blocks shadow gas.", 
   "shortdescription" : "Shadow Root",
   "effects" : [ [
       {

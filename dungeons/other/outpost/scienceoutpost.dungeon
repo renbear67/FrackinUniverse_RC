@@ -67,6 +67,12 @@
         ] ]
     },
     {
+      "value" : [138, 141, 122, 255],
+      "comment" : "stairs/platform",
+      "brush" : [ [ "clear" ], [ "front", "elderplatform
+      " ] ]
+    },
+    {
       "value" : [130, 53, 26, 255],
       "comment" : "background elderblock1",
       "brush" : [ [ "clear" ], [ "back", "elderblock1" ] ]
