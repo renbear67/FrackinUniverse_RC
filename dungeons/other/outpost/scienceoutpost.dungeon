@@ -68,9 +68,8 @@
     },
     {
       "value" : [138, 141, 122, 255],
-      "comment" : "stairs/platform",
-      "brush" : [ [ "clear" ], [ "front", "elderplatform
-      " ] ]
+      "comment" : "background elderplatform",
+      "brush" : [ [ "clear" ], [ "front", "elderplatform" ] ]
     },
     {
       "value" : [130, 53, 26, 255],
