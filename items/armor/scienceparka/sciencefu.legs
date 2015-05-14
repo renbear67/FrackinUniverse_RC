@@ -33,7 +33,7 @@
         "stat" : "biomecoldImmunity",
         "amount" : 1.0
       },
-      "iceslipimmunity"
+      "icearmorimmunity"
   ],
 
   "colorOptions" : [

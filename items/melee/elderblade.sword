@@ -17,7 +17,7 @@
 
   "primaryStances" : {
     "directional" : true,
-    "projectileType" : "crayongreenswoosh",
+    "projectileType" : "elderbladeswoosh",
     "projectile" : {
       "speed" : 0.1,
       "power" : 5

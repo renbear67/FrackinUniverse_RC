@@ -1,0 +1,14 @@
+{
+  "name" : "snowslow",
+  "blockingStat" : "snowslowImmunity",
+  "effectConfig" : {},
+  "defaultDuration" : 1,
+
+  "scripts" : [
+    "snowslow.lua"
+  ],
+
+  "animationConfig" : "snowslow.animation",
+
+  "label" : "Slow"
+}

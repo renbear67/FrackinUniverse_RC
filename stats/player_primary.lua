@@ -143,25 +143,12 @@ function update(dt)
 -- *****ohgoditburns original terrain effects************
     if groundmat == "snow" then
       fallDistanceDamageFactor = 1
-      mcontroller.controlModifiers({
-        groundMovementModifier = -0.53,
-        runModifier = -0.53,
-        jumpModifier = -0.53
-      })
+      status.addEphemeralEffects{{effect = "snowslow"}}
     end
 
     if groundmatl == "slush" or groundmatr== "slush" then
       fallDistanceDamageFactor = 2
-      mcontroller.controlParameters({
-        normalGroundFriction = 1,
-        groundForce = 20,
-        slopeSlidingFactor = 0.2
-        })
-      mcontroller.controlModifiers({
-        groundMovementModifier = -0.3,
-        runModifier = -0.3,
-        jumpModifier = -0.3
-      })
+      status.addEphemeralEffects{{effect = "slushslow"}}
     end
 
     if groundmatl == "ice" or groundmatr== "ice" or

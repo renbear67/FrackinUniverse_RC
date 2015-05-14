@@ -14,7 +14,9 @@ function init()
     {stat = "fireImmunity", amount = 1},
     {stat = "nitrogenfreezeImmunity", amount = 1},
     {stat = "breathProtection", amount = 1},
-    {stat = "poisonImmunity", amount = 1}
+    {stat = "poisonImmunity", amount = 1},
+    {stat = "slushslowImmunity", amount = 1},
+    {stat = "snowslowImmunity", amount = 1}
   })
 end
 

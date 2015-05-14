@@ -112,7 +112,7 @@
   "subBlocks" : [ "snow", "frozenwater", "iceblock2" ],
   "ores" : "ff_icemoonOres",
 
-  "parallax" : "/parallax/surface/moon.parallax",
+  "parallax" : "/parallax/surface/frozenmoon.parallax",
 
   "ambientNoises" : {
     "day" : {

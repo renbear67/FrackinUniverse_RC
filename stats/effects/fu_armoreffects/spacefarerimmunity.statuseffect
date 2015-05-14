@@ -1,0 +1,11 @@
+{
+  "name" : "spacefarerimmunity",
+  "effectConfig" : {},
+  "defaultDuration" : 120,
+
+  "scripts" : [
+    "spacefarerimmunity.lua"
+  ],
+  "label" : "Sure-Footed",
+  "icon" : "/interface/statuses/jumpboostboot.png"
+}

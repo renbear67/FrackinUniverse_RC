@@ -36,6 +36,7 @@
       "stat" : "maxHealth",
       "amount" : 70
     },
-    "glowgreen"
+    "glowgreen",
+    "spacefarerimmunity"
   ]
 }

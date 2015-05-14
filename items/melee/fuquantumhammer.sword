@@ -17,7 +17,7 @@
 
   "primaryStances" : {
     "directional" : false,
-    "projectileType" : "hammerswoosh1",
+    "projectileType" : "icehammer",
     "projectile" : {
       "speed" : 0.1,
       "power" : 18
