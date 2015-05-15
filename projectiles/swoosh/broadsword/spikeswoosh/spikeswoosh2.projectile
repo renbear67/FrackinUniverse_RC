@@ -33,6 +33,7 @@
 
 
   ],
-  
+  "knockback" : 55,
+  "knockbackDirectional" : true,  
   "statusEffects" : [ "slow", "weakpoison" ]
 }

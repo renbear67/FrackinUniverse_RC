@@ -6,8 +6,5 @@
   "shortdescription" : "Vorit Cap",
   "effects" : [ [
   "swimboost3"
-    ] ],
-  "blockingEffects" : [
-    "breathRegenerationRate", "swimboost3"
-  ]
+    ] ]
 }

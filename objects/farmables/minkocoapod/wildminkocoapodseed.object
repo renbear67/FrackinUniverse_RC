@@ -2,7 +2,7 @@
   "objectName" : "wildminkocoapodseed",
   "rarity" : "Common",
   "category" : "farmable",
-  "description" : "A minkocoa plant, a variant of cocoa favored by mustelids. Provides absurd energy rush.",
+  "description" : "A variant of cocoa favored with mustelids. Provides speed boost.",
   "shortdescription" : "Minkocoa Seed",
   "objectType" : "farmable",
   "printable" : false,

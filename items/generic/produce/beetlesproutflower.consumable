@@ -5,15 +5,6 @@
   "description" : "Smells like bacon, tastes like snot. Grants a shield.",
   "shortdescription" : "Beetle Sprout Flower",
   "effects" : [ [
-      {
-        "effect" : "bubbleshield",
-        "shieldHealthMultiplier" : 0.5,
-        "initialPercentage" : "0.5",
-        "expirationTime" : 1.0,
-        "duration" : 90
-      }
-    ] ],
-  "blockingEffects" : [
-    "bubbleshield"
-  ]
+     "defenseboost90"
+    ] ]
 }

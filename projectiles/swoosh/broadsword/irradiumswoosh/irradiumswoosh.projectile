@@ -12,6 +12,8 @@
   "flippable" : true,
   "damageKind" : "fire",
   "color" : "orange",
+  "knockback" : 35,
+  "knockbackDirectional" : true,
   "effectSources" : [ "sparkles" ],
 
 

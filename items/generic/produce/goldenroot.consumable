@@ -2,12 +2,9 @@
   "itemName" : "goldenroot",
   "rarity" : "Common",
   "inventoryIcon" : "goldenrooticon.png",
-  "description" : "Instantly restores half of your shield.", 
+  "description" : "Increase hitpoints by 60 for 3 minutes.", 
   "shortdescription" : "Golden Root",
   "effects" : [ [
-      {
-        "effect" : "shieldregen",
-        "amount" : 0.5
-      }
+    "maxhealthboost60"
     ] ]
 }

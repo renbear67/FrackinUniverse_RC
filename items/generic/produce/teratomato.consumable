@@ -5,12 +5,10 @@
   "description" : "Induces 100% berserk rage.",
   "shortdescription" : "Teratomato",
   "effects" : [ [
-      {
+       {
         "effect" : "rage100",
         "duration" : 60
-	  }
-    ] ],
-  "blockingEffects" : [
-    "rage"
-  ]
+        }
+
+    ] ]
 }

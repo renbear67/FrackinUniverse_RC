@@ -9,8 +9,5 @@
         "effect" : "energyregenfu20",
         "duration" : 10
       }
-    ] ],
-  "blockingEffects" : [
-    "energyregenfu20"
-  ]
+    ] ]
 }

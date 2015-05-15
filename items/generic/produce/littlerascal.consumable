@@ -2,20 +2,9 @@
   "itemName" : "littlerascal",
   "rarity" : "uncommon",
   "inventoryIcon" : "littlerascal.png",
-  "description" : "Increases health and energy caps.",
+  "description" : "Increases health and energy stores.",
   "shortdescription" : "Little Rascal Herb",
   "effects" : [ [
-      
-      {
-        "effect" : "maxHealth",
-        "amount" : 60,
-        "duration" : 40
-      },
-      {
-        "effect" : "maxEnergy",
-        "amount" : 60,
-        "duration" : 40
-      }
-      
+      "maxhealthboost60", "maxenergyboost60"
     ] ]  
 }

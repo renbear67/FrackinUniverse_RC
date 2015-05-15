@@ -5,15 +5,16 @@
 "op" : "add",
 "path" : "/arboreal",
 "value" : [     
-    [0.50, "clear"],
-    [0.25, "fog"],
-    [0.25, "rain"],
-    [0.25, "storm"],
-    [0.50, "drizzle"],
-    [0.20, "windstorm"],
-    [0.40, "groundmist"],
-    [0.15, "glowingrain"],
-    [0.15, "heavyrain"]]
+   [0.50, "clear"],
+   [0.05, "tarrain" ],
+   [0.25, "fog"],
+   [0.25, "rain"],
+   [0.25, "storm"],
+   [0.50, "drizzle"],
+   [0.20, "windstorm"],
+   [0.40, "groundmist"],
+   [0.15, "glowingrain"],
+   [0.15, "heavyrain"]]
 },
 
 
@@ -25,7 +26,8 @@
     [0.4, "sandstorm"],
     [0.4, "hurricane"],
     [0.4, "drizzle"],
-    //[0.4, "sporeshower"],
+    [0.04, "gravrain"],
+    [0.1, "gravrainlight"],
     [0.01, "meteorshower"],
     [0.005, "largemeteor"]]
 },
@@ -93,6 +95,7 @@
 "path" : "/icefire",
 "value" : [     
     [0.6, "firestorm"],
+    [0.1, "tarrain" ],
     [0.4, "magmastorm"],
     [0.20, "magmastormgreater"],
     [0.4, "ember"],
@@ -112,6 +115,7 @@
     [0.4, "magmastorm"],
     [0.20, "magmastormgreater"],
     [0.4, "ember"],
+    [0.1, "tarrain" ],
     [0.02, "meteorshower"],
     [0.009, "largemeteor"]]
 },
@@ -148,6 +152,8 @@
     [0.4, "clear"],
     [0.5, "groundmist"],
     [0.5, "fog"],
+    [0.04, "gravrain"],
+    [0.1, "gravrainlight"],
     [0.351, "mistyrain"],
     [0.355, "rain"],
     [0.255, "acidrain"],
@@ -163,8 +169,10 @@
 "path" : "/protoworld",
 "value" : [     
     [0.46, "clear"],
-    [0.15, "slimestorm"],
-    [0.25, "slimestormlesser"],
+    [0.08, "slimestorm"],
+    [0.1, "slimestormlesser"],
+    [0.04, "gravrain"],
+    [0.1, "gravrainlight"],
     [0.12, "windstorm"],
     [0.05, "hurricane"],
     [0.01, "meteorshower"],
@@ -180,6 +188,7 @@
     [0.4, "rain"],
     [0.4, "drizzle"],
     [0.4, "heavyrain"],
+    [0.05, "tarrain" ],
     [0.15, "hurricane"],
     [0.15, "acidrain"],
     [0.20, "mistyrain"],
@@ -197,6 +206,7 @@
     [0.2, "clear"],
     [0.6, "sulphurstormlesser"],
     [0.5, "sulphurstorm"],
+    [0.05, "tarrain" ],
     [0.01, "meteorshower"],
     [0.005, "largemeteor"]]
 },  
@@ -234,7 +244,10 @@
 "path" : "/wasteland",
 "value" : [     
     [0.5, "clear"],
+    [0.04, "gravrain"],
+    [0.1, "gravrainlight"],
     [0.4, "ashstorm"],
+    [0.1, "tarrain" ],    
     [0.6, "ash"],
     [0.05, "windstorm"]]
 },
@@ -244,7 +257,10 @@
 "path" : "/urbanwasteland",
 "value" : [     
     [0.5, "clear"],
+    [0.04, "gravrain"],
+    [0.1, "gravrainlight"],
     [0.4, "ashstorm"],
+    [0.1, "tarrain" ],    
     [0.6, "ash"],
     [0.05, "windstorm"]]
 },
@@ -253,6 +269,8 @@
 "op" : "add",
 "path" : "/lightless",
 "value" : [     
+    [0.04, "gravrain"],
+    [0.1, "gravrainlight"],
     [0.5, "clear"],
     [0.5, "fog"],
     [0.5, "rain"],
@@ -268,15 +286,15 @@
 "value" : [     
     [0.1, "rain"],
     [0.05, "storm"],
-	[0.1, "snow"],
-	[0.1, "sandstorm"],
+    [0.1, "snow"],
+    [0.1, "sandstorm"],
     [0.025, "glowingrain"],
     [0.125, "drizzle"],
-	[0.7, "clear"],
-	[0.05, "acidrain"],
-	[0.005, "meteorshower"],
-	[0.001, "largemeteor"]
-	]
+    [0.7, "clear"],
+    [0.05, "acidrain"],
+    [0.005, "meteorshower"],
+    [0.001, "largemeteor"]
+  ]
 }
   
 ]

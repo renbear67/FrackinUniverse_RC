@@ -17,7 +17,7 @@
 
   "primaryStances" : {
     "directional" : false,
-    "projectileType" : "icehammer",
+    "projectileType" : "quantumhammer",
     "projectile" : {
       "speed" : 0.1,
       "power" : 18

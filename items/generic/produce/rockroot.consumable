@@ -4,7 +4,7 @@
   "inventoryIcon" : "rockrooticon.png",
   "description" : "Grants 90 Protection",
   "shortdescription" : "Rockroot",
-      "effects" : [ [
-          "defenseboost90"
+    "effects" : [ [
+       "defenseboost90"
     ] ]
 }

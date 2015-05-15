@@ -2,12 +2,9 @@
   "itemName" : "lactariusindigo",
   "rarity" : "uncommon",
   "inventoryIcon" : "lactariusindigo.png",
-  "description" : "Alters gravity for the user.",
+  "description" : "Increases health and energy maximums.",
   "shortdescription" : "Lactarius Indigo Mushroom",
   "effects" : [ [
-      {
-        "effect" : "helium3",
-        "duration" : 20
-      }
+      "maxhealthboost90", "maxenergyboost90"
     ] ]
 }

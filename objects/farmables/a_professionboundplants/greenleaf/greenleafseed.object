@@ -2,7 +2,7 @@
   "objectName" : "greenleafseed",
   "rarity" : "common",
   "category" : "Farmable",
-  "description" : "A resorative herb.",
+  "description" : "A potent energy source that looks like grass.",
   "shortdescription" : "Greenleaf Seed",
   "objectType" : "farmable",
   "printable" : false,

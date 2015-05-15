@@ -11,6 +11,8 @@
   "piercing" : true,
   "flippable" : true,
   "damageKind" : "2hsword",
+  "knockback" : 35,
+  "knockbackDirectional" : true,
   "actionOnReap" : [
     {
       "action" : "projectile",

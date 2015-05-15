@@ -2,12 +2,9 @@
   "itemName" : "bloodroot",
   "rarity" : "uncommon",
   "inventoryIcon" : "bloodroot.png",
-  "description" : "Will increase your maximum health.",
+  "description" : "Increases your maximum health for 3 minutes.",
   "shortdescription" : "Blood Root",
-    "effects" : [ [
-        {
-          "effect" : "maxhealthboost50",
-          "duration" : 60
-        }
+  "effects" : [ [
+    "maxhealthboost40"
     ] ]
 }

@@ -2,12 +2,9 @@
   "itemName" : "yellowfoot",
   "rarity" : "uncommon",
   "inventoryIcon" : "yellowfoot.png",
-  "description" : "Tar won't slow you down with yellow foot!",
+  "description" : "Yellowfoot boosts personal energy reserves.",
   "shortdescription" : "Yellow-foot Mushroom",
   "effects" : [ [
-      {
-        "effect" : "tarImmunity",
-        "duration" : 60
-      }
+      "maxenergyboost60"
     ] ]
 }

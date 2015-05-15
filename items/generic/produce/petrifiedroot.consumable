@@ -2,13 +2,13 @@
   "itemName" : "petrifiedroot",
   "rarity" : "Common",
   "inventoryIcon" : "petrifiedrooticon.png",
-  "description" : "Boosts speed and blocks shadow gas.", 
+  "description" : "Grants a huge speed boost. Resists shadow gas.", 
   "shortdescription" : "Shadow Root",
   "effects" : [ [
       {
         "effect" : "runboost",
-        "amount" : 1.5,
-        "duration" : 5
+        "amount" : 1.0,
+        "duration" : 15
       }, 
       "shadowgasimmunity"
     ] ]

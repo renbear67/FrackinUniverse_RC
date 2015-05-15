@@ -2,7 +2,7 @@
   "objectName" : "wildpasakavineseed",
   "rarity" : "Uncommon",
   "category" : "farmable",
-  "description" : "This vine gives off bioluminesence. Useful to light your way.",
+  "description" : "This vine gives off bioluminesence. Increases strength.",
   "shortdescription" : "Pasaka Vine",
   "objectType" : "farmable",
   "printable" : false, 

@@ -2,12 +2,9 @@
   "itemName" : "pinkloom",
   "rarity" : "uncommon",
   "inventoryIcon" : "pinkloom.png",
-  "description" : "Affects your personal gravity.",
+  "description" : "Increases health by 80 for 3 minutes.",
   "shortdescription" : "Pinkloom Herb",
   "effects" : [ [
-      {
-        "effect" : "lowgrav",
-        "duration" : 30
-      }
+    "maxhealthboost80"
     ] ]
 }

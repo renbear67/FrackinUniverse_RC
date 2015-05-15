@@ -6,9 +6,6 @@
   "shortdescription" : "Lasher Stem",
   "learnBlueprintsOnPickup" : [ "lasherhook" ],
   "effects" : [ [
-      {
-        "effect" : "rage50",
-        "duration" : 30
-      }
+      "rage40"
     ] ]
 }

@@ -6,8 +6,5 @@
   "shortdescription" : "Glarestalk Eye",
   "effects" : [ [
       "rage75"
-    ] ],
-  "blockingEffects" : [
-  "rage75"
-  ]
+    ] ]
 }

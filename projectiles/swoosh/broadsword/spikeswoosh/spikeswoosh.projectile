@@ -11,6 +11,8 @@
   "piercing" : true,
   "flippable" : true,
   "damageKind" : "acid",
+  "knockback" : 55,
+  "knockbackDirectional" : true,
   "effectSources" : [ "sparkles" ],
 
   "actionOnReap" : [

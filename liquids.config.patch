@@ -1,5 +1,49 @@
 [
-
+   // "4" : {
+   //   "name" : "alienjuice",
+   //   "tickDelta" : 1,
+   //   "color" : [254, 240, 246, 254],
+   //   "itemDrop" : "liquidalienjuice",
+//
+   //   "interactions" : [
+   //     {
+   //       "liquid" : 8,
+   //       "liquidResult" : 0
+   //     }
+   //   ],
+//
+   //   "texture" : "/liquids/alientex.png",
+   //   "bottomLightMix" : [244, 170, 159],
+   //   "textureMovementFactor" : 2.6
+   // },
+   // "10" : {
+   //   "name" : "liquidnitrogen",
+   //   "tickDelta" : 1,
+   //   "color" : [80, 221, 254, 128],
+   //   "itemDrop" : "liquidwater",
+   //   "texture" : "/liquids/watertex.png",
+   //   "bottomLightMix" : [255, 70, 0],
+   //   "textureMovementFactor" : 2.6,
+   //   "interactions" : [
+   //     {
+   //       "liquid" : 1,
+   //       "materialResult" : "ice"
+   //     }
+   //   ]
+   // }, 
+	// liquid nitrogen
+    { "op" : "replace", 
+    "path" : "/liquids/10/itemDrop", 
+    "value" : "liquidnitrogenitem" 
+    },
+	{"op":"add",
+   "path":"/liquids/10/interactions/-",
+   "value":{"liquid":12,"materialResult":"ice"}
+    },
+    { "op" : "add", 
+    "path" : "/liquids/10/statusEffects", 
+    "value" : [ "nitrogenfreeze" ]
+    },
     // lava
     {"op":"add",
    "path":"/liquids/2/interactions/-",
@@ -21,21 +65,12 @@
    "path":"/liquids/2/interactions/-",
    "value":{"liquid":46,"materialResult":"sulphurstone"}
     },
+    {"op":"add",
+   "path":"/liquids/2/interactions/-",
+   "value":{"liquid":45,"materialResult":"protorock"}
+    },	
 	
-	
-	// liquid nitrogen
-    { "op" : "replace", 
-    "path" : "/liquids/10/itemDrop", 
-    "value" : "liquidnitrogenitem" 
-    },
-	{"op":"add",
-   "path":"/liquids/10/interactions/-",
-   "value":{"liquid":12,"materialResult":"ice"}
-    },
-    { "op" : "add", 
-    "path" : "/liquids/10/statusEffects", 
-    "value" : [ "nitrogenfreeze" ]
-    },
+
     
     // Blood
     { "op" : "add", 
@@ -371,7 +406,7 @@
 	"color" : [55, 205, 161, 225],
 	"radiantLight" : [35, 125, 101],
 	"itemDrop" : "liquidswampwater",
-        "statusEffects" : [ "swimming" ],
+        "statusEffects" : [ "swimming", "defenseboost30" ],
         "interactions" : [
           {
             "liquid" : 1,
@@ -644,6 +679,30 @@
           {
             "liquid" : 3,
             "liquidResult" : 50
+          },
+          {
+            "liquid" : 8,
+            "liquidResult" : 8
+          }
+        ],
+        "texture" : "/liquids/watertex.png",
+        "bottomLightMix" : [0, 0, 0],
+        "textureMovementFactor" : 1.6        
+	}
+    },
+    { "op" : "add", 
+    "path" : "/liquids/51", 
+	"value" : { 
+	"name" : "gravrain",
+	"tickDelta" : 1,
+	"color" : [100, 100, 255, 220],
+	"radiantLight" : [1, 1, 44],
+        "statusEffects" : [ "swimming", "gravrain" ],
+        "itemDrop" : "liquidgravrain",
+        "interactions" : [
+          {
+            "liquid" : 3,
+            "liquidResult" : 51
           },
           {
             "liquid" : 8,

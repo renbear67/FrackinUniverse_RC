@@ -1270,7 +1270,7 @@
   "path" : "/regionTypes/atropus",
   "value" : 
   {
-      "caveLiquid" : [ "bloodliquid", "poison", "alienjuice", "blacktar", "bio_ooze" ],
+      "caveLiquid" : [ "bloodliquid", "alienjuice", "darkwater", "bio_ooze" ],
       "blockSelector" : [ "medHillsSurface", "ledgesSurface", "mountainsSurface", "mesasSurface", "megaMountainsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves", "fusurfacecaves", "denseCaves" ],
       "bgOreSelector" : [ "denseVeins" ], 
@@ -1284,7 +1284,7 @@
   "path" : "/regionTypes/bloodstone",
   "value" : 
   {
-      "caveLiquid" : [ "bloodliquid", "alienjuice" ],
+      "caveLiquid" : [ "bloodliquid", "alienjuice", "darkwater" ],
       "blockSelector" : [ "flatsSurface", "lowHillsSurface", "ledgesSurface" ],
       "fgCaveSelector" : [ "surfaceCaves", "denseCaves" ],
       "bgOreSelector" : [ "denseVeins" ], 
@@ -1298,8 +1298,8 @@
   "path" : "/regionTypes/bloodstonesea",
   "value" : 
   {
-      "oceanLiquid" : [ "bloodliquid" ],
-      "caveLiquid" : [ "bloodliquid" ],
+      "oceanLiquid" : [ "bloodliquid", "alienjuice", "darkwater" ],
+      "caveLiquid" : [ "bloodliquid", "alienjuice", "darkwater" ],
       "blockSelector" : [ "flatDeepIslandsSurface", "floatingIslandsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "bgOreSelector" : [ "denseVeins" ],       
@@ -1346,7 +1346,7 @@
   "path" : "/regionTypes/fungus",
   "value" : 
   {
-      "caveLiquid" : [ "bloodliquid", "poison", "water", "swampwater", "bio_ooze" ],
+      "caveLiquid" : [ "darkwater", "water", "swampwater", "bio_ooze" ],
       "caveLiquidChanceRange" : [100, 100],
       "blockSelector" : [ "medHillsSurface", "lowHillsSurface", "ledgesSurface" , "flatsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
@@ -1526,7 +1526,7 @@
   "path" : "/regionTypes/irradiated",
   "value" : 
   {
-      "caveLiquid" : [ "water", "poison", "bio_ooze" ],
+      "caveLiquid" : [ "water", "poison", "bio_ooze", "darkwater" ],
       "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [ "flatsSurface", "lowHillsSurface", "medHillsSurface", "mountainsSurface", "mesasSurface", "ledgesSurface", "giantLedgesSurface" ],
       "fgCaveSelector" : [ "surfaceCaves", "denseCaves"  ],
@@ -1619,7 +1619,7 @@
   "path" : "/regionTypes/penumbra",
   "value" : 
   {
-      "caveLiquid" : [ "water", "blacktar", "alienjuice" ],
+      "caveLiquid" : [ "water", "blacktar", "alienjuice", "darkwater" ],
       "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [ "lowHillsSurface", "ledgesSurface", "mountainsSurface" ],
       "fgCaveSelector" : [ "normalCaves" ],
@@ -1696,7 +1696,7 @@
   "path" : "/regionTypes/urbanwasteland",
   "value" : 
   {
-      "caveLiquid" : [ "water", "tarliquid" ],
+      "caveLiquid" : [ "water", "tarliquid", "darkwater" ],
       "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [ "flatsSurface", "lowHillsSurface", "mixedSurface", "fugradualslopes" ],
       "fgCaveSelector" : [ "normalCaves" ],
@@ -1710,7 +1710,7 @@
   "path" : "/regionTypes/lightless",
   "value" : 
   {
-      "caveLiquid" : [ "blacktar", "tarliquid" ],
+      "caveLiquid" : [ "blacktar", "tarliquid", "bloodliquid", "darkwater" ],
       "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [ "lowHillsSurface", "medHillsSurface", "ledgesSurface", "canyonsSurface", "mountainsSurface", "fugradualslopes", "megaMountainsSurface"  ],
       "fgCaveSelector" : [ "surfaceCaves", "denseCaves" ],
@@ -1740,7 +1740,7 @@
   "path" : "/regionTypes/blackslimebog",
   "value" : 
   {
-      "caveLiquid" : [ "blacktar", "alienjuice", "shadowgas" ],
+      "caveLiquid" : [ "blacktar", "darkwater", "shadowgas" ],
       "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [ "flatsSurface", "lowHillsSurface", "mixedSurface", "fugradualslopes" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
@@ -1809,7 +1809,7 @@
   "path" : "/regionTypes/corruptedforest",
   "value" : 
   {
-      "caveLiquid" : [ "bio_ooze", "poison", "alienjuice", "shadowgas" ],
+      "caveLiquid" : [ "bio_ooze", "poison", "darkwater", "shadowgas" ],
       "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [ "lowHillsSurface", "ledgesSurface", "mixedSurface", "fugradualslopes" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
@@ -1878,7 +1878,7 @@
   "path" : "/regionTypes/elder",
   "value" : 
   {
-      "caveLiquid" : [ "elderfluid", "bio_ooze", "alienjuice" ],
+      "caveLiquid" : [ "elderfluid", "bio_ooze", "darkwater" ],
       "blockSelector" : [ "lowHillsSurface", "mixedSurface", "mountainsSurface", "canyonsSurface", "spikesSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
@@ -2031,7 +2031,7 @@
   "path" : "/regionTypes/hauntedforest",
   "value" : 
   {
-      "caveLiquid" : [ "bloodliquid"],
+      "caveLiquid" : [ "bloodliquid", "darkwater"],
       "caveLiquidChanceRange" : [90, 100],
       "blockSelector" : [ "lowHillsSurface", "flatsSurface", "canyonsSurface", "giantLedgesSurface" ],
       "fgCaveSelector" : [ "surfaceCaves", "denseCaves" ],
@@ -2058,7 +2058,7 @@
   "path" : "/regionTypes/hellhive",
   "value" : 
   {
-      "caveLiquid" : [ "lava", "alienjuice", "bio_ooze", "shadowgas" ],
+      "caveLiquid" : [ "lava", "darkwater", "bio_ooze", "shadowgas" ],
       "blockSelector" : [ "spikesSurface", "mountainsSurface", "mesasSurface", "giantLedgesSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
@@ -2087,7 +2087,7 @@
   "path" : "/regionTypes/irradiatedwaste",
   "value" : 
   {
-      "caveLiquid" : [ "water", "poison", "alienjuice" ],
+      "caveLiquid" : [ "water", "poison", "darkwater" ],
       "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [ "lowHillsSurface", "flatsSurface", "canyonsSurface", "giantLedgesSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
@@ -2167,7 +2167,7 @@
   "path" : "/regionTypes/pitchfield",
   "value" : 
   {
-      "caveLiquid" : [ "tarliquid", "blacktar", "shadowgas" ],
+      "caveLiquid" : [ "tarliquid", "blacktar", "darkwater" ],
       "caveLiquidChanceRange" : [55, 100],
       "blockSelector" : [ "lowHillsSurface", "medHillsSurface", "mixedSurface"  ],
       "fgCaveSelector" : [ "surfaceCaves" ],
@@ -2194,7 +2194,7 @@
   "path" : "/regionTypes/ffspidernest",
   "value" : 
   {
-      "caveLiquid" : [ "blacktar", "swampwater", "poison" ],
+      "caveLiquid" : [ "darkwater", "swampwater", "poison" ],
       "caveLiquidChanceRange" : [15, 40],
       "blockSelector" : [ "lowHillsSurface", "medHillsSurface", "flatsSurface", "mixedSurface" ],
       "fgCaveSelector" : [ "normalmegacave", "acidPoolCaves", "denseCaves", "coreCaves"  ],
@@ -2711,7 +2711,7 @@
   "path" : "/regionTypes/ffbonecaves",
   "value" : 
   {
-      "caveLiquid" : [ "bloodliquid", "alienjuice", "sulphuricacid" ],
+      "caveLiquid" : [ "bloodliquid", "alienjuice", "darkwater" ],
       "caveLiquidChanceRange" : [5, 75],
             "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
@@ -2723,7 +2723,7 @@
   "path" : "/regionTypes/ffcellcaves",
   "value" : 
   {
-      "caveLiquid" : [ "bloodliquid", "alienjuice", "healingliquid" ],
+      "caveLiquid" : [ "bloodliquid", "darkwater", "healingliquid" ],
       "caveLiquidChanceRange" : [5, 75],
             "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
@@ -2771,7 +2771,7 @@
   "path" : "/regionTypes/lightlessunderground",
   "value" : 
   {
-      "caveLiquid" : [ "blacktar", "tarliquid" ],
+      "caveLiquid" : [ "blacktar", "tarliquid", "darkwater" ],
       "caveLiquidChanceRange" : [5, 25],
             "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [

@@ -2,16 +2,13 @@
   "itemName" : "littlegoodberry",
   "rarity" : "Common",
   "inventoryIcon" : "littlegoodberryicon.png",
-  "description" : "Beef up your damage for a while.",
+  "description" : "Increase damage by 50%",
   "shortdescription" : "Little Good Berry",
   "effects" : [ [
       {
         "effect" : "damageMultiplier",
         "amount" : 1.5,
-        "duration" : 10
+        "duration" : 15
       }
-    ] ],
-  "blockingEffects" : [
-    "damageMultiplier"
-  ]
+    ] ]
 }

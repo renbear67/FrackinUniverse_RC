@@ -8,7 +8,7 @@
           "particle" : {
             "type" : "ember",
             "size" : 1.5,
-            "color" : [150, 220, 220, 230],
+            "color" : [44, 44, 44, 230],
             "fade" : 0.9,
             "destructionAction" : "shrink",
             "destructionTime" : 0.8,
@@ -33,7 +33,7 @@
             "type" : "text",
             "text" : "light",
             "size" : 0.75,
-            "color" : [150, 220, 220, 230],
+            "color" : [44, 44, 44, 230],
             "fade" : 1,
             "destructionAction" : "shrink",
             "destructionTime" : 0.8,

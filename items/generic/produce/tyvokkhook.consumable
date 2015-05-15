@@ -13,8 +13,5 @@
         "effect" : "energyregenfu25",
         "duration" : 20
       }
-    ] ],
-  "blockingEffects" : [
-    "energyregenfu25", "regeneration3"
-  ]
+    ] ]
 }

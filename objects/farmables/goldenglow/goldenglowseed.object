@@ -2,7 +2,7 @@
   "objectName" : "goldenglowseed",
   "rarity" : "Rare",
   "category" : "farmable",
-  "description" : "It glows, but it's real strength is in how it increases agility.",
+  "description" : "It glows, but it's real strength is in how it increases speed.",
   "shortdescription" : "Goldenglow Seed",
   "objectType" : "farmable",
   "printable" : false, 

@@ -2,12 +2,9 @@
   "itemName" : "silverleaf",
   "rarity" : "uncommon",
   "inventoryIcon" : "silverleaf.png",
-  "description" : "Grants immunity to most cold, but not Extreme cold.",
+  "description" : "Fantastic energy booster",
   "shortdescription" : "Silverleaf Herb",
   "effects" : [ [
-      {
-        "effect" : "coldImmunity",
-        "duration" : 15
-      }
+      "maxenergyboost80"
     ] ]  
 }

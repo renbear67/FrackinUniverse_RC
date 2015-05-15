@@ -2,16 +2,14 @@
   "itemName" : "tetherhookwheel",
   "rarity" : "rare",
   "inventoryIcon" : "tetherhookwheel.png",
-  "description" : "Grants you immunity to fall damage.", 
+  "description" : "Grants a 75% damage bonus.", 
   "shortdescription" : "Tetherhook Wheel",
 
   "effects" : [ [
       {
-        "effect" : "nofalldamage",
-        "duration" : 30
+        "effect" : "damageMultiplier",
+        "amount" : 1.75,
+        "duration" : 10
       }
-    ] ],
-  "blockingEffects" : [
-    "nofalldamage"
-  ]
+    ] ]
 }

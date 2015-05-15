@@ -2,7 +2,7 @@
   "objectName" : "pinkloomseed",
   "rarity" : "common",
   "category" : "Farmable",
-  "description" : "This plant resists the effects of gravity.",
+  "description" : "This plant increases your health.",
   "shortdescription" : "Pinkloom Seed",
   "objectType" : "farmable",
   "printable" : false,

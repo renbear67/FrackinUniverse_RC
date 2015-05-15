@@ -2,16 +2,13 @@
   "itemName" : "pasaka",
   "rarity" : "Common",
   "inventoryIcon" : "pasaka.png",
-  "description" : "Eat this soggy bulb, and you'll glow faintly for a bit.",
+  "description" : "Eat this soggy bulb, and you'll gain 25% damage.",
   "shortdescription" : "Pasaka Bulb",
   "effects" : [ [
       {
-        "effect" : "glowblue",
-        "amount" : "1.0",
-        "duration" : 120
+        "effect" : "damageMultiplier",
+        "amount" : 1.25,
+        "duration" : 15
       }
-    ] ],
-  "blockingEffects" : [
-    "glowblue"
-  ]
+    ] ]
 }

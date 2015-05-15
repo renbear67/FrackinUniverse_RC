@@ -13,7 +13,8 @@
   "damageKind" : "fire",
   "color" : "orange",
   "effectSources" : [ "sparkles" ],
-
+  "knockback" : 25,
+  "knockbackDirectional" : true,
 
   "actionOnReap" : [
 

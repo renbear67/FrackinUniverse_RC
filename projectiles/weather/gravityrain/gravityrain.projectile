@@ -1,0 +1,30 @@
+{
+  "projectileName" : "gravityrain",
+  "physics" : "weather",
+  "frames" : "gravityrain.png",
+  "animationCycle" : 0.25,
+  "level" : 3,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : true,
+  "power" : 3.0,
+  "lightColor" : [44, 26, 140],
+  "damageKind" : "default",
+  "damageType" : "ignoresdef",
+  "damagePoly" : [ [-50, -50], [50, -50], [50, 50], [-50, 50] ],
+
+  "flippable" : true,
+  "universalDamage" : true,
+  
+  "effectSources" : [ "sparkles" ],
+
+  "actionOnReap" : [
+
+    {
+      "action" : "liquid", 
+      "liquid" : "gravrain", 
+      "quantity" : 5
+    }
+
+  ]
+}

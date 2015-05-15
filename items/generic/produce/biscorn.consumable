@@ -2,9 +2,9 @@
   "itemName" : "biscorn",
   "rarity" : "Common",
   "inventoryIcon" : "biscornicon.png",
-  "description" : "Does nothing yet.",
+  "description" : "Boosts energy and health.",
   "shortdescription" : "Biscorn",
   "effects" : [ [
-      "wellfed"
+      "maxhealthboost30", "maxenergyboost30"
     ] ]
 }

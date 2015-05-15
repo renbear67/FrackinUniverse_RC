@@ -2,7 +2,7 @@
   "objectName" : "biscornseed",
   "rarity" : "Common",
   "category" : "farmable",
-  "description" : "A farmable dog treat.",
+  "description" : "Boosts health and energy.",
   "shortdescription" : "Biscorn Seed",
   "objectType" : "farmable",
   "printable" : false,

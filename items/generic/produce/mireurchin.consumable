@@ -13,7 +13,7 @@
       {
         "effect" : "staticshield",
         "amount" : "0.90",
-        "duration" : 30
+        "duration" : 60
       }
     ] ],
   "blockingEffects" : [

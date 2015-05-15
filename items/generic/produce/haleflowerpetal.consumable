@@ -6,8 +6,5 @@
   "shortdescription" : "Hale Flower Petal",
   "effects" : [ [
         "energyregenfu75"
-    ] ],
-  "blockingEffects" : [
-    "energyregenfu75"
-  ]
+    ] ]
 }
