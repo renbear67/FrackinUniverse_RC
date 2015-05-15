@@ -30,16 +30,7 @@
       "stat" : "maxHealth",
       "amount" : 80
     },
-    "ffextremeheatimmunityicon",
-    {
-      "stat" : "ffextremeheatImmunity",
-      "amount" : 1.0
-    },
-    {
-      "stat" : "biomeheatImmunity",
-      "amount" : 1.0
-    }
-    
+    "ffextremeheatresist"    
   ],
 
   "colorOptions" : [

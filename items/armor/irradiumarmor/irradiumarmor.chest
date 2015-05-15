@@ -34,7 +34,8 @@
     {
       "stat" : "healthRegen",
       "amount" : 0.5
-    }
+    },
+    "ffextremeradiationresist"
   ],
 "effectSources" : [ "icetrail" ]
 

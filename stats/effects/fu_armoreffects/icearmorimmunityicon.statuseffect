@@ -1,9 +1,0 @@
-{
-  "name" : "icearmorimmunityicon",
-  "effectConfig" : {},
-
-  "scripts" : [],
-  
-  "label" : "Ice-Proof",
-  "icon" : "/interface/statuses/jumpboostboot.png"
-}

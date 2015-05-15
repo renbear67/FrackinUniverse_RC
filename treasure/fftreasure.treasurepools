@@ -69,6 +69,11 @@
           {"weight" : 0.012, "item" : [ "steampunkchest", 1]},
           {"weight" : 0.012, "item" : [ "steampunklegs", 1]},
           {"weight" : 0.023, "item" : [ "duncecap", 1]},
+          {"weight" : 0.012, "item" :  [ "ff_labchest-recipe", 1]},
+          {"weight" : 0.012, "item" :  [ "ff_stonechest-recipe", 1]},
+          {"weight" : 0.012, "item" :  [ "ff_stonechest2-recipe", 1]},
+          {"weight" : 0.012, "item" :  [ "penumbrachest-recipe", 1]},
+          {"weight" : 0.012, "item" :  [ "protochest-recipe", 1]},
           
           // sampling array recipes
           {"weight" : 0.008, "item" : [ "recipebook_samplingarray_main", 1]},            
@@ -135,6 +140,11 @@
           {"weight" : 0.0166, "item" : [ "ff_plastic", 6]},
           {"weight" : 0.0166, "item" : [ "iodine", 4]},
           {"weight" : 0.0166, "item" : [ "ff_mercury", 6]}, 
+          {"weight" : 0.012, "item" :  [ "ff_labchest-recipe", 1]},
+          {"weight" : 0.012, "item" :  [ "ff_stonechest-recipe", 1]},
+          {"weight" : 0.012, "item" :  [ "ff_stonechest2-recipe", 1]},
+          {"weight" : 0.012, "item" :  [ "penumbrachest-recipe", 1]},
+          {"weight" : 0.012, "item" :  [ "protochest-recipe", 1]},
           {"weight" : 0.009, "item" :  [ "fubonusarmorchest-recipe", 1]},
 	  {"weight" : 0.009, "item" :  [ "fubonusarmorhead-recipe", 1]},
           {"weight" : 0.009, "item" :  [ "fubonusarmorpants-recipe", 1]},
@@ -227,6 +237,7 @@
           {"weight" : 0.020, "item" :  [ "elderrelic12", 1]},
           {"weight" : 0.020, "item" :  [ "elderrelic13", 1]},
           {"weight" : 0.020, "item" :  [ "elderrelic14", 1]}, 
+          {"weight" : 0.012, "item" :  [ "elderchest-recipe", 1]},
           // sampling array recipes
           {"weight" : 0.004, "item" : [ "recipebook_samplingarray_main", 1]},            
 	  {"weight" : 0.003, "item" : [ "recipebook_samplingarray_biochip", 1]},  

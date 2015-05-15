@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "darkstonematerial", "count" : 60 },
+	{ "item" : "bloodstonematerial", "count" : 20 }
+  ],
+  "output" : {
+    "item" : "ff_stonechest2",
+    "count" : 1
+  },
+  "groups" : [ "mod", "prototyper", "furniture", "all" ]
+}

@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Rare",
-  "description" : "Nearly indestructible. Immune to sulphuric acid and radiation.",
+  "description" : "Nearly indestructible. Immune to sulphuric acid and cold.",
   "shortdescription" : "Densinium Helm",
   "tooltipKind" : "armor",
 
@@ -18,23 +18,14 @@
         "amount" : 180
       },
       {
+        "stat" : "maxenergy",
+        "amount" : 90
+      },
+      {
         "stat" : "protection",
         "amount" : 240
       },
-      "energyregenfu_armor50",
-      "ffextremeradiationimmunityicon",
-      {
-      "stat" : "ffextremeradiationImmunity",
-      "amount" : 1.0
-      },
-      {
-      "stat" : "biomeradiationImmunity",
-      "amount" : 1.0
-      },
-      {
-        "stat" : "sulphuricImmunity",
-        "amount" : 1.0
-      }
+      "densiniumheadeffects"
   ],
 
   "colorOptions" : [

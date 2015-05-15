@@ -22,15 +22,7 @@
       "stat" : "maxHealth",
       "amount" : 65
     },
-    "ffextremeheatimmunityicon",
-    {
-      "stat" : "ffextremeheatImmunity",
-      "amount" : 1.0
-    },
-    {
-      "stat" : "biomeheatImmunity",
-      "amount" : 1.0
-    }
+    "ffextremeradiationresist"
   ],
 
 "effectSources" : [ "icetrail" ]

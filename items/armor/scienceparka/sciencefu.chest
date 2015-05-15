@@ -33,16 +33,8 @@
         "stat" : "maxEnergy",
         "amount" : 90
       },
-    "ffextremecoldimmunityicon",
-    {
-      "stat" : "ffextremecoldImmunity",
-      "amount" : 1.0
-    },
-    {
-      "stat" : "biomecoldImmunity",
-      "amount" : 1.0
-    },
-    "liquidnitrogenimmunity"
+    "ffextremecoldresist",
+    "icearmorimmunity"
   ],
 
   "colorOptions" : [

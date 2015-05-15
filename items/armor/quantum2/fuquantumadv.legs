@@ -26,15 +26,7 @@
       "stat" : "maxHealth",
       "amount" : 80
     },
-    "ffextremecoldimmunityicon",
-    {
-      "stat" : "ffextremecoldImmunity",
-      "amount" : 1.0
-    },
-    {
-      "stat" : "biomecoldImmunity",
-      "amount" : 1.0
-    }
+    "ffextremecoldresist"
   ],
 
   "colorOptions" : [

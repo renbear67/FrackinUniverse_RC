@@ -1,15 +1,43 @@
 [
 
+    // lava
+    {"op":"add",
+   "path":"/liquids/2/interactions/-",
+   "value":{"liquid":40,"materialResult":"bloodstonetile2"}
+    },
+    {"op":"add",
+   "path":"/liquids/2/interactions/-",
+   "value":{"liquid":5,"materialResult":"asphalt"}
+    },
+    {"op":"add",
+   "path":"/liquids/2/interactions/-",
+   "value":{"liquid":42,"materialResult":"asphalt"}
+    },
+    {"op":"add",
+   "path":"/liquids/2/interactions/-",
+   "value":{"liquid":43,"materialResult":"purplecrystal"}
+    },
+    {"op":"add",
+   "path":"/liquids/2/interactions/-",
+   "value":{"liquid":46,"materialResult":"sulphurstone"}
+    },
+	
+	
+	// liquid nitrogen
     { "op" : "replace", 
     "path" : "/liquids/10/itemDrop", 
     "value" : "liquidnitrogenitem" 
+    },
+	{"op":"add",
+   "path":"/liquids/10/interactions/-",
+   "value":{"liquid":12,"materialResult":"ice"}
     },
     { "op" : "add", 
     "path" : "/liquids/10/statusEffects", 
     "value" : [ "nitrogenfreeze" ]
     },
     
-    
+    // Blood
     { "op" : "add", 
     "path" : "/liquids/40", 
 	"value" : { 

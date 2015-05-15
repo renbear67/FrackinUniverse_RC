@@ -34,7 +34,8 @@
     {
       "stat" : "maxHealth",
       "amount" : 60
-    }
+    },
+    "ffextremeradiationresist"
   ],
 
   "colorOptions" : [

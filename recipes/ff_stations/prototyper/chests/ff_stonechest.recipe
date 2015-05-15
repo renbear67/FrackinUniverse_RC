@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "darkstonematerial", "count" : 80 }
+  ],
+  "output" : {
+    "item" : "ff_stonechest",
+    "count" : 1
+  },
+  "groups" : [ "mod", "prototyper", "furniture", "all" ]
+}

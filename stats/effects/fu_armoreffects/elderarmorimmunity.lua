@@ -8,7 +8,6 @@ function init()
     {stat = "ffextremecoldImmunity", amount = 1},
     {stat = "biomecoldImmunity", amount = 1},
     {stat = "biooozeImmunity", amount = 1},
-    {stat = "ffextremecoldImmunity", amount = 1},
     {stat = "shadowgasImmunity", amount = 1},
     {stat = "sulphuricImmunity", amount = 1},
     {stat = "fireImmunity", amount = 1},

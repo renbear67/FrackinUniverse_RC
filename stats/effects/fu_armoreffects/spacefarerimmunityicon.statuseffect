@@ -1,9 +1,0 @@
-{
-  "name" : "spacefarerimmunityicon",
-  "effectConfig" : {},
-
-  "scripts" : [],
-  
-  "label" : "Sure-Footed",
-  "icon" : "/interface/statuses/jumpboostboot.png"
-}

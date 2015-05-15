@@ -1,11 +1,11 @@
 {
-  "name" : "icearmorimmunity",
+  "name" : "icearmorimmunitylegs",
   "effectConfig" : {},
   "defaultDuration" : 120,
 
   "scripts" : [
-    "icearmorimmunity.lua"
+    "icearmorimmunitylegs.lua"
   ],
-  "label" : "Ice-Proof",
+  "label" : "Slip-Proof",
   "icon" : "/interface/statuses/cold.png"
 }
