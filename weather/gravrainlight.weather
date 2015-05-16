@@ -1,6 +1,6 @@
 {
   "name" : "gravrainlight",
-  "icon" : "/interface/cockpit/weather/rain.png",
+  "icon" : "/interface/cockpit/weather/gravityrain.png",
 
 "particles" : [
     {
@@ -10,7 +10,7 @@
 
       "particle" : {
         "type" : "textured",
-        "image" : "/particles/gravrain/gravrain1.png",
+        "image" : "/particles/gravrain/rain1.png",
         "velocity" : [0, -35.5],
         "approach" : [15, 15],
         "angularVelocity" : 0,
@@ -29,7 +29,7 @@
 
       "particle" : {
         "type" : "textured",
-        "image" : "/particles/gravrain/gravrain2.png",
+        "image" : "/particles/gravrain/rain2.png",
         "velocity" : [0, -25.5],
         "approach" : [15, 15],
         "angularVelocity" : 0,
@@ -48,7 +48,7 @@
 
       "particle" : {
         "type" : "textured",
-        "image" : "/particles/gravrain/gravrain3.png",
+        "image" : "/particles/gravrain/rain3.png",
         "velocity" : [0, -20.5],
         "approach" : [15, 15],
         "angularVelocity" : 0,

@@ -264,8 +264,20 @@
           "type" : "tree",
           "treeFoliageHueShiftMax" : 225,
           "treeStemHueShiftMax" : 225,
-          "treeStemList" : [ "crystalline", "solaristem" ],
-          "treeFoliageList" : [ "crystallinenofoliage", "solarifoliage" ]
+          "treeStemList" : [ "crystalline", "crystalline2", "crystalline3" ],
+          "treeFoliageList" : [ "crystallinenofoliage", "crystallinenofoliage2", "crystallinenofoliagefull" ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 2,
+          "distribution" : "/biomes/distributions.config:scatteredLarge",
+
+          "type" : "tree",
+          "treeFoliageHueShiftMax" : 20,
+          "treeStemHueShiftMax" : 20,
+          "treeStemList" : [ "solaristem" ],
+          "treeFoliageList" : [ "solarifoliage" ]
         },
         {
           "mode" : "floor",

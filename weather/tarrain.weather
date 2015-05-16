@@ -1,6 +1,6 @@
 {
   "name" : "tarrain",
-  "icon" : "/interface/cockpit/weather/rain.png",
+  "icon" : "/interface/cockpit/weather/tarrain.png",
 
 "particles" : [
     {

@@ -1,6 +1,6 @@
 {
   "name" : "gravrain",
-  "icon" : "/interface/cockpit/weather/heavyrain.png",
+  "icon" : "/interface/cockpit/weather/gravityrain.png",
 
 "particles" : [
     {

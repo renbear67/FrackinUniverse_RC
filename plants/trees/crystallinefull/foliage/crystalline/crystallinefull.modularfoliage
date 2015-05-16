@@ -1,6 +1,6 @@
 {
-  "name" : "crystallinenofoliage",
-  "shape" : "crystalline",
+  "name" : "crystallinenofoliagefull",
+  "shape" : "crystalline3",
 
   "dropConfig" : {
     "drops" : [
