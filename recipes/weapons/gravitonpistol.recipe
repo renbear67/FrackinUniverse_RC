@@ -3,7 +3,8 @@
    { "item" : "densealloy", "count" : 4 },
    { "item" : "electromagnet", "count" : 2 },
    { "item" : "coil", "count" : 3 },
-   { "item" : "triangliumpyramid", "count" : 3 }
+   { "item" : "triangliumpyramid", "count" : 3 },
+   { "item" : "liquidgravrain", "count" : 20 }
   ],
   "output" : {
     "item" : "gravitonpistol",

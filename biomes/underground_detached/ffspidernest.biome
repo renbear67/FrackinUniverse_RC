@@ -106,6 +106,44 @@
           ]
         },
         {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:ffunCommon",
+
+          "type" : "object",
+          "objectSets" : [
+            {
+              "pool" : [ 
+              [0.35, "spiderweb" ], 
+              [0.35, "spiderweb2" ], 
+              [0.35, "spiderweb3" ],
+              [0.35, "spiderweb4" ]
+              ],
+              "parameters" : { }
+            }
+          ]
+        },
+        {
+          "mode" : "ceiling",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:ffunCommon",
+
+          "type" : "object",
+          "objectSets" : [
+            {
+              "pool" : [ 
+              [0.35, "spiderweb" ], 
+              [0.35, "spiderweb2" ], 
+              [0.35, "spiderweb3" ],
+              [0.35, "spiderweb4" ]
+              ],
+              "parameters" : { }
+            }
+          ]
+        },
+        {
           "mode" : "ceiling",
           "priority" : 2.0,
           "variants" : 1,

@@ -25,7 +25,7 @@
 
     {
       "kind" : "foliage/treefront",
-      "offset" : [0, 220],
+      "offset" : [0, 340],
       "parallax" : 3,
       "nightCorrelation" : 0,
       "minSpeed" : 0,
@@ -35,7 +35,7 @@
     },
     {
       "kind" : "foliage/treefront",
-      "offset" : [0, 210],
+      "offset" : [0, 350],
       "parallax" : 2,
       "nightCorrelation" : 0,
       "minSpeed" : 0,
@@ -45,7 +45,7 @@
     },
     {
       "kind" : "foliage/treeback",
-      "offset" : [0, 260],
+      "offset" : [0, 400],
       "parallax" : 5,
       "nightCorrelation" : 0,
       "minSpeed" : 0,

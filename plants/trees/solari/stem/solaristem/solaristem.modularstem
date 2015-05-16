@@ -3,7 +3,7 @@
   "shape" : "solari",
   "health" : 10,
   "middleMinSize" : 1,
-  "middleMaxSize" : 6,
+  "middleMaxSize" : 8,
   "dropConfig" : {
     "drops" : [
       [ { "item" : "solarishard", "count" : 1 } ]

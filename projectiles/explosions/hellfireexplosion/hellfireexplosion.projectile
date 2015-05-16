@@ -11,6 +11,6 @@
   "flippable" : true,
   "pointLight" : true,
   "lightColor" : [228,149,56],
-  "universalDamage" : true,
+  "universalDamage" : false,
   "damageKind" : "default"
 }
