@@ -2,6 +2,6 @@
   "itemName" : "ff_resin",
   "rarity" : "Common",
   "inventoryIcon" : "ff_resin.png",
-  "description" : "Sticky. Useful for adhesive.",
+  "description" : "Useful for adhesives, and hardening certain materials.",
   "shortdescription" : "Resin"
 }

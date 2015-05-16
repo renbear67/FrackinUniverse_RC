@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "fleshstrand", "count" : 15 },
+    { "item" : "bone", "count" : 8 },
+    { "item" : "ff_resin", "count" : 8 },
+    { "item" : "cellmateria", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "fuexosuithead",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "armors" ]
+}
