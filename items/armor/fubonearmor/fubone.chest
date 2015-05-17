@@ -1,0 +1,40 @@
+{
+  "itemName" : "fubonearmorchest",
+  "inventoryIcon" : "icons.png:chest",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A light bone ribcage. For those who think beauty is on the inside.",
+  "shortdescription" : "Ribcage Chest",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "statusEffects" : [
+    {
+      "stat" : "protection",
+      "amount" : 30
+    },
+
+    {
+      "stat" : "maxEnergy",
+      "amount" : 40
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 20
+    },
+    "sulphuricacidimmunity"
+  ]
+}

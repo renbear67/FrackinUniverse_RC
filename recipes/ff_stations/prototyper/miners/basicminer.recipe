@@ -2,8 +2,7 @@
   "input" : [
     { "item" : "electromagnet", "count" : 1 },
     { "item" : "steelbar", "count" : 1 },
-    { "item" : "solaricrystal", "count" : 1 },
-    { "item" : "wire", "count" : 2 }
+    { "item" : "solaricrystal", "count" : 1 }
   ],
   "output" : {
     "item" : "basicminer",

@@ -3,5 +3,8 @@
   "rarity" : "Common",
   "inventoryIcon" : "ff_resin.png",
   "description" : "Useful for adhesives, and hardening certain materials.",
-  "shortdescription" : "Resin"
+  "shortdescription" : "Resin",
+  "learnBlueprintsOnPickup" : [
+    "fubonearmorchest","fubonearmorlegs","fubonearmorhead"
+  ]
 }

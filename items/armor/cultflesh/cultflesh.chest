@@ -1,0 +1,44 @@
+{
+  "itemName" : "cultfleshchest",
+  "inventoryIcon" : "icons.png:chest",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Muscle, sinew, flesh and bone...tasteful!",
+  "shortdescription" : "Flesh Chestplate",
+  "tooltipKind" : "armor",
+  
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "statusEffects" : [
+      "regeneration2",
+    {
+      "stat" : "protection",
+      "amount" : 120
+    },
+
+    {
+      "stat" : "maxEnergy",
+      "amount" : 80
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 150
+    },
+    "helium3immunity",
+    "slimestickimmunity"
+  ]
+
+  
+}

@@ -1,0 +1,32 @@
+{
+  "itemName" : "fubonearmorhead",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A light bone mask. You're a true bonehead now.",
+  "shortdescription" : "Bone Mask",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+    {
+      "stat" : "protection",
+      "amount" : 25
+    },
+
+    {
+      "stat" : "maxEnergy",
+      "amount" : 25
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 10
+    },
+    "sulphuricacidimmunity"
+  ]
+}
