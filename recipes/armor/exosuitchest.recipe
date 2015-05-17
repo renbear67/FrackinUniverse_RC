@@ -3,7 +3,8 @@
     { "item" : "fleshstrand", "count" : 32 },
     { "item" : "bone", "count" : 12 },
     { "item" : "ff_resin", "count" : 12 },
-    { "item" : "cellmateria", "count" : 8 }
+    { "item" : "carbonplate", "count" : 5 },
+    { "item" : "cellmatter", "count" : 8 }
   ],
   "output" : {
     "item" : "fuexosuitchest",

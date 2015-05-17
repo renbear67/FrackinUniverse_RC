@@ -5,8 +5,6 @@
   "description" : "Stab those that harm you.",
   "shortdescription" : "Fayshroom",
   "effects" : [ [
-      
        "burstfayshroom"
-      
     ] ]
 }

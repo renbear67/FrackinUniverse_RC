@@ -6,5 +6,5 @@
     "item" : "protochest",
     "count" : 1
   },
-  "groups" : [ "mod", "prototyper", "furniture", "all" ]
+  "groups" : [ "prototyper", "furniture", "all" ]
 }

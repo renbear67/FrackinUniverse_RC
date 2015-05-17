@@ -68,5 +68,15 @@
 		"minimumLevel" : 1
 		}
 	]
+  },
+  { "op" : "add", "path" : "/ffatropusChest", 
+  "value" : 
+	[
+		{
+		"containers" : [ "atropuschest" ],
+		"treasurePool" : "ffatropusTreasure",
+		"minimumLevel" : 1
+		}
+	]
   }
 ]

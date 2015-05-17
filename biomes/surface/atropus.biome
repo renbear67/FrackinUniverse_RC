@@ -349,7 +349,7 @@
           "distribution" : "/biomes/distributions.config:overgroundChests",
 
           "type" : "treasureBox",
-          "treasureBoxSets" : [ "ffbasicChest" ]
+          "treasureBoxSets" : [ "ffbasicChest", "ffatropusChest" ]
         },
         {
           "mode" : "floor",

@@ -7,13 +7,13 @@ end
 function update(dt)
       mcontroller.controlParameters({
         normalGroundFriction = 1,
-        groundForce = 20,
-        slopeSlidingFactor = 0.2
+        groundForce = 35,
+        slopeSlidingFactor = 0.1
         })
   mcontroller.controlModifiers({
-        groundMovementModifier = -0.3,
-        runModifier = -0.3,
-        jumpModifier = -0.3
+        groundMovementModifier = -0.20,
+        runModifier = -0.275,
+        jumpModifier = -0.2
     })
 end
 
