@@ -13,8 +13,8 @@
     }
   ],
 
-    "mainBlock" : "hive",
-    "subBlocks" : [ "slime", "slime2", "clay", "direstone" ],
+    "mainBlock" : "slime",
+    "subBlocks" : [ "hive", "slime2", "clay", "rostone" ],
     "ores" : "ff_deepsurfacebogOres",
 
   "parallax" : "/parallax/underground/slimeworldunderground.parallax",
