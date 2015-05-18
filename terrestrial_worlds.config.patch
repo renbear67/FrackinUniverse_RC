@@ -276,8 +276,8 @@
        "threatRange" : [2, 8],
        "layers" : {
         "surface" : {
-          "primaryRegion" : [ "mountainous", "tidewater", "lightlessshadowsea", "metallicmoonshadowsea", "icemoonheliumsea", "metallicmoonheliumsea", "arboreal", "atropus", "bloodstone", "bog", "crystalmoon", "icemoon", "icewaste", "infernus", "irradiated", "lightless", "metallicmoon", "nitrogensea", "penumbra", "protoworld", "sulphuric", "thickjungle", "urbanwasteland", "alien", "barren", "desert", "forest", "garden", "jungle", "savannah", "scorched", "snow", "tundra", "volcanic" ],
-          "secondaryRegion" : [ "hauntedforest", "rainbowforest", "swamp", "mountainous", "tidewater", "estuary", "breakwater", "corrupt", "spring", "mushroom", "oasis", "tar", "alpine", "bioluminescence", "colourful", "bones", "giantflowers", "eyepatch", "ice", "rust", "crystalline", "alien", "arctic", "barren", "desert", "forest", "garden", "jungle", "magma", "ocean", "savannah", "scorched", "snow", "toxic", "tundra", "volcanic", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "calichefield", "bloodstonefield", "corruptedforest", "crystalplain", "deadwood", "desertoasis", "dryriverbed", "elder", "energyorbforest", "flowerforest", "hellfirefield", "hellhive", "icefire", "irradiatedwaste", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "pitchfield", "primevalforest", "snowyforest", "sulphuricplain", "taiga" ],
+          "primaryRegion" : [ "mountainous", "tidewater", "arboreal", "atropus", "bloodstone", "bog", "crystalmoon", "icemoon", "icewaste", "infernus", "irradiated", "lightless", "metallicmoon", "nitrogensea", "penumbra", "protoworld", "sulphuric", "thickjungle", "urbanwasteland", "alien", "barren", "desert", "forest", "garden", "jungle", "savannah", "scorched", "snow", "tundra", "volcanic" ],
+          "secondaryRegion" : [ "hauntedforest", "hauntedgraveyard", "rainbowforest", "swamp", "mountainous", "tidewater", "estuary", "breakwater", "corrupt", "spring", "mushroom", "oasis", "tar", "alpine", "bioluminescence", "colourful", "bones", "giantflowers", "eyepatch", "ice", "rust", "crystalline", "alien", "arctic", "barren", "desert", "forest", "garden", "jungle", "magma", "ocean", "savannah", "scorched", "snow", "toxic", "tundra", "volcanic", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "calichefield", "bloodstonefield", "corruptedforest", "crystalplain", "deadwood", "desertoasis", "dryriverbed", "elder", "energyorbforest", "flowerforest", "hellfirefield", "hellhive", "icefire", "irradiatedwaste", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "pitchfield", "primevalforest", "snowyforest", "sulphuricplain", "taiga" ],
           "dungeonCountRange" : [0, 2],
           "dungeons" : [ "wreck", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "avianairship", "aviantemple","humanbunker", "floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison", "naturalcave" ]
         },
@@ -810,7 +810,7 @@
       "layers" : {
         "surface" : {
           "primaryRegion" : [ "lightless" ],
-          "secondaryRegion" : [ "hauntedforest", "swamp", "bloodgulch", "hellhive", "elder", "protoworld", "irradiated", "hellhive" ],
+          "secondaryRegion" : [ "hauntedforest", "hauntedgraveyard", "swamp", "bloodgulch", "hellhive", "elder", "protoworld", "irradiated", "hellhive" ],
           "dungeonCountRange" : [0, 2],
           "dungeons" : [ "crystalcavern", "wreck", "glitchsewer", "glitchvillage", "avianairship", "humanprison" ]
         },
@@ -946,7 +946,7 @@
       "layers" : {
         "surface" : {
           "primaryRegion" : [ "penumbra" ],
-          "secondaryRegion" : [ "hauntedforest", "swamp", "hellhive", "elder", "corruptedforest", "icefire", "energyorbforest", "pitchfield", "blisterbushfield", "primevalforest", "irradiatedwaste", "bloodstonefield", "desert",  "eyepatch", "forest",  "volcanic", "magma", "savannah" ],
+          "secondaryRegion" : [ "hauntedforest", "hauntedgraveyard", "swamp", "hellhive", "elder", "corruptedforest", "icefire", "energyorbforest", "pitchfield", "blisterbushfield", "primevalforest", "irradiatedwaste", "bloodstonefield", "desert",  "eyepatch", "forest",  "volcanic", "magma", "savannah" ],
           "dungeonCountRange" : [0, 2],
           "dungeons" : [ "wreck", "glitchsewer", "apexresearchlab", "apextestchamber", "aviantomb", "aviantower", "humanbunker", "floranhuntinggrounds",  "scifidungeon", "glitchcastle", "humanprison", "aviantemple", "avianairship", "floranhell" ]        
         },
@@ -1437,11 +1437,12 @@
       "caveLiquid" : [ "shadowgas" ],
       "oceanLiquid" : [ "shadowgas" ],
       "oceanLevelOffset" : 9999,
-      "blockSelector" : [ "iceclouds", "gassea" ],
-      "fgCaveSelector" : [ "surfaceCaves" ],
+      "blockSelector" : [ "iceclouds", "gassea", "denseCaves", "normalCaves", "moonCaves" ],
+      "fgCaveSelector" : [ "surfaceCaves", "denseCaves", "acidPoolCaves" ],
+      "bgCaveSelector" : [ "coreCaves", "moonCaves", "solid" ],
       "bgOreSelector" : [ "denseVeins" ],       
       "biome" : [
-        [0, [ "metallicmoon" ]]
+        [0, [ "metallicunderground" ]]
       ]
     }
   },
@@ -1452,11 +1453,12 @@
       "caveLiquid" : [ "shadowgas" ],
       "oceanLiquid" : [ "shadowgas" ],
       "oceanLevelOffset" : 9999,
-      "blockSelector" : [ "iceclouds", "gassea" ],
-      "fgCaveSelector" : [ "surfaceCaves", "denseCaves" ],
+      "blockSelector" : [ "iceclouds", "gassea", "denseCaves", "normalCaves", "moonCaves" ],
+      "fgCaveSelector" : [ "surfaceCaves", "denseCaves", "acidPoolCaves" ],
+      "bgCaveSelector" : [ "coreCaves", "moonCaves", "solid" ],
       "bgOreSelector" : [ "denseVeins" ],       
       "biome" : [
-        [0, [ "lightless" ]]
+        [0, [ "lightlessunderground" ]]
       ]
     }
   }, 
@@ -1467,8 +1469,9 @@
       "caveLiquid" : [ "shadowgas" ],
       "oceanLiquid" : [ "shadowgas" ],
       "oceanLevelOffset" : 9999,
-      "blockSelector" : [ "iceclouds", "gassea" ],
-      "fgCaveSelector" : [ "surfaceCaves", "denseCaves" ],
+      "blockSelector" : [ "iceclouds", "gassea", "denseCaves", "normalCaves", "moonCaves" ],
+      "fgCaveSelector" : [ "surfaceCaves", "denseCaves", "acidPoolCaves" ],
+      "bgCaveSelector" : [ "coreCaves", "moonCaves", "solid" ],
       "bgOreSelector" : [ "denseVeins" ],       
       "biome" : [
         [0, [ "penumbra" ]]
@@ -1482,11 +1485,12 @@
       "caveLiquid" : [ "helium3gas" ],
       "oceanLiquid" : [ "helium3gas" ],
       "oceanLevelOffset" : 9999,
-      "blockSelector" : [ "iceclouds", "gassea" ],
-      "fgCaveSelector" : [ "surfaceCaves", "denseCaves" ],
+      "blockSelector" : [ "iceclouds", "gassea", "denseCaves", "normalCaves", "moonCaves" ],
+      "fgCaveSelector" : [ "surfaceCaves", "denseCaves", "acidPoolCaves" ],
+      "bgCaveSelector" : [ "coreCaves", "moonCaves", "solid" ],
       "bgOreSelector" : [ "denseVeins" ],       
       "biome" : [
-        [0, [ "metallicmoon" ]]
+        [0, [ "metallicunderground" ]]
       ]
     }
   },
@@ -1497,11 +1501,12 @@
       "caveLiquid" : [ "helium3gas" ],
       "oceanLiquid" : [ "helium3gas" ],
       "oceanLevelOffset" : 9999,
-      "blockSelector" : [ "iceclouds", "gassea"  ],
-      "fgCaveSelector" : [ "surfaceCaves", "denseCaves" ],
+      "blockSelector" : [ "iceclouds", "gassea", "denseCaves", "normalCaves", "moonCaves" ],
+      "fgCaveSelector" : [ "surfaceCaves", "denseCaves", "acidPoolCaves" ],
+      "bgCaveSelector" : [ "coreCaves", "moonCaves", "solid" ],
       "bgOreSelector" : [ "denseVeins" ],       
       "biome" : [
-        [0, [ "icemoon" ]]
+        [0, [ "icemoonunderground" ]]
       ]
     }
   },
@@ -2040,7 +2045,19 @@
       ]
     }
   }, 
-  
+   {"op" : "add", 
+  "path" : "/regionTypes/hauntedgraveyard",
+  "value" : 
+  {
+      "caveLiquid" : [ "bloodliquid", "darkwater"],
+      "caveLiquidChanceRange" : [90, 100],
+      "blockSelector" : [ "flatsSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "hauntedgraveyard" ]]
+      ]
+    }
+  },  
   {"op" : "add", 
   "path" : "/regionTypes/hellfirefield",
   "value" : 
@@ -2761,7 +2778,7 @@
   {
       "caveLiquid" : [ "sulphuricacid" ],
       "caveLiquidChanceRange" : [5, 5],
-            "bgOreSelector" : [ "denseVeins" ],  
+      "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
         [0, [ "sulphuricunderground"]]
       ]
@@ -2773,7 +2790,7 @@
   {
       "caveLiquid" : [ "tarliquid", "fuel" ],
       "caveLiquidChanceRange" : [5, 25],
-            "bgOreSelector" : [ "denseVeins" ],  
+      "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
         [0, [ "metallicunderground"]]
       ]
@@ -2785,7 +2802,7 @@
   {
       "caveLiquid" : [ "blacktar", "tarliquid", "darkwater" ],
       "caveLiquidChanceRange" : [5, 25],
-            "bgOreSelector" : [ "denseVeins" ],  
+      "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
         [0, [ "lightlessunderground"]]
       ]
@@ -2797,7 +2814,7 @@
   {
       "caveLiquid" : [ "water", "tarliquid" ],
       "caveLiquidChanceRange" : [65, 100],
-            "bgOreSelector" : [ "denseVeins" ],  
+      "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
         [0, [ "thickjungleunderground"]]
       ]

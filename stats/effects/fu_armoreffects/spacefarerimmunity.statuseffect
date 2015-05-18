@@ -6,6 +6,9 @@
   "scripts" : [
     "spacefarerimmunity.lua"
   ],
-  "label" : "Sure-Footed",
+
+  "animationConfig" : "spacefarerimmunity.animation",
+
+  "label" : "Spacer",
   "icon" : "/interface/statuses/jumpboostboot.png"
 }

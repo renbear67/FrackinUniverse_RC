@@ -1,5 +1,7 @@
 function init()
-  effect.setParentDirectives("border=2;003a0011;00000000")
+  animator.setParticleEmitterOffsetRegion("sparkles", mcontroller.boundBox())
+  animator.setParticleEmitterActive("sparkles", true)
+  effect.setParentDirectives("fade=F1EA9C;0.00?border=0;F1EA9C00;00000000")
   effect.addStatModifierGroup({
     {stat = "fireImmunity", amount = 1},
     {stat = "breathProtection", amount = 1},

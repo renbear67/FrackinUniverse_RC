@@ -64,7 +64,7 @@
     {
       "action" : "liquid", 
       "liquid" : "lava", 
-      "quantity" : 25
+      "quantity" : 2
     }
   ],
   "power" : 750.0,

@@ -16,7 +16,7 @@
     {
       "action" : "liquid", 
       "liquid" : "organicsoup", 
-      "quantity" : 20
+      "quantity" : 1
     }
   ],
   "power" : 0.001,

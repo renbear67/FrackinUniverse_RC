@@ -4,8 +4,8 @@ function init()
   
   script.setUpdateDelta(5)
 
-  self.tickDamagePercentage = 0.055
-  self.tickTime = 0.75
+  self.tickDamagePercentage = 0.036
+  self.tickTime = 1.0
   self.tickTimer = self.tickTime
 end
 

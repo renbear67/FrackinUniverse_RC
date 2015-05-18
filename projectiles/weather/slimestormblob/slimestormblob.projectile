@@ -19,7 +19,7 @@
     {
       "action" : "liquid", 
       "liquid" : "bio_ooze", 
-      "quantity" : 20
+      "quantity" : 2
     }
   ],
   "power" : 50.0,

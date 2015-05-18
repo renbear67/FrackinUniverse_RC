@@ -1,6 +1,6 @@
 {
-  "name" : "hauntedforest",
-  "friendlyName" : "Haunted Forest",
+  "name" : "hauntedgraveyard",
+  "friendlyName" : "Haunted Graveyard",
 
   "hueShiftOptions" : [-165, -70, -25, 0, 25, 70, 125, 165],
 
@@ -69,40 +69,16 @@
             }
           ]
         },
-    
        {
           "mode" : "floor",
           "priority" : 1.0,
           "variants" : 1,
-          "distribution" : "/biomes/distributions.config:ffunCommon",
+          "distribution" : "/biomes/distributions.config:ffCommon",
 
           "type" : "object",
           "objectSets" : [
         {
           "pool" : [ 
-          [0.15, "jungleplant_ff1" ],
-          [0.15, "shimbush1" ],
-          [0.15, "shimbush2" ],
-          [0.15, "shimbush3" ],
-          [0.15, "goldspiral3" ],
-          [0.15, "goldspiral4" ],
-          [0.15, "purpleflower1" ],
-          [0.15, "purpleflower2" ],
-          [0.15, "purpleflower3" ],
-          [0.15, "purpleflower4" ],
-          [0.15, "redcap2" ],
-          [0.15, "redcap3" ],
-          [0.15, "redcap" ],
-          [0.15, "smalltree1" ],
-          [0.15, "smalltree2" ],
-          [0.15, "smalltree3" ],
-          [0.15, "shrubby1" ],
-          [0.15, "shrubby2" ],
-          [0.15, "shrubby3" ],
-          [0.15, "orangebush" ],
-          [0.15, "bladeplant1" ],              
-          [0.15, "ferny1" ],
-          [0.15, "fireflies1"],
           [0.50, "tombstone1" ],
           [0.50, "tombstone2" ],
           [0.50, "tombstone3" ],
