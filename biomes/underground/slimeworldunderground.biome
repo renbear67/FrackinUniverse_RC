@@ -14,7 +14,7 @@
   ],
 
     "mainBlock" : "slime",
-    "subBlocks" : [ "hive", "slime2", "clay", "rostone" ],
+    "subBlocks" : [ "slimedirt", "slime2", "clay", "rock12" ],
     "ores" : "ff_deepsurfacebogOres",
 
   "parallax" : "/parallax/underground/slimeworldunderground.parallax",
@@ -41,6 +41,9 @@
   "undergroundPlaceables" : {
     "grassMod" : [ "greenslimegrass" ],
     "grassModDensity" : 0.9,
+    "ceilingGrassMod" : [ "ceilingslimegrass" ],
+    "ceilingGrassModDensity" : 1,
+    
     "items" : [
         {
           "mode" : "floor",

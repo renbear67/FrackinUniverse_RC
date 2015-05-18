@@ -46,6 +46,10 @@
     "path" : "/liquids/10/statusEffects", 
     "value" : [ "nitrogenfreeze" ]
     },
+    { "op" : "replace", 
+    "path" : "/liquids/13/statusEffects", 
+    "value" : [ "slimefriction" ]
+    },
     // lava
     {"op":"add",
    "path":"/liquids/2/interactions/-",

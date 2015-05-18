@@ -94,7 +94,7 @@ function update(dt)
     end
 
 -- slime/slime2  (bounce, slightly affects traction)
-    if groundmat == "slime" or groundmat == "slime2" then
+    if groundmat == "slime" or groundmat == "slime2" or groundmat == "slimedirt" then
       status.addEphemeralEffects{{effect = "slimestick"}}
     end
     

@@ -4,10 +4,9 @@ end
 
 function update(dt)
   mcontroller.controlParameters({
-        normalGroundFriction = 7,
-        groundForce = 70,
-        slopeSlidingFactor = 0.1,
-        bounceFactor = 0.35
+        normalGroundFriction = 5,
+        groundForce = 50,
+        bounceFactor = 0.55
     })
 end
 
