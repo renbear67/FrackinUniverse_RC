@@ -1,6 +1,6 @@
 {
-  "itemName" : "pinkpixieback",
-  "inventoryIcon" : "pinkpixieicon.png",
+  "itemName" : "greenguardianback",
+  "inventoryIcon" : "guardianicon.png",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "rarity" : "Common",
   "description" : "These ancient crystals hum with energy. They release a gentle, healing light.",
@@ -11,7 +11,7 @@
   "maxStack" : 1,
 
   "statusEffects" : [
-    "pinkguardian"
+    "greenguardian"
   ],
 
   "colorOptions" : [

@@ -78,5 +78,25 @@
 		"minimumLevel" : 1
 		}
 	]
+  },
+  { "op" : "add", "path" : "/ffprimevalChest", 
+  "value" : 
+	[
+		{
+		"containers" : [ "rainforestchest" ],
+		"treasurePool" : "ffprimevalTreasure",
+		"minimumLevel" : 1
+		}
+	]
+  },
+  { "op" : "add", "path" : "/ffrainforestChest", 
+  "value" : 
+	[
+		{
+		"containers" : [ "junglechest" ],
+		"treasurePool" : "ffrainforestTreasure",
+		"minimumLevel" : 1
+		}
+	]
   }
 ]

@@ -180,6 +180,115 @@
       "minSpeed" : 5000,
       "maxSpeed" : 10000,
       "fadePercent" : 0.04
+    },
+//northern lights
+	{
+      "kind" : "northernlights",
+      "offset" : [0, 150],
+      "parallax" : 6,
+      "nightCorrelation" : 0,
+      "minSpeed" : 5000,
+      "maxSpeed" : 10000,
+      "modifiers" : "",
+      "fadePercent" : 0.04
+    },
+    {
+      "kind" : "northernlights",
+      "offset" : [0, 20],
+      "parallax" : 14,
+      "nightCorrelation" : 0,
+      "minSpeed" : 2000,
+      "maxSpeed" : 5000,
+      "modifiers" : "",
+      "fadePercent" : 0.06
+    },
+    {
+      "kind" : "northernlights",
+      "offset" : [0, 150],
+      "parallax" : 6,
+      "nightCorrelation" : 0,
+      "minSpeed" : 5000,
+      "maxSpeed" : 10000,
+      "weather" : 20,
+      "modifiers" : "",
+      "fadePercent" : 0.04
+    },
+    {
+      "kind" : "northernlights",
+      "offset" : [0, 100],
+      "parallax" : 6,
+      "nightCorrelation" : 0,
+      "minSpeed" : 5000,
+      "maxSpeed" : 10000,
+      "weather" : 20,
+      "modifiers" : "",
+      "fadePercent" : 0.04
+    },
+    {
+      "kind" : "northernlights",
+      "offset" : [0, 60],
+      "parallax" : 9,
+      "nightCorrelation" : 0,
+      "minSpeed" : 5000,
+      "maxSpeed" : 10000,
+      "weather" : 40,
+      "modifiers" : "",
+      "fadePercent" : 0.15
+    },
+    {
+      "kind" : "northernlights",
+      "offset" : [0, 20],
+      "parallax" : 14,
+      "nightCorrelation" : 0,
+      "minSpeed" : 2000,
+      "maxSpeed" : 5000,
+      "weather" : 40,
+      "modifiers" : "",
+      "fadePercent" : 0.06
+    },
+    {
+      "kind" : "northernlights",
+      "offset" : [0, 140],
+      "parallax" : 14,
+      "nightCorrelation" : 0,
+      "minSpeed" : 2000,
+      "maxSpeed" : 5000,
+      "weather" : 60,
+      "modifiers" : "",
+      "fadePercent" : 0.06
+    },
+    {
+      "kind" : "northernlights",
+      "offset" : [0, 80],
+      "parallax" : 14,
+      "nightCorrelation" : 0,
+      "minSpeed" : 2000,
+      "maxSpeed" : 5000,
+      "weather" : 60,
+      "modifiers" : "",
+      "fadePercent" : 0.06
+    },
+    {
+      "kind" : "northernlights",
+      "offset" : [0, 1],
+      "parallax" : 9,
+      "nightCorrelation" : 0,
+      "minSpeed" : 5000,
+      "maxSpeed" : 10000,
+      "weather" : 60,
+      "modifiers" : "",
+      "fadePercent" : 0.15
+    },
+    {
+      "kind" : "northernlights",
+      "offset" : [0, 40],
+      "parallax" : 6,
+      "nightCorrelation" : 0,
+      "minSpeed" : 5000,
+      "maxSpeed" : 10000,
+      "weather" : 60,
+      "modifiers" : "",
+      "fadePercent" : 0.04
     }
   ]
 }
