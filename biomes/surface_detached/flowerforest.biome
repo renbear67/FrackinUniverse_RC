@@ -163,7 +163,7 @@
           "variants" : 1,
           "distribution" : "/biomes/distributions.config:randomEncounter",
           "type" : "microdungeon",
-          "microdungeons" : [ "randomencounter", "apexencounter", "avianencounter", "floranencounter", "glitchencounter", "humanencounter" ]
+          "microdungeons" : [ "randomencounter", "apexencounter", "avianencounter", "glitchencounter", "humanencounter" ]
 
         },
         

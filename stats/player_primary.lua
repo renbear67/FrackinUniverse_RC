@@ -92,7 +92,12 @@ function update(dt)
     if groundmat == "magmatile1" or groundmat == "magmatile2" then
       status.addEphemeralEffects{{effect = "burning"}}
     end
-
+    
+-- clouds  (bounce, slightly affects traction)
+    if groundmat == "cloudblock" or groundmat == "raincloud" then
+      status.addEphemeralEffects{{effect = "lowgrav"}}
+    end
+    
 -- slime/slime2  (bounce, slightly affects traction)
     if groundmat == "slime" or groundmat == "slime2" or groundmat == "slimedirt" then
       status.addEphemeralEffects{{effect = "slimestick"}}
@@ -104,13 +109,8 @@ function update(dt)
       status.addEphemeralEffects{{effect = "weakpoison"}}
     end
     
--- mud (slow)
-    if groundmat == "mud" then
-      status.addEphemeralEffects{{effect = "fumudslow"}}
-    end
-    
--- clay (slow)
-    if groundmat == "clay" then
+-- mud & clay (slow)
+    if groundmat == "mud" or groundmat == "clay" then
       status.addEphemeralEffects{{effect = "fumudslow"}}
     end
     
@@ -139,7 +139,12 @@ function update(dt)
       status.addEphemeralEffects{{effect = "ffextremeradiation"}}
     end
     
-
+-- sand/dirt (slight slow)
+    if groundmat == "jungledirt2" or groundmat == "redsand" or groundmat == "swampdirtff" or groundmat == "sand" then
+      status.addEphemeralEffects{{effect = "jungleslow"}}
+    end
+    
+    
 -- *****ohgoditburns original terrain effects************
     if groundmat == "snow" then
       fallDistanceDamageFactor = 1
@@ -160,8 +165,8 @@ function update(dt)
       status.addEphemeralEffects{{effect = "iceslip"}}
     end
 
-    if groundmat == "metallic" or groundmat2== "metallic" then
-       mcontroller.addMomentum({100 * sign(mcontroller.positionDelta()[1]),0})
+    if groundmat == "metallic" or groundmat2== "metallic" or groundmat == "asphalt" or groundmat2== "asphalt"then
+       status.addEphemeralEffects{{effect = "metalspeed"}}
     end
 
     if self.fallDistance > minimumFallDistance and yVelChange > minimumFallVel then

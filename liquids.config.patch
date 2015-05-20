@@ -38,7 +38,7 @@
     "path" : "/liquids/10/itemDrop", 
     "value" : "liquidnitrogenitem" 
     },
-	{"op":"add",
+    {"op":"add",
    "path":"/liquids/10/interactions/-",
    "value":{"liquid":12,"materialResult":"ice"}
     },
@@ -680,7 +680,7 @@
 	"value" : { 
 	"name" : "shadowgas",
 	"tickDelta" : 1,
-	"color" : [0, 0, 0, 5],
+	"color" : [0, 0, 0, 55],
 	"radiantLight" : [0, 0, 0],
         "statusEffects" : [ "shadowgasfx" ],
         "itemDrop" : "shadowgasliquid",
@@ -786,7 +786,17 @@
           {
             "liquid" : 42,
             "liquidResult" : 60
-          }     
+          },
+          //helium
+          {
+            "liquid" : 49,
+            "liquidResult" : 60
+          },
+          //shadow gas
+          {
+            "liquid" : 50,
+            "liquidResult" : 60
+          }   
       ],
 	"texture" : "/liquids/tartex.png",
 	"bottomLightMix" : [0, 78, 255],

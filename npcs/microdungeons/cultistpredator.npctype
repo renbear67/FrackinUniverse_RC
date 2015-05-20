@@ -90,7 +90,62 @@
             "chest" : [ { "name" : "cultarmorchest", "parameters" : { "colorIndex" : 7 } } ],
             "legs" : [ { "name" : "cultarmorpants", "parameters" : { "colorIndex" : 7 } } ],
             "primary" : [
+              { "name" : "bloodyknife" }
+            ],
+            "alt" : [
+              { "name" : "flashlight" }
+            ]
+          },
+          {
+            "head" : [ { "name" : "cultfleshhead", "parameters" : { "colorIndex" : 7 } } ],
+            "chest" : [ { "name" : "cultarmorchest", "parameters" : { "colorIndex" : 7 } } ],
+            "legs" : [ { "name" : "cultarmorpants", "parameters" : { "colorIndex" : 7 } } ],
+            "primary" : [
+              { "name" : "coralspear" }
+            ]
+          },
+          {
+            "head" : [ { "name" : "cultarmorhead", "parameters" : { "colorIndex" : 7 } } ],
+            "chest" : [ { "name" : "cultarmorchest", "parameters" : { "colorIndex" : 7 } } ],
+            "legs" : [ { "name" : "cultarmorpants", "parameters" : { "colorIndex" : 7 } } ],
+            "primary" : [
               { "name" : "obsidianblade" }
+            ],
+            "alt" : [
+              { "name" : "flashlight" }
+            ]
+          },
+          {
+            "head" : [ { "name" : "cultarmorhead", "parameters" : { "colorIndex" : 7 } } ],
+            "chest" : [ { "name" : "cultarmorchest", "parameters" : { "colorIndex" : 7 } } ],
+            "legs" : [ { "name" : "cultarmorpants", "parameters" : { "colorIndex" : 7 } } ],
+            "primary" : [
+              { "name" : "bloodyknife" }
+            ],
+            "alt" : [
+              { "name" : "bloodyknife" }
+            ]
+          },
+          {
+            "head" : [ { "name" : "fubonearmorhead", "parameters" : { "colorIndex" : 7 } } ],
+            "chest" : [ { "name" : "fubonearmorlegs", "parameters" : { "colorIndex" : 7 } } ],
+            "legs" : [ { "name" : "fubonearmorchest", "parameters" : { "colorIndex" : 7 } } ],
+            "primary" : [
+              { "name" : "carbonblade" }
+            ],
+            "alt" : [
+              { "name" : "flashlight" }
+            ]
+          },
+          {
+            "head" : [ { "name" : "ff_lagoonpants", "parameters" : { "colorIndex" : 7 } } ],
+            "chest" : [ { "name" : "ff_lagoonchest", "parameters" : { "colorIndex" : 7 } } ],
+            "legs" : [ { "name" : "ff_lagoonhead", "parameters" : { "colorIndex" : 7 } } ],
+            "primary" : [
+              { "name" : "elderblade" }
+            ],
+            "alt" : [
+              { "name" : "eldershield" }
             ]
           },
           {
@@ -119,7 +174,10 @@
             "chest" : [ { "name" : "elderarmorchest" } ],
             "legs" : [ { "name" : "elderarmorpants" } ],
             "primary" : [
-              { "name" : "elderblade" }, { "name" : "eldercarbine" }
+              { "name" : "elderblade" }, { "name" : "elderpistol" }
+            ],
+            "alt" : [
+              { "name" : "eldershield" }
             ]
           }
         ] ]
@@ -162,19 +220,19 @@
 
     "stats" : {
       "maxHealth" : {
-        "baseValue" : 100.0
+        "baseValue" : 160.0
       },
       "maxEnergy" : {
-        "baseValue" : 100.0
+        "baseValue" : 120.0
       },
       "powerMultiplier" : {
-        "baseValue" : 1.0
+        "baseValue" : 1.2
       },
       "protection" : {
-        "baseValue" : 0.25
+        "baseValue" : 0.55
       },
       "healthRegen" : {
-        "baseValue" : 0.0
+        "baseValue" : 0.015
       },
       "energyRegen" : {
         "baseValue" : 10.0

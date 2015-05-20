@@ -4,7 +4,7 @@
   "hueShiftOptions" : [-40, -25, 0, 25, 40],
 
     "mainBlock" : "tar",
-    "subBlocks" : [ "cobblestone", "mud" ],
+    "subBlocks" : [ "magmatile4", "mud" ],
     "ores" : "surfaceOres",
 
 
@@ -45,8 +45,8 @@
           "type" : "tree",
           "treeFoliageHueShiftMax" : 180,
           "treeStemHueShiftMax" : 15,
-          "treeStemList" : [ "underwood", "barren", "old", "skeletal", "stripey" ],
-          "treeFoliageList" : [ "mossy", "scattered" ]
+          "treeStemList" : [ "burnttreestem", "barren", "old", "skeletal", "stripey" ],
+          "treeFoliageList" : [ "burntleaves", "burntmoss", "mossy", "scattered" ]
 
 
         },
@@ -91,7 +91,7 @@
           "distribution" : "/biomes/distributions.config:ffunCommon",
 
           "type" : "grass",
-          "grasses" : [ "tar", "freebone", "ashlion"  ]
+          "grasses" : [ "tar", "freebone" ]
         },
         {
           "mode" : "floor",
