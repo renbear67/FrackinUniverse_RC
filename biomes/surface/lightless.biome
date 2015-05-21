@@ -5,11 +5,35 @@
   "spawnProfiles" : [
     {
       "groups" : [ "mediumsurface1" ],
-      "extraSpawns" : [  ]
+      "extraSpawns" : [  ],
+      "monsterParameters" : {
+        "statusSettings" : {
+          "stats" : {
+            "poisonImmunity" : {
+              "baseValue" : 1.0
+            },
+            "breathProtection" : {
+              "baseValue" : 1.0
+            }          
+          }
+        }
+      }   
     },
     {
       "groups" : [ "mediumsurface2" ],
-      "extraSpawns" : [  ]
+      "extraSpawns" : [  ],
+      "monsterParameters" : {
+        "statusSettings" : {
+          "stats" : {
+            "poisonImmunity" : {
+              "baseValue" : 1.0
+            },
+            "breathProtection" : {
+              "baseValue" : 1.0
+            }          
+          }
+        }
+      }   
     }
   ],
 

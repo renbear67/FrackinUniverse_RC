@@ -1,10 +1,63 @@
 [
 
+// Vanilla Biome Merges
+    { "op" : "add", 
+    "path" : "/planetTypes/alien/layers/surface/secondaryRegion", 
+    "value" : [ "icefire", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "bloodstonefield", "corrupt", "estuary", "cellfield", "elder", "energyorbforest", "hauntedforest", "hellhive" ]
+    },
+    { "op" : "add", 
+    "path" : "/planetTypes/arctic/layers/surface/secondaryRegion", 
+    "value" : [ "icefire", "taiga", "pineforest", "hellhive", "snowyforest" ]
+    },
+    { "op" : "add", 
+    "path" : "/planetTypes/barren/layers/surface/secondaryRegion", 
+    "value" : [ "icefire", "sulphuricplain", "corrupt", "badlands", "reddesert", "desertoasis", "calichefield", "bloodgulch", "deadwood", "ashgarden", "dryriverbed", "estuary" ]
+    },
     { "op" : "add", 
     "path" : "/planetTypes/desert/layers/surface/secondaryRegion", 
-    "value" : [ "reddesert", "finesand", "badlands", "dryriverbed", "calichefield", "hellfirefield", "pitchfield", "sulphuricplain" ]
+    "value" : [ "reddesert", "finesand", "badlands", "desertoasis", "dryriverbed", "calichefield", "hellfirefield", "pitchfield", "sulphuricplain" ]
     },
-
+    { "op" : "add", 
+    "path" : "/planetTypes/forest/layers/surface/secondaryRegion", 
+    "value" : [ "cloudforest", "corruptedforest", "deadwood", "energyorbforest", "estuary", "fieldofcarrots", "fieldofcorn", "fieldofgrape", "fieldofpotato", "fieldoftomato", "primevalforest", "fieldofwheat", "flowerforest", "hauntedforest", "hauntedgraveyard", "meadow", "hellhive", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "rainbowforest", "snowyforest", "taiga" ]
+    },
+    { "op" : "add", 
+    "path" : "/planetTypes/garden/layers/surface/secondaryRegion", 
+    "value" : [ "cloudforest", "corruptedforest", "deadwood", "energyorbforest", "estuary", "fieldofcarrots", "fieldofcorn", "fieldofgrape", "fieldofpotato", "fieldoftomato", "fieldofwheat", "flowerforest", "hauntedforest", "hauntedgraveyard", "meadow", "hellhive", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "rainbowforest", "snowyforest", "taiga" ]
+    },
+    { "op" : "add", 
+    "path" : "/planetTypes/jungle/layers/surface/secondaryRegion", 
+    "value" : [ "corrupt", "pitchfield", "irradiatedwaste", "blackslimebog", "bloodgulch", "corruptedforest", "deadwood", "elder", "energyorbforest", "hotsprings", "meadow", "primevalforest", "badlands", "reddesert" ]
+    },
+    { "op" : "add", 
+    "path" : "/planetTypes/magma/layers/surface/secondaryRegion", 
+    "value" : [ "pitchfield", "icefire", "sulphuricplain", "hellfirefield", "hellhive", "irradiatedwaste", "reddesert", "bloodgulch", "badlands", "ashgarden", "bloodstonefield", "dryriverbed" ]
+    },
+    { "op" : "add", 
+    "path" : "/planetTypes/savannah/layers/surface/secondaryRegion", 
+    "value" : [ "pitchfield", "hellhive", "flowerforest", "hauntedforest", "bloodgulch", "hauntedgraveyard", "irradiatedwaste", "meadow", "badlands", "finesand", "reddesert", "calichefield", "sulphuricplain" ]
+    },
+    { "op" : "add", 
+    "path" : "/planetTypes/scorched/layers/surface/secondaryRegion", 
+    "value" : [ "icefire", "hellhive", "elder", "deadwood" ]
+    },
+    { "op" : "add", 
+    "path" : "/planetTypes/snow/layers/surface/secondaryRegion", 
+    "value" : [ "taiga", "pineforest", "hellhive", "snowyforest" ]
+    },
+    { "op" : "add", 
+    "path" : "/planetTypes/toxic/layers/surface/secondaryRegion", 
+    "value" : [ "corrupt", "blisterbushfield", "corruptedforest", "bloodgulch", "elder", "primevalforest", "sulphuricplain", "pitchfield" ]
+    },
+    { "op" : "add", 
+    "path" : "/planetTypes/tundra/layers/surface/secondaryRegion", 
+    "value" : [ "taiga", "pineforest", "hellhive", "snowyforest" ]
+    },
+    { "op" : "add", 
+    "path" : "/planetTypes/volcanic/layers/surface/secondaryRegion", 
+    "value" : [ "hellfirefield", "sulphuricplain", "hellhive", "elder" ]
+    },
+    
 {"op" : "add",
 "path" : "/planetTypes/mountainous",
 "value" : {       
