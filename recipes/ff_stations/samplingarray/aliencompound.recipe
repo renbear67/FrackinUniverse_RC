@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "mineralsample", "count" : 1 }, 
+    { "item" : "protorockmaterial", "count" : 1 },
+    { "item" : "prisilitestar", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "aliencompound",
+    "count" : 1
+  },
+  "groups" : [ "samplingarray", "materials", "all" ]
+}

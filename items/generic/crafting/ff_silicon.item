@@ -2,7 +2,7 @@
   "itemName" : "ff_silicon",
   "rarity" : "Rare",
   "inventoryIcon" : "ff_silicon.png",
-  "description" : "This resource has many uses.",
+  "description" : "This resource has many uses in science and tech.",
   "shortdescription" : "Silicon",
-  "learnBlueprintsOnPickup" : [ "cpu", "advcircuit", "carbonplate", "densealloy", "advancealloy", "fieldscientisthead", "fieldscientistlegs", "fieldscientistchest", "siliconspear", "crystallineblade" ]
+  "learnBlueprintsOnPickup" : [ "graphene", "cpu", "advcircuit", "carbonplate", "densealloy", "advancealloy", "fieldscientisthead", "fieldscientistlegs", "fieldscientistchest", "siliconspear", "crystallineblade" ]
 }

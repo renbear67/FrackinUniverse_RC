@@ -3,5 +3,6 @@
   "rarity" : "Common",
   "inventoryIcon" : "nutrientpaste.png",
   "description" : "A nutrient paste derived from basic nutrients.",
-  "shortdescription" : "Nutrient Paste"
+  "shortdescription" : "Nutrient Paste",
+  "learnBlueprintsOnPickup" : [ "mineralsample" ]
 }

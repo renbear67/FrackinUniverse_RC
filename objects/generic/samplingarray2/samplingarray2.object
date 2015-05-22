@@ -1,0 +1,32 @@
+{
+  "objectName" : "samplingarray2",
+  "rarity" : "rare",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : { 
+    "config" : "/interface/windowconfig/samplingarray2.config",
+    "filter" : [ "samplingarray" ]
+  },
+  "printable" : false,
+  "description" : "Play with DNA, or merge resources in new ways.",
+  "shortdescription" : "^orange;samplingarray2^white;",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 450,
+  "learnBlueprintsOnPickup" : [ "mineralsample", "dnasample", "biochip", "vialproto", "blisterextract", "mutaviskthread", "aliencompound", "methyliodide", "graphene", "ff_silicon" ],
+
+  "inventoryIcon" : "samplingarray2icon.png",
+  "orientations" : [
+
+    {
+      "dualImage" : "samplingarray2.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 7,
+      "animationCycle" : 3.0,
+
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [0, -1] ],
+      "collision" : "platform"
+    }
+  ]
+
+}

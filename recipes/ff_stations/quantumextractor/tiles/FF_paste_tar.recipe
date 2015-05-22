@@ -3,8 +3,8 @@
     { "item" : "tar", "count" : 50 }
   ],
   "output" : {
-    "item" : "laboil",
-    "count" : 1
+    "item" : "liquidoil",
+    "count" : 5
   },
   "groups" : [ "quantumextractor", "all" ]
 }

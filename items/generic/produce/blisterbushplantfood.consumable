@@ -11,7 +11,5 @@
         "duration" : 120
       }
     ] ],
-  "blockingEffects" : [
-    "glowpurple"
-  ]
+  "learnBlueprintsOnPickup" : [ "blisterextract" ]
 }

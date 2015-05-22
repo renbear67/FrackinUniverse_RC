@@ -3,8 +3,8 @@
     { "item" : "raincloudmat", "count" : 50 }
   ],
   "output" : {
-    "item" : "nutrientpaste",
-    "count" : 4
+    "item" : "liquidwater",
+    "count" : 8
   },
   "groups" : [ "quantumextractor", "all" ]
 }

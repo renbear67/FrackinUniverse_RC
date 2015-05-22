@@ -3,5 +3,6 @@
   "rarity" : "Common",
   "inventoryIcon" : "pesticide.png",
   "description" : "Kills bugs dead.",
-  "shortdescription" : "Pesticide"
+  "shortdescription" : "Pesticide",
+  "learnBlueprintsOnPickup" : [ "methyliodide" ]
 }

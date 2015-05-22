@@ -3,7 +3,7 @@
     { "item" : "redsand", "count" : 50 }
   ],
   "output" : {
-    "item" : "laboil",
+    "item" : "liquidoil",
     "count" : 4
   },
   "groups" : [ "quantumextractor", "all" ]

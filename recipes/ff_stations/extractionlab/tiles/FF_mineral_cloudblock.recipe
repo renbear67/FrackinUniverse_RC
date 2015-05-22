@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "redsand", "count" : 50 }
+    { "item" : "cloudblock", "count" : 50 }
   ],
   "output" : {
-    "item" : "laboil",
+    "item" : "liquidwater",
     "count" : 2
   },
   "groups" : [ "extractionlab", "all" ]

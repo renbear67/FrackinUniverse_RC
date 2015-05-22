@@ -1,10 +1,10 @@
 {
   "input" : [
-    { "item" : "laboil", "count" : 1 }
+    { "item" : "redsand", "count" : 50 }
   ],
   "output" : {
     "item" : "liquidoil",
-    "count" : 25
+    "count" : 2
   },
   "groups" : [ "extractionlab", "all" ]
 }
