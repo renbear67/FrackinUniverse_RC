@@ -21,7 +21,7 @@
       "stat" : "maxEnergy",
       "amount" : 80
     },
-    "ffextremeradiationresist",
+    "ffextremeheatresist",
     "energyregenfu_armor30"
   ],
 "effectSources" : [ "icetrail" ]

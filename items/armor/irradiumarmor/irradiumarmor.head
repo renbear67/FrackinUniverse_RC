@@ -22,7 +22,7 @@
       "stat" : "maxHealth",
       "amount" : 65
     },
-    "ffextremeradiationresist"
+    "ffextremeheatresist"
   ],
 
 "effectSources" : [ "icetrail" ]
