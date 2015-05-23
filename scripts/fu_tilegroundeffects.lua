@@ -34,8 +34,8 @@ function tileMaterials()
   self.matCheck["bioblock"] = {{"regenerationminor"},0,0,0,14,100,0,1.1}
   self.matCheck["bioblock2"] = {{"regenerationminor"},0,0,0,14,100,0,1.2}
   self.matCheck["biodirt"] = {{"regenerationminor"},0,0,0,14,100,0,0.85}
-  self.matCheck["metallic"] = {{"regenerationminor"},0,0,0,14,100,0,1.3}
-  self.matCheck["asphalt"] = {{"regenerationminor"},0,0,0,14,100,0,1.4}
+  self.matCheck["metallic"] = {{"metalspeed"},0,0,0,14,100,0,1.3}
+  self.matCheck["asphalt"] = {{"metalspeed"},0,0,0,14,100,0,1.4}
   self.matCheck["cloudblock"] = {{"lowgrav"},0,0,0,14,100,0,0.2}
   self.matCheck["raincloud"] = {{"lowgrav"},0,0,0,14,100,0,0.2}
 end
