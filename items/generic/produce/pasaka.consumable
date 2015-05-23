@@ -6,7 +6,7 @@
   "shortdescription" : "Pasaka Bulb",
   "effects" : [ [
       {
-        "effect" : "damageMultiplier",
+        "effect" : "damagebonus",
         "amount" : 1.25,
         "duration" : 15
       }

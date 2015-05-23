@@ -7,7 +7,7 @@
 
   "effects" : [ [
       {
-        "effect" : "damageMultiplier",
+        "effect" : "damagebonus",
         "amount" : 1.75,
         "duration" : 10
       }

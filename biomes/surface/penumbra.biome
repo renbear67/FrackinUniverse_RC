@@ -373,8 +373,8 @@
           "type" : "tree",
           "treeFoliageHueShiftMax" : 170,
           "treeStemHueShiftMax" : 170,
-          "treeStemList" : [ "energyorbstem", "mushroomstalkbio", "deadtree1", "woody", "oldwood", "underwood" ],
-          "treeFoliageList" : [ "energyorbfoliage", "mushroomyellowtopbio", "mushroomredtopbio", "deadleaves", "deadmoss", "mossy", "scattered" ]
+          "treeStemList" : [ "energyorbstem", "mushroomstalkbio", "deadtree1", "woody", "oldwood", "underwood", "alienweird", "alienbubble" ],
+          "treeFoliageList" : [ "energyorbfoliage", "mushroomyellowtopbio", "mushroomredtopbio", "deadleaves", "deadmoss", "mossy", "scattered", "aliencircle", "alienbigleaf" ]
         }
       ]
     },

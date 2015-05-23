@@ -17,6 +17,10 @@
       "stat" : "protection",
       "amount" : 24
     },
+    {
+      "stat" : "damagebonus",
+      "amount" : 1.6
+    },
     "energyregenfu_armor30"
   ]
 

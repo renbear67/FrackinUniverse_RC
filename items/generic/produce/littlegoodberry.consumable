@@ -6,7 +6,7 @@
   "shortdescription" : "Little Good Berry",
   "effects" : [ [
       {
-        "effect" : "damageMultiplier",
+        "effect" : "damagebonus",
         "amount" : 1.5,
         "duration" : 15
       }

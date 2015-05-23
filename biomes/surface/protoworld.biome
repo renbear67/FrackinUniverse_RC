@@ -368,8 +368,8 @@
           "type" : "tree",
           "treeFoliageHueShiftMax" : 220,
           "treeStemHueShiftMax" : 15,
-          "treeStemList" : [ "twisty", "woody", "oldwood", "crackly", "palmlike" ],
-          "treeFoliageList" : [ "lushy", "junglepalm", "jungly", "jungleleaf" ]
+          "treeStemList" : [ "twisty", "woody", "oldwood", "crackly", "palmlike", "alienweird", "alienbubble", "alienstriped" ],
+          "treeFoliageList" : [ "lushy", "junglepalm", "jungly", "jungleleaf", "alienbigleaf", "aliencircle" ]
         },
         {
           "mode" : "ceiling",
