@@ -3,7 +3,7 @@
 // Vanilla Biome Merges
     { "op" : "add", 
     "path" : "/planetTypes/alien/layers/surface/secondaryRegion", 
-    "value" : [ "icefire", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "bloodstonefield", "corrupt", "estuary", "cellfield", "elder", "energyorbforest", "hauntedforest", "hellhive" ]
+    "value" : [ "icefire", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "bloodstonefield", "cellfield", "elder", "energyorbforest", "hauntedforest", "hellhive" ]
     },
     { "op" : "add", 
     "path" : "/planetTypes/arctic/layers/surface/secondaryRegion", 
@@ -11,7 +11,7 @@
     },
     { "op" : "add", 
     "path" : "/planetTypes/barren/layers/surface/secondaryRegion", 
-    "value" : [ "icefire", "sulphuricplain", "corrupt", "badlands", "reddesert", "desertoasis", "calichefield", "bloodgulch", "deadwood", "ashgarden", "dryriverbed", "estuary" ]
+    "value" : [ "icefire", "sulphuricplain", "badlands", "reddesert", "desertoasis", "calichefield", "bloodgulch", "deadwood", "ashgarden", "dryriverbed" ]
     },
     { "op" : "add", 
     "path" : "/planetTypes/desert/layers/surface/secondaryRegion", 
@@ -19,15 +19,15 @@
     },
     { "op" : "add", 
     "path" : "/planetTypes/forest/layers/surface/secondaryRegion", 
-    "value" : [ "cloudforest", "corruptedforest", "deadwood", "energyorbforest", "estuary", "fieldofcarrots", "fieldofcorn", "fieldofgrape", "fieldofpotato", "fieldoftomato", "primevalforest", "fieldofwheat", "flowerforest", "hauntedforest", "hauntedgraveyard", "meadow", "hellhive", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "rainbowforest", "snowyforest", "taiga" ]
+    "value" : [ "cloudforest", "corruptedforest", "deadwood", "energyorbforest", "fieldofcarrots", "fieldofcorn", "fieldofgrape", "fieldofpotato", "fieldoftomato", "primevalforest", "fieldofwheat", "flowerforest", "hauntedforest", "hauntedgraveyard", "meadow", "hellhive", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "rainbowforest", "snowyforest", "taiga" ]
     },
     { "op" : "add", 
     "path" : "/planetTypes/garden/layers/surface/secondaryRegion", 
-    "value" : [ "cloudforest", "corruptedforest", "deadwood", "energyorbforest", "estuary", "fieldofcarrots", "fieldofcorn", "fieldofgrape", "fieldofpotato", "fieldoftomato", "fieldofwheat", "flowerforest", "hauntedforest", "hauntedgraveyard", "meadow", "hellhive", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "rainbowforest", "snowyforest", "taiga" ]
+    "value" : [ "cloudforest", "deadwood", "energyorbforest", "fieldofcarrots", "fieldofcorn", "fieldofgrape", "fieldofpotato", "fieldoftomato", "fieldofwheat", "flowerforest", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "rainbowforest", "snowyforest", "taiga" ]
     },
     { "op" : "add", 
     "path" : "/planetTypes/jungle/layers/surface/secondaryRegion", 
-    "value" : [ "corrupt", "pitchfield", "irradiatedwaste", "blackslimebog", "bloodgulch", "corruptedforest", "deadwood", "elder", "energyorbforest", "hotsprings", "meadow", "primevalforest", "badlands", "reddesert" ]
+    "value" : [ "pitchfield", "irradiatedwaste", "blackslimebog", "bloodgulch", "corruptedforest", "deadwood", "elder", "energyorbforest", "hotsprings", "meadow", "primevalforest", "badlands", "reddesert" ]
     },
     { "op" : "add", 
     "path" : "/planetTypes/magma/layers/surface/secondaryRegion", 
@@ -47,7 +47,7 @@
     },
     { "op" : "add", 
     "path" : "/planetTypes/toxic/layers/surface/secondaryRegion", 
-    "value" : [ "corrupt", "blisterbushfield", "corruptedforest", "bloodgulch", "elder", "primevalforest", "sulphuricplain", "pitchfield" ]
+    "value" : [ "blisterbushfield", "corruptedforest", "bloodgulch", "elder", "primevalforest", "sulphuricplain", "pitchfield" ]
     },
     { "op" : "add", 
     "path" : "/planetTypes/tundra/layers/surface/secondaryRegion", 
@@ -144,7 +144,7 @@
       "layers" : {
         "surface" : {
           "primaryRegion" : [ "tidewater" ], 
-	  "secondaryRegion" : [ "cellfield", "finesand", "breakwater", "corrupt", "estuary" ]
+	  "secondaryRegion" : [ "cellfield", "finesand", "breakwater", "corrupt" ]
         },
         "subsurface" : {
           "primaryRegion" : [ "tidewaterfloor" ],

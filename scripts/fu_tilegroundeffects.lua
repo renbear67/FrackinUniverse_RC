@@ -16,7 +16,7 @@ function tileMaterials()
   self.matCheck["swampdirtff"] = {{"jungleslow"},0,0,0,14,100,0,1}
   self.matCheck["frozenwater"] = {{"iceslip"},0,0,0,14,100,0,1}
   self.matCheck["ice"] = {{"iceslip"},0,0,0,14,100,0,1}
-  self.matCheck["iceblock"] = {{"iceslip"},0,0,0,14,100,0,1}
+  --self.matCheck["iceblock"] = {{"iceslip"},0,0,0,14,100,0,1}
   self.matCheck["iceblock1"] = {{"iceslip"},0,0,0,14,100,0,1}
   self.matCheck["iceblock2"] = {{"iceslip"},0,0,0,14,100,0,1}
   self.matCheck["snow"] = {{"snowslow"},0,0,0,14,100,0,1}
