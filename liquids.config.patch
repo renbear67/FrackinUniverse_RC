@@ -284,7 +284,7 @@
 	"value" : { 
 	"name" : "organicsoup",
 	"tickDelta" : 2,
-	"color" : [255, 0, 255, 225],
+	"color" : [255, 0, 255, 205],
 	"radiantLight" : [115, 0, 115],
         "statusEffects" : [ "swimming", "energyregenfu05" ],
         "itemDrop" : "liquidorganicsoup",
@@ -347,8 +347,8 @@
 	"value" : { 
 	"name" : "protociteliquid",
 	"tickDelta" : 2,
-	"color" : [232, 244, 102, 220],
-	"radiantLight" : [0, 120, 0],
+	"color" : [232, 244, 102, 175],
+	"radiantLight" : [140, 120, 50],
         "statusEffects" : [ "swimming", "energyregenfu20" ],
         "itemDrop" : "vialproto",
         "interactions" : [
