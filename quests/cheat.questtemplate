@@ -8,7 +8,7 @@
   ],
   "moneyRange" : [0,2],
   "rewards" : [ 
-    [ "extractionlab-recipe", "chemlab-recipe", "samplingarray-recipe", "designlab-recipe", "xenostation-recipe", "clonelab-recipe", "prototyper-recipe" ] 
+    [ "extractionlab-recipe", "chemlab-recipe", "designlab-recipe", "xenostation-recipe", "clonelab-recipe", "prototyper-recipe" ] 
   ],
   "planetMode" : "none",
   "questDungeons" : [ ],

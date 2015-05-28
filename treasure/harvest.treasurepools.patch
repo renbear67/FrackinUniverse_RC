@@ -1,57 +1,83 @@
 [
 {"op":"add",
 	"path":"/fubioshroomHarvest",
-	"value":[[0, {"fill":[ {"item":"biospore"} ],
-	"pool":[ {"weight":0.05, "item":"biospore"} ],
-	"poolRounds":[[0.7,2],[0.3,3]]}]]
+	"value":[[0, {
+	"fill":[ {"item":"biospore"} ],
+	"pool":[ {"weight":0.5, "item":"biospore"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+	]]
 },
 
 
 {"op":"add",
 	"path":"/aquapodHarvest",
-	"value":[[0, {"fill":[
+	"value":[[0, {
+	"fill":[
 		{"item":"aquapodseed"}, 
 		{"item":"aquapod"}],
 	"pool":[
 		{"weight":0.2, "item":"aquapodseed"},
 		{"weight":0.2, "item":"plantfibre"}],
-	"poolRounds":[[0.7,2],[0.3,3]]}]]},
+	"poolRounds":[[0.7,2],[0.3,3]]}
+	]]
+},
 	
 {"op":"add",
 	"path":"/wildaquapodHarvest",
-	"value":[[0, {"fill":[
+	"value":[[0, {
+	"fill":[
 		{"item":"aquapod"}],
 	"pool":[{"weight":0.7, "item":"aquapod"},
 		{"weight":0.1, "item":"plantfibre"}],
-	"poolRounds":[[0.7,2],[0.3,3]]}]]},
+	"poolRounds":[[0.7,2],[0.3,3]]}
+	]]
+},
 	
 {"op":"add",
 	"path":"/bambooHarvest",
-	"value":[[0,{"fill":[
+	"value":[[0,{
+	"fill":[
 		{"item":"bambooseed"},
-		{"item":"ff_bambooshoot"}, 
-		{"item":"plantfibre"}]}]]},
+		{"item":"ff_bambooshoot"}],
+	"pool":[
+		{"weight":0.5, "item":"bambooseed"},
+		{"weight":0.5, "item":"plantfibre"}],
+	"poolRounds":[[0.7,2],[0.3,3]]}		
+		]]
+},
 		
 {"op":"add",
 	"path": "/wildbambooHarvest",
-	"value": [[0,{"fill": [{"item": "ff_bambooshoot"}],
-    "pool": [{"weight": 0.7,"item": "ff_bambooshoot"},
-          {"weight": 0.1,"item": "plantfibre"}],
-    "poolRounds": [[0.7,2],[0.2,3],[0.1,4]]}]]},
+	"value": [[0,{
+	"fill": [{"item": "ff_bambooshoot"}],
+        "pool": [{"weight": 0.7,"item": "ff_bambooshoot"},
+          {"weight": 0.5,"item": "plantfibre"}],
+        "poolRounds": [[0.7,2],[0.2,3],[0.1,4]]}
+        ]]
+},
 		
 {"op":"add", 
 	"path":"/beetlesproutHarvest", 
 	"value":[[0, 
 		{"fill":[{"item":"beetlesproutflower"}, 
 		{"item":"beetlesproutseed"}, 
-		{"item":"plantfibre"}]}]]}, 
+		{"item":"plantfibre"}],
+	"pool":[{"weight":0.5, "item":"beetlesproutseed"}],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+		]]
+}, 
 		
 {"op":"add",
 	"path":"/blexplantHarvest", 
 	"value":[[0, 
 		{"fill":[{"item":"blexplantseed"}, 
 			{ "item":"blexsap"}, 
-			{"item":"plantfibre"}]}]]},
+			{"item":"plantfibre"}],
+	"pool":[
+		{"weight":0.5, "item":"blexplantseed"}],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+			]]
+},
 		
 {"op":"add", 
 	"path":"/wildblexplantHarvest", 
@@ -60,402 +86,649 @@
 	"pool":[{"weight":0.7, "item":"blexsap"}, 
 		{"weight":0.1, "item":"ff_resin"}, 
 		{"weight":0.1, "item":"plantfibre"}], 
-	"poolRounds":[[0.7,2],[0.3,3]]}]]},
+	"poolRounds":[[0.7,2],[0.3,3]]}
+	]]
+},
 
 {"op":"add", 
 	"path":"/blisterbushHarvest", 
 	"value":[[0, {"fill":[{"item":"blisterbushplantseed"}, 
 		{"item":"blisterbushplantfood"}, 
-		{"item":"blisterbushplantseed"},
-		{"item":"plantfibre"}]}]]},
+		{"item":"plantfibre"}],
+	"pool":[ {"weight":0.5, "item":"blisterbushplantseed"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+		]]
+},
 		
 {"op":"add",
 	"path":"/wildblisterbushHarvest", 
-	"value":[[0, {"fill":[{"item":"blisterbushplantfood"}], 
+	"value":[[0, {
+	"fill":[{"item":"blisterbushplantfood"}], 
 	"pool":[{"weight":0.7, "item":"blisterbushplantfood"}, 
 		{"weight":0.3, "item":"plantfibre"}], 
-	"poolRounds":[[0.7, 2], [0.3, 3]]}]]}, 
+	"poolRounds":[[0.7, 2], [0.3, 3]]}
+	]]
+}, 
 		
 {"op":"add", 
 	"path":"/caprioleHarvest", 
-	"value":[[0, {"fill":[ 
+	"value":[[0, {
+	"fill":[ 
 		{"item":"capriole"}, 
 		{"item":"caprioleplantseed"}, 
-		{"item":"plantfibre"}]}]]},
+		{"item":"plantfibre"}],
+	"pool":[ {"weight":0.5, "item":"caprioleplantseed"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+		]]
+},
 	
 {"op":"add",
 	"path":"/wildcaprioleHarvest", 
-	"value":[[0, {"fill":[{"item":"capriole"}], 
+	"value":[[0, {
+	"fill":[{"item":"capriole"}], 
 	"pool":[{"weight":0.6, "item":"capriole"}, 
 		{"weight":0.2, "item":"plantfibre"}], 
-	"poolRounds":[[0.7,2],[0.3,3]]}]]},
+	"poolRounds":[[0.7,2],[0.3,3]]}
+	]]
+},
 		
 {"op":"add",
 	"path":"/deathblossomHarvest", 
-	"value":[[0, {"fill":[{"item":"deathblossomseed"}, 
+	"value":[[0, {
+	"fill":[{"item":"deathblossomseed"}, 
 		{"item":"deathblossom"}, 
-		{"item":"plantfibre"}]}]]},
+		{"item":"plantfibre"}],
+	"pool":[ {"weight":0.375, "item":"deathblossomseed"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+		]]
+},
 
 {"op":"add", 
 	"path":"/wilddeathblossomHarvest",
-	"value":[[0, {"fill":[{"item":"deathblossom"}],
+	"value":[[0, {
+	"fill":[{"item":"deathblossom"}],
 	"pool":[{"weight":0.7, "item":"deathblossom"}, 
 		{"weight":0.1, "item":"plantfibre"}],
-	"poolRounds":[[0.7,2],[0.3,3]]}]]},
+	"poolRounds":[[0.7,2],[0.3,3]]}
+	]]
+},
 	
 		
 {"op":"add", 
 	"path":"/diodiahybridHarvest",
-	"value":[[0, {"fill":[{"item":"diodiahybridseed"}, 
+	"value":[[0, {
+	"fill":[{"item":"diodiahybridseed"}, 
 		{"item":"diodiahybrid"}, 
-		{"item":"plantfibre"}]}]]}, 
+		{"item":"plantfibre"}],
+	"pool":[ {"weight":0.5, "item":"diodiahybridseed"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+		]]
+}, 
 	
 {"op":"add", "path":"/wilddiodiahybridHarvest",
-	"value":[[0, {"fill":[{"item":"diodiahybrid"}],
+	"value":[[0, {
+	"fill":[{"item":"diodiahybrid"}],
 	"pool":[{"weight":0.7, "item":"diodiahybrid"},
 		{"weight":0.1, "item":"plantfibre"}],
-	"poolRounds":[[0.7, 2], [0.3, 3]]}]]}, 
+	"poolRounds":[[0.7, 2], [0.3, 3]]}
+	]]
+}, 
 	
 {"op":"add", 
 	"path":"/algaeHarvest", 
-	"value":[[0, {"fill":[{"item":"algaeseed"}, 
-		{"item":"algaegreen"}]}]]}, 
+	"value":[[0, {
+	"fill":[{"item":"algaeseed"}, 
+		{"item":"algaegreen"}],
+	"pool":[ {"weight":0.5, "item":"algaeseed"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+		]]
+}, 
 	
 {"op":"add", 
 	"path":"/wildalgaeHarvest", 
-	"value":[[0, {"fill":[{"item":"algaegreen"}], 
+	"value":[[0, {
+	"fill":[{"item":"algaegreen"}], 
 	"pool":[{"weight":0.6, "item":"algaegreen"}],
-	"poolRounds":[[0.7, 2], [0.3, 3]]}]]}, 
+	"poolRounds":[[0.7, 2], [0.3, 3]]}
+	]]
+}, 
 	
 {"op":"add",
 	"path":"/erithianalgaeHarvest", 
-	"value":[[0, {"fill":[{"item":"erithianalgaeseed"},
-		{"item":"erithianalgae"}]}]]}, 
+	"value":[[0, {
+	"fill":[{"item":"erithianalgaeseed"},
+		{"item":"erithianalgae"}],
+	"pool":[ {"weight":0.5, "item":"erithianalgaeseed"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+		]]
+}, 
 	
 {"op":"add", 
 	"path":"/wilderithianalgaeHarvest",
-	"value":[[0, {"fill":[{"item":"erithianalgae"}],
+	"value":[[0, {
+	"fill":[{"item":"erithianalgae"}],
 	"pool":[{"weight":0.6, "item":"erithianalgae"}],
-	"poolRounds":[[0.7, 2], [0.3, 3]]}]]}, 
+	"poolRounds":[[0.7, 2], [0.3, 3]]}
+	]]
+}, 
 	
 {"op":"add", 
 	"path":"/floralytHarvest",
-	"value":[[0, {"fill":[{"item":"floralytplantseed"},
+	"value":[[0, {
+	"fill":[{"item":"floralytplantseed"},
 		{"item":"floralytcandy"},
-		{"item":"plantfibre"}]}]]}, 
+		{"item":"plantfibre"}],
+	"pool":[ {"weight":0.5, "item":"floralytplantseed"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+		]]
+}, 
 	
 {"op":"add", 
 	"path":"/gazelemonHarvest",
-	"value":[[0, {"fill":[{"item":"gazelemonseed"},
+	"value":[[0, {
+	"fill":[{"item":"gazelemonseed"},
 		{"item":"gazelemon"}, 
-		{"item":"gazelemonseed"}, 
-		{"item":"plantfibre"}]}]]}, 
+		{"item":"plantfibre"}],
+	"pool":[ {"weight":0.5, "item":"gazelemonseed"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+		]]
+}, 
 	
 {"op":"add", 
 	"path":"/wildgazelemonHarvest", 
-	"value":[[0, {"fill":[{"item":"gazelemon"}], 
+	"value":[[0, {
+	"fill":[{"item":"gazelemon"}], 
 	"pool":[{"weight":0.6, "item":"gazelemon"}, 
 		{"weight":0.2, "item":"plantfibre"}], "
-	poolRounds":[[0.7, 2], [0.3, 3]]}]]}, 
+	poolRounds":[[0.7, 2], [0.3, 3]]}
+	]]
+}, 
 
 {"op":"add", 
 	"path":"/glarestalkHarvest", 
-	"value":[[0, {"fill":[{"item":"glarestalkseed"}, 
-		{"item":"glarestalkeye"}]}]]}, 
+	"value":[[0, {
+	"fill":[{"item":"glarestalkseed"}, 
+		{"item":"glarestalkeye"}],
+	"pool":[ {"weight":0.5, "item":"glarestalkseed"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+		]]
+}, 
 
 {"op":"add", 
 	"path":"/wildglarestalkHarvest", 
-	"value":[[0, {"fill":[{"item":"glarestalkeye"}], 
+	"value":[[0, {
+	"fill":[{"item":"glarestalkeye"}], 
 	"pool":[{"weight":1, "item":"glarestalkeye"}], 
-	"poolRounds":[[0.7, 2], [0.3, 3]]}]]}, 
+	"poolRounds":[[0.7, 2], [0.3, 3]]}
+	]]
+}, 
 
 {"op":"add", 
 	"path":"/goldenglowHarvest", 
-	"value":[[0, {"fill":[{"item":"goldenglowseed"}, 
-		{"item":"goldenglowleaf"}, 
-		{"item":"goldenglowseed"}, 
-		{"item":"plantfibre"}]}]]}, 
+	"value":[[0, {
+	"fill":[{"item":"goldenglowseed"}, 
+		{"item":"goldenglowleaf"},  
+		{"item":"plantfibre"}],
+	"pool":[ {"weight":0.5, "item":"goldenglowseed"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+		]]
+}, 
 		
 {"op":"add", 
 	"path":"/haleflowerHarvest", 
-	"value":[[0, {"fill":[{"item":"haleflowerseed"}, 
+	"value":[[0, {
+	"fill":[{"item":"haleflowerseed"}, 
 		{"item":"haleflowerpetal"}, 
-		{"item":"haleflowerseed"},
-		{"item":"plantfibre"}]}]]},
+		{"item":"plantfibre"}],
+	"pool":[ {"weight":0.5, "item":"haleflowerseed"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+		]]
+},
 		
 {"op":"add", 
 	"path":"/hellfireHarvest", 
-	"value":[[0, {"fill":[{"item":"hellfireplantseed"}, 
-		{"item":"magmabomb"}]}]]},
+	"value":[[0, {
+	"fill":[{"item":"hellfireplantseed"}, 
+		{"item":"magmabomb"}],
+	"pool":[ {"weight":0.35, "item":"hellfireplantseed"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+		]]
+},
 		
 {"op":"add", 
 	"path":"/wildhellfireHarvest", 
-	"value":[[0, {"fill":[{"item":"magmabomb"}], 
+	"value":[[0, {
+	"fill":[{"item":"magmabomb"}], 
 	"pool":[{"weight":1, "item":"magmabomb"}], 
-	"poolRounds":[[0.7, 2], [0.3, 3]]}]]}, 
+	"poolRounds":[[0.7, 2], [0.3, 3]]}
+	]]
+}, 
 	
 {"op":"add", 
 	"path":"/ighantHarvest", 
-	"value":[[0, {"fill":[{"item":"ighantseed"}, 
+	"value":[[0, {
+	"fill":[{"item":"ighantseed"}, 
 		{"item":"ighantbulb"}, 
-		{"item":"plantfibre"}]}]]}, 
+		{"item":"plantfibre"}],
+	"pool":[ {"weight":0.5, "item":"ighantseed"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+		]]
+}, 
 		
 {"op":"add",
 	"path":"/wildighantHarvest",
-	"value":[[0, {"fill":[{"item":"ighantbulb"}], 
+	"value":[[0, {
+	"fill":[{"item":"ighantbulb"}], 
 	"pool":[{"weight":0.7, "item":"ighantbulb"},
 		{"weight":0.3, "item":"plantfibre"}], 
-	"poolRounds":[[0.7, 2], [0.3, 3]]}]]}, 
+	"poolRounds":[[0.7, 2], [0.3, 3]]}
+	]]
+}, 
 	
 {"op":"add",
 	"path":"/ignuschiliHarvest", 
-	"value":[[0, {"fill":[{"item":"ignuschiliseed"}, 
+	"value":[[0, {
+	"fill":[{"item":"ignuschiliseed"}, 
 		{"item":"ignuschili"},
-		{"item":"ignuschiliseed"},
-		{"item":"plantfibre"}]}]]}, 
+		{"item":"plantfibre"}],
+	"pool":[ {"weight":0.4, "item":"ignuschiliseed"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+		]]
+}, 
 	
 {"op":"add", 
 	"path":"/wildignuschiliHarvest",
-	"value":[[0, {"fill":[{"item":"ignuschili"}], 
+	"value":[[0, {
+	"fill":[{"item":"ignuschili"}], 
 	"pool":[{"weight":0.6, "item":"ignuschili"}, 
 		{"weight":0.2, "item":"mineralsample"}],
-	"poolRounds":[[0.7, 2], [0.3, 3]]}]]}, 
+	"poolRounds":[[0.7, 2], [0.3, 3]]}
+	]]
+}, 
 	
 {"op":"add", 
 	"path":"/ignuschili2Harvest",
-	"value":[[0, {"fill":[{"item":"ignuschili2seed"}, 
+	"value":[[0, {
+	"fill":[{"item":"ignuschili2seed"}, 
 		{"item":"ignuschili2"}, 
-		{"item":"plantfibre"}]}]]}, 
+		{"item":"plantfibre"}],
+	"pool":[ {"weight":0.365, "item":"ignuschili2seed"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+		]]
+}, 
 	
 {"op":"add",
 	"path":"/itaHarvest", 
-	"value":[[0, {"fill":[{"item":"itaseed"},
+	"value":[[0, {
+	"fill":[{"item":"itaseed"},
 		{"item":"itahead"},
-		{"item":"plantfibre"}]}]]}, 
+		{"item":"plantfibre"}],
+	"pool":[ {"weight":0.5, "item":"itaseed"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+		]]
+}, 
 	
 {"op":"add",
 	"path":"/lasherHarvest",
-	"value":[[0, {"fill":[{"item":"lasherplantseed"},
+	"value":[[0, {
+	"fill":[{"item":"lasherplantseed"},
 		{"item":"lasherstem"},
-		{"item":"lasherplantseed"},
-		{"item":"ff_resin"}]}]]}, 
+		{"item":"ff_resin"}],
+	"pool":[ {"weight":0.5, "item":"lasherplantseed"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+		]]
+}, 
 	
 {"op":"add", 
 	"path":"/wildlasherHarvest",
-	"value":[[0, {"fill":[{"item":"lasherstem"}],
+	"value":[[0, {
+	"fill":[{"item":"lasherstem"}],
 	"pool":[{"weight":0.7, "item":"lasherstem"}, 
 		{"weight":0.1, "item":"mineralsample"}, 
 		{"weight":0.1, "item":"ff_resin"}], 
-	"poolRounds":[[0.7, 2], [0.3, 3]]}]]}, 
+	"poolRounds":[[0.7, 2], [0.3, 3]]}
+	]]
+}, 
 	
 {"op":"add", 
 	"path":"/miraclegrassHarvest", 
-	"value":[[0, {"fill":[{"item":"miraclegrassseed"}, 
+	"value":[[0, {
+	"fill":[{"item":"miraclegrassseed"}, 
 		{"item":"miraclegrass"}, 
-		{"item":"plantfibre"}]}]]}, 
+		{"item":"plantfibre"}],
+	"pool":[ {"weight":0.5, "item":"miraclegrassseed"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+		]]
+}, 
 		
 {"op":"add",
 	"path":"/wildmiraclegrassHarvest",
-	"value":[[0, {"fill":[{"item":"miraclegrassseed"}],
+	"value":[[0, {
+	"fill":[{"item":"miraclegrassseed"}],
 	"pool":[{"weight":0.7, "item":"miraclegrass"},
 		{"weight":0.1, "item":"miraclegrassseed"},
 		{"weight":0.1, "item":"plantfibre"}],
-	"poolRounds":[[0.7, 2], [0.3, 3]]}]]}, 
+	"poolRounds":[[0.7, 2], [0.3, 3]]}
+	]]
+}, 
 	
 {"op":"add",
 	"path":"/mireurchinHarvest",
-	"value":[[0, {"fill":[{"item":"mireurchinseed"}, 
+	"value":[[0, {
+	"fill":[{"item":"mireurchinseed"}, 
 		{"item":"mireurchin"}, 
-		{"item":"plantfibre"}]}]]}, 
+		{"item":"plantfibre"}],
+	"pool":[ {"weight":0.5, "item":"mireurchinseed"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+		]]
+}, 
 		
 {"op":"add",
 	"path":"/wildmireurchinHarvest", 
-	"value":[[0, {"fill":[{"item":"mireurchin"}],
+	"value":[[0, {
+	"fill":[{"item":"mireurchin"}],
 	"pool":[{"weight":0.7, "item":"mireurchin"}, 
 		{"weight":0.3, "item":"plantfibre"}], 
-	"poolRounds":[[0.7, 2], [0.3, 3]]}]]}, 
+	"poolRounds":[[0.7, 2], [0.3, 3]]}
+	]]
+}, 
 	
 {"op":"add",
 	"path":"/mutaviskHarvest", 
-	"value":[[0, {"fill":[
+	"value":[[0, {
+	"fill":[
 	{"item":"mutaviskseed"}, 
-	{"item":"mutavisksilk"}]}]]
+	{"item":"mutavisksilk"}],
+	"pool":[ {"weight":0.5, "item":"mutaviskseed"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+	]]
 },
 		
 {"op":"add",
 	"path":"/wildmutaviskHarvest", 
-	"value":[[0, {"fill":[{"item":"mutavisksilk"}], 
+	"value":[[0, {
+	"fill":[{"item":"mutavisksilk"}], 
 	"pool":[{"weight":0.7, "item":"ff_resin"}, 
 		{"weight":0.1, "item":"plantfibre"}], 
-	"poolRounds":[[0.7, 2], [0.3, 3]]}]]}, 
+	"poolRounds":[[0.7, 2], [0.3, 3]]}
+	]]
+}, 
 	
 {"op":"add", 
 	"path":"/neuropodHarvest", 
-	"value":[[0, {"fill":[{"item":"neuropodseed"}, 
-			{"weight":0.6, "item":"neuropod"}, 
-			{"item":"plantfibre"}]}]]}, 
+	"value":[[0, {
+	"fill":[{"item":"neuropodseed"}, 
+		{"weight":0.6, "item":"neuropod"}, 
+		{"item":"plantfibre"}],
+	"pool":[ {"weight":0.5, "item":"neuropodseed"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+		]]
+}, 
 		
 {"op":"add", 
 	"path":"/wildneuropodHarvest", 
-	"value":[[0, {"fill":[{"item":"neuropod"}], 
+	"value":[[0, {
+	"fill":[{"item":"neuropod"}], 
 	"pool":[{"weight":0.7, "item":"neuropod"}, 
 		{"weight":0.3, "item":"plantfibre"}], 
-	"poolRounds":[[0.7, 2], [0.3, 3]]}]]}, 
+	"poolRounds":[[0.7, 2], [0.3, 3]]}
+	]]
+}, 
 	
 {"op":"add", 
 	"path":"/nissHarvest", 
-	"value":[[0, {"fill":[{"item":"nissseed"},
+	"value":[[0, {
+	"fill":[{"item":"nissseed"},
 		{"item":"nisscap"},
-		{"item":"plantfibre"}]}]]}, 
+		{"item":"plantfibre"}],
+	"pool":[ {"weight":0.5, "item":"nissseed"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+		]]
+}, 
 
 {"op":"add",
 	"path":"/wildnissHarvest",
-	"value":[[0, {"fill":[{"item":"nisscap"}],
+	"value":[[0, {
+	"fill":[{"item":"nisscap"}],
 	"pool":[{"weight":0.6, "item":"nisscap"},
 		{"weight":0.2, "item":"plantfibre"}],
-	"poolRounds":[[0.7, 2], [0.3, 3]]}]]},
+	"poolRounds":[[0.7, 2], [0.3, 3]]}
+	]]
+},
  
 {"op":"add", 
 	"path":"/brackenHarvest",
-	"value":[[0, {"fill":[{"item":"brackentreeseed"},
+	"value":[[0, {
+	"fill":[{"item":"brackentreeseed"},
 		{"item":"silk"},
-		{"item":"ff_resin"}]}]]}, 
+		{"item":"ff_resin"}],
+	"pool":[ {"weight":0.5, "item":"brackentreeseed"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+		]]
+}, 
 		
 {"op":"add",
 	"path":"/wildbrackenHarvest",
-	"value":[[0, {"fill":[{"item":"silk"}],
+	"value":[[0, {
+	"fill":[{"item":"silk"}],
 	"pool":[{"weight":0.6, "item":"silk"},
 		{"weight":0.2, "item":"ff_resin"}],
-	"poolRounds":[[0.7, 2], [0.3, 3]]}]]}, 
+	"poolRounds":[[0.7, 2], [0.3, 3]]}
+	]]
+}, 
 
 {"op":"add",
 	"path":"/oonfortaHarvest",
-	"value":[[0, {"fill":[{"item":"oonfortaseed"},
+	"value":[[0, {
+	"fill":[{"item":"oonfortaseed"},
 		{"item":"oonfortaglobule"},
-		{"item":"plantfibre"}]}]]}, 
+		{"item":"plantfibre"}],
+	"pool":[ {"weight":0.5, "item":"oonfortaseed"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+		]]
+}, 
 		
 {"op":"add", 
 	"path":"/wildoonfortaHarvest", 
-	"value":[[0, {"fill":[{"item":"oonfortaglobule"}], 
+	"value":[[0, {
+	"fill":[{"item":"oonfortaglobule"}], 
 	"pool":[{"weight":0.7, "item":"oonfortaglobule"}, 
 		{"weight":0.3, "item":"plantfibre"}], 
-	"poolRounds":[[0.7, 2], [0.3, 3]]}]]}, 
+	"poolRounds":[[0.7, 2], [0.3, 3]]}
+	]]
+}, 
 	
 {"op":"add", 
 	"path":"/pasakaHarvest", 
-	"value":[[0, {"fill":[{"item":"pasakavineseed"}, 
-		{"item":"pasaka"}]}]]}, 
+	"value":[[0, {
+	"fill":[{"item":"pasakavineseed"}, 
+		{"item":"pasaka"}],
+	"pool":[ {"weight":0.5, "item":"pasakavineseed"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+		]]
+}, 
 		
 {"op":"add", 
 	"path":"/wildpasakaHarvest",
-	"value":[[0, {"fill":[{"item":"pasaka"}], 
+	"value":[[0, {
+	"fill":[{"item":"pasaka"}], 
 	"pool":[{"weight":1, "item":"pasaka"}],
-	"poolRounds":[[0.7, 2], [0.3, 3]]}]]}, 
+	"poolRounds":[[0.7, 2], [0.3, 3]]}
+	]]
+}, 
 	
 {"op":"add",
 	"path":"/porphisplantHarvest",
-	"value":[[0, {"fill":[{"item":"porphisplantseed"},
+	"value":[[0, {
+	"fill":[{"item":"porphisplantseed"},
 		{"item":"porphisblossom"},
-		{"item":"porphisplantseed"},
-		{"item":"plantfibre"}]}]]}, 
+		{"item":"plantfibre"}],
+	"pool":[ {"weight":0.5, "item":"porphisplantseed"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+		]]
+}, 
 		
 {"op":"add", 
 	"path":"/wildporphisplantHarvest",
-	"value":[[0, {"fill":[{"item":"porphisblossom"}], 
+	"value":[[0, {
+	"fill":[{"item":"porphisblossom"}], 
 	"pool":[{"weight":0.7, "item":"porphisblossom"},
 		{"weight":0.3, "item":"plantfibre"}],
-	"poolRounds":[[0.7, 2], [0.3, 3]]}]]}, 
+	"poolRounds":[[0.7, 2], [0.3, 3]]}
+	]]
+}, 
 	
 {"op":"add",
 	"path":"/shockshroomHarvest",
-	"value":[[0, {"fill":[{"item":"shockshroomseed"},
-		{"item":"shockshroom"}]}]]}, 
+	"value":[[0, {
+	"fill":[{"item":"shockshroomseed"},
+		{"item":"shockshroom"}],
+	"pool":[ {"weight":0.4, "item":"shockshroomseed"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+		]]
+}, 
 	
 {"op":"add",
 	"path":"/wildshockshroomHarvest",
-	"value":[[0, {"fill":[{"item":"shockshroom"}],
+	"value":[[0, {
+	"fill":[{"item":"shockshroom"}],
 	"pool":[{"weight":0.7, "item":"shockshroom"},
 		{"weight":0.3, "item":"mineralsample"}], 
-	"poolRounds":[[0.7, 2], [0.3, 3]]}]]}, 
+	"poolRounds":[[0.7, 2], [0.3, 3]]}
+	]]
+}, 
 	
 {"op":"add",
 	"path":"/slimeplantHarvest",
-	"value":[[0, {"fill":[{"item":"slimeplantseed"},
+	"value":[[0, {
+	"fill":[{"item":"slimeplantseed"},
 		{"item":"slimeleaf"},
-		{"item":"plantfibre"}]}]]},
+		{"item":"plantfibre"}],
+	"pool":[ {"weight":0.5, "item":"slimeplantseed"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+		]]
+},
 		
 {"op":"add", 
 	"path":"/wildslimeplantHarvest",
-	"value":[[0, {"fill":[{"item":"slimeleaf"}],
+	"value":[[0, {
+	"fill":[{"item":"slimeleaf"}],
 	"pool":[{"weight":1, "item":"slimeleaf"}],
-	"poolRounds":[[0.7, 2], [0.3, 3]]}]]}, 
+	"poolRounds":[[0.7, 2], [0.3, 3]]}
+	]]
+}, 
 
 {"op":"add", 
 	"path":"/thornitoxHarvest",
-	"value":[[0, {"fill":[{"item":"thornitoxseed"},
-		{"item":"thornitox"}]}]]}, 
+	"value":[[0, {
+	"fill":[{"item":"thornitoxseed"},
+		{"item":"thornitox"}],
+	"pool":[ {"weight":0.5, "item":"thornitoxseed"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+		]]
+}, 
 		
 {"op":"add", 
 	"path":"/wildthornitoxHarvest", 
-	"value":[[0, {"fill":[{"item":"thornitox"}], 
+	"value":[[0, {
+	"fill":[{"item":"thornitox"}], 
 	"pool":[{"weight":1, "item":"thornitox"}], 
-	"poolRounds":[[0.7, 2], [0.3, 3]]}]]}, 
+	"poolRounds":[[0.7, 2], [0.3, 3]]}
+	]]
+}, 
 
 {"op":"add", 
 	"path":"/springvaultHarvest",
-	"value":[[0, {"fill":[{"item":"springvaultseed"},
+	"value":[[0, {
+	"fill":[{"item":"springvaultseed"},
 		{"item":"springvaultcoil"},
-		{"item":"springvaultseed"}, 
-		{"item":"plantfibre"}]}]]}, 
+		{"item":"plantfibre"}],
+	"pool":[ {"weight":0.5, "item":"springvaultseed"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+		]]
+}, 
 		
 {"op":"add",
 	"path":"/talonseedHarvest",
-	"value":[[0, {"fill":[{"item":"talonseedseed"},
+	"value":[[0, {
+	"fill":[{"item":"talonseedseed"},
 		{"item":"talonseed"},
-		{"item":"talonseedseed"}]}]]}, 
+		{"item":"talonseedseed"}],
+	"pool":[ {"weight":0.5, "item":"talonseedseed"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+		]]
+}, 
 	
 {"op":"add", 
 	"path":"/wildtalonseedHarvest",
-	"value":[[0, {"fill":[{"item":"talonseed"}],
+	"value":[[0, {
+	"fill":[{"item":"talonseed"}],
 	"pool":[{"weight":1, "item":"talonseed"}],
-	"poolRounds":[[0.7, 2], [0.3, 3]]}]]}, 
+	"poolRounds":[[0.7, 2], [0.3, 3]]}
+	]]
+}, 
 	
 {"op":"add",
 	"path":"/tetherhookHarvest",
-	"value":[[0, {"fill":[{"item":"tetherhookseed"},
+	"value":[[0, {
+	"fill":[{"item":"tetherhookseed"},
 		{"item":"tetherhookwheel"},
-		{"item":"plantfibre"}]}]]}, 
+		{"item":"plantfibre"}],
+	"pool":[ {"weight":0.5, "item":"tetherhookseed"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+		]]
+}, 
 		
 {"op":"add",
 	"path":"/tyvokkHarvest",
-	"value":[[0, {"fill":[{"item":"tyvokkseed"},
+	"value":[[0, {
+	"fill":[{"item":"tyvokkseed"},
 		{"item":"tyvokkhook"},
-		{"item":"ff_resin"}]}]]},
+		{"item":"ff_resin"}],
+	"pool":[ {"weight":0.5, "item":"tyvokkseed"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+		]]
+},
 		
 {"op":"add",
 	"path":"/wildtyvokkHarvest",
-	"value":[[0, {"fill":[{"item":"tyvokkhook"}],
+	"value":[[0, {
+	"fill":[{"item":"tyvokkhook"}],
 	"pool":[{"weight":0.7, "item":"tyvokkhook"},
 		{"weight":0.3, "item":"ff_resin"}],
-	"poolRounds":[[0.7, 2], [0.3, 3]]}]]}, 
+	"poolRounds":[[0.7, 2], [0.3, 3]]}
+	]]
+}, 
 
 {"op":"add", 
 	"path":"/stranglevineHarvest",
-	"value":[[0, {"fill":[{"item":"stranglevineseed"},
-			{"weight":0.6, "item":"stranglevineroot"},
-			{"weight":0.2, "item":"plantfibre"}]}]]}, 
+	"value":[[0, {
+	"fill":[{"item":"stranglevineseed"},
+		{"weight":0.6, "item":"stranglevineroot"},
+		{"weight":0.2, "item":"plantfibre"}],
+	"pool":[ {"weight":0.5, "item":"stranglevineseed"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+		]]
+}, 
 
 {"op":"add",
 	"path":"/wildstranglevineHarvest",
-	"value":[[0, {"fill":[{"item":"plantfibre"}],
+	"value":[[0, {
+	"fill":[{"item":"plantfibre"}],
 	"pool":[{"weight":1, "item":"plantfibre"}],
-	"poolRounds":[[0.7, 2], [0.3, 3]]}]]}, 
+	"poolRounds":[[0.7, 2], [0.3, 3]]}
+	]]
+}, 
 	
 {"op":"add",
 	"path":"/varanberryHarvest",
 	"value":[[0, {"fill":[{"item":"varanberryseed"},
 		{"item":"varanberry"},
-		{"item":"plantfibre"}]}]]}, 
+		{"item":"plantfibre"}],
+	"pool":[ {"weight":0.5, "item":"varanberryseed"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+		]]
+}, 
 
 {"op":"add",
 	"path":"/wildvaranberryHarvest",
@@ -464,77 +737,112 @@
 		{"weight":0.1, "item":"varanberryseed"},
 		{"weight":0.1, "item":"silksworm"},
 		{"weight":0.1, "item":"plantfibre"}],
-	"poolRounds":[[0.7, 2], [0.3, 3]]}]]}, 
+	"poolRounds":[[0.7, 2], [0.3, 3]]}
+	]]
+}, 
 
 {"op":"add",
 	"path":"/vashtaplantHarvest",
 	"value":[[0, {"fill":[{"item":"vashtaplantseed"},
 		{"item":"vashtaclaw"},
-		{"weight":0.2, "item":"ff_resin"}]}]]},
+		{"weight":0.2, "item":"ff_resin"}],
+	"pool":[ {"weight":0.5, "item":"vashtaplantseed"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+		]]
+},
 		
 {"op":"add",
 	"path":"/wildvashtaplantHarvest", 
 	"value":[[0, {"fill":[{"item":"vashtaclaw"}],
 	"pool":[{"weight":0.7, "item":"vashtaclaw"}, 
 		{"weight":0.3, "item":"ff_resin"}], 
-	"poolRounds":[[0.7, 2], [0.3, 3]]}]]}, 
+	"poolRounds":[[0.7, 2], [0.3, 3]]}
+	]]
+}, 
 	
 {"op":"add",
 	"path":"/vextongueHarvest", 
 	"value":[[0, {"fill":[{"item":"vextongueseed"}, 
-		{"item":"vextonguestamen"}]}]]}, 
+		{"item":"vextonguestamen"}],
+	"pool":[ {"weight":0.5, "item":"vextongueseed"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+		]]
+}, 
 	
 {"op":"add",
 	"path":"/wildvextongueHarvest",
 	"value":[[0, {"fill":[{"item":"vextonguestamen"}],
 	"pool":[{"weight":1, "item":"vextonguestamen"}], 
-	"poolRounds":[[0.7, 2], [0.3, 3]]}]]}, 
+	"poolRounds":[[0.7, 2], [0.3, 3]]}
+	]]
+}, 
 
 {"op":"add", 
 	"path":"/voritHarvest",
 	"value":[[0, {"fill":[{"item":"voritcap"},
-		{"item":"voritseed"}]}]]}, 
+		{"item":"voritseed"}],
+	"pool":[ {"weight":0.5, "item":"voritseed"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+		]]
+}, 
 
 {"op":"add",
 	"path":"/wildvoritHarvest",
 	"value":[[0, {"fill":[{"item":"voritcap"}],
 	"pool":[{"weight":0.6, "item":"voritcap"},
 		{"weight":0.2, "item":"voritcap"}],
-	"poolRounds":[[0.7, 2], [0.3, 3]]}]]}, 
+	"poolRounds":[[0.7, 2], [0.3, 3]]}
+	]]
+}, 
 
 {"op":"add",
 	"path":"/wretchelHarvest",
 	"value":[[0, {"fill":[{"item":"wretchel"},
 		{"item":"silk"},
 		{"item":"wretchelseed"},
-		{"item":"wretchel"}]}]]}, 
+		{"item":"wretchel"}],
+	"pool":[ {"weight":0.5, "item":"wretchelseed"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+		]]
+}, 
 
 {"op":"add", 
 	"path":"/wildwretchelHarvest",
 	"value":[[0, {"fill":[{"item":"wretchel"}], 
 	"pool":[{"weight":0.6, "item":"wretchel"}, 
 		{"weight":0.2, "item":"silk"}],
-	"poolRounds":[[0.7, 2], [0.3, 3]]}]]}, 
+	"poolRounds":[[0.7, 2], [0.3, 3]]}
+	]]
+}, 
 
 {"op":"add",
 	"path":"/xaxHarvest",
 	"value":[[0, {"fill":[{"item":"xaxseed"},
-		{"item":"xaxwing"},
-		{"item":"plantfibre"}],
-	"poolRounds":[[0.7, 2], [0.3, 3]]}]]}, 
+		{"item":"xaxwing"}],
+	"pool":[ {"weight":0.5, "item":"xaxseed"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+	]]
+}, 
 	
 {"op":"add",
 	"path":"/zathiHarvest", 
 	"value":[[0, {"fill":[{"item":"zathiseed"}, 
-		{"item":"zathitails"}, 
-		{"item":"plantfibre"}]}]]}, 
+		{"item":"zathitails"}],
+	"pool":[ {"weight":0.5, "item":"zathiseed"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+		]]
+}, 
  
  
 {"op":"add",
 	"path":"/corvexHarvest", 
 	"value":[[0, {"fill":[{"item":"corvexseed"}, 
 		{"item":"corvex"}, 
-		{"item":"plantfibre"}]}]]}, 
+		{"item":"plantfibre"}],
+	"pool":[ {"weight":0.5, "item":"corvexseed"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+		]]
+}, 
  
  
  //NON FF PLANTS

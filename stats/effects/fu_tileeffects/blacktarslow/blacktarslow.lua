@@ -1,8 +1,5 @@
 function init()
-  animator.setParticleEmitterOffsetRegion("drips", mcontroller.boundBox())
-  animator.setParticleEmitterActive("drips", true)
-  effect.setParentDirectives("fade=300030=0.8")
-
+  activateVisualEffects()
   local slows = status.statusProperty("slows", {})
   slows["tarslow"] = 0.55
   status.setStatusProperty("slows", slows)
@@ -14,6 +11,15 @@ function update(dt)
       runModifier = -0.55,
       jumpModifier = -0.55
     })
+end
+
+function activateVisualEffects()
+  animator.setParticleEmitterOffsetRegion("drips", mcontroller.boundBox())
+  animator.setParticleEmitterActive("drips", true)
+  effect.setParentDirectives("fade=300030=0.8")
+  local statusTextRegion = { 0, 1, 0, 1 }
+  animator.setParticleEmitterOffsetRegion("statustext", statusTextRegion)
+  animator.burstParticleEmitter("statustext")
 end
 
 function uninit()

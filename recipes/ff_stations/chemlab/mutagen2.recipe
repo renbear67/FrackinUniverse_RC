@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "agaranichor", "count" : 2 },
-    { "item" : "swampwater", "count" : 12},
+    { "item" : "liquidgravrain", "count" : 12},
     { "item" : "geneticmaterial", "count" : 10},
     { "item" : "glassmaterial", "count" : 4},
     { "item" : "dnasample", "count" : 2 }

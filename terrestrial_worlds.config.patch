@@ -23,7 +23,7 @@
     },
     { "op" : "add", 
     "path" : "/planetTypes/garden/layers/surface/secondaryRegion", 
-    "value" : [ "cloudforest", "deadwood", "energyorbforest", "fieldofcarrots", "fieldofcorn", "fieldofgrape", "fieldofpotato", "fieldoftomato", "fieldofwheat", "flowerforest", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "rainbowforest", "snowyforest", "taiga" ]
+    "value" : [ "cloudforest", "fieldofcarrots", "fieldofcorn", "fieldofgrape", "fieldofpotato", "fieldoftomato", "fieldofwheat", "flowerforest", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "rainbowforest", "snowyforest", "taiga" ]
     },
     { "op" : "add", 
     "path" : "/planetTypes/jungle/layers/surface/secondaryRegion", 

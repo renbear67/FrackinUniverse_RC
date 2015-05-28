@@ -1,7 +1,7 @@
   {
   "id" : "3_mineralsample.gearup",
   "title" : "^#1693d5;Mineral Sample",
-  "text" : "^orange;Mineral Samples^white; are not too different from DNA Samples. They require 2 raw minerals, 2 nutrient paste and 1 glass in your Sampling Array. Get on it.",
+  "text" : "^orange;Mineral Samples^white; are not too different from DNA Samples. Use your Bio-Chem lab and create some.",
   "completionText" : "One more essential resource is up next",
   "conditions" : [ { "kind" : "gather", "item" : [ "mineralsample", 1], "consume" : false }
   ],

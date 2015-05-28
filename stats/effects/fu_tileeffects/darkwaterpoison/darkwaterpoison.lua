@@ -1,12 +1,18 @@
 function init()
-  animator.setParticleEmitterOffsetRegion("drips", mcontroller.boundBox())
-  animator.setParticleEmitterActive("drips", true)
-  
   script.setUpdateDelta(5)
-
-  self.tickDamagePercentage = 0.026
+  self.tickDamagePercentage = 0.046
   self.tickTime = 1.0
   self.tickTimer = self.tickTime
+  activateVisualEffects()
+end
+
+
+function activateVisualEffects()
+  animator.setParticleEmitterOffsetRegion("drips", mcontroller.boundBox())
+  animator.setParticleEmitterActive("drips", true)
+  local statusTextRegion = { 0, 1, 0, 1 }
+  animator.setParticleEmitterOffsetRegion("statustext", statusTextRegion)
+  animator.burstParticleEmitter("statustext")
 end
 
 function update(dt)
@@ -23,6 +29,7 @@ function update(dt)
 
   effect.setParentDirectives("fade=AA00AA="..self.tickTimer * 0.4)
 end
+
 
 function uninit()
   

@@ -1,10 +1,10 @@
   {
   "id" : "1_samplingarray.gearup",
   "prerequisites" : [ "1a_matterassembler.gearup" ],
-  "title" : "^#1693d5;Sampling Array",
-  "text" : "The ^orange;Sampling Array^white; is a frightfully efficient and unique piece of equipment. It can perform near-miracles. You definitely want one. So, make one.",
-  "completionText" : "Now I'll teach you of the power this machine possesses.",
-  "conditions" : [ { "kind" : "gather", "item" : [ "samplingarray", 1], "consume" : false }
+  "title" : "^#1693d5;Genetic Tinkering",
+  "text" : "I'm in need of some ^orange;DNA Samples^white;. My own Bio-Chem lab appears to be broken. Perhaps you could help me out? I'd make it worth your while.",
+  "completionText" : "Now I'll teach you of further genetic experimentation. If you don't mind, at least.",
+  "conditions" : [ { "kind" : "gather", "item" : [ "dnasample", 1], "consume" : false }
   ],
   "moneyRange" : [0,0],
   "rewards" : [],
@@ -12,5 +12,5 @@
   "questDungeons" : [ ],
   "requireTurnIn" : false,
   "canBeAbandoned" : false,
-  "followUp" : "2_dnasample.gearup"
+  "followUp" : "3_mineralsample.gearup"
 }

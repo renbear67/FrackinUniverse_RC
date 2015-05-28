@@ -7,7 +7,7 @@
   "printable" : false,
   "description" : "Extracts resources from most materials.",
   "shortdescription" : "^orange;Extraction Lab^white;",
-  "learnBlueprintsOnPickup" : [ "samplingarray", "chemlab", "fissionfurnace", "saltpeter", "phosphorus", "ff_mercury", "magnesiumpowder", "rawminerals", "magnesiumpowder", "ammoniumsulfate", "penumbriteshard" ],
+  "learnBlueprintsOnPickup" : [ "chemlab", "fissionfurnace", "saltpeter", "phosphorus", "ff_mercury", "magnesiumpowder", "rawminerals", "magnesiumpowder", "ammoniumsulfate", "penumbriteshard" ],
   "price" : 450,
 
   "inventoryIcon" : "extractionlabicon.png",

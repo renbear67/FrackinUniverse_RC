@@ -8,5 +8,5 @@
     "item" : "biochip",
     "count" : 1
   },
-  "groups" : [ "samplingarray", "materials", "all" ]
+  "groups" : [ "chemlab", "materials", "all" ]
 }

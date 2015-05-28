@@ -89,14 +89,8 @@
           {"weight" : 0.012, "item" :  [ "ff_stonechest-recipe", 1]},
           {"weight" : 0.012, "item" :  [ "ff_stonechest2-recipe", 1]},
           {"weight" : 0.012, "item" :  [ "penumbrachest-recipe", 1]},
-          {"weight" : 0.012, "item" :  [ "protochest-recipe", 1]},
+          {"weight" : 0.012, "item" :  [ "protochest-recipe", 1]}
           
-          // sampling array recipes
-          {"weight" : 0.008, "item" : [ "recipebook_samplingarray_main", 1]},            
-	  {"weight" : 0.008, "item" : [ "recipebook_samplingarray_biochip", 1]}, 
-	  {"weight" : 0.008, "item" : [ "recipebook_samplingarray_liquidproto", 1]}, 
-	  {"weight" : 0.008, "item" : [ "recipebook_samplingarray_blisterextract", 1]}, 
-	  {"weight" : 0.008, "item" : [ "recipebook_samplingarray_skullreaper", 1]}
         ],
         "poolRounds" : [
           [0.23, 1],
@@ -173,14 +167,7 @@
           {"weight" : 0.012, "item" :  [ "protochest-recipe", 1]},
           {"weight" : 0.009, "item" :  [ "fubonusarmorchest-recipe", 1]},
 	  {"weight" : 0.009, "item" :  [ "fubonusarmorhead-recipe", 1]},
-          {"weight" : 0.009, "item" :  [ "fubonusarmorpants-recipe", 1]},
-          
-          // sampling array recipes
-          {"weight" : 0.004, "item" : [ "recipebook_samplingarray_main", 1]},            
-	  {"weight" : 0.003, "item" : [ "recipebook_samplingarray_biochip", 1]},  
-	  {"weight" : 0.002, "item" : [ "recipebook_samplingarray_liquidproto", 1]}, 
-	  {"weight" : 0.003, "item" : [ "recipebook_samplingarray_blisterextract", 1]}, 
-	  {"weight" : 0.001, "item" : [ "recipebook_samplingarray_skullreaper", 1]}
+          {"weight" : 0.009, "item" :  [ "fubonusarmorpants-recipe", 1]}
         ],
         "poolRounds" : [
           [0.23, 1],
@@ -270,13 +257,7 @@
           {"weight" : 0.020, "item" :  [ "elderrelic12", 1]},
           {"weight" : 0.020, "item" :  [ "elderrelic13", 1]},
           {"weight" : 0.020, "item" :  [ "elderrelic14", 1]}, 
-          {"weight" : 0.012, "item" :  [ "elderchest-recipe", 1]},
-          // sampling array recipes
-          {"weight" : 0.004, "item" : [ "recipebook_samplingarray_main", 1]},            
-	  {"weight" : 0.003, "item" : [ "recipebook_samplingarray_biochip", 1]},  
-	  {"weight" : 0.002, "item" : [ "recipebook_samplingarray_liquidproto", 1]}, 
-	  {"weight" : 0.003, "item" : [ "recipebook_samplingarray_blisterextract", 1]}, 
-	  {"weight" : 0.001, "item" : [ "recipebook_samplingarray_skullreaper", 1]}
+          {"weight" : 0.012, "item" :  [ "elderchest-recipe", 1]}
         ],
         "poolRounds" : [
           [0.23, 1],
@@ -361,12 +342,7 @@
           {"weight" : 0.009, "item" :  [ "elderrelic11", 1]},
           {"weight" : 0.009, "item" :  [ "elderrelic12", 1]},
           {"weight" : 0.009, "item" :  [ "elderrelic13", 1]},
-          {"weight" : 0.009, "item" :  [ "elderrelic14", 1]}, 
-          {"weight" : 0.004, "item" : [ "recipebook_samplingarray_main", 1]},            
-	  {"weight" : 0.003, "item" : [ "recipebook_samplingarray_biochip", 1]},  
-	  {"weight" : 0.002, "item" : [ "recipebook_samplingarray_liquidproto", 1]}, 
-	  {"weight" : 0.003, "item" : [ "recipebook_samplingarray_blisterextract", 1]}, 
-	  {"weight" : 0.001, "item" : [ "recipebook_samplingarray_skullreaper", 1]}
+          {"weight" : 0.009, "item" :  [ "elderrelic14", 1]}
         ],
         "poolRounds" : [
           [0.23, 1],
@@ -461,12 +437,7 @@
           {"weight" : 0.012, "item" :  [ "ff_stonechest-recipe", 1]},
           {"weight" : 0.012, "item" :  [ "ff_stonechest2-recipe", 1]},
           {"weight" : 0.012, "item" :  [ "penumbrachest-recipe", 1]},
-          {"weight" : 0.012, "item" :  [ "protochest-recipe", 1]},
-          {"weight" : 0.004, "item" : [ "recipebook_samplingarray_main", 1]},            
-	  {"weight" : 0.003, "item" : [ "recipebook_samplingarray_biochip", 1]},  
-	  {"weight" : 0.002, "item" : [ "recipebook_samplingarray_liquidproto", 1]}, 
-	  {"weight" : 0.003, "item" : [ "recipebook_samplingarray_blisterextract", 1]}, 
-	  {"weight" : 0.001, "item" : [ "recipebook_samplingarray_skullreaper", 1]}
+          {"weight" : 0.012, "item" :  [ "protochest-recipe", 1]}
         ],
         "poolRounds" : [
           [0.23, 1],
@@ -556,12 +527,7 @@
           {"weight" : 0.012, "item" : [ "steampunkchest", 1]},
           {"weight" : 0.012, "item" : [ "steampunklegs", 1]},
           {"weight" : 0.021, "item" : [ "duncecap", 1]},
-          {"weight" : 0.021, "item" :  [ "rainforestchest-recipe", 1]},
-          {"weight" : 0.004, "item" : [ "recipebook_samplingarray_main", 1]},            
-	  {"weight" : 0.003, "item" : [ "recipebook_samplingarray_biochip", 1]},  
-	  {"weight" : 0.002, "item" : [ "recipebook_samplingarray_liquidproto", 1]}, 
-	  {"weight" : 0.003, "item" : [ "recipebook_samplingarray_blisterextract", 1]}, 
-	  {"weight" : 0.001, "item" : [ "recipebook_samplingarray_skullreaper", 1]}
+          {"weight" : 0.021, "item" :  [ "rainforestchest-recipe", 1]}
         ],
         "poolRounds" : [
           [0.23, 1],

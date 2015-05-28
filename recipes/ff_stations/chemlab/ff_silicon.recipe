@@ -8,5 +8,5 @@
     "item" : "ff_silicon",
     "count" : 1
   },
-  "groups" : [ "samplingarray", "materials", "all" ]
+  "groups" : [ "chemlab", "materials", "all" ]
 }
