@@ -13,7 +13,7 @@
   "race" : "generic",
   "category" : "crafting",
   "price" : 450,
-  "learnBlueprintsOnPickup" : [ "extractionlab", "nanofabricator", "hardenedsteelblade", "microscope", "genecabinet", "genestorage", "biochipbase", "circuitboard", "basicminer", "bonemealmaterial", "steelgirdirhorizontalmaterial", "steelgirdirverticalmaterial" ],
+  "learnBlueprintsOnPickup" : [ "armoredsnowpants", "extractionlab", "nanofabricator", "hardenedsteelblade", "microscope", "genecabinet", "genestorage", "biochipbase", "circuitboard", "basicminer", "bonemealmaterial", "steelgirdirhorizontalmaterial", "steelgirdirverticalmaterial" ],
 
   "inventoryIcon" : "prototypericon.png",
   "orientations" : [
