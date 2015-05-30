@@ -14,7 +14,7 @@
   ],
 
   "mainBlock" : "sand2",
-  "subBlocks" : [ "mud", "sandstone01" ],
+  "subBlocks" : [ "coral", "coral2", "oystershell" ],
   "ores" : "depth2",
 
   "hueShiftOptions" : [1],

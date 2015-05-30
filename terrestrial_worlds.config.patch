@@ -124,7 +124,10 @@
     "path" : "/planetTypes/moon/layers/surface/subsurface", 
     "value" : [ "moondesertunderground", "moonvolcanicunderground", "moontoxicunderground", "moonstoneunderground" ]
     },
-
+    { "op" : "add", 
+    "path" : "/planetTypes/ocean/layers/subsurface/secondaryRegion", 
+    "value" : [ "deepseavent", "estuary", "kelpforest", "coralreef" ]
+    },
 //"alternate" vanilla biomes for the low-tier worlds
 
 
@@ -300,14 +303,14 @@
       "layers" : {
         "surface" : {
           "primaryRegion" : [ "tidewater" ], 
-	  "secondaryRegion" : [ "sulphuricmagma", "cellfield", "finesand", "breakwater", "corrupt" ]
+	  "secondaryRegion" : [ "sulphuricmagma", "cellfield", "finesand", "breakwater", "corrupt", "estuary" ]
         },
         "subsurface" : {
           "primaryRegion" : [ "tidewaterfloor" ],
-	  "secondaryRegion" : [ "deepseavent" ]		  
+	  "secondaryRegion" : [ "deepseavent", "coralreef" ]		  
         },
         "underground1" : {
-		  "primaryRegion" : [ "tidewaterunderground" ], 
+	  "primaryRegion" : [ "tidewaterunderground" ], 
           "secondaryRegion" : [ "coralcavern", "luminouscaves", "stonecaves", "bonecaves", "icecaves" ]
         },
         "underground2" : {
@@ -418,6 +421,34 @@
       "caveLiquidChanceRange" : [100, 100],
       "biome" : [
         [0, [ "deepseavent" ]]
+      ]
+	}
+},
+
+{"op" : "add",
+"path":"/regionTypes/coralreef",
+"value" : 
+	{
+      "oceanLiquid" : [ "water" ],
+      "oceanLevelOffset" : 9999,
+      "blockSelector" : [  "lowHillsSurface", "medHillsSurface", "flatsSurface", "ledgesSurface", "medHillsSurface", "canyonsSurface"  ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "bgCaveSelector" : [ "surfaceCaves" ],
+      "bgOreSelector" : [ "commonVeins" ], 
+      "biome" : [
+        [0, [ "coralreef" ]]
+      ]
+	}
+},
+{"op" : "add",
+"path":"/regionTypes/kelpforest",
+"value" : 
+	{
+      "oceanLiquid" : [ "water" ],
+      "oceanLevelOffset" : 9999,
+      "blockSelector" : [  "lowHillsSurface", "flatsSurface", "canyonsSurface"  ],
+      "biome" : [
+        [0, [ "kelpforest" ]]
       ]
 	}
 },
