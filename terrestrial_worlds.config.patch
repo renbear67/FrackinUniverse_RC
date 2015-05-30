@@ -1,5 +1,64 @@
 [
 
+{ "op" : "add", 
+    "path" : "/planetSizes/huge", 
+    "value" : {
+      "size" : [8000, 6000],
+      "gravityRange" : [80, 90], 
+      "layerDefaults" : { },
+      "layers" : {
+        "space" : {
+          "baseHeight" : 4000,
+          "layerLevel" : 3200
+        },
+        "atmosphere" : {
+          "baseHeight" : 3000,
+          "layerLevel" : 2500
+        },
+        "surface" : {
+          "baseHeight" : 2200,
+          "layerLevel" : 2000
+        },
+        "subsurface" : {
+          "baseHeight" : 1900,
+          "layerLevel" : 1700
+        },
+        "underground1" : {
+          "baseHeight" : 1600,
+          "layerLevel" : 1400
+        },
+        "underground2" : {
+          "baseHeight" : 1300,
+          "layerLevel" : 1000
+        },
+        "underground3" : {
+          "baseHeight" : 900,
+          "layerLevel" : 800
+        },
+        "underground4" : {
+          "baseHeight" : 700,
+          "layerLevel" : 600
+        },
+        "underground5" : {
+          "baseHeight" : 500,
+          "layerLevel" : 400
+        },
+        "underground6" : {
+          "baseHeight" : 300,
+          "layerLevel" : 200
+        },
+        "core" : {
+          "baseHeight" : 100,
+          "layerLevel" : 0
+        }
+    }
+  }
+},
+    
+
+
+
+
 // Vanilla Biome Merges
     { "op" : "add", 
     "path" : "/planetTypes/alien/layers/surface/secondaryRegion", 
@@ -66,7 +125,95 @@
     "value" : [ "moondesertunderground", "moonvolcanicunderground", "moontoxicunderground", "moonstoneunderground" ]
     },
 
-    
+//"alternate" vanilla biomes for the low-tier worlds
+
+
+{"op" : "add",
+"path" : "/planetTypes/garden2",
+"value" : {       
+      "threatRange" : [1, 6],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "garden" ], 
+	  "secondaryRegion" : [ "cloudforest", "fieldofcarrots", "fieldofcorn", "fieldofgrape", "fieldofpotato", "fieldoftomato", "fieldofwheat", "flowerforest", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "rainbowforest", "snowyforest", "taiga"  ],
+          "dungeonCountRange" : [0, 2],
+          "dungeons" : [ "naturalcave", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "humanbunker", "floranhuntinggrounds", "floranvillagetower" ]
+        }		  
+      }
+    }
+},
+
+{"op" : "add",
+"path" : "/planetTypes/forest2",
+"value" : {       
+      "threatRange" : [1, 6],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "forest" ], 
+	  "secondaryRegion" : [ "spring", "mushroom", "alienforest", "cloudforest", "corruptedforest", "deadwood", "energyorbforest", "fieldofcarrots", "fieldofcorn", "fieldofgrape", "fieldofpotato", "fieldoftomato", "primevalforest", "fieldofwheat", "flowerforest", "hauntedforest", "hauntedgraveyard", "meadow", "hellhive", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "rainbowforest", "snowyforest", "taiga"  ],
+          "dungeonCountRange" : [0, 2],
+          "dungeons" : [ "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "humanbunker", "floranhuntinggrounds", "floranvillagetower" ]
+        },
+		  
+        "underground1" : {
+          "secondaryRegion" : [ "tarunderground", "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        },
+        "underground2" : {
+          "secondaryRegion" : [ "tarunderground", "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        },
+        "underground3" : {
+          "secondaryRegion" : [ "tarunderground", "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        },
+        "underground4" : {
+          "secondaryRegion" : [ "tarunderground", "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        },
+        "underground5" : {
+          "secondaryRegion" : [ "tarunderground", "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        },
+        "underground6" : {
+          "secondaryRegion" : [ "tarunderground", "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        }
+      }
+    }
+},
+
+{"op" : "add",
+"path" : "/planetTypes/desert2",
+"value" : {       
+      "threatRange" : [1, 6],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "desert" ], 
+	  "secondaryRegion" : [ "oasis", "tar", "reddesert", "finesand", "badlands", "desertoasis", "dryriverbed", "calichefield", "hellfirefield", "pitchfield", "sulphuricplain"  ],
+          "dungeonCountRange" : [0, 2],
+          "dungeons" : [ "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "humanbunker", "floranhuntinggrounds", "floranvillagetower" ]
+        },
+        "subsurface" : {
+          "primaryRegion" : [ "desertsubsurface" ]
+        },
+        "underground1" : {
+          "secondaryRegion" : [ "tarunderground", "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        },
+        "underground2" : {
+          "secondaryRegion" : [ "tarunderground", "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        },
+        "underground3" : {
+          "secondaryRegion" : [ "tarunderground", "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        },
+        "underground4" : {
+          "secondaryRegion" : [ "tarunderground", "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        },
+        "underground5" : {
+          "secondaryRegion" : [ "tarunderground", "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        },
+        "underground6" : {
+          "secondaryRegion" : [ "tarunderground", "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        }
+      }
+    }
+},
+
+
 {"op" : "add",
 "path" : "/planetTypes/mountainous",
 "value" : {       
@@ -389,6 +536,9 @@
      {
        "threatRange" : [1, 5],
        "layers" : {
+      "atmosphere" : {
+        "primaryRegion" : [ "clouds" ]
+      },
         "surface" : {
           "primaryRegion" : [ "arboreal" ],
           "secondaryRegion" : [ "alienforest", "reddesert", "finesand", "badlands", "cloudforest", "rainbowforest", "swamp", "bloodgulch", "forest", "hellhive", "elder", "corruptedforest", "fieldofwheat", "fieldofsugar",  "fieldofpotato", "fieldofcorn",  "fieldofgrape",  "fieldoftomato","pineforest", "flowerforest", "snowyforest", "taiga", "dryriverbed", "deadwood",    "giantflowers", "arctic",  "forest",  "jungle", "magma", "savannah", "snow",  "tundra", "volcanic" ],
@@ -429,6 +579,9 @@
      {
        "threatRange" : [4, 7],
        "layers" : {
+      "space" : {
+        "primaryRegion" : [ "elderasteroid", "asteroids" ]
+      },
         "surface" : {
           "primaryRegion" : [ "atropus" ],
           "secondaryRegion" : [ "alienforest", "sulphuricmagma", "cellfield", "reddesert", "finesand", "swamp", "bloodgulch", "hellhive", "elder", "corruptedforest", "fieldofwheat", "fieldofsugar",  "fieldofpotato", "fieldofcorn",  "fieldofgrape",  "fieldoftomato", "pineforest", "flowerforest", "snowyforest", "taiga", "dryriverbed", "deadwood",    "giantflowers", "arctic",  "forest",  "jungle", "magma", "savannah", "snow",  "tundra", "volcanic" ],
@@ -475,6 +628,9 @@
       {
       "threatRange" : [3, 6],
       "layers" : {
+      "space" : {
+        "primaryRegion" : [ "elderasteroid", "asteroids" ]
+      },
         "surface" : {
           "primaryRegion" : [ "bloodstone" ],
           "secondaryRegion" : [ "alienforest", "sulphuricmagma", "cellfield", "reddesert", "rainbowforest", "bloodgulch", "hellhive", "elder", "corruptedforest", "fieldofwheat", "fieldofsugar",  "fieldofpotato", "fieldofcorn",  "fieldofgrape",  "fieldoftomato", "pineforest", "flowerforest", "snowyforest", "taiga", "dryriverbed", "deadwood",    "giantflowers", "arctic",  "forest",  "jungle", "magma", "savannah", "snow",  "tundra", "volcanic" ],
@@ -521,6 +677,9 @@
       {
       "threatRange" : [3, 6],
       "layers" : {
+      "space" : {
+        "primaryRegion" : [ "elderasteroid", "asteroids" ]
+      },
         "surface" : {
           "primaryRegion" : [ "bloodstonesea" ]       
         },
@@ -564,6 +723,9 @@
       {
       "threatRange" : [1, 4],
       "layers" : {
+      "atmosphere" : {
+        "primaryRegion" : [ "clouds" ]
+      },
         "surface" : {
           "primaryRegion" : [ "bog" ],
           "secondaryRegion" : [ "alienforest", "reddesert", "rainbowforest", "bloodgulch", "hellhive", "energyorbforest", "dryriverbed", "deadwood", "blackslimebog", "pitchfield", "irradiatedwaste", "bloodstonefield", "giantflowers", "forest", "jungle", "volcanic" ],
@@ -602,6 +764,7 @@
     "path" : "/planetTypes/crystalmoon",
     "value" : 
       {
+      "gravityRange" : [25, 80],
       "threatRange" : [2, 5],
       "layers" : {
         "surface" : {
@@ -649,6 +812,9 @@
      {
        "threatRange" : [1, 5],
        "layers" : {
+      "atmosphere" : {
+        "primaryRegion" : [ "clouds" ]
+      },
         "surface" : {
           "primaryRegion" : [ "fungus" ],
           "secondaryRegion" : [ "alienforest", "reddesert", "rainbowforest", "swamp", "bloodgulch", "forest", "corruptedforest", "fieldofwheat", "fieldofsugar",  "fieldofpotato", "fieldofcorn",  "fieldofgrape",  "fieldoftomato","pineforest", "flowerforest", "snowyforest", "taiga", "dryriverbed", "deadwood", "giantflowers", "arctic",  "forest", "jungle", "savannah" ],
@@ -735,6 +901,7 @@
     "path" : "/planetTypes/icemoon",
     "value" : 
       {
+      "gravityRange" : [40, 70],
       "threatRange" : [2, 4],
       "layers" : {
         "surface" : {
@@ -875,6 +1042,9 @@
       {
       "threatRange" : [3, 6],
       "layers" : {
+      "space" : {
+        "primaryRegion" : [ "elderasteroid" ]
+      },
         "surface" : {
           "primaryRegion" : [ "lightless" ],
           "secondaryRegion" : [ "alienforest", "sulphuricmagma", "cellfield", "reddesert", "hauntedforest", "hauntedgraveyard", "swamp", "bloodgulch", "hellhive", "elder", "protoworld", "irradiated", "hellhive" ],
@@ -886,38 +1056,39 @@
         },
          "underground1" : {
          "primaryRegion" : [ "lightlessunderground" ],
-          "secondaryRegion" : [ "ffspidernest", "fftarunderground", "ffshadow", "lightlessshadowsea" ]
+         "secondaryRegion" : [ "ffspidernest", "fftarunderground", "ffshadow", "lightlessshadowsea" ]
         },
         "underground2" : {
          "primaryRegion" : [ "lightlessunderground" ],
-          "secondaryRegion" : [ "ffspidernest", "fftarunderground", "ffshadow", "lightlessshadowsea" ]
+         "secondaryRegion" : [ "ffspidernest", "fftarunderground", "ffshadow", "lightlessshadowsea" ]
         },
         "underground3" : {
          "primaryRegion" : [ "lightlessunderground" ],
-          "secondaryRegion" : [ "ffspidernest", "fftarunderground", "ffshadow", "lightlessshadowsea" ]
+         "secondaryRegion" : [ "ffspidernest", "fftarunderground", "ffshadow", "lightlessshadowsea" ]
         },
         "underground4" : {
          "primaryRegion" : [ "lightlessunderground" ],
-          "secondaryRegion" : [ "ffspidernest", "fftarunderground", "ffshadow", "lightlessshadowsea" ]
+         "secondaryRegion" : [ "ffspidernest", "fftarunderground", "ffshadow", "lightlessshadowsea" ]
         },
         "underground5" : {
          "primaryRegion" : [ "lightlessunderground" ],
-          "secondaryRegion" : [ "ffspidernest", "fftarunderground", "ffshadow", "lightlessshadowsea" ]
+         "secondaryRegion" : [ "ffspidernest", "fftarunderground", "ffshadow", "lightlessshadowsea" ]
         },
         "underground6" : {
          "primaryRegion" : [ "lightlessunderground" ],
-          "secondaryRegion" : [ "ffspidernest", "fftarunderground", "ffshadow", "lightlessshadowsea" ]
+         "secondaryRegion" : [ "ffspidernest", "fftarunderground", "ffshadow", "lightlessshadowsea" ]
         },
         "core" : {
           "primaryRegion" : [ "core" ]
         } 
-        }
-      }
+       }
+     }
    },   
     {"op" : "add", 
     "path" : "/planetTypes/metallicmoon",
     "value" : 
       {
+      "gravityRange" : [30, 90],
       "threatRange" : [2, 5],
       "layers" : {
         "surface" : {
@@ -956,8 +1127,8 @@
         "core" : {
           "primaryRegion" : [ "core" ]
         }
-        }
-      }
+       }
+     }
    },   
     {"op" : "add", 
     "path" : "/planetTypes/nitrogensea",
@@ -965,6 +1136,9 @@
       {
       "threatRange" : [4, 7],
       "layers" : {
+      "atmosphere" : {
+        "primaryRegion" : [ "clouds" ]
+      },
         "surface" : {
           "primaryRegion" : [ "nitrogensea" ],
           "secondaryRegion" : [ "hellhive", "elder",  "icewaste", "arctic", "snow",  "protoworld", "irradiated" ],
@@ -1011,6 +1185,12 @@
       {
       "threatRange" : [3, 6],
       "layers" : {
+      "space" : {
+        "primaryRegion" : [ "elderasteroid", "asteroids" ]
+      },
+      "atmosphere" : {
+        "primaryRegion" : [ "clouds" ]
+      },
         "surface" : {
           "primaryRegion" : [ "penumbra" ],
           "secondaryRegion" : [ "alienforest", "reddesert", "hauntedforest", "hauntedgraveyard", "swamp", "hellhive", "elder", "corruptedforest", "icefire", "energyorbforest", "pitchfield", "blisterbushfield", "primevalforest", "irradiatedwaste", "bloodstonefield", "desert",  "eyepatch", "forest",  "volcanic", "magma", "savannah" ],
@@ -1057,6 +1237,12 @@
       {
       "threatRange" : [3, 6],
       "layers" : {
+      "space" : {
+        "primaryRegion" : [ "elderasteroid", "asteroids" ]
+      },
+      "atmosphere" : {
+        "primaryRegion" : [ "clouds" ]
+      },
         "surface" : {
           "primaryRegion" : [ "protoworld" ],
           "secondaryRegion" : [ "alienforest", "reddesert", "cloudforest", "rainbowforest", "swamp", "hellhive", "elder", "corruptedforest", "icefire", "energyorbforest", "pitchfield", "blisterbushfield", "primevalforest", "irradiatedwaste", "bloodstonefield", "desert",  "eyepatch", "forest",  "volcanic", "magma", "savannah" ],
@@ -1240,6 +1426,9 @@
       {
       "threatRange" : [2, 5],
       "layers" : {
+      "atmosphere" : {
+        "primaryRegion" : [ "clouds" ]
+      },
         "surface" : {
           "primaryRegion" : [ "thickjungle" ],
           "secondaryRegion" : [ "alienforest", "reddesert", "cloudforest", "rainbowforest", "swamp", "hellhive", "corruptedforest", "desertoasis", "fieldofbanana", "fieldofbamboo", "fieldofwheat", "fieldofsugar",  "fieldofpotato", "fieldofcorn",  "fieldofgrape",  "fieldoftomato","pineforest", "flowerforest", "snowyforest",  "dryriverbed", "deadwood",    "giantflowers", "arctic",  "desert", "forest",  "jungle", "magma", "savannah", "snow",  "tundra", "volcanic" ],
@@ -1318,6 +1507,44 @@
         }
       }
    },
+
+//Alternate starting biomes
+
+  {"op" : "add", 
+  "path" : "/regionTypes/garden2",
+  "value" : 
+  {
+      "caveLiquid" : [ "water" ],
+      "blockSelector" : [ "lowHillsSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "garden" ]]
+      ]
+    }
+  },
+  {"op" : "add", 
+  "path" : "/regionTypes/forest2",
+  "value" : 
+  {
+      "caveLiquid" : [ "water" ],
+      "blockSelector" : [ "lowHillsSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "forest" ]]
+      ]
+    }
+  },
+  {"op" : "add", 
+  "path" : "/regionTypes/desert2",
+  "value" : 
+  {
+      "blockSelector" : [ "flatsSurface", "lowHillsSurface", "ledgesSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "desert" ]]
+      ]
+    }
+  },  
   
   {"op" : "add", 
   "path" : "/regionTypes/arboreal",
@@ -2568,6 +2795,18 @@
     }
   },  
  
+	{
+		"op" : "add",
+		"path" : "/regionTypes/elderasteroid",
+		"value" : {
+                    "blockSelector" : [ "iceclouds" ],
+		    "fgCaveSelector" : [ "normalCaves" ],
+		    "bgCaveSelector" : [ "largeClumps" ],
+		      "biome" : [
+		        [0, [ "elderasteroid" ]]
+		      ]
+		    }
+	},
 	{
 		"op" : "add",
 		"path" : "/regionTypes/icecloudswastesurface",

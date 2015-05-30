@@ -63,7 +63,7 @@
   "value" : 
 	[
 		{
-		"containers" : [ "elderchest" ],
+		"containers" : [ "elderchest", "elderchest2" ],
 		"treasurePool" : "ffelderTreasure",
 		"minimumLevel" : 1
 		}
@@ -83,7 +83,7 @@
   "value" : 
 	[
 		{
-		"containers" : [ "rainforestchest" ],
+		"containers" : [ "rainforestchest", "rainforestchest2" ],
 		"treasurePool" : "ffprimevalTreasure",
 		"minimumLevel" : 1
 		}
@@ -93,7 +93,7 @@
   "value" : 
 	[
 		{
-		"containers" : [ "junglechest" ],
+		"containers" : [ "junglechest", "rainforestchest", "rainforestchest2" ],
 		"treasurePool" : "ffrainforestTreasure",
 		"minimumLevel" : 1
 		}

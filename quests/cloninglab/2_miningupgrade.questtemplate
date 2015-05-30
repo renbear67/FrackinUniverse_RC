@@ -1,0 +1,20 @@
+{
+  "id" : "2_miningupgrade.gearup",
+  "prerequisites" : [],
+  "title" : "^#39bc2f;Mine all Mine",
+  "text" : "Take your ^#cc0033;basic mining laser^white;, and tinker with it in the ^#orange;Nano-Fabricator^white;. I think you can come up with something special to help you dig.",
+  "completionText" : "The Nano-Fabricator can do a great deal. You'll think of new things to do with it as you explore the universe.",  
+  "conditions" : [ 
+    { "kind" : "gather", "item" : [ "protominer", 1], "consume" : false }
+  ],
+
+  "moneyRange" : [0,0],
+  "rewards" : [ 
+     []
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "requireTurnIn" : false,
+  "canBeAbandoned" : false,
+  "followUp" : ""
+}

@@ -1,16 +1,20 @@
-  {
+{
   "id" : "1_cloninglab.gearup",
-  "prerequisites" : [ "crewisallhere.gearup" ],
-  "title" : "^#39bc2f;The Clone Wars",
-  "text" : "For your next bit of science training, you are going to need a Cloning Lab.",
-  "completionText" : "Merry Christmas to you too, captain! Here are some presents to put under your tree.",
+  "prerequisites" : [],
+  "title" : "^#39bc2f;Upgrading 101",
+  "text" : "For your next bit of science training, you are going to need a Nano-Fabricator.",
+  "completionText" : "I have but one task for you now, and the rest of your journey will be of your own choices.",  
   "conditions" : [ 
-    { "kind" : "gather", "item" : [ "cloninglab", 1], "consume" : false }
+    { "kind" : "gather", "item" : [ "nanofabricator", 1], "consume" : false }
   ],
+
   "moneyRange" : [0,0],
-  "rewards" : [],
+  "rewards" : [ 
+     []
+  ],
   "planetMode" : "none",
   "questDungeons" : [ ],
-  "requireTurnIn" : false
+  "requireTurnIn" : false,
+  "canBeAbandoned" : false,
+  "followUp" : "2_miningupgrade.gearup"
 }
- 
