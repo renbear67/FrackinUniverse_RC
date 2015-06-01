@@ -5,6 +5,7 @@
     { "item" : "densiniumbar", "count" : 3 },
     { "item" : "elderrelic4", "count" : 1 },
     { "item" : "eridianbar", "count" : 2 },
+    { "item" : "corruptionseed", "count" : 25 },
     { "item" : "prisilitestar", "count" : 2 }
   ],
   "output" : {

@@ -3,6 +3,7 @@
     { "item" : "elderrelic7", "count" : 1 },
     { "item" : "elderrelic11", "count" : 1 },
     { "item" : "bone", "count" : 30 },
+    { "item" : "corruptionseed", "count" : 20 },
     { "item" : "energywood", "count" : 10 }
   ],
   "output" : {

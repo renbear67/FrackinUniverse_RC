@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "defensegene2", "count" : 1 },
     { "item" : "organicsynthesis", "count" : 2 },
-    { "item" : "shroom", "count" : 3 },
+    { "item" : "corruptionseed", "count" : 3 },
     { "item" : "nervebundle1", "count" : 1 }
   ],
   "output" : {

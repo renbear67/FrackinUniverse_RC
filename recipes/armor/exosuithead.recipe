@@ -4,7 +4,7 @@
     { "item" : "bone", "count" : 8 },
     { "item" : "ff_resin", "count" : 8 },
     { "item" : "carbonplate", "count" : 2 },
-    { "item" : "cellmatter", "count" : 5 }
+    { "item" : "corruptionseed", "count" : 5 }
   ],
   "output" : {
     "item" : "fuexosuithead",

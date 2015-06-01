@@ -2,6 +2,7 @@
   "input" : [
     { "item" : "aggressiongene", "count" : 1 },
     { "item" : "cellmatter", "count" : 3 },
+    { "item" : "corruptionseed", "count" : 3 },
     { "item" : "adaptivecells", "count" : 1 }
   ],
   "output" : {

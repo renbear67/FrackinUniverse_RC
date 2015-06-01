@@ -3,7 +3,8 @@
     { "item" : "chloroplast2", "count" : 1 },
     { "item" : "fleshstrand", "count" : 3 },
     { "item" : "musclegene2", "count" : 1 },
-    { "item" : "oculargene", "count" : 2 }
+    { "item" : "oculargene", "count" : 2 },
+    { "item" : "corruptionseed", "count" : 12 }
   ],
   "output" : {
     "item" : "glarestalkseed",

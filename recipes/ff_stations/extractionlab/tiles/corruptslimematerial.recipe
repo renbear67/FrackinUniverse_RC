@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "corruptslimematerial", "count" : 50 }
+  ],
+  "output" : {
+    "item" : "corruptionore",
+    "count" : 2
+  },
+  "groups" : [ "extractionlab", "all" ]
+}

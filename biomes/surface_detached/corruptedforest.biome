@@ -5,8 +5,8 @@
   "hueShiftOptions" : [-225, -165, -70, -25, 0, 25, 70, 165, 225],
 
     "mainBlock" : "alienrock",
-    "subBlocks" : [ "blackslime", "eyepiles" ],
-    "ores" : "surfaceOres",
+    "subBlocks" : [ "corruptslime", "eyepiles" ],
+    "ores" : "ff_surfacecorruptionOres",
 
   "surfacePlaceables" : {
     "grassMod" : [ "thickjunglegrass" ],

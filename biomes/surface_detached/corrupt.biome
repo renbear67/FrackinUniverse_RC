@@ -15,7 +15,7 @@
 
   "mainBlock" : "marestone",
   "subBlocks" : [ "corruptslime", "rostone", "corruptdirt" ],
-  "ores" : "surfaceOres",
+  "ores" : "ff_surfacecorruptionOres",
 
   "surfacePlaceables" : {
     "grassMod" : [ "tar" ],

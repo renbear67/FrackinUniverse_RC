@@ -3,8 +3,8 @@
   "friendlyName" : "Ancient Glade",
   "hueShiftOptions" : [-40, -25, 0, 25, 40],
 
-    "mainBlock" : "tar",
-    "subBlocks" : [ "dirt", "clay", "mud" ],
+    "mainBlock" : "dirt",
+    "subBlocks" : [ "tar", "clay", "mud" ],
     "ores" : "surfaceOres",
 
 

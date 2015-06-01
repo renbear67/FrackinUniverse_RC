@@ -1,6 +1,7 @@
 {
   "input" : [
     { "item" : "bone", "count" : 30 },
+    { "item" : "corruptionseed", "count" : 5 },
     { "item" : "ff_resin", "count" : 5 }
   ],
   "output" : {

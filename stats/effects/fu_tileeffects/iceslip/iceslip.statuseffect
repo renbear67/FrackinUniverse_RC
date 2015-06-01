@@ -3,7 +3,7 @@
   "blockingStat" : "iceslipImmunity",
 
   "effectConfig" : {},
-  "defaultDuration" : 0.01,
+  "defaultDuration" : 0.25,
 
   "scripts" : [
     "iceslip.lua"

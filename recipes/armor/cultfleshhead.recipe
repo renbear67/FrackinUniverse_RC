@@ -2,6 +2,7 @@
   "input" : [
     { "item" : "refinedviolium", "count" : 20 },
     { "item" : "fleshstrand", "count" : 20 },
+    { "item" : "corruptionseed", "count" : 5 },
     { "item" : "bone", "count" : 12 }
   ],
   "output" : { "item" : "cultfleshhead", "count" : 1 },

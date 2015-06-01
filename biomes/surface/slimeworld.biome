@@ -5,12 +5,12 @@
   
   "spawnProfiles" : [
     {
-      "groups" : [ "mediumsurface1" ],
-      "extraSpawns" : [  ]
+      "groups" : [ "fu_slime" ],
+      "extraSpawns" : [ ]
     },
     {
-      "groups" : [ "mediumsurface2" ],
-      "extraSpawns" : [  ]
+      "groups" : [ "fu_slime" ],
+      "extraSpawns" : [ ]
     }
   ],
 

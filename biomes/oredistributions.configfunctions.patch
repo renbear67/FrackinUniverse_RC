@@ -529,6 +529,34 @@
     [4.5, [ [ "copper", 1.25], [ "silverore", 1.25], [ "gold", 1.25], [ "platinum", 1.25], [ "diamond", 1.05], [ "aegisalt", 1.15], [ "rubium", 1.15], [ "violium", 1.15], [ "sulphur", 1.20],[ "mascagnite", 0.25],[ "lazulite", 1.00],[ "magnesium", 1.00], [ "moonstone", 1.20], [ "densinium", 0.80] ] ],
     [5.5, [ [ "copper", 1.25], [ "silverore", 1.25], [ "gold", 1.25], [ "platinum", 1.25], [ "diamond", 1.25], [ "aegisalt", 1.15], [ "rubium", 1.15], [ "violium", 1.15], [ "sulphur", 1.20],[ "mascagnite", 0.25],[ "lazulite", 1.00],[ "magnesium", 1.00], [ "moonstone", 1.25], [ "densinium", 0.85] ] ]
   ]
+},
+
+
+
+{"op":"add",
+"path":"/ff_surfacecorruptionOres",
+"value": 
+  [
+    [0.5, [ [ "coal", 1.05], [ "uranium", 0.00], [ "solarium", 0.00], [ "copper", 0.20], [ "silverore", 0.20], [ "gold", 0.25], [ "platinum", 0.20], [ "diamond", 0.00], [ "iron", 0.25], [ "corruption", 0.9],[ "mascagnite", 0.20],[ "lazulite", 0.20],[ "magnesium", 0.20],[ "berlinite", 0.20], [ "fossilbone", 1.20] ] ],
+    [1.5, [ [ "coal", 1.05], [ "uranium", 0.00], [ "solarium", 0.00], [ "copper", 0.20], [ "silverore", 0.25], [ "gold", 0.20], [ "platinum", 0.25], [ "diamond", 0.20], [ "iron", 0.25], [ "corruption", 0.9],[ "mascagnite", 0.20],[ "lazulite", 0.20],[ "magnesium", 0.20],[ "berlinite", 0.20], [ "fossilbone", 1.20] ] ],
+    [2.5, [ [ "coal", 1.05], [ "uranium", 0.05], [ "solarium", 0.00], [ "copper", 0.25], [ "silverore", 0.25], [ "gold", 0.20], [ "platinum", 0.20], [ "diamond", 0.20], [ "titanium", 0.25],[ "corruption", 0.9], [ "mascagnite", 0.25],[ "lazulite", 0.20],[ "magnesium", 0.20],[ "berlinite", 0.25], [ "fossilbone", 1.00] ] ],
+    [3.5, [ [ "coal", 1.05], [ "uranium", 0.05], [ "solarium", 0.00], [ "copper", 0.25], [ "silverore", 0.25], [ "gold", 0.25], [ "platinum", 0.20], [ "diamond", 0.25], [ "titanium", 0.25],[ "corruption", 0.9], [ "mascagnite", 0.25],[ "lazulite", 0.25],[ "magnesium", 0.20],[ "berlinite", 0.20], [ "fossilbone", 1.00] ] ],
+    [4.5, [ [ "coal", 1.05], [ "uranium", 0.05], [ "solarium", 0.00], [ "copper", 0.25], [ "silverore", 0.25], [ "gold", 0.25], [ "platinum", 0.25], [ "diamond", 0.25], [ "aegisalt", 0.25], [ "rubium", 0.25], [ "violium", 0.25], [ "corruption", 0.9],[ "mascagnite", 0.25],[ "lazulite", 0.20],[ "magnesium", 0.20],[ "berlinite", 0.20], [ "fossilbone", 1.20] ] ],
+    [5.5, [ [ "coal", 1.05], [ "uranium", 0.05], [ "solarium", 0.20], [ "copper", 0.25], [ "silverore", 0.25], [ "gold", 0.25], [ "platinum", 0.25], [ "diamond", 0.25], [ "aegisalt", 0.25], [ "rubium", 0.25], [ "violium", 0.25], [ "corruption", 0.9],[ "mascagnite", 0.25],[ "lazulite", 0.25],[ "magnesium", 0.25],[ "berlinite", 0.20], [ "fossilbone", 1.20] ] ]
+  ]
+},
+{"op":"add",
+"path":"/ff_deepsurfacecorruptionOres",
+"value": 
+  [
+    [0.5, [ [ "coal", 1.15], [ "uranium", 0.00], [ "solarium", 0.00], [ "copper", 1.20], [ "silverore", 1.20], [ "gold", 0.95], [ "platinum", 0.85], [ "diamond", 0.80], [ "iron", 1.15], [ "corruption", 0.90], [ "mascagnite", 0.90],[ "lazulite", 0.90],[ "magnesium", 0.90],[ "berlinite", 0.90], [ "fossilbone", 0.70] ] ],
+    [1.5, [ [ "coal", 1.15], [ "uranium", 0.00], [ "solarium", 0.00], [ "copper", 1.20], [ "silverore", 1.25], [ "gold", 1.10], [ "platinum", 0.95], [ "diamond", 0.90], [ "iron", 1.15], [ "corruption", 1.00], [ "mascagnite", 1.00],[ "lazulite", 1.00],[ "magnesium", 1.10],[ "berlinite", 1.00], [ "fossilbone", 0.70] ] ],
+    [2.5, [ [ "coal", 1.15], [ "uranium", 1.15], [ "solarium", 0.00], [ "copper", 1.25], [ "silverore", 1.25], [ "gold", 1.20], [ "platinum", 1.10], [ "diamond", 1.00], [ "titanium", 1.15], [ "corruption", 1.20], [ "sulphur", 1.05],[ "mascagnite", 1.15],[ "lazulite", 1.00],[ "magnesium", 1.20],[ "berlinite", 1.10], [ "fossilbone", 0.70] ] ],
+    [3.5, [ [ "coal", 1.15], [ "uranium", 1.15], [ "solarium", 0.00], [ "copper", 1.25], [ "silverore", 1.25], [ "gold", 1.25], [ "platinum", 1.20], [ "diamond", 1.15], [ "titanium", 1.15], [ "corruption", 1.30], [ "sulphur", 1.10],[ "mascagnite", 1.20],[ "lazulite", 1.10],[ "magnesium", 1.30],[ "berlinite", 1.20], [ "fossilbone", 0.70] ] ],
+    [4.5, [ [ "coal", 1.15], [ "uranium", 1.15], [ "solarium", 0.00], [ "copper", 1.25], [ "silverore", 1.25], [ "gold", 1.25], [ "platinum", 1.25], [ "diamond", 1.25], [ "aegisalt", 1.15], [ "rubium", 1.15], [ "violium", 1.15], [ "corruption", 1.40], [ "mascagnite", 1.40],[ "lazulite", 1.20],[ "magnesium", 1.40],[ "berlinite", 1.30], [ "fossilbone", 0.70] ] ],
+    [5.5, [ [ "coal", 1.15], [ "uranium", 1.15], [ "solarium", 1.24], [ "copper", 1.25], [ "silverore", 1.25], [ "gold", 1.25], [ "platinum", 1.25], [ "diamond", 1.25], [ "aegisalt", 1.15], [ "rubium", 1.15], [ "violium", 1.15], [ "corruption", 1.50], [ "mascagnite", 1.50],[ "lazulite", 1.30],[ "magnesium", 1.50],[ "berlinite", 1.30], [ "fossilbone", 0.70] ] ]
+  ]
 }
+
 
 ]

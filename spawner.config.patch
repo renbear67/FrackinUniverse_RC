@@ -1,0 +1,44 @@
+[
+{"op":"add",
+ "path":"/spawnGroups/fu_slime",
+ "value":[       
+      "slime",
+      "slime_day",
+      "slime_night",
+      "pooplittle",
+      "poop"
+      ] 
+},
+
+ 
+ // Monster Spawning Paramenters
+ {"op":"add","path":"/spawns/slime","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.01,"monsterType":"slime","monsterParameters":{"aggressive":true}}},
+ {"op":"add","path":"/spawns/slime_day","value":{"spawnParameters":{"area":"surface","region":"all","time":"day"},"targetDensity":0.01,"monsterType":"slime","monsterParameters":{"aggressive":true}}},
+ {"op":"add","path":"/spawns/slime_night","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.01,"monsterType":"slime","monsterParameters":{"aggressive":true}}},
+
+
+ {"op":"add",
+ "path":"/spawns/pooplittle",
+ "value":{
+   "spawnParameters": {
+   "area":"surface","region":"all","time":"all"},
+   "targetDensity":0.002,
+   "monsterType":"po",
+   "monsterParameters":{"aggressive":true}
+   }
+ },
+
+ {"op":"add",
+ "path":"/spawns/poop",
+ "value":{
+   "spawnParameters": {
+   "area":"surface","region":"all","time":"all"},
+   "targetDensity":0.002,
+   "monsterType":"pogolem",
+   "monsterParameters":{"aggressive":true}
+   }
+ }
+
+]
+
+

@@ -89,8 +89,10 @@
           {"weight" : 0.012, "item" :  [ "ff_stonechest-recipe", 1]},
           {"weight" : 0.012, "item" :  [ "ff_stonechest2-recipe", 1]},
           {"weight" : 0.012, "item" :  [ "penumbrachest-recipe", 1]},
-          {"weight" : 0.012, "item" :  [ "protochest-recipe", 1]}
-          
+          {"weight" : 0.012, "item" :  [ "protochest-recipe", 1]},
+          {"weight" : 0.009, "item" :  [ "fieldschientisthead2", 1]},
+          {"weight" : 0.009, "item" :  [ "fieldschientisthead3", 1]},
+          {"weight" : 0.009, "item" :  [ "fieldschientisthead4", 1]}
         ],
         "poolRounds" : [
           [0.23, 1],
@@ -133,6 +135,9 @@
           {"weight" : 0.0111, "item" : [ "metalchunk", 5]},
           {"weight" : 0.0111, "item" : [ "ff_spareparts", 5]},
           {"weight" : 0.0111, "item" : [ "protorockmaterial", 5]},
+          {"weight" : 0.009, "item" :  [ "fieldschientisthead2", 1]},
+          {"weight" : 0.009, "item" :  [ "fieldschientisthead3", 1]},
+          {"weight" : 0.009, "item" :  [ "fieldschientisthead4", 1]},          
           {"weight" : 0.012, "item" :  [ "fubonearmorchest-recipe", 1]},
 	  {"weight" : 0.012, "item" :  [ "fubonearmorhead-recipe", 1]},
           {"weight" : 0.012, "item" :  [ "fubonearmorlegs-recipe", 1]},
@@ -257,7 +262,10 @@
           {"weight" : 0.020, "item" :  [ "elderrelic12", 1]},
           {"weight" : 0.020, "item" :  [ "elderrelic13", 1]},
           {"weight" : 0.020, "item" :  [ "elderrelic14", 1]}, 
-          {"weight" : 0.012, "item" :  [ "elderchest-recipe", 1]}
+          {"weight" : 0.012, "item" :  [ "elderchest-recipe", 1]},
+          {"weight" : 0.009, "item" :  [ "fieldschientisthead2", 1]},
+          {"weight" : 0.009, "item" :  [ "fieldschientisthead3", 1]},
+          {"weight" : 0.009, "item" :  [ "fieldschientisthead4", 1]}
         ],
         "poolRounds" : [
           [0.23, 1],
@@ -342,7 +350,10 @@
           {"weight" : 0.009, "item" :  [ "elderrelic11", 1]},
           {"weight" : 0.009, "item" :  [ "elderrelic12", 1]},
           {"weight" : 0.009, "item" :  [ "elderrelic13", 1]},
-          {"weight" : 0.009, "item" :  [ "elderrelic14", 1]}
+          {"weight" : 0.009, "item" :  [ "elderrelic14", 1]},
+          {"weight" : 0.009, "item" :  [ "fieldschientisthead2", 1]},
+          {"weight" : 0.009, "item" :  [ "fieldschientisthead3", 1]},
+          {"weight" : 0.009, "item" :  [ "fieldschientisthead4", 1]}
         ],
         "poolRounds" : [
           [0.23, 1],
@@ -437,7 +448,10 @@
           {"weight" : 0.012, "item" :  [ "ff_stonechest-recipe", 1]},
           {"weight" : 0.012, "item" :  [ "ff_stonechest2-recipe", 1]},
           {"weight" : 0.012, "item" :  [ "penumbrachest-recipe", 1]},
-          {"weight" : 0.012, "item" :  [ "protochest-recipe", 1]}
+          {"weight" : 0.012, "item" :  [ "protochest-recipe", 1]},
+          {"weight" : 0.009, "item" :  [ "fieldschientisthead2", 1]},
+          {"weight" : 0.009, "item" :  [ "fieldschientisthead3", 1]},
+          {"weight" : 0.009, "item" :  [ "fieldschientisthead4", 1]}
         ],
         "poolRounds" : [
           [0.23, 1],
@@ -527,7 +541,10 @@
           {"weight" : 0.012, "item" : [ "steampunkchest", 1]},
           {"weight" : 0.012, "item" : [ "steampunklegs", 1]},
           {"weight" : 0.021, "item" : [ "duncecap", 1]},
-          {"weight" : 0.021, "item" :  [ "rainforestchest-recipe", 1]}
+          {"weight" : 0.021, "item" :  [ "rainforestchest-recipe", 1]},
+          {"weight" : 0.009, "item" :  [ "fieldschientisthead2", 1]},
+          {"weight" : 0.009, "item" :  [ "fieldschientisthead3", 1]},
+          {"weight" : 0.009, "item" :  [ "fieldschientisthead4", 1]}
         ],
         "poolRounds" : [
           [0.23, 1],

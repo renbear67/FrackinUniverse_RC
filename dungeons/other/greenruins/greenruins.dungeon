@@ -6,7 +6,7 @@
 		"maxRadius" : 2000,
 		"maxParts" : 15,
 		"gravity" : 80,
-	    "protected" : true,
+	        "protected" : true,
 		"anchor" : [ "greenruins1", "greenruins2", "greenruins3", "greenruins4", "greenruins5", "greenruins6", "greenruinse1", "greenruinse1a", "greenruinsu1", "greenruinsu1a", "greenruinsu2", "greenruinsu3", "greenruinsu4"  ]
 	},
 	

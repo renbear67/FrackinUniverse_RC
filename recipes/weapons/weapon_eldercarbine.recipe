@@ -6,6 +6,7 @@
     { "item" : "elderrelic3", "count" : 1 },
     { "item" : "elderrelic4", "count" : 2 },
     { "item" : "eridianbar", "count" : 6 },
+    { "item" : "corruptionseed", "count" : 40 },
     { "item" : "prisilitestar", "count" : 6 }
   ],
   "output" : {
