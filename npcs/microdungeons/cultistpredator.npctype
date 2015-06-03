@@ -5,7 +5,7 @@
 
   "damageTeam" : 2,
 
-  "levelVariance" : [-0.5, -0.5],
+  "levelVariance" : [-0.5, 3.5],
 
   "scripts" : [
     "/npcs/main.lua",
@@ -128,8 +128,8 @@
           },
           {
             "head" : [ { "name" : "fubonearmorhead", "parameters" : { "colorIndex" : 7 } } ],
-            "chest" : [ { "name" : "fubonearmorlegs", "parameters" : { "colorIndex" : 7 } } ],
-            "legs" : [ { "name" : "fubonearmorchest", "parameters" : { "colorIndex" : 7 } } ],
+            "chest" : [ { "name" : "fubonearmorchest", "parameters" : { "colorIndex" : 7 } } ],
+            "legs" : [ { "name" : "fubonearmorlegs", "parameters" : { "colorIndex" : 7 } } ],
             "primary" : [
               { "name" : "carbonblade" }
             ],
@@ -138,9 +138,9 @@
             ]
           },
           {
-            "head" : [ { "name" : "ff_lagoonpants", "parameters" : { "colorIndex" : 7 } } ],
+            "head" : [ { "name" : "ff_lagoonhead", "parameters" : { "colorIndex" : 7 } } ],
             "chest" : [ { "name" : "ff_lagoonchest", "parameters" : { "colorIndex" : 7 } } ],
-            "legs" : [ { "name" : "ff_lagoonhead", "parameters" : { "colorIndex" : 7 } } ],
+            "legs" : [ { "name" : "ff_lagoonpants", "parameters" : { "colorIndex" : 7 } } ],
             "primary" : [
               { "name" : "elderblade" }
             ],

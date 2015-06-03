@@ -1,0 +1,29 @@
+{
+  "itemName" : "beammasterhelm",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "High energy reserve.",
+  "shortdescription" : "Beam-Master helm",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+  "statusEffects" : [
+      {
+        "stat" : "maxHealth",
+        "amount" : 80
+    },
+    {
+      "stat" : "maxEnergy",
+      "amount" : 160
+    },
+    {
+      "stat" : "protection",
+      "amount" : 90
+    }
+  ]
+
+}

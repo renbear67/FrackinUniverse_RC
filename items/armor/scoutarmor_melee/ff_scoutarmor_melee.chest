@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "rare",
-  "description" : "Deadly strikes",
+  "description" : "Increase shield regeneration",
   "shortdescription" : "Warrior Chestpiece",
   "tooltipKind" : "armor",
 
@@ -29,9 +29,6 @@
       "stat" : "maxHealth",
       "amount" : 80
     },
-    {
-      "stat" : "rage",
-      "amount" : 0.15
-    }
+    "shieldregen2"
   ]
 }

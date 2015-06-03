@@ -263,9 +263,9 @@
           {"weight" : 0.020, "item" :  [ "elderrelic13", 1]},
           {"weight" : 0.020, "item" :  [ "elderrelic14", 1]}, 
           {"weight" : 0.012, "item" :  [ "elderchest-recipe", 1]},
-          {"weight" : 0.009, "item" :  [ "fieldschientisthead2", 1]},
-          {"weight" : 0.009, "item" :  [ "fieldschientisthead3", 1]},
-          {"weight" : 0.009, "item" :  [ "fieldschientisthead4", 1]}
+          {"weight" : 0.009, "item" :  [ "fieldscientisthead2", 1]},
+          {"weight" : 0.009, "item" :  [ "fieldscientisthead3", 1]},
+          {"weight" : 0.009, "item" :  [ "fieldscientisthead4", 1]}
         ],
         "poolRounds" : [
           [0.23, 1],
@@ -351,9 +351,9 @@
           {"weight" : 0.009, "item" :  [ "elderrelic12", 1]},
           {"weight" : 0.009, "item" :  [ "elderrelic13", 1]},
           {"weight" : 0.009, "item" :  [ "elderrelic14", 1]},
-          {"weight" : 0.009, "item" :  [ "fieldschientisthead2", 1]},
-          {"weight" : 0.009, "item" :  [ "fieldschientisthead3", 1]},
-          {"weight" : 0.009, "item" :  [ "fieldschientisthead4", 1]}
+          {"weight" : 0.009, "item" :  [ "fieldscientisthead2", 1]},
+          {"weight" : 0.009, "item" :  [ "fieldscientisthead3", 1]},
+          {"weight" : 0.009, "item" :  [ "fieldscientisthead4", 1]}
         ],
         "poolRounds" : [
           [0.23, 1],
@@ -449,9 +449,9 @@
           {"weight" : 0.012, "item" :  [ "ff_stonechest2-recipe", 1]},
           {"weight" : 0.012, "item" :  [ "penumbrachest-recipe", 1]},
           {"weight" : 0.012, "item" :  [ "protochest-recipe", 1]},
-          {"weight" : 0.009, "item" :  [ "fieldschientisthead2", 1]},
-          {"weight" : 0.009, "item" :  [ "fieldschientisthead3", 1]},
-          {"weight" : 0.009, "item" :  [ "fieldschientisthead4", 1]}
+          {"weight" : 0.009, "item" :  [ "fieldscientisthead2", 1]},
+          {"weight" : 0.009, "item" :  [ "fieldscientisthead3", 1]},
+          {"weight" : 0.009, "item" :  [ "fieldscientisthead4", 1]}
         ],
         "poolRounds" : [
           [0.23, 1],
@@ -542,9 +542,9 @@
           {"weight" : 0.012, "item" : [ "steampunklegs", 1]},
           {"weight" : 0.021, "item" : [ "duncecap", 1]},
           {"weight" : 0.021, "item" :  [ "rainforestchest-recipe", 1]},
-          {"weight" : 0.009, "item" :  [ "fieldschientisthead2", 1]},
-          {"weight" : 0.009, "item" :  [ "fieldschientisthead3", 1]},
-          {"weight" : 0.009, "item" :  [ "fieldschientisthead4", 1]}
+          {"weight" : 0.009, "item" :  [ "fieldscientisthead2", 1]},
+          {"weight" : 0.009, "item" :  [ "fieldscientisthead3", 1]},
+          {"weight" : 0.009, "item" :  [ "fieldscientisthead4", 1]}
         ],
         "poolRounds" : [
           [0.23, 1],

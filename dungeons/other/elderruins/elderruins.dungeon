@@ -30,12 +30,17 @@
         ] ]
     },
     {
+      "value" : [55, 140, 140, 255],
+      "comment" : "background castlewalls1",
+      "brush" : [ [ "clear" ], [ "back", "castlewalls1" ] ]
+    },
+    {
       "value" : [138, 141, 122, 255],
       "comment" : "background elderplatform",
       "brush" : [ [ "clear" ], [ "front", "elderplatform" ] ]
     },
     {
-      "value" : [207, 255, 60, 255],
+      "value" : [155, 173, 99, 255],
       "comment" : "background protorock",
       "brush" : [ [ "clear" ], [ "back", "protorock" ] ]
     },
@@ -61,7 +66,7 @@
     },
     {
       "value" : [128, 38, 21, 255],
-      "comment" : "background elderstone",
+      "comment" : "background elderstone2",
       "brush" : [ [ "clear" ], [ "front", "elderstone2" ] ]
     },
     {
@@ -126,8 +131,8 @@
     },  
     {
       "value" : [220, 209, 186, 255],
-      "comment" : "bone door",
-      "brush" : [ [ "clear" ], [ "object", "bonedoor", { "direction" : "right" } ] ]
+      "comment" : "elder door",
+      "brush" : [ [ "clear" ], [ "object", "elderslidingdoor", { "direction" : "right" } ] ]
     },  
     {
       "value" : [80, 94, 80, 255],
@@ -137,7 +142,7 @@
     {
       "value" : [200, 0, 200, 255],
       "comment" : "SWITCH",
-      "brush" : [ [ "clear" ], [ "object", "consoletribal" ] ]
+      "brush" : [ [ "clear" ], [ "object", "huntingpressureplate" ] ]
     },
     {
       "value" : [88, 98, 88, 255],
@@ -159,7 +164,11 @@
       "comment" : "elder carving1",
       "brush" : [ [ "clear" ], [ "object", "eldercarving4" ] ]
     },
-
+    {
+      "value" : [105, 127, 135, 255],
+      "comment" : "elder chest",
+      "brush" : [ [ "clear" ], [ "object", "elderchest2", { "direction" : "right", "parameters" : { "treasurePools" : [ "ffelderTreasure" ] } } ] ]
+    },
 
 	    {
 			"value" : [85, 255, 0, 255],
@@ -201,6 +210,11 @@
 			"brush" : [["surface"]],
 			"rules" : [["allowOverdrawing"]]
 		}, 
+    {
+      "value" : [32, 32, 32, 255],
+      "comment" : "Empty hole",
+      "brush" : [ [ "clear" ] ]
+    },
 		{
 			"value" : [40, 40, 40, 255],
 			"comment" : "Biome tile brush non-overwritable",
@@ -444,7 +458,11 @@
 			"comment" : "springbush3 3x2",
 			"brush" : [ [ "clear" ], [ "object", "springbush3" ] ]
 		},
-		
+    {
+      "value" : [12, 0, 0, 255],
+      "comment" : "wire #1",
+      "brush" : [ [ "wire", { "group" : "group1", "local" : true } ] ]
+    },		
 		// npcs //
 		{
 		"value" : [200, 110, 211, 255],
@@ -571,7 +589,21 @@
 			"comment" : "water pool foreground",
 			"brush" : [ [ "clear" ], [ "liquid", "water" ] ]
 		},
-		
+		{
+			"value" : [120, 235, 209, 255],
+			"comment" : "water pool foreground",
+			"brush" : [ [ "clear" ], [ "liquid", "elderfluid" ] ]
+		},
+		{
+			"value" : [228, 235, 120, 255],
+			"comment" : "water pool foreground",
+			"brush" : [ [ "clear" ], [ "liquid", "sulphuricacid" ] ]
+		},
+		{
+			"value" : [229, 235, 120, 255],
+			"comment" : "water pool foreground",
+			"brush" : [ [ "clear" ], [ "liquid", "sulphuricacid" ] ]
+		},		
 		{
 			"value" : [28, 10, 254, 255],
 			"comment" : "healing pool foreground",
@@ -586,7 +618,9 @@
       "name" : "elderruin1",
       "rules" : [ 
 	  ],
-      "def" : [ "image", [ "elderruin1.png", "elderruin1objects.png" ] ]
+      "def" : [ "image", [ "elderruins1.png", "elderruins1-objects.png", "elderruins1-liquids.png" ] ]
+	  
+     // "def" : [ "image", [ "elderruins1.png", "elderruins1-objects.png", "elderruins1-liquids.png", "elderruins1-wires.png", ] ]
     }
 	
 	]
