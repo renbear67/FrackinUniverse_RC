@@ -408,7 +408,8 @@
               [0.15, "swamproot2" ],
               [0.15, "swamproot3" ],
               [0.15, "swamproot4" ],
-              [0.15, "swamproot5" ]
+              [0.15, "swamproot5" ],
+              [0.15, "agaranmushroom" ]
           ],
               "parameters" : { }
             }

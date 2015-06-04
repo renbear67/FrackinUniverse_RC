@@ -5,7 +5,7 @@
 
   "damageTeam" : 2,
 
-  "levelVariance" : [-0.5, 3.5],
+  "levelVariance" : [-0.5, 1.5],
 
   "scripts" : [
     "/npcs/main.lua",

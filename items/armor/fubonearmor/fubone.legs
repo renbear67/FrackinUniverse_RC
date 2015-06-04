@@ -4,8 +4,8 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "Light bone legs. Not you average Halloween costume.",
-  "shortdescription" : "Boney Legs",
+  "description" : "Light bone legs. Immune to acid.",
+  "shortdescription" : "Bone Legs",
   "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
@@ -14,17 +14,17 @@
   "statusEffects" : [
     {
       "stat" : "protection",
-      "amount" : 15
+      "amount" : 35
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 15
+      "amount" : 30
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 5
+      "amount" : 25
     },
     "sulphuricacidimmunity"
   ]
