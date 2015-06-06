@@ -14,7 +14,7 @@
   ],
 
   "mainBlock" : "cloudblock",
-  "subBlocks" : [  ],
+  "subBlocks" : [ "raincloud"  ],
   "ores" : "surfaceOres",
 
   "parallax" : "/parallax/atmosphere/atmosphere.parallax",

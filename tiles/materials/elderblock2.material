@@ -12,7 +12,7 @@
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
     "texture" : "elderblock2.png",
-    "variants" : 5,
+    "variants" : 18,
     "lightTransparent" : false,
     "occludesBelow" : true,
     "multiColored" : false,

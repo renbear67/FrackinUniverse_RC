@@ -3,7 +3,7 @@ function init()
   animator.setParticleEmitterOffsetRegion("shadowgaseffect", mcontroller.boundBox())
   animator.setParticleEmitterActive("shadowgaseffect", true)
   effect.setParentDirectives("fade=000000=0.15")
-
+  activateVisualEffects()
   script.setUpdateDelta(5)
   self.tickDamagePercentage = 0.01
   self.tickTime = 1.2
@@ -33,7 +33,13 @@ function init()
 end
 
 
-
+function activateVisualEffects()
+  animator.setParticleEmitterOffsetRegion("shadowgaseffect", mcontroller.boundBox())
+  animator.setParticleEmitterActive("shadowgaseffect", true)
+  local statusTextRegion = { 0, 1, 0, 1 }
+  animator.setParticleEmitterOffsetRegion("statustext", statusTextRegion)
+  animator.burstParticleEmitter("statustext")
+end
   
 
 function update(dt)

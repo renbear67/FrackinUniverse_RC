@@ -257,7 +257,7 @@
 		{
 			"value" : [2, 253, 84, 255],
 			"comment" : "towerverdancemap 5x5",
-			"brush" : [ [ "clear" ], [ "object", "towerverdancemap" ] ]
+			"brush" : [ [ "clear" ], [ "object", "icechest" ] ]
 		},
 		
 		// platforms //

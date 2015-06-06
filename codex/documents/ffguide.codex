@@ -13,12 +13,6 @@
 
 "^green;Extraction^white; - You'll typically get one of a few things when extracting. Nutrient Paste, Tissue Cultures, Raw Minerals, Genetic Material or Oil. All have their uses, and you will definitely need some of each. Do try not to eat them. If you are really , really hungry...just be careful. Lead tastes like shit, for instance.",
 
-"^green;Sampling^white; - The Sampling Array is one of your most valuable pieces of gear. Without it, you cannot create DNA Samples, Mineral Samples or Bio-Chips. All of these are essential in creating most plants. You'll need many of these. To make a DNA sample you need a vial, genetic material and tissue culture. For a mineral sample, swap that to nutrient paste and raw minerals.",
-
-"^green;Sampling2^white; - Bio-Chips require a Mineral Sample, a DNA Sample and a Bio-Chip Base. Sampling takes time, so you can toss a ton of resources in there at once, and leave to go do some stuff. Note that this machine can take other resources too, and produce other things besides the dna and mineral samples...",
-
-"^green;Sampling3^white; - The array can also produce numerous other goods. Graphene, Silicon, Blister Extract, Alien Compound and even special items. You can find the basic recipes (Graphene, Alien Compound, Blister Extract, Mutavisk Thread, Silicon) on the mod page for FrackinUniverse. The complicated ones are up to you to discover.",
-
 "^green;Finding Resources^white; - Genetic Material is most commonly found in meats, certain plants and similar stuff. You'll find Raw Minerals in stone, ore and other things rich in mineral content. Tissue Culture is most common from plants, seeds and produce. Oil is now found in many places. Sand and Tar are your best bets.",
 
 "^green;Methanol^white; - Methanol is an important resource for several goods. Where it's found is pretty straightforward. Cut down some trees. Extract from the wood in your extractor. Simple as that!",
@@ -36,8 +30,6 @@
 "^green;Xeno-Research Lab^white; - Now you'll need a Xeno Research Lab. This sweet baby will produce various sorts of research materials, gene sequences and other deliciously scientific things. With these, you can create plants by combining the goods in a Gene Design Lab. That's next. First, build yourself the Xeno Research Lab.",
 
 "^green;Designing Genes^white; - The Gene Design Lab is your best friend. Here, you combine all the things you've made in previously built stations in order to create new seeds! Without this, you're sunk!",
-
-"^green;Cloning from Seeds^white; - Finally, the Cloning Lab can be built, though it is not necessarily essential. Here you can create modified versions of seeds, with new effects. You need 3 of a seed, a mutagen and a chemical reagent, which are craftable at the BioChem Lab if you can find the recipes.",
 
 "^green;Storing Your Goods^white; - Need somewhere to store the dozens of resources you're inevitably going to create through your research? Well, the solution is simple enough: Gene Cabinets. Build a couple of these and you will be good to go. And they're cheap and easy to make!",
 

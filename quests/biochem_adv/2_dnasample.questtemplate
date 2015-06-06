@@ -1,7 +1,7 @@
   {
   "id" : "2_dnasample.gearup",
   "title" : "^#1693d5;DNA Sample",
-  "text" : "^orange;DNA Samples^white; are an integral part to creating plant life in your lab. To make some, toss some 2 Tissue Culture, 2 Genetic Material and 1 Glass into your sampling array and wait for the conversion.",
+  "text" : "^orange;DNA Samples^white; are an integral part to creating plant life in your lab. To make some, check your ^orange;Bio Chem Lab^white; and convert them there.",
   "completionText" : "Many other materials can be created in this fashion. Let's move on to mineral samples.",
   "conditions" : [ { "kind" : "gather", "item" : [ "dnasample", 1], "consume" : false }
   ],

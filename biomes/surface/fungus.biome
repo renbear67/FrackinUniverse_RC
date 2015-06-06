@@ -174,7 +174,44 @@
           "type" : "object",
           "objectSets" : [
             {
-              "pool" : [ [0.35, "flowerred" ], [0.35, "flowerblue" ], [0.35, "floweryellow" ], [0.35, "junglebush1" ], [0.35, "junglebush2" ], [0.35, "junglebush3" ], [0.35, "junglebush4" ], [0.35, "junglebush5" ], [0.35, "junglebush6" ], [0.35, "junglebush7" ], [0.35, "junglebush8" ], [0.35, "junglebush9" ], [0.35, "junglebush10" ], [0.35, "junglebush11" ], [0.35, "junglebush12" ], [0.35, "junglebush13" ], [0.35, "junglebush14" ], [0.35, "junglebush15" ], [0.35, "junglebush16" ], [0.35, "junglebush17" ], [0.35, "junglebush18" ] ],
+              "pool" : [ 
+              [0.35, "flowerred" ], 
+              [0.35, "flowerblue" ], 
+              [0.35, "floweryellow" ],
+              [0.35, "junglebush1" ], 
+              [0.35, "junglebush2" ], 
+              [0.35, "junglebush3" ], 
+              [0.35, "junglebush4" ], 
+              [0.35, "junglebush5" ], 
+              [0.35, "junglebush6" ], 
+              [0.35, "junglebush7" ], 
+              [0.35, "junglebush8" ], 
+              [0.35, "junglebush9" ], 
+              [0.35, "junglebush10" ], 
+              [0.35, "junglebush11" ], 
+              [0.35, "junglebush12" ], 
+              [0.35, "junglebush13" ], 
+              [0.35, "junglebush14" ], 
+              [0.35, "junglebush15" ], 
+              [0.35, "junglebush16" ], 
+              [0.35, "junglebush17" ], 
+              [0.35, "junglebush18" ],
+              [0.35, "redcap2" ],
+              [0.35, "redcap3" ],
+              [0.35, "redcap" ],
+              [0.35, "rootbush1" ],
+              [0.35, "rootbush2" ],
+              [0.35, "rootbush3" ],
+              [0.35, "rootbush4" ],
+              [0.35, "rootbush5" ],
+              [0.35, "swamproot1" ],
+              [0.35, "swamproot2" ],
+              [0.35, "swamproot3" ],
+              [0.35, "swamproot4" ],
+              [0.35, "swamproot5" ],
+              [0.35, "plantorb" ],
+              [0.35, "agaranmushroom" ]
+          ],
               "parameters" : { }
             }
           ]
@@ -409,6 +446,7 @@
               [0.15, "swamproot3" ],
               [0.15, "swamproot4" ],
               [0.15, "swamproot5" ],
+              [0.15, "plantorb" ],
               [0.15, "agaranmushroom" ]
           ],
               "parameters" : { }

@@ -6,7 +6,7 @@
 		"maxRadius" : 2000,
 		"maxParts" : 1,
 		"gravity" : 110,
-		"anchor" : [ "elderruin1" ],
+		"anchor" : [ "elderruin2" ],
 		"protected" : true
 	},
 	
@@ -29,11 +29,23 @@
           }
         ] ]
     },
-    {
-      "value" : [55, 140, 140, 255],
-      "comment" : "background castlewalls1",
-      "brush" : [ [ "clear" ], [ "back", "castlewalls1" ] ]
-    },
+		{
+			"value" : [111, 111, 0, 255],
+			"comment" : "elderurn1 2x2 x-2",
+			"brush" : [ [ "clear" ], [ "object", "elderurn1" ] ]
+		},
+		
+		{
+			"value" : [112, 111, 0, 255],
+			"comment" : "elderurn2 1x2",
+			"brush" : [ [ "clear" ], [ "object", "elderurn2" ] ]
+		},
+		
+		{
+			"value" : [113, 111, 0, 255],
+			"comment" : "elderurn3 1x2",
+			"brush" : [ [ "clear" ], [ "object", "elderurn3" ] ]
+		},
     {
       "value" : [138, 141, 122, 255],
       "comment" : "background elderplatform",
@@ -165,9 +177,140 @@
       "brush" : [ [ "clear" ], [ "object", "eldercarving4" ] ]
     },
     {
+      "value" : [83, 93, 83, 255],
+      "comment" : "elder bed",
+      "brush" : [ [ "clear" ], [ "object", "elderbed", { "direction" : "right" } ] ]
+    },
+    {
+      "value" : [83, 93, 82, 255],
+      "comment" : "elder bed",
+      "brush" : [ [ "clear" ], [ "object", "elderbed", { "direction" : "left" } ] ]
+    },
+    {
+      "value" : [84, 94, 84, 255],
+      "comment" : "elder bookcase",
+      "brush" : [ [ "clear" ], [ "object", "elderbookcase", { "direction" : "right" } ] ]
+    },
+    {
+      "value" : [84, 94, 84, 255],
+      "comment" : "elder bookcase",
+      "brush" : [ [ "clear" ], [ "object", "elderbookcase", { "direction" : "left" } ] ]
+    },
+    {
+      "value" : [81, 94, 81, 255],
+      "comment" : "elder chair",
+      "brush" : [ [ "clear" ], [ "object", "elderchair", { "direction" : "right" } ] ]
+    },
+    {
+      "value" : [81, 125, 81, 255],
+      "comment" : "elder chair",
+      "brush" : [ [ "clear" ], [ "object", "elderchair", { "direction" : "left" } ] ]
+    },
+    {
+      "value" : [81, 225, 81, 255],
+      "comment" : "elder pedestal",
+      "brush" : [ [ "clear" ], [ "object", "pedestal", { "direction" : "left" } ] ]
+    },
+    {
+      "value" : [81, 220, 81, 255],
+      "comment" : "elder pedestal",
+      "brush" : [ [ "clear" ], [ "object", "pedestal", { "direction" : "right" } ] ]
+    },
+    {
       "value" : [105, 127, 135, 255],
       "comment" : "elder chest",
       "brush" : [ [ "clear" ], [ "object", "elderchest2", { "direction" : "right", "parameters" : { "treasurePools" : [ "ffelderTreasure" ] } } ] ]
+    },
+
+//normal tiles
+    {
+      "value" : [55, 140, 140, 255],
+      "comment" : "background castlewalls1",
+      "brush" : [ [ "clear" ], [ "back", "castlewalls1" ] ]
+    },
+    {
+      "value" : [166, 140, 65, 255],
+      "comment" : "background darkwood",
+      "brush" : [ [ "clear" ], [ "back", "darkwood" ] ]
+    },
+
+    {
+      "value" : [217, 184, 85, 255],
+      "comment" : "foreground darkwood",
+      "brush" : [ [ "clear" ], [ "back", "darkwood" ], [ "front", "darkwood" ] ]
+    },
+    {
+      "value" : [166, 89, 65, 255],
+      "comment" : "background crosshatch",
+      "rules" : [ [ "allowOverdrawing" ] ],
+      "brush" : [ [ "clear" ], [ "back", "crosshatch" ] ]
+    },
+
+    {
+      "value" : [217, 115, 85, 255],
+      "comment" : "foreground crosshatch",
+      "brush" : [ [ "clear" ], [ "front", "crosshatch" ] ]
+    },
+    {
+      "value" : [115, 99, 48, 255],
+      "comment" : "background fullwood1",
+      "brush" : [ [ "clear" ], [ "back", "fullwood1" ] ]
+    },
+
+    {
+      "value" : [166, 143, 70, 255],
+      "comment" : "foreground fullwood1",
+      "brush" : [ [ "clear" ], [ "back", "fullwood1" ], [ "front", "fullwood1" ] ]
+    },
+    {
+      "value" : [179, 126, 89, 255],
+      "comment" : "wooden stairs/platform",
+      "brush" : [ [ "clear" ], [ "front", "woodenplatform" ] ]
+    },    
+    {
+      "value" : [255, 0, 85, 255],
+      "comment" : "barrel",
+      "brush" : [ [ "clear" ], [ "object", "barrel" ] ]
+    },
+
+    {
+      "value" : [255, 0, 77, 255],
+      "comment" : "barrellarge",
+      "brush" : [ [ "clear" ], [ "object", "barrellarge" ] ]
+    },
+    {
+      "value" : [128, 0, 255, 255],
+      "comment" : "largewoodencrate facing left",
+      "brush" : [ [ "clear" ], [ "object", "largewoodencrate", { "direction" : "left" } ] ]
+    },
+
+    {
+      "value" : [121, 0, 242, 255],
+      "comment" : "largewoodencrate facing right",
+      "brush" : [ [ "clear" ], [ "object", "largewoodencrate", { "direction" : "right" } ] ]
+    },    
+    {
+      "value" : [178, 26, 255, 255],
+      "comment" : "smallwoodencrate facing left",
+      "brush" : [ [ "clear" ], [ "object", "smallwoodencrate", { "direction" : "left" } ] ]
+    },
+
+    {
+      "value" : [170, 24, 242, 255],
+      "comment" : "smallwoodencrate facing right",
+      "brush" : [ [ "clear" ], [ "object", "smallwoodencrate", { "direction" : "right" } ] ]
+    },
+
+    {
+      "value" : [229, 161, 23, 255],
+      "comment" : "wallshackles facing left",
+      "brush" : [ [ "clear" ], [ "object", "wallshackles", { "direction" : "left" } ] ]
+    },
+
+    {
+      "value" : [217, 152, 22, 255],
+      "comment" : "wallshackles facing right",
+      "brush" : [ [ "clear" ], [ "object", "wallshackles", { "direction" : "right" } ] ]
     },
 
 	    {
@@ -425,20 +568,20 @@
 
 		{
 			"value" : [111, 111, 0, 255],
-			"comment" : "planturn1 2x2 x-2",
-			"brush" : [ [ "clear" ], [ "object", "planturn1" ] ]
+			"comment" : "elderurn1 2x2 x-2",
+			"brush" : [ [ "clear" ], [ "object", "elderurn1" ] ]
 		},
 		
 		{
 			"value" : [112, 111, 0, 255],
-			"comment" : "planturn2 1x2",
-			"brush" : [ [ "clear" ], [ "object", "planturn2" ] ]
+			"comment" : "elderurn2 1x2",
+			"brush" : [ [ "clear" ], [ "object", "elderurn2" ] ]
 		},
 		
 		{
 			"value" : [113, 111, 0, 255],
-			"comment" : "planturn3 1x2",
-			"brush" : [ [ "clear" ], [ "object", "planturn3" ] ]
+			"comment" : "elderurn3 1x2",
+			"brush" : [ [ "clear" ], [ "object", "elderurn3" ] ]
 		},
 		
 		{
@@ -616,11 +759,19 @@
 	
     {
       "name" : "elderruin1",
-      "rules" : [ 
-	  ],
+      "rules" : [ ],
       "def" : [ "image", [ "elderruins1.png", "elderruins1-objects.png", "elderruins1-liquids.png" ] ]
-	  
-     // "def" : [ "image", [ "elderruins1.png", "elderruins1-objects.png", "elderruins1-liquids.png", "elderruins1-wires.png", ] ]
+      //"def" : [ "image", [ "elderruins2.png", "elderruins2-objects.png", "elderruins1-liquids.png", "elderruins1-wires.png", ] ]
+    },
+    {
+      "name" : "elderruin2",
+      "rules" : [ ],
+      "def" : [ "image", [ "elderruins2.png", "elderruins2-objects.png" ] ]
+    },
+    {
+      "name" : "elderruin3",
+      "rules" : [ ],
+      "def" : [ "image", [ "elderruins3.png", "elderruins3-objects.png" ] ]
     }
 	
 	]

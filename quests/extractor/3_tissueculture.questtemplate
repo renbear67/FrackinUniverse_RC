@@ -1,7 +1,7 @@
   {
   "id" : "3_tissueculture.gearup",
   "title" : "^#1693d5;Tissue Culture",
-  "text" : "Now we need Tissue Cultures. These often come from organic sources like vines or cheese. Get some and come back.",
+  "text" : "Now we need Tissue Cultures. Your best bet for these is saplings. Get some and extract their resources.",
   "completionText" : "Now you move on to a more dense material.",
   "conditions" : [ 
     { "kind" : "gather", "item" : [ "tissueculture", 1], "consume" : false }

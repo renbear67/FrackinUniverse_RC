@@ -18,8 +18,7 @@
             "finalVelocity" : [0, 1],
             "approach" : [0, 10],
             "timeToLive" : 0.3,
-            "variance" : {
-            }
+            "variance" : {}
           }
         }
       ]
@@ -31,7 +30,7 @@
         {
           "particle" : {
             "type" : "text",
-            "text" : "light",
+            "text" : "Helium 3!",
             "size" : 0.75,
             "color" : [150, 220, 220, 230],
             "fade" : 1,
@@ -43,8 +42,7 @@
             "finalVelocity" : [0, 1],
             "approach" : [0, 10],
             "timeToLive" : 1,
-            "variance" : {
-            }
+            "variance" : {}
           }
         }
       ]
