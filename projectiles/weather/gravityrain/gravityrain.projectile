@@ -1,30 +1,11 @@
 {
   "projectileName" : "gravityrain",
-  "physics" : "weather",
+  "physics" : "grenade",
   "frames" : "gravityrain.png",
-  "animationCycle" : 0.25,
-  "level" : 3,
-  "frameNumber" : 1,
-  "damageKindImage" : "icon.png",
-  "pointLight" : true,
-  "power" : 3.0,
+  "animationCycle" : 0.5,
+  "frameNumber" : 2,
   "lightColor" : [44, 26, 140],
-  "damageKind" : "default",
-  "damageType" : "ignoresdef",
-  "damagePoly" : [ [-50, -50], [50, -50], [50, 50], [-50, 50] ],
-
-  "flippable" : true,
-  "universalDamage" : true,
-  
-  "effectSources" : [ "sparkles" ],
-
-  "actionOnReap" : [
-
-    {
-      "action" : "liquid", 
-      "liquid" : "gravrain", 
-      "quantity" : 5
-    }
-
-  ]
+  "pointLight" : true,
+  "actionOnReap" : [ { "action" : "liquid", "liquid" : "gravrain", "quantity" : 0.52 } ],
+  "onlyHitTerrain" : true
 }

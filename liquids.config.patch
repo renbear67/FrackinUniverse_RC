@@ -98,36 +98,7 @@
             "liquid" : 8,
             "liquidResult" : 0
           },
-          {
-          //bioooze
-            "liquid" : 41,
-            "liquidResult" : 41
-          },  
-          {
-          //black tar
-            "liquid" : 42,
-            "liquidResult" : 42
-          },      
-           {
-          //soup
-            "liquid" : 43,
-            "liquidResult" : 43
-          },  
-          {
-          //proto
-            "liquid" : 44,
-            "liquidResult" : 44
-          },   
-          {
-          //elder
-            "liquid" : 45,
-            "liquidResult" : 45
-          },   
-          {
-          //acid
-            "liquid" : 46,
-            "liquidResult" : 46
-          }, 
+
           {
           //irradium
             "liquid" : 47,
@@ -164,28 +135,17 @@
             "liquidResult" : 41
           },
           {
+            "liquid" : 6,
+            "liquidResult" : 41
+          },
+          {
             "liquid" : 8,
             "liquidResult" : 0
-          },  
+          },            
           {
-          //black tar
-            "liquid" : 42,
-            "liquidResult" : 41
-          },      
-           {
           //soup
             "liquid" : 43,
             "liquidResult" : 41
-          },  
-          {
-          //proto
-            "liquid" : 44,
-            "liquidResult" : 44
-          },
-          {
-          //elder
-            "liquid" : 45,
-            "liquidResult" : 45
           },           
           {
           //acid
@@ -194,6 +154,7 @@
           }, 
           {
           //irradium
+          
             "liquid" : 47,
             "liquidResult" : 41
           },   
@@ -236,9 +197,9 @@
           {
           //bioooze
             "liquid" : 41,
-            "liquidResult" : 42
+            "liquidResult" : 41
           },       
-           {
+          {
           //soup
             "liquid" : 43,
             "liquidResult" : 43
@@ -247,11 +208,6 @@
           //proto
             "liquid" : 44,
             "liquidResult" : 44
-          },
-          {
-          //elder
-            "liquid" : 45,
-            "liquidResult" : 45
           },           
           {
           //acid
@@ -315,20 +271,10 @@
           //proto
             "liquid" : 44,
             "liquidResult" : 43
-          }, 
-          {
-          //elder
-            "liquid" : 45,
-            "liquidResult" : 45
-          },           
+          },         
           {
           //acid
             "liquid" : 46,
-            "liquidResult" : 46
-          }, 
-          {
-          //irradium
-            "liquid" : 47,
             "liquidResult" : 46
           },   
           {
@@ -368,22 +314,7 @@
           //bioooze
             "liquid" : 41,
             "liquidResult" : 47
-          },  
-          {
-          //black tar
-            "liquid" : 42,
-            "liquidResult" : 43
-          },      
-           {
-          //soup
-            "liquid" : 43,
-            "liquidResult" : 41
-          },  
-          {
-          //elder
-            "liquid" : 45,
-            "liquidResult" : 45
-          }, 
+          },    
           {
           //acid
             "liquid" : 46,
@@ -439,7 +370,7 @@
             "liquid" : 42,
             "liquidResult" : 45
           },      
-           {
+          {
           //soup
             "liquid" : 43,
             "liquidResult" : 45
@@ -502,7 +433,7 @@
             "liquid" : 42,
             "liquidResult" : 46
           },      
-           {
+          {
           //soup
             "liquid" : 43,
             "liquidResult" : 42
@@ -560,13 +491,8 @@
           //bioooze
             "liquid" : 41,
             "liquidResult" : 41
-          },  
-          {
-          //black tar
-            "liquid" : 42,
-            "liquidResult" : 42
           },      
-           {
+          {
           //soup
             "liquid" : 43,
             "liquidResult" : 47
@@ -629,7 +555,7 @@
             "liquid" : 42,
             "liquidResult" : 43
           },      
-           {
+          {
           //soup
             "liquid" : 43,
             "liquidResult" : 48
@@ -731,7 +657,7 @@
             "liquid" : 42,
             "liquidResult" : 42
           },      
-           {
+          {
           //soup
             "liquid" : 43,
             "liquidResult" : 43
@@ -777,16 +703,21 @@
           "liquid" : 1,
           "liquidResult" : 60
 		},
-	//healingwater
-        {
-          "liquid" : 6,
-          "liquidResult" : 1
-        },
+	  //healingwater
+          {
+            "liquid" : 6,
+            "liquidResult" : 6
+          },
+          {
+            "liquid" : 41,
+            "liquidResult" : 60
+          },
           //black tar
           {
             "liquid" : 42,
             "liquidResult" : 60
           },
+
           //helium
           {
             "liquid" : 49,

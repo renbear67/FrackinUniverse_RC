@@ -124,7 +124,7 @@
     {
       "projectile" : "slimestormblob",
       "parameters" : {
-        "power" : 10
+        "power" : 22
       },
       "velocity" : [30, -30],
       "ratePerX" : 0.005,
@@ -135,7 +135,7 @@
     {
       "projectile" : "slimestormblob",
       "parameters" : {
-        "power" : 10
+        "power" : 27
       },
       "velocity" : [30, -30],
       "ratePerX" : 0.005,

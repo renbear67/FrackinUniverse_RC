@@ -15,13 +15,6 @@
   "flippable" : true,
   "universalDamage" : true,
 
-  "actionOnReap" : [
-
-    {
-      "action" : "liquid", 
-      "liquid" : "blacktar", 
-      "quantity" : 1
-    }
-
-  ]
+  "actionOnReap" : [ { "action" : "liquid", "liquid" : "blacktar", "quantity" : 0.4 } ],
+  "onlyHitTerrain" : true
 }

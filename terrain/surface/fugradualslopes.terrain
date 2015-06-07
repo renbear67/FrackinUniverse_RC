@@ -5,34 +5,48 @@
   "type" : "displacement",
   "xType" : "perlin",
   "xOctaves" : 3,
-  "xFreq" : 4,
-  "xAmp" : 224,
+  "xFreq" : 0.4,
+  "xAmp" : 1,
   "xXInfluence" : 0,
   "yType" : "perlin",
   "yOctaves" : 3,
-  "yFreq" : 0.1,
-  "yAmp" : 0,
-  "yYInfluence" : 0,
+  "yFreq" : 0.05,
+  "yAmp" : 5,
+  "yYInfluence" : 0.5,
   "yBias" : 0.5,
   "yClamp" : [0, 1],
 
   "source" : {
-    //clueless variation
+    //moderate rolling hills
     "type" : "displacement",
     "xType" : "perlin",
     "xOctaves" : 2,
-    "xFreq" : 0.24,
-    "xAmp" : 0,
+    "xFreq" : 0.12,
+    "xAmp" : 0, 
     "yType" : "perlin",
-    "yOctaves" : 2,
-    "yFreq" : 0.45,
-    "yAmp" : 30,
-    "yYInfluence" : 0,
+    "yOctaves" : 3,
+    "yFreq" : 0.032,
+    "yAmp" : 70,
+    "yYInfluence" : 0.2,
 
     "source" : {
-      "type" : "flatSurface",
+      //base terrain height variation
+      "type" : "displacement",
+      "xType" : "perlin",
+      "xOctaves" : 4,
+      "xFreq" : 0.03,
+      "xAmp" : 0,
+      "yType" : "perlin",
+      "yOctaves" : 3,
+      "yFreq" : 0.001,
+      "yAmp" : 70,
+      "yYInfluence" : 0,
 
-      "adjustment" : 0
+      "source" : {
+        "type" : "flatSurface",
+
+        "adjustment" : 0
+      }
     }
   }
 }

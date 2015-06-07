@@ -12,7 +12,7 @@
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
     "texture" : "darkstone.png",
-	"variants" : 5,
+    "variants" : 5,
     "lightTransparent" : false,
     "occludesBelow" : true,
     "multiColored" : false,

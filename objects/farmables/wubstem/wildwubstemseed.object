@@ -2,7 +2,7 @@
   "objectName" : "wildwubstemseed",
   "rarity" : "Common",
   "category" : "farmable",
-  "description" : "Provides slight rage to those eating it.",
+  "description" : "Provides slight healing to those eating it.",
   "shortdescription" : "Wubstem Seed",
   "objectType" : "farmable",
   "printable" : false,
