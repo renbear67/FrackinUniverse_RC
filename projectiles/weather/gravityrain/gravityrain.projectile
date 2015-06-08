@@ -6,6 +6,6 @@
   "frameNumber" : 2,
   "lightColor" : [44, 26, 140],
   "pointLight" : true,
-  "actionOnReap" : [ { "action" : "liquid", "liquid" : "gravrain", "quantity" : 0.52 } ],
+  "actionOnReap" : [ { "action" : "liquid", "liquid" : "gravrain", "quantity" : 0.75 } ],
   "onlyHitTerrain" : true
 }

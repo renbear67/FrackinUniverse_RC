@@ -10,14 +10,12 @@
   "actionOnReap" : [
     { "action" : "config", "file" : "/projectiles/explosions/slimestormexplosion/slimestormexplosion.config" },
     { "action" : "sound", "options" : [ "/sfx/projectiles/goocluster_pop.wav" ] },
-    { "action" : "liquid", "liquid" : "slimeliquid",  "quantity" : 0.43 }
+    { "action" : "liquid", "liquid" : "slimeliquid",  "quantity" : 0.65 }
   ],
   "power" : 12.0,
   "universalDamage" : true,
   "damageType" : "ignoresdef",
-  "damageKind" : "acid",
-
-  "onlyHitTerrain" : true
+  "damageKind" : "acid"
 }
 
 

@@ -24,13 +24,13 @@
 "path" : "/atropus",
 "value" : [     
     [0.4, "clear"],
-    [0.4, "sandstorm"],
-    [0.4, "hurricane"],
-    [0.4, "drizzle"],
-    [0.04, "gravrain"],
-    [0.1, "gravrainlight"],
+    [0.2, "biorain"],
+    [0.4, "bloodrain"],
+    [0.08, "gravrain"],
+    [0.2, "gravrainlight"],
     [0.01, "meteorshower"],
-    [0.005, "largemeteor"]]
+    [0.005, "largemeteor"]
+    ]
 },
 
 
@@ -44,7 +44,8 @@
     [0.4, "crystalstormmajor"],
     [0.4, "acidrain"],
     [0.01, "meteorshower"],
-    [0.005, "largemeteor"]]
+    [0.005, "largemeteor"]
+    ]
 },
 
 
@@ -60,7 +61,8 @@
     [0.420, "rain"],
     [0.347, "heavyrain"],
     [0.01, "meteorshower"],
-    [0.005, "largemeteor"]]
+    [0.005, "largemeteor"]
+    ]
 },
 
 
@@ -74,7 +76,8 @@
     [0.05, "crystalstormmajor"],
     [0.25, "healingstorm"],
     [0.02, "meteorshower"],
-    [0.001, "largemeteor"]]
+    [0.001, "largemeteor"]
+    ]
 },
   
 
@@ -87,7 +90,8 @@
     [0.15, "freezestormlesser"],
     [0.25, "freezestormminor"],
     [0.01, "meteorshower"],
-    [0.005, "largemeteor"]]
+    [0.005, "largemeteor"]
+    ]
 },
   
 
@@ -104,7 +108,8 @@
     [0.15, "freezestormlesser"],
     [0.25, "freezestormminor"],
     [0.02, "meteorshower"],
-    [0.009, "largemeteor"]]
+    [0.009, "largemeteor"]
+    ]
 },
 
 
@@ -118,7 +123,8 @@
     [0.4, "ember"],
     [0.1, "tarrain" ],
     [0.02, "meteorshower"],
-    [0.009, "largemeteor"]]
+    [0.009, "largemeteor"]
+    ]
 },
 
 
@@ -129,7 +135,8 @@
     [0.5, "clear"],
     [0.4, "acidrain"],
     [0.01, "meteorshower"],
-    [0.005, "largemeteor"]]
+    [0.005, "largemeteor"]
+    ]
 },
 
 
@@ -142,7 +149,8 @@
     [0.25, "freezestormlesser"],
     [0.15, "freezestormminor"],
     [0.01, "meteorshower"],
-    [0.005, "largemeteor"]]
+    [0.005, "largemeteor"]
+    ]
 },
 
 
@@ -169,15 +177,15 @@
 "op" : "add",
 "path" : "/protoworld",
 "value" : [     
-    [0.46, "clear"],
-    [0.08, "slimestorm"],
-    [0.1, "slimestormlesser"],
-    [0.04, "gravrain"],
-    [0.1, "gravrainlight"],
-    [0.12, "windstorm"],
-    [0.05, "hurricane"],
-    [0.01, "meteorshower"],
-    [0.005, "largemeteor"]]
+    [0.457, "clear"],
+    [0.20, "biorain"],
+    [0.05, "slimestorm"],
+    [0.2, "slimestormlesser"],
+    [0.07, "gravrainlight"],
+    [0.20, "acidrain"],
+    [0.007, "meteorshower"],
+    [0.002, "largemeteor"]
+    ]
 },
   
 
@@ -196,7 +204,8 @@
     [0.2, "fog"],
     [0.2, "slimestormlesser"],
     [0.01, "meteorshower"],
-    [0.005, "largemeteor"]]
+    [0.005, "largemeteor"]
+    ]
 },  
   
 
@@ -209,7 +218,8 @@
     [0.5, "sulphurstorm"],
     [0.05, "tarrain" ],
     [0.01, "meteorshower"],
-    [0.005, "largemeteor"]]
+    [0.005, "largemeteor"]
+    ]
 },  
   
 {
@@ -236,7 +246,8 @@
     [0.05, "hurricane"],
     [0.05, "windstorm"],
     [0.01, "meteorshower"],
-    [0.005, "largemeteor"]]
+    [0.005, "largemeteor"]
+    ]
 },  
 
 
@@ -250,7 +261,8 @@
     [0.4, "ashstorm"],
     [0.1, "tarrain" ],    
     [0.6, "ash"],
-    [0.05, "windstorm"]]
+    [0.05, "windstorm"]
+    ]
 },
 
 {
@@ -263,7 +275,8 @@
     [0.4, "ashstorm"],
     [0.1, "tarrain" ],    
     [0.6, "ash"],
-    [0.05, "windstorm"]]
+    [0.05, "windstorm"]
+    ]
 },
 
 {

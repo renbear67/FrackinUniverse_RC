@@ -209,12 +209,32 @@
     {
       "value" : [81, 225, 81, 255],
       "comment" : "elder pedestal",
-      "brush" : [ [ "clear" ], [ "object", "pedestal", { "direction" : "left" } ] ]
+      "brush" : [ [ "clear" ], [ "object", "elderpedestal", { "direction" : "left" } ] ]
     },
     {
       "value" : [81, 220, 81, 255],
       "comment" : "elder pedestal",
-      "brush" : [ [ "clear" ], [ "object", "pedestal", { "direction" : "right" } ] ]
+      "brush" : [ [ "clear" ], [ "object", "elderpedestal", { "direction" : "right" } ] ]
+    },
+    {
+      "value" : [87, 225, 87, 255],
+      "comment" : "elder pedestal",
+      "brush" : [ [ "clear" ], [ "object", "eldertable", { "direction" : "left" } ] ]
+    },
+    {
+      "value" : [87, 220, 87, 255],
+      "comment" : "elder pedestal",
+      "brush" : [ [ "clear" ], [ "object", "eldertable", { "direction" : "right" } ] ]
+    },
+    {
+      "value" : [88, 225, 35, 255],
+      "comment" : "elder pedestal",
+      "brush" : [ [ "clear" ], [ "object", "eldercabinet", { "direction" : "left" } ] ]
+    },
+    {
+      "value" : [88, 220, 35, 255],
+      "comment" : "elder pedestal",
+      "brush" : [ [ "clear" ], [ "object", "eldercabinet", { "direction" : "right" } ] ]
     },
     {
       "value" : [105, 127, 135, 255],

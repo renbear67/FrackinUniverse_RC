@@ -10,5 +10,5 @@
   ],
   "animationConfig" : "slimefriction.animation",
   "label" : "Slimed",
-  "icon" : "/interface/statuses/poison.png"
+  "icon" : "/interface/statuses/slime.png"
 }

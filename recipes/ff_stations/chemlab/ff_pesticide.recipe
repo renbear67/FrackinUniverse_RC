@@ -9,5 +9,5 @@
     "item" : "pesticide",
     "count" : 1
   },
-  "groups" : [ "chemlab", "genetics", "all"  ]
+  "groups" : [ "chemlab", "chemical", "all"  ]
 }

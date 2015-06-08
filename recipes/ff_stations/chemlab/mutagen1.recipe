@@ -10,5 +10,5 @@
     "item" : "mutagene1",
     "count" : 2
   },
-  "groups" : [ "chemlab", "plain", "other", "all" ]
+  "groups" : [ "chemlab", "genetics", "all" ]
 }

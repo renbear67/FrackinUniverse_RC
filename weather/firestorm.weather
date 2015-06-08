@@ -165,7 +165,7 @@
     }
   ],
 
-  "duration" : [120, 400],
+  "duration" : [120, 800],
   "lightningFrequency" : 2,
   "maximumWind" : 175.0,
   "weatherNoises" : [ "/sfx/weather/sandstorm.ogg" ]

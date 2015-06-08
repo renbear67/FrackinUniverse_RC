@@ -8,5 +8,5 @@
     "item" : "mineralsample",
     "count" : 1
   },
-  "groups" : [ "chemlab", "materials", "all" ]
+  "groups" : [ "chemlab", "chemical", "all" ]
 }

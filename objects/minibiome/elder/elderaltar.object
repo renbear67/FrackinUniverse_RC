@@ -1,0 +1,36 @@
+{
+  "objectName" : "elderaltar",
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "storage",
+  "price" : 15625,
+  "description" : "An altar dedicated to some unspeakable horror.",
+  "shortdescription" : "Elder Altar",
+  "race" : "floran",
+  "health" : 12500,
+
+  "inventoryIcon" : "elderaltaricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "elderaltar.png:<color>.<frame>",
+      "imagePosition" : [-24, 0],
+      "frames" : 3,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "lightColor" : [150, 150, 150],
+
+  "openSounds" : [ "/sfx/objects/metalbox_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/metalbox_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+
+}

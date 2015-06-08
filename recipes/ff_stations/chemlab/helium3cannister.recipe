@@ -6,5 +6,5 @@
     "item" : "helium3cannister",
     "count" : 1
   },
-  "groups" : [ "chemlab", "plain", "other", "all" ]
+  "groups" : [ "chemlab", "chemical", "all" ]
 }
