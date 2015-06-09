@@ -1,38 +1,27 @@
 {
-  "itemName" : "droptrooparmorchest",
-  "inventoryIcon" : "icons.png:chest",
+  "itemName" : "warangelhead",
+  "inventoryIcon" : "icons.png:head",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "legendary",
-  "description" : "Unknown material provides astounding protection.",
-  "shortdescription" : "Elder Chestpiece",
+  "description" : "You've created a masterpiece.",
+  "shortdescription" : "War Angel Helm",
   "tooltipKind" : "armor",
-  "maleFrames" : {
-    "body" : "chest.png",
-    "backSleeve" : "bsleeve.png",
-    "frontSleeve" : "fsleeve.png"
-  },
-
-  "femaleFrames" : {
-    "body" : "chest.png",
-    "backSleeve" : "bsleeve.png",
-    "frontSleeve" : "fsleeve.png"
-  },
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
 
   "statusEffects" : [
     {
       "stat" : "protection",
-      "amount" : 300
+      "amount" : 195
     },
+    "damagebonus2",
     {
       "stat" : "maxEnergy",
-      "amount" : 300
+      "amount" : 200
     },
-    {
-      "stat" : "maxHealth",
-      "amount" : 500
-    },
-    "elderarmorimmunity"
+      "warangelimmunity"
   ],
 
   "colorOptions" : [

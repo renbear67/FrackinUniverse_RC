@@ -1,27 +1,26 @@
 {
-  "itemName" : "droptrooparmorhead",
-  "inventoryIcon" : "icons.png:head",
+  "itemName" : "warangellegs",
+  "inventoryIcon" : "icons.png:pants",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "legendary",
-  "description" : "An abhorrent helm that empowers, but drives the user mad.",
-  "shortdescription" : "Elder Helmet",
+  "description" : "You've created a masterpiece.",
+  "shortdescription" : "War Angel Greaves",
   "tooltipKind" : "armor",
-  "maleFrames" : "head.png",
-  "femaleFrames" : "head.png",
-  "mask" : "mask.png",
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
 
   "statusEffects" : [
     {
       "stat" : "protection",
-      "amount" : 175
+      "amount" : 198
     },
-    "rage60",
+    "runboost25",
     {
       "stat" : "maxEnergy",
-      "amount" : 180
+      "amount" : 250
     },
-      "elderarmorimmunity"
+    "warangelimmunity"
   ],
 
   "colorOptions" : [

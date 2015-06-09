@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "darkstonematerial", "count" : 60 },
+    { "item" : "moonrock", "count" : 60 },
     { "item" : "bloodstonematerial", "count" : 20 }
   ],
   "output" : {
