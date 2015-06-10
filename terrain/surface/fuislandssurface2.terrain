@@ -8,7 +8,7 @@
   "islandDecision" : {
     "type" : "perlin",
     "octaves" : 4,
-    "frequency" : 0.225,
+    "frequency" : 0.075,
     "amplitude" : 1.24,
     "bias" : -0.03
   },
@@ -17,16 +17,16 @@
   "islandHeight" : {
     "type" : "perlin",
     "octaves" : 1,
-    "frequency" : 0.772,
-    "amplitude" : 12,
-    "bias" : 14
+    "frequency" : 0.012,
+    "amplitude" : 5,
+    "bias" : 12
   },
 
   "islandDepth" : {
     "type" : "perlin",
     "octaves" : 1,
-    "frequency" : 0.832,
+    "frequency" : 0.042,
     "amplitude" : 10,
-    "bias" : 15
+    "bias" : 8
   }
 }

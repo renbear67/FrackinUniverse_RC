@@ -2,7 +2,7 @@
   "ffbasicTreasure" : [
     [1, {
         "pool" : [
-          {"weight" : 0.20, "pool" : "money"},
+        {"weight" : 0.20, "pool" : "money"},
         {"weight" : 0.5, "item" : ["darkwoodmaterial", 10]},
         {"weight" : 0.5, "item" : ["plantfibre", 10]},
         {"weight" : 0.5, "item" : ["bandage", 3]},
@@ -126,7 +126,8 @@
           {"weight" : 0.04, "item" : [ "laspistol", 1]},
           {"weight" : 0.04, "item" : [ "bloodyknife", 1]},
           {"weight" : 0.04, "item" : [ "carbonblade", 1]},
-          {"weight" : 0.04, "item" : [ "hardenedsteelblade", 1]}
+          {"weight" : 0.04, "item" : [ "hardenedsteelblade", 1]},
+          {"weight" : 0.1, "item" : [ "generatedsword", 1, { "definition" : "flaregun" } ]}
         ],
         "poolRounds" : [
           [0.23, 1],
@@ -235,6 +236,7 @@
           {"weight" : 0.0013, "item" :  [ "parasitebeam", 1]},
           {"weight" : 0.001, "item" :  [ "fubonusarmorchest-recipe", 1]},
 	  {"weight" : 0.001, "item" :  [ "fubonusarmorhead-recipe", 1]},
+	  {"weight" : 0.1, "item" : [ "generatedsword", 1, { "definition" : "flaregun" } ]},
           {"weight" : 0.001, "item" :  [ "fubonusarmorpants-recipe", 1]}
         ],
         "poolRounds" : [
@@ -559,7 +561,8 @@
           {"weight" : 0.03, "item" :  [ "ff_stonechest2-recipe", 1]},
           {"weight" : 0.01, "item" :  [ "fieldscientisthead2", 1]},
           {"weight" : 0.01, "item" :  [ "fieldscientisthead3", 1]},
-          {"weight" : 0.01, "item" :  [ "fieldscientisthead4", 1]}
+          {"weight" : 0.01, "item" :  [ "fieldscientisthead4", 1]},
+          {"weight" : 0.1, "item" : [ "generatedsword", 1, { "definition" : "flaregun" } ]}
         ],
         "poolRounds" : [
           [0.23, 1],
@@ -679,7 +682,8 @@
           {"weight" : 0.03, "item" :  [ "rainforestchest-recipe", 1]},
           {"weight" : 0.01, "item" :  [ "fieldscientisthead2", 1]},
           {"weight" : 0.01, "item" :  [ "fieldscientisthead3", 1]},
-          {"weight" : 0.01, "item" :  [ "fieldscientisthead4", 1]}
+          {"weight" : 0.01, "item" :  [ "fieldscientisthead4", 1]},
+          {"weight" : 0.1, "item" : [ "generatedsword", 1, { "definition" : "flaregun" } ]}
         ],
         "poolRounds" : [
           [0.23, 1],

@@ -18,8 +18,8 @@
     "type" : "perlin",
     "octaves" : 2,
     "frequency" : 0.372,
-    "amplitude" : 8,
-    "bias" : 2
+    "amplitude" : 12,
+    "bias" : 4
   },
 
   "islandDepth" : {
@@ -27,6 +27,6 @@
     "octaves" : 3,
     "frequency" : 0.332,
     "amplitude" : 30,
-    "bias" : 40
+    "bias" : 4
   }
 }
