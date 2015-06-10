@@ -28,7 +28,7 @@
   "animationParts" : {
     "samplingarrayanim" : "samplingarray.png"
   },
-  "scripts" : [ "/objects/generic/samplingarray/samplingarray.lua" ],
+  "scripts" : [ "/objects/generic/samplingarray/samplingarray2.lua" ],
   "scriptDelta" : 5,
   "recipeGroup" : "samplingarray",
   "openSounds" : [ "/sfx/objects/locker_open.wav" ],

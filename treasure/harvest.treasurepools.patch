@@ -207,7 +207,7 @@
 	"path":"/wilderithianalgaeHarvest",
 	"value":[[0, {
 	"fill":[{"item":"erithianalgae"}],
-	"pool":[{"weight":0.6, "item":"erithianalgae"}],
+	"pool":[{"weight":0.32, "item":"erithianalgae"}],
 	"poolRounds":[[0.7, 2], [0.3, 3]]}
 	]]
 }, 

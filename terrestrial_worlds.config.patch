@@ -426,7 +426,7 @@
         },
         "subsurface" : {
           "primaryRegion" : [ "bloodstoneseafloor" ],
-          "secondaryRegion" : [ "deepseavent" ]
+          "secondaryRegion" : [ "deepseaventblood" ]
         },
         "underground1" : {
           "primaryRegion" : [ "bloodstoneunderground" ],
@@ -2842,6 +2842,42 @@
  	}
  },
  
+  {"op" : "add",
+  "path":"/regionTypes/deepseaventblood",
+  "value" : 
+  	{
+        "oceanLiquid" : [ "bloodliquid" ],
+        "oceanLevelOffset" : 9999,
+        "blockSelector" : [ "canyonsSurface" ],
+        "fgCaveSelector" : [ "surfaceCaves" ],
+        "bgCaveSelector" : [ "surfaceCaves" ],
+        "bgOreSelector" : [ "commonVeins" ], 
+        "caveLiquid" : [ "lava" ],
+        "caveLiquidChanceRange" : [100, 100],
+        "biome" : [
+          [0, [ "deepseavent" ]]
+        ]
+  	}
+ },
+ 
+  {"op" : "add",
+  "path":"/regionTypes/deepseaventsulphur",
+  "value" : 
+  	{
+        "oceanLiquid" : [ "sulphuricacid" ],
+        "oceanLevelOffset" : 9999,
+        "blockSelector" : [ "canyonsSurface" ],
+        "fgCaveSelector" : [ "surfaceCaves" ],
+        "bgCaveSelector" : [ "surfaceCaves" ],
+        "bgOreSelector" : [ "commonVeins" ], 
+        "caveLiquid" : [ "lava" ],
+        "caveLiquidChanceRange" : [100, 100],
+        "biome" : [
+          [0, [ "deepseavent" ]]
+        ]
+  	}
+ },
+ 
  {"op" : "add",
  "path":"/regionTypes/coralreef",
  "value" : 
@@ -2857,6 +2893,8 @@
        ]
  	}
  },
+ 
+ 
  {"op" : "add",
  "path":"/regionTypes/kelpforest",
  "value" : 

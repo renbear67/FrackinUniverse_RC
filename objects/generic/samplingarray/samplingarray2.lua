@@ -105,22 +105,6 @@ function update(dt)
             entity.setAnimationState("samplingarrayanim", "idle")
         end
 
-        local function startCrafting(result)
-            if next(result) == nil then return false
-            else _,result = next(result)
-
-                for k,v in pairs(result.inputs) do
-                    if not world.containerConsume(entity.id(), {item = k , count = v}) then return false end
-                end
-
-                self.crafting = true
-                self.timer = result.time
-                self.output = result.outputs
-                entity.setAnimationState("samplingarrayanim", "working")
-
-                return true
-            end              
-        end
 
         if not self.crafting and self.timer <= 0 then --make sure we didn't just finish crafting
             if not startCrafting(getValidRecipes(getInputContents()))
@@ -128,4 +112,23 @@ function update(dt)
         end
 
     end
+end
+
+
+
+function startCrafting(result)
+    if next(result) == nil then return false
+    else _,result = next(result)
+
+        for k,v in pairs(result.inputs) do
+            if not world.containerConsume(entity.id(), {item = k , count = v}) then return false end
+        end
+
+        self.crafting = true
+        self.timer = result.time
+        self.output = result.outputs
+        entity.setAnimationState("samplingarrayanim", "working")
+
+        return true
+    end              
 end
