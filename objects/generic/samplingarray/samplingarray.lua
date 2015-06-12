@@ -1,7 +1,5 @@
 local recipes =
 {
---  inputs = {{item = "lolitem",amount =3}, {item = "lolitem2", amount = 4}}   go like that if you want multiples
-
 -- basic materials
 {inputs = {"glassmaterial", "rawminerals", "nutrientpaste" }, outputs = { "mineralsample" }, time = 6},
 {inputs = {"glassmaterial", "geneticmaterial", "tissueculture" }, outputs = { "dnasample" }, time = 6},

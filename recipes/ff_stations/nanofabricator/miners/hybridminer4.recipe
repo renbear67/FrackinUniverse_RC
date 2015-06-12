@@ -1,7 +1,7 @@
 {
   "input" : [
    { "item" : "densiniumbar", "count" : 2 },
-   { "item" : "ff_focusingarray", "count" : 1 }, 
+   { "item" : "ff_focusingarray", "count" : 2 }, 
    { "item" : "hybridminer3", "count" : 1 }
   ],
   "output" : {

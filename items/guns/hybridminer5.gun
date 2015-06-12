@@ -1,22 +1,21 @@
 {
-    "itemName" : "hybridminer4",
-    "inventoryIcon" : "hybridminer4.png",
+    "itemName" : "hybridminer5",
+    "inventoryIcon" : "hybridminer5.png",
     "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
     "maxStack" : 1,
     "rarity" : "rare",
-    "description" : "The absolutely perfect mining gun.",
-    "shortdescription" : "KX-1 Mining Beam",
-    "image" : "hybridminer4.png",
+    "description" : "Holy crap.",
+    "shortdescription" : "CT-4 Mining Cannon",
+    "image" : "hybridminer5.png",
     "handPosition" : [-8, 0],
     "firePosition" : [8, 1.5],
-    "learnBlueprintsOnPickup" : [ "hybridminer5" ],
     "weaponType" : "Beam",
     "recoilTime" : 0.1,
-    "level" : 1,
+    "level" : 2,
     "tooltipKind" : "gun",
-    "fireTime" : 0.024,
-    "projectileCount" : 2,
-    "twoHanded" : false,
+    "fireTime" : 0.03,
+    "projectileCount" : 3,
+    "twoHanded" : true,
     "rateOfFire" : [2, 7],
     "muzzleEffect" : {
       "fireSound" : [ { "file" : "/sfx/projectiles/swing_electric2.wav" } ]
@@ -24,12 +23,12 @@
   
     "fireOnRelease" : false,
     
-    "projectileType" : "hybridminershot4",
+    "projectileType" : "hybridminershot5",
 
     "powerProjectileTime" : [0.4, 50],
     "projectile" : {
       "speed" : 20, 
-      "power" : 0.085 , 
+      "power" : 0.095 , 
       "color" : [153, 197, 208] 
   	}
 }

@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "ff_silicon", "count" : 50 }
+    { "item" : "alienrock", "count" : 50 }
   ],
   "output" : {
     "item" : "ff_silicon",

@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "energywood", "count" : 5 }
+    { "item" : "energywood", "count" : 8 }
   ],
   "output" : {
     "item" : "penumbriteore",
