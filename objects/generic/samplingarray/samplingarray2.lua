@@ -457,38 +457,39 @@ local recipes =
 {inputs = { hivebomb=1 }, outputs = { tissueculture=5 }, time = 1},
 
 
--- ores
-{inputs = { aegisaltore=1 }, outputs = { rawminerals=7 }, time = 1},
-{inputs = { copperore=1 }, outputs = { rawminerals=4 }, time = 1},
+-- vanilla ores
 {inputs = { coalore=1 }, outputs = { ammoniumsulfate=1 }, time = 1},
-{inputs = { corefragmentore=1 }, outputs = { ammoniumsulfate=4 }, time = 1},
-{inputs = { diamond=1 }, outputs = { rawminerals=8 }, time = 1},
+{inputs = { copperore=1 }, outputs = { rawminerals=4 }, time = 1},
 {inputs = { ironore=1 }, outputs = { lead=4 }, time = 1},
-{inputs = { lead=1 }, outputs = { rawminerals=4 }, time = 1},
-{inputs = { moonstoneore=1 }, outputs = { rawminerals=4 }, time = 1},
-{inputs = { mascagniteore=5 }, outputs = { ammoniumsulfate=4 }, time = 1},
+{inputs = { silverore=1 }, outputs = { rawminerals=5 }, time = 1},
+{inputs = { goldore=1 }, outputs = { rawminerals=6 }, time = 1}
+{inputs = { corefragmentore=1 }, outputs = { ammoniumsulfate=4 }, time = 1},
+{inputs = { aegisaltore=1 }, outputs = { rawminerals=7 }, time = 1},
 {inputs = { platinumore=1 }, outputs = { rawminerals=7 }, time = 1},
 {inputs = { prisiliteore=1 }, outputs = { rawminerals=8 }, time = 1},
 {inputs = { plutoniumore=1 }, outputs = { matteritem=4 }, time = 1},
 {inputs = { rubiumore=1 }, outputs = { rawminerals=7 }, time = 1},
-{inputs = { silverore=1 }, outputs = { rawminerals=5 }, time = 1},
+{inputs = { moonstoneore=1 }, outputs = { rawminerals=4 }, time = 1},
 {inputs = { solariumore=1 }, outputs = { rawminerals=4 }, time = 1},
 {inputs = { sulphur=1 }, outputs = { rawminerals=4 }, time = 1},
 {inputs = { titaniumore=1 }, outputs = { rawminerals=7 }, time = 1},
 {inputs = { triangliumore=1 }, outputs = { rawminerals=4 }, time = 1},
 {inputs = { uraniumore=1 }, outputs = { matteritem=4 }, time = 1},
+{inputs = { lead=1 }, outputs = { rawminerals=4 }, time = 1},
+{inputs = { diamond=1 }, outputs = { rawminerals=8 }, time = 1},
 {inputs = { violiumore=1 }, outputs = { rawminerals=7 }, time = 1},
+-- fu ores
+{inputs = { mascagniteore=5 }, outputs = { ammoniumsulfate=4 }, time = 1},
 {inputs = { lazuliteore=1 }, outputs = { phosphorus=4 }, time = 1},
 {inputs = { magnesiumore=1 }, outputs = { magnesiumpowder=4 }, time = 1},
 {inputs = { irradiumore=1 }, outputs = { rawminerals=4 }, time = 1},
-{inputs = { protociteore=1 }, outputs = { rawminerals=4 }, time = 1},
-{inputs = { penumbriteore=1 }, outputs = { rawminerals=4 }, time = 1},
-{inputs = { cinnabarore=1 }, outputs = { rawminerals=4 }, time = 1},
-{inputs = { densiniumore=1 }, outputs = { rawminerals=4 }, time = 1},
+{inputs = { protociteore=1 }, outputs = { rawminerals=9 }, time = 1},
+{inputs = { penumbriteore=1 }, outputs = { rawminerals=9 }, time = 1},
+{inputs = { cinnabarore=1 }, outputs = { rawminerals=8 }, time = 1},
+{inputs = { densiniumore=1 }, outputs = { rawminerals=12 }, time = 1},
 {inputs = { berliniteore=1 }, outputs = { rawminerals=4 }, time = 1},
-{inputs = { corruptionore=1 }, outputs = { rawminerals=4 }, time = 1},
-{inputs = { solarishard=1 }, outputs = { rawminerals=4 }, time = 1}
-{inputs = { goldore=1 }, outputs = { rawminerals=6 }, time = 1}
+{inputs = { corruptionore=1 }, outputs = { rawminerals=5 }, time = 1},
+{inputs = { solarishard=10 }, outputs = { crystal=1 }, time = 1}
 }
 
 --  *************
