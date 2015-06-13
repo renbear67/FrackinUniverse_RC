@@ -1,6 +1,6 @@
 {
   "name" : "biorain",
-  "icon" : "/interface/cockpit/weather/slimestorm.png",
+  "icon" : "/interface/cockpit/weather/biorain.png",
 
   "particles" : [
         {

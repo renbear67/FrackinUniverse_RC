@@ -16,7 +16,7 @@
   "muzzleFlashes" : [
     "/animations/muzzleflash/smokemuzzle/smokemuzzle.animation"
   ],
-  "projectileTypes" : [ "harpoon" ],
+  "projectileTypes" : [ "harpoon2" ],
   "directories" : [ "/items/guns/randomgenerated/randomharpoongun/" ],
   "fireSound" : [ "/sfx/gun/grenade1.wav" ],
   "palette" : [

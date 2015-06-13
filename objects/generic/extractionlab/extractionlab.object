@@ -2,35 +2,39 @@
   "objectName" : "extractionlab",
   "rarity" : "Common",
   "race" : "generic",
-  "subtitle" : "Extracts genetic material.",
-  "objectType" : "container",
+  "category" : "crafting",
   "printable" : false,
-  "description" : "Extracts resources from most materials.",
-  "shortdescription" : "^orange;Extraction Lab^white;",
+  "objectType" : "container",
   "learnBlueprintsOnPickup" : [ "chemlab", "fissionfurnace", "saltpeter", "phosphorus", "ff_mercury", "magnesiumpowder", "rawminerals", "magnesiumpowder", "ammoniumsulfate", "penumbriteshard" ],
   "price" : 450,
-
   "inventoryIcon" : "extractionlabicon.png",
+  "description" : "Converts materials into useful resources.",
+  "shortdescription" : "^orange;Extraction Lab^white;",
+  "subtitle" : "Resource converter",
   "orientations" : [
     {
       "dualImage" : "extractionlab.png:<color>.<frame>",
+
       "imagePosition" : [0, 0],
-      "frames" : 4,
-      "animationCycle" : 4.5,
+      "frames" : 6,
+      "animationCycle" : 2.0,
 
       "spaceScan" : 0.1,
-      "fgAnchors" : [ [0, -1] ],
-      "collision" : "platform"
+      "anchors" : [ "bottom" ]
     }
   ],
-  "soundEffect" : "/sfx/objects/electriclight.wav",
+
+  "animation" : "/objects/generic/extractionlab/extractionlab.animation",
+  "animationParts" : {
+    "samplingarrayanim" : "extractionlab.png"
+  },
+  "scripts" : [ "/objects/generic/extractionlab/extractionlab.lua" ],
+  "scriptDelta" : 5,
   "recipeGroup" : "extractionlab",
-  "openSounds" : [ "/sfx/objects/screen3.wav" ],
-  "slotCount" : 2,
+  "openSounds" : [ "/sfx/objects/locker_open.wav" ],
+  "slotCount" : 12,
+  //"uiConfig" : "/interface/samplingarray/samplingarray.config",
   "uiConfig" : "/interface/objectcrafting/extractionlab.config",
   "frameCooldown" : 67,
   "autoCloseCooldown" : 3600
-
 }
-
-

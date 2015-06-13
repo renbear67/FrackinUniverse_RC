@@ -1,6 +1,6 @@
 {
   "name" : "bloodrain",
-  "icon" : "/interface/cockpit/weather/gravityrain.png",
+  "icon" : "/interface/cockpit/weather/bloodrain.png",
 
 "particles" : [
     {

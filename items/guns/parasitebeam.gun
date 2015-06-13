@@ -17,7 +17,7 @@
   "fireOnRelease" : true,
   "walkWhileFiring" : true,
 
-  "projectileType" : "stickybullet",
+  "projectileType" : "parasiteshot",
   "powerProjectileType" : "bioblast1",
   "powerProjectileTime" : [0.5, 50.1],
   "projectile" : {
@@ -29,7 +29,7 @@
   },
 
   "muzzleEffect" : {
-    "fireSound" : [ { "file" : "/sfx/gun/plasma_mp1.wav" } ]
+    "fireSound" : [ { "file" : "/sfx/gun/blowgun3.wav" } ]
   }
 }
 
