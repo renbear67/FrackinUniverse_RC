@@ -3,7 +3,7 @@
   "rarity" : "Uncommon",
   "category" : "farmable",
   "description" : "It's bamboo. Makes for some nice furniture.",
-  "shortdescription" : "Bamboo",
+  "shortdescription" : "Micro-Bamboo",
   "objectType" : "farmable",
   "printable" : false, 
   "objectItem" : "bambooseed",
