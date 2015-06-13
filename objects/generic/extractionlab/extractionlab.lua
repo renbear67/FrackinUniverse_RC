@@ -540,10 +540,7 @@ function filter(l,f)
 end
 
 
-function makePopup()
-   -- any generic error handling
-    return { "ShowPopup", { message = "You must use valid materials. Try something else." } }
-end
+
 
 function getValidRecipes(query)
 
@@ -556,7 +553,6 @@ function getValidRecipes(query)
         end
             for k,_ in pairs(t1) do
                 if not t2[k] or t1[k] > t2[k] then 
-                  makePopup()  --remove if broken
                   return false 
                 end
             end

@@ -120,7 +120,7 @@
           {"weight" : 0.01, "item" : [ "fieldschientisthead4", 1]},
           {"weight" : 0.005, "item" : [ "beammasterhelm", 1]},
           {"weight" : 0.04, "item" : [ "ff_gasmask", 1]},
-          {"weight" : 0.04, "item" : [ "ff_divingmask", 1]},
+          {"weight" : 0.04, "item" : [ "ff_divingmaskhead", 1]},
           {"weight" : 0.04, "item" : [ "armoredsnowpants", 1]},
           {"weight" : 0.005, "item" : [ "ffwizardhat", 1]},          
           {"weight" : 0.04, "item" : [ "basicminer", 1]},

@@ -33,8 +33,8 @@
   "recipeGroup" : "extractionlab",
   "openSounds" : [ "/sfx/objects/locker_open.wav" ],
   "slotCount" : 12,
-  //"uiConfig" : "/interface/samplingarray/samplingarray.config",
-  "uiConfig" : "/interface/objectcrafting/extractionlab.config",
+  "uiConfig" : "/interface/samplingarray/samplingarray.config",
+  //"uiConfig" : "/interface/objectcrafting/extractionlab.config",
   "frameCooldown" : 67,
   "autoCloseCooldown" : 3600
 }

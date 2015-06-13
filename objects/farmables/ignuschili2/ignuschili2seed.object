@@ -29,14 +29,19 @@
   ],
   "stages" : [
     {
-      "duration" : [300, 600]
+      "duration" : [500, 800]
     },
     {
-      "duration" : [300, 600]
+      "duration" : [500, 800]
     },
     {
       "alts" : 5,
-      "harvestPool" : "ignuschili2Harvest"
+      "duration" : [210, 230]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "ignuschili2Harvest",
+      "resetToStage" : 2
     }
   ]
 }

@@ -21,7 +21,7 @@
     "type" : "displacement",
     "xType" : "perlin",
     "xOctaves" : 2,
-    "xFreq" : 0.12,
+    "xFreq" : 0.012,
     "xAmp" : 0, 
     "yType" : "perlin",
     "yOctaves" : 3,

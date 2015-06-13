@@ -18,15 +18,11 @@
           "variants" : 1,
           "distribution" : "/biomes/distributions.config:superCommon",
 
-          "type" : "object",
-          "objectSets" : [
-            {
-              "pool" : [ 
-              [0.35, "wildbambooseed" ]
-              ],
-              "parameters" : { "startingStage" : 2 }
-            }
-          ]
+          "type" : "tree",
+          "treeFoliageHueShiftMax" : 180,
+          "treeStemHueShiftMax" : 15,
+          "treeStemList" : [ "bamboostem" ],
+          "treeFoliageList" : [ "bamboofoliage" ]
         }
     ]
   }
