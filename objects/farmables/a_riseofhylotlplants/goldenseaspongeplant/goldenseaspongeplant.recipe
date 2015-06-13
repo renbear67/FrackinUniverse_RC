@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 2000 }
+  ],
+  "output" : {
+    "item" : "goldenseaspongeplant",
+    "count" : 5
+  },
+  "groups" : [ "herbgarden", "other", "all" ]
+}

@@ -240,25 +240,9 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [1, "wildcoralcreepseed" ] ],
+            "pool" : [ [0.25, "wildcoralcreepseed" ], [0.25, "goldenseaspongeplant" ],[0.25, "cellpodsplant" ],[0.25, "kamaranpodsplant" ] ],
             "parameters" : {
               "startingStage" : 3
-            }
-          }
-        ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 0.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:surfaceCrops",
-
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [1, "wildreefpodseed" ] ],
-            "parameters" : {
-              "startingStage" : 2
             }
           }
         ]

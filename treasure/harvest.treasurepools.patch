@@ -1,5 +1,64 @@
 [
 {"op":"add",
+	"path":"/spongeweedseedHarvest",
+	"value":[[0, {
+	"fill":[ {"item":"spongeweedseed"},{"item":"spongeweed"}  ],
+	"pool":[ {"weight":0.5, "item":"spongeweedseed"},{"weight":0.6, "item":"spongeweed"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+	]]
+},
+{"op":"add",
+	"path":"/snowberryseedHarvest",
+	"value":[[0, {
+	"fill":[ {"item":"snowberryseed"},{"item":"snowberry"}  ],
+	"pool":[ {"weight":0.5, "item":"snowberryseed"},{"weight":0.6, "item":"snowberry"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+	]]
+},
+
+{"op":"add",
+	"path":"/cellpodsplantHarvest",
+	"value":[[0, {
+	"fill":[ {"item":"cellpodsplant"},{"item":"cellpods"}  ],
+	"pool":[ {"weight":0.5, "item":"cellpodsplant"},{"weight":0.6, "item":"cellpods"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+	]]
+},
+{"op":"add",
+	"path":"/goldenseaspongeplantHarvest",
+	"value":[[0, {
+	"fill":[ {"item":"goldenseaspongeplant"},{"item":"goldenseasponge"}  ],
+	"pool":[ {"weight":0.5, "item":"goldenseaspongeplant"},{"weight":0.6, "item":"goldenseasponge"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+	]]
+},
+{"op":"add",
+	"path":"/kamaranpodsplantHarvest",
+	"value":[[0, {
+	"fill":[ {"item":"kamaranpodsplant"},{"item":"kamaranpods"}  ],
+	"pool":[ {"weight":0.5, "item":"kamaranpodsplant"},{"weight":0.6, "item":"kamaranpods"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+	]]
+},
+
+{"op":"add",
+	"path":"/fubioshroomHarvest",
+	"value":[[0, {
+	"fill":[ {"item":"biospore"} ],
+	"pool":[ {"weight":0.5, "item":"biospore"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+	]]
+},
+{"op":"add",
+	"path":"/fubioshroomHarvest",
+	"value":[[0, {
+	"fill":[ {"item":"biospore"} ],
+	"pool":[ {"weight":0.5, "item":"biospore"} ],
+	"poolRounds":[[0.7,2],[0.3,3]]}
+	]]
+},
+
+{"op":"add",
 	"path":"/fubioshroomHarvest",
 	"value":[[0, {
 	"fill":[ {"item":"biospore"} ],

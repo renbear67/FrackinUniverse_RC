@@ -1,0 +1,14 @@
+{
+  "itemName" : "goldenseasponge",
+  "rarity" : "Common",
+  "inventoryIcon" : "goldenseasponge.png",
+  "description" : "Shines beautifully underwater. Increases health by 100 for 90s.",
+  "shortdescription" : "Golden Sea Sponge",
+  "effects" : [ [
+      {
+        "effect" : "maxHealth",
+        "amount" : 100,
+        "duration" : 90
+      }
+    ] ]
+}

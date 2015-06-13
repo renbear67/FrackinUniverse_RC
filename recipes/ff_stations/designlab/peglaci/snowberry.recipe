@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "liquidwater", "count" : 20 },
+    { "item" : "organicsynthesis", "count" : 1 },
+    { "item" : "coldgene", "count" : 2 },
+    { "item" : "cellresistance2", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "snowberryseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "objects", "all", "tools" ]
+}

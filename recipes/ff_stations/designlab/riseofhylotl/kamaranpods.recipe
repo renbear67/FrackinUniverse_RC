@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "liquidblood", "count" : 10 },
+    { "item" : "algaegreen", "count" : 12 },
+    { "item" : "immunegene2", "count" : 3 },
+    { "item" : "aquatichomeostasis", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "kamaranpodsplant",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "objects", "all", "tools" ]
+}

@@ -1,10 +1,10 @@
 {
   "input" : [
-    { "item" : "imperviumcompound", "count" : 12 },
+    { "item" : "advalloy", "count" : 12 },
     { "item" : "hellfireplantseed", "count" : 6 },
-    { "item" : "aliencompound", "count" : 10 },
-    { "item" : "ff_focusingarray", "count" : 1 },
-    { "item" : "prisilitestar", "count" : 4 }
+    { "item" : "ff_focusingarray", "count" : 2 },
+    { "item" : "prisilitestar", "count" : 8 },
+    { "item" : "moltencore", "count" : 2 }
   ],
   "output" : {
     "item" : "hellfirecannon",

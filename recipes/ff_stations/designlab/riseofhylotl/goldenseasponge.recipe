@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "goldore", "count" : 4 },
+    { "item" : "chloroplast1", "count" : 1 },
+    { "item" : "adaptivecells", "count" : 1 },
+    { "item" : "aquatichomeostasis", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "goldenseaspongeplant",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "objects", "all", "tools" ]
+}

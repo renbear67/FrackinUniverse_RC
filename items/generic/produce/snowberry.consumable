@@ -1,0 +1,10 @@
+{
+  "itemName" : "snowberry",
+  "rarity" : "Common",
+  "inventoryIcon" : "snowberry.png",
+  "description" : "Grants immunity to liquid nitrogen.",
+  "shortdescription" : "Snowberry",
+  "effects" : [ [
+      "nitrogenfreezeimmunity"
+    ] ]
+}

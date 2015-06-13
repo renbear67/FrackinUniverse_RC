@@ -12,6 +12,7 @@
   "race" : "generic",
   "category" : "crafting",
   "price" : 200,
+  "learnBlueprintsOnPickup" : [ "moltencore" ],
 
   "inventoryIcon" : "nanofabricatoricon.png",
   "orientations" : [

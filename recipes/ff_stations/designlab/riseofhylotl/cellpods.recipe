@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "aquaticcelerity", "count" : 1 },
+    { "item" : "regengene1", "count" : 1 },
+    { "item" : "ff_fertilizer", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "cellpodsplant",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "objects", "all", "tools" ]
+}
