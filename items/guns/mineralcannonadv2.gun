@@ -7,7 +7,7 @@
   "description" : "The ultimate particle weapon.",
   "shortdescription" : "Hyperion Particle Cannon",
   "image" : "mineralcannonadv2.png",
-  "handPosition" : [-7, -1],
+  "handPosition" : [-13, -3],
   "firePosition" : [20, 1.5],
   "weaponType" : "Beam",
   "recoilTime" : 0.1,

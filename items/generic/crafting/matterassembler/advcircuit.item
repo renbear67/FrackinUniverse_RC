@@ -5,5 +5,5 @@
   "description" : "Superior computers result from superior hardware.",
   "category" : "Circuitry",
   "shortdescription" : "^cyan;Advanced Circuit^white;",
-  "learnBlueprintsOnPickup" : [ "gravgun" ]
+  "learnBlueprintsOnPickup" : [ "gravgun", "medbaybed" ]
 }

@@ -1937,7 +1937,7 @@
   {
       "caveLiquid" : [ "water", "tarliquid", "healingliquid" ],
       "caveLiquidChanceRange" : [25, 100],      
-      "blockSelector" : [ "lowHillsSurface", "flatsSurface", "medHillsSurface", "mountainsSurface", "mixedSurface", "fugradualslopes" ],
+      "blockSelector" : [ "lowHillsSurface", "flatsSurface", "medHillsSurface", "mixedSurface", "fugradualslopes" ],
       "fgCaveSelector" : [ "normalCaves" ],
       "bgOreSelector" : [ "commonVeins" ], 
       "biome" : [

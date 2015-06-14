@@ -2,11 +2,11 @@
   "name" : "bamboostem",
   "shape" : "bambootree",
   "health" : 6,
-  "middleMinSize" : 1,
-  "middleMaxSize" : 8,
+  "middleMinSize" : 3,
+  "middleMaxSize" : 10,
   "dropConfig" : {
     "drops" : [
-      [ { "item" : "bambooshoot", "count" : 1 } ]
+      [ { "item" : "ff_bambooshoot", "count" : 1 } ]
     ],
     "sounds" : {
       "breakTree" : [

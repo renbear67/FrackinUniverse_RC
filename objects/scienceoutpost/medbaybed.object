@@ -1,8 +1,8 @@
 {
-  "objectName" : "elderbed",
+  "objectName" : "medbaybed",
   "rarity" : "rare",
-  "description" : "You could sleep on it. If you're brave enough.",
-  "shortdescription" : "Elder Bed",
+  "description" : "Few things stitch up wounds faster than this sweet baby.",
+  "shortdescription" : "Medical Bay",
   "race" : "glitch",
   "category" : "furniture",
   "price" : 625,
@@ -12,18 +12,18 @@
   "sitPosition" : [-8, 13.2],
   "sitOrientation" : "lay",
   "sitAngle" : 90,
-  "sitCoverImage" : "/objects/minibiome/elder/elderbedcover.png",
+  "sitCoverImage" : "/objects/scienceoutpost/medbaycover.png",
   "sitEmote" : "sleep",
   "sitStatusEffects" : [
-    "regeneration1",
+    "regeneration2",
     "nude"
   ],
   "sitEffectEmitters" : [ "sleepbubbles" ],
 
-  "inventoryIcon" : "elderbedicon.png",
+  "inventoryIcon" : "medbayicon.png",
   "orientations" : [
     {
-      "dualImage" : "elderbed.png:<color>",
+      "dualImage" : "medbaybed.png:<color>",
 
       "imagePosition" : [-24, 0],
       "frames" : 1,

@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "blexplantseed", "count" : 1 }
-  ],
-  "output" : 
-  { "item" : "ff_resin",   "count" : 4  },
-  "groups" : [ "quantumextractor", "all" ]
-}

@@ -481,7 +481,19 @@
           "treeStemHueShiftMax" : 15,
           "treeStemList" : [ "bamboostem", "twisty", "woody", "oldwood", "crackly", "palmlike" ],
           "treeFoliageList" : [ "bamboofoliage", "lushy", "junglepalm", "jungly", "jungleleaf" ]
-        },         
+        },  
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:ffCommon",
+
+          "type" : "tree",
+          "treeFoliageHueShiftMax" : 180,
+          "treeStemHueShiftMax" : 15,
+          "treeStemList" : [ "bamboostem" ],
+          "treeFoliageList" : [ "bamboofoliage" ]
+        },       
         {
           "mode" : "floor",
           "priority" : 1.0,
