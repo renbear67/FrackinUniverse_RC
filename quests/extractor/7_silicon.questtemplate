@@ -2,7 +2,7 @@
   "id" : "7_silicon.gearup",
   "title" : "^#1693d5;Silicon",
   "text" : "Silicon can be found most easily in the pure crystal stone of Crystal Moons. Travel to one, gather 50 of it's crystalline floor and extract for silicon!",
-  "completionText" : "Silicon will be especially useful in technology requiring a processor and other techy bits.",
+  "completionText" : "Silicon will be especially useful in technology requiring a processor and other techy bits. Extract anything you can...because you never know what you'll get!",
   "conditions" : [ 
     { "kind" : "gather", "item" : [ "ff_silicon", 1], "consume" : false }
   ],
@@ -12,6 +12,6 @@
   "questDungeons" : [ ],
   "requireTurnIn" : false,
   "canBeAbandoned" : false,
-  "followUp" : "8_tobiochem.gearup"
+  "followUp" : ""
 }
  

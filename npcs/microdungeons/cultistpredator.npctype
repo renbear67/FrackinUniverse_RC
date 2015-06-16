@@ -203,7 +203,7 @@
     "emoteFrames" : [1, 2, 2, 2, 5, 2, 2, 2, 2, 3, 3, 5, 2, 2]
   },
 
-  "dropPools" : [ "banditTreasure" ],
+  "dropPools" : [ "ffbanditTreasure" ],
 
   "statusControllerSettings" : {
     "statusProperties" : {

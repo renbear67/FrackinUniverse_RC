@@ -2,8 +2,8 @@
   "id" : "1_matterassembler.gearup",
   "prerequisites" : [ "fu_intro4.gearup" ],
   "title" : "^#1693d5;Connected to Science",
-  "text" : "Hi. I'm glad to meet you. I'm the engineer of the outpost. I personnaly invented all the laboratory stations you will be using. I will teach you to use your Matter Assembler, but first, take this communicator and then speak to Kevin, my Hylotl colleague.",
-  "completionText" : "Nice to meet you! Please take this. I'll use your communicator to follow your progress.",
+  "text" : "Hi. I'm glad to meet you. I'm the engineer of the outpost. I personnaly invented all the laboratory stations you will be using. ^orange;I will teach you to use your Matter Assembler^white;, but first, take this communicator and then speak to Kevin, my Hylotl colleague.",
+  "completionText" : "Nice to meet you! Please take this. We'll all use your communicator to follow your progress from here on out.",
   "conditions" : [],
   "moneyRange" : [0,0],
   "rewards" : [ 

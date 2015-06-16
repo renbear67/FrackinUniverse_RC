@@ -10,5 +10,5 @@
   "questDungeons" : [ ],
   "requireTurnIn" : true,
   "canBeAbandoned" : false,
-  "followUp" : ""
+  "followUp" : "1_cloninglab.gearup"
 }

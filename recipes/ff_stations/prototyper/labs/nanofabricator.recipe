@@ -10,5 +10,5 @@
     "item" : "nanofabricator",
     "count" : 1
   },
-  "groups" : [ "prototyper", "materials", "all" ]
+  "groups" : [ "prototyper", "genetics", "all", "tools" ]
 }

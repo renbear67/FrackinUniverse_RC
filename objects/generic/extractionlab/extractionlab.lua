@@ -36,7 +36,7 @@ local recipes =
 {inputs = { monsterplating=1 }, outputs = { geneticmaterial=1 }, time = 1},
 {inputs = { paper=1 }, outputs = { tissueculture=1 }, time = 1},
 {inputs = { petalred=1 }, outputs = { tissueculture=1 }, time = 1},
-{inputs = { peralblue=1 }, outputs = { tissueculture=1 }, time = 1},
+{inputs = { petalblue=1 }, outputs = { tissueculture=1 }, time = 1},
 {inputs = { petalyellow=1 }, outputs = { tissueculture=1 }, time = 1},
 {inputs = { reed=1 }, outputs = { tissueculture=1 }, time = 1},
 {inputs = { seaweed=1 }, outputs = { tissueculture=1 }, time = 1},
@@ -109,7 +109,6 @@ local recipes =
 {inputs = { drysand=50 }, outputs = { liquidoil=2 }, time = 1},
 {inputs = { fleshblock=50 }, outputs = { geneticmaterial=2 }, time = 1},
 {inputs = { gabbromaterial=50 }, outputs = { rawminerals=2 }, time = 1},
-{inputs = { "glassmaterial" }, outputs = { "mineralsample" }, time = 1},
 {inputs = { gneissmaterial=50 }, outputs = { rawminerals=2 }, time = 1},
 {inputs = { gravelmaterial=50 }, outputs = { rawminerals=1 }, time = 1},
 {inputs = { gritstonematerial=50 }, outputs = { rawminerals=2 }, time = 1},
@@ -232,7 +231,7 @@ local recipes =
 {inputs = { fubioshroompurple=1 }, outputs = { biospore=3 }, time = 1},
 {inputs = { fubioshroomred=1 }, outputs = { biospore=3 }, time = 1},
 {inputs = { fubioshroomyellow=1 }, outputs = { biospore=3 }, time = 1},
-{inputs = { fayshroomseed=1 }, outputs = { geneticmaterial=41 }, time = 1},
+{inputs = { fayshroomseed=1 }, outputs = { geneticmaterial=4 }, time = 1},
 {inputs = { ghostmushroomseed=1 }, outputs = { geneticmaterial=4 }, time = 1},
 {inputs = { ginsengseed=1 }, outputs = { geneticmaterial=2 }, time = 1},
 {inputs = { goldenrootseed=1 }, outputs = { geneticmaterial=2 }, time = 1},
@@ -284,7 +283,7 @@ local recipes =
 {inputs = { reefpodseed=1 }, outputs = { geneticmaterial=3 }, time = 1},
 {inputs = { rockrootseed=1 }, outputs = { rawminerals=4 }, time = 1},
 {inputs = { riceseed=1 }, outputs = { geneticmaterial=4 }, time = 1},
-{inputs = { sapling=1 }, outputs = { tissueculture=5 }, time = 1},
+{inputs = { sapling=1 }, outputs = { tissueculture=3 }, time = 1},
 {inputs = { shinyacornseed=1 }, outputs = { tissueculture=3 }, time = 1},
 {inputs = { shockshroomseed=1 }, outputs = { tissueculture=8 }, time = 1},
 {inputs = { silverleafseed=1 }, outputs = { silverore=2 }, time = 1},
@@ -315,6 +314,133 @@ local recipes =
 {inputs = { goldenseaspongeplant=1 }, outputs = { tissueculture=5 }, time = 5},
 {inputs = { snowberryseed=1 }, outputs = { tissueculture=6 }, time = 5},
 {inputs = { spongeweedseed=1 }, outputs = { geneticmaterial=4 }, time = 5},
+{inputs = { wildalgaeseed=1 }, outputs = { geneticmaterial=3 }, time = 1},
+{inputs = { wildautomatoseed=1 }, outputs = { geneticmaterial=3 }, time = 1},
+{inputs = { wildavesmingoseed=1 }, outputs = { geneticmaterial=3 }, time = 1},
+{inputs = { wildbananaseed=1 }, outputs = { geneticmaterial=3 }, time = 1},
+{inputs = { wildbeetlesproutseed=1 }, outputs = { algaeseed=1 }, time = 1},
+{inputs = { wildbeakseedseed=1 }, outputs = { geneticmaterial=3 }, time = 1},
+{inputs = { wildbiospore=1}, outputs = { shroom=2 }, time = 1},
+{inputs = { wildbiscornseed=1 }, outputs = { tissueculture=3 }, time = 1},
+{inputs = { wildblizzberryseed=1 }, outputs = { tissueculture=2 }, time = 1},
+{inputs = { wildbloodrootseed=1 }, outputs = { bloodliquid=4 }, time = 1},
+{inputs = { wildbluemelonseed=1 }, outputs = { geneticmaterial=2 }, time = 1},
+{inputs = { wildblexplantseed=1 }, outputs = { ff_resin=2 }, time = 1},
+{inputs = { wildboltbulbseed=1 }, outputs = { coil=1 }, time = 1},
+{inputs = { wildbonebooseed=1 }, outputs = { bone=2 }, time = 1},
+{inputs = { wildbrackentreeseed=1 }, outputs = { silk=4 }, time = 1},
+{inputs = { wildaquapodseed=1 }, outputs = { geneticmaterial=3 }, time = 1},
+{inputs = { wildbambooseed=1 }, outputs = { geneticmaterial=2 }, time = 1 },
+{inputs = { wildblisterbushplantseed=1 }, outputs = { geneticmaterial=3 }, time = 1},
+{inputs = { wildcaprioleplantseed=1 }, outputs = { geneticmaterial=3 }, time = 1},
+{inputs = { wildcarrotseed=1 }, outputs = { cellmateria=2 }, time = 1},
+{inputs = { wildchiliseed=1 }, outputs = { tissueculture=3 }, time = 1},
+{inputs = { wildcoffeeseed=1 }, outputs = { geneticmaterial=4 }, time = 1},
+{inputs = { wildcoralcreepseed=1 }, outputs = { geneticmaterial=5 }, time = 1},
+{inputs = { wildcornseed=1 }, outputs = { geneticmaterial=1 }, time = 1},
+{inputs = { wildcorvexsproutseed=1 }, outputs = { corvex=1 }, time = 1},
+{inputs = { wildcrystalplantseed=1 }, outputs = { crystal=1 }, time = 1},
+{inputs = { wildcurrentcornseed=1 }, outputs = { ff_silicon=1 }, time = 1},
+{inputs = { wilddeathblossomseed=1 }, outputs = { biospore=4 }, time = 1},
+{inputs = { wilddiodiaseed=1 }, outputs = { geneticmaterial=1 }, time = 1},
+{inputs = { wilddiodiahybridseed=1 }, outputs = { geneticmaterial=2 }, time = 1},
+{inputs = { wilddirturchinseed=1 }, outputs = { geneticmaterial=1 }, time = 1},
+{inputs = { wilddragonsbeardseed=1 }, outputs = { ammoniumsulfate=1 }, time = 1},
+{inputs = { wildenergiflowerseed=1 }, outputs = { plantfibre=8 }, time = 1},
+{inputs = { wilderithianalgaeseed=1 }, outputs = { algaeseed=1 }, time = 1},
+{inputs = { wildeggshootseed=1 }, outputs = { geneticmaterial=3 }, time = 1},
+{inputs = { wildfeathercrownseed=1 }, outputs = { geneticmaterial=3 }, time = 1},
+{inputs = { wildflowerblueseed=1 }, outputs = { geneticmaterial=1 }, time = 1},
+{inputs = { wildflowerredseed=1 }, outputs = { geneticmaterial=1 }, time = 1},
+{inputs = { wildfloweryellowseed=1 }, outputs = { geneticmaterial=1 }, time = 1},
+{inputs = { wildfloralytplantseed=1 }, outputs = { geneticmaterial=13 }, time = 1},
+{inputs = { wildfubioshroomblue=1 }, outputs = { biospore=3 }, time = 1},
+{inputs = { wildfubioshroomgreen=1 }, outputs = { biospore=3 }, time = 1},
+{inputs = { wildfubioshroompurple=1 }, outputs = { biospore=3 }, time = 1},
+{inputs = { wildfubioshroomred=1 }, outputs = { biospore=3 }, time = 1},
+{inputs = { wildfubioshroomyellow=1 }, outputs = { biospore=3 }, time = 1},
+{inputs = { wildfayshroomseed=1 }, outputs = { geneticmaterial=4 }, time = 1},
+{inputs = { wildghostmushroomseed=1 }, outputs = { geneticmaterial=4 }, time = 1},
+{inputs = { wildginsengseed=1 }, outputs = { geneticmaterial=2 }, time = 1},
+{inputs = { wildgoldenrootseed=1 }, outputs = { geneticmaterial=2 }, time = 1},
+{inputs = { wildgoldshroomseed=1 }, outputs = { goldore=4 }, time = 1},
+{inputs = { wildgreenleafseed=1 }, outputs = { geneticmaterial=5 }, time = 1},
+{inputs = { wildguamseed=1 }, outputs = { geneticmaterial=4 }, time = 1},
+{inputs = { wildgazelemonseed=1 }, outputs = { tissueculture=4 }, time = 1},
+{inputs = { wildglarestalkseed=1 }, outputs = { eyepile=10 }, time = 1},
+{inputs = { wildgenesiberryseed=1 }, outputs = { tissueculture=12 }, time = 1},
+{inputs = { wildgoldenglowseed=1 }, outputs = { geneticmaterial=5 }, time = 1},
+{inputs = { wildgrapesseed=1 }, outputs = { geneticmaterial=3 }, time = 1},
+{inputs = { wildhaleflowerseed=1 }, outputs = { geneticmaterial=6 }, time = 1},
+{inputs = { wildhopsseed=1 }, outputs = { geneticmaterial=3 }, time = 1},
+{inputs = { wildhellfireplantseed=1 }, outputs = { ammoniumsulfate=11 }, time = 1},
+{inputs = { wildighantseed=1 }, outputs = { tissueculture=3 }, time = 1},
+{inputs = { wildignuschiliseed=1 }, outputs = { geneticmaterial=3 }, time = 1},
+{inputs = { wildignuschili2seed=1 }, outputs = { geneticmaterial=3 }, time = 1},
+{inputs = { wilditaseed=1 }, outputs = { geneticmaterial=3 }, time = 1},
+{inputs = { wildjillyrootseed=1 }, outputs = { geneticmaterial=3 }, time = 1},
+{inputs = { wildkiwiseed=1 }, outputs = { geneticmaterial=3 }, time = 1},
+{inputs = { wildlasherplantseed=1 }, outputs = { tissueculture=3 }, time = 1},
+{inputs = { wildleafshellseed=1 }, outputs = { tissueculture=3 }, time = 1},
+{inputs = { wildlactariusindigoseed=1 }, outputs = { geneticmaterial=3 }, time = 1},
+{inputs = { wildlivingrootseed=1 }, outputs = { geneticmaterial=3 }, time = 1},
+{inputs = { wildlittlerascalseed=1 }, outputs = { geneticmaterial=4 }, time = 1},
+{inputs = { wildlittlegoodberryseed=1 }, outputs = { geneticmaterial=4 }, time = 1},
+{inputs = { wildmelodistarseed=1 }, outputs = { geneticmaterial=5 }, time = 1},
+{inputs = { wildminkocoapodseed=1 }, outputs = { geneticmaterial=2 }, time = 1},
+{inputs = { wildmintseed=1 }, outputs = { geneticmaterial=4 }, time = 1},
+{inputs = { wildmiraclegrassseed=1 }, outputs = { geneticmaterial=3 }, time = 1},
+{inputs = { wildmireurchinseed=1 }, outputs = { geneticmaterial=2 }, time = 1},
+{inputs = { wildmutaviskseed=1 }, outputs = { geneticmaterial=4 }, time = 1},
+{inputs = { wildneonmelonseed=1 }, outputs = { geneticmaterial=2 }, time = 1},
+{inputs = { wildnissseed=1 }, outputs = { tissueculture=4 }, time = 1},
+{inputs = { wildnaileryseed=1 }, outputs = { rawminerals=4 }, time = 1},
+{inputs = { wildneuropodseed=1 }, outputs = { tissueculture=2 }, time = 1},
+{inputs = { wildoculemonseed=1 }, outputs = { tissueculture=3 }, time = 1},
+{inputs = { wildmutaviskseed=1 }, outputs = { geneticmaterial=4 }, time = 1},
+{inputs = { wildoonfortaseed=1 }, outputs = { biospore=1 }, time = 1},
+{inputs = { wildpasakavineseed=1 }, outputs = { tissueculture=1 }, time = 1},
+{inputs = { wildpekkitseed=1 }, outputs = { tissueculture=5 }, time = 1},
+{inputs = { wildpetrifiedrootseed=1 }, outputs = { geneticmaterial=6 }, time = 1},
+{inputs = { wildpinkloomseed=1 }, outputs = { geneticmaterial=5 }, time = 1},
+{inputs = { wildpearlpeaseed=1 }, outputs = { geneticmaterial=5 }, time = 1},
+{inputs = { wildpineappleseed=1 }, outputs = { geneticmaterial=5 }, time = 1},
+{inputs = { wildpotatoseed=1 }, outputs = { geneticmaterial=3 }, time = 1},
+{inputs = { wildporphisplantseed=1 }, outputs = { tissueculture=5 }, time = 1},
+{inputs = { wildpussplumseed=1 }, outputs = { tissueculture=4 }, time = 1},
+{inputs = { wildreefpodseed=1 }, outputs = { geneticmaterial=3 }, time = 1},
+{inputs = { wildrockrootseed=1 }, outputs = { rawminerals=4 }, time = 1},
+{inputs = { wildriceseed=1 }, outputs = { geneticmaterial=4 }, time = 1},
+{inputs = { wildshinyacornseed=1 }, outputs = { tissueculture=3 }, time = 1},
+{inputs = { wildshockshroomseed=1 }, outputs = { tissueculture=8 }, time = 1},
+{inputs = { wildsilverleafseed=1 }, outputs = { silverore=2 }, time = 1},
+{inputs = { wildslimeplantseed=1 }, outputs = { greenslime=4 }, time = 1},
+{inputs = { wildspringvaultseed=1 }, outputs = { tissueculture=2 }, time = 1},
+{inputs = { wildstranglevineseed=1 }, outputs = { tissueculture=4 }, time = 1},
+{inputs = { wildsugarcaneseed=1 }, outputs = { geneticmaterial=4 }, time = 1},
+{inputs = { wildteratomatoseed=1 }, outputs = { geneticmaterial=11 }, time = 1},
+{inputs = { wildtalonseedseed=1 }, outputs = { geneticmaterial=5 }, time = 1},
+{inputs = { wildtetherhookseed=1 }, outputs = { geneticmaterial=3 }, time = 1},
+{inputs = { wildthornitoxseed=1 }, outputs = { geneticmaterial=4 }, time = 1},
+{inputs = { wildtomatoseed=1 }, outputs = { geneticmaterial=3 }, time = 1},
+{inputs = { wildtoxictopseed=1 }, outputs = { geneticmaterial=4 }, time = 1},
+{inputs = { wildtyvokkseed=1 }, outputs = { geneticmaterial=5 }, time = 1},
+{inputs = { wildvaranberryseed=1 }, outputs = { geneticmaterial=1 }, time = 1},
+{inputs = { wildvextongueseed=1 }, outputs = { tissueculture=2 }, time = 1},
+{inputs = { wildvoritseed=1 }, outputs = { geneticmaterial=3 }, time = 1},
+{inputs = { wildwartweedseed=1 }, outputs = { tissueculture=3 }, time = 1},
+{inputs = { wildwheatseed=1 }, outputs = { tissueculture=4 }, time = 1},
+{inputs = { wildvashtaplantseed=1 }, outputs = { tissueculture=6 }, time = 1},
+{inputs = { wildwretchelseed=1 }, outputs = { tissueculture=9 }, time = 1},
+{inputs = { wildwubstemseed=1 }, outputs = { tissueculture=3 }, time = 1},
+{inputs = { wildxaxseed=1 }, outputs = { tissueculture=5 }, time = 1},
+{inputs = { wildyellowfootseed=1 }, outputs = { tissueculture=4 }, time = 1},
+{inputs = { wildzathiseed=1 }, outputs = { geneticmaterial=8 }, time = 1},
+{inputs = { wildkamaranpodsplant=1 }, outputs = { geneticmaterial=4 }, time = 5},
+{inputs = { wildcellpodsplant=1 }, outputs = { geneticmaterial=5 }, time = 5},
+{inputs = { wildgoldenseaspongeplant=1 }, outputs = { tissueculture=5 }, time = 5},
+{inputs = { wildsnowberryseed=1 }, outputs = { tissueculture=6 }, time = 5},
+{inputs = { wildspongeweedseed=1 }, outputs = { geneticmaterial=4 }, time = 5},
 {inputs = { cellpods=1 }, outputs = { geneticmaterial=1 }, time = 1},
 -- food / produce / plant biproduct
 --from FU
@@ -563,26 +689,54 @@ function update(dt)
 
     self.timer = self.timer - dt
 
-    if self.timer <= 0 then
-
-        if self.crafting then
-            for k,v in pairs(self.output) do
-                local leftover = world.containerAddItems(entity.id(), {item = k , count = v})
-                if leftover ~= nil then world.spawnItem(leftover.item, entity.position(), leftover.count) end
+--    if self.timer <= 0 then
+--        if self.crafting then
+--            for k,v in pairs(self.output) do
+--                local leftover = world.containerAddItems(entity.id(), {item = k , count = v})
+--                if leftover ~= nil then 
+--                  world.spawnItem(leftover.item, entity.position(), leftover.count) 
+--                end
+--            end
+--            self.crafting = false
+--            self.output = {}
+--            self.timer = self.mintick --reset timer to a safe minimum
+--            entity.setAnimationState("samplingarrayanim", "idle")
+--        end
+--        if not self.crafting and self.timer <= 0 then --make sure we didn't just finish crafting
+--            if not startCrafting(getValidRecipes(getInputContents()))
+--            then self.timer = self.mintick end --set timeout if there were no recipes
+--        end
+--
+--    end
+  if self.timer <= 0 then
+    if self.crafting then
+        for k,v in pairs(self.output) do
+            local minOutSlot = 3
+            local maxOutSlot = 11
+            local leftover = {item = k, count = v}
+            if leftover ~= nil then
+                for i = minOutSlot, maxOutSlot, 1 do
+                    leftover = world.containerPutItemsAt(entity.id(), leftover, i)
+                    if leftover == nil then
+                        break
+                    end
+                end
             end
-            self.crafting = false
-            self.output = {}
-            self.timer = self.mintick --reset timer to a safe minimum
-            entity.setAnimationState("samplingarrayanim", "idle")
+            if leftover ~= nil then
+                world.spawnItem(leftover.item, entity.position(), leftover.count)
+            end
         end
-
-
-        if not self.crafting and self.timer <= 0 then --make sure we didn't just finish crafting
-            if not startCrafting(getValidRecipes(getInputContents()))
-            then self.timer = self.mintick end --set timeout if there were no recipes
-        end
-
+        self.crafting = false
+        self.output = {}
+        self.timer = self.mintick --reset timer to a safe minimum
+        entity.setAnimationState("samplingarrayanim", "idle")
     end
+    if not self.crafting and self.timer <= 0 then --make sure we didn't just finish crafting
+        if not startCrafting(getValidRecipes(getInputContents()))
+        then self.timer = self.mintick end --set timeout if there were no recipes
+    end
+
+  end
 end
 
 

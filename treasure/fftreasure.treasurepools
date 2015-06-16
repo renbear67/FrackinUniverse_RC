@@ -131,7 +131,8 @@
           {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "flaregun" } ]},
 	  {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "itemlauncher" } ]},
 	  {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "slingshot" } ]},  
-	  {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "randomharpoongun" } ]} 
+	  {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "randomharpoongun" } ]},
+	  {"weight" : 0.03, "item" : [ "generatedsword", 1, { "definition" : "lightsaber" } ]}
         ],
         "poolRounds" : [
           [0.23, 1],
@@ -244,7 +245,8 @@
 	  {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "itemlauncher" } ]},
 	  {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "slingshot" } ]},  
 	  {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "randomharpoongun" } ]},
-          {"weight" : 0.001, "item" :  [ "fubonusarmorpants-recipe", 1]}
+          {"weight" : 0.001, "item" :  [ "fubonusarmorpants-recipe", 1]},
+          {"weight" : 0.03, "item" : [ "generatedsword", 1, { "definition" : "lightsaber" } ]}
         ],
         "poolRounds" : [
           [0.23, 1],
@@ -572,7 +574,8 @@
           {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "flaregun" } ]},
 	  {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "itemlauncher" } ]},
 	  {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "slingshot" } ]},  
-	  {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "randomharpoongun" } ]} 
+	  {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "randomharpoongun" } ]},
+	  {"weight" : 0.03, "item" : [ "generatedsword", 1, { "definition" : "lightsaber" } ]}
         ],
         "poolRounds" : [
           [0.23, 1],
@@ -696,7 +699,50 @@
           {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "flaregun" } ]},
 	  {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "itemlauncher" } ]},
 	  {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "slingshot" } ]},  
-	  {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "randomharpoongun" } ]} 
+	  {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "randomharpoongun" } ]},
+	  {"weight" : 0.03, "item" : [ "generatedsword", 1, { "definition" : "lightsaber" } ]}
+        ],
+        "poolRounds" : [
+          [0.23, 1],
+          [0.33, 2],
+          [0.33, 3],
+          [0.33, 4],
+          [0.23, 5],
+          [0.18, 6],
+          [0.13, 7],
+          [0.05, 8],
+          [0.01, 9]
+        ],
+      "allowDuplication" : true
+      } 
+    ]
+  ],
+  "ffbanditTreasure" : [
+    [1, {
+        "pool" : [
+        {"weight" : 0.20, "pool" : "money"},
+        {"weight" : 0.25, "pool" : "healingItem"},
+        {"weight" : 0.5, "item" : ["throwingspear", 12]},
+        {"weight" : 0.5, "item" : ["flare", 10]},
+        {"weight" : 0.5, "item" : ["throwingdagger", 12]},
+        {"weight" : 0.8, "item" : ["climbingrope", 8]},
+        {"weight" : 0.05, "item" : ["molotov", 4]},
+        {"weight" : 0.5, "item" : ["throwingspear", 12]},
+        {"weight" : 0.5, "item" : ["throwingaxe", 12]},    
+        {"weight" : 0.05, "pool" : "weapon"},
+        {"weight" : 0.3, "pool" : "food"},
+        {"weight" : 0.025, "item" : [ "handgrenade", 3]},
+        {"weight" : 0.005, "item" : [ "generatedgun", 1, { "definition" : "revolver" } ]},
+          {"weight" : 0.04, "item" : [ "basicminer", 1]},
+          {"weight" : 0.04, "item" : [ "laspistol", 1]},
+          {"weight" : 0.04, "item" : [ "bloodyknife", 1]},
+          {"weight" : 0.04, "item" : [ "carbonblade", 1]},
+          {"weight" : 0.04, "item" : [ "hardenedsteelblade", 1]},
+          {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "flaregun" } ]},
+	  {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "itemlauncher" } ]},
+	  {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "slingshot" } ]},  
+	  {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "randomharpoongun" } ]},
+	  {"weight" : 0.03, "item" : [ "generatedsword", 1, { "definition" : "lightsaber" } ]} 
         ],
         "poolRounds" : [
           [0.23, 1],
