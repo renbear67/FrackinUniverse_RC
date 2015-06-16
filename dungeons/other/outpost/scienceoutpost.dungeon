@@ -1833,7 +1833,7 @@
     {
       "value" : [85, 229, 23, 255],
       "comment" : "2stoptele",
-      "brush" : [ [ "clear" ], [ "object", "2stoptele", { "parameters" : { "interactData" : "/interface/warping/outpostteleporter.config", "teleporterUniqueId" : "scienceoutpost" } } ] ]
+      "brush" : [ [ "clear" ], [ "object", "2stoptele", { "parameters" : { "interactData" : "/interface/warping/fu_outpostteleporter.config", "teleporterUniqueId" : "scienceoutpost" } } ] ]
     },    
     {
       "value" : [92, 23, 229, 255],

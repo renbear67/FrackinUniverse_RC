@@ -24,16 +24,9 @@
     }
   ],
 
-  "animation" : "/objects/generic/samplingarray/samplingarray.animation",
-  "animationParts" : {
-    "samplingarrayanim" : "samplingarray.png"
-  },
-  "scripts" : [ "/objects/generic/samplingarray/samplingarray2.lua" ],
-  "scriptDelta" : 5,
-  "recipeGroup" : "samplingarray",
-  "openSounds" : [ "/sfx/objects/locker_open.wav" ],
-  "slotCount" : 12,
-  "uiConfig" : "/interface/samplingarray/samplingarray.config",
-  "frameCooldown" : 67,
+  "openSounds" : [ "/sfx/objects/florancrate_open.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
   "autoCloseCooldown" : 3600
 }

@@ -62,8 +62,9 @@ local recipes =
 {inputs = { greenslime=1 }, outputs = { tissueculture=1 }, time = 1},
 {inputs = { mutavisksilk=5 }, outputs = { dnasample=1 }, time = 1},
 {inputs = { obsidianshard=1 }, outputs = { ammoniumsulfate=1 }, time = 1},
-
+{inputs = { ff_bambooshoot=1 }, outputs = { geneticmaterial=2 }, time = 1},
 -- tiles
+{inputs = { petalblock=50 }, outputs = { geneticmaterial=3 }, time = 1},
 {inputs = { alienrock=50 }, outputs = { ff_silicon=2 }, time = 1},
 {inputs = { alienstripedwood=50 }, outputs = { tissueculture=2 }, time = 1},
 {inputs = { blackslimematerial=50 }, outputs = { geneticmaterial=2 }, time = 1},
