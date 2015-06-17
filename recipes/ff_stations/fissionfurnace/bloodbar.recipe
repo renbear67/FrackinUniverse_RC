@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "bloodore", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "bloodsteelbar",
+    "count" : 1
+  },
+  "groups" : [ "fissionfurnace", "all" ]
+}

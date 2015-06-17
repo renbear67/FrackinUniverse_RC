@@ -1,0 +1,8 @@
+{
+  "itemName" : "bloodore",
+  "rarity" : "legendary",
+  "inventoryIcon" : "bloodore.png",
+  "description" : "Odd, crystallized and alloyed blood plasma.",
+  "shortdescription" : "Quietus Ore",
+  "learnBlueprintsOnPickup" : [ "bloodsteelbar" ]
+}

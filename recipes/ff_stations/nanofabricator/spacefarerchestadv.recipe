@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "spacefarerchest", "count" : 1 },
-    { "item" : "mutagene4", "count" : 2 },
+    { "item" : "bloodsteelbar", "count" : 2 },
     { "item" : "aliencompound", "count" : 6 },
     { "item" : "cpu", "count" : 1 }
   ],
