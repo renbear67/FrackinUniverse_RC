@@ -1,0 +1,10 @@
+{
+  "input" : [
+	{ "item" : "advancealloy", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "powerpress",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "materials", "all" ]
+}
