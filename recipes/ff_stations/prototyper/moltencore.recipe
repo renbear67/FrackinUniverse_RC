@@ -1,10 +1,9 @@
 {
   "input" : [
-    { "item" : "corefragmentore", "count" : 25 },
-    { "item" : "liquidlava", "count" : 50 },
-    { "item" : "imperviumcompound", "count" : 8 },
-    { "item" : "aliencompound", "count" : 10 },
-    { "item" : "magneticshielding", "count" : 4 }
+    { "item" : "corefragmentore", "count" : 8 },
+    { "item" : "liquidlava", "count" : 25 },
+    { "item" : "ceruliumcompound", "count" : 4 },
+    { "item" : "magneticshielding", "count" : 2 }
   ],
   "output" : {
     "item" : "moltencore",

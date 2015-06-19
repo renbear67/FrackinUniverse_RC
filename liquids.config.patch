@@ -50,6 +50,10 @@
     "path" : "/liquids/13/statusEffects", 
     "value" : [ "slimefriction" ]
     },
+    { "op" : "replace", 
+    "path" : "/liquids/13/itemDrop", 
+    "value" : [ "liquidslime" ]
+    },
     // lava
     {"op":"add",
    "path":"/liquids/2/interactions/-",

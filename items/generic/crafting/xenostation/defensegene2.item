@@ -3,5 +3,6 @@
   "rarity" : "uncommon",
   "inventoryIcon" : "defensegene2.png",
   "description" : "defense gene research.",
-  "shortdescription" : "Cellular Defense II"
+  "shortdescription" : "Cellular Defense II",
+  "learnBlueprintsOnPickup" : [ "defensegene3" ]
 }

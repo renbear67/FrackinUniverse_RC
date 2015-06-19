@@ -1,0 +1,8 @@
+{
+  "itemName" : "bloodsteelbar",
+  "rarity" : "legendary",
+  "inventoryIcon" : "bloodsteelbar.png",
+  "description" : "A lab created super-alloy.",
+  "shortdescription" : "Quietus Bar"
+  "learnBlueprintsOnPickup" : [ "quietusplate" ]
+}

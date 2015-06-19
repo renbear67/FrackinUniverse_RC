@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "coalore", "count" : 1 },
+    { "item" : "coalore", "count" : 2 },
     { "item" : "liquidwater", "count" : 1 },
     { "item" :  "ff_silicon", "count" : 1 }
   ],
@@ -8,5 +8,5 @@
     "item" : "graphene",
     "count" : 1
   },
-  "groups" : [ "chemlab", "materials", "all" ]
+  "groups" : [ "powerpress", "materials", "all" ]
 }

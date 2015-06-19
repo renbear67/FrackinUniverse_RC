@@ -3,5 +3,6 @@
   "rarity" : "uncommon",
   "inventoryIcon" : "musclegene2.png",
   "description" : "Muscle enhancement research.",
-  "shortdescription" : "Strength II"
+  "shortdescription" : "Strength II",
+  "learnBlueprintsOnPickup" : [ "musclegene3" ]
 }

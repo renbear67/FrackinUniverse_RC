@@ -1,0 +1,9 @@
+{
+  "itemName" : "titaniumplate",
+  "rarity" : "common",
+  "inventoryIcon" : "titaniumplate.png",
+  "description" : "A thick plate made of titanium.",
+  "category" : "Plates",
+  "shortdescription" : "^cyan;Titanium Plate^white;"
+}
+

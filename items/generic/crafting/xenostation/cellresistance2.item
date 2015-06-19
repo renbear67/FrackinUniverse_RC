@@ -3,5 +3,6 @@
   "rarity" : "uncommon",
   "inventoryIcon" : "cellresistance2.png",
   "description" : "Cell resistance research.",
-  "shortdescription" : "Cell Resistance II"
+  "shortdescription" : "Cell Resistance II",
+  "learnBlueprintsOnPickup" : [ "cellresistance3" ]
 }

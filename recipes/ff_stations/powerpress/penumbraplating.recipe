@@ -10,5 +10,5 @@
     "item" : "ff_penumbraplating",
     "count" : 1
   },
-  "groups" : [ "prototyper", "armors", "all" ]
+  "groups" : [ "powerpress", "materials", "all" ]
 }

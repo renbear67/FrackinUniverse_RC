@@ -3,12 +3,13 @@
   "rarity" : "uncommon",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
-    "config" : "/interface/windowconfig/nanofabricator.config",
+    "config" : "/interface/windowconfig/powerpress.config",
     "filter" : [ "powerpress" ]
   },
+  "learnBlueprintsOnPickup" : [ "ironplate", "copperplate", "steelplate", "titaniumplate" ],
   "printable" : false,
-  "description" : "Produces alloys and metal plates for various uses.",
-  "shortdescription" : "^orange;powerpress^white;",
+  "description" : "Creates plates of metal, plastic and other materials.",
+  "shortdescription" : "^orange;Power Press^white;",
   "race" : "generic",
   "category" : "crafting",
   "price" : 200,
