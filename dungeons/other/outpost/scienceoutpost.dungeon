@@ -13,11 +13,11 @@
   "tiles" : [
   //fu stuff
   
-		{
-			"value" : [148, 228, 208, 255],
-			"comment" : "foreground hydrotube",
-			"brush" : [ [ "clear" ], [ "front", "hydrotube" ] ]
-		},
+    {
+	"value" : [148, 228, 208, 255],
+	"comment" : "foreground hydrotube",
+	"brush" : [ [ "clear" ], [ "front", "hydrotube" ] ]
+    },
 		
 
     {
@@ -47,7 +47,7 @@
     }, 
     {
       "value" : [132, 139, 104, 255],
-      "comment" : "samplingarray facing left",
+      "comment" : "powerpress facing left",
       "brush" : [ [ "clear" ], [ "object", "powerpress", { "direction" : "left", "parameters" : { "defaultSwitchState" : true } } ] ]
     }, 
     {
