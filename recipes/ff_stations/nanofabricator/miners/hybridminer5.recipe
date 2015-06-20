@@ -1,8 +1,8 @@
 {
   "input" : [
-   { "item" : "eridianbar", "count" : 6 },
+   { "item" : "quietusplate", "count" : 4 },
    { "item" : "nuclearcore", "count" : 1 },
-   { "item" : "cpu", "count" : 2 },
+   { "item" : "aichip", "count" : 1 },
    { "item" : "aliencompound", "count" : 12 },
    { "item" : "hybridminer4", "count" : 1 }
   ],

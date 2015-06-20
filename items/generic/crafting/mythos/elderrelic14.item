@@ -1,7 +1,7 @@
 {
   "itemName" : "elderrelic14",
-  "rarity" : "Common",
+  "rarity" : "rare",
   "inventoryIcon" : "elderrelic14.png",
   "description" : "A non-euclidian artifact",
-  "shortdescription" : "Trapezohedron"
+  "shortdescription" : "^#ffe50e;Trapezohedron^white;"
 }

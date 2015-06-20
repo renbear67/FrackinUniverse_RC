@@ -1,8 +1,9 @@
 {
   "itemName" : "ff_penumbraplating",
-  "rarity" : "Common",
+  "rarity" : "rare",
   "inventoryIcon" : "ff_penumbraplating.png",
   "description" : "Super dense, super tough.",
-  "shortdescription" : "Penumbral Plating",
+  "shortdescription" : "^#88e25b;Penumbral Plating^white;",
+  "category" : "Metal Plate",
   "learnBlueprintsOnPickup" : [ "ff_diamondplating" ]
 }

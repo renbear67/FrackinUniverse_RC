@@ -1,7 +1,7 @@
 {
   "itemName" : "ff_fertilizer3",
-  "rarity" : "legendary",
+  "rarity" : "rare",
   "inventoryIcon" : "fertilizer.png",
   "description" : "It's what plants crave.",
-  "shortdescription" : "Superior Fertilizer"
+  "shortdescription" : "^#88e25b;Superior Fertilizer^white;"
 }

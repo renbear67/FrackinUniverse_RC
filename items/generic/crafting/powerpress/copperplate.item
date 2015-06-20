@@ -3,6 +3,6 @@
   "rarity" : "common",
   "inventoryIcon" : "copperplate.png",
   "description" : "A Pressed Copper Plate",
-  "category" : "Plates",
-  "shortdescription" : "^cyan;Copper Plate^white;"
+  "category" : "Metal Plate",
+  "shortdescription" : "Copper Plate"
 }

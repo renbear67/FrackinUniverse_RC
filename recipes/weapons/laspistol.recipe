@@ -1,6 +1,7 @@
 {
   "input" : [
     { "item" : "steelbar", "count" : 4 },
+    { "item" : "microchip", "count" : 2 },
     { "item" : "electromagnet", "count" : 1 }
   ],
   "output" : { "item" : "laspistol", "count" : 1 },

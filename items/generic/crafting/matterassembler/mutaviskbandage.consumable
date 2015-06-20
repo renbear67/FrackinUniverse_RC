@@ -1,10 +1,10 @@
 {
   "itemName" : "mutaviskbandage",
-  "rarity" : "Common",
+  "rarity" : "uncommon",
   "price" : 55,
   "inventoryIcon" : "mutaviskbandage.png",
   "description" : "A bandage for healing ugly wounds. Using it restores sizeable health.",
-  "shortdescription" : "Mutavisk Bandage",
+  "shortdescription" : "^#77acc3;Mutavisk Bandage^white;",
   "effects" : [ [
       {
         "effect" : "bandage3",

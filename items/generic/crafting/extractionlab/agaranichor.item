@@ -3,6 +3,6 @@
   "rarity" : "rare",
   "inventoryIcon" : "agaranichor.png",
   "description" : "An unstable goo that alters cells at genetical level.",
-  "shortdescription" : "Agaran ichor",
+  "shortdescription" : "^#88e25b;Agaran ichor^white;",
   "learnBlueprintsOnPickup" : [ "mutagene2" ]
 }

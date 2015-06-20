@@ -3,6 +3,7 @@
   "rarity" : "Common",
   "inventoryIcon" : "microchip.png",
   "description" : "A basic microchip",
-  "category" : "Circuit Chips",
-  "shortdescription" : "^cyan;Microchip^white;"
+  "category" : "Hardware",
+  "shortdescription" : "Microchip",
+  "learnBlueprintsOnPickup" : [ "cpu", "advcircuit" ]
 }

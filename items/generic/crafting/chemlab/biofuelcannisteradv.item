@@ -1,8 +1,8 @@
 {
   "itemName" : "biofuelcannisteradv",
-  "rarity" : "Common",
+  "rarity" : "uncommon",
   "inventoryIcon" : "biofuelcannisteradv.png",
   "description" : "A superior biofuel.",
-  "shortdescription" : "Erithian Biofuel Canister",
+  "shortdescription" : "^#88e25b;Erithian Biofuel Canister^white;",
   "fuelAmount" : 6
 }

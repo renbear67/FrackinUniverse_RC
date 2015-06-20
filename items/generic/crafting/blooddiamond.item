@@ -1,6 +1,6 @@
 {
   "itemName" : "blooddiamond",
-  "rarity" : "Common",
+  "rarity" : "uncommon",
   "inventoryIcon" : "blooddiamond.png",
   "description" : "Purified, extracted bloodstone.",
   "shortdescription" : "Blood Diamond"

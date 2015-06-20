@@ -1,9 +1,9 @@
 {
   "input" : [
     { "item" : "matteritem", "count" : 9 },
-    { "item" : "eridianbar", "count" : 6 },
+    { "item" : "eridianplate", "count" : 3 },
     { "item" : "electromagnet", "count" : 2 },
-    { "item" : "wretchel", "count" : 5 },
+    { "item" : "wretchel", "count" : 2 },
     { "item" : "corefragmentore", "count" : 8 }
   ],
   "output" : {

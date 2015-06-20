@@ -3,6 +3,6 @@
   "rarity" : "uncommon",
   "inventoryIcon" : "electromagnet.png",
   "description" : "An advanced electromagnet.",
-  "shortdescription" : "Electromagnet",
+  "shortdescription" : "^#77acc3;Electromagnet^white;",
   "learnBlueprintsOnPickup" : [ "laspistol", "energyassault", "teslagun", "spacefarerchest", "spacefarerhead", "spacefarerpants" ]
 }

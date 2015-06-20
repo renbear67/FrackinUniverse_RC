@@ -3,7 +3,7 @@
   "rarity" : "common",
   "inventoryIcon" : "steelplate.png",
   "description" : "A thick plate made of steel.",
-  "category" : "Plates",
-  "shortdescription" : "^cyan;Steel Plate^white;"
+  "category" : "Metal Plate",
+  "shortdescription" : "Steel Plate"
 }
 

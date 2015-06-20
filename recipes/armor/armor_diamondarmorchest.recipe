@@ -1,9 +1,8 @@
 {
   "input" : [
-    { "item" : "ff_penumbraplating", "count" : 6 },
     { "item" : "triangliumpyramid", "count" : 6 },
     { "item" : "ff_diamondplating", "count" : 5 },
-    { "item" : "eridianbar", "count" : 10 }
+    { "item" : "eridianplate", "count" : 3 }
   ],
   "output" : {
     "item" : "ff_diamondarmorchest",

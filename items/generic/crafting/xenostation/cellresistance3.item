@@ -1,7 +1,7 @@
 {
   "itemName" : "cellresistance3",
-  "rarity" : "uncommon",
+  "rarity" : "rare",
   "inventoryIcon" : "cellresistance3.png",
   "description" : "Cell resistance research.",
-  "shortdescription" : "Cell Resistance III"
+  "shortdescription" : "Cell Resistance III^white;"
 }

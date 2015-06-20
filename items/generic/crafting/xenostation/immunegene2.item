@@ -3,6 +3,6 @@
   "rarity" : "uncommon",
   "inventoryIcon" : "immunegene2.png",
   "description" : "Immunity research",
-  "shortdescription" : "Immunity II",
+  "shortdescription" : "^#77acc3;Immunity II^white;",
   "learnBlueprintsOnPickup" : [ "immunegene3" ]
 }

@@ -1,0 +1,10 @@
+{
+  "itemName" : "portaljuice",
+  "rarity" : "rare",
+  "inventoryIcon" : "portaljuice.png",
+  "description" : "I wonder what this does?",
+  "shortdescription" : "Portal Juice",
+  "effects" : [ [
+     "warp"
+    ] ]
+}

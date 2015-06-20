@@ -1,8 +1,9 @@
 {
   "itemName" : "graphene",
-  "rarity" : "Common",
+  "rarity" : "uncommon",
   "inventoryIcon" : "graphene.png",
   "description" : "Durable, flexible and conductive. A near-magical material.",
-  "shortdescription" : "^cyan;Graphene^white;",
+  "shortdescription" : "^#77acc3;Graphene^white;",
+  "category" : "Fullerene",
   "learnBlueprintsOnPickup" : [ "graphenechest", "graphenehead", "graphenelegs", "eridianore", "fugausspistol", "fugaussrifle" ]
 }

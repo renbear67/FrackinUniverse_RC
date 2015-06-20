@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "densiniumbar", "count" : 2 },
+    { "item" : "graphene", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "densiniumplate",
+    "count" : 1
+  },
+  "groups" : [ "powerpress", "materials", "all" ]
+}

@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "steelbar", "count" : 10 },
+    { "item" : "steelbar", "count" : 4 },
     { "item" : "copperbar", "count" : 4 },
     { "item" : "silverbar", "count" : 2 },
-    { "item" : "glassmaterial", "count" : 3 }
+    { "item" : "glassmaterial", "count" : 2 }
   ],
   "output" : {
     "item" : "extractionlab",

@@ -1,6 +1,6 @@
 {
   "itemName" : "liquidorganicsoup",
-  "rarity" : "Common",
+  "rarity" : "uncommon",
   "inventoryIcon" : "liquidorganicsoupicon.png",
   "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
   "shortdescription" : "Organic Soup",

@@ -1,7 +1,7 @@
 {
   "itemName" : "elderrelic11",
-  "rarity" : "Common",
+  "rarity" : "rare",
   "inventoryIcon" : "elderrelic11.png",
   "description" : "This statue emanates menace and malice.",
-  "shortdescription" : "Elder Statue"
+  "shortdescription" : "^#ffe50e;Elder Statue^white;"
 }

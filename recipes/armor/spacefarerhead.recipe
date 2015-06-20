@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "graphene", "count" : 8 },
-    { "item" : "protocitebar", "count" : 6 },
+    { "item" : "titaniumplate", "count" : 4 },
+    { "item" : "ff_protoplating", "count" : 3 },
     { "item" : "vialproto", "count" : 2 },
     { "item" : "cpu", "count" : 1 }
   ],

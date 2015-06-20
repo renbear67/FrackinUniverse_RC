@@ -3,8 +3,8 @@
   "rarity" : "rare",
   "inventoryIcon" : "corruptionseed.png",
   "description" : "Genetically altered corruption.",
-  "shortdescription" : "Corruption Seed",
+  "shortdescription" : "^#88e25b;Corruption Seed^white;",
   "learnBlueprintsOnPickup" : [
-    "fuexosuithead", "fuexosuitchest", "fuexosuitlegs"
+    "corruptblade", "fuexosuithead", "fuexosuitchest", "fuexosuitlegs"
   ]
 }

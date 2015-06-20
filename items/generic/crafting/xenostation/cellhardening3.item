@@ -3,5 +3,5 @@
   "rarity" : "rare",
   "inventoryIcon" : "cellhardening3.png",
   "description" : "Cell hardening research.",
-  "shortdescription" : "Cell Hardening III"
+  "shortdescription" : "^#88e25b;Cell Hardening III^white;"
 }

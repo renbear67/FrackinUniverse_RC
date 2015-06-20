@@ -1,6 +1,6 @@
 {
   "itemName" : "irradiumore",
-  "rarity" : "Common",
+  "rarity" : "uncommon",
   "inventoryIcon" : "irradiumore.png",
   "description" : "rare and valuable radioactive metal",
   "shortdescription" : "Irradium Ore",

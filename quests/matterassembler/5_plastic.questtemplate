@@ -1,7 +1,7 @@
   {
   "id" : "5_plastic.gearup",
   "title" : "^#1693d5;The miracle of Plastic",
-  "text" : "Normal plastic is too flimsy. Let's beef it up and create some ^orange;advanced plastic^white;. You'll need Bracken Trees to get the silk required, though. You'll need to craft some in the Design Lab. Or get lucky and find some.",
+  "text" : "Normal plastic is too flimsy. Let's beef it up and create some ^orange;advanced plastic^white;. You'll need Bracken Trees to get the silk required, though. You'll need to craft some in the Design Lab. Or get lucky and find some. You'll need a ^orange;Power Press^white; in order to create the plastic itself.",
   "completionText" : "This durable super-plastic will prove quite useful in a lot of recipes.",
   "conditions" : [ 
     { "kind" : "gather", "item" : [ "ff_plastic", 1], "consume" : false }

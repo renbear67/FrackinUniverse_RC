@@ -1,7 +1,7 @@
 {
   "input" : [
    { "item" : "eridianbar", "count" : 5 },
-   { "item" : "nuclearcore", "count" : 1 }, 
+   { "item" : "moltencore", "count" : 1 }, 
    { "item" : "hybridminer2", "count" : 1 }
   ],
   "output" : {

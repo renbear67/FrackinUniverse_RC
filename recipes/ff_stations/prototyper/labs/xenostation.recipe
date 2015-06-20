@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "steelbar", "count" : 15 },
-    { "item" : "ff_silicon", "count" : 6 },
-    { "item" : "glassmaterial", "count" : 10 },
+    { "item" : "steelplate", "count" : 2 },
+    { "item" : "cpu", "count" : 1 },
+    { "item" : "glassmaterial", "count" : 4 },
     { "item" : "microscope", "count" : 1 }   
   ],
   "output" : {

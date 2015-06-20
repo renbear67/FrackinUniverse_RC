@@ -2,8 +2,8 @@
   "input" : [
    { "item" : "hybridminer", "count" : 1 },
    { "item" : "densealloy", "count" : 4 }, 
-   { "item" : "ff_penumbraplating", "count" : 5 },
-   { "item" : "ff_protoplating", "count" : 5 }
+   { "item" : "particlecore", "count" : 1 },
+   { "item" : "fuprocessor", "count" : 1 }
   ],
   "output" : {
     "item" : "hybridminer2",

@@ -1,6 +1,6 @@
 {
   "itemName" : "liquidgravrain",
-  "rarity" : "Common",
+  "rarity" : "legendary",
   "inventoryIcon" : "liquidgravrain.png",
   "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
   "shortdescription" : "Grav-Liquid",

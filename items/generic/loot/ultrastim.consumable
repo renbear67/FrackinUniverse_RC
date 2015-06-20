@@ -1,0 +1,10 @@
+{
+  "itemName" : "ultrastim",
+  "rarity" : "legendary",
+  "inventoryIcon" : "ultrastim.png",
+  "description" : "This type of stim is extremely rare and expensive.",
+  "shortdescription" : "X-Stim",
+  "effects" : [ [
+     "regeneration2", "shieldregen3", "defenseboost210", "lowgrav"
+    ] ]
+}

@@ -3,6 +3,6 @@
   "rarity" : "uncommon",
   "inventoryIcon" : "chloroplast2.png",
   "description" : "Increase metabolic rate of cells",
-  "shortdescription" : "Chloroplast Boost II",
+  "shortdescription" : "^#77acc3;Chloroplast Boost II^white;",
   "learnBlueprintsOnPickup" : [ "chloroplast3" ]
 }

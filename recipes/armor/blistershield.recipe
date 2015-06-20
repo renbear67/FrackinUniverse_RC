@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "blisterextract", "count" : 4 },
-    { "item" : "ff_penumbraplating", "count" : 3 },
+    { "item" : "titaniumplate", "count" : 3 },
     { "item" : "ff_silicon", "count" : 7 },
     { "item" : "biochip", "count" : 4 }
   ],

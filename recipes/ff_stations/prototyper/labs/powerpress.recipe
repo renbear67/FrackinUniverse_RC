@@ -1,6 +1,8 @@
 {
   "input" : [
-	{ "item" : "advancealloy", "count" : 1 }
+	{ "item" : "ironbar", "count" : 3 },
+	{ "item" : "steelbar", "count" : 4 },
+	{ "item" : "microchip", "count" : 2 }
   ],
   "output" : {
     "item" : "powerpress",

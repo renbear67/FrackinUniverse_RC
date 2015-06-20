@@ -1,8 +1,8 @@
 {
   "itemName" : "biofuelcannistermax",
-  "rarity" : "Common",
+  "rarity" : "rare",
   "inventoryIcon" : "biofuelcannistermax.png",
   "description" : "a truly amazing fuel source.",
-  "shortdescription" : "Protocyte Fuel Canister",
+  "shortdescription" : "^#b84cbc;Protocyte Fuel Canister^white;",
   "fuelAmount" : 24
 }

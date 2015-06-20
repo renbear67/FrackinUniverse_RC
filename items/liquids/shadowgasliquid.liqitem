@@ -1,6 +1,6 @@
 {
   "itemName" : "shadowgasliquid",
-  "rarity" : "Common",
+  "rarity" : "rare",
   "inventoryIcon" : "shadowgasliquid.png",
   "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
   "shortdescription" : "Shadow Gas",

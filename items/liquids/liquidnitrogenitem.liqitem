@@ -1,6 +1,6 @@
 {
   "itemName" : "liquidnitrogenitem",
-  "rarity" : "Common",
+  "rarity" : "uncommon",
   "inventoryIcon" : "liquidnitrogenitemicon.png",
   "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
   "shortdescription" : "Liquid Nitrogen",

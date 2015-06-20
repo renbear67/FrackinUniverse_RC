@@ -1,6 +1,6 @@
 {
   "itemName" : "dnasample",
-  "rarity" : "Common",
+  "rarity" : "uncommon",
   "inventoryIcon" : "dnasample.png",
   "description" : "Sampled DNA sequences",
   "shortdescription" : "DNA Sample"

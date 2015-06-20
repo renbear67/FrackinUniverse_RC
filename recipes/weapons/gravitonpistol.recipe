@@ -1,9 +1,9 @@
 {
   "input" : [
-   { "item" : "densealloy", "count" : 4 },
+   { "item" : "densealloy", "count" : 3 },
    { "item" : "electromagnet", "count" : 2 },
-   { "item" : "coil", "count" : 3 },
-   { "item" : "triangliumpyramid", "count" : 3 },
+   { "item" : "coil", "count" : 2 },
+   { "item" : "triangliumpyramid", "count" : 2 },
    { "item" : "liquidgravrain", "count" : 20 }
   ],
   "output" : {

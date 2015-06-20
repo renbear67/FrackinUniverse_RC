@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "advancealloy", "count" : 6 },
-    { "item" : "carbonplate", "count" : 16 },
+    { "item" : "carbonplate", "count" : 10 },
     { "item" : "corefragmentore", "count" : 6 }
   ],
   "output" : { "item" : "fuplatinumarmorchest", "count" : 1 },

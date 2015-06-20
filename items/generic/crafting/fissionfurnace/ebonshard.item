@@ -1,8 +1,8 @@
 {
   "itemName" : "ebonshard",
-  "rarity" : "Common",
+  "rarity" : "uncommon",
   "inventoryIcon" : "ebonshard.png",
   "description" : "A shiny shard of ebon gemstone.",
-  "shortdescription" : "Ebon Shard",
+  "shortdescription" : "^#77acc3;Ebon Shard^white;",
   "learnBlueprintsOnPickup" : [ "ebonblockmaterial" ]
 }

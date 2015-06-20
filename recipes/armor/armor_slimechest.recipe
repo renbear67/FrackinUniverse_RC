@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "algaegreen", "count" : 6 },
     { "item" : "greenslime", "count" : 15 },
-    { "item" : "biochip", "count" : 6 }
+    { "item" : "ironplate", "count" : 5 }
   ],
   "output" : {
     "item" : "ff_slimechest",

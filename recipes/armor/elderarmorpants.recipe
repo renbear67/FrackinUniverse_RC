@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "densiniumbar", "count" : 9 },
+    { "item" : "densiniumplate", "count" : 5 },
     { "item" : "corruptionseed", "count" : 12 },
     { "item" : "densealloy", "count" : 4 },
     { "item" : "aliencompound", "count" : 8 }

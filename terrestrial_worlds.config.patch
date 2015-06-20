@@ -3025,6 +3025,8 @@
  	{
        "oceanLiquid" : [ "swampwater" ],
        "oceanLevelOffset" : 0, 
+       "caveLiquid" : [ "swampwater" ],
+       "caveLiquidChanceRange" : [99, 100],
        "blockSelector" : [ "breakwaterIslandsSurface", "tidalflatsIslandsSurface", "submergedIslandsSurface", "spikeIslandsSurface" ],
        "fgCaveSelector" : [ "surfaceCaves" ],
        "bgOreSelector" : [ "commonVeins" ], 

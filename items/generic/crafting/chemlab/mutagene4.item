@@ -1,8 +1,8 @@
 {
   "itemName" : "mutagene4",
-  "rarity" : "uncommon",
+  "rarity" : "rare",
   "inventoryIcon" : "mutagene4.png",
   "description" : "Thick mutagenic extract",
-  "shortdescription" : "Potent mutagene",
+  "shortdescription" : "^#88e25b;Potent mutagene^white;",
   "learnBlueprintsOnPickup" : [ "biogun", "fuquantumchestadv", "fuquantumheadadv", "fuquantumlegsadv" ]
 }

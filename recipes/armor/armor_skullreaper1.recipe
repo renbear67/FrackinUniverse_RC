@@ -1,9 +1,9 @@
 {
   "input" : [
     { "item" : "durasteelbar", "count" : 1 },
-    { "item" : "cpu", "count" : 1 },
+    { "item" : "cpu", "count" : 2 },
     { "item" : "advcircuit", "count" : 2 },
-    { "item" : "corruptionseed", "count" : 6 },
+    { "item" : "microchip", "count" : 4 },
     { "item" : "advancealloy", "count" : 6 }
   ],
   "output" : {

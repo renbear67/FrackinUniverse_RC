@@ -1,7 +1,7 @@
 {
   "itemName" : "elderrelic3",
-  "rarity" : "Common",
+  "rarity" : "rare",
   "inventoryIcon" : "elderrelic3.png",
   "description" : "Some sort of whispering liquid in a container.",
-  "shortdescription" : "Dreaming Salve"
+  "shortdescription" : "^#ffe50e;Dreaming Salve^white;"
 }

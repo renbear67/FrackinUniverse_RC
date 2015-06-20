@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "ff_protoplating", "count" : 8 },
     { "item" : "vialproto", "count" : 4 },
-    { "item" : "titaniumbar", "count" : 8 },
+    { "item" : "titaniumplate", "count" : 4 },
     { "item" : "moonstonebar", "count" : 7 }
   ],
   "output" : {

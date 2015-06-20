@@ -4,11 +4,5 @@
   "inventoryIcon" : "eridianbar.png",
   "description" : "This metal is lab-built, and extremely useful.",
   "shortdescription" : "Eridian Bar",
-  "learnBlueprintsOnPickup" : [ 
-  "fuquantumhead",
-  "fuquantumchest",
-  "fuquantumlegs",
-  "fuquantumhammer",
-  "eridianplate"
-  ]
+  "learnBlueprintsOnPickup" : [ "shadowblade", "fuquantumhead", "fuquantumchest", "fuquantumlegs", "fuquantumhammer", "eridianplate" ]
 }

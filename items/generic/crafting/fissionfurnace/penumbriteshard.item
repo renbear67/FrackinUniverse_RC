@@ -1,8 +1,8 @@
 {
   "itemName" : "penumbriteshard",
-  "rarity" : "rare",
+  "rarity" : "uncommon",
   "inventoryIcon" : "penumbriteshard.png",
   "description" : "Perfectly refined.",
-  "shortdescription" : "Penumbrite Shard",
+  "shortdescription" : "^#77acc3;Penumbrite Shard^white;",
   "learnBlueprintsOnPickup" : [ "penumbriteblockmaterial", "ff_penumbraplating" ]
 }

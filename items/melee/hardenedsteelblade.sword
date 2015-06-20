@@ -11,7 +11,7 @@
   "kind" : "Shortsword",
   "image" : "steelblade.png",
   "firePosition" : [22.5, 4.5],
-  "fireTime" : 0.7,
+  "fireTime" : 0.56,
   "fireAfterWindup" : true,
   "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_onehanded.wav" } ] },
 

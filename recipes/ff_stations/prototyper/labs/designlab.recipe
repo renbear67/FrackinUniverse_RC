@@ -1,10 +1,9 @@
 {
   "input" : [
-    { "item" : "titaniumbar", "count" : 10 },
-    { "item" : "goldbar", "count" : 2 },
-    { "item" : "copperbar", "count" : 5 },
-    { "item" : "ff_silicon", "count" : 4 },
-    { "item" : "glassmaterial", "count" : 10 }
+    { "item" : "steelplate", "count" : 2 },
+    { "item" : "advcircuit", "count" : 1 },
+    { "item" : "cpu", "count" : 1 },
+    { "item" : "apexpod2", "count" : 1 }
   ],
   "output" : {
     "item" : "designlab",

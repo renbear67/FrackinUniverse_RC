@@ -2,6 +2,7 @@
   "input" : [
    { "item" : "carbonplate", "count" : 8 },
    { "item" : "biofuelcannister", "count" : 12 },
+   { "item" : "moltencore", "count" : 1 },
    { "item" : "corefragmentore", "count" : 14 }
   ],
   "output" : {

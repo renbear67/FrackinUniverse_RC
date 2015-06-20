@@ -1,6 +1,6 @@
 {
   "itemName" : "liquidmercury",
-  "rarity" : "Common",
+  "rarity" : "uncommon",
   "inventoryIcon" : "liquidmercuryicon.png",
   "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
   "shortdescription" : "Liquid Mercury",

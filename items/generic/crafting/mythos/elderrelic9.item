@@ -1,7 +1,7 @@
 {
   "itemName" : "elderrelic9",
-  "rarity" : "Common",
+  "rarity" : "rare",
   "inventoryIcon" : "elderrelic9.png",
   "description" : "A bust of a hideous alien...'thing'",
-  "shortdescription" : "Elder Bust"
+  "shortdescription" : "^#ffe50e;Elder Bust^white;"
 }

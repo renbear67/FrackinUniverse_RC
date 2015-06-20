@@ -1,7 +1,7 @@
 {
   "itemName" : "elderrelic6",
-  "rarity" : "Common",
+  "rarity" : "rare",
   "inventoryIcon" : "elderrelic6.png",
   "description" : "Fractal patters swirl within a red crystalline sphere.",
-  "shortdescription" : "Valtan Casing"
+  "shortdescription" : "^#ffe50e;Valtan Casing^white;"
 }

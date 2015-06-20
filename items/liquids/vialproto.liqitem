@@ -1,6 +1,6 @@
 {
   "itemName" : "vialproto",
-  "rarity" : "Common",
+  "rarity" : "uncommon",
   "inventoryIcon" : "vialprotoicon.png",
   "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
   "shortdescription" : "Liquid Protocite",

@@ -1,11 +1,8 @@
 {
   "itemName" : "triangliumpyramid",
-  "rarity" : "Common",
+  "rarity" : "rare",
   "inventoryIcon" : "triangliumpyramid.png",
   "description" : "A melding of trianglium shards.",
-  "shortdescription" : "Trianglium Pyramid",
-  "learnBlueprintsOnPickup" : [ 
-  "fuplasmagun", 
-  "fuplasmacannon"
-  ]
+  "shortdescription" : "^#88e25b;Trianglium Pyramid^white;",
+  "learnBlueprintsOnPickup" : [ "fuplasmagun", "fuplasmacannon" ]
 }

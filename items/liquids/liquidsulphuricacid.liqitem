@@ -1,6 +1,6 @@
 {
   "itemName" : "liquidsulphuricacid",
-  "rarity" : "Common",
+  "rarity" : "rare",
   "inventoryIcon" : "liquidsulphuricacidicon.png",
   "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
   "shortdescription" : "Sulphuric Acid",

@@ -1,8 +1,9 @@
 {
   "itemName" : "ff_protoplating",
-  "rarity" : "Common",
+  "rarity" : "uncommon",
   "inventoryIcon" : "ff_protoplating.png",
   "description" : "Energy-conductive super-alloy",
-  "shortdescription" : "Proto Plating",
+  "shortdescription" : "^#77acc3;Proto Plating^white;",
+  "category" : "Metal Plate",
   "learnBlueprintsOnPickup" : [ "ff_scoutchest", "ff_scouthelm", "ff_scoutpants" ]
 }

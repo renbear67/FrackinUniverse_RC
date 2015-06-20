@@ -2,7 +2,7 @@
   "itemName" : "yellowguardianback",
   "inventoryIcon" : "guardianicon.png",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
-  "rarity" : "Common",
+  "rarity" : "rare",
   "description" : "These ancient crystals hum with energy. They release a gentle, healing light.",
   "shortdescription" : "Guardian Wings",
 

@@ -1,7 +1,7 @@
 {
   "itemName" : "eldertome",
-  "rarity" : "Common",
+  "rarity" : "rare",
   "inventoryIcon" : "eldertome.png",
   "description" : "A book containing ancient and malign texts",
-  "shortdescription" : "Elder Tome"
+  "shortdescription" : "^#ffe50e;Elder Tome^white;"
 }
