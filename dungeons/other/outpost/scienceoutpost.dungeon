@@ -48,9 +48,18 @@
     {
       "value" : [132, 139, 104, 255],
       "comment" : "samplingarray facing left",
-      "brush" : [ [ "clear" ], [ "object", "samplingarray", { "direction" : "left", "parameters" : { "defaultSwitchState" : true } } ] ]
+      "brush" : [ [ "clear" ], [ "object", "powerpress", { "direction" : "left", "parameters" : { "defaultSwitchState" : true } } ] ]
     }, 
-
+    {
+      "value" : [122, 139, 114, 255],
+      "comment" : "fissionfurnace facing left",
+      "brush" : [ [ "clear" ], [ "object", "fissionfurnace", { "direction" : "left", "parameters" : { "defaultSwitchState" : true } } ] ]
+    }, 
+    {
+      "value" : [128, 179, 114, 255],
+      "comment" : "nanofab facing left",
+      "brush" : [ [ "clear" ], [ "object", "nanofabricator", { "direction" : "left", "parameters" : { "defaultSwitchState" : true } } ] ]
+    },
 // ELDER GOODIES
     {
       "value" : [222, 204, 249, 255],
