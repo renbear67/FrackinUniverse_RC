@@ -4,5 +4,5 @@
     { "item" : "wire", "count" : 1 }
   ],
   "output" : { "item" : "circuitboard", "count" : 1 },
-  "groups" : [ "prototyper", "materials", "all" ]
+  "groups" : [ "prototyper", "chemical", "all" ]
 }

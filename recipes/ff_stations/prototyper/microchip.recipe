@@ -8,5 +8,5 @@
     "item" : "microchip",
     "count" : 2
   },
-  "groups" : [ "prototyper", "materials", "all" ]
+  "groups" : [ "prototyper", "chemical", "all" ]
 }

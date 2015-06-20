@@ -14,7 +14,7 @@
     "level" : 2,
     "tooltipKind" : "gun",
     "fireTime" : 0.03,
-    "projectileCount" : 3,
+    "projectileCount" : 2,
     "twoHanded" : true,
     "rateOfFire" : [2, 7],
     "muzzleEffect" : {

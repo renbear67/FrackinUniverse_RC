@@ -8,5 +8,5 @@
     "item" : "magneticshielding",
     "count" : 1
   },
-  "groups" : [ "prototyper", "tools", "all"]
+  "groups" : [ "prototyper", "chemical", "all"]
 }

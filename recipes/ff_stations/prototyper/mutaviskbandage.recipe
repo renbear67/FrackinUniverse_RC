@@ -6,5 +6,5 @@
     "item" : "mutaviskbandage",
     "count" : 1
   },
-  "groups" : [ "prototyper", "materials", "all" ]
+  "groups" : [ "prototyper", "chemical", "all" ]
 }
