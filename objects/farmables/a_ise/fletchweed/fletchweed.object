@@ -1,0 +1,38 @@
+{
+  "objectName" : "fletchweed",
+  "rarity" : "rare",
+  "category" : "farmable",
+  "description" : "It's produce is quite packed with energy.",
+  "shortdescription" : "Fletchweed",
+  "objectType" : "farmable",
+  "printable" : false, 
+
+  "inventoryIcon" : "fletchweedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "fletchweed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+"stages" : [
+    {
+      "duration" : [145, 160]
+    },
+    {
+      "duration" : [145, 160]
+    },
+    {
+      "alts" : 4,
+      "harvestPool" : "fletchweed",
+      "resetToStage" : 0
+    }
+  ]
+  }

@@ -1,0 +1,10 @@
+{
+  "itemName" : "crystalliteshard",
+  "rarity" : "Common",
+  "inventoryIcon" : "crystalliteshard.png",
+  "description" : "Can be used to craft throwing shards.",
+  "shortdescription" : "Crystallite Shard",
+      "effects" : [ [
+          "swimboost2"
+    ] ]
+}

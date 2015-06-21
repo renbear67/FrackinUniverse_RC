@@ -1,0 +1,38 @@
+{
+  "objectName" : "aenemaflower",
+  "rarity" : "uncommon",
+  "category" : "farmable",
+  "description" : "The buds on this plant produce shadow gas.",
+  "shortdescription" : "Aenema Flower",
+  "objectType" : "farmable",
+  "printable" : false, 
+  
+  "inventoryIcon" : "aenemaflowericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "aenemaflower.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+"stages" : [
+    {
+      "duration" : [145, 160]
+    },
+    {
+      "duration" : [145, 160]
+    },
+    {
+      "alts" : 4,
+      "harvestPool" : "aenemaflower",
+      "resetToStage" : 0
+    }
+  ]
+  }

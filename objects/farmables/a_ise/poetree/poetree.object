@@ -1,0 +1,38 @@
+{
+  "objectName" : "poetree",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "Poe trees actually produce a form of silicon. Handy, that.",
+  "shortdescription" : "Poe Tree",
+  "objectType" : "farmable",
+  "printable" : false, 
+
+  "inventoryIcon" : "poetreeicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "poetree.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+"stages" : [
+    {
+      "duration" : [420, 635]
+    },
+    {
+      "duration" : [420, 635]
+    },
+    {
+      "alts" : 4,
+      "harvestPool" : "poetree",
+      "resetToStage" : 0
+    }
+  ]
+  }

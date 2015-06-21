@@ -1,0 +1,10 @@
+{
+  "itemName" : "arkaendart",
+  "rarity" : "Common",
+  "inventoryIcon" : "arkaendart.png",
+  "description" : "Can be used to create deadly thrown weapons.",
+  "shortdescription" : "Arkaen Dart",
+      "effects" : [ [
+          "swimboost2"
+    ] ]
+}

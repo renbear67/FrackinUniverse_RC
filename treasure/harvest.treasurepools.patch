@@ -972,5 +972,152 @@
  {"op":"add", "path":"/silverleafHarvest", "value":[[0, {"fill":[{"item":"silverleafseed"}], "pool":[{"weight":0.6, "item":"silverleaf"}, {"weight":0.2, "item":"silverleafseed"}, {"weight":0.2, "item":"plantfibre"}], "poolRounds":[[0.7, 2], [0.3, 3]]}]]}, 
  {"op":"add", "path":"/wildsilverleafHarvest", "value":[[0, {"fill":[{"item":"silverleafseed"}], "pool":[{"weight":0.6, "item":"silverleaf"}, {"weight":0.2, "item":"plantfibre"}], "poolRounds":[[0.7, 2], [0.3, 3]]}]]}, 
  {"op":"add", "path":"/yellowfootHarvest", "value":[[0, {"fill":[{"item":"yellowfootseed"}], "pool":[{"weight":0.6, "item":"yellowfoot"}, {"weight":0.2, "item":"yellowfootseed"}, {"weight":0.2, "item":"plantfibre"}], "poolRounds":[[0.7, 2], [0.3, 3]]}]]}, 
- {"op":"add", "path":"/wildyellowfootHarvest", "value":[[0, {"fill":[{"item":"yellowfootseed"}], "pool":[{"weight":0.6, "item":"yellowfoot"}, {"weight":0.2, "item":"plantfibre"}], "poolRounds":[[0.7, 2], [0.3, 3]]}]]}
+ {"op":"add", "path":"/wildyellowfootHarvest", "value":[[0, {"fill":[{"item":"yellowfootseed"}], "pool":[{"weight":0.6, "item":"yellowfoot"}, {"weight":0.2, "item":"plantfibre"}], "poolRounds":[[0.7, 2], [0.3, 3]]}]]},
+ 
+ 
+ //ise3 plants
+ {"op":"add",
+ 	"path":"/arkaentree", 
+ 	"value":[[0, {"fill":[{"item":"arkaentree"}, 
+ 		{"item":"arkaendart"}, 
+ 		{"item":"plantfibre"}],
+ 	"pool":[ {"weight":0.5, "item":"arkaentree"} ],
+ 	"poolRounds":[[0.7,2],[0.3,3]]}
+ 		]]
+}, 
+ {"op":"add",
+ 	"path":"/aenemaflower", 
+ 	"value":[[0, {"fill":[{"item":"aenemaflower"}, 
+ 		{"item":"aenemapetal"}, 
+ 		{"item":"plantfibre"}],
+ 	"pool":[ {"weight":0.5, "item":"aenemaflower"} ],
+ 	"poolRounds":[[0.7,2],[0.3,3]]}
+ 		]]
+}, 
+ {"op":"add",
+ 	"path":"/batterystem", 
+ 	"value":[[0, {"fill":[{"item":"batterystem"}, 
+ 		{"item":"batterystemcharge"}, 
+ 		{"item":"plantfibre"}],
+ 	"pool":[ {"weight":0.5, "item":"batterystem"} ],
+ 	"poolRounds":[[0.7,2],[0.3,3]]}
+ 		]]
+}, 
+ {"op":"add",
+ 	"path":"/bellamorte", 
+ 	"value":[[0, {"fill":[{"item":"bellamorte"}, 
+ 		{"item":"bellamortecore"}, 
+ 		{"item":"plantfibre"}],
+ 	"pool":[ {"weight":0.5, "item":"bellamorte"} ],
+ 	"poolRounds":[[0.7,2],[0.3,3]]}
+ 		]]
+},
+ {"op":"add",
+ 	"path":"/crystallite", 
+ 	"value":[[0, {"fill":[{"item":"crystallite"}, 
+ 		{"item":"crystalliteshard"}, 
+ 		{"item":"plantfibre"}],
+ 	"pool":[ {"weight":0.5, "item":"crystallite"} ],
+ 	"poolRounds":[[0.7,2],[0.3,3]]}
+ 		]]
+},
+ {"op":"add",
+ 	"path":"/bladetree", 
+ 	"value":[[0, {"fill":[{"item":"bladetree"}, 
+ 		{"item":"bladetreeblade"}, 
+ 		{"item":"plantfibre"}],
+ 	"pool":[ {"weight":0.5, "item":"bladetree"} ],
+ 	"poolRounds":[[0.7,2],[0.3,3]]}
+ 		]]
+},
+ {"op":"add",
+ 	"path":"/darklightflower", 
+ 	"value":[[0, {"fill":[{"item":"darklightflower"}, 
+ 		{"item":"darklightblossom"}, 
+ 		{"item":"plantfibre"}],
+ 	"pool":[ {"weight":0.5, "item":"darklightflower"} ],
+ 	"poolRounds":[[0.7,2],[0.3,3]]}
+ 		]]
+},
+ {"op":"add",
+ 	"path":"/fletchweed", 
+ 	"value":[[0, {"fill":[{"item":"fletchweed"}, 
+ 		{"item":"fletchweedstem"}, 
+ 		{"item":"plantfibre"}],
+ 	"pool":[ {"weight":0.5, "item":"fletchweed"} ],
+ 	"poolRounds":[[0.7,2],[0.3,3]]}
+ 		]]
+},
+ {"op":"add",
+ 	"path":"/herrodbush", 
+ 	"value":[[0, {"fill":[{"item":"herrodbush"}, 
+ 		{"item":"herrodbushgem"}, 
+ 		{"item":"plantfibre"}],
+ 	"pool":[ {"weight":0.5, "item":"herrodbush"} ],
+ 	"poolRounds":[[0.7,2],[0.3,3]]}
+ 		]]
+},
+ {"op":"add",
+ 	"path":"/kramil", 
+ 	"value":[[0, {"fill":[{"item":"kramil"}, 
+ 		{"item":"kramilspine"}, 
+ 		{"item":"plantfibre"}],
+ 	"pool":[ {"weight":0.5, "item":"kramil"} ],
+ 	"poolRounds":[[0.7,2],[0.3,3]]}
+ 		]]
+},
+ {"op":"add",
+ 	"path":"/poetree", 
+ 	"value":[[0, {"fill":[{"item":"poetree"}, 
+ 		{"item":"ff_silicon"}, 
+ 		{"item":"plantfibre"}],
+ 	"pool":[ {"weight":0.5, "item":"poetree"} ],
+ 	"poolRounds":[[0.7,2],[0.3,3]]}
+ 		]]
+},
+ {"op":"add",
+ 	"path":"/quellstem", 
+ 	"value":[[0, {"fill":[{"item":"quellstem"}, 
+ 		{"item":"quellstembud"}, 
+ 		{"item":"plantfibre"}],
+ 	"pool":[ {"weight":0.5, "item":"quellstem"} ],
+ 	"poolRounds":[[0.7,2],[0.3,3]]}
+ 		]]
+},
+ {"op":"add",
+ 	"path":"/tinselbush", 
+ 	"value":[[0, {"fill":[{"item":"tinselbush"}, 
+ 		{"item":"tinselbushsprout"}, 
+ 		{"item":"plantfibre"}],
+ 	"pool":[ {"weight":0.5, "item":"tinselbush"} ],
+ 	"poolRounds":[[0.7,2],[0.3,3]]}
+ 		]]
+},
+ {"op":"add",
+ 	"path":"/victorbush", 
+ 	"value":[[0, {"fill":[{"item":"victorbush"}, 
+ 		{"item":"victorleafbud"}, 
+ 		{"item":"plantfibre"}],
+ 	"pool":[ {"weight":0.5, "item":"victorbush"} ],
+ 	"poolRounds":[[0.7,2],[0.3,3]]}
+ 		]]
+},
+ {"op":"add",
+ 	"path":"/whitespine", 
+ 	"value":[[0, {"fill":[{"item":"whitespine"}, 
+ 		{"item":"whitespineshell"}, 
+ 		{"item":"plantfibre"}],
+ 	"pool":[ {"weight":0.5, "item":"whitespine"} ],
+ 	"poolRounds":[[0.7,2],[0.3,3]]}
+ 		]]
+},
+ {"op":"add",
+ 	"path":"/garikleaf", 
+ 	"value":[[0, {"fill":[{"item":"garikleaf"}, 
+ 		{"item":"garikleafblossom"}, 
+ 		{"item":"plantfibre"}],
+ 	"pool":[ {"weight":0.5, "item":"garikleaf"} ],
+ 	"poolRounds":[[0.7,2],[0.3,3]]}
+ 		]]
+}
 ]

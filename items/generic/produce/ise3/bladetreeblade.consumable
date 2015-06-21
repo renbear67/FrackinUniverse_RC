@@ -1,0 +1,10 @@
+{
+  "itemName" : "bladetreeblade",
+  "rarity" : "Common",
+  "inventoryIcon" : "bladetreeblade.png",
+  "description" : "About as sharp as a knife.",
+  "shortdescription" : "Bladetree Blade",
+      "effects" : [ [
+          "swimboost2"
+    ] ]
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "bellamortecore",
+  "rarity" : "Common",
+  "inventoryIcon" : "bellamortecore.png",
+  "description" : "Contains a lethal poison.",
+  "shortdescription" : "Bella Morte Core",
+      "effects" : [ [
+          "poison"
+    ] ]
+}

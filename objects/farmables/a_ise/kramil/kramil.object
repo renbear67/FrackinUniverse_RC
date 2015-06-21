@@ -1,0 +1,38 @@
+{
+  "objectName" : "kramil",
+  "rarity" : "rare",
+  "category" : "farmable",
+  "description" : "Kramil is known for it's anti-freeze properties.",
+  "shortdescription" : "Kramil",
+  "objectType" : "farmable",
+  "printable" : false, 
+
+  "inventoryIcon" : "kramilicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "kramil.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+"stages" : [
+    {
+      "duration" : [210, 240]
+    },
+    {
+      "duration" : [210, 240]
+    },
+    {
+      "alts" : 4,
+      "harvestPool" : "kramil",
+      "resetToStage" : 0
+    }
+  ]
+  }

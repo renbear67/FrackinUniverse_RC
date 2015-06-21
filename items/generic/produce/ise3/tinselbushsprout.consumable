@@ -1,0 +1,10 @@
+{
+  "itemName" : "tinselbushsprout",
+  "rarity" : "Common",
+  "inventoryIcon" : "tinselbushsprout.png",
+  "description" : "Much sharper than they appear.",
+  "shortdescription" : "Tinselbush Sprouts",
+      "effects" : [ [
+          "swimboost2"
+    ] ]
+}

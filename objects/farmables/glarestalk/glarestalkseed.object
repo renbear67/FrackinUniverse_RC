@@ -30,7 +30,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "glarestalkHarvest"
+      "harvestPool" : "glarestalkHarvest",
+      "resetToStage" : 0
     }
   ]
 }

@@ -1,0 +1,38 @@
+{
+  "objectName" : "tinselbush",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "While it looks like tinsel, it's as sharp as razors.",
+  "shortdescription" : "Tinselbush",
+  "objectType" : "farmable",
+  "printable" : false, 
+
+  "inventoryIcon" : "tinselbushicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "tinselbush.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+"stages" : [
+    {
+      "duration" : [145, 160]
+    },
+    {
+      "duration" : [145, 160]
+    },
+    {
+      "alts" : 4,
+      "harvestPool" : "tinselbush",
+      "resetToStage" : 0
+    }
+  ]
+  }

@@ -1,0 +1,38 @@
+{
+  "objectName" : "garikleaf",
+  "rarity" : "rare",
+  "category" : "farmable",
+  "description" : "Grants a large boost to ground speed.",
+  "shortdescription" : "Garik Leaf",
+  "objectType" : "farmable",
+  "printable" : false, 
+
+  "inventoryIcon" : "garikicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "garikleaf.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+"stages" : [
+    {
+      "duration" : [210, 240]
+    },
+    {
+      "duration" : [210, 240]
+    },
+    {
+      "alts" : 4,
+      "harvestPool" : "garikleaf",
+      "resetToStage" : 0
+    }
+  ]
+  }
