@@ -8,5 +8,5 @@
     "item" : "magnesiumsulfate",
     "count" : 5
   },
-  "groups" : [ "chemlab", "powder", "all" ]
+  "groups" : [ "chemlab", "compounds", "all" ]
 }

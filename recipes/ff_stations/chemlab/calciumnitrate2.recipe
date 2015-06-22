@@ -7,5 +7,5 @@
     "item" : "calciumnitrate",
     "count" : 2
   },
-  "groups" : [ "chemlab", "powder", "all" ]
+  "groups" : [ "chemlab", "compounds", "all" ]
 }

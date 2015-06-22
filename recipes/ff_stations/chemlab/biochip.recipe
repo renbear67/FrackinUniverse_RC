@@ -8,5 +8,5 @@
     "item" : "biochip",
     "count" : 1
   },
-  "groups" : [ "chemlab", "materials", "all" ]
+  "groups" : [ "chemlab", "compounds", "all" ]
 }

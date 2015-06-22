@@ -9,5 +9,5 @@
     "item" : "apexbrainjar",
     "count" : 1
   },
-  "groups" : [ "chemlab", "other", "all" ]
+  "groups" : [ "chemlab", "objects", "all" ]
 }

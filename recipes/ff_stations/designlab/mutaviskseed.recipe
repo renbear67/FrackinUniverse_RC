@@ -5,5 +5,5 @@
     { "item" : "chloroplast1", "count" : 1 }
   ],
   "output" : { "item" : "mutaviskseed", "count" : 3 },
-  "groups" : [ "designlab", "other", "all" ]
+  "groups" : [ "designlab", "vegetable", "all" ]
 }

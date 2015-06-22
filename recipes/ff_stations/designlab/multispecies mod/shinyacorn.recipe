@@ -8,5 +8,5 @@
     "item" : "shinyacornseed",
     "count" : 3
   },
-  "groups" : [ "designlab", "objects", "all", "tools" ]
+  "groups" : [ "designlab", "tree", "all", "tools" ]
 }

@@ -8,5 +8,5 @@
     "item" : "corruptionseed",
     "count" : 6
   },
-  "groups" : [ "chemlab", "materials", "all" ]
+  "groups" : [ "chemlab", "compounds", "all" ]
 }

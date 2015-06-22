@@ -10,5 +10,5 @@
     "item" : "glarestalkseed",
     "count" : 1
   },
-  "groups" : [ "designlab", "objects", "all", "tools" ]
+  "groups" : [ "designlab", "tree", "all", "tools" ]
 }

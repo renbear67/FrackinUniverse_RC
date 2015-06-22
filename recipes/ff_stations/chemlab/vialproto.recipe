@@ -8,5 +8,5 @@
     "item" : "vialproto",
     "count" : 2
   },
-  "groups" : [ "chemlab", "materials", "all" ]
+  "groups" : [ "chemlab", "compounds", "all" ]
 }

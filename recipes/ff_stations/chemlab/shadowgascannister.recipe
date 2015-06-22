@@ -6,5 +6,5 @@
     "item" : "shadowgascannister",
     "count" : 1
   },
-  "groups" : [ "chemlab", "other", "all" ]
+  "groups" : [ "chemlab", "chemical", "all" ]
 }

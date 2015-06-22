@@ -9,5 +9,5 @@
     "item" : "unstableparticles",
     "count" : 1
   },
-  "groups" : [ "chemlab", "objects", "all", "other" ]
+  "groups" : [ "chemlab", "compounds", "all" ]
 }

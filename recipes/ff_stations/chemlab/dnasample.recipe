@@ -8,5 +8,5 @@
     "item" : "dnasample",
     "count" : 1
   },
-  "groups" : [ "chemlab", "materials", "all" ]
+  "groups" : [ "chemlab", "genetics", "all" ]
 }
