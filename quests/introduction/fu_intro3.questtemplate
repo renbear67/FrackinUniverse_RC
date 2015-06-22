@@ -2,8 +2,8 @@
   "id" : "fu_intro3.gearup",
   "prerequisites" : [ "fu_intro2.gearup" ],
   "title" : "^#1693d5;What Matters?",
-  "text" : "Before I send you to our engineer, you must have your own Matter Assembler. To craft it, you'll need ^orange;8 steel bars, 6 copper bars^white; and^orange; 4 units of glass.^white; Bring them to me and we can continue.",
-  "completionText" : "Well done. This weapon will help keep you safe in your travels. The sand will prove useful soon. See me when you wish to continue your education.",
+  "text" : "Before I send you to our engineer, you must have your own Matter Assembler. To craft it, you'll need ^orange;8 steel bars, 6 copper bars^white; and^orange; 4 units of glass.^white; ^green;Bring them to me^white; and we can continue.",
+  "completionText" : "Well done. This ^orange;weapon^white; will help keep you safe in your travels. The sand will prove useful soon. See me when you wish to continue your education.",
   "conditions" : [
     { "kind" : "gather", "item" : [ "steelbar", 8], "consume" : false },
     { "kind" : "gather", "item" : [ "copperbar", 6], "consume" : false },
