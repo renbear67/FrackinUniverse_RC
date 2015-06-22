@@ -1,7 +1,7 @@
   {
   "id" : "fissionfurnace.gearup",
   "title" : "^#1693d5;Hardcore Smelting",
-  "text" : "Building a fission furnace was a good move. With it, you can create the most advanced metals we know of. Start with some ^orange;Protocite Ore^white; to make a ^orange;Protocite Bar^white;.",
+  "text" : "Building a ^orange;fission furnace^white; was a good move. With it, you can ^green;create the most advanced metals we know of^white;. Start with some ^orange;Protocite Ore^green; to make a ^orange;Protocite Bar^white;.",
   "completionText" : "Great! Now go out and find other prime materials. ^orange;Penumbrite^white; is a logical next step.",
   "conditions" : [ 
     { "kind" : "gather", "item" : [ "protocitebar", 1], "consume" : false }
