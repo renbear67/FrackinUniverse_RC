@@ -3,5 +3,6 @@
   "rarity" : "uncommon",
   "inventoryIcon" : "blooddiamond.png",
   "description" : "Purified, extracted bloodstone.",
-  "shortdescription" : "Blood Diamond"
+  "shortdescription" : "Blood Diamond",
+  "learnBlueprintsOnPickup" : [ "quietusbar" ]
 }

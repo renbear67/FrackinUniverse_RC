@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "bloodore", "count" : 2 }
+    { "item" : "quietusore", "count" : 2 }
   ],
   "output" : {
-    "item" : "bloodsteelbar",
+    "item" : "blooddiamond",
     "count" : 1
   },
   "groups" : [ "fissionfurnace", "all" ]

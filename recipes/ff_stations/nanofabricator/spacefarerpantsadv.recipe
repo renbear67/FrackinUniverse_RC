@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "spacefarerpants", "count" : 1 },
-    { "item" : "bloodsteelbar", "count" : 2 },
+    { "item" : "quietusbar", "count" : 2 },
     { "item" : "aliencompound", "count" : 4 },
     { "item" : "electromagnet", "count" : 2 }
   ],

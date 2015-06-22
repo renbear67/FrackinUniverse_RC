@@ -1,7 +1,7 @@
 {
-  "itemName" : "bloodsteelbar",
+  "itemName" : "quietusbar",
   "rarity" : "rare",
-  "inventoryIcon" : "bloodsteelbar.png",
+  "inventoryIcon" : "quietusbar.png",
   "description" : "A lab created super-alloy.",
   "shortdescription" : "^#88e25b;Quietus Bar^white;",
   "learnBlueprintsOnPickup" : [ "diamondblade", "frostblade", "corruptblade", "moltenblade", "quietusplate" ]

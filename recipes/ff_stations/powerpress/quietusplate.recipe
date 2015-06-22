@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "bloodsteelbar", "count" : 3 },
+    { "item" : "quietusbar", "count" : 3 },
     { "item" : "ironplate", "count" : 1 }
   ],
   "output" : {

@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "ff_protoplating", "count" : 8 },
-    { "item" : "bloodsteelbar", "count" : 4 },
+    { "item" : "quietusbar", "count" : 4 },
     { "item" : "titaniumbar", "count" : 8 },
     { "item" : "corefragmentore", "count" : 8 }
   ],

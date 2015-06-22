@@ -1086,7 +1086,8 @@
 },
  {"op":"add",
  	"path":"/tinselbush", 
- 	"value":[[0, {"fill":[{"item":"tinselbush"}, 
+ 	"value":[[0, {"fill":[
+ 	        {"item":"tinselbush"}, 
  		{"item":"tinselbushsprout"}, 
  		{"item":"plantfibre"}],
  	"pool":[ {"weight":0.5, "item":"tinselbush"} ],

@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "carbonblade", "count" : 1 },
-    { "item" : "bloodsteelbar", "count" : 4 },
+    { "item" : "quietusbar", "count" : 4 },
     { "item" : "corruptionseed", "count" : 4 }
   ],
   "output" : {

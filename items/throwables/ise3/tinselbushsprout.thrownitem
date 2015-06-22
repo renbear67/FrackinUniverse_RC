@@ -1,0 +1,19 @@
+{
+  "itemName" : "tinselbushsprout",
+  "rarity" : "Rare",
+  "inventoryIcon" : "tinselbushsprout.png",
+  "image" : "tinselbushdart.png",
+  "shortdescription" : "Tinselbush Dart",
+  "description" : "Fun to throw at living things to make them not alive anymore.",
+  "ammoUsage" : 1,
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "tinselbushdart",
+  "projectileConfig" : {
+    "power" : 20,
+    "level" : 1
+  }
+}
+
