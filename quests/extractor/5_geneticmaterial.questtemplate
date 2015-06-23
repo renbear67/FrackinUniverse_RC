@@ -1,7 +1,7 @@
   {
   "id" : "5_geneticmaterial.gearup",
   "title" : "^#1693d5;Genetic Material",
-  "text" : "Genetic Material is easy enough to find, if you look at the right sources. Plant Fibre is the most abundant. You'll need 50 or more, however.",
+  "text" : "^orange;Genetic Material^white; is easy enough to find, if you look at the right sources. ^orange;Plant Fibre^white; is the most abundant. You'll need ^green;50^white; or more, however.",
   "completionText" : "Excellent. Now onto the next resource.",
   "conditions" : [ 
     { "kind" : "gather", "item" : [ "geneticmaterial", 1], "consume" : false }

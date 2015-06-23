@@ -2,7 +2,7 @@
   "id" : "1_biochemlab.gearup",
   "prerequisites" : [ "6_methanol.gearup" ],
   "title" : "^#1693d5;The Biochem Lab",
-  "text" : "Before you can really get started on science you are going to need a lot of resources. For that, you need a ^orange;Bio-Chem Lab^white;. It lets you make the chemicals and formulas you'll need. Build one now.",
+  "text" : "Before you can really get started on science you are going to need a lot of resources. For that, you need a ^orange;Bio-Chem Lab^white;. It lets you make the chemicals and formulas you'll need. ^green;Build one now^white;.",
   "completionText" : "This lab can create amazing chemical products. You're going to love it. If you don't blow yourself up, anyhow.",
   "conditions" : [ 
     { "kind" : "gather", "item" : [ "chemlab", 1], "consume" : false }

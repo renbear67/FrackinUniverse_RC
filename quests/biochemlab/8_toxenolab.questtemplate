@@ -1,8 +1,8 @@
   {
   "id" : "8_toxenolab.gearup",
   "title" : "^#1693d5;Meet the Specialist",
-  "text" : "^orange;Now, in order to learn about genetics, you'll need to meet our glitch specialist. Go talk to that kooky metal weirdo to continue your education.",
-  "completionText" : "Sincere. Welcome. I was told to give you this, and teach you about use of the Xeno Station.",
+  "text" : "Now, in order to learn about genetics, you'll need to ^green;meet our glitch specialist^white;. Go talk to that kooky metal weirdo to continue your education.",
+  "completionText" : "Sincere. Welcome. I was told to give you this, and teach you about use of the ^orange;Xeno Station.^white;",
   "conditions" : [],
   "moneyRange" : [0,0],
   "rewards" : [ [ "basicminer" ] ],

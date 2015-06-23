@@ -1,7 +1,7 @@
   {
   "id" : "4_rawminerals.gearup",
   "title" : "^#1693d5;Raw Minerals",
-  "text" : "Most often, cobblestone is your best and simplest bet for Raw Minerals. Go 50 and extract it.",
+  "text" : "Most often, ^orange;cobblestone^white; is your best and simplest bet for ^orange;Raw Minerals^white;. Go get ^green;50^white; and extract it.",
   "completionText" : "Excellent. Just a couple more basic resources to go, now.",
   "conditions" : [ 
     { "kind" : "gather", "item" : [ "rawminerals", 1], "consume" : false }
