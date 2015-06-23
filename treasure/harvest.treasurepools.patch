@@ -903,7 +903,16 @@
 		]]
 }, 
  
- 
+ {"op":"add",
+ 	"path":"/tentacleplant", 
+ 	"value":[[0, {"fill":[{"item":"tentacleplant"}, 
+ 		{"item":"tentacleproduce"}
+ 		],
+ 	"pool":[ {"weight":0.5, "item":"tentacleplant"} ],
+ 	"poolRounds":[[0.7,2],[0.3,3]]}
+ 		]]
+},
+
  //NON FF PLANTS
  {"op":"add", "path":"/biscornHarvest", "value":[[0, {"fill":[{"item":"biscornseed"}], "pool":[{"weight":0.6, "item":"biscorn"}, {"weight":0.2, "item":"biscornseed"}, {"weight":0.2, "item":"plantfibre"}], "poolRounds":[[0.7, 2], [0.3, 3]]}]]}, 
  {"op":"add", "path":"/wildbiscornHarvest", "value":[[0, {"fill":[{"item":"biscorn"}], "pool":[{"weight":0.6, "item":"biscorn"}, {"weight":0.2, "item":"plantfibre"}], "poolRounds":[[0.7, 2], [0.3, 3]]}]]}, 
