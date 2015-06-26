@@ -8,7 +8,7 @@
   "shortdescription" : "^#b84cbc;Quietus Maniupulator^white;",
   "largeImage" : "gravgunlarge.png",
   "tooltipKind" : "tool",
-  "category" : "Ultimate Matter Manipulator",
+  "category" : "Matter Manipulator",
   "fireTime" : 0.25,
   "blockRadius" : 5,
   "altBlockRadius" : 1,
@@ -17,6 +17,8 @@
   "canCollectLiquid" : true,
   "twoHanded" : true,
   "critical" : true,
+  "learnBlueprintsOnPickup" : [ "mmgravgun2" ],
+
   "strikeSounds" : [ "/sfx/tools/atom.wav", "/sfx/tools/atom2.wav", "/sfx/tools/atom3.wav", "/sfx/tools/atom4.wav", "/sfx/tools/atom5.wav" ],
 
   "image" : "/items/tools/gravgun1.png",

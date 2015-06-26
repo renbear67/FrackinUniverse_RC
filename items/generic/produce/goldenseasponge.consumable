@@ -2,13 +2,9 @@
   "itemName" : "goldenseasponge",
   "rarity" : "Common",
   "inventoryIcon" : "goldenseasponge.png",
-  "description" : "Shines beautifully underwater. Increases health by 100 for 90s.",
+  "description" : "Makes you as light as a sponge, affecting your gravity.",
   "shortdescription" : "Golden Sea Sponge",
   "effects" : [ [
-      {
-        "effect" : "maxHealth",
-        "amount" : 100,
-        "duration" : 90
-      }
+      "lowgrav"
     ] ]
 }

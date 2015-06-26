@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "advalloy", "count" : 6 },
+    { "item" : "advancealloy", "count" : 6 },
     { "item" : "hellfireplantseed", "count" : 3 },
     { "item" : "ff_focusingarray", "count" : 1 },
     { "item" : "prisilitestar", "count" : 4 },
