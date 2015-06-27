@@ -241,7 +241,16 @@
       "comment" : "elder chest",
       "brush" : [ [ "clear" ], [ "object", "elderchest2", { "direction" : "right", "parameters" : { "treasurePools" : [ "ffelderTreasure" ] } } ] ]
     },
-
+    {
+      "value" : [105, 235, 185, 255],
+      "comment" : "elder altar",
+      "brush" : [ [ "clear" ], [ "object", "elderaltar", { "direction" : "left", "parameters" : { "treasurePools" : [ "ffelderTreasure" ] } } ] ]
+    },
+    {
+      "value" : [105, 255, 135, 255],
+      "comment" : "elder altar",
+      "brush" : [ [ "clear" ], [ "object", "elderaltar", { "direction" : "right", "parameters" : { "treasurePools" : [ "ffelderTreasure" ] } } ] ]
+    },    
 //normal tiles
     {
       "value" : [55, 140, 140, 255],

@@ -3,7 +3,7 @@
   "rarity" : "uncommon",
   "category" : "Farmable",
   "description" : "Boosts energy reserves.",
-  "shortdescription" : "Yellowfoot Mushroom Spore",
+  "shortdescription" : "Yellowfoot Shroom",
   "objectType" : "farmable",
   "printable" : false,
   "objectItem" : "mineralsample",

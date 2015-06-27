@@ -149,7 +149,7 @@ local recipes =
 {inputs = { plantmatter=50 }, outputs = { tissueculture=4 }, time = 1},
 {inputs = { purplecrystalmaterial=50 }, outputs = { ff_silicon=3 }, time = 1},
 {inputs = { raincloudmat=50 }, outputs = { liquidwater=5 }, time = 1},
-{inputs = { redsand=50 }, outputs = { liquidoil=3 }, time = 1},
+{inputs = { redsand=50 }, outputs = { ff_silicon=2 }, time = 1},
 {inputs = { sand=50 }, outputs = { ff_silicon=2 }, time = 1},
 {inputs = { sand2=50 }, outputs = { ff_silicon=2 }, time = 1},
 {inputs = { sandstonematerial=50 }, outputs = { phosphorus=2 }, time = 1},

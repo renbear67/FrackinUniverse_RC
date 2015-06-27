@@ -4,7 +4,7 @@
   ],
   "output" : {
     "item" : "steelbar",
-    "count" : 1
+    "count" : 2
   },
   "groups" : [ "powerpress", "materials", "all" ]
 }

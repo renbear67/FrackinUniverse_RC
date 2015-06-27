@@ -3,7 +3,7 @@
   "rarity" : "uncommon",
   "category" : "Farmable",
   "description" : "These buggers are almost invisible!",
-  "shortdescription" : "Ghost Mushroom Spore",
+  "shortdescription" : "Ghost Mushroom",
   "objectType" : "farmable",
   "printable" : false,
   "objectItem" : "mineralsample",

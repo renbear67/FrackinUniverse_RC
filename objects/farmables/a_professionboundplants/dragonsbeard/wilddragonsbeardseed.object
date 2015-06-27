@@ -3,7 +3,7 @@
   "rarity" : "common",
   "category" : "Farmable",
   "description" : "Nearly immune to all forms of heat.",
-  "shortdescription" : "Dragons Beard Seed",
+  "shortdescription" : "Dragonsbeard",
   "objectType" : "farmable",
   "printable" : false,
   "objectItem" : "mineralsample",

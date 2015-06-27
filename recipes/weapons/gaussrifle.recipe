@@ -3,7 +3,7 @@
    { "item" : "corefragmentore", "count" : 8 },
    { "item" : "coil", "count" : 5 },
    { "item" : "graphene", "count" : 16 },
-   { "item" : "electromagnet", "count" : 6 }
+   { "item" : "powercore", "count" : 1 }
   ],
   "output" : {
     "item" : "fugaussrifle",

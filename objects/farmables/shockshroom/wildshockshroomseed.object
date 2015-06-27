@@ -3,7 +3,7 @@
   "rarity" : "Uncommon",
   "category" : "farmable",
   "description" : "Shock shrooms make useful weapons when processed.",
-  "shortdescription" : "Shock-Shroom Seed",
+  "shortdescription" : "Shock-Shroom",
   "objectType" : "farmable",
   "printable" : false,
   "objectItem" : "dnasample",

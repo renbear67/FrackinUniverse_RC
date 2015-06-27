@@ -78,6 +78,13 @@
         "bx" : -87,
         "by" : -16
       }
+    },
+    "crown4" : {
+      "image" : "crown4.png",
+      "attachment" : {
+        "bx" : -87,
+        "by" : -16
+      }
     }
   },
   "middle" : {

@@ -7,7 +7,7 @@
   "objectType" : "farmable",
   "printable" : false, 
 
-  "inventoryIcon" : "garikicon.png",
+  "inventoryIcon" : "garikleaficon.png",
   "orientations" : [
     {
       "dualImage" : "garikleaf.png:<color>.<stage>.<alt>",
