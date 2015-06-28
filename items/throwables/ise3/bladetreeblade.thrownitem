@@ -9,10 +9,11 @@
   "edgeTrigger" : true,
   "windupTime" : 0.0,
   "cooldown" : 0.4,
+  "timeToLive" : 1.2,
 
   "projectileType" : "bladetreedart",
   "projectileConfig" : {
-    "power" : 110,
+    "power" : 30,
     "level" : 2
   }
 }

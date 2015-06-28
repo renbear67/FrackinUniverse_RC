@@ -9,10 +9,9 @@
   "edgeTrigger" : true,
   "windupTime" : 0.0,
   "cooldown" : 0.4,
-
   "projectileType" : "arkaendart",
   "projectileConfig" : {
-    "power" : 450,
+    "power" : 90,
     "level" : 5
   }
 }

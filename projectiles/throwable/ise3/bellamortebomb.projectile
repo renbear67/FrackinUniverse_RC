@@ -1,12 +1,12 @@
 {
   "projectileName" : "bellamortebomb",
-  "frames" : "ignus.png",
+  "frames" : "bellamortebomb.png",
   "animationCycle" : 0.25,
   "level" : 4,
   "physics" : "grenadezbomb",
   "frameNumber" : 4,
   "pointLight" : false,
-  "speed" : 180,
+  "speed" : 50,
   "actionOnReap" : [
     {
       "action" : "config",

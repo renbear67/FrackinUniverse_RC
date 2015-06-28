@@ -2,14 +2,64 @@
   "projectileName" : "crystalliteshard",
   "frames" : "crystalliteshard.png",
   "animationCycle" : 0.25,
-  "physics" : "bullet",
+  "physics" : "paperplane",
   "frameNumber" : 1,
   "pointLight" : false,
-  "speed" : 150,
+  "speed" : 70,
+  "timeToLive" : 1,
   "actionOnReap" : [
     {
       "action" : "config",
-      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+      "file" : "/projectiles/explosions/crystalexplosion1/crystalexplosion1.config"
+    },
+    {
+      "action" : "projectile",
+      "type" : "crystalliteshard2",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.2,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "crystalshardsmall",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.2,
+      "angleAdjust" : 10
+    },
+    {
+      "action" : "projectile",
+      "type" : "crystalshardsmall",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.2,
+      "angleAdjust" : -10
+    },
+    {
+      "action" : "projectile",
+      "type" : "crystalshardsmall",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.2,
+      "angleAdjust" : 20
+    },
+    {
+      "action" : "projectile",
+      "type" : "crystalshardsmall",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.2,
+      "angleAdjust" : -20
+    },
+    {
+      "action" : "projectile",
+      "type" : "crystalshardsmall",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.2,
+      "angleAdjust" : -35
+    },
+    {
+      "action" : "projectile",
+      "type" : "crystalshardsmall",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.2,
+      "angleAdjust" : 35
     }
   ],
   "power" : 100.0,

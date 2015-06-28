@@ -12,7 +12,7 @@
 
   "projectileType" : "bellamortebomb",
   "projectileConfig" : {
-    "power" : 300,
+    "power" : 70,
     "level" : 4
   }
 }

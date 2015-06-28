@@ -12,7 +12,7 @@
 
   "projectileType" : "tinselbushdart",
   "projectileConfig" : {
-    "power" : 20,
+    "power" : 8,
     "level" : 1
   }
 }

@@ -5,10 +5,6 @@
   "description" : "Substantially increases your energy capacity.",
   "shortdescription" : "Fletchweed Stem",
       "effects" : [ [
-      {
-        "effect" : "maxEnergy",
-        "amount" : 100,
-        "duration" : 120
-      }
+     "maxenergyboost145"
     ] ]
 }

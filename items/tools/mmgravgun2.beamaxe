@@ -6,7 +6,7 @@
   "maxStack" : 1,
   "description" : "It gets no better than this.",
   "shortdescription" : "^#b84cbc;Quantum Matter Maniupulator^white;",
-  "largeImage" : "gravgunlarge.png",
+  "largeImage" : "gravgun2large.png",
   "tooltipKind" : "tool",
   "category" : "Matter Manipulator",
   "fireTime" : 0.25,

@@ -12,7 +12,7 @@
 
   "projectileType" : "crystalliteshard",
   "projectileConfig" : {
-    "power" : 200,
+    "power" : 50,
     "level" : 3
   }
 }
