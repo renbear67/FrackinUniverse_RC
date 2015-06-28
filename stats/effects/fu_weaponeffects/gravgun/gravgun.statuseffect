@@ -9,7 +9,7 @@
     "gravgun.lua"
   ],
 
-  "animationConfig" : "gravgun.animation",
+  //"animationConfig" : "gravgun.animation",
 
   "label" : "Grav Gun",
   "icon" : "/interface/statuses/lowgrav.png"

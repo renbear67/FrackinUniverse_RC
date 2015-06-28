@@ -1,24 +1,21 @@
 {
-  "name" : "metallicunderground",
-  "friendlyName" : "Metallic Underground",
+  "name" : "metalworksunderground1",
+  "friendlyName" : "Metal Caves",
 
   "spawnProfiles" : [
     {
-      "profiles" : [ "mediumunderground1" ],
+      "groups" : [ "mediumunderground1" ],
       "extraSpawns" : [ ]
     },
     {
-      "profiles" : [ "mediumunderground2" ],
+      "groups" : [ "mediumunderground2" ],
       "extraSpawns" : [ ]
     }
   ],
 
-  "mainBlock" : "rustyblock",
-  "subBlocks" : [ "ash", "direstone", "rustymetal" ],
-    "ores" : "ff_metalmoondeepOres",
-
-  "parallax" : "/parallax/underground/metallicunderground.parallax",
-
+  "mainBlock" : "junktech",
+  "subBlocks" : [ "rustymetal", "ironblock" ],
+  "ores" : "ff_metalmoonOres",
 
   "ambientNoises" : {
     "day" : {
@@ -37,6 +34,7 @@
       "tracks" : [ "/music/jupiter.ogg", "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/procyon.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-Disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/M54.ogg", "/music/Nomads.ogg", "/music/on-the-beach-at-night.ogg" ]
     }
   },
+
 
   "undergroundPlaceables" : {
     "grassMod" : [ "metal" ],

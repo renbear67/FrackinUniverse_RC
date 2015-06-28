@@ -1,25 +1,22 @@
 {
-  "name" : "metallicunderground",
-  "friendlyName" : "Metallic Underground",
+  "name" : "metalworksunderground2",
+  "friendlyName" : "Metal Caves",
 
   "spawnProfiles" : [
     {
-      "profiles" : [ "mediumunderground1" ],
+      "groups" : [ "mediumunderground1" ],
       "extraSpawns" : [ ]
     },
     {
-      "profiles" : [ "mediumunderground2" ],
+      "groups" : [ "mediumunderground2" ],
       "extraSpawns" : [ ]
     }
   ],
 
-  "mainBlock" : "rustyblock",
-  "subBlocks" : [ "ash", "direstone", "rustymetal" ],
-    "ores" : "ff_metalmoondeepOres",
-
-  "parallax" : "/parallax/underground/metallicunderground.parallax",
-
-
+  "mainBlock" : "pressurizedsteel",
+  "subBlocks" : [ "plate", "pressurizedbeam", "pressurizedgirder" ],
+  "ores" : "ff_metalmoonOres",
+  
   "ambientNoises" : {
     "day" : {
       "tracks" : [ "/sfx/environmental/desert_underground.ogg" ]

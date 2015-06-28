@@ -9,7 +9,7 @@
     "gravgun.lua"
   ],
 
-  "animationConfig" : "gravgun.animation",
+  //"animationConfig" : "gravgun.animation",
 
   "label" : "Quantum Hammer",
   "icon" : "/interface/statuses/lowgrav.png"

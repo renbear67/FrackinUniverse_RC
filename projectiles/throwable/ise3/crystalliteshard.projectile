@@ -21,42 +21,42 @@
     },
     {
       "action" : "projectile",
-      "type" : "crystalshardsmall",
+      "type" : "crystalliteshard2",
       "fuzzAngle" : 0,
       "inheritDamageFactor" : 0.2,
       "angleAdjust" : 10
     },
     {
       "action" : "projectile",
-      "type" : "crystalshardsmall",
+      "type" : "crystalliteshard2",
       "fuzzAngle" : 0,
       "inheritDamageFactor" : 0.2,
       "angleAdjust" : -10
     },
     {
       "action" : "projectile",
-      "type" : "crystalshardsmall",
+      "type" : "crystalliteshard2",
       "fuzzAngle" : 0,
       "inheritDamageFactor" : 0.2,
       "angleAdjust" : 20
     },
     {
       "action" : "projectile",
-      "type" : "crystalshardsmall",
+      "type" : "crystalliteshard2",
       "fuzzAngle" : 0,
       "inheritDamageFactor" : 0.2,
       "angleAdjust" : -20
     },
     {
       "action" : "projectile",
-      "type" : "crystalshardsmall",
+      "type" : "crystalliteshard2",
       "fuzzAngle" : 0,
       "inheritDamageFactor" : 0.2,
       "angleAdjust" : -35
     },
     {
       "action" : "projectile",
-      "type" : "crystalshardsmall",
+      "type" : "crystalliteshard2",
       "fuzzAngle" : 0,
       "inheritDamageFactor" : 0.2,
       "angleAdjust" : 35
