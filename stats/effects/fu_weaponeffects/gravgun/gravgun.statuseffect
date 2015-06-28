@@ -6,10 +6,10 @@
   "defaultDuration" : 1,
 
   "scripts" : [
-    "gravgun.lua"
+    "lowgrav.lua"
   ],
 
-  //"animationConfig" : "gravgun.animation",
+  "animationConfig" : "lowgrav.animation",
 
   "label" : "Grav Gun",
   "icon" : "/interface/statuses/lowgrav.png"

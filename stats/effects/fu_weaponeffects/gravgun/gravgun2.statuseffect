@@ -6,10 +6,10 @@
   "defaultDuration" : 0.15,
 
   "scripts" : [
-    "gravgun.lua"
+    "lowgrav.lua"
   ],
 
-  //"animationConfig" : "gravgun.animation",
+  "animationConfig" : "lowgrav.animation",
 
   "label" : "Quantum Hammer",
   "icon" : "/interface/statuses/lowgrav.png"
