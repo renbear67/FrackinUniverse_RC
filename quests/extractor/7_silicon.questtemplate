@@ -12,6 +12,6 @@
   "questDungeons" : [ ],
   "requireTurnIn" : false,
   "canBeAbandoned" : false,
-  "followUp" : "8_tobiochemlab.gearup"
+  "followUp" : "8_tobiochem.gearup"
 }
  

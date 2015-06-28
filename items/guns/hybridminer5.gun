@@ -4,7 +4,7 @@
     "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
     "maxStack" : 1,
     "rarity" : "rare",
-    "description" : "Holy crap.",
+    "description" : "Holy crap. Seriously. Just...wow.",
     "shortdescription" : "CT-4 Mining Cannon",
     "image" : "hybridminer5.png",
     "handPosition" : [-8, 0],
@@ -14,7 +14,7 @@
     "level" : 2,
     "tooltipKind" : "gun",
     "fireTime" : 0.03,
-    "projectileCount" : 2,
+    "projectileCount" : 1,
     "twoHanded" : true,
     "rateOfFire" : [2, 7],
     "muzzleEffect" : {
@@ -28,7 +28,7 @@
     "powerProjectileTime" : [0.4, 50],
     "projectile" : {
       "speed" : 20, 
-      "power" : 0.095 , 
+      "power" : 0.155 , 
       "color" : [153, 197, 208] 
   	}
 }
