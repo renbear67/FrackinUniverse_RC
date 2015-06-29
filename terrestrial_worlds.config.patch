@@ -512,7 +512,7 @@
       "layers" : {
         "surface" : {
           "primaryRegion" : [ "crystalmoon" ],
-          "secondaryRegion" : [ "crystalswamp", "ffhive", "corruptmoon", "reddesert", "cloudforest", "rainbowforest", "icefire", "sulphuricplain", "blackslimebog","blisterbushfield",  "pitchfield", "hellfirefield", "primevalforest", "irradiatedwaste", "bloodstonefield",  "volcanic", "magma", "penumbra", "protoworld", "icewaste" ],
+          "secondaryRegion" : [ "crystalswamp", "ffhive", "corruptmoon", "reddesert", "cloudforest", "rainbowforest", "icefire", "sulphuricplain", "blackslimebog","blisterbushfield",  "pitchfield", "primevalforest", "irradiatedwaste", "bloodstonefield", "penumbra", "protoworld", "icewaste", "volcanic" ],
           "dungeonCountRange" : [0, 2],
           "dungeons" : [ "crystalcavern", "wreck", "apexresearchlab", "scifidungeon"]
         },

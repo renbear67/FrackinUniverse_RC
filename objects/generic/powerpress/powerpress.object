@@ -6,7 +6,7 @@
     "config" : "/interface/windowconfig/powerpress.config",
     "filter" : [ "powerpress" ]
   },
-  "learnBlueprintsOnPickup" : [ "ironplate", "copperplate", "steelplate", "titaniumplate", "carbonplate", "densealloy", "advancealloy" ],
+  "learnBlueprintsOnPickup" : [ "ironplate", "copperplate", "steelplate", "titaniumplate", "carbonplate", "densealloy", "advancealloy", "eridianore" ],
   "printable" : false,
   "description" : "Creates plates of metal, plastic and other materials.",
   "shortdescription" : "^orange;Power Press^white;",
