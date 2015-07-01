@@ -3,5 +3,6 @@
   "rarity" : "Common",
   "inventoryIcon" : "luminescentcells.png",
   "description" : "Luminescence Research.",
-  "shortdescription" : "Bio-Luminescence Gene"
+  "shortdescription" : "Bio-Luminescence Gene",
+  "learnBlueprintsOnPickup" : [ "blisterbushplantseed", "goldshroomseed" ]
 }

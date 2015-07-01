@@ -3,5 +3,6 @@
   "rarity" : "Common",
   "inventoryIcon" : "adaptivecells.png",
   "description" : "adaptive cells.",
-  "shortdescription" : "Adaptive Cells"
+  "shortdescription" : "Adaptive Cells",
+  "learnBlueprintsOnPickup" : [ "adaptivecells" ]
 }

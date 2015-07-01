@@ -33,5 +33,6 @@
       "harvestPool" : "glarestalkHarvest",
       "resetToStage" : 0
     }
-  ]
+  ],
+  "learnBlueprintsOnPickup" : [ "teratomatoseed" ]
 }

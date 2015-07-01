@@ -39,5 +39,6 @@
       "alts" : 4,
       "harvestPool" : "bambooHarvest"
     }
-  ]
+  ],
+  "learnBlueprintsOnPickup" : [ "jillyrootseed" ]
 }

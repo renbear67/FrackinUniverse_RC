@@ -4,5 +4,5 @@
   "inventoryIcon" : "mutagene4.png",
   "description" : "Thick mutagenic extract",
   "shortdescription" : "^#88e25b;Potent mutagene^white;",
-  "learnBlueprintsOnPickup" : [ "biogun", "fuquantumchestadv", "fuquantumheadadv", "fuquantumlegsadv" ]
+  "learnBlueprintsOnPickup" : [ "tetherhookseed", "biogun", "fuquantumchestadv", "fuquantumheadadv", "fuquantumlegsadv" ]
 }

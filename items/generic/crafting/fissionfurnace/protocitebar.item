@@ -4,5 +4,5 @@
   "inventoryIcon" : "protocitebar.png",
   "description" : "Compressed protocyte",
   "shortdescription" : "^#77acc3;Protocyte Bar^white;",
-  "learnBlueprintsOnPickup" : [ "vialproto", "batterypack_protocyte", "mineralblade", "particlegrenade", "mineralcannonlite", "mineralpistollite", "warcleaver", "protopistol", "protominer", "ff_protoplating" ]
+  "learnBlueprintsOnPickup" : [ "energiflowerseed", "vialproto", "batterypack_protocyte", "mineralblade", "particlegrenade", "mineralcannonlite", "mineralpistollite", "warcleaver", "protopistol", "protominer", "ff_protoplating" ]
 }

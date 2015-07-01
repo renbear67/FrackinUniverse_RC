@@ -35,5 +35,6 @@
       "harvestPool" : "crystallite",
       "resetToStage" : 0
     }
-  ]
+  ],
+  "learnBlueprintsOnPickup" : [ "bellamorte" ]
   }

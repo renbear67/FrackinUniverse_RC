@@ -31,5 +31,6 @@
       "alts" : 5,
       "harvestPool" : "talonseedHarvest"
     }
-  ]
+  ],
+  "learnBlueprintsOnPickup" : [ "bluemelonseed" ]
 }

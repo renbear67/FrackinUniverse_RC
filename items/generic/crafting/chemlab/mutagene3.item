@@ -4,5 +4,5 @@
   "inventoryIcon" : "mutagene3.png",
   "description" : "Mutagenic extract",
   "shortdescription" : "Mutagene",
-  "learnBlueprintsOnPickup" : [ "goregun", "eyecannon" ]
+  "learnBlueprintsOnPickup" : [ "goregun", "eyecannon", "lactariusindigoseed" ]
 }

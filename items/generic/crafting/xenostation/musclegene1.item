@@ -4,5 +4,5 @@
   "inventoryIcon" : "musclegene1.png",
   "description" : "Muscle enhancement research.",
   "shortdescription" : "Strength I",
-  "learnBlueprintsOnPickup" : [ "musclegene2", "explosivegene" ]
+  "learnBlueprintsOnPickup" : [ "musclegene2", "explosivegene", "caprioleplantseed" ]
 }

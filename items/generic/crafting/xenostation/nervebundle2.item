@@ -4,5 +4,5 @@
   "inventoryIcon" : "nervebundle2.png",
   "description" : "Nerve Bundle research.",
   "shortdescription" : "^#77acc3;Nerve Bundle II^white;",
-  "learnBlueprintsOnPickup" : [ "nervebundle3" ]
+  "learnBlueprintsOnPickup" : [ "nervebundle3", "goldenglowseed" ]
 }

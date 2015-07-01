@@ -4,5 +4,5 @@
   "inventoryIcon" : "immunegene1.png",
   "description" : "Immunity research",
   "shortdescription" : "Immunity I",
-  "learnBlueprintsOnPickup" : [ "immunegene2" ]
+  "learnBlueprintsOnPickup" : [ "immunegene2", "nissseed" ]
 }

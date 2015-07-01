@@ -4,5 +4,5 @@
   "inventoryIcon" : "chloroplast1.png",
   "description" : "Modify metabolism of cells",
   "shortdescription" : "Chloroplast Boost I",
-  "learnBlueprintsOnPickup" : [ "chloroplast2", "synthesizedprotein", "organicsynthesis" ]
+  "learnBlueprintsOnPickup" : [ "talonseedseed", "chloroplast2", "synthesizedprotein", "organicsynthesis" ]
 }

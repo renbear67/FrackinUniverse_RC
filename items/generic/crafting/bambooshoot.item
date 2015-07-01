@@ -4,5 +4,5 @@
   "inventoryIcon" : "bambooshoot.png",
   "description" : "Bamboo for crafting goods.",
   "shortdescription" : "Bamboo Shoot",
-  "learnBlueprintsOnPickup" : [ "bamboobed", "bamboocabinet", "bamboochair", "bamboochest", "bamboodoor", "bambooplatform", "bamboosofa", "bambootable" ]
+  "learnBlueprintsOnPickup" : [ "bambooseed", "bamboobed", "bamboocabinet", "bamboochair", "bamboochest", "bamboodoor", "bambooplatform", "bamboosofa", "bambootable" ]
 }

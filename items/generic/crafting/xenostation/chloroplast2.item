@@ -4,5 +4,5 @@
   "inventoryIcon" : "chloroplast2.png",
   "description" : "Increase metabolic rate of cells",
   "shortdescription" : "^#77acc3;Chloroplast Boost II^white;",
-  "learnBlueprintsOnPickup" : [ "chloroplast3" ]
+  "learnBlueprintsOnPickup" : [ "yellowfootseed", "chloroplast3" ]
 }

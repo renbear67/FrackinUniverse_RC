@@ -36,5 +36,6 @@
       "harvestPool" : "stranglevineHarvest",
       "resetToStage" : 2
     }
-  ]
+  ],
+  "learnBlueprintsOnPickup" : [ "fayshroomseed" ]
 }

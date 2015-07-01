@@ -43,5 +43,6 @@
       "alts" : 1,
       "duration" : [100, 200]
     }
-  ]
+  ],
+  "learnBlueprintsOnPickup" : [ "voritseed", "littlegoodberryseed" ]
 }

@@ -3,5 +3,6 @@
   "rarity" : "Common",
   "inventoryIcon" : "toxicgene.png",
   "description" : "Alters cell to produce or resist toxins",
-  "shortdescription" : "Toxin Gene"
+  "shortdescription" : "Toxin Gene",
+  "learnBlueprintsOnPickup" : [ "tentacleplant", "thornitoxseed", "itaseed" ]
 }

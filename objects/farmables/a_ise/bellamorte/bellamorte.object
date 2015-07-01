@@ -35,5 +35,6 @@
       "harvestPool" : "bellamorte",
       "resetToStage" : 0
     }
-  ]
+  ],
+  "learnBlueprintsOnPickup" : [ "arkaentree" ]
   }

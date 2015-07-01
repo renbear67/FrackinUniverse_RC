@@ -39,5 +39,6 @@
 
             "damageType" : "IgnoresDef",
             "damageSourceKind" : "electroshock"
-          }
+          },
+  "learnBlueprintsOnPickup" : [ "deathblossomseed" ]
 }

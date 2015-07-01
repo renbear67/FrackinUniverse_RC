@@ -3,5 +3,6 @@
   "rarity" : "Common",
   "inventoryIcon" : "aquatichomeostasis.png",
   "description" : "Aquatic homeostasis research.",
-  "shortdescription" : "Aquatic Homeostasis"
+  "shortdescription" : "Aquatic Homeostasis",
+  "learnBlueprintsOnPickup" : [ "goldenseaspongeplant", "aquapodseed" ]
 }

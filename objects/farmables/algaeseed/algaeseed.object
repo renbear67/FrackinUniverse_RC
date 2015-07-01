@@ -30,5 +30,6 @@
       "alts" : 5,
       "harvestPool" : "algaeHarvest"
     }
-  ]
+  ],
+  "learnBlueprintsOnPickup" : [ "erithianalgaeseed" ]
 }

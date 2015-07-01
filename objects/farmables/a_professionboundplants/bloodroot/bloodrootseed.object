@@ -33,5 +33,6 @@
       "alts" : 5,
       "harvestPool" : "bloodrootHarvest"
     }
-  ]
+  ],
+  "learnBlueprintsOnPickup" : [ "goldenrootseed" ]
 }

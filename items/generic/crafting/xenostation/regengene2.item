@@ -4,5 +4,5 @@
   "inventoryIcon" : "regengene2.png",
   "description" : "Not too shabby. Great research, here.",
   "shortdescription" : "^#77acc3;Regeneration II^white;",
-  "learnBlueprintsOnPickup" : [ "regengene3" ]
+  "learnBlueprintsOnPickup" : [ "regengene3", "guamseed", "vextongueseed" ]
 }

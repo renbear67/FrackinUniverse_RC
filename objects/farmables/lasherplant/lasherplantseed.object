@@ -39,5 +39,6 @@
       "harvestPool" : "lasherHarvest",
       "resetToStage" : 2
     }
-  ]
+  ],
+  "learnBlueprintsOnPickup" : [ "porphisplantseed" ]
 }

@@ -3,5 +3,6 @@
   "rarity" : "Common",
   "inventoryIcon" : "coldgene.png",
   "description" : "Cold gene research",
-  "shortdescription" : "Cold Gene"
+  "shortdescription" : "Cold Gene",
+  "learnBlueprintsOnPickup" : [ "blizzberryseed", "snowberryseed", "pekkitseed" ]
 }

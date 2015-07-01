@@ -43,5 +43,6 @@
       "harvestPool" : "biscornHarvest",
       "resetToStage" : 2
     }
-  ]
+  ],
+  "learnBlueprintsOnPickup" : [ "littlerascalseed" ]
 }

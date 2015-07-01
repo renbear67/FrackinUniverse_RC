@@ -36,5 +36,6 @@
       "harvestPool" : "brackenHarvest",
       "resetToStage" : 2
     }
-  ]
+  ],
+  "learnBlueprintsOnPickup" : [ "diodiahybridseed" ]
 }

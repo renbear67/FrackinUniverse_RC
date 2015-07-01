@@ -4,5 +4,5 @@
   "inventoryIcon" : "defensegene1.png",
   "description" : "defense gene research.",
   "shortdescription" : "Cellular Defense I",
-  "learnBlueprintsOnPickup" : [ "defensegene2" ]
+  "learnBlueprintsOnPickup" : [ "defensegene2", "rockrootseed" ]
 }

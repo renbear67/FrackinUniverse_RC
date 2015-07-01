@@ -4,5 +4,5 @@
   "inventoryIcon" : "cellhardening1.png",
   "description" : "Cell hardening research.",
   "shortdescription" : "Cell Hardening I",
-  "learnBlueprintsOnPickup" : [ "cellhardening2" ]
+  "learnBlueprintsOnPickup" : [ "mutaviskseed" ]
 }

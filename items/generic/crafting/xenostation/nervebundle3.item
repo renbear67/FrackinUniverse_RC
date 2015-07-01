@@ -3,5 +3,6 @@
   "rarity" : "rare",
   "inventoryIcon" : "nervebundle3.png",
   "description" : "Nerve Bundle research.",
-  "shortdescription" : "^#88e25b;Nerve Bundle III^white;"
+  "shortdescription" : "^#88e25b;Nerve Bundle III^white;",
+  "learnBlueprintsOnPickup" : [ "petrifiedrootseed" ]
 }

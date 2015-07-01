@@ -35,5 +35,6 @@
       "harvestPool" : "tinselbush",
       "resetToStage" : 0
     }
-  ]
+  ],
+  "learnBlueprintsOnPickup" : [ "bladetree" ]
   }

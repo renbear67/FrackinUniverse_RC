@@ -6,7 +6,7 @@
   "shortdescription" : "Thornitox Seed",
   "objectType" : "farmable",
   "printable" : false, 
-  "learnBlueprintsOnPickup" : [ "spikesword", "thornrifle", "thornslinger" ],
+  "learnBlueprintsOnPickup" : [ "blexplantseed", "spikesword", "thornrifle", "thornslinger" ],
 
   "inventoryIcon" : "thornitoxseedicon.png",
   "orientations" : [

@@ -35,5 +35,6 @@
       "harvestPool" : "garikleaf",
       "resetToStage" : 0
     }
-  ]
+  ],
+  "learnBlueprintsOnPickup" : [ "victorbush" ]
   }

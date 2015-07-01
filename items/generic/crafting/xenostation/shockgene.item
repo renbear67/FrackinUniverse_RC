@@ -3,5 +3,6 @@
   "rarity" : "Common",
   "inventoryIcon" : "shockgene.png",
   "description" : "Changes a cell to resist or expel electricity.",
-  "shortdescription" : "Electroplaque Gene"
+  "shortdescription" : "Electroplaque Gene",
+  "learnBlueprintsOnPickup" : [ "shockshroomseed" ]
 }

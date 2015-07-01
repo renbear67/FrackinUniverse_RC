@@ -36,5 +36,6 @@
       "harvestPool" : "varanberryHarvest",
       "resetToStage" : 2
     }
-  ]
+  ],
+  "learnBlueprintsOnPickup" : [ "mintseed" ]
 }

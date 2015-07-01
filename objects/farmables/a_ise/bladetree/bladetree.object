@@ -35,5 +35,6 @@
       "harvestPool" : "bladetree",
       "resetToStage" : 0
     }
-  ]
+  ],
+  "learnBlueprintsOnPickup" : [ "crystallite" ]
   }

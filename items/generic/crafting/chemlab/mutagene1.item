@@ -3,5 +3,6 @@
   "rarity" : "uncommon",
   "inventoryIcon" : "mutagene1.png",
   "description" : "Potent mutagenic extract",
-  "shortdescription" : "^#77acc3;Potent mutagene^white;"
+  "shortdescription" : "^#77acc3;Potent mutagene^white;",
+  "learnBlueprintsOnPickup" : [ "pasakavineseed", "lasherplantseed" ]
 }

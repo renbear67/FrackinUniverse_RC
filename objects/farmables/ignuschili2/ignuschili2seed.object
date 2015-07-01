@@ -43,5 +43,6 @@
       "harvestPool" : "ignuschili2Harvest",
       "resetToStage" : 2
     }
-  ]
+  ],
+  "learnBlueprintsOnPickup" : [ "hellfireplantseed" ]
 }

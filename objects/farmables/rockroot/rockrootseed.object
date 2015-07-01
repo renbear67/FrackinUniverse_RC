@@ -36,5 +36,6 @@
       "harvestPool" : "rockrootHarvest",
       "resetToStage" : 2
     }
-  ]
+  ],
+  "learnBlueprintsOnPickup" : [ "beetlesproutseed" ]
 }
