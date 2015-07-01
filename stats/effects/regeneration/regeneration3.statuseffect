@@ -11,6 +11,6 @@
 
   "animationConfig" : "regeneration.animation",
 
-  "label" : "Regen 3",
+  "label" : "Regen 5",
   "icon" : "/interface/statuses/heal.png"
 }

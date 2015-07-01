@@ -6,11 +6,11 @@
   "defaultDuration" : 5,
 
   "scripts" : [
-    "regeneration2.lua"
+    "regeneration01.lua"
   ],
 
   "animationConfig" : "regeneration.animation",
 
-  "label" : "Regeneration",
+  "label" : "Regen 0",
   "icon" : "/interface/statuses/heal.png"
 }
