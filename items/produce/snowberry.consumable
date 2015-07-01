@@ -2,9 +2,9 @@
   "itemName" : "snowberry",
   "rarity" : "Common",
   "inventoryIcon" : "snowberry.png",
-  "description" : "Grants immunity to liquid nitrogen.",
+  "description" : "Grants immunity to snow, slush and ice effects.",
   "shortdescription" : "Snowberry",
   "effects" : [ [
-      "nitrogenfreezeimmunity"
+      "slushslowimmunity", "snowslowimmunity", "iceslipimmunity"
     ] ]
 }

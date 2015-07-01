@@ -1,16 +1,16 @@
 {
-  "name" : "regenerationminor",
+  "name" : "regeneration3",
   "effectConfig" : {
     "healTime" : 60
   },
   "defaultDuration" : 15,
 
   "scripts" : [
-    "regenerationminor.lua"
+    "regeneration3.lua"
   ],
 
   "animationConfig" : "regeneration.animation",
 
-  "label" : "Regen 0",
+  "label" : "Regen 3",
   "icon" : "/interface/statuses/heal.png"
 }

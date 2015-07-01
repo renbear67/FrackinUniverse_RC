@@ -15,7 +15,7 @@
   "sitCoverImage" : "/objects/scienceoutpost/medbaycover.png",
   "sitEmote" : "sleep",
   "sitStatusEffects" : [
-    "regeneration2",
+    "regeneration3",
     "nude"
   ],
   "sitEffectEmitters" : [ "sleepbubbles" ],
