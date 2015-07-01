@@ -1,5 +1,5 @@
 {
-  "name" : "arboreal",
+  "name" : "arboreal2",
   "friendlyName" : "Primeval Forest",
 
   "requiredStatuses" : [],
@@ -27,7 +27,7 @@
   "skyOptions" : [
     // green tinted bright
     {
-      "mainColor" : [255, 255, 255],
+      "mainColor" : [120, 120, 120],
 
       "morningColors" : [ [123, 224, 150], [124, 230, 164] ],
       "dayColors" : [ [130, 255, 190], [135, 255, 195] ],
@@ -41,7 +41,7 @@
     },
     //greentinted medium
     {
-      "mainColor" : [220, 220, 220],
+      "mainColor" : [90, 90, 90],
 
       "morningColors" : [ [123, 224, 150], [124, 230, 164] ],
       "dayColors" : [ [130, 255, 190], [135, 255, 195] ],
@@ -51,11 +51,11 @@
       "morningLightColor" : [90, 150, 110],
       "dayLightColor" : [45, 100, 55],
       "eveningLightColor" : [25, 50, 30],
-      "nightLightColor" : [0, 12, 0]
+      "nightLightColor" : [20, 12, 0]
     },
     //green tinted dark
     {
-      "mainColor" : [150, 150, 150],
+      "mainColor" : [100, 100, 100],
 
       "morningColors" : [ [123, 224, 150], [124, 230, 164] ],
       "dayColors" : [ [130, 255, 190], [135, 255, 195] ],
@@ -69,7 +69,7 @@
     },
     //yellow tinted
     {
-      "mainColor" : [180, 180, 180],
+      "mainColor" : [80, 80, 80],
 
       "morningColors" : [ [230, 192, 17], [230, 200, 164] ],
       "dayColors" : [ [230, 192, 50], [230, 192, 50] ],
@@ -79,11 +79,11 @@
       "morningLightColor" : [230, 192, 17],
       "dayLightColor" : [230, 192, 50],
       "eveningLightColor" : [181, 152, 44],
-      "nightLightColor" : [72, 30, 0]
+      "nightLightColor" : [12, 40, 0]
     },
     //yellow tinted dark
     {
-      "mainColor" : [170, 170, 170],
+      "mainColor" : [90, 90, 90],
 
       "morningColors" : [ [230, 192, 17], [230, 200, 164] ],
       "dayColors" : [ [230, 192, 50], [230, 192, 50] ],
@@ -93,12 +93,12 @@
       "morningLightColor" : [230, 192, 17],
       "dayLightColor" : [230, 192, 50],
       "eveningLightColor" : [181, 152, 44],
-      "nightLightColor" : [72, 30, 0]
+      "nightLightColor" : [42, 30, 0]
     }
   ],
 
   "mainBlock" : "plantmatter",
-  "subBlocks" : [ "dirt", "clay", "mud" ],
+  "subBlocks" : [ "shroomblock", "rock12", "petalblock" ],
   "ores" : "ff_surfacearborealOres",
 
   "parallax" : "/parallax/surface/arboreal.parallax",
