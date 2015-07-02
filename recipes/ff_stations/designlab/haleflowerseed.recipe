@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "chloroplast3", "count" : 1 },
-    { "item" : "nervebundle2", "count" : 1 }
+    { "item" : "nervebundle2", "count" : 1 },
     { "item" : "adaptivecells", "count" : 1 },
     { "item" : "diodiahybridseed", "count" : 3 }
   ],

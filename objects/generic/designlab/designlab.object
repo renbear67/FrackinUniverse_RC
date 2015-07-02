@@ -13,7 +13,7 @@
   "category" : "crafting",
   "price" : 450,
 
-  "learnBlueprintsOnPickup" : [ "miraclegrassseed", "oonfortaseed", "varanberryseed", "livingrootseed", "algaeseed", "brackentreeseed", "naileryseed", "onion" ],
+  "learnBlueprintsOnPickup" : [ "miraclegrassseed", "oonfortaseed", "varanberryseed", "livingrootseed", "algaeseed", "brackentreeseed", "naileryseed", "onionseed" ],
 
   "lightColor" : [60, 60, 100],
   "soundEffect" : "/sfx/objects/fridge_hum.wav",

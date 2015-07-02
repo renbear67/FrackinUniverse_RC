@@ -1331,6 +1331,52 @@
         }
       }
    },
+
+   {"op" : "add", 
+   "path" : "/planetTypes/tarball",
+   "value" : 
+     {
+       "threatRange" : [1, 7],
+       "layers" : {
+         "surface" : {
+           "primaryRegion" : [ "tarball" ],
+           "secondaryRegion" : [ "sulphuricmagma", "hellhive", "elder", "magma", "volcanic" ],
+           "dungeonCountRange" : [0, 2],
+           "dungeons" : [ "wreck", "apexresearchlab", "humanprison" ]
+         },
+        "subsurface" : {
+          "primaryRegion" : [ "fftarunderground" ]
+        },
+         "underground1" : {
+         "primaryRegion" : [ "fftarunderground" ],
+           "secondaryRegion" : [ "ffcrystalrealm", "crystalcave", "ffsupermatter", "ffsupermatter", "ffshadow", "ffvolcanic", "ffcrystalcavern" ]
+           },
+        "underground2" : {
+        "primaryRegion" : [ "fftarunderground" ],
+          "secondaryRegion" : [ "ffcrystalrealm", "crystalcave", "ffsupermatter", "ffsupermatter", "ffshadow", "ffvolcanic", "ffcrystalcavern" ]
+          },
+        "underground3" : {
+        "primaryRegion" : [ "fftarunderground" ],
+          "secondaryRegion" : [ "ffcrystalrealm", "crystalcave", "ffsupermatter", "ffsupermatter", "ffshadow", "ffvolcanic", "ffcrystalcavern" ]
+          },
+        "underground4" : {
+        "primaryRegion" : [ "fftarunderground" ],
+           "secondaryRegion" : [ "ffcrystalrealm", "crystalcave", "ffsupermatter", "ffsupermatter", "ffshadow", "ffvolcanic", "ffcrystalcavern" ]
+           },
+        "underground5" : {
+        "primaryRegion" : [ "fftarunderground" ],
+           "secondaryRegion" : [ "ffcrystalrealm", "crystalcave", "ffsupermatter", "ffsupermatter", "ffshadow", "ffvolcanic", "ffcrystalcavern" ]
+           },
+        "underground6" : {
+        "primaryRegion" : [ "fftarunderground" ],
+          "secondaryRegion" : [ "ffcrystalrealm", "crystalcave", "ffsupermatter", "ffsupermatter", "ffshadow", "ffvolcanic", "ffcrystalcavern" ]
+          },
+        "core" : {
+          "primaryRegion" : [ "core" ]
+        } 
+       }
+     }
+   },
    
 {"op" : "add",
 "path" : "/planetTypes/tidewater",
@@ -2029,6 +2075,22 @@
       ]
     }
   },
+
+  {"op" : "add", 
+  "path" : "/regionTypes/tarball",
+  "value" : 
+  {
+      "caveLiquid" : [ "tarliquid", "blacktar" ],
+      "caveLiquidChanceRange" : [100, 100],
+      "blockSelector" : [ "medHillsSurface", "ledgesSurface", "canyonsSurface", "mixedSurface", "mountainsSurface" ],
+      "fgCaveSelector" : [ "denseCaves" ],
+      "bgOreSelector" : [ "denseVeins" ],       
+      "biome" : [
+        [0, [ "tarball" ]]
+      ]
+    }
+  },
+  
   {"op" : "add", 
   "path" : "/regionTypes/ffhive",
   "value" : 

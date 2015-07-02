@@ -1568,7 +1568,7 @@
         "dynamicsImages" : "/celestial/system/terrestrial/dynamics/<num>.png",
         "dynamicsRange" : [1, 40],
 
-        "terrestrialType" : [ "desert_wastes", "desert2", "infernus", "magma", "volcanic", "sulphuric", "sulphuricocean", "scorched" ]
+        "terrestrialType" : [ "tarball", "desert_wastes", "desert2", "infernus", "magma", "volcanic", "sulphuric", "sulphuricocean", "scorched" ]
       },
 
       "variationParameters" : [
@@ -1615,7 +1615,7 @@
         "dynamicsImages" : "/celestial/system/terrestrial/dynamics/<num>.png",
         "dynamicsRange" : [1, 40],
 
-        "terrestrialType" : [ "desert_wastes", "mountainous", "fungus", "barren", "infernus", "magma", "volcanic", "sulphuric", "sulphuricocean", "desert2", "ocean", "ffunknown" ]
+        "terrestrialType" : [ "tarball", "desert_wastes", "mountainous", "fungus", "barren", "infernus", "magma", "volcanic", "sulphuric", "sulphuricocean", "desert2", "ocean", "ffunknown" ]
       },
 
       "variationParameters" : [
@@ -1662,7 +1662,7 @@
         "dynamicsImages" : "/celestial/system/terrestrial/dynamics/<num>.png",
         "dynamicsRange" : [1, 40],
 
-        "terrestrialType" : [ "desert_wastes", "forest2", "mountainous", "tidewater", "fungus", "barren", "irradiated", "volcanic", "arboreal", "arboreal2","atropus", "desert2", "protoworld", "alien", "ocean", "toxic", "bloodstone", "bloodstonesea", "slimeworld", "ffunknown" ]
+        "terrestrialType" : [ "tarball", "desert_wastes", "forest2", "mountainous", "tidewater", "fungus", "barren", "irradiated", "volcanic", "arboreal", "arboreal2","atropus", "desert2", "protoworld", "alien", "ocean", "toxic", "bloodstone", "bloodstonesea", "slimeworld", "ffunknown" ]
       },
 
       "variationParameters" : [
@@ -1897,7 +1897,7 @@
         "dynamicsImages" : "/celestial/system/terrestrial/dynamics/<num>.png",
         "dynamicsRange" : [1, 40],
 
-        "terrestrialType" : [ "fungus", "irradiated", "penumbra", "protoworld", "atropus", "alien", "urbanwasteland", "ffunknown", "bloodstone" ]
+        "terrestrialType" : [ "tarball", "fungus", "irradiated", "penumbra", "protoworld", "atropus", "alien", "urbanwasteland", "ffunknown", "bloodstone" ]
       },
 
       "variationParameters" : [
@@ -1948,7 +1948,7 @@
         "dynamicsImages" : "/celestial/system/terrestrial/dynamics/<num>.png",
         "dynamicsRange" : [1, 40],
 
-        "terrestrialType" : [ "desert_wastes", "desert2", "infernus", "magma", "volcanic", "sulphuric", "sulphuricocean",  "scorched" ]
+        "terrestrialType" : [ "tarball", "desert_wastes", "desert2", "infernus", "magma", "volcanic", "sulphuric", "sulphuricocean",  "scorched" ]
       },
 
       "variationParameters" : [
@@ -1983,7 +1983,7 @@
         "dynamicsImages" : "/celestial/system/terrestrial/dynamics/<num>.png",
         "dynamicsRange" : [1, 40],
 
-        "terrestrialType" : [ "mountainous", "fungus", "moon", "barren", "infernus", "magma", "volcanic", "sulphuric", "sulphuricocean", "desert2", "desert_wastes", "ocean" ]
+        "terrestrialType" : [ "tarball", "mountainous", "fungus", "moon", "barren", "infernus", "magma", "volcanic", "sulphuric", "sulphuricocean", "desert2", "desert_wastes", "ocean" ]
       },
 
       "variationParameters" : [
@@ -2018,7 +2018,7 @@
         "dynamicsImages" : "/celestial/system/terrestrial/dynamics/<num>.png",
         "dynamicsRange" : [1, 40],
 
-        "terrestrialType" : [ "forest2", "mountainous", "tidewater", "fungus", "moon", "barren", "irradiated", "volcanic", "arboreal", "arboreal2", "atropus", "desert2", "desert_wastes", "protoworld", "alien", "ocean", "toxic", "bloodstone","bloodstonesea", "slimeworld" ]
+        "terrestrialType" : [ "tarball", "forest2", "mountainous", "tidewater", "fungus", "moon", "barren", "irradiated", "volcanic", "arboreal", "arboreal2", "atropus", "desert2", "desert_wastes", "protoworld", "alien", "ocean", "toxic", "bloodstone","bloodstonesea", "slimeworld" ]
       },
 
       "variationParameters" : [
@@ -2194,7 +2194,7 @@
         "dynamicsImages" : "/celestial/system/terrestrial/dynamics/<num>.png",
         "dynamicsRange" : [1, 40],
 
-        "terrestrialType" : [ "fungus", "frozenvolcanic", "penumbra", "lightless", "icemoon", "metallicmoon", "snow", "icemoon", "tundra", "icewaste", "arctic", "ffunknown" ]
+        "terrestrialType" : [ "tarball", "fungus", "frozenvolcanic", "penumbra", "lightless", "icemoon", "metallicmoon", "snow", "icemoon", "tundra", "icewaste", "arctic", "ffunknown" ]
       },
 
       "variationParameters" : [
@@ -2231,7 +2231,7 @@
         "dynamicsImages" : "/celestial/system/terrestrial/dynamics/<num>.png",
         "dynamicsRange" : [1, 40],
 
-        "terrestrialType" : [ "fungus", "frozenvolcanic", "crystalmoon", "penumbra", "lightless", "icemoon", "metallicmoon", "snow", "icemoon", "tundra", "icewaste", "arctic", "ffunknown" ]
+        "terrestrialType" : [ "tarball", "fungus", "frozenvolcanic", "crystalmoon", "penumbra", "lightless", "icemoon", "metallicmoon", "snow", "icemoon", "tundra", "icewaste", "arctic", "ffunknown" ]
       },
 
       "variationParameters" : [
@@ -2266,7 +2266,7 @@
         "dynamicsImages" : "/celestial/system/terrestrial/dynamics/<num>.png",
         "dynamicsRange" : [1, 40],
 
-        "terrestrialType" : [ "fungus", "sulphuricocean", "frozenvolcanic", "crystalmoon", "irradiated", "penumbra", "protoworld", "atropus", "alien", "urbanwasteland", "ffunknown" ]
+        "terrestrialType" : [ "tarball", "fungus", "sulphuricocean", "frozenvolcanic", "crystalmoon", "irradiated", "penumbra", "protoworld", "atropus", "alien", "urbanwasteland", "ffunknown" ]
       },
 
       "variationParameters" : [

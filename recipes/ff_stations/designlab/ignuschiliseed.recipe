@@ -3,7 +3,7 @@
     { "item" : "firegene", "count" : 1 },
     { "item" : "chiliseed", "count" : 1 },
     { "item" : "corefragmentore", "count" : 2 },
-    { "item" : "explosivegene", "count" : 1 }
+    { "item" : "explosivegene", "count" : 1 },
     { "item" : "cellresistance1", "count" : 1 }
   ],
   "output" : {

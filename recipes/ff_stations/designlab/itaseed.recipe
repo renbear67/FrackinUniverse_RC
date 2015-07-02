@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "toxicgene", "count" : 1 },
     { "item" : "cellmateria", "count" : 3 },
-    { "item" : "immunegene1", "count" : 1 }
+    { "item" : "immunegene1", "count" : 1 },
     { "item" : "regengene1", "count" : 1 }
   ],
   "output" : {
