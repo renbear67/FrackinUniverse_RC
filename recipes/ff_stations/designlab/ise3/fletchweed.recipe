@@ -4,7 +4,7 @@
     { "item" : "shockgene", "count" : 1 },
     { "item" : "nervebundle2", "count" : 1 },
     { "item" : "adaptivecells", "count" : 1 },
-    { "item" : "energiflowerseed", "count" : 2 }
+    { "item" : "energiflowerseed", "count" : 3 }
   ],
   "output" : {
     "item" : "fletchweed",

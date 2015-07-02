@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "cellhardening3", "count" : 1 },
-    { "item" : "crystalplantseed", "count" : 1 },
+    { "item" : "crystalplantseed", "count" : 3 },
     { "item" : "chloroplast2", "count" : 1 },
     { "item" : "adaptivecells", "count" : 1 }
   ],

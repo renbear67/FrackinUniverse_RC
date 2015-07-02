@@ -3,7 +3,7 @@
     { "item" : "peptidechain", "count" : 5 },
     { "item" : "nervebundle1", "count" : 1 },
     { "item" : "liquidorganicsoup", "count" : 2 },
-    { "item" : "magnesiumpowder", "count" : 8 }
+    { "item" : "advancedpeptide", "count" : 8 }
   ],
   "output" : {
     "item" : "nervebundle2",

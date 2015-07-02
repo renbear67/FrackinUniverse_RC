@@ -3,7 +3,8 @@
     { "item" : "luminescentcells", "count" : 1 },
     { "item" : "immunegene1", "count" : 1 },
     { "item" : "adaptivecells", "count" : 1 },
-    { "item" : "voidgene", "count" : 1 }
+    { "item" : "voidgene", "count" : 1 },
+	{ "item" : "energywodd", "count" : 3 }
   ],
   "output" : {
     "item" : "darklightflower",

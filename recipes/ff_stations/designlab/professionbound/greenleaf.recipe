@@ -1,8 +1,10 @@
 {
   "input" : [
     { "item" : "organicsynthesis", "count" : 1 },
-    { "item" : "regengene1", "count" : 2 },
-    { "item" : "petalblock", "count" : 2 }
+    { "item" : "shockgene", "count" : 2 },
+    { "item" : "adaptivecells", "count" : 1 },
+    { "item" : "nervebundle1", "count" : 1 },
+    { "item" : "ginsengseed", "count" : 3 }
   ],
   "output" : {
     "item" : "greenleafseed",

@@ -3,7 +3,7 @@
     { "item" : "liquidblood", "count" : 2 },
     { "item" : "magnesiumsulfate", "count" : 4 },
     { "item" : "synthesizedprotein", "count" : 2 },
-    { "item" : "chloroplast1", "count" : 1 },
+    { "item" : "aggressiongene", "count" : 1 },
     { "item" : "ff_fertilizer", "count" : 1 }
   ],
   "output" : {

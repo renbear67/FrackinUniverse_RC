@@ -1,7 +1,9 @@
 {
   "input" : [
-    { "item" : "regengene2", "count" : 1 },
-    { "item" : "chloroplast1", "count" : 1 },
+    { "item" : "nervebundle2", "count" : 1 },
+    { "item" : "adaptivecells", "count" : 1 },
+    { "item" : "shockgene", "count" : 1 },
+    { "item" : "chloroplast2", "count" : 1 },
     { "item" : "petalblue", "count" : 3 }
   ],
   "output" : {

@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "organicsynthesis", "count" : 1 },
-    { "item" : "regengene2", "count" : 1 },
+    { "item" : "aggressiongene", "count" : 2 },
     { "item" : "cellmatter", "count" : 1 },
     { "item" : "adaptivecells", "count" : 1 }
   ],

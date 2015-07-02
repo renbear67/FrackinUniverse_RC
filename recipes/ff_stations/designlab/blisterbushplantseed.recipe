@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "nervebundle2", "count" : 1 },
+    { "item" : "chloroplast2", "count" : 1 },
     { "item" : "biosample", "count" : 3 },
-    { "item" : "luminescentpaste", "count" : 1 }    
+    { "item" : "luminescentcells", "count" : 2 }    
   ],
   "output" : {
     "item" : "blisterbushplantseed",

@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "defensegene2", "count" : 1 },
-    { "item" : "explosivegene", "count" : 1 },
+    { "item" : "regengene1", "count" : 1 },
+    { "item" : "adaptivecells", "count" : 1 },
     { "item" : "biosample", "count" : 3 }
   ],
   "output" : {

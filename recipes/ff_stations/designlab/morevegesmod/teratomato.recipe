@@ -3,6 +3,8 @@
     { "item" : "organicsynthesis", "count" : 1 },
     { "item" : "aggressiongene", "count" : 1 },
     { "item" : "regengene1", "count" : 1 },
+    { "item" : "musclegene3", "count" : 1 },
+    { "item" : "celeritygene", "count" : 1 },
     { "item" : "tomatoseed", "count" : 3 }
   ],
   "output" : {

@@ -1,6 +1,8 @@
 {
   "input" : [
-    { "item" : "celeritygene", "count" : 2 },
+    { "item" : "adaptivecells", "count" : 1 },
+    { "item" : "musclegene1", "count" : 1 },
+    { "item" : "cellhardening3", "count" : 1 },
     { "item" : "cellmateria", "count" : 3 }
   ],
   "output" : {

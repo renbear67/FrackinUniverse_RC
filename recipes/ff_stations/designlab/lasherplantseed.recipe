@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "oculargene", "count" : 1 },
+    { "item" : "aggressiongene", "count" : 1 },
     { "item" : "defensegene1", "count" : 1 }, 
     { "item" : "fleshstrand", "count" : 3 },
-    { "item" : "immunegene2", "count" : 1 }
+    { "item" : "nervebundle1", "count" : 1 }
   ],
   "output" : {
     "item" : "lasherplantseed",

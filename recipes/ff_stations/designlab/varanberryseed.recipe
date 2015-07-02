@@ -1,6 +1,7 @@
 {
   "input" : [
     { "item" : "organicsynthesis", "count" : 1 },
+    { "item" : "regengene1", "count" : 1 },
     { "item" : "cellmateria", "count" : 3 }
   ],
   "output" : {

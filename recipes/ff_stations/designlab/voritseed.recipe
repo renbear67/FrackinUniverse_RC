@@ -2,8 +2,9 @@
   "input" : [
     { "item" : "organicsynthesis", "count" : 1 },
     { "item" : "nervebundle2", "count" : 1 },
-    { "item" : "nutrientpaste", "count" : 3 },
-    { "item" : "aquatichomeostasis", "count" : 1 }
+    { "item" : "fu_nodule", "count" : 3 },
+    { "item" : "aquatichomeostasis", "count" : 1 },
+	{ "item" : "aquaticelerity", "count" : 1 }
   ],
   "output" : {
     "item" : "voritseed",

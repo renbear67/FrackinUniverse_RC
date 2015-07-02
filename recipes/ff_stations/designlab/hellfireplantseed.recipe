@@ -3,7 +3,7 @@
     { "item" : "explosivegene", "count" : 1 },
     { "item" : "firegene", "count" : 1 },
     { "item" : "nervebundle1", "count" : 1 },
-    { "item" : "aliencompound", "count" : 40 }
+    { "item" : "thornfruit", "count" : 3 }
   ],
   "output" : {
     "item" : "hellfireplantseed",

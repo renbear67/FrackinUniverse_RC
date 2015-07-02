@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "musclegene1", "count" : 1 },
+    { "item" : "luminescentcells", "count" : 1 },
     { "item" : "organicsynthesis", "count" : 1 },
     { "item" : "tissueculture", "count" : 3 },
     { "item" : "oculargene", "count" : 1 }

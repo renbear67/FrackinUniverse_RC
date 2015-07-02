@@ -3,7 +3,6 @@
     { "item" : "musclegene1", "count" : 1 },
     { "item" : "magnesiumsulfate", "count" : 12 },
     { "item" : "synthesizedprotein", "count" : 5 },
-    { "item" : "chloroplast2", "count" : 1 },
     { "item" : "ff_fertilizer2", "count" : 1 },
 	{ "item" : "liquidblood", "count" : 2 }
   ],

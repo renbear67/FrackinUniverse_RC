@@ -4,7 +4,7 @@
     { "item" : "nervebundle2", "count" : 1 },
     { "item" : "adaptivecells", "count" : 1 },
     { "item" : "cellresistance1", "count" : 1 },
-    { "item" : "biscornseed", "count" : 2 }
+    { "item" : "biscornseed", "count" : 3 }
   ],
   "output" : {
     "item" : "garikleaf",

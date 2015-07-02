@@ -4,7 +4,7 @@
     { "item" : "nervebundle1", "count" : 1 },
     { "item" : "adaptivecells", "count" : 1 },
     { "item" : "shockgene", "count" : 1 },
-    { "item" : "oonfortaseed", "count" : 1 }
+    { "item" : "oonfortaseed", "count" : 3 }
   ],
   "output" : {
     "item" : "batterystem",

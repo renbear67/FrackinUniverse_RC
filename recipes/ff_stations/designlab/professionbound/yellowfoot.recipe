@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "celeritygene", "count" : 1 },
-    { "item" : "musclegene1", "count" : 1 },
+    { "item" : "shockgene", "count" : 1 },
     { "item" : "shroom", "count" : 3 }
   ],
   "output" : {

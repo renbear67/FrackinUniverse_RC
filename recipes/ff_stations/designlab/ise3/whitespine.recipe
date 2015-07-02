@@ -4,7 +4,7 @@
     { "item" : "toxicgene", "count" : 1 },
     { "item" : "defensegene1", "count" : 1 },
     { "item" : "cellhardening1", "count" : 1 },
-    { "item" : "biosample", "count" : 2 }
+    { "item" : "biosample", "count" : 3 }
   ],
   "output" : {
     "item" : "whitespine",

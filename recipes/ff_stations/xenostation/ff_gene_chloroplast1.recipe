@@ -1,7 +1,8 @@
 {
   "input" : [
     { "item" : "liquidwater", "count" : 4},
-    { "item" : "aminoacid", "count" : 4},  
+    { "item" : "aminoacid", "count" : 4},
+    { "item" : "methanol", "count" : 2},
     { "item" : "peptidechain", "count" : 4}
   ],
   "output" : {

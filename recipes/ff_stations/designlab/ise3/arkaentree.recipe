@@ -3,7 +3,7 @@
     { "item" : "voidgene", "count" : 1 },
     { "item" : "cellhardening3", "count" : 1 },
     { "item" : "cellresistance3", "count" : 1 },
-    { "item" : "rainbowwood", "count" : 10 },
+    { "item" : "rainbowwood", "count" : 3 },
     { "item" : "aggressiongene", "count" : 1 }
   ],
   "output" : {

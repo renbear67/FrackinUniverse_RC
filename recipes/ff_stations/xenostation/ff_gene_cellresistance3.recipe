@@ -1,12 +1,12 @@
 {
   "input" : [
     { "item" : "advancedpeptide", "count" : 8 },
-    { "item" : "adaptivecells", "count" : 2 },
-    { "item" : "regengene2", "count" : 1 },
-	{ "item" : "liquidorganicsoup", "count" : 2 }
+    { "item" : "cellresistance2", "count" : 1 },  
+    { "item" : "pesticide", "count" : 2 },
+	{ "item" : "liquidpoison", "count" : 2 }
   ],
   "output" : {
-    "item" : "regengene3",
+    "item" : "cellresistance3",
     "count" : 1
   },
   "groups" : [ "xenostation", "objects", "all", "crafting" ]

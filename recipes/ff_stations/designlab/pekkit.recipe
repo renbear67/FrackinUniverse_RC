@@ -1,8 +1,9 @@
 {
   "input" : [
-    { "item" : "plantfibre", "count" : 3 },
-    { "item" : "cellhardening1", "count" : 1 },
-	{ "item" : "coldgene", "count" : 1 }
+    { "item" : "aggressiongene", "count" : 1 },
+    { "item" : "explosivegene", "count" : 1 },
+	{ "item" : "coldgene", "count" : 1 },
+	{ "item" : "thornfruit", "count" : 3 }
   ],
   "output" : {
     "item" : "pekkitseed",

@@ -3,7 +3,7 @@
     { "item" : "firegene", "count" : 1 },
     { "item" : "immunegene1", "count" : 1 },
     { "item" : "defensegene1", "count" : 1 },
-    { "item" : "biosample", "count" : 1 }
+    { "item" : "biosample", "count" : 3 }
   ],
   "output" : {
     "item" : "quellstem",

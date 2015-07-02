@@ -1,8 +1,9 @@
 {
   "input" : [
-    { "item" : "cellhardening3", "count" : 1 },
+    { "item" : "adaptivecells", "count" : 1 },
     { "item" : "tissueculture", "count" : 3 },
-    { "item" : "celeritygene", "count" : 1 }
+    { "item" : "celeritygene", "count" : 1 },
+	{ "item" : "regengene2", "count" : 1 }
   ],
   "output" : {
     "item" : "vextongueseed",

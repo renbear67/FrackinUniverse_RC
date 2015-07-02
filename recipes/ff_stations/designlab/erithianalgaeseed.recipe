@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "aquatichomeostasis", "count" : 2 },
-    { "item" : "chloroplast1", "count" : 1 },
+    { "item" : "chloroplast2", "count" : 1 },
     { "item" : "kelp", "count" : 3 },
     { "item" : "firegene", "count" : 2 }
   ],

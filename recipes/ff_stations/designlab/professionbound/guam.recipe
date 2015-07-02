@@ -2,6 +2,7 @@
   "input" : [
     { "item" : "organicsynthesis", "count" : 1 },
     { "item" : "regengene2", "count" : 1 },
+    { "item" : "immunegene1", "count" : 2 },
     { "item" : "cellresistance2", "count" : 1 },
     { "item" : "plantfibre", "count" : 3 }
   ],

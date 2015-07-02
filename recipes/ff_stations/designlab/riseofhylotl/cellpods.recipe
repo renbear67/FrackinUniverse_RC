@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "aquaticcelerity", "count" : 1 },
+    { "item" : "organicsynthesis", "count" : 1 },
     { "item" : "regengene1", "count" : 1 },
-    { "item" : "ff_fertilizer", "count" : 1 }
+    { "item" : "nutrientpaste", "count" : 3 }
   ],
   "output" : {
     "item" : "cellpodsplant",

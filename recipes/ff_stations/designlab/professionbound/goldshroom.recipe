@@ -1,6 +1,5 @@
 {
   "input" : [
-    { "item" : "cellhardening2", "count" : 1 },
     { "item" : "luminescentcells", "count" : 2 },
     { "item" : "shroom", "count" : 3 }
   ],

@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "regengene2", "count" : 1 },
     { "item" : "aliencompound", "count" : 12 },
-    { "item" : "explosivegene", "count" : 1 },
+    { "item" : "adaptivecells", "count" : 1 },
     { "item" : "chloroplast2", "count" : 2 }
   ],
   "output" : {

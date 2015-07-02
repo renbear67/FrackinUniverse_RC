@@ -2,6 +2,7 @@
   "input" : [
     { "item" : "biospore", "count" : 8 },
     { "item" : "nervebundle2", "count" : 1 },
+    { "item" : "adaptivecellls", "count" : 1 },
     { "item" : "cellhardening2", "count" : 1 }
   ],
   "output" : {

@@ -1,7 +1,8 @@
 {
   "input" : [
     { "item" : "nervebundle1", "count" : 1 },
-    { "item" : "defensegene1", "count" : 1 },
+    { "item" : "musclegene1", "count" : 1 },
+    { "item" : "celeritygene", "count" : 1 },
     { "item" : "coffeeseed", "count" : 3 }
   ],
   "output" : {

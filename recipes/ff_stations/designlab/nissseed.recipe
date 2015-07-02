@@ -1,8 +1,9 @@
 {
   "input" : [
-    { "item" : "firegene", "count" : 1},
-    { "item" : "immunegene1", "count" : 1},
-    { "item" : "cellmatter", "count" : 3}
+    { "item" : "celeritygene", "count" : 1},
+    { "item" : "immunegene2", "count" : 1},
+    { "item" : "toxicgene", "count" : 1},
+    { "item" : "bonebooseed", "count" : 3}
   ],
   "output" : {
     "item" : "nissseed",

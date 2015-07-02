@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "immunegene1", "count" : 1 },
-    { "item" : "bone", "count" : 3 },
+    { "item" : "greenslime", "count" : 3 },
     { "item" : "adaptivecells", "count" : 1 },
     { "item" : "defensegene1", "count" : 1 }
   ],

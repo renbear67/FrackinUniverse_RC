@@ -4,7 +4,6 @@
     { "item" : "chloroplast2", "count" : 1 },
     { "item" : "regengene1", "count" : 1 },
     { "item" : "liquidorganicsoup", "count" : 1 },
-    { "item" : "magnesiumpowder", "count" : 8 },
     { "item" : "ff_fertilizer", "count" : 1 }
   ],
   "output" : {

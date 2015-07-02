@@ -4,7 +4,8 @@
     { "item" : "cellhardening1", "count" : 1 },
     { "item" : "adaptivecells", "count" : 1 },
     { "item" : "nervebundle2", "count" : 1 },
-    { "item" : "fleshstrand", "count" : 10 }
+    { "item" : "voidgene", "count" : 1 },
+    { "item" : "fleshstrand", "count" : 3 }
   ],
   "output" : {
     "item" : "tentacleplant",

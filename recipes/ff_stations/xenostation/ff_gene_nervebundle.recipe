@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "peptidechain", "count" : 2 },
     { "item" : "aminoacid", "count" : 3 },
-    { "item" : "magnesiumpowder", "count" : 4 },
+    { "item" : "magnesiumsulfate", "count" : 4 },
     { "item" : "liquidblood", "count" : 2 }
   ],
   "output" : {
