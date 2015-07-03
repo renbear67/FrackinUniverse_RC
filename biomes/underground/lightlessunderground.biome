@@ -42,6 +42,25 @@
     "grassModDensity" : 0.9,
     "items" : [
            {
+             "mode" : "floor",
+             "priority" : 1.0,
+             "variants" : 1,
+             "distribution" : "/biomes/distributions.config:potsRare",
+   
+             "type" : "object",
+             "objectSets" : [
+               {
+                 "pool" : [ 
+              [0.50, "groundspike1" ],
+              [0.50, "groundspike2" ],
+              [0.50, "groundspike3" ],
+              [0.50, "groundspike4" ]
+                 ],
+                 "parameters" : { "startingStage" : 2 }
+               }
+             ]
+           },    
+           {
              "mode" : "ceiling",
              "priority" : 1.0,
              "variants" : 1,
@@ -70,10 +89,7 @@
              "objectSets" : [
                {
                  "pool" : [ 
-              [0.50, "groundspike1" ],
-              [0.50, "groundspike2" ],
-              [0.50, "groundspike3" ],
-              [0.50, "groundspike4" ],
+              [0.50, "wilddarklightflower" ],    
               [0.50, "copperrock" ], 
               [0.50, "copperrocksmall" ],
               [0.50, "silverrock" ],
@@ -108,25 +124,7 @@
           "distribution" : "/biomes/distributions.config:undergroundChests",
 
           "type" : "treasureBox",
-          "treasureBoxSets" : [ "basicChest" ]
-        },
-        {
-          "mode" : "floor",
-          "priority" : 0.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:undergroundtechChests",
-
-          "type" : "treasureBox",
           "treasureBoxSets" : [ "ffRareLootShadowChest" ]
-        },
-        {
-          "mode" : "floor",
-          "priority" : 0.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:undergroundChests",
-
-          "type" : "treasureBox",
-          "treasureBoxSets" : [ "weaponChest" ]
         },
         {
           "mode" : "floor",

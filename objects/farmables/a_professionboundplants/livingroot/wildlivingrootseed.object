@@ -32,7 +32,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "wildlivingrootHarvest"
+      "harvestPool" : "wildlivingrootHarvest",
+      "resetToStage" : 0
     }
   ]
 }

@@ -31,7 +31,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "silverleafHarvest"
+      "harvestPool" : "silverleafHarvest",
+      "resetToStage" : 0
     }
   ],
   "learnBlueprintsOnPickup" : [ "fletchweed" ]

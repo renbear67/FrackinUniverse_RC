@@ -6,7 +6,7 @@
   "shortdescription" : "Little Good Berry Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "objectItem" : "littlegoodberryseed",
+  "objectItem" : "mineralsample",
 
   "inventoryIcon" : "littlegoodberryseedicon.png",
   "orientations" : [

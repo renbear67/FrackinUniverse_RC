@@ -4,7 +4,7 @@
     "range" : 5,
 
     "damageProjectileType" : "armorthornburst",
-    "damageMultiplier" : 1.5,
+    "damageMultiplier" : 2.5,
 
     "cooldown" : 1
 

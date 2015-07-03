@@ -31,7 +31,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "dragonsbeardHarvest"
+      "harvestPool" : "dragonsbeardHarvest",
+      "resetToStage" : 0
     }
   ]
 }

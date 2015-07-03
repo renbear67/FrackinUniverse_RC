@@ -1,18 +1,18 @@
 {
-  "objectName" : "wildneuropodseed",
-  "rarity" : "Rare",
+  "objectName" : "wildcorvexseed",
+  "rarity" : "Uncommon",
   "category" : "farmable",
-  "description" : "Truly a mad-science creation. Extremely potent effects.",
-  "shortdescription" : "Neuropod Seed",
+  "description" : "Corvex is an alien plant with strange chemical properties.",
+  "shortdescription" : "Corvex Sprout",
   "objectType" : "farmable",
-  "printable" : false, 
+  "printable" : false,
   "objectItem" : "dnasample",
-
-  "inventoryIcon" : "neuropodseedicon.png",
+  
+  "inventoryIcon" : "corvexseedicon.png",
   "orientations" : [
     {
-      "dualImage" : "neuropodseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [-16, 0],
+      "dualImage" : "corvexseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
 
@@ -34,7 +34,7 @@
     },
     {
       "alts" : 4,
-      "harvestPool" : "wildneuropodHarvest",
+      "harvestPool" : "corvexHarvest",
       "resetToStage" : 2
     }
   ]

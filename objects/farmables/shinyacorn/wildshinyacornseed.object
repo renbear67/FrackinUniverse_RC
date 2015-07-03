@@ -6,7 +6,7 @@
   "shortdescription" : "Shiny Acorn Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "objectItem" : "shinyacornseed",
+  "objectItem" : "mineralsample",
 
   "inventoryIcon" : "shinyacornseedicon.png",
   "orientations" : [

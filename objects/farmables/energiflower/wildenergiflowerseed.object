@@ -6,7 +6,7 @@
   "shortdescription" : "Energiflower Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "objectItem" : "energiflowerseed",
+  "objectItem" : "dnasample",
 
   "lightColor" : [100, 255, 185],
   "flickerDistance" : 0.5,

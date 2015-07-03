@@ -6,7 +6,7 @@
   "shortdescription" : "Biscorn Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "objectItem" : "biscornseed",
+  "objectItem" : "mineralsample",
 
   "apexDescription" : "Dog biscuits that grow in the place of corn.",
   "avianDescription" : "It's a corn for pets.",

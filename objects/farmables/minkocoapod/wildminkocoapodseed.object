@@ -6,7 +6,7 @@
   "shortdescription" : "Minkocoa Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "objectItem" : "minkocoapodseed",
+  "objectItem" : "mineralsample",
 
   "inventoryIcon" : "minkocoapodseedicon.png",
   "orientations" : [

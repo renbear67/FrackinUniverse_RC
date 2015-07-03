@@ -31,7 +31,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "goldshroomHarvest"
+      "harvestPool" : "goldshroomHarvest",
+      "resetToStage" : 0
     }
   ]
 }

@@ -31,7 +31,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "lactariusindigoHarvest"
+      "harvestPool" : "lactariusindigoHarvest",
+      "resetToStage" : 0
     }
   ]
 }

@@ -31,7 +31,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "pinkloomHarvest"
+      "harvestPool" : "pinkloomHarvest",
+      "resetToStage" : 0
     }
   ],
   "learnBlueprintsOnPickup" : [ "shinyacornseed" ]

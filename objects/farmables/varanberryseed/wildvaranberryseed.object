@@ -6,7 +6,7 @@
   "shortdescription" : "Varan Berry Bush",
   "objectType" : "farmable",
   "printable" : false,
-  "objectItem" : "varanberryseed",
+  "objectItem" : "dnasample",
   "inventoryIcon" : "varanberryseedicon.png",
   "orientations" : [
     {

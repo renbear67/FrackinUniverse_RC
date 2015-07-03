@@ -32,7 +32,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "wildjillyrootHarvest"
+      "harvestPool" : "wildjillyrootHarvest",
+      "resetToStage" : 0
     }
   ]
 }

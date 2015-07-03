@@ -115,6 +115,8 @@
 {"op":"add","path":"/planetTypeToDescription/tidewater",
 "value":"This ^#008aff;tidewater^white; world is subject to massive tidal forces by it's satellites."},
 {"op":"add","path":"/planetTypeToDescription/mountainous",
-"value":"This ^#b398ba;mountainous^white; world is studded with immensely tall rocky mountains & crystal clear lakes."}
+"value":"This ^#b398ba;mountainous^white; world is studded with immensely tall rocky mountains & crystal clear lakes."},
+{"op":"add","path":"/planetTypeToDescription/superdense",
+"value":"^#914560;Super-dense^white; worlds have enormous gravitational force."}
 ]
 

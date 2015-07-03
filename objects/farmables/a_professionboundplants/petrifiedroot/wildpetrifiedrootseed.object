@@ -32,7 +32,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "wildpetrifiedrootHarvest"
+      "harvestPool" : "wildpetrifiedrootHarvest",
+      "resetToStage" : 0
     }
   ]
 }

@@ -32,7 +32,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "wildpinklookHarvest"
+      "harvestPool" : "wildpinklookHarvest",
+      "resetToStage" : 0
     }
   ]
 }

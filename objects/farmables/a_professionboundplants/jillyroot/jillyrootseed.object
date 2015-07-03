@@ -31,7 +31,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "jillyrootHarvest"
+      "harvestPool" : "jillyrootHarvest",
+      "resetToStage" : 0
     }
   ]
 }

@@ -31,7 +31,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "livingrootHarvest"
+      "harvestPool" : "livingrootHarvest",
+      "resetToStage" : 0
     }
   ]
 }

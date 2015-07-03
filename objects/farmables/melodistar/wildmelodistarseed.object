@@ -6,7 +6,7 @@
   "shortdescription" : "Melodistar Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "objectItem" : "melodistarseed",
+  "objectItem" : "mineralsample",
 
   "lightColor" : [200, 200, 30],
   

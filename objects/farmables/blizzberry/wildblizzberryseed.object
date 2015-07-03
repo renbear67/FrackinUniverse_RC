@@ -6,7 +6,7 @@
   "shortdescription" : "Blizzberry Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "objectItem" : "blizzberryseed",
+  "objectItem" : "dnasample",
 
   "inventoryIcon" : "blizzberryseedicon.png",
   "orientations" : [

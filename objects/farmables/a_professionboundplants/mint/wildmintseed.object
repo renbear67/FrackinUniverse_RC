@@ -32,7 +32,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "wildmintHarvest"
+      "harvestPool" : "wildmintHarvest",
+      "resetToStage" : 0
     }
   ]
 }

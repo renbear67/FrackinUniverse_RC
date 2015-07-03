@@ -6,7 +6,7 @@
   "shortdescription" : "Rockroot Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "objectItem" : "rockrootseed",
+  "objectItem" : "mineralsample",
 
   "inventoryIcon" : "rockrootseedicon.png",
   "orientations" : [

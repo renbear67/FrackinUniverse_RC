@@ -31,7 +31,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "wildlactariusindigoHarvest"
+      "harvestPool" : "wildlactariusindigoHarvest",
+      "resetToStage" : 0
     }
   ]
 }

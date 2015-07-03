@@ -6,7 +6,7 @@
   "shortdescription" : "Wretchel Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "objectItem" : "wretchelseed",
+  "objectItem" : "mineralsample",
   "inventoryIcon" : "wretchelseedicon.png",
   "orientations" : [
     {

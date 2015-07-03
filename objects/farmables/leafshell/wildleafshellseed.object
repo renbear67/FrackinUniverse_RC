@@ -6,7 +6,7 @@
   "shortdescription" : "Leafshell Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "objectItem" : "leafshellseed",
+  "objectItem" : "mineralsample",
 
   "inventoryIcon" : "leafshellseedicon.png",
   "orientations" : [

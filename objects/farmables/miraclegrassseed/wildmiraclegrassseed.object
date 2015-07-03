@@ -6,7 +6,7 @@
   "shortdescription" : "Miracle Grass",
   "objectType" : "farmable",
   "printable" : false,
-  "objectItem" : "miraclegrassseed",
+  "objectItem" : "dnasample",
 
   "inventoryIcon" : "miraclegrassseedicon.png",
   "orientations" : [

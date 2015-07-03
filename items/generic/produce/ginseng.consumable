@@ -3,7 +3,7 @@
   "rarity" : "uncommon",
   "inventoryIcon" : "ginseng.png",
   "description" : "Known for healing and revitalizing properties.",
-  "shortdescription" : "Ginseng Root",
+  "shortdescription" : "Heartroot",
   "effects" : [ [
       {
         "effect" : "heal_30",

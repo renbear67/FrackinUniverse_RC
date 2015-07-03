@@ -6,7 +6,7 @@
   "shortdescription" : "Erithian Algae",
   "objectType" : "farmable",
   "printable" : false,
-  "objectItem" : "erithianalgaeseed",
+  "objectItem" : "mineralsample",
 
   "inventoryIcon" : "erithianalgaeicon.png",
   "orientations" : [

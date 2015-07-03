@@ -32,7 +32,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "wildlittlerascalHarvest"
+      "harvestPool" : "wildlittlerascalHarvest",
+      "resetToStage" : 0
     }
   ]
 }

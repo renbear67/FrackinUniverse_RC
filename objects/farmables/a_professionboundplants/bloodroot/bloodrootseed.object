@@ -31,7 +31,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "bloodrootHarvest"
+      "harvestPool" : "bloodrootHarvest",
+      "resetToStage" : 0
     }
   ],
   "learnBlueprintsOnPickup" : [ "goldenrootseed" ]

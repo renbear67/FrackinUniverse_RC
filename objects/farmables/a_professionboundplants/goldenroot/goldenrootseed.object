@@ -31,7 +31,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "goldenrootHarvest"
+      "harvestPool" : "goldenrootHarvest",
+      "resetToStage" : 0
     }
   ],
   "learnBlueprintsOnPickup" : [ "pinkloomseed" ]

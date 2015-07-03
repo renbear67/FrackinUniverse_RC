@@ -3,10 +3,10 @@
   "rarity" : "rare",
   "category" : "Farmable",
   "description" : "A well-known medicinal plant.",
-  "shortdescription" : "Ginseng Seed",
+  "shortdescription" : "Heartroot Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "objectItem" : "ginsengseed",
+  "objectItem" : "dnasample",
 
   "inventoryIcon" : "ginsengseedicon.png",
   "orientations" : [
@@ -32,7 +32,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "wildginsengHarvest"
+      "harvestPool" : "wildginsengHarvest",
+      "resetToStage" : 0
     }
   ]
 }

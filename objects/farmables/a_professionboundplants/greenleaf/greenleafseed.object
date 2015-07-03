@@ -31,7 +31,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "greenleafHarvest"
+      "harvestPool" : "greenleafHarvest",
+      "resetToStage" : 0
     }
   ]
 }

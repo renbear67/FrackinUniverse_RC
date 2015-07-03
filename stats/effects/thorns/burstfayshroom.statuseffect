@@ -4,7 +4,7 @@
     "range" : 5,
 
     "damageProjectileType" : "shieldburst",
-    "damageMultiplier" : 3,
+    "damageMultiplier" : 4,
 
     "cooldown" : 1
 

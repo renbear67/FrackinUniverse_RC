@@ -7,7 +7,7 @@
   "effects" : [ [
       {
         "effect" : "invisible",
-	      "duration" : 20
+	"duration" : 20
       }
     ] ]
 }

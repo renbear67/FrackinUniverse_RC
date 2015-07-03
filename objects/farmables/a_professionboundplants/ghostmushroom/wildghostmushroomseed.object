@@ -32,7 +32,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "wildghostmushroomHarvest"
+      "harvestPool" : "wildghostmushroomHarvest",
+      "resetToStage" : 0
     }
   ]
 }

@@ -205,19 +205,40 @@
               "name" : "skulls",
               "baseHueShiftMax" : 40,
               "modHueShiftMax" : 180
-            },
-            {
-              "name" : "tarcrystal",
-              "baseHueShiftMax" : 40,
-              "modHueShiftMax" : 180
-            },
-            {
-              "name" : "tarbulb",
-              "baseHueShiftMax" : 40,
-              "modHueShiftMax" : 180
             }
           ]
         },
+        
+        {
+          "mode" : "floor",
+          "priority" : 2.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:ffunCommon",
+
+          "type" : "bush",
+          "bushes" : [
+            {
+              "name" : "tarcrystal",
+              "baseHueShiftMax" : 0,
+              "modHueShiftMax" : 0
+            }
+          ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 2.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:ffunCommon",
+
+          "type" : "bush",
+          "bushes" : [
+            {
+              "name" : "tarbulb",
+              "baseHueShiftMax" : 0,
+              "modHueShiftMax" : 0
+            }
+          ]
+        },        
         {
           "mode" : "floor",
           "variants" : 1,
@@ -360,8 +381,8 @@
           "type" : "tree",
           "treeFoliageHueShiftMax" : 220,
           "treeStemHueShiftMax" : 220,
-          "treeStemList" : [ "vineroot2", "twistedvine2", "sulphurvine" ],
-          "treeFoliageList" : [ "starry2", "dreamy2", "starry", "dreamy"  ]
+          "treeStemList" : [ "shadowvine" ],
+          "treeFoliageList" : [ "nofoliagevine"  ]
         },
          {
           "mode" : "floor",
@@ -373,11 +394,11 @@
           "objectSets" : [
             {
               "pool" : [ 
-              [0.35, "wildtyvokkseed" ],
-              [0.35, "wildtalonseedseed" ],
-              [0.35, "wilddeathblossomseed" ],
+              [0.35, "wildalgaeseed" ],
+              [0.35, "wildrockrootseed" ],
+              [0.35, "wildpasakavineseed" ],
               [0.35, "wildporphisplantseed" ],
-              [0.35, "wildblexplantseed" ]
+              [0.35, "wildtyvokkseed" ]
               ],
               "parameters" : { "startingStage" : 2 }
             }

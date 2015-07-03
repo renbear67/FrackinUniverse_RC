@@ -31,7 +31,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "yellowfootHarvest"
+      "harvestPool" : "yellowfootHarvest",
+      "resetToStage" : 0
     }
   ],
   "learnBlueprintsOnPickup" : [ "silverleafseed" ]

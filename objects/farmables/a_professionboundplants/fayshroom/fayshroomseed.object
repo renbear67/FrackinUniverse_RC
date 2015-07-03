@@ -31,7 +31,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "fayshroomHarvest"
+      "harvestPool" : "fayshroomHarvest",
+      "resetToStage" : 0
     }
   ]
 }

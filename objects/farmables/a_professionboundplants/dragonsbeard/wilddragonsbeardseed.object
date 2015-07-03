@@ -32,7 +32,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "wilddragonsbeardHarvest"
+      "harvestPool" : "wilddragonsbeardHarvest",
+      "resetToStage" : 0
     }
   ]
 }

@@ -3,7 +3,7 @@
   "rarity" : "uncommon",
   "category" : "Farmable",
   "description" : "This mutant strain of guam can filter any and all radiation.",
-  "shortdescription" : "Guam Seed",
+  "shortdescription" : "Rad Grass Seed",
   "objectType" : "farmable",
   "printable" : false,
   "objectItem" : "dnasample",
@@ -32,7 +32,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "wildguamHarvest"
+      "harvestPool" : "wildguamHarvest",
+      "resetToStage" : 0
     }
   ]
 }

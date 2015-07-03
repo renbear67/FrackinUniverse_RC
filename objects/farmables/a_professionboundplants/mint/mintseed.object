@@ -31,7 +31,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "mintHarvest"
+      "harvestPool" : "mintHarvest",
+      "resetToStage" : 0
     }
   ]
 }

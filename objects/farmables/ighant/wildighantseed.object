@@ -7,12 +7,6 @@
   "objectType" : "farmable",
   "printable" : false, 
    "objectItem" : "dnasample",
-  "apexDescription" : "An Ighant plant.",
-  "avianDescription" : "An Ighant plant.",
-  "floranDescription" : "An Ighant plant.",
-  "glitchDescription" : "Statement. An Ighant plant.",
-  "humanDescription" : "An Ighant plant.",
-  "hylotlDescription" : "An Ighant plant.",
 
   "inventoryIcon" : "ighantseedicon.png",
   "orientations" : [

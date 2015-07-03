@@ -6,7 +6,7 @@
   "shortdescription" : "Gurn Onion Seed",
   "objectType" : "farmable",
   "printable" : false, 
-  "objectItem" : "onionseed",
+  "objectItem" : "dnasample",
 
   "inventoryIcon" : "onionseedicon.png",
   "orientations" : [

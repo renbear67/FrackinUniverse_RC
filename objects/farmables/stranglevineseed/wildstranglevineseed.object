@@ -5,7 +5,7 @@
   "description" : "It's roots lash out when attacked.",
   "shortdescription" : "Strangler Vine Seed",
   "objectType" : "farmable",
-  "objectItem" : "vineseed",
+  "objectItem" : "dnasample",
 
   "inventoryIcon" : "stranglevineseedicon.png",
   "orientations" : [

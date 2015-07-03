@@ -5,7 +5,7 @@
   "description" : "An interesting algae type. Excellent biofuel.",
   "shortdescription" : "Algae Pod",
   "objectType" : "farmable",
-  "objectItem" : "algaeseed",
+  "objectItem" : "algaegreen",
   "inventoryIcon" : "algaegreenicon.png",
   "orientations" : [
     {

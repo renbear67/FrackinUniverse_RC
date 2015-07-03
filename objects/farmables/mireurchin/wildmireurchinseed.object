@@ -6,7 +6,7 @@
   "shortdescription" : "Mireurchin Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "objectItem" : "mireurchinseed",
+  "objectItem" : "dnasample",
 
   "inventoryIcon" : "mireurchinseedicon.png",
   "orientations" : [
