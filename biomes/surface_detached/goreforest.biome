@@ -2,7 +2,7 @@
   "name" : "goreforest",
   "friendlyName" : "Gore Forest",
 
-  "hueShiftOptions" : [ -25 0 25 ],
+  "hueShiftOptions" : [ -25, 0, 25 ],
 
     "mainBlock" : "hellstone",
     "subBlocks" : [ "eyepiles", "fleshblock" ],
