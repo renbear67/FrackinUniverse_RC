@@ -16,7 +16,7 @@
       "file" : "/projectiles/explosions/darkmatterexplosion/darkmatterexplosion.config"
     }
   ],
-  "damageKind" : "electricplasma"
+  "damageKind" : "cosmicdamage"
 }
 
 

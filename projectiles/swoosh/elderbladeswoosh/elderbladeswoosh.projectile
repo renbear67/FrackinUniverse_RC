@@ -15,7 +15,7 @@
   "statusEffects" : [
     "damagefreeze", "biooozepoison"
   ],
-  "damageKind" : "poisonshortsword",
+  "damageKind" : "cosmicdamage",
   "lightColor" : [105, 148, 52],
   "knockback" : 35,
   "knockbackDirectional" : true
