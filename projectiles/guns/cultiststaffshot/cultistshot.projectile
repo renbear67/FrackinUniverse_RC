@@ -11,7 +11,7 @@
   "timeToLive" : 0.9,
   "piercing" : true,
   "lightColor" : [255, 20, 20],
-  "damageKind" : "plasma",
+  "damageKind" : "poison",
   "actionOnReap" : [
     {
       "action" : "config",

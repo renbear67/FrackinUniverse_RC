@@ -9,7 +9,7 @@
   "animationLoops" : false,
   "piercing" : true,
   "flippable" : true,
-  "damageKind" : "electroshock",
+  "damageKind" : "electricspear",
   "lightColor" : [28, 181, 238],
   "pointLight" : true,
   "actionOnReap" : [

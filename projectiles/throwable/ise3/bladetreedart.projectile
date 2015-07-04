@@ -36,7 +36,7 @@
   ],
 
   "power" : 100.0,
-  "damageKind" : "default",
+  "damageKind" : "slash",
   "emitters" : [ "daggerblue" ]
 }
 

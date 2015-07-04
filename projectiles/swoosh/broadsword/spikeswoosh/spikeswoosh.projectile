@@ -10,7 +10,7 @@
   "animationLoops" : false,
   "piercing" : true,
   "flippable" : true,
-  "damageKind" : "acid",
+  "damageKind" : "poison",
   "knockback" : 55,
   "knockbackDirectional" : true,
   "effectSources" : [ "sparkles" ],

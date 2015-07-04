@@ -15,5 +15,5 @@
     }
   ],
   "lightColor" : [80, 30, 0],
-  "damageKind" : "plasma"
+  "damageKind" : "electricplasma"
 }

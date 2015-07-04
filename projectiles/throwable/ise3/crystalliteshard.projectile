@@ -63,7 +63,7 @@
     }
   ],
   "power" : 100.0,
-  "damageKind" : "default",
+  "damageKind" : "electricplasma",
   "emitters" : [ "daggerblue" ]
 }
 

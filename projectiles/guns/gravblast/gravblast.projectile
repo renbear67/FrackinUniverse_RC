@@ -14,7 +14,7 @@
   "piercing" : true,
 
   "lightColor" : [120,0,0],
-  "damageKind" : "default",
+  "damageKind" : "fireplasma",
   "statusEffects" : [ "gravgun" ],
   "actionOnReap" : [
     {

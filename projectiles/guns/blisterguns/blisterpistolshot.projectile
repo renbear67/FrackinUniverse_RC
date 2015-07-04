@@ -28,7 +28,7 @@
     
   //"power" : 1,
   "damageType" : "ignoresdef",
-  "damageKind" : "acid"
+  "damageKind" : "poisonplasma"
 }
 
 

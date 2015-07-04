@@ -13,6 +13,5 @@
   "piercing" : true,
   "universalDamage" : true,
   "damageType" : "ignoresdef",
-  "damageKind" : "default"//,
-  //"statusEffects" : [ "slow" ]
+  "damageKind" : "poisonplasma"
 }

@@ -10,7 +10,7 @@
   "timeToLive" : 1.0,
   "piercing" : true,
   "damagePoly" : [ [0, -8], [16, -8], [16, 8], [0, 8] ],
-  "damageKind" : "default",
+  "damageKind" : "electricplasma",
   "actionOnReap" : [
     {
       "action" : "config",

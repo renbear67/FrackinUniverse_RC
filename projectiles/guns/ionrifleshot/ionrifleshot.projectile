@@ -16,5 +16,5 @@
     }
   ],
   "lightColor" : [70, 0, 70],
-  "damageKind" : "plasma"
+  "damageKind" : "fireplasma"
 }

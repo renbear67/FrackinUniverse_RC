@@ -84,7 +84,7 @@
     }
   ],
   "power" : 500.0,
-  "damageKind" : "default"
+  "damageKind" : "poisonplasma"
 }
 
 

@@ -11,7 +11,7 @@
   "speed" : 45,
   "timeToLive" : 0.8,
   "damagePoly" : [ [-41, 0], [-41, -10], [0, -10], [41, -10], [41, 0], [41, 10], [0, 10], [-41, 10] ],
-  "damageKind" : "acid",
+  "damageKind" : "poison",
   "physics" : "bullet",
   "actionOnReap" : [
     {

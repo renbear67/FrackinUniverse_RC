@@ -16,5 +16,5 @@
       "file" : "/projectiles/explosions/crystalexplosion1/crystalexplosion1.config"
     }
   ],
-  "damageKind" : "slash"
+  "damageKind" : "iceplasma"
 }

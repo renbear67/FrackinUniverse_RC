@@ -11,7 +11,7 @@
   "speed" : 32,
   "timeToLive" : 0.5,
   "damagePoly" : [ [-66, 0], [-66, -33], [0, -33], [66, -33], [66, 0], [66, 33], [0, 33], [-66, 33] ],
-  "damageKind" : "default",
+  "damageKind" : "fireplasma",
   
   "actionOnReap" : [
 

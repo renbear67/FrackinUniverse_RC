@@ -29,5 +29,5 @@
   "power" : 4,
   "speed" : 1,
   "damageType" : "ignoresdef",
-  "damageKind" : "acid"
+  "damageKind" : "poison"
 }

@@ -148,7 +148,7 @@
 
   ],
   "power" : 550.0,
-  "damageKind" : "default"
+  "damageKind" : "electricplasma"
 }
 
 

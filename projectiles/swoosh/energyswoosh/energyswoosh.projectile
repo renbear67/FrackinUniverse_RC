@@ -9,7 +9,7 @@
   "animationLoops" : false,
   "piercing" : true,
   "flippable" : true,
-  "damageKind" : "2hsword",
+  "damageKind" : "electricbroadsword",
   "effectSources" : [ "sparkles" ],
 
   "actionOnReap" : [

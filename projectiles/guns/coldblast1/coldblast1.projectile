@@ -9,7 +9,7 @@
   "timeToLive" : 1.25,
   "piercing" : false,
   "damagePoly" : [ ],
-  "damageKind" : "slash",
+  "damageKind" : "iceplasma",
   "lightColor" : [40, 0, 170],
   "emitters" : [ "defaultwhite" ]
 }

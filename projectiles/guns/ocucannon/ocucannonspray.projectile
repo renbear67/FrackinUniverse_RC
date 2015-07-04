@@ -9,7 +9,7 @@
   "timeToLive" : 0.01,
   "piercing" : true,
   "damagePoly" : [  ],
-  "damageKind" : "default",
+  "damageKind" : "fireplasma",
   "actionOnReap" : [
     {
       "action" : "projectile",

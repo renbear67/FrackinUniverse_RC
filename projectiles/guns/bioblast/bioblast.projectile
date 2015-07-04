@@ -10,7 +10,7 @@
   "speed" : 25,
   "timeToLive" : 0.7,
   "lightColor" : [0,87,0],
-  "damageKind" : "acid",
+  "damageKind" : "poison",
   "actionOnReap" : [
     {
       "action" : "config",

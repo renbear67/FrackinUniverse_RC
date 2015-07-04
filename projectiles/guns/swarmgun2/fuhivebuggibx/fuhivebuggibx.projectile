@@ -10,5 +10,5 @@
   "lightColor" : [0, 0, 0],
   "speed" : 5,
   "power" : 1.3,
-  "damageKind" : "default"
+  "damageKind" : "poisonplasma"
 }

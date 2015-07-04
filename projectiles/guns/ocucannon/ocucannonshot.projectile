@@ -10,7 +10,7 @@
   "bounces" : 12,
   "piercing" : false,
   "damagePoly" : [ [-4, 0], [-3, -3], [0, -4], [3, -3], [4, 0], [3, 3], [0, 4], [-3, 3] ],
-  "damageKind" : "default",
+  "damageKind" : "fireplasma",
   "actionOnReap" : [
     {
       "action" : "config",

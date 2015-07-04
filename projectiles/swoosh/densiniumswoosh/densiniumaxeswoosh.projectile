@@ -9,7 +9,7 @@
   "animationLoops" : false,
   "piercing" : true,
   "flippable" : true,
-  "damageKind" : "axe",
+  "damageKind" : "electricaxe",
   "effectSources" : [ "sparkles" ],
 
   "actionOnReap" : [

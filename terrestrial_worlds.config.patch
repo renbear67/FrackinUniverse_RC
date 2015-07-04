@@ -55,10 +55,6 @@
   }
 },
     
-
-
-
-
 // Vanilla Biome Merges
     { "op" : "add", 
     "path" : "/planetTypes/alien/layers/surface/secondaryRegion", 
@@ -224,10 +220,6 @@
     }
 },
 
-
-
-   
-   
    {"op" : "add", 
    "path" : "/planetTypes/ffunknown",
    "value" : 
@@ -275,8 +267,6 @@
      }
    },
 
-
-   
    {"op" : "add", 
    "path" : "/planetTypes/superdense",
    "value" : 
@@ -324,9 +314,6 @@
        }
      }
    },
-   
-   
-   
    
    {"op" : "add", 
    "path" : "/planetTypes/arboreal",
@@ -689,7 +676,6 @@
     }
    },
    
-   
    {"op" : "add", 
    "path" : "/planetTypes/frozenvolcanic",
    "value" : 
@@ -735,6 +721,7 @@
        }
      }
    },
+   
    {"op" : "add", 
    "path" : "/planetTypes/fungus",
    "value" : 
@@ -776,7 +763,8 @@
         } 
        }
      }
-   },   
+   }, 
+   
     {"op" : "add", 
     "path" : "/planetTypes/icewaste",
     "value" : 
@@ -1095,6 +1083,7 @@
       }
     }
 },
+
     {"op" : "add", 
     "path" : "/planetTypes/nitrogensea",
     "value" : 
@@ -1247,7 +1236,6 @@
         }
       }
    },
-   
    
     {"op" : "add", 
     "path" : "/planetTypes/slimeworld",
@@ -1827,6 +1815,7 @@
       ]
     }
   },
+  
   {"op" : "add", 
   "path" : "/regionTypes/lightlessshadowsea",
   "value" : 
@@ -1843,6 +1832,7 @@
       ]
     }
   }, 
+  
   {"op" : "add", 
   "path" : "/regionTypes/penumbrashadowsea",
   "value" : 
@@ -1859,6 +1849,7 @@
       ]
     }
   }, 
+  
   {"op" : "add", 
   "path" : "/regionTypes/metallicmoonheliumsea",
   "value" : 
@@ -1875,6 +1866,7 @@
       ]
     }
   },
+  
   {"op" : "add", 
   "path" : "/regionTypes/icemoonheliumsea",
   "value" : 
@@ -1989,6 +1981,7 @@
       ]
     }
   },  
+  
   {"op" : "add", 
   "path" : "/regionTypes/sulphuricmagma",
   "value" : 
@@ -2050,7 +2043,8 @@
         [0, [ "sulphuricocean" ]]
       ]
     }
-  },   
+  },  
+  
    {"op" : "add", 
   "path" : "/regionTypes/sulphuricoceanfloor",
   "value" : 
@@ -2065,7 +2059,6 @@
       ]
     }
   }, 
-  
   
   {"op" : "add", 
   "path" : "/regionTypes/penumbra",
@@ -2082,7 +2075,6 @@
     }
   },
   
-  
   {"op" : "add", 
   "path" : "/regionTypes/protoworld",
   "value" : 
@@ -2098,7 +2090,6 @@
     }
   },
   
-
   {"op" : "add", 
   "path" : "/regionTypes/slimeworld",
   "value" : 
@@ -2158,6 +2149,7 @@
       ]
     }
   },  
+  
   {"op" : "add", 
   "path" : "/regionTypes/thickjungle",
   "value" : 
@@ -2202,9 +2194,6 @@
     }
   },
 
-
-
-
   {"op" : "add", 
   "path" : "/regionTypes/alienforest",
   "value" : 
@@ -2230,7 +2219,6 @@
       ]
     }
   },
-
 
   {"op" : "add", 
   "path" : "/regionTypes/blackslimebog",
@@ -2360,7 +2348,6 @@
     }
   },
   
-  
   {"op" : "add", 
   "path" : "/regionTypes/deadwood",
   "value" : 
@@ -2372,7 +2359,6 @@
       ]
     }
   },
-
 
   {"op" : "add", 
   "path" : "/regionTypes/desertoasis",
@@ -2387,7 +2373,6 @@
     }
   },
   
-  
   {"op" : "add", 
   "path" : "/regionTypes/dryriverbed",
   "value" : 
@@ -2399,7 +2384,6 @@
       ]
     }
   },
-  
   
   {"op" : "add", 
   "path" : "/regionTypes/elder",
@@ -2427,7 +2411,6 @@
     }
   },
 
-
   {"op" : "add", 
   "path" : "/regionTypes/fieldofbanana",
   "value" : 
@@ -2440,6 +2423,7 @@
       ]
     }
   },
+  
   {"op" : "add", 
   "path" : "/regionTypes/fieldofcarrots",
   "value" : 
@@ -2466,8 +2450,6 @@
     }
   },  
   
-  
-  
    {"op" : "add", 
   "path" : "/regionTypes/fieldofgrape",
   "value" : 
@@ -2480,8 +2462,6 @@
       ]
     }
   }, 
-  
- 
 
   {"op" : "add", 
   "path" : "/regionTypes/fieldofpotato",
@@ -2495,9 +2475,7 @@
       ]
     }
   },
-  
-  
-  
+    
   {"op" : "add", 
   "path" : "/regionTypes/fieldofsugar",
   "value" : 
@@ -2510,9 +2488,6 @@
       ]
     }
   },
-
-
-
 
   {"op" : "add", 
   "path" : "/regionTypes/fieldoftomato",
@@ -2540,7 +2515,6 @@
     }
   },
   
-  
   {"op" : "add", 
   "path" : "/regionTypes/flowerforest",
   "value" : 
@@ -2567,6 +2541,7 @@
       ]
     }
   }, 
+  
    {"op" : "add", 
   "path" : "/regionTypes/hauntedgraveyard",
   "value" : 
@@ -2580,6 +2555,7 @@
       ]
     }
   },  
+  
   {"op" : "add", 
   "path" : "/regionTypes/hellfirefield",
   "value" : 
@@ -2606,7 +2582,6 @@
     }
   }, 
   
-  
   {"op" : "add", 
   "path" : "/regionTypes/icefire",
   "value" : 
@@ -2620,7 +2595,6 @@
       ]
     }
   }, 
-  
   
   {"op" : "add", 
   "path" : "/regionTypes/irradiatedwaste",
@@ -2728,6 +2702,7 @@
       ]
     }
   }, 
+  
   {"op" : "add", 
   "path" : "/regionTypes/rainbowforest",
   "value" : 
@@ -2741,6 +2716,7 @@
       ]
     }
   },  
+  
   {"op" : "add", 
   "path" : "/regionTypes/ffspidernest",
   "value" : 
@@ -2782,7 +2758,6 @@
     }
   }, 
   
-  
   {"op" : "add", 
   "path" : "/regionTypes/taiga",
   "value" : 
@@ -2796,7 +2771,6 @@
     }
   },
 
-
   {"op" : "add", 
   "path" : "/regionTypes/energyorbforest",
   "value" : 
@@ -2809,7 +2783,6 @@
       ]
     }
   },
-
 
   {"op" : "add", 
   "path" : "/regionTypes/metalworks",
@@ -2837,7 +2810,6 @@
     }
   },
   
-  
   {"op" : "add", 
   "path" : "/regionTypes/ashgarden",
   "value" : 
@@ -2849,9 +2821,6 @@
       ]
     }
   },
-  
-
-
 
   {"op" : "add", 
   "path" : "/regionTypes/spacewreckage_rusted",
@@ -2876,8 +2845,7 @@
       ]
     }
   },
-
-    
+ 
   {"op" : "add", 
   "path" : "/regionTypes/bloodgulch",
   "value" : 
@@ -2907,6 +2875,7 @@
       ]
     }
   },  
+  
   {"op" : "add", 
   "path" : "/regionTypes/goreforest",
   "value" : 
@@ -2936,7 +2905,6 @@
       ]
     }
   },  
-  
   
   {"op" : "add", 
   "path" : "/regionTypes/birchforest",
@@ -2983,7 +2951,6 @@
     }
   },  
  
- 
  {"op" : "add",
  "path": "/regionTypes/hotsprings",
  "value" : 
@@ -2998,6 +2965,7 @@
        ]
  	}
  },
+ 
  {"op" : "add",
  "path": "/regionTypes/glacial",
  "value" : 
@@ -3014,6 +2982,7 @@
        ]
  	}
  },
+ 
    {"op" : "add", 
    "path" : "/regionTypes/mountainous",
    "value" : 
@@ -3028,7 +2997,6 @@
        ]
      }
    },
-   
    
  {"op" : "add",
  "path": "/regionTypes/tidewater",
@@ -3347,6 +3315,7 @@
       ]
     }
   },
+  
   {"op" : "add", 
   "path" : "/regionTypes/ffcoppermine",
   "value" : 
@@ -3359,6 +3328,7 @@
       ]
     }
   },
+  
   {"op" : "add", 
   "path" : "/regionTypes/ffsilvermine",
   "value" : 
@@ -3371,6 +3341,7 @@
       ]
     }
   },
+  
   {"op" : "add", 
   "path" : "/regionTypes/ffgoldmine",
   "value" : 
@@ -3383,6 +3354,7 @@
       ]
     }
   },
+  
   {"op" : "add", 
   "path" : "/regionTypes/ffcoralcave",
   "value" : 
@@ -3395,6 +3367,7 @@
       ]
     }
   },
+  
   {"op" : "add", 
   "path" : "/regionTypes/ffcrystalcavern",
   "value" : 
@@ -3407,6 +3380,7 @@
       ]
     }
   },
+  
   {"op" : "add", 
   "path" : "/regionTypes/fffrostcavern",
   "value" : 
@@ -3419,6 +3393,7 @@
       ]
     }
   },
+  
   {"op" : "add", 
   "path" : "/regionTypes/ffshadow",
   "value" : 
@@ -3431,6 +3406,7 @@
       ]
     }
   },
+  
   {"op" : "add", 
   "path" : "/regionTypes/ffvolcanic",
   "value" : 
@@ -3443,6 +3419,7 @@
       ]
     }
   },
+  
   {"op" : "add", 
   "path" : "/regionTypes/ffzen",
   "value" : 
@@ -3454,9 +3431,6 @@
       ]
     }
   },  
-  
-  
-  
   
   {"op" : "add", 
   "path" : "/regionTypes/arborealunderground",
@@ -3470,7 +3444,6 @@
       ]
     }
   },
-  
   
   {"op" : "add", 
   "path" : "/regionTypes/atropusunderground",
@@ -3590,7 +3563,6 @@
     }
   },
   
-  
   {"op" : "add", 
   "path" : "/regionTypes/infernusunderground",
   "value" : 
@@ -3616,6 +3588,7 @@
       ]
     }
   },
+  
   {"op" : "add", 
   "path" : "/regionTypes/moontoxicunderground",
   "value" : 
@@ -3628,6 +3601,7 @@
       ]
     }
   },
+  
   {"op" : "add", 
   "path" : "/regionTypes/moonvolcanicunderground",
   "value" : 
@@ -3640,6 +3614,7 @@
       ]
     }
   },
+  
   {"op" : "add", 
   "path" : "/regionTypes/moondesertunderground",
   "value" : 
@@ -3652,6 +3627,7 @@
       ]
     }
   },  
+  
   {"op" : "add", 
   "path" : "/regionTypes/irradiatedunderground",
   "value" : 
@@ -3666,7 +3642,6 @@
     }
   },
   
-  
   {"op" : "add", 
   "path" : "/regionTypes/penumbraunderground",
   "value" : 
@@ -3680,7 +3655,6 @@
     }
   },
   
-  
   {"op" : "add", 
   "path" : "/regionTypes/protoworldunderground",
   "value" : 
@@ -3693,7 +3667,6 @@
       ]
     }
   },
-  
   
   {"op" : "add", 
   "path" : "/regionTypes/slimeworldunderground",
@@ -3720,6 +3693,7 @@
       ]
     }
   },
+  
   {"op" : "add", 
   "path" : "/regionTypes/fffleshcaves",
   "value" : 
@@ -3732,6 +3706,7 @@
       ]
     }
   },  
+  
   {"op" : "add", 
   "path" : "/regionTypes/ffbonecaves",
   "value" : 
@@ -3744,6 +3719,7 @@
       ]
     }
   },  
+  
   {"op" : "add", 
   "path" : "/regionTypes/ffcellcaves",
   "value" : 
@@ -3756,6 +3732,7 @@
       ]
     }
   },  
+  
   {"op" : "add", 
   "path" : "/regionTypes/ffsupermatter",
   "value" : 
@@ -3768,6 +3745,7 @@
       ]
     }
   },  
+  
   {"op" : "add", 
   "path" : "/regionTypes/sulphuricunderground",
   "value" : 
@@ -3780,6 +3758,7 @@
       ]
     }
   },
+  
   {"op" : "add", 
   "path" : "/regionTypes/metallicunderground",
   "value" : 
@@ -3792,6 +3771,7 @@
       ]
     }
   },  
+  
   {"op" : "add", 
   "path" : "/regionTypes/lightlessunderground",
   "value" : 
@@ -3804,6 +3784,7 @@
       ]
     }
   }, 
+  
   {"op" : "add", 
   "path" : "/regionTypes/thickjungleunderground",
   "value" : 
@@ -3816,6 +3797,7 @@
       ]
     }
   }, 
+  
   {"op" : "add", 
   "path" : "/regionTypes/heck",
   "value" : 
@@ -3852,7 +3834,8 @@
 		        [0, [ "metalworksunderground2" ]]
 		      ]
 		    }
-	},	
+	},
+	
   {"op" : "add", 
   "path" : "/regionTypes/zen",
   "value" : 
@@ -3865,6 +3848,7 @@
       ]
     }
   },   
+  
   {"op" : "add", 
   "path" : "/regionTypes/shadow",
   "value" : 
@@ -3877,6 +3861,7 @@
       ]
     }
   }, 
+  
   {"op" : "add", 
   "path" : "/regionTypes/abandonedmines",
   "value" : 
@@ -3889,6 +3874,7 @@
       ]
     }
   }, 
+  
   {"op" : "add", 
   "path" : "/regionTypes/hive",
   "value" : 
@@ -3901,6 +3887,7 @@
       ]
     }
   }, 
+  
   {"op" : "add", 
   "path" : "/regionTypes/shroomcave",
   "value" : 
@@ -3913,6 +3900,7 @@
       ]
     }
   }, 
+  
   {"op" : "add", 
   "path" : "/regionTypes/colorfulcave",
   "value" : 
@@ -3925,6 +3913,7 @@
       ]
     }
   },
+  
   {"op" : "add", 
   "path" : "/regionTypes/crystalcave",
   "value" : 
@@ -3937,6 +3926,7 @@
       ]
     }
   }, 
+  
   {"op" : "add", 
   "path" : "/regionTypes/ffpoopit",
   "value" : 
@@ -3949,6 +3939,7 @@
       ]
     }
   },  
+  
   {"op" : "add", 
   "path" : "/regionTypes/ffcrystalrealm",
   "value" : 
@@ -3961,6 +3952,7 @@
       ]
     }
   },   
+  
   {"op" : "add", 
   "path" : "/regionTypes/nitrogencore",
   "value" : 
@@ -3977,6 +3969,7 @@
       ]
     }
   },
+  
   {"op" : "add", 
   "path" : "/regionTypes/protocore",
   "value" : 
@@ -3992,6 +3985,7 @@
       ]
     }
   },
+  
   {"op" : "add", 
   "path" : "/regionTypes/liquidprotocore",
   "value" : 
@@ -4007,6 +4001,7 @@
       ]
     }
   },
+  
   {"op" : "add", 
   "path" : "/regionTypes/irradiumcore",
   "value" : 

@@ -10,7 +10,7 @@
   "animationLoops" : false,
   "piercing" : true,
   "flippable" : true,
-  "damageKind" : "fire",
+  "damageKind" : "firebroadsword",
   "color" : "orange",
   "effectSources" : [ "sparkles" ],
   "knockback" : 25,

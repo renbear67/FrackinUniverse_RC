@@ -11,7 +11,7 @@
   "speed" : 35,
   "timeToLive" : 1.0,
   "damagePoly" : [ [-29, 0], [-29, -32], [0, -32], [29, -32], [29, 0], [29, 32], [0, 32], [-29, 32] ],
-  "damageKind" : "slash",
+  "damageKind" : "electricplasma",
   "physics" : "laser",
   "actionOnReap" : [
     {

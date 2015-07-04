@@ -16,5 +16,5 @@
       "file" : "/projectiles/explosions/acidexplosion/acidexplosion.config"
     }
   ],
-  "damageKind" : "acid"
+  "damageKind" : "poisonplasma"
 }

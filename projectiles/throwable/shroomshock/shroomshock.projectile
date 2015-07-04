@@ -131,7 +131,7 @@
   ],
   "power" : 120,
   //"damageType" : "hitTest",
-  "damageKind" : "default",
+  "damageKind" : "electricplasma",
   "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],
   "emitters" : [ "sparks" ]
 }

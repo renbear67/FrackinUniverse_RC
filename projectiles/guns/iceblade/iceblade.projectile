@@ -17,7 +17,7 @@
     }
   ],
   "damagePoly" : [ [-64, 0], [-64, -28], [0, -28], [64, -28], [64, 0], [64, 28], [0, 28], [-64, 28] ],
-  "damageKind" : "slash",
+  "damageKind" : "iceplasma",
   "physics" : "laser",
    "statusEffects" : [ "freeze" ]
 }

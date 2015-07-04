@@ -11,7 +11,7 @@
   "speed" : 3,
   "timeToLive" : 0.8,
   "damagePoly" : [ [-23, 0], [-23, -17], [0, -17], [23, -17], [23, 0], [23, 17], [0, 17], [-23, 17] ],
-  "damageKind" : "acid",
+  "damageKind" : "fireshortsword",
   "physics" : "gas",
     "statusEffects" : [ "ffextremeradiation" ]
 }

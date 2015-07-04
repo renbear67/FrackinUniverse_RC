@@ -22,5 +22,5 @@
   "power" : 1.5,
   "speed" : 10,
   "damageType" : "NoDamage",
-  "damageKind" : "acid"
+  "damageKind" : "poisonplasma"
 }

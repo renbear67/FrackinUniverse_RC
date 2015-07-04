@@ -11,7 +11,7 @@
   "damageKindImage" : "icon.png",
   "pointLight" : false,
   //"power" : 5.0,
-  "damageKind" : "acid",
+  "damageKind" : "poison",
 
   "statusEffects" : [ "weakpoison" ]
   

@@ -27,5 +27,5 @@
       "angleAdjust" : 0
     }
   ],
-  "damageKind" : "plasma"
+  "damageKind" : "electricplasma"
 }

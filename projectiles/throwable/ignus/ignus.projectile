@@ -84,7 +84,7 @@
     }
   ],
   "power" : 115.0,
-  "damageKind" : "default"
+  "damageKind" : "fireplasma"
 }
 
 

@@ -16,5 +16,5 @@
     }
   ],
   //"power" : 5.0,
-  "damageKind" : "slash"
+  "damageKind" : "poisonplasma"
 }
