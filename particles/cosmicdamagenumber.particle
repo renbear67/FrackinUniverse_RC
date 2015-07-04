@@ -3,8 +3,8 @@
   "definition" : {
     "type" : "text",
     "text" : "^shadow;$dmg$",
-    "color" : [222, 222, 188, 200],
-    "light" : [222, 222, 188],
+    "color" : [40, 222, 188, 200],
+    "light" : [40, 222, 188],
     "initialVelocity" : [1.0, 15.0],
     "finalVelocity" : [1.0, -10],
     "approach" : [5, 50],

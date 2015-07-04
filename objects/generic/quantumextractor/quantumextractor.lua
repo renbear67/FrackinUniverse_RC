@@ -187,6 +187,7 @@ local recipes =
 {inputs = { elderstonematerial=50 }, outputs = { rawminerals=5 }, time = 1},
 {inputs = { elderstone2material=50 }, outputs = { rawminerals=5 }, time = 1},
 {inputs = { energywood=50 }, outputs = { penumbriteore=2 }, time = 1},
+{inputs = { vine=50 }, outputs = { plantfibre=4 }, time = 1},
 -- seeds
 {inputs = { algaeseed=1 }, outputs = { geneticmaterial=5 }, time = 1},
 {inputs = { automatoseed=1 }, outputs = { geneticmaterial=5 }, time = 1},
