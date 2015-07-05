@@ -6,7 +6,17 @@
   },
   {
     "op" : "add",
+    "path" : "/starmapTypeColor/bluesun2",
+    "value" : [55, 55, 190, 255]
+  },
+  {
+    "op" : "add",
     "path" : "/starmapTypeDescription/bluesun1",
+    "value" : "Blue Star"
+  },
+  {
+    "op" : "add",
+    "path" : "/starmapTypeDescription/bluesun2",
     "value" : "Blue Star"
   },
   {

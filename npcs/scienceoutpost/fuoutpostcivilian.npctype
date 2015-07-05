@@ -29,6 +29,8 @@
     "gapSensor" : [ [2.0, -4.5] ],
     "gapFarSideSensors" : [ [3.0, -4.5], [4.0, -4.5], [5.0, -4.5], [6.0, -4.5], [7.0, -4.5], [8.0, -4.5] ],
     "gapJumpHoldTime" : 0.4,
+    "offeredQuests" : [ "seedsofdiscontent1.gearup", "seedsofdiscontent2.gearup", "seedsofdiscontent3.gearup"],
+    "turnInQuests" : [],
 
     "converse" : {
       "waitTime" : 0.5,

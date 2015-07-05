@@ -139,7 +139,9 @@
 	  {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "itemlauncher" } ]},
 	  {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "slingshot" } ]},  
 	  {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "randomharpoongun" } ]},
-	  {"weight" : 0.03, "item" : [ "generatedsword", 1, { "definition" : "lightsaber" } ]}
+	  {"weight" : 0.03, "item" : [ "generatedsword", 1, { "definition" : "lightsaber" } ]},
+	  {"weight" : 0.025, "item" : [ "fuearphones-recipe", 1]},
+	  {"weight" : 0.025, "item" : [ "fuhoodedmask-recipe", 1]}
         ],
         "poolRounds" : [
           [0.23, 1],

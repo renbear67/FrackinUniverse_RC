@@ -874,7 +874,164 @@
 
 // FU Stars
 
-
+{
+    "op" : "add",
+    "path" : "/systemTypes/bluesun2",
+    "value" : {
+      "selectionWeight" : 0.9,
+      "baseParameters" : {
+        "typeName" : "bluesun2",
+        "image" : "/celestial/system/bluesun2.png",
+        "twinkleTime" : [1.0, 1.5]
+      },
+      "variationParameters" : [
+        {
+          "magnitude" : 6,
+          "description" : "Medium Blue Star",
+          "imageScale" : 0.055,
+          "twinkleFrames" : "/celestial/stars/star7pxBlue.png",
+          "twinkleBackground" : "/celestial/stars/backgrounds/star7px.png",
+          "brightness" : [1, 1]
+        },
+        {
+          "magnitude" : 8,
+          "description" : "Large Blue Star",
+          "imageScale" : 0.075,
+          "twinkleFrames" : "/celestial/stars/star7pxBlue.png",
+          "twinkleBackground" : "/celestial/stars/backgrounds/star7px.png",
+          "brightness" : [1, 1]
+        }
+      ],
+      "orbitRegions" : [
+        {
+          "regionName" : "Scorching",
+          "orbitRange" : [1, 2],
+          "bodyProbability" : 0.7,
+          "planetaryTypes" : [
+            {"weight" : 0.8, "item" : "scorchingWorlds"},
+            {"weight" : 0.2, "item" : "AsteroidField"}
+          ],
+          "satelliteTypes" : [
+            {"weight" : 0.6, "item" : "scorchingMoons"}
+          ]
+        },
+        {
+          "regionName" : "Hot",
+          "orbitRange" : [3, 4],
+          "bodyProbability" : 0.7,
+          "planetaryTypes" : [
+            {"weight" : 0.8, "item" : "hotWorlds"},
+            {"weight" : 0.2, "item" : "AsteroidField"}
+          ],
+          "satelliteTypes" : [
+            {"weight" : 0.6, "item" : "hotMoons"}
+          ]
+        },
+        {
+          "regionName" : "Warm",
+          "orbitRange" : [5, 6],
+          "bodyProbability" : 0.7,
+          "planetaryTypes" : [
+            {"weight" : 0.8, "item" : "warmWorlds"},
+            {"weight" : 0.02, "item" : "GasGiant"},
+            {"weight" : 0.02, "item" : "GasGiant2"},
+            {"weight" : 0.02, "item" : "GasGiant3"},
+            {"weight" : 0.02, "item" : "GasGiant4"},
+            {"weight" : 0.02, "item" : "GasGiant5"},
+            {"weight" : 0.02, "item" : "GasGiant6"},
+            {"weight" : 0.02, "item" : "GasGiant7"},
+            {"weight" : 0.04, "item" : "AsteroidField"}
+          ],
+          "satelliteTypes" : [
+            {"weight" : 0.6, "item" : "warmMoons"}
+          ]
+        },
+        {
+          "regionName" : "Habitable",
+          "orbitRange" : [7, 8],
+          "bodyProbability" : 0.7,
+          "planetaryTypes" : [
+            {"weight" : 0.3, "item" : "habitableWorlds"},
+            {"weight" : 0.3, "item" : "habitableWorlds"},
+            {"weight" : 0.1, "item" : "habitableWorlds"},
+            {"weight" : 0.02, "item" : "GasGiant"},
+            {"weight" : 0.02, "item" : "GasGiant2"},
+            {"weight" : 0.02, "item" : "GasGiant3"},
+            {"weight" : 0.02, "item" : "GasGiant4"},
+            {"weight" : 0.02, "item" : "GasGiant5"},
+            {"weight" : 0.02, "item" : "GasGiant6"},
+            {"weight" : 0.02, "item" : "GasGiant7"},            
+            {"weight" : 0.04, "item" : "AsteroidField"}
+          ],
+          "satelliteTypes" : [
+            {"weight" : 0.5, "item" : "habitableMoons"},
+            {"weight" : 0.1, "item" : "habitableMoons"},
+            {"weight" : 0.1, "item" : "habitableMoons"},
+            {"weight" : 0.1, "item" : "habitableMoons"},
+            {"weight" : 0.05, "item" : "Moon"}
+          ]
+        },
+        {
+          "regionName" : "Cold",
+          "orbitRange" : [9, 10],
+          "bodyProbability" : 0.7,
+          "planetaryTypes" : [
+            {"weight" : 0.5, "item" : "coldWorlds"},
+            {"weight" : 0.02, "item" : "GasGiant"},
+            {"weight" : 0.02, "item" : "GasGiant2"},
+            {"weight" : 0.02, "item" : "GasGiant3"},
+            {"weight" : 0.02, "item" : "GasGiant4"},
+            {"weight" : 0.02, "item" : "GasGiant5"},
+            {"weight" : 0.02, "item" : "GasGiant6"},
+            {"weight" : 0.02, "item" : "GasGiant7"},            
+            {"weight" : 0.04, "item" : "AsteroidField"}
+          ],
+          "satelliteTypes" : [
+            {"weight" : 0.5, "item" : "coldMoons"},
+            {"weight" : 0.05, "item" : "Moon"}
+          ]
+        },
+        {
+          "regionName" : "Frozen",
+          "orbitRange" : [11, 11],
+          "bodyProbability" : 0.7,
+          "planetaryTypes" : [
+            {"weight" : 0.5, "item" : "frozenWorlds"},
+            {"weight" : 0.02, "item" : "GasGiant"},
+            {"weight" : 0.02, "item" : "GasGiant2"},
+            {"weight" : 0.02, "item" : "GasGiant3"},
+            {"weight" : 0.02, "item" : "GasGiant4"},
+            {"weight" : 0.02, "item" : "GasGiant5"},
+            {"weight" : 0.02, "item" : "GasGiant6"},
+            {"weight" : 0.02, "item" : "GasGiant7"},            
+            {"weight" : 0.04, "item" : "AsteroidField"}
+          ],
+          "satelliteTypes" : [
+            {"weight" : 0.5, "item" : "frozenMoons"},
+            {"weight" : 0.05, "item" : "Moon"}
+          ]
+        },
+        {
+          "regionName" : "Moon",
+          "orbitRange" : [12, 12],
+          "bodyProbability" : 1.0,
+          "planetaryTypes" : [
+            {"weight" : 1.0, "item" : "Moon"}
+          ],
+          "satelliteTypes" : []
+        },
+        {
+          "regionName" : "Gate",
+          "orbitRange" : [13, 13],
+          "bodyProbability" : 1.0,
+          "planetaryTypes" : [
+            {"weight" : 1.0, "item" : "AncientGateway"}
+          ],
+          "satelliteTypes" : []
+        }
+      ]
+    }
+},
 {
     "op" : "add",
     "path" : "/systemTypes/bluesun1",
