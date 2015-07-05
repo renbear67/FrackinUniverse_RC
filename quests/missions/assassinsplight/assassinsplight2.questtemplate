@@ -1,0 +1,17 @@
+  {
+  "id" : "assassinsplight2.gearup",
+  "prerequisites" : [ ],
+  "title" : "^#1693d5;Assassin's Plight II",
+  "text" : "Thorny blade iss great for up close. But now I needss somethings for far away. Perhapss a ^orange;thorn rifle^white;?",
+  "completionText" : "Thanking you I isss. Maybe I needss more thingiess later.",
+  "conditions" : [ { "kind" : "gather", "item" : [ "thornrifle", 1], "consume" : true } ],
+  "moneyRange" : [210,290],
+  "rewards" : [ 
+    [ [ "teslastaff1-recipe", 1 ] ]
+    ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "requireTurnIn" : true,
+  "canBeAbandoned" : false,
+  "followUp" : "assassinsplight3.gearup"
+}

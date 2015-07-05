@@ -638,11 +638,11 @@
 		// npcs //
 		{
 		"value" : [200, 110, 211, 255],
-		"comment" : "poptop monster",
+		"comment" : "swarpion monster",
 		"brush" : [ [ "npc",
 			{
 				"kind" : "monster",
-				"typeName" : "poptop",
+				"typeName" : "swarpion",
 				"seed" : "stable",
 				"parameters" : {
 				"aggressive" : true,

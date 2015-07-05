@@ -12,9 +12,15 @@
   "actionOnReap" : [
     {
       "action" : "config",
-      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+      "file" : "/projectiles/explosions/acidexplosion/acidexplosion.config"
+    },
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/weapons/eldercarbine.wav" ]
     }
   ],
   //"power" : 5.0,
-  "damageKind" : "poisonplasma"
+  "damageKind" : "poisonplasma",
+  "effectSources" : [ "corrosive" ],
+  "statusEffects" : [ "biooozepoison2" ]
 }

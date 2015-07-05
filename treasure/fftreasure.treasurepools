@@ -108,6 +108,8 @@
           {"weight" : 0.01, "item" : [ "steampunkchest", 1]},
           {"weight" : 0.01, "item" : [ "steampunklegs", 1]},
           {"weight" : 0.04, "item"  : [ "duncecap", 1]},
+          {"weight" : 0.012, "item" :  [ "longarmpistol-recipe", 1]},
+          {"weight" : 0.012, "item" :  [ "longarm-recipe", 1]}, 
           {"weight" : 0.003, "item" : [ "yellowguardianback-recipe", 1]},
           {"weight" : 0.003, "item" : [ "blueguardianback-recipe", 1]},
           {"weight" : 0.003, "item" : [ "pinkguardianback-recipe", 1]},
@@ -141,7 +143,10 @@
 	  {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "randomharpoongun" } ]},
 	  {"weight" : 0.03, "item" : [ "generatedsword", 1, { "definition" : "lightsaber" } ]},
 	  {"weight" : 0.025, "item" : [ "fuearphones-recipe", 1]},
-	  {"weight" : 0.025, "item" : [ "fuhoodedmask-recipe", 1]}
+	  {"weight" : 0.025, "item" : [ "fuhoodedmask-recipe", 1]},
+	  {"weight" : 0.04, "item" : [ "druidcannon-recipe", 1]},
+	  {"weight" : 0.04, "item" : [ "druidstaff-recipe", 1]},
+	  {"weight" : 0.02, "item" : [ "biopistol-recipe", 1]}
         ],
         "poolRounds" : [
           [0.23, 1],
@@ -263,7 +268,10 @@
 	  {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "slingshot" } ]},  
 	  {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "randomharpoongun" } ]},
           {"weight" : 0.001, "item" :  [ "fubonusarmorpants-recipe", 1]},
-          {"weight" : 0.03, "item" : [ "generatedsword", 1, { "definition" : "lightsaber" } ]}
+          {"weight" : 0.03, "item" : [ "generatedsword", 1, { "definition" : "lightsaber" } ]},
+          {"weight" : 0.04, "item" : [ "druidcannon-recipe", 1]},
+	  {"weight" : 0.04, "item" : [ "druidstaff-recipe", 1]},
+	  {"weight" : 0.02, "item" : [ "biopistol-recipe", 1]}
         ],
         "poolRounds" : [
           [0.23, 1],
@@ -454,6 +462,8 @@
 	  {"weight" : 0.012, "item" :  [ "fuexosuitlegs-recipe", 1]},
           {"weight" : 0.012, "item" :  [ "fuexosuithead-recipe", 1]},
           {"weight" : 0.012, "item" :  [ "atropuschest-recipe", 1]},
+          {"weight" : 0.012, "item" :  [ "longarmpistol-recipe", 1]},
+          {"weight" : 0.012, "item" :  [ "longarm-recipe", 1]},          
           {"weight" : 0.04, "item" : [ "hellfirehelm", 1]},
           {"weight" : 0.015, "item" :  [ "eldertome", 1]},
           {"weight" : 0.015, "item" :  [ "elderrelic1", 1]},
@@ -610,7 +620,10 @@
 	  {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "itemlauncher" } ]},
 	  {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "slingshot" } ]},  
 	  {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "randomharpoongun" } ]},
-	  {"weight" : 0.03, "item" : [ "generatedsword", 1, { "definition" : "lightsaber" } ]}
+	  {"weight" : 0.03, "item" : [ "generatedsword", 1, { "definition" : "lightsaber" } ]},
+	  {"weight" : 0.04, "item" : [ "druidcannon-recipe", 1]},
+	  {"weight" : 0.04, "item" : [ "druidstaff-recipe", 1]},
+	  {"weight" : 0.02, "item" : [ "biopistol-recipe", 1]}
         ],
         "poolRounds" : [
           [0.23, 1],
@@ -735,7 +748,10 @@
 	  {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "itemlauncher" } ]},
 	  {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "slingshot" } ]},  
 	  {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "randomharpoongun" } ]},
-	  {"weight" : 0.03, "item" : [ "generatedsword", 1, { "definition" : "lightsaber" } ]}
+	  {"weight" : 0.03, "item" : [ "generatedsword", 1, { "definition" : "lightsaber" } ]},
+	  {"weight" : 0.04, "item" : [ "druidcannon-recipe", 1]},
+	  {"weight" : 0.04, "item" : [ "druidstaff-recipe", 1]},
+	  {"weight" : 0.02, "item" : [ "biopistol-recipe", 1]}
         ],
         "poolRounds" : [
           [0.23, 1],

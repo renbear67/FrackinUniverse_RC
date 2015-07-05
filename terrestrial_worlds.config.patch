@@ -1007,7 +1007,7 @@
     "value" : 
       {
       "gravityRange" : [30, 90],
-      "threatRange" : [2, 5],
+      "threatRange" : [2, 6],
       "layers" : {
         "surface" : {
           "primaryRegion" : [ "metallicmoon" ],

@@ -210,10 +210,6 @@
 },
 {"op":"add",
 "path":"/planetaryTypes/Tier2/baseParameters/terrestrialType/-",
-"value":"fungus"
-},
-{"op":"add",
-"path":"/planetaryTypes/Tier2/baseParameters/terrestrialType/-",
 "value":"arboreal"
 },
 {"op":"add",
@@ -258,10 +254,6 @@
 },
 {"op":"add",
 "path":"/planetaryTypes/Tier3/baseParameters/terrestrialType/-",
-"value":"fungus"
-},
-{"op":"add",
-"path":"/planetaryTypes/Tier3/baseParameters/terrestrialType/-",
 "value":"garden"
 },
 {"op":"add",
@@ -271,16 +263,6 @@
 {"op":"add",
 "path":"/planetaryTypes/Tier3/baseParameters/terrestrialType/-",
 "value":"forest"
-},
-
-{"op":"add",
-"path":"/planetaryTypes/Tier3/baseParameters/terrestrialType/-",
-"value":"protoworld"
-},
-
-{"op":"add",
-"path":"/planetaryTypes/Tier3/baseParameters/terrestrialType/-",
-"value":"penumbra"
 },
 
 {"op":"add",
@@ -319,15 +301,11 @@
 },
 {"op":"add",
 "path":"/planetaryTypes/Tier4/baseParameters/terrestrialType/-",
-"value":"fungus"
-},
-{"op":"add",
-"path":"/planetaryTypes/Tier4/baseParameters/terrestrialType/-",
 "value":"urbanwasteland"
 },
 {"op":"add",
 "path":"/planetaryTypes/Tier4/baseParameters/terrestrialType/-",
-"value":"garden"
+"value":"garden2"
 },
 {"op":"add",
 "path":"/planetaryTypes/Tier4/baseParameters/terrestrialType/-",
@@ -358,15 +336,6 @@
 "path":"/planetaryTypes/Tier4/baseParameters/terrestrialType/-",
 "value":"sulphuricocean"
 },
-{"op":"add",
-"path":"/planetaryTypes/Tier4/baseParameters/terrestrialType/-",
-"value":"protoworld"
-},
-
-{"op":"add",
-"path":"/planetaryTypes/Tier4/baseParameters/terrestrialType/-",
-"value":"penumbra"
-},
 
 {"op":"add",
 "path":"/planetaryTypes/Tier4/baseParameters/terrestrialType/-",
@@ -385,10 +354,6 @@
 {"op":"add",
 "path":"/planetaryTypes/Tier5/baseParameters/terrestrialType/-",
 "value":"mountainous"
-},
-{"op":"add",
-"path":"/planetaryTypes/Tier5/baseParameters/terrestrialType/-",
-"value":"fungus"
 },
 {"op":"add",
 "path":"/planetaryTypes/Tier5/baseParameters/terrestrialType/-",
@@ -451,16 +416,6 @@
 "path":"/planetaryTypes/Tier5/baseParameters/terrestrialType/-",
 "value":"sulphuricocean"
 },
-{"op":"add",
-"path":"/planetaryTypes/Tier5/baseParameters/terrestrialType/-",
-"value":"protoworld"
-},
-
-
-{"op":"add",
-"path":"/planetaryTypes/Tier5/baseParameters/terrestrialType/-",
-"value":"penumbra"
-},
 
 {"op":"add",
 "path":"/planetaryTypes/Tier5/baseParameters/terrestrialType/-",
@@ -483,10 +438,6 @@
 {"op":"add",
 "path":"/planetaryTypes/Tier6/baseParameters/terrestrialType/-",
 "value":"urbanwasteland"
-},
-{"op":"add",
-"path":"/planetaryTypes/Tier6/baseParameters/terrestrialType/-",
-"value":"fungus"
 },
 {"op":"add",
 "path":"/planetaryTypes/Tier6/baseParameters/terrestrialType/-",
@@ -549,15 +500,6 @@
 "path":"/planetaryTypes/Tier6/baseParameters/terrestrialType/-",
 "value":"sulphuricocean"
 },
-{"op":"add",
-"path":"/planetaryTypes/Tier6/baseParameters/terrestrialType/-",
-"value":"protoworld"
-},
-
-{"op":"add",
-"path":"/planetaryTypes/Tier6/baseParameters/terrestrialType/-",
-"value":"penumbra"
-},
 
 {"op":"add",
 "path":"/planetaryTypes/Tier6/baseParameters/terrestrialType/-",
@@ -599,10 +541,6 @@
 },
 {"op":"add",
 "path":"/satelliteTypes/Tier2/baseParameters/terrestrialType/-",
-"value":"fungus"
-},
-{"op":"add",
-"path":"/satelliteTypes/Tier2/baseParameters/terrestrialType/-",
 "value":"ffunknown"
 },
 {"op":"add",
@@ -613,10 +551,6 @@
 "path":"/satelliteTypes/Tier2/baseParameters/terrestrialType/-",
 "value":"icemoon"
 },
-{"op":"add",
-"path":"/satelliteTypes/Tier2/baseParameters/terrestrialType/-",
-"value":"metallicmoon"
-},
 
 {"op":"add",
 "path":"/satelliteTypes/Tier2/baseParameters/terrestrialType/-",
@@ -639,10 +573,6 @@
 },
 {"op":"add",
 "path":"/satelliteTypes/Tier3/baseParameters/terrestrialType/-",
-"value":"fungus"
-},
-{"op":"add",
-"path":"/satelliteTypes/Tier3/baseParameters/terrestrialType/-",
 "value":"desert_wastes"
 },
 {"op":"add",
@@ -660,11 +590,6 @@
 {"op":"add",
 "path":"/satelliteTypes/Tier3/baseParameters/terrestrialType/-",
 "value":"icemoon"
-},
-
-{"op":"add",
-"path":"/satelliteTypes/Tier3/baseParameters/terrestrialType/-",
-"value":"protoworld"
 },
 
 {"op":"add",
@@ -674,11 +599,6 @@
 
 {"op":"add",
 "path":"/satelliteTypes/Tier3/baseParameters/terrestrialType/-",
-"value":"penumbra"
-},
-
-{"op":"add",
-"path":"/satelliteTypes/Tier3/baseParameters/terrestrialType/-",
 "value":"arboreal"
 },
 
@@ -696,10 +616,7 @@
 "path":"/satelliteTypes/Tier3/baseParameters/terrestrialType/-",
 "value":"thickjungle"
 },
-{"op":"add",
-"path":"/satelliteTypes/Tier3/baseParameters/terrestrialType/-",
-"value":"metallicmoon"
-},
+
 {"op":"add",
 "path":"/satelliteTypes/Tier4/baseParameters/terrestrialType/-",
 "value":"mountainous"
@@ -720,10 +637,6 @@
 {"op":"add",
 "path":"/satelliteTypes/Tier4/baseParameters/terrestrialType/-",
 "value":"icemoon"
-},
-{"op":"add",
-"path":"/satelliteTypes/Tier4/baseParameters/terrestrialType/-",
-"value":"fungus"
 },
 {"op":"add",
 "path":"/satelliteTypes/Tier4/baseParameters/terrestrialType/-",
@@ -750,15 +663,7 @@
 
 {"op":"add",
 "path":"/satelliteTypes/Tier4/baseParameters/terrestrialType/-",
-"value":"metallicmoon"
-},
-{"op":"add",
-"path":"/satelliteTypes/Tier4/baseParameters/terrestrialType/-",
 "value":"thickjungle"
-},
-{"op":"add",
-"path":"/satelliteTypes/Tier5/baseParameters/terrestrialType/-",
-"value":"fungus"
 },
 {"op":"add",
 "path":"/satelliteTypes/Tier5/baseParameters/terrestrialType/-",
@@ -808,17 +713,10 @@
 "path":"/satelliteTypes/Tier5/baseParameters/terrestrialType/-",
 "value":"thickjungle"
 },
-{"op":"add",
-"path":"/satelliteTypes/Tier5/baseParameters/terrestrialType/-",
-"value":"metallicmoon"
-},
+
 {"op":"add",
 "path":"/satelliteTypes/Tier6/baseParameters/terrestrialType/-",
 "value":"mountainous"
-},
-{"op":"add",
-"path":"/satelliteTypes/Tier6/baseParameters/terrestrialType/-",
-"value":"fungus"
 },
 {"op":"add",
 "path":"/satelliteTypes/Tier6/baseParameters/terrestrialType/-",
@@ -859,10 +757,6 @@
 {"op":"add",
 "path":"/satelliteTypes/Tier6/baseParameters/terrestrialType/-",
 "value":"thickjungle"
-},
-{"op":"add",
-"path":"/satelliteTypes/Tier6/baseParameters/terrestrialType/-",
-"value":"metallicmoon"
 },
 
 {"op":"add",
@@ -1960,7 +1854,7 @@
         "dynamicsImages" : "/celestial/system/terrestrial/dynamics/<num>.png",
         "dynamicsRange" : [1, 40],
 
-        "terrestrialType" : [ "tidewater", "frozenvolcanic", "snow", "tundra", "ocean", "nitrogensea", "icewaste", "arctic" ]
+        "terrestrialType" : [ "tidewater", "frozenvolcanic", "snow", "tundra", "ocean", "nitrogensea", "arctic" ]
       },
 
       "variationParameters" : [
@@ -2105,7 +1999,7 @@
         "dynamicsImages" : "/celestial/system/terrestrial/dynamics/<num>.png",
         "dynamicsRange" : [1, 40],
 
-        "terrestrialType" : [ "tarball", "desert_wastes", "desert2", "infernus", "magma", "volcanic", "sulphuric", "sulphuricocean",  "scorched" ]
+        "terrestrialType" : [ "metallicmoon", "tarball", "desert_wastes", "desert2", "infernus", "magma", "volcanic", "sulphuric", "sulphuricocean",  "scorched" ]
       },
 
       "variationParameters" : [
@@ -2140,7 +2034,7 @@
         "dynamicsImages" : "/celestial/system/terrestrial/dynamics/<num>.png",
         "dynamicsRange" : [1, 40],
 
-        "terrestrialType" : [ "tarball", "mountainous", "fungus", "moon", "barren", "infernus", "magma", "volcanic", "sulphuric", "sulphuricocean", "desert2", "desert_wastes", "ocean" ]
+        "terrestrialType" : [ "metallicmoon", "tarball", "mountainous", "fungus", "moon", "barren", "infernus", "magma", "volcanic", "sulphuric", "sulphuricocean", "desert2", "desert_wastes", "ocean" ]
       },
 
       "variationParameters" : [
@@ -2175,7 +2069,7 @@
         "dynamicsImages" : "/celestial/system/terrestrial/dynamics/<num>.png",
         "dynamicsRange" : [1, 40],
 
-        "terrestrialType" : [ "tarball", "forest2", "mountainous", "tidewater", "fungus", "moon", "barren", "irradiated", "volcanic", "arboreal", "arboreal2", "atropus", "desert2", "desert_wastes", "protoworld", "alien", "ocean", "toxic", "bloodstone","bloodstonesea", "slimeworld" ]
+        "terrestrialType" : [ "metallicmoon", "tarball", "forest2", "mountainous", "tidewater", "fungus", "moon", "barren", "irradiated", "volcanic", "arboreal", "arboreal2", "atropus", "desert2", "desert_wastes", "protoworld", "alien", "ocean", "toxic", "bloodstone","bloodstonesea", "slimeworld" ]
       },
 
       "variationParameters" : [
