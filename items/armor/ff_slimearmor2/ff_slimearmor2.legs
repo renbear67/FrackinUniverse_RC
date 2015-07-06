@@ -1,34 +1,28 @@
 {
-  "itemName" : "ff_slimehead",
-  "inventoryIcon" : "icons.png:head",
+  "itemName" : "ff_slimelegs2",
+  "inventoryIcon" : "icons.png:pants",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Rare",
-  "description" : "A..slimey helm. Lovely. Immune to Bio-ooze",
-  "shortdescription" : "Gelatinous Helm",
-  "learnBlueprintsOnPickup" : [ "ff_slimehead2" ],
+  "description" : "Awesome. It feels like soggy underwear. Immunity to sticky slime. Grants energy regen.",
+  "shortdescription" : "Gelatinous Greaves II",
   "tooltipKind" : "armor",
 
-  "maleFrames" : "head.png",
-  "femaleFrames" : "head.png",
-  "mask" : "mask.png",
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
 
   "statusEffects" : [
     {
       "stat" : "protection",
-      "amount" : 25
+      "amount" : 115
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 25
+      "amount" : 96
     },
-
-    {
-      "stat" : "maxHealth",
-      "amount" : 10
-    },
-    "biooozeimmunity"
+    "energyregenfu_armor20",
+    "slimestickimmunity"
   ],
   
   "colorOptions" : [
@@ -46,3 +40,4 @@
 
   ]
 }
+

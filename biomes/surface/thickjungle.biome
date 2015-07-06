@@ -479,8 +479,8 @@
           "type" : "tree",
           "treeFoliageHueShiftMax" : 180,
           "treeStemHueShiftMax" : 15,
-          "treeStemList" : [ "bamboostem", "twisty", "woody", "oldwood", "crackly", "palmlike" ],
-          "treeFoliageList" : [ "bamboofoliage", "lushy", "junglepalm", "jungly", "jungleleaf" ]
+          "treeStemList" : [ "twisty", "woody", "oldwood", "crackly", "palmlike" ],
+          "treeFoliageList" : [ "lushy", "junglepalm", "jungly", "jungleleaf" ]
         },  
         {
           "mode" : "floor",
@@ -503,8 +503,8 @@
           "type" : "tree",
           "treeFoliageHueShiftMax" : 180,
           "treeStemHueShiftMax" : 15,
-          "treeStemList" : [ "coconutwood", "tearnutstem", "pearlwood" ],
-          "treeFoliageList" : [ "coconut", "tearnutfoliage", "pearlfoliage" ]
+          "treeStemList" : [ "coconutwood", "tearnutstem", "pearlwood", "bananatreestem"  ],
+          "treeFoliageList" : [ "coconut", "tearnutfoliage", "pearlfoliage", "bananatreeleaf" ]
         }
       ]
     },

@@ -5,7 +5,8 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "description" : "Slimy, oozing protection. Immune to Bio-ooze.",
-  "shortdescription" : "Gelatinous Breastplate",
+  "shortdescription" : "Gelatinous Chest",
+  "learnBlueprintsOnPickup" : [ "ff_slimechest2" ],
   "tooltipKind" : "armor",
 
   "maleFrames" : {

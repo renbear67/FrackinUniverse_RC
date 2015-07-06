@@ -1,34 +1,41 @@
 {
-  "itemName" : "ff_slimehead",
-  "inventoryIcon" : "icons.png:head",
+  "itemName" : "ff_slimechest2",
+  "inventoryIcon" : "icons.png:chest",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Rare",
-  "description" : "A..slimey helm. Lovely. Immune to Bio-ooze",
-  "shortdescription" : "Gelatinous Helm",
-  "learnBlueprintsOnPickup" : [ "ff_slimehead2" ],
+  "description" : "Slimy, oozing protection. Immune to Bio-ooze.",
+  "shortdescription" : "Gelatinous Chest II",
   "tooltipKind" : "armor",
 
-  "maleFrames" : "head.png",
-  "femaleFrames" : "head.png",
-  "mask" : "mask.png",
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
 
   "statusEffects" : [
     {
       "stat" : "protection",
-      "amount" : 25
+      "amount" : 145
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 25
+      "amount" : 95
     },
 
     {
-      "stat" : "maxHealth",
-      "amount" : 10
+      "stat" : "healthRegen",
+      "amount" : 0.60
     },
-    "biooozeimmunity"
+    "biooozeimmunity"  
   ],
   
   "colorOptions" : [

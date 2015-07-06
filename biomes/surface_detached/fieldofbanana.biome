@@ -18,6 +18,18 @@
           "variants" : 1,
           "distribution" : "/biomes/distributions.config:superCommon",
 
+          "type" : "tree",
+          "treeFoliageHueShiftMax" :4,
+          "treeStemHueShiftMax" : 4,
+          "treeStemList" : [ "bananatreestem"  ],
+          "treeFoliageList" : [ "bananatreeleaf" ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:ffCommon",
+
           "type" : "object",
           "objectSets" : [
             {

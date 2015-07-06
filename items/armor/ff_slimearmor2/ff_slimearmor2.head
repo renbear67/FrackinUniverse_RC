@@ -1,12 +1,11 @@
 {
-  "itemName" : "ff_slimehead",
+  "itemName" : "ff_slimehead2",
   "inventoryIcon" : "icons.png:head",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Rare",
   "description" : "A..slimey helm. Lovely. Immune to Bio-ooze",
-  "shortdescription" : "Gelatinous Helm",
-  "learnBlueprintsOnPickup" : [ "ff_slimehead2" ],
+  "shortdescription" : "Gelatinous Helm II",
   "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
@@ -16,17 +15,17 @@
   "statusEffects" : [
     {
       "stat" : "protection",
-      "amount" : 25
+      "amount" : 115
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 25
+      "amount" : 95
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 10
+      "amount" : 70
     },
     "biooozeimmunity"
   ],

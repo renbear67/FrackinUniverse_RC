@@ -6,6 +6,7 @@
   "rarity" : "Rare",
   "description" : "Awesome. It feels like soggy underwear. Immunity to sticky slime. Grants energy regen.",
   "shortdescription" : "Gelatinous Greaves",
+  "learnBlueprintsOnPickup" : [ "ff_slimelegs2" ],
   "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
