@@ -1,5 +1,5 @@
 {
-  "type" : "wastelandquestgiver",
+  "type" : "primevalquestgiver",
   
   "damageTeam" : 1,
   "levelVariance" : [0, 0],
@@ -25,8 +25,8 @@
   ],
   "initialScriptDelta" : 5,
   "scriptConfig" : {
-	"offeredQuests" : [ "assassinsplight1.gearup", "assassinsplight2.gearup", "assassinsplight3.gearup" ],
-	"turnInQuests" : [ "assassinsplight1.gearup", "assassinsplight2.gearup", "assassinsplight3.gearup" ],
+	"offeredQuests" : [ "rooted1.gearup", "rooted2.gearup", "rooted3.gearup" ],
+	"turnInQuests" : [ "rooted1.gearup", "rooted2.gearup", "rooted3.gearup" ],
     "doorHitPoly" : [ [2, -1], [2, 1], [0, 1], [0, -1] ],
     "idleTimeRange" : [2.0, 10.0],
     "gapSensor" : [ [2.0, -4.5] ],
@@ -331,9 +331,7 @@
         "default" : [
             [0, [
           {
-            "head" : [ "steampunkhead" ],
-            "chest" : [ "steampunkchest" ],
-            "legs" : [ "steampunklegs" ]
+            "head" : [ "duncecap" ]
           }
             ] ]
         ]

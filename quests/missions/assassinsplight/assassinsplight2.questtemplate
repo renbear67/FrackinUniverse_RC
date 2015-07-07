@@ -1,6 +1,6 @@
   {
   "id" : "assassinsplight2.gearup",
-  "prerequisites" : [ ],
+  "prerequisites" : [ "assassinsplight1.gearup" ],
   "title" : "^#1693d5;Assassin's Plight II",
   "text" : "Thorny blade iss great for up close. But now I needss somethings for far away. Perhapss a ^orange;thorn rifle^white;?",
   "completionText" : "Thanking you I isss. Maybe I needss more thingiess later.",

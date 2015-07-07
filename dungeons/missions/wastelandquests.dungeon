@@ -52,22 +52,17 @@
       "comment" : "Empty hole",
       "brush" : [ [ "clear" ] ]
     },
-  {
+    {
       "value" : [150, 255, 100, 255],
       "comment" : "questgiver",
       "brush" : [ [ "npc",
           {
             "kind" : "npc",
             "species" : "floran",
-            "typeName" : "wastelandquestgiver",
-            // "seed" : "stable",
-            "parameters" : {
-              "persistent" : true
-            }
+            "typeName" : "wastelandquestgiver"
           }
         ] ]
     },
-    
     {
       "value" : [48, 48, 48, 255],
       "comment" : "Empty hole overwritable",

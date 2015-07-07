@@ -214,10 +214,6 @@
 },
 {"op":"add",
 "path":"/planetaryTypes/Tier2/baseParameters/terrestrialType/-",
-"value":"arboreal2"
-},
-{"op":"add",
-"path":"/planetaryTypes/Tier2/baseParameters/terrestrialType/-",
 "value":"bog"
 },
 {"op":"add",

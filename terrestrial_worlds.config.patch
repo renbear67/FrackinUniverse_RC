@@ -277,7 +277,7 @@
         "surface" : {
           "primaryRegion" : [ "mountainous", "atropus", "bloodstone", "crystalmoon", "icewaste", "infernus", "metallicmoon", "sulphuric", "urbanwasteland", "alien", "desert", "scorched", "volcanic" ],
           "secondaryRegion" : [ "metalworks", "metalworks2", "sulphuricmagma","reddesert", "mountainous", "corrupt","tar","crystalline", "alien", "desert", "scorched", "volcanic", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "calichefield", "bloodstonefield", "corruptedforest", "crystalplain", "deadwood", "desertoasis", "dryriverbed", "elder", "energyorbforest", "flowerforest", "hellfirefield", "hellhive", "icefire", "irradiatedwaste", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "pitchfield", "primevalforest", "snowyforest", "sulphuricplain", "taiga" ],
-          "dungeonCountRange" : [0, 1],
+          "dungeonCountRange" : [0, 2],
           "dungeons" : [ "wreck", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "avianairship", "aviantemple","humanbunker", "floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison", "naturalcave" ]
         },
         "subsurface" : {
@@ -735,7 +735,7 @@
           "primaryRegion" : [ "fungus" ],
           "secondaryRegion" : [ "cactiplace", "ffhive", "corrupt", "birchforest", "alienforest", "reddesert", "rainbowforest", "swamp", "bloodgulch", "forest", "corruptedforest", "fieldofwheat", "fieldofsugar",  "fieldofpotato", "fieldofcorn",  "fieldofgrape",  "fieldoftomato","pineforest", "flowerforest", "snowyforest", "taiga", "dryriverbed", "deadwood", "giantflowers", "forest", "jungle", "savannah" ],
           "dungeonCountRange" : [0, 2],
-          "dungeons" : [ "wreck", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "avianairship", "aviantemple","humanbunker", "floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison", "naturalcave" ]
+          "dungeons" : [ "wastelandquests", "glitchsewer", "glitchvillage", "floranhuntinggrounds", "floranvillagetower", "floranhell", "naturalcave" ]
         },
         "subsurface" : {
           "primaryRegion" : [ "shroomcaveunderground" ]
@@ -1509,7 +1509,7 @@
           "primaryRegion" : [ "urbanwasteland" ],
           "secondaryRegion" : [ "metalworks", "metalworks2", "crystalswamp", "ffhive", "alienforest", "sulphuricmagma", "reddesert", "swamp", "bloodgulch", "hellhive", "corruptedforest", "deadwood",   "savannah"],
           "dungeonCountRange" : [0, 2],
-          "dungeons" : [ "elderruins", "wreck", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "avianairship", "aviantemple","humanbunker", "floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison", "naturalcave" ]
+          "dungeons" : [ "wastelandquests", "elderruins", "wreck", "apexresearchlab", "apextestchamber", "apextowerblock", "humanbunker", "humanprison", "naturalcave" ]
         },
         "subsurface" : {
           "primaryRegion" : [ "barrenunderground" ]
@@ -1575,7 +1575,7 @@
       "blockSelector" : [ "mixedSurface", "flatsSurface", "lowHillsSurface", "ledgesSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
-        [0, [ "desert", "desert_wastes" ]]
+        [0, [ "desert" ]]
       ]
     }
   },  
@@ -1601,7 +1601,7 @@
       "fgCaveSelector" : [ "surfaceCaves", "fusurfacecaves" ],
       "bgOreSelector" : [ "commonVeins", "denseVeins" ], 
       "biome" : [
-        [0, [ "arboreal", "arboreal2" ]]
+        [0, [ "arboreal" ]]
       ]
     }
   },

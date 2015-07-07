@@ -11,7 +11,18 @@
 	// tiles //
 	
 	"tiles" : [
-	    {
+    {
+      "value" : [150, 255, 100, 255],
+      "comment" : "questgiver",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "npc",
+            "species" : "human",
+            "typeName" : "primevalquestgiver"
+          }
+        ] ]
+    },
+	        {
 			"value" : [85, 255, 0, 255],
 			"comment" : "Player Spawn",
 			"brush" : [ [ "playerstart" ] ]
