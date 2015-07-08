@@ -20,9 +20,9 @@
       "parallax" : 1.2
     },
     {
-      "kind" : "bioworldback",
-      "baseCount" : 4,
-      "offset" : [0, 340],
+      "kind" : "bloodstoneback",
+      "baseCount" : 1,
+      "offset" : [0, 240],
       "parallax" : 9,
       "nightCorrelation" : 0,
       "minSpeed" : 0,
@@ -31,10 +31,22 @@
       "fadePercent" : 0.15
     },
     {
-      "kind" : "bioworldfront",
-      "baseCount" : 2,
-      "offset" : [0, 360],
-      "parallax" : 5,
+      "kind" : "bloodstonemid",
+      "baseCount" : 1,
+      "offset" : [0, 240],
+      "parallax" : 6,
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "modifiers" : "?brightness=20?saturation=-10",
+      "fadePercent" : 0.15
+    },
+    
+    {
+      "kind" : "bloodstonefront",
+      "baseCount" : 1,
+      "offset" : [0, 210],
+      "parallax" : 3,
       "nightCorrelation" : 0,
       "minSpeed" : 0,
       "maxSpeed" : 0,
