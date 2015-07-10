@@ -4,7 +4,7 @@
     { "item" : "aggressiongene", "count" : 1 },
     { "item" : "blobbushjelly", "count" : 2 },
     { "item" : "adaptivecells", "count" : 1 },
-    { "item" : "bluepetal", "count" : 3 }
+    { "item" : "petalblue", "count" : 3 }
   ],
   "output" : {
     "item" : "aenemaflower",

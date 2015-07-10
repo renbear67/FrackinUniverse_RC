@@ -20,7 +20,7 @@
     },
     {
       "kind" : "bioworldback",
-      "baseCount" : 4,
+      "baseCount" : 3,
       "offset" : [0, 424],
       "parallax" : 12,
       "nightCorrelation" : 0,
@@ -29,12 +29,21 @@
       "modifiers" : "?brightness=20?saturation=-10",
       "fadePercent" : 0.15
     },
-
+    {
+      "kind" : "bioworldmid",
+      "offset" : [0, 300],
+      "baseCount" : 1,
+      "parallax" : 7,
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "modifiers" : ""
+    },
     {
       "kind" : "bioworldfront",
-      "offset" : [0, 300],
+      "offset" : [0, 320],
       "baseCount" : 2,
-      "parallax" : 7,
+      "parallax" : 5,
       "nightCorrelation" : 0,
       "minSpeed" : 0,
       "maxSpeed" : 0,
@@ -49,14 +58,14 @@
     },
     {
       "kind" : "foliage/treefront",
-      "offset" : [0, 245],
+      "offset" : [0, 335],
       "parallax" : 3,
       "directives" : "?saturation=-10?brightness=5",
       "fadePercent" : 0.03
     },
     {
       "kind" : "foliage/treeback",
-      "offset" : [0, 315],
+      "offset" : [0, 370],
       "parallax" : 3.5,
       "directives" : "?saturation=-5?brightness=10",
       "fadePercent" : 0.03

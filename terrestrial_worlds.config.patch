@@ -135,20 +135,6 @@
     
     
 //"alternate" vanilla biomes for the low-tier worlds
-{"op" : "add",
-"path" : "/planetTypes/garden2",
-"value" : {       
-      "threatRange" : [1, 6],
-      "layers" : {
-        "surface" : {
-          "primaryRegion" : [ "garden" ], 
-	  "secondaryRegion" : [ "crystalswamp", "birchforest", "cloudforest", "fieldofcarrots", "fieldofcorn", "fieldofgrape", "fieldofpotato", "fieldoftomato", "fieldofwheat", "flowerforest", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "rainbowforest", "snowyforest", "taiga"  ],
-          "dungeonCountRange" : [0, 2],
-          "dungeons" : [ "greenruins", "naturalcave", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "humanbunker", "floranhuntinggrounds", "floranvillagetower" ]
-        }		  
-      }
-    }
-},
 
 {"op" : "add",
 "path" : "/planetTypes/forest2",
