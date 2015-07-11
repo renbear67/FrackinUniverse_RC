@@ -135,7 +135,39 @@
     
     
 //"alternate" vanilla biomes for the low-tier worlds
-
+{"op" : "add",
+"path" : "/planetTypes/garden2",
+"value" : {       
+      "threatRange" : [1, 6],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "garden" ], 
+	  "secondaryRegion" : [ "crystalswamp", "ffhive", "birchforest", "spring", "mushroom", "alienforest", "cloudforest", "corruptedforest", "deadwood", "energyorbforest", "fieldofcarrots", "fieldofcorn", "fieldofgrape", "fieldofpotato", "fieldoftomato", "primevalforest", "fieldofwheat", "flowerforest", "hauntedforest", "hauntedgraveyard", "meadow", "hellhive", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "rainbowforest", "snowyforest", "taiga"  ],
+          "dungeonCountRange" : [0, 2],
+          "dungeons" : [ "greenruins", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "humanbunker", "floranhuntinggrounds", "floranvillagetower" ]
+        },
+		  
+        "underground1" : {
+          "secondaryRegion" : [ "ffpoopit", "ffcrystalrealm", "colorfulcave", "zen", "heck", "tarunderground", "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        },
+        "underground2" : {
+          "secondaryRegion" : [ "ffpoopit", "ffcrystalrealm", "colorfulcave", "zen", "heck", "tarunderground", "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        },
+        "underground3" : {
+          "secondaryRegion" : [ "ffpoopit", "ffcrystalrealm", "colorfulcave", "zen", "heck", "tarunderground", "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        },
+        "underground4" : {
+          "secondaryRegion" : [ "ffpoopit", "ffcrystalrealm", "colorfulcave", "zen", "heck", "tarunderground", "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        },
+        "underground5" : {
+          "secondaryRegion" : [ "ffpoopit", "ffcrystalrealm", "colorfulcave", "zen", "heck", "tarunderground", "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        },
+        "underground6" : {
+          "secondaryRegion" : [ "ffpoopit", "colorfulcave", "zen", "heck", "tarunderground", "mushroomunderground", "wildernessunderground", "minivillageunderground" ]
+        }
+      }
+    }
+},
 {"op" : "add",
 "path" : "/planetTypes/forest2",
 "value" : {       
