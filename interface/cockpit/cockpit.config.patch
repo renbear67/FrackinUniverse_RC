@@ -60,12 +60,6 @@
     "value" : "Red Star"
   }, 
 
-{"op":"add","path":"/planetTypeToDescription/garden2",
-"value":"A ^#76fe68;lush ^white;planet teeming with life."},
-{"op":"add","path":"/planetTypeToDescription/forest2",
-"value":"Dense ^#15ce02;forest ^white;plant life produces plenty of oxygen."},
-{"op":"add","path":"/planetTypeToDescription/desert2",
-"value":"The majority of the planet's surface is covered in ^#e6c801;desert ^white;with little plant life."},  
 {"op":"add","path":"/planetTypeToDescription/desert_wastes",
 "value":"The majority of the planet's surface is ^#c80000;scorching red desert ^white;with very little plant life."},
 {"op":"add","path":"/planetTypeToDescription/ffunknown",
