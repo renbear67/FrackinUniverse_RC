@@ -1,0 +1,4 @@
+[
+  { "op" : "replace", "path" : "/findStarterWorldParameters/tries", "value" : 50 },
+  { "op" : "replace", "path" : "/findStarterWorldParameters/range", "value" : 500 }
+]
