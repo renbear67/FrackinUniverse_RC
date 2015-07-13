@@ -69,10 +69,6 @@
     "value" : [ "crystalswamp", "alienforest", "icefire", "sulphuricplain", "badlands", "reddesert", "desertoasis", "calichefield", "bloodgulch", "deadwood", "ashgarden", "dryriverbed" ]
     },
     { "op" : "add", 
-    "path" : "/planetTypes/desert/layers/surface/primaryRegion", 
-    "value" : [ "desert_wastes" ]
-    },
-    { "op" : "add", 
     "path" : "/planetTypes/desert/layers/surface/secondaryRegion", 
     "value" : [ "cactiplace", "crystalswamp", "reddesert", "finesand", "badlands", "desertoasis", "dryriverbed", "calichefield", "hellfirefield", "pitchfield", "sulphuricplain" ]
     },
