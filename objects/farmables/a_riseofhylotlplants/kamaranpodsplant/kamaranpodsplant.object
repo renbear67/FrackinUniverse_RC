@@ -36,7 +36,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "kamaranpodsplantHarvest"
+      "harvestPool" : "kamaranpodsplantHarvest",
+      "resetToStage" : 0
     }
   ]
 }

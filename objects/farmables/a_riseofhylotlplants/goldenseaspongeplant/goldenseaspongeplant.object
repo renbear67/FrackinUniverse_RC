@@ -36,7 +36,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "goldenseaspongeplantHarvest"
+      "harvestPool" : "goldenseaspongeplantHarvest",
+      "resetToStage" : 0
     }
   ]
 }

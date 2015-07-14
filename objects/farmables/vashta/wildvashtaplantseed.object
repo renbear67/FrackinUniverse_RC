@@ -29,7 +29,8 @@
     },
     {
       "alts" : 2,
-      "harvestPool" : "wildvashtaplantHarvest"
+      "harvestPool" : "wildvashtaplantHarvest",
+      "resetToStage" : 0
     }
   ]
 }

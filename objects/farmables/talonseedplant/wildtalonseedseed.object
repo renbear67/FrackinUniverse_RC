@@ -29,7 +29,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "wildtalonseedHarvest"
+      "harvestPool" : "wildtalonseedHarvest",
+      "resetToStage" : 0
     }
   ]
 }

@@ -31,7 +31,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "wildpasakaHarvest"
+      "harvestPool" : "wildpasakaHarvest",
+      "resetToStage" : 0
     }
   ]
 }

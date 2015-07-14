@@ -3,5 +3,6 @@
   "rarity" : "Common",
   "inventoryIcon" : "cellmateria.png",
   "description" : "cellmateria",
-  "shortdescription" : "Cell Material"
+  "shortdescription" : "Cell Material",
+  "learnBlueprintsOnPickup" : [ "avikanspiceplantseed", "avikancactusseed" ]
 }

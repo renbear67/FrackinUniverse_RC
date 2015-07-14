@@ -32,12 +32,8 @@
     },
     {
       "alts" : 5,
-      "duration" : [110, 130]
-    },
-    {
-      "alts" : 5,
       "harvestPool" : "wildonionHarvest",
-      "resetToStage" : 1
+      "resetToStage" : 0
     }
   ]
 }

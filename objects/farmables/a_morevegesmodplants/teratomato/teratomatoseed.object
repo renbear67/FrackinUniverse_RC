@@ -31,7 +31,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "teratomatoHarvest"
+      "harvestPool" : "teratomatoHarvest",
+      "resetToStage" : 0
     }
   ]
 }

@@ -29,7 +29,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "shockshroomHarvest"
+      "harvestPool" : "shockshroomHarvest",
+      "resetToStage" : 0
     }
   ],
 

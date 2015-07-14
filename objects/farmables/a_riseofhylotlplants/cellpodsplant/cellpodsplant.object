@@ -37,7 +37,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "cellpodsplantHarvest"
+      "harvestPool" : "cellpodsplantHarvest",
+      "resetToStage" : 0
     }
   ]
 }

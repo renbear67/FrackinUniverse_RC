@@ -30,14 +30,15 @@
   ],
   "stages" : [
     {
-      "duration" : [300, 600]
+      "duration" : [120, 300]
     },
     {
-      "duration" : [300, 600]
+      "duration" : [120, 300]
     },
     {
       "alts" : 4,
-      "harvestPool" : "wildbambooHarvest"
+      "harvestPool" : "wildbambooHarvest",
+      "resetToStage" : 0
     }
   ]
 }

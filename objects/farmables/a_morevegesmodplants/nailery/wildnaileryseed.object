@@ -32,12 +32,8 @@
     },
     {
       "alts" : 5,
-      "duration" : [300, 600]
-    },
-    {
-      "alts" : 5,
       "harvestPool" : "wildnaileryHarvest",
-      "resetToStage" : 1
+      "resetToStage" : 0
     }
   ]
 }

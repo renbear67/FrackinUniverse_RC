@@ -30,7 +30,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "snowberryseedHarvest"
+      "harvestPool" : "snowberryseedHarvest",
+      "resetToStage" : 0
     }
   ]
 }

@@ -31,7 +31,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "naileryHarvest"
+      "harvestPool" : "naileryHarvest",
+      "resetToStage" : 0
     }
   ],
   "learnBlueprintsOnPickup" : [ "tinselbush" ]

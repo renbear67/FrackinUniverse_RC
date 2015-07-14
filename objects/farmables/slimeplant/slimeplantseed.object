@@ -29,7 +29,8 @@
     },
     {
       "alts" : 3,
-      "harvestPool" : "slimeplantHarvest"
+      "harvestPool" : "slimeplantHarvest",
+      "resetToStage" : 0
     }
   ]
 }

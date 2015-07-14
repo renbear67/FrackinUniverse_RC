@@ -29,7 +29,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "talonseedHarvest"
+      "harvestPool" : "talonseedHarvest",
+      "resetToStage" : 0
     }
   ],
   "learnBlueprintsOnPickup" : [ "bluemelonseed" ]

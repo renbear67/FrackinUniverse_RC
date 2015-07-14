@@ -31,7 +31,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "onionHarvest"
+      "harvestPool" : "onionHarvest",
+      "resetToStage" : 0
     }
   ]
 }

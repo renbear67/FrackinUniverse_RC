@@ -29,7 +29,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "zathiHarvest"
+      "harvestPool" : "zathiHarvest",
+      "resetToStage" : 0
     }
   ]
 }

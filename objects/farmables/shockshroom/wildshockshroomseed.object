@@ -32,7 +32,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "wildshockshroomHarvest"
+      "harvestPool" : "wildshockshroomHarvest",
+      "resetToStage" : 0
     }
   ],
 

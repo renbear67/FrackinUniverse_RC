@@ -29,7 +29,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "springvaultHarvest"
+      "harvestPool" : "springvaultHarvest",
+      "resetToStage" : 0
     }
   ]
 }

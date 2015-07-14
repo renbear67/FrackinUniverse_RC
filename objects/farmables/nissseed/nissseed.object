@@ -29,7 +29,8 @@
     },
     {
       "alts" : 3,
-      "harvestPool" : "nissHarvest"
+      "harvestPool" : "nissHarvest",
+      "resetToStage" : 0
     }
   ]
 }

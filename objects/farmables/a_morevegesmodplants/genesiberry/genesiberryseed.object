@@ -31,7 +31,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "genesiberryHarvest"
+      "harvestPool" : "genesiberryHarvest",
+      "resetToStage" : 0
     }
   ]
 }

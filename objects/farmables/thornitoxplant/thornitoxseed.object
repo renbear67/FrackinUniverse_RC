@@ -30,7 +30,8 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "thornitoxHarvest"
+      "harvestPool" : "thornitoxHarvest",
+      "resetToStage" : 0
     }
   ],
           "touchDamage" : {

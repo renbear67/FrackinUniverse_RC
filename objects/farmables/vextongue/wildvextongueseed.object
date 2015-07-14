@@ -29,7 +29,8 @@
     },
     {
       "alts" : 3,
-      "harvestPool" : "wildvextongueHarvest"
+      "harvestPool" : "wildvextongueHarvest",
+      "resetToStage" : 0
     }
   ]
 }

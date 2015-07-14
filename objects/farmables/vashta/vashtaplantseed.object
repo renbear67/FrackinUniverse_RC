@@ -29,7 +29,8 @@
     },
     {
       "alts" : 2,
-      "harvestPool" : "vashtaplantHarvest"
+      "harvestPool" : "vashtaplantHarvest",
+      "resetToStage" : 0
     }
   ]
 }
