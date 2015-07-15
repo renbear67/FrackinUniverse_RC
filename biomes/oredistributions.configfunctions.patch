@@ -557,6 +557,22 @@
     [4.5, [ [ "coal", 1.15], [ "uranium", 1.15], [ "solarium", 0.00], [ "copper", 1.25], [ "silverore", 1.25], [ "gold", 1.25], [ "platinum", 1.25], [ "diamond", 1.25], [ "aegisalt", 1.15], [ "rubium", 1.15], [ "violium", 1.15], [ "corruption", 1.40], [ "mascagnite", 1.40],[ "lazulite", 1.20],[ "magnesium", 1.40],[ "berlinite", 1.30], [ "fossilbone", 0.70] ] ],
     [5.5, [ [ "coal", 1.15], [ "uranium", 1.15], [ "solarium", 1.24], [ "copper", 1.25], [ "silverore", 1.25], [ "gold", 1.25], [ "platinum", 1.25], [ "diamond", 1.25], [ "aegisalt", 1.15], [ "rubium", 1.15], [ "violium", 1.15], [ "corruption", 1.50], [ "mascagnite", 1.50],[ "lazulite", 1.30],[ "magnesium", 1.50],[ "berlinite", 1.30], [ "fossilbone", 0.70] ] ]
   ]
+},
+
+{"op":"add",
+"path":"/ff_metalmoonstandardores",
+"value": 
+  [
+    [0.5, [ [ "copper", 1.0],[ "iron", 1.5], [ "titanium", 1.0], [ "moonstone", 0.75],[ "gold", 0.75],[ "silver", 0.75] ] ]
+  ]
+},
+
+{"op":"add",
+"path":"/ff_metalmoonsuperores",
+"value": 
+  [
+    [0.5, [ [ "densinium", 0.75],[ "trianglium", 0.75], [ "prisilite", 0.75], [ "moonstone", 0.75] ] ]
+  ]
 }
 
 

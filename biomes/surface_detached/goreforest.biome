@@ -6,7 +6,7 @@
 
     "mainBlock" : "hellstone",
     "subBlocks" : [ "eyepiles", "fleshblock" ],
-    "ores" : "surfaceOres",
+    "ores" : "ff_surfacePenumbraOres",
 
   "surfacePlaceables" : {
     "grassMod" : [ "darkgrass" ],

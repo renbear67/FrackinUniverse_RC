@@ -9,7 +9,7 @@
   
   "mainBlock" : "junktech",
   "subBlocks" : [ "rustymetal", "ironblock" ],
-  "ores" : "ff_metalmoonOres",
+  "ores" : "ff_metalmoonstandardores",
 
   "surfacePlaceables" : {
     "grassMod" : [ "metal" ],

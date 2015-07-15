@@ -9,7 +9,7 @@
   
   "mainBlock" : "pressurizedsteel",
   "subBlocks" : [ "plate", "pressurizedbeam", "pressurizedgirder" ],
-  "ores" : "ff_metalmoonOres",
+  "ores" : "ff_metalmoonsuperores",
 
   "surfacePlaceables" : {
     "grassMod" : [ "metal" ],

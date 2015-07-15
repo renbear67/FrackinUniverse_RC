@@ -5,7 +5,7 @@
 
     "mainBlock" : "sulphurdirt",
     "subBlocks" : [ "sulphurstone", "magmatile2", "magmatile1" ],
-    "ores" : "surfaceOres",
+    "ores" : "ff_surfacesulfurOres",
 
   "surfacePlaceables" : {
     "grassMod" : [ "blackash" ],

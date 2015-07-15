@@ -5,7 +5,7 @@
 
     "mainBlock" : "sulphurdirt",
     "subBlocks" : [ "sulphurstone", "drydirt" ],
-    "ores" : "depth3",
+    "ores" : "ff_surfacesulfurOres",
 
 
   "surfacePlaceables" : {

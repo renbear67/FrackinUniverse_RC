@@ -5,7 +5,7 @@
 
     "mainBlock" : "irradiatedtile",
     "subBlocks" : [ "irradiatedtile2", "sewage", "protorock" ],
-    "ores" : "surfaceOres",
+    "ores" : "ff_radioactiveOres",
 
 
   "surfacePlaceables" : {

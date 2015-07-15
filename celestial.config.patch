@@ -198,10 +198,13 @@
       ]
     }
   },
-
 {"op":"add",
 "path":"/planetaryTypes/Tier2/baseParameters/terrestrialType/-",
-"value":"garden"
+"value":"urbanwasteland"
+},
+{"op":"add",
+"path":"/planetaryTypes/Tier2/baseParameters/terrestrialType/-",
+"value":"thickjungle"
 },
 {"op":"add",
 "path":"/planetaryTypes/Tier2/baseParameters/terrestrialType/-",
