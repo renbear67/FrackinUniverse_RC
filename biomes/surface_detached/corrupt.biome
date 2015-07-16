@@ -13,7 +13,7 @@
     }
   ],
 
-  "mainBlock" : "marestone",
+  "mainBlock" : "biorock",
   "subBlocks" : [ "corruptslime", "rostone", "corruptdirt" ],
   "ores" : "ff_surfacecorruptionOres",
 

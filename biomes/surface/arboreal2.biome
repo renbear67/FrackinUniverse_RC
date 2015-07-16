@@ -98,7 +98,7 @@
   ],
 
   "mainBlock" : "plantmatter",
-  "subBlocks" : [ "shroomblock", "rock12", "petalblock" ],
+  "subBlocks" : [ "shroomblock", "grassyrock", "mud" ],
   "ores" : "ff_surfacearborealOres",
 
   "parallax" : "/parallax/surface/arboreal.parallax",

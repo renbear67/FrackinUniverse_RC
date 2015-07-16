@@ -13,8 +13,8 @@
     }
   ],
 
-  "mainBlock" : "iceblock2",
-  "subBlocks" : [ "ice", "slush", "iceblock2" ],
+  "mainBlock" : "iceblock1",
+  "subBlocks" : [ "ice", "frozendirt", "iceblock2" ],
   "ores" : "ff_icemoonOres",
     
   "parallax" : "/parallax/underground/icewasteunderground.parallax",

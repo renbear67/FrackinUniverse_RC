@@ -45,7 +45,8 @@
     }
   ],
 
-  "hueShiftOptions" : [ -120, -75, -55, -25, 0, 25, 55, 75, 120],
+  //"hueShiftOptions" : [ -120, -75, -55, -25, 0, 25, 55, 75, 120],
+  "hueShiftOptions" : [ 0 ],
   
   "weather" : [
     [0, [
@@ -138,8 +139,8 @@
   ],
   
   
-  "mainBlock" : "iceblock1",
-  "subBlocks" : [ "frozenwater", "iceblock2" ],
+  "mainBlock" : "iceblock3",
+  "subBlocks" : [ "frozenwater", "iceblock4" ],
   "ores" : "surfaceOres",
 
   "parallax" : "/parallax/surface/arctic.parallax",

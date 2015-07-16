@@ -4,7 +4,7 @@
   "hueShiftOptions" : [-40, -25, 0, 25, 40],
 
     "mainBlock" : "irradiatedtile",
-    "subBlocks" : [ "irradiatedtile2", "sewage", "protorock" ],
+    "subBlocks" : [ "irradiatedtile2", "sewage", "biorock2" ],
     "ores" : "ff_radioactiveOres",
 
 

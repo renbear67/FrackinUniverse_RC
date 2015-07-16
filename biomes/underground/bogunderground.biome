@@ -14,7 +14,7 @@
   ],
 
     "mainBlock" : "clay",
-    "subBlocks" : [ "mud", "rock01", "swampdirtff" ],
+    "subBlocks" : [ "mud", "grassyrock", "swampdirtff" ],
     "ores" : "ff_deepsurfacebogOres",
 
   "parallax" : "/parallax/underground/bogunderground.parallax",

@@ -4,7 +4,7 @@
   "hueShiftOptions" : [-40, -25, 0, 25, 40],
 
     "mainBlock" : "bonematerial",
-    "subBlocks" : [ "drydirt", "sand2" ],
+    "subBlocks" : [ "drydirt", "sand2", "biorock" ],
     "ores" : "surfaceOres",
 
   "surfacePlaceables" : {

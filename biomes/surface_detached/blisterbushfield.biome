@@ -3,7 +3,7 @@
   "friendlyName" : "Blister Bush Field",
 
     "mainBlock" : "biodirt",
-    "subBlocks" : [ "biostone", "bioblock", "protorock" ],
+    "subBlocks" : [ "biorock2", "bioblock", "protorock" ],
     "ores" : "surfaceOres",
 
   "surfacePlaceables" : {

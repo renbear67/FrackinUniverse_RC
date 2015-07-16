@@ -108,8 +108,8 @@
   ],
   
   
-  "mainBlock" : "iceblock1",
-  "subBlocks" : [ "snow", "frozenwater", "iceblock2" ],
+  "mainBlock" : "frozendirt",
+  "subBlocks" : [ "iceblock3", "frozenwater", "iceblock1" ],
   "ores" : "ff_icemoonOres",
 
   "parallax" : "/parallax/surface/frozenmoon.parallax",

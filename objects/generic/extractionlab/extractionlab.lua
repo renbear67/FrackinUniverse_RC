@@ -65,6 +65,12 @@ local recipes =
 {inputs = { ff_bambooshoot=1 }, outputs = { geneticmaterial=2 }, time = 1},
 {inputs = { blooddiamond=1 }, outputs = { bloodore=3 }, time = 1},
 -- tiles
+
+{inputs = { biorock=50 }, outputs = { geneticmaterial=3 }, time = 1},
+{inputs = { biorock2=50 }, outputs = { geneticmaterial=3 }, time = 1},
+{inputs = { frozendirt=50 }, outputs = { nutrientpaste=3 }, time = 1},
+{inputs = { grassyrock=50 }, outputs = { rawminerals=2 }, time = 1},
+
 {inputs = { petalblock=50 }, outputs = { geneticmaterial=3 }, time = 1},
 {inputs = { alienrock=50 }, outputs = { ff_silicon=2 }, time = 1},
 {inputs = { alienstripedwood=50 }, outputs = { tissueculture=2 }, time = 1},
@@ -111,6 +117,7 @@ local recipes =
 {inputs = { drysand=50 }, outputs = { liquidoil=2 }, time = 1},
 {inputs = { fleshblock=50 }, outputs = { geneticmaterial=2 }, time = 1},
 {inputs = { gabbromaterial=50 }, outputs = { rawminerals=2 }, time = 1},
+{inputs = { glowsandmaterial=50 }, outputs = { rawminerals=4 }, time = 1},
 {inputs = { gneissmaterial=50 }, outputs = { rawminerals=2 }, time = 1},
 {inputs = { gravelmaterial=50 }, outputs = { rawminerals=1 }, time = 1},
 {inputs = { gritstonematerial=50 }, outputs = { rawminerals=2 }, time = 1},

@@ -3,8 +3,8 @@
   "friendlyName" : "Icefire Forest",
   "hueShiftOptions" : [-40, -25, 0, 25, 40],
 
-    "mainBlock" : "iceblock1",
-    "subBlocks" : [ "magmarock", "snow", "iceblock2", "protorock" ],
+    "mainBlock" : "iceblock3",
+    "subBlocks" : [ "magmarock", "snow", "iceblock4", "protorock" ],
     "ores" : "depth3",
 
 
