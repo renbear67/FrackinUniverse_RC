@@ -53,7 +53,7 @@
      "hueShiftOptions" : [ 0 ],
      
   "mainBlock" : "iceblock3",
-  "subBlocks" : [ "frozenwater", "iceblock4" ],
+  "subBlocks" : [ "frozenwater", "iceblock2" ],
   "ores" : "surfaceOres",
 
   "surfacePlaceables" : {

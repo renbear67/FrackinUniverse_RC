@@ -140,7 +140,7 @@
   
   
   "mainBlock" : "iceblock3",
-  "subBlocks" : [ "frozenwater", "iceblock4" ],
+  "subBlocks" : [ "frozenwater", "iceblock2" ],
   "ores" : "surfaceOres",
 
   "parallax" : "/parallax/surface/arctic.parallax",

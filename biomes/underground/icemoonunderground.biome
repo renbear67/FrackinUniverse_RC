@@ -13,7 +13,7 @@
     }
   ],
 
-  "mainBlock" : "iceblock1",
+  "mainBlock" : "iceblock3",
   "subBlocks" : [ "ice", "frozendirt", "iceblock2" ],
   "ores" : "ff_icemoonOres",
     
