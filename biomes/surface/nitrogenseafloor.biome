@@ -94,6 +94,11 @@
             "name" : "oceanbush",
             "baseHueShiftMax" : 180,
             "modHueShiftMax" : 180
+          },
+          {
+            "name" : "bioroots",
+            "baseHueShiftMax" : 180,
+            "modHueShiftMax" : 180
           }
         ]
       },

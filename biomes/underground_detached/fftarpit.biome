@@ -77,6 +77,44 @@
         "type" : "grass",
         "grasses" : [ "tar", "rockstacks" ]
       },
+        {
+          "mode" : "floor",
+          "priority" : 2.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:ffunCommon",
+
+          "type" : "bush",
+          "bushes" : [
+            {
+              "name" : "moltenbones",
+              "baseHueShiftMax" : 40,
+              "modHueShiftMax" : 180
+            },
+            {
+              "name" : "tarbones",
+              "baseHueShiftMax" : 40,
+              "modHueShiftMax" : 180
+            },
+            {
+              "name" : "tarcrystal",
+              "baseHueShiftMax" : 40,
+              "modHueShiftMax" : 180
+            },
+            {
+              "name" : "tarbulb",
+              "baseHueShiftMax" : 40,
+              "modHueShiftMax" : 180
+            }
+          ]
+        },
+        {
+          "mode" : "floor",
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:ffunCommon",
+
+          "type" : "grass",
+          "grasses" : [ "tar", "freebone" ]
+        },
       {
         "mode" : "floor",
         "priority" : 1.0,

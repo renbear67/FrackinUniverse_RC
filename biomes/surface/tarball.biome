@@ -245,7 +245,7 @@
           "distribution" : "/biomes/distributions.config:ffunCommon",
 
           "type" : "grass",
-          "grasses" : [ "tar", "freebone" ]
+          "grasses" : [ "tar", "tiberia" ]
         },
         {
           "mode" : "floor",

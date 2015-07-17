@@ -141,7 +141,7 @@
           "distribution" : "/biomes/distributions.config:ffCommon",
 
           "type" : "grass",
-          "grasses" : [ "eyeplant", "sulphurplant", "mushroom" ]
+          "grasses" : [ "eyeplant", "sulphurplant", "mushroom", "toxicplains", "blobby" ]
         },
         {
           "mode" : "floor",
@@ -301,8 +301,8 @@
           "variants" : 1,
           "distribution" : "/biomes/distributions.config:denseLarge",
           "type" : "tree",
-          "treeStemList" : [ "fleshy", "grumpy", "slobby", "spikey", "alienstriped" ],
-          "treeFoliageList" : [ "brains", "bubbles", "frumpy", "lotus", "spikeyfoliage", "lushgreen", "redleaves", "rose",  "alienbigleaf", "aliencircle" ]
+          "treeStemList" : [ "gloomy", "savannahbleak", "savannahgloomy", "grumpy", "slobby", "spikey", "alienstriped" ],
+          "treeFoliageList" : [ "bonky", "burly", "circly", "brains", "bubbles", "frumpy", "lotus", "spikeyfoliage", "lushgreen", "redleaves", "rose",  "alienbigleaf", "aliencircle" ]
         },
         {
           "mode" : "floor",

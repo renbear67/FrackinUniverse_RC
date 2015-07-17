@@ -425,8 +425,8 @@
           "type" : "tree",
           "treeFoliageHueShiftMax" : 180,
           "treeStemHueShiftMax" : 15,
-          "treeStemList" : [ "roottree", "fleshy", "slobby", "slimey", "alienweird" ],
-          "treeFoliageList" : [ "hanging", "lushgreen", "redleaves", "greenleaves", "alienbigleaf", "aliencircle" ]
+          "treeStemList" : [ "savah", "gloomy", "slabby", "spiked", "roottree", "fleshy", "slobby", "slimey", "alienweird" ],
+          "treeFoliageList" : [ "bonky", "burly", "flat", "savannahbloom", "spikeyfoliage", "thorns", "hanging", "lushgreen", "redleaves", "greenleaves", "alienbigleaf", "aliencircle" ]
         },
       {
         "mode" : "floor",

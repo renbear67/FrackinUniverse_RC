@@ -159,10 +159,10 @@
              "objectSets" : [
                {
                  "pool" : [ 
-              [0.50, "thorns1" ],
-              [0.50, "thorns2" ],
-              [0.50, "thorns3" ],
-              [0.50, "thorns4" ]
+                   [0.50, "thorns1" ],
+                   [0.50, "thorns2" ],
+                   [0.50, "thorns3" ],
+                   [0.50, "thorns4" ]
                  ],
                  "parameters" : { "startingStage" : 2 }
                }
@@ -183,7 +183,7 @@
           "distribution" : "/biomes/distributions.config:scatteredSmall",
 
           "type" : "grass",
-          "grasses" : [ "curlythorns", "cutter", "colourfulflower", "bell", "fancy", "geometric", "grass", "jungleflower1", "jungleflower2", "jungleflower3", "leafsy", "lillies", "pods", "shrooms", "signplant", "sprout"   ] 
+          "grasses" : [ "thinstem", "curlythorns", "cutter", "colourfulflower", "bell", "fancy", "geometric", "grass", "jungleflower1", "jungleflower2", "jungleflower3", "leafsy", "lillies", "pods", "shrooms", "signplant", "sprout"   ] 
         },
         {
           "mode" : "floor",

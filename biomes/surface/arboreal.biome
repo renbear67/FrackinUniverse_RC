@@ -247,8 +247,8 @@
           "type" : "tree",
           "treeFoliageHueShiftMax" : 220,
           "treeStemHueShiftMax" : 120,
-          "treeStemList" : [ "alienstriped","alienweird", "alienbubble", "birch", "cocoa", "fleshy", "grumpy", "metal", "pine", "roottree", "slimey", "something", "spikey", "twisted", "wood", "slobby", "pineytree" ],
-          "treeFoliageList" : [ "alienbigleaf", "aliencircle", "rose", "brains", "bubbles", "cloudy", "frumpy", "greenleaves", "hanging", "leafy", "lotus", "lushgreen", "orangeflower", "pinefoliage", "redleaves", "scraggy", "spikeyfoliage" ]
+          "treeStemList" : [ "murky", "bleak", "spiked", "alienstriped","alienweird", "alienbubble", "birch", "cocoa", "fleshy", "grumpy", "metal", "pine", "roottree", "slimey", "something", "spikey", "twisted", "wood", "slobby", "pineytree" ],
+          "treeFoliageList" : [ "flat", "circly", "savannahbloom", "spikeyfoliage", "thorns", "alienbigleaf", "aliencircle", "rose", "brains", "bubbles", "cloudy", "frumpy", "greenleaves", "hanging", "leafy", "lotus", "lushgreen", "orangeflower", "pinefoliage", "redleaves", "scraggy", "spikeyfoliage" ]
         }, 
         {
           "mode" : "floor",
@@ -268,7 +268,7 @@
           "distribution" : "/biomes/distributions.config:ffunCommon",
 
           "type" : "grass",
-          "grasses" : [ "wyrdgrass", "ballflower", "vinegrass", "clawfern", "peppergrass", "mushroom", "root", "bell", "blueslime", "circles", "crisp" , "dandy", "fancy", "glowmushroom", "leafsy", "lillies", "shrooms" , "sprout", "sunflower", "thickgrass", "thickpetals" ]
+          "grasses" : [ "thinstem", "wyrdgrass", "ballflower", "vinegrass", "clawfern", "peppergrass", "mushroom", "root", "bell", "blueslime", "circles", "crisp" , "dandy", "fancy", "glowmushroom", "leafsy", "lillies", "shrooms" , "sprout", "sunflower", "thickgrass", "thickpetals" ]
         },
         {
           "mode" : "ceiling",

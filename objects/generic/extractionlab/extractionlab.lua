@@ -27,6 +27,7 @@ local recipes =
 {inputs = { glowfibreorange=10 }, outputs = { luminescentpaste=1 }, time = 1},
 {inputs = { glowfibreyellow=10 }, outputs = { luminescentpaste=1 }, time = 1},
 {inputs = { gnome=1 }, outputs = { bone=1 }, time = 1},
+{inputs = { laboil=1 }, outputs = { liquidoil=20 }, time = 1},
 {inputs = { greenslime=1 }, outputs = { tissueculture=1 }, time = 1},
 {inputs = { gunpowder=1 }, outputs = { saltpeter=1 }, time = 1},
 {inputs = { inferiorbrain=1 }, outputs = { tissueculture=1 }, time = 1},

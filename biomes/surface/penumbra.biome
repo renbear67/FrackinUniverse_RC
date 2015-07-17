@@ -330,22 +330,17 @@
               "modHueShiftMax" : 180
             },
             {
+              "name" : "bioroots",
+              "baseHueShiftMax" : 40,
+              "modHueShiftMax" : 180
+            },            
+            {
               "name" : "algae",
               "baseHueShiftMax" : 40,
               "modHueShiftMax" : 180
             },
             {
               "name" : "crystals",
-              "baseHueShiftMax" : 40,
-              "modHueShiftMax" : 180
-            },
-            {
-              "name" : "skulls",
-              "baseHueShiftMax" : 40,
-              "modHueShiftMax" : 180
-            },
-            {
-              "name" : "skeletalbush",
               "baseHueShiftMax" : 40,
               "modHueShiftMax" : 180
             }
