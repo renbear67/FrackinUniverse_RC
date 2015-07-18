@@ -136,7 +136,7 @@
   
   
   "mainBlock" : "ash",
-  "subBlocks" : [ "rustyblock", "direstone", "rustymetal" ],
+  "subBlocks" : [ "rustyblock", "steelstone", "rustymetal" ],
   "ores" : "ff_metalmoonOres",
 
   "parallax" : "/parallax/surface/moon.parallax",

@@ -4,7 +4,7 @@
 
   "hueShiftOptions" : [ -25, 0, 25 ],
 
-    "mainBlock" : "hellstone",
+    "mainBlock" : "rottingflesh",
     "subBlocks" : [ "eyepiles", "fleshblock" ],
     "ores" : "ff_surfacePenumbraOres",
 

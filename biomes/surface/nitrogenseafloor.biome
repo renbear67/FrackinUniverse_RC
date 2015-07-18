@@ -52,8 +52,8 @@
   //"hueShiftOptions" : [-180, -135, -90, -45, 0, 45, 90, 135, 180],
      "hueShiftOptions" : [ 0 ],
      
-  "mainBlock" : "iceblock3",
-  "subBlocks" : [ "frozenwater", "iceblock2" ],
+  "mainBlock" : "frozensand2",
+  "subBlocks" : [ "frozenwater", "iceblock2", "frozendirt" ],
   "ores" : "surfaceOres",
 
   "surfacePlaceables" : {

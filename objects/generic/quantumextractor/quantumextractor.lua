@@ -72,6 +72,14 @@ local recipes =
 {inputs = { grassyrock=50 }, outputs = { rawminerals=2 }, time = 1},
 
 
+{inputs = { frozensandmaterial=50 }, outputs = { ff_silicon=2 }, time = 1},
+{inputs = { frozensand2material=50 }, outputs = { ff_silicon=2 }, time = 1},
+{inputs = { frozenstonematerial=50 }, outputs = { rawminerals=2 }, time = 1},
+{inputs = { steelstonematerial=50 }, outputs = { metalchunk=1 }, time = 1},
+{inputs = { fungalstonematerial=50 }, outputs = { rawminerals=2 }, time = 1},
+{inputs = { rainbowsandmaterial=50 }, outputs = { ff_silicon=3 }, time = 1},
+
+
 {inputs = { petalblock=50 }, outputs = { geneticmaterial=6 }, time = 1},
 {inputs = { alienrock=50 }, outputs = { ff_silicon=4 }, time = 1},
 {inputs = { alienstripedwood=50 }, outputs = { tissueculture=4 }, time = 1},
@@ -206,7 +214,7 @@ local recipes =
 {inputs = { biospore=1}, outputs = { shroom=3 }, time = 1},
 {inputs = { biscornseed=1 }, outputs = { tissueculture=4 }, time = 1},
 {inputs = { blizzberryseed=1 }, outputs = { tissueculture=4 }, time = 1},
-{inputs = { bloodrootseed=1 }, outputs = { bloodliquid=5 }, time = 1},
+{inputs = { bloodrootseed=1 }, outputs = { liquidblood=5 }, time = 1},
 {inputs = { bluemelonseed=1 }, outputs = { geneticmaterial=3 }, time = 1},
 {inputs = { blexplantseed=1 }, outputs = { ff_resin=3 }, time = 1},
 {inputs = { boltbulbseed=1 }, outputs = { coil=2 }, time = 1},

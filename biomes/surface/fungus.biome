@@ -93,7 +93,7 @@
   
   
   "mainBlock" : "swampdirtff",
-  "subBlocks" : [ "shroomblockglow", "mud", "rock15" ],
+  "subBlocks" : [ "shroomblockglow", "mud", "fungalstone" ],
   "ores" : "ff_surfacebogOres",
 
   "parallax" : "/parallax/surface/forest.parallax",
@@ -117,7 +117,7 @@
   },
 
   "surfacePlaceables" : {
-    "grassMod" : [ "aridgrass" ],
+    "grassMod" : [ "aridgrass", "fualiengrass" ],
     "grassModDensity" : 0.9,
       "items" : [
         {

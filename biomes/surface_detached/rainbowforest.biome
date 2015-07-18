@@ -4,7 +4,7 @@
   "hueShiftOptions" : [-40, -25, 0, 25, 40],
 
     "mainBlock" : "jungledirt2",
-    "subBlocks" : [ "mud", "rock12" ],
+    "subBlocks" : [ "rainbowsand", "rock12" ],
     "ores" : "surfaceOres",
 
 

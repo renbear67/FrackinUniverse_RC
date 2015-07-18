@@ -139,8 +139,8 @@
   ],
   
   
-  "mainBlock" : "iceblock3",
-  "subBlocks" : [ "frozenwater", "iceblock2" ],
+  "mainBlock" : "frozensand2",
+  "subBlocks" : [ "frozenwater", "frozensand", "iceblock4" ],
   "ores" : "surfaceOres",
 
   "parallax" : "/parallax/surface/arctic.parallax",
@@ -165,7 +165,7 @@
   },
 
   "surfacePlaceables" : {
-    "grassMod" : [ "icegrass2" ],
+    "grassMod" : [ "icegrass1" ],
     "grassModDensity" : 0.9,
       "items" : [
         {

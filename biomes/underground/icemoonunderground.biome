@@ -13,9 +13,9 @@
     }
   ],
 
-  "mainBlock" : "iceblock3",
+  "mainBlock" : "frozenstone",
   "subBlocks" : [ "ice", "frozendirt", "iceblock2" ],
-  "ores" : "ff_icemoonOres",
+  "ores" : "ff_deepicemoonOres",
     
   "parallax" : "/parallax/underground/icewasteunderground.parallax",
 

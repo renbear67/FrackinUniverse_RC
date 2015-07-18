@@ -14,7 +14,7 @@
   ],
 
     "mainBlock" : "shroomblockglow",
-    "subBlocks" : [ "mud", "rock01", "clay" ],
+    "subBlocks" : [ "mud", "fungalstone", "clay" ],
     "ores" : "ff_deepsurfacebogOres",
 
   "parallax" : "/parallax/underground/bogunderground.parallax",

@@ -108,7 +108,7 @@
   ],
   
   
-  "mainBlock" : "ice",
+  "mainBlock" : "iceblock3",
   "subBlocks" : [ "iceblock4", "frozenwater", "iceblock1" ],
   "ores" : "ff_crystalmoonOres",
 

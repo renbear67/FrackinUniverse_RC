@@ -7,7 +7,7 @@
     { "item" : "energywood", "count" : 10 }
   ],
   "output" : {
-    "item" : "cultiststaff",
+    "item" : "cultiststaff3",
     "count" : 1
   },
   "groups" : [ "prototyper", "weapons", "all" ]

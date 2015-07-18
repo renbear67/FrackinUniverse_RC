@@ -13,8 +13,8 @@
     }
   ],
 
-    "mainBlock" : "hellstone",
-    "subBlocks" : [ "bonematerial", "brains", "rock04" ],
+    "mainBlock" : "rottingflesh",
+    "subBlocks" : [ "rottingflesh", "brains", "hellstone" ],
     "ores" : "depth3",
 
   "parallax" : "/parallax/underground/atropusunderground.parallax",
@@ -38,7 +38,7 @@
   },
 
   "undergroundPlaceables" : {
-    "grassMod" : [ "heckgrass" ],
+    "grassMod" : [ "fleshgrass2" ],
     "grassModDensity" : 0.9,
     "items" : [
         {

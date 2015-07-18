@@ -1,9 +1,9 @@
 {
   "name" : "desertoasis",
-  "friendlyName" : "Desert Oasis",
+  "friendlyName" : "Colorful Desert Oasis",
   "hueShiftOptions" : [-40, -25, 0, 25, 40],
 
-    "mainBlock" : "sand2",
+    "mainBlock" : "rainbowsand",
     "subBlocks" : [ "wetdirt", "sandstone01" ],
     "ores" : "surfaceOres",
 

@@ -1,6 +1,6 @@
 {
   "name" : "shadowgasfx",
-  "blockingStat" : "shadowgasfxImmunity",
+  "blockingStat" : "shadowgasImmunity",
 
   "effectConfig" : {},
   "defaultDuration" : 1,

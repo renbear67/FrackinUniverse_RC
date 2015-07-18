@@ -109,8 +109,8 @@
 
   ],
 
-  "mainBlock" : "hellstone",
-  "subBlocks" : [ "brains", "fleshblock", "bonematerial" ],
+  "mainBlock" : "rottingflesh",
+  "subBlocks" : [ "brains", "fleshblock", "bonematerial", "hellstone" ],
   "ores" : "ff_surfacearborealOres",
 
   "parallax" : "/parallax/surface/atropus.parallax",
@@ -135,7 +135,7 @@
 
  
     "surfacePlaceables" : {
-      "grassMod" : [ "tentaclegrass" ],
+      "grassMod" : [ "fleshgrass2", "tentaclegrass", "fleshgrass" ],
       "grassModDensity" : 0.9,
 
       "items" : [

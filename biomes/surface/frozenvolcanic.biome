@@ -109,7 +109,7 @@
   
   
   "mainBlock" : "iceblock3",
-  "subBlocks" : [ "magmarock", "frozenwater", "iceblock1", "iceblock2" ],
+  "subBlocks" : [ "magmarock", "frozenstone", "iceblock1", "iceblock2" ],
   "ores" : "ff_crystalmoonOres",
 
   "parallax" : "/parallax/surface/icewaste.parallax",

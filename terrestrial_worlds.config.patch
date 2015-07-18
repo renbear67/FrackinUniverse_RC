@@ -467,7 +467,7 @@
       },
         "surface" : {
           "primaryRegion" : [ "bog" ],
-          "secondaryRegion" : [ "cactiplace", "crystalswamp", "corrupt", "ffhive", "birchforest", "alienforest", "reddesert", "rainbowforest", "bloodgulch", "hellhive", "energyorbforest", "dryriverbed", "deadwood", "blackslimebog", "pitchfield", "irradiatedwaste", "bloodstonefield", "giantflowers", "forest", "jungle", "volcanic" ],
+          "secondaryRegion" : [ "cactiplace", "crystalswamp", "corrupt", "ffhive", "alienforest", "hellhive", "energyorbforest",  "deadwood", "blackslimebog", "pitchfield", "giantflowers", "forest", "jungle" ],
           "dungeonCountRange" : [0, 2],
           "dungeons" : [ "wreck", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "avianairship", "aviantemple","humanbunker", "floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison", "naturalcave" ]
         },
@@ -1012,28 +1012,28 @@
           "primaryRegion" : [ "nitrogenseafloor" ]
         },
          "underground1" : {
-         "primaryRegion" : [ "icewasteunderground" ],
-          "secondaryRegion" : [ "ffcrystalrealm", "crystalcave", "coralcavern", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
+         "primaryRegion" : [ "nitrogenseaunderground" ],
+          "secondaryRegion" : [ "icewasteunderground", "ffcrystalrealm", "crystalcave", "coralcavern", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
         },
         "underground2" : {
-        "primaryRegion" : [ "icewasteunderground" ],
-          "secondaryRegion" : [ "ffcrystalrealm", "crystalcave", "coralcavern", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
+        "primaryRegion" : [ "nitrogenseaunderground" ],
+          "secondaryRegion" : [ "icewasteunderground", "ffcrystalrealm", "crystalcave", "coralcavern", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
           },
         "underground3" : {
-        "primaryRegion" : [ "icewasteunderground" ],
-	  "secondaryRegion" : [ "ffcrystalrealm", "crystalcave", "coralcavern", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
+        "primaryRegion" : [ "nitrogenseaunderground" ],
+	  "secondaryRegion" : [ "icewasteunderground", "ffcrystalrealm", "crystalcave", "coralcavern", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
 	  },
         "underground4" : {
-        "primaryRegion" : [ "icewasteunderground" ],
-	  "secondaryRegion" : [ "ffcrystalrealm", "crystalcave", "coralcavern", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]        
+        "primaryRegion" : [ "nitrogenseaunderground" ],
+	  "secondaryRegion" : [ "icewasteunderground", "ffcrystalrealm", "crystalcave", "coralcavern", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]        
 	  },
         "underground5" : {
-        "primaryRegion" : [ "icewasteunderground" ],
-	  "secondaryRegion" : [ "ffcrystalrealm", "crystalcave", "coralcavern", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]        
+        "primaryRegion" : [ "nitrogenseaunderground" ],
+	  "secondaryRegion" : [ "icewasteunderground", "ffcrystalrealm", "crystalcave", "coralcavern", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]        
 	  },
         "underground6" : {
-        "primaryRegion" : [ "icewasteunderground" ],
-	  "secondaryRegion" : [ "ffcrystalrealm", "crystalcave", "coralcavern", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ] 	        
+        "primaryRegion" : [ "nitrogenseaunderground" ],
+	  "secondaryRegion" : [ "icewasteunderground", "ffcrystalrealm", "crystalcave", "coralcavern", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ] 	        
 	  },
         "core" : {
           "primaryRegion" : [ "nitrogencore" ]
@@ -1559,6 +1559,7 @@
   {
       "oceanLiquid" : [ "swampwater" ],
       "caveLiquid" : [ "swampwater", "poison", "healingliquid" ],
+      "oceanLevelOffset" : 0,
       "blockSelector" : [ "mixedSurface", "flatsSurface", "lowHillsSurface", "fugradualslopes" ],
       "fgCaveSelector" : [ "surfaceCaves", "fusurfacecaves" ],
       "bgOreSelector" : [ "commonVeins" ],       
@@ -1874,7 +1875,7 @@
   "value" : 
   {
       "oceanLiquid" : [ "liquidnitrogen" ],
-      //"oceanLevelOffset" : 0, 
+      "oceanLevelOffset" : 0, 
       "caveLiquid" : [ "liquidnitrogen" ],
       "caveLiquidChanceRange" : [100, 100],
       "blockSelector" : [ "flatDeepIslandsSurface","submergedIslandsSurface", "canyonsSurface", "floatingIslandsSurface" ],
@@ -3399,6 +3400,19 @@
   },
   
   {"op" : "add", 
+  "path" : "/regionTypes/frozenvolcanicunderground",
+  "value" : 
+  {
+      "caveLiquid" : [ "lava" ],
+      "caveLiquidChanceRange" : [35, 55],
+            "bgOreSelector" : [ "commonVeins" ],  
+      "biome" : [
+        [0, [ "frozenvolcanicunderground"]]
+      ]
+    }
+  },
+  
+  {"op" : "add", 
   "path" : "/regionTypes/shroomcaveunderground",
   "value" : 
   {
@@ -3420,6 +3434,19 @@
             "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
         [0, [ "crystalmoonunderground"]]
+      ]
+    }
+  },
+
+  {"op" : "add", 
+  "path" : "/regionTypes/nitrogenseaunderground",
+  "value" : 
+  {
+      "caveLiquid" : [ "liquidnitrogen" ],
+      "caveLiquidChanceRange" : [25, 55],
+            "bgOreSelector" : [ "denseVeins" ],  
+      "biome" : [
+        [0, [ "nitrogenseaunderground"] ]
       ]
     }
   },

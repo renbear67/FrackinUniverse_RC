@@ -123,7 +123,7 @@
 
  
     "surfacePlaceables" : {
-      "grassMod" : [ "mossgrass2" ],
+      "grassMod" : [ "deadleaves" ],
       "grassModDensity" : 0.9,
 
       "ceilingGrassMod" : [ "undergrowth" ],
@@ -433,7 +433,7 @@
     },
 
     "undergroundPlaceables" : {
-      "grassMod" : [ "mossgrass1" ],
+      "grassMod" : [ "deadleaves", "mossgrass2" ],
       "grassModDensity" : 0.5,
       
       "ceilingGrassMod" : [ "roots" ],

@@ -14,7 +14,7 @@
   ],
 
   "mainBlock" : "rustyblock",
-  "subBlocks" : [ "ash", "direstone", "rustymetal" ],
+  "subBlocks" : [ "ash", "steelstone", "rustymetal" ],
     "ores" : "ff_metalmoondeepOres",
 
   "parallax" : "/parallax/underground/metallicunderground.parallax",

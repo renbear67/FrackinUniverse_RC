@@ -14,8 +14,8 @@
   ],
   "skyOptions" : [],
   
-    "mainBlock" : "ice",
-    "subBlocks" : [ "iceblock2", "iceblock3", "iceblock4" ],
+    "mainBlock" : "iceblock2",
+    "subBlocks" : [ "ice", "iceblock3", "iceblock4" ],
     "ores" : "depth3",
     
   "parallax" : "/parallax/underground/icewasteunderground.parallax",

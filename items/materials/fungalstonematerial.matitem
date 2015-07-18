@@ -1,0 +1,9 @@
+{
+  "itemName" : "fungalstonematerial",
+  "rarity" : "Common",
+  "inventoryIcon" : "fungalstonematerial.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Spore-covered stones.",
+  "shortdescription" : "Fungal Stone",
+  "materialId" : 6614
+}
