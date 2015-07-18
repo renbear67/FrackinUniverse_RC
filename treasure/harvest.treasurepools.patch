@@ -1119,7 +1119,7 @@
   "path" : "/fuavikancactusHarvest",
   "value" : [[0, {
       "pool" : [
-        {"weight" : 0.6, "item" : "slicedcactus"},
+        {"weight" : 0.6, "item" : "fuslicedcactus"},
         {"weight" : 0.2, "item" : "fuavikancactusseed"},
         {"weight" : 0.2, "item" : "plantfibre"}
       ],
@@ -1134,7 +1134,7 @@
 "path" : "/fuavikanspiceplantHarvest",
 "value" : [[0, {
       "pool" : [
-        {"weight" : 0.6, "item" : "avikanspices"},
+        {"weight" : 0.6, "item" : "fuavikanspices"},
         {"weight" : 0.2, "item" : "fuavikanspiceplantseed"},
         {"weight" : 0.2, "item" : "plantfibre"}
       ],
