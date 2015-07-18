@@ -26,7 +26,7 @@
   "centensDescription" : "Spices are used by many species. Mine is not one of them.",
   "dremetonDescription" : "These spices, combined with the right ingredients, make for an excellent meal.",
   "hyvonDescription" : "This plant holds nothing of value for Creaton.",
-
+  "ponexDescription" : "When people aren't watching, I like to eat babies.",
   "inventoryIcon" : "avikanspiceplantseedicon.png",
   "orientations" : [
     {
@@ -55,7 +55,7 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "avikanspiceplantHarvest",
+      "harvestPool" : "fuavikanspiceplantHarvest",
       "resetToStage" : 2
     }
   ],

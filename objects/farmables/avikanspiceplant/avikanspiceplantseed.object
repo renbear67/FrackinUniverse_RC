@@ -54,7 +54,7 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "avikanspiceplantHarvest",
+      "harvestPool" : "fuavikanspiceplantHarvest",
       "resetToStage" : 2
     }
   ]

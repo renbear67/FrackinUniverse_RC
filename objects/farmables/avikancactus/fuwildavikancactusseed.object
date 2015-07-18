@@ -1,6 +1,6 @@
 {
-  "objectName" : "wildavikancactusseed",
-  "rarity" : "Common",
+  "objectName" : "fuwildavikancactusseed",
+  "rarity" : "uncommon",
   "category" : "farmable",
   "description" : "Cacti originating from Kadavan.",
   "shortdescription" : "Kadavan Cactus Seed",
@@ -55,7 +55,7 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "avikancactusHarvest",
+      "harvestPool" : "fuavikancactusHarvest",
       "resetToStage" : 0
     }
   ],

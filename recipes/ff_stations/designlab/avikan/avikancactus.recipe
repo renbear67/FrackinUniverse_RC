@@ -5,7 +5,7 @@
     { "item" : "mineralsample", "count" : 3 }
   ],
   "output" : {
-    "item" : "avikancactusseed",
+    "item" : "fuavikancactusseed",
     "count" : 3
   },
   "groups" : [ "designlab", "bush", "all" ]

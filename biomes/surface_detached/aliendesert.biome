@@ -44,8 +44,8 @@
           "objectSets" : [
             {
               "pool" : [ 
-              [0.65, "wildavikancactusseed" ],
-              [0.65, "wildavikanspiceplantseed" ],
+              [0.65, "fuwildavikancactusseed" ],
+              [0.65, "fuwildavikanspiceplantseed" ],
               [0.65, "wildblexplantseed" ],
               [0.65, "wildbrackentreeseed" ],
               [0.65, "wildlasherplantseed" ],

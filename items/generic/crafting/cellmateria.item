@@ -4,5 +4,5 @@
   "inventoryIcon" : "cellmateria.png",
   "description" : "cellmateria",
   "shortdescription" : "Cell Material",
-  "learnBlueprintsOnPickup" : [ "avikanspiceplantseed", "avikancactusseed" ]
+  "learnBlueprintsOnPickup" : [ "fuavikanspiceplantseed", "fuavikancactusseed" ]
 }

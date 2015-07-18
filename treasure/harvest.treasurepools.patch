@@ -1116,11 +1116,11 @@
 
 
 { "op" : "add",
-  "path" : "/avikancactusHarvest",
+  "path" : "/fuavikancactusHarvest",
   "value" : [[0, {
       "pool" : [
         {"weight" : 0.6, "item" : "slicedcactus"},
-        {"weight" : 0.2, "item" : "avikancactusseed"},
+        {"weight" : 0.2, "item" : "fuavikancactusseed"},
         {"weight" : 0.2, "item" : "plantfibre"}
       ],
       "poolRounds" : [
@@ -1131,11 +1131,11 @@
 },
 
 {"op" : "add",
-"path" : "/avikanspiceplantHarvest",
+"path" : "/fuavikanspiceplantHarvest",
 "value" : [[0, {
       "pool" : [
         {"weight" : 0.6, "item" : "avikanspices"},
-        {"weight" : 0.2, "item" : "avikanspiceplantseed"},
+        {"weight" : 0.2, "item" : "fuavikanspiceplantseed"},
         {"weight" : 0.2, "item" : "plantfibre"}
       ],
       "poolRounds" : [

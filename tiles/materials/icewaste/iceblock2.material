@@ -3,7 +3,7 @@
   "materialName" : "iceblock2",
   "particleColor" : [255, 255, 255, 255],
   "itemDrop" : "iceblock2material",
-  "description" : "frozen water",
+  "description" : "Ancient Ice",
   "shortdescription" : "Ancient Ice",
   "footstepSound" : "/sfx/blocks/footstep_stone2.wav",
   "health" : 7,
