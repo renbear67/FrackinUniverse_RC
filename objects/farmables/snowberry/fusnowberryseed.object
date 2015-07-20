@@ -1,16 +1,16 @@
 {
-  "objectName" : "spongeweedseed",
+  "objectName" : "fusnowberryseed",
   "rarity" : "rare",
   "category" : "farmable",
-  "description" : "This fragile plant produces excessive amounts of oxygen.",
-  "shortdescription" : "Spongeweed Clump",
+  "description" : "Cold, crunchy and poisonous. The trifecta of qualities for a delicious fruit.",
+  "shortdescription" : "Snowberry",
   "objectType" : "farmable",
-  "printable" : false, 
+  "printable" : false,
 
-  "inventoryIcon" : "spongeweedseedicon.png",
+  "inventoryIcon" : "snowberryseedicon.png",
   "orientations" : [
     {
-      "dualImage" : "spongeweedseed.png:<color>.<stage>.<alt>",
+      "dualImage" : "snowberryseed.png:<color>.<stage>.<alt>",
       "imagePosition" : [8, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
@@ -30,7 +30,7 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "spongeweedseedHarvest",
+      "harvestPool" : "fusnowberryseedHarvest",
       "resetToStage" : 0
     }
   ]

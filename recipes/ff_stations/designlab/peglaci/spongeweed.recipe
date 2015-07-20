@@ -7,7 +7,7 @@
     { "item" : "tissueculture", "count" : 3 }
   ],
   "output" : {
-    "item" : "spongeweedseed",
+    "item" : "fuspongeweedseed",
     "count" : 3
   },
   "groups" : [ "designlab", "bush", "all", "tools" ]

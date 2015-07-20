@@ -4,5 +4,5 @@
   "inventoryIcon" : "coldgene.png",
   "description" : "Cold gene research",
   "shortdescription" : "Cold Gene",
-  "learnBlueprintsOnPickup" : [ "blizzberryseed", "snowberryseed", "pekkitseed" ]
+  "learnBlueprintsOnPickup" : [ "blizzberryseed", "fusnowberryseed", "pekkitseed" ]
 }

@@ -1,6 +1,6 @@
 {
-  "itemName" : "spongeweed",
-  "rarity" : "Common",
+  "itemName" : "fuspongeweed",
+  "rarity" : "uncommon",
   "inventoryIcon" : "spongeweed.png",
   "description" : "Completely absorbs poison for quite a while.",
   "shortdescription" : "Spongeweed Slice",

@@ -6,7 +6,7 @@
     { "item" : "nutrientpaste", "count" : 3 }
   ],
   "output" : {
-    "item" : "snowberryseed",
+    "item" : "fusnowberryseed",
     "count" : 3
   },
   "groups" : [ "designlab", "fruit", "all", "tools" ]

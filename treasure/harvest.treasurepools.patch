@@ -1,17 +1,17 @@
 [
 {"op":"add",
-	"path":"/spongeweedseedHarvest",
+	"path":"/fuspongeweedseedHarvest",
 	"value":[[0, {
-	"fill":[ {"item":"spongeweedseed"},{"item":"spongeweed"}  ],
-	"pool":[ {"weight":0.5, "item":"spongeweedseed"},{"weight":0.6, "item":"spongeweed"} ],
+	"fill":[ {"item":"fuspongeweedseed"},{"item":"fuspongeweed"}  ],
+	"pool":[ {"weight":0.5, "item":"fuspongeweedseed"},{"weight":0.6, "item":"fuspongeweed"} ],
 	"poolRounds":[[0.5,0],[0.5,1]]}
 	]]
 },
 {"op":"add",
-	"path":"/snowberryseedHarvest",
+	"path":"/fusnowberryseedHarvest",
 	"value":[[0, {
-	"fill":[ {"item":"snowberryseed"},{"item":"snowberry"}  ],
-	"pool":[ {"weight":0.5, "item":"snowberryseed"},{"weight":0.6, "item":"snowberry"} ],
+	"fill":[ {"item":"fusnowberryseed"},{"item":"fusnowberry"}  ],
+	"pool":[ {"weight":0.5, "item":"fusnowberryseed"},{"weight":0.6, "item":"fusnowberry"} ],
 	"poolRounds":[[0.5,0],[0.5,1]]}
 	]]
 },

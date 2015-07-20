@@ -4,5 +4,5 @@
   "inventoryIcon" : "dnasample.png",
   "description" : "Sampled DNA sequences",
   "shortdescription" : "DNA Sample",
-  "learnBlueprintsOnPickup" : [ "cellpodsplant", "ghostmushroomseed", "stranglevineseed", "spongeweedseed" ]
+  "learnBlueprintsOnPickup" : [ "cellpodsplant", "ghostmushroomseed", "stranglevineseed", "fuspongeweedseed" ]
 }
