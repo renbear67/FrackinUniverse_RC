@@ -508,7 +508,7 @@
       "layers" : {
         "surface" : {
           "primaryRegion" : [ "crystalmoon" ],
-          "secondaryRegion" : [ "aliendesert", "crystalswamp", "ffhive", "corruptmoon", "reddesert", "cloudforest", "rainbowforest", "icefire", "sulphuricplain", "blackslimebog","blisterbushfield",  "pitchfield", "primevalforest", "irradiatedwaste", "bloodstonefield", "penumbra", "protoworld", "icewaste", "volcanic" ],
+          "secondaryRegion" : [ "aliendesert", "crystalswamp", "crystalplain", "crystaldesert", "ffhive", "corruptmoon", "cloudforest", "rainbowforest", "irradiatedwaste", "bloodstonefield", "volcanic" ],
           "dungeonCountRange" : [0, 2],
           "dungeons" : [ "crystalcavern", "wreck", "apexresearchlab", "scifidungeon"]
         },
@@ -556,7 +556,7 @@
       "layers" : {
         "surface" : {
           "primaryRegion" : [ "desert_wastes" ], 
-	  "secondaryRegion" : [ "aliendesert", "goreforest", "cactiplace", "crystalswamp", "ffhive", "oasis", "tar", "reddesert", "finesand", "badlands", "desertoasis", "dryriverbed", "calichefield", "hellfirefield", "pitchfield", "sulphuricplain"  ],
+	  "secondaryRegion" : [ "crystaldesert", "aliendesert", "goreforest", "cactiplace", "crystalswamp", "ffhive", "oasis", "tar", "reddesert", "finesand", "badlands", "desertoasis", "dryriverbed", "calichefield", "hellfirefield", "pitchfield", "sulphuricplain"  ],
           "dungeonCountRange" : [0, 2],
           "dungeons" : [ "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "humanbunker", "floranhuntinggrounds", "floranvillagetower" ]
         },
@@ -593,7 +593,7 @@
        "layers" : {
         "surface" : {
           "primaryRegion" : [ "frozenvolcanic" ],
-          "secondaryRegion" : [ "aliendesert", "hellhive", "alienforest", "sulphuricmagma", "bioluminescence", "ice", "rust", "crystalline", "infernus","scorched", "snow", "volcanic", "ashgarden", "crystalplain", "elder", "hellfirefield", "pitchfield", "snowyforest", "sulphuricplain" ],
+          "secondaryRegion" : [ "crystaldesert", "aliendesert", "hellhive", "alienforest", "sulphuricmagma", "bioluminescence", "ice", "rust", "crystalline", "infernus","scorched", "snow", "volcanic", "ashgarden", "crystalplain", "elder", "hellfirefield", "pitchfield", "snowyforest", "sulphuricplain" ],
           "dungeonCountRange" : [0, 2],
           "dungeons" : [ "crystalcavern" ]
         },
@@ -732,7 +732,7 @@
       "layers" : {
         "surface" : {
           "primaryRegion" : [ "icemoon" ],
-          "secondaryRegion" : [ "elder",   "ice", "snow", "icefire" ],
+          "secondaryRegion" : [ "crystaldesert", "elder",   "ice", "icefire" ],
           "dungeonCountRange" : [0, 2],
           "dungeons" : [ "elderruins", "crystalcavern", "wreck", "apexresearchlab", "scifidungeon" ]
         },
@@ -920,7 +920,7 @@
       "layers" : {
         "surface" : {
           "primaryRegion" : [ "metallicmoon" ],
-          "secondaryRegion" : [ "metalworks","metalworks2", "moon" ],
+          "secondaryRegion" : [ "volcanic", "metalworks","metalworks2", "moon", "irradiated", "moon_stone", "moon_toxic", "moon_stone", "moon_volcanic" ],
           "dungeonCountRange" : [0, 2],
           "dungeons" : [ "wreck" ]
         },
@@ -2226,15 +2226,28 @@
   "path" : "/regionTypes/crystalplain",
   "value" : 
   {
-      "caveLiquid" : [ "organicsoup", "alienjuice", "healingliquid", "helium3gas" ],
+      "caveLiquid" : [ "organicsoup", "lava", "elderfluid" ],
       "caveLiquidChanceRange" : [25, 100],
-      "blockSelector" : [ "lowHillsSurface", "mountainsSurface", "mixedSurface", "canyonsSurface", "spikesSurface" ],
+      "blockSelector" : [ "mountainsSurface", "mixedSurface", "canyonsSurface", "spikesSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
         [0, [ "crystalplain" ]]
       ]
     }
   },
+   {"op" : "add", 
+  "path" : "/regionTypes/crystaldesert",
+  "value" : 
+  {
+      "caveLiquid" : [ "organicsoup", "lava", "elderfluid" ],
+      "caveLiquidChanceRange" : [45, 75],
+      "blockSelector" : [ "flatsSurface", "lowHillsSurface" ],
+      "fgCaveSelector" : [ "denseCaves" ],
+      "biome" : [
+        [0, [ "crystaldesert" ]]
+      ]
+    }
+  }, 
   
   {"op" : "add", 
   "path" : "/regionTypes/deadwood",
@@ -3178,9 +3191,9 @@
  "path": "/regionTypes/crystalswamp",
  "value" : 
  	{
-       "oceanLiquid" : [ "swampwater" ],
-       "oceanLevelOffset" : 0, 
-       "caveLiquid" : [ "swampwater" ],
+       //"oceanLiquid" : [ "organicsoup" ],
+       //"oceanLevelOffset" : 0, 
+       "caveLiquid" : [ "organicsoup" ],
        "caveLiquidChanceRange" : [99, 100],
        "blockSelector" : [ "breakwaterIslandsSurface", "tidalflatsIslandsSurface", "submergedIslandsSurface", "spikeIslandsSurface" ],
        "fgCaveSelector" : [ "surfaceCaves" ],

@@ -134,7 +134,7 @@
     }
   ],
 
-  "mainBlock" : "sand",
+  "mainBlock" : "glasssand",
   "subBlocks" : [ "drysand", "moonstone", "moonrock" ],
   "ores" : "moonores",
 

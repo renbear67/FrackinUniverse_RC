@@ -4,7 +4,7 @@
   "hueShiftOptions" : [-40, -25, 0, 25, 40],
 
     "mainBlock" : "magmatile4",
-    "subBlocks" : [ "magmatile1", "magmatile2", "protorock" ],
+    "subBlocks" : [ "magmatile1", "magmatile2", "protorock", "glasssand" ],
     "ores" : "surfaceOres",
 
   "surfacePlaceables" : {

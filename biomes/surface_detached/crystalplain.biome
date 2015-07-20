@@ -1,6 +1,6 @@
 {
   "name" : "crystalplain",
-  "friendlyName" : "Crystalline Plain",
+  "friendlyName" : "Crystalline Volcanic",
   "hueShiftOptions" : [-195, -125, -40, -25, 0, 25, 40, 125, 195],
 
     "mainBlock" : "purplecrystal",

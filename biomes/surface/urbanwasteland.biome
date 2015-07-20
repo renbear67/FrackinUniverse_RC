@@ -94,7 +94,7 @@
   
   
     "mainBlock" : "ash",
-    "subBlocks" : [ "brittlejunk" ],
+    "subBlocks" : [ "brittlejunk", "glasssand" ],
     "ores" : "surfaceOres",
     "parallax" : "/parallax/surface/urbanwasteland.parallax",
 
