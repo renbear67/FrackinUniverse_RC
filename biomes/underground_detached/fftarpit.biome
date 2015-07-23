@@ -14,7 +14,7 @@
   ],
 
   "mainBlock" : "tar",
-  "subBlocks" : [ "wetdirt" ],
+  "subBlocks" : [ "magmatile3", "tarstone", "magmatile4" ],
   "ores" : "ff_deepsurfaceshadowOres",
 
   "hueShiftOptions" : [0],

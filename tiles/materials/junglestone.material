@@ -1,17 +1,17 @@
 {
-  "materialId" : 6623,
-  "materialName" : "fungalstone",
+  "materialId" : 6614,
+  "materialName" : "junglestone",
   "particleColor" : [115, 220, 115, 225],
-  "itemDrop" : "fungalstonematerial",
-  "description" : "Stone covered in fungal spores.",
-  "shortdescription" : "Fungal Stone",
+  "itemDrop" : "junglestonematerial",
+  "description" : "Stone covered in vines and roots.",
+  "shortdescription" : "Jungle Stone",
   "footstepSound" : "/sfx/blocks/footstep_stone.wav",
   "health" : 8,
   "category": "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "fungalstone.png",
+    "texture" : "junglestone.png",
     "variants" : 5,
     "lightTransparent" : false,
     "occludesBelow" : true,

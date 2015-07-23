@@ -116,7 +116,7 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.18, "sewagebarrel" ], [0.35, "sewerguage" ], [0.35, "sewertank" ], [0.35, "sewerwallgrate" ], [0.35, "trashbag"] ],
+            "pool" : [ [0.18, "sewagebarrel" ], [0.35, "sewergauge" ], [0.35, "sewertank" ], [0.35, "sewerwallgrate" ], [0.35, "trashbag"] ],
             "parameters" : { }
           }
         ]

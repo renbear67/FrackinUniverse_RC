@@ -20,7 +20,7 @@
     "ores" : "surfaceOres",
 
   "surfacePlaceables" : {
-    "grassMod" : [ "sand" ],
+    "grassMod" : [ "glowsandgrass" ],
     "grassModDensity" : 0.8,
 
     "items" : [
@@ -196,7 +196,7 @@
     ]
   },
     "undergroundPlaceables" : {
-      "grassMod" : [ "sand" ],
+      "grassMod" : [ "glowsandgrass" ],
       "grassModDensity" : 0.6,
 
       "items" : [

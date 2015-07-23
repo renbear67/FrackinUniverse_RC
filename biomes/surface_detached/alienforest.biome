@@ -9,7 +9,7 @@
     "ores" : "surfaceOres",
 
   "surfacePlaceables" : {
-    "grassMod" : [ "fualiengrass" ],
+    "grassMod" : [ "fualiengrass", "fualiengrass2" ],
     "grassModDensity" : 0.8,
 
     "items" : [
@@ -240,7 +240,7 @@
     ]
   },
     "undergroundPlaceables" : {
-      "grassMod" : [ "protograss" ],
+      "grassMod" : [ "fualiengrass", "fualiengrass2" ],
       "grassModDensity" : 0.6,
 
       "items" : [

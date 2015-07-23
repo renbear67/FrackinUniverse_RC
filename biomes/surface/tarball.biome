@@ -98,7 +98,7 @@
   ],
 
     "mainBlock" : "tar",
-    "subBlocks" : [ "magmatile4", "mud" ],
+    "subBlocks" : [ "magmatile4", "mud", "tarstone" ],
   "ores" : "surfaceOres",
 
   "parallax" : "/parallax/surface/volcanic.parallax",
