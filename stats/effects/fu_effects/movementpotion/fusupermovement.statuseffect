@@ -1,13 +1,13 @@
 {
-  "name" : "supermovement",
+  "name" : "fusupermovement",
   "effectConfig" : { "runmodifiervalue" : 1.5, "jumpmodifiervalue" : 1.5, "featherfall" : 1 },
   "defaultDuration" : 3,
 
   "scripts" : [
-    "movementpotion.lua"
+    "fumovementpotion.lua"
   ],
   
-    "animationConfig" : "movementpotion.animation",
+    "animationConfig" : "fumovementpotion.animation",
 	  "icon" : "/interface/statuses/runboost.png"
   
 }

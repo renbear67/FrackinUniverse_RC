@@ -1,12 +1,12 @@
 {
-  "name" : "sevenleaguescarfmovement",
+  "name" : "fusevenleaguescarfmovement",
   "effectConfig" : { "runmodifiervalue" : 0.5, "jumpmodifiervalue" : 0, "featherfall" : 0 },
   "defaultDuration" : 3,
 
   "scripts" : [
-    "movementpotion.lua"
+    "fumovementpotion.lua"
   ],
   
-    "animationConfig" : "movementpotion.animation"
+    "animationConfig" : "fumovementpotion.animation"
   
 }
