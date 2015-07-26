@@ -80,7 +80,8 @@ local recipes =
 {inputs = { glasssandmaterial=50 }, outputs = { ff_silicon=2 }, time = 0.5},
 {inputs = { crystalsandmaterial=50 }, outputs = { ff_silicon=2 }, time = 0.5},
 {inputs = { rottingfleshmaterial=50 }, outputs = { geneticmaterial=4 }, time = 0.5},
-
+{inputs = { tarstonematerial=50 }, outputs = { liquidblacktar=4 }, time = 0.5},
+{inputs = { junglestonematerial=50 }, outputs = { rawminerals=4 }, time = 0.5},
 {inputs = { petalblock=50 }, outputs = { geneticmaterial=6 }, time = 0.5},
 {inputs = { alienrock=50 }, outputs = { ff_silicon=4 }, time = 0.5},
 {inputs = { alienstripedwood=50 }, outputs = { tissueculture=4 }, time = 0.5},
