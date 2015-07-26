@@ -1,7 +1,7 @@
 function init()
   script.setUpdateDelta(5)
-  self.tickDamagePercentage = 0.026
-  self.tickTime = 1.0
+  self.tickDamagePercentage = 0.024
+  self.tickTime = 0.7
   self.tickTimer = self.tickTime
   activateVisualEffects()
 end
@@ -22,7 +22,7 @@ function update(dt)
     status.applySelfDamageRequest({
         damageType = "IgnoresDef",
         damage = math.floor(status.resourceMax("health") * self.tickDamagePercentage) + 1,
-        damageSourceKind = "poison",
+        damageSourceKind = "fireplasma",
         sourceEntityId = entity.id()
       })
   end

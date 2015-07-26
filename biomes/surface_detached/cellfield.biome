@@ -52,7 +52,7 @@
           "distribution" : "/biomes/distributions.config:randomEncounter",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "tar", "randomencounter", "apexencounter", "avianencounter", "glitchencounter", "humanencounter" ]
+          "microdungeons" : [ "tar", "randomencounter", "apexencounter", "avianencounter", "glitchencounter", "shroomencounter" ]
         },
         {
           "mode" : "floor",
@@ -150,16 +150,7 @@
           "type" : "microdungeon",
           "microdungeons" : [ "terrainfeatures", "rockclimb","rocktunnel",  "toxicplains", "sandstone", "blockpile", "rockyshapes", "rods", "spikes" ]
         },
-        {
-          "mode" : "floor",
-          "priority" : 3.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:randomEncounter",
-
-          "type" : "microdungeon",
-          "microdungeons" : [ "tar", "randomencounter", "apexencounter", "avianencounter", "glitchencounter", "humanencounter" ]
-        },
-        
+   
         {
           "mode" : "floor",
           "priority" : 3.0,

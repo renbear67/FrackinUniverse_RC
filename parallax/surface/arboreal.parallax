@@ -20,7 +20,7 @@
     },
     {
       "kind" : "arborealback",
-      "offset" : [0, 440],
+      "offset" : [0, 390],
       "baseCount" : 6,
       "parallax" : 9,
       "nightCorrelation" : 0,
@@ -31,7 +31,7 @@
     },
     {
       "kind" : "arborealfront",
-      "offset" : [0, 400],
+      "offset" : [0, 420],
       "baseCount" : 2,
       "parallax" : 6,
       "nightCorrelation" : 0,
@@ -43,28 +43,21 @@
     {
       "kind" : "foliage/treefront",
       "offset" : [0, 275],
-      "parallax" : 2.5,
+      "parallax" : 3,
       "directives" : "?saturation=-5?brightness=10",
       "fadePercent" : 0.03
     },
     {
       "kind" : "foliage/treefront",
-      "offset" : [0, 255],
-      "parallax" : 3,
+      "offset" : [0, 285],
+      "parallax" : 2.5,
       "directives" : "?saturation=-10?brightness=5",
       "fadePercent" : 0.03
     },
     {
       "kind" : "foliage/treefront",
-      "offset" : [0, 195],
+      "offset" : [0, 305],
       "parallax" : 2,
-      "directives" : "?saturation=-5?brightness=10",
-      "fadePercent" : 0.03
-    },
-    {
-      "kind" : "foliage/treeback",
-      "offset" : [0, 275],
-      "parallax" : 3.5,
       "directives" : "?saturation=-5?brightness=10",
       "fadePercent" : 0.03
     },

@@ -139,6 +139,17 @@
     ]
 },
 
+{
+"op" : "add",
+"path" : "/metallic",
+"value" : [     
+   [0.20, "ironstorm"],
+   [0.15, "gravrain"],
+   [0.15, "firestorm"],
+   [0.25, "gravrainlight"],
+   [0.25, "glowingrain"]
+   ]
+},
 
 {
 "op" : "add",

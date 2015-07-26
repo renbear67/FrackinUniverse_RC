@@ -136,7 +136,7 @@
           "distribution" : "/biomes/distributions.config:randomEncounter",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "oasis", "tar", "randomencounter", "apexencounter", "avianencounter", "glitchencounter", "humanencounter" ]
+          "microdungeons" : [ "oasis", "tar", "randomencounter", "apexencounter", "avianencounter", "glitchencounter", "shroomencounter" ]
         },
         {
           "mode" : "floor",

@@ -735,7 +735,23 @@
       ],
 	"texture" : "/liquids/tartex.png",
 	"bottomLightMix" : [0, 78, 255],
-	"textureMovementFactor" : 2.6
+	"textureMovementFactor" : 1.6
+	} 
+   },
+
+//liquid iron
+    {"op" : "add", 
+    "path" : "/liquids/61", 
+	"value" : { 
+	"name" : "ironliquid",
+	"tickDelta" : 3,
+        "color" : [50, 50, 50, 255],
+	"itemDrop" : "liquidiron",
+        "statusEffects" :[ "swimming", "moltenmetal" ],
+        "interactions" : [ ],
+	"texture" : "/liquids/tartex.png",
+	"bottomLightMix" : [0, 0, 0],
+	"textureMovementFactor" : 0.4
 	} 
    }
 ]
