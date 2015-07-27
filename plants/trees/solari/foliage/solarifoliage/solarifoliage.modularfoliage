@@ -11,6 +11,8 @@
       }
     }
   },
+  "parallaxFoliage" : true,
+  
   "crownLeaves" : {
     "crown1" : {
       "image" : "crown1.png",

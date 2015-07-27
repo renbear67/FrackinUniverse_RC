@@ -18,14 +18,14 @@
     "/scripts/stateMachine.lua",
     "/scripts/util.lua",
     "/scripts/vec2.lua",
-
+    "/scripts/pathing.lua",
+    "/npcs/chatState.lua",
+    "/npcs/converseState.lua",
+    "/npcs/fleeState.lua",
     "/npcs/sitState.lua",
     "/npcs/sleepState.lua",
-
-    "/npcs/meleeAttackState.lua",
-    "/npcs/rangedAttackState.lua",
-
-    "/npcs/converseState.lua"
+    "/npcs/standingIdleState.lua",
+    "/npcs/wanderState.lua"
   ],
 
   "scriptConfig" : {

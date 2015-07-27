@@ -11,7 +11,7 @@
       "parallax" : 1.199
     },
     {
-      "kind" : "tile/dirt",
+      "kind" : "tile/foliage",
       "nohueshift" : true,
       "lightMapped" : true,
       "repeatY" : true,

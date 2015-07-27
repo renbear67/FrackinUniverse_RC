@@ -3,7 +3,7 @@
   "physics" : "grenade",
   "frames" : "healingrain.png",
   "animationCycle" : 0.5,
-  "frameNumber" : 2,
+  "frameNumber" : 1,
   "lightColor" : [189, 26, 0],
   "pointLight" : true,
   "actionOnReap" : [ { "action" : "liquid", "liquid" : "organicsoup", "quantity" : 0.4 } ],

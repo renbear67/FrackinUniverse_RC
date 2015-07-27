@@ -26,10 +26,10 @@
   "dremetonDescription" : "Like the cacti on Elithia, this plant is vital to life in the desert.",
   "hyvonDescription" : "Only the weak are hurt by the spines of this plant. We are not weak.",
 
-  "inventoryIcon" : "avikancactusseedicon.png",
+  "inventoryIcon" : "fuavikancactusseedicon.png",
   "orientations" : [
     {
-      "dualImage" : "avikancactusseed.png:<color>.<stage>.<alt>",
+      "dualImage" : "fuavikancactusseed.png:<color>.<stage>.<alt>",
       "imagePosition" : [0, 0],
       "frames" : 1,
       "animationCycle" : 0.5,

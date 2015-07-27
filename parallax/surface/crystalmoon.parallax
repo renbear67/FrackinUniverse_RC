@@ -51,7 +51,7 @@
     },
     {
       "kind" : "foliage/treefront",
-      "offset" : [0, 240],
+      "offset" : [0, 340],
       "parallax" : 3,
       "nightCorrelation" : 0,
       "minSpeed" : 0,
