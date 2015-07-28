@@ -17,7 +17,7 @@
   "actionOnReap" : [
     {
       "action" : "liquid", 
-      "liquid" : "ironliquid", 
+      "liquid" : "fuironliquid", 
       "quantity" : 0.25
     }
   ]

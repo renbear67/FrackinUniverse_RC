@@ -21,7 +21,7 @@
     },
     {
       "action" : "liquid", 
-      "liquid" : "ironliquid", 
+      "liquid" : "fuironliquid", 
       "quantity" : 1
     }
   ],
