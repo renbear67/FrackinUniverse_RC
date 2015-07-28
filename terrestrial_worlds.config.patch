@@ -3191,11 +3191,11 @@
  "path": "/regionTypes/crystalswamp",
  "value" : 
  	{
-       //"oceanLiquid" : [ "organicsoup" ],
-       //"oceanLevelOffset" : 0, 
+       "oceanLiquid" : [ "organicsoup" ],
+       "oceanLevelOffset" : 0, 
        "caveLiquid" : [ "organicsoup" ],
        "caveLiquidChanceRange" : [99, 100],
-       "blockSelector" : [ "breakwaterIslandsSurface", "tidalflatsIslandsSurface", "submergedIslandsSurface", "spikeIslandsSurface" ],
+       "blockSelector" : [ "mixedSurface", "flatsSurface", "lowHillsSurface", "fugradualslopes" ],
        "fgCaveSelector" : [ "surfaceCaves" ],
        "bgOreSelector" : [ "commonVeins" ], 
        "biome" : [
