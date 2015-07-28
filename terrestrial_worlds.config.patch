@@ -1793,7 +1793,7 @@
   "path" : "/regionTypes/metallicmoon",
   "value" : 
   {
-      "caveLiquid" : [ "tarliquid", "mercuryliquid", "ironliquid" ],
+      "caveLiquid" : [ "tarliquid", "mercuryliquid", "fuironliquid" ],
       "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [ "mixedSurface", "lowHillsSurface", "flatsSurface", "fugradualslopes" ],
       "fgCaveSelector" : [ "surfaceCaves", "moonSurfaceCaves", "denseCaves" ],
@@ -1846,7 +1846,7 @@
   "path" : "/regionTypes/moon_volcanic",
   "value" : 
     {
-      "caveLiquid" : [ "lava", "ironliquid" ],
+      "caveLiquid" : [ "lava", "fuironliquid" ],
       "caveLiquidChanceRange" : [20, 100],
       "blockSelector" : [ "flatsSurface", "lowHillsSurface" ],
       "fgCaveSelector" : [ "moonSurfaceCaves" ],
@@ -2086,7 +2086,7 @@
   "path" : "/regionTypes/alienforest",
   "value" : 
   {
-      "caveLiquid" : [ "water", "alienjuice", "gravrain", "ironliquid" ],
+      "caveLiquid" : [ "water", "alienjuice", "gravrain", "fuironliquid" ],
       "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [  "lowHillsSurface", "flatsSurface", "medHillsSurface", "mountainsSurface", "fugradualslopes"  ],
       "fgCaveSelector" : [ "surfaceCaves" ],
@@ -2461,7 +2461,7 @@
   "path" : "/regionTypes/hellfirefield",
   "value" : 
   {
-      "caveLiquid" : [ "lava", "ironliquid" ],
+      "caveLiquid" : [ "lava", "fuironliquid" ],
       "blockSelector" : [ "lowHillsSurface", "flatsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
@@ -2689,7 +2689,7 @@
   "path" : "/regionTypes/metalworks",
   "value" : 
   {
-      "caveLiquid" : [ "mercuryliquid", "tarliquid", "blacktar", "ironliquid", "protociteliquid" ],
+      "caveLiquid" : [ "mercuryliquid", "tarliquid", "blacktar", "fuironliquid", "protociteliquid" ],
       "blockSelector" : [ "medHillsSurface", "mixedSurface", "canyonsSurface", "ledgesSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
@@ -2702,7 +2702,7 @@
   "path" : "/regionTypes/metalworks2",
   "value" : 
   {
-      "caveLiquid" : [ "mercuryliquid", "tarliquid", "blacktar", "ironliquid", "protociteliquid" ],
+      "caveLiquid" : [ "mercuryliquid", "tarliquid", "blacktar", "fuironliquid", "protociteliquid" ],
       "blockSelector" : [ "medHillsSurface", "mixedSurface", "canyonsSurface", "ledgesSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
@@ -2768,7 +2768,7 @@
   {
       "blockSelector" : [ "lowHillsSurface", "medHillsSurface", "flatsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
-      "caveLiquid" : [ "bloodliquid", "ironliquid" ],
+      "caveLiquid" : [ "bloodliquid", "fuironliquid" ],
       "caveLiquidChanceRange" : [65, 85],
 
       "biome" : [
@@ -3494,7 +3494,7 @@
   "path" : "/regionTypes/infernusunderground",
   "value" : 
   {
-      "caveLiquid" : [ "lava", "blacktar", "ironliquid" ],
+      "caveLiquid" : [ "lava", "blacktar", "fuironliquid" ],
       "caveLiquidChanceRange" : [5, 25],
             "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
@@ -3534,7 +3534,7 @@
   "value" : 
   {
       "fgCaveSelector" : [ "moonCaves" ],
-      "caveLiquid" : [ "lava", "fuel", "ironliquid" ],
+      "caveLiquid" : [ "lava", "fuel", "fuironliquid" ],
       "caveLiquidChanceRange" : [1, 65], 
       "biome" : [
         [0, [ "moonvolcanicunderground"]]

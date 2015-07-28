@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "liquidiron", "count" : 4 }
+    { "item" : "liquidironfu", "count" : 4 }
   ],
   "output" : {
     "item" : "ironbar",
