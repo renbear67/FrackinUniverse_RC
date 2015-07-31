@@ -109,8 +109,8 @@
 
   ],
 
-  "mainBlock" : "rottingflesh",
-  "subBlocks" : [ "brains", "fleshblock", "bonematerial", "hellstone" ],
+  "mainBlock" : "fleshblock",
+  "subBlocks" : [ "brains", "rottingflesh", "bonematerial", "hellstone" ],
   "ores" : "ff_surfacearborealOres",
 
   "parallax" : "/parallax/surface/atropus.parallax",

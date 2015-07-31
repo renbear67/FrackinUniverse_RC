@@ -353,7 +353,7 @@
           "secondaryRegion" : [ "ffpoopit", "heck", "shadow", "hive", "ffspidernest", "fffleshcaves", "ffcellcaves", "ffshadow" ]
         },
         "core" : {
-          "primaryRegion" : [ "core" ]
+          "primaryRegion" : [ "puscore" ]
         } 
        }
      }
@@ -1938,7 +1938,7 @@
   "path" : "/regionTypes/penumbra",
   "value" : 
   {
-      "caveLiquid" : [ "water", "blacktar", "alienjuice", "darkwater", "slimeliquid" ],
+      "caveLiquid" : [ "water", "swampwater", "blacktar", "alienjuice", "darkwater", "slimeliquid" ],
       "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [ "mixedSurface", "fugradualslopes", "lowHillsSurface", "remixedMountainsSurface" ],
       "fgCaveSelector" : [ "normalCaves" ],
@@ -2071,7 +2071,7 @@
   "path" : "/regionTypes/lightless",
   "value" : 
   {
-      "caveLiquid" : [ "blacktar", "tarliquid", "bloodliquid", "darkwater", "slimeliquid" ],
+      "caveLiquid" : [ "blacktar", "pus", "bloodliquid", "darkwater", "slimeliquid" ],
       "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [ "lowHillsSurface", "medHillsSurface", "remixedCanyonsSurface", "remixedMountainsSurface", "fugradualslopes", "remixedMegaMountainsSurface"  ],
       "fgCaveSelector" : [ "surfaceCaves", "denseCaves" ],
@@ -2144,7 +2144,7 @@
   "path" : "/regionTypes/blisterbushfield",
   "value" : 
   {
-      "caveLiquid" : [ "alienjuice", "healingliquid", "helium3gas", "slimeliquid" ],
+      "caveLiquid" : [ "alienjuice", "healingliquid", "pus", "slimeliquid" ],
       "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [ "flatsSurface", "lowHillsSurface", "fugradualslopes" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
@@ -2212,7 +2212,7 @@
   "path" : "/regionTypes/corruptedforest",
   "value" : 
   {
-      "caveLiquid" : [ "bio_ooze", "poison", "darkwater", "shadowgas" ],
+      "caveLiquid" : [ "bio_ooze", "pus", "darkwater", "shadowgas" ],
       "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [ "lowHillsSurface", "mixedSurface", "fugradualslopes" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
@@ -2783,7 +2783,7 @@
   {
       "blockSelector" : [ "lowHillsSurface", "medHillsSurface", "flatsSurface" ],
       "fgCaveSelector" : [ "denseCaves" ],
-      "caveLiquid" : [ "bloodliquid" ],
+      "caveLiquid" : [ "bloodliquid", "pus" ],
       "caveLiquidChanceRange" : [65, 85],
 
       "biome" : [
@@ -2948,7 +2948,7 @@
  "path": "/regionTypes/corrupt",
  "value" : 
  	{
-       "oceanLiquid" : [ "water", "slimeliquid" ],
+       "oceanLiquid" : [ "water", "slimeliquid", "darkwater" ],
        "oceanLevelOffset" : 0, 
        "blockSelector" : [ "floatingIslandsSurface", "submergedIslandsSurface" ],
        "fgCaveSelector" : [ "surfaceCaves" ],
@@ -3651,7 +3651,7 @@
   "path" : "/regionTypes/ffcellcaves",
   "value" : 
   {
-      "caveLiquid" : [ "bloodliquid", "darkwater", "healingliquid" ],
+      "caveLiquid" : [ "bloodliquid", "pus", "healingliquid" ],
       "caveLiquidChanceRange" : [5, 75],
       "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
@@ -3858,7 +3858,7 @@
   "path" : "/regionTypes/ffpoopit",
   "value" : 
   {
-      "caveLiquid" : [ "poison", "bio_ooze", "swampwater", "slimeliquid" ],
+      "caveLiquid" : [ "pus", "bio_ooze", "swampwater", "slimeliquid" ],
       "caveLiquidChanceRange" : [55, 100],
       "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
@@ -3909,6 +3909,22 @@
       "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
         [0, [ "protocorelayer"] ]
+      ]
+    }
+  },
+
+  {"op" : "add", 
+  "path" : "/regionTypes/puscore",
+  "value" : 
+    {
+      "caveLiquid" : [ "pus" ],
+      "caveLiquidChanceRange" : [95, 100],
+      "oceanLiquid" : [ "pus" ],
+      "oceanLevelOffset" : 4,
+      "fgCaveSelector" : [ "coreCaves", "megacore", "normalmegacave" ],
+      "bgOreSelector" : [ "denseVeins" ],  
+      "biome" : [
+        [0, [ "blaststonecorelayer"] ]
       ]
     }
   },
