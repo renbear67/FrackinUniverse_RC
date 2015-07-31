@@ -754,4 +754,19 @@
 	"textureMovementFactor" : 0.4
 	} 
    }
+    {"op" : "add", 
+    "path" : "/liquids/62", 
+	"value" : { 
+	"name" : "pus",
+	"tickDelta" : 3,
+        "color" : [50, 120, 90, 255],
+	"itemDrop" : "liquidpus",
+        "statusEffects" :[ "swimming" ],
+        "interactions" : [ ],
+	"texture" : "/liquids/liquidirradiumtex.png",
+	"bottomLightMix" : [0, 0, 0],
+	"textureMovementFactor" : 0.4
+	} 
+   }
+   
 ]

@@ -70,7 +70,6 @@ local recipes =
 {inputs = { biorock2=50 }, outputs = { geneticmaterial=5 }, time = 0.5},
 {inputs = { frozendirt=50 }, outputs = { nutrientpaste=5 }, time = 0.5},
 {inputs = { grassyrock=50 }, outputs = { rawminerals=2 }, time = 0.5},
-
 {inputs = { frozensandmaterial=50 }, outputs = { ff_silicon=3 }, time = 0.5},
 {inputs = { frozensand2material=50 }, outputs = { ff_silicon=3 }, time = 0.5},
 {inputs = { frozenstonematerial=50 }, outputs = { rawminerals=4 }, time = 0.5},
@@ -117,6 +116,7 @@ local recipes =
 {inputs = { cobblestonematerial=50 }, outputs = { rawminerals=3 }, time = 0.5},
 {inputs = { conglomeratematerial=50 }, outputs = { rawminerals=3 }, time = 0.5},
 {inputs = { corruptmaterial=50 }, outputs = { nutrientpaste=3 }, time = 0.5},
+{inputs = { corruptdirtmaterial=50 }, outputs = { tissueculture=4 }, time = 0.5},
 {inputs = { crystal=50 }, outputs = { icecrystal=2 }, time = 0.5},
 {inputs = { crystalblock=50 }, outputs = { crystal=4 }, time = 0.5},
 {inputs = { dacitematerial=50 }, outputs = { rawminerals=4 }, time = 0.5},

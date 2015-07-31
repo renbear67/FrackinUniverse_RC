@@ -118,6 +118,7 @@ local recipes =
 {inputs = { cobblestonematerial=50 }, outputs = { rawminerals=2 }, time = 0.5},
 {inputs = { conglomeratematerial=50 }, outputs = { rawminerals=2 }, time = 0.5},
 {inputs = { corruptmaterial=50 }, outputs = { nutrientpaste=2 }, time = 0.5},
+{inputs = { corruptdirtmaterial=50 }, outputs = { tissueculture=2 }, time = 0.5},
 {inputs = { crystal=50 }, outputs = { icecrystal=1 }, time = 0.5},
 {inputs = { crystalblock=50 }, outputs = { crystal=2 }, time = 0.5},
 {inputs = { dacitematerial=50 }, outputs = { rawminerals=2 }, time = 0.5},
