@@ -17,17 +17,15 @@
     {
       "stat" : "protection",
       "amount" : 25
-    },
-
+    },  
     {
       "stat" : "maxEnergy",
-      "amount" : 25
-    },
-
+      "amount" : 20
+    },    
     {
       "stat" : "maxHealth",
-      "amount" : 10
-    },
+      "amount" : 12
+    },    
     "biooozeimmunity"
   ],
   

@@ -13,15 +13,13 @@
   "mask" : "mask.png",
 
   "statusEffects" : [
-    {
-      "stat" : "protection",
-      "amount" : 24
-    },
+  "percentarmorboost80",
     {
       "stat" : "damagebonus",
       "amount" : 1.6
     },
-    "energyregenfu_armor30"
+    "energyregenfu_armor30",
+    "insanity"
   ]
 
 }

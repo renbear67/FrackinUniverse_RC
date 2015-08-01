@@ -11,6 +11,6 @@
 
   "animationConfig" : "insanity.animation",
 
-  "label" : "Poisoned",
+  "label" : "Insane",
   "icon" : "/interface/statuses/poison.png"
 }

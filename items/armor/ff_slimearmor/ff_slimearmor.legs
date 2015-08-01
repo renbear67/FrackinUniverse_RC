@@ -14,13 +14,12 @@
 
   "statusEffects" : [
     {
-      "stat" : "protection",
-      "amount" : 15
-    },
-
-    {
       "stat" : "maxEnergy",
-      "amount" : 15
+      "amount" : 22
+    },
+    {
+      "stat" : "protection",
+      "amount" : 19
     },
     "energyregenfu_armor20",
     "slimestickimmunity"

@@ -1,38 +1,4 @@
 {
-  "lights" : {
-    "light1" : {
-      "active" : true,
-      "position" : [0, 1.0],
-      "color" : [200, 0, 0],
-      "pointLight" : true,
-      "pointAngle" : 0,
-      "pointBeam" : 0.05
-    },
-    "light2" : {
-      "active" : true,
-      "position" : [0, 1.0],
-      "color" : [0, 200, 0],
-      "pointLight" : true,
-      "pointAngle" : 90,
-      "pointBeam" : 0.05
-    },
-    "light3" : {
-      "active" : true,
-      "position" : [0, 1.0],
-      "color" : [0, 0, 200],
-      "pointLight" : true,
-      "pointAngle" : 180,
-      "pointBeam" : 0.05
-    },
-    "light4" : {
-      "active" : true,
-      "position" : [0, 1.0],
-      "color" : [200, 200, 0],
-      "pointLight" : true,
-      "pointAngle" : 270,
-      "pointBeam" : 0.05
-    }
-  },
   "particleEmitters" : {
     "drips" : {
       "enabled" : true,
@@ -42,7 +8,7 @@
           "particle" : {
             "type" : "ember",
             "size" : 1.0,
-            "color" : [250, 0, 250, 230],
+            "color" : [234, 229, 155, 220],
             "fade" : 0.9,
             "destructionAction" : "shrink",
             "destructionTime" : 0.8,
@@ -67,9 +33,9 @@
         {
           "particle" : {
             "type" : "text",
-            "text" : "Insanity!",
+            "text" : "HP Boost",
             "size" : 0.75,
-            "color" : [0, 255, 125, 205],
+            "color" : [234, 112, 112, 220],
             "fade" : 1,
             "destructionAction" : "shrink",
             "destructionTime" : 0.8,

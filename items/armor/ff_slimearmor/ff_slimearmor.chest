@@ -25,13 +25,11 @@
     {
       "stat" : "protection",
       "amount" : 35
-    },
-
+    },    
     {
       "stat" : "maxEnergy",
       "amount" : 35
     },
-
     {
       "stat" : "healthRegen",
       "amount" : 0.30
