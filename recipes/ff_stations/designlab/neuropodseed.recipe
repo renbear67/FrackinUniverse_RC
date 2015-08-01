@@ -4,7 +4,7 @@
     { "item" : "cellhardening2", "count" : 1 },
     { "item" : "corruptionseed", "count" : 12 },
     { "item" : "musclegene2", "count" : 1 },
-    { "item" : "shadowgascannister", "count" : 5 }
+    { "item" : "liquidpus", "count" : 200 }
   ],
   "output" : {
     "item" : "neuropodseed",

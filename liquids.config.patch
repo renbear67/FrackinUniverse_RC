@@ -692,56 +692,10 @@
         "textureMovementFactor" : 1.6        
 	}
     },
-//ItA-Tidewater
-    {"op" : "add", 
-    "path" : "/liquids/60", 
-	"value" : { 
-	"name" : "darkwater",
-	"tickDelta" : 1,
-        "color" : [44, 31, 51, 225],
-	"itemDrop" : "liquiddarkwater",
-        "statusEffects" :[ "swimming", "darkwaterpoison" ],
-      "interactions" : [
-        //water
-		{ 
-          "liquid" : 1,
-          "liquidResult" : 60
-		},
-	  //healingwater
-          {
-            "liquid" : 6,
-            "liquidResult" : 6
-          },
-          {
-            "liquid" : 41,
-            "liquidResult" : 60
-          },
-          //black tar
-          {
-            "liquid" : 42,
-            "liquidResult" : 60
-          },
-
-          //helium
-          {
-            "liquid" : 49,
-            "liquidResult" : 60
-          },
-          //shadow gas
-          {
-            "liquid" : 50,
-            "liquidResult" : 60
-          }   
-      ],
-	"texture" : "/liquids/tartex.png",
-	"bottomLightMix" : [0, 78, 255],
-	"textureMovementFactor" : 1.6
-	} 
-   },
-
+    
 //liquid iron
     {"op" : "add", 
-    "path" : "/liquids/61", 
+    "path" : "/liquids/52", 
 	"value" : { 
 	"name" : "fuironliquid",
 	"tickDelta" : 3,
@@ -755,13 +709,13 @@
 	} 
    },
     {"op" : "add", 
-    "path" : "/liquids/62", 
+    "path" : "/liquids/53", 
 	"value" : { 
 	"name" : "pus",
 	"tickDelta" : 3,
         "color" : [234, 229, 155, 220],
 	"itemDrop" : "liquidpus",
-        "statusEffects" :[ "swimming" ],
+        "statusEffects" :[ "swimming", "puseffect" ],
         "interactions" : [ 
              {
                "liquid" : 1,
@@ -769,7 +723,7 @@
              },
              {
                "liquid" : 3,
-               "liquidResult" : 61
+               "liquidResult" : 62
              },
              {
                "liquid" : 8,
@@ -814,6 +768,53 @@
 	"texture" : "/liquids/pustex.png",
 	"bottomLightMix" : [0, 0, 0],
 	"textureMovementFactor" : 0.1
+	} 
+   },
+   
+//ItA-Tidewater
+    {"op" : "add", 
+    "path" : "/liquids/60", 
+	"value" : { 
+	"name" : "darkwater",
+	"tickDelta" : 1,
+        "color" : [44, 31, 51, 225],
+	"itemDrop" : "liquiddarkwater",
+        "statusEffects" :[ "swimming", "darkwaterpoison" ],
+      "interactions" : [
+        //water
+		{ 
+          "liquid" : 1,
+          "liquidResult" : 60
+		},
+	  //healingwater
+          {
+            "liquid" : 6,
+            "liquidResult" : 6
+          },
+          {
+            "liquid" : 41,
+            "liquidResult" : 60
+          },
+          //black tar
+          {
+            "liquid" : 42,
+            "liquidResult" : 60
+          },
+
+          //helium
+          {
+            "liquid" : 49,
+            "liquidResult" : 60
+          },
+          //shadow gas
+          {
+            "liquid" : 50,
+            "liquidResult" : 60
+          }   
+      ],
+	"texture" : "/liquids/tartex.png",
+	"bottomLightMix" : [0, 78, 255],
+	"textureMovementFactor" : 1.6
 	} 
    }
    

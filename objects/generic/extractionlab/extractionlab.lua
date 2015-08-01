@@ -66,12 +66,11 @@ local recipes =
 {inputs = { ff_bambooshoot=1 }, outputs = { geneticmaterial=2 }, time = 0.5},
 {inputs = { blooddiamond=1 }, outputs = { bloodore=3 }, time = 0.5},
 -- tiles
-
+{inputs = { cactiblock=50 }, outputs = { tissueculture=2 }, time = 0.5},
 {inputs = { biorock=50 }, outputs = { geneticmaterial=3 }, time = 0.5},
 {inputs = { biorock2=50 }, outputs = { geneticmaterial=3 }, time = 0.5},
 {inputs = { frozendirt=50 }, outputs = { nutrientpaste=3 }, time = 0.5},
 {inputs = { grassyrock=50 }, outputs = { rawminerals=2 }, time = 0.5},
-
 {inputs = { frozensandmaterial=50 }, outputs = { ff_silicon=1 }, time = 0.5},
 {inputs = { frozensand2material=50 }, outputs = { ff_silicon=1 }, time = 0.5},
 {inputs = { frozenstonematerial=50 }, outputs = { rawminerals=2 }, time = 0.5},

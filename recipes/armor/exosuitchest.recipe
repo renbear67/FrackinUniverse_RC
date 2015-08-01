@@ -4,7 +4,7 @@
     { "item" : "bone", "count" : 12 },
     { "item" : "ff_resin", "count" : 12 },
     { "item" : "carbonplate", "count" : 5 },
-    { "item" : "corruptionseed", "count" : 8 }
+    { "item" : "liquidironfu", "count" : 60 }
   ],
   "output" : {
     "item" : "fuexosuitchest",

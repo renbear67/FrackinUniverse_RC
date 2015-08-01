@@ -1,7 +1,7 @@
 {
-  "type" : "slime",
+  "type" : "microslime",
 
-  "categories" : [ "slime" ],
+  "categories" : [ "microslime" ],
   "parts" : [ "body" ],
 
   "animation" : "slime.animation",
@@ -21,24 +21,22 @@
       "/scripts/vec2.lua"
     ],
 
-    "metaBoundBox" : [-0.75, -1.125, 0.875, 0.25],
+    "metaBoundBox" : [-0.5, -1.125, 0.5, 0.0],
     "scale" : 1.0,
 
     "movementSettings" : {
-      "collisionPoly" : [ [-0.75, -1.125], [0.875, -1.125], [0.875, 0.25], [-0.75, 0.25] ],
+      "collisionPoly" : [ [-0.5, -1.125], [0.5, -1.125], [0.5, 0.0], [-0.5, 0.0] ],
 
-      "mass" : 0.75,
-      "walkSpeed" : 2,
-      "runSpeed" : 4,
+      "mass" : 1.0,
+      "walkSpeed" : 3,
+      "runSpeed" : 6,
       "flySpeed" : 15,
-      "airForce" : 5.0,
-      "jumpSpeed" : 4,
-      "jumpControlForce" : 5,      
+
       "airFriction" : 0.0,
       "airJumpProfile" : {
-        "jumpSpeed" : 5.0,
+        "jumpSpeed" : 20.0,
         "jumpInitialPercentage" : 1.0,
-        "jumpHoldTime" : 0.5              
+        "jumpHoldTime" : 0.0              
       }
     },
 
@@ -49,8 +47,8 @@
     "deathParticles" : "deathPoof",
 
     "touchDamage" : {
-      "poly" : [ [-0.75, -1.125], [0.875, -1.125], [0.875, 0.25], [-0.75, 0.25] ],
-      "damage" : 12,
+      "poly" : [ [-0.5, -1.125], [0.5, -1.125], [0.5, 0.0], [-0.5, 0.0] ],
+      "damage" : 9,
 
       "teamType" : "enemy",
       "damageSourceKind" : "lash",
@@ -72,7 +70,7 @@
 
       "stats" : {
         "maxHealth" : {
-          "baseValue" : 2
+          "baseValue" : 4
         },
         "protection" : {
           "baseValue" : 0.2
@@ -80,10 +78,10 @@
         "healthRegen" : {
           "baseValue" : 0.0
         },
-        "slimestickImmunity" : {
+        "poisonImmunity" : {
           "baseValue" : 1.0
         },
-        "poisonImmunity" : {
+        "slimestickImmunity" : {
           "baseValue" : 1.0
         }
       },
@@ -112,7 +110,7 @@
     "noticeDistance" : 30,
     "attackSearchTime" : 10,
 
-    "poSize" : "medium",
+    "poSize" : "small",
 
     "spawnVelocity" : [2, 30],
 

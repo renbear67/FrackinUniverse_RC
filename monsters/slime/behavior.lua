@@ -13,7 +13,7 @@ function init()
     entity.setAnimationState("movement", "idle")
   end
 
-  self.jumpHoldTime = 0;
+  self.jumpHoldTime = 0
 
   entity.setAggressive(true)
   entity.setDamageOnTouch(true)
@@ -51,6 +51,32 @@ function damage(args)
 end
 
 --------------------------------------------------------------------------------
+function shouldDie()
+  return self.dead or entity.health() <= 0
+end
+
+--------------------------------------------------------------------------------
+function die()
+  if not capturepod.onDie() then
+    local size = entity.configParameter("poSize")
+
+    if size == "medium" then
+      local entityId = world.spawnMonster("microslime", entity.toAbsolutePosition({ -1, 4 }), { level = entity.level() })
+      world.callScriptedEntity(entityId, "setSpawnDirection", -1)
+
+      entityId = world.spawnMonster("microslime", entity.toAbsolutePosition({ 1, 4 }), { level = entity.level() })
+      world.callScriptedEntity(entityId, "setSpawnDirection", 1)
+    elseif size == "large" then
+      local entityId = world.spawnMonster("microslime", entity.toAbsolutePosition({ -1, 3 }), { level = entity.level() })
+      world.callScriptedEntity(entityId, "setSpawnDirection", -1)
+
+      entityId = world.spawnMonster("microslime", entity.toAbsolutePosition({ 1, 3 }), { level = entity.level() })
+      world.callScriptedEntity(entityId, "setSpawnDirection", 1)
+    end
+  end
+end
+
+--------------------------------------------------------------------------------
 function setSpawnDirection(direction)
   local spawnVelocity = entity.configParameter("spawnVelocity")
   mcontroller.setVelocity({ spawnVelocity[1] * direction, spawnVelocity[2] })
@@ -68,20 +94,59 @@ end
 
 --------------------------------------------------------------------------------
 function move(delta, run)
-  if not mcontroller.onGround() and self.jumpHoldTime > 0 then
+  if self.jumpHoldTime > 0 then
     mcontroller.controlHoldJump()
-    self.jumpHoldTime = math.max(0, self.jumpHoldTime - dt)
+    self.jumpHoldTime = self.jumpHoldTime - script.updateDt()
+  else
+    script.setUpdateDelta(5)
   end
 
   if mcontroller.onGround() then
+    if delta[2] < 0 and not onSolidGround() then
+      mcontroller.controlDown()
+      return
+    end
+    mcontroller.controlJump()
+
     if delta[2] > entity.configParameter("largeJumpYThreshold") then
       self.jumpHoldTime = entity.configParameter("largeHumpHoldTime")
     else
-      self.jumpHoldTime = 0
+      self.jumpHoldTime = entity.configParameter("smallBounceHoldTime")
     end
+    script.setUpdateDelta(1)
   end
 
   mcontroller.controlMove(delta[1], true)
+end
+
+--Check if entity is on solid ground (not platforms) 
+function onSolidGround()
+  local position = mcontroller.position()
+  local bounds = boundingBox()
+
+  local groundRegion = {
+    position[1] + bounds[1] - 0.05, position[2] + bounds[2] - 0.95,
+    position[1] + bounds[3] + 0.05, position[2] + bounds[2] + 0.05
+  }
+  return world.rectTileCollision(groundRegion, "Dynamic")
+end
+
+--------------------------------------------------------------------------------
+function boundingBox(force)
+  if self.boundingBox and not force then return self.boundingBox end
+
+  local collisionPoly = mcontroller.collisionPoly()
+  local bounds = {0, 0, 0, 0}
+
+  for _,point in pairs(collisionPoly) do
+    if point[1] < bounds[1] then bounds[1] = point[1] end
+    if point[2] < bounds[2] then bounds[2] = point[2] end
+    if point[1] > bounds[3] then bounds[3] = point[1] end
+    if point[2] > bounds[4] then bounds[4] = point[2] end
+  end
+  self.boundingBox = bounds
+
+  return bounds
 end
 
 --------------------------------------------------------------------------------
@@ -129,7 +194,7 @@ function attackState.update(dt, stateData)
   end
 
   local toTarget = world.distance(self.targetPosition, mcontroller.position())
-  move(toTarget, true)
+  move(toTarget, dt, true)
 
   return false
 end

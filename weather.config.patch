@@ -209,11 +209,12 @@
     [0.4, "drizzle"],
     [0.4, "heavyrain"],
     [0.05, "tarrain" ],
-    [0.15, "hurricane"],
-    [0.15, "acidrain"],
+    [0.05, "hurricane"],
+    [0.10, "acidrain"],
     [0.20, "mistyrain"],
-    [0.2, "fog"],
-    [0.2, "slimestormlesser"],
+    [0.25, "fog"],
+    [0.25, "slimestormlesser"],
+    [0.10, "slimestorm"],
     [0.01, "meteorshower"],
     [0.005, "largemeteor"]
     ]
