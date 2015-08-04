@@ -20,7 +20,10 @@
       "stat" : "maxEnergy",
       "amount" : 60
     },
-    "percentarmorboost30"
+    {
+      "stat" : "protection",
+      "amount" : 30
+    }
   ],
   
   "colorOptions" : [

@@ -1,0 +1,28 @@
+{
+  "name" : "plasmaBurstAttack2",
+  "label" : "BLUE PLASMA BURST",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "plasmaBurstAttack" : {
+      "cooldownTime" : 0,
+
+      "factory" : "createRangedAttack",
+      "projectile" : "blueplasmabullet",
+      "range" : 20,
+      "speed" : 60,
+      "power" : 18,
+      "shots" : 12,
+      "fireInterval" : 0.3,
+      "windupTime" : 1,
+      "winddownTime" : 1
+    }
+  },
+
+  "animationParameters" : {
+    "sounds" : {
+      "rangedAttack" : [ "/sfx/gun/plasma_pistol1.wav" ]
+    }
+  }
+}
+

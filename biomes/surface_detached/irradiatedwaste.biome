@@ -3,13 +3,13 @@
   "friendlyName" : "Irradiated Glade",
   "hueShiftOptions" : [-40, -25, 0, 25, 40],
 
-    "mainBlock" : "irradiatedtile",
+    "mainBlock" : "waste",
     "subBlocks" : [ "irradiatedtile2", "sewage", "biorock2" ],
     "ores" : "ff_radioactiveOres",
 
 
   "surfacePlaceables" : {
-    "grassMod" : [ "crystalgrass" ],
+    "grassMod" : [ "toxicgrass" ],
     "grassModDensity" : 0.9,
 
     "items" : [

@@ -9,7 +9,7 @@
 
 
   "surfacePlaceables" : {
-    "grassMod" : [ "mossgrass2" ],
+    "grassMod" : [ "mossgrass2", "flowerygrass" ],
     "grassModDensity" : 0.9,
 
     "items" : [

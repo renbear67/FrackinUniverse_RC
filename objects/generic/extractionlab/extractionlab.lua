@@ -66,6 +66,8 @@ local recipes =
 {inputs = { ff_bambooshoot=1 }, outputs = { geneticmaterial=2 }, time = 0.5},
 {inputs = { blooddiamond=1 }, outputs = { bloodore=3 }, time = 0.5},
 -- tiles
+{inputs = { grassy=50 }, outputs = { geneticmaterial=2 }, time = 0.5},
+{inputs = { waste=50 }, outputs = { nutrientpaste=2 }, time = 0.5},
 {inputs = { cactiblock=50 }, outputs = { tissueculture=2 }, time = 0.5},
 {inputs = { biorock=50 }, outputs = { geneticmaterial=3 }, time = 0.5},
 {inputs = { biorock2=50 }, outputs = { geneticmaterial=3 }, time = 0.5},

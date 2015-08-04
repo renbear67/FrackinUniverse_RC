@@ -123,7 +123,7 @@
 
  
     "surfacePlaceables" : {
-      "grassMod" : [ "deadleaves" ],
+      "grassMod" : [ "deadleaves", "colourfulgrass", "flowerygrass" ],
       "grassModDensity" : 0.9,
 
       "ceilingGrassMod" : [ "undergrowth" ],

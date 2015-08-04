@@ -20,7 +20,10 @@
       "stat" : "maxEnergy",
       "amount" : 50
     },
-    "percentarmorboost25"
+    {
+      "stat" : "protection",
+      "amount" : 25
+    }
   ],
 
   

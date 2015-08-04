@@ -15,7 +15,7 @@
   ],
 
   
-  "hueShiftOptions" : [-220, -110, -55, -23, 0, 23, 55, 110, 220],
+  "hueShiftOptions" : [-260, -150, -85, -55, -28, 0, 28, 55, 85, 150, 260],
   
     "weather" : [
       [0, [
@@ -27,54 +27,54 @@
   "skyOptions" : [
     // green tinted bright
     {
-      "mainColor" : [120, 120, 120],
+      "mainColor" : [120, 220, 120],
 
       "morningColors" : [ [123, 224, 150], [124, 230, 164] ],
-      "dayColors" : [ [130, 255, 190], [135, 255, 195] ],
+      "dayColors" : [ [120, 255, 190], [125, 255, 195] ],
       "eveningColors" : [ [100, 200, 130], [111, 211, 150] ],
       "nightColors" : [ [0, 50, 0], [0, 50, 0] ],
 
-      "morningLightColor" : [90, 150, 110],
-      "dayLightColor" : [45, 100, 55],
-      "eveningLightColor" : [25, 50, 30],
-      "nightLightColor" : [0, 12, 0]
+      "morningLightColor" : [110, 220, 110],
+      "dayLightColor" : [85, 180, 85],
+      "eveningLightColor" : [55, 100, 50],
+      "nightLightColor" : [0, 62, 0]
     },
     //greentinted medium
     {
-      "mainColor" : [90, 90, 90],
+      "mainColor" : [120, 150, 90],
 
       "morningColors" : [ [123, 224, 150], [124, 230, 164] ],
       "dayColors" : [ [130, 255, 190], [135, 255, 195] ],
       "eveningColors" : [ [100, 200, 130], [111, 211, 150] ],
       "nightColors" : [ [0, 50, 0], [0, 50, 0] ],
 
-      "morningLightColor" : [90, 150, 110],
-      "dayLightColor" : [45, 100, 55],
-      "eveningLightColor" : [25, 50, 30],
-      "nightLightColor" : [20, 12, 0]
+      "morningLightColor" : [90, 180, 110],
+      "dayLightColor" : [45, 120, 55],
+      "eveningLightColor" : [25, 80, 30],
+      "nightLightColor" : [20, 42, 0]
     },
     //green tinted dark
     {
-      "mainColor" : [100, 100, 100],
+      "mainColor" : [40, 100, 40],
 
-      "morningColors" : [ [123, 224, 150], [124, 230, 164] ],
-      "dayColors" : [ [130, 255, 190], [135, 255, 195] ],
-      "eveningColors" : [ [100, 200, 130], [111, 211, 150] ],
+      "morningColors" : [ [93, 124, 90], [94, 130, 94] ],
+      "dayColors" : [ [60, 155, 60], [66, 155, 66] ],
+      "eveningColors" : [ [30, 100, 30], [41, 111, 40] ],
       "nightColors" : [ [0, 50, 0], [0, 50, 0] ],
 
-      "morningLightColor" : [90, 150, 110],
-      "dayLightColor" : [45, 100, 55],
-      "eveningLightColor" : [25, 50, 30],
-      "nightLightColor" : [0, 12, 0]
+      "morningLightColor" : [40, 100, 40],
+      "dayLightColor" : [25, 70, 25],
+      "eveningLightColor" : [12, 50, 12],
+      "nightLightColor" : [0, 32, 0]
     },
     //yellow tinted
     {
       "mainColor" : [80, 80, 80],
 
-      "morningColors" : [ [230, 192, 17], [230, 200, 164] ],
-      "dayColors" : [ [230, 192, 50], [230, 192, 50] ],
-      "eveningColors" : [ [181, 152, 44], [181, 152, 44] ],
-      "nightColors" : [ [143, 120, 36], [143, 120, 36] ],
+      "morningColors" : [ [80, 102, 17], [80, 100, 164] ],
+      "dayColors" : [ [50, 82, 50], [50, 82, 50] ],
+      "eveningColors" : [ [11, 42, 14], [11, 42, 14] ],
+      "nightColors" : [ [3, 20, 8], [3, 20, 8] ],
 
       "morningLightColor" : [230, 192, 17],
       "dayLightColor" : [230, 192, 50],
@@ -90,15 +90,15 @@
       "eveningColors" : [ [181, 152, 44], [181, 152, 44] ],
       "nightColors" : [ [143, 120, 36], [143, 120, 36] ],
 
-      "morningLightColor" : [230, 192, 17],
-      "dayLightColor" : [230, 192, 50],
-      "eveningLightColor" : [181, 152, 44],
+      "morningLightColor" : [130, 92, 17],
+      "dayLightColor" : [130, 92, 50],
+      "eveningLightColor" : [81, 52, 44],
       "nightLightColor" : [42, 30, 0]
     }
   ],
 
   "mainBlock" : "plantmatter",
-  "subBlocks" : [ "shroomblock", "grassyrock", "mud" ],
+  "subBlocks" : [ "shroomblock", "magmarock", "jungledirt1" ],
   "ores" : "ff_surfacearborealOres",
 
   "parallax" : "/parallax/surface/arboreal.parallax",
@@ -238,18 +238,18 @@
           "treeStemList" : [ "redwood" ],
           "treeFoliageList" : [ "redwood1" ]
         },    
-        {
-          "mode" : "floor",
-          "priority" : 1.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:denseLarge",
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:rareClumpyLarge",
 
-          "type" : "tree",
-          "treeFoliageHueShiftMax" : 220,
-          "treeStemHueShiftMax" : 120,
-          "treeStemList" : [ "murky", "bleak", "spiked", "alienstriped","alienweird", "alienbubble", "birch", "cocoa", "fleshy", "grumpy", "metal", "pine", "roottree", "slimey", "something", "spikey", "twisted", "wood", "slobby", "pineytree" ],
-          "treeFoliageList" : [ "flat", "circly", "savannahbloom", "spikeyfoliage", "thorns", "alienbigleaf", "aliencircle", "rose", "brains", "bubbles", "cloudy", "frumpy", "greenleaves", "hanging", "leafy", "lotus", "lushgreen", "orangeflower", "pinefoliage", "redleaves", "scraggy", "spikeyfoliage" ]
-        }, 
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 180,
+        "treeStemHueShiftMax" : 15,
+        "treeStemList" : [ "ashy", "coal", "crispy", "magma", "lava" ],
+        "treeFoliageList" : [ "grey", "red", "fluff" ]
+      },
         {
           "mode" : "floor",
           "priority" : 1.0,
@@ -262,14 +262,15 @@
           "treeStemList" : [ "pearlwood", "nyanistem", "applewood", "peachwood", "pearwood" ],
           "treeFoliageList" : [ "pearlfoliage", "nyanifoliage", "apple", "pear", "peach"]
         }, 
-        {
-          "mode" : "floor",
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:ffunCommon",
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
 
-          "type" : "grass",
-          "grasses" : [ "thinstem", "wyrdgrass", "ballflower", "vinegrass", "clawfern", "peppergrass", "mushroom", "root", "bell", "blueslime", "circles", "crisp" , "dandy", "fancy", "glowmushroom", "leafsy", "lillies", "shrooms" , "sprout", "sunflower", "thickgrass", "thickpetals" ]
-        },
+        "type" : "grass",
+        "grasses" : [ "magmaflower", "magmaflower2", "magmaflower3", "magmaflower4", "testflower8", "magmaflower5" ]
+      },
         {
           "mode" : "ceiling",
           "variants" : 1,
@@ -433,7 +434,7 @@
     },
 
     "undergroundPlaceables" : {
-      "grassMod" : [ "deadleaves", "mossgrass2" ],
+      "grassMod" : [ "deadleaves", "mossgrass2", "flowerygrass" ],
       "grassModDensity" : 0.5,
       
       "ceilingGrassMod" : [ "roots" ],

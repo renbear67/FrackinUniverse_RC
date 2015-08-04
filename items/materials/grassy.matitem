@@ -1,0 +1,12 @@
+{
+  "itemName" : "grassy",
+  "rarity" : "Common",
+  "inventoryIcon" : "grassy.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A block of sod.",
+  "shortdescription" : "Sod Block",
+  "glitchdescription" : "Statement. Sod roofing.",
+  "florandescription" : "Sssod roof.",
+
+  "materialId" : 1007
+}

@@ -137,7 +137,8 @@
     "surfacePlaceables" : {
       "grassMod" : [ "fleshgrass2", "tentaclegrass", "fleshgrass" ],
       "grassModDensity" : 0.9,
-
+      "ceilingGrassMod" : [ "veingrowth" ],
+      "ceilingGrassModDensity" : 0.5,
       "items" : [
            {
             "mode" : "floor",
@@ -415,7 +416,8 @@
     "undergroundPlaceables" : {
       "grassMod" : [ "heckgrass" ],
       "grassModDensity" : 0.2,
-
+      "ceilingGrassMod" : [ "veingrowth" ],
+      "ceilingGrassModDensity" : 0.4,
       "items" : [
         {
           "mode" : "floor",

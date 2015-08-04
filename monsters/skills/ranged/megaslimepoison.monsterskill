@@ -1,0 +1,22 @@
+{
+  "name" : "megaSlimePoison",
+  "label" : "DARK PLASMA",
+  "image" : "/monsters/flying/skills/default.png",
+
+  "parameters" : {
+    "megaSlimePoison" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "bioblast1a",
+      "range" : 15,
+      "speed" : 25,
+      "power" : 16,
+      "shots" : 2
+    }
+  },
+
+  "animationParameters" : {
+    "sounds" : {
+      "rangedAttack" : [ ]
+    }
+  }
+}

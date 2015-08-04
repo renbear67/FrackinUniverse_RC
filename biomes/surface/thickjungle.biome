@@ -142,7 +142,7 @@
   },
 
   "surfacePlaceables" : {
-    "grassMod" : [ "thickjunglegrass" ],
+    "grassMod" : [ "thickjunglegrass", "flowerygrass" ],
     "grassModDensity" : 0.9,
     
     "ceilingGrassMod" : [ "undergrowth" ],

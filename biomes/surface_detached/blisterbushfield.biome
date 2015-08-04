@@ -7,7 +7,7 @@
     "ores" : "surfaceOres",
 
   "surfacePlaceables" : {
-    "grassMod" : [ "protograss" ],
+    "grassMod" : [ "protograss", "colourfulgrass" ],
     "grassModDensity" : 0.9,
 
     "items" : [

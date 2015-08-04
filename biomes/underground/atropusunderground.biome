@@ -40,6 +40,8 @@
   "undergroundPlaceables" : {
     "grassMod" : [ "fleshgrass2" ],
     "grassModDensity" : 0.9,
+      "ceilingGrassMod" : [ "veingrowth" ],
+      "ceilingGrassModDensity" : 0.5,
     "items" : [
         {
           "mode" : "floor",

@@ -97,8 +97,8 @@
   ],
   
   
-  "mainBlock" : "irradiatedtile",
-  "subBlocks" : [ "irradiatedtile2", "irradiatedtile3" ],
+  "mainBlock" : "waste",
+  "subBlocks" : [ "irradiatedtile", "irradiatedtile2" ],
   "ores" : "ff_radioactiveOres",
 
   "parallax" : "/parallax/surface/irradiated.parallax",
@@ -122,7 +122,7 @@
   },
 
   "surfacePlaceables" : {
-    "grassMod" : [ "ash" ],
+    "grassMod" : [ "ash", "toxicgrass", "rainbowgrass", "mossgrass2" ],
     "grassModDensity" : 0.9,
       "items" : [
         {
@@ -299,7 +299,7 @@
           "mode" : "floor",
           "priority" : 2.0,
           "variants" : 1,
-          "distribution" : "/biomes/distributions.config:denseLarge",
+          "distribution" : "/biomes/distributions.config:scatteredLarge",
           "type" : "tree",
           "treeStemList" : [ "gloomy", "savannahbleak", "savannahgloomy", "grumpy", "slobby", "spikey", "alienstriped" ],
           "treeFoliageList" : [ "bonky", "burly", "circly", "brains", "bubbles", "frumpy", "lotus", "spikeyfoliage", "lushgreen", "redleaves", "rose",  "alienbigleaf", "aliencircle" ]
@@ -308,7 +308,46 @@
           "mode" : "floor",
           "priority" : 2.0,
           "variants" : 1,
-          "distribution" : "/biomes/distributions.config:scatteredLarge",
+          "distribution" : "/biomes/distributions.config:ffCommon",
+          "type" : "tree",
+          "treeStemList" : [ "bladetree", "toxiccoral" ],
+          "treeFoliageList" : [ "aridblank" ]
+        },
+      {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:ffCommon",
+
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "toxiccreep",
+            "baseHueShiftMax" : 40,
+            "modHueShiftMax" : 180
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:moderateClumps",
+
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "slimebush",
+            "baseHueShiftMax" : 40,
+            "modHueShiftMax" : 180
+          }
+        ]
+      },
+        {
+          "mode" : "floor",
+          "priority" : 2.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:ffunCommon",
 
           "type" : "bush",
           "bushes" : [
