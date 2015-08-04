@@ -973,7 +973,7 @@
  	"value":[[0, {"fill":[{"item":"arkaentree"}, 
  		{"item":"arkaendart"}, {"item":"arkaendart"},
  		{"item":"plantfibre"}],
- 	"pool":[ {"weight":0.5, "item":"arkaentree"},{"weight":0.5, "item":"arkaensart"} ],
+ 	"pool":[ {"weight":0.5, "item":"arkaentree"},{"weight":0.5, "item":"arkaendart"} ],
  	"poolRounds":[[0.5,0],[0.5,1]]}
  		]]
 }, 

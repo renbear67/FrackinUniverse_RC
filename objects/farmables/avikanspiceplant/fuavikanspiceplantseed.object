@@ -26,10 +26,10 @@
   "dremetonDescription" : "These spices, combined with the right ingredients, make for an excellent meal.",
   "hyvonDescription" : "This plant holds nothing of value for Creaton.",
 
-  "inventoryIcon" : "avikanspiceplantseedicon.png",
+  "inventoryIcon" : "fuavikanspiceplantseedicon.png",
   "orientations" : [
     {
-      "dualImage" : "avikanspiceplantseed.png:<color>.<stage>.<alt>",
+      "dualImage" : "fuavikanspiceplantseed.png:<color>.<stage>.<alt>",
       "imagePosition" : [0, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
