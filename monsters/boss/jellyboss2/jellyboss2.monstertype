@@ -65,8 +65,8 @@
     [
       {
         "skillCount" : 7,
-        "baseSkills" : [ "rushAttack", "acidicSpitAttack" ],
-        "specialSkills" : [ "jellyBossExplodeAttack", "snotBubbleAttack", "snotShotAttack", "beamBurstAttack", "explosivePhlegmAttack"]
+        "baseSkills" : [ "rushAttack", "slimeSpitAttack" ],
+        "specialSkills" : [ "jellyBossExplodeAttack", "slimePoisonSpewAttack", "slimeGunAttack", "slimeSprayAttack", "slimeBubbleAttack"]
       }
     ]
   ],

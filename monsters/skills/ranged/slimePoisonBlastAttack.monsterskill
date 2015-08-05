@@ -1,16 +1,16 @@
 {
-  "name" : "megaSlimePoison",
-  "label" : "DARK PLASMA",
+  "name" : "slimePoisonBlastAttack",
+  "label" : "BIO BLAST",
   "image" : "/monsters/flying/skills/default.png",
 
   "parameters" : {
-    "megaSlimePoison" : {
+    "slimePoisonBlastAttack" : {
       "factory" : "createRangedAttack",
-      "projectile" : "bioblast1a",
-      "range" : 15,
+      "projectile" : "bioblast",
+      "range" : 12,
       "speed" : 25,
-      "power" : 16,
-      "shots" : 2
+      "power" : 24,
+      "shots" : 1
     }
   },
 

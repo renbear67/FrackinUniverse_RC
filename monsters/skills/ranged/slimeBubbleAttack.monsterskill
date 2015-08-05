@@ -1,16 +1,16 @@
 {
-  "name" : "megaSlimeAttack1",
+  "name" : "slimeBubbleAttack",
   "label" : "BUBBLE BLAST",
   "image" : "/monsters/flying/skills/default.png",
 
   "parameters" : {
-    "megaSlimeAttack1" : {
+    "slimeBubbleAttack" : {
       "factory" : "createRangedAttack",
       "projectile" : "bubbles2",
       "arc" : "low",
-      "range" : 8,
+      "range" : 15,
       "speed" : 25,
-      "power" : 21,
+      "power" : 11,
       "shots" : 20,
       "fireInterval" : 0.066
     }
@@ -22,3 +22,4 @@
     }
   }
 }
+

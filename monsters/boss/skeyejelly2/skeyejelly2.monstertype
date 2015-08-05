@@ -63,9 +63,9 @@
   "familyParameters" : [
     [
       {
-        "skillCount" : 3,
-        "baseSkills" : [ "rushAttack" ],
-        "specialSkills" : [ "beamBurstAttack", "acidicSpitAttack"]
+        "skillCount" : 4,
+        "baseSkills" : [ "rushAttack", "slimeSpitAttack" ],
+        "specialSkills" : [ "slimeGun2Attack", "slimeBubbleAttack"]
       }
     ]
   ],
@@ -79,8 +79,8 @@
             "collisionPoly" : [ [-1, -5.6], [1, -5.6], [1, 0.5], [-1, 0.5] ],
             "mass" : 0.3,
             "walkSpeed" : 5,
-            "runSpeed" : 13,
-            "jumpSpeed" : 20
+            "runSpeed" : 10,
+            "jumpSpeed" : 14
           },
 
           "metaBoundBox" : [-2.5, -2.5, 2.5, 2.5],
