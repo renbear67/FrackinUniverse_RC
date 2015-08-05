@@ -3204,8 +3204,8 @@
  "path": "/regionTypes/crystalswamp",
  "value" : 
  	{
-       "oceanLiquid" : [ "organicsoup" ],
-       "oceanLevelOffset" : 6, 
+       //"oceanLiquid" : [ "organicsoup" ],
+       //"oceanLevelOffset" : 6, 
        "caveLiquid" : [ "organicsoup" ],
        "caveLiquidChanceRange" : [99, 100],
        "blockSelector" : [ "mixedSurface", "flatsSurface", "lowHillsSurface", "fugradualslopes" ],
