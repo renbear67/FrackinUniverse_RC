@@ -6,7 +6,7 @@
 
   "animation" : "starspawn.animation",
   "colors" : "/monsters/colors.config",
-  "reversed" : true,
+  "reversed" : false,
 
   "dropPools" : [ "noMeatMonsterTreasure" ],
 
