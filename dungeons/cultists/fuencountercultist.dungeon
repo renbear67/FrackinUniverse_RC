@@ -4,7 +4,7 @@
     "species" : "dummy",
     "rules" : [
     ],
-    "anchor" : [ "cultist1", "cultist2" ],
+    "anchor" : [ "cultist1", "cultist2", "cultist3" ],
     "maxRadius" : 2000,
     "maxParts" : 15
   },
@@ -3606,7 +3606,21 @@
           }
         ] ]
     },
-
+		{
+		"value" : [100, 110, 111, 255],
+		"comment" : "starspawn monster",
+		"brush" : [ [ "npc",
+			{
+				"kind" : "monster",
+				"typeName" : "starspawn",
+				"seed" : "stable",
+				"parameters" : {
+				"aggressive" : true,
+				"persistent" : true
+                                }
+			}
+			] ]
+		},
     {
       "value" : [225, 0, 0, 255],
       "comment" : "passive quadruped npc",
@@ -3896,7 +3910,12 @@
       "value" : [24, 222, 242, 255],
       "comment" : "cultistaltar facing right",
       "brush" : [ [ "clear" ], [ "object", "cultistaltar", { "direction" : "right" } ] ]
-    }
+    },
+    {
+      "value" : [105, 235, 185, 255],
+      "comment" : "elder altar",
+      "brush" : [ [ "clear" ], [ "object", "elderaltar", { "direction" : "left", "parameters" : { "treasurePools" : [ "ffelderTreasure" ] } } ] ]
+    },
   ],
 
   "parts" : [
@@ -3911,6 +3930,12 @@
       "name" : "cultist2",
       "rules" : [ ],
       "def" : [ "image", [ "cultist2.png", "cultistobjects2.png" ] ]
+    },
+    
+    {
+      "name" : "cultist3",
+      "rules" : [ ],
+      "def" : [ "image", [ "cultist3.png", "cultistobjects3.png" ] ]
     }
 
   ]

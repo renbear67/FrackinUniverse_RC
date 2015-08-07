@@ -250,7 +250,17 @@
       "value" : [105, 255, 135, 255],
       "comment" : "elder altar",
       "brush" : [ [ "clear" ], [ "object", "elderaltar", { "direction" : "right", "parameters" : { "treasurePools" : [ "ffelderTreasure" ] } } ] ]
-    },    
+    },  
+    {
+      "value" : [105, 250, 136, 255],
+      "comment" : "elder painting2",
+      "brush" : [ [ "clear" ], [ "object", "elderpainting2" ] ]
+    },
+    {
+      "value" : [105, 250, 137, 255],
+      "comment" : "elder painting1",
+      "brush" : [ [ "clear" ], [ "object", "elderpainting1" ] ]
+    },
 //normal tiles
     {
       "value" : [55, 140, 140, 255],
@@ -650,7 +660,22 @@
                                 }
 			}
 			] ]
-		},		
+		},
+		{
+		"value" : [100, 110, 111, 255],
+		"comment" : "starspawn monster",
+		"brush" : [ [ "npc",
+			{
+				"kind" : "monster",
+				"typeName" : "starspawn",
+				"seed" : "stable",
+				"parameters" : {
+				"aggressive" : true,
+				"persistent" : true
+                                }
+			}
+			] ]
+		},
 		{
 		"value" : [200, 100, 210, 255],
 		"comment" : "largefish monster",
