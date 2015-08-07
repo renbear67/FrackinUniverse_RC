@@ -3915,7 +3915,7 @@
       "value" : [105, 235, 185, 255],
       "comment" : "elder altar",
       "brush" : [ [ "clear" ], [ "object", "elderaltar", { "direction" : "left", "parameters" : { "treasurePools" : [ "ffelderTreasure" ] } } ] ]
-    },
+    }
   ],
 
   "parts" : [
