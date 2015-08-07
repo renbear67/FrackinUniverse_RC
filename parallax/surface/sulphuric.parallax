@@ -5,7 +5,7 @@
   "layers" : [
     {
       "kind" : "divider/dirt",
-      "offset" : [0, 100],
+      "offset" : [0, 200],
       "nohueshift" : true,
       "lightMapped" : true,
       "parallax" : 1.199
