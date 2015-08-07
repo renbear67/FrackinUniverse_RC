@@ -21,48 +21,24 @@
 
     {
       "kind" : "sulphurback",
-      "offset" : [0, 400],
-      "baseCount" : 3,
-      "parallax" : 12,
+      "offset" : [0, 370],
+      "baseCount" : 1,
+      "parallax" : 9,
       "nightCorrelation" : 0,
       "minSpeed" : 0,
-      "maxSpeed" : 0,
-      "modifiers" : "?brightness=18?saturation=-12",
-      "fadePercent" : 0.3
+      "maxSpeed" : 0
     },
     {
-      "kind" : "desertback2",
-      "baseCount" : 3,
+      "kind" : "sulphurback2",
+      "baseCount" : 1,
       "offset" : [0, 380],
-      "parallax" : 12,
-      "directives" : "?brightness=18?saturation=-12",
-      "fadePercent" : 0.3
+      "parallax" : 7
     },
     {
-      "kind" : "desertfront2",
-      "offset" : [0, 370],
-      "parallax" : 11,
-      "fadePercent" : 0.3
-    },
-    {
-      "kind" : "desertfront",
-      "baseCount" : 4,
-      "offset" : [0, 117],
-      "parallax" : 8.0,
-      "directives" : "?brightness=5?saturation=-4",
-      "fadePercent" : 0.1
-    },
-    {
-      "kind" : "desertfront3",
-      "offset" : [0, 440],
-      "parallax" : 6.0,
-      "fadePercent" : 0.1
-    },
-    {
-      "kind" : "desertfront2",
+      "kind" : "sulphurmid",
+      "baseCount" : 1,
       "offset" : [0, 470],
-      "parallax" : 4.5,
-      "fadePercent" : 0.09
+      "parallax" : 5.0
     },
     {
       "kind" : "clouds3",
