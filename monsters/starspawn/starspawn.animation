@@ -181,7 +181,7 @@
           "portrait" : {
             "portrait" : {
               "properties" : {
-                "image" : "<partImage>:idle.1"
+                 "image" : "/monsters/starspawn/starspawnicon.png"
               }
             }
           }
