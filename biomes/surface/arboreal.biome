@@ -5,11 +5,11 @@
   "requiredStatuses" : [],
   "spawnProfiles" : [
     {
-      "groups" : [ "easysurface1" ],
+      "groups" : [ "easysurface1", "fu_arboreal" ],
       "extraSpawns" : [ ]
     },
     {
-      "groups" : [ "easysurface2" ],
+      "groups" : [ "easysurface2", "fu_arboreal" ],
       "extraSpawns" : [ ]
     }
   ],

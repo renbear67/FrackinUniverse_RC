@@ -5,12 +5,48 @@
   "requiredStatuses" : [],
   "spawnProfiles" : [
     {
-      "groups" : [ "easysurface1" ],
-      "extraSpawns" : [ ]
+      "groups" : [ "hardsurface2", "fu_tar" ],
+      "extraSpawns" : [ ],
+      "monsterParameters" : {
+        "statusSettings" : {
+          "stats" : {
+            "lavaImmunity" : {
+              "baseValue" : 1.0
+            },
+            "blacktarimmunityImmunity" : {
+              "baseValue" : 1.0
+            },
+            "fireImmunity" : {
+              "baseValue" : 1.0
+            },
+            "ffextremeheatImmunity" : {
+              "baseValue" : 1.0
+            }
+          }
+        }
+      }
     },
     {
-      "groups" : [ "easysurface2" ],
-      "extraSpawns" : [ ]
+      "groups" : [ "hardsurface1", "fu_tar" ],
+      "extraSpawns" : [ ],
+      "monsterParameters" : {
+        "statusSettings" : {
+          "stats" : {
+            "lavaImmunity" : {
+              "baseValue" : 1.0
+            },
+            "blacktarimmunityImmunity" : {
+              "baseValue" : 1.0
+            },
+            "fireImmunity" : {
+              "baseValue" : 1.0
+            },
+            "ffextremeheatImmunity" : {
+              "baseValue" : 1.0
+            }
+          }
+        }
+      }
     }
   ],
 

@@ -7,9 +7,9 @@
     "starspawnShockAttack" : {
       "factory" : "createRangedAttack",
       "projectile" : "fftesla",
-      "range" : 11,
+      "range" : 12,
       "speed" : 25,
-      "power" : 26,
+      "power" : 16,
       "shots" : 1,
       "windupTime" : 0.05,
       "winddownTime" : 0.2

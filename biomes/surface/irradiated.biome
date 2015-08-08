@@ -4,12 +4,21 @@
   "statusEffects" : [ "ffextremeradiation"  ],
   "spawnProfiles" : [
     {
-      "groups" : [ "mediumsurface1" ],
+      "groups" : [ "hardsurface2", "fu_irradiated" ],
       "extraSpawns" : [ ],
       "monsterParameters" : {
         "statusSettings" : {
           "stats" : {
+            "biooozeImmunity" : {
+              "baseValue" : 1.0
+            },
+            "poisonImmunity" : {
+              "baseValue" : 1.0
+            },
             "ffextremeradiationImmunity" : {
+              "baseValue" : 1.0
+            },            
+            "biomeradiationImmunity" : {
               "baseValue" : 1.0
             }
           }
@@ -17,12 +26,21 @@
       }
     },
     {
-      "groups" : [ "mediumsurface2" ],
+      "groups" : [ "hardsurface1", "fu_irradiated" ],
       "extraSpawns" : [ ],
       "monsterParameters" : {
         "statusSettings" : {
           "stats" : {
+            "biooozeImmunity" : {
+              "baseValue" : 1.0
+            },
+            "poisonImmunity" : {
+              "baseValue" : 1.0
+            },
             "ffextremeradiationImmunity" : {
+              "baseValue" : 1.0
+            },            
+            "biomeradiationImmunity" : {
               "baseValue" : 1.0
             }
           }

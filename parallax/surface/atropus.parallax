@@ -25,19 +25,17 @@
       "nightCorrelation" : 0,
       "minSpeed" : 0,
       "maxSpeed" : 0,
-      "modifiers" : "",
-      "fadePercent" : 0.3
+      "modifiers" : ""
     },
     {
       "kind" : "atropusfront",
-      "baseCount" : 2,
+      "baseCount" : 1,
       "offset" : [0, 270],
       "parallax" : 8,
       "nightCorrelation" : 0,
       "minSpeed" : 0,
       "maxSpeed" : 0,
-      "modifiers" : "",
-      "fadePercent" : 0.3
+      "modifiers" : ""
     },
     {
       "kind" : "clouds3",

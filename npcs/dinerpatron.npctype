@@ -1,0 +1,630 @@
+{
+  "type" : "dinerpatron",
+  
+  "damageTeam" : 1,
+  "levelVariance" : [0, 0],
+
+  "disableWornArmor" : true,
+  "innateStatusEffects" : [
+
+  ],
+
+  "scripts" : [
+    "/npcs/main.lua",
+    "/npcs/timers.lua",
+    "/scripts/sensors.lua",
+    "/scripts/stateMachine.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua",
+    "/scripts/pathing.lua",
+    "/npcs/chatState.lua",
+    "/npcs/converseState.lua",
+    "/npcs/fleeState.lua",
+    "/npcs/sitState.lua",
+    "/npcs/sleepState.lua",
+    "/npcs/standingIdleState.lua",
+    "/npcs/wanderState.lua"
+  ],
+  "initialScriptDelta" : 5,
+  "scriptConfig" : {
+    "doorHitPoly" : [ [2, -1], [2, 1], [0, 1], [0, -1] ],
+    "idleTimeRange" : [2.0, 10.0],
+    "gapSensor" : [ [2.0, -4.5] ],
+    "gapFarSideSensors" : [ [3.0, -4.5], [4.0, -4.5], [5.0, -4.5], [6.0, -4.5], [7.0, -4.5], [8.0, -4.5] ],
+    "gapJumpHoldTime" : 0.4,
+    //testing only
+    "trading" : {
+      "config" : "/interface/windowconfig/shop.config",
+      "filter" : [ ],
+      "titleFromEntity" : true,
+      "requiresBlueprint" : false,
+      "recipes" : [
+        {
+          "input" : [ { "name" : "money", "count" : 10 } ],
+          "output" : { "name" : "fullwood1" }
+        }
+      ]
+    },
+
+"converse" : {
+      "waitTime" : 0.5,
+      "dialog" : {
+        "default" : [ "NOM NOM NOM, OM NOM." ],
+        "apex" : {
+          "default" : [
+            "Hrrmph! I take a day off from the Ministry to try some authentic fine dining, and I get accosted by strange creatures from space!"
+          ],
+          "human" : [
+            "Ah, a hairless ape. We've heard talk about you back at the Ministry.",
+            "This, of course, is nothing compared to the fare Big Ape provides."
+          ],
+          "apex" : [
+            "A messenger? Tell those monkeys back at the Ministry that I will not have my vacation interrupted.",
+            "You stink, runner. deliver your message once you've washed up. You have a class-C authorisation from me to do so."
+          ],
+          "avian" : [
+            "Are you familiar with Thornwing, Avian?",
+            "Ah, I have a feathered cloak that looks just like you. Special gift from Big Ape."
+          ],
+          "floran" : [
+            "I say, are you part of the restaurant decoration?",
+            "How quaint. Are you an envoy from Greenfinger?"
+          ],
+          "glitch" : [
+            "I would love to get my hands on a glitch ship for study.",
+            "You look like the specimen we're disassembling - never mind."
+          ],
+          "hylotl" : [
+            "You aren't part of the menu, are you?",
+            "I'm sorry, I'm too stressed to talk. Things are crazy down at the Ministry."
+          ],
+		  "novakid" : [
+            "Do you even need to eat? Our scientists back at the Ministry would love to find out.",
+            "How do you ingest your food?"
+          ],
+          "kineptic" : [
+            "Go away, you living furry black hole! Big Ape will have your fur if you steal any of my food!",
+            "You'd make a good fur coat, cat."
+          ]
+        },
+        "hylotl" : {
+          "default" : [
+            "This place is passable, I suppose."
+          ],
+          "human" : [
+            "Happily, the dishes here contain no fish.",
+            "This is a decent place for fine dining."
+          ],
+          "apex" : [
+            "No, ape, they do not have banana dishes here.",
+            "Please don't interrupt my dinner."
+          ],
+          "avian" : [
+            "I will commend you on your people's passable architectural style.",
+            "The dishes of your people are a little bland, but rather filling."
+          ],
+          "floran" : [
+            "You do know this diner serves plenty of vegetables?",
+            "There's a kitchen here! Kitchen! Fire! Scary!"
+          ],
+          "glitch" : [
+            "I know you are made to emulate biological systems, but still...",
+            "Another patron this far out? I got here to get away!"
+          ],
+          "hylotl" : [
+            "Between you and me, the food here is terrible.",
+            "Needs more rice."
+          ],
+		  "novakid" : [
+            "Just roving around the edges of the galaxy, eh?",
+            "This is no saloon, and I'm not your 'pardner'."
+          ],
+          "kineptic" : [
+            "Please don't hack up any hairballs into my food.",
+            "You're shedding into my food. I must protest!"
+          ]
+        },
+        "avian" : {
+          "default" : [
+            "Mmm..."
+          ],
+          "human" : [
+            "Traditional Avian dishes are good for everyone's digestion.",
+            "Try the pearlpeas here, they're not so bad when boiled soft."
+          ],
+          "apex" : [
+            "Sorry. No bananas here. That's kind of the point.",
+            "Are there apex diners out there you go to when you miss your kin? I heard something about banana joints."
+          ],
+          "avian" : [
+            "I come here when I miss Avos.",
+            "The dishes served here are familiar and comforting."
+          ],
+          "floran" : [
+            "Hrrrmph. Your pollen is making me all itchy and ruining my meal.",
+            "I don't remember passing by this plant on the way in."
+          ],
+          "glitch" : [
+            "This diner combines the best of traditional avian architecture with the beauty of other races to produce a pleasant aesthetic.",
+            "We can probably find an automato around, if need be."
+          ],
+          "hylotl" : [
+            "Are you sure you don't belong in the pond outside?",
+            "Look, there's a pond outside. I think that would better suit you."
+          ],
+		  "novakid" : [
+            "I don't think this establishment serves alcohol. You could ask the chef, though.",
+            "I go out to dine under the stars, and meet a star. Well!"
+          ],
+          "kineptic" : [
+            "This is my food, go order your own.",
+            "Our dishes combine many flavours instead of just dumping sugar on everything and calling it a day."
+          ]
+        },
+        "human" : {
+          "default" : [
+            "I wish I could hobnob like this back at home."
+          ],
+          "human" : [
+            "This is supposed to be high-class food, but I could really go for a bacon right now.",
+            "This dish needs more salt."
+          ],
+          "apex" : [
+            "I'm hobnobbing it up in space. Do your kind hobnob?",
+            "You know what would make this perfect? A dancer in a monkey suit."
+          ],
+          "avian" : [
+            "Pay no attention, I did not order chicken.",
+            "So...don't look too closely at my scrambled eggs."
+          ],
+          "floran" : [
+            "Don't worry, I don't think anyone is going to mistake you for leafy greens.",
+            "You look very nice with the backdrop here."
+          ],
+          "glitch" : [
+            "I don't think they serve your kind of food here...",
+            "I like my food moist and delicious. I bet you like yours all stiff and hard."
+          ],
+          "hylotl" : [
+            "Mmm...fish and chips...",
+            "You are ruining my meal with your stench."
+          ],
+		  "novakid" : [
+            "Hopefully they have steaks here."
+          ],
+          "kineptic" : [
+            "You eat just like my old cat on Earth did."
+          ]
+        },
+        "floran" : {
+          "default" : [
+            "Floran comes far to eat deliciousss meats."
+          ],
+          "human" : [
+            "Human likess meats too?"
+          ],
+          "apex" : [
+            "Floran is ssad place does not have food for monkeyss."
+          ],
+          "avian" : [
+            "Meatss prepared by bird-man iss deliciousss!"
+          ],
+          "floran" : [
+            "Floran must recommend mystery meatss here. Is very exquisssite."
+          ],
+          "glitch" : [
+            "Glitchy turn up, make Floran day.",
+            "Floran pledge Glitchy its ssstabbies."
+          ],
+          "hylotl" : [
+            "Maybe bird-man put fishy on menu, make Floran happy."
+          ],
+		  "novakid" : [
+            "Would greet star proper way, but Floran cannot ssay wordss properly."
+          ],
+          "kineptic" : [
+            "Floran thinks cat is good accompaniment to meal, do magic tricksss for dinner entertainmentss."
+          ]
+        },
+        
+        "glitch" : {
+          "default" : [
+            "Snobbery. This place is quaint and reserved."
+          ],
+          "human" : [
+            "Confused. I found a fly in my soup, but I'm not sure if it's an entree or a pest."
+          ],
+          "apex" : [
+            "Concerned. Do sit down and order something. The food here is good."
+          ],
+          "avian" : [
+            "Admiration. The food served by your people is delicious, if a little mushy."
+          ],
+          "floran" : [
+            "Friendly. Other plantmen recommend this establishment for its delicious meats."
+          ],
+          "glitch" : [
+            "Hobnobbing. You must be a noble to be able to afford dining here."
+          ],
+          "hylotl" : [
+            "Snide. This is a high-class establishment. What are you doing here?."
+          ],
+		  "novakid" : [
+            "Welcoming. Sit with me and chat of the stars, starman."
+          ],
+          "kineptic" : [
+            "Anger. Even during my retreat, I am hounded by sorcerers! Away!"
+          ]
+        },
+        "novakid" : {
+          "default" : [
+            "Howdy. Mosey on over and sit yourself down."
+          ],
+          "human" : [
+            "Y' look like you could do with some whiskey."
+          ],
+          "apex" : [
+            "I ain't heard of no moonshine made from bananas, but it does sound interestin'."
+          ],
+          "avian" : [
+            "The vittles here are tastin' mighty fine, thank ye kindly f'r askin'."
+          ],
+          "floran" : [
+            "Don't need to be afraid of me none, friend. Ah won't burn you."
+          ],
+          "glitch" : [
+            "We're just two lonely souls in a world of flesh an' blood...meeting here in this here diner."
+          ],
+          "hylotl" : [
+            "Y' ain't some kind of outlaw, are you? Yer looking down right suspicious to me."
+          ],
+		  "novakid" : [
+            "Y'know, this place is mighty fine, but it could use some grits."
+          ],
+          "kineptic" : [
+            "Here, kitty kitty kitty."
+          ]
+        }
+      }
+    },
+
+    "flee" : {
+      "reactionTimeRange" : [0.2, 1.0],
+      "safeDistance" : 100,
+      "safeDistanceWithGuards" : 40,
+      "safeTimer" : 10,
+      "stuckTime" : 4,
+      "stuckCooldown" : 10,
+      "dialogTimeRange" : [4, 10],
+
+      "dialog" : {
+        "helpme" : {
+          "default" : [
+            "Guards! Help me!",
+            "Help! Guards! Help!",
+            "Guards! I've been accosted!"
+          ],
+          "glitch" : [
+            "Fear. Guards! Help me!",
+            "Intimidated. Please don't hurt me!",
+            "Abused. Guards! I've been accosted!",
+            "Afraid. Get away from me! Guards!",
+            "Terrified. Save me!",
+            "Shocked. No! Get away from me!"
+          ],
+          "floran" : [
+            "Ssstabby time for me!",
+            "Floran being hurted!",
+            "Floran not ready for hunt!",
+            "Greenguard help Floran!"
+          ]
+        },
+        "helpthem" : {
+          "default" : [
+            "What have you done!?"
+          ],
+          "glitch" : [
+            "Fear. Guards!",
+            "Intimidated. Please don't hurt me!",
+            "Afraid. Leave me be! Guards!",
+            "Terrified. Save me!",
+            "Shocked. What have you done?!",
+            "Righteous. I will write an electronic letter in protest!"
+          ],
+          "floran" : [
+            "Ssstabby time for me!",
+            "Floran being hurted!",
+            "Floran not ready for hunt!",
+            "Greenguard help Floran!"
+          ]
+        },
+        "encourage" : {
+          "default" : [
+            "Get 'em!",
+            "Avenge me!",
+            "Stick 'em once for me!",
+            "Don't let 'em get away!"
+          ],
+          "glitch" : [
+            "Encourage. Put 'em to the sword!",
+            "Excitement. Avenge me!",
+            "Aggressive. Strike him down!",
+            "Vengeful. Don't let 'em get away!"
+          ],
+          "floran" : [
+            "Ssstabb the intruders!",
+            "Floran get revenge now!",
+            "Ssslice them!",
+            "Greenguard destroy it!"
+          ]
+        },
+        "safe" : {
+          "default" : [
+            "Phew, I think I got away.",
+            "I've escaped with my life!",
+            "Is this the safe zone?"
+          ],
+          "glitch" : [
+            "Relieved. Phew, I think I got away.",
+            "Thankful. I've escaped with my life!",
+            "Wishful. If only I could afford a keep.",
+            "Hopeful. Am I safe?",
+            "Embarrassed. I think I leaked a little oil."
+          ],
+          "floran" : [
+            "Floran sssafe now.",
+            "Floran not get ssstabbed after all.",
+            "Them lucky Floran not have weapon.",
+            "Sssalvation!"
+          ]
+        }
+      }
+    },
+
+    "sit" : {
+      "timeOfDayRanges" : [ [0.6, 1.0], [0.0, 0.2] ],
+      "moveTimeLimit" : 30,
+      "searchRadius" : 25,
+      "sitRadius" : 3,
+      "cooldown" : 60,
+      "timeRange" : [15, 240]
+    },
+
+    "sleep" : {
+      "searchRadius" : 15,
+      "lieDownRadius" : 3,
+      "moveToBedTimeLimit" : 10.0,
+      "timeOfDayRanges" : [ [ [0.7, 0.75], [0.95, 1.0] ] ],
+      "cooldown" : 30
+    },
+
+    "wander" : {
+      "timeRange" : [1.0, 2.0],
+      "chatDistance" : 4,
+      "indoorTimeOfDayRanges" : [ [0.0, 1.0], [0.0, 1.0] ],
+      "indoorSearchRadius" : 60,
+      "indoorLookaheadDistance" : 4,
+      "moveToTargetTime" : 10.0,
+      "changeDirectionCooldown" : 2,
+      "dropDownChance" : 5,
+      "cooldown" : 10
+    },
+
+    "work" : {
+      "timeOfDayRanges" : [ [0.2, 0.6] ],
+      "tools" : [ [ "hoe", 0.5, 2.0] ],
+      "toolRange" : 3.0,
+      "searchDistance" : 10.0,
+      "timeRange" : [4.0, 6.0],
+      "cooldown" : 10.0
+    },
+
+    "chat" : {
+      "distanceRange" : [2.0, 4.0],
+      "conversations" : [
+        [
+          [2, "blabbering", "idle" ],
+          [1, "idle", "laugh" ],
+          [2, "idle", "blabbering" ],
+          [1, "sad", "idle" ]
+        ],
+        [
+          [2, "idle", "blabbering" ],
+          [2, "blabbering", "happy" ],
+          [1, "wink", "laugh" ],
+          [2, "happy", "happy" ]
+        ],
+        [
+          [2, "idle", "blabbering" ],
+          [2, "blabbering", "blabbering" ],
+          [2, "blabbering", "annoyed" ],
+          [3, "shouting", "shouting" ],
+          [2, "annoyed", "annoyed" ]
+        ]
+      ],
+      "cooldown" : 10
+    }
+  },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "head" : [ { "name" : "tophathead" } ],
+            "chest" : [ { "name" : "moneybagschest" } ],
+            "legs" : [ { "name" : "moneybagspants" } ]
+          }
+        ] ]
+	],
+	
+	 "avian" : [
+      [0, [
+          {
+            "head" : [ { "name" : "tophathead" } ],
+            "chest" : [ { "name" : "moneybagschest" } ],
+            "legs" : [ { "name" : "moneybagspants" } ]
+          }
+        ] ]
+    ],
+	
+	 "human" : [
+      [0, [
+          {
+            "head" : [ { "name" : "tophathead" } ],
+            "chest" : [ { "name" : "moneybagschest" } ],
+            "legs" : [ { "name" : "moneybagspants" } ]
+          }
+        ] ]
+    ],
+	
+	 "hylotl" : [
+      [0, [
+          {
+            "head" : [ { "name" : "tophathead" } ],
+            "chest" : [ { "name" : "moneybagschest" } ],
+            "legs" : [ { "name" : "moneybagspants" } ]
+          }
+        ] ]
+    ],
+	
+	 "floran" : [
+      [0, [
+          {
+            "head" : [ { "name" : "tophathead" } ],
+            "chest" : [ { "name" : "moneybagschest" } ],
+            "legs" : [ { "name" : "moneybagspants" } ]
+          }
+        ] ]
+    ],
+	
+	 "glitch" : [
+      [0, [
+          {
+            "head" : [ { "name" : "tophathead" } ],
+            "chest" : [ { "name" : "moneybagschest" } ],
+            "legs" : [ { "name" : "moneybagspants" } ]
+          }
+        ] ]
+    ],
+	
+	 "novakid" : [
+      [0, [
+          {
+            "head" : [ { "name" : "cowboyhead" } ],
+            "chest" : [ { "name" : "moneybagschest" } ],
+            "legs" : [ { "name" : "moneybagspants" } ]
+          }
+        ] ]
+    ]
+		
+  },
+
+  "movementControllerSettings" : {
+    "standingPoly" : [ [-0.75, -2.0], [-0.35, -2.5], [0.35, -2.5], [0.75, -2.0], [0.75, 0.65], [0.35, 1.22], [-0.35, 1.22], [-0.75, 0.65] ],
+    "crouchingPoly" : [ [-0.75, -2.0], [-0.35, -2.5], [0.35, -2.5], [0.75, -2.0], [0.75, -0.5], [0.35, 0], [-0.35, 0], [-0.75, -0.5] ],
+
+    "mass" : 0.6,
+    "jumpSpeed" : 24.0
+  },
+
+  "humanoidTiming" : {
+    // Idle, Walk, Run, Jump, Fall, Swim, SwimIdle, Duck, Sit, Lay
+    "stateCycle" : [1.0, 0.75, 0.75, 0.25, 0.25, 0.50, 0.50, 1.0, 1.0, 1.0],
+    "stateFrames" : [1, 8, 8, 4, 4, 7, 2, 1, 1, 1],
+
+    // EmoteIdle, Blabbering, Shouting, Happy, Sad, NEUTRAL, Laugh, Annoyed, Oh, OOOH, Blink, Wink, Eat, Sleep
+    //          , normal    , caps    , :)   , :'(, :|     , :D   ,        , :o, :O  ,      , ;)
+    "emoteCycle" : [1.0, 0.3, 0.3, 0.3, 1.0, 0.3, 0.5, 1.0, 1.0, 1.0, 1.0, 0.5, 0.3, 1],
+    "emoteFrames" : [1, 2, 2, 2, 5, 2, 2, 2, 2, 3, 3, 5, 2, 2]
+  },
+  
+  "dropPools" : [ "villagertreasure" ],
+
+  "statusControllerSettings" : {
+    "statusProperties" : {
+      "targetMaterialKind" : "organic"
+    },
+
+    "persistentEffectCategories" : [
+      "innate",
+      "armor",
+      "tools",
+      "lounging"
+    ],
+	
+    "appliesEnvironmentStatusEffects" : false,
+    "minimumLiquidStatusEffectPercentage" : 0.1,
+
+    "primaryScriptSources" : [
+      "/stats/npc_primary.lua"
+    ],
+    "primaryScriptDelta" : 5,
+
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 40.0
+      },
+      "maxEnergy" : {
+        "baseValue" : 40.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 1.0
+      },
+      "protection" : {
+        "baseValue" : 0.0
+      },
+      "healthRegen" : {
+        "baseValue" : 0.0
+      },
+      "energyRegen" : {
+        "baseValue" : 5.0
+      },
+      "shieldSuppressed" : {
+        "baseValue" : 0.0
+      },
+      "invulnerable" : {
+        "baseValue" : 0.0
+      }
+    },
+
+    "resources" : {
+      "health" : {
+        "maxStat" : "maxHealth",
+        "deltaStat" : "healthRegen",
+        "defaultPercentage" : 100
+      },
+      "energy" : {
+        "maxStat" : "maxEnergy",
+        "deltaStat" : "energyRegen",
+        "defaultPercentage" : 100
+      }
+    }
+  },
+  
+  "persistent" : true,
+
+  "splashConfig" : {
+    "splashSpeedMin" : 10.0,
+    "splashMinWaterLevel" : 0.4,
+    "splashBottomSensor" : [0, -2.0],
+    "splashTopSensor" : [0, 2.0],
+    "numSplashParticles" : 8,
+    "splashYVelocityFactor" : 0.2,
+
+    "splashParticle" : {
+      "type" : "ember",
+      "position" : [0, -1],
+      "finalVelocity" : [0, -20],
+      "approach" : [0, 50],
+      "color" : [60, 150, 224, 100],
+      "size" : 4.0,
+      "timeToLive" : 0.5,
+      "destructionAction" : "shrink",
+      "destructionTime" : 0.2
+    },
+
+    "splashParticleVariance" : {
+      "velocity" : [10, 0]
+    }
+  }
+}

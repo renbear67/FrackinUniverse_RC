@@ -8,8 +8,6 @@
   "colors" : "/monsters/colors.config",
   "reversed" : false,
 
-  "dropPools" : [ "noMeatMonsterTreasure" ],
-
   "baseParameters" : {
     "scripts" : [
       "/monsters/ground/groundMonster.lua",
@@ -25,8 +23,8 @@
       "/monsters/ground/skills/createGroundRangedAttack.lua"
     ],
 
-    "baseSkills" : [ "starspawnSpitAttack", "starspawnPortalAttack", "starspawnSwarmAttack"],
-    "specialSkills" : [ "starspawnShockAttack" ],
+    "baseSkills" : [ "starspawnSpitAttack" ],
+    "specialSkills" : [ "blinkAttack", "starspawnShockAttack", "starspawnSwarmAttack", "starspawnPortalAttack" ],
 
     "projectileSourcePosition" : [1.875, 1],
 

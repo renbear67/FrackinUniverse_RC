@@ -1,0 +1,351 @@
+{
+  "type" : "avianfirebringer",
+  "baseType" : "merchant",
+
+  "disableWornArmor" : true,
+  "innateStatusEffects" : [
+
+  ],
+
+  "damageTeam" : 1,
+
+  "levelVariance" : [0, 1],
+
+  "scripts" : [
+    "/npcs/main.lua",
+    "/npcs/timers.lua",
+    "/scripts/sensors.lua",
+    "/scripts/stateMachine.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua",
+    "/scripts/pathing.lua",
+    "/npcs/chatState.lua",
+    "/npcs/converseState.lua",
+    "/npcs/fleeState.lua",
+    "/npcs/sitState.lua",
+    "/npcs/sleepState.lua",
+    "/npcs/standingIdleState.lua",
+    "/npcs/wanderState.lua"
+  ],
+
+  "scriptConfig" : {
+
+    "noticePlayersRadius" : 30.0,
+
+    "merchant" : {
+      "waitTime" : 10,
+      "storeRadius" : 8,
+
+      "dialog" : {
+        "start" : {
+          "default" : [
+			"You should not be seeing this. My species should only be avian."
+          ],
+          "avian" : {
+            "default" : [
+				"Let me show you how to master the art of flame.",
+				"Don't play with fire unless you know what you're doing."
+            ]
+          }
+        },
+        "end" : {
+          "default" : [
+            "You should not be seeing this. My species should only be avian."
+          ],
+          "avian" : {
+            "default" : [
+				"Fire is a good servant, but a cruel master.",
+				"Use this power responsibly.",
+				"Burn them all, little one. Burn them all.",
+				"The glory of the sun - in the palm of your hand."
+            ]
+          }
+        }
+      },
+
+      "categories" : [ "avianfirebringer" ],
+      "priceVarianceRange" : [0.75, 1.25],
+      "numItems" : 12,
+	  
+	  "items" : {
+	  	"avianfirebringer" : [
+         
+		 [0, [
+			{ "item" : { "name" : "firework" }, "cost" : 100, "rarity" : 1.0 },
+			{ "item" : { "name" : "fireworkblue" }, "cost" : 100, "rarity" : 1.0 },
+			{ "item" : { "name" : "fireworkgreen" }, "cost" : 100, "rarity" : 1.0 },
+            { "item" : { "name" : "generatedgun", "parameters" : { "definition" : "flamethrower" } }, "cost" : 750 }, 
+            { "item" : { "name" : "generatedgun", "parameters" : { "definition" : "flamethrower" } }, "cost" : 1000 }, 
+            { "item" : { "name" : "generatedsword", "parameters" : { "definition" : "firesword" } }, "cost" : 750 },
+            { "item" : { "name" : "generatedsword", "parameters" : { "definition" : "firesword" } }, "cost" : 1000 },			
+			{ "item" : { "name" : "flare" }, "cost" : 100, "rarity" : 1.0 },
+			{ "item" : { "name" : "bomb" }, "cost" : 200, "rarity" : 1.0 },
+			{ "item" : { "name" : "molotov" }, "cost" : 400, "rarity" : 1.0 },
+			{ "item" : { "name" : "firebow" }, "cost" : 10000, "rarity" : 1.0 },
+			{ "item" : { "name" : "phoenixemblem" }, "cost" : 1000, "rarity" : 1.0 }
+
+			]],
+			
+		 [1, [
+			{ "item" : { "name" : "torch" }, "cost" : 20, "rarity" : 1.0 },
+			{ "item" : { "name" : "firework" }, "cost" : 100, "rarity" : 1.0 },
+			{ "item" : { "name" : "fireworkblue" }, "cost" : 100, "rarity" : 1.0 },
+			{ "item" : { "name" : "fireworkgreen" }, "cost" : 100, "rarity" : 1.0 },
+            { "item" : { "name" : "generatedgun", "parameters" : { "definition" : "flamethrower" } }, "cost" : 2050 }, 
+            { "item" : { "name" : "generatedgun", "parameters" : { "definition" : "flamethrower" } }, "cost" : 2051 }, 
+            { "item" : { "name" : "generatedsword", "parameters" : { "definition" : "firesword" } }, "cost" : 2050 },
+            { "item" : { "name" : "generatedsword", "parameters" : { "definition" : "firesword" } }, "cost" : 2051 },			
+			{ "item" : { "name" : "flare" }, "cost" : 100, "rarity" : 1.0 }
+
+			]],
+			
+		 [2, [
+			{ "item" : { "name" : "torch" }, "cost" : 20, "rarity" : 1.0 },
+			{ "item" : { "name" : "firework" }, "cost" : 100, "rarity" : 1.0 },
+			{ "item" : { "name" : "fireworkblue" }, "cost" : 100, "rarity" : 1.0 },
+			{ "item" : { "name" : "fireworkgreen" }, "cost" : 100, "rarity" : 1.0 },
+            { "item" : { "name" : "generatedgun", "parameters" : { "definition" : "flamethrower" } }, "cost" : 2050 }, 
+            { "item" : { "name" : "generatedgun", "parameters" : { "definition" : "flamethrower" } }, "cost" : 2050 }, 
+            { "item" : { "name" : "generatedsword", "parameters" : { "definition" : "firesword" } }, "cost" : 2050 },
+            { "item" : { "name" : "generatedsword", "parameters" : { "definition" : "firesword" } }, "cost" : 2050 },			
+			{ "item" : { "name" : "flare" }, "cost" : 100, "rarity" : 1.0 },
+			{ "item" : { "name" : "bomb" }, "cost" : 200, "rarity" : 1.0 }
+
+			]],
+			
+		 [3, [
+			{ "item" : { "name" : "torch" }, "cost" : 20, "rarity" : 1.0 },
+			{ "item" : { "name" : "firework" }, "cost" : 100, "rarity" : 1.0 },
+			{ "item" : { "name" : "fireworkblue" }, "cost" : 100, "rarity" : 1.0 },
+			{ "item" : { "name" : "fireworkgreen" }, "cost" : 100, "rarity" : 1.0 },
+            { "item" : { "name" : "generatedgun", "parameters" : { "definition" : "flamethrower" } }, "cost" : 2050 }, 
+            { "item" : { "name" : "generatedgun", "parameters" : { "definition" : "flamethrower" } }, "cost" : 2050 }, 
+            { "item" : { "name" : "generatedsword", "parameters" : { "definition" : "firesword" } }, "cost" : 2050 },
+            { "item" : { "name" : "generatedsword", "parameters" : { "definition" : "firesword" } }, "cost" : 2050 },		
+			{ "item" : { "name" : "flare" }, "cost" : 100, "rarity" : 1.0 },
+			{ "item" : { "name" : "bomb" }, "cost" : 200, "rarity" : 1.0 },
+			{ "item" : { "name" : "molotov" }, "cost" : 400, "rarity" : 1.0 },
+			{ "item" : { "name" : "firebow" }, "cost" : 10000, "rarity" : 1.0 }
+
+			]],
+			
+		 [4, [
+			{ "item" : { "name" : "torch" }, "cost" : 20, "rarity" : 1.0 },
+			{ "item" : { "name" : "firework" }, "cost" : 100, "rarity" : 1.0 },
+			{ "item" : { "name" : "fireworkblue" }, "cost" : 100, "rarity" : 1.0 },
+			{ "item" : { "name" : "fireworkgreen" }, "cost" : 100, "rarity" : 1.0 },
+            { "item" : { "name" : "generatedgun", "parameters" : { "definition" : "flamethrower" } }, "cost" : 2050 }, 
+            { "item" : { "name" : "generatedgun", "parameters" : { "definition" : "flamethrower" } }, "cost" : 2050 }, 
+            { "item" : { "name" : "generatedsword", "parameters" : { "definition" : "firesword" } }, "cost" : 2050 },
+            { "item" : { "name" : "generatedsword", "parameters" : { "definition" : "firesword" } }, "cost" : 2050 },			
+			{ "item" : { "name" : "flare" }, "cost" : 100, "rarity" : 1.0 },
+			{ "item" : { "name" : "bomb" }, "cost" : 200, "rarity" : 1.0 },
+			{ "item" : { "name" : "molotov" }, "cost" : 400, "rarity" : 1.0 },
+			{ "item" : { "name" : "firebow" }, "cost" : 10000, "rarity" : 1.0 }
+
+			]],
+			
+		 [5, [
+			{ "item" : { "name" : "torch" }, "cost" : 20, "rarity" : 1.0 },
+			{ "item" : { "name" : "firework" }, "cost" : 100, "rarity" : 1.0 },
+			{ "item" : { "name" : "fireworkblue" }, "cost" : 100, "rarity" : 1.0 },
+			{ "item" : { "name" : "fireworkgreen" }, "cost" : 100, "rarity" : 1.0 },
+            { "item" : { "name" : "generatedgun", "parameters" : { "definition" : "flamethrower" } }, "cost" : 2050 }, 
+            { "item" : { "name" : "generatedgun", "parameters" : { "definition" : "flamethrower" } }, "cost" : 2050 }, 
+            { "item" : { "name" : "generatedsword", "parameters" : { "definition" : "firesword" } }, "cost" : 2050 },
+            { "item" : { "name" : "generatedsword", "parameters" : { "definition" : "firesword" } }, "cost" : 2050 },		
+			{ "item" : { "name" : "flare" }, "cost" : 100, "rarity" : 1.0 },
+			{ "item" : { "name" : "bomb" }, "cost" : 200, "rarity" : 1.0 },
+			{ "item" : { "name" : "molotov" }, "cost" : 400, "rarity" : 1.0 },
+			{ "item" : { "name" : "firebow" }, "cost" : 10000, "rarity" : 1.0 }
+
+			]],
+			
+		 [6, [
+			{ "item" : { "name" : "torch" }, "cost" : 20, "rarity" : 1.0 },
+			{ "item" : { "name" : "firework" }, "cost" : 100, "rarity" : 1.0 },
+			{ "item" : { "name" : "fireworkblue" }, "cost" : 100, "rarity" : 1.0 },
+			{ "item" : { "name" : "fireworkgreen" }, "cost" : 100, "rarity" : 1.0 },
+            { "item" : { "name" : "generatedgun", "parameters" : { "definition" : "flamethrower" } }, "cost" : 2050 }, 
+            { "item" : { "name" : "generatedgun", "parameters" : { "definition" : "flamethrower" } }, "cost" : 2050 }, 
+            { "item" : { "name" : "generatedsword", "parameters" : { "definition" : "firesword" } }, "cost" : 2050 },
+            { "item" : { "name" : "generatedsword", "parameters" : { "definition" : "firesword" } }, "cost" : 2050 },		
+			{ "item" : { "name" : "flare" }, "cost" : 100, "rarity" : 1.0 },
+			{ "item" : { "name" : "bomb" }, "cost" : 200, "rarity" : 1.0 },
+			{ "item" : { "name" : "molotov" }, "cost" : 400, "rarity" : 1.0 },
+			{ "item" : { "name" : "firebow" }, "cost" : 10000, "rarity" : 1.0 },
+			{ "item" : { "name" : "phoenixemblem" }, "cost" : 1000, "rarity" : 1.0 }
+
+			]],
+			
+		 [7, [
+			{ "item" : { "name" : "torch" }, "cost" : 20, "rarity" : 1.0 },
+			{ "item" : { "name" : "firework" }, "cost" : 100, "rarity" : 1.0 },
+			{ "item" : { "name" : "fireworkblue" }, "cost" : 100, "rarity" : 1.0 },
+            { "item" : { "name" : "generatedgun", "parameters" : { "definition" : "flamethrower" } }, "cost" : 2050 }, 
+            { "item" : { "name" : "generatedgun", "parameters" : { "definition" : "flamethrower" } }, "cost" : 2050 }, 
+            { "item" : { "name" : "generatedsword", "parameters" : { "definition" : "firesword" } }, "cost" : 2050 },
+            { "item" : { "name" : "generatedsword", "parameters" : { "definition" : "firesword" } }, "cost" : 2050 },		
+			{ "item" : { "name" : "flare" }, "cost" : 100, "rarity" : 1.0 },
+			{ "item" : { "name" : "bomb" }, "cost" : 200, "rarity" : 1.0 },
+			{ "item" : { "name" : "molotov" }, "cost" : 400, "rarity" : 1.0 },
+			{ "item" : { "name" : "firebow" }, "cost" : 10000, "rarity" : 1.0 },
+			{ "item" : { "name" : "phoenixemblem" }, "cost" : 1000, "rarity" : 1.0 }
+
+			]]
+			
+		  ]
+		}
+	},
+
+    "returnToStore" : {
+      "waitTime" : 10,
+
+      "dialog" : {
+        "follow" : {
+          "default" : [
+            "You should not be seeing this. My species should only be avian."
+          ],
+		  
+		  "avian" : {
+            "default" : [
+				"Seek the power of the flame with me.",
+				"The glory of the aether vanquishes all."
+            ]
+          }
+        },
+        "welcome" : {
+          "default" : [
+            "You should not be seeing this. My species should only be Avian."
+          ],
+		  
+		  "avian" : {
+            "default" : [
+				"Put your mind aside and learn quickly.",
+				"Time is short. Let us begin."
+            ]
+          }
+        },
+        "tout" : {
+          "default" : [
+            "You should not be seeing this. My species should only be avian."
+          ],
+		  
+		  "avian" : {
+            "default" : [
+				"If you seek the warmth of the hearth, you have come to the right place.",
+				"I can share the basest of my knowledge...for a price."
+            ]
+          }
+        }
+      }
+    },
+
+    "meleeAttack" : {
+      "swingDistance" : 5,
+      "swingTime" : 0.4,
+      "swingCooldownTime" : 0.6,
+      "runThreshold" : 0,
+      "searchTime" : 10,
+      "backoffDistanceRange" : [8.0, 12.0],
+      "repositionCooldownTimeRange" : [2.0, 3.0]
+    },
+
+    "rangedAttack" : {
+      "minDistance" : 10,
+      "maxDistance" : 30,
+      "coverYOffset" : -1.5,
+      "coverYClearanceOffset" : 0.5,
+      "coverDistance" : 2.5,
+      "coverHideTimeRange" : [0.5, 1.0],
+      "coverFireTimeRange" : [1.0, 3.0],
+      "attackerSpacing" : 2.5,
+      "searchTime" : 10
+    }
+  },
+
+
+  "items" : {
+    "default" : [
+      [0, [
+          { 
+            "chest" : [ { "name" : "aviantier8chest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "aviantier8pants", "parameters" : { "colorIndex" : 1 } } ],
+            "sheathedprimary" : [  [ "generatedsword", 1, { "definition" : "firesword" } ], [ "generatedgun", 1, { "definition" : "flamethrower" } ]  ]
+          }
+        ] ]
+	],
+	
+	    "avian" : [
+      [0, [
+          { 
+            "chest" : [ { "name" : "aviantier8chest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "aviantier8pants", "parameters" : { "colorIndex" : 1 } } ],
+            "sheathedprimary" : [ [ "generatedgun", 1, { "definition" : "avianfire" } ] ]
+          }
+        ] ]
+    ]
+		
+  },
+
+  "statusControllerSettings" : {
+    "statusProperties" : {
+      "targetMaterialKind" : "organic"
+    },
+
+    "persistentEffectCategories" : [
+      "innate",
+      "armor",
+      "tools",
+      "lounging"
+    ],
+	
+    "appliesEnvironmentStatusEffects" : false,
+    "minimumLiquidStatusEffectPercentage" : 0.1,
+
+    "primaryScriptSources" : [
+      "/stats/npc_primary.lua"
+    ],
+    "primaryScriptDelta" : 0,
+
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 100.0
+      },
+      "maxEnergy" : {
+        "baseValue" : 300.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 6.0
+      },
+      "protection" : {
+        "baseValue" : 1.0
+      },
+      "healthRegen" : {
+        "baseValue" : 0.0
+      },
+      "energyRegen" : {
+        "baseValue" : 100.0
+      },
+      "shieldSuppressed" : {
+        "baseValue" : 0.0
+      },
+      "invulnerable" : {
+        "baseValue" : 0.0
+      }
+    },
+
+    "resources" : {
+      "health" : {
+        "maxStat" : "maxHealth",
+        "deltaStat" : "healthRegen",
+        "defaultPercentage" : 100
+      },
+      "energy" : {
+        "maxStat" : "maxEnergy",
+        "deltaStat" : "energyRegen",
+        "defaultPercentage" : 100
+      }
+    }
+  }
+}

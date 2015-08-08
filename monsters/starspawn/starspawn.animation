@@ -63,7 +63,7 @@
             "mode" : "end"
           },
           "shooting" : {
-            "frames" : 8,
+            "frames" : 6,
             "mode" : "end"
           },          
           "staffattack" : {
@@ -168,12 +168,12 @@
             },
             "shooting" : {
               "properties" : {
-                "image" : "<partImage>:staffattack.<frame>"
+                "image" : "<partImage>:spitattack.<frame>"
               }
             },
             "melee" : {
               "properties" : {
-                "image" : "<partImage>:staffattack.<frame>"
+                "image" : "<partImage>:tentacleslam.<frame>"
               }
             }
           },

@@ -13,7 +13,66 @@
       ] 
 },
 
- 
+
+
+{"op":"add",
+ "path":"/spawnGroups/fu_arboreal",
+ "value":[       
+      "fuaviansentry", "fupoptop"
+      ] 
+},
+{"op":"add",
+ "path":"/spawnGroups/fu_thickjungle",
+ "value":[       
+      "fuaviansentry"
+      //"fuallergen"
+      ] 
+},
+
+{"op":"add",
+ "path":"/spawnGroups/fu_metallicmoon",
+ "value":[       
+      "fumechspider", 
+      "fuglitchspider"
+      ] 
+},
+
+
+{"op":"add",
+ "path":"/spawnGroups/fu_protoworld",
+ "value":[       
+      "fumoontant"
+      ] 
+},
+
+{"op":"add",
+ "path":"/spawnGroups/fu_bloodstone",
+ "value":[       
+      "fubloodgolem"
+      ] 
+},
+
+{"op":"add",
+ "path":"/spawnGroups/fu_ash",
+ "value":[       
+      "fuashgolem"
+      ] 
+},
+
+{"op":"add",
+ "path":"/spawnGroups/fu_tar",
+ "value":[       
+      "futargolem"
+      ] 
+},
+
+{"op":"add",
+ "path":"/spawnGroups/fu_irradiated",
+ "value":[       
+      "futoxicgolem"
+      ] 
+},
+
  // Monster Spawning Paramenters
  {"op":"add","path":"/spawns/slime","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.01,"monsterType":"slime","monsterParameters":{"aggressive":true}}},
  {"op":"add","path":"/spawns/slime_day","value":{"spawnParameters":{"area":"surface","region":"all","time":"day"},"targetDensity":0.01,"monsterType":"slime","monsterParameters":{"aggressive":true}}},
@@ -69,7 +128,18 @@
    "monsterType":"pogolem",
    "monsterParameters":{"aggressive":true}
    }
- }
+ },
+ 
+{"op":"add","path":"/spawns/fumechspider","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.01,"monsterType":"fumechspider","monsterParameters":{"aggressive":true}}},
+{"op":"add","path":"/spawns/fuglitchspider","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.05,"monsterType":"glitchspider","monsterParameters":{"aggressive":true}}},
+{"op":"add","path":"/spawns/fupoptop","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.03,"monsterType":"fupoptop","monsterParameters":{"aggressive":true}}},
+{"op":"add","path":"/spawns/fumoontant","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.035,"monsterType":"fumoontant","monsterParameters":{"aggressive":true}}},
+{"op":"add","path":"/spawns/fubloodgolem","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.025,"monsterType":"fubloodgolem","monsterParameters":{"aggressive":true}}},
+{"op":"add","path":"/spawns/futargolem","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.025,"monsterType":"futargolem","monsterParameters":{"aggressive":true}}},
+{"op":"add","path":"/spawns/fuashgolem","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.035,"monsterType":"fuashgolem","monsterParameters":{"aggressive":true}}},
+{"op":"add","path":"/spawns/fuaviansentry","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.030,"monsterType":"aviansentry","monsterParameters":{"aggressive":true}}},
+{"op":"add","path":"/spawns/fuallergen","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.025,"monsterType":"allergen","monsterParameters":{"aggressive":true}}},
+{"op":"add","path":"/spawns/futoxicgolem","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.025,"monsterType":"futoxicgolem","monsterParameters":{"aggressive":true}}}
 
 ]
 

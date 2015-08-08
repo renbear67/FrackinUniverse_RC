@@ -1,0 +1,560 @@
+{
+  "type" : "avianchef",
+  "baseType" : "merchant",
+
+  "disableWornArmor" : true,
+  "innateStatusEffects" : [
+
+  ],
+
+  "damageTeam" : 1,
+
+  "levelVariance" : [0, 0],
+
+  "scripts" : [
+    "/npcs/main.lua",
+    "/npcs/timers.lua",
+    "/scripts/sensors.lua",
+    "/scripts/stateMachine.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua",
+    "/scripts/pathing.lua",
+    "/npcs/chatState.lua",
+    "/npcs/converseState.lua",
+    "/npcs/fleeState.lua",
+    "/npcs/sitState.lua",
+    "/npcs/sleepState.lua",
+    "/npcs/standingIdleState.lua",
+    "/npcs/wanderState.lua"
+  ],
+
+  "scriptConfig" : {
+
+    "noticePlayersRadius" : 30.0,
+
+    "merchant" : {
+      "waitTime" : 10,
+      "storeRadius" : 8,
+
+      "dialog" : {
+        "start" : {
+          "default" : [
+			"You should not be seeing this. My species should only be avian."
+          ],
+          "avian" : {
+            "default" : [
+				"Corn and cheese, porridge and meat! You need your nourishment, so just eat!",
+				"Let me show you how to whip up a delicious traditional meal.",
+				"Avian dishes are fine and delicate, perfect for all manner of biologies."
+            ]
+          }
+        },
+        "end" : {
+          "default" : [
+            "You should not be seeing this. My species should only be avian."
+          ],
+          "avian" : {
+            "default" : [
+				"Knowing how to cook is a joy.",
+				"Think of me while you eat.",
+				"Your tummy is full and your hunger sated! Look at the satisfied patron that I've created!"
+            ]
+          }
+        }
+      },
+
+      "categories" : [ "avianchef" ],
+      "priceVarianceRange" : [0.75, 1.25],
+      "numItems" : 15,
+	  
+	  "items" : {
+	  	"avianchef" : [
+         
+		 [0, [
+            { "item" : { "name" : "boiledpearlpeas" }, "cost" : 600, "rarity" : 1.0 },
+			{ "item" : { "name" : "bread" }, "cost" : 600, "rarity" : 1.0 },
+            { "item" : { "name" : "pearlpeabroth" }, "cost" : 600, "rarity" : 1.0 },
+			{ "item" : { "name" : "pearlpearisotto" }, "cost" : 600, "rarity" : 1.0 },
+			{ "item" : { "name" : "corncob" }, "cost" : 600, "rarity" : 1.0},
+			{ "item" : { "name" : "fishdumplings" }, "cost" : 600, "rarity" : 1.0},
+			{ "item" : { "name" : "fishfingers" }, "cost" : 600, "rarity" : 1.0},
+			{ "item" : { "name" : "fishnchips" }, "cost" : 600, "rarity" : 1.0},
+			{ "item" : { "name" : "fishpie" }, "cost" : 600, "rarity" : 1.0},
+			{ "item" : { "name" : "fishstew" }, "cost" : 600, "rarity" : 1.0},
+			{ "item" : { "name" : "mashedpotato" }, "cost" : 600, "rarity" : 1.0},
+			{ "item" : { "name" : "meatdumplings" }, "cost" : 600, "rarity" : 1.0},
+			{ "item" : { "name" : "meatpie" }, "cost" : 600, "rarity" : 1.0},
+			{ "item" : { "name" : "meatstew" }, "cost" : 600, "rarity" : 1.0},
+			{ "item" : { "name" : "potatogrids" }, "cost" : 600, "rarity" : 1.0},
+			{ "item" : { "name" : "toast" }, "cost" : 600, "rarity" : 1.0},
+			{ "item" : { "name" : "featherfood" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "beakseedbread" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "beakseedjam" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "beakseedtart" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "carrotbread" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "carrotcake" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "carrotjuice" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "carrotsoup" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "cornpeckers" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "feathercrownjam" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "applecrumble" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "baconpancakes" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "bonbonbonbons" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "bonbons" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "cactusjuice" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "cake" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "candiedcorn" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "candyapple" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "cheeseburger" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "chocolatecake" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "choconut" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "coffeecake" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "flatwhite" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "fluffyruffs" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "kiwijam" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "kiwijuice" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "mocha" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "mushroomquiche" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "mushroomrice" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "omelette" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "pasty" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "pizza" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "pizzaslice" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "porridge" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "quichelorraine" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "relish" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "ricepudding" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "specialrice" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "spikycookies" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "stickyribs" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "stuffedtomato" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "sweetmeat" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "sweetpopcorn" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "tomatosoup" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "tomatojuice" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "gardensalad" }, "cost" : 1200, "rarity" : 1.0 }
+
+			]],
+			
+			
+		[1, [
+            { "item" : { "name" : "boiledpearlpeas" }, "cost" : 600, "rarity" : 1.0 },
+			{ "item" : { "name" : "bread" }, "cost" : 600, "rarity" : 1.0 },
+            { "item" : { "name" : "pearlpeabroth" }, "cost" : 600, "rarity" : 1.0 },
+			{ "item" : { "name" : "pearlpearisotto" }, "cost" : 600, "rarity" : 1.0 },
+			{ "item" : { "name" : "corncob" }, "cost" : 600, "rarity" : 1.0},
+			{ "item" : { "name" : "fishdumplings" }, "cost" : 600, "rarity" : 1.0},
+			{ "item" : { "name" : "fishfingers" }, "cost" : 600, "rarity" : 1.0},
+			{ "item" : { "name" : "fishnchips" }, "cost" : 600, "rarity" : 1.0},
+			{ "item" : { "name" : "fishpie" }, "cost" : 600, "rarity" : 1.0},
+			{ "item" : { "name" : "fishstew" }, "cost" : 600, "rarity" : 1.0},
+			{ "item" : { "name" : "mashedpotato" }, "cost" : 600, "rarity" : 1.0},
+			{ "item" : { "name" : "meatdumplings" }, "cost" : 600, "rarity" : 1.0},
+			{ "item" : { "name" : "meatpie" }, "cost" : 600, "rarity" : 1.0},
+			{ "item" : { "name" : "meatstew" }, "cost" : 600, "rarity" : 1.0},
+			{ "item" : { "name" : "potatogrids" }, "cost" : 600, "rarity" : 1.0},
+			{ "item" : { "name" : "toast" }, "cost" : 600, "rarity" : 1.0},
+			{ "item" : { "name" : "featherfood" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "beakseedbread" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "beakseedjam" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "beakseedtart" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "carrotbread" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "carrotcake" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "carrotjuice" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "carrotsoup" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "cornpeckers" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "feathercrownjam" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "applecrumble" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "baconpancakes" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "bonbonbonbons" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "bonbons" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "cactusjuice" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "cake" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "candiedcorn" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "candyapple" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "cheeseburger" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "chocolatecake" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "choconut" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "coffeecake" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "flatwhite" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "fluffyruffs" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "kiwijam" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "kiwijuice" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "mocha" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "mushroomquiche" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "mushroomrice" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "omelette" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "pasty" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "pizza" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "pizzaslice" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "porridge" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "quichelorraine" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "relish" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "ricepudding" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "specialrice" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "spikycookies" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "stickyribs" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "stuffedtomato" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "sweetmeat" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "sweetpopcorn" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "tomatosoup" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "tomatojuice" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "gardensalad" }, "cost" : 1200, "rarity" : 1.0 }
+
+			]],
+			
+		[2, [
+			{ "item" : { "name" : "featherfood" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "beakseedbread" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "beakseedjam" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "beakseedtart" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "carrotbread" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "carrotcake" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "carrotjuice" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "carrotsoup" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "cornpeckers" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "feathercrownjam" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "applecrumble" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "baconpancakes" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "bonbonbonbons" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "bonbons" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "cactusjuice" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "cake" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "candiedcorn" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "candyapple" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "cheeseburger" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "chocolatecake" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "choconut" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "coffeecake" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "flatwhite" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "fluffyruffs" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "kiwijam" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "kiwijuice" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "mocha" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "mushroomquiche" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "mushroomrice" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "omelette" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "pasty" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "pizza" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "pizzaslice" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "porridge" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "quichelorraine" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "relish" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "ricepudding" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "specialrice" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "spikycookies" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "stickyribs" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "stuffedtomato" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "sweetmeat" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "sweetpopcorn" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "tomatosoup" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "tomatojuice" }, "cost" : 1200, "rarity" : 1.0 },
+			{ "item" : { "name" : "2kbpotage" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "apegrapes" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "apexfritter" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "automatoshake" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "automatostew" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "bananacon" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "bananacreamdonut" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "bananacreampie" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "bananaicecream" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "betteredbanana" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "cactiicecream" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "campfirebanana" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "candyautomato" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "coconuticecream" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "coconutrice" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "desertsalsa" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "fishinabone" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "fruitsalad" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "grapejuice" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "luckydip" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "pineapplejam" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "pineapplejuice" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "pineapplepizzaslice" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "roastdinner" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "spookydonut" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "spookypie" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "stuffedautomato" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "sweetpunch" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "thornjuice" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "tropicalpunch" }, "cost" : 1800, "rarity" : 1.0 }
+			
+			]],
+			
+		[3, [
+			{ "item" : { "name" : "2kbpotage" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "apegrapes" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "apexfritter" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "automatoshake" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "automatostew" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "bananacon" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "bananacreamdonut" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "bananacreampie" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "bananaicecream" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "betteredbanana" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "cactiicecream" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "campfirebanana" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "candyautomato" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "coconuticecream" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "coconutrice" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "desertsalsa" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "fishinabone" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "fruitsalad" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "grapejuice" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "luckydip" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "pineapplejam" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "pineapplejuice" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "pineapplepizzaslice" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "roastdinner" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "spookydonut" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "spookypie" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "stuffedautomato" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "sweetpunch" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "thornjuice" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "tropicalpunch" }, "cost" : 1800, "rarity" : 1.0 },
+			{ "item" : { "name" : "alienfruitjam" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "bloodypuss" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "brineapple" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "cyanider" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "oceanrisotto" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "oceansurprise" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "oculemonmeringue" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "oculemonstew" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "pussplumpudding" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "pussplumtart" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "reefjuice" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "reefpodsurprise" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "reefshake" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "ricecake" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "saltsalad" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "seafoodgratin" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "soggysack" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "stuffeddirturchin" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "sushi" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "toxicjamdonut" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "toxicjuice" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "toxictart" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "toxictopjam" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "volcanicsalsa" }, "cost" : 2400, "rarity" : 1.0 }
+
+			]],
+			
+		[4, [
+
+			{ "item" : { "name" : "alienfruitjam" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "bloodypuss" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "brineapple" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "cyanider" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "oceanrisotto" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "oceansurprise" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "oculemonmeringue" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "oculemonstew" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "pussplumpudding" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "pussplumtart" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "reefjuice" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "reefpodsurprise" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "reefshake" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "ricecake" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "saltsalad" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "seafoodgratin" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "soggysack" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "stuffeddirturchin" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "sushi" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "toxicjamdonut" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "toxicjuice" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "toxictart" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "toxictopjam" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "volcanicsalsa" }, "cost" : 2400, "rarity" : 1.0 },
+			{ "item" : { "name" : "16gbpasty" }, "cost" : 3000, "rarity" : 1.0 },
+			{ "item" : { "name" : "boltos" }, "cost" : 3000, "rarity" : 1.0 },
+			{ "item" : { "name" : "eggshooticecream" }, "cost" : 3000, "rarity" : 1.0 },
+			{ "item" : { "name" : "eggshootsalad" }, "cost" : 3000, "rarity" : 1.0 },
+			{ "item" : { "name" : "eyebowls" }, "cost" : 3000, "rarity" : 1.0 },
+			{ "item" : { "name" : "nutsandbolts" }, "cost" : 3000, "rarity" : 1.0 },
+			{ "item" : { "name" : "piodia" }, "cost" : 3000, "rarity" : 1.0 }
+
+			]],
+			
+		[5, [
+
+			{ "item" : { "name" : "16gbpasty" }, "cost" : 3000, "rarity" : 1.0 },
+			{ "item" : { "name" : "boltos" }, "cost" : 3000, "rarity" : 1.0 },
+			{ "item" : { "name" : "eggshooticecream" }, "cost" : 3000, "rarity" : 1.0 },
+			{ "item" : { "name" : "eggshootsalad" }, "cost" : 3000, "rarity" : 1.0 },
+			{ "item" : { "name" : "eyebowls" }, "cost" : 3000, "rarity" : 1.0 },
+			{ "item" : { "name" : "nutsandbolts" }, "cost" : 3000, "rarity" : 1.0 },
+			{ "item" : { "name" : "piodia" }, "cost" : 3000, "rarity" : 1.0 },
+			{ "item" : { "name" : "avesmingoicecream" }, "cost" : 3600, "rarity" : 1.0 },
+			{ "item" : { "name" : "avesmingojuice" }, "cost" : 3600, "rarity" : 1.0 },
+			{ "item" : { "name" : "bananasplit" }, "cost" : 3600, "rarity" : 1.0 },
+			{ "item" : { "name" : "burningeyeballs" }, "cost" : 3600, "rarity" : 1.0 },
+			{ "item" : { "name" : "coralcreepcurry" }, "cost" : 3600, "rarity" : 1.0 },
+			{ "item" : { "name" : "hotbone" }, "cost" : 3600, "rarity" : 1.0 },
+			{ "item" : { "name" : "hothothotpot" }, "cost" : 3600, "rarity" : 1.0 },
+			{ "item" : { "name" : "neonmelonjam" }, "cost" : 3600, "rarity" : 1.0 },
+			{ "item" : { "name" : "pearlpeaparcels" }, "cost" : 3600, "rarity" : 1.0 },
+			{ "item" : { "name" : "pozest" }, "cost" : 3600, "rarity" : 1.0 },
+			{ "item" : { "name" : "spicyfeathercrown" }, "cost" : 3600, "rarity" : 1.0 },
+			{ "item" : { "name" : "ultimatejuice" }, "cost" : 3600, "rarity" : 1.0 },
+			{ "item" : { "name" : "wartweedjam" }, "cost" : 3600, "rarity" : 1.0 },
+			{ "item" : { "name" : "wartweedjamdonut" }, "cost" : 3600, "rarity" : 1.0 },
+			{ "item" : { "name" : "wartweedstew" }, "cost" : 3600, "rarity" : 1.0 }
+			
+			]]
+			
+		  ]
+		}
+	},
+
+    "returnToStore" : {
+      "waitTime" : 10,
+
+      "dialog" : {
+        "follow" : {
+          "default" : [
+            "You should not be seeing this. My species should only be avian."
+          ],
+		  
+		  "avian" : {
+            "default" : [
+				"Come with me if you wish to learn.",
+				"I need to be able to give practical demonstrations for you to learn. Please follow me."
+            ]
+          }
+        },
+        "welcome" : {
+          "default" : [
+            "You should not be seeing this. My species should only be Avian."
+          ],
+		  
+		  "avian" : {
+            "default" : [
+				"Put your worries aside and relax with a bit of sweet.",
+				"Now let me fatten you up."
+            ]
+          }
+        },
+        "tout" : {
+          "default" : [
+            "You should not be seeing this. My species should only be avian."
+          ],
+		  
+		  "avian" : {
+            "default" : [
+				"Have you come to have your palate dazzled?",
+				"I promise you an excellent culinary experience."
+            ]
+          }
+        }
+      }
+    },
+
+    "meleeAttack" : {
+      "swingDistance" : 5,
+      "swingTime" : 0.4,
+      "swingCooldownTime" : 0.6,
+      "runThreshold" : 0,
+      "searchTime" : 10,
+      "backoffDistanceRange" : [8.0, 12.0],
+      "repositionCooldownTimeRange" : [2.0, 3.0]
+    },
+
+    "rangedAttack" : {
+      "minDistance" : 10,
+      "maxDistance" : 30,
+      "coverYOffset" : -1.5,
+      "coverYClearanceOffset" : 0.5,
+      "coverDistance" : 2.5,
+      "coverHideTimeRange" : [0.5, 1.0],
+      "coverFireTimeRange" : [1.0, 3.0],
+      "attackerSpacing" : 2.5,
+      "searchTime" : 10
+    }
+  },
+
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "chefchest" } ],
+            "legs" : [ { "name" : "cheflegs" } ],
+            "sheathedprimary" : [  { "name" : "generatedsword", "parameters" : { "definition" : "fryingpan" } }  ]
+          }
+        ] ]
+	],
+	
+	    "avian" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "chefchest" } ],
+            "legs" : [ { "name" : "cheflegs" } ],
+            "sheathedprimary" : [  { "name" : "generatedsword", "parameters" : { "definition" : "fryingpan" } }  ]
+          }
+        ] ]
+    ]
+		
+  },
+
+  "statusControllerSettings" : {
+    "statusProperties" : {
+      "targetMaterialKind" : "organic"
+    },
+
+    "persistentEffectCategories" : [
+      "innate",
+      "armor",
+      "tools",
+      "lounging"
+    ],
+	
+	"appliesEnvironmentStatusEffects" : false,
+    "minimumLiquidStatusEffectPercentage" : 0.1,
+
+    "primaryScriptSources" : [
+      "/stats/npc_primary.lua"
+    ],
+    "primaryScriptDelta" : 0,
+
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 40.0
+      },
+      "maxEnergy" : {
+        "baseValue" : 80.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 1.0
+      },
+      "protection" : {
+        "baseValue" : 1.0
+      },
+      "healthRegen" : {
+        "baseValue" : 0.0
+      },
+      "energyRegen" : {
+        "baseValue" : 25.0
+      },
+      "shieldSuppressed" : {
+        "baseValue" : 0.0
+      },
+      "invulnerable" : {
+        "baseValue" : 0.0
+      }
+    },
+
+    "resources" : {
+      "health" : {
+        "maxStat" : "maxHealth",
+        "deltaStat" : "healthRegen",
+        "defaultPercentage" : 100
+      },
+      "energy" : {
+        "maxStat" : "maxEnergy",
+        "deltaStat" : "energyRegen",
+        "defaultPercentage" : 100
+      }
+    }
+  }
+}

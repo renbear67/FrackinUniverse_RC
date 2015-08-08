@@ -6,7 +6,7 @@
   "breathable" : false,
     "spawnProfiles" : [
     {
-      "groups" : [ "oceansurface1" ],
+      "groups" : [ "hardsurface2", "fu_ash" ],
       "extraSpawns" : [ "flameroach", "lavahopper" ],
       "monsterParameters" : {
         "statusSettings" : {
@@ -25,7 +25,7 @@
       }
     },
     {
-      "groups" : [ "oceansurface2" ],
+      "groups" : [ "hardsurface1", "fu_ash" ],
       "extraSpawns" : [ "flameroach", "fireygiant" ],
       "monsterParameters" : {
         "statusSettings" : {

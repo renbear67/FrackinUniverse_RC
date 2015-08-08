@@ -1,6 +1,18 @@
 {
   "name" : "metallicmoon",
   "friendlyName" : "Metallic Moon",
+  
+  "spawnProfiles" : [
+    {
+      "groups" : [ "fu_metallicmoon" ],
+      "extraSpawns" : [  ]
+    },
+    {
+      "groups" : [ "fu_metallicmoon" ],
+      "extraSpawns" : [  ]
+    }
+  ],
+  
   "statusEffects" : [ ],
   "airless" : true,
   "breathable" : false,

@@ -21,7 +21,7 @@
     {
       "kind" : "arborealback",
       "offset" : [0, 390],
-      "baseCount" : 6,
+      "baseCount" : 3,
       "parallax" : 9,
       "nightCorrelation" : 0,
       "minSpeed" : 0,
@@ -32,7 +32,7 @@
     {
       "kind" : "arborealfront",
       "offset" : [0, 420],
-      "baseCount" : 2,
+      "baseCount" : 1,
       "parallax" : 6,
       "nightCorrelation" : 0,
       "minSpeed" : 0,

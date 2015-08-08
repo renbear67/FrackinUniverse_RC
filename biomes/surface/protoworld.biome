@@ -4,8 +4,8 @@
 
   "spawnProfiles" : [
     {
-      "groups" : [ "mediumsurface1" ],
-      "extraSpawns" : [ ],
+      "groups" : [ "mediumsurface1", "fu_protoworld" ],
+      "extraSpawns" : [  ],
       "monsterParameters" : {
         "statusSettings" : {
           "stats" : {
@@ -17,8 +17,8 @@
       }
     },
     {
-      "groups" : [ "mediumsurface2" ],
-      "extraSpawns" : [ ],
+      "groups" : [ "mediumsurface2", "fu_protoworld" ],
+      "extraSpawns" : [  ],
       "monsterParameters" : {
         "statusSettings" : {
           "stats" : {

@@ -1,0 +1,127 @@
+{
+  "type" : "newhumansurvivor",
+  "baseType" : "outpostcivilian",
+
+    "scriptConfig" : {
+        "converse" : {
+            "waitTime" : 0.5,
+            "dialog" : {
+          
+                "default" : [
+                    "My ship barely made it off Earth, and I don't think it's working any more. Are you stranded on this planet, too?"
+                ],
+            
+                "human" : {
+                    "default" : [
+                      "My ship barely made it off Earth, and I don't think it's working any more. Are you stranded on this planet, too?"
+                    ],
+
+                    "avian" : [
+                      "My ship barely made it off Earth, and I don't think it's working any more. Are you stranded on this planet, too?"
+                    ],
+
+                    "apex" : [
+                      "My ship barely made it off Earth, and I don't think it's working any more. Are you stranded on this planet, too?"
+                    ],
+
+                    "floran" : [
+                      "My ship barely made it off Earth, and I don't think it's working any more. Are you stranded on this planet, too?"
+                    ],
+
+                    "glitch" : [
+                      "My ship barely made it off Earth, and I don't think it's working any more. Are you stranded on this planet, too?"
+                    ],
+
+                    "human" : [
+                      "Eugh. I remember what happened to Earth. Tentacles...all those tentacles, like something out of an anime and the planet was a soft, nubile...you know what, I think I'll leave the comparison at that."
+                    ],
+
+                    "hylotl" : [
+                      "My ship barely made it off Earth, and I don't think it's working any more. Are you stranded on this planet, too?"
+                    ]
+                }
+            }
+        }
+    },
+
+    "items" : {
+        "default" : [
+            [0, [
+                {
+                    "chest" : [
+              { "name" : "sweatervestchest", "parameters" : { "colorIndex" : 1 } }, { "name" : "sweatervestchest", "parameters" : { "colorIndex" : 3 } }, { "name" : "sweatervestchest", "parameters" : { "colorIndex" : 4 } }, { "name" : "sweatervestchest", "parameters" : { "colorIndex" : 5 } }, { "name" : "sweatervestchest", "parameters" : { "colorIndex" : 6 } }, { "name" : "sweatervestchest", "parameters" : { "colorIndex" : 7 } }, { "name" : "sweatervestchest", "parameters" : { "colorIndex" : 8 } }, { "name" : "sweatervestchest", "parameters" : { "colorIndex" : 9 } },
+              { "name" : "conceptchest", "parameters" : { "colorIndex" : 1 } }, { "name" : "conceptchest", "parameters" : { "colorIndex" : 3 } }, { "name" : "conceptchest", "parameters" : { "colorIndex" : 4 } }, { "name" : "conceptchest", "parameters" : { "colorIndex" : 5 } }, { "name" : "conceptchest", "parameters" : { "colorIndex" : 6 } }, { "name" : "conceptchest", "parameters" : { "colorIndex" : 7 } }, { "name" : "conceptchest", "parameters" : { "colorIndex" : 8 } }, { "name" : "conceptchest", "parameters" : { "colorIndex" : 9 } },
+              { "name" : "coolchest", "parameters" : { "colorIndex" : 1 } }, { "name" : "coolchest", "parameters" : { "colorIndex" : 3 } }, { "name" : "coolchest", "parameters" : { "colorIndex" : 4 } }, { "name" : "coolchest", "parameters" : { "colorIndex" : 5 } }, { "name" : "coolchest", "parameters" : { "colorIndex" : 6 } }, { "name" : "coolchest", "parameters" : { "colorIndex" : 7 } }, { "name" : "coolchest", "parameters" : { "colorIndex" : 8 } }, { "name" : "coolchest", "parameters" : { "colorIndex" : 9 } },
+              { "name" : "workoutchest", "parameters" : { "colorIndex" : 1 } }, { "name" : "workoutchest", "parameters" : { "colorIndex" : 3 } }, { "name" : "workoutchest", "parameters" : { "colorIndex" : 4 } }, { "name" : "workoutchest", "parameters" : { "colorIndex" : 5 } }, { "name" : "workoutchest", "parameters" : { "colorIndex" : 6 } }, { "name" : "workoutchest", "parameters" : { "colorIndex" : 7 } }, { "name" : "workoutchest", "parameters" : { "colorIndex" : 8 } }, { "name" : "workoutchest", "parameters" : { "colorIndex" : 9 } }
+            ],
+                    "legs" : [
+              { "name" : "conceptlegs", "parameters" : { "colorIndex" : 1 } }, { "name" : "conceptlegs", "parameters" : { "colorIndex" : 3 } }, { "name" : "conceptlegs", "parameters" : { "colorIndex" : 4 } }, { "name" : "conceptlegs", "parameters" : { "colorIndex" : 5 } }, { "name" : "conceptlegs", "parameters" : { "colorIndex" : 6 } }, { "name" : "conceptlegs", "parameters" : { "colorIndex" : 7 } }, { "name" : "conceptlegs", "parameters" : { "colorIndex" : 8 } }, { "name" : "conceptlegs", "parameters" : { "colorIndex" : 9 } },
+              { "name" : "coollegs", "parameters" : { "colorIndex" : 1 } }, { "name" : "coollegs", "parameters" : { "colorIndex" : 3 } }, { "name" : "coollegs", "parameters" : { "colorIndex" : 4 } }, { "name" : "coollegs", "parameters" : { "colorIndex" : 5 } }, { "name" : "coollegs", "parameters" : { "colorIndex" : 6 } }, { "name" : "coollegs", "parameters" : { "colorIndex" : 7 } }, { "name" : "coollegs", "parameters" : { "colorIndex" : 8 } }, { "name" : "coollegs", "parameters" : { "colorIndex" : 9 } },
+              { "name" : "workoutlegs", "parameters" : { "colorIndex" : 1 } }, { "name" : "workoutlegs", "parameters" : { "colorIndex" : 3 } }, { "name" : "workoutlegs", "parameters" : { "colorIndex" : 4 } }, { "name" : "workoutlegs", "parameters" : { "colorIndex" : 5 } }, { "name" : "workoutlegs", "parameters" : { "colorIndex" : 6 } }, { "name" : "workoutlegs", "parameters" : { "colorIndex" : 7 } }, { "name" : "workoutlegs", "parameters" : { "colorIndex" : 8 } }, { "name" : "workoutlegs", "parameters" : { "colorIndex" : 9 } }
+            ]
+                }
+            ] ]
+        ]
+    },
+
+  "statusControllerSettings" : {
+    "statusProperties" : {
+      "targetMaterialKind" : "organic"
+    },
+
+    "persistentEffectCategories" : [
+      "innate",
+      "armor",
+      "tools",
+      "lounging"
+    ],
+	
+    "appliesEnvironmentStatusEffects" : false,
+    "minimumLiquidStatusEffectPercentage" : 0.1,
+
+    "primaryScriptSources" : [
+      "/stats/npc_primary.lua"
+    ],
+    "primaryScriptDelta" : 5,
+
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 40.0
+      },
+      "maxEnergy" : {
+        "baseValue" : 40.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 1.0
+      },
+      "protection" : {
+        "baseValue" : 0.0
+      },
+      "healthRegen" : {
+        "baseValue" : 0.0
+      },
+      "energyRegen" : {
+        "baseValue" : 100.0
+      },
+      "shieldSuppressed" : {
+        "baseValue" : 0.0
+      },
+      "invulnerable" : {
+        "baseValue" : 0.0
+      }
+    },
+
+    "resources" : {
+      "health" : {
+        "maxStat" : "maxHealth",
+        "deltaStat" : "healthRegen",
+        "defaultPercentage" : 100
+      },
+      "energy" : {
+        "maxStat" : "maxEnergy",
+        "deltaStat" : "energyRegen",
+        "defaultPercentage" : 100
+      }
+    }
+  }
+}
