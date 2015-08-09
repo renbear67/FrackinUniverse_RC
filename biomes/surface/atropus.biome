@@ -5,12 +5,36 @@
   "requiredStatuses" : [],
   "spawnProfiles" : [
     {
-      "groups" : [ "hardsurface1" ],
-      "extraSpawns" : [ ]
+      "groups" : [ "hardsurface1", "fu_atropus" ],
+      "extraSpawns" : [ ],
+      "monsterParameters" : {
+        "statusSettings" : {
+          "stats" : {
+            "pusImmunity" : {
+              "baseValue" : 1.0
+            },
+            "biooozeImmunity" : {
+              "baseValue" : 1.0
+            }
+          }
+        }
+      }
     },
     {
-      "groups" : [ "hardsurface2" ],
-      "extraSpawns" : [ ]
+      "groups" : [ "hardsurface2", "fu_atropus" ],
+      "extraSpawns" : [ ],
+      "monsterParameters" : {
+        "statusSettings" : {
+          "stats" : {
+            "pusImmunity" : {
+              "baseValue" : 1.0
+            },
+            "biooozeImmunity" : {
+              "baseValue" : 1.0
+            }
+          }
+        }
+      }
     }
   ],
   

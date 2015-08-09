@@ -4,12 +4,36 @@
   
   "spawnProfiles" : [
     {
-      "groups" : [ "mediumsurface1" ],
-      "extraSpawns" : [  ]
+      "groups" : [ "mediumsurface1", "fu_penumbra" ],
+      "extraSpawns" : [  ],
+      "monsterParameters" : {
+        "statusSettings" : {
+          "stats" : {
+            "poisonImmunity" : {
+              "baseValue" : 1.0
+            },
+            "biooozeImmunity" : {
+              "baseValue" : 1.0
+            }
+          }
+        }
+      }
     },
     {
-      "groups" : [ "mediumsurface2" ],
-      "extraSpawns" : [  ]
+      "groups" : [ "mediumsurface2", "fu_penumbra" ],
+      "extraSpawns" : [  ],
+      "monsterParameters" : {
+        "statusSettings" : {
+          "stats" : {
+            "poisonImmunity" : {
+              "baseValue" : 1.0
+            },
+            "biooozeImmunity" : {
+              "baseValue" : 1.0
+            }
+          }
+        }
+      }
     }
   ],
 
