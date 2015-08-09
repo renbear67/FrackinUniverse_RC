@@ -3,17 +3,17 @@
   "friendlyName" : "Red Wastes",
   
   "statusEffects" : [ "biomeheat" ],
-    
-  "spawnProfiles" : [
+  
+   "spawnProfiles" : [
     {
-      "groups" : [ "mediumsurface1" ],
-      "extraSpawns" : [ "sunskipper", "goldbuck" ]
+      "groups" : [ "mediumsurface1", "fu_thickjungle" ],
+      "extraSpawns" : [ "sunskipper", "goldbuck"  ]
     },
     {
-      "groups" : [ "mediumsurface2" ],
+      "groups" : [ "mediumsurface2", "fu_thickjungle" ],
       "extraSpawns" : [ "sunskipper", "sandclown" ]
     }
-  ],
+  ],   
 
   "hueShiftOptions" : [0],
 
@@ -25,7 +25,7 @@
 
   "skyOptions" : [
     {
-      "mainColor" : [255, 255, 255],
+      "mainColor" : [255, 144, 144],
 
       "morningColors" : [ [255, 90, 90], [255, 90, 90] ],
       "dayColors" : [ [233, 90, 90], [245, 90, 90] ],
@@ -38,7 +38,7 @@
       "nightLightColor" : [56, 12, 12]
     },
     {
-      "mainColor" : [255, 255, 255],
+      "mainColor" : [255, 72, 72],
 
       "morningColors" : [ [255, 224, 129], [252, 230, 164] ],
       "dayColors" : [ [255, 152, 107], [255, 183, 152] ],
@@ -51,7 +51,7 @@
       "nightLightColor" : [40, 17, 17]
     },
     {
-      "mainColor" : [255, 255, 255],
+      "mainColor" : [255, 200, 200],
 
       "morningColors" : [ [255, 150, 129], [252, 150, 164] ],
       "dayColors" : [ [255, 152, 107], [255, 183, 152] ],
@@ -64,7 +64,7 @@
       "nightLightColor" : [40, 17, 17]
     },
     {
-      "mainColor" : [255, 255, 255],
+      "mainColor" : [255, 50, 50],
 
       "morningColors" : [ [255, 70, 70], [252, 70, 70] ],
       "dayColors" : [ [255, 60, 60], [255, 60, 60] ],

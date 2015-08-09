@@ -79,7 +79,7 @@
 {"op":"add",
  "path":"/spawnGroups/fu_penumbra",
  "value":[       
-      "fucorruptfly", "shadowhound"
+      "fucorruptfly", "fucorruptflylarge", "shadowhound"
       ] 
 },
 
@@ -162,6 +162,7 @@
 {"op":"add","path":"/spawns/futoxicfly","value":{"spawnParameters":{"area":"surface","region":"all","time":"day"},"targetDensity":0.15,"monsterType":"futoxicfly","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/fucorruptfly","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.15,"monsterType":"fucorruptfly","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/fuheckblob","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.15,"monsterType":"fuheckblob","monsterParameters":{"aggressive":true}}},
-{"op":"add","path":"/spawns/shadowhound","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.05,"monsterType":"shadowhound","monsterParameters":{"aggressive":true}}}
+{"op":"add","path":"/spawns/shadowhound","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.05,"monsterType":"shadowhound","monsterParameters":{"aggressive":true}}},
+{"op":"add","path":"/spawns/fucorruptflylarge","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.01,"monsterType":"fucorruptflylarge","monsterParameters":{"aggressive":true}}}
 
 ]

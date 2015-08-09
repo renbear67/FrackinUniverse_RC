@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "adaptivecells", "count" : 1 },
-    { "item" : "agressiongene", "count" : 1 },
+    { "item" : "aggressiongene", "count" : 1 },
     { "item" : "nervebundle2", "count" : 2 },
     { "item" : "tissueculture", "count" : 3 },
     { "item" : "cellresistance2", "count" : 1 },

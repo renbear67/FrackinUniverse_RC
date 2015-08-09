@@ -642,11 +642,12 @@
       ]
     }
   },
-
+  
   "sounds" : {
-    "turnHostile" : [  ],
-    "deathPuff" : [ "/sfx/npc/enemydeathpuff.wav" ]
-  },
+    "deathPuff" : [ "/sfx/npc/enemydeathpuff.wav"  ]
+  },  
+  
+  
   "effects" : {
     "blink" : {
       "type" : "flash",

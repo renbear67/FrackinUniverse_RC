@@ -640,9 +640,16 @@
   },
   
   "sounds" : {
-    "turnHostile" : [ "/sfx/npc/unique/robotboss_turnhostile.wav", "/sfx/npc/unique/robotboss_idle1.wav", "/sfx/npc/unique/robotboss_idle2.wav", "/sfx/npc/unique/robotboss_attack1.wav", "/sfx/npc/unique/robotboss_attack2.wav" ],
-    "deathPuff" : [ "/sfx/npc/unique/robotboss_pain1.wav", "/sfx/npc/unique/robotboss_pain2.wav", "/sfx/npc/unique/robotboss_pain3.wav", "/sfx/npc/unique/robotboss_deathwithstatic.wav", "/sfx/npc/unique/robotboss_death.wav" ]
-  },
+    "turnHostile" : [ "/sfx/npc/unique/robotboss_turnhostile.wav" ],
+    "idle" :["/sfx/npc/unique/robotboss_idle1.wav"],
+    "attack" :["/sfx/monsters/toss1.wav"],
+    "melee" :["/sfx/monsters/toss1.wav"],
+    "shooting" :["/sfx/monsters/toss1.wav"],
+    "pain1" :["/sfx/npc/unique/robotboss_pain1.wav"],
+    "pain2" :["/sfx/npc/unique/robotboss_pain2.wav"],
+    "pain3" :["/sfx/npc/unique/robotboss_pain3.wav"],
+    "deathPuff" : [ "/sfx/npc/enemydeathpuff.wav"  ]
+  },  
 
   "effects" : {
     "blink" : {
