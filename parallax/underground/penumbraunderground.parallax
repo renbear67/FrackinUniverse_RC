@@ -5,7 +5,8 @@
       "nohueshift" : true,
       "lightMapped" : true,
       "parallax" : 1.2,
-      "repeatY" : true
+      "repeatY" : true,
+      "baseCount" : 2
     }
   ]
 }

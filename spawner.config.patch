@@ -92,9 +92,9 @@
 
 
  // Monster Spawning Paramenters
- {"op":"add","path":"/spawns/slime","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.01,"monsterType":"slime","monsterParameters":{"aggressive":true}}},
- {"op":"add","path":"/spawns/slime_day","value":{"spawnParameters":{"area":"surface","region":"all","time":"day"},"targetDensity":0.01,"monsterType":"slime","monsterParameters":{"aggressive":true}}},
- {"op":"add","path":"/spawns/slime_night","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.01,"monsterType":"slime","monsterParameters":{"aggressive":true}}},
+ {"op":"add","path":"/spawns/slime","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.04,"monsterType":"slime","monsterParameters":{"aggressive":true}}},
+ {"op":"add","path":"/spawns/slime_day","value":{"spawnParameters":{"area":"surface","region":"all","time":"day"},"targetDensity":0.04,"monsterType":"slime","monsterParameters":{"aggressive":true}}},
+ {"op":"add","path":"/spawns/slime_night","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.04,"monsterType":"slime","monsterParameters":{"aggressive":true}}},
 
  {"op":"add",
  "path":"/spawns/giantslime",

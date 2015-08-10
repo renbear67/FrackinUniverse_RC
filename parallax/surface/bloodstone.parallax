@@ -21,7 +21,7 @@
     },
     {
       "kind" : "bloodstoneback",
-      "baseCount" : 1,
+      "baseCount" : 2,
       "offset" : [0, 240],
       "parallax" : 9,
       "nightCorrelation" : 0,
@@ -32,7 +32,7 @@
     },
     {
       "kind" : "bloodstonemid",
-      "baseCount" : 1,
+      "baseCount" : 2,
       "offset" : [0, 240],
       "parallax" : 6,
       "nightCorrelation" : 0,
@@ -52,27 +52,27 @@
       "maxSpeed" : 0,
       "modifiers" : ""
     },
-    {
-      "kind" : "foliage/treefront",
-      "offset" : [0, 245],
-      "parallax" : 2.5,
-      "directives" : "?saturation=-5?brightness=10",
-      "fadePercent" : 0.03
-    },
-    {
-      "kind" : "foliage/treefront",
-      "offset" : [0, 225],
-      "parallax" : 3,
-      "directives" : "?saturation=-10?brightness=5",
-      "fadePercent" : 0.03
-    },
-    {
-      "kind" : "foliage/treeback",
-      "offset" : [0, 255],
-      "parallax" : 3.5,
-      "directives" : "?saturation=-5?brightness=10",
-      "fadePercent" : 0.03
-    },
+  //  {
+  //    "kind" : "foliage/treefront",
+  //    "offset" : [0, 245],
+  //    "parallax" : 2.5,
+  //    "directives" : "?saturation=-5?brightness=10",
+  //    "fadePercent" : 0.03
+  //  },
+  //  {
+  //    "kind" : "foliage/treefront",
+  //    "offset" : [0, 225],
+  //    "parallax" : 3,
+  //    "directives" : "?saturation=-10?brightness=5",
+  //    "fadePercent" : 0.03
+  //  },
+  //  {
+  //    "kind" : "foliage/treeback",
+  //    "offset" : [0, 255],
+  //    "parallax" : 3.5,
+  //    "directives" : "?saturation=-5?brightness=10",
+  //    "fadePercent" : 0.03
+  //  },
     {
       "kind" : "clouds3",
       "offset" : [0, 120],

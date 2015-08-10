@@ -113,10 +113,10 @@
 
             "stats" : {
               "maxHealth" : {
-                "baseValue" : 1250
+                "baseValue" : 650
               },
               "protection" : {
-                "baseValue" : 25.0
+                "baseValue" : 1.0
               },
               "healthRegen" : {
                 "baseValue" : 0.0

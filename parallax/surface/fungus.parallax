@@ -20,6 +20,7 @@
     },
     {
       "kind" : "fungusback",
+      "baseCount" : 2,
       "offset" : [0, 380],
       "parallax" : 9,
       "nightCorrelation" : 0,

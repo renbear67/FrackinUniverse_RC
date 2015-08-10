@@ -7,7 +7,7 @@
       "parallax" : 1.2,
       "repeatY" : true,
       "modifiers" : "?saturation=-10",
-      "baseCount" : 4
+      "baseCount" : 6
     }
   ]
 }
