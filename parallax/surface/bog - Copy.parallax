@@ -1,18 +1,17 @@
 {
-    "verticalOrigin" : -15,
 
-
+  "verticalOrigin" : -15,
 
   "layers" : [
     {
-      "kind" : "divider/dirt",
+      "kind" : "divider/alienrock",
       "offset" : [0, 200],
       "nohueshift" : true,
       "lightMapped" : true,
       "parallax" : 1.199
     },
     {
-      "kind" : "tile/dirt",
+      "kind" : "tile/foliage",
       "nohueshift" : true,
       "lightMapped" : true,
       "repeatY" : true,
@@ -20,55 +19,59 @@
       "parallax" : 1.2
     },
     {
-      "kind" : "bloodstoneback",
-      "baseCount" : 3,
-      "offset" : [0, 340],
+      "kind" : "bogback",
+      "offset" : [0, 300],
+      "baseCount" : 5,
       "parallax" : 9,
       "nightCorrelation" : 0,
       "minSpeed" : 0,
-      "maxSpeed" : 0
+      "maxSpeed" : 0,
+      "lightningFrequency" : 0.15,
+      "modifiers" : "",
+      "fadePercent" : 0.15
     },
+
     {
-      "kind" : "bloodstonemid",
+      "kind" : "bogfront",
       "baseCount" : 2,
-      "offset" : [0, 360],
+      "offset" : [0, 330],
       "parallax" : 6,
-      "nightCorrelation" : 0,
-      "minSpeed" : 0,
-      "maxSpeed" : 0
-    },
-    
-    {
-      "kind" : "bloodstonefront",
-      "baseCount" : 1,
-      "offset" : [0, 210],
-      "parallax" : 3,
       "nightCorrelation" : 0,
       "minSpeed" : 0,
       "maxSpeed" : 0,
       "modifiers" : ""
     },
-  //  {
-  //    "kind" : "foliage/treefront",
-  //    "offset" : [0, 245],
-  //    "parallax" : 2.5,
-  //    "directives" : "?saturation=-5?brightness=10",
-  //    "fadePercent" : 0.03
-  //  },
-  //  {
-  //    "kind" : "foliage/treefront",
-  //    "offset" : [0, 225],
-  //    "parallax" : 3,
-  //    "directives" : "?saturation=-10?brightness=5",
-  //    "fadePercent" : 0.03
-  //  },
-  //  {
-  //    "kind" : "foliage/treeback",
-  //    "offset" : [0, 255],
-  //    "parallax" : 3.5,
-  //    "directives" : "?saturation=-5?brightness=10",
-  //    "fadePercent" : 0.03
-  //  },
+    {
+      "kind" : "foliage/treefront",
+      "offset" : [0, 325],
+      "parallax" : 3,
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "modifiers" : "",
+      "fadePercent" : 0.03
+    },
+    {
+      "kind" : "foliage/treefront",
+      "offset" : [0, 355],
+      "parallax" : 2.5,
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "modifiers" : "",
+      "fadePercent" : 0.03
+    },
+    {
+      "kind" : "foliage/treeback",
+      "offset" : [0, 325],
+      "parallax" : 3.5,
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "modifiers" : "",
+      "fadePercent" : 0.03
+    },
+
     {
       "kind" : "clouds3",
       "offset" : [0, 120],
