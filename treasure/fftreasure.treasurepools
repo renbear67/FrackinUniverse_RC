@@ -935,6 +935,27 @@
     ]
 ],
 
+
+"lesserBossTreasure" : [
+    [1, {
+        "pool" : [
+          {"weight" : 0.40, "pool" : "money"},
+          {"weight" : 0.25, "item" : [ "greenslime", 1]},
+          {"weight" : 0.25, "item" : [ "endomorphicjelly", 1]},
+          {"weight" : 0.25, "item" : [ "liquidslime", 2]} 
+        ],
+        "poolRounds" : [
+          [0.23, 1],
+          [0.33, 2],
+          [0.33, 3],
+          [0.33, 4],
+          [0.23, 5]
+        ],
+      "allowDuplication" : true
+      } 
+    ]
+],
+
   "ffelderStarspawnTreasure" : [
     [1, {
         "pool" : [
