@@ -1,6 +1,6 @@
 {
 
-  "verticalOrigin" : -15,
+  "verticalOrigin" : -10,
 
   "layers" : [
     {
@@ -33,7 +33,7 @@
     {
       "kind" : "bognewmid",
       "baseCount" : 1,
-      "offset" : [0, 340],
+      "offset" : [0, 320],
       "parallax" : 7.5,
       "nightCorrelation" : 0,
       "minSpeed" : 0,
@@ -43,7 +43,7 @@
     {
       "kind" : "bognewmid2",
       "baseCount" : 2,
-      "offset" : [0, 330],
+      "offset" : [0, 310],
       "parallax" : 6,
       "nightCorrelation" : 0,
       "minSpeed" : 0,
@@ -53,7 +53,7 @@
     {
       "kind" : "bognewfront",
       "baseCount" : 1,
-      "offset" : [0, 340],
+      "offset" : [0, 310],
       "parallax" : 4,
       "nightCorrelation" : 0,
       "minSpeed" : 0,
@@ -62,7 +62,8 @@
     },
 
     {
-      "kind" : "foliage/treefront",
+      "kind" : "bogplantlayer",
+      "baseCount" : 3,
       "offset" : [0, 435],
       "parallax" : 3,
       "nightCorrelation" : 0,
@@ -72,7 +73,7 @@
       "fadePercent" : 0.03
     },
     {
-      "kind" : "foliage/treefront",
+      "kind" : "bogplantlayer",
       "offset" : [0, 455],
       "parallax" : 2.5,
       "nightCorrelation" : 0,
