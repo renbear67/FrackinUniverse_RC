@@ -1557,13 +1557,14 @@
   "path" : "/regionTypes/bog",
   "value" : 
   {
-      "oceanLiquid" : [ "swampwater" ],
+      //"oceanLiquid" : [ "swampwater" ],
+      //"oceanLevelOffset" : -2,
       "caveLiquid" : [ "swampwater", "poison", "healingliquid" ],
-      "oceanLevelOffset" : -2,
+      "caveLiquidChanceRange" : [99, 100],
       "blockSelector" : [ "remixedSwampySurface", "remixedSurface", "remixedPoolsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves", "fusurfacecaves" ],
       "bgOreSelector" : [ "commonVeins" ],       
-      "caveLiquidChanceRange" : [100, 100],
+
       "biome" : [
         [0, [ "bog" ]]
       ]

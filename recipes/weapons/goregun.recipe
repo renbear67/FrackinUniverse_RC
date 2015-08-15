@@ -1,6 +1,7 @@
 {
   "input" : [
     { "item" : "fleshstrand", "count" : 45 },
+    { "item" : "rottingfleshmaterial", "count" : 15 },
     { "item" : "corruptionseed", "count" : 8 },
     { "item" : "advancealloy", "count" : 4 }
   ],

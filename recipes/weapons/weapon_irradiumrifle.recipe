@@ -1,9 +1,9 @@
 {
   "input" : [
     { "item" : "irradiumbar", "count" : 10 },
-    { "item" : "ceruliumcompound", "count" : 8 },
-    { "item" : "vialproto", "count" : 4 },
-    { "item" : "wire", "count" : 4 }
+    { "item" : "cpu", "count" : 2 },
+    { "item" : "liquidirradium", "count" : 24 },
+    { "item" : "vialproto", "count" : 4 }
   ],
   "output" : {
     "item" : "irradiumrifle",

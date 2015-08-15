@@ -5,7 +5,7 @@
     { "item" : "lead", "count" : 12 },
     { "item" : "haleflowerseed", "count" : 3 },
     { "item" : "ighantseed", "count" : 3 },
-    { "item" : "biochip", "count" : 4 }
+    { "item" : "liquidirradium", "count" : 24 }
   ],
   "output" : {
     "item" : "banehammer",

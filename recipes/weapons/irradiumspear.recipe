@@ -1,6 +1,7 @@
 {
   "input" : [
    { "item" : "irradiumbar", "count" : 5 },
+   { "item" : "liquidirradium", "count" : 3 },
    { "item" : "densealloy", "count" : 5 }
   ],
   "output" : {

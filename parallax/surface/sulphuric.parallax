@@ -41,6 +41,16 @@
       "parallax" : 5.0
     },
     {
+      "kind" : "sulphurfront",
+      "baseCount" : 1,
+      "offset" : [0, 210],
+      "parallax" : 3,
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "modifiers" : ""
+    },
+    {
       "kind" : "clouds3",
       "offset" : [0, 120],
       "parallax" : 9,

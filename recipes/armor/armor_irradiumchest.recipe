@@ -3,7 +3,7 @@
     { "item" : "irradiumbar", "count" : 14 },
     { "item" : "triangliumpyramid", "count" : 6 },
     { "item" : "quietusplate", "count" : 4 },
-    { "item" : "vialproto", "count" : 4 }
+    { "item" : "liquidirradium", "count" : 24 }
   ],
   "output" : {
     "item" : "irradiumchest",
