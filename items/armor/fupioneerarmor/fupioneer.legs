@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Uncommon",
-  "description" : "Titanium pants with a convenient flap for the release of bodily fluids.",
+  "description" : "Titanium pants with a convenient flap for the release of bodily fluids. Immune to mud and clay effects.",
   "shortdescription" : "Pioneer's Pants",
   "tooltipKind" : "armor",
 
@@ -25,7 +25,8 @@
     {
       "stat" : "maxHealth",
       "amount" : 15
-    }
+    },
+    "fumudslowimmunity"
   ],
 
   "triggerKeys" : [ "titaniumarmor" ],

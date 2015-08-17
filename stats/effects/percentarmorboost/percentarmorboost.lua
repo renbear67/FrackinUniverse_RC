@@ -1,19 +1,19 @@
 function init()
   script.setUpdateDelta(5)
   _x = effect.configParameter("healthDown", 0)
-  baseValue = effect.configParameter("healthDown",0)*(status.resource("protection"))
-  if (status.resource("protection")) >= 10
-  effect.addStatModifierGroup({{stat = "protection", amount = baseValue }})
-  else
-  effect.addStatModifierGroup({{stat = "protection", amount = 1 }})
-  endif
-end
+baseValue = effect.configParameter("healthDown",0)*(status.resourceMax("health"))
 
+  if (status.resourceMax("health")) * _x >= 100.0 then
+     effect.addStatModifierGroup({{stat = "protection", amount = baseValue }})
+     else
+     effect.addStatModifierGroup({{stat = "protection", amount = baseValue }})
+  end
+  
+end
 
 function update(dt)
 
 end
-
 
 function uninit()
   

@@ -9,13 +9,18 @@
       "parallax" : 1.0,
       "nohueshift" : true
     },
+    //{
+    //  "kind" : "tidewaterbelow",
+    //  "offset" : [0, 610],
+    //  "parallax" : 1.0,
+    //  "nohueshift" : true
+    //},
     {
-      "kind" : "tidewaterbelow",
+      "kind" : "oceanbelow",
       "offset" : [0, 610],
       "parallax" : 1.0,
       "nohueshift" : true
     },
-
     {
       "kind" : "ocean1",
       "offset" : [0, 282],

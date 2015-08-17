@@ -1,0 +1,10 @@
+{
+  "itemName" : "waterstim",
+  "rarity" : "legendary",
+  "inventoryIcon" : "waterstim.png",
+  "description" : "Drastically increases swimming speed.",
+  "shortdescription" : "Aquatic Celerity Stim",
+  "effects" : [ [
+     "swimboost2"
+    ] ]
+}

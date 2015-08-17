@@ -8,7 +8,7 @@
   "colors" : "/monsters/colors.config",
   "reversed" : true,
 
-  "dropPools" : [ "noMeatMonsterTreasure" ],
+  "dropPools" : [ "ashgolemLoot" ],
 
   "baseParameters" : {
     "scripts" : [
@@ -87,8 +87,6 @@
       "damageSourceKind" : "lash",
       "statusEffects" : [ ]
     },
-
-    "dropPools" : [ "potreasure" ],
 
     "statusSettings" : {
       "statusProperties" : {

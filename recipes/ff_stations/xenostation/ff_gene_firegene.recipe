@@ -4,7 +4,7 @@
     { "item" : "saltpeter", "count" : 8 },
     { "item" : "magnesiumpowder", "count" : 8 },
     { "item" : "ff_fertilizer", "count" : 1 },
-	{ "item" : "liquidoil", "count" : 2 }
+    { "item" : "corefragmentore", "count" : 4 }
   ],
   "output" : {
     "item" : "firegene",

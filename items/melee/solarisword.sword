@@ -10,13 +10,13 @@
   "tooltipKind" : "sword",
   "kind" : "Broadsword",
   "image" : "solarisword.png",
-  "firePosition" : [30.5, 4.5],
+  "firePosition" : [30.5, 0],
   "fireTime" : 0.9,
   "fireAfterWindup" : true,
   "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_twohanded.wav" } ] },
 
   "primaryStances" : {
-	"directional" : false,
+    "directional" : false,
     "projectileType" : "testswoosh2",
     "projectile" : {
       "speed" : 0.1,
@@ -26,7 +26,7 @@
       "twoHanded" : false,
       "armAngle" : -90,
       "swordAngle" : -90,
-      "handPosition" : [-6.0, -17.0],
+      "handPosition" : [-2.0, -21.0],
       "armFrameOverride" : "idleMelee",
       "duration" : 0.1
     },
@@ -34,7 +34,7 @@
       "twoHanded" : true,
       "armAngle" : 90,
       "swordAngle" : 90,
-      "handPosition" : [-6.0, -17.0],
+      "handPosition" : [-2.0, -21.0],
       "duration" : 0.05,
       "statusEffects" : []
     },
@@ -42,7 +42,7 @@
       "twoHanded" : true,
       "armAngle" : -45,
       "swordAngle" : -90,
-      "handPosition" : [-6.0, -27.5],
+      "handPosition" : [-2.0, -27.5],
       "duration" : 0.4,
       "statusEffects" : []
     }
@@ -60,21 +60,21 @@
       "twoHanded" : false,
       "armAngle" : -90,
       "swordAngle" : -90,
-      "handPosition" : [-6.0, -17.0],
+      "handPosition" : [-2.0, -21.0],
       "duration" : 0.1
     },
     "windup" : {
       "twoHanded" : true,
       "armAngle" : 58,
       "swordAngle" : 208,
-      "handPosition" : [15.0, -17.0],
+      "handPosition" : [15.0, -21.0],
       "duration" : 1.0
     },
     "cooldown" : {
       "twoHanded" : false,
       "armAngle" : -90,
       "swordAngle" : -90,
-      "handPosition" : [-6.0, -17.0],
+      "handPosition" : [-2.0, -21.0],
       "duration" : 0.1
     }
   }

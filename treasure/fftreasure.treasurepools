@@ -104,9 +104,9 @@
           {"weight" : 0.001, "item" : [ "skullreaperhelm3", 1]},
           {"weight" : 0.025, "item" : [ "kungfuheadband", 1]},
           {"weight" : 0.045, "item"  : [ "jokeglasses", 1]},
-          {"weight" : 0.01, "item" : [ "steampunkhead", 1]},
-          {"weight" : 0.01, "item" : [ "steampunkchest", 1]},
-          {"weight" : 0.01, "item" : [ "steampunklegs", 1]},
+          {"weight" : 0.008, "item" : [ "steampunkhead", 1]},
+          {"weight" : 0.008, "item" : [ "steampunkchest", 1]},
+          {"weight" : 0.008, "item" : [ "steampunklegs", 1]},
           {"weight" : 0.04, "item"  : [ "duncecap", 1]},
           {"weight" : 0.012, "item" :  [ "longarmpistol-recipe", 1]},
           {"weight" : 0.012, "item" :  [ "longarm-recipe", 1]}, 
@@ -115,17 +115,17 @@
           {"weight" : 0.003, "item" : [ "pinkguardianback-recipe", 1]},
           {"weight" : 0.003, "item" : [ "greenguardianback-recipe", 1]},
           {"weight" : 0.03, "item" : [ "ff_labchest-recipe", 1]},
-          {"weight" : 0.03, "item" : [ "ff_stonechest-recipe", 1]},
-          {"weight" : 0.03, "item" : [ "ff_stonechest2-recipe", 1]},
-          {"weight" : 0.01, "item" : [ "fieldscientisthead2", 1]},
-          {"weight" : 0.01, "item" : [ "fieldscientisthead3", 1]},
-          {"weight" : 0.01, "item" : [ "fieldscientisthead4", 1]},
+          {"weight" : 0.04, "item" : [ "ff_stonechest-recipe", 1]},
+          {"weight" : 0.04, "item" : [ "ff_stonechest2-recipe", 1]},
+          {"weight" : 0.008, "item" : [ "fieldscientisthead2", 1]},
+          {"weight" : 0.007, "item" : [ "fieldscientisthead3", 1]},
+          {"weight" : 0.006, "item" : [ "fieldscientisthead4", 1]},
           {"weight" : 0.012, "item" :  [ "cultiststaff2-recipe", 1]},
           {"weight" : 0.012, "item" :  [ "cultiststaff3-recipe", 1]},
           {"weight" : 0.005, "item" : [ "beammasterhelm", 1]},
-          {"weight" : 0.04, "item" : [ "ff_gasmask", 1]},
-          {"weight" : 0.04, "item" : [ "ff_divingmaskhead", 1]},
-          {"weight" : 0.04, "item" : [ "armoredsnowpants", 1]},
+          {"weight" : 0.02, "item" : [ "ff_gasmask", 1]},
+          {"weight" : 0.02, "item" : [ "ff_divingmaskhead", 1]},
+          {"weight" : 0.02, "item" : [ "armoredsnowpants", 1]},
           {"weight" : 0.005, "item" : [ "ffwizardhat", 1]},          
           {"weight" : 0.04, "item" : [ "basicminer", 1]},
           {"weight" : 0.04, "item" : [ "laspistol", 1]},
@@ -133,20 +133,27 @@
           {"weight" : 0.04, "item" : [ "carbonblade", 1]},
           {"weight" : 0.04, "item" : [ "hardenedsteelblade", 1]},
           {"weight" : 0.04, "item" : [ "ultrastim", 1]},
+          {"weight" : 0.04, "item" : [ "thesauce", 1]},
+          {"weight" : 0.04, "item" : [ "shieldpatch", 1]},
+          {"weight" : 0.04, "item" : [ "thesauce", 1]},
+          {"weight" : 0.04, "item" : [ "uberstim", 1]},
+          {"weight" : 0.04, "item" : [ "waterstim", 1]},
+          {"weight" : 0.04, "item" : [ "protostim", 1]},
+          {"weight" : 0.04, "item" : [ "serumstim", 1]},
           {"weight" : 0.04, "item" : [ "gravstim", 1]},
           {"weight" : 0.04, "item" : [ "portaljuice", 1]},
           {"weight" : 0.04, "item" : [ "crunchychick", 1]},
           {"weight" : 0.04, "item" : [ "portablelight", 1]},
-          {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "flaregun" } ]},
-	  {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "itemlauncher" } ]},
-	  {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "slingshot" } ]},  
-	  {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "randomharpoongun" } ]},
-	  {"weight" : 0.03, "item" : [ "generatedsword", 1, { "definition" : "lightsaber" } ]},
+          {"weight" : 0.005, "item" : [ "generatedgun", 1, { "definition" : "flaregun" } ]},
+	  {"weight" : 0.005, "item" : [ "generatedgun", 1, { "definition" : "itemlauncher" } ]},
+	  {"weight" : 0.005, "item" : [ "generatedgun", 1, { "definition" : "slingshot" } ]},  
+	  {"weight" : 0.005, "item" : [ "generatedgun", 1, { "definition" : "randomharpoongun" } ]},
+	  {"weight" : 0.003, "item" : [ "generatedsword", 1, { "definition" : "lightsaber" } ]},
 	  {"weight" : 0.025, "item" : [ "fuearphones-recipe", 1]},
 	  {"weight" : 0.025, "item" : [ "fuhoodedmask-recipe", 1]},
-	  {"weight" : 0.04, "item" : [ "druidcannon-recipe", 1]},
-	  {"weight" : 0.04, "item" : [ "druidstaff-recipe", 1]},
-	  {"weight" : 0.02, "item" : [ "biopistol-recipe", 1]},
+	  {"weight" : 0.004, "item" : [ "druidcannon-recipe", 1]},
+	  {"weight" : 0.004, "item" : [ "druidstaff-recipe", 1]},
+	  {"weight" : 0.002, "item" : [ "biopistol-recipe", 1]},
         {"weight" : 0.08, "item" : ["adaptivecells", 1]},
         {"weight" : 0.08, "item" : ["aggressiongene", 1]},
         {"weight" : 0.08, "item" : ["aquaticcelerity", 1]},
@@ -261,13 +268,13 @@
           {"weight" : 0.0111, "item" : [ "metalchunk", 5]},
           {"weight" : 0.0111, "item" : [ "ff_spareparts", 5]},
           {"weight" : 0.0111, "item" : [ "protorockmaterial", 5]},
-          {"weight" : 0.001, "item" :  [ "fieldscientisthead2", 1]},
-          {"weight" : 0.001, "item" :  [ "fieldscientisthead3", 1]},
-          {"weight" : 0.001, "item" :  [ "fieldscientisthead4", 1]},  
-          {"weight" : 0.012, "item" :  [ "fuarmoredcultistback-recipe", 1]},    
-          {"weight" : 0.012, "item" :  [ "fuarmoredcultisthead-recipe", 1]},
-	  {"weight" : 0.012, "item" :  [ "fuarmoredcultistchest-recipe", 1]},
-          {"weight" : 0.012, "item" :  [ "fuarmoredcultistlegs-recipe", 1]},
+          {"weight" : 0.005, "item" :  [ "fieldscientisthead2", 1]},
+          {"weight" : 0.004, "item" :  [ "fieldscientisthead3", 1]},
+          {"weight" : 0.003, "item" :  [ "fieldscientisthead4", 1]},  
+          {"weight" : 0.007, "item" :  [ "fuarmoredcultistback-recipe", 1]},    
+          {"weight" : 0.007, "item" :  [ "fuarmoredcultisthead-recipe", 1]},
+	  {"weight" : 0.007, "item" :  [ "fuarmoredcultistchest-recipe", 1]},
+          {"weight" : 0.007, "item" :  [ "fuarmoredcultistlegs-recipe", 1]},
           {"weight" : 0.001, "item" :  [ "yellowguardianback-recipe", 1]},
           {"weight" : 0.001, "item" :  [ "blueguardianback-recipe", 1]},
           {"weight" : 0.001, "item" :  [ "pinkguardianback-recipe", 1]},
@@ -297,20 +304,27 @@
           {"weight" : 0.001, "item" :  [ "fubonusarmorchest-recipe", 1]},
 	  {"weight" : 0.001, "item" :  [ "fubonusarmorhead-recipe", 1]},
           {"weight" : 0.04, "item" : [ "ultrastim", 1]},
+          {"weight" : 0.04, "item" : [ "thesauce", 1]},
+          {"weight" : 0.04, "item" : [ "uberstim", 1]},
+          {"weight" : 0.04, "item" : [ "waterstim", 1]},
+          {"weight" : 0.04, "item" : [ "protostim", 1]},
+          {"weight" : 0.04, "item" : [ "shieldpatch", 1]},
+          {"weight" : 0.04, "item" : [ "serumstim", 1]},
           {"weight" : 0.04, "item" : [ "gravstim", 1]},
+          {"weight" : 0.04, "item" : [ "shieldpatch", 1]},
           {"weight" : 0.04, "item" : [ "portaljuice", 1]},
           {"weight" : 0.04, "item" : [ "crunchychick", 1]},
           {"weight" : 0.04, "item" : [ "portablelight", 1]},	  
           {"weight" : 0.04, "item" : [ "hellfirehelm", 1]},
-          {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "flaregun" } ]},
-	  {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "itemlauncher" } ]},
-	  {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "slingshot" } ]},  
-	  {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "randomharpoongun" } ]},
-          {"weight" : 0.001, "item" :  [ "fubonusarmorpants-recipe", 1]},
-          {"weight" : 0.03, "item" : [ "generatedsword", 1, { "definition" : "lightsaber" } ]},
-          {"weight" : 0.04, "item" : [ "druidcannon-recipe", 1]},
-	  {"weight" : 0.04, "item" : [ "druidstaff-recipe", 1]},
-	  {"weight" : 0.02, "item" : [ "biopistol-recipe", 1]},
+          {"weight" : 0.008, "item" : [ "generatedgun", 1, { "definition" : "flaregun" } ]},
+	  {"weight" : 0.008, "item" : [ "generatedgun", 1, { "definition" : "itemlauncher" } ]},
+	  {"weight" : 0.008, "item" : [ "generatedgun", 1, { "definition" : "slingshot" } ]},  
+	  {"weight" : 0.008, "item" : [ "generatedgun", 1, { "definition" : "randomharpoongun" } ]},
+          {"weight" : 0.003, "item" :  [ "fubonusarmorpants-recipe", 1]},
+          {"weight" : 0.008, "item" : [ "generatedsword", 1, { "definition" : "lightsaber" } ]},
+          {"weight" : 0.008, "item" : [ "druidcannon-recipe", 1]},
+	  {"weight" : 0.008, "item" : [ "druidstaff-recipe", 1]},
+	  {"weight" : 0.003, "item" : [ "biopistol-recipe", 1]},
         {"weight" : 0.08, "item" : ["adaptivecells", 1]},
         {"weight" : 0.08, "item" : ["aggressiongene", 1]},
         {"weight" : 0.08, "item" : ["aquaticcelerity", 1]},
@@ -874,6 +888,12 @@
           {"weight" : 0.04, "item" : [ "carbonblade", 1]},
           {"weight" : 0.04, "item" : [ "hardenedsteelblade", 1]},
           {"weight" : 0.04, "item" : [ "ultrastim", 1]},
+          {"weight" : 0.04, "item" : [ "thesauce", 1]},
+          {"weight" : 0.04, "item" : [ "uberstim", 1]},
+          {"weight" : 0.04, "item" : [ "shieldpatch", 1]},
+          {"weight" : 0.04, "item" : [ "waterstim", 1]},
+          {"weight" : 0.04, "item" : [ "protostim", 1]},
+          {"weight" : 0.04, "item" : [ "serumstim", 1]},
           {"weight" : 0.04, "item" : [ "gravstim", 1]},
           {"weight" : 0.04, "item" : [ "portaljuice", 1]},
           {"weight" : 0.04, "item" : [ "crunchychick", 1]},
@@ -919,9 +939,63 @@
     [1, {
         "pool" : [
           {"weight" : 0.40, "pool" : "money"},
-          {"weight" : 0.25, "item" : [ "greenslime", 1]},
-          {"weight" : 0.25, "item" : [ "endomorphicjelly", 1]},
-          {"weight" : 0.25, "item" : [ "liquidslime", 2]} 
+          {"weight" : 0.60, "item" : [ "greenslime", 1]},
+          {"weight" : 0.60, "item" : [ "endomorphicjelly", 1]},
+          {"weight" : 0.60, "item" : [ "liquidslime", 2]},
+          {"weight" : 0.005, "item" : [ "ff_slimechest3", 1]},
+          {"weight" : 0.005, "item" : [ "ff_slimelegs3", 1]},
+          {"weight" : 0.005, "item" : [ "ff_slimehead3", 1]},
+          {"weight" : 0.005, "item" : [ "skullreaperhelm", 1]},
+          {"weight" : 0.003, "item" : [ "skullreaperhelm2", 1]},
+          {"weight" : 0.001, "item" : [ "skullreaperhelm3", 1]},
+          {"weight" : 0.009, "item" : [ "fieldscientisthead2", 1]},
+          {"weight" : 0.009, "item" : [ "fieldscientisthead3", 1]},
+          {"weight" : 0.009, "item" : [ "fieldscientisthead4", 1]},
+          {"weight" : 0.005, "item" : [ "beammasterhelm", 1]},
+          {"weight" : 0.009, "item" : [ "ff_gasmask", 1]},
+          {"weight" : 0.009, "item" : [ "ff_divingmaskhead", 1]},
+          {"weight" : 0.009, "item" : [ "armoredsnowpants", 1]},
+          {"weight" : 0.005, "item" : [ "ffwizardhat", 1]},          
+          {"weight" : 0.007, "item" : [ "laspistol", 1]},
+          {"weight" : 0.007, "item" : [ "bloodyknife", 1]},
+          {"weight" : 0.007, "item" : [ "carbonblade", 1]},
+          {"weight" : 0.04, "item" : [ "hardenedsteelblade", 1]},
+          {"weight" : 0.04, "item" : [ "ultrastim", 1]},
+          {"weight" : 0.04, "item" : [ "thesauce", 1]},
+          {"weight" : 0.04, "item" : [ "shieldpatch", 1]},
+          {"weight" : 0.04, "item" : [ "thesauce", 1]},
+          {"weight" : 0.04, "item" : [ "uberstim", 1]},
+          {"weight" : 0.04, "item" : [ "waterstim", 1]},
+          {"weight" : 0.04, "item" : [ "protostim", 1]},
+          {"weight" : 0.04, "item" : [ "serumstim", 1]},
+          {"weight" : 0.04, "item" : [ "gravstim", 1]},
+          {"weight" : 0.04, "item" : [ "portaljuice", 1]},
+          {"weight" : 0.04, "item" : [ "crunchychick", 1]},
+          {"weight" : 0.04, "item" : [ "portablelight", 1]},
+          {"weight" : 0.008, "item" : [ "generatedgun", 1, { "definition" : "uncommongrenadelauncher" } ]},
+          {"weight" : 0.008, "item" : [ "generatedgun", 1, { "definition" : "uncommonassaultrifle" } ]},
+          {"weight" : 0.008, "item" : [ "generatedgun", 1, { "definition" : "uncommonshotgun" } ]},
+          {"weight" : 0.008, "item" : [ "generatedgun", 1, { "definition" : "uncommonplasmashotgun" } ]},
+          {"weight" : 0.008, "item" : [ "generatedgun", 1, { "definition" : "uncommonsniperrifle" } ]},
+          {"weight" : 0.008, "item" : [ "generatedgun", 1, { "definition" : "uncommonplasmasniperrifle" } ]},
+          {"weight" : 0.008, "item" : [ "generatedgun", 1, { "definition" : "uncommonpistol" } ]},
+          {"weight" : 0.008, "item" : [ "generatedgun", 1, { "definition" : "uncommonmachinepistol" } ]},
+          {"weight" : 0.008, "item" : [ "generatedgun", 1, { "definition" : "uncommonrocketlauncher" } ]},
+          {"weight" : 0.008, "item" : [ "generatedsword", 1, { "definition" : "uncommonaxe" } ]},
+          {"weight" : 0.008, "item" : [ "generatedsword", 1, { "definition" : "uncommonspear" } ]},
+          {"weight" : 0.008, "item" : [ "generatedsword", 1, { "definition" : "uncommonhammer" } ]},
+          {"weight" : 0.008, "item" : [ "generatedsword", 1, { "definition" : "uncommondagger" } ]},
+          {"weight" : 0.008, "item" : [ "generatedsword", 1, { "definition" : "uncommonshortsword" } ]},
+          {"weight" : 0.008, "item" : [ "generatedgun", 1, { "definition" : "flaregun" } ]},
+	  {"weight" : 0.008, "item" : [ "generatedgun", 1, { "definition" : "itemlauncher" } ]},
+	  {"weight" : 0.008, "item" : [ "generatedgun", 1, { "definition" : "slingshot" } ]},  
+	  {"weight" : 0.008, "item" : [ "generatedgun", 1, { "definition" : "randomharpoongun" } ]},
+	  {"weight" : 0.006, "item" : [ "generatedsword", 1, { "definition" : "lightsaber" } ]},
+	  {"weight" : 0.04, "item" : [ "fuearphones-recipe", 1]},
+	  {"weight" : 0.04, "item" : [ "fuhoodedmask-recipe", 1]},
+	  {"weight" : 0.005, "item" : [ "druidcannon-recipe", 1]},
+	  {"weight" : 0.005, "item" : [ "druidstaff-recipe", 1]},
+	  {"weight" : 0.003, "item" : [ "biopistol-recipe", 1]}          
         ],
         "poolRounds" : [
           [0.23, 1],
@@ -945,9 +1019,9 @@
           {"weight" : 0.25, "item" : [ "liquidslime", 2]} 
         ],
         "poolRounds" : [
-          [0.23, 1],
-          [0.33, 2],
-          [0.33, 3],
+          [0.33, 1],
+          [0.43, 2],
+          [0.43, 3],
           [0.33, 4],
           [0.23, 5]
         ],
@@ -1066,5 +1140,200 @@
       "allowDuplication" : true
       } 
     ]
-  ]
+  ],
+  
+  
+
+"shadowhoundLoot" : [
+    [1, {
+        "pool" : [
+          {"weight" : 0.50, "pool" : "money"},
+          {"weight" : 0.25, "item" : [ "algaegreen", 5]},
+          {"weight" : 0.25, "item" : [ "algaegreen", 10]},
+          {"weight" : 0.25, "item" : [ "biospore", 5]},
+          {"weight" : 0.25, "item" : [ "biospore", 10]},
+          {"weight" : 0.25, "item" : [ "algaegreen", 5]},
+          {"weight" : 0.25, "item" : [ "aminoacid", 2]},
+          {"weight" : 0.15, "item" : [ "penumbriteore", 2]},
+          {"weight" : 0.10, "item" : [ "penumbriteore", 3]},
+          {"weight" : 0.05, "item" : [ "penumbriteore", 4]}
+        ],
+        "poolRounds" : [
+          [0.23, 1],
+          [0.33, 2]
+        ],
+      "allowDuplication" : true
+      } 
+    ]
+],  
+  
+
+"ashgolemLoot" : [
+    [1, {
+        "pool" : [
+          {"weight" : 0.50, "pool" : "money"},
+          {"weight" : 0.25, "item" : [ "magmawall1", 25]},
+          {"weight" : 0.25, "item" : [ "magmawall2", 25]},
+          {"weight" : 0.25, "item" : [ "magmawall3", 25]},
+          {"weight" : 0.25, "item" : [ "magmawall4", 25]},
+          {"weight" : 0.15, "item" : [ "unstableparticles", 1]},
+          {"weight" : 0.25, "item" : [ "corefragmentore", 5]},
+          {"weight" : 0.25, "item" : [ "liquidlava", 20]},
+          {"weight" : 0.25, "item" : [ "liquidoil", 20]},
+          {"weight" : 0.25, "item" : [ "cinnabarore", 2]},
+          {"weight" : 0.20, "item" : [ "cinnabarore", 4]},
+          {"weight" : 0.15, "item" : [ "cinnabarore", 8]},
+          {"weight" : 0.10, "item" : [ "cinnabarore", 12]},
+          {"weight" : 0.05, "item" : [ "cinnabarore", 20]}
+        ],
+        "poolRounds" : [
+          [0.13, 1],
+          [0.23, 2],
+          [0.33, 1],
+          [0.43, 1]
+        ],
+      "allowDuplication" : true
+      } 
+    ]
+],  
+
+
+"bloodgolemLoot" : [
+    [1, {
+        "pool" : [
+          {"weight" : 0.50, "pool" : "money"},
+          {"weight" : 0.25, "item" : [ "bloodsandmaterial", 25]},
+          {"weight" : 0.25, "item" : [ "bloodstonematerial", 25]},
+          {"weight" : 0.25, "item" : [ "bloodstonewall", 25]},
+          {"weight" : 0.25, "item" : [ "bloodstonewall2", 25]},
+          {"weight" : 0.05, "item" : [ "unstableparticles", 1]},
+          {"weight" : 0.15, "item" : [ "liquidblood", 50]},
+          {"weight" : 0.25, "item" : [ "quietusore", 1]},
+          {"weight" : 0.15, "item" : [ "quietusore", 3]},
+          {"weight" : 0.10, "item" : [ "quietusore", 5]},
+          {"weight" : 0.05, "item" : [ "quietusore", 7]}
+        ],
+        "poolRounds" : [
+          [0.23, 1],
+          [0.33, 2],
+          [0.33, 2]
+        ],
+      "allowDuplication" : true
+      } 
+    ]
+], 
+
+
+"targolemLoot" : [
+    [1, {
+        "pool" : [
+          {"weight" : 0.50, "pool" : "money"},
+          {"weight" : 0.25, "item" : [ "tarstonematerial", 50]},
+          {"weight" : 0.25, "item" : [ "tar", 50]},
+          {"weight" : 0.25, "item" : [ "liquidblacktar", 50]},
+          {"weight" : 0.15, "item" : [ "liquidoil", 50]},
+          {"weight" : 0.05, "item" : [ "unstableparticles", 1]},
+          {"weight" : 0.20, "item" : [ "vialproto", 12]},
+          {"weight" : 0.20, "item" : [ "liquidirradium", 12]},
+          {"weight" : 0.20, "item" : [ "liquidelderfluid", 12]},
+          {"weight" : 0.20, "item" : [ "liquidbioooze", 12]}
+        ],
+        "poolRounds" : [
+          [0.23, 1],
+          [0.33, 2],
+          [0.33, 2]
+        ],
+      "allowDuplication" : true
+      } 
+    ]
+], 
+
+
+"toxicgolemLoot" : [
+    [1, {
+        "pool" : [
+          {"weight" : 0.50, "pool" : "money"},
+          {"weight" : 0.25, "item" : [ "irradiatedwall", 25]},
+          {"weight" : 0.25, "item" : [ "irradiatedwall2", 25]},
+          {"weight" : 0.25, "item" : [ "irradiatedwall3", 25]},
+          {"weight" : 0.25, "item" : [ "waste", 25]},
+          {"weight" : 0.25, "item" : [ "irradiumore", 1]},
+          {"weight" : 0.15, "item" : [ "liquidblood", 50]},
+          {"weight" : 0.20, "item" : [ "liquidsulphuricacid", 12]},
+          {"weight" : 0.15, "item" : [ "liquidpus", 12]},
+          {"weight" : 0.10, "item" : [ "liquidmercury", 12]},
+          {"weight" : 0.05, "item" : [ "liquidbioooze", 12]}
+        ],
+        "poolRounds" : [
+          [0.23, 1],
+          [0.33, 2],
+          [0.33, 2]
+        ],
+      "allowDuplication" : true
+      } 
+    ]
+],
+
+  
+
+"fleshblobLoot" : [
+    [1, {
+        "pool" : [
+          {"weight" : 0.40, "pool" : "money"},
+          {"weight" : 0.65, "item" : [ "fleshstrand", 1]},
+          {"weight" : 0.45, "item" : [ "fleshstrand", 2]},
+          {"weight" : 0.25, "item" : [ "fleshstrand", 4]} 
+        ],
+        "poolRounds" : [
+          [0.23, 1],
+          [0.33, 2]
+        ],
+      "allowDuplication" : true
+      } 
+    ]
+],
+
+
+
+"ratthingLoot" : [
+    [1, {
+        "pool" : [
+          {"weight" : 0.40, "pool" : "money"},
+          {"weight" : 0.25, "item" : [ "leather", 1]},
+          {"weight" : 0.25, "item" : [ "liquidbioooze", 2]},
+          {"weight" : 0.25, "item" : [ "liquidelderfluid", 2]} 
+        ],
+        "poolRounds" : [
+          [0.23, 1],
+          [0.33, 2]
+        ],
+      "allowDuplication" : true
+      } 
+    ]
+],
+
+
+
+"shoggothLoot" : [
+    [1, {
+        "pool" : [
+          {"weight" : 0.40, "pool" : "money"},
+          {"weight" : 0.25, "item" : [ "greenslime", 1]},
+          {"weight" : 0.25, "item" : [ "endomorphicjelly", 1]},
+          {"weight" : 0.25, "item" : [ "liquidslime", 2]} 
+        ],
+        "poolRounds" : [
+          [0.23, 1],
+          [0.33, 2],
+          [0.33, 3],
+          [0.33, 4],
+          [0.23, 5]
+        ],
+      "allowDuplication" : true
+      } 
+    ]
+]
+
+
+
 }

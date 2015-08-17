@@ -43,7 +43,7 @@
     {
       "kind" : "sulphurfront",
       "baseCount" : 1,
-      "offset" : [0, 210],
+      "offset" : [0, 260],
       "parallax" : 3,
       "nightCorrelation" : 0,
       "minSpeed" : 0,

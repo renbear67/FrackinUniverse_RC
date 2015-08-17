@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "rare",
-  "description" : "High energy reserve.",
+  "description" : "High energy reserve, immunity to Insanity.",
   "shortdescription" : "Beam-Master helm",
   "tooltipKind" : "armor",
 
@@ -23,7 +23,8 @@
     {
       "stat" : "protection",
       "amount" : 90
-    }
+    }, 
+    "insanityimmunity"
   ]
 
 }

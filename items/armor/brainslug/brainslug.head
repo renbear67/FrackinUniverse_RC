@@ -13,7 +13,7 @@
   "mask" : "mask.png",
 
   "statusEffects" : [
-    "brainslug"
+    "brainslug", "insanity"
   ]
 
 }
