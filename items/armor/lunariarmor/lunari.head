@@ -13,20 +13,22 @@
   "mask" : "mask.png",
 
   "statusEffects" : [
-      {
-        "stat" : "maxHealth",
-        "amount" : 30
-      },
-      {
-        "stat" : "maxenergy",
-        "amount" : 30
-      },
-      {
-        "stat" : "protection",
-        "amount" : 40
-      }
-  ],
+    {
+      "stat" : "protection",
+      "amount" : 15
+    },
 
+    {
+      "stat" : "maxEnergy",
+      "amount" : 39
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 11
+    }
+  ],
+  "questTags" : [ "titaniumarmor" ],
   "colorOptions" : [
     { "ffca8a" : "fffdb0", "e0975c" : "cbc234", "a85636" : "926e19", "6f2919" : "563f0f" },
     { "ffca8a" : "727272", "e0975c" : "414141", "a85636" : "1c1c1c", "6f2919" : "0b0b0b" },

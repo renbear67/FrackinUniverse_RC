@@ -12,16 +12,22 @@
   "femaleFrames" : "pants.png",
 
   "statusEffects" : [
-      {
-        "stat" : "maxEnergy",
-        "amount" : 30
-      },
-      {
-        "stat" : "protection",
-        "amount" : 40
-      }
-  ],
+    {
+      "stat" : "protection",
+      "amount" : 11
+    },
 
+    {
+      "stat" : "maxEnergy",
+      "amount" : 27
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 8
+    }
+  ],
+  "questTags" : [ "titaniumarmor" ],
   "colorOptions" : [
     { "ffca8a" : "fffdb0", "e0975c" : "cbc234", "a85636" : "926e19", "6f2919" : "563f0f" },
     { "ffca8a" : "727272", "e0975c" : "414141", "a85636" : "1c1c1c", "6f2919" : "0b0b0b" },

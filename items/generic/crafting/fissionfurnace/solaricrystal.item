@@ -2,6 +2,7 @@
   "itemName" : "solaricrystal",
   "rarity" : "Common",
   "inventoryIcon" : "solaricrystal.png",
-  "description" : "Condensed, recrystalized Lunari crystal.",
-  "shortdescription" : "Lunari Crystal"
+  "description" : "Condensed and hardened Lunari crystal.",
+  "shortdescription" : "Lunari Crystal",
+  "learnBlueprintsOnPickup" : [ "lunarichest", "lunarihead", "lunarilegs", "lunarishield" ]
 }

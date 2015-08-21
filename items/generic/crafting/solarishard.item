@@ -2,7 +2,7 @@
   "itemName" : "solarishard",
   "rarity" : "Common",
   "inventoryIcon" : "solarishard.png",
-  "description" : "A unique crystalline material.",
+  "description" : "A sparkling yellow crystal shard.",
   "shortdescription" : "Lunari Shard",
   "learnBlueprintsOnPickup" : [ "icecrystal", "solaricrystal", "solarisword", "solarihammer", "solariblade", "solarispear" ]
 }
