@@ -1,0 +1,32 @@
+{
+  "itemName" : "quietushead",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "Strong, resilient and fashionable.",
+  "shortdescription" : "Quietus Helm",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+    {
+      "stat" : "protection",
+      "amount" : 27
+    },
+
+    {
+      "stat" : "maxEnergy",
+      "amount" : 52
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 27
+    },
+    "regeneration01"
+  ]
+}

@@ -5,6 +5,6 @@
   "description" : "A thick plate made of Quietus.",
   "category" : "Metal Plate",
   "shortdescription" : "^#b84cbc;Quietus Plate^white;",
-   "learnBlueprintsOnPickup" : [ "mmgravgun"  ]
+  "learnBlueprintsOnPickup" : [ "mmgravgun", "quietushead", "quietuschest", "quietuslegs"  ]
 }
 

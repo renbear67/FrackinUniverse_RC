@@ -31,7 +31,7 @@
       "duration" : 0.1
     },
     "windup" : {
-      "twoHanded" : true,
+      "twoHanded" : false,
       "armAngle" : 90,
       "swordAngle" : 90,
       "handPosition" : [-3.0, -17.0],
@@ -39,7 +39,7 @@
       "statusEffects" : []
     },
     "cooldown" : {
-      "twoHanded" : true,
+      "twoHanded" : false,
       "armAngle" : -45,
       "swordAngle" : -90,
       "handPosition" : [-3.0, -27.5],
