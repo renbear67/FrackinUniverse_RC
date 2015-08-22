@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "rare",
-  "description" : "Strong, resilient and fashionable.",
+  "description" : "Strong, resilient and fashionable. Grants immunity to ice, mud, fire, black tar, pus and sulphuric acid.",
   "shortdescription" : "Quietus Chestplate",
   "tooltipKind" : "armor",
 
@@ -34,6 +34,7 @@
     {
       "stat" : "maxHealth",
       "amount" : 44
-    }
+    },
+    "quietuseffects"
   ]
 }

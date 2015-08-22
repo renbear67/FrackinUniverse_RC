@@ -1,0 +1,16 @@
+{
+  "input" : [
+    { "item" : "shadowgascannister", "count" : 24 },
+    { "item" : "wretchel", "count" : 12 },
+    { "item" : "densiniumbar", "count" : 4 },
+    { "item" : "irradiumbar", "count" : 6 },
+    { "item" : "magneticshielding", "count" : 4 },
+    { "item" : "aichip", "count" : 2 },
+    { "item" : "particlecore", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "voidstorage",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "genetics", "all", "tools" ]
+}
