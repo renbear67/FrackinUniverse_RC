@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "inventoryIcon" : "irradiatedstone.png",
   "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
-  "shortdescription" : "Radioactive Stone",
+  "shortdescription" : "Radioactive Soil",
   "description" : "This can't be safe.",
 
   "materialId" : 6566

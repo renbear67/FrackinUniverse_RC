@@ -197,10 +197,10 @@
         "mode" : "floor",
         "priority" : 3.0,
         "variants" : 1,
-        "distribution" : "/biomes/distributions.config:randomEncounter",
+        "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
 
         "type" : "microdungeon",
-        "microdungeons" : [ "randomencounter", "avianencounter", "glitchencounter" ]
+        "microdungeons" : [ "desertmicrodungeons" ]
       },
       {
         "mode" : "floor",

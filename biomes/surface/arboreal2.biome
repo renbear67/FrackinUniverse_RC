@@ -162,7 +162,7 @@
           "mode" : "floor",
           "priority" : 1.0,
           "variants" : 1,
-          "distribution" : "/biomes/distributions.config:ffunCommon",
+          "distribution" : "/biomes/distributions.config:surfaceCrops",
 
           "type" : "object",
           "objectSets" : [
@@ -407,10 +407,10 @@
           "mode" : "floor",
           "priority" : 3.0,
           "variants" : 1,
-          "distribution" : "/biomes/distributions.config:randomEncounter",
+          "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "newhumanmicro", "newavianmicro", "minigreenruins", "randomencounter", "fuencountercultist" ]
+          "microdungeons" : [ "newhumanmicro", "newavianmicro", "minigreenruins", "forestmicrodungeons", "fuencountercultist" ]
         },
         {
           "mode" : "floor",
