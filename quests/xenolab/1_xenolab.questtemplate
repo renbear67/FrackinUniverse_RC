@@ -4,8 +4,8 @@
   "prerequisites" : [ "8_toxenolab.gearup" ],
   "text" : "Statement. You need a ^orange;Xeno Research Lab^white;. You'll conduct your research there in order to create new forms of plant life.",
   "completionText" : "Emphasis. Congratulations on your creation. Let us celebrate by working.",
-  "conditions" : [ 
-    { "kind" : "gather", "item" : [ "xenostation", 1], "consume" : false }
+  "completionConditions" : [ 
+    { "kind" : "gather", "item" : "xenostation", "consume" : false }
   ],
   "moneyRange" : [0,0],
   "rewards" : [],

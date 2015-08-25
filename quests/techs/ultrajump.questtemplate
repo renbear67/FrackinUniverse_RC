@@ -4,8 +4,8 @@
   "title" : "^orange;Ultra-Jump Harness",
   "text" : "You've unlocked the Ultra-Jump Harness. This tech allows you to jump forever, until you're out of energy.",
   "completionText" : "You've unlocked the Grav-Jump Harness. This tech allows you to rapidly jump until you run out of energy.",
-  "conditions" : [
-    { "kind" : "gather", "item" : [ "ultrajumptechgrant", 1], "consume" : true }
+  "completionConditions" : [
+    { "kind" : "gather", "item" : "ultrajumptechgrant", "consume" : true }
   ],
   "moneyRange" : [0, 0],
   "rewards" : [

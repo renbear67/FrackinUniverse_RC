@@ -4,7 +4,7 @@
   "particleColor" : [12, 220, 12, 255],
   "itemDrop" : "irradiatedwall3",
   "description" : "Yea, this definitely is NOT safe to touch.",
-  "shortdescription" : "Radioactive Stone",
+  "shortdescription" : "Radioactive Rock",
   "footstepSound" : "/sfx/blocks/footstep_stone2.wav",
   "health" : 8,
   "soil" : true,

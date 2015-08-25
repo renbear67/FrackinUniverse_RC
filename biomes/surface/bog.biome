@@ -229,6 +229,20 @@
             }
           ]
         },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "gasprimer" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
         {
           "mode" : "floor",
           "priority" : 1.0,
@@ -363,10 +377,10 @@
           "mode" : "floor",
           "priority" : 3.0,
           "variants" : 1,
-          "distribution" : "/biomes/distributions.config:randomEncounter",
+          "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
 
           "type" : "microdungeon",
-          "microdungeons" : [  "fuencountercultist", "newhumanmicro", "newavianmicro", "minigreenruins", "randomencounter", "glitchencounter", "shroomencounter" ]
+          "microdungeons" : [  "fuencountercultist", "newhumanmicro", "newavianmicro", "minigreenruins", "swampmicrodungeons" ]
         },
         {
           "mode" : "floor",

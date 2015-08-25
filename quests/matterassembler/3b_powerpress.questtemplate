@@ -4,8 +4,8 @@
   "title" : "^#1693d5;Power Press",
   "text" : "A ^#orange;Power Press^white; creates metal plates, alloys and presses other materials into useful goods.You're going to need one, pronto. Go ahead and make one now.",
   "completionText" : "Without the ^orange;power press^white;, you'd have problems .",
-  "conditions" : [ 
-    { "kind" : "gather", "item" : [ "powerpress", 1], "consume" : false }
+  "completionConditions" : [ 
+    { "kind" : "gather", "item" : "powerpress", "consume" : false }
   ],
   "moneyRange" : [0,0],
   "rewards" : [],

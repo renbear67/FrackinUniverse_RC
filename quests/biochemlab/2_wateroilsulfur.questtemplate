@@ -3,10 +3,10 @@
   "title" : "^#1693d5;Water, Oil and Sulphur",
   "text" : "Speaking of resources, you'd better gather some right now. Let's say, ^green;20 ^orange;sulphur^white;, ^green;20 units of ^orange;oil^white; and ^green;20 units of ^orange;water^white;.",
   "completionText" : "Great. This can be consumed pretty fast so remember where you got them.",
-  "conditions" : [ 
-    { "kind" : "gather", "item" : [ "sulphur", 20], "consume" : false },
-    { "kind" : "gather", "item" : [ "liquidoil", 20], "consume" : false },
-    { "kind" : "gather", "item" : [ "liquidwater", 20], "consume" : false }
+  "completionConditions" : [ 
+    { "kind" : "gather", "item" : "sulphur", "count" :20, "consume" : false },
+    { "kind" : "gather", "item" : "liquidoil", "count" :20, "consume" : false },
+    { "kind" : "gather", "item" : "liquidwater","count" :20, "consume" : false }
   ],
   "moneyRange" : [0,0],
   "rewards" : [],

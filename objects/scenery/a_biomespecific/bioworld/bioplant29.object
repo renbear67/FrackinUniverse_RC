@@ -22,10 +22,10 @@
   ],
   "smashSounds" : [ "/sfx/tools/axe_chop_alt_heavy.wav" ],
   "smashDropOptions" : [
-    [ [ "glowfibreblue", 1, { } ] ]
+    [ [ "glowfibre", 1, { } ] ]
   ],
 
   "breakDropOptions" : [
-    [ [ "glowfibreblue", 1, { } ] ]
+    [ [ "glowfibre", 1, { } ] ]
   ]
 }

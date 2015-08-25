@@ -4,7 +4,7 @@
   "title" : "^#1693d5;Assassin's Plight",
   "text" : "I needss to kill targetss but my weaponsses are lacking. Can you bringing meess a ^orange;Thornitox bladess^white;?",
   "completionText" : "Thanking you I isss. Now I try stabss on thingss.",
-  "conditions" : [ { "kind" : "gather", "item" : [ "spikesword", 1], "consume" : true } ],
+  "completionConditions" : [ { "kind" : "gather", "item" : "spikesword", "consume" : true } ],
   "moneyRange" : [210,290],
   "rewards" : [ 
     [ [ "crunchychick", 1 ] ]

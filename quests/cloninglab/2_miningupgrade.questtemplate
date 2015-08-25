@@ -4,8 +4,8 @@
   "title" : "^#39bc2f;Mine all Mine",
   "text" : "Take your ^white;basic mining laser^white;, and tinker with it in the ^orange;Nano-Fabricator^white;. I think you can come up with ^green;something special to help you dig^white;.",
   "completionText" : "The ^orange;Nano-Fabricator^white; can do a great deal. You'll think of new things to do with it as you explore the universe!",  
-  "conditions" : [ 
-    { "kind" : "gather", "item" : [ "protominer", 1], "consume" : false }
+  "completionConditions" : [ 
+    { "kind" : "gather", "item" : "protominer", "consume" : false }
   ],
 
   "moneyRange" : [0,0],

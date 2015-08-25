@@ -4,8 +4,8 @@
   "title" : "^#1693d5;Gene Design Lab",
   "text" : "To ssstart, you need a ^orange;Gene Design Lab^white;. This is where your ssstrange plantsss are ssspliced! Build one now.",
   "completionText" : "Good. Now you huntssss.",
-  "conditions" : [ 
-    { "kind" : "gather", "item" : [ "designlab", 1], "consume" : false }
+  "completionConditions" : [ 
+    { "kind" : "gather", "item" : "designlab", "consume" : false }
   ],
   "moneyRange" : [0,0],
   "rewards" : [],

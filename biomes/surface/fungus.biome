@@ -284,10 +284,10 @@
           "mode" : "floor",
           "priority" : 3.0,
           "variants" : 1,
-          "distribution" : "/biomes/distributions.config:randomEncounter",
+          "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
 
           "type" : "microdungeon",
-          "microdungeons" : [  "fuencountercultist", "newhumanmicro", "newavianmicro", "minigreenruins", "randomencounter", "shroomencounter" ]
+          "microdungeons" : [  "fuencountercultist", "newhumanmicro", "newavianmicro", "minigreenruins", "shroommicrodungeons", "forestmicrodungeons" ]
         },
         {
           "mode" : "floor",

@@ -1,10 +1,10 @@
 {
   "name" : "ffhive",
-  "friendlyName" : "Hell Hive",
+  "friendlyName" : "Hive",
   "hueShiftOptions" : [-40, -25, 0, 25, 40],
 
     "mainBlock" : "hive",
-    "subBlocks" : [ "magmatile4", "obsidian", "spidersilkblock" ],
+    "subBlocks" : [ "honeycombblock", "petalblock", "spidersilkblock" ],
     "ores" : "ff_surfacearborealOres",
 
 

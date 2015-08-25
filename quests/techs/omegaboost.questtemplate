@@ -4,8 +4,8 @@
   "title" : "^orange;Burst Jump",
   "text" : "Burst Jump blasts you rapidly upward, and anything caught in the blast is dealt explosive damage.",
   "completionText" : "Burst Jump blasts you rapidly upward, and anything caught in the blast is dealt explosive damage.",
-  "conditions" : [
-    { "kind" : "gather", "item" : [ "omegaboosttechgrant", 1], "consume" : true }
+  "completionConditions" : [
+    { "kind" : "gather", "item" : "omegaboosttechgrant", "consume" : true }
   ],
   "moneyRange" : [0, 0],
   "rewards" : [

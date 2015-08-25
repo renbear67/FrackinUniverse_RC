@@ -330,9 +330,9 @@
           "mode" : "floor",
           "priority" : 0.5,
           "variants" : 1,
-          "distribution" : "/biomes/distributions.config:randomEncounter",
+          "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon ",
           "type" : "microdungeon",
-          "microdungeons" : [ "randomencounter" ]
+          "microdungeons" : [ "tarpitsmicrodungeons" ]
 
         },
         

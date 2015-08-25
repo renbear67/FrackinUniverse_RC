@@ -1,7 +1,6 @@
 {
   "input" : [
-    { "item" : "glowfibreblue", "count" : 5 },
-	{ "item" : "glowfibreorange", "count" : 5 }
+    { "item" : "glowfibre", "count" : 3 }
   ],
   "output" : { "item" : "purpleglowstick", "count" : 1 },
   "groups" : [ "craftingtable", "furniture", "objects", "all" ]

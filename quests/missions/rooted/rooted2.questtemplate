@@ -4,7 +4,11 @@
   "title" : "^#1693d5;Rooted II",
   "text" : "If I am to get off this world, I ^green;need some armor^white;. Could you ^orange;craft me some pioneer armor^white;?",
   "completionText" : "Excellent. Now I can stop panicking and really get to work!",
-  "conditions" : [ { "kind" : "gather", "item" : [ "fupioneerhead", 1], "consume" : true },{ "kind" : "gather", "item" : [ "fupioneerchest", 1], "consume" : true },{ "kind" : "gather", "item" : [ "fupioneerpants", 1], "consume" : true } ],
+  "completionConditions" : [ 
+  { "kind" : "gather", "item" : "fupioneerhead", "consume" : true },
+  { "kind" : "gather", "item" : "fupioneerchest", "consume" : true },
+  { "kind" : "gather", "item" : "fupioneerpants", "consume" : true } 
+  ],
   "moneyRange" : [220,420],
   "rewards" : [ 
     [ [ "firegene", 1 ],[ "shockgene", 1 ], [ "toxingene", 1 ]  ]

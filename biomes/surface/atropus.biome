@@ -412,10 +412,10 @@
           "mode" : "floor",
           "priority" : 3.0,
           "variants" : 1,
-          "distribution" : "/biomes/distributions.config:randomEncounter",
+          "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "fuencountercultist", "randomencounter",  "avianencounter", "glitchencounter", "shroomencounter" ]
+          "microdungeons" : [ "fuencountercultist", "fleshmicrodungeons" ]
         },
         {
           "mode" : "floor",

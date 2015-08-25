@@ -3,8 +3,8 @@
   "title" : "^#1693d5;Tissue Culture",
   "text" : "Now we need ^orange;Tissue Cultures^white;. Your best bet for these is ^orange;saplings^white;. Get some and ^green;extract their resources^white;.",
   "completionText" : "Now you move on to a more dense material.",
-  "conditions" : [ 
-    { "kind" : "gather", "item" : [ "tissueculture", 1], "consume" : false }
+  "completionConditions" : [ 
+    { "kind" : "gather", "item" : "tissueculture", "consume" : false }
   ],
   "moneyRange" : [0,0],
   "rewards" : [],

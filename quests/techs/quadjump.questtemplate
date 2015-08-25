@@ -4,8 +4,8 @@
   "title" : "^orange;Quad Jump",
   "text" : "You've unlocked Quad Jump. Jump up to four times at a go, for 12 energy per hop.",
   "completionText" : "You've unlocked Triple Jump. Jump up to three times at a go, for 12 energy per hop.",
-  "conditions" : [
-    { "kind" : "gather", "item" : [ "quadjumptechgrant", 1], "consume" : true }
+  "completionConditions" : [
+    { "kind" : "gather", "item" : "quadjumptechgrant", "consume" : true }
   ],
   "moneyRange" : [0, 0],
   "rewards" : [

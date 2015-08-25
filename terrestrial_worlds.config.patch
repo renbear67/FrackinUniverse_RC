@@ -2028,7 +2028,7 @@
   "path" : "/regionTypes/ffhive",
   "value" : 
   {
-      "caveLiquid" : [ "darkwater", "bio_ooze" ],
+      "caveLiquid" : [ "darkwater", "fuhoney" ],
       "caveLiquidChanceRange" : [100, 100],
       "blockSelector" : [ "remixedSurface", "remixedCanyonsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
@@ -2475,7 +2475,7 @@
   "path" : "/regionTypes/hellhive",
   "value" : 
   {
-      "caveLiquid" : [ "lava", "darkwater", "bio_ooze", "shadowgas" ],
+      "caveLiquid" : [ "lava", "darkwater", "bloodliquid", "shadowgas" ],
       "blockSelector" : [ "spikesSurface", "remixedMountainsSurface", "mesasSurface", "remixedSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [

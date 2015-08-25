@@ -3,8 +3,8 @@
   "title" : "^#1693d5;Toxin gene",
   "text" : "Statement. Now you need to create a ^orange;toxin gene^white;. Caution. Use protective gear.",
   "completionText" : "Enthusiastic. Great.",
-  "conditions" : [ 
-    { "kind" : "gather", "item" : [ "toxicgene", 1], "consume" : false }
+  "completionConditions" : [ 
+    { "kind" : "gather", "item" : "toxicgene", "consume" : false }
   ],
   "moneyRange" : [0,0],
   "rewards" : [],

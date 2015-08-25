@@ -3,7 +3,7 @@
   "title" : "^#1693d5;Get some nerve",
   "text" : "Confused. Plants should not have nerves. But some of them actually do. So you'll need to craft a ^orange;nerve bundle^white;.",
   "completionText" : "Statement. You learned much now. Let's make a last one.",
-  "conditions" : [ { "kind" : "gather", "item" : [ "nervebundle1", 1], "consume" : false }
+  "completionConditions" : [ { "kind" : "gather", "item" : "nervebundle1", "consume" : false }
   ],
   "moneyRange" : [0,0],
   "rewards" : [],

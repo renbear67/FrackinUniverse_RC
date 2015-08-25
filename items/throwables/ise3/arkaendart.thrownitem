@@ -9,6 +9,7 @@
   "edgeTrigger" : true,
   "windupTime" : 0.0,
   "cooldown" : 0.4,
+  "piercing" : true,
   "projectileType" : "arkaendart",
   "projectileConfig" : {
     "power" : 90,

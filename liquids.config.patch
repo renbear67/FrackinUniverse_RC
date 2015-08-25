@@ -1,51 +1,4 @@
-[
-   // "4" : {
-   //   "name" : "alienjuice",
-   //   "tickDelta" : 1,
-   //   "color" : [254, 240, 246, 254],
-   //   "itemDrop" : "liquidalienjuice",
-//
-   //   "interactions" : [
-   //     {
-   //       "liquid" : 8,
-   //       "liquidResult" : 0
-   //     }
-   //   ],
-//
-   //   "texture" : "/liquids/alientex.png",
-   //   "bottomLightMix" : [244, 170, 159],
-   //   "textureMovementFactor" : 2.6
-   // },
-   // "10" : {
-   //   "name" : "liquidnitrogen",
-   //   "tickDelta" : 1,
-   //   "color" : [80, 221, 254, 128],
-   //   "itemDrop" : "liquidwater",
-   //   "texture" : "/liquids/watertex.png",
-   //   "bottomLightMix" : [255, 70, 0],
-   //   "textureMovementFactor" : 2.6,
-   //   "interactions" : [
-   //     {
-   //       "liquid" : 1,
-   //       "materialResult" : "ice"
-   //     }
-   //   ]
-   // }, 
-
-    
-	// liquid nitrogen
-    { "op" : "replace", 
-    "path" : "/liquids/10/itemDrop", 
-    "value" : "liquidnitrogenitem" 
-    },
-    {"op":"add",
-   "path":"/liquids/10/interactions/-",
-   "value":{"liquid":12,"materialResult":"ice"}
-    },
-    { "op" : "add", 
-    "path" : "/liquids/10/statusEffects", 
-    "value" : [ "nitrogenfreeze" ]
-    },
+[  
     { "op" : "replace", 
     "path" : "/liquids/13/statusEffects", 
     "value" : [ "slimefriction" ]
@@ -770,7 +723,62 @@
 	"textureMovementFactor" : 0.1
 	} 
    },
-   
+{"op":"add",
+"path":"/liquids/54",
+"value":{
+  "name":"fuhoney",
+  "tickDelta":5,
+  "color":[230,180,80,128],
+  "radiantLight":[160,120,20],
+  "itemDrop":"liquidhoney",
+  "texture":"/liquids/honeytex.png",
+  "bottomLightMix":[150,100,20],
+  "textureMovementFactor":2.6,
+  "interactions":[]
+  }
+},   
+  {
+    "op": "add",
+    "path": "/liquids/55",
+    "value": {
+      "name": "alienjuice",
+      "tickDelta": 1,
+      "color": [254,240,246,254],
+      "itemDrop": "liquidalienjuice",
+      "interactions": [
+        {
+          "liquid": 8,
+          "liquidResult": 0
+        }
+      ],
+      "texture": "/liquids/alientex.png",
+      "bottomLightMix": [244,170,159],
+      "textureMovementFactor": 2.6
+    }
+  },
+    { "op" : "add", 
+    "path" : "/liquids/56", 
+	"value" : { 
+	"name" : "liquidnitrogen",
+	"tickDelta" : 1,
+        "color" : [80, 221, 254, 128],
+	"itemDrop" : "liquidnitrogenitem",
+        "statusEffects" : [ "nitrogenfreeze" ],
+        "interactions" : [
+        {
+          "liquid": 1,
+          "materialResult": "ice"
+        },        
+          {
+          "liquid":12,
+          "materialResult":"ice"
+          }       
+        ],
+ 	"texture" : "/liquids/bloodtex.png",
+	"bottomLightMix" : [255, 70, 0],
+	"textureMovementFactor" : 2.6
+	}
+    },  
 //ItA-Tidewater
     {"op" : "add", 
     "path" : "/liquids/60", 

@@ -4,8 +4,8 @@
   "title" : "^#1693d5;Wire",
   "text" : "Thanks to the communicator I gave you, I'll be able to check what you do in your lab. Now, let's start. If you're going to build the more complicated gear the ^orange;Matter Assembler^white; can handle, you'll need ^orange;Wire^white;. ^green;Make some^white;.",
   "completionText" : "Without ^orange;wire^white;, you'll have serious issues creating circuits and technology. They are essential for a working laboratory.",
-  "conditions" : [ 
-    { "kind" : "gather", "item" : [ "wire", 1], "consume" : false }
+  "completionConditions" : [ 
+    { "kind" : "gather", "item" : "wire", "consume" : false }
   ],
   "moneyRange" : [0,0],
   "rewards" : [],

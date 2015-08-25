@@ -179,7 +179,7 @@
           "mode" : "floor",
           "priority" : 1.0,
           "variants" : 1,
-          "distribution" : "/biomes/distributions.config:potsRare",
+          "distribution" : "/biomes/distributions.config:surfaceCrops",
 
           "type" : "object",
           "objectSets" : [
@@ -290,10 +290,10 @@
           "mode" : "floor",
           "priority" : 3.0,
           "variants" : 1,
-          "distribution" : "/biomes/distributions.config:randomEncounter",
+          "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "fuencountercultist", "newhumanmicro", "newavianmicro", "minigreenruins", "randomencounter", "treasureroom", "avianencounter", "glitchencounter", "shroomencounter" ]
+          "microdungeons" : [ "fuencountercultist", "newhumanmicro", "newavianmicro", "minigreenruins", "toxicmicrodungeons" ]
         },
         {
           "mode" : "floor",

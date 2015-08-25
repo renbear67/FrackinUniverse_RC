@@ -4,7 +4,7 @@
   "title" : "^#1693d5;Seeds of Discontent III",
   "text" : "Allright...sorry to do this to you...but that wasn't hot enough either. Kick it up a notch with some ^orange;Hellfire Seeds^white; if you don't mind?",
   "completionText" : "Yes! Now THIS looks like something I can sink my teeth into! Guess I owe you this bad-ass helmet, then. Thanks for your aid!",
-  "conditions" : [ { "kind" : "gather", "item" : [ "hellfireplantseed", 3], "consume" : true } ],
+  "completionConditions" : [ { "kind" : "gather", "item" : "hellfireplantseed","count" :3, "consume" : true } ],
   "moneyRange" : [220,420],
   "rewards" : [ 
     [ [ "spacefarerheadadv", 1 ] ]

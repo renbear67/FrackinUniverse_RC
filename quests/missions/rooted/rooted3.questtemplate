@@ -4,7 +4,7 @@
   "title" : "^#1693d5;Rooted III",
   "text" : "Thanks to you, I'm almost free! There's just one more thing... Could you perhaps part with a ^orange;single plate of titanium^white;? One of those fancy ones from a ^orange;power press^white;.",
   "completionText" : "You've truly saved me, friend. I'll remember this kindness forever!",
-  "conditions" : [ { "kind" : "gather", "item" : [ "titaniumplate", 1], "consume" : true } ],
+  "completionConditions" : [ { "kind" : "gather", "item" : "titaniumplate", "consume" : true } ],
   "moneyRange" : [220,420],
   "rewards" : [ 
     [ [ "nervebundle2", 1 ] ]

@@ -4,7 +4,7 @@
   "hueShiftOptions" : [-40, -25, 0, 25, 40],
 
     "mainBlock" : "hellstone",
-    "subBlocks" : [ "magmatile4", "brains", "spidersilkblock" ],
+    "subBlocks" : [ "redhoneycombblock", "brains", "spidersilkblock" ],
     "ores" : "ff_surfacearborealOres",
 
 

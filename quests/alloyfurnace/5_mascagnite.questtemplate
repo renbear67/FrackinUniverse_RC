@@ -3,8 +3,8 @@
   "title" : "^#1693d5;Keep on digging",
   "text" : "^orange;Ammonium sulfate^white;. You definitely need it! Just smelt some ^orange;mascagnite^white;. It's another boringly common ore, so just dig a hole and you'll find some eventually.",
   "completionText" : "You did it. Wee. Let's do something else now.",
-  "conditions" : [ 
-    { "kind" : "gather", "item" : [ "ammoniumsulfate", 1], "consume" : false }
+  "completionConditions" : [ 
+    { "kind" : "gather", "item" : "ammoniumsulfate", "consume" : false }
   ],
   "moneyRange" : [120,240],
   "planetMode" : "none",

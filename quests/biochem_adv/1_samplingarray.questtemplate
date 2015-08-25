@@ -4,7 +4,7 @@
   "title" : "^#1693d5;Genetic Tinkering",
   "text" : "I'm in need of some ^orange;DNA Samples^white;. My own ^orange;Bio-Chem lab^white; appears to be broken. Perhaps you could ^green;help me out?^white; I'd make it worth your while.",
   "completionText" : "We can now progress to the next sample type, when you have the time to tackle it.",
-  "conditions" : [ { "kind" : "gather", "item" : [ "dnasample", 1], "consume" : false }
+  "completionConditions" : [ { "kind" : "gather", "item" : "dnasample", "consume" : false }
   ],
   "moneyRange" : [0,0],
   "rewards" : [],

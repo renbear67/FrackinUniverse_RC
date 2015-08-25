@@ -3,8 +3,8 @@
   "title" : "^#1693d5;Densinium",
   "text" : "There's a mineral out there that surpasses all others. ^orange;Densinium^white;. Get some, and create some useable metal out of it.",
   "completionText" : "I think you understand, by now, how to use this station. Now see what else you've missed in the great beyond!",
-  "conditions" : [ 
-    { "kind" : "gather", "item" : [ "densiniumbar", 1], "consume" : false }
+  "completionConditions" : [ 
+    { "kind" : "gather", "item" : "densiniumbar", "consume" : false }
   ],
   "moneyRange" : [100,120],
   "planetMode" : "none",

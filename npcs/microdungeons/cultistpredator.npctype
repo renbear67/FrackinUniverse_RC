@@ -9,11 +9,11 @@
 
   "scripts" : [
     "/npcs/main.lua",
+    "/scripts/pathing.lua",
     "/npcs/timers.lua",
     "/scripts/sensors.lua",
     "/scripts/stateMachine.lua",
     "/scripts/util.lua",
-    "/scripts/pathing.lua",
     "/scripts/vec2.lua",
 
     "/npcs/meleeAttackState.lua",

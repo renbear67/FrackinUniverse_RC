@@ -3,8 +3,8 @@
   "title" : "^#1693d5;Peptide chain",
   "text" : "^orange;Peptide chains^white; are an essential brick of life. Without them you won't be able to custom-craft a viable cell.",
   "completionText" : "We're almost done. Just one more step to self-sufficiency.",
-  "conditions" : [ 
-    { "kind" : "gather", "item" : [ "peptidechain", 1], "consume" : false }
+  "completionConditions" : [ 
+    { "kind" : "gather", "item" : "peptidechain", "consume" : false }
   ],
   "moneyRange" : [0,0],
   "rewards" : [],

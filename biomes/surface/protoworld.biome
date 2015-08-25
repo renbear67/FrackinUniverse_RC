@@ -229,7 +229,7 @@
           "mode" : "floor",
           "priority" : 1.0,
           "variants" : 1,
-          "distribution" : "/biomes/distributions.config:ffunCommon",
+          "distribution" : "/biomes/distributions.config:surfaceCrops",
 
           "type" : "object",
           "objectSets" : [
@@ -408,7 +408,7 @@
           "distribution" : "/biomes/distributions.config:randomEncounter",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "newhumanmicro", "newavianmicro", "randomencounter", "treasureroom", "avianencounter", "miniboss", "glitchencounter", "shroomencounter" ]
+          "microdungeons" : [ "newhumanmicro", "newavianmicro", "alienmicrodungeons" ]
         },
         {
           "mode" : "floor",

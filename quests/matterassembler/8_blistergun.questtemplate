@@ -3,8 +3,8 @@
   "title" : "^#1693d5;Weapon: Blister Pistol",
   "text" : "Let's see about something more complicated: ^orange;A blister pistol^white; packs a punch, but also lights up the darkness! ^green;Build one now^white;.",
   "completionText" : "Now you're ready to build on your own. I suggest continuing with the rest of a Blister Suit, though. You'll want one soon.",
-  "conditions" : [ 
-    { "kind" : "gather", "item" : [ "blisterpistol", 1], "consume" : false }
+  "completionConditions" : [ 
+    { "kind" : "gather", "item" : "blisterpistol", "consume" : false }
   ],
   "moneyRange" : [0,0],
   "rewards" : [],

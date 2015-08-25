@@ -4,8 +4,8 @@
   "title" : "^orange;Ultra Burst Jump",
   "text" : "Ultra Burst Jump blasts you rapidly upward, and anything caught in the blast is dealt explosive damage.",
   "completionText" : "Ultra Burst Jump blasts you rapidly upward, and anything caught in the blast is dealt explosive damage.",
-  "conditions" : [
-    { "kind" : "gather", "item" : [ "omegaboosttechgrant2", 1], "consume" : true }
+  "completionConditions" : [
+    { "kind" : "gather", "item" : "omegaboosttechgrant2", "consume" : true }
   ],
   "moneyRange" : [0, 0],
   "rewards" : [

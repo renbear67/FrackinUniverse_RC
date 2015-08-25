@@ -1,8 +1,7 @@
 {
   "input" : [
     { "item" : "biospore", "count" : 4 },
-    { "item" : "glowfibreblue", "count" : 1 },
-    { "item" : "glowfibreorange", "count" : 1 },
+    { "item" : "glowfibre", "count" : 4 },
     { "item" : "tissueculture", "count" : 3 }
   ],
   "output" : {
