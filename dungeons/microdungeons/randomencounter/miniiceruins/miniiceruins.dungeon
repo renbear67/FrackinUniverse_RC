@@ -373,7 +373,7 @@
 				{
 					"kind" : "npc",
 					"species" : "floran",
-					"typeName" : "florandervish"
+					"typeName" : "floranpredator"
 			}
 			] ]
 		},
@@ -385,7 +385,7 @@
 				{
 					"kind" : "npc",
 					"species" : "floran",
-					"typeName" : "floranshieldgunner"
+					"typeName" : "floransniper"
 			}
 			] ]
 		},

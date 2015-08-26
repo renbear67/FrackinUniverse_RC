@@ -376,24 +376,24 @@
 		
 		{
 			"value" : [0, 0, 163, 255],
-			"comment" : "floran dervish",
+			"comment" : "floran floranpredator",
 			"brush" : [ [ "npc",
 				{
 					"kind" : "npc",
 					"species" : "floran",
-					"typeName" : "florandervish"
+					"typeName" : "floranpredator"
 			}
 			] ]
 		},
 		
 		{
 			"value" : [0, 0, 164, 255],
-			"comment" : "floran shieldgunner",
+			"comment" : "floran floransniper",
 			"brush" : [ [ "npc",
 				{
 					"kind" : "npc",
 					"species" : "floran",
-					"typeName" : "floranshieldgunner"
+					"typeName" : "floransniper"
 			}
 			] ]
 		},
