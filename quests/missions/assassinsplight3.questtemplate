@@ -4,13 +4,13 @@
   "title" : "^#1693d5;Assassin's Plight III",
   "text" : "Now I needss ssome armor. Can you makess me a ^orange;Graphene Helm^white;?",
   "completionText" : "Excellentss! Thankss for your help! I promises not to killss you!",
-  "completionConditions" : [ { "kind" : "gather", "item" : "graphenehead", "consume" : true } ],
+  "completionConditions" : [ 
+  { "type" : "gather", "item" : "graphenehead", "consume" : true } ],
   "moneyRange" : [210,290],
   "rewards" : [ 
     [ [ "biopistol-recipe", 1 ] ]
     ],
-  "planetMode" : "none",
-  "questDungeons" : [ ],
+
   "requireTurnIn" : true,
   "canBeAbandoned" : false,
   "followUp" : ""

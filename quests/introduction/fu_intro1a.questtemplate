@@ -10,8 +10,5 @@
   "rewards" : [ ],
   "completionCinema" : "/cinematics/coordinates.cinematic",
   "canBeAbandoned" : false,
-  "planetMode" : "none",
-  "questDungeons" : [ ],
-  "followUp" : "",
   "associatedMission" : "scienceoutpostarrival"
 }

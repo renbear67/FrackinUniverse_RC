@@ -5,12 +5,11 @@
   "text" : "Before you can really get started on science you are going to need a lot of resources. For that, you need an ^orange;Extraction Lab^white;! Build one now.",
   "completionText" : "Toss some stuff in there, press extract, and see what you get. Ground tiles, plants and organics are shoe-ins for resources.",
   "completionConditions" : [ 
-    { "kind" : "gather", "item" : "extractionlab", "consume" : false }
+    { "type" : "gather", "item" : "extractionlab", "consume" : false }
   ],
   "moneyRange" : [0,0],
   "rewards" : [],
-  "planetMode" : "none",
-  "questDungeons" : [ ],
+
   "requireTurnIn" : false,
   "canBeAbandoned" : false,
   "followUp" : "2_nutrientpaste.gearup"

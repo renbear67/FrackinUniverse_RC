@@ -4,12 +4,11 @@
   "text" : "Most often, ^orange;cobblestone^white; is your best and simplest bet for ^orange;Raw Minerals^white;. Go get ^green;50^white; and extract it.",
   "completionText" : "Excellent. Just a couple more basic resources to go, now.",
   "completionConditions" : [ 
-    { "kind" : "gather", "item" : "rawminerals", "consume" : false }
+    { "type" : "gather", "item" : "rawminerals", "consume" : false }
   ],
   "moneyRange" : [0,0],
   "rewards" : [],
-  "planetMode" : "none",
-  "questDungeons" : [ ],
+
   "requireTurnIn" : false,
   "canBeAbandoned" : false,
   "followUp" : "5_geneticmaterial.gearup"

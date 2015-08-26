@@ -4,14 +4,13 @@
   "text" : "You will need to investigate things up very, very close. What's better for that than a ^orange;microscope^white;? Build one now at the ^orange;Matter Assembler^white;.",
   "completionText" : "That's...actually really quite an amazing quality piece right there. ^green;Keep that microscope for your ^orange;Xeno Lab^white;. Let's move on to plastic.",
   "completionConditions" : [ 
-    { "kind" : "gather", "item" : "microscope", "consume" : false }
+    { "type" : "gather", "item" : "microscope", "consume" : false }
   ],
   "moneyRange" : [0,0],
   "rewards" : [ 
      [ [ "silk", 5 ] ]
   ],
-  "planetMode" : "none",
-  "questDungeons" : [ ],
+
   "requireTurnIn" : false,
   "canBeAbandoned" : false,
   "followUp" : "5_plastic.gearup"

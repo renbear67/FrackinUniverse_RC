@@ -4,12 +4,11 @@
   "text" : "^orange;Oonforta^white; isss beautiful. Glowsss in the dark. Insert ^orange;luminescent cells^white; and ^orange;chloroplast I^white; genes into some ^orange;nutrient paste^white;.",
   "completionText" : "That iss good! Now we movess to lesss ssilly and more ssstabby plantss! I like sstabby things!",
   "completionConditions" : [ 
-    { "kind" : "gather", "item" : "oonfortaseed", "consume" : false }
+    { "type" : "gather", "item" : "oonfortaseed", "consume" : false }
   ],
   "moneyRange" : [0,0],
   "rewards" : [],
-  "planetMode" : "none",
-  "questDungeons" : [ ],
+
   "requireTurnIn" : false,
   "canBeAbandoned" : false,
   "followUp" : "6_thornitox.gearup"

@@ -4,11 +4,10 @@
   "text" : "^orange;Penumbrite^white; interesting mineral is found in very few places. The best place to look would be ^green;a ^orange;Penumbra^green; world, deep underground^white;. Smelt it in the fission furnace.",
   "completionText" : "Penumbrite forms strong metallic shards that can be fused into plating for armor, or used as-is with some brute force on-site extreme heat exposure.",
   "completionConditions" : [ 
-    { "kind" : "gather", "item" : "penumbriteshard", "consume" : false }
+    { "type" : "gather", "item" : "penumbriteshard", "consume" : false }
   ],
   "moneyRange" : [100,120],
-  "planetMode" : "none",
-  "questDungeons" : [ ],
+
   "requireTurnIn" : false,
   "followUp" : "fissionfurnace3.gearup"
 }

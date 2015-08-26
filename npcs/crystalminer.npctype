@@ -11,24 +11,6 @@
 
   "levelVariance" : [0, 0],
 
-  "scripts" : [
-    "/npcs/main.lua",
-    "/scripts/pathing.lua",
-    "/npcs/timers.lua",
-    "/scripts/sensors.lua",
-    "/scripts/stateMachine.lua",
-    "/scripts/util.lua",
-    "/scripts/vec2.lua",
-
-    "/npcs/chatState.lua",
-    "/npcs/converseState.lua",
-    "/npcs/fleeState.lua",
-    "/npcs/sitState.lua",
-    "/npcs/sleepState.lua",
-    "/npcs/standingIdleState.lua",
-    "/npcs/wanderState.lua"
-  ],
-
   "scriptConfig" : {
     "attackerLimit" : 10,
     "attackerLimitCooldown" : 3,

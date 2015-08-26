@@ -5,7 +5,7 @@
   "text" : "You've unlocked the Grav-Jump Harness. This tech allows you to rapidly jump until you run out of energy (or reach 10 jumps total).",
   "completionText" : "You've unlocked the Grav-Jump Harness. This tech allows you to rapidly jump until you run out of energy (or reach 10 jumps total).",
   "completionConditions" : [
-    { "kind" : "gather", "item" : "omegajumptechgrant", "consume" : true }
+    { "type" : "gather", "item" : "omegajumptechgrant", "consume" : true }
   ],
   "moneyRange" : [0, 0],
   "rewards" : [
@@ -13,8 +13,5 @@
   "enableTech" : [
     "omegajumptech"
   ],
-  "canBeAbandoned" : true,
-  "planetMode" : "none",
-  "questDungeons" : [ ],
-  "followUp" : ""
+  "canBeAbandoned" : true
 }

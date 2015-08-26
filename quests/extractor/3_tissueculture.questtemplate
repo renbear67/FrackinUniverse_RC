@@ -4,12 +4,11 @@
   "text" : "Now we need ^orange;Tissue Cultures^white;. Your best bet for these is ^orange;saplings^white;. Get some and ^green;extract their resources^white;.",
   "completionText" : "Now you move on to a more dense material.",
   "completionConditions" : [ 
-    { "kind" : "gather", "item" : "tissueculture", "consume" : false }
+    { "type" : "gather", "item" : "tissueculture", "consume" : false }
   ],
   "moneyRange" : [0,0],
   "rewards" : [],
-  "planetMode" : "none",
-  "questDungeons" : [ ],
+
   "requireTurnIn" : false,
   "canBeAbandoned" : false,
   "followUp" : "4_rawminerals.gearup"

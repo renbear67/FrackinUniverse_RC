@@ -5,7 +5,7 @@
   "text" : "This life-saving tech deploys when you reach terminal velocity, preventing you from dying on impact. ",
   "completionText" : "This life-saving tech deploys when you reach terminal velocity, preventing you from dying on impact.",
   "completionConditions" : [
-    { "kind" : "gather", "item" : "emergencybouncetechgrant", "consume" : true }
+    { "type" : "gather", "item" : "emergencybouncetechgrant", "consume" : true }
   ],
   "moneyRange" : [0, 0],
   "rewards" : [
@@ -13,8 +13,5 @@
   "enableTech" : [
     "emergencybouncetech"
   ],
-  "canBeAbandoned" : true,
-  "planetMode" : "none",
-  "questDungeons" : [ ],
-  "followUp" : ""
+  "canBeAbandoned" : true
 }

@@ -4,12 +4,11 @@
   "text" : "Now you makesss the ^orange;miracle grasss^white;. Craft sssome genes: ^orange;Regeneration I^white; and ^orange;Chloroplast I^white; then insert them into sssome ^orange;plant fibre^white; in the ^orange;Design Lab^white;.",
   "completionText" : "Thisss plant heals your body, so ssstab it too.",
   "completionConditions" : [ 
-    { "kind" : "gather", "item" : "miraclegrassseed", "consume" : false }
+    { "type" : "gather", "item" : "miraclegrassseed", "consume" : false }
   ],
   "moneyRange" : [0,0],
   "rewards" : [],
-  "planetMode" : "none",
-  "questDungeons" : [ ],
+
   "requireTurnIn" : false,
   "canBeAbandoned" : false,
   "followUp" : "5_oonforta.gearup"

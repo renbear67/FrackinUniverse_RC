@@ -7,9 +7,6 @@
   "completionConditions" : [],
   "moneyRange" : [0,0],
   "rewards" : [ ],
-  "planetMode" : "none",
-  "questDungeons" : [ ],
   "requireTurnIn" : true,
-  "canBeAbandoned" : false,
-  "followUp" : ""
+  "canBeAbandoned" : false
 }

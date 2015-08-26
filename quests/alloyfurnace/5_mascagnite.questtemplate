@@ -4,11 +4,10 @@
   "text" : "^orange;Ammonium sulfate^white;. You definitely need it! Just smelt some ^orange;mascagnite^white;. It's another boringly common ore, so just dig a hole and you'll find some eventually.",
   "completionText" : "You did it. Wee. Let's do something else now.",
   "completionConditions" : [ 
-    { "kind" : "gather", "item" : "ammoniumsulfate", "consume" : false }
+    { "type" : "gather", "item" : "ammoniumsulfate", "consume" : false }
   ],
   "moneyRange" : [120,240],
-  "planetMode" : "none",
-  "questDungeons" : [ ],
+
   "requireTurnIn" : false,
   "followUp" : "6_cinnabar.gearup"
 }

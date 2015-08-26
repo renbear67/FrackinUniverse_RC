@@ -5,12 +5,11 @@
   "text" : "Statement. You need a ^orange;Xeno Research Lab^white;. You'll conduct your research there in order to create new forms of plant life.",
   "completionText" : "Emphasis. Congratulations on your creation. Let us celebrate by working.",
   "completionConditions" : [ 
-    { "kind" : "gather", "item" : "xenostation", "consume" : false }
+    { "type" : "gather", "item" : "xenostation", "consume" : false }
   ],
   "moneyRange" : [0,0],
   "rewards" : [],
-  "planetMode" : "none",
-  "questDungeons" : [ ],
+
   "requireTurnIn" : false,
   "canBeAbandoned" : false,
   "followUp" : "2_chloroplast1.gearup"

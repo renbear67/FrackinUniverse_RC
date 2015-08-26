@@ -5,7 +5,7 @@
   "text" : "This tech will launch you sideways a fair distance at rapid speed!",
   "completionText" : "This tech will launch you sideways a fair distance at rapid speed!",
   "completionConditions" : [
-    { "kind" : "gather", "item" : "speedboosttechgrant", "consume" : true }
+    { "type" : "gather", "item" : "speedboosttechgrant", "consume" : true }
   ],
   "moneyRange" : [0, 0],
   "rewards" : [
@@ -13,8 +13,5 @@
   "enableTech" : [
     "speedboosttech"
   ],
-  "canBeAbandoned" : true,
-  "planetMode" : "none",
-  "questDungeons" : [ ],
-  "followUp" : ""
+  "canBeAbandoned" : true
 }

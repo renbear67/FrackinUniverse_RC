@@ -4,12 +4,11 @@
   "text" : "^orange;Genetic Material^white; is easy enough to find, if you look at the right sources. ^orange;Seeds^white; are often the best source. ^orange;Meat^white; works well, too.",
   "completionText" : "Excellent. Now onto the next resource.",
   "completionConditions" : [ 
-    { "kind" : "gather", "item" : "geneticmaterial", "consume" : false }
+    { "type" : "gather", "item" : "geneticmaterial", "consume" : false }
   ],
   "moneyRange" : [0,0],
   "rewards" : [],
-  "planetMode" : "none",
-  "questDungeons" : [ ],
+
   "requireTurnIn" : false,
   "canBeAbandoned" : false,
   "followUp" : "6_methanol.gearup"

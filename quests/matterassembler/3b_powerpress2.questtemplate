@@ -5,12 +5,11 @@
   "text" : "In your ^#orange;Power Press^white; create a ^orange;Steel Plate^white; or two. You'll need some plates very soon.",
   "completionText" : "Off to a great start. I think the ^orange;power press^white; is self-explanatory. Now on to other matters!",
   "completionConditions" : [ 
-    { "kind" : "gather", "item" : "powerpress", "consume" : false }
+    { "type" : "gather", "item" : "powerpress", "consume" : false }
   ],
   "moneyRange" : [0,0],
   "rewards" : [],
-  "planetMode" : "none",
-  "questDungeons" : [ ],
+
   "requireTurnIn" : false,
   "canBeAbandoned" : false,
   "followUp" : "4_microscope.gearup"

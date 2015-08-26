@@ -5,15 +5,11 @@
   "text" : "For your next bit of science training, you are going to need a ^orange;Nano-Fabricator^white;.",
   "completionText" : "I have but one task for you now, and the rest of your journey will be of your own choices.",  
   "completionConditions" : [ 
-    { "kind" : "gather", "item" : [ "nanofabricator", 1], "consume" : false }
+    { "type" : "gather", "item" : "nanofabricator", "consume" : false }
   ],
 
   "moneyRange" : [0,0],
-  "rewards" : [ 
-     []
-  ],
-  "planetMode" : "none",
-  "questDungeons" : [ ],
+  "rewards" : [ ],
   "requireTurnIn" : false,
   "canBeAbandoned" : false,
   "followUp" : "2_miningupgrade.gearup"

@@ -4,12 +4,11 @@
   "text" : "Now it's time for you to do more work. ^green;Build a ^orange;Mutavisk Helm^white; in the assembler^white;. You'll need to collect the resources to create it, though!",
   "completionText" : "These are handy for survival in dangerous irradiated environments.",
   "completionConditions" : [ 
-    { "kind" : "gather", "item" : "mutaviskhead", "consume" : false }
+    { "type" : "gather", "item" : "mutaviskhead", "consume" : false }
   ],
   "moneyRange" : [0,0],
   "rewards" : [],
-  "planetMode" : "none",
-  "questDungeons" : [ ],
+
   "requireTurnIn" : false,
   "canBeAbandoned" : false,
   "followUp" : "8_blistergun.gearup"

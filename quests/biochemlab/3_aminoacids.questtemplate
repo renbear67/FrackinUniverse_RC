@@ -4,12 +4,11 @@
   "text" : "We're going to craft a basic component for a start. To make ^orange;Amino acids^white;, you'll need ^green;4 units of ^orange;nutrient paste^green; and ^orange;tissue culture^white;. The fine mechanisms of the ^orange;Chemical Lab^white; will do the rest.",
   "completionText" : "You'll absolutely want to craft some of these in order to create some new flora.",
   "completionConditions" : [ 
-    { "kind" : "gather", "item" : "aminoacid", "consume" : false }
+    { "type" : "gather", "item" : "aminoacid", "consume" : false }
   ],
   "moneyRange" : [0,0],
   "rewards" : [],
-  "planetMode" : "none",
-  "questDungeons" : [ ],
+
   "requireTurnIn" : false,
   "canBeAbandoned" : false,
   "followUp" : "4_fertilizer.gearup"

@@ -4,12 +4,11 @@
   "text" : "Statement. Now you need to create a ^orange;toxin gene^white;. Caution. Use protective gear.",
   "completionText" : "Enthusiastic. Great.",
   "completionConditions" : [ 
-    { "kind" : "gather", "item" : "toxicgene", "consume" : false }
+    { "type" : "gather", "item" : "toxicgene", "consume" : false }
   ],
   "moneyRange" : [0,0],
   "rewards" : [],
-  "planetMode" : "none",
-  "questDungeons" : [ ],
+
   "requireTurnIn" : false,
   "canBeAbandoned" : false,
   "followUp" : "5_luminescent.gearup"

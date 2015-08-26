@@ -6,9 +6,7 @@
   "completionConditions" : [],
   "moneyRange" : [ 0,0 ],
   "rewards" : [ [ "scientistchest"] ],
-  "planetMode" : "none",
-  "questDungeons" : [ ],
+
   "requireTurnIn" : true,
-  "canBeAbandoned" : false,
-  "followUp" : ""
+  "canBeAbandoned" : false
 }

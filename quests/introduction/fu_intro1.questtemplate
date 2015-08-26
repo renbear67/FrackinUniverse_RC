@@ -6,12 +6,10 @@
   "text" : "I know of a place for budding scientific minds to explore their theories in peace. If you ^green;bring me some ^orange;Glass^white; I may just tell you where it is.",
   "completionText" : "Thanks so much. Talk to me when you wish to learn more about our haven.",
   "completionConditions" : [
-    { "kind" : "gather", "item" : "glassmaterial", "consume" : true }
+    { "type" : "gather", "item" : "glassmaterial", "consume" : true }
   ],
   "moneyRange" : [300, 400],
   "rewards" : [ ],
-  "planetMode" : "none",
-  "questDungeons" : [ ],
   "followUp" : "fu_intro1a.gearup",
   "requireTurnIn" : true
 }

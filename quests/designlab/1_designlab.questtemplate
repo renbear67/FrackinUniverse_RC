@@ -5,12 +5,11 @@
   "text" : "To ssstart, you need a ^orange;Gene Design Lab^white;. This is where your ssstrange plantsss are ssspliced! Build one now.",
   "completionText" : "Good. Now you huntssss.",
   "completionConditions" : [ 
-    { "kind" : "gather", "item" : "designlab", "consume" : false }
+    { "type" : "gather", "item" : "designlab", "consume" : false }
   ],
   "moneyRange" : [0,0],
   "rewards" : [],
-  "planetMode" : "none",
-  "questDungeons" : [ ],
+
   "requireTurnIn" : false,
   "canBeAbandoned" : false,
   "followUp" : "2_cellbiosamplebiospore.gearup"

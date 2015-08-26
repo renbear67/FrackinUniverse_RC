@@ -9,9 +9,6 @@
   "rewards" : [ 
     [ [ "scientistlegs", 1] ] 
   ],
-  "planetMode" : "none",
-  "questDungeons" : [ ],
   "requireTurnIn" : true,
-  "canBeAbandoned" : false,
-  "followUp" : ""
+  "canBeAbandoned" : false
 }

@@ -4,14 +4,13 @@
   "text" : "Normal plastic is too flimsy. Let's beef it up and create some ^orange;advanced plastic^white;. You'll need ^green;Bracken Trees^white; to get the ^orange;silk^white; required, though. You'll need to ^green;craft some in the ^orange;Design Lab^white;. Or get lucky and find some. You'll need a ^orange;Biochem Lab^white; in order to create the plastic itself.",
   "completionText" : "This durable super-plastic will prove quite useful in a lot of recipes.",
   "completionConditions" : [ 
-    { "kind" : "gather", "item" : "ff_plastic", "consume" : false }
+    { "type" : "gather", "item" : "ff_plastic", "consume" : false }
   ],
   "moneyRange" : [0,0],
   "rewards" : [ 
     [ [ "ff_plastic", 4 ] ]
   ],
-  "planetMode" : "none",
-  "questDungeons" : [ ],
+
   "requireTurnIn" : false,
   "canBeAbandoned" : false,
   "followUp" : "6_biochipbase.gearup"

@@ -3,12 +3,11 @@
   "title" : "^#1693d5;Get some nerve",
   "text" : "Confused. Plants should not have nerves. But some of them actually do. So you'll need to craft a ^orange;nerve bundle^white;.",
   "completionText" : "Statement. You learned much now. Let's make a last one.",
-  "completionConditions" : [ { "kind" : "gather", "item" : "nervebundle1", "consume" : false }
+  "completionConditions" : [ { "type" : "gather", "item" : "nervebundle1", "consume" : false }
   ],
   "moneyRange" : [0,0],
   "rewards" : [],
-  "planetMode" : "none",
-  "questDungeons" : [ ],
+
   "requireTurnIn" : false,
   "canBeAbandoned" : false,
   "followUp" : "7_nervebundle2.gearup"

@@ -4,14 +4,13 @@
   "text" : "Now the bessst part. You hunt for ssstuff. Ssstab things on planets and gather ^green;9 ^orange;cell materials^white;, ^green;9 ^orange;bio sssamples^white; and ^green;9 ^orange;bio ssspores^white;. Take nine of each. You'll need them.",
   "completionText" : "Good. You need that ssstuff to create genessss.",
   "completionConditions" : [
-    { "kind" : "gather", "item" : "biosample", "count": 9, "consume" : false },
-    { "kind" : "gather", "item" : "cellmateria", "count": 9,  "consume" : false },
-    { "kind" : "gather", "item" : "biospore", "count": 9, "consume" : false }
+    { "type" : "gather", "item" : "biosample", "count": 9, "consume" : false },
+    { "type" : "gather", "item" : "cellmateria", "count": 9,  "consume" : false },
+    { "type" : "gather", "item" : "biospore", "count": 9, "consume" : false }
   ],
   "moneyRange" : [0,0],
   "rewards" : [],
-  "planetMode" : "none",
-  "questDungeons" : [ ],
+
   "requireTurnIn" : false,
   "canBeAbandoned" : false,
   "followUp" : "3_bracken.gearup"

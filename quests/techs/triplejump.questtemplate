@@ -5,7 +5,7 @@
   "text" : "You've unlocked Triple Jump. Jump up to three times at a go, for 12 energy per hop.",
   "completionText" : "You've unlocked Triple Jump. Jump up to three times at a go, for 12 energy per hop.",
   "completionConditions" : [
-    { "kind" : "gather", "item" : "triplejumptechgrant", "consume" : true }
+    { "type" : "gather", "item" : "triplejumptechgrant", "consume" : true }
   ],
   "moneyRange" : [0, 0],
   "rewards" : [
@@ -13,8 +13,5 @@
   "enableTech" : [
     "triplejumptech"
   ],
-  "canBeAbandoned" : true,
-  "planetMode" : "none",
-  "questDungeons" : [ ],
-  "followUp" : ""
+  "canBeAbandoned" : true
 }

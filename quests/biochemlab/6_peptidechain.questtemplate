@@ -4,12 +4,11 @@
   "text" : "^orange;Peptide chains^white; are an essential brick of life. Without them you won't be able to custom-craft a viable cell.",
   "completionText" : "We're almost done. Just one more step to self-sufficiency.",
   "completionConditions" : [ 
-    { "kind" : "gather", "item" : "peptidechain", "consume" : false }
+    { "type" : "gather", "item" : "peptidechain", "consume" : false }
   ],
   "moneyRange" : [0,0],
   "rewards" : [],
-  "planetMode" : "none",
-  "questDungeons" : [ ],
+
   "requireTurnIn" : false,
   "canBeAbandoned" : false,
   "followUp" : "7_synthprotein.gearup"

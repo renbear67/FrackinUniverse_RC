@@ -5,11 +5,11 @@
   "spawnProfiles" : [
     {
       "groups" : [ "mediumsurface1" ],
-      "extraSpawns" : [ "frostfly", "icetip" ]
+      "extraSpawns" : [ "frostfly", "icetip", "minigoat" ]
     },
     {
       "groups" : [ "mediumsurface2" ],
-      "extraSpawns" : [ "frostfly", "frostfleck" ]
+      "extraSpawns" : [ "frostfly", "frostfleck", "minigoat" ]
     }
   ],
 

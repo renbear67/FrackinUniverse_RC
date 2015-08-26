@@ -66,6 +66,8 @@ local recipes =
 {inputs = { ff_bambooshoot=1 }, outputs = { geneticmaterial=2 }, time = 0.5},
 {inputs = { blooddiamond=1 }, outputs = { bloodore=3 }, time = 0.5},
 -- tiles
+{inputs = { fu_honeycombblock=50 }, outputs = { fu_liquidhoney=2 }, time = 0.5},
+{inputs = { fu_redhoneycombblock=50 }, outputs = { fu_liquidhoney=2 }, time = 0.5},
 {inputs = { grassy=50 }, outputs = { geneticmaterial=2 }, time = 0.5},
 {inputs = { waste=50 }, outputs = { nutrientpaste=2 }, time = 0.5},
 {inputs = { cactiblock=50 }, outputs = { tissueculture=2 }, time = 0.5},

@@ -5,11 +5,10 @@
   "text" : "Before we start, you need to know that you're gonna work with some tough materials. Show me ^orange;20 Iron Bars^white; to prove your dedication, and I'll help you.",
   "completionText" : "Great! Now we can start smelting materials.",
   "completionConditions" : [ 
-    { "kind" : "gather", "item" : "ironbar", "count" : 20, "consume" : false }
+    { "type" : "gather", "item" : "ironbar", "count" : 20, "consume" : false }
   ],
   "moneyRange" : [100,120],
-  "planetMode" : "none",
-  "questDungeons" : [ ],
+
   "requireTurnIn" : false,
   "followUp" : "2_berlinite.gearup"
 }

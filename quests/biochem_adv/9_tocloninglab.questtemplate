@@ -8,10 +8,8 @@
   "rewards" : [ 
     [ [ "ff_gasmask", 1] ]
    ],
-  "planetMode" : "none",
-  "questDungeons" : [ ],
+
   "requireTurnIn" : true,
-  "canBeAbandoned" : false,
-  "followUp" : ""
+  "canBeAbandoned" : false
 }
  

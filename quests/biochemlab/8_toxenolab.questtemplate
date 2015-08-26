@@ -6,9 +6,7 @@
   "completionConditions" : [],
   "moneyRange" : [0,0],
   "rewards" : [ [ "basicminer" ] ],
-  "planetMode" : "none",
-  "questDungeons" : [ ],
+
   "requireTurnIn" : false,
-  "canBeAbandoned" : false,
-  "followUp" : ""
+  "canBeAbandoned" : false
 }
