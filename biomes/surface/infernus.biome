@@ -7,7 +7,7 @@
     "spawnProfiles" : [
     {
       "groups" : [ "hardsurface2", "fu_ash" ],
-      "extraSpawns" : [ "flameroach", "lavahopper" ],
+      "extraSpawns" : [ "flameroach", "lavahopper", "fufireball" ],
       "monsterParameters" : {
         "statusSettings" : {
           "stats" : {
@@ -26,7 +26,7 @@
     },
     {
       "groups" : [ "hardsurface1", "fu_ash" ],
-      "extraSpawns" : [ "flameroach", "fireygiant" ],
+      "extraSpawns" : [ "flameroach", "fireygiant", "fufireball" ],
       "monsterParameters" : {
         "statusSettings" : {
 

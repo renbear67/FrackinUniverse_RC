@@ -8,11 +8,11 @@
   "spawnProfiles" : [
     {
       "groups" : [ ],
-      "extraSpawns" : [  ]
+      "extraSpawns" : [ "fusnowball", "fufireball" ]
     },
     {
       "groups" : [  ],
-      "extraSpawns" : [  ]
+      "extraSpawns" : [ "fusnowball", "fufireball" ]
     }
   ],
 

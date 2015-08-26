@@ -6,7 +6,7 @@
   "spawnProfiles" : [
     {
       "groups" : [ "hardsurface2", "fu_tar" ],
-      "extraSpawns" : [ ],
+      "extraSpawns" : [ "fuoildrip" ],
       "monsterParameters" : {
         "statusSettings" : {
           "stats" : {
@@ -28,7 +28,7 @@
     },
     {
       "groups" : [ "hardsurface1", "fu_tar" ],
-      "extraSpawns" : [ ],
+      "extraSpawns" : [ "fuoildrip" ],
       "monsterParameters" : {
         "statusSettings" : {
           "stats" : {

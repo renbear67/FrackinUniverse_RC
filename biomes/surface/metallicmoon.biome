@@ -5,11 +5,11 @@
   "spawnProfiles" : [
     {
       "groups" : [ "fu_metallicmoon" ],
-      "extraSpawns" : [  ]
+      "extraSpawns" : [ "fudrone" ]
     },
     {
       "groups" : [ "fu_metallicmoon" ],
-      "extraSpawns" : [  ]
+      "extraSpawns" : [ "fudrone" ]
     }
   ],
   

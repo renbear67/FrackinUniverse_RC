@@ -7,11 +7,11 @@
    "spawnProfiles" : [
     {
       "groups" : [ "mediumsurface1", "fu_thickjungle" ],
-      "extraSpawns" : [ "sunskipper", "goldbuck"  ]
+      "extraSpawns" : [ "sunskipper", "goldbuck", "fuscorpion"  ]
     },
     {
       "groups" : [ "mediumsurface2", "fu_thickjungle" ],
-      "extraSpawns" : [ "sunskipper", "sandclown" ]
+      "extraSpawns" : [ "sunskipper", "sandclown", "fuscorpion" ]
     }
   ],   
 

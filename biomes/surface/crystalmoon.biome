@@ -5,11 +5,11 @@
   "spawnProfiles" : [
     {
       "groups" : [ "mediumsurface1" ],
-      "extraSpawns" : [  ]
+      "extraSpawns" : [ "fusnowball" ]
     },
     {
       "groups" : [ "mediumsurface2" ],
-      "extraSpawns" : [  ]
+      "extraSpawns" : [ "fusnowball" ]
     }
   ],
 
