@@ -167,4 +167,104 @@
 {"op":"add","path":"/spawns/fucorruptflylarge","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.01,"monsterType":"fucorruptflylarge","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/fudeathdroid","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.01,"monsterType":"deathdroid","monsterParameters":{"aggressive":true}}}
 
+
+//critters
+
+
+{"op":"add",
+"path":"/spawns/fudrone",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"fudrone",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/fufireball",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"fufireball",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/fuminigoat",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"fuminigoat",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/funewt",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"funewt",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/fuoildrip",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"fuoildrip",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/fuscorpion",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"fuscorpion",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/fushroomdude",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"fushroomdude",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/fusnowball",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"fusnowball",
+  "monsterParameters":{"aggressive":false}
+  }
+}
 ]

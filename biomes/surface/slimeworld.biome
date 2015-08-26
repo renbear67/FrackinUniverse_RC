@@ -6,7 +6,7 @@
   "spawnProfiles" : [
     {
       "groups" : [ "fu_slime" ],
-      "extraSpawns" : [ "bouncebagcritter", "gloopcritter", "sluggreencritter" ],
+      "extraSpawns" : [ "bouncebagcritter", "sluggreencritter" ],
       "monsterParameters" : {
         "statusSettings" : {
           "stats" : {
@@ -31,7 +31,7 @@
     },
     {
       "groups" : [ "fu_slime" ],
-      "extraSpawns" : [ "bouncebagcritter", "gloopcritter", "sluggreencritter" ],
+      "extraSpawns" : [ "bouncebagcritter", "sluggreencritter" ],
       "monsterParameters" : {
         "statusSettings" : {
           "stats" : {

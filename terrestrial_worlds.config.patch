@@ -1636,7 +1636,7 @@
   {
       "caveLiquid" :  [ "lava" ],
       "caveLiquidChanceRange" : [100, 100],
-      "blockSelector" : [ "remixedMountainsSurface", "remixedMegaMountainsSurface", "remixedStepsSurface", "remixedCanyonsSurface" ],
+      "blockSelector" : [ "remixedMountainsSurface",  "remixedStepsSurface", "remixedCanyonsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "bgOreSelector" : [ "denseVeins" ],       
       "biome" : [
@@ -1651,7 +1651,7 @@
   {
       "caveLiquid" : [ "liquidnitrogen" ],
       "caveLiquidChanceRange" : [55, 80],
-      "blockSelector" : [ "remixedMountainsSurface", "remixedMegaMountainsSurface", "remixedCanyonsSurface", "remixedMildCanyonsSurface" ],
+      "blockSelector" : [ "remixedMountainsSurface", "remixedCanyonsSurface", "remixedMildCanyonsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves", "denseCaves" ],
       "bgOreSelector" : [ "denseVeins" ],       
       "biome" : [
@@ -1765,7 +1765,7 @@
   "value" : 
   {
       "caveLiquid" : [ "lava" ],
-      "blockSelector" : [ "remixedCanyonsSurface", "remixedMountainsSurface", "remixedSurface", "remixedMegaMountainsSurface", "remixedStepsSurface", "remixedPoolsSurface", "remixedSwampySurface" ],
+      "blockSelector" : [ "remixedCanyonsSurface", "remixedMountainsSurface", "remixedSurface", "remixedStepsSurface", "remixedPoolsSurface", "remixedSwampySurface" ],
       "fgCaveSelector" : [ "moonSurfaceCaves", "surfaceCaves", "denseCaves", "fusurfacecaves", "normalmegacave"  ],
       "bgOreSelector" : [ "denseVeins" ],       
       "caveLiquidChanceRange" : [100, 100],
@@ -1782,7 +1782,7 @@
   {
       "caveLiquid" : [ "water", "poison", "bio_ooze", "darkwater" ],
       "caveLiquidChanceRange" : [25, 100],
-      "blockSelector" : [ "remixedMountainsSurface", "remixedSurface", "remixedStepsSurface", "remixedMegaMountainsSurface" ],
+      "blockSelector" : [ "remixedMountainsSurface", "remixedSurface", "remixedStepsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves", "denseCaves"  ],
       "bgOreSelector" : [ "denseVeins" ],       
       "biome" : [
@@ -1942,7 +1942,7 @@
   {
       "caveLiquid" : [ "water", "swampwater", "blacktar", "alienjuice", "darkwater", "slimeliquid" ],
       "caveLiquidChanceRange" : [25, 100],
-      "blockSelector" : [ "remixedMegaMountainsSurface", "remixedSurface", "remixedMildSurface", "remixedStepsSurface", "remixedMountainsSurface" ],
+      "blockSelector" : [ "remixedSurface", "remixedMildSurface", "remixedStepsSurface", "remixedMountainsSurface" ],
       "fgCaveSelector" : [ "normalCaves" ],
       "bgOreSelector" : [ "commonVeins", "denseVeins" ],       
       "biome" : [
@@ -2075,7 +2075,7 @@
   {
       "caveLiquid" : [ "blacktar", "pus", "bloodliquid", "darkwater", "slimeliquid" ],
       "caveLiquidChanceRange" : [25, 100],
-      "blockSelector" : [ "remixedSurface", "remixedMildSurface", "remixedSwampySurface", "remixedCanyonsSurface", "remixedMountainsSurface", "fugradualslopes", "remixedMegaMountainsSurface"  ],
+      "blockSelector" : [ "remixedSurface", "remixedMildSurface", "remixedSwampySurface", "remixedCanyonsSurface", "remixedMountainsSurface", "fugradualslopes"  ],
       "fgCaveSelector" : [ "surfaceCaves", "denseCaves" ],
       "bgOreSelector" : [ "denseVeins" ], 
       "biome" : [
@@ -2904,7 +2904,7 @@
    "value" : 
    {
        "caveLiquid" : [ "water", "swampwater", "healingliquid" ],
-       "blockSelector" : [ "remixedMegaMountainsSurface", "remixedMountainsSurface", "k2mountainsSurface", "remixedMegaMountainsSurface" ],
+       "blockSelector" : [ "remixedMountainsSurface", "k2mountainsSurface" ],
        "fgCaveSelector" : [ "surfaceCaves", "denseCaves" ],
        "bgOreSelector" : [ "denseVeins" ],      
        "caveLiquidChanceRange" : [50, 100],
