@@ -5,11 +5,12 @@
   "spawnProfiles" : [
     {
       "groups" : [ "mediumsurface1" ],
-      "extraSpawns" : [ "fushroomdude" ]
+      "extraSpawns" : [ "fushroomdude", "breakercritter", "breakerfemalecritter", "leafscabcritter", "slugcritter", "snail", "snakecritter", "sporelingcritter" ]
     },
     {
       "groups" : [ "mediumsurface2" ],
-      "extraSpawns" : [ "fushroomdude" ]
+      "extraSpawns" : [ "fushroomdude", "breakercritter", "breakerfemalecritter", "leafscabcritter", "slugcritter", "snail", "snakecritter", "sporelingcritter" ]
+
     }
   ],
 

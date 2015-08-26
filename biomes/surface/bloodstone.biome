@@ -5,11 +5,11 @@
   "spawnProfiles" : [
     {
       "groups" : [ "mediumsurface1", "fu_bloodstone" ],
-      "extraSpawns" : [  ]
+      "extraSpawns" : [ "bloodtoadcritter"  ]
     },
     {
       "groups" : [ "mediumsurface2", "fu_bloodstone" ],
-      "extraSpawns" : [  ]
+      "extraSpawns" : [ "bloodtoadcritter"  ]
     }
   ],
 

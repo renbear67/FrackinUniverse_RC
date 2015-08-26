@@ -5,7 +5,7 @@
   "spawnProfiles" : [
     {
       "groups" : [ "mediumsurface1", "fu_penumbra" ],
-      "extraSpawns" : [  ],
+      "extraSpawns" : [ "glowingballcritter", "ravencritter" ],
       "monsterParameters" : {
         "statusSettings" : {
           "stats" : {
@@ -21,7 +21,7 @@
     },
     {
       "groups" : [ "mediumsurface2", "fu_penumbra" ],
-      "extraSpawns" : [  ],
+      "extraSpawns" : [ "glowingballcritter", "ravencritter" ],
       "monsterParameters" : {
         "statusSettings" : {
           "stats" : {

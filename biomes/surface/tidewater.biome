@@ -5,11 +5,11 @@
   "spawnProfiles" : [
     {
       "groups" : [ "oceansurface1" ],
-      "extraSpawns" : [ ]
+      "extraSpawns" : [ "crabcritter", "gullcritter", "savybirdcritter" ]
     },
     {
       "groups" : [ "oceansurface2" ],
-      "extraSpawns" : [ ]
+      "extraSpawns" : [ "crabcritter", "gullcritter", "savybirdcritter" ]
     }
   ],
 

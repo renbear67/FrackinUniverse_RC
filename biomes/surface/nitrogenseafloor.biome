@@ -7,7 +7,7 @@
   "spawnProfiles" : [
     {
       "groups" : [ "oceanfloor" ],
-      "extraSpawns" : [  ],
+      "extraSpawns" : [ "jellocritter", "jellycritter", "poisonfishcritter", "pufferfishcritter" ],
       "monsterParameters" : {
         "statusSettings" : {
           "stats" : {
@@ -27,7 +27,8 @@
     },
     {
       "groups" : [ "oceanfloor" ],
-      "extraSpawns" : [  ],
+      "extraSpawns" : [ "jellocritter", "jellycritter", "poisonfishcritter", "pufferfishcritter" ],
+
       "monsterParameters" : {
         "statusSettings" : {
           "stats" : {

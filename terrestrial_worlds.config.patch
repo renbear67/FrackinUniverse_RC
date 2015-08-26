@@ -1561,6 +1561,7 @@
       //"oceanLevelOffset" : -2,
       "caveLiquid" : [ "swampwater", "poison", "healingliquid" ],
       "caveLiquidChanceRange" : [99, 100],
+      "caveLiquidSeedDensityRange" : [4.0, 4.0],
       "blockSelector" : [ "remixedSwampySurface", "remixedSurface", "remixedPoolsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves", "fusurfacecaves" ],
       "bgOreSelector" : [ "commonVeins" ],       

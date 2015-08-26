@@ -5,11 +5,12 @@
   "spawnProfiles" : [
     {
       "groups" : [ "mediumsurface1" ],
-      "extraSpawns" : [ "fusnowball" ]
+      "extraSpawns" : [ "fusnowball", "bouncercritter", "reasonablecritter", "snooglecritter" ]
     },
     {
       "groups" : [ "mediumsurface2" ],
-      "extraSpawns" : [ "fusnowball" ]
+      "extraSpawns" : [ "fusnowball", "bouncercritter", "reasonablecritter", "snooglecritter" ]
+
     }
   ],
 

@@ -6,11 +6,13 @@
   "spawnProfiles" : [
     {
       "groups" : [ "easysurface1", "fu_arboreal" ],
-      "extraSpawns" : [ ]
+      "extraSpawns" : [ "birdcritter", "bunny", "chevcritter", "groopcritter", "harecritter", "hedgehogcritter", "redbreastcritter", "squirrelcritter" ]
+
     },
     {
       "groups" : [ "easysurface2", "fu_arboreal" ],
-      "extraSpawns" : [ ]
+      "extraSpawns" : [ "birdcritter", "bunny", "chevcritter", "groopcritter", "harecritter", "hedgehogcritter", "redbreastcritter", "squirrelcritter" ]
+
     }
   ],
 
@@ -101,7 +103,8 @@
   "subBlocks" : [ "shroomblock", "magmarock", "jungledirt1" ],
   "ores" : "ff_surfacearborealOres",
 
-  "parallax" : "/parallax/surface/arboreal.parallax",
+  //"parallax" : "/parallax/surface/arboreal.parallax",
+  "parallax" : "/parallax/surface/forest.parallax",
 
     "ambientNoises" : {
       "day" : {

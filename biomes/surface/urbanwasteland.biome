@@ -5,11 +5,11 @@
   "spawnProfiles" : [
     {
       "groups" : [ "mediumsurface1" ],
-      "extraSpawns" : [ ]
+      "extraSpawns" : [ "fudrone" ]
     },
     {
       "groups" : [ "mediumsurface2" ],
-      "extraSpawns" : [ ]
+      "extraSpawns" : [ "fudrone" ]
     }
   ],
 

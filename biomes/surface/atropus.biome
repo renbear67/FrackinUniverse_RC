@@ -6,7 +6,7 @@
   "spawnProfiles" : [
     {
       "groups" : [ "hardsurface1", "fu_atropus" ],
-      "extraSpawns" : [ ],
+      "extraSpawns" : [ "apexscabcritter", "avianscabcritter", "eyefriend", "eyepodcritter", "floranscabcritter", "glitchscabcritter", "humanscabcritter", "hylotlscabcritter", "maggotcritter" ],
       "monsterParameters" : {
         "statusSettings" : {
           "stats" : {
@@ -22,7 +22,8 @@
     },
     {
       "groups" : [ "hardsurface2", "fu_atropus" ],
-      "extraSpawns" : [ ],
+      "extraSpawns" : [ "apexscabcritter", "avianscabcritter", "eyefriend", "eyepodcritter", "floranscabcritter", "glitchscabcritter", "humanscabcritter", "hylotlscabcritter", "maggotcritter" ],
+
       "monsterParameters" : {
         "statusSettings" : {
           "stats" : {

@@ -5,11 +5,11 @@
   "spawnProfiles" : [
     {
       "groups" : [ "mediumsurface1", "fu_thickjungle" ],
-      "extraSpawns" : [  ]
+      "extraSpawns" : [ "frog", "harecritter", "hedgehogcritter", "petalcritter", "snakecritter", "tortoise", "toucritter", "tritrotscritter" ]
     },
     {
       "groups" : [ "mediumsurface2", "fu_thickjungle" ],
-      "extraSpawns" : [  ]
+      "extraSpawns" : [ "frog", "harecritter", "hedgehogcritter", "petalcritter", "snakecritter", "tortoise", "toucritter", "tritrotscritter" ]
     }
   ],
 
