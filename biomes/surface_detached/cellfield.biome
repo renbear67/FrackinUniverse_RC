@@ -52,7 +52,7 @@
           "distribution" : "/biomes/distributions.config:randomEncounter",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "tar", "randomencounter", "apexencounter", "avianencounter", "glitchencounter", "shroomencounter" ]
+          "microdungeons" : [ "tar", "randomencounter" ]
         },
         {
           "mode" : "floor",
