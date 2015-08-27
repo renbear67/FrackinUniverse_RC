@@ -15,7 +15,7 @@
      "shieldregen2",
     {
       "stat" : "energyRegen",
-      "amount" : 1.5
+      "amount" : 1.1
     }
   ],
   

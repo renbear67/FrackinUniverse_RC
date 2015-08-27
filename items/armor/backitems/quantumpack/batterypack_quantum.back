@@ -13,7 +13,7 @@
     "energyregenfu_quantum",
     {
       "stat" : "maxEnergy",
-      "amount" : 200
+      "amount" : 60
     },
     "glowblue2"
   ]

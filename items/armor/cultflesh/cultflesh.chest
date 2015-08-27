@@ -21,10 +21,13 @@
   },
 
   "statusEffects" : [
-      "regeneration2",
+    {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 1.25
+    },      
     {
       "stat" : "protection",
-      "amount" : 120
+      "amount" : 28
     },
 
     {
@@ -34,11 +37,11 @@
 
     {
       "stat" : "maxHealth",
-      "amount" : 150
+      "amount" : 22
     },
-    "helium3immunity",
-    "slimestickimmunity"
-  ]
-
+    "slimestickimmunity",
+    "regeneration2"
+  ],
+  "questTags" : [ "tier5armor" ]
   
 }

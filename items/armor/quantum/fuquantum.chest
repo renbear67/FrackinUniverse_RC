@@ -21,20 +21,23 @@
   },
 
   "statusEffects" : [
-    "regeneration1",
+    {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 1.25
+    },  
     {
       "stat" : "protection",
-      "amount" : 170
+      "amount" : 50
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 150
+      "amount" : 45
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 100
+      "amount" : 50
     },
     {
       "stat" : "sulphuricImmunity",

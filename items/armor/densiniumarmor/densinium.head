@@ -13,9 +13,13 @@
   "mask" : "mask.png",
 
   "statusEffects" : [
+    {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 1.75
+    },  
       {
         "stat" : "maxHealth",
-        "amount" : 180
+        "amount" : 24
       },
       {
         "stat" : "maxenergy",
@@ -23,11 +27,11 @@
       },
       {
         "stat" : "protection",
-        "amount" : 240
+        "amount" : 35
       },
       "densiniumheadeffects"
   ],
-
+  "questTags" : [ "tier7armor" ],
   "colorOptions" : [
     { "ffca8a" : "fffdb0", "e0975c" : "cbc234", "a85636" : "926e19", "6f2919" : "563f0f" },
     { "ffca8a" : "727272", "e0975c" : "414141", "a85636" : "1c1c1c", "6f2919" : "0b0b0b" },

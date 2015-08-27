@@ -14,18 +14,22 @@
 
   "statusEffects" : [
     {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 1.25
+    },   
+    {
       "stat" : "protection",
-      "amount" : 115
+      "amount" : 35
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 95
+      "amount" : 67
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 90
+      "amount" : 45
     },
     "headlamp",
     "spacefarerimmunity"

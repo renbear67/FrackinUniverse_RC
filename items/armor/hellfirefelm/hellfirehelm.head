@@ -14,7 +14,7 @@
   "statusEffects" : [
       {
         "stat" : "protection",
-        "amount" : 180
+        "amount" : 60
     },
     {
       "stat" : "fireImmunity",

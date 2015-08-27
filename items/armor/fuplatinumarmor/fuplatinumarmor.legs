@@ -12,13 +12,23 @@
 
   "statusEffects" : [
     {
-      "stat" : "protection",
-      "amount" : 72
+      "stat" : "powerMultiplier",
+      "basePercentage" : 0.5
     },
-      "energyregenfu_armor30",
+
+    {
+      "stat" : "protection",
+      "amount" : 12
+    },
+
+    {
+      "stat" : "maxEnergy",
+      "amount" : 32
+    },
+
     {
       "stat" : "maxHealth",
-      "amount" : 50
+      "amount" : 8
     }
   ],
 

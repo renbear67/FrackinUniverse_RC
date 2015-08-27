@@ -22,16 +22,22 @@
 
   "statusEffects" : [
     {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 1.5
+    },  
+    {
       "stat" : "protection",
-      "amount" : 85
+      "amount" : 32
     },
     {
       "stat" : "maxHealth",
-      "amount" : 70
+      "amount" : 40
     },
     {
       "stat" : "maxEnergy",
       "amount" : 60
-    }
-  ]
+    },
+  "glowyellow"
+  ],
+    "questTags" : [ "tier5armor" ]
 }

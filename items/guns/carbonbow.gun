@@ -20,18 +20,22 @@
   "fireOnRelease" : true,
   "walkWhileFiring" : true,
 
-  "projectileType" : "woodenarrow",
-  "powerProjectileType" : "chargedarrow",
+  "projectileType" : "ironarrow",
+  "powerProjectileType" : "chargedironarrow",
   "powerProjectileTime" : [0.9, 1.1],
+  "drawSpeedCurve" : "drawTimeMultiplier",
+  "drawPowerCurve" : "drawTimeMultiplier",
   "projectile" : {
-    "speed" : 60,
-    "speedCurve" : "drawTimeMultiplier",
-    "power" : 6,
-    "powerCurve" : "drawTimeMultiplier",
-    "color" : [10, 255, 10]
+    "speed" : 80,
+    "power" : 6
   },
 
   "muzzleEffect" : {
     "fireSound" : [ { "file" : "/sfx/gun/bow_loose.wav" } ]
   }
 }
+
+
+
+
+

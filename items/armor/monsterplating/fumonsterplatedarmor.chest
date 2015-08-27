@@ -22,18 +22,18 @@
 
   "statusEffects" : [
     {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 1.75
+    },
+
+    {
       "stat" : "protection",
       "amount" : 85
     },
 
     {
-      "stat" : "maxEnergy",
-      "amount" : 70
-    },
-
-    {
       "stat" : "maxHealth",
-      "amount" : 30
+      "amount" : 70
     },
     "fumudslowimmunity",
     "blacktarimmunity"

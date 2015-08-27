@@ -23,18 +23,22 @@
 
   "statusEffects" : [
     {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 1.5
+    },    
+    {
       "stat" : "protection",
-      "amount" : 125
+      "amount" : 37
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 70
+      "amount" : 30
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 70
+      "amount" : 30
     },
     "spacefarerimmunity"
   ]

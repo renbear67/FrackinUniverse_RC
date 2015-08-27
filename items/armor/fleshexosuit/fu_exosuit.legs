@@ -12,9 +12,25 @@
   "femaleFrames" : "pants.png",
 
   "statusEffects" : [
-    { "stat" : "protection", "amount" : 125 },
-    { "stat" : "maxEnergy", "amount" : 70 },
-    { "stat" : "maxHealth", "amount" : 55 },
+    {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 0.8
+    },
+
+    {
+      "stat" : "protection",
+      "amount" : 12
+    },
+
+    {
+      "stat" : "maxEnergy",
+      "amount" : 40
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 6
+    },
     "exosuitlegs"
   ],
   "colorOptions" : [

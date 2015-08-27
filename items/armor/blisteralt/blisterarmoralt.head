@@ -14,18 +14,23 @@
 
   "statusEffects" : [
     {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 0.9
+    },  
+    {
       "stat" : "protection",
-      "amount" : 75
+      "amount" : 24
     },
     {
       "stat" : "maxHealth",
-      "amount" : 60
+      "amount" : 25
     },
     {
       "stat" : "biomeradiationImmunity",
       "amount" : 1
     },
 	"glowyellow"
-  ]
+  ],
+    "questTags" : [ "tier5armor" ]
 
 }

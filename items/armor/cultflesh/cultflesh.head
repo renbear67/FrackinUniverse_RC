@@ -14,20 +14,24 @@
 
   "statusEffects" : [
     {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 0.75
+    },
+    {
       "stat" : "protection",
-      "amount" : 85
+      "amount" : 15
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 65
+      "amount" : 47
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 90
+      "amount" : 20
     },
-    "helium3immunity",
     "slimestickimmunity"
-  ]
+  ],
+    "questTags" : [ "tier5armor" ]
 }

@@ -14,7 +14,7 @@
   "statusEffects" : [
     {
       "stat" : "maxEnergy",
-      "amount" : 10
+      "amount" : 30
     }
   ]
 

@@ -12,18 +12,25 @@
   "femaleFrames" : "head.png",
   "mask" : "mask.png",
   "statusEffects" : [
-      {
-        "stat" : "maxHealth",
-        "amount" : 80
-    },
     {
-      "stat" : "maxEnergy",
-      "amount" : 160
+      "stat" : "powerMultiplier",
+      "basePercentage" : 0.6
     },
+
     {
       "stat" : "protection",
-      "amount" : 90
-    }, 
+      "amount" : 15
+    },
+
+    {
+      "stat" : "maxEnergy",
+      "amount" : 40
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 12
+    },
     "insanityimmunity"
   ]
 

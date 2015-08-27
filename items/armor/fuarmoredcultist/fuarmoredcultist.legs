@@ -13,14 +13,18 @@
   "femaleFrames" : "pants.png",
 
   "statusEffects" : [
+    {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 0.35
+    },  
     "movementprotection",
     {
       "stat" : "protection",
-      "amount" : 30
+      "amount" : 10
     },
     {
       "stat" : "energyRegen",
-      "amount" : 2
+      "amount" : 0.35
     }
   ],
 

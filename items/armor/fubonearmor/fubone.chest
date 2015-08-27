@@ -22,19 +22,24 @@
 
   "statusEffects" : [
     {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 1.2
+    },  
+    {
       "stat" : "protection",
-      "amount" : 45
+      "amount" : 22
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 30
+      "amount" : 60
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 25
+      "amount" : 15
     },
     "sulphuricacidimmunity"
-  ]
+  ],
+  "questTags" : [ "tier3armor" ]  
 }

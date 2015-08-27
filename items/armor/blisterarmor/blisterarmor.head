@@ -14,19 +14,25 @@
 
   "statusEffects" : [
     {
-      "stat" : "protection",
-      "amount" : 60
+      "stat" : "powerMultiplier",
+      "basePercentage" : 0.75
     },
+
+    {
+      "stat" : "protection",
+      "amount" : 20
+    },
+
     {
       "stat" : "maxEnergy",
-      "amount" : 60
+      "amount" : 45
     },
     {
       "stat" : "biomeradiationImmunity",
       "amount" : 1
     },
    "glowpurple"
-    
-  ]
+  ],
+    "questTags" : [ "tier4armor" ]
 
 }

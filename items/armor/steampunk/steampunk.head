@@ -13,16 +13,20 @@
   "mask" : "mask.png",
   "statusEffects" : [
     {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 1.0
+    },   
+    {
       "stat" : "maxHealth",
-      "amount" : 125
+      "amount" : 25
     },
     {
       "stat" : "maxEnergy",
-      "amount" : 50
+      "amount" : 30
     },
     {
       "stat" : "protection",
-      "amount" : 25
+      "amount" : 20
     }
   ],
 

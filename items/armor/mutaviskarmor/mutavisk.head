@@ -14,18 +14,22 @@
 
   "statusEffects" : [
     {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 0.5
+    },  
+    {
       "stat" : "protection",
-      "amount" : 70
+      "amount" : 22
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 80
+      "amount" : 85
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 40
+      "amount" : 15
     },
     "ffextremeradiationresist"
   ],

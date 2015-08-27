@@ -13,18 +13,26 @@
 
   "statusEffects" : [
     {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 0.35
+    },  
+    {
       "stat" : "protection",
-      "amount" : 120
+      "amount" : 20
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 150
+      "amount" : 65
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 80
+      "amount" : 15
+    },
+    {
+      "stat" : "sulphuricImmunity",
+      "amount" : 1.0
     },
     "ffextremecoldresist"
   ],

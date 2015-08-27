@@ -22,12 +22,16 @@
 
   "statusEffects" : [
     {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 2.0
+    },    
+    {
       "stat" : "protection",
-      "amount" : 58
+      "amount" : 35
     },
     {
       "stat" : "maxHealth",
-      "amount" : 80
+      "amount" : 30
     },
     "shieldregen2"
   ]

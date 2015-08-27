@@ -14,15 +14,15 @@
   "statusEffects" : [
         {
           "stat" : "maxHealth",
-          "amount" : 40
+          "amount" : 3
         },
         {
           "stat" : "protection",
-          "amount" : 20
+          "amount" : 5
         },
       {
         "stat" : "maxEnergy",
-        "amount" : 40
+        "amount" : 12
       },
       "snowslowimmunity"
   ],

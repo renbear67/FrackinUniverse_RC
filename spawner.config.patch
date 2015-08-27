@@ -165,7 +165,7 @@
 {"op":"add","path":"/spawns/fuheckblob","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.15,"monsterType":"fuheckblob","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/shadowhound","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.05,"monsterType":"shadowhound","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/fucorruptflylarge","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.01,"monsterType":"fucorruptflylarge","monsterParameters":{"aggressive":true}}},
-{"op":"add","path":"/spawns/fudeathdroid","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.01,"monsterType":"deathdroid","monsterParameters":{"aggressive":true}}}
+{"op":"add","path":"/spawns/fudeathdroid","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.01,"monsterType":"deathdroid","monsterParameters":{"aggressive":true}}},
 
 
 //critters

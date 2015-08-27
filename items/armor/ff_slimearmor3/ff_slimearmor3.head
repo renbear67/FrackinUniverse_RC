@@ -14,22 +14,27 @@
 
   "statusEffects" : [
     {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 0.9
+    },
+
+    {
       "stat" : "protection",
-      "amount" : 175
+      "amount" : 21
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 125
+      "amount" : 60
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 95
+      "amount" : 15
     },
     "biooozeimmunity"
   ],
-  
+    "questTags" : [ "tier5armor" ],
   "colorOptions" : [
     { "ffca8a" : "fffdb0", "e0975c" : "cbc234", "a85636" : "926e19", "6f2919" : "563f0f" },
     { "ffca8a" : "727272", "e0975c" : "414141", "a85636" : "1c1c1c", "6f2919" : "0b0b0b" },

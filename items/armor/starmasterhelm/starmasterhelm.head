@@ -12,9 +12,13 @@
   "femaleFrames" : "head.png",
   "mask" : "mask.png",
   "statusEffects" : [
+    {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 0.91
+    },   
       {
         "stat" : "maxHealth",
-        "amount" : 160
+        "amount" : 60
     },
     {
       "stat" : "maxEnergy",

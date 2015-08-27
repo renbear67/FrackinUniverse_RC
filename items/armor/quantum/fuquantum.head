@@ -13,22 +13,23 @@
   "mask" : "mask.png",
 
   "statusEffects" : [
-
-    "glow",
-
+    {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 0.75
+    },  
     {
       "stat" : "protection",
-      "amount" : 90
+      "amount" : 35
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 110
+      "amount" : 35
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 80
+      "amount" : 40
     },
     "ffextremeheatresist"
   ],

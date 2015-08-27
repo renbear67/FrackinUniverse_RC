@@ -206,7 +206,7 @@
 		{
 			"value" : [120, 100, 100, 255],
 			"comment" : "woodenlocker facing left",
-			"brush" : [ [ "clear" ], [ "object", "woodencrate", { "direction" : "right", "parameters" : { "treasurePools" : [ "tool", "ore" ] } } ] ]
+			"brush" : [ [ "clear" ], [ "object", "woodencrate1", { "direction" : "right", "parameters" : { "treasurePools" : [ "tool", "ore" ] } } ] ]
 		},
 		
 		{

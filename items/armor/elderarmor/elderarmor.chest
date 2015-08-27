@@ -20,21 +20,25 @@
   },
 
   "statusEffects" : [
+      {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 3.05
+    },
     {
       "stat" : "protection",
-      "amount" : 300
+      "amount" : 47
     },
     {
       "stat" : "maxEnergy",
-      "amount" : 300
+      "amount" : 200
     },
     {
       "stat" : "maxHealth",
-      "amount" : 500
+      "amount" : 47
     },
     "elderarmorimmunity"
   ],
-
+  "questTags" : [ "elderarmor" ],
   "colorOptions" : [
     /* YELLOW DEFAULT */
     { "ffca8a" : "ffffa7", "e0975c" : "e2c344", "a85636" : "a46e06", "6f2919" : "642f00" },

@@ -13,7 +13,7 @@
     "energyregenfu_proto",
     {
       "stat" : "maxEnergy",
-      "amount" : 100
+      "amount" : 35
     },
     "glowyellow2"
   ]

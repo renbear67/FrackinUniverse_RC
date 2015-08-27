@@ -12,9 +12,25 @@
   "femaleFrames" : "head.png",
   "mask" : "mask.png",
   "statusEffects" : [
-    { "stat" : "protection", "amount" : 105 },
-    { "stat" : "maxEnergy", "amount" : 80 },
-    { "stat" : "maxHealth", "amount" : 60 },
+    {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 1.2
+    },
+
+    {
+      "stat" : "protection",
+      "amount" : 18
+    },
+
+    {
+      "stat" : "maxEnergy",
+      "amount" : 60
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 9
+    },
     "exosuithead"
   ],
   "colorOptions" : [

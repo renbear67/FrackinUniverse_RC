@@ -12,18 +12,27 @@
   "mask" : "mask.png",
 
   "statusEffects" : [
+      {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 2.5
+    },
     {
       "stat" : "protection",
-      "amount" : 175
+      "amount" : 28
     },
-    "rage60",
+
     {
       "stat" : "maxEnergy",
-      "amount" : 180
+      "amount" : 130
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 37
     },
       "elderarmorimmunity"
   ],
-
+  "questTags" : [ "elderarmor" ],
   "colorOptions" : [
     /* YELLOW DEFAULT */
     { "ffca8a" : "ffffa7", "e0975c" : "e2c344", "a85636" : "a46e06", "6f2919" : "642f00" },

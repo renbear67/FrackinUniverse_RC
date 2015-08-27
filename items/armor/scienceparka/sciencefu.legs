@@ -12,17 +12,21 @@
   "femaleFrames" : "pants.png",
 
   "statusEffects" : [
+    {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 1.55
+    },    
         {
           "stat" : "maxHealth",
-          "amount" : 130
+          "amount" : 24
         },
         {
           "stat" : "protection",
-          "amount" : 120
+          "amount" : 22
         },
       {
         "stat" : "maxEnergy",
-        "amount" : 70
+        "amount" : 40
       },
       "ffextremecoldresist",
       "icearmorimmunitylegs"

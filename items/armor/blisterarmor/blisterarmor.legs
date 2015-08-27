@@ -13,16 +13,25 @@
 
   "statusEffects" : [
     {
-      "stat" : "protection",
-      "amount" : 60
+      "stat" : "powerMultiplier",
+      "basePercentage" : 0.5
     },
+
+    {
+      "stat" : "protection",
+      "amount" : 15
+    },
+
     {
       "stat" : "maxEnergy",
-      "amount" : 60
+      "amount" : 35
     },
+
     {
       "stat" : "maxHealth",
-      "amount" : 60
-    }
-  ]
+      "amount" : 12
+    },
+   "glowpurple"
+  ],
+    "questTags" : [ "tier4armor" ]
 }

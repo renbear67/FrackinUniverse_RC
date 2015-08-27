@@ -12,17 +12,27 @@
 
   "statusEffects" : [
     {
-      "stat" : "protection",
-      "amount" : 198
+      "stat" : "powerMultiplier",
+      "basePercentage" : 2
     },
-    "runboost25",
+
+    {
+      "stat" : "protection",
+      "amount" : 24
+    },
+
     {
       "stat" : "maxEnergy",
-      "amount" : 250
+      "amount" : 64
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 18
     },
     "warangelimmunity"
   ],
-
+"questTags" : [ "warangelarmor" ],
   "colorOptions" : [
     /* YELLOW DEFAULT */
     { "ffca8a" : "ffffa7", "e0975c" : "e2c344", "a85636" : "a46e06", "6f2919" : "642f00" },

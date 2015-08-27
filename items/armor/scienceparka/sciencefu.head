@@ -13,17 +13,21 @@
   "mask" : "mask.png",
 
   "statusEffects" : [
+    {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 1.95
+    },    
       {
         "stat" : "maxHealth",
-        "amount" : 120
+        "amount" : 30
       },
       {
         "stat" : "protection",
-        "amount" : 97
+        "amount" : 30
       },
       {
         "stat" : "maxEnergy",
-        "amount" : 80
+        "amount" : 60
       },
     "ffextremecoldresist",
     "icearmorimmunityhead"
