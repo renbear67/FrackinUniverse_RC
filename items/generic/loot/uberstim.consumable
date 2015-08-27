@@ -6,5 +6,6 @@
   "shortdescription" : "Uber-Stim",
   "effects" : [ [
      "fusupermovementstim"
-    ] ]
+    ] ],
+  "learnBlueprintsOnPickup" : [ "uberstim" ]
 }

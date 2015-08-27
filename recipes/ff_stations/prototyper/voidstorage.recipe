@@ -3,10 +3,10 @@
     { "item" : "shadowgascannister", "count" : 24 },
     { "item" : "wretchel", "count" : 12 },
     { "item" : "densiniumbar", "count" : 4 },
-    { "item" : "irradiumbar", "count" : 6 },
-    { "item" : "magneticshielding", "count" : 4 },
-    { "item" : "aichip", "count" : 2 },
-    { "item" : "particlecore", "count" : 1 }
+    { "item" : "elderrelic9", "count" : 1 },
+    { "item" : "elderrelic7", "count" : 1 },
+    { "item" : "elderrelic14", "count" : 1 },
+    { "item" : "elderrelic4", "count" : 1 }
   ],
   "output" : {
     "item" : "voidstorage",

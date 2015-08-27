@@ -6,5 +6,6 @@
   "shortdescription" : "The Sauce",
   "effects" : [ [
      "percentarmorboost30"
-    ] ]
+    ] ],
+  "learnBlueprintsOnPickup" : [ "thesauce" ]
 }

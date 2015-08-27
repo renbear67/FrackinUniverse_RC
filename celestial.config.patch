@@ -1,5 +1,286 @@
 [
 
+//celestial graphics
+  {"op" : "add", 
+  "path" : "/terrestrialHorizonGraphics/arboreal",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/arboreal_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]  
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialHorizonGraphics/arboreal2",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/arboreal_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]  
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialHorizonGraphics/atropus",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/atropus_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]  
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialHorizonGraphics/bloodstone",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/bloodstone_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]  
+  }},  
+  {"op" : "add", 
+  "path" : "/terrestrialHorizonGraphics/bloodstonesea",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/bloodstone_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 2],
+      "maskPerPlanetRange" : [0, 1]  
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialHorizonGraphics/bog",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/bog_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]  
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialHorizonGraphics/crystalmoon",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/crystalmoon_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]  
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialHorizonGraphics/desert_wastes",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/desert_wastes_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [0,0],
+      "maskPerPlanetRange" : [0, 0]  
+  }},  
+  {"op" : "add", 
+  "path" : "/terrestrialHorizonGraphics/frozenvolcanic",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/frozenvolcanic_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 5],
+      "maskPerPlanetRange" : [3, 3]  
+  }},  
+  {"op" : "add", 
+  "path" : "/terrestrialHorizonGraphics/fungus",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/fungus_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]  
+  }},  
+  {"op" : "add", 
+  "path" : "/terrestrialHorizonGraphics/icemoon",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/icemoon_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]  
+  }},  
+  {"op" : "add", 
+  "path" : "/terrestrialHorizonGraphics/icewaste",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/icewaste_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]  
+  }},  
+  {"op" : "add", 
+  "path" : "/terrestrialHorizonGraphics/infernus",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/infernus_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]  
+  }},  
+  {"op" : "add", 
+  "path" : "/terrestrialHorizonGraphics/irradiated",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/irradiated_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]  
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialHorizonGraphics/lightless",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/lightless_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]  
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialHorizonGraphics/metallicmoon",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/metallicmoon_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]  
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialHorizonGraphics/moon_desert",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/moon_desert_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]  
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialHorizonGraphics/moon_stone",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/moon_stone_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]  
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialHorizonGraphics/moon_toxic",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/moon_toxic_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]  
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialHorizonGraphics/moon_volcanic",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/moon_volcanic_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]  
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialHorizonGraphics/mountainous",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/mountainous_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]  
+  }},
+   {"op" : "add", 
+  "path" : "/terrestrialHorizonGraphics/nitrogensea",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/nitrogensea_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 12],
+      "maskPerPlanetRange" : [0, 2]  
+  }}, 
+  {"op" : "add", 
+  "path" : "/terrestrialHorizonGraphics/penumbra",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/penumbra_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]  
+  }},  
+  {"op" : "add", 
+  "path" : "/terrestrialHorizonGraphics/protoworld",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/protoworld_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]  
+  }}, 
+  {"op" : "add", 
+  "path" : "/terrestrialHorizonGraphics/slimeworld",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/slimeworld_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]  
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialHorizonGraphics/sulphuric",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/sulphuric_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]  
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialHorizonGraphics/sulphuricocean",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/sulphuricocean_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 3],
+      "maskPerPlanetRange" : [0, 2]  
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialHorizonGraphics/tarball",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/tarball_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]  
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialHorizonGraphics/thickjungle",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/thickjungle_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]  
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialHorizonGraphics/tidewater",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/Tidewater_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]  
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialHorizonGraphics/urbanwasteland",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/urban wasteland_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]  
+  }},
+  
   {"op" : "add", 
   "path" : "/planetaryTypes/GasGiant2",
   "value" : 

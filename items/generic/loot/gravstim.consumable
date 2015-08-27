@@ -6,5 +6,6 @@
   "shortdescription" : "Grav-Stim",
   "effects" : [ [
      "lowgrav_stim"
-    ] ]
+    ] ],
+  "learnBlueprintsOnPickup" : [ "gravtim" ]
 }

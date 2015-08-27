@@ -3,8 +3,9 @@
   "rarity" : "legendary",
   "inventoryIcon" : "waterstim.png",
   "description" : "Drastically increases swimming speed.",
-  "shortdescription" : "Aquatic Celerity Stim",
+  "shortdescription" : "Deepwater Stim",
   "effects" : [ [
      "swimboost2"
-    ] ]
+    ] ],
+  "learnBlueprintsOnPickup" : [ "waterstim" ]
 }
