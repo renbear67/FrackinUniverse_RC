@@ -9,7 +9,7 @@
   "health" : 8,
   "category": "materials",
   "soil" : true,
-  "tillableMod" : 3066,
+  "tillableMod" : 31,
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
     "texture" : "hydrotube.png",

@@ -22,6 +22,15 @@
       "fupoptop"
       ] 
 },
+
+{"op":"add",
+ "path":"/spawnGroups/fu_bog",
+ "value":[       
+      "fuaviansentry", 
+      "furatthing"
+      ] 
+},
+
 {"op":"add",
  "path":"/spawnGroups/fu_thickjungle",
  "value":[       
@@ -149,6 +158,7 @@
    }
  },
  
+ 
 {"op":"add","path":"/spawns/fumechspider","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.01,"monsterType":"fumechspider","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/fuglitchspider","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.05,"monsterType":"glitchspider","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/fupoptop","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.01,"monsterType":"fupoptop","monsterParameters":{"aggressive":true}}},
@@ -166,6 +176,7 @@
 {"op":"add","path":"/spawns/shadowhound","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.05,"monsterType":"shadowhound","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/fucorruptflylarge","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.01,"monsterType":"fucorruptflylarge","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/fudeathdroid","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.01,"monsterType":"deathdroid","monsterParameters":{"aggressive":true}}},
+{"op":"add","path":"/spawns/furatthing","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.01,"monsterType":"furatthing","monsterParameters":{"aggressive":true}}},
 
 
 //critters

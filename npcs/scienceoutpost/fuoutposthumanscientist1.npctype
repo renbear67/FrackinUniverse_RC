@@ -18,10 +18,10 @@
     
 
     "items" : {
-        "default" : [
+        "override" : [
             [0, [
           {
-            "head" : [ "scientisthead" ],
+            "head" : [ "fieldscientisthead" ],
             "chest" : [ "scientistchest" ],
             "legs" : [ "scientistlegs" ]
           }

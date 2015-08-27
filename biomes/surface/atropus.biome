@@ -1,13 +1,13 @@
 {
   "name" : "atropus",
   "friendlyName" : "Atropus",
-
   "requiredStatuses" : [],
   "spawnProfiles" : [
     {
       "groups" : [ "hardsurface1", "fu_atropus" ],
       "extraSpawns" : [ "apexscabcritter", "avianscabcritter", "eyefriend", "eyepodcritter", "floranscabcritter", "glitchscabcritter", "humanscabcritter", "hylotlscabcritter", "maggotcritter" ],
       "monsterParameters" : {
+        "colors" : "forest",
         "statusSettings" : {
           "stats" : {
             "pusImmunity" : {
@@ -25,6 +25,7 @@
       "extraSpawns" : [ "apexscabcritter", "avianscabcritter", "eyefriend", "eyepodcritter", "floranscabcritter", "glitchscabcritter", "humanscabcritter", "hylotlscabcritter", "maggotcritter" ],
 
       "monsterParameters" : {
+        "colors" : "forest",
         "statusSettings" : {
           "stats" : {
             "pusImmunity" : {

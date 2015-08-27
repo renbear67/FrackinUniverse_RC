@@ -18,12 +18,12 @@
     
 
     "items" : {
-        "default" : [
+        "override" : [
             [0, [
           {
-            "head" : [ "scientisthead" ],
-            "chest" : [ "scientistchest" ],
-            "legs" : [ "scientistlegs" ]
+            "head" : [ "goggles2" ],
+            "chest" : [ "fieldscientistchest" ],
+            "legs" : [ "fieldscientistlegs" ]
           }
             ] ]
         ]

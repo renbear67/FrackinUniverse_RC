@@ -1,12 +1,12 @@
 {
-  "type" : "starspawn",
+  "type" : "furatthing",
 
-  "categories" : [ "starspawn" ],
+  "categories" : [ "furatthing" ],
   "parts" : [ "body" ],
+  "reversed" : true,
+  "animation" : "furatthing.animation",
 
-  "animation" : "starspawn.animation",
-  "colors" : "/monsters/colors.config",
-  "reversed" : false,
+  "dropPools" : [ "shadowhoundLoot" ],
 
   "baseParameters" : {
     "scripts" : [
@@ -23,10 +23,15 @@
       "/monsters/ground/skills/createGroundRangedAttack.lua"
     ],
 
-    "baseSkills" : [ "starspawnSpitAttack" ],
-    "specialSkills" : [ "blinkAttack", "starspawnShockAttack", "starspawnSwarmAttack", "starspawnPortalAttack" ],
+    "damageTeam" : 1,
 
-    "projectileSourcePosition" : [1.875, 1],
+    "blockedSensors" : [ [1.5, -0.8], [1.5, 0.2], [1.5, 0.7] ],
+    "fallSensors" : [ [0.5, -2.5], [0.5, -3.5], [0.5, -4.5], [2.0, -2.5], [2.0, -3.5], [2.0, -4.5] ],
+
+    "baseSkills" : [ "meleeAttack"],
+    "specialSkills" : [ "pounceAttack" ],
+
+    "projectileSourcePosition" : [0.5, 0],
 
     "attackStartDistance" : 3.5,
     "attackTime" : 0.75,
@@ -48,45 +53,47 @@
     "jumpTime" : [1.4, 2.0],
 
     "pathing" : {
-      "canOpenDoors" : true
+      "canOpenDoors" : false
     },
 
-    "metaBoundBox" : [-1.75, -2.5, 1.75, 2.5],
+    "metaBoundBox" : [-2, -2, 2, 2],
     "scale" : 1.0,
 
+    "exhaustionTimer" : 3.0,
+    "exhaustionTimeout" : 3.0,
+    "exhaustionDistanceLimit" : 1.0,
+
     "movementSettings" : {
-      "collisionPoly" : [ [-1.75, -2.5], [1.75, -2.5], [1.75, 2.5], [-1.75, 2.5] ],
+      "collisionPoly" : [ [-1, -0.6], [-0.6, -1], [0.6, -1], [1, -0.6], [1, 0.6], [0.6, 1], [-0.6, 1], [-1, 0.6] ],
 
-      "mass" : 1.0,
-      "walkSpeed" : 4,
-      "runSpeed" : 7,
-      "flySpeed" : 15,
+      "mass" : 0.5,
+      "walkSpeed" : 1.0,
+      "runSpeed" : 2.0,
+      "flySpeed" : 25.0,
       "airForce" : 50.0,
-
-      "airFriction" : 0.0,
-      "airJumpProfile" : {
-        "jumpSpeed" : 15.0,
-        "jumpInitialPercentage" : 1.0,
-        "jumpHoldTime" : 0.0              
+      "airJumpProfile": {
+        "jumpSpeed" : 15.0
       }
     },
 
     "bodyMaterialKind" : "organic",
 
-    "knockoutTime" : 1,
+    "knockoutTime" : 0.1,
     "knockoutEffect" : "blink",
+    "knockoutAnimationStates" : {
+      "movement" : "knockout",
+      "attack" : "idle"
+    },
     "deathParticles" : "deathPoof",
 
     "touchDamage" : {
-      "poly" : [ [-1.625, -2.375], [1.75, -2.375], [1.75, 2.0], [-1.625, 2.0] ],
-      "damage" : 15,
+      "poly" : [ [-4, -3], [0, -3], [0, 0], [-4, 0] ],
+      "damage" : 30,
 
       "teamType" : "enemy",
-      "damageSourceKind" : "lash",
+      "damageSourceKind" : "testpoison",
       "statusEffects" : [ ]
     },
-
-    "dropPools" : [ "ffelderStarspawnTreasure" ],
 
     "statusSettings" : {
       "statusProperties" : {
@@ -103,16 +110,13 @@
 
       "stats" : {
         "maxHealth" : {
-          "baseValue" : 400
+          "baseValue" : 60
         },
         "protection" : {
           "baseValue" : 1.0
         },
         "healthRegen" : {
           "baseValue" : 0.0
-        },
-        "poisonImmunity" : {
-          "baseValue" : 1.0
         }
       },
 
@@ -126,6 +130,6 @@
     },
 
     "mouthOffset" : [0, 0],
-    "feetOffset" : [0, -8]
+    "feetOffset" : [0, -21]
   }
 }

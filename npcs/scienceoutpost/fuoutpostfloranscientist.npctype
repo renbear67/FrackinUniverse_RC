@@ -18,12 +18,12 @@
     
 
     "items" : {
-        "default" : [
+        "override" : [
             [0, [
           {
             "head" : [ "scientisthead" ],
-            "chest" : [ "sciencefuchest" ],
-            "legs" : [ "sciencefulegs" ]
+            "chest" : [ "fubonusarmorchest" ],
+            "legs" : [ "fubonusarmorpants" ]
           }
             ] ]
         ]

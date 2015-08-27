@@ -1475,7 +1475,7 @@
   {
       "caveLiquid" : [  "water", "blacktar", "healingliquid" ],
       "blockSelector" : [ "remixedSurface", "remixedMildSurface" ],
-      "fgCaveSelector" : [ "surfaceCaves", "fusurfacecaves" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
       "bgOreSelector" : [ "commonVeins", "denseVeins" ], 
       "biome" : [
         [0, [ "arboreal" ]]
@@ -1489,7 +1489,7 @@
   {
       "caveLiquid" : [  "water", "blacktar", "lava" ],
       "blockSelector" : [ "remixedSurface", "remixedMildSurface" ],
-      "fgCaveSelector" : [ "surfaceCaves", "fusurfacecaves" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
       "bgOreSelector" : [ "commonVeins", "denseVeins" ], 
       "biome" : [
         [0, [ "arboreal2" ]]
@@ -1503,7 +1503,7 @@
   {
       "caveLiquid" : [ "bloodliquid", "alienjuice", "pus", "sulphuricacid" ],
       "blockSelector" : [ "remixedSurface", "remixedMildSurface", "remixedMountainsSurface", "remixedMegaMountainsSurface" ],
-      "fgCaveSelector" : [ "surfaceCaves", "fusurfacecaves", "denseCaves" ],
+      "fgCaveSelector" : [ "surfaceCaves", "denseCaves" ],
       "bgOreSelector" : [ "denseVeins" ], 
       "biome" : [
         [0, [ "atropus" ]]
@@ -1547,7 +1547,7 @@
       "oceanLiquid" : [ "bloodliquid" ],
       "oceanLevelOffset" : 9999,
       "blockSelector" : [ "remixedSurface", "remixedCanyonsSurface", "remixedStepsSurface", "remixedMegaMountainsSurface" ],
-      "fgCaveSelector" : [ "surfaceCaves", "denseCaves", "normalmegacave", "megacore" ],
+      "fgCaveSelector" : [ "surfaceCaves", "denseCaves" ],
       "bgOreSelector" : [ "denseVeins" ],       
       "biome" : [
         [0, [ "bloodstoneseafloor" ]]
@@ -1567,7 +1567,7 @@
       "caveLiquidChanceRange" : [99, 100],
       "caveLiquidSeedDensityRange" : [4.0, 4.0],
       "blockSelector" : [ "remixedSwampySurface", "remixedSurface", "remixedPoolsSurface" ],
-      "fgCaveSelector" : [ "surfaceCaves", "fusurfacecaves" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
       "bgOreSelector" : [ "commonVeins" ],       
 
       "biome" : [
@@ -1583,7 +1583,7 @@
       "caveLiquid" : [  "darkwater" ],
       "caveLiquidChanceRange" : [20, 100],
       "blockSelector" : [ "remixedSwampySurface", "remixedSurface",  "remixedPoolsSurface"  ],
-      "fgCaveSelector" : [ "surfaceCaves", "fusurfacecaves" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
       "bgOreSelector" : [ "commonVeins", "denseVeins" ], 
       "biome" : [
         [0, [ "corruptmoon" ]]
@@ -1770,7 +1770,7 @@
   {
       "caveLiquid" : [ "lava" ],
       "blockSelector" : [ "remixedMegaMountainsSurface", "remixedCanyonsSurface", "remixedMountainsSurface", "remixedSurface", "remixedStepsSurface", "remixedPoolsSurface", "remixedSwampySurface" ],
-      "fgCaveSelector" : [ "moonSurfaceCaves", "surfaceCaves", "denseCaves", "fusurfacecaves", "normalmegacave"  ],
+      "fgCaveSelector" : [ "moonSurfaceCaves", "surfaceCaves", "denseCaves"  ],
       "bgOreSelector" : [ "denseVeins" ],       
       "caveLiquidChanceRange" : [100, 100],
       "biome" : [
@@ -1885,7 +1885,7 @@
       "caveLiquid" : [ "liquidnitrogen" ],
       "caveLiquidChanceRange" : [100, 100],
       "blockSelector" : [ "remixedCanyonsSurface", "remixedMildCanyonsSurface", "remixedIslandTowersSurface", "remixedSurface", "remixedStepsSurface" ],
-      "fgCaveSelector" : [ "surfaceCaves", "fusurfacecaves" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
       "bgOreSelector" : [ "denseVeins" ],       
       "biome" : [
         [0, [ "nitrogensea" ]]
@@ -1900,7 +1900,7 @@
       "oceanLiquid" : [ "liquidnitrogen" ],
       "oceanLevelOffset" : 9999,
       "blockSelector" : [ "remixedSurface", "remixedMountainsSurface", "remixedCanyonsSurface"  ],
-      "fgCaveSelector" : [ "denseCaves", "fusurfacecaves" ],
+      "fgCaveSelector" : [ "denseCaves" ],
       "bgOreSelector" : [ "denseVeins" ],       
       "biome" : [
         [0, [ "nitrogenseafloor" ]]
@@ -2207,7 +2207,7 @@
       "caveLiquid" : [ "water", "healingliquid", "helium3gas" ],
       "caveLiquidChanceRange" : [99, 100],
       "blockSelector" : [ "spikesSurface", "mixedSurface", "remixedSurface" ],
-      "fgCaveSelector" : [ "denseCaves", "moonSurfaceCaves", "coreCaves", "normalmegacave" ],
+      "fgCaveSelector" : [ "denseCaves", "moonSurfaceCaves", "coreCaves" ],
       "biome" : [
         [0, [ "fucoralcavern" ]]
       ]
@@ -2298,7 +2298,7 @@
   {
       "caveLiquid" : [ "elderfluid", "bio_ooze", "darkwater", "slimeliquid" ],
       "blockSelector" : [ "remixedMildSurface", "remixedSurface", "remixedMountainsSurface" ],
-      "fgCaveSelector" : [ "surfaceCaves", "fusurfacecaves", "normalmegacave" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
         [0, [ "elder" ]]
       ]
@@ -2631,7 +2631,7 @@
       "caveLiquid" : [ "darkwater", "swampwater", "poison" ],
       "caveLiquidChanceRange" : [15, 40],
       "blockSelector" : [ "remixedMildSurface", "remixedSurface" ],
-      "fgCaveSelector" : [ "normalmegacave", "acidPoolCaves", "denseCaves", "coreCaves"  ],
+      "fgCaveSelector" : [ "acidPoolCaves", "denseCaves", "coreCaves"  ],
       "biome" : [
         [0, [ "ffspidernest" ]]
       ]
@@ -3566,7 +3566,7 @@
   {
       "caveLiquid" : [ "swampwater", "poison","bio_ooze", "alienjuice", "slimeliquid" ], 
       "caveLiquidChanceRange" : [5, 15],
-      "fgCaveSelector" : [ "acidPoolCaves", "denseCaves", "normalmegacave", "megacore"  ],
+      "fgCaveSelector" : [ "acidPoolCaves", "denseCaves" ],
       "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
         [0, [ "irradiatedunderground"]]
@@ -3894,7 +3894,7 @@
       "oceanLiquid" : [ "liquidnitrogen" ],
       "oceanLevelOffset" : 10,
       "subBlockSelector" : [ "lowHillsSurface" ],
-      "fgCaveSelector" : [ "coreCaves", "megacore", "normalmegacave" ],
+      "fgCaveSelector" : [ "coreCaves" ],
       "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
         [0, [ "nitrogencorelayer"] ]
@@ -3910,7 +3910,7 @@
       "caveLiquidChanceRange" : [25, 65],
       "oceanLiquid" : [ "bio_ooze" ],
       "oceanLevelOffset" : 10,
-      "fgCaveSelector" : [ "coreCaves", "megacore", "normalmegacave" ],
+      "fgCaveSelector" : [ "coreCaves" ],
       "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
         [0, [ "protocorelayer"] ]
@@ -3926,7 +3926,7 @@
       "caveLiquidChanceRange" : [95, 100],
       "oceanLiquid" : [ "pus" ],
       "oceanLevelOffset" : 4,
-      "fgCaveSelector" : [ "coreCaves", "megacore", "normalmegacave" ],
+      "fgCaveSelector" : [ "coreCaves" ],
       "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
         [0, [ "blaststonecorelayer"] ]
@@ -3942,7 +3942,7 @@
       "caveLiquidChanceRange" : [25, 65],
       "oceanLiquid" : [ "protociteliquid" ],
       "oceanLevelOffset" : 10,
-      "fgCaveSelector" : [ "coreCaves", "megacore", "normalmegacave" ],
+      "fgCaveSelector" : [ "coreCaves" ],
       "bgOreSelector" : [ "denseVeins" ],        
       "biome" : [
         [0, [ "protocorelayer"] ]
@@ -3958,7 +3958,7 @@
       "caveLiquidChanceRange" : [25, 65],
       "oceanLiquid" : [ "irradiumliquid" ],
       "oceanLevelOffset" : 10,
-      "fgCaveSelector" : [ "coreCaves", "megacore", "normalmegacave" ],
+      "fgCaveSelector" : [ "coreCaves" ],
       "bgOreSelector" : [ "denseVeins" ],   
       "biome" : [
         [0, [ "obsidiancorelayer"] ]

@@ -6,11 +6,17 @@
   "spawnProfiles" : [
     {
       "groups" : [ "easysurface1", "fu_arboreal" ],
-      "extraSpawns" : [ "birdcritter", "bunny", "chevcritter", "groopcritter", "harecritter", "hedgehogcritter", "redbreastcritter", "squirrelcritter" ]
+      "extraSpawns" : [ "birdcritter", "bunny", "chevcritter", "groopcritter", "harecritter", "hedgehogcritter", "redbreastcritter", "squirrelcritter" ],
+      "monsterParameters" : {
+        "colors" : "forest"
+      }    
     },
     {
       "groups" : [ "easysurface2", "fu_arboreal" ],
-      "extraSpawns" : [ "birdcritter", "bunny", "chevcritter", "groopcritter", "harecritter", "hedgehogcritter", "redbreastcritter", "squirrelcritter" ]
+      "extraSpawns" : [ "birdcritter", "bunny", "chevcritter", "groopcritter", "harecritter", "hedgehogcritter", "redbreastcritter", "squirrelcritter" ],
+      "monsterParameters" : {
+        "colors" : "forest"
+      }  
     }
   ],
 
@@ -101,8 +107,8 @@
   "subBlocks" : [ "dirt", "clay", "grassyrock" ],
   "ores" : "ff_surfacearborealOres",
 
-  //"parallax" : "/parallax/surface/arboreal.parallax",
-  "parallax" : "/parallax/surface/forest.parallax",
+  "parallax" : "/parallax/surface/arboreal.parallax",
+
 
     "ambientNoises" : {
       "day" : {
@@ -405,12 +411,21 @@
         },
         {
           "mode" : "floor",
-          "priority" : 3.0,
+          "priority" : 1.0,
           "variants" : 1,
           "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "newhumanmicro", "newavianmicro", "minigreenruins", "forestmicrodungeons", "fuencountercultist", "gardenmicrodungeons" ]
+          "microdungeons" : [ "forestmicrodungeons", "gardenmicrodungeons" ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:randomEncounter",
+
+          "type" : "microdungeon",
+          "microdungeons" : [ "newhumanmicro", "newavianmicro", "minigreenruins", "fuencountercultist" ]
         },
         {
           "mode" : "floor",

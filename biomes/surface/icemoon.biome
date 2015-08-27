@@ -8,11 +8,17 @@
   "spawnProfiles" : [
     {
       "groups" : [ ],
-      "extraSpawns" : [ "fusnowball" ]
+      "extraSpawns" : [ "fusnowball" ],
+      "monsterParameters" : {
+        "colors" : "ice"
+      }      
     },
     {
       "groups" : [  ],
-      "extraSpawns" : [ "fusnowball" ]
+      "extraSpawns" : [ "fusnowball" ],
+      "monsterParameters" : {
+        "colors" : "ice"
+      }      
     }
   ],
 

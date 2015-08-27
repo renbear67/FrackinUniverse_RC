@@ -2189,7 +2189,7 @@
       "brush" : [ [ "npc",
           {
             "kind" : "npc",
-            "species" : "penguin",
+            "species" : "novakid",
             "typeName" : "fuoutpostpenguinscientist",
             "seed" : 28
           }

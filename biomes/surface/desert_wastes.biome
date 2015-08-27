@@ -7,12 +7,17 @@
    "spawnProfiles" : [
     {
       "groups" : [ "mediumsurface1", "fu_thickjungle" ],
-      "extraSpawns" : [ "sunskipper", "goldbuck", "fuscorpion", "deserttortoisecritter", "vulturecritter"  ]
+      "extraSpawns" : [ "sunskipper", "goldbuck", "fuscorpion", "deserttortoisecritter", "vulturecritter"  ],
+      "monsterParameters" : {
+        "colors" : "desert"
+      }    
     },
     {
       "groups" : [ "mediumsurface2", "fu_thickjungle" ],
-      "extraSpawns" : [ "sunskipper", "goldbuck", "fuscorpion", "deserttortoisecritter", "vulturecritter"  ]
-
+      "extraSpawns" : [ "sunskipper", "goldbuck", "fuscorpion", "deserttortoisecritter", "vulturecritter"  ],
+      "monsterParameters" : {
+        "colors" : "desert"
+      }
     }
   ],   
 

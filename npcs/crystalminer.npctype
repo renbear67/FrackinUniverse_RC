@@ -2,154 +2,44 @@
   "type" : "crystalminer",
   "baseType" : "guard",
 
-  "disableWornArmor" : false,
-  "innateStatusEffects" : [
-
-  ],
-
-  "damageTeam" : 1,
-
-  "levelVariance" : [0, 0],
+  "dropPools" : [ "mineTreasure" ],
 
   "scriptConfig" : {
-    "attackerLimit" : 10,
-    "attackerLimitCooldown" : 3,
-
-    "converse" : {
-      "waitTime" : 0.5,
-      "dialog" : {
-        "default" : [
-          "Hey! You scared me there..."
-        ],
-        "apex" : [		  
-          "I can't hide here forever - My supplies will run out eventually!"
-        ],
-        "avian" : [	  
-          "I can't hide here forever - My supplies will run out eventually!"
-        ],
-        "floran" : [		  
-          "I can't hide here forever - My supplies will run out eventually!"
-        ],
-        "glitch" : [	  
-          "I can't hide here forever - My supplies will run out eventually!"
-        ],
-        "human" : [
-          "The crystals here aren't used in jewellery. They're more useful in industrial purposes.",
-          "We have an order to fulfil...a particularly large shipment to somewhere called Nepet. Do you know where that is?",
-          "This is a pretty bare-bones operation, but we've brought a few comforts with us.",
-          "The caverns are teeming with monsters. Don't get lost!",
-          "I heard that crystal plants grow down here.",
-          "Some of the mineral water in the pools has considerable healing properties.",
-          "These crystals may look pretty, but they really aren't that valuable as jewellery.",
-          "I fashioned myself a spear of crystal the other day, but it got lost somewhere in the caverns.",
-          "Oh, a spelunker. Keep your weapons about you, some of the monsters down here are really strong.",
-          "We keep down here most of the time, as the surface of this planet is pretty harsh.",
-          "We ask for creature comforts, and all that headquarters sends down with us are bathroom stalls. Well, better that than nothing.",		  
-          "Hey, a visitor. Wasn't expecting one down here."
-        ],
-        "hylotl" : [	  
-          "I can't hide here forever - My supplies will run out eventually!"
-        ]
+    "dialog" : {
+      "attack" : {
+        "default" : {
+          "default" : [
+            "Oh, you done started somethin' now!"
+          ]
+        },
+        "glitch" : {
+          "default" : [
+            "Curmudgeonly. You young'uns are always causin' trouble!",
+            "World-weary. Here we go again, then.",
+            "Grizzled. You'll not make a mockery of me!",
+            "Gruff. Didn't they tell ye, never aggro a smith?",
+            "Surly. Looks like I'll be messin' up me nice new weapon.",
+            "Resigned. Sigh. More disruption.",
+            "Eager. Good chance to test me weapons out.",
+            "Grumpy. Looks like I'll have to teach yeh a lesson."
+          ]
+        }
       }
-    },
-
-    "sit" : {
-      "timeOfDayRanges" : [ [0.6, 1.0], [0.0, 0.2] ],
-      "moveTimeLimit" : 30,
-      "searchRadius" : 10,
-      "sitRadius" : 3,
-      "cooldown" : 60,
-      "timeRange" : [15, 240]
-    },
-
-    "sleep" : {
-      "searchRadius" : 15,
-      "lieDownRadius" : 3,
-      "moveToBedTimeLimit" : 10.0,
-      "timeOfDayRanges" : [ [ [0.7, 0.75], [0.95, 1.0] ] ],
-      "cooldown" : 30
-    },
-
-    "meleeAttack" : {
-      "runThreshold" : 0
     }
   },
 
   "items" : {
-    "default" : [
+    "override" : [
       [0, [
           {
-            "head" : [ { "name" : "minerhead", "parameters" : { "colorIndex" : 0 } } ],
-            "chest" : [ { "name" : "minerchest", "parameters" : { "colorIndex" : 0 } } ],
-            "legs" : [ { "name" : "humantier2pants", "parameters" : { "colorIndex" : 1 } } ],
+
+            "chest" : [ { "name" : "mutantchest" } ],
+            "legs" : [ { "name" : "mutantpants" } ],
             "primary" : [
-              { "name" : "generatedgun", "parameters" : { "definition" : "commonpistol" } }
+              [ "generatedsword", 1, { "definition" : "commonhammer" } ]
             ]
           }
         ] ]
     ]
-	},
-
-  "dropPools" : [ "money" ],
-
-  "statusControllerSettings" : {
-    "statusProperties" : {
-      "targetMaterialKind" : "organic"
-    },
-
-    "persistentEffectCategories" : [
-      "innate",
-      "armor",
-      "tools",
-      "lounging"
-    ],
-	
-    "appliesEnvironmentStatusEffects" : false,
-    "minimumLiquidStatusEffectPercentage" : 0.1,
-
-    "primaryScriptSources" : [
-      "/stats/npc_primary.lua"
-    ],
-    "primaryScriptDelta" : 5,
-
-    "stats" : {
-      "maxHealth" : {
-        "baseValue" : 40.0
-      },
-      "maxEnergy" : {
-        "baseValue" : 40.0
-      },
-      "powerMultiplier" : {
-        "baseValue" : 1.0
-      },
-      "protection" : {
-        "baseValue" : 1.0
-      },
-      "healthRegen" : {
-        "baseValue" : 0.0
-      },
-      "energyRegen" : {
-        "baseValue" : 10.0
-      },
-      "shieldSuppressed" : {
-        "baseValue" : 0.0
-      },
-      "invulnerable" : {
-        "baseValue" : 0.0
-      }
-    },
-
-    "resources" : {
-      "health" : {
-        "maxStat" : "maxHealth",
-        "deltaStat" : "healthRegen",
-        "defaultPercentage" : 100
-      },
-      "energy" : {
-        "maxStat" : "maxEnergy",
-        "deltaStat" : "energyRegen",
-        "defaultPercentage" : 100
-      }
-    }
   }
 }
