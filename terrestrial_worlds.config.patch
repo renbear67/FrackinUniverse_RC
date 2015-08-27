@@ -2297,7 +2297,7 @@
   "value" : 
   {
       "caveLiquid" : [ "elderfluid", "bio_ooze", "darkwater", "slimeliquid" ],
-      "blockSelector" : [ "remixedMildSurface", "remixedSurface" "remixedMountainsSurface" ],
+      "blockSelector" : [ "remixedMildSurface", "remixedSurface", "remixedMountainsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves", "fusurfacecaves", "normalmegacave" ],
       "biome" : [
         [0, [ "elder" ]]
