@@ -1,6 +1,6 @@
 {
   "itemName" : "hellfire1hand",
-  "level" : 5,
+  "level" : 6,
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "legendary",
@@ -11,13 +11,13 @@
   "kind" : "Shortsword",
   "image" : "hellfire1hand.png",
   "firePosition" : [15.5, 4.5],
-  "fireTime" : 0.9,
+  "fireTime" : 0.8,
   "fireAfterWindup" : true,
   "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_twohanded.wav" } ] },
 
 
   "primaryStances" : {
-	"directional" : true,
+    "directional" : true,
     "projectileType" : "magmaswoosh",
     "projectile" : {
       "speed" : 25,

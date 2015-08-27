@@ -13,7 +13,7 @@
   "projectileType" : "shroomshock",
   "projectileConfig" : {
     "speed" : 45,
-    "power" : 125,
+    "power" : 8,
     "level" : 3
   }
 }

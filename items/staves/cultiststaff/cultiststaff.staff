@@ -22,7 +22,7 @@
 
   "projectileType" : "cultistshot",
   "projectile" : {
-    "speed" : 10,
+    "speed" : 20,
     "power" : 8,
     "color" : [255, 10, 10]
   },

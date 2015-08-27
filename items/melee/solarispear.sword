@@ -11,7 +11,7 @@
   "kind" : "Spear",
   "image" : "solarispear.png",
   "firePosition" : [52.5, -7.0],
-  "fireTime" : 0.78,
+  "fireTime" : 0.8,
   "fireAfterWindup" : true,
   "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_twohanded.wav" } ] },
 
@@ -20,7 +20,7 @@
     "projectileType" : "spearswoosh1",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 6.9
+      "power" : 9
     },
     "idle" : {
       "twoHanded" : false,

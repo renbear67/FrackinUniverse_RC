@@ -11,7 +11,7 @@
 
   "image" : "fuquantumhammer.png",
   "firePosition" : [8, 2],
-  "fireTime" : 0.75,
+  "fireTime" : 0.9,
   "fireAfterWindup" : true,
   "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_hammer.wav" } ] },
 
@@ -20,7 +20,7 @@
     "projectileType" : "quantumhammer",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 18
+      "power" : 14
     },
     "idle" : {
       "twoHanded" : false,

@@ -12,7 +12,7 @@
 
   "image" : "obsidianblade.png",
   "firePosition" : [-2, 4],
-  "fireTime" : 0.5,
+  "fireTime" : 0.67,
   "fireAfterWindup" : true,
   "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_twohanded.wav" } ] },
 

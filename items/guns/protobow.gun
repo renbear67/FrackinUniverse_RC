@@ -10,7 +10,7 @@
   "imageFrameSelector" : "bowImageSelector",
   "handPosition" : [0, -1],
   "firePosition" : [20, 1.5],
-  "level" : 3,
+  "level" : 4,
   "fireTime" : 1.2,
   "twoHanded" : true,
   "tooltipKind" : "bow",
@@ -24,7 +24,7 @@
   "drawPowerCurve" : "drawTimeMultiplier",
   "projectile" : {
     "speed" : 80,
-    "power" : 5.721,
+    "power" : 5,
     "color" : [221, 227, 49]
   },
 

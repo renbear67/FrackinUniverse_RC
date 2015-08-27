@@ -22,7 +22,7 @@
   "projectileType" : "insectswarm",
   "projectile" : { 
   "speed" : 50, 
-  "power" : 2.5 , 
+  "power" : 6 , 
   "color" : [255, 141, 40] 
   },
   

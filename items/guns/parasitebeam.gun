@@ -20,14 +20,15 @@
   "projectileType" : "parasiteshot",
   "powerProjectileType" : "bioblast1",
   "powerProjectileTime" : [0.5, 50.1],
+  "drawSpeedCurve" : "drawTimeMultiplier",
+  "drawPowerCurve" : "drawTimeMultiplier",
   "projectile" : {
-    "speed" : 120,
-    "speedCurve" : "drawTimeMultiplier",
-    "power" : 5.7,
-    "powerCurve" : "drawTimeMultiplier",
-    "color" : [221, 227, 49]
+    "speed" : 80,
+    "power" : 7,
+    "color" : [77, 227, 59]
   },
-
+  
+  
   "muzzleEffect" : {
     "fireSound" : [ { "file" : "/sfx/gun/blowgun3.wav" } ]
   }

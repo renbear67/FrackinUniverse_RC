@@ -22,8 +22,8 @@
 
   "projectileType" : "gausspistolshot",
   "projectile" : { 
-  "speed" : 60, 
-  "power" : 0.32 , 
+  "speed" : 70, 
+  "power" : 1.6 , 
   "color" : [141, 72, 141] 
   },
   

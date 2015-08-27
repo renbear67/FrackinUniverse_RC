@@ -12,8 +12,8 @@
 
   "projectileType" : "particlegrenadeblast",
   "projectileConfig" : {
-    "speed" : 32,
-    "power" : 1550,
+    "speed" : 52,
+    "power" : 12,
     "level" : 7
   }
 }

@@ -11,7 +11,7 @@
 
   "image" : "bloodyknife.png",
   "firePosition" : [22, -2],
-  "fireTime" : 0.666,
+  "fireTime" : 0.36,
   "fireAfterWindup" : true,
   "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_onehanded.wav" } ] },
 
@@ -20,7 +20,7 @@
     "projectileType" : "elderbladeswoosh",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 5
+      "power" : 2.6
     },
     "idle" : {
       "twoHanded" : false,

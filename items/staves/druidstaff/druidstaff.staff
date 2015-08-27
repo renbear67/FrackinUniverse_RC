@@ -22,7 +22,7 @@
 
   "projectileType" : "ffpetal",
   "projectile" : {
-    "speed" : 20,
+    "speed" : 40,
     "power" : 0.5,
     "color" : [12, 90, 12]
   },

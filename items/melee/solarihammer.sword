@@ -11,16 +11,16 @@
   "kind" : "Hammer",
   "image" : "solarihammer.png",
   "firePosition" : [23.5, 8.5],
-  "fireTime" : 1.2,
+  "fireTime" : 1.0,
   "fireAfterWindup" : true,
   "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_hammer.wav" } ] },
 
   "primaryStances" : {
-	"directional" : false,
+    "directional" : false,
     "projectileType" : "hammerswoosh1",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 9.25
+      "power" : 12
     },
     "idle" : {
       "twoHanded" : false,

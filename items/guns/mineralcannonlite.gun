@@ -19,7 +19,7 @@
 
   "learnBlueprintsOnPickup" : [ "mineralcannon" ],
   "projectileType" : "mineralcannonshot",
-  "projectile" : { "speed" : 50, "power" : 5.7 , "color" : [0, 180, 0] },
+  "projectile" : { "speed" : 60, "power" : 5.7 , "color" : [0, 180, 0] },
   "muzzleEffect" : {
        "fireSound" : [ { "file" : "/sfx/gun/plasma_shotgun4.wav" } ],
        "animation" :  "/animations/muzzleflash/smokemuzzle/smokemuzzle.animation"

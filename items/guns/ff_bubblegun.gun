@@ -17,6 +17,6 @@
   "projectileType" : "friendlybubble",
   "projectile" : {
     "speed" : 60,
-    "power" : 1.2
+    "power" : 2.4
   }
 }

@@ -11,7 +11,7 @@
   "kind" : "Shortsword",
   "image" : "steelblade.png",
   "firePosition" : [22.5, 4.5],
-  "fireTime" : 0.56,
+  "fireTime" : 0.66,
   "fireAfterWindup" : true,
   "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_onehanded.wav" } ] },
 
@@ -20,7 +20,7 @@
     "projectileType" : "shortswordswoosh1",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 5.2
+      "power" : 4.6
     },
     "idle" : {
       "twoHanded" : false,

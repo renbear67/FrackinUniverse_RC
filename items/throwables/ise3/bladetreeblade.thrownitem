@@ -13,7 +13,7 @@
 
   "projectileType" : "bladetreedart",
   "projectileConfig" : {
-    "power" : 30,
+    "power" : 12,
     "level" : 2
   }
 }

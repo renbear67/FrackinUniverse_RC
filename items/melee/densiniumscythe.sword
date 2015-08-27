@@ -47,7 +47,7 @@
     "projectileType" : "densiniumaxeswoosh",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 9.2
+      "power" : 10.85
     },
     "idle" : {
       "twoHanded" : false,

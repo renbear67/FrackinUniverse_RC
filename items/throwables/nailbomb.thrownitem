@@ -13,7 +13,7 @@
   "projectileType" : "nailbombthrown",
   "projectileConfig" : {
     "speed" : 45,
-    "power" : 1,
+    "power" : 5,
     "level" : 1
   }
 }

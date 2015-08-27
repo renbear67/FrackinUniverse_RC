@@ -22,7 +22,7 @@
 
   "projectileType" : "iceblade",
   "projectile" : {
-    "speed" : 30,
+    "speed" : 40,
     "power" : 3.5,
     "color" : [10, 10, 255]
   },

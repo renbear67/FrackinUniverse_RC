@@ -19,9 +19,9 @@
 
   "projectileType" : "blistergunshot",
   "projectile" : { 
-  "speed" : 50, 
+  "speed" : 60, 
   "life" : 3,
-  "power" : 6 , 
+  "power" : 4.75 , 
   "color" : [255, 0, 235] 
   },
   "muzzleEffect" : {

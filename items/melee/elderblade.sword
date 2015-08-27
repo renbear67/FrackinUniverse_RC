@@ -20,7 +20,7 @@
     "projectileType" : "elderbladeswoosh",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 5
+      "power" : 5.32
     },
     "idle" : {
       "twoHanded" : false,

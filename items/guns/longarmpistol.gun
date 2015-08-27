@@ -22,7 +22,7 @@
 
   "projectileType" : "splitbullet",
   "projectile" : { 
-  "speed" : 50, 
+  "speed" : 60, 
   "power" : 2
   },
   

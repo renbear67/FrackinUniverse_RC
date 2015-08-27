@@ -12,8 +12,8 @@
   "imageFrameSelector" : "bowImageSelector",
   "handPosition" : [-2, 0],
   "firePosition" : [20, 1.5],
-  "level" : 4,
-  "fireTime" : 0.30,
+  "level" : 3,
+  "fireTime" : 0.80,
   "inaccuracy" : 0.01,
   "twoHanded" : true,
 
@@ -27,7 +27,7 @@
   "drawPowerCurve" : "drawTimeMultiplier",
   "projectile" : {
     "speed" : 80,
-    "power" : 6
+    "power" : 4.5
   },
 
   "muzzleEffect" : {

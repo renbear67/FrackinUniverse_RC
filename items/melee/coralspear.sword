@@ -20,7 +20,7 @@
     "projectileType" : "spearswoosh1",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 6.9
+      "power" : 9.2
     },
     "idle" : {
       "twoHanded" : false,

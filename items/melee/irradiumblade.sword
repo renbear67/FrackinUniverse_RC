@@ -17,11 +17,11 @@
 
 
   "primaryStances" : {
-	"directional" : true,
+    "directional" : true,
     "projectileType" : "irradiumswoosh",
     "projectile" : {
       "speed" : 25,
-      "power" : 5
+      "power" : 5.2
     },
     "idle" : {
       "twoHanded" : false,

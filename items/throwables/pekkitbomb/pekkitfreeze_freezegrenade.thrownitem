@@ -15,7 +15,7 @@
   "projectileType" : "pekkitfreeze_freezegrenade",
   "projectileConfig" : {
     "speed" : 45,
-    "power" : 0
+    "power" : 1
   }
 }
 

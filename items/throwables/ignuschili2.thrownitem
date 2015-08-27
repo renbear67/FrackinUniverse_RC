@@ -12,8 +12,8 @@
 
   "projectileType" : "ignus2",
   "projectileConfig" : {
-    "speed" : 45,
-    "power" : 115,
+    "speed" : 65,
+    "power" : 11,
     "level" : 4
   }
 }

@@ -21,7 +21,7 @@
 
   "projectileType" : "bloodvomit",
   "projectile" : { 
-  "speed" : 50, 
+  "speed" : 60, 
   "power" : 1
   },
   

@@ -15,7 +15,7 @@
   "projectileType" : "whiteglowstick",
   "projectileConfig" : {
     "speed" : 30,
-    "level" : 10
+    "level" : 1
   },
 
   "learnBlueprintsOnPickup" : [

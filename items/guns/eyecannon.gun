@@ -13,7 +13,7 @@
   "recoilTime" : 0.1,
   "level" : 4,
   "tooltipKind" : "gun",
-  "fireTime" : 0.9,
+  "fireTime" : 0.95,
   "twoHanded" : true,
   "walkWhileFiring" : false,
 
@@ -21,7 +21,7 @@
   "projectile" : { 
   "speed" : 50, 
   "life" : 3,
-  "power" : 6
+  "power" : 12
   },
   "muzzleEffect" : {
        "fireSound" : [ { "file" : "/sfx/projectiles/goo_spit1.wav" } ],

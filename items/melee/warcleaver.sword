@@ -12,17 +12,17 @@
 
   "image" : "warcleaver.png",
   "firePosition" : [15.5, 4.5],
-  "fireTime" : 2.0,
+  "fireTime" : 1.54,
   "fireAfterWindup" : true,
   "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_twohanded.wav" } ] },
 
 
   "primaryStances" : {
-	"directional" : false,
+    "directional" : false,
     "projectileType" : "starcleaverswordslash",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 14
+      "power" : 17.4
     },
     "idle" : {
       "twoHanded" : false,

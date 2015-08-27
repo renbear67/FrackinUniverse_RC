@@ -22,8 +22,8 @@
 
   "projectileType" : "mineralcannonshotadv",
   "projectile" : { 
-  "speed" : 50, 
-  "power" : 12 , 
+  "speed" : 60, 
+  "power" : 9 , 
   "color" : [0, 220, 0] 
   },
   

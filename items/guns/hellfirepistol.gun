@@ -20,8 +20,8 @@
 
   "projectileType" : "hellfireprojectile2small",
   "projectile" : { 
-  "speed" : 50, 
-  "power" : 4 , 
+  "speed" : 60, 
+  "power" : 3 , 
   "color" : [255, 141, 40] 
   },
   

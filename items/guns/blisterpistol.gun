@@ -20,7 +20,7 @@
   "learnBlueprintsOnPickup" : [ "blistergun" ],
 
   "projectileType" : "blisterpistolshot",
-  "projectile" : { "speed" : 50, "power" : 4 , "color" : [255, 0, 235] },
+  "projectile" : { "speed" : 62, "power" : 3 , "color" : [255, 0, 235] },
   "muzzleEffect" : {
        "fireSound" : [ { "file" : "/sfx/projectiles/goo_spit2.wav" } ],
        "animation" :  "/animations/muzzleflash/smokemuzzle/smokemuzzle.animation"

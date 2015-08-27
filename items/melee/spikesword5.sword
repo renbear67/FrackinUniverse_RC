@@ -18,11 +18,11 @@
 
 
   "primaryStances" : {
-	"directional" : false,
+    "directional" : false,
     "projectileType" : "spikeswoosh5",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 7
+      "power" : 9.14
     },
     "idle" : {
       "twoHanded" : false,

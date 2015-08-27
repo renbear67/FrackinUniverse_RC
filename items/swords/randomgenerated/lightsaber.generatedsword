@@ -1,6 +1,6 @@
 {
   "name" : "lightsaber",
-  "baseDps" : [1.0, 3.65],
+  "baseDps" : [2.0, 3.65],
   "rateOfSwing" : [0.6, 1.4],
   "multiplier" : 0.35,
   "firePosition" : [15.5, 4.5],

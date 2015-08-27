@@ -21,8 +21,8 @@
 
   "projectileType" : "floatyshroom",
   "projectile" : { 
-  "speed" : 20, 
-  "power" : 2.4 , 
+  "speed" : 60, 
+  "power" : 4.4 , 
   "color" : [255, 141, 40] 
   },
   

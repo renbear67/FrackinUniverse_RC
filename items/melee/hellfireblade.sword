@@ -1,6 +1,6 @@
 {
   "itemName" : "hellfireblade",
-  "level" : 5,
+  "level" : 6,
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "legendary",
@@ -17,11 +17,11 @@
 
 
   "primaryStances" : {
-	"directional" : false,
+    "directional" : false,
     "projectileType" : "magmaswoosh",
     "projectile" : {
       "speed" : 25,
-      "power" : 7
+      "power" : 9.45
     },
     "idle" : {
       "twoHanded" : false,

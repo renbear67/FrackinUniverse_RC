@@ -19,7 +19,7 @@
   "walkWhileFiring" : false,
   
   "projectileType" : "thornslingershot",
-  "projectile" : { "speed" : 15, "power" : 2.3 , "color" : [0, 0, 0] },
+  "projectile" : { "speed" : 65, "power" : 2.3 , "color" : [0, 0, 0] },
   "muzzleEffect" : {
        "fireSound" : [ { "file" : "/sfx/gun/plasma_pistol3.wav" } ],
        "animation" :  "/animations/muzzleflash/smokemuzzle/smokemuzzle.animation"

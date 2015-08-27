@@ -20,7 +20,7 @@
     "projectileType" : "shortswordswoosh1",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 5.2
+      "power" : 4.3
     },
     "idle" : {
       "twoHanded" : false,

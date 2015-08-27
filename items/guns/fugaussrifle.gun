@@ -22,8 +22,8 @@
 
   "projectileType" : "gaussrifleshot",
   "projectile" : { 
-  "speed" : 60, 
-  "power" : 0.32 , 
+  "speed" : 75, 
+  "power" : 4.4 , 
   "color" : [141, 72, 141] 
   },
   

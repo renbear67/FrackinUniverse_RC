@@ -18,7 +18,7 @@
   "walkWhileFiring" : true,
   
   "projectileType" : "elderburst",
-  "projectile" : { "speed" : 35, "power" : 3.2 , "color" : [0, 0, 0] },
+  "projectile" : { "speed" : 55, "power" : 3.2 , "color" : [0, 0, 0] },
   "muzzleEffect" : {
        "fireSound" : [ { "file" : "/sfx/weapons/eldercarbine.wav" } ],
        "animation" :  "/animations/muzzleflash/plasmamuzzle4green/plasmamuzzle4green.animation"

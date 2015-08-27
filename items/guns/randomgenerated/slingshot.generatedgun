@@ -6,7 +6,7 @@
   "handPosition" : [5, 2],
   "firePosition" : [-1, 8.5],
   "icon" : "slingshot.png",
-  "baseDps" : [5, 5.5],
+  "baseDps" : [2, 5.5],
   "rateOfFire" : [0.3, 1],
   "weaponType" : "Slingshot",
   "hands" : [1, 1],

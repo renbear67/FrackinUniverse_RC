@@ -22,7 +22,7 @@
     "projectileType" : "rainbowswoosh",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 7
+      "power" : 7.9
     },
     "idle" : {
       "twoHanded" : false,

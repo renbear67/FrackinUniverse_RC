@@ -22,8 +22,8 @@
 
   "projectileType" : "splitbullet",
   "projectile" : { 
-  "speed" : 50, 
-  "power" : 2
+  "speed" : 60, 
+  "power" : 3.5
   },
   
   "muzzleEffect" : {

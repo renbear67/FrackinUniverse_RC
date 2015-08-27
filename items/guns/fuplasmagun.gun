@@ -21,8 +21,8 @@
 
   "projectileType" : "fuplasmarifleblastsmall",
   "projectile" : { 
-  "speed" : 55, 
-  "power" : 2.5 
+  "speed" : 75, 
+  "power" : 5.5 
   },
   
   "muzzleEffect" : {

@@ -19,7 +19,7 @@
 
   "projectileType" : "fuplasmarifleblast",
   "projectile" : { 
-  "speed" : 55, 
+  "speed" : 75, 
   "power" : 5.5 
   },
   
