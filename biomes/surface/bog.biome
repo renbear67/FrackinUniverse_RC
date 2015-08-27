@@ -447,6 +447,18 @@
         "mode" : "floor",
         "priority" : 1.0,
         "variants" : 1,
+        "distribution" : "/biomes/distributions.config:potsRare",
+
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 0,
+        "treeStemHueShiftMax" : 15,
+        "treeStemList" : [ "magictree", "magictree2" ],
+        "treeFoliageList" : [ "" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
         "distribution" : "/biomes/distributions.config:scatteredLarge",
 
         "type" : "tree",
