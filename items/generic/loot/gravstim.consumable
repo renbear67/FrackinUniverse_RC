@@ -7,5 +7,5 @@
   "effects" : [ [
      "lowgrav_stim"
     ] ],
-  "learnBlueprintsOnPickup" : [ "gravtim" ]
+  "learnBlueprintsOnPickup" : [ "gravstim" ]
 }

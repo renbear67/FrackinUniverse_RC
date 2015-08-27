@@ -98,7 +98,7 @@
   ],
 
   "mainBlock" : "redsand",
-  "subBlocks" : [ "wastestone", "rock17" ],
+  "subBlocks" : [ "wastestone", "rock17", "calichestone" ],
   "ores" : "surfaceOres",
 
   "parallax" : "/parallax/surface/desert.parallax",

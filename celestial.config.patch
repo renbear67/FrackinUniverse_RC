@@ -245,6 +245,15 @@
       "maskPerPlanetRange" : [0, 2]  
   }},
   {"op" : "add", 
+  "path" : "/terrestrialHorizonGraphics/sulphuricmagma",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/sulphuricmagma_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 3],
+      "maskPerPlanetRange" : [0, 2]  
+  }},  
+  {"op" : "add", 
   "path" : "/terrestrialHorizonGraphics/tarball",
   "value" : 
   {
@@ -266,7 +275,7 @@
   "path" : "/terrestrialHorizonGraphics/tidewater",
   "value" : 
   {
-      "baseImages" : "/celestial/system/terrestrial/horizon/textures/Tidewater_<selector>.png",
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/tidewater_<selector>.png",
       "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
       "maskRange" : [1, 25],
       "maskPerPlanetRange" : [3, 3]  
@@ -280,7 +289,263 @@
       "maskRange" : [1, 25],
       "maskPerPlanetRange" : [3, 3]  
   }},
-  
+  {"op" : "add", 
+  "path" : "/terrestrialGraphics/arboreal",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/biomes/arboreal/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 20] 
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialGraphics/arboreal2",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/biomes/arboreal/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 25]
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialGraphics/atropus",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/biomes/atropus/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 40]
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialGraphics/bloodstone",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/biomes/bloodstone/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 40] 
+  }},  
+  {"op" : "add", 
+  "path" : "/terrestrialGraphics/bloodstonesea",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/biomes/bloodstonesea/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 30]
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialGraphics/bog",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/biomes/bog/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 50]
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialGraphics/crystalmoon",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/biomes/crystalmoon/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 30]
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialGraphics/desert_wastes",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/biomes/desert_wastes/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 20] 
+  }},  
+  {"op" : "add", 
+  "path" : "/terrestrialGraphics/frozenvolcanic",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/biomes/frozenvolcanic/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 40] 
+  }},  
+  {"op" : "add", 
+  "path" : "/terrestrialGraphics/fungus",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/biomes/fungus/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 50] 
+  }},  
+  {"op" : "add", 
+  "path" : "/terrestrialGraphics/icemoon",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/biomes/icemoon/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 50] 
+  }},  
+  {"op" : "add", 
+  "path" : "/terrestrialGraphics/icewaste",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/biomes/icewaste/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 50] 
+  }},  
+  {"op" : "add", 
+  "path" : "/terrestrialGraphics/infernus",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/biomes/infernus/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 50] 
+  }},  
+  {"op" : "add", 
+  "path" : "/terrestrialGraphics/irradiated",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/biomes/irradiated/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 50]
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialGraphics/lightless",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/biomes/lightless/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 50]
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialGraphics/metallicmoon",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/biomes/metallicmoon/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 50]
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialGraphics/moon_desert",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/biomes/moon_desert/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 50]
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialGraphics/moon_stone",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/biomes/moon_stone/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 50]
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialGraphics/moon_toxic",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/biomes/moon_toxic/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 50] 
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialGraphics/moon_volcanic",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/biomes/moon_volcanic/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 50] 
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialGraphics/mountainous",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/biomes/mountainous/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 50] 
+  }},
+   {"op" : "add", 
+  "path" : "/terrestrialGraphics/nitrogensea",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/biomes/nitrogensea/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 50]
+  }}, 
+  {"op" : "add", 
+  "path" : "/terrestrialGraphics/penumbra",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/biomes/penumbra/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 50]
+  }},  
+  {"op" : "add", 
+  "path" : "/terrestrialGraphics/protoworld",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/biomes/protoworld/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 50] 
+  }}, 
+  {"op" : "add", 
+  "path" : "/terrestrialGraphics/slimeworld",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/biomes/slimeworld/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 50] 
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialGraphics/sulphuric",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/biomes/sulphuric/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 50]
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialGraphics/sulphuricocean",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/biomes/sulphuricocean/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 50]
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialGraphics/sulphuricmagma",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/biomes/sulphuricmagma/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 50] 
+  }},  
+  {"op" : "add", 
+  "path" : "/terrestrialGraphics/tarball",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/biomes/tarball/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 50]
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialGraphics/thickjungle",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/biomes/thickjungle/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 50]
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialGraphics/tidewater",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/biomes/tidewater/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 50]
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialGraphics/urbanwasteland",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/biomes/urbanwasteland/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 50]
+  }},
+    
   {"op" : "add", 
   "path" : "/planetaryTypes/GasGiant2",
   "value" : 

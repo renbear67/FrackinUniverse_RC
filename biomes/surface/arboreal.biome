@@ -107,7 +107,7 @@
   "subBlocks" : [ "dirt", "clay", "grassyrock" ],
   "ores" : "ff_surfacearborealOres",
 
-  "parallax" : "/parallax/surface/arboreal.parallax",
+  "parallax" : "/parallax/surface/forest.parallax",
 
 
     "ambientNoises" : {
