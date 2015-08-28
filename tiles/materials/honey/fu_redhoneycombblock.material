@@ -2,7 +2,7 @@
   "materialId" : 6626,
   "materialName" : "fu_redhoneycombblock",
   "particleColor" : [189, 57, 52, 255],
-  "itemDrop" : "redhoneycombblock",
+  "itemDrop" : "fu_redhoneycombblock",
   "description" : "A block of red honeycombs! Yum!",
   "shortdescription" : "Red Honeycomb Block",
   "multicolored" : false,
