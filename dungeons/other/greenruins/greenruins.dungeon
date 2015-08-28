@@ -1114,8 +1114,8 @@
 		
 		{
 			"value" : [206, 103, 0, 255],
-			"comment" : "coffee pool foreground",
-			"brush" : [ [ "clear" ], [ "liquid", "coffee" ] ]
+			"comment" : "poison pool foreground",
+			"brush" : [ [ "clear" ], [ "liquid", "poison" ] ]
 		},
 
 		{
