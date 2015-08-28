@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "uncommon",
   "description" : "Power Armour Helmet. Heavy-duty armour.",
-  "shortdescription" : "Explorer Power Helmet",
+  "shortdescription" : "Assault Helmet",
   "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
@@ -20,7 +20,7 @@
 
     {
       "stat" : "protection",
-      "amount" : 25
+      "amount" : 26
     },
 
     {

@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "Uncommon",
   "description" : "A chestguard protects the pioneer's first steps into a new world.",
-  "shortdescription" : "Pioneer's Chestguard",
+  "shortdescription" : "Wanderer Chestguard",
   "tooltipKind" : "armor",
 
   "maleFrames" : {

@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "rare",
   "description" : "Strong, resilient and fashionable. Provides regeneration.",
-  "shortdescription" : "Quietus Helm",
+  "shortdescription" : "Crimson Brave Helm",
   "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
@@ -19,7 +19,7 @@
     },    
     {
       "stat" : "protection",
-      "amount" : 27
+      "amount" : 29
     },
 
     {

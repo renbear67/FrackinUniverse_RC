@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "uncommon",
   "description" : "Power Armour Chestpiece. Heavy-duty armour.",
-  "shortdescription" : "Explorer Power Armor",
+  "shortdescription" : "Assault Armor",
   "tooltipKind" : "armor",
 
   "maleFrames" : {
@@ -28,7 +28,7 @@
 
     {
       "stat" : "protection",
-      "amount" : 41
+      "amount" : 45
     },
 
     {

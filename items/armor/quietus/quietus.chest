@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "rare",
   "description" : "Strong, resilient and fashionable. Grants immunity to ice, mud, fire, black tar, pus and sulphuric acid.",
-  "shortdescription" : "Quietus Chestplate",
+  "shortdescription" : "Crimson Brave Plate",
   "tooltipKind" : "armor",
 
   "maleFrames" : {
@@ -27,17 +27,17 @@
     },    
     {
       "stat" : "protection",
-      "amount" : 44
+      "amount" : 48
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 84
+      "amount" : 87
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 44
+      "amount" : 47
     },
     "quietuseffects"
   ]

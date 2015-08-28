@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "rare",
   "description" : "Strong, resilient and fashionable.",
-  "shortdescription" : "Quietus Leggings",
+  "shortdescription" : "Crimson Brave Greaves",
   "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
@@ -18,7 +18,7 @@
     },    
     {
       "stat" : "protection",
-      "amount" : 19
+      "amount" : 22
     },
 
     {

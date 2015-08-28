@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "uncommon",
   "description" : "Protects from harmful (and beneficial) gasses.",
-  "shortdescription" : "Gasmask",
+  "shortdescription" : "Mark VI Gasmask",
   "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",

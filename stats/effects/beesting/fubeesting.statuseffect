@@ -1,5 +1,5 @@
 {
-  "name" : "beesting",
+  "name" : "fubeesting",
   "effectConfig" : {},
   "defaultDuration" : 2,
 
@@ -7,7 +7,7 @@
     "beesting.lua"
   ],
   "blockingStat" : "immunesting",
-  "animationConfig" : "beesting.animation",
+  "animationConfig" : "fubeesting.animation",
 
   "label" : "Bee Stings",
   "icon" : "beesting.png"

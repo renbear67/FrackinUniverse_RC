@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "Uncommon",
   "description" : "The sleek titanium helm of the pioneer.",
-  "shortdescription" : "Pioneer's Helm",
+  "shortdescription" : "Wanderer Helm",
   "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
