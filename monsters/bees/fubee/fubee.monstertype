@@ -62,7 +62,7 @@
 
       "teamType" : "enemy",
       "damageSourceKind" : "bite",
-      "statusEffects" : [ ]
+      "statusEffects" : [ "beesting" ]
     },
 
     "statusSettings" : {
