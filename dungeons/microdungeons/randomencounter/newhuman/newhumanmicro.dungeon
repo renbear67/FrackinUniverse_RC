@@ -199,8 +199,8 @@
 		
 		{
 			"value" : [110, 100, 100, 255],
-			"comment" : "woodenshelf facing left",
-			"brush" : [ [ "clear" ], [ "object", "woodenshelf", { "direction" : "left" } ] ]
+			"comment" : "woodenbookcase facing left",
+			"brush" : [ [ "clear" ], [ "object", "woodenbookcase", { "direction" : "left" } ] ]
 		},
 		
 		{
