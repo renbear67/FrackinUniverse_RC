@@ -6,6 +6,17 @@
     "mainBlock" : "hive",
     "subBlocks" : [ "fu_honeycombblock", "petalblock", "spidersilkblock" ],
     "ores" : "ff_surfacearborealOres",
+    
+  "spawnProfiles" : [
+    {
+      "groups" : [ "easysurface1", "fu_hive" ],
+      "extraSpawns" : ["chevcritter", "groopcritter", "redbreastcritter" ]
+    },
+    {
+      "groups" : [ "easysurface2", "fu_hive" ],
+      "extraSpawns" : [ "chevcritter", "groopcritter", "redbreastcritter" ] 
+    }
+  ],
 
 
   "surfacePlaceables" : {

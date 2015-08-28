@@ -7,7 +7,16 @@
     "subBlocks" : [ "fu_redhoneycombblock", "brains", "spidersilkblock" ],
     "ores" : "ff_surfacearborealOres",
 
-
+  "spawnProfiles" : [
+    {
+      "groups" : [ "mediumsurface1", "fu_hellhive" ],
+      "extraSpawns" : [ "birdcritter", "bunny", "chevcritter", "groopcritter", "harecritter", "hedgehogcritter", "redbreastcritter", "squirrelcritter" ]
+    },
+    {
+      "groups" : [ "mediumsurface2", "fu_hellhive" ],
+      "extraSpawns" : [ "birdcritter", "bunny", "chevcritter", "groopcritter", "harecritter", "hedgehogcritter", "redbreastcritter", "squirrelcritter" ] 
+    }
+  ],
   "surfacePlaceables" : {
     "grassMod" : [ "heckgrass" ],
     "grassModDensity" : 0.9,

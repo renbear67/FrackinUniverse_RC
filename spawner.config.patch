@@ -16,6 +16,19 @@
 
 
 {"op":"add",
+ "path":"/spawnGroups/fu_hive",
+ "value":[       
+      "fubee"
+      ] 
+},
+{"op":"add",
+ "path":"/spawnGroups/fu_hellhive",
+ "value":[       
+      "fuaggressivebee"
+      ] 
+},
+
+{"op":"add",
  "path":"/spawnGroups/fu_arboreal",
  "value":[       
       "fuaviansentry", 
@@ -177,6 +190,10 @@
 {"op":"add","path":"/spawns/fucorruptflylarge","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.01,"monsterType":"fucorruptflylarge","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/fudeathdroid","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.01,"monsterType":"deathdroid","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/furatthing","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.01,"monsterType":"furatthing","monsterParameters":{"aggressive":true}}},
+
+{"op":"add","path":"/spawns/fubee","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.25,"monsterType":"fubee","monsterParameters":{"aggressive":true}}},
+{"op":"add","path":"/spawns/fuaggressivebee","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.25,"monsterType":"fuaggressivebee","monsterParameters":{"aggressive":true}}},
+
 
 
 //critters
