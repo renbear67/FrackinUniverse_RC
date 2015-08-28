@@ -294,5 +294,21 @@
   "monsterType":"fusnowball",
   "monsterParameters":{"aggressive":false}
   }
-}
+},
+
+//vanilla critters
+
+{"op":"add",
+"path":"/spawns/fishcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.04,
+  "monsterType":"fishcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+
 ]
