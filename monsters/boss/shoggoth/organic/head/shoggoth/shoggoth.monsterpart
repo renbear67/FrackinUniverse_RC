@@ -1,0 +1,13 @@
+{
+  "name" : "shoggothhead",
+  "category" : "shoggoth",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "shoggothhead.png"
+  },
+
+  "parameters" :
+  {
+  }
+}
