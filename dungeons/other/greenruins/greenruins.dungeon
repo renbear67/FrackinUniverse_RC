@@ -666,12 +666,6 @@
 		},
 		
 		{
-			"value" : [2, 253, 84, 255],
-			"comment" : "towerverdancemap 5x5",
-			"brush" : [ [ "clear" ], [ "object", "towerverdancemap" ] ]
-		},
-		
-		{
 			"value" : [204, 237, 103, 255],
 			"comment" : "reedseed1 2x5",
 			"brush" : [ [ "clear" ], [ "object", "reedseed1" ] ]
