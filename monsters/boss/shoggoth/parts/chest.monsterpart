@@ -5,11 +5,6 @@
 
   "frames" : {
     "chest" : "shoggothchest.png"
-  },
-
-  "parameters" : {
-    "walkMultiplier" : 1.0,
-    "runMultiplier" : 1.0,
-    "jumpMultiplier" : 1.0
   }
+
 }
