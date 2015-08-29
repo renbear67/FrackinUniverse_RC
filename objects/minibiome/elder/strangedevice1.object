@@ -1,6 +1,6 @@
 {
   "objectName" : "strangedevice1",
-  "tags" : [ "elder" ],
+  "tags" : [ "elder", "hideous" ],
   "printable" : false,
   "rarity" : "Common",
   "description" : "What the heck is this thing?",

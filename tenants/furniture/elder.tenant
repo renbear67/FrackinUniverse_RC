@@ -1,20 +1,18 @@
 {
-  "name": "fuguard_apex",
-  "priority": 10,
+  "name": "elder",
+  "priority": 5,
 
   "tagCriteria": {
     "light": 1,
     "door": 1,
-    "combat" : 8,
-    "laser" : 4
+    "elder": 8
   },
 
   "tenants": [
     {
       "spawn": "npc",
-      "species": "apex",
-      "level": 1,
-      "type": "fuguard",
+      "species": "glitch",
+      "type": "fucultist",
       "overrides": {
         "damageTeamType" : "friendly"
        }

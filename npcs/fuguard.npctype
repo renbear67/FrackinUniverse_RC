@@ -12,9 +12,6 @@
             "primary" : [
               { "name" : "laspistol" },
               { "name" : "lasrifle" }
-            ],
-            "sheathedprimary" : [
-              [ "generatedsword", 1, { "definition" : "solarispear" } ]
             ]
           }
         ] ]

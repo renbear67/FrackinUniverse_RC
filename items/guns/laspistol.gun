@@ -13,7 +13,7 @@
     "recoilTime" : 0.1,
     "level" : 2,
     "tooltipKind" : "gun",
-    "fireTime" : 0.41,
+    "fireTime" : 0.2,
     "twoHanded" : false,
     "rateOfFire" : [2, 7],
     "muzzleEffect" : {
@@ -28,7 +28,7 @@
     "powerProjectileTime" : [0.4, 50],
     "projectile" : {
       "speed" : 80, 
-      "power" : 2.12, 
+      "power" : 1.92, 
       "color" : [80, 30, 0] 
   	}
 }

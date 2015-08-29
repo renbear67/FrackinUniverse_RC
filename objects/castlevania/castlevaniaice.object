@@ -1,5 +1,6 @@
 {
   "objectName" : "castlevaniaice",
+  "tags" : [ "icewaste" ],
   "printable" : false,
   "rarity" : "Rare",
   "description" : "A solid pillar of ice.",

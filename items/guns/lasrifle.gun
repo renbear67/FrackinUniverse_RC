@@ -13,7 +13,7 @@
     "recoilTime" : 0.1,
     "level" : 2,
     "tooltipKind" : "gun",
-    "fireTime" : 0.275,
+    "fireTime" : 0.2,
     "twoHanded" : true,
     "rateOfFire" : [2, 7],
     "walkWhileFiring" : true,
@@ -28,7 +28,7 @@
     "powerProjectileTime" : [0.4, 50],
     "projectile" : {
       "speed" : 80, 
-      "power" : 4.6, 
+      "power" : 2.68, 
       "color" : [80, 30, 0] 
   	}
 }

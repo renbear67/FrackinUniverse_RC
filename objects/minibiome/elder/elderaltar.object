@@ -1,6 +1,6 @@
 {
   "objectName" : "elderaltar",
-  "tags" : [ "elder" ],
+  "tags" : [ "elder", "hideous" ],
   "printable" : false,
   "rarity" : "rare",
   "description" : "An altar dedicated to some unspeakable horror.",

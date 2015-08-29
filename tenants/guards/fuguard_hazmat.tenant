@@ -1,12 +1,12 @@
 {
-  "name": "fuguard_apex",
+  "name": "fuguard_hazmat",
   "priority": 10,
 
   "tagCriteria": {
     "light": 1,
     "door": 1,
     "combat" : 8,
-    "laser" : 4
+    "radiation" : 4
   },
 
   "tenants": [
@@ -14,7 +14,7 @@
       "spawn": "npc",
       "species": "apex",
       "level": 1,
-      "type": "fuguard",
+      "type": "fuguardhazmat",
       "overrides": {
         "damageTeamType" : "friendly"
        }

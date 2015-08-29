@@ -128,7 +128,7 @@ function onSolidGround()
     position[1] + bounds[1] - 0.05, position[2] + bounds[2] - 0.95,
     position[1] + bounds[3] + 0.05, position[2] + bounds[2] + 0.05
   }
-  return world.rectTileCollision(groundRegion, "Dynamic")
+  return world.rectTileCollision(groundRegion, {"Null", "Block", "Dynamic"})
 end
 
 --------------------------------------------------------------------------------
@@ -222,7 +222,7 @@ function captiveState.update(dt, stateData)
   if self.ownerEntityId == nil then
     local playerIds = world.entityQuery(mcontroller.position(), 50, {includedTypes = {"player"}})
     for _, playerId in pairs(playerIds) do
-      if world.entityUuid(playerId) == storage.ownerUuid then
+      if world.entityUniqueId(playerId) == storage.ownerUuid then
         self.ownerEntityId = playerId
         break
       end

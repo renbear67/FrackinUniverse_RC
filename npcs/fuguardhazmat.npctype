@@ -1,0 +1,23 @@
+{
+  "type" : "fuguardhazmat",
+  "baseType" : "friendlyguard",
+
+  "items" : {
+    "override" : [
+      [1, [
+          {
+            "head" : [ { "name" : "hazmatdemohead" } ],
+            "chest" : [ { "name" : "hazmatdemochest" } ],
+            "legs" : [ { "name" : "hazmatdemolegs" } ],
+            "primary" : [
+              { "name" : "longarmpistol" },
+              { "name" : "energyassault" }
+            ],
+            "sheathedprimary" : [
+              [ "generatedsword", 1, { "definition" : "lightsaber" } ]
+            ]
+          }
+        ] ]
+    ]
+  }
+}

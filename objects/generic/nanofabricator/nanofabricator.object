@@ -1,6 +1,6 @@
 {
   "objectName" : "nanofabricator",
-  "tags" : [ "fu", "science", "scienceoutpost" ],
+  "tags" : [ "fu", "science", "scienceoutpost", "hitech" ],
   "rarity" : "uncommon",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {

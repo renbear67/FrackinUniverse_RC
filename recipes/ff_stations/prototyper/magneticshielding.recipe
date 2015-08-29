@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "ironbar", "count" : 4 },
-    { "item" : "copperbar", "count" : 8 },
-    { "item" : "crystal", "count" : 1 }
+    { "item" : "ironbar", "count" : 2 },
+    { "item" : "copperbar", "count" : 4 },
+    { "item" : "lead", "count" : 2 }
   ],
   "output" : {
     "item" : "magneticshielding",
