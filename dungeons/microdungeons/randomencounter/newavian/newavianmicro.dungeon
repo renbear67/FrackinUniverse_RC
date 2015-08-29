@@ -466,13 +466,13 @@
 		
 		{
 			"value" : [255, 191, 191, 255],
-			"comment" : "avianchef",
+			"comment" : "chefmerchant",
 			"brush" : [ [ "npc",
 			
 			{
 				"kind" : "npc",
 				"species" : "avian",
-				"typeName" : "avianchef"
+				"typeName" : "chefmerchant"
 			}
 			
         ] ]
@@ -541,19 +541,19 @@
 			{
 				"kind" : "npc",
 				"species" : "avian",
-				"typeName" : "villageguard"
+				"typeName" : "friendlyguard"
 			}
 		] ]
 		},
 		
 		{
 			"value" : [0, 10, 200, 255],
-			"comment" : "avian firebringer npc",
+			"comment" : "avian oremerchant npc",
 			"brush" : [ [ "npc",
 			{
 				"kind" : "npc",
 				"species" : "avian",
-				"typeName" : "avianfirebringer"
+				"typeName" : "oremerchant"
 			}
 		] ]
 		},

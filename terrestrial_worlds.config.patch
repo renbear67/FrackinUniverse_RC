@@ -327,7 +327,7 @@
           "primaryRegion" : [ "atropus" ],
           "secondaryRegion" : [ "goreforest", "ffhive", "corrupt", "alienforest", "sulphuricmagma", "cellfield", "reddesert", "finesand", "swamp", "bloodgulch", "hellhive", "elder", "corruptedforest", "dryriverbed", "deadwood", "jungle", "magma", "savannah", "volcanic" ],
           //"dungeonCountRange" : [0, 2],
-          "dungeons" : [ "elderruins", "wreck", "apexresearchlab", "apextestchamber", "aviantomb", "aviantemple", "scifidungeon"]
+          "dungeons" : [ "elderruins", "wreck", "apexresearchlab", "apextestchamber", "aviantomb", "aviantemple" ]
         },
         "subsurface" : {
           "primaryRegion" : [ "atropusunderground" ]
@@ -376,7 +376,7 @@
           "primaryRegion" : [ "bloodstone" ],
           "secondaryRegion" : [ "supermatterzone", "goreforest", "crystalswamp","metalworks", "corrupt", "ffhive", "alienforest", "sulphuricmagma", "cellfield", "reddesert", "rainbowforest", "bloodgulch", "hellhive", "elder", "corruptedforest", "dryriverbed", "deadwood", "magma", "savannah", "volcanic" ],
           //"dungeonCountRange" : [0, 2],
-          "dungeons" : [ "wreck", "apexresearchlab", "apextestchamber", "apextowerblock","avianairship", "scifidungeon"]        
+          "dungeons" : [ "wreck", "apexresearchlab", "apextestchamber", "apextowerblock","avianairship"]        
         },
         "subsurface" : {
           "primaryRegion" : [ "bloodstoneunderground" ]
@@ -514,7 +514,7 @@
           "primaryRegion" : [ "crystalmoon" ],
           "secondaryRegion" : [ "supermatterzone", "aliendesert", "crystalswamp", "crystalplain", "crystaldesert", "ffhive", "corruptmoon", "cloudforest", "rainbowforest", "irradiatedwaste", "bloodstonefield", "volcanic" ],
           //"dungeonCountRange" : [0, 2],
-          "dungeons" : [ "crystalcavern", "wreck", "apexresearchlab", "scifidungeon"]
+          "dungeons" : [ "crystalcavern", "wreck", "apexresearchlab"]
         },
         "subsurface" : {
           "primaryRegion" : [ "crystalmoonunderground" ],
@@ -691,7 +691,7 @@
           "primaryRegion" : [ "icewaste", "icecloudswastesurface" ],
           "secondaryRegion" : [ "crystaldesert", "crystalswamp","supermatterzone", "elder", "ice", "snow", "icefire" ],
           //"dungeonCountRange" : [0, 2],
-          "dungeons" : [ "elderruins", "crystalcavern", "wreck", "apexresearchlab", "scifidungeon" ]
+          "dungeons" : [ "elderruins", "crystalcavern", "wreck", "apexresearchlab"]
         },
         "subsurface" : {
           "primaryRegion" : [ "icewasteunderground" ]
@@ -738,7 +738,7 @@
           "primaryRegion" : [ "icemoon" ],
           "secondaryRegion" : [ "crystaldesert", "crystalswamp","supermatterzone", "elder",   "ice", "icefire" ],
           //"dungeonCountRange" : [0, 2],
-          "dungeons" : [ "elderruins", "crystalcavern", "wreck", "apexresearchlab", "scifidungeon" ]
+          "dungeons" : [ "elderruins", "crystalcavern", "wreck", "apexresearchlab" ]
         },
         "subsurface" : {
           "primaryRegion" : [ "icemoonunderground", "icecloudsmoonunderground" ]
@@ -1062,7 +1062,7 @@
           "primaryRegion" : [ "penumbra" ],
           "secondaryRegion" : [ "aliendesert", "goreforest", "ffhive", "corruptedforest", "alienforest", "reddesert", "hauntedforest", "hauntedgraveyard", "swamp", "hellhive", "elder", "corruptedforest", "icefire", "energyorbforest", "pitchfield", "blisterbushfield", "primevalforest", "irradiatedwaste", "bloodstonefield", "desert",  "eyepatch", "forest",  "volcanic", "magma", "savannah" ],
           //"dungeonCountRange" : [0, 2],
-          "dungeons" : [ "elderruins", "wreck", "glitchsewer", "apexresearchlab", "apextestchamber", "aviantomb", "aviantower", "humanbunker", "floranhuntinggrounds",  "scifidungeon", "glitchcastle", "humanprison", "aviantemple", "avianairship", "floranhell" ]        
+          "dungeons" : [ "elderruins", "wreck", "glitchsewer", "apexresearchlab", "apextestchamber", "aviantomb", "aviantower", "humanbunker", "floranhuntinggrounds",   "glitchcastle", "humanprison", "aviantemple", "avianairship", "floranhell" ]        
         },
         "subsurface" : {
           "primaryRegion" : [ "penumbraunderground" ]

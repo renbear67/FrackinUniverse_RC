@@ -758,10 +758,11 @@
   },
     { "op" : "add", 
     "path" : "/liquids/56", 
-	"value" : { 
+    "value" : { 
 	"name" : "liquidnitrogen",
 	"tickDelta" : 1,
-        "color" : [80, 221, 254, 128],
+        "color" : [194, 232, 251, 255],
+
 	"itemDrop" : "liquidnitrogenitem",
         "statusEffects" : [ "nitrogenfreeze" ],
         "interactions" : [
@@ -774,8 +775,8 @@
           "materialResult":"ice"
           }       
         ],
- 	"texture" : "/liquids/bloodtex.png",
-	"bottomLightMix" : [255, 70, 0],
+ 	"texture" : "/liquids/watertex.png",
+ 	"bottomLightMix" : [137, 189, 216],
 	"textureMovementFactor" : 2.6
 	}
     },  
