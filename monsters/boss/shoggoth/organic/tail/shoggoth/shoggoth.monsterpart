@@ -1,0 +1,9 @@
+{
+  "name" : "shoggothtail",
+  "category" : "shoggoth",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "shoggothtail.png"
+  }
+}

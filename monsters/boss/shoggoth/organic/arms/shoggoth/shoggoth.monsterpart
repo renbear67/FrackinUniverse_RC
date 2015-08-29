@@ -1,0 +1,10 @@
+{
+  "name" : "shoggotharms",
+  "category" : "shoggoth",
+  "type" : "arms",
+
+  "frames" : {
+    "frontArm" : "shoggothfarm.png",
+    "backArm" : "shoggothbarm.png"
+  }
+}
