@@ -1,6 +1,6 @@
 {
   "objectName" : "prototyper",
-  "tags" : [ "fu", "science", "scienceoutpost", "laser" ],
+  "tags" : [ "fu", "science", "scienceoutpost", "combat", "laser" ],
   "rarity" : "rare",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {

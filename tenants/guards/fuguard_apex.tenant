@@ -1,11 +1,12 @@
 {
   "name": "fuguard_apex",
-  "priority": 4,
+  "priority": 10,
 
   "tagCriteria": {
     "light": 1,
     "door": 1,
     "fu": 16,
+    "combat" : 8,
     "laser" : 2
   },
 

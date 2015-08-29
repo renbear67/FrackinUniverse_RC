@@ -1,6 +1,6 @@
 {
   "objectName" : "fissionfurnace",
-  "tags" : [ "fu", "science", "scienceoutpost" ],
+  "tags" : [ "fu", "science", "scienceoutpost", "combat", "laser" ],
   "rarity" : "rare",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {

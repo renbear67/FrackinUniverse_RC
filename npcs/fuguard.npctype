@@ -3,15 +3,15 @@
   "baseType" : "friendlyguard",
 
   "items" : {
-    "default" : [
-      [5, [
+    "override" : [
+      [1, [
           {
             "head" : [ { "name" : "lunarihead" } ],
             "chest" : [ { "name" : "lunarichest" } ],
             "legs" : [ { "name" : "lunarilegs" } ],
             "primary" : [
-              { "name" : "generatedgun", "parameters" : { "definition" : "laspistol" } },
-              { "name" : "generatedgun", "parameters" : { "definition" : "lasrifle" } }
+              { "name" : "laspistol" },
+              { "name" : "lasrifle" }
             ],
             "sheathedprimary" : [
               [ "generatedsword", 1, { "definition" : "solarispear" } ]
