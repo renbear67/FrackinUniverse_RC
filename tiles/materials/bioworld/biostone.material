@@ -1,7 +1,7 @@
 {
   "materialId" : 6577,
   "materialName" : "biostone",
-  "particleColor" : [54, 0, 54, 255],
+  "particleColor" : [104, 0, 104, 255],
   "itemDrop" : "biostonematerial",
   "description" : "...organic stone?",
   "shortdescription" : "Proto Stone",

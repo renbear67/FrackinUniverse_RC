@@ -1,7 +1,7 @@
 {
   "materialId" : 6578,
   "materialName" : "sulphurdirt",
-  "particleColor" : [209, 162, 80],
+  "particleColor" : [109, 78, 52, 255],
   "itemDrop" : "sulphurdirtmaterial",
   "description" : "Lovely sulphur-rich dirt.",
   "shortdescription" : "Sulphuric dirt",

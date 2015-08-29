@@ -1,5 +1,6 @@
 {
   "objectName" : "elderchest2",
+  "tags" : [ "elder" ],
   "printable" : false,
   "rarity" : "Common",
   "objectType" : "container",

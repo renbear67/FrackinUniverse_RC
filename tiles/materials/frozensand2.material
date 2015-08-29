@@ -1,7 +1,7 @@
 {
   "materialId" : 6616,
   "materialName" : "frozensand2",
-  "particleColor" : [75, 75, 90, 225],
+  "particleColor" : [190, 214, 232, 225],
   "itemDrop" : "frozensand2material",
   "description" : "Sand covered in ice.",
   "shortdescription" : "Frozen Sand",

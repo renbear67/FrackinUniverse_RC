@@ -1,7 +1,7 @@
 {
   "materialId" : 6590,
   "materialName" : "blackslime",
-  "particleColor" : [89, 127, 52, 255],
+  "particleColor" : [44, 38, 46, 255],
   "itemDrop" : "blackslimematerial",
   "description" : "extremely viscous black slime.",
   "shortdescription" : "Black Slime",

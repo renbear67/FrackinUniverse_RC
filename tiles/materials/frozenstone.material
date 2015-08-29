@@ -1,7 +1,7 @@
 {
   "materialId" : 6612,
   "materialName" : "frozenstone",
-  "particleColor" : [75, 75, 90, 225],
+  "particleColor" : [190, 214, 232, 225],
   "itemDrop" : "frozenstonematerial",
   "description" : "Ice-covered stone.",
   "shortdescription" : "Frozen Stone",

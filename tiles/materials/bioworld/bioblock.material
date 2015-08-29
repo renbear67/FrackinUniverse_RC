@@ -1,7 +1,7 @@
 {
   "materialId" : 6573,
   "materialName" : "bioblock",
-  "particleColor" : [54, 0, 54, 255],
+  "particleColor" : [104, 0, 104, 255],
   "itemDrop" : "bioblockmaterial",
   "description" : "Interesting...",
   "shortdescription" : "Proto Shale",

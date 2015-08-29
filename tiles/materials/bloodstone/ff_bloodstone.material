@@ -1,7 +1,7 @@
 {
   "materialId" : 6607,
   "materialName" : "ff_bloodstone",
-  "particleColor" : [99, 0, 0, 255],
+  "particleColor" : [220, 25, 25, 255],
   "itemDrop" : "bloodstonematerial",
   "description" : "Blood-red stone!",
   "shortdescription" : "Blood Stone",

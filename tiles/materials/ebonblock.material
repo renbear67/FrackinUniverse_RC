@@ -1,7 +1,7 @@
 {
   "materialId" : 6597,
   "materialName" : "ebonblock",
-  "particleColor" : [100, 100, 100, 205],
+  "particleColor" : [25, 25, 25, 205],
   "itemDrop" : "dirtmaterial",
   "description" : "wonderful shiny ebon stone.",
   "shortdescription" : "Ebon Block",

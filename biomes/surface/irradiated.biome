@@ -5,7 +5,7 @@
   "spawnProfiles" : [
     {
       "groups" : [ "hardsurface2", "fu_irradiated" ],
-      "extraSpawns" : [ "blipcritter", "bowbirdcritter", "hazmatcritter", "sackbagcritter", "toxiccrabcritter" ],
+      "extraSpawns" : [ "fireflyspawner", "flameroach", "blipcritter", "bowbirdcritter", "hazmatcritter", "sackbagcritter", "toxiccrabcritter" ],
       "monsterParameters" : {
         "statusSettings" : {
           "stats" : {
@@ -27,7 +27,7 @@
     },
     {
       "groups" : [ "hardsurface1", "fu_irradiated" ],
-      "extraSpawns" : [ "blipcritter", "bowbirdcritter", "hazmatcritter", "sackbagcritter", "toxiccrabcritter" ],
+      "extraSpawns" : [ "fireflyspawner", "fireygiant", "blipcritter", "bowbirdcritter", "hazmatcritter", "sackbagcritter", "toxiccrabcritter" ],
 
       "monsterParameters" : {
         "statusSettings" : {

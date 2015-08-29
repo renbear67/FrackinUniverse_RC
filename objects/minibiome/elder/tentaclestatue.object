@@ -1,5 +1,6 @@
 {
   "objectName" : "tentaclestatue",
+  "tags" : [ "elder" ],
   "printable" : false,
   "rarity" : "Common",
   "description" : "That isn't too incredibly adorable.",

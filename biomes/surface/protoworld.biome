@@ -5,7 +5,7 @@
   "spawnProfiles" : [
     {
       "groups" : [ "mediumsurface1", "fu_protoworld" ],
-      "extraSpawns" : [ "bouncercritter", "glowingballcritter2" ],
+      "extraSpawns" : [ "fireflyspawner", "phoenixfly", "orphanfly", "bouncercritter", "glowingballcritter2" ],
       "monsterParameters" : {
         "statusSettings" : {
           "stats" : {
@@ -18,7 +18,7 @@
     },
     {
       "groups" : [ "mediumsurface2", "fu_protoworld" ],
-      "extraSpawns" : [ "bouncercritter", "glowingballcritter2" ],
+      "extraSpawns" : [ "fireflyspawner", "phoenixfly", "orphanfly", "bouncercritter", "glowingballcritter2" ],
       "monsterParameters" : {
         "statusSettings" : {
           "stats" : {

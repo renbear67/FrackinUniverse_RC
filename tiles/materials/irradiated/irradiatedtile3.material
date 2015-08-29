@@ -1,7 +1,7 @@
 {
   "materialId" : 6571,
   "materialName" : "irradiatedtile3",
-  "particleColor" : [12, 220, 12, 255],
+  "particleColor" : [117, 140, 94, 255],
   "itemDrop" : "irradiatedwall3",
   "description" : "Yea, this definitely is NOT safe to touch.",
   "shortdescription" : "Radioactive Rock",

@@ -1,5 +1,6 @@
 {
   "objectName" : "elderbookcase",
+  "tags" : [ "elder" ],
   "rarity" : "Common",
   "objectType" : "container",
   "tooltipKind" : "container",

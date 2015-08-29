@@ -1,5 +1,6 @@
 {
   "objectName" : "medbaybed",
+  "tags" : [ "fu", "science", "scienceoutpost", "medbay" ],
   "rarity" : "rare",
   "description" : "Few things stitch up wounds faster than this sweet baby.",
   "shortdescription" : "Medical Bay",

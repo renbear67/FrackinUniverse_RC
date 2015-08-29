@@ -1,5 +1,6 @@
 {
   "objectName" : "bamboobed",
+  "tags" : [ "thickjungle", "bed" ],
   "printable" : false,
   "rarity" : "Common",
   "description" : "A comfortable bamboo bed. Looks pretty sleek.",

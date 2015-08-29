@@ -1,5 +1,6 @@
 {
   "objectName" : "elderchair",
+  "tags" : [ "elder", "chair" ],
   "rarity" : "Common",
   "description" : "A malignant stone chair.",
   "shortdescription" : "Elder Chair",

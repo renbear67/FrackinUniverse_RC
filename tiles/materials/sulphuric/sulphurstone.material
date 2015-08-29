@@ -1,7 +1,7 @@
 {
   "materialId" : 6579,
   "materialName" : "sulphurstone",
-  "particleColor" : [209, 162, 80, 255],
+  "particleColor" : [109, 78, 52, 255],
   "itemDrop" : "sulphurstonematerial",
   "description" : "Jam-packed with goodness.",
   "shortdescription" : "Sulphuric Stone",

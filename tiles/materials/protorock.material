@@ -1,7 +1,7 @@
 {
   "materialId" : 6600,
   "materialName" : "protorock",
-  "particleColor" : [100, 100, 100, 205],
+  "particleColor" : [36, 160, 36, 205],
   "itemDrop" : "protorockmaterial",
   "description" : "This is most...unusual.",
   "shortdescription" : "Elder Stone",

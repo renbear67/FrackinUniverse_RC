@@ -1,5 +1,6 @@
 {
   "objectName" : "chemlab",
+  "tags" : [ "fu", "science", "scienceoutpost" ],
   "rarity" : "Common",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {

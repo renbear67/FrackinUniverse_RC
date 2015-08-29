@@ -1,5 +1,6 @@
 {
   "objectName" : "magmatable",
+  "tags" : [ "magma", "table" ],
   "printable" : false,
   "rarity" : "Common",
   "description" : "Burning death for dinner.",

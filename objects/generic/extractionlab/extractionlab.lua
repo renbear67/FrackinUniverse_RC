@@ -642,7 +642,7 @@ local recipes =
 -- vanilla ores
 {inputs = { coalore=1 }, outputs = { ammoniumsulfate=1 }, time = 0.5},
 {inputs = { copperore=1 }, outputs = { rawminerals=4 }, time = 0.5},
-{inputs = { ironore=1 }, outputs = { lead=4 }, time = 0.5},
+{inputs = { ironore=1 }, outputs = { liquidironfu=2 }, time = 1.0},
 {inputs = { silverore=1 }, outputs = { rawminerals=5 }, time = 0.5},
 {inputs = { goldore=1 }, outputs = { rawminerals=6 }, time = 0.5},
 {inputs = { corefragmentore=1 }, outputs = { ammoniumsulfate=4 }, time = 0.5},
@@ -653,7 +653,7 @@ local recipes =
 {inputs = { rubiumore=1 }, outputs = { rawminerals=7 }, time = 0.5},
 {inputs = { moonstoneore=1 }, outputs = { rawminerals=4 }, time = 0.5},
 {inputs = { solariumore=1 }, outputs = { rawminerals=4 }, time = 0.5},
-{inputs = { sulphur=1 }, outputs = { rawminerals=4 }, time = 0.5},
+{inputs = { sulphur=1 }, outputs = { liquidsulphuricacid=2 }, time = 1.0},
 {inputs = { titaniumore=1 }, outputs = { rawminerals=7 }, time = 0.5},
 {inputs = { triangliumore=1 }, outputs = { rawminerals=4 }, time = 0.5},
 {inputs = { uraniumore=1 }, outputs = { matteritem=4 }, time = 0.5},
@@ -665,15 +665,15 @@ local recipes =
 {inputs = { lazuliteore=4 }, outputs = { phosphorus=1 }, time = 0.5},
 {inputs = { magnesiumore=4 }, outputs = { magnesiumpowder=1 }, time = 0.5},
 {inputs = { irradiumore=4 }, outputs = { rawminerals=4 }, time = 0.5},
-{inputs = { protociteore=4 }, outputs = { rawminerals=9 }, time = 0.5},
+{inputs = { protociteore=4 }, outputs = { rawminerals=9 }, time = 0.7},
 {inputs = { penumbriteore=4 }, outputs = { rawminerals=9 }, time = 0.5},
-{inputs = { cinnabarore=4 }, outputs = { rawminerals=8 }, time = 0.5},
+{inputs = { cinnabarore=4 }, outputs = { rawminerals=8 }, time = 0.8},
 {inputs = { densiniumore=4 }, outputs = { rawminerals=12 }, time = 0.5},
 {inputs = { berliniteore=4 }, outputs = { phosphorus=1 }, time = 0.5},
-{inputs = { corruptionore=4 }, outputs = { rawminerals=5 }, time = 0.5},
-{inputs = { solarishard=20 }, outputs = { crystal=1 }, time = 0.5},
+{inputs = { corruptionore=4 }, outputs = { rawminerals=5 }, time = 0.9},
+{inputs = { solarishard=20 }, outputs = { crystal=1 }, time = 0.6},
 {inputs = { solaricrystal=1 }, outputs = { solarishard=4 }, time = 0.5},
-{inputs = { matteritem=50 }, outputs = { unstableparticles=1 }, time = 0.5}
+{inputs = { matteritem=50 }, outputs = { unstableparticles=1 }, time = 0.65}
 }
 
 --  *************

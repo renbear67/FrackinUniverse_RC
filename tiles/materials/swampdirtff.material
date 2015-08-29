@@ -3,7 +3,7 @@
   "materialName" : "swampdirtff",
   "frames" : ".png",
   "variants" : 5,
-  "particleColor" : [99, 0, 0, 255],
+  "particleColor" : [72, 80, 64, 255],
   "itemDrop" : "swampdirtffmaterial",
   "description" : "Swamp Dirt",
   "shortdescription" : "Swamp Dirt",

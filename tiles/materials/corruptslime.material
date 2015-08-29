@@ -1,7 +1,7 @@
 {
   "materialId" : 4068,
   "materialName" : "corruptslime",
-  "particleColor" : [75, 59, 109, 255],
+  "particleColor" : [84, 73, 88, 255],
   "itemDrop" : "corruptslimematerial",
   "description" : "All that remains after being touched by Dark Water.",
   "shortdescription" : "Corruption",

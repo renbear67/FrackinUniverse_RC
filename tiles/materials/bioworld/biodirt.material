@@ -1,7 +1,7 @@
 {
   "materialId" : 6575,
   "materialName" : "biodirt",
-  "particleColor" : [54, 0, 54, 255],
+  "particleColor" : [104, 0, 104, 255],
   "itemDrop" : "biodirtmaterial",
   "description" : "Somehow, even the dirt here is strange.",
   "shortdescription" : "Proto Soil",

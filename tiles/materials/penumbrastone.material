@@ -1,7 +1,7 @@
 {
   "materialId" : 6589,
   "materialName" : "penumbrastone",
-  "particleColor" : [124, 145, 86, 255],
+  "particleColor" : [124, 85, 154, 255],
   "itemDrop" : "penumbrastonematerial",
   "description" : "This stone reflects no light.",
   "shortdescription" : "Umbral Stone",

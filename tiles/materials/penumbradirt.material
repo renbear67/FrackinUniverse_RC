@@ -1,7 +1,7 @@
 {
   "materialId" : 6588,
   "materialName" : "penumbradirt",
-  "particleColor" : [124, 145, 86, 255],
+  "particleColor" : [127, 85, 154, 255],
   "itemDrop" : "penumbradirtmaterial",
   "description" : "This dirt reflects no light.",
   "shortdescription" : "Void Dirt",

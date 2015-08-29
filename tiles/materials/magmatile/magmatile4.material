@@ -1,7 +1,7 @@
 {
   "materialId" : 6565,
   "materialName" : "magmatile4",
-  "particleColor" : [20, 20, 20, 255],
+"particleColor" : [57, 53, 50, 255],
   "itemDrop" : "magmawall4",
   "description" : "Solid, unyielding stone.",
   "shortdescription" : "Cooled Volcanic Stone",

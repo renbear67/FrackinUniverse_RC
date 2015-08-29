@@ -1,5 +1,6 @@
 {
   "objectName" : "ff_lavalight1",
+  "tags" : [ "fu", "light" ],
   "printable" : false,
   "rarity" : "Common",
   "category" : "light",

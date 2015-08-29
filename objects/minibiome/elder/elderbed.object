@@ -1,5 +1,6 @@
 {
   "objectName" : "elderbed",
+  "tags" : [ "elder" ],
   "rarity" : "rare",
   "description" : "You could sleep on it. If you're brave enough.",
   "shortdescription" : "Elder Bed",

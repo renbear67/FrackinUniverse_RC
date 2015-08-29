@@ -1,5 +1,6 @@
 {
   "objectName" : "eldercabinet",
+  "tags" : [ "elder" ],
   "printable" : false,
   "rarity" : "Common",
   "objectType" : "container",

@@ -2,7 +2,7 @@
   "materialId" : 6576,
   "materialName" : "biogravel",
   "frames" : ".png",
-  "particleColor" : [54, 0, 54, 255],
+  "particleColor" : [104, 0, 104, 255],
   "itemDrop" : "biogravelmaterial",
   "description" : "This looks a bit odd...",
   "shortdescription" : "Proto Gravel",

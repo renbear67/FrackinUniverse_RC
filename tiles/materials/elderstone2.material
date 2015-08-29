@@ -1,7 +1,7 @@
 {
   "materialId" : 6602,
   "materialName" : "elderstone2",
-  "particleColor" : [112, 72, 39, 255],
+  "particleColor" : [138, 155, 113, 255],
   "itemDrop" : "elderstonematerial",
   "description" : "This material feels...wrong.",
   "shortdescription" : "Elder Soil",

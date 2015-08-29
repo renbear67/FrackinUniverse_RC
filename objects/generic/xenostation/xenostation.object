@@ -1,5 +1,6 @@
 {
   "objectName" : "xenostation",
+  "tags" : [ "fu", "science", "scienceoutpost" ],
   "rarity" : "Common",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {

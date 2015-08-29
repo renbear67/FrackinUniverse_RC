@@ -646,7 +646,7 @@ local recipes =
 -- vanilla ores
 {inputs = { coalore=1 }, outputs = { ammoniumsulfate=2 }, time = 0.5},
 {inputs = { copperore=1 }, outputs = { rawminerals=6 }, time = 0.5},
-{inputs = { ironore=1 }, outputs = { lead=7 }, time = 0.5},
+{inputs = { ironore=1 }, outputs = { liquidironfu=4 }, time = 0.5},
 {inputs = { silverore=1 }, outputs = { rawminerals=8 }, time = 0.5},
 {inputs = { goldore=1 }, outputs = { rawminerals=8 }, time = 0.5},
 {inputs = { corefragmentore=1 }, outputs = { ammoniumsulfate=8 }, time = 0.5},
@@ -657,7 +657,7 @@ local recipes =
 {inputs = { rubiumore=1 }, outputs = { rawminerals=8 }, time = 0.5},
 {inputs = { moonstoneore=1 }, outputs = { rawminerals=8 }, time = 0.5},
 {inputs = { solariumore=1 }, outputs = { rawminerals=8 }, time = 0.5},
-{inputs = { sulphur=1 }, outputs = { rawminerals=8 }, time = 0.5},
+{inputs = { sulphur=1 }, outputs = { liquidsulphuricacid=4 }, time = 0.5},
 {inputs = { titaniumore=1 }, outputs = { rawminerals=9 }, time = 0.5},
 {inputs = { triangliumore=1 }, outputs = { rawminerals=8 }, time = 0.5},
 {inputs = { uraniumore=1 }, outputs = { matteritem=7 }, time = 0.5},

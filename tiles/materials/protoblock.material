@@ -1,7 +1,7 @@
 {
   "materialId" : 6591,
   "materialName" : "protoblock",
-  "particleColor" : [49, 127, 82, 155],
+  "particleColor" : [209, 227, 61, 155],
   "itemDrop" : "protoblockmaterial",
   "description" : "A solid block of protocyte.",
   "shortdescription" : "Protocyte block",

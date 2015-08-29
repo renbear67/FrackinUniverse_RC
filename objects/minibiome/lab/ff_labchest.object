@@ -1,5 +1,6 @@
 {
   "objectName" : "ff_labchest",
+  "tags" : [ "fu", "storage" ],
   "printable" : false,
   "rarity" : "Common",
   "objectType" : "container",

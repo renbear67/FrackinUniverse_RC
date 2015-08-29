@@ -1,7 +1,7 @@
 {
   "materialId" : 6582,
   "materialName" : "iceblock3",
-  "particleColor" : [209, 162, 80, 255],
+  "particleColor" : [209, 223, 237, 255],
   "itemDrop" : "iceblock3material",
   "description" : "Ice Sheet",
   "shortdescription" : "Ice Sheet",

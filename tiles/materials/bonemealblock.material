@@ -1,7 +1,7 @@
 {
   "materialId" : 6596,
   "materialName" : "bonemeal",
-  "particleColor" : [100, 100, 100, 205],
+  "particleColor" : [212, 205, 174, 205],
   "itemDrop" : "bonemealmaterial",
   "description" : "mixed bone powder and... gore.",
   "shortdescription" : "Bone Meal",

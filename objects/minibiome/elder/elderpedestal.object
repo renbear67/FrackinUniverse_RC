@@ -1,5 +1,6 @@
 {
   "objectName" : "elderpedestal",
+  "tags" : [ "elder" ],
   "rarity" : "Common",
   "category" : "decorative",
   "price" : 350,

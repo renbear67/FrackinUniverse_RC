@@ -1,5 +1,6 @@
 {
   "objectName" : "mysteriousmachine1",
+  "tags" : [ "elder" ],
   "printable" : false,
   "rarity" : "Common",
   "description" : "The purpose of this machine is unclear.",

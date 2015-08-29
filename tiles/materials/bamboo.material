@@ -1,7 +1,7 @@
 {
   "materialId" : 117,
   "materialName" : "bamboo",
-  "particleColor" : [89, 127, 52, 255],
+  "particleColor" : [119, 160, 93, 255],
   "itemDrop" : "bamboo",
   "description" : "Bamboo",
   "shortdescription" : "Bamboo",

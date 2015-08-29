@@ -5,7 +5,7 @@
   "spawnProfiles" : [
     {
       "groups" : [ "mediumsurface1" ],
-      "extraSpawns" : [ "sackbagcritter", "slugbluecritter"  ],
+      "extraSpawns" : [ "shadowmoth", "sackbagcritter", "slugbluecritter"  ],
       "monsterParameters" : {
         "statusSettings" : {
           "stats" : {
@@ -21,7 +21,7 @@
     },
     {
       "groups" : [ "mediumsurface2" ],
-      "extraSpawns" : [ "sackbagcritter", "slugbluecritter"  ],
+      "extraSpawns" : [ "shadowmoth", "sackbagcritter", "slugbluecritter"  ],
       "monsterParameters" : {
         "statusSettings" : {
           "stats" : {

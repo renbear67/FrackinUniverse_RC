@@ -1,5 +1,6 @@
 {
   "objectName" : "bamboochair",
+  "tags" : [ "thickjungle", "chair" ],
   "printable" : false,
   "rarity" : "Common",
   "description" : "A comfortable bamboo chair.",

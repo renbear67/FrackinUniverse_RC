@@ -1,7 +1,7 @@
 {
   "materialId" : 6562,
   "materialName" : "magmatile1",
-  "particleColor" : [20, 20, 20, 255],
+"particleColor" : [57, 53, 50, 255],
   "itemDrop" : "magmawall1",
   "description" : "Burning-hot magma walls. You should probably not touch this.",
   "shortdescription" : "Volcanic Rock",

@@ -1,7 +1,7 @@
 {
   "materialId" : 6593,
   "materialName" : "penumbriteblock",
-  "particleColor" : [109, 127, 223, 205],
+  "particleColor" : [127, 85, 154, 205],
   "itemDrop" : "penumbriteblockmaterial",
   "description" : "A solid block of penumbrite alloy.",
   "shortdescription" : "Diamond block",

@@ -2,7 +2,8 @@
   "input" : [
     { "item" : "refinedaegisalt", "count" : 1 },
     { "item" : "refinedrubium", "count" : 1 },
-    { "item" : "refinedviolium", "count" : 1 }
+    { "item" : "refinedviolium", "count" : 1 },
+    { "item" : "lead", "count" : 1 }
   ],
   "output" : {
     "item" : "densealloy",

@@ -1,5 +1,6 @@
 {
   "objectName" : "powerpress",
+  "tags" : [ "fu", "science", "scienceoutpost" ],
   "rarity" : "uncommon",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {

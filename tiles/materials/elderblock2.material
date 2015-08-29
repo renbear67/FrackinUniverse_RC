@@ -1,7 +1,7 @@
 {
   "materialId" : 6604,
   "materialName" : "elderblock2",
-  "particleColor" : [100, 140, 100, 205],
+  "particleColor" : [138, 155, 113, 255],
   "itemDrop" : "elderblock2material",
   "description" : "Yea, this looks friendly.",
   "shortdescription" : "Elder Temple Wall",

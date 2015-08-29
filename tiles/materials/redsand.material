@@ -1,7 +1,7 @@
 {
   "materialId" : 3758,
   "materialName" : "redsand",
-  "particleColor" : [209, 204, 135, 255],
+  "particleColor" : [182, 73, 24, 180],
   "itemDrop" : "redsand",
   "description" : "A fine glittering red sand. Could probably be made into glass!",
   "shortdescription" : "Fine Sand",

@@ -1,5 +1,6 @@
 {
   "objectName" : "magmachair",
+    "tags" : [ "magma", "chair" ],
   "printable" : false,
   "rarity" : "Common",
   "description" : "Do you really want to sit on that?",

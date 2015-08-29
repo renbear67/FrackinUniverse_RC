@@ -1,5 +1,6 @@
 {
   "objectName" : "elderidol",
+  "tags" : [ "elder" ],
   "rarity" : "Common",
   "category" : "pot",
   "price" : 400,

@@ -1,5 +1,6 @@
 {
   "objectName" : "eldercarving1",
+  "tags" : [ "elder" ],
   "rarity" : "Common",
   "category" : "pot",
   "price" : 400,

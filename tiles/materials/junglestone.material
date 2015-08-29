@@ -1,7 +1,7 @@
 {
   "materialId" : 6614,
   "materialName" : "junglestone",
-  "particleColor" : [115, 220, 115, 225],
+  "particleColor" : [92, 114, 84, 225],
   "itemDrop" : "junglestonematerial",
   "description" : "Stone covered in vines and roots.",
   "shortdescription" : "Jungle Stone",

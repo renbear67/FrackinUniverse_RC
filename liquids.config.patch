@@ -728,12 +728,13 @@
 "value":{
   "name":"fuhoney",
   "tickDelta":5,
-  "color":[230,180,80,128],
+  "color":[230,196,80,128],
   "radiantLight":[160,120,20],
   "itemDrop":"fu_liquidhoney",
   "texture":"/liquids/honeytex.png",
   "bottomLightMix":[150,100,20],
   "textureMovementFactor":2.6,
+  "statusEffects" :[ "swimming", "honeyslow" ],
   "interactions":[]
   }
 },   

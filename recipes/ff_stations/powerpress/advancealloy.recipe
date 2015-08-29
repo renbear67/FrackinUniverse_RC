@@ -2,7 +2,8 @@
   "input" : [
     { "item" : "titaniumbar", "count" : 1 },
     { "item" : "protocitebar", "count" : 1 },
-    { "item" : "penumbriteshard", "count" : 1 }
+    { "item" : "penumbriteshard", "count" : 1 },
+    { "item" : "lead", "count" : 1 }
   ],
   "output" : {
     "item" : "advancealloy",

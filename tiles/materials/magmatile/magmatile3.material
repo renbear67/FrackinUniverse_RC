@@ -1,7 +1,7 @@
 {
   "materialId" : 6564,
   "materialName" : "magmatile3",
-  "particleColor" : [20, 20, 20, 255],
+  "particleColor" : [57, 53, 50, 255],
   "itemDrop" : "magmawall3",
   "description" : "Yay. Ash.",
   "shortdescription" : "Volcanic Ash",
