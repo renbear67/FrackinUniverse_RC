@@ -5,6 +5,6 @@
   "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
   "shortdescription" : "Pure Honey",
   "description" : "A measure of sweet, sweet honey.",
-
+  "learnBlueprintsOnPickup" : [ "fuamberchunk", "fubeesuitchest", "fubeesuithead", "fubeesuitpants" ],
   "liquid" : "fuhoney"
 }

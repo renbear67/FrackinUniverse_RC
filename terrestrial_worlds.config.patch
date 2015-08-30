@@ -247,22 +247,22 @@
           "primaryRegion" : [ "arborealunderground" ]
         },
         "underground1" : {
-          "secondaryRegion" : [ "hive", "zen", "shroomcave", "shadow", "colorfulcave", "crystalcave", "ffspidernest", "bonecaves", "cellcaves" , "icecaves", "luminouscaves",  "minivillageunderground", "mushroomunderground", "wildernessunderground", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine" ]
+          "secondaryRegion" : [ "ffhiveunderground", "zen", "shroomcave", "colorfulcave",  "ffspidernest", "luminouscaves",  "minivillageunderground", "mushroomunderground", "wildernessunderground", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine" ]
         },
         "underground2" : {
-          "secondaryRegion" : [ "hive", "zen", "shroomcave", "shadow", "colorfulcave", "crystalcave", "ffspidernest", "bonecaves", "cellcaves" , "icecaves", "luminouscaves",  "minivillageunderground", "mushroomunderground", "wildernessunderground", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine" ]
+          "secondaryRegion" : [ "ffhiveunderground", "zen", "shroomcave", "colorfulcave", "ffspidernest", "luminouscaves",  "minivillageunderground", "mushroomunderground", "wildernessunderground", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine" ]
         },
         "underground3" : {
-          "secondaryRegion" : [ "hive", "zen", "shroomcave", "shadow", "colorfulcave", "crystalcave", "ffspidernest", "bonecaves", "cellcaves" , "icecaves", "luminouscaves",  "minivillageunderground", "mushroomunderground", "wildernessunderground", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine" ]
+          "secondaryRegion" : [ "ffhiveunderground", "zen", "shroomcave", "colorfulcave", "ffspidernest", "luminouscaves",  "minivillageunderground", "mushroomunderground", "wildernessunderground", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine" ]
         },
         "underground4" : {
-          "secondaryRegion" : [ "hive", "zen", "shroomcave", "shadow", "colorfulcave", "crystalcave", "ffspidernest", "bonecaves", "cellcaves" , "icecaves", "luminouscaves",  "minivillageunderground", "mushroomunderground", "wildernessunderground", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine" ]
+          "secondaryRegion" : [ "zen", "shroomcave", "shadow", "colorfulcave", "crystalcave", "ffspidernest", "luminouscaves",  "minivillageunderground", "mushroomunderground", "wildernessunderground", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine" ]
         },
         "underground5" : {
-          "secondaryRegion" : [ "hive", "zen", "shroomcave", "shadow", "colorfulcave", "crystalcave", "ffspidernest", "bonecaves", "cellcaves" , "icecaves", "luminouscaves",  "minivillageunderground", "mushroomunderground", "wildernessunderground", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine" ]
+          "secondaryRegion" : [ "zen", "shroomcave", "shadow", "colorfulcave", "crystalcave", "ffspidernest",  "luminouscaves",  "minivillageunderground", "mushroomunderground", "wildernessunderground", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine" ]
         },
         "underground6" : {
-          "secondaryRegion" : [ "hive", "zen", "shroomcave", "shadow", "colorfulcave", "crystalcave", "ffspidernest", "bonecaves", "cellcaves" , "icecaves", "luminouscaves",  "minivillageunderground", "mushroomunderground", "wildernessunderground", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine" ]
+          "secondaryRegion" : [ "zen", "shroomcave", "shadow", "colorfulcave", "crystalcave", "ffspidernest",  "luminouscaves",  "minivillageunderground", "mushroomunderground", "wildernessunderground", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine" ]
         },
         "core" : {
           "primaryRegion" : [ "core" ]
@@ -290,22 +290,22 @@
           "primaryRegion" : [ "arborealunderground" ]
         },
         "underground1" : {
-          "secondaryRegion" : [ "hive", "zen", "shroomcave", "shadow", "colorfulcave", "crystalcave", "ffspidernest", "bonecaves", "cellcaves" , "icecaves", "luminouscaves",  "minivillageunderground", "mushroomunderground", "wildernessunderground", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine" ]
+          "secondaryRegion" : [ "ffhiveunderground", "zen", "shroomcave", "colorfulcave", "ffspidernest", "luminouscaves",  "minivillageunderground", "mushroomunderground", "wildernessunderground", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine" ]
         },
         "underground2" : {
-          "secondaryRegion" : [ "hive", "zen", "shroomcave", "shadow", "colorfulcave", "crystalcave", "ffspidernest", "bonecaves", "cellcaves" , "icecaves", "luminouscaves",  "minivillageunderground", "mushroomunderground", "wildernessunderground", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine" ]
+          "secondaryRegion" : [ "ffhiveunderground", "zen", "shroomcave", "colorfulcave", "ffspidernest", "luminouscaves",  "minivillageunderground", "mushroomunderground", "wildernessunderground", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine" ]
         },
         "underground3" : {
-          "secondaryRegion" : [ "hive", "zen", "shroomcave", "shadow", "colorfulcave", "crystalcave", "ffspidernest", "bonecaves", "cellcaves" , "icecaves", "luminouscaves",  "minivillageunderground", "mushroomunderground", "wildernessunderground", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine" ]
+          "secondaryRegion" : [ "ffhiveunderground", "zen", "shroomcave", "colorfulcave", "ffspidernest",  "luminouscaves",  "minivillageunderground", "mushroomunderground", "wildernessunderground", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine" ]
         },
         "underground4" : {
-          "secondaryRegion" : [ "hive", "zen", "shroomcave", "shadow", "colorfulcave", "crystalcave", "ffspidernest", "bonecaves", "cellcaves" , "icecaves", "luminouscaves",  "minivillageunderground", "mushroomunderground", "wildernessunderground", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine" ]
+          "secondaryRegion" : [ "zen", "shroomcave", "colorfulcave", "ffspidernest", "luminouscaves",  "minivillageunderground", "mushroomunderground", "wildernessunderground", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine" ]
         },
         "underground5" : {
-          "secondaryRegion" : [ "hive", "zen", "shroomcave", "shadow", "colorfulcave", "crystalcave", "ffspidernest", "bonecaves", "cellcaves" , "icecaves", "luminouscaves",  "minivillageunderground", "mushroomunderground", "wildernessunderground", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine" ]
+          "secondaryRegion" : [ "zen", "shroomcave", "colorfulcave", "ffspidernest", "luminouscaves",  "minivillageunderground", "mushroomunderground", "wildernessunderground", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine" ]
         },
         "underground6" : {
-          "secondaryRegion" : [ "hive", "zen", "shroomcave", "shadow", "colorfulcave", "crystalcave", "ffspidernest", "bonecaves", "cellcaves" , "icecaves", "luminouscaves",  "minivillageunderground", "mushroomunderground", "wildernessunderground", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine" ]
+          "secondaryRegion" : [ "zen", "shroomcave", "colorfulcave", "ffspidernest", "luminouscaves",  "minivillageunderground", "mushroomunderground", "wildernessunderground", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine" ]
         },
         "core" : {
           "primaryRegion" : [ "core" ]
@@ -479,16 +479,16 @@
           "primaryRegion" : [ "bogunderground" ]
         },
         "underground1" : {
-          "secondaryRegion" : [ "ffpoopit", "hive", "zen", "shroomcave", "shadow", "colorfulcave", "crystalcave", "ffspidernest", "bogunderground", "stonecaves", "bonecaves", "tarunderground", "wildernessunderground", "luminouscaves", "ffshadow", "ffzen", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "secondaryRegion" : [ "ffpoopit", "ffhiveunderground", "zen", "ffspidernest", "bogunderground", "stonecaves", "bonecaves", "tarunderground", "wildernessunderground", "luminouscaves", "ffshadow", "ffzen", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
         },
         "underground2" : {
-          "secondaryRegion" : [ "ffpoopit", "hive", "zen", "shroomcave", "shadow", "colorfulcave", "crystalcave", "ffspidernest", "bogunderground", "stonecaves", "bonecaves", "tarunderground", "wildernessunderground", "luminouscaves", "ffshadow", "ffzen", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "secondaryRegion" : [ "ffpoopit", "ffhiveunderground", "zen", "ffspidernest", "bogunderground", "stonecaves", "bonecaves", "tarunderground", "wildernessunderground", "luminouscaves", "ffshadow", "ffzen", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
         },
         "underground3" : {
-          "secondaryRegion" : [ "ffpoopit", "hive", "zen", "shroomcave", "shadow", "colorfulcave", "crystalcave", "ffspidernest", "bogunderground", "stonecaves", "bonecaves", "tarunderground", "wildernessunderground", "luminouscaves", "ffshadow", "ffzen", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "secondaryRegion" : [ "ffpoopit", "ffhiveunderground", "zen", "ffspidernest", "bogunderground", "stonecaves", "bonecaves", "tarunderground", "wildernessunderground", "luminouscaves", "ffshadow", "ffzen", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
         },
         "underground4" : {
-          "secondaryRegion" : [ "ffpoopit", "hive", "zen", "shroomcave", "shadow", "colorfulcave", "crystalcave", "ffspidernest", "bogunderground", "stonecaves", "bonecaves", "tarunderground", "icecaves", "luminouscaves", "ffshadow", "ffzen", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "secondaryRegion" : [ "ffpoopit", "ffhiveunderground", "zen", "ffspidernest", "bogunderground", "stonecaves", "bonecaves", "tarunderground", "icecaves", "luminouscaves", "ffshadow", "ffzen", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
         },
         "underground5" : {
           "secondaryRegion" : [ "ffpoopit", "hive", "zen", "shroomcave", "shadow", "colorfulcave", "crystalcave", "ffspidernest", "bogunderground", "stonecaves", "bonecaves", "tarunderground", "icecaves", "ffshadow", "ffzen", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
@@ -1387,14 +1387,14 @@
         },
         "underground1" : {
           "primaryRegion" : [ "thickjungleunderground" ],
-          "secondaryRegion" : [ "colourful", "zen", "shadow", "crystalcave", "abandonedmines", "hive", "ffspidernest", "luminouscaves", "wildernessunderground", "bonecaves", "ffvolcanic" ]
+          "secondaryRegion" : [ "ffhiveunderground", "colourful", "zen", "shadow", "crystalcave", "abandonedmines", "hive", "ffspidernest", "luminouscaves", "wildernessunderground", "bonecaves", "ffvolcanic" ]
         },
         "underground2" : {
           "primaryRegion" : [ "thickjungleunderground" ],
-          "secondaryRegion" : [ "colourful", "zen", "shadow", "crystalcave", "abandonedmines", "hive", "ffspidernest", "luminouscaves", "wildernessunderground", "bonecaves", "ffvolcanic" ]
+          "secondaryRegion" : [ "ffhiveunderground", "colourful", "zen", "shadow", "crystalcave", "abandonedmines", "hive", "ffspidernest", "luminouscaves", "wildernessunderground", "bonecaves", "ffvolcanic" ]
         },
         "underground3" : {
-          "secondaryRegion" : [ "colourful", "zen", "shadow", "crystalcave", "abandonedmines", "hive", "ffspidernest", "luminouscaves", "wildernessunderground", "bonecaves", "ffvolcanic" ]
+          "secondaryRegion" : [ "ffhiveunderground", "colourful", "zen", "shadow", "crystalcave", "abandonedmines", "hive", "ffspidernest", "luminouscaves", "wildernessunderground", "bonecaves", "ffvolcanic" ]
         },
         "underground4" : {
           "secondaryRegion" : [ "colourful", "zen", "shadow", "crystalcave", "abandonedmines", "hive", "ffspidernest", "luminouscaves", "wildernessunderground", "bonecaves", "ffvolcanic" ]
@@ -3465,6 +3465,19 @@
             "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
         [0, [ "nitrogenseaunderground"] ]
+      ]
+    }
+  },
+
+  {"op" : "add", 
+  "path" : "/regionTypes/ffhiveunderground",
+  "value" : 
+  {
+      "caveLiquid" : [ "fuhoney" ],
+      "caveLiquidChanceRange" : [25, 55],
+      "bgOreSelector" : [ "denseVeins" ],  
+      "biome" : [
+        [0, [ "ffhiveunderground"] ]
       ]
     }
   },

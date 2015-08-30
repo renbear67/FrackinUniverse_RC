@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ff_plastic", "count" : 4 },
+    { "item" : "fabric", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "fubeesuithead",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "armors", "all" ]
+}

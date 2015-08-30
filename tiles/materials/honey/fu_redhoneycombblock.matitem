@@ -5,6 +5,6 @@
   "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
   "shortdescription" : "Red Honeycomb Block",
   "description" : "A block of red honeycomb.",
-
+  "learnBlueprintsOnPickup" : [ "fubeewings", "fubeeshield", "fuqueenchest", "fuqueenhead", "fuqueenlegs" ],
   "materialId" : 6626
 }

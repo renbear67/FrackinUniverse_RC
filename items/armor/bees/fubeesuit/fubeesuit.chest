@@ -1,0 +1,41 @@
+{
+  "itemName" : "fubeesuitchest",
+  "inventoryIcon" : "icons.png:chest",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "A cloth suit for working with bees. Prevents nasty bee stings!",
+  "shortdescription" : "Bee Keeper's Armor",
+  "tooltipKind" : "armor",
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "statusEffects" : [
+    {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 0.12
+    },
+    {
+      "stat" : "protection",
+      "amount" : 10
+    },
+    {
+      "stat" : "maxEnergy",
+      "amount" : 10
+    },
+    {
+      "stat" : "maxHealth",
+      "amount" : 20
+    },
+    "beestingimmunity"
+  ]
+}

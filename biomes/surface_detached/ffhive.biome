@@ -3,8 +3,8 @@
   "friendlyName" : "Hive",
   "hueShiftOptions" : [-40, -25, 0, 25, 40],
 
-    "mainBlock" : "hive",
-    "subBlocks" : [ "fu_honeycombblock", "petalblock", "spidersilkblock" ],
+    "mainBlock" : "honeycombmaterial",
+    "subBlocks" : [ "fu_honeycombblock", "hive", "spidersilkblock" ],
     "ores" : "ff_surfacearborealOres",
     
   "spawnProfiles" : [

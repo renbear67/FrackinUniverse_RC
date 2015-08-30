@@ -1,0 +1,38 @@
+{
+  "itemName" : "fugoldenhead",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "A shining knight's helm.",
+  "shortdescription" : "Amber Knight's Helm",
+  "tooltipKind" : "armor",
+
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+    {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 0.8
+    },
+
+    {
+      "stat" : "protection",
+      "amount" : 26
+    },
+
+    {
+      "stat" : "maxEnergy",
+      "amount" : 33
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 23
+    },
+    "honeyslowimmunity"
+  ]
+}

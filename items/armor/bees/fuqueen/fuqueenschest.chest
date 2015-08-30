@@ -1,0 +1,44 @@
+{
+  "itemName" : "fuqueenchest",
+  "inventoryIcon" : "chesticon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "The armor of a Honey Bee Queen.",
+  "shortdescription" : "Queen's Dress",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "statusEffects" : [
+    {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 1.52
+    },  
+    {
+      "stat" : "protection",
+      "amount" : 22
+    },
+
+    {
+      "stat" : "maxEnergy",
+      "amount" : 120
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 42
+    },
+    "beeimmunity"
+  ]
+}

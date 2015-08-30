@@ -1,0 +1,35 @@
+{
+  "itemName" : "fuqueenlegs",
+  "inventoryIcon" : "legsicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "A queen's skirt and boots.",
+  "shortdescription" : "Queen's Skirt",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "statusEffects" : [
+    {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 0.55
+    },  
+    {
+      "stat" : "protection",
+      "amount" : 9
+    },
+
+    {
+      "stat" : "maxEnergy",
+      "amount" : 90
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 20
+    },
+    "beeimmunity"
+  ]
+}

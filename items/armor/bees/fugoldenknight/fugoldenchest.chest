@@ -1,0 +1,45 @@
+{
+  "itemName" : "fugoldenchest",
+  "inventoryIcon" : "icons.png:chest",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "The armor of a Honey Knight.",
+  "shortdescription" : "Amber Plate Armor",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "statusEffects" : [
+    {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 1.10
+    },
+
+    {
+      "stat" : "protection",
+      "amount" : 45
+    },
+
+    {
+      "stat" : "maxEnergy",
+      "amount" : 55
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 35
+    },
+    "honeyslowimmunity"
+  ]
+}

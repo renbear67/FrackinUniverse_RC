@@ -1,0 +1,38 @@
+{
+  "itemName" : "fuqueenhead",
+  "inventoryIcon" : "headicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "The invisible helm of a very visible queen.",
+  "shortdescription" : "Queen's head",
+  "tooltipKind" : "armor",
+
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+  
+    {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 0.93
+    },  
+    {
+      "stat" : "protection",
+      "amount" : 15
+    },
+
+    {
+      "stat" : "maxEnergy",
+      "amount" : 120
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 25
+    },
+    "beeimmunity"
+  ]
+}
