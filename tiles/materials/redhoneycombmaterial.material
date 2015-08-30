@@ -1,0 +1,23 @@
+{
+  "materialId" : 20886,
+  "materialName" : "redhoneycombmaterial",
+  "particleColor" : [220, 127, 154, 255],
+  "itemDrop" : "redhoneycombmaterial",
+  "shortdescription" : "Putrid Honey Material",
+  "description" : "The walls are dripping in gold!",
+
+  "footstepSound" : "/sfx/blocks/footstep_brains.wav",
+  "health" : 2,
+  "soil" : true,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "redhoneycombmaterial.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

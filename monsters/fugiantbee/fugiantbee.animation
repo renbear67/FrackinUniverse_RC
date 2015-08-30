@@ -3,11 +3,14 @@
     "stateTypes" : {
       "movement" : {
         "priority" : 0,
-        "default" : "idle",
+        "default" : "standing",
 
         "states" : {
           "idle" : {
             "frames" : 3
+          },
+          "standing" : {
+            "frames" : 1
           },
           "flying" : {
             "frames" : 3,
@@ -50,10 +53,10 @@
           "movement" : {
             "standing" : {
               "properties" : {
-                "image" : "<partImage>:idle.<frame>"
+                "image" : "<partImage>:ground"
               }
             },
-
+            
             "flying" : {
               "properties" : {
                 "image" : "<partImage>:fly.<frame>"

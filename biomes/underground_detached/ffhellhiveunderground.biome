@@ -1,10 +1,10 @@
 {
-  "name" : "ffhiveunderground",
-  "friendlyName" : "Hive",
+  "name" : "ffhellhiveunderground",
+  "friendlyName" : "Hell Hive",
 
   "spawnProfiles" : [
     {
-      "groups" : [ "fu_hive" ],
+      "groups" : [ "fu_hellhive" ],
       "extraSpawns" : [ ],
       "monsterParameters" : {
         "statusSettings" : {
@@ -23,7 +23,7 @@
       }
     },
     {
-      "groups" : [ "fu_hive" ],
+      "groups" : [ "fu_hellhive" ],
       "extraSpawns" : [ ],
       "monsterParameters" : {
         "statusSettings" : {
@@ -43,8 +43,8 @@
     }
   ],
 
-  "mainBlock" : "honeycombmaterial",
-  "subBlocks" : [ "fu_honeycombblock", "hive" ],
+  "mainBlock" : "redhoneycombmaterial",
+  "subBlocks" : [ "fu_redhoneycombblock", "fleshblock", "spidersilkblock" ],
   "ores" : "ff_deepcrystalmoonOres",
 
   "ambientNoises" : {
@@ -66,8 +66,8 @@
   },
 
   "undergroundPlaceables" : {
-    "grassMod" : [ "glowsandgrass" ],
-    "grassModDensity" : 0.5,
+    "grassMod" : [ "bone" ],
+    "grassModDensity" : 0.3,
 
     "items" : [
       {

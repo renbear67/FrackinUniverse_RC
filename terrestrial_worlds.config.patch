@@ -239,7 +239,7 @@
       },
         "surface" : {
           "primaryRegion" : [ "arboreal" ],
-          "secondaryRegion" : [ "aliendesert", "cactiplace", "crystalswamp", "birchforest", "alienforest", "cloudforest", "rainbowforest", "swamp", "elder", "corruptedforest", "fieldofwheat", "fieldofsugar",  "fieldofpotato", "fieldofcorn",  "fieldofgrape",  "fieldoftomato", "pineforest", "flowerforest", "snowyforest", "giantflowers", "forest", "jungle", "savannah", "snow",  "tundra" ],
+          "secondaryRegion" : [ "ffhive", "aliendesert", "cactiplace", "crystalswamp", "birchforest", "alienforest", "cloudforest", "rainbowforest", "swamp", "elder", "corruptedforest", "fieldofwheat", "fieldofsugar",  "fieldofpotato", "fieldofcorn",  "fieldofgrape",  "fieldoftomato", "pineforest", "flowerforest", "snowyforest", "giantflowers", "forest", "jungle", "savannah", "snow",  "tundra" ],
           //"dungeonCountRange" : [0, 2],
           "dungeons" : [ "elderruins", "crystalcavern", "greenruins", "wreck", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "avianairship", "aviantemple","humanbunker", "floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison", "naturalcave"  ]
         },
@@ -282,7 +282,7 @@
       },
         "surface" : {
           "primaryRegion" : [ "arboreal2" ],
-          "secondaryRegion" : [ "goreforest", "cactiplace", "crystalswamp", "birchforest", "alienforest", "swamp", "hellhive", "elder", "corruptedforest", "fieldofwheat", "fieldofsugar",  "fieldofpotato", "fieldofcorn",  "fieldofgrape",  "fieldoftomato","pineforest", "flowerforest", "snowyforest", "taiga",  "deadwood", "giantflowers", "forest", "jungle", "savannah", "snow",  "tundra" ],
+          "secondaryRegion" : [ "ffhive", "goreforest", "cactiplace", "crystalswamp", "birchforest", "alienforest", "swamp", "hellhive", "elder", "corruptedforest", "fieldofwheat", "fieldofsugar",  "fieldofpotato", "fieldofcorn",  "fieldofgrape",  "fieldoftomato","pineforest", "flowerforest", "snowyforest", "taiga",  "deadwood", "giantflowers", "forest", "jungle", "savannah", "snow",  "tundra" ],
           //"dungeonCountRange" : [0, 2],
           "dungeons" : [ "elderruins", "crystalcavern", "greenruins", "wreck", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "avianairship", "aviantemple","humanbunker", "floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison", "naturalcave"  ]
         },
@@ -325,7 +325,7 @@
       },
         "surface" : {
           "primaryRegion" : [ "atropus" ],
-          "secondaryRegion" : [ "goreforest", "ffhive", "corrupt", "alienforest", "sulphuricmagma", "cellfield", "reddesert", "finesand", "swamp", "bloodgulch", "hellhive", "elder", "corruptedforest", "dryriverbed", "deadwood", "jungle", "magma", "savannah", "volcanic" ],
+          "secondaryRegion" : [ "goreforest", "corrupt",  "cellfield", "reddesert", "bloodgulch", "hellhive", "elder", "corruptedforest" ],
           //"dungeonCountRange" : [0, 2],
           "dungeons" : [ "elderruins", "wreck", "apexresearchlab", "apextestchamber", "aviantomb", "aviantemple" ]
         },
@@ -334,19 +334,19 @@
         },
         "underground1" : {
           "primaryRegion" : [ "atropusunderground" ],
-          "secondaryRegion" : [ "ffpoopit", "heck", "shadow", "hive", "ffspidernest", "fffleshcaves", "ffcellcaves", "ffshadow" ]
+          "secondaryRegion" : [ "ffhellhiveunderground", "ffpoopit", "heck", "shadow", "hive", "ffspidernest", "fffleshcaves", "ffcellcaves", "ffshadow" ]
         },
         "underground2" : {
           "primaryRegion" : [ "atropusunderground" ],
-          "secondaryRegion" : [ "ffpoopit", "heck", "shadow", "hive", "ffspidernest", "fffleshcaves", "ffcellcaves", "ffshadow" ]
+          "secondaryRegion" : [ "ffhellhiveunderground", "ffpoopit", "heck", "shadow", "hive", "ffspidernest", "fffleshcaves", "ffcellcaves", "ffshadow" ]
         },
         "underground3" : {
           "primaryRegion" : [ "atropusunderground" ],
-          "secondaryRegion" : [ "ffpoopit", "heck", "shadow", "hive", "ffspidernest", "fffleshcaves", "ffcellcaves", "ffshadow" ]
+          "secondaryRegion" : [ "ffhellhiveunderground", "ffpoopit", "heck", "shadow", "hive", "ffspidernest", "fffleshcaves", "ffcellcaves", "ffshadow" ]
         },
         "underground4" : {
           "primaryRegion" : [ "atropusunderground" ],
-          "secondaryRegion" : [ "ffpoopit", "heck", "shadow", "hive", "ffspidernest", "fffleshcaves", "ffcellcaves", "ffshadow" ]
+          "secondaryRegion" : [ "ffhellhiveunderground", "ffpoopit", "heck", "shadow", "hive", "ffspidernest", "fffleshcaves", "ffcellcaves", "ffshadow" ]
         },
         "underground5" : {
           "primaryRegion" : [ "atropusunderground" ],
@@ -374,7 +374,7 @@
       },
         "surface" : {
           "primaryRegion" : [ "bloodstone" ],
-          "secondaryRegion" : [ "supermatterzone", "goreforest", "crystalswamp","metalworks", "corrupt", "ffhive", "alienforest", "sulphuricmagma", "cellfield", "reddesert", "rainbowforest", "bloodgulch", "hellhive", "elder", "corruptedforest", "dryriverbed", "deadwood", "magma", "savannah", "volcanic" ],
+          "secondaryRegion" : [ "supermatterzone", "goreforest", "crystalswamp", "corrupt", "ffhive", "alienforest", "sulphuricmagma", "cellfield", "reddesert", "rainbowforest", "bloodgulch", "hellhive", "elder", "corruptedforest" ],
           //"dungeonCountRange" : [0, 2],
           "dungeons" : [ "wreck", "apexresearchlab", "apextestchamber", "apextowerblock","avianairship"]        
         },
@@ -383,19 +383,19 @@
         },
         "underground1" : {
           "primaryRegion" : [ "bloodstoneunderground" ],
-          "secondaryRegion" : [ "ffpoopit", "ffcrystalrealm", "hive", "shadow", "ffspidernest", "ffsupermatter", "ffshadow", "fffleshcaves", "ffvolcanic", "ffcrystalcavern" ]
+          "secondaryRegion" : [ "ffhellhiveunderground", "ffpoopit", "ffcrystalrealm", "hive", "shadow", "ffspidernest", "ffsupermatter", "ffshadow", "fffleshcaves", "ffvolcanic", "ffcrystalcavern" ]
         },
         "underground2" : {
           "primaryRegion" : [ "bloodstoneunderground" ],
-          "secondaryRegion" : [ "ffpoopit", "ffcrystalrealm", "hive", "shadow", "ffspidernest", "ffsupermatter", "ffshadow", "fffleshcaves", "ffvolcanic", "ffcrystalcavern" ]
+          "secondaryRegion" : [ "ffhellhiveunderground", "ffpoopit", "ffcrystalrealm", "hive", "shadow", "ffspidernest", "ffsupermatter", "ffshadow", "fffleshcaves", "ffvolcanic", "ffcrystalcavern" ]
         },
         "underground3" : {
           "primaryRegion" : [ "bloodstoneunderground" ],
-          "secondaryRegion" : [ "ffpoopit", "ffcrystalrealm", "hive", "shadow", "ffspidernest", "ffsupermatter", "ffshadow", "fffleshcaves", "ffvolcanic", "ffcrystalcavern" ]
+          "secondaryRegion" : [ "ffhellhiveunderground", "ffpoopit", "ffcrystalrealm", "hive", "shadow", "ffspidernest", "ffsupermatter", "ffshadow", "fffleshcaves", "ffvolcanic", "ffcrystalcavern" ]
         },
         "underground4" : {
           "primaryRegion" : [ "bloodstoneunderground" ],
-          "secondaryRegion" : [ "ffpoopit", "ffcrystalrealm", "hive", "shadow", "ffspidernest", "ffsupermatter", "ffshadow", "fffleshcaves", "ffvolcanic", "ffcrystalcavern" ]
+          "secondaryRegion" : [ "ffhellhiveunderground", "ffpoopit", "ffcrystalrealm", "hive", "shadow", "ffspidernest", "ffsupermatter", "ffshadow", "fffleshcaves", "ffvolcanic", "ffcrystalcavern" ]
         },
         "underground5" : {
           "primaryRegion" : [ "bloodstoneunderground" ],
@@ -471,7 +471,7 @@
       },
         "surface" : {
           "primaryRegion" : [ "bog" ],
-          "secondaryRegion" : [ "cactiplace", "crystalswamp", "corrupt", "ffhive", "alienforest", "hellhive", "energyorbforest",  "deadwood", "blackslimebog", "pitchfield", "giantflowers", "forest", "jungle" ],
+          "secondaryRegion" : [ "cactiplace", "crystalswamp", "corrupt", "ffhive", "alienforest", "energyorbforest",  "deadwood", "blackslimebog", "pitchfield", "giantflowers", "forest", "jungle" ],
           //"dungeonCountRange" : [0, 2],
           "dungeons" : [ "wreck", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "avianairship", "aviantemple","humanbunker", "floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison", "naturalcave" ]
         },
@@ -479,13 +479,13 @@
           "primaryRegion" : [ "bogunderground" ]
         },
         "underground1" : {
-          "secondaryRegion" : [ "ffpoopit", "ffhiveunderground", "zen", "ffspidernest", "bogunderground", "stonecaves", "bonecaves", "tarunderground", "wildernessunderground", "luminouscaves", "ffshadow", "ffzen", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "secondaryRegion" : [ "ffhiveunderground", "ffpoopit", "ffhiveunderground", "zen", "ffspidernest", "bogunderground", "stonecaves", "bonecaves", "tarunderground", "wildernessunderground", "luminouscaves", "ffshadow", "ffzen", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
         },
         "underground2" : {
-          "secondaryRegion" : [ "ffpoopit", "ffhiveunderground", "zen", "ffspidernest", "bogunderground", "stonecaves", "bonecaves", "tarunderground", "wildernessunderground", "luminouscaves", "ffshadow", "ffzen", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "secondaryRegion" : [ "ffhiveunderground", "ffpoopit", "ffhiveunderground", "zen", "ffspidernest", "bogunderground", "stonecaves", "bonecaves", "tarunderground", "wildernessunderground", "luminouscaves", "ffshadow", "ffzen", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
         },
         "underground3" : {
-          "secondaryRegion" : [ "ffpoopit", "ffhiveunderground", "zen", "ffspidernest", "bogunderground", "stonecaves", "bonecaves", "tarunderground", "wildernessunderground", "luminouscaves", "ffshadow", "ffzen", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
+          "secondaryRegion" : [ "ffhiveunderground", "ffpoopit", "ffhiveunderground", "zen", "ffspidernest", "bogunderground", "stonecaves", "bonecaves", "tarunderground", "wildernessunderground", "luminouscaves", "ffshadow", "ffzen", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
         },
         "underground4" : {
           "secondaryRegion" : [ "ffpoopit", "ffhiveunderground", "zen", "ffspidernest", "bogunderground", "stonecaves", "bonecaves", "tarunderground", "icecaves", "luminouscaves", "ffshadow", "ffzen", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine", "ffcrystalcavern", "ffcoralcave" ]
@@ -597,7 +597,7 @@
        "layers" : {
         "surface" : {
           "primaryRegion" : [ "frozenvolcanic" ],
-          "secondaryRegion" : [ "supermatterzone", "crystaldesert", "aliendesert", "hellhive", "alienforest", "sulphuricmagma", "bioluminescence", "ice", "rust", "crystalline", "infernus","scorched", "snow", "volcanic", "ashgarden", "crystalplain", "elder", "hellfirefield", "pitchfield", "snowyforest", "sulphuricplain" ],
+          "secondaryRegion" : [ "supermatterzone", "crystaldesert", "sulphuricmagma", "bioluminescence", "ice", "rust", "crystalline", "infernus","scorched", "snow", "volcanic", "ashgarden", "crystalplain", "elder", "hellfirefield", "pitchfield", "sulphuricplain" ],
           //"dungeonCountRange" : [0, 2],
           "dungeons" : [ "crystalcavern" ]
         },
@@ -646,7 +646,7 @@
       },
         "surface" : {
           "primaryRegion" : [ "fungus" ],
-          "secondaryRegion" : [ "aliendesert", "cactiplace", "ffhive", "corrupt", "birchforest", "alienforest", "reddesert", "rainbowforest", "swamp", "bloodgulch", "forest", "corruptedforest", "fieldofwheat", "fieldofsugar",  "fieldofpotato", "fieldofcorn",  "fieldofgrape",  "fieldoftomato","pineforest", "flowerforest", "snowyforest", "taiga", "dryriverbed", "deadwood", "giantflowers", "forest", "jungle", "savannah" ],
+          "secondaryRegion" : [ "aliendesert", "cactiplace", "ffhive", "corrupt", "birchforest", "alienforest", "reddesert", "rainbowforest", "swamp", "bloodgulch", "corruptedforest", "flowerforest", "snowyforest", "giantflowers", "jungle" ],
           //"dungeonCountRange" : [0, 2],
           "dungeons" : [ "wastelandquests", "glitchsewer", "glitchvillage", "floranhuntinggrounds", "floranvillagetower", "floranhell", "naturalcave" ]
         },
@@ -782,7 +782,7 @@
        "layers" : {
          "surface" : {
            "primaryRegion" : [ "infernus" ],
-           "secondaryRegion" : [ "goreforest", "sulphuricmagma", "hellhive", "elder", "magma", "volcanic" ],
+           "secondaryRegion" : [ "goreforest", "sulphuricmagma", "elder", "magma", "volcanic" ],
            //"dungeonCountRange" : [0, 2],
            "dungeons" : [ "wreck", "apexresearchlab", "humanprison" ]
          },
@@ -837,15 +837,15 @@
         },
          "underground1" : {
           "primaryRegion" : [ "irradiatedunderground" ],
-          "secondaryRegion" : [ "ffpoopit", "ffcrystalrealm", "zen", "shadow", "heck", "colorfulcave", "shroomcave", "ffspidernest", "ffsupermatter", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffcrystalcavern" ]
+          "secondaryRegion" : [ "ffhellhiveunderground", "ffpoopit", "ffcrystalrealm", "zen", "shadow", "heck", "colorfulcave", "shroomcave", "ffspidernest", "ffsupermatter", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffcrystalcavern" ]
           },
         "underground2" : {
          "primaryRegion" : [ "irradiatedunderground" ],
-          "secondaryRegion" : [ "ffpoopit", "ffcrystalrealm", "zen", "shadow", "heck", "colorfulcave", "shroomcave", "ffspidernest", "ffsupermatter", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffcrystalcavern" ]
+          "secondaryRegion" : [ "ffhellhiveunderground", "ffpoopit", "ffcrystalrealm", "zen", "shadow", "heck", "colorfulcave", "shroomcave", "ffspidernest", "ffsupermatter", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffcrystalcavern" ]
           },
         "underground3" : {
          "primaryRegion" : [ "irradiatedunderground" ],
-          "secondaryRegion" : [ "ffpoopit", "ffcrystalrealm", "zen", "shadow", "heck", "colorfulcave", "shroomcave", "ffspidernest", "ffsupermatter", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffcrystalcavern" ]
+          "secondaryRegion" : [ "ffhellhiveunderground", "ffpoopit", "ffcrystalrealm", "zen", "shadow", "heck", "colorfulcave", "shroomcave", "ffspidernest", "ffsupermatter", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffcrystalcavern" ]
           },
         "underground4" : {
          "primaryRegion" : [ "irradiatedunderground" ],
@@ -886,15 +886,15 @@
         },
          "underground1" : {
          "primaryRegion" : [ "lightlessunderground" ],
-         "secondaryRegion" : [ "ffcrystalrealm", "zen", "shadow", "heck", "colorfulcave", "shroomcave", "corruptmoonunderground", "ffspidernest", "fftarunderground", "ffshadow", "lightlessshadowsea" ]
+         "secondaryRegion" : [ "ffhellhiveunderground", "ffcrystalrealm", "zen", "shadow", "heck", "colorfulcave", "shroomcave", "corruptmoonunderground", "ffspidernest", "fftarunderground", "ffshadow", "lightlessshadowsea" ]
         },
         "underground2" : {
          "primaryRegion" : [ "lightlessunderground" ],
-         "secondaryRegion" : [ "ffcrystalrealm", "zen", "shadow", "heck", "colorfulcave", "shroomcave", "corruptmoonunderground", "ffspidernest", "fftarunderground", "ffshadow", "lightlessshadowsea" ]
+         "secondaryRegion" : [ "ffhellhiveunderground", "ffcrystalrealm", "zen", "shadow", "heck", "colorfulcave", "shroomcave", "corruptmoonunderground", "ffspidernest", "fftarunderground", "ffshadow", "lightlessshadowsea" ]
         },
         "underground3" : {
          "primaryRegion" : [ "lightlessunderground" ],
-         "secondaryRegion" : [ "ffcrystalrealm", "zen", "shadow", "heck", "colorfulcave", "shroomcave", "corruptmoonunderground", "ffspidernest", "fftarunderground", "ffshadow", "lightlessshadowsea" ]
+         "secondaryRegion" : [ "ffhellhiveunderground", "ffcrystalrealm", "zen", "shadow", "heck", "colorfulcave", "shroomcave", "corruptmoonunderground", "ffspidernest", "fftarunderground", "ffshadow", "lightlessshadowsea" ]
         },
         "underground4" : {
          "primaryRegion" : [ "lightlessunderground" ],
@@ -1008,7 +1008,7 @@
       },
         "surface" : {
           "primaryRegion" : [ "nitrogensea" ],
-          "secondaryRegion" : [ "arctic", "hellhive", "elder",  "icewaste", "snow",  "protoworld", "irradiated" ],
+          "secondaryRegion" : [ "arctic", "elder",  "icewaste", "snow" ],
           //"dungeonCountRange" : [0, 2],
           "dungeons" : [ "elderruins", "crystalcavern", "wreck", "apexresearchlab" ]
         },
@@ -1069,19 +1069,19 @@
         },
          "underground1" : {
            "primaryRegion" : [ "penumbraunderground" ],
-          "secondaryRegion" : [ "zen", "hive", "heck", "shadow", "corruptmoonunderground", "ffspidernest", "cellcaves", "ffshadow", "penumbrashadowsea" ]
+          "secondaryRegion" : [ "ffhellhiveunderground", "zen", "hive", "heck", "shadow", "corruptmoonunderground", "ffspidernest", "cellcaves", "ffshadow", "penumbrashadowsea" ]
         },
         "underground2" : {
         "primaryRegion" : [ "penumbraunderground" ],
-          "secondaryRegion" : [ "zen", "hive", "heck", "shadow", "corruptmoonunderground", "ffspidernest", "cellcaves", "ffshadow", "penumbrashadowsea" ]
+          "secondaryRegion" : [ "ffhellhiveunderground", "zen", "hive", "heck", "shadow", "corruptmoonunderground", "ffspidernest", "cellcaves", "ffshadow", "penumbrashadowsea" ]
         },
         "underground3" : {
         "primaryRegion" : [ "penumbraunderground" ],
-          "secondaryRegion" : [ "zen", "hive", "heck", "shadow", "corruptmoonunderground", "ffspidernest", "cellcaves", "ffshadow", "penumbrashadowsea" ]
+          "secondaryRegion" : [ "ffhellhiveunderground", "zen", "hive", "heck", "shadow", "corruptmoonunderground", "ffspidernest", "cellcaves", "ffshadow", "penumbrashadowsea" ]
         },
         "underground4" : {
         "primaryRegion" : [ "penumbraunderground" ],
-          "secondaryRegion" : [ "zen", "hive", "heck", "shadow", "corruptmoonunderground", "ffspidernest", "cellcaves", "ffshadow", "penumbrashadowsea" ]
+          "secondaryRegion" : [ "ffhellhiveunderground", "zen", "hive", "heck", "shadow", "corruptmoonunderground", "ffspidernest", "cellcaves", "ffshadow", "penumbrashadowsea" ]
         },
         "underground5" : {
         "primaryRegion" : [ "penumbraunderground" ],
@@ -1121,15 +1121,15 @@
         },
          "underground1" : {
          "primaryRegion" : [ "protoworldunderground" ],
-          "secondaryRegion" : [ "ffcrystalrealm", "zen", "hive", "heck", "shadow", "fftarunderground", "ffvolcanic", "ffzen", "cellcaves", "ffcellcaves", "irradiatedunderground" ]
+          "secondaryRegion" : [ "ffhellhiveunderground", "ffcrystalrealm", "zen", "hive", "heck", "shadow", "fftarunderground", "ffvolcanic", "ffzen", "cellcaves", "ffcellcaves", "irradiatedunderground" ]
         },
         "underground2" : {
          "primaryRegion" : [ "protoworldunderground" ],
-          "secondaryRegion" : [ "ffcrystalrealm", "zen", "hive", "heck", "shadow", "fftarunderground", "ffvolcanic", "ffzen", "cellcaves", "ffcellcaves", "irradiatedunderground" ]
+          "secondaryRegion" : [ "ffhellhiveunderground", "ffcrystalrealm", "zen", "hive", "heck", "shadow", "fftarunderground", "ffvolcanic", "ffzen", "cellcaves", "ffcellcaves", "irradiatedunderground" ]
         },
         "underground3" : {
          "primaryRegion" : [ "protoworldunderground" ],
-          "secondaryRegion" : [ "ffcrystalrealm", "zen", "hive", "heck", "shadow", "fftarunderground", "ffvolcanic", "ffzen", "cellcaves", "ffcellcaves", "irradiatedunderground" ]
+          "secondaryRegion" : [ "ffhellhiveunderground", "ffcrystalrealm", "zen", "hive", "heck", "shadow", "fftarunderground", "ffvolcanic", "ffzen", "cellcaves", "ffcellcaves", "irradiatedunderground" ]
         },
         "underground4" : {
          "primaryRegion" : [ "protoworldunderground" ],
@@ -1158,7 +1158,7 @@
       "layers" : {
         "surface" : {
           "primaryRegion" : [ "slimeworld" ],
-          "secondaryRegion" : [ "alienforest", "reddesert", "cloudforest", "rainbowforest", "swamp", "hellhive", "elder", "corruptedforest", "icefire", "energyorbforest", "pitchfield", "blisterbushfield", "primevalforest", "irradiatedwaste", "bloodstonefield", "desert",  "eyepatch", "forest",  "volcanic", "magma", "savannah" ],
+          "secondaryRegion" : [ "alienforest", "reddesert", "cloudforest", "rainbowforest", "swamp", "ffhive", "elder", "corruptedforest", "icefire", "energyorbforest", "pitchfield", "blisterbushfield", "primevalforest", "irradiatedwaste", "bloodstonefield", "desert",  "eyepatch", "forest",  "volcanic", "magma", "savannah" ],
           //"dungeonCountRange" : [0, 2],
           "dungeons" : [ "wreck", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "avianairship", "aviantemple","humanbunker", "floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison", "naturalcave" ]        
         },
@@ -1167,15 +1167,15 @@
         },
          "underground1" : {
          "primaryRegion" : [ "slimeworldunderground" ],
-          "secondaryRegion" : [ "ffpoopit", "zen", "hive", "abandonedmines", "colorfulcave", "ffspidernest", "tarunderground", "luminouscaves", "cellcaves" ]
+          "secondaryRegion" : [ "ffhiveunderground", "ffpoopit", "zen", "hive", "abandonedmines", "colorfulcave", "ffspidernest", "tarunderground", "luminouscaves", "cellcaves" ]
         },
         "underground2" : {
         "primaryRegion" : [ "slimeworldunderground" ],
-          "secondaryRegion" : [ "ffpoopit", "zen", "hive", "abandonedmines", "colorfulcave", "ffspidernest", "tarunderground", "luminouscaves", "cellcaves" ]
+          "secondaryRegion" : [ "ffhiveunderground","ffpoopit", "zen", "hive", "abandonedmines", "colorfulcave", "ffspidernest", "tarunderground", "luminouscaves", "cellcaves" ]
         },
         "underground3" : {
         "primaryRegion" : [ "slimeworldunderground" ],
-          "secondaryRegion" : [ "ffpoopit", "zen", "hive", "abandonedmines", "colorfulcave", "ffspidernest", "tarunderground", "luminouscaves", "cellcaves" ]
+          "secondaryRegion" : [ "ffhiveunderground","ffpoopit", "zen", "hive", "abandonedmines", "colorfulcave", "ffspidernest", "tarunderground", "luminouscaves", "cellcaves" ]
         },
         "underground4" : {
         "primaryRegion" : [ "slimeworldunderground" ],
@@ -1303,15 +1303,15 @@
         },
          "underground1" : {
          "primaryRegion" : [ "fftarunderground" ],
-           "secondaryRegion" : [ "ffcrystalrealm", "crystalcave", "ffsupermatter", "ffsupermatter", "ffshadow", "ffvolcanic", "ffcrystalcavern" ]
+           "secondaryRegion" : [ "ffhiveunderground","ffcrystalrealm", "crystalcave", "ffsupermatter", "ffsupermatter", "ffshadow", "ffvolcanic", "ffcrystalcavern" ]
            },
         "underground2" : {
         "primaryRegion" : [ "fftarunderground" ],
-          "secondaryRegion" : [ "ffcrystalrealm", "crystalcave", "ffsupermatter", "ffsupermatter", "ffshadow", "ffvolcanic", "ffcrystalcavern" ]
+          "secondaryRegion" : [ "ffhiveunderground","ffcrystalrealm", "crystalcave", "ffsupermatter", "ffsupermatter", "ffshadow", "ffvolcanic", "ffcrystalcavern" ]
           },
         "underground3" : {
         "primaryRegion" : [ "fftarunderground" ],
-          "secondaryRegion" : [ "ffcrystalrealm", "crystalcave", "ffsupermatter", "ffsupermatter", "ffshadow", "ffvolcanic", "ffcrystalcavern" ]
+          "secondaryRegion" : [ "ffhiveunderground","ffcrystalrealm", "crystalcave", "ffsupermatter", "ffsupermatter", "ffshadow", "ffvolcanic", "ffcrystalcavern" ]
           },
         "underground4" : {
         "primaryRegion" : [ "fftarunderground" ],
@@ -1387,11 +1387,11 @@
         },
         "underground1" : {
           "primaryRegion" : [ "thickjungleunderground" ],
-          "secondaryRegion" : [ "ffhiveunderground", "colourful", "zen", "shadow", "crystalcave", "abandonedmines", "hive", "ffspidernest", "luminouscaves", "wildernessunderground", "bonecaves", "ffvolcanic" ]
+          "secondaryRegion" : [ "ffhellhiveunderground","ffhiveunderground", "colourful", "zen", "shadow", "crystalcave", "abandonedmines", "hive", "ffspidernest", "luminouscaves", "wildernessunderground", "bonecaves", "ffvolcanic" ]
         },
         "underground2" : {
           "primaryRegion" : [ "thickjungleunderground" ],
-          "secondaryRegion" : [ "ffhiveunderground", "colourful", "zen", "shadow", "crystalcave", "abandonedmines", "hive", "ffspidernest", "luminouscaves", "wildernessunderground", "bonecaves", "ffvolcanic" ]
+          "secondaryRegion" : [ "ffhellhiveunderground","ffhiveunderground", "colourful", "zen", "shadow", "crystalcave", "abandonedmines", "hive", "ffspidernest", "luminouscaves", "wildernessunderground", "bonecaves", "ffvolcanic" ]
         },
         "underground3" : {
           "secondaryRegion" : [ "ffhiveunderground", "colourful", "zen", "shadow", "crystalcave", "abandonedmines", "hive", "ffspidernest", "luminouscaves", "wildernessunderground", "bonecaves", "ffvolcanic" ]
@@ -1429,11 +1429,11 @@
         },
         "underground1" : {
           "primaryRegion" : [ "barrenunderground" ],
-          "secondaryRegion" : [ "colourful", "zen", "shadow", "crystalcave", "abandonedmines", "hive", "ffspidernest", "fleshcaves", "cellcaves", "bonecaves", "ffshadow" ]
+          "secondaryRegion" : [ "ffhiveunderground","colourful", "zen", "shadow", "crystalcave", "abandonedmines", "hive", "ffspidernest", "fleshcaves", "cellcaves", "bonecaves", "ffshadow" ]
         },
         "underground2" : {
           "primaryRegion" : [ "barrenunderground" ],
-          "secondaryRegion" : [ "colourful", "zen", "shadow", "crystalcave", "abandonedmines", "hive", "ffspidernest", "fleshcaves", "cellcaves", "bonecaves", "ffshadow" ]
+          "secondaryRegion" : [ "ffhiveunderground","colourful", "zen", "shadow", "crystalcave", "abandonedmines", "hive", "ffspidernest", "fleshcaves", "cellcaves", "bonecaves", "ffshadow" ]
         },
         "underground3" : {
           "primaryRegion" : [ "barrenunderground" ],
@@ -2033,9 +2033,9 @@
   "path" : "/regionTypes/ffhive",
   "value" : 
   {
-      "caveLiquid" : [ "darkwater", "fuhoney" ],
-      "caveLiquidChanceRange" : [100, 100],
-      "blockSelector" : [ "remixedSurface", "remixedCanyonsSurface" ],
+      "caveLiquid" : [ "fuhoney" ],
+      "caveLiquidChanceRange" : [20, 60],
+      "blockSelector" : [ "remixedSurface", "remixedSwampySurface", "remixedPoolsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "bgOreSelector" : [ "denseVeins" ], 
       "biome" : [
@@ -2480,8 +2480,8 @@
   "path" : "/regionTypes/hellhive",
   "value" : 
   {
-      "caveLiquid" : [ "lava", "darkwater", "bloodliquid", "shadowgas" ],
-      "blockSelector" : [ "remixedSpikesSurface", "remixedMountainsSurface", "remixedMildCanyonsSurface", "remixedSurface" ],
+      "caveLiquid" : [ "lava", "fuhoneyred" ],
+      "blockSelector" : [ "remixedSurface", "remixedSwampySurface", "remixedPoolsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
         [0, [ "hellhive" ]]
@@ -3478,6 +3478,18 @@
       "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
         [0, [ "ffhiveunderground"] ]
+      ]
+    }
+  },
+  {"op" : "add", 
+  "path" : "/regionTypes/ffhellhiveunderground",
+  "value" : 
+  {
+      "caveLiquid" : [ "fuhoneyred" ],
+      "caveLiquidChanceRange" : [65, 95],
+      "bgOreSelector" : [ "denseVeins" ],  
+      "biome" : [
+        [0, [ "ffhellhiveunderground" ] ]
       ]
     }
   },

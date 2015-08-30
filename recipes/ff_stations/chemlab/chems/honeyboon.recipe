@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "liquidmercury", "count" : 1 },
+    { "item" : "fu_liquidhoney", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "honeyboon",
+    "count" : 1
+  },
+  "groups" : [ "chemlab", "compounds", "all" ]
+}

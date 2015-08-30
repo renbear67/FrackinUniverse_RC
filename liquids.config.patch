@@ -781,6 +781,21 @@
 	"textureMovementFactor" : 2.6
 	}
     },  
+{"op":"add",
+"path":"/liquids/57",
+"value":{
+  "name":"fuhoneyred",
+  "tickDelta":5,
+  "color":[209,55,0,128],
+  "radiantLight":[220,70,0],
+  "itemDrop":"fu_liquidhoney",
+  "texture":"/liquids/honeytex.png",
+  "bottomLightMix":[150,60,0],
+  "textureMovementFactor":2.6,
+  "statusEffects" :[ "swimming", "honeyslow2" ],
+  "interactions":[]
+  }
+}, 
 //ItA-Tidewater
     {"op" : "add", 
     "path" : "/liquids/60", 

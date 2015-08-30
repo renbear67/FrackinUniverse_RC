@@ -3,24 +3,54 @@
   "friendlyName" : "Hell Hive",
   "hueShiftOptions" : [-40, -25, 0, 25, 40],
 
-    "mainBlock" : "hellstone",
-    "subBlocks" : [ "fu_redhoneycombblock", "brains", "spidersilkblock" ],
-    "ores" : "ff_surfacearborealOres",
+    "mainBlock" : "redhoneycombmaterial",
+    "subBlocks" : [ "fu_redhoneycombblock", "fleshblock", "spidersilkblock" ],
+    "ores" : "ff_crystalmoonOres",
 
   "spawnProfiles" : [
     {
       "groups" : [ "fu_hellhive" ],
-      "extraSpawns" : [ ]
+      "extraSpawns" : [ ],
+      "monsterParameters" : {
+        "statusSettings" : {
+          "stats" : {
+            "lavaImmunity" : {
+              "baseValue" : 1.0
+            },
+            "honeyslowImmunity" : {
+              "baseValue" : 1.0
+            },
+            "beestingImmunity" : {
+              "baseValue" : 1.0
+            }
+          }
+        }
+      }
     },
     {
       "groups" : [ "fu_hellhive" ],
-      "extraSpawns" : [ ] 
+      "extraSpawns" : [ ],
+      "monsterParameters" : {
+        "statusSettings" : {
+          "stats" : {
+            "lavaImmunity" : {
+              "baseValue" : 1.0
+            },
+            "honeyslowImmunity" : {
+              "baseValue" : 1.0
+            },
+            "beestingImmunity" : {
+              "baseValue" : 1.0
+            }
+          }
+        }
+      }
     }
   ],
   
   "surfacePlaceables" : {
-    "grassMod" : [ "glowsandgrass" ],
-    "grassModDensity" : 0.4,
+    "grassMod" : [ "bone" ],
+    "grassModDensity" : 0.5,
 
     "items" : [
         {

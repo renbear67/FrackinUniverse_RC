@@ -10,11 +10,41 @@
   "spawnProfiles" : [
     {
       "groups" : [ "fu_hive" ],
-      "extraSpawns" : [ ]
+      "extraSpawns" : [ ],
+      "monsterParameters" : {
+        "statusSettings" : {
+          "stats" : {
+            "lavaImmunity" : {
+              "baseValue" : 1.0
+            },
+            "honeyslowImmunity" : {
+              "baseValue" : 1.0
+            },
+            "beestingImmunity" : {
+              "baseValue" : 1.0
+            }
+          }
+        }
+      }
     },
     {
       "groups" : [ "fu_hive" ],
-      "extraSpawns" : [ ] 
+      "extraSpawns" : [ ],
+      "monsterParameters" : {
+        "statusSettings" : {
+          "stats" : {
+            "lavaImmunity" : {
+              "baseValue" : 1.0
+            },
+            "honeyslowImmunity" : {
+              "baseValue" : 1.0
+            },
+            "beestingImmunity" : {
+              "baseValue" : 1.0
+            }
+          }
+        }
+      }
     }
   ],
 

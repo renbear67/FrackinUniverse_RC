@@ -1,11 +1,11 @@
 {
-  "name" : "honeyslow",
+  "name" : "honeyslow2",
   "blockingStat" : "honeyslowImmunity",
   "effectConfig" : {},
-  "defaultDuration" : 3,
+  "defaultDuration" : 5,
 
   "scripts" : [
-    "honeyslow.lua"
+    "honeyslow2.lua"
   ],
 
   "animationConfig" : "honeyslow.animation",

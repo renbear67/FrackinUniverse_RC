@@ -168,7 +168,7 @@
   },
 
   "surfacePlaceables" : {
-    "grassMod" : [ "grass", "flowerygrass", "fualiengrass", "fualiengrass2" ],
+    "grassMod" : [ "alpinegrass", "flowerygrass", "fualiengrass", "fualiengrass2" ],
     "grassModDensity" : 0.6,
 
     "items" : [
