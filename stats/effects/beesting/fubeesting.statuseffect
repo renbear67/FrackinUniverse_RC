@@ -1,14 +1,16 @@
 {
   "name" : "fubeesting",
+  "blockingStat" : "beestingImmunity",
+
   "effectConfig" : {},
-  "defaultDuration" : 2,
+  "defaultDuration" : 12,
 
   "scripts" : [
-    "beesting.lua"
+    "fubeesting.lua"
   ],
-  "blockingStat" : "beestingImmunity",
+
   "animationConfig" : "fubeesting.animation",
 
-  "label" : "Bee Stings",
+  "label" : "Sting",
   "icon" : "beesting.png"
 }

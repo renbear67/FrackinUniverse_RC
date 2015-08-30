@@ -9,19 +9,19 @@
     
   "spawnProfiles" : [
     {
-      "groups" : [ "easysurface1", "fu_hive" ],
-      "extraSpawns" : ["chevcritter", "groopcritter", "redbreastcritter" ]
+      "groups" : [ "fu_hive" ],
+      "extraSpawns" : [ ]
     },
     {
-      "groups" : [ "easysurface2", "fu_hive" ],
-      "extraSpawns" : [ "chevcritter", "groopcritter", "redbreastcritter" ] 
+      "groups" : [ "fu_hive" ],
+      "extraSpawns" : [ ] 
     }
   ],
 
 
   "surfacePlaceables" : {
-    "grassMod" : [ "hivegrass" ],
-    "grassModDensity" : 0.9,
+    "grassMod" : [ "glowsandgrass" ],
+    "grassModDensity" : 0.3,
 
     "items" : [
         {
@@ -89,7 +89,7 @@
           "distribution" : "/biomes/distributions.config:overgroundChests",
 
           "type" : "treasureBox",
-          "treasureBoxSets" : [ "basicChest" ]
+          "treasureBoxSets" : [ "ffbeeChest" ]
         },
         {
           "mode" : "floor",

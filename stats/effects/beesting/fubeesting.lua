@@ -1,13 +1,18 @@
 function init()
-  animator.setParticleEmitterOffsetRegion("bees", mcontroller.boundBox())
-  animator.setParticleEmitterEmissionRate("bees", effect.configParameter("emissionRate", 2))
-  animator.setParticleEmitterActive("bees", true)
-
   script.setUpdateDelta(5)
-
-  self.tickDamagePercentage = 0.025
-  self.tickTime = 1.0
+  self.tickDamagePercentage = 0.026
+  self.tickTime = 2.0
   self.tickTimer = self.tickTime
+  activateVisualEffects()
+end
+
+
+function activateVisualEffects()
+  animator.setParticleEmitterOffsetRegion("drips", mcontroller.boundBox())
+  animator.setParticleEmitterActive("drips", true)
+  local statusTextRegion = { 0, 1, 0, 1 }
+  animator.setParticleEmitterOffsetRegion("statustext", statusTextRegion)
+  animator.burstParticleEmitter("statustext")
 end
 
 function update(dt)
@@ -21,7 +26,10 @@ function update(dt)
         sourceEntityId = entity.id()
       })
   end
+
+  effect.setParentDirectives("fade=edcd5c="..self.tickTimer * 0.2)
 end
+
 
 function uninit()
   

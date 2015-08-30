@@ -9,17 +9,18 @@
 
   "spawnProfiles" : [
     {
-      "groups" : [ "mediumsurface1", "fu_hellhive" ],
-      "extraSpawns" : [ "birdcritter", "bunny", "chevcritter", "groopcritter", "harecritter", "hedgehogcritter", "redbreastcritter", "squirrelcritter" ]
+      "groups" : [ "fu_hellhive" ],
+      "extraSpawns" : [ ]
     },
     {
-      "groups" : [ "mediumsurface2", "fu_hellhive" ],
-      "extraSpawns" : [ "birdcritter", "bunny", "chevcritter", "groopcritter", "harecritter", "hedgehogcritter", "redbreastcritter", "squirrelcritter" ] 
+      "groups" : [ "fu_hellhive" ],
+      "extraSpawns" : [ ] 
     }
   ],
+  
   "surfacePlaceables" : {
-    "grassMod" : [ "heckgrass" ],
-    "grassModDensity" : 0.9,
+    "grassMod" : [ "glowsandgrass" ],
+    "grassModDensity" : 0.4,
 
     "items" : [
         {
@@ -96,7 +97,7 @@
           "distribution" : "/biomes/distributions.config:overgroundChests",
 
           "type" : "treasureBox",
-          "treasureBoxSets" : [ "ffatropusChest" ]
+          "treasureBoxSets" : [ "ffbeeChest" ]
         },
         {
           "mode" : "floor",

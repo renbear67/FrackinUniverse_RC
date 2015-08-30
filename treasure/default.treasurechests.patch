@@ -19,6 +19,18 @@
 		}
 	]
   },
+  
+  { "op" : "add", "path" : "/ffbeeChest", 
+  "value" : 
+	[
+		{
+		"containers" : [ "fucombchest", "fugoldenoakchest", "fuhoneycrystalchest" ],
+		"treasurePool" : "ffbeechestLoot",
+		"minimumLevel" : 1
+		}
+	]
+  },
+  
   { "op" : "add", "path" : "/fflabChest", 
   "value" : 
 	[

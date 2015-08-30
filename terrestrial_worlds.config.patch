@@ -62,7 +62,7 @@
 // Vanilla Biome Merges
     { "op" : "add", 
     "path" : "/planetTypes/alien/layers/surface/secondaryRegion", 
-    "value" : [ "aliendesert", "alienforest", "sulphuricmagma", "icefire", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "bloodstonefield", "cellfield", "elder", "energyorbforest", "hauntedforest", "hellhive" ]
+    "value" : [ "hellhive", "aliendesert", "alienforest", "sulphuricmagma", "icefire", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "bloodstonefield", "cellfield", "elder", "energyorbforest", "hauntedforest", "hellhive" ]
     },
     { "op" : "add", 
     "path" : "/planetTypes/arctic/layers/surface/secondaryRegion", 
@@ -78,15 +78,15 @@
     },
     { "op" : "add", 
     "path" : "/planetTypes/forest/layers/surface/secondaryRegion", 
-    "value" : [ "crystalswamp", "birchforest", "alienforest", "cloudforest", "corruptedforest", "deadwood", "energyorbforest", "fieldofcarrots", "fieldofcorn", "fieldofgrape", "fieldofpotato", "fieldoftomato", "primevalforest", "fieldofwheat", "flowerforest", "hauntedforest", "hauntedgraveyard", "meadow", "hellhive", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "rainbowforest", "snowyforest", "taiga" ]
+    "value" : [ "ffhive", "birchforest", "alienforest", "cloudforest", "corruptedforest", "deadwood", "energyorbforest", "fieldofcarrots", "fieldofcorn", "fieldofgrape", "fieldofpotato", "fieldoftomato", "primevalforest", "fieldofwheat", "flowerforest", "hauntedforest", "hauntedgraveyard", "meadow", "hellhive", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "rainbowforest", "snowyforest", "taiga" ]
     },
     { "op" : "add", 
     "path" : "/planetTypes/garden/layers/surface/secondaryRegion", 
-    "value" : [ "crystalswamp", "birchforest", "cloudforest", "fieldofcarrots", "fieldofcorn", "fieldofgrape", "fieldofpotato", "fieldoftomato", "fieldofwheat", "flowerforest", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "rainbowforest", "snowyforest", "taiga" ]
+    "value" : [ "ffhive", "birchforest", "cloudforest", "fieldofcarrots", "fieldofcorn", "fieldofgrape", "fieldofpotato", "fieldoftomato", "fieldofwheat", "flowerforest", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "rainbowforest", "snowyforest", "taiga" ]
     },
     { "op" : "add", 
     "path" : "/planetTypes/jungle/layers/surface/secondaryRegion", 
-    "value" : [ "crystalswamp", "birchforest", "alienforest", "pitchfield", "irradiatedwaste", "blackslimebog", "bloodgulch", "corruptedforest", "deadwood", "elder", "energyorbforest", "hotsprings", "meadow", "primevalforest", "badlands", "reddesert" ]
+    "value" : [ "ffhive", "crystalswamp", "birchforest", "alienforest", "pitchfield", "irradiatedwaste", "blackslimebog", "bloodgulch", "corruptedforest", "deadwood", "elder", "energyorbforest", "hotsprings", "meadow", "primevalforest", "badlands", "reddesert" ]
     },
     { "op" : "add", 
     "path" : "/planetTypes/magma/layers/surface/secondaryRegion", 
@@ -94,7 +94,7 @@
     },
     { "op" : "add", 
     "path" : "/planetTypes/savannah/layers/surface/secondaryRegion", 
-    "value" : [ "cactiplace", "crystalswamp", "birchforest", "alienforest", "sulphuricmagma", "pitchfield", "hellhive", "flowerforest", "hauntedforest", "bloodgulch", "hauntedgraveyard", "irradiatedwaste", "meadow", "badlands", "finesand", "reddesert", "calichefield", "sulphuricplain" ]
+    "value" : [ "ffhive", "cactiplace", "crystalswamp", "birchforest", "alienforest", "sulphuricmagma", "pitchfield", "hellhive", "flowerforest", "hauntedforest", "bloodgulch", "hauntedgraveyard", "irradiatedwaste", "meadow", "badlands", "finesand", "reddesert", "calichefield", "sulphuricplain" ]
     },
     { "op" : "add", 
     "path" : "/planetTypes/scorched/layers/surface/secondaryRegion", 
@@ -106,7 +106,7 @@
     },
     { "op" : "add", 
     "path" : "/planetTypes/toxic/layers/surface/secondaryRegion", 
-    "value" : [ "cactiplace", "crystalswamp", "blisterbushfield", "corruptedforest", "bloodgulch", "elder", "primevalforest", "sulphuricplain", "pitchfield" ]
+    "value" : [ "ffhive", "cactiplace", "crystalswamp", "blisterbushfield", "corruptedforest", "bloodgulch", "elder", "primevalforest", "sulphuricplain", "pitchfield" ]
     },
     { "op" : "add", 
     "path" : "/planetTypes/tundra/layers/surface/secondaryRegion", 

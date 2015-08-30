@@ -1,6 +1,6 @@
 {
   "name" : "ffhiveunderground",
-  "friendlyName" : "Bone Caves",
+  "friendlyName" : "Hive",
 
   "spawnProfiles" : [
     {
@@ -36,8 +36,8 @@
   },
 
   "undergroundPlaceables" : {
-    "grassMod" : [ "bone" ],
-    "grassModDensity" : 0.1,
+    "grassMod" : [ "glowsandgrass" ],
+    "grassModDensity" : 0.5,
 
     "items" : [
       {
@@ -61,7 +61,7 @@
         "distribution" : "/biomes/distributions.config:minibiomeChests",
 
         "type" : "treasureBox",
-        "treasureBoxSets" : [ "boneCaveChest" ]
+        "treasureBoxSets" : [ "ffbeeChest" ]
       },
 
       {

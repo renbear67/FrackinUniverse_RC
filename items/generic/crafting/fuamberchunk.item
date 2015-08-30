@@ -4,5 +4,5 @@
   "inventoryIcon" : "fuamberchunk.png",
   "description" : "A chunk of solid amber.",
   "shortdescription" : "Amber Chunk",
-  "learnBlueprintsOnPickup" : [ "fuamberchunk", "fuambersword", "fuambersword", "fuhoneyhammer", "fumegahoneyhammer", "fupetalsword", "fusavethequeen", "fubeeshield2", "fugoldenchest", "fugoldenhead", "fugoldenlegs" ]
+  "learnBlueprintsOnPickup" : [ "fuamberchunk" ]
 }
