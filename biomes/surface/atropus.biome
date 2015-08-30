@@ -408,7 +408,7 @@
           "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "canyonmini", "terrainfeatures", "rockclimb","rocktunnel",  "toxicplains", "molecave", "layeredspire" ]
+          "microdungeons" : [ "canyonmini", "terrainfeatures", "rockclimb", "rocktunnel",  "toxicplains", "layeredspire" ]
         },
         {
           "mode" : "floor",

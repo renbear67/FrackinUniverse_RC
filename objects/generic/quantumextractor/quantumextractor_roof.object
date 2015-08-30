@@ -1,22 +1,20 @@
 {
-  "objectName" : "quantumextractor",
+  "objectName" : "quantumextractor_roof",
   "tags" : [ "fu", "science", "scienceoutpost", "radiation" ],
   "rarity" : "Common",
   "race" : "generic",
   "category" : "crafting",
   "printable" : false,
   "objectType" : "container",
-  "learnBlueprintsOnPickup" : [ "quantumextractor_roof" ],
-
   "price" : 1450,
   "lightColor" : [75, 75, 170],
   "inventoryIcon" : "quantumextractoricon.png",
   "description" : "The ultimate in extraction technology.",
-  "shortdescription" : "^orange;Quantum Extractor^white;",
+  "shortdescription" : "^orange;Quantum Extractor (roof)^white;",
   "subtitle" : "Resource converter",
   "orientations" : [
     {
-      "dualImage" : "quantumextractor.png:<color>.<frame>",
+      "dualImage" : "quantumextractor_roof.png:<color>.<frame>",
 
       "imagePosition" : [0, 0],
       "frames" : 6,
@@ -24,13 +22,13 @@
 
       "spaceScan" : 0.1,
       "collision" : "platform",
-      "anchors" : [ "bottom" ]
+      "anchors" : [ "top" ]
     }
   ],
 
-  "animation" : "/objects/generic/quantumextractor/quantumextractor.animation",
+  "animation" : "/objects/generic/quantumextractor/quantumextractor_roof.animation",
   "animationParts" : {
-    "samplingarrayanim" : "quantumextractor.png"
+    "samplingarrayanim" : "quantumextractor_roof.png"
   },
   "scripts" : [ "/objects/generic/quantumextractor/quantumextractor.lua" ],
   "scriptDelta" : 5,

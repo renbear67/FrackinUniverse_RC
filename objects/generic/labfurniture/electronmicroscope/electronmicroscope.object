@@ -1,0 +1,31 @@
+{
+  "objectName" : "electronmicroscope",
+  "tags" : [ "fu", "science", "discovery" ],
+  "rarity" : "Common",
+  "printable" : false,
+  "description" : "Examine things really, really close up.",
+  "shortdescription" : "Electron Microscope",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 1450,
+
+  "lightColor" : [60, 60, 60],
+  "inventoryIcon" : "electronmicroscopeicon.png",
+  "orientations" : [
+
+    {
+      "leftImage" : "electronmicroscopeleft.png",
+      "rightImage" : "electronmicroscoperight.png",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+
+}

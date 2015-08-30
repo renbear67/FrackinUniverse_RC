@@ -5,5 +5,5 @@
   "description" : "Special electrical coil, it has the ability to charge itself",
   "category" : "Fixture Part",
   "shortdescription" : "Coil",
-  "learnBlueprintsOnPickup" : [ "gravitonpistol", "gravitongun", "electromagnet" ]
+  "learnBlueprintsOnPickup" : [ "autoclave", "gravitonpistol", "gravitongun", "electromagnet" ]
 }

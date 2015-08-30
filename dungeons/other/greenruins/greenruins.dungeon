@@ -7,7 +7,7 @@
 		"maxParts" : 15,
 		"gravity" : 80,
 	        "protected" : true,
-		"anchor" : [ "greenruins1", "greenruins2", "greenruins3", "greenruins4", "greenruins5", "greenruins6", "greenruinse1", "greenruinse1a", "greenruinsu1", "greenruinsu1a", "greenruinsu2", "greenruinsu3", "greenruinsu4"  ]
+		"anchor" : [ "greenruins1", "greenruins2", "greenruins3", "greenruins4", "greenruins5", "greenruinse1", "greenruinse1a", "greenruinsu1", "greenruinsu1a", "greenruinsu2", "greenruinsu3", "greenruinsu4"  ]
 	},
 	
 	// tiles //
@@ -1223,14 +1223,6 @@
 	  [ "doNotConnectToPart", [ "greenruinse1", "greenruinse1a" ] ]	 
 	  ],
       "def" : [ "image", [ "greenruins5.png", "greenruins5objectsgenerator.png", "greenruins5wires.png" ] ]
-    },
-	
-	{
-      "name" : "greenruins6",
-      "rules" : [ 
-	  [ "maxSpawnCount", [1] ]
-	  ],
-      "def" : [ "image", [ "greenruins6.png", "greenruins6liquids.png", "greenruins6objects.png" ] ]
     },
 	
 	{

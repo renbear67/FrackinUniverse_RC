@@ -295,7 +295,7 @@
           "mode" : "floor",
           "priority" : 3.0,
           "variants" : 1,
-          "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
+          "distribution" : "/biomes/distributions.config:randomEncounter",
 
           "type" : "microdungeon",
           "microdungeons" : [ "fuencountercultist", "newhumanmicro", "newavianmicro", "minigreenruins", "junglemicrodungeons" ] 

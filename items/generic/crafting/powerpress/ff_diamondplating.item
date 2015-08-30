@@ -5,5 +5,5 @@
   "description" : "Diamond and Alloy. Ultra-Hard!",
   "shortdescription" : "^#88e25b;Diamond Plating^white;",
   "category" : "Metal Plate",
-  "learnBlueprintsOnPickup" : [ "sciencefuhead", "sciencefulegs", "sciencefuchest", "ff_focusingarray", "quantumextractor" ]
+  "learnBlueprintsOnPickup" : [ "sciencefuhead", "sciencefulegs", "sciencefuchest", "ff_focusingarray", "quantumextractor", "quantumextractor_roof" ]
 }

@@ -9,5 +9,5 @@
     "item" : "apexpod2",
     "count" : 1
   },
-  "groups" : [ "prototyper", "other", "all" ]
+  "groups" : [ "prototyper", "genetics", "other", "all" ]
 }

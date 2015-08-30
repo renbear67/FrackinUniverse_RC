@@ -1,20 +1,20 @@
 {
-  "objectName" : "extractionlab",
+  "objectName" : "extractionlab_roof",
   "tags" : [ "fu", "science", "scienceoutpost" ],
   "rarity" : "Common",
   "race" : "generic",
   "category" : "crafting",
   "printable" : false,
   "objectType" : "container",
-  "learnBlueprintsOnPickup" : [ "extractionlab_roof", "chemlab", "fissionfurnace", "saltpeter", "phosphorus", "ff_mercury", "magnesiumpowder", "rawminerals", "magnesiumpowder", "ammoniumsulfate", "penumbriteshard" ],
+  "learnBlueprintsOnPickup" : [ "chemlab", "fissionfurnace", "saltpeter", "phosphorus", "ff_mercury", "magnesiumpowder", "rawminerals", "magnesiumpowder", "ammoniumsulfate", "penumbriteshard" ],
   "price" : 450,
   "inventoryIcon" : "extractionlabicon.png",
   "description" : "Converts materials into useful resources.",
-  "shortdescription" : "^orange;Extraction Lab^white;",
+  "shortdescription" : "^orange;Extraction Lab (roof)^white;",
   "subtitle" : "Resource converter",
   "orientations" : [
     {
-      "dualImage" : "extractionlab.png:<color>.<frame>",
+      "dualImage" : "extractionlab_roof.png:<color>.<frame>",
 
       "imagePosition" : [0, 0],
       "frames" : 6,
@@ -22,13 +22,13 @@
 
       "spaceScan" : 0.1,
       "collision" : "platform",
-      "anchors" : [ "bottom" ]
+      "anchors" : [ "top" ]
     }
   ],
 
-  "animation" : "/objects/generic/extractionlab/extractionlab.animation",
+  "animation" : "/objects/generic/extractionlab/extractionlab_roof.animation",
   "animationParts" : {
-    "samplingarrayanim" : "extractionlab.png"
+    "samplingarrayanim" : "extractionlab_roof.png"
   },
   "scripts" : [ "/objects/generic/extractionlab/extractionlab.lua" ],
   "scriptDelta" : 5,
