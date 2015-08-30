@@ -5,7 +5,7 @@
 
     "mainBlock" : "honeycombmaterial",
     "subBlocks" : [ "fu_honeycombblock", "hive", "spidersilkblock" ],
-    "ores" : "ff_surfacearborealOres",
+    "ores" : "ff_crystalmoonOres",
     
   "spawnProfiles" : [
     {

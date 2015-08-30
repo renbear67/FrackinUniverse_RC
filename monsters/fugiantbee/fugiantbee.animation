@@ -294,7 +294,8 @@
   },
 
   "sounds" : {
-    "turnHostile" : [  ],
+    "attackSound" : [ "/sfx/bees/beebuzz.wav", "/sfx/buzzing/sting.ogg" ],
+    "turnHostile" : [ "/sfx/buzzing/sting.ogg" ],
     "deathPuff" : [ "/sfx/npc/enemydeathpuff.wav" ]
   },
 

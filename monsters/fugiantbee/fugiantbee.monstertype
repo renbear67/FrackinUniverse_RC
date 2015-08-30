@@ -11,7 +11,7 @@
 
   "baseParameters" : {
     "scripts" : [
-      "/monsters/flying/flyingMonster.lua",
+      "/monsters/fugiantbee/flyingMonster.lua",
       "/scripts/util.lua",
       "/scripts/sensors.lua",
       "/scripts/stateMachine.lua",
