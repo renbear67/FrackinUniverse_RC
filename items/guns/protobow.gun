@@ -11,21 +11,22 @@
   "handPosition" : [0, -1],
   "firePosition" : [20, 1.5],
   "level" : 4,
-  "fireTime" : 1.2,
+  "fireTime" : 0.55,
   "twoHanded" : true,
+  "inaccuracy" : 0.01,
   "tooltipKind" : "bow",
   "fireOnRelease" : true,
   "walkWhileFiring" : false,
 
   "projectileType" : "lesserprotoarrow",
   "powerProjectileType" : "protoarrow",
-  "powerProjectileTime" : [0.5, 100.1],
+  "powerProjectileTime" : [0.9, 10.1],
   "drawSpeedCurve" : "drawTimeMultiplier",
   "drawPowerCurve" : "drawTimeMultiplier",
   "projectile" : {
-    "speed" : 80,
-    "power" : 5,
-    "color" : [221, 227, 49]
+    "speed" : 70,
+    "power" : 4.5,
+    "color" : [183, 194, 139]
   },
 
   "muzzleEffect" : {

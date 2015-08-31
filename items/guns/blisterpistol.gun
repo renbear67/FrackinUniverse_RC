@@ -8,21 +8,21 @@
   "shortdescription" : "Blister Pistol",
   "image" : "blisterpistol.png",
   "handPosition" : [-4, -3],
-  "firePosition" : [12, 2],
+  "firePosition" : [16, 2],
   "weaponType" : "Bio Weapon",
   "recoilTime" : 0.1,
   "level" : 3,
   "tooltipKind" : "gun",
-  "fireTime" : 0.35,
+  "fireTime" : 0.55,
   "twoHanded" : false,
   "walkWhileFiring" : false,
 
   "learnBlueprintsOnPickup" : [ "blistergun" ],
 
   "projectileType" : "blisterpistolshot",
-  "projectile" : { "speed" : 62, "power" : 3 , "color" : [255, 0, 235] },
+  "projectile" : { "speed" : 52, "power" : 3.25 , "color" : [255, 0, 235] },
   "muzzleEffect" : {
        "fireSound" : [ { "file" : "/sfx/projectiles/goo_spit2.wav" } ],
-       "animation" :  "/animations/muzzleflash/smokemuzzle/smokemuzzle.animation"
+       "animation" :  "/animations/muzzleflash/plasmamuzzle3pink/plasmamuzzle3pink.animation"
 	   }
 }
