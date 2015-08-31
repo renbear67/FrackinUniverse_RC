@@ -34,5 +34,6 @@
       "harvestPool" : "teratomatoHarvest",
       "resetToStage" : 0
     }
-  ]
+  ],
+    "maxImmersion" : 0.125
 }

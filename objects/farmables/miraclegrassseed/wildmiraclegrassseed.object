@@ -37,5 +37,6 @@
       "harvestPool" : "wildmiraclegrassHarvest",
       "resetToStage" : 2
     }
-  ]
+  ],
+    "maxImmersion" : 0.125
 }

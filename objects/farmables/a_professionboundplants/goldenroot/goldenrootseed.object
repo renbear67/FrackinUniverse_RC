@@ -35,5 +35,6 @@
       "resetToStage" : 0
     }
   ],
-  "learnBlueprintsOnPickup" : [ "pinkloomseed" ]
+  "learnBlueprintsOnPickup" : [ "pinkloomseed" ],
+    "maxImmersion" : 0.125
 }

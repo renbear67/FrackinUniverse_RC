@@ -36,5 +36,6 @@
       "harvestPool" : "blizzberryHarvest",
       "resetToStage" : 2
     }
-  ]
+  ],
+    "maxImmersion" : 0.125
 }

@@ -41,5 +41,6 @@
       "resetToStage" : 0
     }
   ],
-  "learnBlueprintsOnPickup" : [ "jillyrootseed" ]
+  "learnBlueprintsOnPickup" : [ "jillyrootseed" ],
+    "maxImmersion" : 0.125
 }

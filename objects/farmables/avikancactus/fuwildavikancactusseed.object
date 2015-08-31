@@ -62,5 +62,6 @@
 
   "breakDropOptions" : [
     [ [ "fuavikancactusseed", 1, { } ] ]
-  ]
+  ],
+    "maxImmersion" : 0.125
 }

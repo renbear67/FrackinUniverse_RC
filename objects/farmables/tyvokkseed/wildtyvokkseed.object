@@ -36,5 +36,6 @@
       "harvestPool" : "wildtyvokkHarvest",
       "resetToStage" : 2
     }
-  ]
+  ],
+    "maxImmersion" : 0.125
 }

@@ -45,5 +45,6 @@
 
             "damageType" : "IgnoresDef",
             "damageSourceKind" : "poison"
-          }
+          },
+    "maxImmersion" : 0.125
 }

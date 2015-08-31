@@ -36,5 +36,6 @@
       "resetToStage" : 0
     }
   ],
-  "learnBlueprintsOnPickup" : [ "victorleaf" ]
+  "learnBlueprintsOnPickup" : [ "victorleaf" ],
+    "maxImmersion" : 0.125
   }

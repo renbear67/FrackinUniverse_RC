@@ -36,5 +36,6 @@
       "resetToStage" : 0
     }
   ],
-  "learnBlueprintsOnPickup" : [ "bladetree" ]
+  "learnBlueprintsOnPickup" : [ "bladetree" ],
+    "maxImmersion" : 0.125
   }

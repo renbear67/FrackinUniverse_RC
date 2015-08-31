@@ -40,5 +40,6 @@
       "resetToStage" : 2
     }
   ],
-  "learnBlueprintsOnPickup" : [ "porphisplantseed" ]
+  "learnBlueprintsOnPickup" : [ "porphisplantseed" ],
+    "maxImmersion" : 0.125
 }

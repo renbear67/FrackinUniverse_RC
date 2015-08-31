@@ -31,5 +31,6 @@
       "harvestPool" : "algaeHarvest"
     }
   ],
-  "learnBlueprintsOnPickup" : [ "erithianalgaeseed" ]
+  "learnBlueprintsOnPickup" : [ "erithianalgaeseed" ],
+    "maxImmersion" : 0.125
 }

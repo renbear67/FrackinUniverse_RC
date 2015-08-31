@@ -44,5 +44,6 @@
       "duration" : [100, 200]
     }
   ],
-  "learnBlueprintsOnPickup" : [ "voritseed", "littlegoodberryseed" ]
+  "learnBlueprintsOnPickup" : [ "voritseed", "littlegoodberryseed" ],
+    "maxImmersion" : 0.125
 }

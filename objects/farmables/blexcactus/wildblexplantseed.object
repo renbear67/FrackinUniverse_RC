@@ -38,5 +38,6 @@
       "harvestPool" : "wildblexplantHarvest",
       "resetToStage" : 2
     }
-  ]
+  ],
+    "maxImmersion" : 0.125
 }

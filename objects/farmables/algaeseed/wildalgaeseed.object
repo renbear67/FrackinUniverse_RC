@@ -30,5 +30,6 @@
       "alts" : 5,
       "harvestPool" : "wildalgaeHarvest"
     }
-  ]
+  ],
+    "maxImmersion" : 0.125
 }

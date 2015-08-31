@@ -41,5 +41,6 @@
             "damageType" : "IgnoresDef",
             "damageSourceKind" : "electroshock"
           },
-  "learnBlueprintsOnPickup" : [ "deathblossomseed" ]
+  "learnBlueprintsOnPickup" : [ "deathblossomseed" ],
+    "maxImmersion" : 0.125
 }

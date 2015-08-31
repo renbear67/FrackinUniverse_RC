@@ -35,5 +35,6 @@
       "resetToStage" : 0
     }
   ],
-  "learnBlueprintsOnPickup" : [ "fletchweed" ]
+  "learnBlueprintsOnPickup" : [ "fletchweed" ],
+    "maxImmersion" : 0.125
 }

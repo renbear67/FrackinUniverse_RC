@@ -35,5 +35,6 @@
       "resetToStage" : 0
     }
   ],
-  "learnBlueprintsOnPickup" : [ "goldenrootseed" ]
+  "learnBlueprintsOnPickup" : [ "goldenrootseed" ],
+    "maxImmersion" : 0.125
 }

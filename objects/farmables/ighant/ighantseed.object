@@ -37,5 +37,6 @@
       "resetToStage" : 2
     }
   ],
-  "learnBlueprintsOnPickup" : [ "springvaultseed" ]
+  "learnBlueprintsOnPickup" : [ "springvaultseed" ],
+    "maxImmersion" : 0.125
 }

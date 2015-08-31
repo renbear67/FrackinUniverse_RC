@@ -35,5 +35,6 @@
       "harvestPool" : "wildsilverleafHarvest",
       "resetToStage" : 0
     }
-  ]
+  ],
+    "maxImmersion" : 0.125
 }

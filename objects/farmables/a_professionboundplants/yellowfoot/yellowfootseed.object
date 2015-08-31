@@ -35,5 +35,6 @@
       "resetToStage" : 0
     }
   ],
-  "learnBlueprintsOnPickup" : [ "silverleafseed" ]
+  "learnBlueprintsOnPickup" : [ "silverleafseed" ],
+    "maxImmersion" : 0.125
 }

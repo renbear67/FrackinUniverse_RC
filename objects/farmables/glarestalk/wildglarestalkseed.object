@@ -33,5 +33,6 @@
       "alts" : 5,
       "harvestPool" : "wildglarestalkHarvest"
     }
-  ]
+  ],
+    "maxImmersion" : 0.125
 }

@@ -40,5 +40,6 @@
       "harvestPool" : "cellpodsplantHarvest",
       "resetToStage" : 0
     }
-  ]
+  ],
+    "maxImmersion" : 0.125
 }

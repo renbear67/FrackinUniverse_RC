@@ -36,5 +36,6 @@
       "resetToStage" : 0
     }
   ],
-  "learnBlueprintsOnPickup" : [ "arkaentree" ]
+  "learnBlueprintsOnPickup" : [ "arkaentree" ],
+    "maxImmersion" : 0.125
   }

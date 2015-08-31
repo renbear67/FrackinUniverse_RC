@@ -44,5 +44,6 @@
       "resetToStage" : 2
     }
   ],
-  "learnBlueprintsOnPickup" : [ "hellfireplantseed" ]
+  "learnBlueprintsOnPickup" : [ "hellfireplantseed" ],
+    "maxImmersion" : 0.125
 }

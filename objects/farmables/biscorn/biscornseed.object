@@ -44,5 +44,6 @@
       "resetToStage" : 2
     }
   ],
-  "learnBlueprintsOnPickup" : [ "littlerascalseed" ]
+  "learnBlueprintsOnPickup" : [ "littlerascalseed" ],
+    "maxImmersion" : 0.125
 }

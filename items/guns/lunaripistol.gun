@@ -1,0 +1,34 @@
+{
+    "itemName" : "lunaripistol",
+    "inventoryIcon" : "lunaripistol.png",
+    "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+    "maxStack" : 1,
+    "rarity" : "rare",
+    "description" : "A neat little mining weapon. Does a bit of damage, too.",
+    "shortdescription" : "Lunari Pistol",
+    "image" : "lunaripistol.png",
+    "handPosition" : [-8, 0],
+    "firePosition" : [5, 0],
+    "weaponType" : "Beam",
+    "recoilTime" : 0.1,
+    "level" : 2,
+    "tooltipKind" : "gun",
+    "fireTime" : 0.35,
+    "twoHanded" : false,
+    "rateOfFire" : [2, 7],
+    "muzzleEffect" : {
+      "fireSound" : [ { "file" : "/sfx/projectiles/swing_electric1.wav" } ]
+    },
+  
+    "fireOnRelease" : false,
+    
+    "projectileType" : "lunarishot",
+
+    "powerProjectileTime" : [0.4, 50],
+    "projectile" : {
+      "speed" : 50, 
+      "power" : 2.7 , 
+      "color" : [143, 131, 98] 
+  	}
+}
+  

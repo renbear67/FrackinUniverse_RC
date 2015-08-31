@@ -1,0 +1,27 @@
+{
+  "projectileName" : "lunarishot2",
+  "frames" : "lunarishot.png",
+  "animationCycle" : 0.25,
+  "physics" : "laser",
+  "frameNumber" : 2,
+  "lightColor" : [0, 50, 100],
+  "animationLoops" : true,
+  "speed" : 90,
+  "timeToLive" : 2.5,
+  "power" : 3,
+  "damagePoly" : [ [-2, 2], [-2, -2], [2, -2], [2, 2] ],
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "lunarishot3",
+      "inheritDamageFactor" : 0.5,
+      "fuzzAngle" : 5,
+      "angle" : 0
+    }
+  ],
+  "damageKind" : "electricplasma",
+  "emitters" : [ "defaultblue" ],
+  "hydrophobic" : true
+}
+
+

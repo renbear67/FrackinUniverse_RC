@@ -43,6 +43,7 @@
 
             "damageType" : "IgnoresDef",
             "damageSourceKind" : "electroshock"
-          }
+          },
+    "maxImmersion" : 0.125
           
 }

@@ -37,5 +37,6 @@
       "harvestPool" : "wildneuropodHarvest",
       "resetToStage" : 2
     }
-  ]
+  ],
+    "maxImmersion" : 0.525
 }

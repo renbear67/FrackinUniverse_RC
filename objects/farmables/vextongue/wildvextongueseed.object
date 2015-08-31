@@ -32,5 +32,6 @@
       "harvestPool" : "wildvextongueHarvest",
       "resetToStage" : 0
     }
-  ]
+  ],
+    "maxImmersion" : 0.125
 }

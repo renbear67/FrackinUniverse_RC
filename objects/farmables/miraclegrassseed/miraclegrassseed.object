@@ -37,5 +37,6 @@
       "resetToStage" : 2
     }
   ],
-  "learnBlueprintsOnPickup" : [ "wubstemseed", "ighantseed" ]
+  "learnBlueprintsOnPickup" : [ "wubstemseed", "ighantseed" ],
+    "maxImmersion" : 0.125
 }
