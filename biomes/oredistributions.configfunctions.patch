@@ -573,7 +573,38 @@
   [
     [0.5, [ [ "densinium", 0.75],[ "trianglium", 0.75], [ "prisilite", 0.75], [ "moonstone", 0.75] ] ]
   ]
-}
+},
 
+{"op":"add",
+"path":"/ff_honeyOres",
+"value": 
+  [
+    [0.5, [ [ "copper", 1.0], [ "gold", 1.0], [ "titanium", 0.5], [ "prisilite", 0.25], [ "gold", 0.75], [ "sulphur", 0.75], [ "lead", 0.20], [ "sulphur", 0.20],[ "mascagnite", 0.30],[ "lazulite", 0.30],[ "magnesium", 0.30],[ "berlinite", 0.40] ] ]
+  ]
+},
+
+{"op":"add",
+"path":"/ff_deephoneyOres",
+"value": 
+  [
+    [0.5, [ [ "copper", 1.0], [ "gold", 1.0], [ "titanium", 1.0], [ "prisilite", 0.75], [ "gold", 0.75], [ "sulphur", 0.75], [ "lead", 0.20], [ "sulphur", 0.20],[ "mascagnite", 0.30],[ "lazulite", 0.30],[ "magnesium", 0.30],[ "berlinite", 0.40] ] ]
+  ]
+},
+
+{"op":"add",
+"path":"/ff_redhoneyOres",
+"value": 
+  [
+    [0.5, [ [ "copper", 1.0], [ "gold", 1.0], [ "cinnabar", 0.5], [ "trianglium", 0.25], [ "gold", 0.75], [ "solarium", 0.75], [ "lead", 0.20], [ "sulphur", 0.20],[ "mascagnite", 0.30],[ "lazulite", 0.30],[ "magnesium", 0.30],[ "berlinite", 0.40] ] ]
+  ]
+},
+
+{"op":"add",
+"path":"/ff_deepredhoneyOres",
+"value": 
+  [
+    [0.5, [ [ "copper", 1.0], [ "gold", 1.0], [ "cinnabar", 1.0], [ "trianglium", 0.75], [ "gold", 0.75], [ "solarium", 0.75], [ "lead", 0.60], [ "sulphur", 0.60],[ "mascagnite", 0.80],[ "lazulite", 0.60],[ "magnesium", 0.30],[ "berlinite", 0.40] ] ]
+  ]
+}
 
 ]
