@@ -30,8 +30,8 @@
           "type" : "tree",
           "treeFoliageHueShiftMax" : 180,
           "treeStemHueShiftMax" : 180,
-          "treeStemList" : [ "crystalline", "crystalline2", "crystalline3", "solaristem" ],
-          "treeFoliageList" : [ "crystallinenofoliage", "crystallinenofoliage2", "crystallinenofoliagefull", "solarifoliage" ]
+          "treeStemList" : [ "crystalline", "crystalline2", "crystalline3" ],
+          "treeFoliageList" : [ "crystallinenofoliage", "crystallinenofoliage2", "crystallinenofoliagefull" ]
         },
         {
           "mode" : "floor",
