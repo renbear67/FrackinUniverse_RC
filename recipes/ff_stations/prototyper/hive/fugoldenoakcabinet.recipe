@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "fullwood1", "count" : 9 },
+    { "item" : "fu_liquidhoney", "count" : 6 },
+    { "item" : "fuamberchunk", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "fugoldenoakcabinet",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "furniture", "all" ]
+}

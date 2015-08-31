@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "fuamberchunk", "count" : 10 },
+    { "item" : "fu_honeycombblock", "count" : 6 }
+  ],
+  "output" : {
+    "item" : "fuhoneycombtable",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "furniture", "all" ]
+}

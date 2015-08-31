@@ -10,5 +10,5 @@
     "item" : "densiniumrifle",
     "count" : 1
   },
-  "groups" : [ "prototyper", "armors", "all" ]
+  "groups" : [ "prototyper", "weapons", "all" ]
 }
