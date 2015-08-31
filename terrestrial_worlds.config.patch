@@ -237,14 +237,14 @@
       "atmosphere" : {
         "primaryRegion" : [ "clouds" ]
       },
-        "surface" : {
+      "surface" : {
           "primaryRegion" : [ "arboreal" ],
-          "secondaryRegion" : [ "ffhive" ],
+          "secondaryRegion" : [ "ffhive", "aliendesert", "cactiplace", "crystalswamp", "birchforest", "alienforest", "cloudforest", "rainbowforest", "swamp", "elder", "corruptedforest", "fieldofwheat", "fieldofsugar",  "fieldofpotato", "fieldofcorn",  "fieldofgrape",  "fieldoftomato", "pineforest", "flowerforest", "snowyforest", "giantflowers", "forest", "jungle", "savannah", "snow",  "tundra" ],
           //"dungeonCountRange" : [0, 2],
           "dungeons" : [ "elderruins", "crystalcavern", "greenruins", "wreck", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "avianairship", "aviantemple","humanbunker", "floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison", "naturalcave"  ]
         },
         "subsurface" : {
-          "primaryRegion" : [ "ffhiveunderground" ]
+          "primaryRegion" : [ "arborealunderground" ]
         },
         "underground1" : {
           "secondaryRegion" : [ "ffhiveunderground", "zen", "shroomcave", "colorfulcave",  "ffspidernest", "luminouscaves",  "minivillageunderground", "mushroomunderground", "wildernessunderground", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine" ]
