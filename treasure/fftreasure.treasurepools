@@ -1418,7 +1418,7 @@
           {"weight" : 0.001, "item" : [ "fuqueenlegs-recipe", 1]},           
           {"weight" : 0.01, "item" :  [ "fucombchest-recipe", 1]},
           {"weight" : 0.01, "item" :  [ "fugoldenoakbed-recipe", 1]},
-          {"weight" : 0.01, "item" :  [ "fugoldenoakdoor1-recipe", 1]},
+          {"weight" : 0.01, "item" :  [ "fugoldenoakdoor-recipe", 1]},
           {"weight" : 0.01, "item" :  [ "fugoldenoakchest-recipe", 1]},
           {"weight" : 0.01, "item" :  [ "fugoldenoakcabinet-recipe", 1]},
 	  {"weight" : 0.01, "item" :  [ "fuhoneybarrel-recipe", 1]},
