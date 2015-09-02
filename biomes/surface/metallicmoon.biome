@@ -266,7 +266,7 @@
           "distribution" : "/biomes/distributions.config:overgroundChests",
 
           "type" : "treasureBox",
-          "treasureBoxSets" : [ "rustChest" ]
+          "treasureBoxSets" : [ "ffmetallicChest" ]
         },
         {
           "mode" : "floor",
@@ -387,7 +387,7 @@
           "distribution" : "/biomes/distributions.config:undergroundChests",
 
           "type" : "treasureBox",
-          "treasureBoxSets" : [ "basicChest" ]
+          "treasureBoxSets" : [ "ffmetallicChest" ]
         },
 
         {
