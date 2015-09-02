@@ -3,8 +3,8 @@
   "friendlyName" : "Meadow",
   "hueShiftOptions" : [-40, -25, 0, 25, 40],
 
-    "mainBlock" : "dirt",
-    "subBlocks" : [ "mud", "clay" ],
+    "mainBlock" : "floweryblock",
+    "subBlocks" : [ "dirt", "mud" ],
     "ores" : "surfaceOres",
 
 

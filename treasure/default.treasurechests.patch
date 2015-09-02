@@ -110,5 +110,25 @@
 		"minimumLevel" : 1
 		}
 	]
+  },
+  { "op" : "add", "path" : "/ffmetallicChest", 
+  "value" : 
+	[
+		{
+		"containers" : [ "ancientchest" ],
+		"treasurePool" : "ffmetallicChest",
+		"minimumLevel" : 1
+		}
+	]
+  },
+  { "op" : "add", "path" : "/ffmetallicChestLarge", 
+  "value" : 
+	[
+		{
+		"containers" : [ "ancientbigchest" ],
+		"treasurePool" : "ffmetallicbigChest",
+		"minimumLevel" : 1
+		}
+	]
   }
 ]

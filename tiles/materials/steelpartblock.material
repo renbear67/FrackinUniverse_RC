@@ -1,0 +1,21 @@
+{
+  "materialId" : 6701,
+  "materialName" : "steelpartblock",
+  "particleColor" : [111, 98, 90, 255],
+  "itemDrop" : "steelpartblock",
+  "description" : "Metal parts for some unknown purpose.",
+  "shortdescription" : "Metal Parts",
+  "footstepSound" : "/sfx/blocks/footstep_girder.wav",
+  "health" : 22,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "steelpartblock.png",
+    "variants" : 3,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 2560
+  }
+}

@@ -13,6 +13,6 @@
     "variants" : 8,
     "multiColored" : false,
     "zLevel" : 0,
-    "radiantLight" : [0.25, 0.05, 0.25]
+    "radiantLight" : [ 40, 20, 40 ]
   }
 }

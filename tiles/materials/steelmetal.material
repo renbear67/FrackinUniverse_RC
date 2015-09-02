@@ -1,0 +1,21 @@
+{
+  "materialId" : 6702,
+  "materialName" : "steelmetal",
+  "particleColor" : [111, 98, 90, 255],
+  "itemDrop" : "steelmetal",
+  "description" : "Metal.",
+  "shortdescription" : "Metal",
+  "footstepSound" : "/sfx/blocks/footstep_girder.wav",
+  "health" : 32,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "steelmetal.png",
+    "variants" : 3,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 3000
+  }
+}

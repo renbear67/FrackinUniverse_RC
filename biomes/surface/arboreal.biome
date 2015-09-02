@@ -104,7 +104,7 @@
   ],
 
   "mainBlock" : "plantmatter",
-  "subBlocks" : [ "dirt", "clay", "grassyrock" ],
+  "subBlocks" : [ "dirt", "floweryblock", "grassyrock" ],
   "ores" : "ff_surfacearborealOres",
 
   "parallax" : "/parallax/surface/forest.parallax",
