@@ -380,7 +380,7 @@
   },
 
   "sounds" : {
-    "turnHostile" : [ ],
+    "turnHostile" : [  ],
     "deathPuff" : [ "/sfx/npc/enemydeathpuff.wav" ]
   }
 }

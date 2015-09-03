@@ -1,32 +1,32 @@
 {
-  "objectName" : "metallicceiling1",
+  "objectName" : "metallicmachine2",
   "tags" : [ "metallic", "rusted" ],
   "rarity" : "Common",
   "category" : "pot",
   "price" : 1000,
   "printable" : false,  
-  "description" : "Techy metal pipes.",
-  "shortdescription" : "Metal Piping",
-  "inventoryIcon" : "metallicceiling1.png",
-  "health" : 20,
+  "description" : "This looks like an ancient fusion conduit.",
+  "shortdescription" : "Fusion Conduit",
+  "inventoryIcon" : "metallicmachine2.png",
+  "health" : 160,
   "orientations" : [
     {
-      "image" : "metallicceiling1.png:<color>",
+      "image" : "metallicmachine2.png:<color>",
       "imagePosition" : [0, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
 
       "spaceScan" : 0.1,
-      "anchors" : [ "top" ]
+      "anchors" : [ "bottom" ]
 
     }
   ],
   "smashSounds" : [ "/sfx/tools/axe_chop_alt_heavy.wav" ],
   "smashDropOptions" : [
-    [ [ "copperbar", 9, { } ] ]
+    [ [ "moonstonebar", 5, { } ] ]
   ],
 
   "breakDropOptions" : [
-    [ [ "copperbar", 9, { } ] ]
+    [ [ "moonstonebar", 5, { } ] ]
   ]
 }
