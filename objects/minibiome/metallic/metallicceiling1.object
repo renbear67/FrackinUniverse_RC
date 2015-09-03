@@ -1,0 +1,32 @@
+{
+  "objectName" : "metallicceiling1",
+  "tags" : [ "metallic", "rusted" ],
+  "rarity" : "Common",
+  "category" : "pot",
+  "price" : 1000,
+  "printable" : false,  
+  "description" : "Techy metal pipes.",
+  "shortdescription" : "Metal Piping",
+  "inventoryIcon" : "metallicceiling1.png",
+  "health" : 1220,
+  "orientations" : [
+    {
+      "image" : "metallicceiling1.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+
+    }
+  ],
+  "smashSounds" : [ "/sfx/tools/axe_chop_alt_heavy.wav" ],
+  "smashDropOptions" : [
+    [ [ "steelbar", 25, { } ] ]
+  ],
+
+  "breakDropOptions" : [
+    [ [ "steelbar", 25, { } ] ]
+  ]
+}

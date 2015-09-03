@@ -61,7 +61,7 @@
               [0.35, "flowerred" ],
               [0.35, "floweryellow" ]
               ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             }
           ]
         },

@@ -51,7 +51,7 @@
               [0.35, "thornplant" ],
               [0.35, "wildnissseed" ] 
               ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             }
           ]
         },

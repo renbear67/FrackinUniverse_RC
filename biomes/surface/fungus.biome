@@ -288,7 +288,16 @@
           "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
 
           "type" : "microdungeon",
-          "microdungeons" : [  "fuencountercultist", "newhumanmicro", "newavianmicro", "minigreenruins", "shroommicrodungeons", "forestmicrodungeons" ]
+          "microdungeons" : [ "shroommicrodungeons", "forestmicrodungeons" ]
+        },        
+        {
+          "mode" : "floor",
+          "priority" : 3.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:randomEncounter",
+
+          "type" : "microdungeon",
+          "microdungeons" : [  "fuencountercultist", "newhumanmicro", "newavianmicro", "minigreenruins" ]
         },
         {
           "mode" : "floor",
@@ -420,7 +429,7 @@
              "objectSets" : [
                {
                  "pool" : [ [0.50, "ffbioshroom" ],[0.50, "ffbioshroom1" ],[0.50, "ffbioshroom2" ],[0.50, "ffbioshroom3" ], [0.50, "bioshroomblue" ], [0.50, "bioshroomblue1" ], [0.50, "bioshroomblue2" ], [0.50, "bioshroomblue3" ], [0.50, "bioshroomblue4" ], [0.50, "bioshroomblue5" ], [0.50, "bioshroomblue6" ], [0.50, "bioshroomblue7" ] ],
-                 "parameters" : { "startingStage" : 2 }
+                 "parameters" : { "startingStage" : 3 }
                }
              ]
            },

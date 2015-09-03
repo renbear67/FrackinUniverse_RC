@@ -58,7 +58,7 @@
               [0.50, "greenceilingspike3" ],
               [0.50, "greenceilingspike4" ]
                  ],
-                 "parameters" : { "startingStage" : 2 }
+                 "parameters" : { "startingStage" : 3 }
                }
              ]
            },
@@ -86,7 +86,7 @@
               [0.50, "platinumrocksmall" ],
               [0.15, "agaranmushroom" ]
                  ],
-                 "parameters" : { "startingStage" : 2 }
+                 "parameters" : { "startingStage" : 3 }
                }
              ]
            },
@@ -113,7 +113,7 @@
               [0.35, "wildshockshroomseed" ],
               [0.35, "wildfayshroomseed" ]
           ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             }
           ]
         },
@@ -127,7 +127,7 @@
              "objectSets" : [
                {
                  "pool" : [ [0.50, "ffbioshroom" ],[0.50, "ffbioshroom1" ],[0.50, "ffbioshroom2" ],[0.50, "ffbioshroom3" ], [0.50, "bioshroomblue" ], [0.50, "bioshroomblue1" ], [0.50, "bioshroomblue2" ], [0.50, "bioshroomblue3" ], [0.50, "bioshroomblue4" ], [0.50, "bioshroomblue5" ], [0.50, "bioshroomblue6" ], [0.50, "bioshroomblue7" ] ],
-                 "parameters" : { "startingStage" : 2 }
+                 "parameters" : { "startingStage" : 3 }
                }
              ]
            },

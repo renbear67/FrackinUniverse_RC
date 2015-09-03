@@ -245,7 +245,7 @@
               [0.35, "wildlittlerascalseed" ],
               [0.65, "wildwubstemseed" ]
               ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             }
           ]
         },
@@ -513,7 +513,7 @@
              "objectSets" : [
                {
                  "pool" : [ [0.50, "ffbioshroom" ],[0.50, "ffbioshroom1" ],[0.50, "ffbioshroom2" ],[0.50, "ffbioshroom3" ] ],
-                 "parameters" : { "startingStage" : 2 }
+                 "parameters" : { "startingStage" : 3 }
                }
              ]
            },
@@ -591,7 +591,7 @@
               [0.35, "wildslimeplantseed" ],
               [0.35, "wildvextongueseed" ] 
               ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             }
           ]
         }

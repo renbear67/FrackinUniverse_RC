@@ -162,7 +162,7 @@
           "type" : "object",
           "objectSets" : [
             {
-              "pool" : [ [0.35, "techbush1" ], [0.35, "techbush2" ], [0.35, "techbush4" ], [0.35, "techbush5" ], [0.35, "techbush6" ] ],
+              "pool" : [ [0.35, "ruinsvehicle1" ], [0.35, "ruinsvehicle4" ], [0.35, "ruinsvehicle5" ], [0.35, "mechruin" ], [0.35, "techbush1" ], [0.35, "techbush2" ], [0.35, "techbush4" ], [0.35, "techbush5" ], [0.35, "techbush6" ] ],
               "parameters" : { }
             }
           ]
@@ -287,7 +287,7 @@
               [0.50, "ceilingspike3" ],
               [0.50, "ceilingspike4" ]
                  ],
-                 "parameters" : { "startingStage" : 2 }
+                 "parameters" : { "startingStage" : 3 }
                }
              ]
            },
@@ -316,7 +316,7 @@
               [0.50, "diamondrock" ],
               [0.50, "diamondrocksmall" ]
                  ],
-                 "parameters" : { "startingStage" : 2 }
+                 "parameters" : { "startingStage" : 3 }
                }
              ]
            },

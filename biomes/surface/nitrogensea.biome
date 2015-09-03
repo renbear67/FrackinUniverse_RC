@@ -185,7 +185,7 @@
                [0.35, "wildreefpodseed" ],
                [0.35, "wildmireurchinseed" ]
           ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             }
           ]
         },
@@ -443,7 +443,7 @@
                [0.35, "wildreefpodseed" ],
                [0.35, "wildmireurchinseed" ]
           ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             }
           ]
         },

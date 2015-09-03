@@ -52,7 +52,7 @@
               [0.35, "wildvashtaplantseed" ],
               [0.35, "wildalgaeseed" ]
               ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             }
           ]
         },

@@ -319,43 +319,43 @@
           "objectSets" : [
             {
               "pool" : [ [1, "wildcarrotseed" ] ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             },
             {
               "pool" : [ [1, "wildavesmingoseed" ] ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             },
             {
               "pool" : [ [1, "wildbeakseedseed" ] ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             },
             {
               "pool" : [ [1, "wildchiliseed" ] ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             },
             {
               "pool" : [ [1, "wildeggshootseed" ] ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             },
             {
               "pool" : [ [1, "wildfeathercrownseed" ] ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             },
             {
               "pool" : [ [1, "wildgrapesseed" ] ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             },
             {
               "pool" : [ [1, "wildpotatoseed" ] ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             },
             {
               "pool" : [ [1, "wildriceseed" ] ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             },
             {
               "pool" : [ [1, "wildtomatoseed" ] ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             }
           ]
         }

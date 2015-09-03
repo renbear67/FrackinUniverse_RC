@@ -118,7 +118,7 @@
           {
             "pool" : [ [1, "wildfeathercrownseed" ] ],
             "parameters" : {
-              "startingStage" : 2
+              "startingStage" : 3
             }
           }
         ]
@@ -134,7 +134,7 @@
           {
             "pool" : [ [1, "wildriceseed" ] ],
             "parameters" : {
-              "startingStage" : 2
+              "startingStage" : 3
             }
           }
         ]

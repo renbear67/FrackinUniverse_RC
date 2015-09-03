@@ -105,7 +105,7 @@
           {
             "pool" : [ [1, "wildriceseed" ] ],
             "parameters" : {
-              "startingStage" : 2
+              "startingStage" : 3
             }
           }
         ]

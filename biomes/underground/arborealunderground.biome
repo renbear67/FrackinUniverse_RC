@@ -57,7 +57,7 @@
               [0.50, "greenceilingspike3" ],
               [0.50, "greenceilingspike4" ]
                  ],
-                 "parameters" : { "startingStage" : 2 }
+                 "parameters" : { "startingStage" : 3 }
                }
              ]
            },
@@ -76,7 +76,7 @@
               [0.50, "greengroundspike3" ],
               [0.50, "greengroundspike4" ]
                  ],
-                 "parameters" : { "startingStage" : 2 }
+                 "parameters" : { "startingStage" : 3 }
                }
              ]
            },
@@ -163,7 +163,7 @@
               [0.35, "wildighantseed" ],
               [0.35, "wilderithianalgaeseed" ]
               ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             }
           ]
         },           
@@ -190,7 +190,7 @@
               [0.50, "platinumrock" ],
               [0.50, "platinumrocksmall" ]
                  ],
-                 "parameters" : { "startingStage" : 2 }
+                 "parameters" : { "startingStage" : 3 }
                }
              ]
            },

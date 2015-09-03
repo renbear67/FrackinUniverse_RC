@@ -170,7 +170,7 @@
                    [0.50, "thorns3" ],
                    [0.50, "thorns4" ]
                  ],
-                 "parameters" : { "startingStage" : 2 }
+                 "parameters" : { "startingStage" : 3 }
                }
              ]
            },
@@ -388,7 +388,7 @@
           [0.35, "wildminkocoapodseed" ],
           [0.35, "wildlittlegoodberryseed" ]
           ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             }
           ]
         },
@@ -588,7 +588,7 @@
              "objectSets" : [
                {
                  "pool" : [ [0.50, "bioshroom1" ],[0.50, "bioshroom2" ],[0.50, "bioshroom3" ],[0.50, "bioshroom4" ],[0.50, "bioshroom5" ] ],
-                 "parameters" : { "startingStage" : 2 }
+                 "parameters" : { "startingStage" : 3 }
                }
              ]
            },

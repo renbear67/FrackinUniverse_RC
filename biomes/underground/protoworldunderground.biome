@@ -58,7 +58,7 @@
               [0.50, "savannahceilingspike3" ],
               [0.50, "savannahceilingspike4" ]
                  ],
-                 "parameters" : { "startingStage" : 2 }
+                 "parameters" : { "startingStage" : 3 }
                }
              ]
            },
@@ -87,7 +87,7 @@
               [0.50, "diamondrock" ],
               [0.50, "diamondrocksmall" ]
                  ],
-                 "parameters" : { "startingStage" : 2 }
+                 "parameters" : { "startingStage" : 3 }
                }
              ]
            },
@@ -169,7 +169,7 @@
              "objectSets" : [
                {
                  "pool" : [ [0.50, "ffbioshroom" ],[0.50, "ffbioshroom1" ],[0.50, "ffbioshroom2" ],[0.50, "ffbioshroom3" ] ],
-                 "parameters" : { "startingStage" : 2 }
+                 "parameters" : { "startingStage" : 3 }
                }
              ]
            },
@@ -247,7 +247,7 @@
               [0.35, "wildslimeplantseed" ],
               [0.35, "wildvextongueseed" ] 
               ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             }
           ]
         }

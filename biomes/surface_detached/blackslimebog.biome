@@ -23,7 +23,7 @@
               "pool" : [ 
                [0.35, "wildalgaeseed" ]
           ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             }
           ]
         },
@@ -57,7 +57,7 @@
           [0.35, "wildstranglevineseed" ],
           [0.35, "wildblisterbushplantseed" ]
           ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             }
           ]
         },

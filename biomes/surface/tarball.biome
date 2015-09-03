@@ -194,7 +194,7 @@
               [0.35, "wildporphisplantseed" ],
               [0.35, "wildblexplantseed" ]
               ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             }
           ]
         },         
@@ -330,7 +330,7 @@
           "mode" : "floor",
           "priority" : 0.5,
           "variants" : 1,
-          "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
+          "distribution" : "/biomes/distributions.config:randomEncounter",
           "type" : "microdungeon",
           "microdungeons" : [ "tarpitsmicrodungeons" ]
 
@@ -436,7 +436,7 @@
               [0.35, "wildporphisplantseed" ],
               [0.35, "wildtyvokkseed" ]
               ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             }
           ]
         },   

@@ -206,7 +206,7 @@
               [0.35, "wildghostmushroomseed" ],
               [0.35, "wildslimeplantseed" ]
               ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             }
           ]
         },
@@ -541,7 +541,7 @@
              "objectSets" : [
                {
                  "pool" : [ [0.50, "bioshroom1" ],[0.50, "bioshroom2" ],[0.50, "bioshroom3" ],[0.50, "bioshroom4" ] ],
-                 "parameters" : { "startingStage" : 2 }
+                 "parameters" : { "startingStage" : 3 }
                }
              ]
            },
@@ -568,7 +568,7 @@
               [0.50, "bioshroomblue6" ],
               [0.50, "bioshroomblue7" ] 
               ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             }
           ]
         },

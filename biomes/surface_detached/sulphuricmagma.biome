@@ -55,7 +55,7 @@
               [0.35, "volcanicrock2seed5" ],
               [0.35, "volcanicrockseed8" ],
               [0.35, "volcanicrock2seed6" ] ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             }
           ]
         },

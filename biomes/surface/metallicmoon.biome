@@ -200,7 +200,7 @@
               [0.50, "diamondrock" ],
               [0.50, "diamondrocksmall" ]
                  ],
-                 "parameters" : { "startingStage" : 2 }
+                 "parameters" : { "startingStage" : 3 }
                }
              ]
            },
@@ -327,7 +327,7 @@
           "objectSets" : [
             {
               "pool" : [ [1, "diodiaseed" ] ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             }
           ]
         },

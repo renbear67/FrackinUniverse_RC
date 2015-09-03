@@ -160,7 +160,7 @@
                [0.50, "slimeblob4" ],
                [0.50, "slimeblob5" ]
                   ],
-                  "parameters" : { "startingStage" : 2 }
+                  "parameters" : { "startingStage" : 3 }
                 }
               ]
             },
@@ -177,7 +177,7 @@
                [0.65, "wildalgaeseed" ],
                [0.65, "wildslimeplantseed" ]
                ],
-               "parameters" : { "startingStage" : 2 }
+               "parameters" : { "startingStage" : 3 }
              }
            ]
          },

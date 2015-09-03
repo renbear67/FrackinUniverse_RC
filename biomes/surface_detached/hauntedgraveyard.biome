@@ -65,7 +65,7 @@
               [0.35, "wildtomatoseed" ],
               [0.35, "wildpotatoseed" ]
               ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             }
           ]
         },

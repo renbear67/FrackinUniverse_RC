@@ -417,7 +417,16 @@
           "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "fuencountercultist", "fleshmicrodungeons" ]
+          "microdungeons" : [ "fleshmicrodungeons" ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 3.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:randomEncounter",
+
+          "type" : "microdungeon",
+          "microdungeons" : [ "fuencountercultist" ]
         },
         {
           "mode" : "floor",

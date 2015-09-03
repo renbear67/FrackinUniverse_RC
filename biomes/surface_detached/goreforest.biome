@@ -55,7 +55,7 @@
               [0.35, "wildneuropodseed" ],
               [0.35, "wildbloodrootseed" ]
               ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             }
           ]
         },

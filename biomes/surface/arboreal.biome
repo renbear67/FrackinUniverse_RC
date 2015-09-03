@@ -152,7 +152,7 @@
               [0.50, "thorns3" ],
               [0.50, "thorns4" ]
                  ],
-                 "parameters" : { "startingStage" : 2 }
+                 "parameters" : { "startingStage" : 3 }
                }
              ]
            },
@@ -190,7 +190,7 @@
               [0.35, "wildpotatoseed" ]
           
               ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             }
           ]
         },
@@ -539,7 +539,7 @@
               [0.35, "wildighantseed" ],
               [0.35, "wilderithianalgaeseed" ]
               ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             }
           ]
         },           
@@ -553,7 +553,7 @@
              "objectSets" : [
                {
                  "pool" : [ [0.50, "ffbioshroom" ],[0.50, "ffbioshroom1" ],[0.50, "ffbioshroom2" ],[0.50, "ffbioshroom3" ] ],
-                 "parameters" : { "startingStage" : 2 }
+                 "parameters" : { "startingStage" : 3 }
                }
              ]
            },

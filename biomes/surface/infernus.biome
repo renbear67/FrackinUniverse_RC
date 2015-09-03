@@ -243,7 +243,7 @@
                 [0.35, "wildrockrootseed" ],
                 [0.35, "wildpetrifiedrootseed" ]
                 ],
-                "parameters" : { "startingStage" : 2 }
+                "parameters" : { "startingStage" : 3 }
               }
             ]
           },
@@ -362,7 +362,7 @@
               [0.50, "ceilingspike3" ],
               [0.50, "ceilingspike4" ]
                  ],
-                 "parameters" : { "startingStage" : 2 }
+                 "parameters" : { "startingStage" : 3 }
                }
              ]
            },
@@ -380,7 +380,7 @@
               [0.50, "magmagroundspike2" ],
               [0.50, "magmagroundspike3" ]
                  ],
-                 "parameters" : { "startingStage" : 2 }
+                 "parameters" : { "startingStage" : 3 }
                }
              ]
            },

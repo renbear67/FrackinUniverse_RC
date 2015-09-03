@@ -46,7 +46,7 @@
           "objectSets" : [
             {
               "pool" : [ [1, "wildneonmelonseed" ] ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             }
           ]
         },

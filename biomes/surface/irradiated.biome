@@ -195,7 +195,7 @@
               [0.35, "wildenergiflowerseed" ],
               [0.35, "wilddragonsbeardseed" ]
               ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             }
           ]
         },
@@ -294,7 +294,16 @@
           "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "fuencountercultist", "newhumanmicro", "newavianmicro", "minigreenruins", "toxicmicrodungeons" ]
+          "microdungeons" : [ "toxicmicrodungeons" ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 3.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:randomEncounter",
+
+          "type" : "microdungeon",
+          "microdungeons" : [ "fuencountercultist", "newhumanmicro", "newavianmicro", "minigreenruins" ]
         },
         {
           "mode" : "floor",
@@ -491,7 +500,7 @@
              "objectSets" : [
                {
                  "pool" : [ [0.50, "ffbioshroom" ],[0.50, "ffbioshroom1" ],[0.50, "ffbioshroom2" ],[0.50, "ffbioshroom3" ] ],
-                 "parameters" : { "startingStage" : 2 }
+                 "parameters" : { "startingStage" : 3 }
                }
              ]
            },
@@ -594,7 +603,7 @@
               [0.35, "wildslimeplantseed" ],
               [0.35, "wildvextongueseed" ] 
               ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             }
           ]
         }

@@ -214,7 +214,7 @@
           {
             "pool" : [ [1, "wildreefpodseed" ] ],
             "parameters" : {
-              "startingStage" : 2
+              "startingStage" : 3
             }
           }
         ]

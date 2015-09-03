@@ -53,7 +53,7 @@
               [0.35, "wildighantseed" ],
               [0.35, "wilderithianalgaeseed" ]
               ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             }
           ]
         },

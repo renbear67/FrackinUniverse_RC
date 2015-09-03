@@ -87,7 +87,7 @@
           {
             "pool" : [ [1, "wildpussplumseed" ] ],
             "parameters" : {
-              "startingStage" : 2
+              "startingStage" : 3
             }
           }
         ]

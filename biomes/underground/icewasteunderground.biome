@@ -58,7 +58,7 @@
               [0.50, "icestalactite3" ],
               [0.50, "icestalactite4" ]
                  ],
-                 "parameters" : { "startingStage" : 2 }
+                 "parameters" : { "startingStage" : 3 }
                }
              ]
            },
@@ -78,7 +78,7 @@
               [0.50, "icestalagmite3" ],
               [0.50, "icestalagmite4" ]              
                  ],
-                 "parameters" : { "startingStage" : 2 }
+                 "parameters" : { "startingStage" : 3 }
                }
              ]
            },

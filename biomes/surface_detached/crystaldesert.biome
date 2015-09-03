@@ -48,7 +48,7 @@
               [0.35, "wildpekkitseed" ],
               [0.35, "wildmelodistarseed" ]
               ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             }
           ]
         },

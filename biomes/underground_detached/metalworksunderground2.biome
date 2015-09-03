@@ -53,7 +53,7 @@
               [0.50, "magmaceilingspike2" ],
               [0.50, "magmaceilingspike3" ]
                  ],
-                 "parameters" : { "startingStage" : 2 }
+                 "parameters" : { "startingStage" : 3 }
                }
              ]
            },
@@ -81,7 +81,7 @@
               [0.50, "diamondrock" ],
               [0.50, "diamondrocksmall" ]
                  ],
-                 "parameters" : { "startingStage" : 2 }
+                 "parameters" : { "startingStage" : 3 }
                }
              ]
            },

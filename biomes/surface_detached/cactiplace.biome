@@ -51,7 +51,7 @@
               [0.35, "wildvaranberryseed" ],
               [0.35, "wildbrackentreeseed" ]
               ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             }
           ]
         },

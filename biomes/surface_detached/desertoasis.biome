@@ -54,19 +54,19 @@
           "objectSets" : [
             {
               "pool" : [ [1, "wildblexplantseed" ] ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             },
             {
               "pool" : [ [1, "wilddeathblossomseed" ] ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             },
             {
               "pool" : [ [1, "wildalgaeseed" ] ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             },
             {
               "pool" : [ [1, "wildbrackentreeseed" ] ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             }
           ]
         },

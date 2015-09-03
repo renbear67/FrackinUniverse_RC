@@ -53,7 +53,7 @@
               [0.35, "wilddragonsbeardseed" ],
               [0.65, "wildwubstemseed" ]
               ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             }
           ]
         },
@@ -287,7 +287,7 @@
               [0.35, "wilddragonsbeardseed" ],
               [0.65, "wildwubstemseed" ]
               ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             }
           ]
         }

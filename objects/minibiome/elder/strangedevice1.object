@@ -8,7 +8,7 @@
   "race" : "generic",
   "category" : "furniture",
   "price" : 500,
-  "health" : 500,
+  "health" : 250,
   "inventoryIcon" : "strangedevice1.png",
   "orientations" : [
     {

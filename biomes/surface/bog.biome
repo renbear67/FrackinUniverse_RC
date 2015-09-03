@@ -137,7 +137,7 @@
               "pool" : [ 
                [0.35, "wildalgaeseed" ]
           ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             }
           ]
         },
@@ -167,7 +167,7 @@
           [0.35, "wildgoldshroomseed" ],
           [0.35, "wildfayshroomseed" ]
           ],
-              "parameters" : { "startingStage" : 2 }
+              "parameters" : { "startingStage" : 3 }
             }
           ]
         },
@@ -378,10 +378,19 @@
           "mode" : "floor",
           "priority" : 3.0,
           "variants" : 1,
+          "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
+
+          "type" : "microdungeon",
+          "microdungeons" : [ "swampmicrodungeons" ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 3.0,
+          "variants" : 1,
           "distribution" : "/biomes/distributions.config:randomEncounter",
 
           "type" : "microdungeon",
-          "microdungeons" : [  "fuencountercultist", "newhumanmicro", "newavianmicro", "minigreenruins", "swampmicrodungeons" ]
+          "microdungeons" : [  "fuencountercultist", "newhumanmicro", "newavianmicro", "minigreenruins" ]
         },
         {
           "mode" : "floor",
@@ -507,7 +516,7 @@
              "objectSets" : [
                {
                  "pool" : [ [0.50, "ffbioshroom" ],[0.50, "ffbioshroom1" ],[0.50, "ffbioshroom2" ],[0.50, "ffbioshroom3" ] ],
-                 "parameters" : { "startingStage" : 2 }
+                 "parameters" : { "startingStage" : 3 }
                }
              ]
            },
