@@ -2,13 +2,13 @@
   "objectName" : "ruinsvehicle4",
   "tags" : [ "wasteland", "vehicle" ],
   "rarity" : "Common",
-  "category" : "pot",
+  "category" : "decorative",
   "price" : 1000,
   "printable" : false,  
   "description" : "A vehicle.",
   "shortdescription" : "Abandoned Vehicle",
   "inventoryIcon" : "ruinsvehicle4.png",
-  "health" : 1220,
+  "health" : 200,
   "orientations" : [
     {
       "image" : "ruinsvehicle4.png:<color>",
@@ -20,13 +20,5 @@
       "anchors" : [ "bottom" ]
 
     }
-  ],
-  "smashSounds" : [ "/sfx/tools/axe_chop_alt_heavy.wav" ],
-  "smashDropOptions" : [
-    [ [ "steelbar", 25, { } ] ]
-  ],
-
-  "breakDropOptions" : [
-    [ [ "steelbar", 25, { } ] ]
   ]
 }

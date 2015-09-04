@@ -2,7 +2,7 @@
   "objectName" : "metallicceiling3",
   "tags" : [ "metallic", "rusted" ],
   "rarity" : "Common",
-  "category" : "pot",
+  "category" : "decorative",
   "price" : 20,
   "printable" : false,  
   "description" : "A small but efficient reactor.",
@@ -20,13 +20,5 @@
       "anchors" : [ "top" ]
 
     }
-  ],
-  "smashSounds" : [ "/sfx/tools/axe_chop_alt_heavy.wav" ],
-  "smashDropOptions" : [
-    [ [ "moonstonebar", 4, { } ] ]
-  ],
-
-  "breakDropOptions" : [
-    [ [ "moonstonebar", 4, { } ] ]
   ]
 }

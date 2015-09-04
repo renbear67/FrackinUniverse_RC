@@ -2,7 +2,7 @@
   "objectName" : "metallicmachine1",
   "tags" : [ "metallic", "rusted" ],
   "rarity" : "Common",
-  "category" : "pot",
+  "category" : "decorative",
   "price" : 1000,
   "printable" : false,  
   "description" : "A device that aids in transmissions.",
@@ -20,13 +20,5 @@
       "anchors" : [ "bottom" ]
 
     }
-  ],
-  "smashSounds" : [ "/sfx/tools/axe_chop_alt_heavy.wav" ],
-  "smashDropOptions" : [
-    [ [ "moonstonebar", 5, { } ] ]
-  ],
-
-  "breakDropOptions" : [
-    [ [ "moonstonebar", 5, { } ] ]
   ]
 }

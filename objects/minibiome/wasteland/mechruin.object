@@ -2,8 +2,8 @@
   "objectName" : "mechruin",
   "tags" : [ "wasteland", "combat" ],
   "rarity" : "Common",
-  "category" : "pot",
-  "price" : 1000,
+  "category" : "decorative",
+  "price" : 2000,
   "printable" : false,  
   "description" : "This was once some sort of mobile weapons platform.",
   "shortdescription" : "Ruined Mech",
@@ -20,13 +20,5 @@
       "anchors" : [ "bottom" ]
 
     }
-  ],
-  "smashSounds" : [ "/sfx/tools/axe_chop_alt_heavy.wav" ],
-  "smashDropOptions" : [
-    [ [ "steelbar", 25, { } ] ]
-  ],
-
-  "breakDropOptions" : [
-    [ [ "steelbar", 25, { } ] ]
   ]
 }

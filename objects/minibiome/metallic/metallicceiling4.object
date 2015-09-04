@@ -2,7 +2,7 @@
   "objectName" : "metallicceiling4",
   "tags" : [ "metallic", "rusted" ],
   "rarity" : "Common",
-  "category" : "pot",
+  "category" : "decorative",
   "price" : 200,
   "printable" : false,  
   "description" : "A precursor power junction. It's broken.",
@@ -20,13 +20,5 @@
       "anchors" : [ "top" ]
 
     }
-  ],
-  "smashSounds" : [ "/sfx/tools/axe_chop_alt_heavy.wav" ],
-  "smashDropOptions" : [
-    [ [ "durasteelbar", 7, { } ] ]
-  ],
-
-  "breakDropOptions" : [
-    [ [ "durasteelbar", 7, { } ] ]
   ]
 }

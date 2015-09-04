@@ -1,4 +1,8 @@
 {
+  "globalTagDefaults" : {
+    "flipTag" : ""
+  },
+
   "animatedParts" : {
     "stateTypes" : {
       "movement" : {

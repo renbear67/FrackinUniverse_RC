@@ -2,7 +2,7 @@
   "objectName" : "metallicmachine4",
   "tags" : [ "metallic", "rusted" ],
   "rarity" : "Common",
-  "category" : "pot",
+  "category" : "decorative",
   "price" : 400,
   "printable" : false,  
   "description" : "A portion of a particle accelerator.",
@@ -20,13 +20,5 @@
       "anchors" : [ "bottom" ]
 
     }
-  ],
-  "smashSounds" : [ "/sfx/tools/axe_chop_alt_heavy.wav" ],
-  "smashDropOptions" : [
-    [ [ "durasteelbar", 5, { } ] ]
-  ],
-
-  "breakDropOptions" : [
-    [ [ "durasteelbar", 5, { } ] ]
   ]
 }

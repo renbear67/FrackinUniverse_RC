@@ -3,7 +3,7 @@
   "frames" : "plasmaboomsmall.png",
   "animationCycle" : 0.3,
   "level" : 8,
-  "frameNumber" : 6,
+  "frameNumber" : 5,
   "speed" : 0,
   "fallSpeed" : 0,
   "animationLoops" : false,

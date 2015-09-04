@@ -2,7 +2,7 @@
   "objectName" : "metallicmachine3",
   "tags" : [ "metallic", "rusted" ],
   "rarity" : "Common",
-  "category" : "pot",
+  "category" : "decorative",
   "price" : 400,
   "printable" : false,  
   "description" : "A massive, barely functional data storage of unknown design.",
@@ -20,13 +20,5 @@
       "anchors" : [ "bottom" ]
 
     }
-  ],
-  "smashSounds" : [ "/sfx/tools/axe_chop_alt_heavy.wav" ],
-  "smashDropOptions" : [
-    [ [ "durasteelbar", 5, { } ] ]
-  ],
-
-  "breakDropOptions" : [
-    [ [ "durasteelbar", 5, { } ] ]
   ]
 }
