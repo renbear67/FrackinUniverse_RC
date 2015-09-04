@@ -5,7 +5,6 @@
   "parts" : [ "body" ],
 
   "animation" : "fumechspider.animation",
-  "colors" : "/monsters/colors.config",
   "reversed" : true,
 
   "dropPools" : [ "robotTreasure" ],
@@ -49,15 +48,15 @@
     },
 
     "metaBoundBox" : [-1.25, -1.25, 1.25, 1.25],
-    "scale" : 1.4,
+    "scale" : 1.5,
 
     "movementSettings" : {
       "collisionPoly" : [ [-1.25, -0.75], [-0.75, -1.25], [0.75, -1.25], [1.25, -0.75], [1.25, 0.75], [0.75, 1.25], [-0.75, 1.25], [-1.25, 0.75] ],
 
       "mass" : 1.0,
-      "walkSpeed" : 6,
-      "runSpeed" : 8,
-      "jumpSpeed" : 10,
+      "walkSpeed" : 8,
+      "runSpeed" : 10,
+      "jumpSpeed" : 12,
       "flySpeed" : 16,
       "airFriction" : 0.1,
       "airForce" : 100.0,
@@ -100,10 +99,10 @@
 
       "stats" : {
         "maxHealth" : {
-          "baseValue" : 90
+          "baseValue" : 48
         },
         "protection" : {
-          "baseValue" : 1.7
+          "baseValue" : 1.0
         },
         "healthRegen" : {
           "baseValue" : 0.0
