@@ -1,6 +1,22 @@
 {
   "name" : "dryriverbed",
   "friendlyName" : "Dry Riverbed",
+   "spawnProfiles" : [
+    {
+      "groups" : [ "mediumsurface1", "fu_thickjungle" ],
+      "extraSpawns" : [ "dustmoth", "sunskipper", "goldbuck", "fuscorpion", "deserttortoisecritter", "vulturecritter"  ],
+      "monsterParameters" : {
+        "colors" : "desert"
+      }    
+    },
+    {
+      "groups" : [ "mediumsurface2", "fu_thickjungle" ],
+      "extraSpawns" : [ "dustmoth", "sunskipper", "goldbuck", "fuscorpion", "deserttortoisecritter", "vulturecritter"  ],
+      "monsterParameters" : {
+        "colors" : "desert"
+      }
+    }
+  ], 
   "hueShiftOptions" : [-40, -25, 0, 25, 40],
     "mainBlock" : "drydirt",
     "subBlocks" : [ "dirt", "cobblestone" ],

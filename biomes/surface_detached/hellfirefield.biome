@@ -2,7 +2,22 @@
   "name" : "hellfirefield",
   "friendlyName" : "Hellfire Field",
   "hueShiftOptions" : [-40, -25, 0, 25, 40],
-
+  "spawnProfiles" : [
+    {
+      "groups" : [ "hardsurface1" ],
+      "extraSpawns" : [ "greentip", "blueback", "birdcritter", "squirrelcritter", "snail", "sporelingcritter", "owlcritter", "blipcritter", "mousecritter", "fireflyspawner" ],
+      "monsterParameters" : {
+        "colors" : "magma"
+      }
+    },
+    {
+      "groups" : [ "hardsurface2" ],
+      "extraSpawns" : [ "blueback", "redwing", "birdcritter", "squirrelcritter", "snail", "sporelingcritter", "owlcritter", "blipcritter", "mousecritter", "fireflyspawner" ],
+      "monsterParameters" : {
+        "colors" : "magma"
+      }
+    }
+  ],
     "mainBlock" : "magmatile4",
     "subBlocks" : [ "magmatile1", "magmatile2", "protorock", "glasssand" ],
     "ores" : "surfaceOres",

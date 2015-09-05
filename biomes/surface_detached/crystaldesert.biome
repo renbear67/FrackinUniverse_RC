@@ -2,7 +2,17 @@
   "name" : "crystaldesert",
   "friendlyName" : "Crystalline Desert",
   "hueShiftOptions" : [ -125, -40, -25, 0, 25, 40, 125 ],
+  "spawnProfiles" : [
+    {
+      "groups" : [ "mediumsurface1" ],
+      "extraSpawns" : [ "xenofly","snowskater", "fusnowball", "bouncercritter", "reasonablecritter", "snooglecritter" ]
+    },
+    {
+      "groups" : [ "mediumsurface2" ],
+      "extraSpawns" : [ "xenofly","snowskater", "fusnowball", "bouncercritter", "reasonablecritter", "snooglecritter" ]
 
+    }
+  ],
     "mainBlock" : "crystalsand",
     "subBlocks" : [ "purplecrystal", "supermatter" ],
     "ores" : "ff_crystalmoonOres",

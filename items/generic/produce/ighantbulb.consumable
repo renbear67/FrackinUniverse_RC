@@ -4,7 +4,7 @@
   "inventoryIcon" : "ighantbulb.png",
   "description" : "Strange rubbery plant loaded with yum.",
   "shortdescription" : "Ighant Bulb",
-  "learnBlueprintsOnPickup" : [ "banehammer" ],
+  "learnBlueprintsOnPickup" : [ "banehammer", "banespear" ],
   "effects" : [ [
       {
         "effect" : "bouncy",

@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "obsidianshard", "count" : 8 },
+    { "item" : "imperviumcompound", "count" : 12 },
+    { "item" : "hellfireplantseed", "count" : 2 },
+    { "item" : "ignuschili", "count" : 2 },
+    { "item" : "penumbriteshard", "count" : 6 }
+  ],
+  "output" : {
+    "item" : "hellfirespear",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "weapons", "all" ]
+}

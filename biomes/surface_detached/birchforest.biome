@@ -2,7 +2,22 @@
   "name" : "birchforest",
   "friendlyName" : "Birch Forest",
   "hueShiftOptions" : [-40, -25, 0, 25, 40],
-
+  "spawnProfiles" : [
+    {
+      "groups" : [ "easysurface1", "fu_arboreal" ],
+      "extraSpawns" : [ "fireflyspawner", "greentip", "blueback", "aurorabee", "birdcritter", "bunny", "chevcritter", "groopcritter", "harecritter", "hedgehogcritter", "redbreastcritter", "squirrelcritter" ],
+      "monsterParameters" : {
+        "colors" : "forest"
+      }    
+    },
+    {
+      "groups" : [ "easysurface2", "fu_arboreal" ],
+      "extraSpawns" : [ "fireflyspawner", "greentip", "blueback", "aurorabee", "birdcritter", "bunny", "chevcritter", "groopcritter", "harecritter", "hedgehogcritter", "redbreastcritter", "squirrelcritter" ],
+      "monsterParameters" : {
+        "colors" : "forest"
+      }  
+    }
+  ],
     "mainBlock" : "dirt",
     "subBlocks" : [ "cobblestone", "floweryblock" ],
     "ores" : "surfaceOres",

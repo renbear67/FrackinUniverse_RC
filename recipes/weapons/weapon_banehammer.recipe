@@ -1,11 +1,8 @@
 {
   "input" : [
-    { "item" : "rawminerals", "count" : 25 },
     { "item" : "ceruliumcompound", "count" : 9 },
-    { "item" : "lead", "count" : 12 },
-    { "item" : "haleflowerseed", "count" : 3 },
-    { "item" : "ighantseed", "count" : 3 },
-    { "item" : "liquidirradium", "count" : 24 }
+    { "item" : "ighantseed", "count" : 2 },
+    { "item" : "liquidirradium", "count" : 12 }
   ],
   "output" : {
     "item" : "banehammer",

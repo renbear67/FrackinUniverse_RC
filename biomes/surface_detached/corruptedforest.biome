@@ -1,7 +1,22 @@
 {
   "name" : "corruptedforest",
   "friendlyName" : "Eldritch Forest",
-  
+  "spawnProfiles" : [
+    {
+      "groups" : [ "hardsurface1", "fu_arboreal" ],
+      "extraSpawns" : [ "fireflyspawner", "greentip", "blueback", "aurorabee", "birdcritter", "bunny", "chevcritter", "groopcritter", "harecritter", "hedgehogcritter", "redbreastcritter", "squirrelcritter" ],
+      "monsterParameters" : {
+        "colors" : "desert"
+      }    
+    },
+    {
+      "groups" : [ "hardsurface2", "fu_arboreal" ],
+      "extraSpawns" : [ "fireflyspawner", "greentip", "blueback", "aurorabee", "birdcritter", "bunny", "chevcritter", "groopcritter", "harecritter", "hedgehogcritter", "redbreastcritter", "squirrelcritter" ],
+      "monsterParameters" : {
+        "colors" : "desert"
+      }  
+    }
+  ],
   "hueShiftOptions" : [-225, -165, -70, -25, 0, 25, 70, 165, 225],
 
     "mainBlock" : "alienrock",

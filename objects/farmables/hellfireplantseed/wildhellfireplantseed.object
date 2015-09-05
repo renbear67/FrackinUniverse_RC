@@ -6,8 +6,7 @@
   "shortdescription" : "Hellfire Plant Seed",
   "objectType" : "farmable",
   "printable" : false, 
-    "objectItem" : "dnasample",
-  "learnBlueprintsOnPickup" : [ "hellfireblade", "hellfire1hand" ],
+  "objectItem" : "dnasample",
   "inventoryIcon" : "hellfireplantseedicon.png",
   "orientations" : [
     {

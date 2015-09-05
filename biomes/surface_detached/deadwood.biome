@@ -2,7 +2,16 @@
   "name" : "deadwood",
   "friendlyName" : "Deadwood",
   "hueShiftOptions" : [-40, -25, 0, 25, 40],
-
+  "spawnProfiles" : [
+    {
+      "groups" : [ "hardsurface1" ],
+      "extraSpawns" : [ ]
+    },
+    {
+      "groups" : [ "hardsurface2" ],
+      "extraSpawns" : [ ]
+    }
+  ],
     "mainBlock" : "bonematerial",
     "subBlocks" : [ "drydirt", "sand2", "biorock" ],
     "ores" : "surfaceOres",

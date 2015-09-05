@@ -4,12 +4,20 @@
   
   "spawnProfiles" : [
     {
-      "groups" : [ "mediumsurface1" ],
-      "extraSpawns" : [ ]
-    },
-    {
-      "groups" : [ "mediumsurface2" ],
-      "extraSpawns" : [ ]
+      "groups" : [ "oceanfloor" ],
+      "extraSpawns" : [ ],
+    "monsterParameters" : {
+        "statusSettings" : {
+          "stats" : {
+            "lavaImmunity" : {
+              "baseValue" : 1.0
+            },
+            "fireImmunity" : {
+              "baseValue" : 1.0
+            }
+          }
+        }
+    }
     }
   ],
 

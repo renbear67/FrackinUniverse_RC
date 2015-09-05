@@ -1,7 +1,22 @@
 {
   "name" : "cloudforest",
   "friendlyName" : "Cloud Forest",
-  
+  "spawnProfiles" : [
+    {
+      "groups" : [ "easysurface1", "fu_arboreal" ],
+      "extraSpawns" : [ "fireflyspawner", "greentip", "blueback", "aurorabee", "birdcritter", "bunny", "chevcritter", "groopcritter", "harecritter", "hedgehogcritter", "redbreastcritter", "squirrelcritter" ],
+      "monsterParameters" : {
+        "colors" : "forest"
+      }    
+    },
+    {
+      "groups" : [ "easysurface2", "fu_arboreal" ],
+      "extraSpawns" : [ "fireflyspawner", "greentip", "blueback", "aurorabee", "birdcritter", "bunny", "chevcritter", "groopcritter", "harecritter", "hedgehogcritter", "redbreastcritter", "squirrelcritter" ],
+      "monsterParameters" : {
+        "colors" : "forest"
+      }  
+    }
+  ],
   "hueShiftOptions" : [-225, -165, -70, -25, 0, 25, 70, 165, 225],
 
     "mainBlock" : "cloudblock",

@@ -1,7 +1,16 @@
 {
   "name" : "bloodstonefield",
   "friendlyName" : "Bloodstone Woods",
-  
+  "spawnProfiles" : [
+    {
+      "groups" : [ "mediumsurface1", "fu_bloodstone" ],
+      "extraSpawns" : [ "fawnfly", "brightstripe", "bloodtoadcritter"  ]
+    },
+    {
+      "groups" : [ "mediumsurface2", "fu_bloodstone" ],
+      "extraSpawns" : [ "fawnfly", "bloodtoadcritter"  ]
+    }
+  ],
     "mainBlock" : "bloodstonetile2",
     "subBlocks" : [ "bloodstonetile", "obsidian" ],
     "ores" : "surfaceOres",

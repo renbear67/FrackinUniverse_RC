@@ -7,7 +7,24 @@
   "subBlocks" : [ "mud", "sandstone01" ],
   "ores" : "surfaceOres",
 
-
+  "spawnProfiles" : [
+    {
+      "groups" : [ "oceanfloor" ],
+      "extraSpawns" : [ ],
+    "monsterParameters" : {
+        "statusSettings" : {
+          "stats" : {
+            "lavaImmunity" : {
+              "baseValue" : 1.0
+            },
+            "fireImmunity" : {
+              "baseValue" : 1.0
+            }
+          }
+        }
+    }
+    }
+  ],
 
   "surfacePlaceables" : {
     "grassMod" : [ "sand" ],

@@ -51,11 +51,11 @@
       "canOpenDoors" : true
     },
 
-    "metaBoundBox" : [-1.75, -2.5, 1.75, 2.5],
+    "metaBoundBox" : [-2.05, -1.8, 1.85, 1.85],
     "scale" : 1.0,
 
     "movementSettings" : {
-      "collisionPoly" : [ [-1.75, -2.5], [1.75, -2.5], [1.75, 2.5], [-1.75, 2.5] ],
+      "collisionPoly" : [ [-2.833,2.458], [2.917,2.125], [-2.75,-3.708], [2.917,-3.917] ],
 
       "mass" : 1.0,
       "walkSpeed" : 4,
@@ -103,10 +103,10 @@
 
       "stats" : {
         "maxHealth" : {
-          "baseValue" : 400
+          "baseValue" : 150
         },
         "protection" : {
-          "baseValue" : 1.0
+          "baseValue" : 25.0
         },
         "healthRegen" : {
           "baseValue" : 0.0

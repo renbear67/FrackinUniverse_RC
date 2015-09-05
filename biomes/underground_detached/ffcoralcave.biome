@@ -60,15 +60,6 @@
       },
       {
         "mode" : "floor",
-        "priority" : 0.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:minibiomeChests",
-
-        "type" : "microdungeon",
-        "microdungeons" : [ "coraltemple" ]
-      },
-      {
-        "mode" : "floor",
         "priority" : 1.0,
         "variants" : 1,
         "distribution" : "/biomes/distributions.config:denseLarge",

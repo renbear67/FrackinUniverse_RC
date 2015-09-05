@@ -6,6 +6,23 @@
     "subBlocks" : [ "wastestone" ],
     "ores" : "surfaceOres",
 
+   "spawnProfiles" : [
+    {
+      "groups" : [ "mediumsurface1", "fu_thickjungle" ],
+      "extraSpawns" : [ "dustmoth", "sunskipper", "goldbuck", "fuscorpion", "deserttortoisecritter", "vulturecritter"  ],
+      "monsterParameters" : {
+        "colors" : "desert"
+      }    
+    },
+    {
+      "groups" : [ "mediumsurface2", "fu_thickjungle" ],
+      "extraSpawns" : [ "dustmoth", "sunskipper", "goldbuck", "fuscorpion", "deserttortoisecritter", "vulturecritter"  ],
+      "monsterParameters" : {
+        "colors" : "desert"
+      }
+    }
+  ],  
+  
   "surfacePlaceables" : {
     "grassMod" : [ "redsand" ],
     "grassModDensity" : 0.9,

@@ -5,6 +5,17 @@
   "airless" : true,
   "breathable" : false,
 
+  "spawnProfiles" : [
+    {
+      "groups" : [ "fu_metallicmoon" ],
+      "extraSpawns" : [ "fudrone" ]
+    },
+    {
+      "groups" : [ "fu_metallicmoon" ],
+      "extraSpawns" : [ "fudrone" ]
+    }
+  ],
+  
   "hueShiftOptions" : [-54, -120, 0, 20],
   
   "mainBlock" : "pressurizedsteel",

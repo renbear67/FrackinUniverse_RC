@@ -4,12 +4,39 @@
 
   "spawnProfiles" : [
     {
-      "groups" : [ "mediumsurface1" ],
-      "extraSpawns" : [ ]
+      "groups" : [ "hardsurface1", "fu_atropus" ],
+      "extraSpawns" : [ "apexscabcritter", "avianscabcritter", "eyefriend", "eyepodcritter", "floranscabcritter", "glitchscabcritter", "humanscabcritter", "hylotlscabcritter", "maggotcritter" ],
+      "monsterParameters" : {
+        "colors" : "forest",
+        "statusSettings" : {
+          "stats" : {
+            "pusImmunity" : {
+              "baseValue" : 1.0
+            },
+            "biooozeImmunity" : {
+              "baseValue" : 1.0
+            }
+          }
+        }
+      }
     },
     {
-      "groups" : [ "mediumsurface2" ],
-      "extraSpawns" : [ ]
+      "groups" : [ "hardsurface2", "fu_atropus" ],
+      "extraSpawns" : [ "apexscabcritter", "avianscabcritter", "eyefriend", "eyepodcritter", "floranscabcritter", "glitchscabcritter", "humanscabcritter", "hylotlscabcritter", "maggotcritter" ],
+
+      "monsterParameters" : {
+        "colors" : "forest",
+        "statusSettings" : {
+          "stats" : {
+            "pusImmunity" : {
+              "baseValue" : 1.0
+            },
+            "biooozeImmunity" : {
+              "baseValue" : 1.0
+            }
+          }
+        }
+      }
     }
   ],
 

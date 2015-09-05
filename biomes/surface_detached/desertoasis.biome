@@ -2,7 +2,22 @@
   "name" : "desertoasis",
   "friendlyName" : "Colorful Desert Oasis",
   "hueShiftOptions" : [-40, -25, 0, 25, 40],
-
+   "spawnProfiles" : [
+    {
+      "groups" : [ "mediumsurface1", "fu_thickjungle" ],
+      "extraSpawns" : [ "dustmoth", "sunskipper", "goldbuck", "fuscorpion", "deserttortoisecritter", "vulturecritter"  ],
+      "monsterParameters" : {
+        "colors" : "desert"
+      }    
+    },
+    {
+      "groups" : [ "mediumsurface2", "fu_thickjungle" ],
+      "extraSpawns" : [ "dustmoth", "sunskipper", "goldbuck", "fuscorpion", "deserttortoisecritter", "vulturecritter"  ],
+      "monsterParameters" : {
+        "colors" : "desert"
+      }
+    }
+  ], 
     "mainBlock" : "rainbowsand",
     "subBlocks" : [ "wetdirt", "sandstone01" ],
     "ores" : "surfaceOres",

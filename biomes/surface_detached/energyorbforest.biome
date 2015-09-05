@@ -4,12 +4,30 @@
 
   "spawnProfiles" : [
     {
-      "groups" : [ "mediumsurface1" ],
-      "extraSpawns" : [ ]
+      "groups" : [ "mediumsurface1", "fu_protoworld" ],
+      "extraSpawns" : [ "fireflyspawner", "phoenixfly", "orphanfly", "bouncercritter", "glowingballcritter2" ],
+      "monsterParameters" : {
+        "statusSettings" : {
+          "stats" : {
+            "biooozeImmunity" : {
+              "baseValue" : 1.0
+            }
+          }
+        }
+      }
     },
     {
-      "groups" : [ "mediumsurface2" ],
-      "extraSpawns" : [ ]
+      "groups" : [ "mediumsurface2", "fu_protoworld" ],
+      "extraSpawns" : [ "fireflyspawner", "phoenixfly", "orphanfly", "bouncercritter", "glowingballcritter2" ],
+      "monsterParameters" : {
+        "statusSettings" : {
+          "stats" : {
+            "biooozeImmunity" : {
+              "baseValue" : 1.0
+            }
+          }
+        }
+      }
     }
   ],
 

@@ -1,0 +1,12 @@
+{
+  "input" : [
+   { "item" : "duresteelbar", "count" : 4 },
+   { "item" : "eridianbar", "count" : 2 },
+   { "item" : "powercore", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "mechpistol",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "weapons", "all" ]
+}

@@ -1,7 +1,17 @@
 {
   "name" : "blackslimebog",
   "friendlyName" : "Black Slime Bog",
+  "spawnProfiles" : [
+    {
+      "groups" : [ "hardsurface1", "fu_bog" ],
+      "extraSpawns" : [ "fireflyspawner", "muddancer", "mudstag", "shardwing", "funewt", "mousecritter", "owlcritter", "squeekcritter", "tinycrocodilecritter" ]
+    },
+    {
+      "groups" : [ "hardsurface2", "fu_bog" ],
+      "extraSpawns" : [ "fireflyspawner", "muddancer", "mudstag", "shardwing","funewt", "mousecritter", "owlcritter", "squeekcritter", "tinycrocodilecritter" ]
 
+    }
+  ],
     "mainBlock" : "blackslime",
     "subBlocks" : [ "slime", "slime2", "protorock" ],
     "ores" : "surfaceOres",

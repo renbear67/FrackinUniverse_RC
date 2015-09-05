@@ -1,11 +1,11 @@
 {
   "projectileName" : "precursorshot",
   "frames" : "precursorshot.png",
-  "physics" : "laser",
-  "timeToLive" : 2.36,
+  "physics" : "rocket",
+  "timeToLive" : 1.36,
   "animationCycle" : 0.2,
   "damageKindImage" : "icon.png",
-  "frameNumber" : 16,
+  "frameNumber" : 6,
   "level" : 1,
   "power" : 0.1,
   "lightColor" : [30, 120, 0],
@@ -16,7 +16,7 @@
   "actionOnReap" : [
     {
       "action" : "config",
-      "file" : "/projectiles/explosions/protominerexplosion.config"
+      "file" : "/projectiles/explosions/precursorexplosion/precursorexplosion.config"
     }
   ]
   

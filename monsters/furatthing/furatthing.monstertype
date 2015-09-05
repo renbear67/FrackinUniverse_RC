@@ -56,7 +56,7 @@
       "canOpenDoors" : false
     },
 
-    "metaBoundBox" : [-2, -2, 2, 2],
+    "metaBoundBox" : [-2, -0.55, 1.0, 0.75],
     "scale" : 1.0,
 
     "exhaustionTimer" : 3.0,

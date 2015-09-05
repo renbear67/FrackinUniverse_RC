@@ -2,7 +2,17 @@
   "name" : "crystalplain",
   "friendlyName" : "Crystalline Volcanic",
   "hueShiftOptions" : [-195, -125, -40, -25, 0, 25, 40, 125, 195],
+  "spawnProfiles" : [
+    {
+      "groups" : [ "mediumsurface1" ],
+      "extraSpawns" : [ "xenofly","snowskater", "fusnowball", "bouncercritter", "reasonablecritter", "snooglecritter" ]
+    },
+    {
+      "groups" : [ "mediumsurface2" ],
+      "extraSpawns" : [ "xenofly","snowskater", "fusnowball", "bouncercritter", "reasonablecritter", "snooglecritter" ]
 
+    }
+  ],
     "mainBlock" : "purplecrystal",
     "subBlocks" : [ "magmarock", "obsidian" ],
     "ores" : "ff_crystalmoonOres",

@@ -2,16 +2,22 @@
   "name" : "aliendesert",
   "friendlyName" : "aliendesert",
 
-  "spawnProfiles" : [
+   "spawnProfiles" : [
     {
-      "groups" : [ "mediumsurface1" ],
-      "extraSpawns" : [ ]
+      "groups" : [ "mediumsurface1", "fu_thickjungle" ],
+      "extraSpawns" : [ "dustmoth", "sunskipper", "goldbuck", "fuscorpion", "deserttortoisecritter", "vulturecritter"  ],
+      "monsterParameters" : {
+        "colors" : "desert"
+      }    
     },
     {
-      "groups" : [ "mediumsurface2" ],
-      "extraSpawns" : [ ]
+      "groups" : [ "mediumsurface2", "fu_thickjungle" ],
+      "extraSpawns" : [ "dustmoth", "sunskipper", "goldbuck", "fuscorpion", "deserttortoisecritter", "vulturecritter"  ],
+      "monsterParameters" : {
+        "colors" : "desert"
+      }
     }
-  ],
+  ],   
   
   "hueShiftOptions" : [-165, -70, -25, 0, 25, 70, 125, 165],
 

@@ -3,7 +3,22 @@
   "friendlyName" : "alienforest",
 
   "hueShiftOptions" : [-165, -70, -25, 0, 25, 70, 125, 165],
-
+  "spawnProfiles" : [
+    {
+      "groups" : [ "easysurface1", "fu_arboreal" ],
+      "extraSpawns" : [ "fireflyspawner", "greentip", "blueback", "aurorabee", "birdcritter", "bunny", "chevcritter", "groopcritter", "harecritter", "hedgehogcritter", "redbreastcritter", "squirrelcritter" ],
+      "monsterParameters" : {
+        "colors" : "forest"
+      }    
+    },
+    {
+      "groups" : [ "easysurface2", "fu_arboreal" ],
+      "extraSpawns" : [ "fireflyspawner", "greentip", "blueback", "aurorabee", "birdcritter", "bunny", "chevcritter", "groopcritter", "harecritter", "hedgehogcritter", "redbreastcritter", "squirrelcritter" ],
+      "monsterParameters" : {
+        "colors" : "forest"
+      }  
+    }
+  ],
     "mainBlock" : "alienrock",
     "subBlocks" : [ "eyepiles", "biodirt", "bioblock2" ],
     "ores" : "surfaceOres",

@@ -2,7 +2,22 @@
   "name" : "icefire",
   "friendlyName" : "Icefire Forest",
   "hueShiftOptions" : [-40, -25, 0, 25, 40],
-
+  "spawnProfiles" : [
+    {
+      "groups" : [ "mediumsurface1" ],
+      "extraSpawns" : [ "greentip", "blueback", "birdcritter", "squirrelcritter", "snail", "sporelingcritter", "owlcritter", "blipcritter", "mousecritter", "fireflyspawner" ],
+      "monsterParameters" : {
+        "colors" : "snow"
+      }
+    },
+    {
+      "groups" : [ "mediumsurface2" ],
+      "extraSpawns" : [ "blueback", "redwing", "birdcritter", "squirrelcritter", "snail", "sporelingcritter", "owlcritter", "blipcritter", "mousecritter", "fireflyspawner" ],
+      "monsterParameters" : {
+        "colors" : "snow"
+      }
+    }
+  ],
     "mainBlock" : "iceblock3",
     "subBlocks" : [ "magmarock", "snow", "iceblock4", "protorock" ],
     "ores" : "depth3",

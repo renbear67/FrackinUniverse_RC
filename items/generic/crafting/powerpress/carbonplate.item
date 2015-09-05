@@ -5,5 +5,5 @@
   "description" : "Carbon plating can be used for armor or other goods.",
   "shortdescription" : "^#77acc3;Carbon Plate^white;",
   "category" : "Metal Plate",
-  "learnBlueprintsOnPickup" : [ "carbonbow", "carbonblade", "napalmcannon", "ff_diamondplating" ]
+  "learnBlueprintsOnPickup" : [ "carbonspear", "carbonbow", "carbonblade", "napalmcannon", "ff_diamondplating" ]
 }

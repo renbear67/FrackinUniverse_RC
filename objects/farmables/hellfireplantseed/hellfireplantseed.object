@@ -7,7 +7,7 @@
   "objectType" : "farmable",
   "printable" : false,
 
-  "learnBlueprintsOnPickup" : [ "hellfirepistol", "hellfirecannon", "hellfireblade", "hellfire1hand" ],
+  "learnBlueprintsOnPickup" : [ "hellfirespear", "hellfirepistol", "hellfirecannon", "hellfireblade", "hellfire1hand" ],
   "inventoryIcon" : "hellfireplantseedicon.png",
   "orientations" : [
     {

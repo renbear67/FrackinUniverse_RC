@@ -7,7 +7,48 @@
     "subBlocks" : [ "sulphurstone", "drydirt" ],
     "ores" : "ff_surfacesulfurOres",
 
+    "spawnProfiles" : [
+    {
+      "groups" : [ "hardsurface2", "fu_ash" ],
+      "extraSpawns" : [ "flameroach", "lavahopper", "fufireball" ],
+      "monsterParameters" : {
+        "statusSettings" : {
+          "stats" : {
+            "lavaImmunity" : {
+              "baseValue" : 1.0
+            },
+            "fireImmunity" : {
+              "baseValue" : 1.0
+            },
+            "ffextremeheatImmunity" : {
+              "baseValue" : 1.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "groups" : [ "hardsurface1", "fu_ash" ],
+      "extraSpawns" : [ "flameroach", "fireygiant", "fufireball" ],
+      "monsterParameters" : {
+        "statusSettings" : {
 
+          "stats" : {
+            "lavaImmunity" : {
+              "baseValue" : 1.0
+            },
+            "fireImmunity" : {
+              "baseValue" : 1.0
+            },
+            "ffextremeheatImmunity" : {
+              "baseValue" : 1.0
+            }
+          }
+        }
+      }
+    }
+  ],
+  
   "surfacePlaceables" : {
     "grassMod" : [ "sulphuricgrass" ],
     "grassModDensity" : 0.9,

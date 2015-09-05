@@ -1,7 +1,16 @@
 {
   "name" : "cellfield",
   "friendlyName" : "Cellular Expanse",
-
+  "spawnProfiles" : [
+    {
+      "groups" : [ "mediumsurface1", "fu_bog" ],
+      "extraSpawns" : [ "fireflyspawner", "muddancer", "mudstag", "shardwing", "funewt", "mousecritter", "owlcritter", "squeekcritter", "tinycrocodilecritter" ]
+    },
+    {
+      "groups" : [ "mediumsurface2", "fu_bog" ],
+      "extraSpawns" : [ "fireflyspawner", "muddancer", "mudstag", "shardwing","funewt", "mousecritter", "owlcritter", "squeekcritter", "tinycrocodilecritter" ]
+    }
+  ],
   "hueShiftOptions" : [-165, -70, -25, 0, 25, 70, 165],
 
     "mainBlock" : "fleshblock",

@@ -2,17 +2,22 @@
   "name" : "finesand",
   "friendlyName" : "Fine Sand",
 
-  "spawnProfiles" : [
+   "spawnProfiles" : [
     {
-      "groups" : [ "mediumsurface1" ],
-      "extraSpawns" : [ ]
+      "groups" : [ "mediumsurface1", "fu_thickjungle" ],
+      "extraSpawns" : [ "dustmoth", "sunskipper", "goldbuck", "fuscorpion", "deserttortoisecritter", "vulturecritter"  ],
+      "monsterParameters" : {
+        "colors" : "desert"
+      }    
     },
     {
-      "groups" : [ "mediumsurface2" ],
-      "extraSpawns" : [ ]
+      "groups" : [ "mediumsurface2", "fu_thickjungle" ],
+      "extraSpawns" : [ "dustmoth", "sunskipper", "goldbuck", "fuscorpion", "deserttortoisecritter", "vulturecritter"  ],
+      "monsterParameters" : {
+        "colors" : "desert"
+      }
     }
-  ],
-
+  ],   
   "hueShiftOptions" : [-90, -45, 0, 45, 90],
 
   "mainBlock" : "sand",

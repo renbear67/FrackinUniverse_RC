@@ -3,7 +3,16 @@
   "friendlyName" : "Ash Garden",
 
   "hueShiftOptions" : [-165, -70, -25, 0, 25, 70, 165],
-
+  "spawnProfiles" : [
+    {
+      "groups" : [ "mediumsurface1" ],
+      "extraSpawns" : [ ]
+    },
+    {
+      "groups" : [ "mediumsurface2" ],
+      "extraSpawns" : [ ]
+    }
+  ],
     "mainBlock" : "ash",
     "subBlocks" : [ "ash" ],
     "ores" : "surfaceOres",
