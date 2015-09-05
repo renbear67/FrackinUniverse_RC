@@ -4,12 +4,49 @@
 
   "spawnProfiles" : [
     {
-      "profiles" : [ "mediumunderground1" ],
-      "extraSpawns" : [ ]
+      "groups" : [ "hardsurface2", "fu_irradiated" ],
+      "extraSpawns" : [ "fireflyspawner", "flameroach", "blipcritter", "bowbirdcritter", "hazmatcritter", "sackbagcritter", "toxiccrabcritter" ],
+      "monsterParameters" : {
+        "statusSettings" : {
+          "stats" : {
+            "biooozeImmunity" : {
+              "baseValue" : 1.0
+            },
+            "poisonImmunity" : {
+              "baseValue" : 1.0
+            },
+            "ffextremeradiationImmunity" : {
+              "baseValue" : 1.0
+            },            
+            "biomeradiationImmunity" : {
+              "baseValue" : 1.0
+            }
+          }
+        }
+      }
     },
     {
-      "profiles" : [ "mediumunderground2" ],
-      "extraSpawns" : [ ]
+      "groups" : [ "hardsurface1", "fu_irradiated" ],
+      "extraSpawns" : [ "fireflyspawner", "fireygiant", "blipcritter", "bowbirdcritter", "hazmatcritter", "sackbagcritter", "toxiccrabcritter" ],
+
+      "monsterParameters" : {
+        "statusSettings" : {
+          "stats" : {
+            "biooozeImmunity" : {
+              "baseValue" : 1.0
+            },
+            "poisonImmunity" : {
+              "baseValue" : 1.0
+            },
+            "ffextremeradiationImmunity" : {
+              "baseValue" : 1.0
+            },            
+            "biomeradiationImmunity" : {
+              "baseValue" : 1.0
+            }
+          }
+        }
+      }
     }
   ],
 

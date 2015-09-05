@@ -4,14 +4,21 @@
 
   "spawnProfiles" : [
     {
-      "profiles" : [ "mediumunderground1" ],
-      "extraSpawns" : [ ]
+      "groups" : [ "easysurface1", "fu_arboreal" ],
+      "extraSpawns" : [ "fireflyspawner", "greentip", "blueback", "aurorabee", "birdcritter", "bunny", "chevcritter", "groopcritter", "harecritter", "hedgehogcritter", "redbreastcritter", "squirrelcritter" ],
+      "monsterParameters" : {
+        "colors" : "forest"
+      }    
     },
     {
-      "profiles" : [ "mediumunderground2" ],
-      "extraSpawns" : [ ]
+      "groups" : [ "easysurface2", "fu_arboreal" ],
+      "extraSpawns" : [ "fireflyspawner", "greentip", "blueback", "aurorabee", "birdcritter", "bunny", "chevcritter", "groopcritter", "harecritter", "hedgehogcritter", "redbreastcritter", "squirrelcritter" ],
+      "monsterParameters" : {
+        "colors" : "forest"
+      }  
     }
   ],
+
 
     "mainBlock" : "plantmatter",
     "subBlocks" : [ "dirt", "clay", "mud" ],

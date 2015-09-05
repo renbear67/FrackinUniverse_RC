@@ -2,14 +2,45 @@
   "name" : "infernusunderground",
   "friendlyName" : "Scorching Caverns",
 
-  "spawnProfiles" : [
+    "spawnProfiles" : [
     {
-      "profiles" : [ "mediumunderground1" ],
-      "extraSpawns" : [ ]
+      "groups" : [ "hardsurface2", "fu_ash" ],
+      "extraSpawns" : [ "flameroach", "lavahopper", "fufireball" ],
+      "monsterParameters" : {
+        "statusSettings" : {
+          "stats" : {
+            "lavaImmunity" : {
+              "baseValue" : 1.0
+            },
+            "fireImmunity" : {
+              "baseValue" : 1.0
+            },
+            "ffextremeheatImmunity" : {
+              "baseValue" : 1.0
+            }
+          }
+        }
+      }
     },
     {
-      "profiles" : [ "mediumunderground2" ],
-      "extraSpawns" : [ ]
+      "groups" : [ "hardsurface1", "fu_ash" ],
+      "extraSpawns" : [ "flameroach", "fireygiant", "fufireball" ],
+      "monsterParameters" : {
+        "statusSettings" : {
+
+          "stats" : {
+            "lavaImmunity" : {
+              "baseValue" : 1.0
+            },
+            "fireImmunity" : {
+              "baseValue" : 1.0
+            },
+            "ffextremeheatImmunity" : {
+              "baseValue" : 1.0
+            }
+          }
+        }
+      }
     }
   ],
 

@@ -4,12 +4,13 @@
 
   "spawnProfiles" : [
     {
-      "profiles" : [ "mediumunderground1" ],
-      "extraSpawns" : [ ]
+      "groups" : [ "mediumsurface1" ],
+      "extraSpawns" : [ "fireflyspawner", "fawnfly", "fushroomdude", "breakercritter", "breakerfemalecritter", "leafscabcritter", "slugcritter", "snail", "snakecritter", "sporelingcritter" ]
     },
     {
-      "profiles" : [ "mediumunderground2" ],
-      "extraSpawns" : [ ]
+      "groups" : [ "mediumsurface2" ],
+      "extraSpawns" : [ "fireflyspawner", "fawnfly", "fushroomdude", "breakercritter", "breakerfemalecritter", "leafscabcritter", "slugcritter", "snail", "snakecritter", "sporelingcritter" ]
+
     }
   ],
 

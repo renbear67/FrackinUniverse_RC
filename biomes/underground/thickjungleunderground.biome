@@ -4,12 +4,18 @@
 
   "spawnProfiles" : [
     {
-      "profiles" : [ "mediumunderground1" ],
-      "extraSpawns" : [ ]
+      "groups" : [ "mediumsurface1", "fu_thickjungle" ],
+      "extraSpawns" : [ "stinkjack", "fireflyspawner", "goldbuck", "scuttleploom", "frog", "harecritter", "hedgehogcritter", "petalcritter", "snakecritter", "tortoise", "tritrotscritter" ],
+      "monsterParameters" : {
+        "colors" : "jungle"
+      }
     },
     {
-      "profiles" : [ "mediumunderground2" ],
-      "extraSpawns" : [ ]
+      "groups" : [ "mediumsurface2", "fu_thickjungle" ],
+      "extraSpawns" : [ "stinkjack", "fireflyspawner", "goldbuck", "frog", "harecritter", "hedgehogcritter", "petalcritter", "snakecritter", "tortoise", "tritrotscritter" ],
+      "monsterParameters" : {
+        "colors" : "jungle"
+      }
     }
   ],
 

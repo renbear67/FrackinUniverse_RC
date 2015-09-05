@@ -4,12 +4,18 @@
 
   "spawnProfiles" : [
     {
-      "profiles" : [ "mediumunderground1" ],
-      "extraSpawns" : [ ]
+      "groups" : [ ],
+      "extraSpawns" : [ "fusnowball" ],
+      "monsterParameters" : {
+        "colors" : "ice"
+      }      
     },
     {
-      "profiles" : [ "mediumunderground2" ],
-      "extraSpawns" : [ ]
+      "groups" : [  ],
+      "extraSpawns" : [ "fusnowball" ],
+      "monsterParameters" : {
+        "colors" : "ice"
+      }      
     }
   ],
   "skyOptions" : [],

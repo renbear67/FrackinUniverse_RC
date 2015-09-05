@@ -4,12 +4,13 @@
 
   "spawnProfiles" : [
     {
-      "profiles" : [ "mediumunderground1" ],
-      "extraSpawns" : [ ]
+      "groups" : [ "mediumsurface1" ],
+      "extraSpawns" : [ "xenofly","snowskater", "fusnowball", "bouncercritter", "reasonablecritter", "snooglecritter" ]
     },
     {
-      "profiles" : [ "mediumunderground2" ],
-      "extraSpawns" : [ ]
+      "groups" : [ "mediumsurface2" ],
+      "extraSpawns" : [ "xenofly","snowskater", "fusnowball", "bouncercritter", "reasonablecritter", "snooglecritter" ]
+
     }
   ],
 

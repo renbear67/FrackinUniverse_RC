@@ -4,12 +4,36 @@
 
   "spawnProfiles" : [
     {
-      "profiles" : [ "mediumunderground1" ],
-      "extraSpawns" : [ ]
+      "groups" : [ "mediumsurface1", "fu_penumbra" ],
+      "extraSpawns" : [ "fireflyspawner", "shadowmoth", "glowingballcritter", "ravencritter" ],
+      "monsterParameters" : {
+        "statusSettings" : {
+          "stats" : {
+            "poisonImmunity" : {
+              "baseValue" : 1.0
+            },
+            "biooozeImmunity" : {
+              "baseValue" : 1.0
+            }
+          }
+        }
+      }
     },
     {
-      "profiles" : [ "mediumunderground2" ],
-      "extraSpawns" : [ ]
+      "groups" : [ "mediumsurface2", "fu_penumbra" ],
+      "extraSpawns" : [ "fireflyspawner", "shadowmoth", "glowingballcritter", "ravencritter" ],
+      "monsterParameters" : {
+        "statusSettings" : {
+          "stats" : {
+            "poisonImmunity" : {
+              "baseValue" : 1.0
+            },
+            "biooozeImmunity" : {
+              "baseValue" : 1.0
+            }
+          }
+        }
+      }
     }
   ],
 

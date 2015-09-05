@@ -4,14 +4,45 @@
 
   "spawnProfiles" : [
     {
-      "profiles" : [ "mediumunderground1" ],
-      "extraSpawns" : [ ]
+      "groups" : [ "oceansurface1" ],
+      "extraSpawns" : [ "symbiotecritter" ],
+      "monsterParameters" : {
+        "statusSettings" : {
+          "stats" : {
+            "ffextremecoldImmunity" : {
+              "baseValue" : 1.0
+            },
+            "biomecoldImmunity" : {
+              "baseValue" : 1.0
+            },
+            "nitrogenfreezeImmunity" : {
+              "baseValue" : 1.0
+            }
+          }
+        }
+      }
     },
     {
-      "profiles" : [ "mediumunderground2" ],
-      "extraSpawns" : [ ]
+      "groups" : [ "oceansurface2" ],
+      "extraSpawns" : [ "symbiotecritter" ],
+      "monsterParameters" : {
+        "statusSettings" : {
+          "stats" : {
+            "ffextremecoldImmunity" : {
+              "baseValue" : 1.0
+            },
+            "biomecoldImmunity" : {
+              "baseValue" : 1.0
+            },
+            "nitrogenfreezeImmunity" : {
+              "baseValue" : 1.0
+            }
+          }
+        }
+      }
     }
   ],
+  
   "skyOptions" : [],
   
   "mainBlock" : "frozensand2",

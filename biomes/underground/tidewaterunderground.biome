@@ -1,7 +1,18 @@
 {
   "name" : "tidewaterunderground",
   "friendlyName" : "tidewaterunderground",
-
+  
+  "spawnProfiles" : [
+    {
+      "groups" : [ "oceansurface1" ],
+      "extraSpawns" : [ "crabcritter", "gullcritter", "savybirdcritter" ]
+    },
+    {
+      "groups" : [ "oceansurface2" ],
+      "extraSpawns" : [ "crabcritter", "gullcritter", "savybirdcritter" ]
+    }
+  ],
+  
   "parallax" : "/parallax/underground/tidewaterunderground.parallax",
 
   "mainBlock" : "marestone",

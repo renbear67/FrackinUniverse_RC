@@ -4,12 +4,36 @@
 
   "spawnProfiles" : [
     {
-      "profiles" : [ "mediumunderground1" ],
-      "extraSpawns" : [ ]
+      "groups" : [ "mediumsurface1" ],
+      "extraSpawns" : [ "shadowmoth", "sackbagcritter", "slugbluecritter"  ],
+      "monsterParameters" : {
+        "statusSettings" : {
+          "stats" : {
+            "poisonImmunity" : {
+              "baseValue" : 1.0
+            },
+            "breathProtection" : {
+              "baseValue" : 1.0
+            }          
+          }
+        }
+      }   
     },
     {
-      "profiles" : [ "mediumunderground2" ],
-      "extraSpawns" : [ ]
+      "groups" : [ "mediumsurface2" ],
+      "extraSpawns" : [ "shadowmoth", "sackbagcritter", "slugbluecritter"  ],
+      "monsterParameters" : {
+        "statusSettings" : {
+          "stats" : {
+            "poisonImmunity" : {
+              "baseValue" : 1.0
+            },
+            "breathProtection" : {
+              "baseValue" : 1.0
+            }          
+          }
+        }
+      }   
     }
   ],
 
