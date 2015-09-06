@@ -94,10 +94,7 @@ function init()
       _ENV[skillName].onInit()
     end
   end
-  
 
-
-      
   self.skillChains = {}
 
   self.state = stateMachine.create(states)
@@ -123,9 +120,6 @@ function init()
     entity.setActiveSkillName(nil)
     if isSkillState(stateName) then
       setAggressive(true, false)
-      --lpk: hostile sound
-            local hstlsnd = entity.randomizeParameter("turnHostile") 
-            if hstlsnd ~= nil and entity.hasSound(hstlsnd) then entity.playSound(hstlsnd) end
       for k,v in pairs(self.skillCooldownTimers) do
         if k == stateName then
           self.skillCooldownTimers[k] = self.skillParameters[k].cooldownTime

@@ -11,14 +11,14 @@
 
       "windupTime" : 0.25,
       "winddownTime" : 0.25,
-      "shots" : 10,
+      "shots" : 6,
       "fireInterval" : 0.12,
 
       "approachPoints" : [ [-3.5, 2.0], [3.5, 2.0] ],
       "startRects" : [ [-4.0, -2.5, -3.0, 3.5], [4.0, -2.5, 3.0, 3.5] ],
 
       "projectile" : "fuplasmarifleblastsmall",
-      "power" : 10
+      "power" : 5
     }
   }
 }

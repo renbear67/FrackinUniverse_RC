@@ -32,7 +32,8 @@
  "path":"/spawnGroups/fu_arboreal",
  "value":[       
       "fuaviansentry", 
-      "fupoptop"
+      "fupoptop",
+      "furaptor"
       ] 
 },
 
@@ -40,7 +41,9 @@
  "path":"/spawnGroups/fu_bog",
  "value":[       
       "fuaviansentry", 
-      "furatthing"
+      "furatthing",
+      "furaptor",
+      "fucaterpillar"
       ] 
 },
 
@@ -191,12 +194,14 @@
 {"op":"add","path":"/spawns/shadowhound","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.05,"monsterType":"shadowhound","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/fucorruptflylarge","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.01,"monsterType":"fucorruptflylarge","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/fudeathdroid","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.01,"monsterType":"deathdroid","monsterParameters":{"aggressive":true}}},
-{"op":"add","path":"/spawns/furatthing","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.01,"monsterType":"furatthing","monsterParameters":{"aggressive":true}}},
-{"op":"add","path":"/spawns/futinybee","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.4,"monsterType":"futinybee","monsterParameters":{"aggressive":true}}},
-{"op":"add","path":"/spawns/futinybee2","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.4,"monsterType":"futinybee2","monsterParameters":{"aggressive":true}}},
+{"op":"add","path":"/spawns/furatthing","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.0275,"monsterType":"furatthing","monsterParameters":{"aggressive":true}}},
+{"op":"add","path":"/spawns/futinybee","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.56,"monsterType":"futinybee","monsterParameters":{"aggressive":true}}},
+{"op":"add","path":"/spawns/futinybee2","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.46,"monsterType":"futinybee2","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/fugiantbee","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.09,"monsterType":"fugiantbee","monsterParameters":{"aggressive":true}}},
-{"op":"add","path":"/spawns/fugiantbee2","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.09,"monsterType":"fugiantbee2","monsterParameters":{"aggressive":true}}},
+{"op":"add","path":"/spawns/fugiantbee2","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.05,"monsterType":"fugiantbee2","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/zombot","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.01,"monsterType":"zombot","monsterParameters":{"aggressive":true}}},
+{"op":"add","path":"/spawns/furaptor","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.007,"monsterType":"furaptor","monsterParameters":{"aggressive":true}}},
+{"op":"add","path":"/spawns/fucaterpillar","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.012,"monsterType":"fucaterpillar","monsterParameters":{"aggressive":true}}},
 
 
 //critters

@@ -1,32 +1,31 @@
 {
-  "type" : "zombot",
+  "type" : "warbot",
 
-  "categories" : [ "zombot" ],
+  "categories" : [ "warbot" ],
   "parts" : [ "body" ],
 
-  "animation" : "zombot.animation",
+  "animation" : "warbot.animation",
   "colors" : "/monsters/colors.config",
-  "reversed" : true,
+  "reversed" : false,
 
   "dropPools" : [ "ffmetallicbossChest", "robotTreasure" ],
 
   "baseParameters" : {
     "scripts" : [
-      "/monsters/ground/groundMonster.lua",
+      "/monsters/boss/warbot/groundMonster.lua",
       "/scripts/pathing.lua",
       "/scripts/stateMachine.lua",
       "/scripts/util.lua",
       "/scripts/vec2.lua",
-
       "/monsters/ground/approachState.lua",
       "/monsters/ground/fleeState.lua",
       "/monsters/ground/wanderState.lua",
-
+      
       "/monsters/ground/skills/createGroundRangedAttack.lua"
     ],
 
     "baseSkills" : [ "meleeAttack"],
-    "specialSkills" : [ "chargeAttack" ],
+    "specialSkills" : [ "chargeAttack", "fireSwirlAttack", "shockBallAttack", "twistingPulseAttack" ],
 
     "projectileSourcePosition" : [1.875, 1],
 
@@ -46,7 +45,7 @@
     "wanderTime" : [4.0, 6.0],
     "wanderMovementTime" : [2.0, 3.0],
 
-    "jumpTargetDistance" : 4,
+    "jumpTargetDistance" : 2,
     "jumpTime" : [1.4, 2.0],
 
     "pathing" : {
@@ -60,16 +59,16 @@
       "collisionPoly" : [ [-2.833,2.458], [2.917,2.125], [-2.75,-3.708], [2.917,-3.917] ],
 
       "mass" : 1.0,
-      "walkSpeed" : 1,
-      "runSpeed" : 2,
-      "flySpeed" : 2,
+      "walkSpeed" : 2,
+      "runSpeed" : 4,
+      "flySpeed" : 4,
       "airForce" : 50.0,
 
       "airFriction" : 0.0,
       "airJumpProfile" : {
         "jumpSpeed" : 15.0,
-        "jumpInitialPercentage" : 0.15,
-        "jumpHoldTime" : 0.5              
+        "jumpInitialPercentage" : 1.0,
+        "jumpHoldTime" : 0.0              
       }
     },
 
@@ -103,10 +102,10 @@
 
       "stats" : {
         "maxHealth" : {
-          "baseValue" : 222
+          "baseValue" : 160
         },
         "protection" : {
-          "baseValue" : 75.0
+          "baseValue" : 50.0
         },
         "healthRegen" : {
           "baseValue" : 0.0

@@ -16,5 +16,5 @@
       "file" : "/projectiles/explosions/precursorexplosion/precursorexplosion.config"
     }
   ],
-  "damageKind" : "poisonplasma"
+  "damageKind" : "slash"
 }

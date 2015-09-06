@@ -5,7 +5,22 @@
   "spawnProfiles" : [
     {
       "groups" : [ "fu_metallicmoon" ],
-      "extraSpawns" : [ "fudrone" ]
+      "extraSpawns" : [ "fudrone" ],
+      "monsterParameters" : {
+        "statusSettings" : {
+          "stats" : {
+            "lavaImmunity" : {
+              "baseValue" : 1.0
+            },
+            "poisonImmunity" : {
+              "baseValue" : 1.0
+            },
+            "ffextremeheatImmunity" : {
+              "baseValue" : 1.0
+            }
+          }
+        }
+      }      
     },
     {
       "groups" : [ "fu_metallicmoon" ],

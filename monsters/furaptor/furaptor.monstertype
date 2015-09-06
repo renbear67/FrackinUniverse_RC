@@ -1,23 +1,23 @@
 {
-  "type" : "zombot",
+  "type" : "furaptor",
 
-  "categories" : [ "zombot" ],
+  "categories" : [ "furaptor" ],
   "parts" : [ "body" ],
 
-  "animation" : "zombot.animation",
+  "animation" : "furaptor.animation",
   "colors" : "/monsters/colors.config",
   "reversed" : true,
 
-  "dropPools" : [ "ffmetallicbossChest", "robotTreasure" ],
+  "dropPools" : [ "noMeatMonsterTreasure" ],
 
   "baseParameters" : {
     "scripts" : [
-      "/monsters/ground/groundMonster.lua",
+      "/monsters/boss/fufatalcircuit/groundMonster.lua",
       "/scripts/pathing.lua",
       "/scripts/stateMachine.lua",
       "/scripts/util.lua",
       "/scripts/vec2.lua",
-
+      "/monsters/ground/aggroHopState.lua",
       "/monsters/ground/approachState.lua",
       "/monsters/ground/fleeState.lua",
       "/monsters/ground/wanderState.lua",
@@ -26,7 +26,7 @@
     ],
 
     "baseSkills" : [ "meleeAttack"],
-    "specialSkills" : [ "chargeAttack" ],
+    "specialSkills" : [ "chargeAttack", "pounceAttack", "tripleJumpAttack" ],
 
     "projectileSourcePosition" : [1.875, 1],
 
@@ -46,30 +46,30 @@
     "wanderTime" : [4.0, 6.0],
     "wanderMovementTime" : [2.0, 3.0],
 
-    "jumpTargetDistance" : 4,
-    "jumpTime" : [1.4, 2.0],
+    "jumpTargetDistance" : 12,
+    "jumpTime" : [1.8, 2.4],
 
     "pathing" : {
-      "canOpenDoors" : false
+      "canOpenDoors" : true
     },
 
-    "metaBoundBox" : [-2.80, -3.75, 3.10, 2.20],
+    "metaBoundBox" : [-3.38, -4.0, 4.50, 0.75],
     "scale" : 1.00,
 
     "movementSettings" : {
-      "collisionPoly" : [ [-2.833,2.458], [2.917,2.125], [-2.75,-3.708], [2.917,-3.917] ],
+      "collisionPoly" : [ [-3.625,1], [0.5,0.25], [2.375,-1.125], [4.625,-2], [4.375,-4.25], [-0.375,-4.75], [-1.25,-2.625], [-1.375,-1.75], [-3.75,-0.375] ],
 
       "mass" : 1.0,
-      "walkSpeed" : 1,
-      "runSpeed" : 2,
-      "flySpeed" : 2,
+      "walkSpeed" : 8,
+      "runSpeed" : 14,
+      "flySpeed" : 14,
       "airForce" : 50.0,
 
       "airFriction" : 0.0,
       "airJumpProfile" : {
         "jumpSpeed" : 15.0,
-        "jumpInitialPercentage" : 0.15,
-        "jumpHoldTime" : 0.5              
+        "jumpInitialPercentage" : 1.0,
+        "jumpHoldTime" : 1.0              
       }
     },
 
@@ -103,10 +103,10 @@
 
       "stats" : {
         "maxHealth" : {
-          "baseValue" : 222
+          "baseValue" : 102
         },
         "protection" : {
-          "baseValue" : 75.0
+          "baseValue" : 25.0
         },
         "healthRegen" : {
           "baseValue" : 0.0

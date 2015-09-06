@@ -5,11 +5,41 @@
   "spawnProfiles" : [
     {
       "groups" : [ "mediumsurface1" ],
-      "extraSpawns" : [ "dustmoth", "fudrone" ]
+      "extraSpawns" : [ "dustmoth", "fudrone" ],
+      "monsterParameters" : {
+        "statusSettings" : {
+          "stats" : {
+            "lavaImmunity" : {
+              "baseValue" : 1.0
+            },
+            "poisonImmunity" : {
+              "baseValue" : 1.0
+            },
+            "ffextremeheatImmunity" : {
+              "baseValue" : 1.0
+            }
+          }
+        }
+      }
     },
     {
       "groups" : [ "mediumsurface2" ],
-      "extraSpawns" : [ "dustmoth", "fudrone" ]
+      "extraSpawns" : [ "dustmoth", "fudrone" ],
+      "monsterParameters" : {
+        "statusSettings" : {
+          "stats" : {
+            "lavaImmunity" : {
+              "baseValue" : 1.0
+            },
+            "poisonImmunity" : {
+              "baseValue" : 1.0
+            },
+            "ffextremeheatImmunity" : {
+              "baseValue" : 1.0
+            }
+          }
+        }
+      }
     }
   ],
 
