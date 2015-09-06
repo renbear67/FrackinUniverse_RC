@@ -7,7 +7,7 @@
   "animation" : "fugiantbee.animation",
   "reversed" : false,
 
-  "dropPools" : [ "noMeatMonsterTreasure" ],
+  "dropPools" : [ "beeLoot" ],
 
   "baseParameters" : {
     "scripts" : [

@@ -7,8 +7,9 @@
   "animation" : "futinybee.animation",
   "reversed" : false,
 
-  "dropPools" : [ "noMeatMonsterTreasure" ],
+  "dropPools" : [ "beeLoot" ],
 
+  
   "baseParameters" : {
     "scripts" : [
       "/monsters/fugiantbee/flyingMonster.lua",
@@ -108,7 +109,7 @@
 
       "stats" : {
         "maxHealth" : {
-          "baseValue" : 10
+          "baseValue" : 1
         },
         "protection" : {
           "baseValue" : 1.0

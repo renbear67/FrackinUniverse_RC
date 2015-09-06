@@ -7,7 +7,7 @@
   "animation" : "futinybee.animation",
   "reversed" : false,
 
-  "dropPools" : [ "noMeatMonsterTreasure" ],
+  "dropPools" : [ "beeLoot" ],
 
   "baseParameters" : {
     "scripts" : [
@@ -108,7 +108,7 @@
 
       "stats" : {
         "maxHealth" : {
-          "baseValue" : 20
+          "baseValue" : 3
         },
         "protection" : {
           "baseValue" : 1.0
