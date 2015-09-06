@@ -90,9 +90,6 @@
 {"op":"add","path":"/planetTypeToDescription/fungus",
 "value":"This planet seems to be covered in a giant ^#7fe96e;fungal^white; colony. Abundant organic resources detected."},
 
-{"op":"add","path":"/planetTypeToDescription/iceasteroids",
-"value":"Huge chunks of ^#86a8c5;ancient ice asteroids^white; floating in the deep cold of space."},
-
 {"op":"add","path":"/planetTypeToDescription/icemoon",
 "value":"A frigid, ^#86a8c5;frozen moon^white;. Valuable resources detected below the surface."},
 
@@ -125,9 +122,6 @@
 
 {"op":"add","path":"/planetTypeToDescription/slimeworld",
 "value":"A ^#517f51;gelatinous^white;, slimy world. Encumbering terrain hides abundant algae and other resources."},
-
-{"op":"add","path":"/planetTypeToDescription/spacewreckage",
-"value":"Ruined ships from battle, or bad luck. ^#ffea00;Protocite and abundant metals^white; detected."},
 
 {"op":"add","path":"/planetTypeToDescription/sulphuric",
 "value":"^#ffea00;Sulphuric^white; worlds are extremely dangerous. Airless. Violent deadly storms. Abundant ^#772211;cinnabar^white; detected."},

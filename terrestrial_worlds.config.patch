@@ -2743,31 +2743,6 @@
   },
 
   {"op" : "add", 
-  "path" : "/regionTypes/spacewreckage_rusted",
-  "value" : 
-  {
-      "blockSelector" : [ "asteroidfield" ],
-      "fgCaveSelector" : [ "empty" ],
-      "biome" : [
-        [0, [ "spacewreckage_rusted" ]]
-      ]
-    }
-  },
-  
-  {"op" : "add", 
-  "path" : "/regionTypes/spacewreckage_shiny",
-  "value" : 
-  {
-      "blockSelector" : [ "asteroidfield" ],
-      "fgCaveSelector" : [ "empty" ],
-      "biome" : [
-        [0, [ "spacewreckage_rusted" ]]
-      ]
-    }
-  },
-  
-  
-  {"op" : "add", 
   "path" : "/regionTypes/reddesert",
   "value" : 
   {

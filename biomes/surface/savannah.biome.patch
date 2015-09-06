@@ -1,4 +1,6 @@
 [
+{"op":"replace","path":"/spawnProfiles/0","value":{"groups":["mediumsurface1"],"extraSpawns":["brightstripe","vineclimber","junglebee","aridbee"]}},
+{"op":"replace","path":"/spawnProfiles/1","value":{"groups":["mediumsurface2"],"extraSpawns":["brightstripe","thornbee","junglebee","aridbee"]}},
 	{"op":"add","path":"/surfacePlaceables/items/-","value":{
 			"mode" : "floor",
 			"priority" : 3.0,

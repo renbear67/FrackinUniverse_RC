@@ -1,0 +1,14 @@
+[
+{"op":"replace","path":"/spawnProfiles/0","value":{"groups":["mediumsurface1"],"extraSpawns":["frostfly","icetip","arcticbee"]}},
+{"op":"replace","path":"/spawnProfiles/1","value":{"groups":["mediumsurface2"],"extraSpawns":["frostfly","frostfleck","arcticbee"]}},
+	{"op":"add","path":"/surfacePlaceables/items/-","value":{
+			"mode" : "floor",
+			"priority" : 3.0,
+			"variants" : 1,
+			"distribution" : "/biomes/distributions.config:randomEncounter",
+
+			"type" : "microdungeon",
+			"microdungeons" : [ "newavianmicro", "minigreenruins" ]
+		} 
+	}
+]

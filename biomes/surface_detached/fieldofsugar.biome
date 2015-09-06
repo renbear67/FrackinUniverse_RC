@@ -5,14 +5,14 @@
   "spawnProfiles" : [
     {
       "groups" : [ "easysurface1" ],
-      "extraSpawns" : [ "greentip", "blueback", "birdcritter", "squirrelcritter", "snail", "sporelingcritter", "owlcritter", "blipcritter", "mousecritter", "fireflyspawner" ],
+      "extraSpawns" : [ "forestbee", "normalbee", "greentip", "blueback", "birdcritter", "squirrelcritter", "snail", "sporelingcritter", "owlcritter", "blipcritter", "mousecritter", "fireflyspawner" ],
       "monsterParameters" : {
         "colors" : "forest"
       }
     },
     {
       "groups" : [ "easysurface2" ],
-      "extraSpawns" : [ "blueback", "redwing", "birdcritter", "squirrelcritter", "snail", "sporelingcritter", "owlcritter", "blipcritter", "mousecritter", "fireflyspawner" ],
+      "extraSpawns" : [ "forestbee", "normalbee", "blueback", "redwing", "birdcritter", "squirrelcritter", "snail", "sporelingcritter", "owlcritter", "blipcritter", "mousecritter", "fireflyspawner" ],
       "monsterParameters" : {
         "colors" : "forest"
       }

@@ -290,6 +290,24 @@
       "maskPerPlanetRange" : [3, 3]  
   }},
   {"op" : "add", 
+  "path" : "/terrestrialHorizonGraphics/ffunknown",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/thickjungle_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]  
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialHorizonGraphics/superdense",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/mountainous_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]  
+  }},
+  {"op" : "add", 
   "path" : "/terrestrialGraphics/arboreal",
   "value" : 
   {

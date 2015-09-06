@@ -5,11 +5,11 @@
   "spawnProfiles" : [
     {
       "groups" : [ "mediumsurface1", "fu_bog" ],
-      "extraSpawns" : [ "fireflyspawner", "muddancer", "mudstag", "shardwing", "funewt", "mousecritter", "owlcritter", "squeekcritter", "tinycrocodilecritter" ]
+      "extraSpawns" : [ "normalbee", "fireflyspawner", "muddancer", "mudstag", "shardwing", "funewt", "mousecritter", "owlcritter", "squeekcritter", "tinycrocodilecritter" ]
     },
     {
       "groups" : [ "mediumsurface2", "fu_bog" ],
-      "extraSpawns" : [ "fireflyspawner", "muddancer", "mudstag", "shardwing","funewt", "mousecritter", "owlcritter", "squeekcritter", "tinycrocodilecritter" ]
+      "extraSpawns" : [ "normalbee", "fireflyspawner", "muddancer", "mudstag", "shardwing","funewt", "mousecritter", "owlcritter", "squeekcritter", "tinycrocodilecritter" ]
 
     }
   ],

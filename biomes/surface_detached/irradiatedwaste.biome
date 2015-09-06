@@ -5,14 +5,14 @@
   "spawnProfiles" : [
     {
       "groups" : [ "mediumsurface1" ],
-      "extraSpawns" : [ "greentip", "blueback", "birdcritter", "squirrelcritter", "snail", "sporelingcritter", "owlcritter", "blipcritter", "mousecritter", "fireflyspawner" ],
+      "extraSpawns" : [ "forestbee", "junglebee", "greentip", "blueback", "birdcritter", "squirrelcritter", "snail", "sporelingcritter", "owlcritter", "blipcritter", "mousecritter", "fireflyspawner" ],
       "monsterParameters" : {
         "colors" : "toxic"
       }
     },
     {
       "groups" : [ "mediumsurface2" ],
-      "extraSpawns" : [ "blueback", "redwing", "birdcritter", "squirrelcritter", "snail", "sporelingcritter", "owlcritter", "blipcritter", "mousecritter", "fireflyspawner" ],
+      "extraSpawns" : [ "forestbee", "junglebee", "blueback", "redwing", "birdcritter", "squirrelcritter", "snail", "sporelingcritter", "owlcritter", "blipcritter", "mousecritter", "fireflyspawner" ],
       "monsterParameters" : {
         "colors" : "toxic"
       }

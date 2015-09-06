@@ -1,0 +1,14 @@
+[
+{"op":"replace","path":"/spawnProfiles/0","value":{"groups":["hardsurface1"],"extraSpawns":["phoenixfly","heathugger","volcanicbee"]}},
+{"op":"replace","path":"/spawnProfiles/1","value":{"groups":["hardsurface2"],"extraSpawns":["phoenixfly","glowbug","volcanicbee"]}},
+	{"op":"add","path":"/surfacePlaceables/items/-","value":{
+			"mode" : "floor",
+			"priority" : 3.0,
+			"variants" : 1,
+			"distribution" : "/biomes/distributions.config:randomEncounter",
+
+			"type" : "microdungeon",
+			"microdungeons" : [ "newavianmicro", "minigreenruins" ]
+		} 
+	}
+]
