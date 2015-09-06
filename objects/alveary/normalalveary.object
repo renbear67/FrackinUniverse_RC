@@ -2,7 +2,7 @@
   "objectName" : "normalalveary",
   "rarity" : "Legendary",
   "description" : "A bee breeding apiary. It's much faster than the apiary, and holds 2 frames.",
-  "shortdescription" : "Giant Apiary",
+  "shortdescription" : "^orange;Giant Apiary^white;",
   "race" : "generic",
   "subtitle" : "Harvest honey!",
   "category" : "apiary",

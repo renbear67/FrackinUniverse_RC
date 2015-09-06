@@ -6,10 +6,10 @@
     "config" : "/interface/windowconfig/crafting.config",  
     "filter" : [ "beestation" ]
   },
-  "learnBlueprintsOnPickup" : [ "normalalveary", "normalapiary", "beerefuge", "industrialcentrifuge", "ironcentrifuge", "woodencentrifuge", "honeytable", "honeyextractor", "honeyjarrer", "scentedapiary" ],
+  "learnBlueprintsOnPickup" : [ "normalalveary", "normalapiary", "beerefuge", "bees_industrialcentrifuge", "bees_ironcentrifuge", "bees_woodencentrifuge", "honeytable", "honeyextractor", "honeyjarrer", "scentedapiary" ],
   "printable" : false,
   "description" : "Craft all sorts of bee related items!",
-  "shortdescription" : "Apiary Crafting Station",
+  "shortdescription" : "^orange;Apiary Crafting Station^white;",
   "race" : "generic",
   "category" : "crafting",
   "price" : 50,

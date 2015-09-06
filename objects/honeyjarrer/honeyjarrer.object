@@ -3,7 +3,7 @@
   "printable" : false,
   "rarity" : "rare",
   "description" : "Connect it to an Industrial Centrifuge, and add empty jars!",
-  "shortdescription" : "Honey Jarring Machine",
+  "shortdescription" : "^orange;Honey Jarring Machine^white;",
   "subtitle" : "Fill your honey jars!",
   "race" : "generic",
   "category" : "crafting",

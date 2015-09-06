@@ -3,7 +3,7 @@
   "printable" : false,
   "rarity" : "rare",
   "description" : "Extract honey out of honeycombs, and jar it!",
-  "shortdescription" : "Honey Extractor",
+  "shortdescription" : "^orange;Honey Extractor^white;",
   "subtitle" : "Extract honey from combs.",
   "race" : "generic",
   "category" : "crafting",

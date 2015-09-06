@@ -3,7 +3,7 @@
   "printable" : false,
   "rarity" : "rare",
   "description" : "Extract items from combs! More efficient than the wooden centrifuge.",
-  "shortdescription" : "Iron Centrifuge",
+  "shortdescription" : "^orange;Iron Centrifuge^white;",
   "subtitle" : "Extract items from combs.",
   "race" : "generic",
   "category" : "crafting",

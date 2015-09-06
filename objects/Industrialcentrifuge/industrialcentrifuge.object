@@ -3,7 +3,7 @@
   "printable" : false,
   "rarity" : "rare",
   "description" : "Extract items from combs! More efficient than the iron centrifuge.",
-  "shortdescription" : "Industrial Centrifuge",
+  "shortdescription" : "^cyan;Industrial Centrifuge^white;",
   "subtitle" : "Extract items from combs.",
   "race" : "generic",
   "category" : "crafting",

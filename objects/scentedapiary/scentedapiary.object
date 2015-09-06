@@ -2,7 +2,7 @@
   "objectName" : "scentedapiary",
   "rarity" : "Rare",
   "description" : "An apiary that does not spawn bees.",
-  "shortdescription" : "Scented Apiary",
+  "shortdescription" : "^cyan;Scented Apiary^white;",
   "race" : "generic",
   "subtitle" : "Harvest honey!",
   "category" : "apiary",
