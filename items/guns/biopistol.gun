@@ -21,9 +21,9 @@
 
   "fireOnRelease" : false,
 
-  "projectileType" : "ffpetal",
+  "projectileType" : "poisonraptor",
   "projectile" : { 
-  "speed" : 60, 
+  "speed" : 20, 
   "power" : 1.2 , 
   "color" : [75, 255, 40] 
   },

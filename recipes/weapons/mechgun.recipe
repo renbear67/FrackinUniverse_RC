@@ -1,7 +1,7 @@
 {
   "input" : [
-   { "item" : "duresteelbar", "count" : 8 },
-   { "item" : "eridianbar", "count" : 4 },
+   { "item" : "prisilitestar", "count" : 4 },
+   { "item" : "eridianplate", "count" : 2 },
    { "item" : "powercore", "count" : 1 }
   ],
   "output" : {
