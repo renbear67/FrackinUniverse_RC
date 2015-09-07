@@ -63,7 +63,7 @@
       "walkSpeed" : 8,
       "runSpeed" : 14,
       "flySpeed" : 14,
-      "airForce" : 50.0,
+      "airForce" : 70.0,
 
       "airFriction" : 0.0,
       "airJumpProfile" : {

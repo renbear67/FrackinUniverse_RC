@@ -7,18 +7,16 @@
   "frameNumber" : 5,
   "piercing" : true,
   "damageKindImage" : "icon.png",
-  "timeToLive" : 6,
+  "timeToLive" : 3,
   "pointLight" : false,
-  //"power" : 5,  
   "lightColor" : [181, 187, 29],
   "damageKind" : "testpoison",
-  "statusEffects" : [ "weakpoison" ],
+  "statusEffects" : [ ],
    "actionOnReap" : [
     {
       "action" : "projectile",
       "type" : "protocluster",
-      "inheritDamageFactor" : 0.2
-      //"power": 200
+      "inheritDamageFactor" : 0.03
     }
   ]  
 }

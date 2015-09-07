@@ -3,7 +3,7 @@
   "rarity" : "rare",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
-    "config" : "/interface/windowconfig/crafting.config",  
+    "config" : "/interface/windowconfig/beestation.config",  
     "filter" : [ "beestation" ]
   },
   "learnBlueprintsOnPickup" : [ "normalalveary", "normalapiary", "beerefuge", "bees_industrialcentrifuge", "bees_ironcentrifuge", "bees_woodencentrifuge", "honeytable", "honeyextractor", "honeyjarrer", "scentedapiary" ],

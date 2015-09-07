@@ -7,15 +7,13 @@
   "frameNumber" : 5,
   "damageKindImage" : "icon.png",
   "pointLight" : true,
-  //"power" : 1,
   "lightColor" : [221, 227, 49],
-  "statusEffects" : [ "weakpoison" ],
+  "statusEffects" : [ ],
    "actionOnReap" : [
     {
       "action" : "projectile",
       "type" : "protogoo",
-      "inheritDamageFactor" : 0.2
-      //"power" : 65
+      "inheritDamageFactor" : 0.03
     },
     {
       "action" : "config",

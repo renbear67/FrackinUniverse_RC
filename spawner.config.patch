@@ -43,7 +43,8 @@
  "value":[       
       "fuaviansentry", 
       "furaptor",
-      "furaptor2"
+      "furaptor2",
+      "furaptor3"
       ] 
 },
 
@@ -87,21 +88,31 @@
 {"op":"add",
  "path":"/spawnGroups/fu_bloodstone",
  "value":[       
-      "fubloodgolem"
+      "fubloodgolem",
+      "headcrab"
       ] 
 },
 
 {"op":"add",
  "path":"/spawnGroups/fu_ash",
  "value":[       
-      "fuashgolem"
+      "fuashgolem",
+      "magmagolem"
       ] 
 },
 
 {"op":"add",
  "path":"/spawnGroups/fu_tar",
  "value":[       
-      "futargolem"
+      "futargolem",
+      "fupoptop"
+      ] 
+},
+
+{"op":"add",
+ "path":"/spawnGroups/fu_mountainous",
+ "value":[       
+      "rocktroll"
       ] 
 },
 
@@ -210,9 +221,13 @@
 {"op":"add","path":"/spawns/fugiantbee","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.09,"monsterType":"fugiantbee","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/fugiantbee2","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.05,"monsterType":"fugiantbee2","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/zombot","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.01,"monsterType":"zombot","monsterParameters":{"aggressive":true}}},
-{"op":"add","path":"/spawns/furaptor","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.007,"monsterType":"furaptor","monsterParameters":{"aggressive":true}}},
-{"op":"add","path":"/spawns/furaptor2","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.007,"monsterType":"furaptor2","monsterParameters":{"aggressive":true}}},
+{"op":"add","path":"/spawns/furaptor","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.01,"monsterType":"furaptor","monsterParameters":{"aggressive":true}}},
+{"op":"add","path":"/spawns/furaptor2","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.01,"monsterType":"furaptor2","monsterParameters":{"aggressive":true}}},
+{"op":"add","path":"/spawns/furaptor3","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.01,"monsterType":"furaptor3","monsterParameters":{"aggressive":false}}},
 {"op":"add","path":"/spawns/fucaterpillar","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.012,"monsterType":"fucaterpillar","monsterParameters":{"aggressive":false}}},
+{"op":"add","path":"/spawns/rocktroll","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.01,"monsterType":"rocktroll","monsterParameters":{"aggressive":true}}},
+{"op":"add","path":"/spawns/magmagolem","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.01,"monsterType":"magmagolem","monsterParameters":{"aggressive":true}}},
+{"op":"add","path":"/spawns/headcrab","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.01,"monsterType":"headcrab","monsterParameters":{"aggressive":true}}},
 
 
 //critters

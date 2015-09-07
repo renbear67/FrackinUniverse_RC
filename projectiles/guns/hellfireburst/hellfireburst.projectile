@@ -21,35 +21,35 @@
       "action" : "projectile",
       "type" : "hellfireprojectile",
       "fuzzAngle" : 0,
-      "inheritDamageFactor" : 0.52,
+      "inheritDamageFactor" : 0.32,
       "angleAdjust" : 45
     },
     {
       "action" : "projectile",
       "type" : "hellfireprojectile",
       "fuzzAngle" : 0,
-      "inheritDamageFactor" : 0.52,
+      "inheritDamageFactor" : 0.32,
       "angleAdjust" : -45
     },
     {
       "action" : "projectile",
       "type" : "hellfireprojectile",
       "fuzzAngle" : 0,
-      "inheritDamageFactor" : 0.52,
+      "inheritDamageFactor" : 0.32,
       "angleAdjust" : 90
     },
     {
       "action" : "projectile",
       "type" : "hellfireprojectile",
       "fuzzAngle" : 0,
-      "inheritDamageFactor" : 0.52,
+      "inheritDamageFactor" : 0.32,
       "angleAdjust" : -90
     },
     {
       "action" : "projectile",
       "type" : "hellfireprojectile",
       "fuzzAngle" : 0,
-      "inheritDamageFactor" : 0.52,
+      "inheritDamageFactor" : 0.32,
       "angleAdjust" : 0
     }
   ]

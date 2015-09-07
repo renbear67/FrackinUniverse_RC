@@ -10,6 +10,7 @@
   "damageKindImage" : "icon.png",
   "pointLight" : false,
   "timeToLive" : 0.85,
+   "lightColor" : [20, 90, 20],
   "actionOnReap" : [
     {
       "action" : "config",
