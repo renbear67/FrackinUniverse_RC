@@ -13,5 +13,15 @@
   "damagePoly" : [ [-50, -50], [50, -50], [50, 50], [-50, 50] ],
 
   "flippable" : true,
-  "universalDamage" : true
+  "universalDamage" : false,
+  
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "firefinish",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.001,
+      "angleAdjust" : 0
+    }
+  ]
 }

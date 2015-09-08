@@ -44,8 +44,7 @@
     [0.4, "crystalstorm"],
     [0.4, "crystalstormmajor"],
     [0.4, "acidrain"],
-    [0.01, "meteorshower"],
-    [0.005, "largemeteor"]
+    [0.01, "meteorshower"]
     ]
 },
 
@@ -55,14 +54,13 @@
 "op" : "add",
 "path" : "/bog",
 "value" : [     
-    [0.25, "clear"],
-    [0.50, "groundmist"],
-    [0.25, "fog"],
-    [0.25, "mistyrain"],
-    [0.25, "rain"],
-    [0.25, "heavyrain"],
-    [0.01, "meteorshower"],
-    [0.005, "largemeteor"]
+    [0.35, "clear"],
+    [0.25, "groundmist"],
+    [0.35, "fog"],
+    [0.15, "mistyrain"],
+    [0.25, "bograin"],
+    [0.10, "rain"],
+    [0.01, "meteorshower"]
     ]
 },
 
@@ -76,8 +74,7 @@
     [0.30, "crystalstorm"],
     [0.05, "crystalstormmajor"],
     [0.25, "healingstorm"],
-    [0.02, "meteorshower"],
-    [0.001, "largemeteor"]
+    [0.005, "meteorshower"]
     ]
 },
   
@@ -136,7 +133,10 @@
 "path" : "/irradiated",
 "value" : [     
     [0.5, "clear"],
-    [0.4, "acidrain"],
+    [0.25, "gravrainlight"],
+    [0.10, "bograin"],
+    [0.10, "fog"],
+    [0.25, "acidrain"],
     [0.01, "meteorshower"],
     [0.005, "largemeteor"]
     ]
@@ -183,8 +183,7 @@
     [0.351, "mistyrain"],
     [0.355, "rain"],
     [0.255, "acidrain"],
-    [0.01, "meteorshower"],
-    [0.005, "largemeteor"]
+    [0.005, "meteorshower"]
     ]
 },
   
@@ -200,8 +199,7 @@
     [0.2, "slimestormlesser"],
     [0.07, "gravrainlight"],
     [0.20, "acidrain"],
-    [0.007, "meteorshower"],
-    [0.002, "largemeteor"]
+    [0.007, "meteorshower"]
     ]
 },
   
@@ -221,8 +219,7 @@
     [0.15, "fog"],
     [0.15, "slimestormlesser"],
     [0.10, "slimestorm"],
-    [0.01, "meteorshower"],
-    [0.005, "largemeteor"]
+    [0.005, "meteorshower"]
     ]
 },  
   
@@ -264,8 +261,7 @@
     [0.5, "mistyrain"],
     [0.05, "hurricane"],
     [0.05, "windstorm"],
-    [0.01, "meteorshower"],
-    [0.005, "largemeteor"]
+    [0.005, "meteorshower"]
     ]
 },  
 

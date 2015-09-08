@@ -21,6 +21,12 @@
       "angleAdjust" : -35
     },
     {
+      "action" : "applySurfaceMod",
+      "previousMod" : "metamod:none",
+      "newMod" : "metal",
+      "radius" : 2
+    },
+    {
       "action" : "liquid", 
       "liquid" : "fuironliquid", 
       "quantity" : 2

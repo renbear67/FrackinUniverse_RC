@@ -71,10 +71,10 @@
       "collisionPoly" : [ [-2.833,2.458], [2.917,2.125], [-2.75,-3.708], [2.917,-3.917] ],
 
       "mass" : 0.1,
-      "walkSpeed" : 3,
-      "runSpeed" : 6,
-      "jumpSpeed" : 5,
-      "flySpeed" : 7,
+      "walkSpeed" : 8,
+      "runSpeed" : 12,
+      "jumpSpeed" : 14,
+      "flySpeed" : 14,
       "airFriction" : 0.1,
       "airForce" : 70.0
     },

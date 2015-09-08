@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "common",
   "description" : "This mask undoubtedly belonged to a lagoon dwelling creature.",
-  "shortdescription" : "Lagoon Mask",
+  "shortdescription" : "Fishman Mask",
   "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
@@ -14,18 +14,26 @@
 
   "statusEffects" : [
     {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 0.75
+    },
+
+    {
       "stat" : "protection",
-      "amount" : 70
+      "amount" : 20
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 220
+      "amount" : 45
     },
-
     {
       "stat" : "maxHealth",
-      "amount" : 45
+      "amount" : 15
+    },
+    {
+      "stat" : "breathProtection",
+      "amount" : 1.0
     }
   ],
 

@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "common",
   "description" : "This swampy chestpiece is covered in scales.",
-  "shortdescription" : "Lagoon chestpiece",
+  "shortdescription" : "Fishman Chestplate",
   "tooltipKind" : "armor",
 
   "maleFrames" : {
@@ -22,18 +22,23 @@
 
   "statusEffects" : [
     {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 1.0
+    },
+
+    {
       "stat" : "protection",
-      "amount" : 120
+      "amount" : 30
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 370
+      "amount" : 80
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 75
+      "amount" : 20
     }
   ],
 

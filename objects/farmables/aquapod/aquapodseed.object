@@ -45,5 +45,6 @@
     }
   ],
   "learnBlueprintsOnPickup" : [ "voritseed", "littlegoodberryseed" ],
-    "maxImmersion" : 0.125
+    "maxImmersion" : 1.0,
+    "consumeSoilMoisture" : false
 }

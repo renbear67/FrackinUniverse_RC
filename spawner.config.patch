@@ -59,6 +59,13 @@
 },
 
 {"op":"add",
+ "path":"/spawnGroups/fu_desert",
+ "value":[       
+      "fugiantscorpion"
+      ] 
+},
+
+{"op":"add",
  "path":"/spawnGroups/fu_thickjungle",
  "value":[       
       "fuaviansentry",
@@ -112,7 +119,8 @@
 {"op":"add",
  "path":"/spawnGroups/fu_mountainous",
  "value":[       
-      "rocktroll"
+      "rocktroll",
+      "rocktroll2"
       ] 
 },
 
@@ -225,9 +233,11 @@
 {"op":"add","path":"/spawns/furaptor2","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.01,"monsterType":"furaptor2","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/furaptor3","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.01,"monsterType":"furaptor3","monsterParameters":{"aggressive":false}}},
 {"op":"add","path":"/spawns/fucaterpillar","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.012,"monsterType":"fucaterpillar","monsterParameters":{"aggressive":false}}},
-{"op":"add","path":"/spawns/rocktroll","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.01,"monsterType":"rocktroll","monsterParameters":{"aggressive":true}}},
+{"op":"add","path":"/spawns/rocktroll","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.01,"monsterType":"rocktroll","monsterParameters":{"aggressive":true}}},
+{"op":"add","path":"/spawns/rocktroll2","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.01,"monsterType":"rocktroll2","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/magmagolem","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.01,"monsterType":"magmagolem","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/headcrab","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.01,"monsterType":"headcrab","monsterParameters":{"aggressive":true}}},
+{"op":"add","path":"/spawns/fugiantscorpion","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.01,"monsterType":"fugiantscorpion","monsterParameters":{"aggressive":true}}},
 
 
 //critters

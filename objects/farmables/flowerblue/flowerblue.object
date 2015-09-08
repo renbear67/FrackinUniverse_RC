@@ -35,7 +35,7 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "flowerredHarvest",
+      "harvestPool" : "flowerblueHarvest",
       "resetToStage" : 1
     }
   ]

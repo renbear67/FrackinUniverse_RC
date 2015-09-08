@@ -4,8 +4,8 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "common",
-  "description" : "These scale covered pants have claws for feet.",
-  "shortdescription" : "Lagoon Pants",
+  "description" : "These scale covered pants grant increased water agility.",
+  "shortdescription" : "Fishman Pants",
   "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
@@ -13,19 +13,24 @@
 
   "statusEffects" : [
     {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 0.5
+    },
+
+    {
       "stat" : "protection",
-      "amount" : 50
+      "amount" : 15
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 150
+      "amount" : 35
     },
-
     {
       "stat" : "maxHealth",
-      "amount" : 30
-    }
+      "amount" : 12
+    }, 
+    "swimboost"
   ],
 
   "colorOptions" : [

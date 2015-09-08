@@ -19,6 +19,12 @@
       "action" : "liquid", 
       "liquid" : "fuironliquid", 
       "quantity" : 0.25
+    },
+    {
+      "action" : "applySurfaceMod",
+      "previousMod" : "metamod:none",
+      "newMod" : "metal",
+      "radius" : 2
     }
   ]
 }
