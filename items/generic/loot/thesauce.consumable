@@ -7,5 +7,5 @@
   "effects" : [ [
      "percentarmorboost30"
     ] ],
-  "learnBlueprintsOnPickup" : [ "thesauce" ]
+  "learnBlueprintsOnPickup" : [ "thesauce", "fflagoonchest", "fflagoonlegs", "fflagoonhead" ]
 }

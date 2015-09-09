@@ -7,7 +7,7 @@
   "shortdescription" : "Slimey Soil",
   "footstepSound" : "/sfx/blocks/footstep_brains.wav",
   "health" : 3,
-  "tillableMod" : 36,
+  "tillableMod" : 31,
   "soil" : true,
   "category": "materials",
 

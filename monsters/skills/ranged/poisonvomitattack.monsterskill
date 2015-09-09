@@ -1,0 +1,28 @@
+{
+  "name" : "poisonVomitAttack",
+  "label" : "POISON VOMIT",
+  "image" : "/monsters/skills/defaultpoison.png",
+
+  "parameters" : {
+    "poisonVomitAttack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "poisonvomit",
+      "arc" : "low",
+      "range" : 12,
+      "power" : 8,
+      "speed" : 30,
+      "shots" : 5,
+      "fireInterval" : 0.066,
+      "castTime" : 0.4,
+      "castEffect" : "castpoison",
+      "castAnimation" : "charge"
+    }
+  },
+
+  "animationParameters" : {
+    "sounds" : {
+      "rangedAttack" : [ "/sfx/projectiles/bloodvomit1.wav", "/sfx/projectiles/bloodvomit2.wav", "/sfx/projectiles/bloodvomit3.wav", "/sfx/projectiles/bloodvomit4.wav", "/sfx/projectiles/bloodvomit5.wav", "/sfx/projectiles/bloodvomit6.wav", "/sfx/projectiles/bloodvomit7.wav" ]
+    }
+  }
+}
+

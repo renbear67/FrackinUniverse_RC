@@ -27,8 +27,8 @@
 
     "baseSkills" : [ "meleeAttack"  ],
     "specialSkills" : [ "caterpillarAttack"],
-
-    "projectileSourcePosition" : [-5.12, -1.25],
+    "meleeProjectile" : "meleebutt",
+    "projectileSourcePosition" : [-5.27, -1.25],
 
     "attackStartDistance" : 4.5,
     "attackTime" : 0.45,

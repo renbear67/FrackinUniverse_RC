@@ -1,36 +1,45 @@
 {
-  "itemName" : "ff_lagoonpants",
-  "inventoryIcon" : "icons.png:pants",
+  "itemName" : "fflagoonchest",
+  "inventoryIcon" : "icons.png:chest",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "common",
-  "description" : "These scale covered pants grant increased water agility.",
-  "shortdescription" : "Fishman Pants",
+  "rarity" : "uncommon",
+  "description" : "This swampy chestpiece is covered in scales.",
+  "shortdescription" : "Fishman Chestplate",
   "tooltipKind" : "armor",
 
-  "maleFrames" : "pants.png",
-  "femaleFrames" : "pants.png",
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
 
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "basePercentage" : 0.5
+      "basePercentage" : 1.0
     },
 
     {
       "stat" : "protection",
-      "amount" : 15
+      "amount" : 30
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 35
+      "amount" : 80
     },
+
     {
       "stat" : "maxHealth",
-      "amount" : 12
-    }, 
-    "swimboost"
+      "amount" : 20
+    }
   ],
 
   "colorOptions" : [

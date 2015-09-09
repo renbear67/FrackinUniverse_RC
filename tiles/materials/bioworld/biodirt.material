@@ -6,7 +6,7 @@
   "description" : "Somehow, even the dirt here is strange.",
   "shortdescription" : "Proto Soil",
   "footstepSound" : "/sfx/blocks/footstep_dirt.wav",
-  "tillableMod" : 6610,
+  "tillableMod" : 31,
   "soil" : true,
   "health" : 3,
   "category": "materials",

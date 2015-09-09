@@ -68,9 +68,9 @@
             ]
           },
           {
-            "head" : [ { "name" : "ff_lagoonhead", "parameters" : { "colorIndex" : 7 } } ],
-            "chest" : [ { "name" : "ff_lagoonchest", "parameters" : { "colorIndex" : 7 } } ],
-            "legs" : [ { "name" : "ff_lagoonpants", "parameters" : { "colorIndex" : 7 } } ],
+            "head" : [ { "name" : "fflagoonhead", "parameters" : { "colorIndex" : 7 } } ],
+            "chest" : [ { "name" : "fflagoonchest", "parameters" : { "colorIndex" : 7 } } ],
+            "legs" : [ { "name" : "fflagoonpants", "parameters" : { "colorIndex" : 7 } } ],
             "primary" : [
               { "name" : "elderblade" }
             ],

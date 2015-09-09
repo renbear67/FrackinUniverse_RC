@@ -28,7 +28,7 @@
     "baseSkills" : [ "meleeAttack" ],
     "specialSkills" : [ "pounceAttack", "raptorstrikeAttack" ],
 
-    "projectileSourcePosition" : [3.88, -0.12],
+    "projectileSourcePosition" : [4.32, 0],
 
     "attackStartDistance" : 4.5,
     "attackTime" : 0.45,
@@ -78,7 +78,7 @@
     "knockoutTime" : 1,
     "knockoutEffect" : "blink",
     "deathParticles" : "deathPoof",
-
+    "meleeProjectile" : "raptorbite",
     "touchDamage" : {
       "poly" : [ [-4.25,1.312], [-4.625,-2.875], [4.062,-2.938], [3.688,1.812], [-2.75,1.938] ],
       "damage" : 15,

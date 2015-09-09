@@ -1,14 +1,14 @@
 {
-  "type" : "rocktroll2",
+  "type" : "furaptor4",
 
-  "categories" : [ "rocktroll2" ],
+  "categories" : [ "furaptor4" ],
   "parts" : [ "body" ],
 
-  "animation" : "rocktroll2.animation",
+  "animation" : "furaptor4.animation",
   "colors" : "/monsters/colors.config",
   "reversed" : true,
 
-  "dropPools" : [ "ashgolemLoot" ],
+  "dropPools" : [ "noMeatMonsterTreasure" ],
 
   "baseParameters" : {
     "scripts" : [
@@ -25,18 +25,18 @@
       "/monsters/ground/skills/createGroundRangedAttack.lua"
     ],
 
-    "baseSkills" : [ "meleeAttack"],
-    "specialSkills" : [ "chargeAttack" ],
+    "baseSkills" : [ "meleeAttack" ],
+    "specialSkills" : [ "pounceAttack", "raptorstrikeAttack" ],
 
-    "projectileSourcePosition" : [4.75, 1.0],
+    "projectileSourcePosition" : [5.12, 0],
 
-    "attackStartDistance" : 3.5,
-    "attackTime" : 0.75,
-    "attackCooldownTime" : 0.5,
+    "attackStartDistance" : 4.5,
+    "attackTime" : 0.45,
+    "attackCooldownTime" : 0.35,
 
     "aggressive" : true,
-    "territoryDistance" : 10.0,
-    "territorialTargetRadius" : 20.0,
+    "territoryDistance" : 30.0,
+    "territorialTargetRadius" : 60.0,
     "minimalTargetRadius" : 6.0,
     "targetSearchTime" : 0.5,
     "targetHoldTime" : 5.0,
@@ -46,29 +46,29 @@
     "wanderTime" : [4.0, 6.0],
     "wanderMovementTime" : [2.0, 3.0],
 
-    "jumpTargetDistance" : 6,
-    "jumpTime" : [1.4, 2.0],
+    "jumpTargetDistance" : 12,
+    "jumpTime" : [1.8, 2.4],
 
     "pathing" : {
-      "canOpenDoors" : false
+      "canOpenDoors" : true
     },
 
-    "metaBoundBox" : [-3.12, -4.62, 2.60, 1.12],
-    "scale" : 1.2,
+    "metaBoundBox" : [-5.50, -2.88, 4.88, 2.12],
+    "scale" : 1.00,
 
     "movementSettings" : {
-      "collisionPoly" : [ [-3.125,0.25], [-3.125,-4.125], [-0.75,-4.5], [1.25,-4.625], [2.625,-4.375], [3,-2], [1.25,0.25], [-0.5,0.75], [-1.875,1.375] ],
+      "collisionPoly" : [ [-5.375,1], [-5.25,-2.875], [3.875,-2.75], [3.875,2] ],
 
       "mass" : 1.0,
-      "walkSpeed" : 3,
-      "runSpeed" : 6,
-      "flySpeed" : 15,
+      "walkSpeed" : 8,
+      "runSpeed" : 14,
+      "flySpeed" : 14,
       "airForce" : 70.0,
 
       "airFriction" : 0.0,
       "airJumpProfile" : {
         "jumpSpeed" : 15.0,
-        "jumpInitialPercentage" : 2.6,
+        "jumpInitialPercentage" : 1.0,
         "jumpHoldTime" : 1.0              
       }
     },
@@ -78,10 +78,10 @@
     "knockoutTime" : 1,
     "knockoutEffect" : "blink",
     "deathParticles" : "deathPoof",
-    "meleeProjectile" : "rocktrollswoosh2",
+    "meleeProjectile" : "raptorbite",
     "touchDamage" : {
-      "poly" : [ [-3.125,0.25], [-3.125,-4.125], [-0.75,-4.5], [1.25,-4.625], [2.625,-4.375], [3,-2], [1.25,0.25], [-0.5,0.75], [-1.875,1.375] ],
-      "damage" : 15,
+      "poly" : [ [-4.25,1.312], [-4.625,-2.875], [4.062,-2.938], [3.688,1.812], [-2.75,1.938] ],
+      "damage" : 7,
 
       "teamType" : "enemy",
       "damageSourceKind" : "lash",
@@ -103,17 +103,20 @@
 
       "stats" : {
         "maxHealth" : {
-          "baseValue" : 192
+          "baseValue" : 52
         },
         "protection" : {
-          "baseValue" : 50.0
+          "baseValue" : 25.0
         },
         "healthRegen" : {
           "baseValue" : 0.0
         },
         "poisonImmunity" : {
           "baseValue" : 1.0
-        }
+        },
+        "lavaImmunity" : {
+          "baseValue" : 1.0
+        }        
       },
 
       "resources" : {

@@ -6,7 +6,7 @@
   "parameters" : {
     "raptorstrikeAttack" : {
       "factory" : "createRangedAttack",
-      "projectile" : "quietusswoosh",
+      "projectile" : "raptorbite",
       "range" : 6,
       "power" : 12,
       "speed" : 35,
@@ -17,7 +17,7 @@
 
   "animationParameters" : {
     "sounds" : {
-      "rangedAttack" : [ "/sfx/npc/quadruped/arrowhead_pain2.wav" ]
+      "rangedAttack" : [ "/sfx/npc/quadruped/arrowhead_pain2.wav", "/sfx/melee/bite.wav" ]
     }
   }
 }

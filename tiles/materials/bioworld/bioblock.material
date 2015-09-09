@@ -6,7 +6,7 @@
   "description" : "Interesting...",
   "shortdescription" : "Proto Shale",
   "footstepSound" : "/sfx/blocks/footstep_brains.wav",
-  "tillableMod" : 6610,
+  "tillableMod" : 31,
   "soil" : true,
   "health" : 5,
   "category": "materials",
