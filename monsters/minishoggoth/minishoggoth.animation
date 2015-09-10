@@ -6,107 +6,71 @@
         "default" : "idle",
         "states" : {
           "idle" : {
-            "frames" : 16,
-            "cycle" : 2,
+            "frames" : 4,
             "mode" : "loop"
           },
           "jump" : {
-            "frames" : 16,
+            "frames" : 2,
+            "mode" : "loop"
+          },
+          "fall" : {
+            "frames" : 2,
             "mode" : "loop"
           },
           "walk" : {
             "frames" : 8,
-            "cycle" : 1,
             "mode" : "loop"
           },
           "run" : {
-            "frames" : 16,
-            "cycle" : 0.75,
+            "frames" : 8,
+            "cycle" : 0.5,
             "mode" : "loop"
           },
           "chargeWindup" : {
-            "frames" : 16,
-            "cycle" : 1.0,
+            "frames" : 4,
+            "cycle" : 0.375,
             "mode" : "loop"
           },
           "charge" : {
             "frames" : 4,
-            "cycle" : 1.0,
+            "cycle" : 0.275,
             "mode" : "loop"
           },
           "knockback" : {
-            "frames" : 16,
-            "mode" : "loop"
-          },
-          "knockout" : {
-            "frames" : 16,
-            "mode" : "loop"
-          },
-          "swipe" : {
-            "cycle": 0.8,
-            "frames" : 16,
-            "properties" : {
-              "immediateSound" : "/sfx/melee/swing_fire4.wav"
-            }
-          }
-        }
-      },
-      "firstBeams" : {
-        "priority" : 0,
-        "default" : "idle",
-        "states" : {
-          "idle" : {
             "frames" : 1
           },
-          "active" : {
-            "frames" : 2,
-            "cycle" : 0.1,
-            "mode" : "loop",
-            "properties" : {
-              "persistentSound" : "/sfx/npc/unique/crystalboss_beam.wav"
-            }
-          },
-          "windup" : {
-            "frames" : 8,
-            "cycle" : 0.66,
-            "mode" : "transition",
-            "transition" : "active",
-            "properties" : {
-              "immediateSound" : "/sfx/npc/unique/crystalboss_beamin.wav"
-            }
-          },
-          "winddown" : {
-            "frames" : 8,
-            "cycle" : 0.66,
-            "properties" : {
-              "immediateSound" : "/sfx/npc/unique/crystalboss_beamout.wav"
-            }
+          "knockout" : {
+            "frames" : 1
           }
         }
       },
+
       "attack" : {
         "priority" : 1,
         "default" : "idle",
         "states" : {
           "idle" : {
-            "frames" : 2
+            "frames" : 4,
+            "mode" : "loop"
           },
           "melee" : {
             "frames" : 4,
-            "cycle" : 0.4,
+            "mode" : "end"
+          },
+          "shooting" : {
+            "frames" : 4,
             "mode" : "transition",
             "transition" : "idle"
           },
           "charge" : {
-            "frames" : 1
+            "frames" : 4,
+            "cycle" : 0.8,
+            "mode" : "loop"
           },
           "chargeAttack" : {
             "frames" : 4,
             "cycle" : 0.6,
-            "mode" : "end"
-          },
-          "shooting" : {
-            "frames" : 1
+            "mode" : "loop"
           }
         }
       },
@@ -123,12 +87,7 @@
     },
 
     "parts" : {
-
-      "chest" : {
-        "properties" : {
-          "zLevel" : 2
-        },
-
+      "body" : {
         "partStates" : {
           "movement" : {
             "idle" : {
@@ -143,22 +102,27 @@
             },
             "run" : {
               "properties" : {
-                "image" : "<partImage>:idle.<frame>"
+                "image" : "<partImage>:walk.<frame>"
               }
             },
             "charge" : {
               "properties" : {
-                "image" : "<partImage>:idle.<frame>"
+                "image" : "<partImage>:walk.<frame>"
               }
             },
             "jump" : {
               "properties" : {
-                "image" : "<partImage>:idle.<frame>"
+                "image" : "<partImage>:jump.<frame>"
+              }
+            },
+            "fall" : {
+              "properties" : {
+                "image" : "<partImage>:jump.<frame>"
               }
             },
             "chargeWindup" : {
               "properties" : {
-                "image" : "<partImage>:idle.<frame>"
+                "image" : "<partImage>:walk.<frame>"
               }
             },
             "knockback" : {
@@ -170,11 +134,28 @@
               "properties" : {
                 "image" : "<partImage>:idle.<frame>"
               }
-            },
-            "swipe" : {
-              "properties" : {
-                "image" : "<partImage>:swipe.<frame>"
+            }
+          },
 
+          "attack" : {
+            "melee" : {
+              "properties" : {
+                "image" : "<partImage>:throw.<frame>"
+              }
+            },
+            "shooting" : {
+              "properties" : {
+                "image" : "<partImage>:ranged.<frame>"
+              }
+            },
+            "charge" : {
+              "properties" : {
+                "image" : "<partImage>:walk.<frame>"
+              }
+            },
+            "chargeAttack" : {
+              "properties" : {
+                "image" : "<partImage>:walk.<frame>"
               }
             }
           },
@@ -182,61 +163,15 @@
           "portrait" : {
             "portrait" : {
               "properties" : {
-                "image" : "<partImage>:idle.<frame>"
-              }
-            }
-          }
-        }
-      },
-      "eyebeam" : {
-        "properties" : {
-          "zLevel" : 3,
-          "fullbright" : true,
-          "offset" : [-35.5, -4.875]
-        },
-
-        "partStates" : {
-
-
-
-
-          "firstBeams" : {
-            "idle" : {
-              "properties" : {
-                "image" : "<partImage>:invisible"
-              }
-            },
-            "active" : {
-              "properties" : {
-                "image" : "<partImage>:active.<frame>"
-              }
-            },
-            "windup" : {
-              "properties" : {
-                "image" : "<partImage>:windup.<frame>"
-              }
-            },
-            "winddown" : {
-              "properties" : {
-                "image" : "<partImage>:winddown.<frame>"
-              }
-            }
-          },
-
-
-          "portrait" : {
-            "portrait" : {
-              "properties" : {
-                "image" : "<partImage>:idle.<frame>"
+                "image" : "<partImage>:idle.1"
               }
             }
           }
         }
       }
-
     }
   },
-
+  
   "rotationGroups" : {
     "projectileAim" : {
       "angularVelocity" : 1.5
@@ -431,23 +366,17 @@
       ]
     }
   },
-  "lights" : {
-    "beam1" : {
-      "active" : false,
-      "position" : [-25, 0],
-      "color" : [0, 255, 0],
-      "pointLight" : false
-    }
-  },
-  "sounds" : {
-    "turnHostile" : [  ],
-    "deathPuff" : [ "/sfx/npc/enemydeathpuff.wav" ]
-  },
+
   "effects" : {
     "blink" : {
       "type" : "flash",
       "time" : 0.25,
       "directives" : "fade=ffffff;0.5"
     }
+  },
+
+  "sounds" : {
+    "turnHostile" : [ ],
+    "deathPuff" : [ "/sfx/npc/enemydeathpuff.wav" ]
   }
 }

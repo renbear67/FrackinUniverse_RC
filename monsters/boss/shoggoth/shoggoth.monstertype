@@ -24,12 +24,24 @@
       "/monsters/boss/shoggoth/idleState.lua"
     ],
 
-    "skillCount" : 3,
-    "skills" : ["tentacleSwipeAttack", "fleshBombAttack", "eyeBeamAttack"],
+    "skillCount" : 5,
+    "skills" : ["tentacleSwipeAttack", "fleshBombAttack", "eyeBeamAttack", "shoggothAcidAttack", "miniShoggothSpawnAttack"],
 
     "phases" : [
       {
-        "skills" : [ "tentacleSwipeAttack", "fleshBombAttack", "eyeBeamAttack"]
+        "skills" : [ "tentacleSwipeAttack", "shoggothAcidAttack" ]
+      },
+      {
+        "trigger" : "healthPercentage",
+        "healthPercentage" : 0.7,
+        "enterPhase" : "miniShoggothSpawnAttack",
+        "skills" : [ "eyeBeamAttack", "tentacleSwipeAttack", "shoggothAcidAttack" ]
+      },
+      {
+        "trigger" : "healthPercentage",
+        "healthPercentage" : 0.3,
+        "enterPhase" : "miniShoggothSpawnAttack",
+        "skills" : [ "eyeBeamAttack", "fleshBombAttack", "tentacleSwipeAttack", "shoggothAcidAttack" ]
       }
     ],
 
@@ -89,7 +101,7 @@
 
       "stats" : {
         "maxHealth" : {
-          "baseValue" : 1000
+          "baseValue" : 2000
         },
         "protection" : {
           "baseValue" : 1.0
