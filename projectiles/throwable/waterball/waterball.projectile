@@ -11,11 +11,11 @@
     {
       "action" : "liquid", 
       "liquid" : "water", 
-      "quantity" : 40
+      "quantity" : 20
     }
   ],
   "power" : 0.0,
-  "damageKind" : "fireplasma"
+  "damageKind" : "default"
 }
 
 

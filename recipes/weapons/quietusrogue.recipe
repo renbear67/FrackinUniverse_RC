@@ -2,7 +2,7 @@
   "input" : [
    { "item" : "quietusbar", "count" : 3 },
    { "item" : "densealloy", "count" : 3 },
-   { "item" : "lunaricrystal", "count" : 4 }
+   { "item" : "solaricrystal", "count" : 4 }
   ],
   "output" : {
     "item" : "quietusrogue",
