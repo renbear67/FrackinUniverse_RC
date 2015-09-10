@@ -47,7 +47,7 @@
     "projectileType" : "queen",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 5
+      "power" : 7.5
     },
     "idle" : {
       "twoHanded" : false,

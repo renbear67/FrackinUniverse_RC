@@ -11,7 +11,7 @@
 
   "image" : "savethequeen.png",
   "firePosition" : [-2, 4],
-  "fireTime" : 0.6,
+  "fireTime" : 0.52,
   "fireAfterWindup" : true,
   "soundEffect" : { "fireSound" : [ { "file" : "/sfx/queen/queen.wav" } ] },
 
@@ -21,7 +21,7 @@
     "projectileType" : "queen",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 4
+      "power" : 4.7
     },
 	"idle" : {
       "twoHanded" : false,

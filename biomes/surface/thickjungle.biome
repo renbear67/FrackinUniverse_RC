@@ -298,7 +298,7 @@
           "distribution" : "/biomes/distributions.config:randomEncounter",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "fuencountercultist", "newhumanmicro", "newavianmicro", "minigreenruins", "junglemicrodungeons" ] 
+          "microdungeons" : [ "newhumanmicro", "newavianmicro", "minigreenruins", "junglemicrodungeons" ] 
         },
         {
           "mode" : "floor",

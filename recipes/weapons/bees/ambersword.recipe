@@ -5,7 +5,7 @@
     { "item" : "ff_resin", "count" : 5 }
   ],
   "output" : {
-    "item" : "fuamberchunk",
+    "item" : "fuambersword",
     "count" : 1
   },
   "groups" : [ "prototyper", "weapons", "all" ]
