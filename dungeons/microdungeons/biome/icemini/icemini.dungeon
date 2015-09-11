@@ -4,7 +4,7 @@
     "species" : "dummy",
     "rules" : [
     ],
-    "anchor" : [ "icemini1", "icemini2", "icemini3", "icemini4", "icemini5", "icemini6", "icemini7" ],
+    "anchor" : [ "icemini1", "icemini2", "icemini3", "icemini4", "icemini5", "icemini6", "icemini7", "icemini8" ],
 
     "maxRadius" : 2000,
     "maxParts" : 15
@@ -515,6 +515,11 @@
       "name" : "icemini7",
       "rules" : [ ],
       "def" : [ "image", [ "icemini7.png", "icemini7-objects.png" ] ]
+    },
+    {
+      "name" : "icemini8",
+      "rules" : [ ],
+      "def" : [ "image", [ "icemini8.png", "icemini8-objects.png" ] ]
     }
   ]
 }

@@ -207,7 +207,7 @@ local recipes =
 {inputs = { brittlemetal=50 }, outputs = { rawminerals=2 }, time = 1.12},
 {inputs = { marestonematerial=50 }, outputs = { rawminerals=2 }, time = 1.12},
 {inputs = { oystershellmaterial=50 }, outputs = { geneticmaterial=2 }, time = 1.12},
-{inputs = { rostone=50 }, outputs = { rawminerals=2 }, time = 1.12},
+{inputs = { rostonematerial=50 }, outputs = { rawminerals=2 }, time = 1.12},
 {inputs = { ebonblockmaterial=4 }, outputs = { ebonshard=3 }, time = 1.12},
 {inputs = { elderblockmaterial=50 }, outputs = { rawminerals=3 }, time = 1.12},
 {inputs = { elderblock2material=50 }, outputs = { rawminerals=3 }, time = 1.12},
@@ -586,6 +586,9 @@ local recipes =
 {inputs = { tinselbushsprout=1 }, outputs = { tissueculture=4 }, time = 1.12},
 {inputs = { victorleafbud=1 }, outputs = { tissueculture=4 }, time = 1.12},
 {inputs = { whitespineshell=1 }, outputs = { tissueculture=4 }, time = 1.12},
+{inputs = { raptoregg=1 }, outputs = { geneticmaterial=6 }, time = 1.12},
+{inputs = { carcass1=1 }, outputs = { tissueculture=12,geneticmaterial=12  }, time = 1.12},
+{inputs = { carcass2=1 }, outputs = { tissueculture=12,geneticmaterial=12  }, time = 1.12},
 --from vanilla
 {inputs = { plantfibre=50 }, outputs = { tissueculture=2 }, time = 1.12},
 {inputs = { alienfruit=1 }, outputs = { tissueculture=3 }, time = 1.12},

@@ -207,7 +207,7 @@ local recipes =
 {inputs = { brittlemetal=50 }, outputs = { rawminerals=4 }, time = 0.5},
 {inputs = { marestonematerial=50 }, outputs = { rawminerals=3 }, time = 0.5},
 {inputs = { oystershellmaterial=50 }, outputs = { geneticmaterial=4 }, time = 0.5},
-{inputs = { rostone=50 }, outputs = { rawminerals=4 }, time = 0.5},
+{inputs = { rostonematerial=50 }, outputs = { rawminerals=4 }, time = 0.5},
 {inputs = { ebonblockmaterial=4 }, outputs = { ebonshard=5 }, time = 0.5},
 {inputs = { elderblockmaterial=50 }, outputs = { rawminerals=5 }, time = 0.5},
 {inputs = { elderblock2material=50 }, outputs = { rawminerals=5 }, time = 0.5},
@@ -646,7 +646,9 @@ local recipes =
 {inputs = { wildvines=1 }, outputs = { tissueculture=7 }, time = 0.5},
 {inputs = { coconut=1 }, outputs = { tissueculture=7 }, time = 0.5},
 {inputs = { hivebomb=1 }, outputs = { tissueculture=8 }, time = 0.5},
-
+{inputs = { raptoregg=1 }, outputs = { geneticmaterial=12 }, time = 0.5},
+{inputs = { carcass1=1 }, outputs = { tissueculture=24,geneticmaterial=24  }, time = 0.5},
+{inputs = { carcass2=1 }, outputs = { tissueculture=24,geneticmaterial=24  }, time = 0.5},
 -- vanilla ores
 {inputs = { coalore=1 }, outputs = { ammoniumsulfate=2 }, time = 0.5},
 {inputs = { copperore=1 }, outputs = { rawminerals=6 }, time = 0.5},

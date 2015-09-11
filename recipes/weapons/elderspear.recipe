@@ -6,7 +6,7 @@
     { "item" : "aliencompound", "count" : 6 }
   ],
   "output" : {
-    "item" : "elderblade",
+    "item" : "elderspear",
     "count" : 1
   },
   "groups" : [ "prototyper", "weapons", "all" ]
