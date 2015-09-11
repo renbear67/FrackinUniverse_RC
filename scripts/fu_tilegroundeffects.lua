@@ -43,5 +43,7 @@ function tileMaterials()
   self.matCheck["asphalt"] = {{"metalspeed"},0,0,0,14,100,0,1.4}
   self.matCheck["cloudblock"] = {{"lowgrav"},0,0,0,14,100,0,0.2}
   self.matCheck["raincloud"] = {{"lowgrav"},0,0,0,14,100,0,0.2}
-  self.matCheck["honeycombmaterial"] = {{"honeyslow"},0,0,0,14,100,0,0.2}      
+  self.matCheck["honeycombmaterial"] = {{"honeyslow"},0,0,0,14,100,0,0.7}  
+  self.matCheck["speedblock"] = {{"runboost35"},0,0,0,14,100,0,0.75} 
+  self.matCheck["jumpblock"] = {{"jumpboost35"},0,0,0,14,100,0,0.75} 
 end

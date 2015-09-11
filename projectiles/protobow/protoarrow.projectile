@@ -20,7 +20,7 @@
       "file" : "/projectiles/explosions/slimestormexplosion/slimestormexplosionbow.config"
     }
   ],
-  "damageKind" : "testpoison"
+  "damageKind" : "default"
 }
 
 

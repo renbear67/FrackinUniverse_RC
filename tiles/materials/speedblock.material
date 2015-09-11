@@ -1,0 +1,21 @@
+{
+  "materialId" : 6703,
+  "materialName" : "speedblock",
+  "particleColor" : [111, 98, 90, 255],
+  "itemDrop" : "speedblockmaterial",
+  "description" : "Gives you a speed boost.",
+  "shortdescription" : "Speed Block",
+  "footstepSound" : "/sfx/blocks/footstep_girder.wav",
+  "health" : 22,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "speedblock.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 2560
+  }
+}

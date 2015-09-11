@@ -51,5 +51,5 @@
     }
   ],
   //"power" : 5.0,
-  "damageKind" : "acid"
+  "damageKind" : "default"
 }

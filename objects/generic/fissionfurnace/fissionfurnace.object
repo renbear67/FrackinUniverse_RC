@@ -15,7 +15,7 @@
   "price" : 1250,
   "lightColor" : [0, 0, 90],
   "pickupQuestTemplates" : [ "fissionfurnace.gearup" ],
-  "learnBlueprintsOnPickup" : [ "solariumstar", "solaricrystal", "magnesiumpowder", "moonstonebar" ],
+  "learnBlueprintsOnPickup" : [ "solariumstar", "solaricrystal", "magnesiumpowder", "moonstonebar", "titaniumwallblockmaterial", "speedblockmaterial", "jumpblockmaterial" ],
   "inventoryIcon" : "fissionfurnaceicon.png",
   "orientations" : [
     {
