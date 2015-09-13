@@ -34,9 +34,9 @@ function eyeBeamAttack.update(dt, stateData)
   if not stateData.blasting then 
     if math.abs(toTarget[1]) > stateData.distanceRange[2] then
       entity.setAnimationState("movement", "walk")
-      move(toTarget, true)
+      move(toTarget, false)
     elseif math.abs(toTarget[1]) < stateData.distanceRange[1] then
-      move({-toTarget[1], toTarget[2]}, true)
+      move({-toTarget[1], toTarget[2]}, false)
       entity.setAnimationState("movement", "walk")
       mcontroller.controlFace(targetDir)
     else
