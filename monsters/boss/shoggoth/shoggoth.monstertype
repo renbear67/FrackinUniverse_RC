@@ -64,6 +64,7 @@
 
     "trackTargetDistance" : 100.0,
     "switchTargetDistance" : 0,
+    "keepTargetInSight" : false,
 
     "knockoutTime" : 0.5,
     "knockoutEffect" : "blink",
@@ -73,7 +74,7 @@
 
 
     "jumpTargetDistance" : 0,
-    "jumpTime" : [0.0, 0.0],
+    "jumpTime" : [100, 100],
 
     "metaBoundBox" : [-16, -16, 10, 10],
 
