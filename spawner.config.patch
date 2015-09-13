@@ -162,7 +162,7 @@
 {"op":"add",
  "path":"/spawnGroups/fu_atropus",
  "value":[       
-      "fuheckblob",
+     // "fuheckblob",
       "fleshleech"
       ] 
 },

@@ -4,7 +4,7 @@
     "species" : "dummy",
     "rules" : [
     ],
-    "anchor" : [ "cultist1", "cultist2", "cultist3" ],
+    "anchor" : [ "cultist1", "cultist2", "cultist3", "cultist4", "cultist5", "cultist6", "cultist7", "cultist8" ],
     "maxRadius" : 2000,
     "maxParts" : 15
   },
@@ -3936,7 +3936,35 @@
       "name" : "cultist3",
       "rules" : [ ],
       "def" : [ "image", [ "cultist3.png", "cultistobjects3.png" ] ]
-    }
+    },
 
+    {
+      "name" : "cultist4",
+      "rules" : [ ],
+      "def" : [ "image", [ "cultist4.png", "cultistobjects4.png" ] ]
+    },
+    {
+      "name" : "cultist5",
+      "rules" : [ ],
+      "def" : [ "image", [ "cultist5.png", "cultistobjects5.png" ] ]
+    },
+    
+    {
+      "name" : "cultist6",
+      "rules" : [ ],
+      "def" : [ "image", [ "cultist6.png", "cultistobjects6.png" ] ]
+    },
+    
+    {
+      "name" : "cultist7",
+      "rules" : [ ],
+      "def" : [ "image", [ "cultist7.png", "cultistobjects7.png" ] ]
+    },
+
+    {
+      "name" : "cultist8",
+      "rules" : [ ],
+      "def" : [ "image", [ "cultist8.png", "cultistobjects8.png" ] ]
+    }
   ]
 }

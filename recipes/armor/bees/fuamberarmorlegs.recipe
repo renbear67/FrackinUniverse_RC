@@ -8,5 +8,5 @@
     "item" : "fugoldenlegs",
     "count" : 1
   },
-  "groups" : [ "prototyper", "armors", "all" ]
+  "groups" : [ "prototyper","beestation", "armors", "all" ]
 }

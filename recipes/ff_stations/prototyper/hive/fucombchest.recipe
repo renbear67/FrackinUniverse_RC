@@ -7,5 +7,5 @@
     "item" : "fucombchest",
     "count" : 1
   },
-  "groups" : [ "prototyper", "furniture", "all" ]
+  "groups" : [ "prototyper","beestation", "furniture", "all" ]
 }

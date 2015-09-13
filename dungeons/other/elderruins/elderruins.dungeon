@@ -6,7 +6,8 @@
 		"maxRadius" : 2000,
 		"maxParts" : 1,
 		"gravity" : 110,
-		"anchor" : [ "elderruin2" ],
+		"anchor" : [ "elderruin1", "elderruin2", "elderruin3", "elderruin4" ],
+		
 		"protected" : true
 	},
 	
@@ -736,7 +737,6 @@
       "name" : "elderruin1",
       "rules" : [ ],
       "def" : [ "image", [ "elderruins1.png", "elderruins1-objects.png", "elderruins1-liquids.png" ] ]
-      //"def" : [ "image", [ "elderruins2.png", "elderruins2-objects.png", "elderruins1-liquids.png", "elderruins1-wires.png", ] ]
     },
     {
       "name" : "elderruin2",
@@ -747,6 +747,11 @@
       "name" : "elderruin3",
       "rules" : [ ],
       "def" : [ "image", [ "elderruins3.png", "elderruins3-objects.png" ] ]
+    },
+    {
+      "name" : "elderruin4",
+      "rules" : [ ],
+      "def" : [ "image", [ "elderruins4.png", "elderruins4-objects.png" ] ]
     }
 	
 	]

@@ -1,4 +1,14 @@
 [
+  { "op" : "add", "path" : "/raptornestLoot", 
+  "value" : 
+	[
+		{
+		"containers" : [ "raptorneststorage" ],
+		"treasurePool" : "raptornestLoot",
+		"minimumLevel" : 1
+		}
+	]
+  },
   { "op" : "add", "path" : "/ffbasicChest", 
 	"value" : 
 	[

@@ -4,7 +4,7 @@
     "species" : "dummy",
     "rules" : [
     ],
-    "anchor" : [ "arborealmini1", "arborealmini2", "arborealmini3" ],
+    "anchor" : [ "arborealmini1", "arborealmini2", "arborealmini3", "arborealmini4", "arborealmini5", "arborealmini6" ],
 
     "maxRadius" : 2000,
     "maxParts" : 15
@@ -559,6 +559,21 @@
       "name" : "arborealmini3",
       "rules" : [ ],
       "def" : [ "image", [ "arborealmini3.png", "arborealmini3-objects.png" ] ]
-    }
+    },
+    {
+      "name" : "arborealmini4",
+      "rules" : [ ],
+      "def" : [ "image", [ "arborealmini4.png", "arborealmini4-objects.png" ] ]
+    },
+    {
+      "name" : "arborealmini5",
+      "rules" : [ ],
+      "def" : [ "image", [ "arborealmini5.png", "arborealmini5-objects.png" ] ]
+    },
+    {
+      "name" : "arborealmini6",
+      "rules" : [ ],
+      "def" : [ "image", [ "arborealmini6.png", "arborealmini6-objects.png" ] ]
+    }    
   ]
 }
