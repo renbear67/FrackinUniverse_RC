@@ -10,15 +10,15 @@
       
       "damagePerSecond" : 2000,
       "distanceRange" : [0, 20],
-      "windupTime" : 0.3,
-      "winddownTime" : 0.5,
+      "windupTime" : 0.4,
+      "winddownTime" : 1.2,
       "projectile" : {
         "type" : "shoggothswipe",
         "config" : {
           "power" : 30,
           "speed" : 10
         },
-        "offset" : [18, -14]
+        "offset" : [18, -12.5]
       }
     }
   }

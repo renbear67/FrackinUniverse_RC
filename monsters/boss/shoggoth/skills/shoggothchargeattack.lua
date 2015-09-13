@@ -1,0 +1,75 @@
+shoggothChargeAttack = {}
+
+--------------------------------------------------------------------------------
+function shoggothChargeAttack.enter()
+  if not hasTarget() then
+    return nil
+  end
+  entity.setDamageOnTouch(true)
+
+
+  return {
+    timer = entity.configParameter("shoggothChargeAttack.skillTime", 1),
+    damagePerSecond = entity.configParameter("shoggothChargeAttack.damagePerSecond", 5000),
+    distanceRange = entity.configParameter("shoggothChargeAttack.distanceRange"),
+    intervalTime = entity.configParameter("shoggothChargeAttack.intervalTime"),
+    currentPeriod = entity.configParameter("shoggothChargeAttack.intervalTime"),
+    swiping = false
+  }
+end
+
+--------------------------------------------------------------------------------
+function shoggothChargeAttack.enteringState(stateData)
+  entity.setAnimationState("movement", "idle")
+
+  entity.setActiveSkillName("shoggothChargeAttack")
+end
+
+--------------------------------------------------------------------------------
+function shoggothChargeAttack.update(dt, stateData)
+  if not hasTarget() then return true end
+
+  local toTarget = world.distance(self.targetPosition, mcontroller.position())
+  local targetDir = util.toDirection(toTarget[1])
+
+  if not stateData.swiping then 
+
+    --projectile interval check and spawn
+    if stateData.currentPeriod < 0 then
+      shoggothChargeAttack.chomp(targetDir)
+      stateData.currentPeriod = stateData.intervalTime
+    else
+      stateData.currentPeriod = stateData.currentPeriod - dt
+    end
+
+
+    if math.abs(toTarget[1]) > stateData.distanceRange[2] then
+      entity.setAnimationState("movement", "run")
+      move(toTarget, true)
+    elseif math.abs(toTarget[1]) < stateData.distanceRange[1] then
+      move({-toTarget[1], toTarget[2]}, true)
+      entity.setAnimationState("movement", "run")
+      mcontroller.controlFace(targetDir)
+    else
+      stateData.swiping = true
+    end
+
+  end
+
+
+  return false
+end
+
+
+function shoggothChargeAttack.chomp(direction)
+  local projectileType = entity.configParameter("shoggothChargeAttack.projectile.type")
+  local projectileConfig = entity.configParameter("shoggothChargeAttack.projectile.config")
+  local projectileOffset = entity.configParameter("shoggothChargeAttack.projectile.offset")
+  world.spawnProjectile(projectileType, entity.toAbsolutePosition(projectileOffset), entity.id(), {direction, 0}, true, projectileConfig)
+end
+
+function shoggothChargeAttack.leavingState(stateData)
+  entity.setAnimationState("movement", "idle")
+  entity.setActiveSkillName("")
+end
+

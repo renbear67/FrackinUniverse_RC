@@ -19,13 +19,12 @@
       "/scripts/stateMachine.lua",
       "/scripts/util.lua",
       "/scripts/vec2.lua",
-
       "/monsters/boss/shoggoth/dieState.lua",
       "/monsters/boss/shoggoth/idleState.lua"
     ],
 
-    "skillCount" : 5,
-    "skills" : ["tentacleSwipeAttack", "fleshBombAttack", "eyeBeamAttack", "shoggothAcidAttack", "miniShoggothSpawnAttack"],
+    "skillCount" : 6,
+    "skills" : ["tentacleSwipeAttack", "fleshBombAttack", "eyeBeamAttack", "shoggothAcidAttack", "miniShoggothSpawnAttack", "shoggothChargeAttack"],
 
     "phases" : [
       {
@@ -33,15 +32,19 @@
       },
       {
         "trigger" : "healthPercentage",
-        "healthPercentage" : 0.7,
-        "enterPhase" : "miniShoggothSpawnAttack",
+        "healthPercentage" : 0.75,
         "skills" : [ "eyeBeamAttack", "tentacleSwipeAttack", "shoggothAcidAttack" ]
       },
       {
         "trigger" : "healthPercentage",
-        "healthPercentage" : 0.3,
+        "healthPercentage" : 0.5,
         "enterPhase" : "miniShoggothSpawnAttack",
         "skills" : [ "eyeBeamAttack", "fleshBombAttack", "tentacleSwipeAttack", "shoggothAcidAttack" ]
+      },
+      {
+        "trigger" : "healthPercentage",
+        "healthPercentage" : 0.25,
+        "skills" : [ "shoggothChargeAttack" ]
       }
     ],
 
@@ -51,7 +54,7 @@
       "collisionPoly" : [ [-16, -16], [16, -16], [16, 0], [-16, 0] ],
       "mass" : 1,
       "walkSpeed" : 8,
-      "runSpeed" : 8,
+      "runSpeed" : 10,
       "jumpSpeed" : 20,
       "airforce" : 10
     },
@@ -61,6 +64,7 @@
 
     "trackTargetDistance" : 100.0,
     "switchTargetDistance" : 0,
+    "keepTargetInSight" : false,
 
     "knockoutTime" : 0.5,
     "knockoutEffect" : "blink",
@@ -69,10 +73,10 @@
     "alwaysAggressive" : true,
 
 
-    "jumpTargetDistance" : 4,
-    "jumpTime" : [0.4, 0.7],
+    "jumpTargetDistance" : 0,
+    "jumpTime" : [100, 100],
 
-    "metaBoundBox" : [-10, -10, 10, 10],
+    "metaBoundBox" : [-16, -16, 10, 10],
 
     "blockedSensors" : [ [-16, -16], [16, -16], [16, 0], [-16, 0] ],
     "fallSensors" : [ [-16, -16], [16, -16], [16, 0], [-16, 0] ],
@@ -82,7 +86,7 @@
       "damage" : 100,
 
       "teamType" : "enemy",
-      "damageSourceKind" : "default",
+      "damageSourceKind" : "lash",
       "statusEffects" : [ "slimefriction" ]
     },
 

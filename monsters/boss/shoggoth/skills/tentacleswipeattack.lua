@@ -5,6 +5,8 @@ function tentacleSwipeAttack.enter()
   if not hasTarget() then
     return nil
   end
+  entity.setDamageOnTouch(true)
+
 
   return {
     timer = entity.configParameter("tentacleSwipeAttack.skillTime", 16),
@@ -33,9 +35,9 @@ function tentacleSwipeAttack.update(dt, stateData)
   if not stateData.swiping then 
     if math.abs(toTarget[1]) > stateData.distanceRange[2] then
       entity.setAnimationState("movement", "walk")
-      move(toTarget, true)
+      move(toTarget, false)
     elseif math.abs(toTarget[1]) < stateData.distanceRange[1] then
-      move({-toTarget[1], toTarget[2]}, true)
+      move({-toTarget[1], toTarget[2]}, false)
       entity.setAnimationState("movement", "walk")
       mcontroller.controlFace(targetDir)
     else
@@ -46,7 +48,6 @@ function tentacleSwipeAttack.update(dt, stateData)
     if stateData.windupTimer > 0 then
       if stateData.windupTimer == entity.configParameter("tentacleSwipeAttack.windupTime") then
       	entity.setAnimationState("movement", "swipe")
-        tentacleSwipeAttack.swipe(targetDir)
       end
       stateData.windupTimer = stateData.windupTimer - dt
     elseif stateData.winddownTimer > 0 then

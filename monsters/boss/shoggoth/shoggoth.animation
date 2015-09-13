@@ -20,8 +20,8 @@
             "mode" : "loop"
           },
           "run" : {
-            "frames" : 16,
-            "cycle" : 0.75,
+            "frames" : 8,
+            "cycle" : 0.8,
             "mode" : "loop"
           },
           "chargeWindup" : {
@@ -43,7 +43,7 @@
             "mode" : "loop"
           },
           "swipe" : {
-            "cycle": 0.8,
+            "cycle": 1.2,
             "frames" : 16,
             "properties" : {
               "immediateSound" : "/sfx/melee/swing_fire4.wav"
@@ -143,7 +143,7 @@
             },
             "run" : {
               "properties" : {
-                "image" : "<partImage>:idle.<frame>"
+                "image" : "<partImage>:run.<frame>"
               }
             },
             "charge" : {
