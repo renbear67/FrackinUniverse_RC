@@ -45,12 +45,12 @@
         "trigger" : "healthPercentage",
         "healthPercentage" : 0.25,
         "skills" : [ "shoggothChargeAttack", "tentacleSwipeAttack" ]
-      },
-      {
-        "trigger" : "healthPercentage",
-        "healthPercentage" : 0.15,
-        "skills" : [ "shoggothChargeAttack" ]
-      }
+      }//,
+      //{
+      //  "trigger" : "healthPercentage",
+      //  "healthPercentage" : 0.15,
+      //  "skills" : [ "shoggothChargeAttack" ]
+      //}
     ],
 
     "scale" : 1,
