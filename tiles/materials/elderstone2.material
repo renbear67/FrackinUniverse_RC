@@ -2,7 +2,7 @@
   "materialId" : 6602,
   "materialName" : "elderstone2",
   "particleColor" : [138, 155, 113, 255],
-  "itemDrop" : "elderstonematerial",
+  "itemDrop" : "elderstone2material",
   "description" : "This material feels...wrong.",
   "shortdescription" : "Elder Soil",
   "footstepSound" : "/sfx/blocks/footstep_stone3.wav",

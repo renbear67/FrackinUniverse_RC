@@ -245,10 +245,10 @@
 {"op":"add","path":"/spawns/fudeathdroid","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.005,"monsterType":"deathdroid","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/furatthing","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.01,"monsterType":"furatthing","monsterParameters":{"aggressive":false}}},
 
-{"op":"add","path":"/spawns/futinybee","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.01,"monsterType":"futinybee","monsterParameters":{"aggressive":true}}},
-{"op":"add","path":"/spawns/futinybee2","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.01,"monsterType":"futinybee2","monsterParameters":{"aggressive":true}}},
-{"op":"add","path":"/spawns/fugiantbee","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.005,"monsterType":"fugiantbee","monsterParameters":{"aggressive":true}}},
-{"op":"add","path":"/spawns/fugiantbee2","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.005,"monsterType":"fugiantbee2","monsterParameters":{"aggressive":true}}},
+{"op":"add","path":"/spawns/futinybee","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.033,"monsterType":"futinybee","monsterParameters":{"aggressive":true}}},
+{"op":"add","path":"/spawns/futinybee2","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.035,"monsterType":"futinybee2","monsterParameters":{"aggressive":true}}},
+{"op":"add","path":"/spawns/fugiantbee","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.015,"monsterType":"fugiantbee","monsterParameters":{"aggressive":true}}},
+{"op":"add","path":"/spawns/fugiantbee2","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.015,"monsterType":"fugiantbee2","monsterParameters":{"aggressive":true}}},
 
 {"op":"add","path":"/spawns/zombot","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.005,"monsterType":"zombot","monsterParameters":{"aggressive":true}}},
 
