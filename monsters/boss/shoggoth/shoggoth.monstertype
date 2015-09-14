@@ -44,6 +44,11 @@
       {
         "trigger" : "healthPercentage",
         "healthPercentage" : 0.25,
+        "skills" : [ "shoggothChargeAttack", "tentacleSwipeAttack" ]
+      },
+      {
+        "trigger" : "healthPercentage",
+        "healthPercentage" : 0.15,
         "skills" : [ "shoggothChargeAttack" ]
       }
     ],
@@ -74,7 +79,7 @@
 
 
     "jumpTargetDistance" : 0,
-    "jumpTime" : [100, 100],
+    "jumpTime" : [0, 0.01],
 
     "metaBoundBox" : [-16, -16, 10, 10],
 
