@@ -70,7 +70,7 @@
           {
             "head" : [ { "name" : "fflagoonhead", "parameters" : { "colorIndex" : 7 } } ],
             "chest" : [ { "name" : "fflagoonchest", "parameters" : { "colorIndex" : 7 } } ],
-            "legs" : [ { "name" : "fflagoonpants", "parameters" : { "colorIndex" : 7 } } ],
+            "legs" : [ { "name" : "fflagoonlegs", "parameters" : { "colorIndex" : 7 } } ],
             "primary" : [
               { "name" : "elderblade" }
             ],

@@ -33,5 +33,7 @@
       "alts" : 3,
       "harvestPool" : "fubioshroomHarvest"
     }
-  ]
+  ],
+
+  "maxImmersion" : 0.725
 }

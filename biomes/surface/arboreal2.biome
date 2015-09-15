@@ -420,7 +420,7 @@
           "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures",
         
           "type" : "microdungeon",
-          "microdungeons" : [ "terrainfeatures", "rockclimb","rocktunnel",  "toxicplains", "sandstone", "blockpile", "loops", "flats", "reversepyramids" ]
+          "microdungeons" : [ "terrainfeatures", "rockclimb","rocktunnel", "blockpile", "loops", "flats", "canyonmini" ]
         },
         {
           "mode" : "floor",
