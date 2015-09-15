@@ -5,5 +5,5 @@
   "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
   "description" : "Ice-covered stone.",
   "shortdescription" : "Frozen Stone",
-  "materialId" : 6612
+  "materialId" : 6562
 }

@@ -5,5 +5,5 @@
   "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
   "description" : "Ice-covered sand.",
   "shortdescription" : "Frozen Sand",
-  "materialId" : 6614
+  "materialId" : 6560
 }

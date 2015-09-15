@@ -5,5 +5,5 @@
   "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
   "shortdescription" : "Jungle Soil",
   "description" : "This is some nice soil.",
-  "materialId" : 6585
+  "materialId" : 6569
 }

@@ -6,5 +6,5 @@
   "shortdescription" : "Ice",
   "description" : "That frozen-water stuff.",
 "learnBlueprintsOnPickup" : [ "ff_icechucker" ],
-  "materialId" : 6581
+  "materialId" : 6532
 }

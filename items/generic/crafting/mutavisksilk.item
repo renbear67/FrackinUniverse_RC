@@ -4,5 +4,5 @@
   "inventoryIcon" : "mutavisksilk.png",
   "description" : "Superior, resistant and durable silk fibres.",
   "shortdescription" : "Mutavisk Silk",
-  "learnBlueprintsOnPickup" : [ "mutaviskthread" ]
+  "learnBlueprintsOnPickup" : [ "mutaviskthread", "fujellyblock" ]
 }

@@ -5,6 +5,6 @@
   "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
   "description" : "Delicate coral.",
   "shortdescription" : "Delicate Coral",
-  
-  "materialId" : 4502
+  "learnBlueprintsOnPickup" : [ "coralspear" ],  
+  "materialId" : 6548
 }

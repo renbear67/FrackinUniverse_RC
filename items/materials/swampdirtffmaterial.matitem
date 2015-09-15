@@ -5,5 +5,5 @@
   "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
   "description" : "Icky, slimy dirt.",
   "shortdescription" : "Swamp Dirt",
-  "materialId" : 6609
+  "materialId" : 6594
 }

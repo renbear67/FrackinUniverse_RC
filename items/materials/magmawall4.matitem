@@ -6,5 +6,5 @@
   "shortdescription" : "Cooled Volcanic Rock",
   "description" : "You can touch this without losing a hand.",
   "learnBlueprintsOnPickup" : [ "magmacabinet", "magmachair", "magmasofa", "magmatable" ],
-  "materialId" : 6565
+  "materialId" : 6541
 }

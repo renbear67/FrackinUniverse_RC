@@ -6,5 +6,5 @@
   "shortdescription" : "Volcanic Ash",
   "description" : "Probably not tasty.",
   "learnBlueprintsOnPickup" : [ "magmacabinet", "magmachair", "magmasofa", "magmatable" ],
-  "materialId" : 6564
+  "materialId" : 6540
 }

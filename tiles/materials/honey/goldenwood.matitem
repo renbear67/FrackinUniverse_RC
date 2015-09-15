@@ -8,5 +8,5 @@
   "glitchdescription" : "Statement. Unrefined wood.",
   "florandescription" : "Unssstabbed wood.",
   "learnBlueprintsOnPickup" : [ "goldenplank" ],
-  "materialId" : 1705
+  "materialId" : 6521
 }

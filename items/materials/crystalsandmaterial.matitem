@@ -7,5 +7,5 @@
   "shortdescription" : "Crystal Sand",
   "learnBlueprintsOnPickup" : [ "crystalsandmaterial" ],
 
-  "materialId" : 6621
+  "materialId" : 6550
 }

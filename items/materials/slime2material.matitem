@@ -8,5 +8,5 @@
   "glitchdescription" : "Hesitation. A vulgar, slimy block.",
   "florandescription" : "Ssslimy!",
   "learnBlueprintsOnPickup" : [ "slimelauncher" ],
-  "materialId" : 6584
+  "materialId" : 6585
 }

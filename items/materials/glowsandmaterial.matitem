@@ -7,5 +7,5 @@
   "shortdescription" : "Glowing Sand",
   "learnBlueprintsOnPickup" : [ "glowsandmaterial" ],
   "fuelAmount" : 1,
-  "materialId" : 6611
+  "materialId" : 6565
 }

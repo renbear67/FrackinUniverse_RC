@@ -5,5 +5,5 @@
   "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
   "description" : "Vine covered stones.",
   "shortdescription" : "Jungle Stone",
-  "materialId" : 6614
+  "materialId" : 6571
 }

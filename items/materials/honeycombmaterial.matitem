@@ -7,5 +7,5 @@
   "description" : "Waxy!",
   "learnBlueprintsOnPickup" : [ "honeycombmaterial", "fubeekeeperhead", "honeyplatform", "goldenglass", "goldenplank", "honeystonebrick", "goldenleaves", "goldensand", "goldenwood" ],
 
-  "materialId" : 20887
+  "materialId" : 6566
 }

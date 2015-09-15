@@ -6,5 +6,5 @@
   "shortdescription" : "Burning Volcanic Rock",
   "description" : "Burning hot magma stone. Don't touch!",
   "learnBlueprintsOnPickup" : [ "ff_lavalight1", "ff_lavalamp1", "magmacabinet", "magmachair", "magmasofa", "magmatable" ],
-  "materialId" : 6563
+  "materialId" : 6539
 }

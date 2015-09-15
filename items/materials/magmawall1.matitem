@@ -5,6 +5,6 @@
   "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
   "shortdescription" : "Volcanic Rock",
   "description" : "Burning hot magma stone. Don't touch!",
-  "materialId" : 6562,
-  "learnBlueprintsOnPickup" : [ "magmacabinet", "magmachair", "magmasofa", "magmatable" ]
+  "materialId" : 6538,
+  "learnBlueprintsOnPickup" : [ "magmacabinet", "magmachair", "magmasofa", "magmatable", "fuokeamagmabrick", "fuokeamagmastone" ]
 }

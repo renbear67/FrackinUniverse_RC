@@ -5,5 +5,5 @@
   "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
   "description" : "A golden, sticky platform",
   "shortdescription" : "Honey Platform",
-  "materialId" : 20888
+  "materialId" : 6599
 }

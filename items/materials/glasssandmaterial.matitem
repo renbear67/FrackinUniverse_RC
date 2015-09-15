@@ -6,5 +6,5 @@
   "description" : "A fine glittering glass sand. Watch your step!",
   "shortdescription" : "Glass Sand",
   "learnBlueprintsOnPickup" : [ "glasssandmaterial" ],
-  "materialId" : 6620
+  "materialId" : 6564
 }
