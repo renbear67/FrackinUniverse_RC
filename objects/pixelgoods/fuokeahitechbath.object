@@ -1,0 +1,73 @@
+{
+  "objectName" : "fuokeahitechbath",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 950,
+  "description" : "A truly unforgettable bathing experience",
+  "shortdescription" : "Hi-tech Bathtub",
+  "printable" : false,
+  "race" : "generic",
+
+
+  "apexDescription" : "Hi-tech Bathtub.",
+  "avianDescription" : "Hi-tech Bathtub",
+  "floranDescription" : "Hi-tech Bathtub.",
+  "glitchDescription" : "Hi-tech Bathtub.",
+  "humanDescription" : "Hi-tech Bathtub.",
+  "hylotlDescription" : "Hi-tech Bathtub.",
+
+  "particleEmitter" : {
+    "emissionRate" : 1.6,
+    "emissionVariance" : 0.5,
+    "pixelOrigin" : [4, 35],
+
+    "particle" : {
+      "type" : "ember",
+      "size" : 1.0,
+      "color" : [73, 179, 253, 180],
+      "fade" : 0.9,
+      "initialVelocity" : [0.0, -4],
+      "finalVelocity" : [0.0, -6],
+      "approach" : [0, 20],
+      "timeToLive" : 0.4,
+      "layer" : "middle"
+    }
+
+  },
+
+  "inventoryIcon" : "fuokeahitechbathicon.png",
+  "orientations" : [
+    {
+      "image" : "fuokeahitechbath.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+  "sitCoverImage" : "/objects/pixelgoods/fuokeahitechbathoverlay.png",
+      "spaceScan" : 0.1,
+      "collision" : "platform" ,
+      "anchors" : [ "bottom" ],
+      "direction" : "right"
+    },
+    {
+      "image" : "fuokeahitechbath.png:<color>",
+      "flipImages" : true,
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+  "sitCoverImage" : "/objects/pixelgoods/fuokeahitechbathoverlay.png",
+      "spaceScan" : 0.1,
+      "collision" : "platform" ,
+      "anchors" : [ "bottom" ],
+      "direction" : "left"
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "interactAction" : "sitdown",
+  "sitFlipDirection" : true,
+  "sitEmote" : "happy",
+  "sitStatusEffects" : [
+    { "kind" : "Nude" }
+  ],
+  "sitPosition" : [-5, 19]
+}

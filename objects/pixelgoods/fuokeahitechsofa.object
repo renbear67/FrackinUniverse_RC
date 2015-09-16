@@ -1,0 +1,59 @@
+{
+  "objectName" : "fuokeahitechsofa",
+  "retainObjectParametersInItem" : true,
+  "rarity" : "Common",
+  "printable" : false,
+  "category" : "furniture",
+  "price" : 900,
+  "description" : "Perfect for casting",
+  "shortdescription" : "Hi-tech Couch",
+  "race" : "generic",
+  "unlit" : false,
+  "lightColors" : {
+    "default" : [40, 185, 185],
+    "red" : [40, 185, 185],
+    "blue" : [40, 185, 185],
+    "green" : [40, 185, 185],
+    "yellow" : [40, 185, 185],
+    "orange" : [40, 185, 185],
+    "pink" : [40, 185, 185],
+    "black" : [40, 185, 185],
+    "white" : [40, 185, 185]
+  },
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.01,
+  "flickerTiming" : 4,
+
+  "apexDescription" : "Hi-tech Sofa.",
+  "avianDescription" : "Hi-tech Sofa.",
+  "floranDescription" : "Hi-tech Sofa.",
+  "glitchDescription" : "Hi-tech Sofa.",
+  "humanDescription" : "Hi-tech Sofa.",
+  "hylotlDescription" : "Hi-tech Sofa.",
+
+  "inventoryIcon" : "fuokeahitechsofaicon.png",
+  "orientations" : [
+    {
+      "image" : "fuokeahitechsofa.png:<color>",
+      "flipImages" : true,
+      "imagePosition" : [-24, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left"
+    },
+    {
+      "image" : "fuokeahitechsofa.png:<color>",
+      "imagePosition" : [-16, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right"
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "interactAction" : "sitdown",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 24]
+
+}
+

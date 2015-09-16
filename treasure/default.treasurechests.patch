@@ -140,5 +140,15 @@
 		"minimumLevel" : 1
 		}
 	]
+  },
+  { "op" : "add", "path" : "/ffwastelandChest", 
+  "value" : 
+	[
+		{
+		"containers" : [ "rustchest" ],
+		"treasurePool" : "ffmetallicbigChest",
+		"minimumLevel" : 1
+		}
+	]
   }
 ]

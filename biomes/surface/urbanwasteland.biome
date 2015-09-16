@@ -257,7 +257,7 @@
           "distribution" : "/biomes/distributions.config:overgroundChests",
 
           "type" : "treasureBox",
-          "treasureBoxSets" : [ "fflabChest" ]
+          "treasureBoxSets" : [ "ffwastelandChest" ]
         },        
         {
           "mode" : "floor",
