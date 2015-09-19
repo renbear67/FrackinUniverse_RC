@@ -152,6 +152,7 @@
             {
               "pool" : [ 
           [0.35, "wildpasakavineseed" ], 
+          [0.35, "wildbrackentreeseed" ],
           [0.35, "wildpussplumseed" ],
           [0.35, "wildcaprioleplantseed" ],
           [0.35, "wildthornitoxseed" ],

@@ -175,6 +175,7 @@
           "objectSets" : [
             {
               "pool" : [ 
+              [0.35, "wildbrackentreeseed" ],
               [0.35, "wildalgaeseed" ],
               [0.35, "wildtalonseedseed" ],
               [0.35, "wildmutaviskseed" ],

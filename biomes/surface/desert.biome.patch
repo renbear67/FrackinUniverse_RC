@@ -1,5 +1,24 @@
 [
 {"op":"replace","path":"/spawnProfiles/0","value":{"groups":["mediumsurface1"],"extraSpawns":["sunskipper", "goldbuck","aridbee"]}},
 {"op":"replace","path":"/spawnProfiles/1","value":{"groups":["mediumsurface2"],"extraSpawns":["sunskipper", "sandclown","aridbee"]}},
-{"op":"add","path":"/subBlocks/-","value": "calichestone"}
+{"op":"add","path":"/subBlocks/-","value": "calichestone"},
+
+	{"op":"add","path":"/surfacePlaceables/items/-","value":{
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:surfaceCrops",
+
+          "type" : "object",
+          "objectSets" : [
+            {
+              "pool" : [ 
+              [0.35, "wildbrackentreeseed" ]
+              ],
+              "parameters" : { "startingStage" : 3 }
+            }
+          ]
+        }
+	}
+
 ]

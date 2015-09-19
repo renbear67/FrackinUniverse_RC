@@ -78,11 +78,11 @@
     },
     { "op" : "add", 
     "path" : "/planetTypes/forest/layers/surface/secondaryRegion", 
-    "value" : [ "ffhive", "birchforest", "alienforest", "cloudforest", "corruptedforest", "deadwood", "energyorbforest", "fieldofcarrots", "fieldofcorn", "fieldofgrape", "fieldofpotato", "fieldoftomato", "primevalforest", "fieldofwheat", "flowerforest", "hauntedforest", "hauntedgraveyard", "meadow", "hellhive", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "rainbowforest", "snowyforest", "taiga" ]
+    "value" : [ "ffhive", "birchforest", "alienforest", "cloudforest", "corruptedforest", "deadwood", "energyorbforest", "fieldofbracken", "fieldofcarrots", "fieldofcorn", "fieldofgrape", "fieldofpotato", "fieldoftomato", "primevalforest", "fieldofwheat", "flowerforest", "hauntedforest", "hauntedgraveyard", "meadow", "hellhive", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "rainbowforest", "snowyforest", "taiga" ]
     },
     { "op" : "add", 
     "path" : "/planetTypes/garden/layers/surface/secondaryRegion", 
-    "value" : [ "ffhive", "birchforest", "cloudforest", "fieldofcarrots", "fieldofcorn", "fieldofgrape", "fieldofpotato", "fieldoftomato", "fieldofwheat", "flowerforest", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "rainbowforest", "snowyforest", "taiga" ]
+    "value" : [ "ffhive", "birchforest", "cloudforest", "fieldofcarrots", "fieldofcorn", "fieldofgrape", "fieldofpotato", "fieldofbracken", "fieldoftomato", "fieldofwheat", "flowerforest", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "rainbowforest", "snowyforest", "taiga" ]
     },
     { "op" : "add", 
     "path" : "/planetTypes/jungle/layers/surface/secondaryRegion", 
@@ -94,7 +94,7 @@
     },
     { "op" : "add", 
     "path" : "/planetTypes/savannah/layers/surface/secondaryRegion", 
-    "value" : [ "ffhive", "cactiplace", "crystalswamp", "birchforest", "alienforest", "sulphuricmagma", "pitchfield", "hellhive", "flowerforest", "hauntedforest", "bloodgulch", "hauntedgraveyard", "irradiatedwaste", "meadow", "badlands", "finesand", "reddesert", "calichefield", "sulphuricplain" ]
+    "value" : [ "ffhive", "cactiplace", "crystalswamp", "birchforest", "alienforest", "sulphuricmagma", "pitchfield", "hellhive","fieldofbracken",  "flowerforest", "hauntedforest", "bloodgulch", "hauntedgraveyard", "irradiatedwaste", "meadow", "badlands", "finesand", "reddesert", "calichefield", "sulphuricplain" ]
     },
     { "op" : "add", 
     "path" : "/planetTypes/scorched/layers/surface/secondaryRegion", 
@@ -141,7 +141,7 @@
        "layers" : {
         "surface" : {
           "primaryRegion" : [ "tarball", "arboreal2", "desert_wastes","mountainous", "tidewater", "arboreal", "atropus", "bloodstone", "bog", "crystalmoon", "icemoon", "icewaste", "infernus", "irradiated", "lightless", "metallicmoon", "nitrogensea", "penumbra", "protoworld", "sulphuric", "thickjungle", "urbanwasteland", "alien", "barren", "desert", "forest", "jungle", "savannah", "scorched", "snow", "tundra", "volcanic" ],
-          "secondaryRegion" : [ "supermatterzone", "aliendesert", "goreforest", "cactiplace", "metalworks", "metalworks2", "crystalswamp", "ffhive", "corruptmoon", "birchforest", "alienforest", "sulphuricmagma", "cellfield", "reddesert", "finesand", "cloudforest", "hauntedforest", "hauntedgraveyard", "rainbowforest", "swamp", "mountainous", "tidewater", "estuary", "breakwater", "corrupt", "spring", "mushroom", "oasis", "tar", "alpine", "bioluminescence", "colourful", "bones", "giantflowers", "eyepatch", "ice", "rust", "crystalline", "alien", "arctic", "barren", "desert", "forest", "jungle", "magma", "ocean", "savannah", "scorched", "snow", "toxic", "tundra", "volcanic", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "calichefield", "bloodstonefield", "corruptedforest", "crystalplain", "deadwood", "desertoasis", "dryriverbed", "elder", "energyorbforest", "flowerforest", "hellfirefield", "hellhive", "icefire", "irradiatedwaste", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "pitchfield", "primevalforest", "snowyforest", "sulphuricplain", "taiga" ],
+          "secondaryRegion" : [ "fieldofbracken", "supermatterzone", "aliendesert", "goreforest", "cactiplace", "metalworks", "metalworks2", "crystalswamp", "ffhive", "corruptmoon", "birchforest", "alienforest", "sulphuricmagma", "cellfield", "reddesert", "finesand", "cloudforest", "hauntedforest", "hauntedgraveyard", "rainbowforest", "swamp", "mountainous", "tidewater", "estuary", "breakwater", "corrupt", "spring", "mushroom", "oasis", "tar", "alpine", "bioluminescence", "colourful", "bones", "giantflowers", "eyepatch", "ice", "rust", "crystalline", "alien", "arctic", "barren", "desert", "forest", "jungle", "magma", "ocean", "savannah", "scorched", "snow", "toxic", "tundra", "volcanic", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "calichefield", "bloodstonefield", "corruptedforest", "crystalplain", "deadwood", "desertoasis", "dryriverbed", "elder", "energyorbforest", "flowerforest", "hellfirefield", "hellhive", "icefire", "irradiatedwaste", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "pitchfield", "primevalforest", "snowyforest", "sulphuricplain", "taiga" ],
           //"dungeonCountRange" : [0, 2],
           "dungeons" : [ "wreck", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "avianairship", "aviantemple","humanbunker", "floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison", "naturalcave" ]
         },
@@ -189,7 +189,7 @@
        "layers" : {
         "surface" : {
           "primaryRegion" : [ "mountainous", "atropus", "bloodstone", "crystalmoon", "icewaste", "infernus", "metallicmoon", "sulphuric", "urbanwasteland", "alien", "desert", "scorched", "volcanic" ],
-          "secondaryRegion" : [ "supermatterzone", "aliendesert", "metalworks", "metalworks2", "sulphuricmagma","reddesert", "mountainous", "corrupt","tar","crystalline", "alien", "desert", "scorched", "volcanic", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "calichefield", "bloodstonefield", "corruptedforest", "crystalplain", "deadwood", "desertoasis", "dryriverbed", "elder", "energyorbforest", "flowerforest", "hellfirefield", "hellhive", "icefire", "irradiatedwaste", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "pitchfield", "primevalforest", "snowyforest", "sulphuricplain", "taiga" ],
+          "secondaryRegion" : [ "fieldofbracken", "supermatterzone", "aliendesert", "metalworks", "metalworks2", "sulphuricmagma","reddesert", "mountainous", "corrupt","tar","crystalline", "alien", "desert", "scorched", "volcanic", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "calichefield", "bloodstonefield", "corruptedforest", "crystalplain", "deadwood", "desertoasis", "dryriverbed", "elder", "energyorbforest", "flowerforest", "hellfirefield", "hellhive", "icefire", "irradiatedwaste", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "pitchfield", "primevalforest", "snowyforest", "sulphuricplain", "taiga" ],
           //"dungeonCountRange" : [0, 2],
           "dungeons" : [ "wreck", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "avianairship", "aviantemple","humanbunker", "floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison", "naturalcave" ]
         },
@@ -239,7 +239,7 @@
       },
       "surface" : {
           "primaryRegion" : [ "arboreal" ],
-          "secondaryRegion" : [ "ffhive", "aliendesert", "cactiplace", "crystalswamp", "birchforest", "alienforest", "cloudforest", "rainbowforest", "swamp", "elder", "corruptedforest", "fieldofwheat", "fieldofsugar",  "fieldofpotato", "fieldofcorn",  "fieldofgrape",  "fieldoftomato", "pineforest", "flowerforest", "snowyforest", "giantflowers", "forest", "jungle", "savannah", "snow",  "tundra" ],
+          "secondaryRegion" : [ "fieldofbracken", "ffhive", "aliendesert", "cactiplace", "crystalswamp", "birchforest", "alienforest", "cloudforest", "rainbowforest", "swamp", "elder", "corruptedforest", "fieldofwheat", "fieldofsugar",  "fieldofpotato", "fieldofcorn",  "fieldofgrape",  "fieldoftomato", "pineforest", "flowerforest", "snowyforest", "giantflowers", "forest", "jungle", "savannah", "snow",  "tundra" ],
           //"dungeonCountRange" : [0, 2],
           "dungeons" : [ "elderruins", "crystalcavern", "greenruins", "wreck", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "avianairship", "aviantemple","humanbunker", "floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison", "naturalcave"  ]
         },
@@ -282,7 +282,7 @@
       },
         "surface" : {
           "primaryRegion" : [ "arboreal2" ],
-          "secondaryRegion" : [ "ffhive", "goreforest", "cactiplace", "crystalswamp", "birchforest", "alienforest", "swamp", "hellhive", "elder", "corruptedforest", "fieldofwheat", "fieldofsugar",  "fieldofpotato", "fieldofcorn",  "fieldofgrape",  "fieldoftomato","pineforest", "flowerforest", "snowyforest", "taiga",  "deadwood", "giantflowers", "forest", "jungle", "savannah", "snow",  "tundra" ],
+          "secondaryRegion" : [ "fieldofbracken", "ffhive", "goreforest", "cactiplace", "crystalswamp", "birchforest", "alienforest", "swamp", "hellhive", "elder", "corruptedforest", "fieldofwheat", "fieldofsugar",  "fieldofpotato", "fieldofcorn",  "fieldofgrape",  "fieldoftomato","pineforest", "flowerforest", "snowyforest", "taiga",  "deadwood", "giantflowers", "forest", "jungle", "savannah", "snow",  "tundra" ],
           //"dungeonCountRange" : [0, 2],
           "dungeons" : [ "elderruins", "crystalcavern", "greenruins", "wreck", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "avianairship", "aviantemple","humanbunker", "floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison", "naturalcave"  ]
         },
@@ -471,7 +471,7 @@
       },
         "surface" : {
           "primaryRegion" : [ "bog" ],
-          "secondaryRegion" : [ "cactiplace", "crystalswamp", "corrupt", "ffhive", "alienforest", "energyorbforest",  "deadwood", "blackslimebog", "pitchfield", "giantflowers", "forest", "jungle" ],
+          "secondaryRegion" : [ "fieldofbracken", "cactiplace", "crystalswamp", "corrupt", "ffhive", "alienforest", "energyorbforest",  "deadwood", "blackslimebog", "pitchfield", "giantflowers", "forest", "jungle" ],
           //"dungeonCountRange" : [0, 2],
           "dungeons" : [ "wreck", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "avianairship", "aviantemple","humanbunker", "floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison", "naturalcave" ]
         },
@@ -646,7 +646,7 @@
       },
         "surface" : {
           "primaryRegion" : [ "fungus" ],
-          "secondaryRegion" : [ "aliendesert", "cactiplace", "ffhive", "corrupt", "birchforest", "alienforest", "reddesert", "rainbowforest", "swamp", "bloodgulch", "corruptedforest", "flowerforest", "snowyforest", "giantflowers", "jungle" ],
+          "secondaryRegion" : [ "fieldofbracken", "aliendesert", "cactiplace", "ffhive", "corrupt", "birchforest", "alienforest", "reddesert", "rainbowforest", "swamp", "bloodgulch", "corruptedforest", "flowerforest", "snowyforest", "giantflowers", "jungle" ],
           //"dungeonCountRange" : [0, 2],
           "dungeons" : [ "wastelandquests", "glitchsewer", "glitchvillage", "floranhuntinggrounds", "floranvillagetower", "floranhell", "naturalcave" ]
         },
@@ -1378,7 +1378,7 @@
       },
         "surface" : {
           "primaryRegion" : [ "thickjungle" ],
-          "secondaryRegion" : [ "cactiplace", "crystalswamp", "ffhive", "birchforest", "alienforest", "reddesert", "cloudforest", "rainbowforest", "swamp", "hellhive", "corruptedforest", "desertoasis", "fieldofbanana", "fieldofbamboo", "fieldofwheat", "fieldofsugar",  "fieldofpotato", "fieldofcorn",  "fieldofgrape",  "fieldoftomato","pineforest", "flowerforest", "snowyforest",  "dryriverbed", "deadwood", "giantflowers", "desert", "forest", "jungle", "savannah", "snow",  "tundra", "volcanic" ],
+          "secondaryRegion" : [ "fieldofbracken", "cactiplace", "crystalswamp", "ffhive", "birchforest", "alienforest", "reddesert", "cloudforest", "rainbowforest", "swamp", "hellhive", "corruptedforest", "desertoasis", "fieldofbanana", "fieldofbamboo", "fieldofwheat", "fieldofsugar",  "fieldofpotato", "fieldofcorn",  "fieldofgrape",  "fieldoftomato","pineforest", "flowerforest", "snowyforest",  "dryriverbed", "deadwood", "giantflowers", "desert", "forest", "jungle", "savannah", "snow",  "tundra", "volcanic" ],
           //"dungeonCountRange" : [0, 2],
           "dungeons" : [ "elderruins", "greenruins", "wreck", "floranhuntinggrounds", "floranhell", "floranvillagetower" ]
         },
@@ -2317,7 +2317,18 @@
       ]
     }
   },
-
+  {"op" : "add", 
+  "path" : "/regionTypes/fieldofbracken",
+  "value" : 
+  {
+      "caveLiquid" : [ "water", "healingliquid" ],
+      "blockSelector" : [ "remixedMildSurface", "remixedSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "fieldofbracken" ]]
+      ]
+    }
+  },
   {"op" : "add", 
   "path" : "/regionTypes/fieldofbanana",
   "value" : 
