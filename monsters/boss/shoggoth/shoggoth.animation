@@ -59,8 +59,8 @@
             "frames" : 1
           },
           "active" : {
-            "frames" : 2,
-            "cycle" : 0.1,
+            "frames" : 8,
+            "cycle" : 0.8,
             "mode" : "loop",
             "properties" : {
               "persistentSound" : "/sfx/npc/unique/crystalboss_beam.wav"
@@ -130,6 +130,105 @@
         },
 
         "partStates" : {
+          "firstBeams" : {
+            "active" : {
+              "properties" : {
+                "image" : "<partImage>:active.<frame>"
+              }
+            },
+            "windup" : {
+              "properties" : {
+                "image" : "<partImage>:windup.<frame>"
+              }
+            },
+            "winddown" : {
+              "properties" : {
+                "image" : "<partImage>:winddown.<frame>"
+              }
+            }
+          },
+          "movement" : {
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:idle.<frame>"
+              }
+            },
+            "walk" : {
+              "properties" : {
+                "image" : "<partImage>:walk.<frame>"
+              }
+            },
+            "run" : {
+              "properties" : {
+                "image" : "<partImage>:run.<frame>"
+              }
+            },
+            "charge" : {
+              "properties" : {
+                "image" : "<partImage>:idle.<frame>"
+              }
+            },
+            "jump" : {
+              "properties" : {
+                "image" : "<partImage>:idle.<frame>"
+              }
+            },
+            "chargeWindup" : {
+              "properties" : {
+                "image" : "<partImage>:idle.<frame>"
+              }
+            },
+            "knockback" : {
+              "properties" : {
+                "image" : "<partImage>:idle.<frame>"
+              }
+            },
+            "knockout" : {
+              "properties" : {
+                "image" : "<partImage>:idle.<frame>"
+              }
+            },
+            "swipe" : {
+              "properties" : {
+                "image" : "<partImage>:swipe.<frame>"
+
+              }
+            }
+          },
+
+          "portrait" : {
+            "portrait" : {
+              "properties" : {
+                "image" : "<partImage>:idle.<frame>"
+              }
+            }
+          }
+        }
+      },
+      "eyeglow" : {
+        "properties" : {
+          "zLevel" : 4,
+          "fullbright" : true
+        },
+
+        "partStates" : {
+          "firstBeams" : {
+            "active" : {
+              "properties" : {
+                "image" : "<partImage>:active.<frame>"
+              }
+            },
+            "windup" : {
+              "properties" : {
+                "image" : "<partImage>:windup.<frame>"
+              }
+            },
+            "winddown" : {
+              "properties" : {
+                "image" : "<partImage>:winddown.<frame>"
+              }
+            }
+          },
           "movement" : {
             "idle" : {
               "properties" : {
@@ -190,6 +289,8 @@
       },
       "eyebeam" : {
         "properties" : {
+          "rotationGroup" : "projectileAim",
+          "rotationCenter" : [-8, -5],
           "zLevel" : 3,
           "fullbright" : true,
           "offset" : [-35.5, -4.875]

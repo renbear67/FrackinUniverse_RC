@@ -33,6 +33,12 @@
     "winddown.5" : "windup.4",
     "winddown.6" : "windup.3",
     "winddown.7" : "windup.2",
-    "winddown.8" : "windup.1"
+    "winddown.8" : "windup.1",
+    "active.3" : "active.1",
+    "active.4" : "active.2",
+    "active.5" : "active.1",
+    "active.6" : "active.2",
+    "active.7" : "active.1",
+    "active.8" : "active.2"
   }
 }

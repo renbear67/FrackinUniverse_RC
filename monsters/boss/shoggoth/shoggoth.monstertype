@@ -2,7 +2,7 @@
   "type" : "shoggoth",
 
   "categories" : [ "shoggoth" ],
-  "parts" : [  "chest", "eyebeam" ],
+  "parts" : [  "chest", "eyebeam", "eyeglow" ],
 
   "animation" : "shoggoth.animation",
   "colors" : "/monsters/colors.config",

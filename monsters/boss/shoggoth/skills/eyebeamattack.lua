@@ -12,6 +12,7 @@ function eyeBeamAttack.enter()
     distanceRange = entity.configParameter("eyeBeamAttack.distanceRange"),
     winddownTimer = entity.configParameter("eyeBeamAttack.winddownTime"),
     windupTimer = entity.configParameter("eyeBeamAttack.windupTime"),
+    targetSnapshot = {0, 0},
     blasting = false
   }
 end
@@ -57,14 +58,18 @@ function eyeBeamAttack.update(dt, stateData)
       stateData.windupTimer = stateData.windupTimer - dt
       if stateData.windupTimer  < 0 then
           entity.setLightActive("beam1", true)
-
           entity.setAnimationState("firstBeams", "active")
+          
+          -- rotate the eyebeam animation to aim at user
+          local animationAngle = math.atan(-toTarget[2], math.abs(toTarget[1]))
+          entity.rotateGroup("projectileAim", animationAngle)
+          entity.targetSnapshot = toTarget
 
       end
       return flase
     -- phase 2 - active (????)
     elseif stateData.timer > 0 then
-      eyeBeamAttack.blast(targetDir)
+      eyeBeamAttack.blast(entity.targetSnapshot)
       stateData.timer = stateData.timer - dt
       if stateData.timer < 0 then
         entity.setAnimationState("firstBeams", "winddown")
@@ -90,12 +95,13 @@ function eyeBeamAttack.blast(direction)
   local projectileType = entity.configParameter("eyeBeamAttack.projectile.type")
   local projectileConfig = entity.configParameter("eyeBeamAttack.projectile.config")
   local projectileOffset = entity.configParameter("eyeBeamAttack.projectile.offset")
-  
+
+
   if projectileConfig.power then
     projectileConfig.power = projectileConfig.power * root.evalFunction("monsterLevelPowerMultiplier", entity.level())
   end
 
-  world.spawnProjectile(projectileType, entity.toAbsolutePosition(projectileOffset), entity.id(), {direction, 0}, true, projectileConfig)
+  world.spawnProjectile(projectileType, entity.toAbsolutePosition(projectileOffset), entity.id(), direction, true, projectileConfig)
 end
 
 function eyeBeamAttack.leavingState(stateData)
