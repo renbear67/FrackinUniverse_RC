@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "corefragmentore", "count" : 9 },
+    { "item" : "moonstonebar", "count" : 2 },
+    { "item" : "liquidlava", "count" : 20 },
+    { "item" : "magmawall2", "count" : 8 }
+  ],
+  "output" : {
+    "item" : "hellfirehelm",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "armors", "all" ]
+}

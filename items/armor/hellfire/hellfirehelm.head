@@ -21,6 +21,14 @@
         "amount" : 22
     },
     {
+      "stat" : "maxEnergy",
+      "amount" : 50
+    },
+    {
+      "stat" : "maxHealth",
+      "amount" : 15
+    },        
+    {
       "stat" : "fireImmunity",
       "amount" : 1
     },

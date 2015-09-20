@@ -1,6 +1,6 @@
 {
   "itemName" : "hellfirechest",
-  "inventoryIcon" : "icons.png:head",
+  "inventoryIcon" : "icons.png:chest",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "rare",
@@ -20,6 +20,14 @@
       "stat" : "protection",
       "amount" : 40
     },
+    {
+      "stat" : "maxEnergy",
+      "amount" : 70
+    },
+    {
+      "stat" : "maxHealth",
+      "amount" : 25
+    },    
     {
       "stat" : "fireImmunity",
       "amount" : 1

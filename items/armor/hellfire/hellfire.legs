@@ -1,6 +1,6 @@
 {
   "itemName" : "hellfirelegs",
-  "inventoryIcon" : "icons.png:head",
+  "inventoryIcon" : "icons.png:pants",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "rare",
@@ -20,6 +20,14 @@
       "stat" : "protection",
       "amount" : 19
     },
+    {
+      "stat" : "maxEnergy",
+      "amount" : 50
+    },
+    {
+      "stat" : "maxHealth",
+      "amount" : 20
+    },    
     {
       "stat" : "fireImmunity",
       "amount" : 1
