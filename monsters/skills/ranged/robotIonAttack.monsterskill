@@ -7,19 +7,19 @@
     "robotIonAttack" : {
       "factory" : "createRangedAttack",
       "projectile" : "ionrifleshot",
-      "range" : 8,
-      "speed" : 35,
-      "power" : 12,
-      "shots" : 3,
+      "range" : 12,
+      "speed" : 65,
+      "power" : 8,
+      "shots" : 8,
       "windupTime" : 0.05,
       "winddownTime" : 0.2,
-      "fireInterval" : 0.16
+      "fireInterval" : 0.085
     }
   },
 
   "animationParameters" : {
     "sounds" : {
-      "rangedAttack" : [ ]
+      "rangedAttack" : [ "/sfx/npc/unique/robotboss_pain1.wav" ]
     }
   }
 }

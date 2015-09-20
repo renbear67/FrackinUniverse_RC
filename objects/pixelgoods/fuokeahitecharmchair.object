@@ -1,5 +1,6 @@
 {
   "objectName" : "fuokeahitecharmchair",
+  "tags" : [ "science", "hitech" ],
   "retainObjectParametersInItem" : true,
   "rarity" : "Common",
   "printable" : false,

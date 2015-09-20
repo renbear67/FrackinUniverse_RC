@@ -9,15 +9,15 @@
       "projectile" : "rocketswarm",
       "range" : 15,
       "power" : 15,
-      "speed" : 35,
-      "shots" : 4,
-      "fireInterval" : 0.066
+      "speed" : 55,
+      "shots" : 6,
+      "fireInterval" : 0.15
     }
   },
 
   "animationParameters" : {
     "sounds" : {
-      "rangedAttack" : [ ]
+      "rangedAttack" : [ "/sfx/gun/rocket_shot.wav" ]
     }
   }
 }

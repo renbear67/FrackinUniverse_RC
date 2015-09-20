@@ -8,18 +8,18 @@
       "factory" : "createRangedAttack",
       "projectile" : "gausspistolshot",
       "range" : 9,
-      "speed" : 35,
-      "power" : 12,
-      "shots" : 7,
+      "speed" : 65,
+      "power" : 10,
+      "shots" : 15,
       "windupTime" : 0.05,
       "winddownTime" : 0.2,
-      "fireInterval" : 0.16
+      "fireInterval" : 0.066
     }
   },
 
   "animationParameters" : {
     "sounds" : {
-      "rangedAttack" : [ ]
+      "rangedAttack" : [ "/sfx/gun/mech_gun.wav" ]
     }
   }
 }

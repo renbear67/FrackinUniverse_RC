@@ -25,9 +25,9 @@
     ],
 
     "baseSkills" : [ "meleeAttack"],
-    "specialSkills" : [ "chargeAttack", "fireSwirlAttack", "shockBallAttack", "twistingPulseAttack" ],
+    "specialSkills" : [ "chargeAttack", "robotIonAttack", "robotgaussAttack", "robotRocketAttack", "robotZapAttack" ],
 
-    "projectileSourcePosition" : [1.875, 1],
+    "projectileSourcePosition" : [2.88, -0.88],
 
     "attackStartDistance" : 4.5,
     "attackTime" : 0.45,
@@ -45,30 +45,30 @@
     "wanderTime" : [4.0, 6.0],
     "wanderMovementTime" : [2.0, 3.0],
 
-    "jumpTargetDistance" : 2,
-    "jumpTime" : [1.4, 2.0],
+    "jumpTargetDistance" : 11,
+    "jumpTime" : [1.6, 2.2],
 
     "pathing" : {
       "canOpenDoors" : false
     },
 
-    "metaBoundBox" : [-2.80, -3.75, 3.10, 2.20],
+    "metaBoundBox" : [-3.00, -5.25, 2.62, 2.0],
     "scale" : 1.00,
 
     "movementSettings" : {
-      "collisionPoly" : [ [-2.833,2.458], [2.917,2.125], [-2.75,-3.708], [2.917,-3.917] ],
+      "collisionPoly" : [ [-3.25,2.25], [-3.125,-4.625], [2.625,-5], [2.375,2.125] ],
 
       "mass" : 1.0,
       "walkSpeed" : 2,
       "runSpeed" : 4,
-      "flySpeed" : 4,
-      "airForce" : 50.0,
+      "flySpeed" : 14,
+      "airForce" : 60.0,
 
       "airFriction" : 0.0,
       "airJumpProfile" : {
         "jumpSpeed" : 15.0,
-        "jumpInitialPercentage" : 1.0,
-        "jumpHoldTime" : 0.0              
+        "jumpInitialPercentage" : 2.0,
+        "jumpHoldTime" : 1.24             
       }
     },
 
@@ -79,7 +79,7 @@
     "deathParticles" : "deathPoof",
 
     "touchDamage" : {
-      "poly" : [ [-1.625, -2.375], [1.75, -2.375], [1.75, 2.0], [-1.625, 2.0] ],
+      "poly" : [ [-4.75,2.25], [-4.625,-4.75], [3.25,-5], [3.25,2.25] ],
       "damage" : 15,
 
       "teamType" : "enemy",

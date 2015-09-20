@@ -19,6 +19,7 @@
           },
           "walk" : {
             "frames" : 8,
+            "cycle" : 0.55,
             "mode" : "loop"
           },
           "run" : {

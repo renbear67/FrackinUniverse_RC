@@ -8,8 +8,8 @@
       "factory" : "createRangedAttack",
       "projectile" : "ffteslasmall",
       "range" : 12,
-      "speed" : 35,
-      "power" : 20,
+      "speed" : 75,
+      "power" : 15,
       "shots" : 1,
       "windupTime" : 0.05,
       "winddownTime" : 0.2
@@ -18,7 +18,7 @@
 
   "animationParameters" : {
     "sounds" : {
-      "rangedAttack" : [ ]
+      "rangedAttack" : [ "/sfx/npc/unique/robotboss_attack1.wav" ]
     }
   }
 }
