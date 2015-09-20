@@ -1,5 +1,6 @@
 {
   "objectName" : "biscornseed",
+    "tags" : [ "nature" ],
   "rarity" : "Common",
   "category" : "farmable",
   "description" : "Boosts health and energy.",

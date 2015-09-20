@@ -1,5 +1,6 @@
 {
   "objectName" : "mintseed",
+    "tags" : [ "nature" ],
   "rarity" : "common",
   "category" : "Farmable",
   "description" : "A new mint strain capable of healing wounds.",

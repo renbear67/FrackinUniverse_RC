@@ -1,5 +1,6 @@
 {
   "objectName" : "floralytplantseed",
+    "tags" : [ "nature" ],
   "rarity" : "Legendary",
   "category" : "farmable",
   "description" : "Perhaps the greatest healing agent known anywhere.",

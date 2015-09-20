@@ -1,5 +1,6 @@
 {
   "objectName" : "flowerblue",
+    "tags" : [ "nature" ],
   "rarity" : "Common",
   "category" : "farmable",
   "description" : "A flower with bright blue petals. Useful for making dye.",

@@ -1,5 +1,6 @@
 {
   "objectName" : "blisterbushplantseed",
+    "tags" : [ "nature" ],
   "rarity" : "Rare",
   "category" : "farmable",
   "description" : "A bioluminescent mutant plant, with numerous applications.",

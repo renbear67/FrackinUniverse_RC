@@ -1,5 +1,6 @@
 {
   "objectName" : "pinkloomseed",
+    "tags" : [ "nature" ],
   "rarity" : "common",
   "category" : "Farmable",
   "description" : "This plant increases your health.",

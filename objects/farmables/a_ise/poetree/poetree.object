@@ -1,5 +1,6 @@
 {
   "objectName" : "poetree",
+    "tags" : [ "nature" ],
   "rarity" : "Common",
   "category" : "farmable",
   "description" : "Poe trees actually produce a form of silicon. Handy, that.",

@@ -1,5 +1,6 @@
 {
   "objectName" : "goldshroomseed",
+    "tags" : [ "nature" ],
   "rarity" : "common",
   "category" : "Farmable Herb",
   "description" : "Glow in the dark.",

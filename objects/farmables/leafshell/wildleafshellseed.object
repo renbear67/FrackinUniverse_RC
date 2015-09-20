@@ -1,5 +1,6 @@
 {
   "objectName" : "wildleafshellseed",
+    "tags" : [ "nature" ],
   "rarity" : "Common",
   "category" : "farmable",
   "description" : "A leafy egg vegetable that resists any and all liquids, save for water.",

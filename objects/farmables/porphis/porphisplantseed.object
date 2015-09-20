@@ -1,5 +1,6 @@
 {
   "objectName" : "porphisplantseed",
+    "tags" : [ "nature" ],
   "rarity" : "Rare",
   "category" : "farmable",
   "description" : "Filled with various rage-inducing chemicals.",

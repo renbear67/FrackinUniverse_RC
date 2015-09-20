@@ -1,5 +1,6 @@
 {
   "objectName" : "fletchweed",
+    "tags" : [ "nature" ],
   "rarity" : "rare",
   "category" : "farmable",
   "description" : "It's produce is quite packed with energy.",

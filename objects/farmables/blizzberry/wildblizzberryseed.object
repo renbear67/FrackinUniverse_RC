@@ -1,5 +1,6 @@
 {
   "objectName" : "wildblizzberryseed",
+    "tags" : [ "nature" ],
   "rarity" : "Common",
   "category" : "farmable",
   "description" : "Immune to even the most extreme cold.",

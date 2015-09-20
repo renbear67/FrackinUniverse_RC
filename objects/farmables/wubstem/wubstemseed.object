@@ -1,5 +1,6 @@
 {
   "objectName" : "wubstemseed",
+    "tags" : [ "nature" ],
   "rarity" : "Common",
   "category" : "farmable",
   "description" : "Provides slight healing to those eating it.",

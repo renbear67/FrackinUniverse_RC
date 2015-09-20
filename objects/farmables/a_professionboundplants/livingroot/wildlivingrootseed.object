@@ -1,5 +1,6 @@
 {
   "objectName" : "wildlivingrootseed",
+    "tags" : [ "nature" ],
   "rarity" : "uncommon",
   "category" : "Farmable",
   "description" : "Protects the user from harm.",

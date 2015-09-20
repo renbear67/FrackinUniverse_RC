@@ -1,5 +1,6 @@
 {
   "objectName" : "wildaquapodseed",
+    "tags" : [ "nature" ],
   "rarity" : "Common",
   "category" : "farmable",
   "description" : "It's fruit enables rapid movement when suspended in liquid.",

@@ -1,5 +1,6 @@
 {
   "objectName" : "whitespine",
+    "tags" : [ "nature" ],
   "rarity" : "Common",
   "category" : "farmable",
   "description" : "Completely immune to acid.",

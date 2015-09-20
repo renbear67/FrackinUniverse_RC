@@ -1,5 +1,6 @@
 {
   "objectName" : "floweryellow",
+    "tags" : [ "nature" ],
   "rarity" : "Common",
   "category" : "farmable",
   "description" : "A flower with bright yellow petals. Useful for making dye.",

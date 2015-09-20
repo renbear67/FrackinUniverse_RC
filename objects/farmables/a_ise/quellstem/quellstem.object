@@ -1,5 +1,6 @@
 {
   "objectName" : "quellstem",
+    "tags" : [ "nature" ],
   "rarity" : "rare",
   "category" : "farmable",
   "description" : "Immune to all forms of heat. Lava included.",

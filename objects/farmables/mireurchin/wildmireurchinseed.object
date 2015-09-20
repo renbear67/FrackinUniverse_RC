@@ -1,5 +1,6 @@
 {
   "objectName" : "wildmireurchinseed",
+    "tags" : [ "nature" ],
   "rarity" : "Uncommon",
   "category" : "farmable",
   "description" : "Able to generate a static shield to repel predators.",

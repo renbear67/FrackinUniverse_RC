@@ -1,5 +1,6 @@
 {
   "objectName" : "wildbloodrootseed",
+    "tags" : [ "nature" ],
   "rarity" : "common",
   "category" : "Farmable",
   "description" : "Vitality-increasing plant.",

@@ -1,5 +1,6 @@
 {
   "objectName" : "blizzberryseed",
+    "tags" : [ "nature" ],
   "rarity" : "Common",
   "category" : "farmable",
   "description" : "Helps provide immunity to even the most extreme cold.",

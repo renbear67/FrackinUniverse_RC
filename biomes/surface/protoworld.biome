@@ -4,8 +4,8 @@
 
   "spawnProfiles" : [
     {
-      "groups" : [ "mediumsurface1", "fu_protoworld" ],
-      "extraSpawns" : [ "aridbee", "fireflyspawner", "phoenixfly", "orphanfly", "bouncercritter", "glowingballcritter2" ],
+      "groups" : [ "mediumsurface1", "fu_protoworld"],
+      "extraSpawns" : [ "aggressivebee", "aridbee", "fireflyspawner", "phoenixfly", "orphanfly", "bouncercritter", "glowingballcritter2" ],
       "monsterParameters" : {
         "statusSettings" : {
           "stats" : {
@@ -18,7 +18,7 @@
     },
     {
       "groups" : [ "mediumsurface2", "fu_protoworld" ],
-      "extraSpawns" : [ "junglebee", "fireflyspawner", "phoenixfly", "orphanfly", "bouncercritter", "glowingballcritter2" ],
+      "extraSpawns" : [ "aggressivebee", "junglebee", "fireflyspawner", "phoenixfly", "orphanfly", "bouncercritter", "glowingballcritter2" ],
       "monsterParameters" : {
         "statusSettings" : {
           "stats" : {

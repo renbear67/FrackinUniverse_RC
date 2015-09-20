@@ -1,0 +1,15 @@
+{
+  "name" : "intoxicated2",
+  "blockingStat" : "intoxicatedImmunity",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "intoxicated2.lua"
+  ],
+
+  "animationConfig" : "intoxicated.animation",
+
+  "label" : "Intoxicated",
+  "icon" : "/interface/statuses/honey.png"
+}

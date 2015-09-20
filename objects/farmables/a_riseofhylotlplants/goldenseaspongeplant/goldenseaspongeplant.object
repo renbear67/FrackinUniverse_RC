@@ -1,5 +1,6 @@
 {
   "objectName" : "goldenseaspongeplant",
+    "tags" : [ "nature" ],
   "rarity" : "rare",
   "category" : "farmable",
   "description" : "Gleams under light.",

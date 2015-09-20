@@ -72,4 +72,3 @@ function shoggothChargeAttack.leavingState(stateData)
   entity.setAnimationState("movement", "idle")
   entity.setActiveSkillName("")
 end
-

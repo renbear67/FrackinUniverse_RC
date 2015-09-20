@@ -1,5 +1,6 @@
 {
   "objectName" : "tentacleplant",
+    "tags" : [ "nature" ],
   "rarity" : "uncommon",
   "category" : "farmable",
   "description" : "A little weird. But strangely delicious.",

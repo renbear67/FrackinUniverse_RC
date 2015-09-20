@@ -1,6 +1,6 @@
 [
-{"op":"replace","path":"/spawnProfiles/0","value":{"groups":["mediumsurface1"],"extraSpawns":["greentip","blueback","forestbee","nocturnalbee"]}},
-{"op":"replace","path":"/spawnProfiles/1","value":{"groups":["mediumsurface2"],"extraSpawns":["nocturnalbee","redwing","forestbee","normalbee"]}},
+{"op":"replace","path":"/spawnProfiles/0","value":{"groups":["mediumsurface1"],"extraSpawns":["greentip","blueback","forestbee","normalbee"]}},
+{"op":"replace","path":"/spawnProfiles/1","value":{"groups":["mediumsurface2"],"extraSpawns":["redwing","forestbee","normalbee"]}},
 {"op":"add","path":"/surfacePlaceables/items/-","value":{
 			"mode" : "floor",
 			"priority" : 3.0,

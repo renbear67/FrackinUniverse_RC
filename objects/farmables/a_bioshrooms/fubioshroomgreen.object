@@ -1,5 +1,6 @@
 {
   "objectName" : "fubioshroomgreen",
+    "tags" : [ "nature" ],
   "rarity" : "Uncommon",
   "category" : "farmable",
   "description" : "Provides colored light.",
