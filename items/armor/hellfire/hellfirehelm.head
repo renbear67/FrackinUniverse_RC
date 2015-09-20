@@ -12,9 +12,13 @@
   "femaleFrames" : "head.png",
   "mask" : "mask.png",
   "statusEffects" : [
+    {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 1.2
+    },
       {
         "stat" : "protection",
-        "amount" : 60
+        "amount" : 22
     },
     {
       "stat" : "fireImmunity",
@@ -25,5 +29,4 @@
       "amount" : 1
     }
   ]
-
 }

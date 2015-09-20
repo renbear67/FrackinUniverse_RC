@@ -1,0 +1,32 @@
+{
+  "itemName" : "hellfirechest",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "Fire, brimstone and protection.",
+  "shortdescription" : "Hellfire Chest",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : { "body" : "chest.png", "backSleeve" : "bsleeve.png", "frontSleeve" : "fsleeve.png" },
+  "femaleFrames" : { "body" : "chest.png", "backSleeve" : "bsleeve.png", "frontSleeve" : "fsleeve.png" },
+
+  "statusEffects" : [
+    {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 2.0
+    },
+    {
+      "stat" : "protection",
+      "amount" : 40
+    },
+    {
+      "stat" : "fireImmunity",
+      "amount" : 1
+    },
+    {
+      "stat" : "lavaImmunity",
+      "amount" : 1
+    }
+  ]
+}
