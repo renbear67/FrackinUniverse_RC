@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "bone", "count" : 7 },
+    { "item" : "ff_resin", "count" : 5 },
+    { "item" : "leather", "count" : 7 },
+    { "item" : "quietusbar", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "reptilianchest",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "armors", "all" ]
+}
