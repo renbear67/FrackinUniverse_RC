@@ -5,7 +5,7 @@
     { "item" : "fuamberchunk", "count" : 4 }
   ],
   "output" : {
-    "item" : "advcircuit",
+    "item" : "fuhoneybarrel",
     "count" : 1
   },
   "groups" : [ "prototyper","beestation", "furniture", "all" ]
