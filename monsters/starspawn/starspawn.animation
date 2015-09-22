@@ -96,6 +96,199 @@
 
     "parts" : {
       "body" : {
+        "properties" : {
+          "zLevel" : 2
+        },
+        "partStates" : {
+          "movement" : {
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:idle.<frame>"
+              }
+            },
+            "walk" : {
+              "properties" : {
+                "image" : "<partImage>:walk.<frame>"
+              }
+            },
+            "run" : {
+              "properties" : {
+                "image" : "<partImage>:walk.<frame>"
+              }
+            },
+            "charge" : {
+              "properties" : {
+                "image" : "<partImage>:tentacleslam.<frame>"
+              }
+            },
+            "jump" : {
+              "properties" : {
+                "image" : "<partImage>:walk.<frame>"
+              }
+            },
+            "fall" : {
+              "properties" : {
+                "image" : "<partImage>:walk.<frame>"
+              }
+            },
+            "chargeWindup" : {
+              "properties" : {
+                "image" : "<partImage>:walk.<frame>"
+              }
+            },
+            "knockback" : {
+              "properties" : {
+                "image" : "<partImage>:idle.<frame>"
+              }
+            },
+            "knockout" : {
+              "properties" : {
+                "image" : "<partImage>:idle.<frame>"
+              }
+            }
+          },
+
+          "attack" : {
+            "staffattack" : {
+              "properties" : {
+                "image" : "<partImage>:staffattack.<frame>"
+              }
+            },
+            "spitattack" : {
+              "properties" : {
+                "image" : "<partImage>:spitattack.<frame>"
+              }
+            },
+            "tentacleslam" : {
+              "properties" : {
+                "image" : "<partImage>:tentacleslam.<frame>"
+              }
+            },
+            "chargeAttack" : {
+              "properties" : {
+                "image" : "<partImage>:staffattack.<frame>"
+              }
+            },
+            "shooting" : {
+              "properties" : {
+                "image" : "<partImage>:spitattack.<frame>"
+              }
+            },
+            "melee" : {
+              "properties" : {
+                "image" : "<partImage>:tentacleslam.<frame>"
+              }
+            }
+          },
+
+          "portrait" : {
+            "portrait" : {
+              "properties" : {
+                 "image" : "/monsters/starspawn/starspawnicon.png"
+              }
+            }
+          }
+        }
+      },
+      "head" : {
+        "properties" : {
+          "zLevel" : 3
+        },
+        "partStates" : {
+          "movement" : {
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:idle.<frame>"
+              }
+            },
+            "walk" : {
+              "properties" : {
+                "image" : "<partImage>:walk.<frame>"
+              }
+            },
+            "run" : {
+              "properties" : {
+                "image" : "<partImage>:walk.<frame>"
+              }
+            },
+            "charge" : {
+              "properties" : {
+                "image" : "<partImage>:tentacleslam.<frame>"
+              }
+            },
+            "jump" : {
+              "properties" : {
+                "image" : "<partImage>:walk.<frame>"
+              }
+            },
+            "fall" : {
+              "properties" : {
+                "image" : "<partImage>:walk.<frame>"
+              }
+            },
+            "chargeWindup" : {
+              "properties" : {
+                "image" : "<partImage>:walk.<frame>"
+              }
+            },
+            "knockback" : {
+              "properties" : {
+                "image" : "<partImage>:idle.<frame>"
+              }
+            },
+            "knockout" : {
+              "properties" : {
+                "image" : "<partImage>:idle.<frame>"
+              }
+            }
+          },
+
+          "attack" : {
+            "staffattack" : {
+              "properties" : {
+                "image" : "<partImage>:staffattack.<frame>"
+              }
+            },
+            "spitattack" : {
+              "properties" : {
+                "image" : "<partImage>:spitattack.<frame>"
+              }
+            },
+            "tentacleslam" : {
+              "properties" : {
+                "image" : "<partImage>:tentacleslam.<frame>"
+              }
+            },
+            "chargeAttack" : {
+              "properties" : {
+                "image" : "<partImage>:staffattack.<frame>"
+              }
+            },
+            "shooting" : {
+              "properties" : {
+                "image" : "<partImage>:spitattack.<frame>"
+              }
+            },
+            "melee" : {
+              "properties" : {
+                "image" : "<partImage>:tentacleslam.<frame>"
+              }
+            }
+          },
+
+          "portrait" : {
+            "portrait" : {
+              "properties" : {
+                 "image" : "/monsters/starspawn/starspawnicon.png"
+              }
+            }
+          }
+        }
+      },
+      "staff" : {
+        "properties" : {
+          "zLevel" : 1
+        },
         "partStates" : {
           "movement" : {
             "idle" : {
