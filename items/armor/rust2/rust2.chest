@@ -1,11 +1,11 @@
 {
-  "itemName" : "rustchest",
+  "itemName" : "rustchest2",
   "inventoryIcon" : "icons.png:chest",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "uncommon",
-  "description" : "Somewhat rusty, but still functional.",
-  "shortdescription" : "Rusty Chestplate",
+  "description" : "A lovely spacesuit.",
+  "shortdescription" : "Spacesuit Chestpiece",
   "tooltipKind" : "armor",
 
   "maleFrames" : {
@@ -43,8 +43,7 @@
   ],
 
   "colorOptions" : [
-    /* BLUE */
-    { "ffca8a" : "96cbe7", "e0975c" : "5588d4", "a85636" : "344495", "6f2919" : "1a1c51" },
+
     /* BLACK */
     { "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },
     /* GREY */

@@ -1,0 +1,37 @@
+{
+    "itemName" : "vaporizer",
+    "inventoryIcon" : "vaporizer.png",
+    "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+    "maxStack" : 1,
+    "rarity" : "rare",
+    "description" : "Fires extremely deadly bursts of energy.",
+    "shortdescription" : "Vaporizer",
+    "learnBlueprintsOnPickup" : [ "vaporizer" ],    
+    "image" : "vaporizer.png",
+    "handPosition" : [-4, -4],
+    "firePosition" : [19, 1.5],
+    "weaponType" : "Beam",
+    "recoilTime" : 0.1,
+    "level" : 6,
+    "tooltipKind" : "gun",
+    "fireTime" : 0.025,
+    "inaccuracy" : 0.005,
+    "twoHanded" : true,
+    "walkWhileFiring" : false,
+    "rateOfFire" : [2, 7],
+    "muzzleEffect" : {
+      "fireSound" : [ { "file" : "/sfx/weapons/densiniumrifle.wav" } ],
+      "animation" : "/animations/protomuzzle/protomuzzle.animation"
+    },
+    "fireOnRelease" : false,
+    
+    "projectileType" : "vaporizer",
+
+    "powerProjectileTime" : [0.4, 50],
+    "projectile" : {
+      "speed" : 63, 
+      "power" : 0.5, 
+      "color" : [0, 220, 0] 
+  	}
+}
+  

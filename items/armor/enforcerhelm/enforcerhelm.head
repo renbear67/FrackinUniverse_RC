@@ -1,0 +1,36 @@
+{
+  "itemName" : "enforcerhelm",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "Provides an extra layer of protection via kinetic dampener.",
+  "shortdescription" : "Mark VI Enforcer Helm",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+    {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 1.45
+    },    
+    {
+      "stat" : "protection",
+      "amount" : 22
+    },
+
+    {
+      "stat" : "maxEnergy",
+      "amount" : 72
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 25
+    },
+    "defenseboost60"
+  ]
+}

@@ -1,5 +1,20 @@
 [
+{"op":"add",
+"path":"/vaporizer",
+"value": {
+    "mass" : 0.01,
+    "gravityMultiplier" : 0.01,
+    "bounceFactor" : 2.7,
+    "maxMovementPerStep" : 0.7,
 
+    "collisionPoly" : [ [-0.25, -0.25], [0.25, -0.25], [0.25, 0.25], [-0.25, 0.25] ],
+    "ignorePlatformCollision" : true,
+
+    "airFriction" : 0.0,
+    "liquidFriction" : 0.0,
+    "groundFriction" : 0.0
+  }
+},
 {"op":"add",
 "path":"/fu_eyeball",
 "value": {

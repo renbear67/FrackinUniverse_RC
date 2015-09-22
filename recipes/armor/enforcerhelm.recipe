@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "quietusplate", "count" : 6 },
+    { "item" : "titaniumplate", "count" : 4 },
+    { "item" : "ff_silicon", "count" : 7 },
+    { "item" : "mutaviskhead", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "enforcerhelm",
+    "count" : 1
+  },
+  "groups" : [ "nanofabricator", "armors", "all" ]
+}

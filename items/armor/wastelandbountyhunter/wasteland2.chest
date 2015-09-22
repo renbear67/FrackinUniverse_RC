@@ -1,21 +1,21 @@
 {
-  "itemName" : "rustchest",
+  "itemName" : "wastelandchest2",
   "inventoryIcon" : "icons.png:chest",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "uncommon",
-  "description" : "Somewhat rusty, but still functional.",
-  "shortdescription" : "Rusty Chestplate",
+  "rarity" : "rare",
+  "description" : "Perfect for hunting evil robots.",
+  "shortdescription" : "Hunter's Chestpiece",
   "tooltipKind" : "armor",
 
   "maleFrames" : {
-    "body" : "chest.png",
+    "body" : "chestm.png",
     "backSleeve" : "bsleeve.png",
     "frontSleeve" : "fsleeve.png"
   },
 
   "femaleFrames" : {
-    "body" : "chest.png",
+    "body" : "chestf.png",
     "backSleeve" : "bsleeve.png",
     "frontSleeve" : "fsleeve.png"
   },
@@ -23,28 +23,23 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "basePercentage" : 1.0
-    },
-
+      "basePercentage" : 1.35
+    },    
     {
       "stat" : "protection",
       "amount" : 24
     },
-
-    {
-      "stat" : "maxEnergy",
-      "amount" : 60
-    },
-
     {
       "stat" : "maxHealth",
-      "amount" : 15
+      "amount" : 20
+    },
+    {
+      "stat" : "maxEnergy",
+      "amount" : 62
     }
   ],
-
   "colorOptions" : [
-    /* BLUE */
-    { "ffca8a" : "96cbe7", "e0975c" : "5588d4", "a85636" : "344495", "6f2919" : "1a1c51" },
+
     /* BLACK */
     { "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },
     /* GREY */

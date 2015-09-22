@@ -1,0 +1,36 @@
+{
+  "itemName" : "powerhelm",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "A lethal piece of gear.",
+  "shortdescription" : "Cyborg Assassin Helm",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+    {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 1.45
+    },    
+    {
+      "stat" : "protection",
+      "amount" : 22
+    },
+
+    {
+      "stat" : "maxEnergy",
+      "amount" : 72
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 25
+    },
+    "regeneration01"
+  ]
+}

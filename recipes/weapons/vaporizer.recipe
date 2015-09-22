@@ -1,0 +1,13 @@
+{
+  "input" : [
+   { "item" : "cpu", "count" : 1 },
+   { "item" : "powercore", "count" : 2 },
+   { "item" : "titaniumplate", "count" : 2 },
+   { "item" : "copperplate", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "vaporizer",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "weapons", "all" ]
+}

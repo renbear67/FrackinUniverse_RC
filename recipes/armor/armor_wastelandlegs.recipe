@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "carbonplate", "count" : 4 },
+    { "item" : "fabric", "count" : 8 }
+  ],
+  "output" : {
+    "item" : "wastelandlegs",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "armors", "all" ]
+}
