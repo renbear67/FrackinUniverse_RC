@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "fullwood1", "count" : 9 },
+    { "item" : "goldenplank", "count" : 9 },
     { "item" : "fu_liquidhoney", "count" : 6 },
     { "item" : "fuamberchunk", "count" : 4 }
   ],
