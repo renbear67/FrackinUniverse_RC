@@ -188,8 +188,8 @@
               [0.35, "wildbloodrootseed" ],
               [0.35, "wildcarrotseed" ],
               [0.35, "wildtomatoseed" ],
-              [0.35, "wildpotatoseed" ]
-          
+              [0.35, "wildpotatoseed" ],
+              [0.35, "wildhopsseed" ]
               ],
               "parameters" : { "startingStage" : 3 }
             }

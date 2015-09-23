@@ -371,22 +371,14 @@
           [0.35, "wildalgaeseed" ],
           [0.35, "wildbrackentreeseed" ], 
           [0.35, "wildpasakavineseed" ], 
-          [0.35, "wildbambooseed" ],
           [0.35, "wildcaprioleplantseed" ],
-          [0.35, "wildthornitoxseed" ],
-          [0.35, "wildighantseed" ],
-          [0.35, "wildlasherplantseed" ],
           [0.35, "wildbananaseed" ],
           [0.35, "wildwartweedseed" ],
           [0.35, "wildstranglevineseed" ],
-          [0.35, "wildblisterbushplantseed" ],
-          [0.35, "wildleafshellseed" ],
-          [0.35, "wildbiscornseed" ],
           [0.35, "wildguamseed" ],
-          [0.35, "wildvaranberryseed" ],
-          [0.35, "wildmiraclegrassseed" ],
           [0.35, "wildminkocoapodseed" ],
-          [0.35, "wildlittlegoodberryseed" ]
+          [0.35, "wildlittlegoodberryseed" ],
+          [0.35, "wildcinnamonseed" ]
           ],
               "parameters" : { "startingStage" : 3 }
             }
