@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "goldenplank", "count" : 2 },
-    { "item" : "fuamberchunk", "count" : 2 }
+    { "item" : "waxchunk", "count" : 2 }
   ],
   "output" : {
     "item" : "fuhoneybeesign",

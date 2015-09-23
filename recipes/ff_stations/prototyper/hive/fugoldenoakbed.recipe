@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "goldenplank", "count" : 7 },
     { "item" : "fu_liquidhoney", "count" : 5 },
-    { "item" : "fuamberchunk", "count" : 4 }
+    { "item" : "beesilk", "count" : 4 }
   ],
   "output" : {
     "item" : "fugoldenoakbed",

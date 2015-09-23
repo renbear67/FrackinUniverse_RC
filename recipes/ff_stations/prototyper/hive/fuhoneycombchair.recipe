@@ -1,7 +1,8 @@
 {
   "input" : [
-    { "item" : "fuamberchunk", "count" : 6 },
-    { "item" : "fu_honeycombblock", "count" : 12 }
+    { "item" : "beesilk", "count" : 3 },
+    { "item" : "normalcomb", "count" : 3 },
+    { "item" : "fu_honeycombblock", "count" : 5 }
   ],
   "output" : {
     "item" : "fuhoneycombchair",

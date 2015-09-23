@@ -1,6 +1,7 @@
 {
   "input" : [
-    { "item" : "fuamberchunk", "count" : 4 },
+    { "item" : "waxchunk", "count" : 2 },
+    { "item" : "normalcomb", "count" : 2 },
     { "item" : "fu_honeycombblock", "count" : 4 }
   ],
   "output" : {

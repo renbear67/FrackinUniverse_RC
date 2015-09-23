@@ -1,6 +1,7 @@
 {
   "input" : [
-    { "item" : "fuamberchunk", "count" : 3 },
+    { "item" : "waxchunk", "count" : 3 },
+    { "item" : "fu_honeycombblock", "count" : 3 },
     { "item" : "solaricrystal", "count" : 2 }
   ],
   "output" : {
