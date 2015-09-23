@@ -1,0 +1,16 @@
+  {
+  "id" : "2_brewing_a.gearup",
+  "title" : "^#1693d5;Brewing",
+  "text" : "Now let's start. Make some ^green;empty bottles^white; with your ^orange;furnace^white;. Three...no, four bottles should do.",
+  "completionText" : "Now we need to fill'em up, right? Here, take some seeds, you'll need them. Make sure you grow and harvest them.",
+  "completionConditions" : [ 
+    { "type" : "gather", "item" : "emptybottle2", "count" : 4, "consume" : false }
+  ],
+  "moneyRange" : [120,220],
+  "rewards" : [ 
+     [ [ "wartweedseed", 5 ], [ "wheatseed", 5 ], [ "grapesseed", 5 ] ]
+  ],
+
+  "requireTurnIn" : false,
+  "followUp" : "2_brewing_b.gearup"
+}

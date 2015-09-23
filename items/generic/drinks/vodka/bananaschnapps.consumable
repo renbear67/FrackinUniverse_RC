@@ -1,0 +1,28 @@
+{
+  "itemName" : "bananaschnapps",
+  "rarity" : "Common",
+  "inventoryIcon" : "bananaschnapps.png",
+  "description" : "A bottle of banana flavored schnapps!",
+  "shortdescription" : "Banana Schnapps",
+  "handPosition" : [0, -2],
+  "effects" : [ [
+	  {
+        "effect" : "foodheal25",
+        "amount" : 60
+        },
+        {
+        "effect" : "warmth",
+        "amount" : 20,
+		"duration" : 45
+        },
+		{
+        "effect" : "slow",
+        "duration" : 10
+		},
+		{
+		"effect" : "booze",
+		"amount" : 3,
+		"duration" : 10
+        }
+    ] ]
+}

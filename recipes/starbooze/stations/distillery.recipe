@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "cobblestonematerial", "count" : 65 },
+    { "item" : "ironbar", "count" : 40 },
+    { "item" : "copperbar", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "distillery",
+    "count" : 1
+  },
+  "groups" : [ "boozekit", "machines", "all" ]
+}

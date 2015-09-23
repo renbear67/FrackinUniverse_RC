@@ -1,0 +1,28 @@
+{
+  "itemName" : "grapeschnapps",
+  "rarity" : "Common",
+  "inventoryIcon" : "grapeschnapps.png",
+  "description" : "A bottle of grape flavored schnapps!",
+  "shortdescription" : "Grape Schnapps",
+  "handPosition" : [0, -2],
+  "effects" : [ [
+	  {
+        "effect" : "foodheal25",
+        "amount" : 60
+        },
+        {
+        "effect" : "warmth",
+        "amount" : 20,
+		"duration" : 45
+        },
+		{
+        "effect" : "slow",
+        "duration" : 10
+		},
+		{
+		"effect" : "booze",
+		"amount" : 3,
+		"duration" : 10
+        }
+    ] ]
+}

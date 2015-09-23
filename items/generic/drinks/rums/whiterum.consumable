@@ -1,0 +1,28 @@
+{
+  "itemName" : "whiterum",
+  "rarity" : "Common",
+  "inventoryIcon" : "whiterum.png",
+  "description" : "Yo-ho-ho and a bottle of rum!",
+  "shortdescription" : "White Rum",
+  "handPosition" : [0, -2],
+  "effects" : [ [
+	  {
+        "effect" : "foodheal25",
+        "amount" : 70
+        },
+        {
+        "effect" : "warmth",
+        "amount" : 30,
+		"duration" : 60
+        },
+		{
+        "effect" : "slow",
+        "duration" : 20
+		},
+		{
+		"effect" : "booze",
+		"amount" : 3,
+		"duration" : 10
+        }
+    ] ]
+}

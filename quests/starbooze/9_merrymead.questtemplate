@@ -1,0 +1,12 @@
+  {
+  "id" : "9_merrymead.gearup",
+  "title" : "^#1693d5;Merry mead",
+  "text" : "I won't help you on this one. Making ^green;Mead^white; means hard work. Like finding some ^orange;Liquid Honey^white;. Good luck.",
+  "completionText" : "You did it. Now you can truly call yourself a brewer.",
+  "completionConditions" : [ 
+    { "type" : "gather", "item" : "meadbottle", "consume" : false }
+  ],
+  "moneyRange" : [300,500],
+
+  "requireTurnIn" : false
+}

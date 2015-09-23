@@ -1,0 +1,13 @@
+  {
+  "id" : "8_spirits.gearup",
+  "title" : "^#1693d5;Spirits",
+  "text" : "So, with all these mashed fruits we're ready to make some ^green;spirits^white;. You'll need some ^orange;yeast water^white; and ^orange;water^white; too. Bring all to the ^green;distiller^white; and watch it do its magic.",
+  "completionText" : "Nice work! Now, we'll have one last recipe to do.",
+  "completionConditions" : [ 
+    { "type" : "gather", "item" : "spirits", "consume" : false }
+  ],
+  "moneyRange" : [120,240],
+
+  "requireTurnIn" : false,
+  "followUp" : "9_merrymead.gearup"
+}

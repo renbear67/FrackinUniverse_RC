@@ -449,8 +449,7 @@
           {
             "kind" : "npc",
             "species" : "apex",
-            "typeName" : "fuoutpostcheatscientist",
-            "seed" : 6
+            "typeName" : "starboozenpc"
           }
         ] ]
     },

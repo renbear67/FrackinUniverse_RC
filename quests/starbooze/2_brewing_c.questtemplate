@@ -1,0 +1,13 @@
+  {
+  "id" : "2_brewing_c.gearup",
+  "title" : "^#1693d5;Brewing",
+  "text" : "Use some ^orange;grapes^white; and an ^orange;empty bucket^white; in the ^orange;Wine Press^white; to make ^green;Grape Mash^white;. You'll want two units of it for the wine you'll be making.",
+  "completionText" : "Nice. Now we have everything we need to make a delicious wartwine.",
+  "completionConditions" : [ 
+    { "type" : "gather", "item" : "grapemash", "count" : 2, "consume" : false }
+  ],
+  "moneyRange" : [120,220],
+
+  "requireTurnIn" : false,
+  "followUp" : "2_brewing_d.gearup"
+}

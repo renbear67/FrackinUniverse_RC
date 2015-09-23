@@ -1,0 +1,28 @@
+{
+  "itemName" : "amberrum",
+  "rarity" : "Common",
+  "inventoryIcon" : "amberrum.png",
+  "description" : "Yo-ho-ho and a bottle of rum!",
+  "shortdescription" : "Amber Rum",
+  "handPosition" : [0, -2],
+  "effects" : [ [
+	  {
+        "effect" : "foodheal25",
+        "amount" : 75
+        },
+        {
+        "effect" : "warmth",
+        "amount" : 30,
+		"duration" : 60
+        },
+		{
+        "effect" : "slow",
+        "duration" : 20
+		},
+		{
+		"effect" : "booze",
+		"amount" : 3,
+		"duration" : 10
+        }
+    ] ]
+}

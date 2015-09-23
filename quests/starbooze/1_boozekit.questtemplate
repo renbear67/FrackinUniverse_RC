@@ -1,0 +1,13 @@
+  {
+  "id" : "1_boozekit.gearup",
+  "title" : "^#1693d5;Making a Booze Kit",
+  "text" : "So you want to make your own booze? Great! I'll help you. You must start by crafting a ^green;Booze Kit^white;. Place it against a wall or something.",
+  "completionText" : "Your path to brewing enlightment has started. Before we really start with the alcohol though, you must first use the Booze Kit to craft the other stations you'll require.",
+  "completionConditions" : [
+    { "type" : "gather", "item" : "boozekit", "count" : 1, "consume" : false }
+  ],
+  "moneyRange" : [100,120],
+
+  "requireTurnIn" : false,
+  "followUp" : "2_brewing_a.gearup"
+}
