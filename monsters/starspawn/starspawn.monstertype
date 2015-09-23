@@ -2,7 +2,7 @@
   "type" : "starspawn",
 
   "categories" : [ "starspawn" ],
-  "parts" : [ "body" ],
+  "parts" : [ "body", "head", "staff" ],
 
   "animation" : "starspawn.animation",
   "colors" : "/monsters/colors.config",
@@ -55,7 +55,7 @@
     "scale" : 1.0,
 
     "movementSettings" : {
-      "collisionPoly" : [ [-1.125,-0], [-1.375,-3.125], [0,-3.25], [-0.125,0.125] ],
+      "collisionPoly" : [ [-1.125,-0], [-1.375,-4], [0,-4], [-0.125,0.125] ],
 
       "mass" : 1.0,
       "walkSpeed" : 4,

@@ -1,9 +1,9 @@
 {
-  "name" : "body",
+  "name" : "body1",
   "category" : "starspawn",
   "type" : "body",
 
   "frames" : {
-    "body" : "starspawn.png"
+    "body" : "ss_body_1.png"
   }
 }

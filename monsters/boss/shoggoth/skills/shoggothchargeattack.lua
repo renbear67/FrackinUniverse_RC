@@ -34,9 +34,26 @@ function shoggothChargeAttack.update(dt, stateData)
 
   if not stateData.swiping then 
 
+
+
     --projectile interval check and spawn
     if stateData.currentPeriod < 0 then
-      shoggothChargeAttack.chomp(targetDir)
+      if isBlocked() then
+      --CRASH
+      -- entity.playSound("chargeCrash")
+
+      local crashTiles = {}
+      local basePos = entity.configParameter("projectileSourcePosition", {0, 0})
+      for xOffset = 2, 22 do
+        for yOffset = -14.5, 10 do
+          table.insert(crashTiles, entity.toAbsolutePosition({basePos[1] + xOffset, basePos[2] + yOffset}))
+        end
+      end
+      world.damageTiles(crashTiles, "foreground", entity.toAbsolutePosition({10, 0}), "plantish", 20)
+
+      -- self.state.pickState({stun=true,duration=entity.configParameter("chargeAttack.crashStunTime")})
+    end
+      -- shoggothChargeAttack.chomp(targetDir)
       stateData.currentPeriod = stateData.intervalTime
     else
       stateData.currentPeriod = stateData.currentPeriod - dt
