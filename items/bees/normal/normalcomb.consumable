@@ -4,8 +4,8 @@
   "inventoryIcon" : "normalcomb.png",
   "description" : "A delicious honey comb! Eat it!",
   "shortdescription" : "Honeycomb",
-  "handPosition" : [0.0, 0]
-,
+  "handPosition" : [0.0, 0],
+  "learnBlueprintsOnPickup" : [ "honeycombmaterial" ],
  
   "effects" : [ [
     {

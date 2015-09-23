@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "rare",
-  "description" : "This is hot and dangerous. Use caustion..",
+  "description" : "This is hot and dangerous. Use caution.",
   "shortdescription" : "Hellfire Spear",
   "inspectionKind" : "sword",
   "tooltipKind" : "sword",
@@ -17,7 +17,7 @@
 
   "primaryStances" : {
     "directional" : true,
-    "projectileType" : "spearswoosh1",
+    "projectileType" : "hellfirespear",
     "projectile" : {
       "speed" : 0.1,
       "power" : 9.2
