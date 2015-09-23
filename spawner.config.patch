@@ -70,7 +70,8 @@
       "fuaviansentry", 
       "fupoptop",
       "furatthing",
-      "fucaterpillar"
+      "fucaterpillar",
+      "seedspawn"
       ] 
 },
 
@@ -88,7 +89,8 @@
       "fuaviansentry",
       "fupoptop",
       "fuswarpion",
-      "fugiantscorpion"
+      "fugiantscorpion",
+      "seedspawn"
       ] 
 },
 
@@ -267,6 +269,7 @@
 {"op":"add","path":"/spawns/headcrab","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.007,"monsterType":"headcrab","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/fugiantscorpion","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.005,"monsterType":"fugiantscorpion","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/fleshleech","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.01,"monsterType":"fleshleech","monsterParameters":{"aggressive":true}}},
+{"op":"add","path":"/spawns/seedspawn","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.01,"monsterType":"seedspawn2","monsterParameters":{"aggressive":true}}},
 
 
 //critters

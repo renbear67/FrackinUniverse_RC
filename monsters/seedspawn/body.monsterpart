@@ -1,9 +1,9 @@
 {
   "name" : "body",
-  "category" : "starspawn",
+  "category" : "seedspawn",
   "type" : "body",
 
   "frames" : {
-    "body" : "starspawn.png"
+    "body" : "seedspawn.png"
   }
 }

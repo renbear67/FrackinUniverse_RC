@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "fu_honeycombblock", "count" : 6 },
     { "item" : "beesilk", "count" : 6 },
-    { "item" : "solaricrystal", "count" : 8 }
+    { "item" : "honeycrystalblock", "count" : 8 }
   ],
   "output" : {
     "item" : "fuhoneycrystalbed",

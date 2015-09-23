@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "goldenplank", "count" : 9 },
-    { "item" : "fu_liquidhoney", "count" : 6 },
+    { "item" : "waxchunk", "count" : 6 },
     { "item" : "ironbar", "count" : 1 }
   ],
   "output" : {
