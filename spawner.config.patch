@@ -99,6 +99,7 @@
  "value":[       
       "fumechspider", 
       "fuglitchspider",
+      "spiderwalker",
       "fudeathdroid",
       "zombot",
       "warbot"
@@ -229,24 +230,18 @@
  },
  
  
-{"op":"add","path":"/spawns/fumechspider","value":{"spawnParameters":{"area":"surface","region":"all","time":"day"},"targetDensity":0.007,"monsterType":"fumechspider","monsterParameters":{"aggressive":true}}},
-{"op":"add","path":"/spawns/fuglitchspider","value":{"spawnParameters":{"area":"surface","region":"all","time":"day"},"targetDensity":0.01,"monsterType":"glitchspider","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/fupoptop","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.005,"monsterType":"fupoptop","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/fumoontant","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.012,"monsterType":"fumoontant","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/fubloodgolem","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.005,"monsterType":"fubloodgolem","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/futargolem","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.005,"monsterType":"futargolem","monsterParameters":{"aggressive":true}}},
-{"op":"add","path":"/spawns/fuashgolem","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.005,"monsterType":"fuashgolem","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/fuaviansentry","value":{"spawnParameters":{"area":"surface","region":"all","time":"day"},"targetDensity":0.005,"monsterType":"swarpion","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/fuallergen","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.005,"monsterType":"allergen","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/futoxicgolem","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.005,"monsterType":"futoxicgolem","monsterParameters":{"aggressive":true}}},
-{"op":"add","path":"/spawns/fuswarpion","value":{"spawnParameters":{"area":"surface","region":"all","time":"day"},"targetDensity":0.01,"monsterType":"swarpion","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/futoxicfly","value":{"spawnParameters":{"area":"surface","region":"all","time":"day"},"targetDensity":0.03,"monsterType":"futoxicfly","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/fucorruptfly","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.03,"monsterType":"fucorruptfly","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/fuheckblob","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.01,"monsterType":"fuheckblob","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/shadowhound","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.01,"monsterType":"shadowhound","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/fucorruptflylarge","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.01,"monsterType":"fucorruptflylarge","monsterParameters":{"aggressive":true}}},
-{"op":"add","path":"/spawns/fudeathdroid","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.005,"monsterType":"deathdroid","monsterParameters":{"aggressive":true}}},
-{"op":"add","path":"/spawns/furatthing","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.01,"monsterType":"furatthing","monsterParameters":{"aggressive":false}}},
 
 {"op":"add","path":"/spawns/futinybee","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.033,"monsterType":"futinybee","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/futinybee2","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.035,"monsterType":"futinybee2","monsterParameters":{"aggressive":true}}},
@@ -255,6 +250,10 @@
 
 {"op":"add","path":"/spawns/zombot","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.0075,"monsterType":"zombot","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/warbot","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.001,"monsterType":"warbot","monsterParameters":{"aggressive":true}}},
+{"op":"add","path":"/spawns/spiderwalker","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.007,"monsterType":"spiderwalker","monsterParameters":{"aggressive":true}}},
+{"op":"add","path":"/spawns/fudeathdroid","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.005,"monsterType":"deathdroid","monsterParameters":{"aggressive":true}}},
+{"op":"add","path":"/spawns/fumechspider","value":{"spawnParameters":{"area":"surface","region":"all","time":"day"},"targetDensity":0.007,"monsterType":"fumechspider","monsterParameters":{"aggressive":true}}},
+{"op":"add","path":"/spawns/fuglitchspider","value":{"spawnParameters":{"area":"surface","region":"all","time":"day"},"targetDensity":0.01,"monsterType":"glitchspider","monsterParameters":{"aggressive":true}}},
 
 {"op":"add","path":"/spawns/furaptor","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.005,"monsterType":"furaptor","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/furaptor2","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.005,"monsterType":"furaptor2","monsterParameters":{"aggressive":true}}},
@@ -262,13 +261,20 @@
 {"op":"add","path":"/spawns/furaptor4","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.005,"monsterType":"furaptor4","monsterParameters":{"aggressive":false}}},
 {"op":"add","path":"/spawns/furaptor5","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.01,"monsterType":"furaptor5","monsterParameters":{"aggressive":false}}},
 
+{"op":"add","path":"/spawns/fuswarpion","value":{"spawnParameters":{"area":"surface","region":"all","time":"day"},"targetDensity":0.01,"monsterType":"swarpion","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/fucaterpillar","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.007,"monsterType":"fucaterpillar","monsterParameters":{"aggressive":false}}},
+{"op":"add","path":"/spawns/fugiantscorpion","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.005,"monsterType":"fugiantscorpion","monsterParameters":{"aggressive":true}}},
+{"op":"add","path":"/spawns/furatthing","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.01,"monsterType":"furatthing","monsterParameters":{"aggressive":false}}},
+
 {"op":"add","path":"/spawns/rocktroll","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.005,"monsterType":"rocktroll","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/rocktroll2","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.005,"monsterType":"rocktroll2","monsterParameters":{"aggressive":true}}},
+
+{"op":"add","path":"/spawns/fuashgolem","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.005,"monsterType":"fuashgolem","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/magmagolem","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.002,"monsterType":"magmagolem","monsterParameters":{"aggressive":true}}},
+
 {"op":"add","path":"/spawns/headcrab","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.007,"monsterType":"headcrab","monsterParameters":{"aggressive":true}}},
-{"op":"add","path":"/spawns/fugiantscorpion","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.005,"monsterType":"fugiantscorpion","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/fleshleech","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.01,"monsterType":"fleshleech","monsterParameters":{"aggressive":true}}},
+
 {"op":"add","path":"/spawns/seedspawn","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.01,"monsterType":"seedspawn2","monsterParameters":{"aggressive":true}}},
 
 

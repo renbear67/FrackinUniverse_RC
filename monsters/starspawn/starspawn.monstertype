@@ -28,7 +28,7 @@
 
     "projectileSourcePosition" : [0.75, -0.62],
 
-    "attackStartDistance" : 3.5,
+    "attackStartDistance" : 9.5,
     "attackTime" : 0.75,
     "attackCooldownTime" : 0.5,
 

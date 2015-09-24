@@ -25,13 +25,13 @@
     ],
 
     "baseSkills" : [ "meleeAttack"],
-    "specialSkills" : [ "chargeAttack", "robotIonAttack", "robotgaussAttack", "robotRocketAttack", "robotZapAttack" ],
+    "specialSkills" : [ "robotIonAttack", "robotgaussAttack", "robotRocketAttack", "robotZapAttack" ],
 
     "projectileSourcePosition" : [2.88, -0.88],
 
-    "attackStartDistance" : 4.5,
+    "attackStartDistance" : 22.5,
     "attackTime" : 0.45,
-    "attackCooldownTime" : 0.35,
+    "attackCooldownTime" : 0.55,
 
     "aggressive" : true,
     "territoryDistance" : 30.0,

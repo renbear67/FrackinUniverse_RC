@@ -199,19 +199,6 @@
       },
       {
         "mode" : "floor",
-        "priority" : 0.5,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:oceanRare",
-
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [0.20, "brokenanchor" ]]
-          }
-        ]
-      },
-      {
-        "mode" : "floor",
         "priority" : 3.0,
         "variants" : 1,
         "distribution" : "/biomes/distributions.config:scatteredSmall",
@@ -223,13 +210,13 @@
         "mode" : "floor",
         "priority" : 2.0,
         "variants" : 1,
-        "distribution" : "/biomes/distributions.config:denseMedium",
+        "distribution" : "/biomes/distributions.config:scatteredLarge",
 
         "type" : "tree",
         "treeFoliageHueShiftMax" : 180,
         "treeStemHueShiftMax" : 15,
-        "treeStemList" : [ "kelp" ],
-        "treeFoliageList" : [ "kelpy" ]
+        "treeStemList" : [ "spikey", "crackly", "oldwood", "palmlike", "twisty", "woody" ],
+        "treeFoliageList" : [ "scraggy", "lushy", "junglepalm", "jungleleaf" ]
       },
       {
         "mode" : "floor",
@@ -240,7 +227,7 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.25, "wildcoralcreepseed" ], [0.25, "goldenseaspongeplant" ],[0.25, "cellpodsplant" ],[0.25, "kamaranpodsplant" ] ],
+            "pool" : [ [0.25, "wildcoralcreepseed" ], [0.25, "goldenseaspongeplant" ],[0.25, "cellpodsplant" ],[0.25, "kamaranpodsplant" ],[0.25, "wildaquapodseed" ] ],
             "parameters" : {
               "startingStage" : 3
             }

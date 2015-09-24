@@ -313,8 +313,8 @@
           "type" : "tree",
           "treeFoliageHueShiftMax" : 0,
           "treeStemHueShiftMax" : 0,
-          "treeStemList" : [ "geometricstem", "icespherestem" ],
-          "treeFoliageList" : [ "geometricfoliage", "icespherefoliage" ]
+          "treeStemList" : [ "geometricstem", "icespherestem", "purewhite" ],
+          "treeFoliageList" : [ "geometricfoliage", "icespherefoliage", "purewhitey" ]
         },
         {
           "mode" : "ceiling",

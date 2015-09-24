@@ -10,10 +10,6 @@
   "speed" : 40,
   "actionOnReap" : [
     {
-      "action" : "config",
-      "file" : "/projectiles/explosions/nailbomb/nailbombexplosion.config"
-    },
-    {
       "action" : "projectile",
       "type" : "molotovflame",
       "fuzzAngle" : 0,

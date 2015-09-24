@@ -7,11 +7,11 @@
     "robotRocketAttack" : {
       "factory" : "createRangedAttack",
       "projectile" : "rocketswarm",
-      "range" : 15,
-      "power" : 15,
+      "range" : 22,
+      "power" : 12,
       "speed" : 55,
       "shots" : 6,
-      "fireInterval" : 0.15
+      "fireInterval" : 0.35
     }
   },
 

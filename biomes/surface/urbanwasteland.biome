@@ -187,6 +187,20 @@
           "mode" : "floor",
           "priority" : 3.0,
           "variants" : 1,
+          "distribution" : "/biomes/distributions.config:superCommon",
+
+          "type" : "object",
+          "objectSets" : [
+            {
+              "pool" : [ [0.35, "cryobarrel" ] ],
+              "parameters" : { }
+            }
+          ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 3.0,
+          "variants" : 1,
           "distribution" : "/biomes/distributions.config:rareClumpyLarge",
 
           "type" : "object",
@@ -285,7 +299,19 @@
 
           "type" : "microdungeon",
           "microdungeons" : [ "rarebuildings" ]
-        },  	
+        }, 
+      {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:ffunCommon",
+
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 180,
+        "treeStemHueShiftMax" : 15,
+        "treeStemList" : [ "steelpiping", "rustypipes" ],
+        "treeFoliageList" : [ "steelpipingfoliage", "rustypipes" ]
+      },        
         {
           "mode" : "floor",
           "priority" : 3.0,

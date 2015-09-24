@@ -7,11 +7,11 @@
     "robotIonAttack" : {
       "factory" : "createRangedAttack",
       "projectile" : "ionrifleshot",
-      "range" : 12,
+      "range" : 15,
       "speed" : 65,
-      "power" : 8,
+      "power" : 7,
       "shots" : 8,
-      "windupTime" : 0.05,
+      "windupTime" : 0.3,
       "winddownTime" : 0.2,
       "fireInterval" : 0.085
     }
