@@ -146,8 +146,8 @@
           "dungeons" : [ "wreck", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "avianairship", "aviantemple","humanbunker", "floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison", "naturalcave" ]
         },
         "subsurface" : {
-          "primaryRegion" : [ "tarball", "arboreal2", "desert_wastes","ffpoopit", "ffcrystalrealm", "colorfulcave", "zen", "shadow", "crystalcave", "abandonedmines", "hive", "corruptmoonunderground", "moondesertunderground", "moonstoneunderground", "moonvolcanicunderground", "moontoxicunderground", "rainbowforest", "ffspidernest", "mountainous", "ffsupermatter", "deepseavent", "tidewater", "tidewaterfloor", "tidewaterunderground", "lightlessshadowsea", "metallicmoonshadowsea", "icemoonheliumsea", "metallicmoonheliumsea", "bloodstonesea", "sulphuricoceanfloor", "magmaoceanfloor", "arcticoceanfloor", "toxicoceanfloor", "oceanfloor", "nitrogenseafloor", "desertsubsurface", "barrenunderground", "shallowunderground", "arborealunderground", "atropusunderground", "bloodstoneunderground", "bogunderground", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "irradiatedunderground", "lightlessunderground", "metallicunderground", "penumbraunderground", "slimeworldunderground", "sulphuricunderground", "thickjungleunderground", "arboreal", "atropus", "bloodstone", "bog", "crystalmoon", "icemoon", "icewaste", "infernus", "irradiated", "lightless", "metallicmoon", "nitrogensea", "penumbra", "protoworld", "sulphuric", "thickjungle", "urbanwasteland", "alien", "barren", "desert", "forest", "jungle", "magma", "savannah", "scorched", "snow", "tundra", "volcanic", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "calichefield", "bloodstonefield", "corruptedforest", "crystalplain", "deadwood", "desertoasis", "dryriverbed", "elder", "energyorbforest", "flowerforest", "hellfirefield", "hellhive", "icefire", "irradiatedwaste", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "pitchfield", "primevalforest", "snowyforest", "sulphuricplain", "taiga"  ],
-	  "secondaryRegion" : [ "metalworksunderground1", "metalworksunderground2", "ffpoopit", "ffcrystalrealm", "colorfulcave", "zen", "shadow", "crystalcave", "abandonedmines", "hive", "moondesertunderground", "moonstoneunderground", "moonvolcanicunderground", "moontoxicunderground", "rainbowforest", "ffspidernest", "mountainous", "ffsupermatter", "deepseavent", "tidewater", "tidewaterfloor", "tidewaterunderground", "lightlessshadowsea", "metallicmoonshadowsea", "icemoonheliumsea", "metallicmoonheliumsea", "bloodstonesea", "sulphuricoceanfloor", "magmaoceanfloor", "arcticoceanfloor", "toxicoceanfloor", "oceanfloor", "nitrogenseafloor", "desertsubsurface", "barrenunderground", "shallowunderground", "arborealunderground", "atropusunderground", "bloodstoneunderground", "bogunderground", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "irradiatedunderground", "lightlessunderground", "metallicunderground", "penumbraunderground", "slimeworldunderground", "sulphuricunderground", "thickjungleunderground", "arboreal", "atropus", "bloodstone", "bog", "crystalmoon", "icemoon", "icewaste", "infernus", "irradiated", "lightless", "metallicmoon", "nitrogensea", "penumbra", "protoworld", "sulphuric", "thickjungle", "urbanwasteland", "alien", "barren", "desert", "forest", "garden", "jungle", "magma", "savannah", "scorched", "snow", "tundra", "volcanic", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "calichefield", "bloodstonefield", "corruptedforest", "crystalplain", "deadwood", "desertoasis", "dryriverbed", "elder", "energyorbforest", "flowerforest", "hellfirefield", "hellhive", "icefire", "irradiatedwaste", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "pitchfield", "primevalforest", "snowyforest", "sulphuricplain", "taiga"  ]        
+          "primaryRegion" : [ "moonshadowunderground", "tarball", "arboreal2", "desert_wastes","ffpoopit", "ffcrystalrealm", "colorfulcave", "zen", "shadow", "crystalcave", "abandonedmines", "hive", "corruptmoonunderground", "moondesertunderground", "moonstoneunderground", "moonvolcanicunderground", "moontoxicunderground", "rainbowforest", "ffspidernest", "mountainous", "ffsupermatter", "deepseavent", "tidewater", "tidewaterfloor", "tidewaterunderground", "lightlessshadowsea", "metallicmoonshadowsea", "icemoonheliumsea", "metallicmoonheliumsea", "bloodstonesea", "sulphuricoceanfloor", "magmaoceanfloor", "arcticoceanfloor", "toxicoceanfloor", "oceanfloor", "nitrogenseafloor", "desertsubsurface", "barrenunderground", "shallowunderground", "arborealunderground", "atropusunderground", "bloodstoneunderground", "bogunderground", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "irradiatedunderground", "lightlessunderground", "metallicunderground", "penumbraunderground", "slimeworldunderground", "sulphuricunderground", "thickjungleunderground", "arboreal", "atropus", "bloodstone", "bog", "crystalmoon", "icemoon", "icewaste", "infernus", "irradiated", "lightless", "metallicmoon", "nitrogensea", "penumbra", "protoworld", "sulphuric", "thickjungle", "urbanwasteland", "alien", "barren", "desert", "forest", "jungle", "magma", "savannah", "scorched", "snow", "tundra", "volcanic", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "calichefield", "bloodstonefield", "corruptedforest", "crystalplain", "deadwood", "desertoasis", "dryriverbed", "elder", "energyorbforest", "flowerforest", "hellfirefield", "hellhive", "icefire", "irradiatedwaste", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "pitchfield", "primevalforest", "snowyforest", "sulphuricplain", "taiga"  ],
+	  "secondaryRegion" : [ "moonshadowunderground", "metalworksunderground1", "metalworksunderground2", "ffpoopit", "ffcrystalrealm", "colorfulcave", "zen", "shadow", "crystalcave", "abandonedmines", "hive", "moondesertunderground", "moonstoneunderground", "moonvolcanicunderground", "moontoxicunderground", "rainbowforest", "ffspidernest", "mountainous", "ffsupermatter", "deepseavent", "tidewater", "tidewaterfloor", "tidewaterunderground", "lightlessshadowsea", "metallicmoonshadowsea", "icemoonheliumsea", "metallicmoonheliumsea", "bloodstonesea", "sulphuricoceanfloor", "magmaoceanfloor", "arcticoceanfloor", "toxicoceanfloor", "oceanfloor", "nitrogenseafloor", "desertsubsurface", "barrenunderground", "shallowunderground", "arborealunderground", "atropusunderground", "bloodstoneunderground", "bogunderground", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "irradiatedunderground", "lightlessunderground", "metallicunderground", "penumbraunderground", "slimeworldunderground", "sulphuricunderground", "thickjungleunderground", "arboreal", "atropus", "bloodstone", "bog", "crystalmoon", "icemoon", "icewaste", "infernus", "irradiated", "lightless", "metallicmoon", "nitrogensea", "penumbra", "protoworld", "sulphuric", "thickjungle", "urbanwasteland", "alien", "barren", "desert", "forest", "garden", "jungle", "magma", "savannah", "scorched", "snow", "tundra", "volcanic", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "calichefield", "bloodstonefield", "corruptedforest", "crystalplain", "deadwood", "desertoasis", "dryriverbed", "elder", "energyorbforest", "flowerforest", "hellfirefield", "hellhive", "icefire", "irradiatedwaste", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "pitchfield", "primevalforest", "snowyforest", "sulphuricplain", "taiga"  ]        
         },
         "underground1" : {
           "primaryRegion" : [ "tarball", "arboreal2", "desert_wastes","ffpoopit", "ffcrystalrealm", "colorfulcave", "zen", "shadow", "crystalcave", "abandonedmines", "hive", "corruptmoonunderground","moondesertunderground", "moonstoneunderground", "moonvolcanicunderground", "moontoxicunderground", "rainbowforest", "ffspidernest", "ffsupermatter", "deepseavent", "tidewater", "tidewaterfloor", "tidewaterunderground", "fftarunderground","tarunderground", "mushroomunderground", "wildernessunderground", "minivillageunderground", "icecaves", "bonecaves", "stonecaves", "luminouscaves", "fleshcaves", "cellcaves","fffleshcaves", "ffcellcaves", "arborealunderground", "atropusunderground", "bloodstoneunderground", "bogunderground", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "irradiatedunderground", "lightlessunderground", "metallicunderground", "penumbraunderground", "slimeworldunderground", "sulphuricunderground", "thickjungleunderground", "ffcoalmine", "ffcoppermine", "ffcoralcave", "ffcrystalcavern", "fffrostcavern", "ffgoldmine", "ffshadow", "ffvolcanic", "ffzen"],
@@ -1805,11 +1805,107 @@
       "fgCaveSelector" : [ "surfaceCaves", "moonSurfaceCaves", "denseCaves" ],
       "bgOreSelector" : [ "denseVeins" ],       
       "biome" : [
-        [0, [ "metallicmoon" ]]
+        [0, [ "metallicmoon" ] ]
       ]
     }
   }, 
 
+
+
+
+
+   {"op" : "add", 
+   "path" : "/planetTypes/moon_shadow",
+   "value" : 
+     {
+       "gravityRange" : [10, 80],
+       "threatRange" : [1, 3],
+       "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "moon_shadow" ]
+        },
+        "subsurface" : {
+          "primaryRegion" : [ "moonshadowunderground" ]
+        },
+        "underground1" : {
+          "primaryRegion" : [ "moonshadowunderground" ]
+        },
+        "underground2" : {
+          "primaryRegion" : [ "moonshadowunderground" ]
+        },
+        "underground3" : {
+          "primaryRegion" : [ "moonshadowunderground" ]
+        },
+        "underground4" : {
+          "primaryRegion" : [ "moonshadowunderground" ]
+        },
+        "underground5" : {
+          "primaryRegion" : [ "moonshadowunderground" ]
+        },
+        "underground6" : {
+          "primaryRegion" : [ "moonshadowunderground" ]
+        },
+        "core" : {
+          "primaryRegion" : [ "mooncore" ],
+          "baseHeight" : 150
+        }
+       }
+     }
+   },
+   
+   
+  {"op" : "add", 
+  "path" : "/regionTypes/moon_shadow",
+  "value" : 
+    {
+      "blockSelector" : [ "remixedMildSurface" ],
+      "fgCaveSelector" : [ "moonSurfaceCaves" ],
+      "biome" : [
+        [0, [ "moon_shadow" ]]
+      ]
+    }
+  }, 
+  
+   {"op" : "add", 
+   "path" : "/planetTypes/moon_desert",
+   "value" : 
+     {
+       "gravityRange" : [10, 80],
+       "threatRange" : [1, 3],
+       "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "moon_desert" ]
+        },
+        "subsurface" : {
+          "primaryRegion" : [ "moondesertunderground" ]
+        },
+        "underground1" : {
+          "primaryRegion" : [ "moondesertunderground" ]
+        },
+        "underground2" : {
+          "primaryRegion" : [ "moondesertunderground" ]
+        },
+        "underground3" : {
+          "primaryRegion" : [ "moondesertunderground" ]
+        },
+        "underground4" : {
+          "primaryRegion" : [ "moondesertunderground" ]
+        },
+        "underground5" : {
+          "primaryRegion" : [ "moondesertunderground" ]
+        },
+        "underground6" : {
+          "primaryRegion" : [ "moondesertunderground" ]
+        },
+        "core" : {
+          "primaryRegion" : [ "mooncore" ],
+          "baseHeight" : 150
+        }
+       }
+     }
+   },
+   
+   
   {"op" : "add", 
   "path" : "/regionTypes/moon_desert",
   "value" : 
@@ -1821,40 +1917,154 @@
       ]
     }
   }, 
-  
+   {"op" : "add", 
+   "path" : "/planetTypes/moon_stone",
+   "value" : 
+     {
+       "gravityRange" : [10, 80],
+       "threatRange" : [1, 3],
+       "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "moon_stone" ]
+        },
+        "subsurface" : {
+          "primaryRegion" : [ "moonstoneunderground" ]
+        },
+        "underground1" : {
+          "primaryRegion" : [ "moonstoneunderground" ]
+        },
+        "underground2" : {
+          "primaryRegion" : [ "moonstoneunderground" ]
+        },
+        "underground3" : {
+          "primaryRegion" : [ "moonstoneunderground" ]
+        },
+        "underground4" : {
+          "primaryRegion" : [ "moonstoneunderground" ]
+        },
+        "underground5" : {
+          "primaryRegion" : [ "moonstoneunderground" ]
+        },
+        "underground6" : {
+          "primaryRegion" : [ "moonstoneunderground" ]
+        },
+        "core" : {
+          "primaryRegion" : [ "mooncore" ],
+          "baseHeight" : 150
+        }
+       }
+     }
+   },
+    
   {"op" : "add", 
   "path" : "/regionTypes/moon_stone",
   "value" : 
     {
-      "blockSelector" : [ "remixedMildSurface" ],
+      "blockSelector" : [ "remixedMildSurface", "remixedMountainsSurface", "remixedStepsSurface" ],
       "fgCaveSelector" : [ "moonSurfaceCaves" ],
       "biome" : [
         [0, [ "moon_stone" ]]
       ]
     }
   }, 
-
+   {"op" : "add", 
+   "path" : "/planetTypes/moon_toxic",
+   "value" : 
+     {
+       "gravityRange" : [10, 80],
+       "threatRange" : [1, 3],
+       "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "moon_toxic" ]
+        },
+        "subsurface" : {
+          "primaryRegion" : [ "moontoxicunderground" ]
+        },
+        "underground1" : {
+          "primaryRegion" : [ "moontoxicunderground" ]
+        },
+        "underground2" : {
+          "primaryRegion" : [ "moontoxicunderground" ]
+        },
+        "underground3" : {
+          "primaryRegion" : [ "moontoxicunderground" ]
+        },
+        "underground4" : {
+          "primaryRegion" : [ "moontoxicunderground" ]
+        },
+        "underground5" : {
+          "primaryRegion" : [ "moontoxicunderground" ]
+        },
+        "underground6" : {
+          "primaryRegion" : [ "moontoxicunderground" ]
+        },
+        "core" : {
+          "primaryRegion" : [ "mooncore" ],
+          "baseHeight" : 150
+        }
+       }
+     }
+   },
+    
   {"op" : "add", 
   "path" : "/regionTypes/moon_toxic",
   "value" : 
     {
       "caveLiquid" : [ "darkwater", "poison" ],
       "caveLiquidChanceRange" : [20, 100],
-      "blockSelector" : [ "remixedMildSurface" ],
+      "blockSelector" : [ "remixedMildSurface", "remixedMountainsSurface", "remixedStepsSurface" ],
       "fgCaveSelector" : [ "moonSurfaceCaves" ],
       "biome" : [
         [0, [ "moon_toxic" ]]
       ]
     }
   }, 
-
+   {"op" : "add", 
+   "path" : "/planetTypes/moon_volcanic",
+   "value" : 
+     {
+       "gravityRange" : [10, 80],
+       "threatRange" : [1, 3],
+       "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "moon_volcanic" ]
+        },
+        "subsurface" : {
+          "primaryRegion" : [ "moonvolcanicunderground" ]
+        },
+        "underground1" : {
+          "primaryRegion" : [ "moonvolcanicunderground" ]
+        },
+        "underground2" : {
+          "primaryRegion" : [ "moonvolcanicunderground" ]
+        },
+        "underground3" : {
+          "primaryRegion" : [ "moonvolcanicunderground" ]
+        },
+        "underground4" : {
+          "primaryRegion" : [ "moonvolcanicunderground" ]
+        },
+        "underground5" : {
+          "primaryRegion" : [ "moonvolcanicunderground" ]
+        },
+        "underground6" : {
+          "primaryRegion" : [ "moonvolcanicunderground" ]
+        },
+        "core" : {
+          "primaryRegion" : [ "mooncore" ],
+          "baseHeight" : 150
+        }
+       }
+     }
+   },
+    
   {"op" : "add", 
   "path" : "/regionTypes/moon_volcanic",
   "value" : 
     {
       "caveLiquid" : [ "lava", "fuironliquid" ],
       "caveLiquidChanceRange" : [20, 100],
-      "blockSelector" : [ "remixedMildSurface" ],
+      "blockSelector" : [ "remixedMildSurface", "remixedMountainsSurface", "remixedStepsSurface" ],
       "fgCaveSelector" : [ "moonSurfaceCaves" ],
       "biome" : [
         [0, [ "moon_volcanic" ]]
@@ -3567,6 +3777,19 @@
       "caveLiquidChanceRange" : [1, 65], 
       "biome" : [
         [0, [ "moondesertunderground"]]
+      ]
+    }
+  },  
+
+  {"op" : "add", 
+  "path" : "/regionTypes/moonshadowunderground",
+  "value" : 
+  {
+      "fgCaveSelector" : [ "moonCaves" ],
+      "caveLiquid" : [ "tarliquid", "fuel" ],
+      "caveLiquidChanceRange" : [1, 65], 
+      "biome" : [
+        [0, [ "moonshadowunderground"]]
       ]
     }
   },  

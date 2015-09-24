@@ -67,5 +67,6 @@
             "damageType" : "IgnoresDef",
             "damageSourceKind" : "fire"
           },
-    "maxImmersion" : 0.125
+    "maxImmersion" : 0.5,
+    "consumeSoilMoisture" : false
 }

@@ -1,0 +1,131 @@
+{
+  "name" : "moon_shadow",
+  "friendlyName" : "Shadow Moon",
+  "airless" : true,
+  "breathable" : false,
+
+  "hueShiftOptions" : [ 0 ],
+
+  "weather" : [
+    [0, [
+      "/weather.config:moon"
+    ]]
+  ],
+
+  "skyOptions" : [
+
+    {
+      "mainColor" : [0, 0, 0],
+
+      "morningColors" : [ [55, 55, 55], [75, 75, 75] ],
+      "dayColors" : [ [25, 25, 25], [55, 55, 55] ],
+      "eveningColors" : [ [12, 12, 12], [20, 20, 20] ],
+      "nightColors" : [ [0, 0, 0], [5, 5, 5] ],
+
+      "morningLightColor" : [0, 0, 0],
+      "dayLightColor" : [0, 0, 0],
+      "eveningLightColor" : [0, 0, 0],
+      "nightLightColor" : [0, 0, 0]
+    }
+  ],
+
+  "mainBlock" : "shadowblock",
+  "subBlocks" : [ "obsidian", "shadowwallblock" ],
+  "ores" : "moondeepores",
+
+  "parallax" : "/parallax/surface/moon.parallax",
+
+  "ambientNoises" : {
+    "day" : {
+      "tracks" : [ "/sfx/environmental/moon_surface.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/sfx/environmental/moon_surface.ogg" ]
+    }
+  },
+
+  "musicTrack" : {
+    "day" : {
+      "tracks" : [ "/music/jupiter.ogg", "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/procyon.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-Disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/M54.ogg", "/music/Nomads.ogg", "/music/on-the-beach-at-night.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/music/jupiter.ogg", "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/procyon.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-Disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/M54.ogg", "/music/Nomads.ogg", "/music/on-the-beach-at-night.ogg" ]
+    }
+  },
+
+  "surfacePlaceables" : {
+    "grassMod" : [ "blackslimegrass" ],
+    "grassModDensity" : 0.2,
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:overgroundRareChests",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "statuspod" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:tiyDist",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "block1platforms", "loops", "spiralspikes", "blocks", "stripeblocks", "blockpile", "reversepyramids", "flats", "spikes", "rods", "wiggles", "rockyshapes", "layeredspire", "blank", "none" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "terrainfeatures" ]
+      }
+    ]
+
+  },
+
+  "undergroundPlaceables" : {
+    "grassMod" : [ "blackslimegrass" ],
+    "grassModDensity" : 0.2,
+
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "statuspod" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      }
+    ]
+  }
+}

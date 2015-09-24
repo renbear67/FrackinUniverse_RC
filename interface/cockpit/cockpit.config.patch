@@ -144,6 +144,21 @@
 {"op":"add","path":"/planetTypeToDescription/ffunknown",
 "value":"^#e43774;Unknown^white; interference prevents scanning of the planet surface. Proceed carefully."},
 
+{"op":"add","path":"/planetTypeToDescription/moon_desert",
+"value":"^#975043;Dry and parched^white;, this moon is a desert wasteland."},
+
+{"op":"add","path":"/planetTypeToDescription/moon_volcanic",
+"value":"^#663322;Volcanic activity^white; runs rampant on this moon."},
+
+{"op":"add","path":"/planetTypeToDescription/moon_toxic",
+"value":"^#414556;Toxic^white; materials compose the majority of this moon."},
+
+{"op":"add","path":"/planetTypeToDescription/moon_stone",
+"value":"A ^#cccccc;rocky moon^white; with jagged and dangerous stone formations."},
+
+{"op":"add","path":"/planetTypeToDescription/moon_shadow",
+"value":"A ^#505f50;complete lack of light^white; makes this resource-rich moon a rather spooky place. Watch your step."},
+
 {"op":"add","path":"/planetTypeToDescription/superdense",
 "value":"^#914560;Super-dense^white; worlds have enormous gravitational force."}
 ]
