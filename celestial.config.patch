@@ -1895,8 +1895,7 @@
             {"weight" : 0.04, "item" : "AsteroidField"}
           ],
           "satelliteTypes" : [
-            {"weight" : 0.5, "item" : "lightlessMoons"},
-            {"weight" : 0.5, "item" : "Moon"}
+            {"weight" : 0.5, "item" : "lightlessMoons"}
           ]
         },
         {
@@ -1904,7 +1903,7 @@
           "orbitRange" : [11, 11],
           "bodyProbability" : 1.0,
           "planetaryTypes" : [
-            {"weight" : 1.0, "item" : "Moon"}
+            {"weight" : 1.0, "item" : "lightlessMoons"}
           ],
           "satelliteTypes" : []
         },
@@ -2989,7 +2988,7 @@
         "dynamicsImages" : "/celestial/system/terrestrial/dynamics/<num>.png",
         "dynamicsRange" : [1, 40],
 
-        "terrestrialType" : [ "tarball", "fungus", "frozenvolcanic", "penumbra", "lightless", "icemoon", "metallicmoon", "snow", "icemoon", "tundra", "icewaste", "arctic", "ffunknown" ]
+        "terrestrialType" : [ "shadow", "tarball", "fungus", "frozenvolcanic", "penumbra", "lightless", "icemoon", "metallicmoon", "snow", "icemoon", "tundra", "icewaste", "arctic", "ffunknown" ]
       },
 
       "variationParameters" : [
@@ -3026,7 +3025,7 @@
         "dynamicsImages" : "/celestial/system/terrestrial/dynamics/<num>.png",
         "dynamicsRange" : [1, 40],
 
-        "terrestrialType" : [ "moon_shadow", "tarball", "fungus", "frozenvolcanic", "crystalmoon", "penumbra", "lightless", "icemoon", "metallicmoon", "icemoon", "icewaste", "ffunknown" ]
+        "terrestrialType" : [ "shadow", "moon_shadow", "tarball", "penumbra", "lightless", "superdense", "icemoon", "metallicmoon", "moon", "icewaste", "ffunknown" ]
       },
 
       "variationParameters" : [

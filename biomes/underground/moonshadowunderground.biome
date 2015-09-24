@@ -6,7 +6,7 @@
 
   "mainBlock" : "shadowblock",
   "subBlocks" : [ "obsidian", "shadowwallblock"],
-  "ores" : "moondeepores",
+  "ores" : "ff_deepicemoonOres",
 
   "breathable" : false,
 
