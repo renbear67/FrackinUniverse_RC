@@ -4,7 +4,7 @@
 
   "dropConfig" : {
     "drops" : [
-      [ { "item" : "steelpartblockmaterial" } ]
+      [ { "item" : "steelpartblock" } ]
     ],
     
     "particles" : {

@@ -7,7 +7,7 @@
   "alwaysBranch" : true,
   "dropConfig" : {
     "drops" : [
-      [ { "item" : "steelpartblockmaterial", "count" : 1 } ]
+      [ { "item" : "steelpartblock", "count" : 1 } ]
     ],
     "sounds" : {
       "breakTree" : [

@@ -159,6 +159,9 @@
 {"op":"add","path":"/planetTypeToDescription/moon_shadow",
 "value":"A ^#505f50;complete lack of light^white; makes this resource-rich moon a rather spooky place. Watch your step."},
 
+{"op":"add","path":"/planetTypeToDescription/shadow",
+"value":"A ^#ccfa33;shadow world^white; that seems to block our scanners. Whatever is down there, it's likely rather dark."},
+
 {"op":"add","path":"/planetTypeToDescription/superdense",
 "value":"^#914560;Super-dense^white; worlds have enormous gravitational force."}
 ]

@@ -4,11 +4,11 @@
     "path" : "/planetSizes/huge", 
     "value" : {
       "size" : [8000, 6000],
-      "gravityRange" : [80, 90], 
+      "gravityRange" : [90, 110], 
       "layerDefaults" : { 
         "secondaryRegionPeriod" : [5000, 5000],
-        "secondaryRegionSize" : [2000, 2500],
-        "dungeonCountRange" : [2, 5]
+        "secondaryRegionSize" : [1000, 2500],
+        "dungeonCountRange" : [4, 9]
       },
       "layers" : {
         "space" : {
@@ -179,6 +179,60 @@
        }
      }
    },
+
+
+
+   {"op" : "add", 
+   "path" : "/planetTypes/shadow",
+   "value" : 
+     {
+       "gravityRange" : [10, 120],
+       "threatRange" : [4, 7],
+       "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "metallicmoon", "penumbra", "lightless", "moon_shadow" ],
+          "secondaryRegion" : [ "tarball", "atropus","supermatterzone", "metalworks", "metalworks2", "sulphuricmagma", "tar", "desert", "scorched", "volcanic", "elder", "pitchfield", "sulphuricplain" ],
+          //"dungeonCountRange" : [0, 2],
+          "dungeons" : [ "wreck", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "avianairship", "aviantemple","humanbunker", "floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison", "naturalcave" ]
+        },
+        "subsurface" : {
+          "primaryRegion" : [ "penumbraunderground", "metallicunderground", "moonshadowunderground", "lightlessunderground", "atropusunderground" ],
+	  "secondaryRegion" : [  "ffpoopit", "ffcrystalrealm", "hive", "shadow", "ffspidernest", "ffsupermatter", "ffshadow", "fffleshcaves", "ffvolcanic", "ffcrystalcavern" ]        
+        },
+        "underground1" : {
+          "primaryRegion" : [ "penumbraunderground", "metallicunderground", "moonshadowunderground", "lightlessunderground", "atropusunderground" ],
+          "secondaryRegion" : [  "ffpoopit", "ffcrystalrealm", "hive", "shadow", "ffspidernest", "ffsupermatter", "ffshadow", "fffleshcaves", "ffvolcanic", "ffcrystalcavern" ]        
+        },
+        "underground2" : {
+          "primaryRegion" : [ "penumbraunderground", "metallicunderground", "moonshadowunderground", "lightlessunderground", "atropusunderground" ],
+          "secondaryRegion" : [  "ffpoopit", "ffcrystalrealm", "hive", "shadow", "ffspidernest", "ffsupermatter", "ffshadow", "fffleshcaves", "ffvolcanic", "ffcrystalcavern" ]        
+        },
+        "underground3" : {
+          "primaryRegion" : [ "penumbraunderground", "metallicunderground", "moonshadowunderground", "lightlessunderground", "atropusunderground" ],
+          "secondaryRegion" : [  "ffpoopit", "ffcrystalrealm", "hive", "shadow", "ffspidernest", "ffsupermatter", "ffshadow", "fffleshcaves", "ffvolcanic", "ffcrystalcavern" ]        
+        },
+        "underground4" : {
+          "primaryRegion" : [ "penumbraunderground", "metallicunderground", "moonshadowunderground", "lightlessunderground", "atropusunderground" ],
+          "secondaryRegion" : [  "ffpoopit", "ffcrystalrealm", "hive", "shadow", "ffspidernest", "ffsupermatter", "ffshadow", "fffleshcaves", "ffvolcanic", "ffcrystalcavern" ]        
+        },
+        "underground5" : {
+          "primaryRegion" : [ "penumbraunderground", "metallicunderground", "moonshadowunderground", "lightlessunderground", "atropusunderground" ],
+          "secondaryRegion" : [  "ffpoopit", "ffcrystalrealm", "hive", "shadow", "ffspidernest", "ffsupermatter", "ffshadow", "fffleshcaves", "ffvolcanic", "ffcrystalcavern" ]        
+        },
+        "underground6" : {
+          "primaryRegion" : [ "penumbraunderground", "metallicunderground", "moonshadowunderground", "lightlessunderground", "atropusunderground" ],
+          "secondaryRegion" : [  "ffpoopit", "ffcrystalrealm", "hive", "shadow", "ffspidernest", "ffsupermatter", "ffshadow", "fffleshcaves", "ffvolcanic", "ffcrystalcavern" ]        
+        },
+        "core" : {
+          "primaryRegion" : [ "mooncore", "nitrogencore", "protocore", "core", "liquidprotocore", "irradiumcore" ]
+        } 
+       }
+     }
+   },
+
+
+
+
 
    {"op" : "add", 
    "path" : "/planetTypes/superdense",
@@ -924,7 +978,7 @@
       "layers" : {
         "surface" : {
           "primaryRegion" : [ "metallicmoon" ],
-          "secondaryRegion" : [ "volcanic", "metalworks","metalworks2", "moon", "irradiated", "moon_stone", "moon_toxic", "moon_stone", "moon_volcanic" ],
+          "secondaryRegion" : [ "metalworks", "metalworks2" ],
           //"dungeonCountRange" : [0, 2],
           "dungeons" : [ "wreck" ]
         },

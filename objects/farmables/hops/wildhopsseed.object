@@ -32,7 +32,7 @@
     {
       "alts" : 5,
       "harvestPool" : "hopsHarvest",
-      "resetToStage" : 2,
+      "resetToStage" : 0,
       "duration" : [60, 200]
     }
   ],

@@ -35,12 +35,12 @@
       "duration" : [60, 120]
     },
     {
-      "duration" : [120, 240]
+      "duration" : [60, 120]
     },
     {
       "alts" : 5,
       "harvestPool" : "cinnamonHarvest",
-      "resetToStage" : 2,
+      "resetToStage" : 0,
       "duration" : [60, 200]
     }
   ],  
