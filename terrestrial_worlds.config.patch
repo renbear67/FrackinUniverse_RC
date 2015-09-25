@@ -1474,7 +1474,7 @@
       "layers" : {
         "surface" : {
           "primaryRegion" : [ "urbanwasteland" ],
-          "secondaryRegion" : [ "aliendesert", "metalworks", "metalworks2", "crystalswamp", "ffhive", "alienforest", "sulphuricmagma", "reddesert", "swamp", "bloodgulch", "hellhive", "corruptedforest", "deadwood",   "savannah"],
+          "secondaryRegion" : [ "parkinglot", "aliendesert", "metalworks", "metalworks2", "crystalswamp", "ffhive", "alienforest", "sulphuricmagma", "reddesert", "swamp", "bloodgulch", "hellhive", "corruptedforest", "deadwood",   "savannah"],
           //"dungeonCountRange" : [0, 2],
           "dungeons" : [ "wastelandquests", "elderruins", "wreck", "apexresearchlab", "apextestchamber", "apextowerblock", "humanbunker", "humanprison", "naturalcave" ]
         },
@@ -2840,6 +2840,17 @@
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
         [0, [ "orchardpear" ]]
+      ]
+    }
+  }, 
+
+  {"op" : "add", 
+  "path" : "/regionTypes/parkinglot",
+  "value" : 
+  {
+      "blockSelector" : [ "flatsSurface" ],
+      "biome" : [
+        [0, [ "parkinglot" ]]
       ]
     }
   }, 

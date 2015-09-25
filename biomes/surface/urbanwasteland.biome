@@ -43,7 +43,7 @@
     }
   ],
 
-  "hueShiftOptions" : [ 0 ],
+  "hueShiftOptions" : [ -120, -100, -60, -20, 0, 20, 60, 100, 120 ],
   
   "weather" : [
     [0, [
@@ -123,8 +123,8 @@
   ],
   
   
-    "mainBlock" : "ash",
-    "subBlocks" : [ "brittlejunk", "glasssand" ],
+    "mainBlock" : "drysand",
+    "subBlocks" : [ "ash", "rock15", "bonematerial", "brittlejunk" ],
     "ores" : "surfaceOres",
     "parallax" : "/parallax/surface/urbanwasteland.parallax",
 
@@ -187,7 +187,7 @@
           "mode" : "floor",
           "priority" : 3.0,
           "variants" : 1,
-          "distribution" : "/biomes/distributions.config:rareClumpyLarge",
+          "distribution" : "/biomes/distributions.config:ffCommon",
 
           "type" : "object",
           "objectSets" : [
@@ -196,6 +196,27 @@
               "parameters" : { }
             }
           ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 3.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:ffunCommon",
+
+          "type" : "grass",
+          "grasses" : [ "weedy", "thinstem", "thickgrass", "savannahgrass", "pebbles", "rockstacks", "grass", "testflower", "testflower2", "testflower3", "testflower4", "testflower5", "testflower6", "testflower7" ]
+        },        
+         {
+           "mode" : "floor",
+           "priority" : 1.0,
+           "variants" : 1,
+           "distribution" : "/biomes/distributions.config:denseLarge",
+ 
+           "type" : "tree",
+           "treeFoliageHueShiftMax" : 120,
+           "treeStemHueShiftMax" : 15,
+           "treeStemList" : [ "burnttreestem", "mushroomstalkbio", "fleshstem", "eyestem", "mushroomstalk", "gloomy", "bleak", "savannahbleak", "spiked" ],
+           "treeFoliageList" : [ "burntleaves", "burntmoss", "mushroomredtopbio", "mushroomyellowtopbio", "fleshfoliage", "eyefoliage", "mushroomredtop", "mushroomyellowtop", "spikeyfoliage", "bonky", "squarish", "thorns" ]
         },
         {
           "mode" : "floor",
@@ -295,8 +316,8 @@
         "type" : "tree",
         "treeFoliageHueShiftMax" : 180,
         "treeStemHueShiftMax" : 15,
-        "treeStemList" : [ "steelpiping", "rustypipes" ],
-        "treeFoliageList" : [ "steelpipingfoliage", "rustypipes" ]
+        "treeStemList" : [ "rustypipes" ],
+        "treeFoliageList" : [ "rustypipes" ]
       },        
         {
           "mode" : "floor",

@@ -40,5 +40,8 @@
       "resetToStage" : 2
     }
   ],
-    "maxImmersion" : 0.125
+    "maxImmersion" : 0.125,
+  "breakDropOptions" : [
+    [ [ "dnasample", 1, { } ] ]
+  ]
 }

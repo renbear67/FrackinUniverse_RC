@@ -67,5 +67,8 @@
             "damageSourceKind" : "fire"
           },
     "maxImmersion" : 0.5,
-    "consumeSoilMoisture" : false
+    "consumeSoilMoisture" : false,
+  "breakDropOptions" : [
+    [ [ "mineralsample", 1, { } ] ]
+  ]
 }

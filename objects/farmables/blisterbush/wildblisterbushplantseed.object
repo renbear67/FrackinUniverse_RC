@@ -42,6 +42,9 @@
     }
   ],
     "maxImmersion" : 1.0,
-    "consumeSoilMoisture" : false
+    "consumeSoilMoisture" : false,
+  "breakDropOptions" : [
+    [ [ "dnasample", 1, { } ] ]
+  ]
     
 }

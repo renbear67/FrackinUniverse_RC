@@ -47,5 +47,8 @@
             "damageType" : "IgnoresDef",
             "damageSourceKind" : "poison"
           },
-    "maxImmersion" : 0.125
+    "maxImmersion" : 0.125,
+  "breakDropOptions" : [
+    [ [ "dnasample", 1, { } ] ]
+  ]
 }

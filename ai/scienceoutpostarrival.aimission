@@ -1,6 +1,6 @@
 {
   "missionName" : "scienceoutpostarrival",
-  "icon" : "lunarbaseicon.png",
+  "icon" : "scienceoutposticon.png",
   "missionWorld" : "scienceoutpost",
 
   "speciesText" : {
