@@ -106,7 +106,7 @@
           "baseValue" : 222
         },
         "protection" : {
-          "baseValue" : 75.0
+          "baseValue" : 55.0
         },
         "healthRegen" : {
           "baseValue" : 0.0

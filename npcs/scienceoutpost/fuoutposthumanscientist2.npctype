@@ -1,7 +1,7 @@
 {
   "type" : "fuoutposthumanscientist2",
   "baseType" : "fuoutpostcivilian",
-
+"damageTeam" : 1,
     "scriptConfig" : {
         "offeredQuests" : [ "1_cloninglab.gearup" ],
         "turnInQuests" : [ "9_tocloninglab.gearup" ],

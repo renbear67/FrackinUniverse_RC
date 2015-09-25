@@ -1,7 +1,7 @@
 {
   "type" : "fuoutpostfloranscientist",
   "baseType" : "fuoutpostcivilian",
-
+ "damageTeam" : 1, 
     "scriptConfig" : {
         "offeredQuests" : [ "1_designlab.gearup" ],
         "turnInQuests" : [ "8_todesignlab.gearup" ],

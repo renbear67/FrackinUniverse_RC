@@ -1,7 +1,7 @@
 {
   "type" : "fuoutpostglitchscientist",
   "baseType" : "fuoutpostcivilian",
-
+  "damageTeam" : 1,
     "scriptConfig" : {
         "offeredQuests" : [ "1_xenolab.gearup" ],
         "turnInQuests" : [ "8_toxenolab.gearup" ],

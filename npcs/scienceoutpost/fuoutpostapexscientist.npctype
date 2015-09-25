@@ -1,7 +1,7 @@
 {
   "type" : "fuoutpostapexscientist",
   "baseType" : "fuoutpostcivilian",
-
+  "damageTeam" : 1,
     "scriptConfig" : {
         "offeredQuests" : [ "1_biochemlab.gearup" ],
         "turnInQuests" : [ "8_tobiochem.gearup" ],

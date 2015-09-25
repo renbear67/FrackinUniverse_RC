@@ -1,7 +1,7 @@
 {
   "type" : "fuoutpostcivilian",
   "baseType" : "outpostcivilian",
-  
+  "damageTeam" : 1,
   "scriptConfig" : {
     
     "reactions" : {

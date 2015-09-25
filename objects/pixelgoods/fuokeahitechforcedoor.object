@@ -1,14 +1,13 @@
 {
   "objectName" : "fuokeahitechforcedoor",
-  "tags" : [ "science", "hitech" ],
-  "printable" : false,
+  "tags" : [ "science", "hitech", "door" ],
   "rarity" : "Common",
-  "objectType" : "wire",
+
   "category" : "door",
-  "price" : 300,
+  "price" : 95,
   "description" : "Protects you from outside wilderness, unwelcome guests, loud noises, repellent smells and pesky door-to-doorers",
   "shortdescription" : "Force Door",
-  "race" : "generic",
+  "race" : "human",
 
   "apexDescription" : "Hi-tech Force Door.",
   "avianDescription" : "Hi-tech Force Door.",
@@ -17,11 +16,12 @@
   "humanDescription" : "Hi-tech Force Door.",
   "hylotlDescription" : "Hi-tech Force Door.",
 
+
   "inventoryIcon" : "fuokeahitechforcedooricon.png",
   "orientations" : [
     {
-      "image" : "fuokeahitechforcedoor.png:default",
-      "imagePosition" : [-16, 0],
+      "dualImage" : "fuokeahitechforcedoor.png:closed",
+      "imagePosition" : [0, 0],
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom", "top" ]
@@ -32,14 +32,17 @@
   "scriptDelta" : 5,
 
   "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : [ "/sfx/objects/bunkerslidingdoor_open.wav" ],
+      "close" : [ "/sfx/objects/bunkerslidingdoor_close.wav" ]
+    }
+  },
   "animationParts" : {
     "door" : "fuokeahitechforcedoor.png"
   },
-  "animationPosition" : [-16, 0],
+  "animationPosition" : [0, 0],
 
-  "inboundNodes" : [ [-1, 4] ],
-  "outboundNodes" : [ [1, 0] ],
-
-  "openSounds" : [ "/sfx/objects/bunkerslidingdoor_open.wav" ],
-  "closeSounds" : [ "/sfx/objects/bunkerslidingdoor_close.wav" ]
+  "inboundNodes" : [ [0, 4] ],
+  "outboundNodes" : [ [0, 0] ]
 }

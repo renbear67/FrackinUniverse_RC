@@ -1,7 +1,7 @@
 {
   "type" : "fuoutposthylotlscientist",
   "baseType" : "fuoutpostcivilian",
-
+  "damageTeam" : 1,
     "scriptConfig" : {
         "offeredQuests" : [ "1a_matterassembler.gearup", "1_extractionlab.gearup" ],
         "turnInQuests" : [ "1_matterassembler.gearup" ],
