@@ -3,5 +3,6 @@
   "rarity" : "Common",
   "inventoryIcon" : "ammoniumsulfate.png",
   "description" : "a sulfur rich inorganic salt.",
-  "shortdescription" : "Ammonium Sulfate"
+  "shortdescription" : "Ammonium Sulfate",
+  "learnBlueprintsOnPickup" : [ "crudebomb" ]
 }

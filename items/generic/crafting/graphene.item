@@ -5,5 +5,5 @@
   "description" : "Durable, flexible and conductive. A near-magical material.",
   "shortdescription" : "^#77acc3;Graphene^white;",
   "category" : "Fullerene",
-  "learnBlueprintsOnPickup" : [ "graphenechest", "graphenehead", "graphenelegs", "eridianore", "fugausspistol", "fugaussrifle" ]
+  "learnBlueprintsOnPickup" : [ "graphenechest", "graphenehead", "graphenelegs", "eridianore", "fugausspistol", "fugaussrifle", "fureinforcedglass" ]
 }

@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "waxchunk", "count" : 3 },
     { "item" : "fu_honeycombblock", "count" : 3 },
-    { "item" : "honeycrystalblock", "count" : 2 }
+    { "item" : "833honeycrystalblock", "count" : 2 }
   ],
   "output" : {
     "item" : "fuhoneycrystallamp",
