@@ -1,0 +1,3 @@
+[
+	{"op":"replace","path":"/dropConfig/drops","value": [ { "item" : "metallic", "count" : 3 } ] }
+]

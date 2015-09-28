@@ -1,0 +1,42 @@
+{
+  "objectName" : "shadowchest",
+  "tags" : ["dark","storage"],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 85,
+  "description" : "A dark, shadowy chest.",
+  "shortdescription" : "Shadow Chest",
+  "race" : "generic",
+
+  /*
+  "apexDescription" : "-todo-",
+  "avianDescription" : "-todo-",
+  "floranDescription" : "-todo-",
+  "glitchDescription" : "-todo-",
+  "humanDescription" : "-todo-",
+  "hylotlDescription" : "-todo-",
+  "novakidDescription" : "-todo-",
+  */
+
+  "inventoryIcon" : "shadowchesticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "shadowchest.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}
