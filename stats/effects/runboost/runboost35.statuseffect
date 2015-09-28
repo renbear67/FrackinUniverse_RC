@@ -9,6 +9,6 @@
 
   "animationConfig" : "runboost.animation",
 
-  "label" : "Run Boost",
+  "label" : "+Run",
   "icon" : "/interface/statuses/haste.png"
 }

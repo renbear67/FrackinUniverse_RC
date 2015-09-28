@@ -69,7 +69,7 @@
   ],
 
   "mainBlock" : "marestone",
-  "subBlocks" : [ "clay", "rostone", "coral", "oystershell", "coral2"],
+  "subBlocks" : [ "clay", "coral", "oystershell", "coral2"],
   "ores" : "surfaceOres",
 
   "parallax" : "/parallax/surface/tidewater.parallax",
@@ -104,7 +104,7 @@
         "distribution" : "/biomes/distributions.config:overgroundChests",
 
         "type" : "treasureBox",
-        "treasureBoxSets" : [ "oceanFloorChest" ]
+        "treasureBoxSets" : [ "fftidewaterChest" ]
       },
       {
         "mode" : "floor",

@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "eridianplate", "count" : 4 },
+    { "item" : "blooddiamond", "count" : 1 },
+    { "item" : "mutaviskthread", "count" : 7 },
+    { "item" : "biochip", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "agilitysuithead",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "armors", "all" ]
+}

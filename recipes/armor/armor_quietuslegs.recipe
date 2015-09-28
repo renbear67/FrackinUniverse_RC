@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "quietusplate", "count" : 6 },
     { "item" : "advancealloy", "count" : 4 },
-    { "item" : "biochip", "count" : 4}
+    { "item" : "blooddiamond", "count" : 4}
   ],
   "output" : {
     "item" : "quietuslegs",

@@ -150,5 +150,26 @@
 		"minimumLevel" : 1
 		}
 	]
+  },
+  
+  { "op" : "add", "path" : "/fftidewaterChest", 
+  "value" : 
+	[
+		{
+		"containers" : [ "hivechest" ],
+		"treasurePool" : "tidewaterChestTreasure",
+		"minimumLevel" : 1
+		}
+	]
+  },
+  { "op" : "add", "path" : "/fftidewaterFloorChest", 
+  "value" : 
+	[
+		{
+		"containers" : [ "hivechest" ],
+		"treasurePool" : "tidewaterFloorChestTreasure",
+		"minimumLevel" : 1
+		}
+	]
   }
 ]

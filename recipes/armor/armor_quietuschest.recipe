@@ -3,7 +3,7 @@
     { "item" : "quietusplate", "count" : 8 },
     { "item" : "advancealloy", "count" : 4 },
     { "item" : "powercore", "count" : 1 },
-    { "item" : "biochip", "count" : 6 }
+    { "item" : "blooddiamond", "count" : 6 }
   ],
   "output" : {
     "item" : "quietuschest",

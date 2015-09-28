@@ -1,11 +1,11 @@
 {
   "input" : [
-    { "item" : "advancedallow", "count" : 1 },
-    { "item" : "steelbar", "count" : 20 }
+    { "item" : "advancealloy", "count" : 1 },
+    { "item" : "steelbar", "count" : 5 }
   ],
   "output" : {
     "item" : "hitechmetalblock",
-    "count" : 20
+    "count" : 25
   },
   "groups" : [ "prototyper", "materials", "all" ]
 }

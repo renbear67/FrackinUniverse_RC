@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "ff_resin", "count" : 8 },
+    { "item" : "monsterplating", "count" : 2 },
+    { "item" : "bugshell", "count" : 6 },
+    { "item" : "biochip", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "chitinhead",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "armors", "all" ]
+}

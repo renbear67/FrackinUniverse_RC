@@ -32,7 +32,7 @@
   "hueShiftOptions" : [-60, -45, 0, 45, 60],
 
   "mainBlock" : "marestone",
-  "subBlocks" : [ "coral", "coral2", "rostone", "oystershell", "mud", "clay" ],
+  "subBlocks" : [ "coral", "coral2", "oystershell", "clay" ],
   "ores" : "surfaceOres",
 
   "surfacePlaceables" : {
@@ -47,7 +47,7 @@
         "distribution" : "/biomes/distributions.config:overgroundChests",
 
         "type" : "treasureBox",
-        "treasureBoxSets" : [ "oceanFloorChest" ]
+        "treasureBoxSets" : [ "fftidewaterFloorChest" ]
       },
       {
         "mode" : "floor",

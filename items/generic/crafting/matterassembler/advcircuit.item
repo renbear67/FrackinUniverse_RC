@@ -5,5 +5,5 @@
   "description" : "A robust and advanced circuitboard.",
   "category" : "Hardware",
   "shortdescription" : "^#77acc3;Advanced Circuit^white;",
-  "learnBlueprintsOnPickup" : [ "gravgun", "medbaybed" ]
+  "learnBlueprintsOnPickup" : [ "gravgun", "medbaybed", "labtv1" ]
 }
