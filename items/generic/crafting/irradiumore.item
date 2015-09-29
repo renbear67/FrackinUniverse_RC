@@ -4,5 +4,5 @@
   "inventoryIcon" : "irradiumore.png",
   "description" : "rare and valuable radioactive metal",
   "shortdescription" : "Irradium Ore",
-  "learnBlueprintsOnPickup" : [ "irradiumbar" ]
+  "learnBlueprintsOnPickup" : [ "irradiumbar", "liquidirradium", "irradiumore" ]
 }

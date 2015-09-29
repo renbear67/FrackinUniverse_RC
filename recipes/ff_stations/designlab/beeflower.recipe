@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "chloroplast1", "count" : 1 },
+    { "item" : "adaptivegene", "count" : 3 },
+    { "item" : "petalyellow", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "beeflower",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "flower", "all", "tools" ]
+}
