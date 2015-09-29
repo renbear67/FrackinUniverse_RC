@@ -15,7 +15,7 @@
 
   "baseParameters" : {
     "scripts" : [
-      "/monsters/boss/bossMonster.lua",
+      "/monsters/boss/shoggoth/bossMonster.lua",
       "/scripts/stateMachine.lua",
       "/scripts/util.lua",
       "/scripts/vec2.lua",
@@ -79,7 +79,7 @@
 
 
     "jumpTargetDistance" : 0,
-    "jumpTime" : [0, 0.01],
+    "jumpTime" : [30000, 30000],
 
     "metaBoundBox" : [-16, -16, 10, 10],
 
