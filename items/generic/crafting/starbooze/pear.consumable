@@ -5,9 +5,6 @@
   "description" : "A fresh pear, ripe for baking or consuming with my face!",
   "shortdescription" : "Pear",
   "effects" : [ [
-      {
-        "kind" : "food",
-        "amount" : 25
-      }
+      "heal_10"
     ] ]
 }

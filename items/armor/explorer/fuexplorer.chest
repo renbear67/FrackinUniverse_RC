@@ -23,7 +23,7 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "basePercentage" : 1.10
+      "basePercentage" : 1.80
     },
 
     {
@@ -41,7 +41,7 @@
       "amount" : 35
     }
   ],
-  "questTags" : [ "tier5armor" ],
+  "questTags" : [ "tier6armor" ],
   "colorOptions" : [ "",
     { "ffca8a" : "727272", "e0975c" : "414141", "a85636" : "1c1c1c", "6f2919" : "060606" },
     { "ffca8a" : "e9e9e9", "e0975c" : "727272", "a85636" : "333333", "6f2919" : "161616" },
