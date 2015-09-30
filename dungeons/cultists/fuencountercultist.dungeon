@@ -2,6 +2,7 @@
   "metadata" : {
     "name" : "fuencountercultist",
     "species" : "dummy",
+    "protected" : false,
     "rules" : [
     ],
     "anchor" : [ "cultist1", "cultist2", "cultist3", "cultist4", "cultist5", "cultist6", "cultist7", "cultist8" ],

@@ -9,8 +9,8 @@
  
   "effects" : [ [
     {
-        "effect" : "items/honeyheal1",
-        "duration" :60  },
+        "effect" : "honeyheal1",
+        "duration" :120  },
     {
         "effect" : "fedhoney",
         "duration" : 60

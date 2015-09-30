@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "steelbar", "count" : 10 }
+    { "item" : "steelbar", "count" : 5 }
   ],
   "output" : {
-    "item" : "steelgirdirhorizontalmaterial",
+    "item" : "fusteelgirdirmaterial",
     "count" : 10
   },
   "groups" : [ "prototyper", "materials", "all" ]

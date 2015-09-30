@@ -14,7 +14,7 @@
   "race" : "generic",
   "category" : "crafting",
   "price" : 450,
-  "learnBlueprintsOnPickup" : [ "apexbrainjar", "beestation", "powerpress", "apexpod2", "obsidianshard", "magneticshielding", "electronmicroscope", "armoredsnowpants", "extractionlab", "extractionlab_roof", "nanofabricator", "hardenedsteelblade", "microscope", "genecabinet", "genestorage", "biochipbase", "circuitboard", "basicminer", "bonemealmaterial", "steelgirdirhorizontalmaterial", "steelgirdirverticalmaterial" ],
+  "learnBlueprintsOnPickup" : [ "apexbrainjar", "beestation", "powerpress", "apexpod2", "obsidianshard", "magneticshielding", "electronmicroscope", "armoredsnowpants", "extractionlab", "extractionlab_roof", "nanofabricator", "hardenedsteelblade", "microscope", "genecabinet", "genestorage", "biochipbase", "circuitboard", "basicminer", "bonemealmaterial", "fusteelgirdir" ],
 
   "inventoryIcon" : "prototypericon.png",
   "orientations" : [

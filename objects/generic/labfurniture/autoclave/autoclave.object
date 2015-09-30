@@ -2,7 +2,7 @@
   "objectName" : "autoclave",
   "tags" : ["fu","science","discovery"],
   "rarity" : "Common",
-  "category" : "furniture",
+  "category" : "science!",
   "price" : 105,
   "description" : "Useful equipment for the lab.",
   "shortdescription" : "Autoclave",
