@@ -8,7 +8,7 @@
   "frameNumber" : 4,
   "level" : 1,
   "power" : 0.1,
-  "lightColor" : [0, 100, 0],
+  "lightColor" : [15, 97, 31],
   "speed" : 20,
   "piercing" : false,
   "damagePoly" : [ [0, -8], [16, -8], [16, 8], [0, 8] ],
