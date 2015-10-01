@@ -55,7 +55,7 @@
     }
   }
 },
-  { "op" : "add", "path" : "/planetSizes/massive",
+  { "op" : "add", "path" : "/planetSizes/immense",
     "value" : {
       "size" : [16000, 8000],
       "gravityRange" : [90, 180],
