@@ -1,0 +1,84 @@
+{
+  "type" : "wreckwarrior",
+  "baseType" : "hostile",
+
+  "levelVariance" : [0, 1],
+
+  "dropPools" : [ "ffbanditTreasure" ],
+  
+ "scriptConfig" : {
+  "dialog" : {
+  "attack" : "/dialog/cultist.config:attack"
+  }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "agilitysuithead", "parameters" : { "colorIndex" : 1 } } ],
+            "chest" : [ { "name" : "agilitysuitchest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "agilitysuitlegs", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              { "name" : "ff_icechucker" }
+            ],
+            "alt" : [
+              { "name" : "flashlight" }
+            ]
+          },
+          {
+            "head" : [ { "name" : "fuexplorerhead", "parameters" : { "colorIndex" : 7 } } ],
+            "chest" : [ { "name" : "fuexplorerchest", "parameters" : { "colorIndex" : 7 } } ],
+            "legs" : [ { "name" : "fuexplorerlegs", "parameters" : { "colorIndex" : 7 } } ],
+            "primary" : [
+              { "name" : "minirocketlauncher" }
+            ]
+          },
+          {
+            "head" : [ { "name" : "ff_diamondarmorhead", "parameters" : { "colorIndex" : 7 } } ],
+            "chest" : [ { "name" : "ff_diamondarmorchest", "parameters" : { "colorIndex" : 7 } } ],
+            "legs" : [ { "name" : "ff_diamondarmorpants", "parameters" : { "colorIndex" : 7 } } ],
+            "primary" : [
+              { "name" : "laspistol" }
+            ],
+            "alt" : [
+              { "name" : "flashlight" }
+            ]
+          },
+          {
+            "head" : [ { "name" : "rusthead2", "parameters" : { "colorIndex" : 7 } } ],
+            "chest" : [ { "name" : "rustchest2", "parameters" : { "colorIndex" : 7 } } ],
+            "legs" : [ { "name" : "rustlegs2", "parameters" : { "colorIndex" : 7 } } ],
+            "primary" : [
+              [ "generatedsword", 1, { "definition" : "commondagger" } ],
+              [ "generatedsword", 1, { "definition" : "commonaxe" } ],
+              [ "generatedsword", 1, { "definition" : "commonshortsword" } ],
+              [ "generatedsword", 1, { "definition" : "commonbroadsword" } ],
+              [ "generatedsword", 1, { "definition" : "commonhammer" } ],
+              [ "generatedsword", 1, { "definition" : "commonspear" } ],
+              [ "generatedgun", 1, { "definition" : "commonassaultrifle" } ],
+              [ "generatedgun", 1, { "definition" : "commonpistol" } ],
+              [ "generatedgun", 1, { "definition" : "commonmachinepistol" } ],
+              [ "generatedgun", 1, { "definition" : "commonshotgun" } ],
+              [ "generatedgun", 1, { "definition" : "commonsniperrifle" } ]
+            ]
+          },
+          {
+            "head" : [ { "name" : "rusthead", "parameters" : { "colorIndex" : 1 } } ],
+            "chest" : [ { "name" : "rustchest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "rustlegs", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              { "name" : "lasrifle" }
+            ]
+          },
+          {
+            "chest" : [ { "name" : "fuoperativechest", "parameters" : { "colorIndex" : 7 } } ],
+            "legs" : [ { "name" : "fuoperativelegs", "parameters" : { "colorIndex" : 7 } } ],
+            "primary" : [
+              { "name" : "longarm" }
+            ]
+          }
+        ] ]
+    ]
+  }
+}
