@@ -1,23 +1,24 @@
 {
   "objectName" : "populationsign",
-  "printable" : true,
+  "tags" : [ "wasteland" ],
   "rarity" : "Common",
-  "objectType" : "decorative",
+  "category" : "decorative",
   "price" : 200,
-  "category" : "storage",
-  "description" : "I wonder what people once lived here...",
+  "printable" : false,  
+  "description" : "I wonder what sort of people once lived here?",
   "shortdescription" : "Ruined Population Sign",
-  "race" : "generic",
-
   "inventoryIcon" : "populationsign.png",
+  "health" : 10,
   "orientations" : [
     {
-      "dualImage" : "populationsign.png",
-      "imagePosition" : [-8, 0],
+      "image" : "populationsign.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-    }
 
+    }
   ]
 }
