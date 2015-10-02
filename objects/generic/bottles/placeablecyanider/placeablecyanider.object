@@ -1,5 +1,6 @@
 {
   "objectName" : "placeablecyanider",
+  "tags" : [ "drunkard", "booze" ],
   "rarity" : "Common",
   "description" : "Now your cyanider can be on a table!",
   "shortdescription" : "Placeable Cyanider",

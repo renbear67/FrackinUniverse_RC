@@ -1,5 +1,6 @@
 {
   "objectName" : "fucombchest",
+    "tags" : [ "hive", "bees", "storage" ],
   "rarity" : "Uncommon",
   "objectType" : "container",
   "printable" : false,

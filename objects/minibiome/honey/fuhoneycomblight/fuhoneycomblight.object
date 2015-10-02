@@ -1,5 +1,6 @@
 {
   "objectName" : "fuhoneycomblight",
+  "tags" : [ "bees", "light" ],
   "rarity" : "Common",
   "description" : "The pod emits a natural yellow light.",
   "shortdescription" : "Honeycomb Light",

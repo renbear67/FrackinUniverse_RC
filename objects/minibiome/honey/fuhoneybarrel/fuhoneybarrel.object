@@ -1,5 +1,6 @@
 {
   "objectName" : "fuhoneybarrel",
+  "tags" : [ "bees", "insects" ],
   "rarity" : "Common",
   "objectType" : "container",
   "description" : "A barrel just waiting to be filled with honey.",

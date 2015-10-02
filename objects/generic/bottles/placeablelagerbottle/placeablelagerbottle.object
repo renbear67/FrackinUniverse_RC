@@ -1,5 +1,6 @@
 {
   "objectName" : "placeablelagerbottle",
+  "tags" : [ "drunkard", "booze" ],
   "rarity" : "Common",
   "description" : "Brand New! Placeable Lager Bottle!",
   "shortdescription" : "Placeable Lager Bottle",

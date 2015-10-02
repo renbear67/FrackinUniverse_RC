@@ -1,5 +1,6 @@
 {
   "objectName" : "winepress",
+  "tags" : [ "crafting", "booze" ],
   "printable" : false,
   "rarity" : "Common",
   "description" : "A machine used to squeeze juices from fruits.",

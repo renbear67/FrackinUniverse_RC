@@ -1,6 +1,6 @@
 {
   "objectName" : "boozekit",
-  "tags" : ["crafting"],
+  "tags" : [ "crafting", "booze" ],
   "rarity" : "Common",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {

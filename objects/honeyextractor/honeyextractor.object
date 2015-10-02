@@ -1,5 +1,6 @@
 {
   "objectName" : "honeyextractor",
+  "tags" : [ "bees" ],
   "printable" : false,
   "rarity" : "rare",
   "description" : "Extract honey out of honeycombs, and jar it!",

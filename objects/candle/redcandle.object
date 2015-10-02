@@ -1,5 +1,6 @@
 {
   "objectName" : "redcandle",
+  "tags" : [ "bees", "light" ],
   "rarity" : "Common",
   "category" : "light",
   "price" : 200,

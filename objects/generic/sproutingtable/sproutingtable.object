@@ -1,5 +1,6 @@
 {
   "objectName" : "sproutingtable",
+  "tags" : [ "crafting", "booze" ],
   "printable" : false,
   "rarity" : "Common",
   "description" : "Sprout seeds on this table",

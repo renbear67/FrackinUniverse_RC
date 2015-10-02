@@ -1,5 +1,6 @@
 {
   "objectName" : "signpub",
+  "tags" : [ "drunkard", "booze" ],
   "rarity" : "Common",
   "printable" : false,
   "description" : "A sign advertising a place to grab a brew and enjoy yourself!",

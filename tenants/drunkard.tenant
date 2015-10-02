@@ -1,0 +1,26 @@
+{
+  "name": "drunkard_tenant",
+  "priority": 8,
+
+  "tagCriteria": {
+    "drunkard": 5,
+    "door": 1,
+    "light": 2
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "human",
+      "type": "honeyciv",
+      "overrides": {
+        "damageTeamType" : "friendly"
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [900.0, 1800.0],
+    "pool": "futenantLoot"
+  }
+}

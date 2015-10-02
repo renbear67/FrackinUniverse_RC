@@ -1,5 +1,6 @@
 {
   "objectName" : "honeytable",
+  "tags" : [ "bees" ],
   "printable" : false,
   "rarity" : "rare",
   "interactAction" : "OpenCraftingInterface",

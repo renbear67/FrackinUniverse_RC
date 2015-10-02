@@ -1,5 +1,6 @@
 {
   "objectName" : "beerkeg",
+  "tags" : [ "drunkard", "booze" ],
   "rarity" : "Common",
   "objectType" : "container",
   "description" : "A beer...keg. Mmm, beer.",

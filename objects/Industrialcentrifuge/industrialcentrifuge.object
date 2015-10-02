@@ -1,5 +1,6 @@
 {
   "objectName" : "bees_industrialcentrifuge",
+  "tags" : [ "hive", "bees", "machines" ],
   "printable" : false,
   "rarity" : "rare",
   "description" : "Extract items from combs! More efficient than the iron centrifuge.",

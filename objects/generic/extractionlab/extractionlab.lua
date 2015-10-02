@@ -104,6 +104,7 @@ local recipes =
 {inputs = { ff_bambooshoot=1 }, outputs = { geneticmaterial=2 }, time = 1.12},
 {inputs = { blooddiamond=1 }, outputs = { bloodore=3 }, time = 1.12},
 -- tiles
+{inputs = { concretematerial=50 }, outputs = { rawminerals=2 }, time = 1.12},
 {inputs = { honeycombmaterial=50 }, outputs = { fu_liquidhoney=2 }, time = 1.12},
 {inputs = { fu_honeycombblock=50 }, outputs = { fu_liquidhoney=2 }, time = 1.12},
 {inputs = { fu_redhoneycombblock=50 }, outputs = { fu_liquidhoney=2 }, time = 1.12},

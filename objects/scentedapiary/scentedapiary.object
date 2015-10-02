@@ -1,5 +1,6 @@
 {
   "objectName" : "scentedapiary",
+  "tags" : [ "hive", "bees", "insects" ],
   "rarity" : "Rare",
   "description" : "An apiary that does not spawn bees.",
   "shortdescription" : "^cyan;Scented Apiary^white;",

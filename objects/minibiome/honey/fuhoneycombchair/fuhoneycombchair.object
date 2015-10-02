@@ -1,5 +1,6 @@
 {
   "objectName" : "fuhoneycombchair",
+  "tags" : [ "bees", "chairs" ],
   "printable" : false,
   "rarity" : "Common",
   "description" : "A beautiful honeycomb chair.",

@@ -1,5 +1,6 @@
 {
   "objectName" : "placeablemead",
+  "tags" : [ "drunkard", "booze" ],
   "rarity" : "Common",
   "description" : "Now your mead can be on a table!",
   "shortdescription" : "Placeable Meadbee Mead",
