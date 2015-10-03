@@ -4226,8 +4226,9 @@
     {
       "caveLiquid" : [ "liquidnitrogen" ],
       "caveLiquidChanceRange" : [35, 85],
+      "caveLiquidSeedDensityRange" : [4.0, 4.0],
       "oceanLiquid" : [ "liquidnitrogen" ],
-      "oceanLevelOffset" : 10,
+      "oceanLevelOffset" : -20,
       "subBlockSelector" : [ "lowHillsSurface" ],
       "fgCaveSelector" : [ "coreCaves" ],
       "bgOreSelector" : [ "denseVeins" ],  
@@ -4243,8 +4244,9 @@
     {
       "caveLiquid" : [ "bio_ooze" ],
       "caveLiquidChanceRange" : [25, 65],
+      "caveLiquidSeedDensityRange" : [4.0, 4.0],
       "oceanLiquid" : [ "bio_ooze" ],
-      "oceanLevelOffset" : 10,
+      "oceanLevelOffset" : -20,
       "fgCaveSelector" : [ "coreCaves" ],
       "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
@@ -4259,12 +4261,13 @@
     {
       "caveLiquid" : [ "pus" ],
       "caveLiquidChanceRange" : [95, 100],
+      "caveLiquidSeedDensityRange" : [4.0, 4.0],
       "oceanLiquid" : [ "pus" ],
-      "oceanLevelOffset" : 4,
+      "oceanLevelOffset" : -20,
       "fgCaveSelector" : [ "coreCaves" ],
       "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
-        [0, [ "blaststonecorelayer"] ]
+        [0, [ "core"] ]
       ]
     }
   },
@@ -4275,8 +4278,9 @@
     {
       "caveLiquid" : [ "bio_ooze" ],
       "caveLiquidChanceRange" : [25, 65],
+      "caveLiquidSeedDensityRange" : [4.0, 4.0],
       "oceanLiquid" : [ "protociteliquid" ],
-      "oceanLevelOffset" : 10,
+      "oceanLevelOffset" : -10,
       "fgCaveSelector" : [ "coreCaves" ],
       "bgOreSelector" : [ "denseVeins" ],        
       "biome" : [
@@ -4291,8 +4295,9 @@
     {
       "caveLiquid" : [ "irradiumliquid" ],
       "caveLiquidChanceRange" : [25, 65],
+      "caveLiquidSeedDensityRange" : [4.0, 4.0],
       "oceanLiquid" : [ "irradiumliquid" ],
-      "oceanLevelOffset" : 10,
+      "oceanLevelOffset" : -10,
       "fgCaveSelector" : [ "coreCaves" ],
       "bgOreSelector" : [ "denseVeins" ],   
       "biome" : [
