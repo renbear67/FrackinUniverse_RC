@@ -128,7 +128,7 @@
     },
     { "op" : "add", 
     "path" : "/planetTypes/snow/layers/surface/secondaryRegion", 
-    "value" : [ "taiga", "pineforest", "hellhive", "snowyforest" ]
+    "value" : [ "taiga", "pineforest", "hellhive", "snowyforest", "magicsnowland" ]
     },
     { "op" : "add", 
     "path" : "/planetTypes/toxic/layers/surface/secondaryRegion", 
@@ -136,7 +136,7 @@
     },
     { "op" : "add", 
     "path" : "/planetTypes/tundra/layers/surface/secondaryRegion", 
-    "value" : [ "taiga", "pineforest", "hellhive", "snowyforest" ]
+    "value" : [ "taiga", "pineforest", "hellhive", "snowyforest", "magicsnowland" ]
     },
     { "op" : "add", 
     "path" : "/planetTypes/volcanic/layers/surface/secondaryRegion", 
@@ -167,7 +167,7 @@
        "layers" : {
         "surface" : {
           "primaryRegion" : [ "eden", "tarball", "arboreal2", "desert_wastes","mountainous", "tidewater", "arboreal", "atropus", "bloodstone", "bog", "crystalmoon", "icemoon", "icewaste", "infernus", "irradiated", "lightless", "metallicmoon", "nitrogensea", "penumbra", "protoworld", "sulphuric", "thickjungle", "urbanwasteland", "alien", "barren", "desert", "forest", "jungle", "savannah", "scorched", "snow", "tundra", "volcanic" ],
-          "secondaryRegion" : [ "eden", "fieldofbracken", "supermatterzone", "aliendesert", "goreforest", "cactiplace", "metalworks", "metalworks2", "crystalswamp", "ffhive", "corruptmoon", "birchforest", "alienforest", "sulphuricmagma", "cellfield", "reddesert", "finesand", "cloudforest", "hauntedforest", "hauntedgraveyard", "rainbowforest", "swamp", "mountainous", "tidewater", "estuary", "breakwater", "corrupt", "spring", "mushroom", "oasis", "tar", "alpine", "bioluminescence", "colourful", "bones", "giantflowers", "eyepatch", "ice", "rust", "crystalline", "alien", "arctic", "barren", "desert", "forest", "jungle", "magma", "ocean", "savannah", "scorched", "snow", "toxic", "tundra", "volcanic", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "calichefield", "bloodstonefield", "corruptedforest", "crystalplain", "deadwood", "desertoasis", "dryriverbed", "elder", "energyorbforest", "flowerforest", "hellfirefield", "hellhive", "icefire", "irradiatedwaste", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "pitchfield", "primevalforest", "snowyforest", "sulphuricplain", "taiga" ],
+          "secondaryRegion" : [ "magicsnowland", "eden", "fieldofbracken", "supermatterzone", "aliendesert", "goreforest", "cactiplace", "metalworks", "metalworks2", "crystalswamp", "ffhive", "corruptmoon", "birchforest", "alienforest", "sulphuricmagma", "cellfield", "reddesert", "finesand", "cloudforest", "hauntedforest", "hauntedgraveyard", "rainbowforest", "swamp", "mountainous", "tidewater", "estuary", "breakwater", "corrupt", "spring", "mushroom", "oasis", "tar", "alpine", "bioluminescence", "colourful", "bones", "giantflowers", "eyepatch", "ice", "rust", "crystalline", "alien", "arctic", "barren", "desert", "forest", "jungle", "magma", "ocean", "savannah", "scorched", "snow", "toxic", "tundra", "volcanic", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "calichefield", "bloodstonefield", "corruptedforest", "crystalplain", "deadwood", "desertoasis", "dryriverbed", "elder", "energyorbforest", "flowerforest", "hellfirefield", "hellhive", "icefire", "irradiatedwaste", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "pitchfield", "primevalforest", "snowyforest", "sulphuricplain", "taiga" ],
           //"dungeonCountRange" : [0, 2],
           "dungeons" : [ "fuwreck", "wreck", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "avianairship", "aviantemple","humanbunker", "floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison", "naturalcave" ]
         },
@@ -1179,7 +1179,7 @@
       },
         "surface" : {
           "primaryRegion" : [ "nitrogensea" ],
-          "secondaryRegion" : [ "arctic", "elder",  "icewaste", "snow" ],
+          "secondaryRegion" : [ "arctic", "elder",  "icewaste", "snow", "magicsnowland" ],
           //"dungeonCountRange" : [0, 2],
           "dungeons" : [ "elderruins", "crystalcavern", "fuwreck", "wreck", "apexresearchlab" ]
         },
@@ -3607,7 +3607,21 @@
 		    }
 	},  
   
+  {"op" : "add", 
+  "path" : "/regionTypes/magicsnowland",
+  "value" : 
+  {
+      "blockSelector" : [ "remixedMildSurface", "remixedSurface" ],
+      "fgCaveSelector" : [ "normalCaves" ],
+      "caveLiquid" : [ "water" ],
+      "caveLiquidChanceRange" : [15, 35],
 
+      "biome" : [
+        [0, [ "magicsnowland"]]
+      ]
+    }
+  },  
+  
  {"op" : "add",
  "path": "/regionTypes/crystalswamp",
  "value" : 
@@ -4350,7 +4364,7 @@
       "oceanLevelOffset" : -20,
       "subBlockSelector" : [ "lowHillsSurface" ],
       "fgCaveSelector" : [ "coreCaves" ],
-      "bgOreSelector" : [ "denseVeins" ],  
+      "bgCaveSelector" : [ "coreBackgroundCaves" ],
       "biome" : [
         [0, [ "nitrogencorelayer"] ]
       ]
@@ -4367,7 +4381,7 @@
       "oceanLiquid" : [ "bio_ooze" ],
       "oceanLevelOffset" : -20,
       "fgCaveSelector" : [ "coreCaves" ],
-      "bgOreSelector" : [ "denseVeins" ],  
+      "bgCaveSelector" : [ "coreBackgroundCaves" ], 
       "biome" : [
         [0, [ "protocorelayer"] ]
       ]
@@ -4384,7 +4398,7 @@
       "oceanLiquid" : [ "pus" ],
       "oceanLevelOffset" : -20,
       "fgCaveSelector" : [ "coreCaves" ],
-      "bgOreSelector" : [ "denseVeins" ],  
+      "bgCaveSelector" : [ "coreBackgroundCaves" ], 
       "biome" : [
         [0, [ "puscorelayer"] ]
       ]
@@ -4401,7 +4415,7 @@
       "oceanLiquid" : [ "protociteliquid" ],
       "oceanLevelOffset" : -10,
       "fgCaveSelector" : [ "coreCaves" ],
-      "bgOreSelector" : [ "denseVeins" ],        
+      "bgCaveSelector" : [ "coreBackgroundCaves" ],      
       "biome" : [
         [0, [ "protocorelayer"] ]
       ]
@@ -4418,7 +4432,7 @@
       "oceanLiquid" : [ "irradiumliquid" ],
       "oceanLevelOffset" : -10,
       "fgCaveSelector" : [ "coreCaves" ],
-      "bgOreSelector" : [ "denseVeins" ],   
+      "bgCaveSelector" : [ "coreBackgroundCaves" ],
       "biome" : [
         [0, [ "obsidiancorelayer"] ]
       ]
