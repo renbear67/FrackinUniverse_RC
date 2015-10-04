@@ -29,6 +29,15 @@
       "maskPerPlanetRange" : [3, 3]  
   }},
   {"op" : "add", 
+  "path" : "/terrestrialHorizonGraphics/atropusdark",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/atropusdark_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]  
+  }},
+  {"op" : "add", 
   "path" : "/terrestrialHorizonGraphics/bloodstone",
   "value" : 
   {
@@ -42,8 +51,8 @@
   "value" : 
   {
       "baseImages" : "/celestial/system/terrestrial/horizon/textures/bloodstone_<selector>.png",
-      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
-      "maskRange" : [1, 2],
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/ocean/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
       "maskPerPlanetRange" : [0, 1]  
   }},
   {"op" : "add", 
@@ -74,12 +83,21 @@
       "maskPerPlanetRange" : [0, 0]  
   }},  
   {"op" : "add", 
+  "path" : "/terrestrialHorizonGraphics/eden",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/eden_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1,25],
+      "maskPerPlanetRange" : [3, 3]  
+  }}, 
+  {"op" : "add", 
   "path" : "/terrestrialHorizonGraphics/frozenvolcanic",
   "value" : 
   {
       "baseImages" : "/celestial/system/terrestrial/horizon/textures/frozenvolcanic_<selector>.png",
       "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
-      "maskRange" : [1, 5],
+      "maskRange" : [1, 25],
       "maskPerPlanetRange" : [3, 3]  
   }},  
   {"op" : "add", 
@@ -183,7 +201,24 @@
   {
       "baseImages" : "/celestial/system/terrestrial/horizon/textures/moon_shadow_<selector>.png",
       "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
-      "maskPerPlanetRange" : [0, 0]  
+      "maskPerPlanetRange" : [3, 3]  
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialHorizonGraphics/shadow",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/moon_shadow_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskPerPlanetRange" : [3, 3]  
+  }},
+
+  {"op" : "add", 
+  "path" : "/terrestrialHorizonGraphics/moon_shadow",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/moon_shadow_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskPerPlanetRange" : [3, 3]  
   }},
   {"op" : "add", 
   "path" : "/terrestrialHorizonGraphics/mountainous",
@@ -316,7 +351,7 @@
   "value" : 
   {
       "baseImages" : "/celestial/system/terrestrial/biomes/arboreal/maskie<num>.png",
-      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
       "dynamicsRange" : [1, 20] 
   }},
   {"op" : "add", 
@@ -324,7 +359,7 @@
   "value" : 
   {
       "baseImages" : "/celestial/system/terrestrial/biomes/arboreal/maskie<num>.png",
-      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
       "dynamicsRange" : [1, 25]
   }},
   {"op" : "add", 
@@ -332,6 +367,14 @@
   "value" : 
   {
       "baseImages" : "/celestial/system/terrestrial/biomes/atropus/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 40]
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialGraphics/atropusdark",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/biomes/atropusdark/maskie<num>.png",
       "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
       "dynamicsRange" : [1, 40]
   }},
@@ -348,7 +391,7 @@
   "value" : 
   {
       "baseImages" : "/celestial/system/terrestrial/biomes/bloodstonesea/maskie<num>.png",
-      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/ocean/<num>.png",
       "dynamicsRange" : [1, 30]
   }},
   {"op" : "add", 
@@ -356,7 +399,7 @@
   "value" : 
   {
       "baseImages" : "/celestial/system/terrestrial/biomes/bog/maskie<num>.png",
-      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
       "dynamicsRange" : [1, 50]
   }},
   {"op" : "add", 
@@ -374,7 +417,15 @@
       "baseImages" : "/celestial/system/terrestrial/biomes/desert_wastes/maskie<num>.png",
       "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
       "dynamicsRange" : [1, 20] 
-  }},  
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialGraphics/eden",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/biomes/eden/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange" : [1, 20] 
+  }},
   {"op" : "add", 
   "path" : "/terrestrialGraphics/frozenvolcanic",
   "value" : 
@@ -388,7 +439,7 @@
   "value" : 
   {
       "baseImages" : "/celestial/system/terrestrial/biomes/fungus/maskie<num>.png",
-      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
       "dynamicsRange" : [1, 50] 
   }},  
   {"op" : "add", 
@@ -420,7 +471,7 @@
   "value" : 
   {
       "baseImages" : "/celestial/system/terrestrial/biomes/irradiated/maskie<num>.png",
-      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
       "dynamicsRange" : [1, 50]
   }},
   {"op" : "add", 
@@ -479,12 +530,13 @@
       "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
       "dynamicsRange" : [1, 50] 
   }},
+
   {"op" : "add", 
   "path" : "/terrestrialGraphics/mountainous",
   "value" : 
   {
       "baseImages" : "/celestial/system/terrestrial/biomes/mountainous/maskie<num>.png",
-      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
       "dynamicsRange" : [1, 50] 
   }},
    {"op" : "add", 
@@ -500,7 +552,7 @@
   "value" : 
   {
       "baseImages" : "/celestial/system/terrestrial/biomes/penumbra/maskie<num>.png",
-      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
       "dynamicsRange" : [1, 50]
   }},  
   {"op" : "add", 
@@ -508,7 +560,7 @@
   "value" : 
   {
       "baseImages" : "/celestial/system/terrestrial/biomes/protoworld/maskie<num>.png",
-      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
       "dynamicsRange" : [1, 50] 
   }}, 
   {"op" : "add", 
@@ -516,7 +568,7 @@
   "value" : 
   {
       "baseImages" : "/celestial/system/terrestrial/biomes/slimeworld/maskie<num>.png",
-      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
       "dynamicsRange" : [1, 50] 
   }},
   {"op" : "add", 
@@ -532,7 +584,7 @@
   "value" : 
   {
       "baseImages" : "/celestial/system/terrestrial/biomes/sulphuricocean/maskie<num>.png",
-      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/ocean/<num>.png",
       "dynamicsRange" : [1, 50]
   }},
   {"op" : "add", 
@@ -556,7 +608,7 @@
   "value" : 
   {
       "baseImages" : "/celestial/system/terrestrial/biomes/thickjungle/maskie<num>.png",
-      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
       "dynamicsRange" : [1, 50]
   }},
   {"op" : "add", 
@@ -564,7 +616,7 @@
   "value" : 
   {
       "baseImages" : "/celestial/system/terrestrial/biomes/tidewater/maskie<num>.png",
-      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
       "dynamicsRange" : [1, 50]
   }},
   {"op" : "add", 
@@ -2335,7 +2387,7 @@
         "dynamicsImages" : "/celestial/system/terrestrial/dynamics/<num>.png",
         "dynamicsRange" : [1, 40],
 
-        "terrestrialType" : [ "forest", "desert", "tarball", "desert_wastes", "mountainous", "tidewater", "fungus", "barren", "irradiated", "volcanic", "arboreal", "arboreal2","atropus", "protoworld", "alien", "ocean", "toxic", "bloodstone", "bloodstonesea", "slimeworld", "ffunknown" ]
+        "terrestrialType" : [ "eden", "forest", "desert", "tarball", "desert_wastes", "mountainous", "tidewater", "fungus", "barren", "irradiated", "volcanic", "arboreal", "arboreal2","atropus", "protoworld", "alien", "ocean", "toxic", "bloodstone", "bloodstonesea", "slimeworld", "ffunknown" ]
       },
 
       "variationParameters" : [
@@ -2392,7 +2444,7 @@
         "dynamicsImages" : "/celestial/system/terrestrial/dynamics/<num>.png",
         "dynamicsRange" : [1, 40],
 
-        "terrestrialType" : [ "forest", "desert",  "mountainous", "tidewater", "fungus", "urbanwasteland", "ocean",  "barren", "desert_wastes", "atropus", "arboreal2", "savannah", "jungle", "alien", "toxic", "bog", "arboreal", "bloodstone","bloodstonesea", "irradiated", "protoworld", "penumbra", "slimeworld", "thickjungle", "ffunknown" ]
+        "terrestrialType" : [ "eden", "forest", "desert",  "mountainous", "tidewater", "fungus", "urbanwasteland", "ocean",  "barren", "desert_wastes", "atropus", "arboreal2", "savannah", "jungle", "alien", "toxic", "bog", "arboreal", "bloodstone","bloodstonesea", "irradiated", "protoworld", "penumbra", "slimeworld", "thickjungle", "ffunknown" ]
       },
 
       "variationParameters" : [
@@ -2922,7 +2974,7 @@
         "dynamicsImages" : "/celestial/system/terrestrial/dynamics/<num>.png",
         "dynamicsRange" : [1, 40],
 
-        "terrestrialType" : [ "moon_desert", "moon_volcanic", "moon_toxic", "moon_stone" ,"desert", "forest", "metallicmoon", "tarball", "mountainous", "tidewater", "fungus", "moon", "barren", "irradiated", "volcanic", "arboreal", "arboreal2", "atropus", "desert_wastes", "protoworld", "alien", "ocean", "toxic", "bloodstone","bloodstonesea", "slimeworld" ]
+        "terrestrialType" : [ "eden", "moon_desert", "moon_volcanic", "moon_toxic", "moon_stone" ,"desert", "forest", "metallicmoon", "tarball", "mountainous", "tidewater", "fungus", "moon", "barren", "irradiated", "volcanic", "arboreal", "arboreal2", "atropus", "desert_wastes", "protoworld", "alien", "ocean", "toxic", "bloodstone","bloodstonesea", "slimeworld" ]
       },
 
       "variationParameters" : [
@@ -2957,7 +3009,7 @@
         "dynamicsImages" : "/celestial/system/terrestrial/dynamics/<num>.png",
         "dynamicsRange" : [1, 40],
 
-        "terrestrialType" : [ "moon_desert", "moon_volcanic", "moon_toxic", "moon_stone" ,"forest", "mountainous", "tidewater", "fungus", "moon", "urbanwasteland", "ocean",  "metallicmoon", "desert_wastes", "atropus", "savannah", "jungle", "alien", "toxic", "bog", "arboreal", "arboreal2", "bloodstone","bloodstonesea", "irradiated", "protoworld", "penumbra", "slimeworld", "thickjungle" ]
+        "terrestrialType" : [ "eden", "moon_desert", "moon_volcanic", "moon_toxic", "moon_stone" ,"forest", "mountainous", "tidewater", "fungus", "moon", "urbanwasteland", "ocean",  "metallicmoon", "desert_wastes", "atropus", "savannah", "jungle", "alien", "toxic", "bog", "arboreal", "arboreal2", "bloodstone","bloodstonesea", "irradiated", "protoworld", "penumbra", "slimeworld", "thickjungle" ]
       },
 
       "variationParameters" : [
@@ -3098,7 +3150,7 @@
         "dynamicsImages" : "/celestial/system/terrestrial/dynamics/<num>.png",
         "dynamicsRange" : [1, 40],
 
-        "terrestrialType" : [ "shadow", "tarball", "fungus", "frozenvolcanic", "penumbra", "lightless", "icemoon", "metallicmoon", "snow", "icemoon", "tundra", "icewaste", "arctic", "ffunknown" ]
+        "terrestrialType" : [ "atropusdark", "shadow", "tarball", "fungus", "frozenvolcanic", "penumbra", "lightless", "icemoon", "metallicmoon", "snow", "icemoon", "tundra", "icewaste", "arctic", "ffunknown" ]
       },
 
       "variationParameters" : [
@@ -3135,7 +3187,7 @@
         "dynamicsImages" : "/celestial/system/terrestrial/dynamics/<num>.png",
         "dynamicsRange" : [1, 40],
 
-        "terrestrialType" : [ "shadow", "moon_shadow", "tarball", "penumbra", "lightless", "superdense", "icemoon", "metallicmoon", "moon", "icewaste", "ffunknown" ]
+        "terrestrialType" : [ "atropusdark", "shadow", "moon_shadow", "tarball", "penumbra", "lightless", "superdense", "icemoon", "metallicmoon", "moon", "icewaste", "ffunknown" ]
       },
 
       "variationParameters" : [

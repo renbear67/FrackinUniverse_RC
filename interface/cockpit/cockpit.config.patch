@@ -69,6 +69,9 @@
 {"op":"add","path":"/planetTypeToDescription/atropus",
 "value":"An ^#cc8d5a;atropus^white; world. This unusual planet appears to be ^#cc8d5a;biologically mutated^white; as if created by an insane God."},
 
+{"op":"add","path":"/planetTypeToDescription/atropusdark",
+"value":"An ^#cc8d5a;lightless atropus^white; world. This unusual planet appears to be ^#cc8d5a;biologically mutated^white; as if created by an insane God."},
+
 {"op":"add","path":"/planetTypeToDescription/bloodstone",
 "value":"Scanners show strange ^#ba3b04;bloodstone^white; formations and ^#8e5ca6;unknown organic^white; elements."},
 
@@ -83,6 +86,9 @@
 
 {"op":"add","path":"/planetTypeToDescription/desert_wastes",
 "value":"The majority of the planet's surface is ^#c80000;scorching red desert ^white;with very little plant life."},
+
+{"op":"add","path":"/planetTypeToDescription/eden",
+"value":"This ^#00f0ff;eden ^white;houses very little in the way of hostile life and little darkness. A lovely place to build a home."},
 
 {"op":"add","path":"/planetTypeToDescription/frozenvolcanic",
 "value":"^#b86c00;Frozen Volcanic^white; worlds are relatively rare, and possess a mix of ice and lava."},
