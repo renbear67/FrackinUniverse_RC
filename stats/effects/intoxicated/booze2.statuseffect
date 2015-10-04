@@ -1,14 +1,14 @@
 {
-  "name" : "intoxicated2",
-  "blockingStat" : "intoxicatedImmunity",
+  "name" : "booze2",
+  "blockingStat" : "boozeImmunity",
   "effectConfig" : {},
   "defaultDuration" : 5,
 
   "scripts" : [
-    "intoxicated2.lua"
+    "booze2.lua"
   ],
 
-  "animationConfig" : "intoxicated.animation",
+  "animationConfig" : "booze.animation",
 
   "label" : "Intoxicated",
   "icon" : "/interface/statuses/honey.png"

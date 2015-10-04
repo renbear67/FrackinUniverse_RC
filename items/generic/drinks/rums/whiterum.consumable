@@ -17,12 +17,12 @@
         },
 		{
         "effect" : "slow",
-        "duration" : 20
+        "duration" : 60
 		},
 		{
 		"effect" : "booze",
 		"amount" : 3,
-		"duration" : 10
+		"duration" : 60
         }
     ] ]
 }

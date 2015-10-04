@@ -1,7 +1,7 @@
 function init()
   activateVisualEffects()
   local slows = status.statusProperty("slows", {})
-  slows["intoxicated"] = 0.55
+  slows["booze"] = 0.55
   status.setStatusProperty("slows", slows)
 end
 
@@ -24,6 +24,6 @@ end
 
 function uninit()
   local slows = status.statusProperty("slows", {})
-  slows["intoxicated"] = nil
+  slows["booze"] = nil
   status.setStatusProperty("slows", slows)
 end

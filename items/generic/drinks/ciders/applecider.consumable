@@ -12,15 +12,15 @@
         },
         {
         "effect" : "defenseboost30",
-		"duration" : 45
+	"duration" : 45
         },
 		{
         "effect" : "slow",
-        "duration" : 10
+        "duration" : 60
 		},
 		{
 		"effect" : "booze",
-		"duration" : 10
+		"duration" : 60
         }
     ] ]
 }

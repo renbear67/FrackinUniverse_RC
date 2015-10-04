@@ -8,12 +8,7 @@
   "effects" : [ [
 	  {
         "effect" : "foodheal25",
-        "amount" : 55
-        },
-        {
-        "effect" : "warmth",
-        "amount" : 20,
-		"duration" : 45
+        "amount" : 60
         },
 		{
         "effect" : "slow",

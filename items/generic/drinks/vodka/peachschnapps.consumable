@@ -10,19 +10,14 @@
         "effect" : "foodheal25",
         "amount" : 60
         },
-        {
-        "effect" : "warmth",
-        "amount" : 20,
-		"duration" : 45
-        },
 		{
         "effect" : "slow",
-        "duration" : 10
+        "duration" : 60
 		},
 		{
 		"effect" : "booze",
 		"amount" : 3,
-		"duration" : 10
+		"duration" : 60
         }
     ] ]
 }
