@@ -160,7 +160,7 @@
 "value":"^#414556;Toxic^white; materials compose the majority of this moon."},
 
 {"op":"add","path":"/planetTypeToDescription/moon_stone",
-"value":"A ^#cccccc;rocky moon^white; with jagged and dangerous stone formations."},
+"value":"A ^#999999;rocky moon^white; with jagged and dangerous stone formations."},
 
 {"op":"add","path":"/planetTypeToDescription/moon_shadow",
 "value":"A ^#505f50;complete lack of light^white; makes this resource-rich moon a rather spooky place. Watch your step."},

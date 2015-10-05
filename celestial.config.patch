@@ -56,6 +56,22 @@
       "maskPerPlanetRange" : [0, 1]  
   }},
   {"op" : "add", 
+  "path" : "/terrestrialHorizonGraphics/barren2",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/barren_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/arid/<mask>_<selector>.png",
+      "maskRange" : [0, 0]
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialHorizonGraphics/barren3",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/barren_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/arid/<mask>_<selector>.png",
+      "maskRange" : [0, 0]
+  }},
+  {"op" : "add", 
   "path" : "/terrestrialHorizonGraphics/bog",
   "value" : 
   {
@@ -401,6 +417,22 @@
       "baseImages" : "/celestial/system/terrestrial/biomes/bog/maskie<num>.png",
       "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
       "dynamicsRange" : [1, 30]
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialGraphics/barren2",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/biomes/barren/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 50]
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialGraphics/barren3",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/biomes/barren/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 50]
   }},
   {"op" : "add", 
   "path" : "/terrestrialGraphics/crystalmoon",

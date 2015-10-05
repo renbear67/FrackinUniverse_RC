@@ -392,7 +392,23 @@
        }
      }
    },
+
+   {"op" : "replace", 
+   "path" : "/planetTypes/barren",
+   "value" : 
+     {
+       "layers" : {
+      "surface" : {
+          "primaryRegion" : [ "barren", "barren2", "barren3" ],
+          "dungeonCountRange" : [0, 0],
+          "dungeons" : [  ]
+        }
+       }
+     }
+   },
    
+   
+  
    {"op" : "add", 
    "path" : "/planetTypes/arboreal2",
    "value" : 
@@ -1755,6 +1771,32 @@
   },
 
 
+  {"op" : "add", 
+  "path" : "/regionTypes/barren2",
+  "value" : 
+  {
+      "blockSelector" : [ "remixedSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "bgOreSelector" : [ "commonVeins" ],       
+
+      "biome" : [
+        [0, [ "barren2" ]]
+      ]
+    }
+  },
+  {"op" : "add", 
+  "path" : "/regionTypes/barren3",
+  "value" : 
+  {
+      "blockSelector" : [ "remixedSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "bgOreSelector" : [ "commonVeins" ],       
+
+      "biome" : [
+        [0, [ "barren3" ]]
+      ]
+    }
+  },  
   
   {"op" : "add", 
   "path" : "/regionTypes/bog",
