@@ -2,11 +2,12 @@
   "input" : [
     { "item" : "fuamberchunk", "count" : 7 },
     { "item" : "fu_honeycombblock", "count" : 9 },
-    { "item" : "quietusplate", "count" : 2 }
+    { "item" : "godlycomb", "count" : 8 },
+    { "item" : "beesilk", "count" : 50 }
   ],
   "output" : {
     "item" : "fuqueenlegs",
     "count" : 1
   },
-  "groups" : [ "prototyper","beestation", "armors", "all" ]
+  "groups" : [ "beestation", "armors", "all" ]
 }

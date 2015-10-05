@@ -2,11 +2,11 @@
   "input" : [
     { "item" : "fuamberchunk", "count" : 12 },
     { "item" : "fu_honeycombblock", "count" : 8 },
-    { "item" : "densealloy", "count" : 5 }
+    { "item" : "godlyframe", "count" : 5 }
   ],
   "output" : {
     "item" : "fubeeshield2",
     "count" : 1
   },
-  "groups" : [ "prototyper","beestation", "armors", "all" ]
+  "groups" : [ "beestation", "armors", "all" ]
 }

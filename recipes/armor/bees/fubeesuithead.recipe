@@ -7,5 +7,5 @@
     "item" : "fubeesuithead",
     "count" : 1
   },
-  "groups" : [ "prototyper","beestation", "armors", "all" ]
+  "groups" : [ "beestation", "armors", "all" ]
 }

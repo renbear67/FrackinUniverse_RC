@@ -2,11 +2,12 @@
   "input" : [
     { "item" : "fuamberchunk", "count" : 12 },
     { "item" : "fu_honeycombblock", "count" : 12 },
-    { "item" : "ff_penumbraplating", "count" : 4 }
+    { "item" : "godlycomb", "count" : 11 },
+    { "item" : "graphene", "count" : 9 }
   ],
   "output" : {
     "item" : "fugoldenchest",
     "count" : 1
   },
-  "groups" : [ "prototyper","beestation", "armors", "all" ]
+  "groups" : [ "beestation", "armors", "all" ]
 }
