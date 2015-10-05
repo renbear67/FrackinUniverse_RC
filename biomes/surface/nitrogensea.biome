@@ -6,7 +6,7 @@
   "breathable" : false,
   "spawnProfiles" : [
     {
-      "groups" : [ "oceansurface1" ],
+      "groups" : [ "oceansurface1", "fu_nitrogensea" ],
       "extraSpawns" : [ "symbiotecritter" ],
       "monsterParameters" : {
         "statusSettings" : {
@@ -25,7 +25,7 @@
       }
     },
     {
-      "groups" : [ "oceansurface2" ],
+      "groups" : [ "oceansurface2", "fu_nitrogensea" ],
       "extraSpawns" : [ "symbiotecritter" ],
       "monsterParameters" : {
         "statusSettings" : {

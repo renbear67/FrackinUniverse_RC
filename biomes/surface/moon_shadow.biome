@@ -6,7 +6,7 @@
   
   "spawnProfiles" : [
     {
-      "groups" : [ "fu_atropus", "fu_penumbra" ],
+      "groups" : [ "fu_penumbra", "fu_shadow" ],
       "extraSpawns" : [ "nocturnalbee", "apexscabcritter", "avianscabcritter", "eyefriend", "eyepodcritter", "floranscabcritter", "glitchscabcritter", "humanscabcritter", "hylotlscabcritter", "maggotcritter" ],
       "monsterParameters" : {
         "colors" : "shadow",
@@ -32,7 +32,7 @@
       }
     },
     {
-      "groups" : [ "fu_atropus", "fu_penumbra" ],
+      "groups" : [ "fu_penumbra", "fu_shadow" ],
       "extraSpawns" : [ "nocturnalbee", "apexscabcritter", "avianscabcritter", "eyefriend", "eyepodcritter", "floranscabcritter", "glitchscabcritter", "humanscabcritter", "hylotlscabcritter", "maggotcritter" ],
 
       "monsterParameters" : {

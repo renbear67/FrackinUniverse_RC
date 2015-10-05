@@ -2,6 +2,62 @@
   "name" : "moonshadowunderground",
   "friendlyName" : "moonshadowunderground",
 
+  "spawnProfiles" : [
+    {
+      "groups" : [ "fu_shadowdeep" ],
+      "extraSpawns" : [ ],
+      "monsterParameters" : {
+        "colors" : "shadow",
+        "statusSettings" : {
+          "stats" : {
+            "tarImmunity" : {
+              "baseValue" : 1.0
+            },
+            "blacktarImmunity" : {
+              "baseValue" : 1.0
+            },
+            "darkwaterImmunity" : {
+              "baseValue" : 1.0
+            },
+            "biooozeImmunity" : {
+              "baseValue" : 1.0
+            },
+            "insanityImmunity" : {
+              "baseValue" : 1.0
+            }              
+          }
+        }
+      }
+    },
+    {
+      "groups" : [ "fu_shadowdeep" ],
+      "extraSpawns" : [  ],
+
+      "monsterParameters" : {
+        "colors" : "shadow",
+        "statusSettings" : {
+          "stats" : {
+            "tarImmunity" : {
+              "baseValue" : 1.0
+            },
+            "blacktarImmunity" : {
+              "baseValue" : 1.0
+            },
+            "darkwaterImmunity" : {
+              "baseValue" : 1.0
+            },
+            "biooozeImmunity" : {
+              "baseValue" : 1.0
+            },
+            "insanityImmunity" : {
+              "baseValue" : 1.0
+            }     
+          }
+        }
+      }
+    }
+  ],
+  
   "parallax" : "/parallax/underground/moonunderground.parallax",
 
   "mainBlock" : "shadowblock",
