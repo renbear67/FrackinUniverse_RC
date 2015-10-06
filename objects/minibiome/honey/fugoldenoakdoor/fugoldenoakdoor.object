@@ -25,7 +25,7 @@
 
   "animation" : "/objects/wired/door/door.animation",
   "animationParts" : {
-    "door" : "goldendoor.png"
+    "door" : "fugoldendoor.png"
   },
   "animationCustom" : {
     "sounds" : {

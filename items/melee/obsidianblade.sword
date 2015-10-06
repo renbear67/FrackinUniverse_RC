@@ -22,7 +22,7 @@
     "projectileType" : "testswoosh3",
     "projectile" : {
       "speed" : 0.15,
-      "power" : 6
+      "power" : 8
     },
     "idle" : {
       "twoHanded" : false,
