@@ -393,21 +393,17 @@
      }
    },
 
-   {"op" : "replace", 
+   {"op" : "add", 
    "path" : "/planetTypes/barren",
    "value" : 
      {
        "layers" : {
-      "surface" : {
-          "primaryRegion" : [ "barren", "barren2", "barren3" ],
-          "dungeonCountRange" : [0, 0],
-          "dungeons" : [  ]
+        "surface" : {
+          "primaryRegion" : [ "barren2", "barren3" ]
         }
        }
      }
-   },
-   
-   
+   },    
   
    {"op" : "add", 
    "path" : "/planetTypes/arboreal2",
