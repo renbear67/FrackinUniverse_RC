@@ -143,10 +143,10 @@
 
     "ambientNoises" : {
       "day" : {
-        "tracks" : [ "/sfx/environmental/arid_day.ogg" ]
+        "tracks" : [ "/sfx/ambiance/horror.ogg" ]
       },
       "night" : {
-        "tracks" : [ "/sfx/environmental/arid_night.ogg" ]
+        "tracks" : [ "/sfx/ambiance/hell.ogg" ]
       }
     },
 
