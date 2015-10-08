@@ -112,10 +112,10 @@
 
     "ambientNoises" : {
       "day" : {
-        "tracks" : [ "/sfx/environmental/forest_day.ogg", "/sfx/environmental/forest_day2.ogg" ]
+        "tracks" : [ "/sfx/ambiance/arborealambiance.ogg", "/sfx/environmental/jungle_day2.ogg" ]
       },
       "night" : {
-        "tracks" : [ "/sfx/environmental/forest_night.ogg", "/sfx/environmental/forest_night2.ogg" ]
+        "tracks" : [ "/sfx/ambiance/arborealambiance2.ogg", "/sfx/environmental/jungle_night2.ogg" ]
       }
     },
 

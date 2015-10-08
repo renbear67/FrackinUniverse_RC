@@ -88,10 +88,10 @@
 
   "ambientNoises" : {
     "day" : {
-      "tracks" : [ "/sfx/environmental/tundra_day.ogg" ]
+      "tracks" : [ "/sfx/ambiance/sulphuricambiance2.ogg" ]
     },
     "night" : {
-      "tracks" : [ "/sfx/environmental/tundra_night.ogg" ]
+      "tracks" : [ "/sfx/ambiance/sulphuricambiance2.ogg" ]
     }
   },
 

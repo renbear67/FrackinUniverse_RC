@@ -76,10 +76,10 @@
 
   "ambientNoises" : {
     "day" : {
-      "tracks" : [ "/sfx/environmental/ocean_surface_calm.ogg" ]
+      "tracks" : [ "/sfx/ambiance/tidewaterambiance.ogg" ]
     },
     "night" : {
-      "tracks" : [ "/sfx/environmental/ocean_surface_calm.ogg" ]
+      "tracks" : [ "/sfx/ambiance/tidewaterambiance.ogg" ]
     }
   },
 

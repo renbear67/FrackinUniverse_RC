@@ -101,10 +101,10 @@
 
   "ambientNoises" : {
     "day" : {
-      "tracks" : [ "/sfx/environmental/jungle_day.ogg", "/sfx/environmental/savannah_day.ogg" ]
+      "tracks" : [ "/sfx/ambiance/fungalambiance.ogg", "/sfx/environmental/savannah_day.ogg" ]
     },
     "night" : {
-      "tracks" : [ "/sfx/environmental/jungle_night.ogg", "/sfx/environmental/savannah_night.ogg" ]
+      "tracks" : [ "/sfx/ambiance/fungalambiance2.ogg", "/sfx/environmental/savannah_night.ogg" ]
     }
   },
 

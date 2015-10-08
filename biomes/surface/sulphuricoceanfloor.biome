@@ -10,10 +10,10 @@
   
   "ambientNoises" : {
     "day" : {
-      "tracks" : [ "/sfx/environmental/tundra_day.ogg" ]
+      "tracks" : [ "/sfx/environmental/ocean_underwater.ogg" ]
     },
     "night" : {
-      "tracks" : [ "/sfx/environmental/tundra_night.ogg" ]
+      "tracks" : [ "/sfx/environmental/ocean_underwater.ogg" ]
     }
   },
 

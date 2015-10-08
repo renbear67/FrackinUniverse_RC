@@ -143,10 +143,10 @@
 
     "ambientNoises" : {
       "day" : {
-        "tracks" : [ "/sfx/ambiance/horror.ogg" ]
+        "tracks" : [ "/sfx/ambiance/atropusambiance2.ogg" ]
       },
       "night" : {
-        "tracks" : [ "/sfx/ambiance/hell.ogg" ]
+        "tracks" : [ "/sfx/ambiance/atropusambiance.ogg" ]
       }
     },
 

@@ -191,10 +191,10 @@
 
   "ambientNoises" : {
     "day" : {
-      "tracks" : [  ]
+      "tracks" : [ "/sfx/ambiance/metallicambiance.ogg" ]
     },
     "night" : {
-      "tracks" : [  ]
+      "tracks" : [ "/sfx/ambiance/metallicambiance.ogg" ]
     }
   },
 

@@ -89,10 +89,10 @@
   
   "ambientNoises" : {
     "day" : {
-      "tracks" : [ "/sfx/environmental/arid_day.ogg" ]
+      "tracks" : [ "/sfx/environmental/ocean_underwater.ogg" ]
     },
     "night" : {
-      "tracks" : [ "/sfx/environmental/arid_night.ogg" ]
+      "tracks" : [ "/sfx/environmental/ocean_underwater.ogg" ]
     }
   },
 
