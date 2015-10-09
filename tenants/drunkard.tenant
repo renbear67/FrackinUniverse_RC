@@ -12,7 +12,7 @@
     {
       "spawn": "npc",
       "species": "human",
-      "type": "honeyciv",
+      "type": "drunkardciv",
       "overrides": {
         "damageTeamType" : "friendly"
        }

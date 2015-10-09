@@ -1,5 +1,5 @@
 {
-  "type" : "honeyciv",
+  "type" : "beekeeperciv",
   "baseType" : "outpostcivilian",
 
   "items" : {

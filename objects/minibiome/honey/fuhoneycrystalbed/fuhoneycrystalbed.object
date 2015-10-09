@@ -1,23 +1,22 @@
 {
   "objectName" : "fuhoneycrystalbed",
   "tags" : [ "bees", "crystal" ],
-  "printable" : false,
-  "rarity" : "Common",
+  "rarity" : "rare",
   "description" : "A honey crystal bed. When you want to dream of being rich.",
   "shortdescription" : "Honey Crystal Bed",
-  "race" : "generic",
+  "race" : "glitch",
   "category" : "furniture",
   "price" : 500,
 
   "objectType" : "loungeable",
   "sitFlipDirection" : true,
-  "sitPosition" : [-10, 16],
+  "sitPosition" : [-10, 20],
   "sitOrientation" : "lay",
   "sitAngle" : 90,
   "sitEmote" : "sleep",
   "sitStatusEffects" : [
-    { "kind" : "Nude" },
-    { "kind" : "Health", "amount" : 0.06 }
+    "regeneration2",
+    "nude"
   ],
   "sitEffectEmitters" : [ "sleepbubbles" ],
 
