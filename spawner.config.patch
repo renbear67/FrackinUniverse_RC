@@ -84,6 +84,15 @@
 },
 
 {"op":"add",
+ "path":"/spawnGroups/fu_fungal",
+ "value":[       
+      "smallshroom",
+      "seedspawn",
+      "fucaterpillar"
+      ] 
+},
+
+{"op":"add",
  "path":"/spawnGroups/fu_thickjungle",
  "value":[       
       "fuaviansentry",
@@ -303,6 +312,7 @@
 {"op":"add","path":"/spawns/fleshleech","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.01,"monsterType":"fleshleech","monsterParameters":{"aggressive":true}}},
 
 {"op":"add","path":"/spawns/seedspawn","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.01,"monsterType":"seedspawn2","monsterParameters":{"aggressive":true}}},
+{"op":"add","path":"/spawns/smallshroom","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.01,"monsterType":"smallshroom","monsterParameters":{"aggressive":true}}},
 
 
 //critters

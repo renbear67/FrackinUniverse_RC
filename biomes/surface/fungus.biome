@@ -4,11 +4,11 @@
 
   "spawnProfiles" : [
     {
-      "groups" : [ "mediumsurface1" ],
+      "groups" : [ "mediumsurface1", "fu_fungal" ],
       "extraSpawns" : [ "junglebee", "fireflyspawner", "fawnfly", "fushroomdude", "breakercritter", "breakerfemalecritter", "leafscabcritter", "slugcritter", "snail", "snakecritter", "sporelingcritter" ]
     },
     {
-      "groups" : [ "mediumsurface2" ],
+      "groups" : [ "mediumsurface2", "fu_fungal" ],
       "extraSpawns" : [ "junglebee", "fireflyspawner", "fawnfly", "fushroomdude", "breakercritter", "breakerfemalecritter", "leafscabcritter", "slugcritter", "snail", "snakecritter", "sporelingcritter" ]
 
     }
