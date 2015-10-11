@@ -6,7 +6,7 @@
   "completionConditions" : [ 
     { "type" : "gather", "item" : "applemash", "consume" : false },
     { "type" : "gather", "item" : "pearmash", "consume" : false },
-    { "type" : "gather", "item" : "grapesmash", "consume" : false },
+    { "type" : "gather", "item" : "grapemash", "consume" : false },
     { "type" : "gather", "item" : "peachmash", "consume" : false }
   ],
   "moneyRange" : [120,220],
