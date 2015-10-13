@@ -1,0 +1,9 @@
+{
+  "name" : "fulavacrabcritter",
+  "category" : "fulavacrabcritter",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

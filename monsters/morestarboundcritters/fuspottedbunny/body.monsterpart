@@ -1,0 +1,9 @@
+{
+  "name" : "fuspottedbunny",
+  "category" : "fuspottedbunny",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

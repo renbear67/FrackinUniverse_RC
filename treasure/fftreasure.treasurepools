@@ -121,6 +121,7 @@
           {"weight" : 0.01, "item" : [ "labroof-recipe", 1]},
           {"weight" : 0.01, "item" : [ "labtile-recipe", 1]},
           {"weight" : 0.01, "item" : [ "labwall-recipe", 1]},
+          {"weight" : 0.01, "item" : [ "labwall1-recipe", 1]},
           {"weight" : 0.01, "item" : [ "labbeam-recipe", 1]},
           {"weight" : 0.01, "item" : [ "labsupport-recipe", 1]},
           {"weight" : 0.01, "item" : [ "labwallfence-recipe", 1]},

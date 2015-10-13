@@ -135,6 +135,7 @@ local recipes =
 {inputs = { steelmetal=50 }, outputs = { steelbar=1 }, time = 1.12},
 {inputs = { alienrock=50 }, outputs = { ff_silicon=2 }, time = 1.12},
 {inputs = { alienstripedwood=50 }, outputs = { tissueculture=2 }, time = 1.12},
+{inputs = { alienweirdwood=50 }, outputs = { tissueculture=2 }, time = 1.12},
 {inputs = { blackslimematerial=50 }, outputs = { geneticmaterial=2 }, time = 1.12},
 {inputs = { bamboo=50 }, outputs = { geneticmaterial=2 }, time = 1.12},
 {inputs = { bonematerial=25 }, outputs = { bone=3 }, time = 1.12},

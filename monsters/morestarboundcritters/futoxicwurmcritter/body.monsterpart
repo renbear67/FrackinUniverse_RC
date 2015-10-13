@@ -1,0 +1,9 @@
+{
+  "name" : "futoxicwurmcritter",
+  "category" : "futoxicwurmcritter",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

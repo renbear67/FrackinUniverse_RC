@@ -7,7 +7,7 @@
   "alwaysBranch" : false,
   "dropConfig" : {
     "drops" : [
-      [ { "item" : "alienstripedwood", "count" : 3 } ]
+      [ { "item" : "alienweirdwood", "count" : 3 } ]
     ],
     "sounds" : {
       "breakTree" : [

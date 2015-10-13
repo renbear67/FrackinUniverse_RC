@@ -1,0 +1,9 @@
+{
+  "name" : "fubrowncrabcritter",
+  "category" : "fubrowncrabcritter",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

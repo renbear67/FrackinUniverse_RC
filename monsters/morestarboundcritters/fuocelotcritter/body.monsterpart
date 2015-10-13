@@ -1,0 +1,9 @@
+{
+  "name" : "fuocelotcritter",
+  "category" : "fuocelotcritter",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

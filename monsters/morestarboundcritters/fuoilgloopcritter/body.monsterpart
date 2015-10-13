@@ -1,0 +1,9 @@
+{
+  "name" : "fuoilgloopcritter",
+  "category" : "fuoilgloopcritter",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

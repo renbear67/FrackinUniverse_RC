@@ -1,0 +1,9 @@
+{
+  "name" : "fublackheadgullcritter",
+  "category" : "fublackheadgullcritter",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

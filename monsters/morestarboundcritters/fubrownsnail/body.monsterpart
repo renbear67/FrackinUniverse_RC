@@ -1,0 +1,9 @@
+{
+  "name" : "fubrownsnail",
+  "category" : "fubrownsnail",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

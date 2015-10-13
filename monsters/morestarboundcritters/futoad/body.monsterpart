@@ -1,0 +1,9 @@
+{
+  "name" : "futoad",
+  "category" : "futoad",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "fulavaslugcritter",
+  "category" : "fulavaslugcritter",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

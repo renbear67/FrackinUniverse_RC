@@ -1,0 +1,9 @@
+{
+  "name" : "fuarcticterncritter",
+  "category" : "fuarcticterncritter",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

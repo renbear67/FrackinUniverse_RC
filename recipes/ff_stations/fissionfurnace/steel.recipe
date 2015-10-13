@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 20 },
+    { "item" : "coalore", "count" : 20 }
+  ],
+  "output" : {
+    "item" : "steelbar",
+    "count" : 6
+  },
+  "groups" : [ "fissionfurnace", "prototyper",  "all" ]
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "fugreentortoise",
+  "category" : "fugreentortoise",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

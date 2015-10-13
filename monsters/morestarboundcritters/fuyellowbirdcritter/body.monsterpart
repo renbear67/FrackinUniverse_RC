@@ -1,0 +1,9 @@
+{
+  "name" : "fuyellowbirdcritter",
+  "category" : "fuyellowbirdcritter",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

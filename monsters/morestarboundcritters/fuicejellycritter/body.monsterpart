@@ -1,0 +1,9 @@
+{
+  "name" : "fuicejellycritter",
+  "category" : "fuicejellycritter",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

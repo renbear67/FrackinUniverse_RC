@@ -1,0 +1,9 @@
+{
+  "name" : "fugreenchickcritter",
+  "category" : "fugreenchickcritter",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

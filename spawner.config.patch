@@ -428,6 +428,535 @@
   "monsterType":"fishcritter",
   "monsterParameters":{"aggressive":false}
   }
+},
+
+{"op":"add",
+"path":"/spawns/fugloopcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"fugloopcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/fuquibblecritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"fuquibblecritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/futoucritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"day"},
+  "targetDensity":0.02,
+  "monsterType":"futoucritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/fuspottedbunny",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"fuspottedbunny",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/fublackbunny",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"fublackbunny",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/furedsporelingcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"furedsporelingcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/fublackheadgullcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"day"},
+  "targetDensity":0.02,
+  "monsterType":"fublackheadgullcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/fufirebirdcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"day"},
+  "targetDensity":0.02,
+  "monsterType":"fufirebirdcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/fuicejellycritter",
+"value":{
+  "spawnParameters":{
+  "area":"liquid",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"fuicejellycritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/fulavajellycritter",
+"value":{
+  "spawnParameters":{
+  "area":"liquid",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"fulavajellycritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/fuarcticterncritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"day"},
+  "targetDensity":0.02,
+  "monsterType":"fuarcticterncritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/fulavacrabcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"fulavacrabcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/fugreenquibblecritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"fugreenquibblecritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/fubrowncrabcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"browncrabcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/fufiresnakecritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"firesnakecritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/fubrownsnakecritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"fubrownsnakecritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/fulavaslugcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"fulavaslugcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/fubloodslugcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"fubloodslugcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/fulavagloopcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"fulavagloopcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/fuoilgloopcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"fuoilgloopcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/fuyellowpetalcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"fuyellowpetalcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/futoxicwurmcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"futoxicwurmcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/fugreenchickcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"fugreenchickcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/fuocelotcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"fuocelotcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/fubrownsealcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"fubrownsealcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/fusealcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"fusealcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/fusnowowlcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"fusnowowlcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/fubluebirdcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"day"},
+  "targetDensity":0.02,
+  "monsterType":"fubluebirdcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/furedbirdcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"day"},
+  "targetDensity":0.02,
+  "monsterType":"furedbirdcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/fuyellowbirdcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"day"},
+  "targetDensity":0.02,
+  "monsterType":"fuyellowbirdcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/fubluejaycritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"day"},
+  "targetDensity":0.02,
+  "monsterType":"fubluejaycritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/fuibiscritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"day"},
+  "targetDensity":0.02,
+  "monsterType":"fuibiscritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/fuweaselcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"fuweaselcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/fubrownsquirrelcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"fubrownsquirrelcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/fublacksquirrelcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"fublacksquirrelcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/fugreysquirrelcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"fugreysquirrelcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/fubrownsnail",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"enclosed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"fubrownsnail",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/fubrownblipcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"fubrownblipcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/fublueblipcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"fublueblipcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/fugreentortoise",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"fugreentortoise",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/futinybrowncrocodilecritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"futinybrowncrocodilecritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/futinysandcrocodilecritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"futinysandcrocodilecritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/fusandquibblecritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"fusandquibblecritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/futoad",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"enclosed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"futoad",
+  "monsterParameters":{"aggressive":false}
+  }
 }
 
 ]
