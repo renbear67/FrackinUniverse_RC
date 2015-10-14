@@ -1,15 +1,14 @@
-  {
+{
   "id" : "fu_intro1.gearup",
-  //"prerequisites" : [ "ftlrepairmain.gearup" ],
   "requiredShipLevel" : 2,
-  "title" : "^#39bc2f;Going Ape for Science",
-  "text" : "I know of a place for budding scientific minds to explore their theories in peace. If you ^green;bring me some ^orange;Glass^white; I may just tell you where it is.",
-  "completionText" : "Thanks so much. Talk to me when you wish to learn more about our haven.",
-  "completionConditions" : [
-    { "type" : "gather", "item" : "glassmaterial", "consume" : true }
-  ],
-  "moneyRange" : [300, 400],
+  "title" : "^#1693d5;Moving to the Science outpost",
+  "text" : "If you'd like to broaden your scientific knowledge, I work at a ^green;high-tech facility^white; hidden away in the stars. Interested?",
+  "completionText" : "The ^orange;Corvex Research Facility^white; is in Beta Reticuli IV. Use your ships AI to get there from the ^orange;Missions^white; tab. There is much to learn from them.",
+  "completionConditions" : [ ],
+  "requireTurnIn" : true,
+  "moneyRange" : [100, 100],
   "rewards" : [ ],
-  "followUp" : "fu_intro1a.gearup",
-  "requireTurnIn" : true
+  "completionCinema" : "/cinematics/coordinates.cinematic",
+  "canBeAbandoned" : false,
+  "associatedMission" : "scienceoutpostarrival"
 }

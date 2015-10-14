@@ -649,7 +649,7 @@ local recipes =
 {inputs = { feathercrown=1 }, outputs = { tissueculture=3 }, time = 1.12},
 {inputs = { grapes=1 }, outputs = { tissueculture=3 }, time = 1.12},
 {inputs = { greenapple=1 }, outputs = { tissueculture=3 }, time = 1.12},
-{inputs = { kelp=1 }, outputs = { tissueculture=3 }, time = 1.12},
+{inputs = { kelp=12 }, outputs = { iodine=1 }, time = 1.12},
 {inputs = { kiwi=1 }, outputs = { tissueculture=3 }, time = 1.12},
 {inputs = { neonmelon=1 }, outputs = { tissueculture=3 }, time = 1.12},
 {inputs = { oculemon=1 }, outputs = { tissueculture=3 }, time = 1.12},

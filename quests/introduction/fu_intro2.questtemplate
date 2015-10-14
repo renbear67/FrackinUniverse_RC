@@ -1,9 +1,9 @@
   {
   "id" : "fu_intro2.gearup",
-  "prerequisites" : [ "fu_intro1a.gearup" ],
+  "prerequisites" : [ "fu_intro1.gearup" ],
   "title" : "^#1693d5;Leading to Science",
-  "text" : "Timmy spoke highly of you. Nice to make your aquaintance. Before we begin, ^green;could you get me a piece of ^orange;lead^white;? I need it urgently and can't get away from the office. And perhaps familiarize yourself with what we do here by ^green;reading the books on the bookshelf^white;. ",
-  "completionText" : "Thank you so very much. Now let's get into serious business. Are you ready to learn? It's time to expand your mind with new ideas about science!",
+  "text" : "I'm Thom. It's nice to meet you. Before we begin, ^green;could you get me a piece of ^orange;lead^white;? I need it urgently and can't get away from the office. Dig some up in the soil. Also, you may wish to familiarize yourself with what we do here by ^green;reading the books on the bookshelf^white;. ",
+  "completionText" : "Thank you so very much. Now let's get on to serious business. It's time to expand your mind with new advances in science!",
   "completionConditions" : [ 
     { "type" : "gather", "item" : "lead", "consume" : true }
   ],

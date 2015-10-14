@@ -650,7 +650,7 @@ local recipes =
 {inputs = { feathercrown=1 }, outputs = { tissueculture=5 }, time = 0.5},
 {inputs = { grapes=1 }, outputs = { tissueculture=5 }, time = 0.5},
 {inputs = { greenapple=1 }, outputs = { tissueculture=5 }, time = 0.5},
-{inputs = { kelp=1 }, outputs = { tissueculture=5 }, time = 0.5},
+{inputs = { kelp=12 }, outputs = { iodine=3 }, time = 0.5},
 {inputs = { kiwi=1 }, outputs = { tissueculture=5 }, time = 0.5},
 {inputs = { neonmelon=1 }, outputs = { tissueculture=5 }, time = 0.5},
 {inputs = { oculemon=1 }, outputs = { tissueculture=5 }, time = 0.5},
