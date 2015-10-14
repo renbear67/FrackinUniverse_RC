@@ -1,9 +1,0 @@
-{
-  "name" : "fusealcritter",
-  "category" : "fusealcritter",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "body.png"
-  }
-}

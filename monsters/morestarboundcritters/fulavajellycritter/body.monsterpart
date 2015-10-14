@@ -1,9 +1,0 @@
-{
-  "name" : "fulavajellycritter",
-  "category" : "fulavajellycritter",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "body.png"
-  }
-}

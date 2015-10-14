@@ -1,9 +1,0 @@
-{
-  "name" : "fubluejaycritter",
-  "category" : "fubluejaycritter",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "body.png"
-  }
-}

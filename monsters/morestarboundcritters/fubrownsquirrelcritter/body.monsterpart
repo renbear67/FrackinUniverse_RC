@@ -1,9 +1,0 @@
-{
-  "name" : "fubrownsquirrelcritter",
-  "category" : "fubrownsquirrelcritter",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "body.png"
-  }
-}

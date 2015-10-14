@@ -1,9 +1,0 @@
-{
-  "name" : "fubrownblipcritter",
-  "category" : "fubrownblipcritter",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "body.png"
-  }
-}

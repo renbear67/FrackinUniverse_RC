@@ -1,9 +1,0 @@
-{
-  "name" : "fufiresnakecritter",
-  "category" : "fufiresnakecritter",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "body.png"
-  }
-}

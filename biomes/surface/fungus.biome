@@ -97,7 +97,7 @@
   "subBlocks" : [ "shroomblockglow", "mud", "fungalstone" ],
   "ores" : "ff_surfacebogOres",
 
-  "parallax" : "/parallax/surface/forest.parallax",
+  "parallax" : "/parallax/surface/fungus.parallax",
 
   "ambientNoises" : {
     "day" : {

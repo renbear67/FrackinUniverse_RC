@@ -1,9 +1,0 @@
-{
-  "name" : "fusandquibblecritter",
-  "category" : "fusandquibblecritter",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "body.png"
-  }
-}

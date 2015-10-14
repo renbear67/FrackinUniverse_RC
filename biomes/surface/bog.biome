@@ -104,7 +104,7 @@
       "tracks" : [ "/sfx/ambiance/bogambiance1.ogg", "/sfx/ambiance/bogambiance3.ogg" ]
     },
     "night" : {
-      "tracks" : [ "/sfx/environmental/bogambiance2.ogg", "/sfx/ambiance/fungalambiance2.ogg" ]
+      "tracks" : [ "/sfx/ambiance/bogambiance2.ogg", "/sfx/ambiance/fungalambiance2.ogg" ]
     }
   },
 

@@ -1,9 +1,0 @@
-{
-  "name" : "furedbirdcritter",
-  "category" : "furedbirdcritter",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "body.png"
-  }
-}

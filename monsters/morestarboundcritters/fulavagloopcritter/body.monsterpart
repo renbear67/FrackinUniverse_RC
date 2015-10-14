@@ -1,9 +1,0 @@
-{
-  "name" : "fulavagloopcritter",
-  "category" : "fulavagloopcritter",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "body.png"
-  }
-}

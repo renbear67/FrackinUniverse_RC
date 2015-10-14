@@ -1,9 +1,0 @@
-{
-  "name" : "furedsporelingcritter",
-  "category" : "furedsporelingcritter",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "body.png"
-  }
-}

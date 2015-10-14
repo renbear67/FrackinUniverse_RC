@@ -1,9 +1,0 @@
-{
-  "name" : "fufirebirdcritter",
-  "category" : "fufirebirdcritter",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "body.png"
-  }
-}
