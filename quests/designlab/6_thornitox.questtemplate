@@ -11,5 +11,5 @@
 
   "requireTurnIn" : false,
   "canBeAbandoned" : false,
-  "followUp" : "7_blisterbush.gearup"
+  "followUp" : "6b_clonelab.gearup"
 }

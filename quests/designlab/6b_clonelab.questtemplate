@@ -1,0 +1,15 @@
+  {
+  "id" : "6b_thornitox.gearup",
+  "title" : "^#1693d5;Cloning Lab",
+  "text" : "Time for a little side-project. A ^orange;Cloning Lab^white; can mix two different saplings to create a new breed of tree. Leaves go first, then the trunk and voila! Make a ^orange;Cloning Lab^white; in your Matter Assembler.",
+  "completionText" : "Excellent. Enjoy your new trees!",
+  "completionConditions" : [ 
+    { "type" : "gather", "item" : "clonelab", "consume" : false }
+  ],
+  "moneyRange" : [0,0],
+  "rewards" : [],
+
+  "requireTurnIn" : false,
+  "canBeAbandoned" : false,
+  "followUp" : "7_blisterbush.gearup"
+}

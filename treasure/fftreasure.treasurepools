@@ -2346,6 +2346,7 @@
           {"weight" : 0.20, "item" : [ "cinnabarore", 4]},
           {"weight" : 0.15, "item" : [ "cinnabarore", 8]},
           {"weight" : 0.10, "item" : [ "cinnabarore", 12]},
+          {"weight" : 0.30, "item" : [ "cellmateria", 4]},
           {"weight" : 0.05, "item" : [ "cinnabarore", 20]}
         ],
         "poolRounds" : [
@@ -2372,6 +2373,7 @@
           {"weight" : 0.25, "item" : [ "quietusore", 1]},
           {"weight" : 0.15, "item" : [ "quietusore", 3]},
           {"weight" : 0.10, "item" : [ "quietusore", 5]},
+          {"weight" : 0.30, "item" : [ "cellmateria", 4]},
           {"weight" : 0.05, "item" : [ "quietusore", 7]}
         ],
         "poolRounds" : [
@@ -2392,12 +2394,24 @@
           {"weight" : 0.25, "item" : [ "tarstonematerial", 50]},
           {"weight" : 0.25, "item" : [ "tar", 50]},
           {"weight" : 0.25, "item" : [ "liquidblacktar", 50]},
-          {"weight" : 0.15, "item" : [ "liquidoil", 50]},
           {"weight" : 0.05, "item" : [ "unstableparticles", 1]},
           {"weight" : 0.20, "item" : [ "vialproto", 12]},
           {"weight" : 0.20, "item" : [ "liquidirradium", 12]},
           {"weight" : 0.20, "item" : [ "liquidelderfluid", 12]},
-          {"weight" : 0.20, "item" : [ "liquidbioooze", 12]}
+          {"weight" : 0.20, "item" : [ "liquidbioooze", 12]},
+	  {"weight" : 0.50, "item" : [ "darkwater", 2]},
+	  {"weight" : 0.30, "item" : [ "liquidblacktar", 4]},
+	  {"weight" : 0.30, "item" : [ "tar", 4]},
+	  {"weight" : 0.20, "item" : [ "oil", 8]},
+	  {"weight" : 0.50, "item" : [ "darkwater", 4]},
+	  {"weight" : 0.30, "item" : [ "liquidblacktar", 8]},
+	  {"weight" : 0.30, "item" : [ "tar", 8]},
+	  {"weight" : 0.20, "item" : [ "oil", 2]},
+	  {"weight" : 0.50, "item" : [ "darkwater", 12]},
+	  {"weight" : 0.30, "item" : [ "liquidblacktar", 14]},
+	  {"weight" : 0.30, "item" : [ "tar", 14]},
+	  {"weight" : 0.30, "item" : [ "cellmateria", 4]},
+	  {"weight" : 0.20, "item" : [ "oil", 24]}
         ],
         "poolRounds" : [
           [0.23, 1],
@@ -2423,6 +2437,7 @@
           {"weight" : 0.20, "item" : [ "liquidsulphuricacid", 12]},
           {"weight" : 0.15, "item" : [ "liquidpus", 12]},
           {"weight" : 0.10, "item" : [ "liquidmercury", 12]},
+          {"weight" : 0.30, "item" : [ "cellmateria", 4]},
           {"weight" : 0.05, "item" : [ "liquidbioooze", 12]}
         ],
         "poolRounds" : [

@@ -33,7 +33,6 @@
     }
   ],
   "learnBlueprintsOnPickup" : [ "erithianalgaeseed" ],
-    "minImmersion" : 0.001,
     "maxImmersion" : 1.0,
     "consumeSoilMoisture" : false
 }

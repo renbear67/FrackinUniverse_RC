@@ -1,38 +1,32 @@
 {
   "objectName" : "clonelab",
   "rarity" : "Common",
-  "description" : "Create modified versions of plants, and clone seeds.",
-  "shortdescription" : "^purple;Cloning Lab^white;",
-  "race" : "generic",
-  "subtitle" : "create modified seeds.",
   "objectType" : "container",
-  "printable" : false,
-  "price" : 450,
+  "tooltipKind" : "container",
+  "category" : "storage",
+  "price" : 500,
+  "subtitle" : "Mash together tree genetics",
+  "description" : "Create modified versions of saplings for unique trees.",
+  "shortdescription" : "^purple;Cloning Lab^white;",
+  "race" : "floran",
 
-  "lightColor" : [75, 75, 100],
-
-  "inventoryIcon" : "clonelabicon.png",
   "orientations" : [
-
     {
       "dualImage" : "clonelab.png:<color>",
-      "imagePosition" : [-24, 0],
+      "imagePosition" : [-8, 0],
       "frames" : 1,
-      "animationCycle" : 0.6,
-
       "spaceScan" : 0.1,
-      "fgAnchors" : [ [0, -1] ],
-      "collision" : "platform"
+      "anchors" : [ "bottom" ]
     }
-  ], 
-  "recipeGroup" : "clonelab",
+  ],
+  "inventoryIcon" : "clonelabicon.png",
   "openSounds" : [ "/sfx/objects/screen3.wav" ],
-  "slotCount" : 3,
-  "uiConfig" : "/interface/objectcrafting/cloner/cloner.config",
+  "closeSounds" : [ "/sfx/objects/screen2.wav" ],
+  "slotCount" : 2,
+  "uiConfig" : "/objects/generic/clonelab/clonelab.config",
+  "containerCallback" : "checkSplice",
+  "scripts" : [ "/objects/generic/clonelab/clonelab.lua" ],
   "frameCooldown" : 67,
-  "autoCloseCooldown" : 3600
-
+  "autoCloseCooldown" : 3600,
+  "items" : []
 }
-
-
-
