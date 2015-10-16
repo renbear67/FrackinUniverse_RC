@@ -5,17 +5,17 @@
   "itemDrop" : "labsupport",
   "description" : "Sturdy plasteel. Great for building.",
   "shortdescription" : "Plasteel Support Beam",
-  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
   "health" : 10,
   "category": "materials",
   
-  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderTemplate" : "/tiles/girdertemplate.config",
   "renderParameters" : {
     "texture" : "labsupport.png",
     "variants" : 1,
     "lightTransparent" : false,
-    "multiColored" : false,
     "occludesBelow" : true,
+    "multiColored" : true,
     "zLevel" : 60
   }
 }
