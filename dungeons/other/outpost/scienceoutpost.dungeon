@@ -471,8 +471,9 @@
       "brush" : [ [ "npc",
           {
             "kind" : "npc",
-            "species" : "apex",
-            "typeName" : "starboozenpc"
+            "species" : "human",
+            "typeName" : "starboozenpc",
+            "seed" : 62
           }
         ] ]
     },
@@ -2127,7 +2128,7 @@
             "kind" : "npc",
             "species" : "apex",
             "typeName" : "fuoutpostapexscientist",
-            "seed" : 28
+            "seed" : 47
           }
         ] ]
     },
@@ -2139,7 +2140,7 @@
             "kind" : "npc",
             "species" : "avian",
             "typeName" : "fuoutpostavianscientist",
-            "seed" : 128
+            "seed" : 8
           }
         ] ]
     },
@@ -2151,7 +2152,7 @@
             "kind" : "npc",
             "species" : "apex",
             "typeName" : "fuoutpostcivilian",
-            "seed" : 42
+            "seed" : 14
           }
         ] ]
     },
@@ -2163,7 +2164,7 @@
             "kind" : "npc",
             "species" : "floran",
             "typeName" : "fuoutpostfloranscientist",
-            "seed" : 420
+            "seed" : 300
           }
         ] ]
     },
@@ -2175,7 +2176,7 @@
             "kind" : "npc",
             "species" : "glitch",
             "typeName" : "fuoutpostglitchscientist",
-            "seed" : 200
+            "seed" : 221
           }
         ] ]
     },
@@ -2187,7 +2188,7 @@
             "kind" : "npc",
             "species" : "human",
             "typeName" : "fuoutposthumanscientist1",
-            "seed" : 250
+            "seed" : 75
           }
         ] ]
     },
@@ -2199,7 +2200,7 @@
             "kind" : "npc",
             "species" : "human",
             "typeName" : "fuoutposthumanscientist2",
-            "seed" : 670
+            "seed" : 100
           }
         ] ]
     },
@@ -2211,7 +2212,7 @@
             "kind" : "npc",
             "species" : "hylotl",
             "typeName" : "fuoutposthylotlscientist",
-            "seed" : 99
+            "seed" : 39
           }
         ] ]
     },
@@ -2223,7 +2224,7 @@
             "kind" : "npc",
             "species" : "novakid",
             "typeName" : "fuoutpostnovakidscientist",
-            "seed" : 900
+            "seed" : 80
           }
         ] ]
     },
@@ -2235,7 +2236,31 @@
             "kind" : "npc",
             "species" : "novakid",
             "typeName" : "fuoutpostpenguinscientist",
-            "seed" : 12
+            "seed" : 22
+          }
+        ] ]
+    },
+    {
+      "value" : [109, 59, 59, 255],
+      "comment" : "apex mechanic 28",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "npc",
+            "species" : "hylotl",
+            "typeName" : "fuoutpostcivilian",
+            "seed" : 9
+          }
+        ] ]
+    },
+    {
+      "value" : [110, 60, 60, 255],
+      "comment" : "apex mechanic 28",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "npc",
+            "species" : "human",
+            "typeName" : "fuoutpostcivilian",
+            "seed" : 52
           }
         ] ]
     }
