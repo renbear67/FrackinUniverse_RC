@@ -2139,7 +2139,7 @@
             "kind" : "npc",
             "species" : "avian",
             "typeName" : "fuoutpostavianscientist",
-            "seed" : 32
+            "seed" : 128
           }
         ] ]
     },
@@ -2163,7 +2163,7 @@
             "kind" : "npc",
             "species" : "floran",
             "typeName" : "fuoutpostfloranscientist",
-            "seed" : 52
+            "seed" : 420
           }
         ] ]
     },
@@ -2175,7 +2175,7 @@
             "kind" : "npc",
             "species" : "glitch",
             "typeName" : "fuoutpostglitchscientist",
-            "seed" : 60
+            "seed" : 200
           }
         ] ]
     },
@@ -2187,7 +2187,7 @@
             "kind" : "npc",
             "species" : "human",
             "typeName" : "fuoutposthumanscientist1",
-            "seed" : 65
+            "seed" : 250
           }
         ] ]
     },
@@ -2199,7 +2199,7 @@
             "kind" : "npc",
             "species" : "human",
             "typeName" : "fuoutposthumanscientist2",
-            "seed" : 72
+            "seed" : 670
           }
         ] ]
     },
@@ -2211,7 +2211,7 @@
             "kind" : "npc",
             "species" : "hylotl",
             "typeName" : "fuoutposthylotlscientist",
-            "seed" : 82
+            "seed" : 99
           }
         ] ]
     },
@@ -2223,7 +2223,7 @@
             "kind" : "npc",
             "species" : "novakid",
             "typeName" : "fuoutpostnovakidscientist",
-            "seed" : 92
+            "seed" : 900
           }
         ] ]
     },
@@ -2235,7 +2235,7 @@
             "kind" : "npc",
             "species" : "novakid",
             "typeName" : "fuoutpostpenguinscientist",
-            "seed" : 102
+            "seed" : 12
           }
         ] ]
     }
