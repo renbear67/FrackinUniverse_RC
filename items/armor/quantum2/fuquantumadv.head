@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "legendary",
   "description" : "Modified to hold excess energy.",
-  "shortdescription" : "MK2 Quantum Helm",
+  "shortdescription" : "Quantum Helm MK2",
   "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
@@ -15,11 +15,11 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "basePercentage" : 0.55
+      "basePercentage" : 0.70
     },  
     {
       "stat" : "protection",
-      "amount" : 30
+      "amount" : 35
     },
 
     {
@@ -29,7 +29,7 @@
 
     {
       "stat" : "maxHealth",
-      "amount" : 20
+      "amount" : 40
     },
     "ffextremeheatresist"    
   ],

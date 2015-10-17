@@ -35,6 +35,10 @@
       "stat" : "maxHealth",
       "amount" : 70
     },
+    {
+      "stat" : "maxEnergy",
+      "amount" : 50
+    },
     "fumudslowimmunity",
     "blacktarimmunity"
   ]

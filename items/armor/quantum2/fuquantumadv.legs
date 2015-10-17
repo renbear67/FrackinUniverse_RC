@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "legendary",
   "description" : "Modified to hold excess energy.",
-  "shortdescription" : "MK2 Quantum Greaves",
+  "shortdescription" : "Quantum Greaves MK2",
   "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
@@ -14,7 +14,7 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "basePercentage" : 0.35
+      "basePercentage" : 0.53
     },  
     {
       "stat" : "protection",
@@ -28,11 +28,7 @@
 
     {
       "stat" : "maxHealth",
-      "amount" : 15
-    },
-    {
-      "stat" : "sulphuricImmunity",
-      "amount" : 1.0
+      "amount" : 45
     },
     "ffextremecoldresist"
   ],

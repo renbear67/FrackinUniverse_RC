@@ -18,17 +18,17 @@
     },   
     {
       "stat" : "protection",
-      "amount" : 27
+      "amount" : 33
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 57
+      "amount" : 75
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 34
+      "amount" : 65
     },
     "spacefarerimmunity"
   ]
