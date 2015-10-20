@@ -4,7 +4,7 @@
   "hueShiftOptions" : [-40, -25, 0, 25, 40],
 
     "mainBlock" : "honeycombmaterial",
-    "subBlocks" : [ "fu_honeycombblock", "hive", "spidersilkblock" ],
+    "subBlocks" : [ "fu_honeycombblock", "dirt", "spidersilkblock" ],
     "ores" : "ff_honeyOres",
     
   "spawnProfiles" : [

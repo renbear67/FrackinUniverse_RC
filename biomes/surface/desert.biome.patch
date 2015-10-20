@@ -1,6 +1,6 @@
 [
-{"op":"replace","path":"/spawnProfiles/0","value":{"groups":["mediumsurface1"],"extraSpawns":["sunskipper", "goldbuck", "nocturnalbee", "aridbee"]}},
-{"op":"replace","path":"/spawnProfiles/1","value":{"groups":["mediumsurface2"],"extraSpawns":["sunskipper", "sandclown", "nocturnalbee", "aridbee"]}},
+{"op":"add","path":"/spawnProfiles/0","value":{ "extraSpawns":["sunskipper", "goldbuck", "nocturnalbee", "aridbee"]}},
+{"op":"add","path":"/spawnProfiles/1","value":{ "extraSpawns":["sunskipper", "sandclown", "nocturnalbee", "aridbee"]}},
 {"op":"add","path":"/subBlocks/-","value": "calichestone"},
 
 	{"op":"add","path":"/surfacePlaceables/items/-","value":{
