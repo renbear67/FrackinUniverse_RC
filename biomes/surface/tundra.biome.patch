@@ -1,6 +1,6 @@
 [
-{"op":"replace","path":"/spawnProfiles/0","value":{"groups":["hardsurface1"],"extraSpawns":["aurorabee","driftbell","arcticbee"]}},
-{"op":"replace","path":"/spawnProfiles/1","value":{"groups":["hardsurface2"],"extraSpawns":["aurorabee","shardwing","arcticbee"]}},
+{"op":"add","path":"/spawnProfiles/0","value":{"extraSpawns":["aurorabee","driftbell","arcticbee"]}},
+{"op":"add","path":"/spawnProfiles/1","value":{"extraSpawns":["aurorabee","shardwing","arcticbee"]}},
 	{"op":"add","path":"/surfacePlaceables/items/-","value":{
 			"mode" : "floor",
 			"priority" : 3.0,
