@@ -2080,10 +2080,7 @@
         ],
         "poolRounds" : [
           [0.23, 1],
-          [0.33, 2],
-          [0.33, 3],
-          [0.33, 4],
-          [0.23, 5]
+          [0.33, 2]
         ],
       "allowDuplication" : true
       } 
@@ -2098,7 +2095,7 @@
         "pool" : [
           {"weight" : 0.40, "pool" : "money"},
           {"weight" : 0.60, "item" : [ "greenslime", 1]},
-          {"weight" : 0.60, "item" : [ "endomorphicjelly", 1]},
+          {"weight" : 0.80, "item" : [ "endomorphicjelly", 3]},
           {"weight" : 0.60, "item" : [ "liquidslime", 2]},
           {"weight" : 0.005, "item" : [ "ff_slimechest3", 1]},
           {"weight" : 0.005, "item" : [ "ff_slimelegs3", 1]},
@@ -2163,9 +2160,7 @@
         "poolRounds" : [
           [0.23, 1],
           [0.33, 2],
-          [0.33, 3],
-          [0.33, 4],
-          [0.23, 5]
+          [0.33, 3]
         ],
       "allowDuplication" : true
       } 

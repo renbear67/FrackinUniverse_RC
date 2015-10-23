@@ -90,7 +90,7 @@
 
           "touchDamage" : {
             "poly" : [ [-3.5, -2.6], [3.5, -2.6], [3.5, 3.5], [-4, 3.5] ],
-            "damage" : 24,
+            "damage" : 11,
 
             "teamType" : "enemy",
             "damageSourceKind" : "default",
@@ -112,10 +112,10 @@
 
             "stats" : {
               "maxHealth" : {
-                "baseValue" : 200
+                "baseValue" : 120
               },
               "protection" : {
-                "baseValue" : 2.0
+                "baseValue" : 15.0
               },
               "healthRegen" : {
                 "baseValue" : 0.0

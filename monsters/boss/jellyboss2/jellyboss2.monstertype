@@ -65,8 +65,8 @@
     [
       {
         "skillCount" : 7,
-        "baseSkills" : [ "rushAttack", "slimeSpitAttack" ],
-        "specialSkills" : [ "jellyBossExplodeAttack", "slimePoisonSpewAttack", "slimeGunAttack", "slimeSprayAttack", "slimeBubbleAttack"]
+        "baseSkills" : [ "jellyBossExplodeAttack", "slimeSpitAttack" ],
+        "specialSkills" : [ "slimePoisonSpewAttack", "slimeGunAttack", "slimeSprayAttack", "slimeBubbleAttack"]
       }
     ]
   ],
@@ -84,14 +84,14 @@
             "jumpSpeed" : 20
           },
 
-          "metaBoundBox" : [-8, -5.6, 8, 8.5],
+          "metaBoundBox" : [-7.5, -6.62, 6.38, 7.0],
 
           "blockedSensors" : [ [10, -7.6], [10, -6.7], [10, -5.6] ],
           "fallSensors" : [ [12, -14.5], [12, -13.4], [12, -12.3], [14, -14.5], [14, -13.4], [14, -12.3] ],
 
           "touchDamage" : {
             "poly" : [ [-8, -5.6], [8, -5.6], [6, 8.5], [-6, 8.5] ],
-            "damage" : 37,
+            "damage" : 21,
 
             "teamType" : "enemy",
             "damageSourceKind" : "default",
@@ -113,10 +113,10 @@
 
             "stats" : {
               "maxHealth" : {
-                "baseValue" : 650
+                "baseValue" : 450
               },
               "protection" : {
-                "baseValue" : 1.0
+                "baseValue" : 25.0
               },
               "healthRegen" : {
                 "baseValue" : 0.0

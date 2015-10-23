@@ -12,5 +12,20 @@
       "biome" : "thickjungle",
       "musicTrack" : "/music/crystal-exploration1.ogg"
       }
+},
+{
+    "op": "add",
+    "path": "/shoggothdungeon",
+    "value": 
+      {"primaryDungeon":"shoggothdungeon",
+      "threatLevel":5,
+      "gravity":100,
+      "worldSize":[2000,2000],
+      "dungeonBaseHeight" : 1400,
+      "dungeonSurfaceHeight" : 1209,
+      "ambientLightLevel":[30,20,50],
+      "biome" : "icewaste",
+      "musicTrack" : "/music/inviolate.ogg"
+      }
 }
 ]

@@ -3,7 +3,7 @@
   "baseType" : "fuoutpostcivilian",
   "damageTeam" : 1,
     "scriptConfig" : {
-        "offeredQuests" : [ "1b_matterassembler.gearup", "1_samplingarray.gearup" ],
+        "offeredQuests" : [ "1b_matterassembler.gearup", "1_samplingarray.gearup", "shoggothunlock.gearup" ],
         "turnInQuests" : [ "1a_matterassembler.gearup" ],
         "converse" : {
             "waitTime" : 0.5,

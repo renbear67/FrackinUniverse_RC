@@ -1,0 +1,32 @@
+{
+  "missionName" : "shoggothdungeonarrival",
+  "icon" : "shoggothdungeonarrivalicon.png",
+  "missionWorld" : "shoggothdungeon",
+
+  "speciesText" : {
+    "apex" : {
+      "buttonText" : "Visit Frozen Waste",
+      "repeatButtonText" : "Visit Frozen Waste",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "This strange ruin lies near the edge of the known galaxy, and is shrouded in mystery.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+	
+    "default" : {
+      "buttonText" : "Visit Frozen Waste",
+      "repeatButtonText" : "Visit Frozen Waste",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "This strange ruin lies near the edge of the known galaxy, and is shrouded in mystery.",
+          "speedModifier" : 1.0
+        }
+      ]
+    }
+	
+  }
+}

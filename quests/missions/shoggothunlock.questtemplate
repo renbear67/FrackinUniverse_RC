@@ -1,0 +1,14 @@
+{
+  "id" : "shoggothunlock.gearup",
+  "requiredShipLevel" : 2,
+  "title" : "^#1693d5;The Dark Edge of Space",
+  "text" : "I've just recieved a distress call from a researcher at the far edge of the galaxy. He said ^orange;something unthinkable had found him^white; and that he was surely doomed. Perhaps you could aid him!",
+  "completionText" : "The ^orange;Frozen Wastes^white; he mentioned are on Yasik Veln VII, an uncharted world in the fringe.",
+  "completionConditions" : [ ],
+  "requireTurnIn" : true,
+  "moneyRange" : [100, 100],
+  "rewards" : [ ],
+  "completionCinema" : "/cinematics/coordinates.cinematic",
+  "canBeAbandoned" : false,
+  "associatedMission" : "shoggothdungeonarrival"
+}
