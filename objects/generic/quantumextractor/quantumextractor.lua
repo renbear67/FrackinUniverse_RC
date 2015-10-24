@@ -205,7 +205,7 @@ local recipes =
 {inputs = { magmawall4=50 }, outputs = { ammoniumsulfate=2 }, time = 0.5},
 {inputs = { marestonematerial=50 }, outputs = { rawminerals=2 }, time = 0.5},
 {inputs = { meteoriterock=50 }, outputs = { ff_silicon=2 }, time = 0.5},
-{inputs = { moondust=50 }, outputs = { rawminerals=4 }, time = 0.5},
+{inputs = { moondust=50 }, outputs = { helium3cannister=4 }, time = 0.5},
 {inputs = { moonrock=50 }, outputs = { rawminerals=4 }, time = 0.5},
 {inputs = { moonstone=50 }, outputs = { rawminerals=3 }, time = 0.5},
 {inputs = { mossypackeddirt=50 }, outputs = { algaegreen=4 }, time = 0.5},
