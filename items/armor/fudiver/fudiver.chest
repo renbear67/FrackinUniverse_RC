@@ -28,17 +28,17 @@
 
     {
       "stat" : "protection",
-      "amount" : 35
+      "amount" : 24
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 110
+      "amount" : 40
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 35
+      "amount" : 12
     },
     "liquidnitrogenimmunity", 
     "sulphuricacidimmunity" 

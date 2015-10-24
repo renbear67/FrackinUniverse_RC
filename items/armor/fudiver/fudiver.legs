@@ -19,17 +19,17 @@
 
     {
       "stat" : "protection",
-      "amount" : 14
+      "amount" : 9
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 50
+      "amount" : 20
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 20
+      "amount" : 6
     },
     "biooozeimmunity",
     "swimboost2"

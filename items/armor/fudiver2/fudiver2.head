@@ -20,22 +20,17 @@
 
     {
       "stat" : "protection",
-      "amount" : 31
+      "amount" : 16
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 80
+      "amount" : 50
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 35
-    },
-    "gasimmunity",
-    {
-      "stat" : "breathProtection",
-      "amount" : 1.0
+      "amount" : 12
     },
     "headlamp3"
   ],

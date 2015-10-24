@@ -20,17 +20,17 @@
 
     {
       "stat" : "protection",
-      "amount" : 21
+      "amount" : 12
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 70
+      "amount" : 34
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 25
+      "amount" : 9
     },
     "gasimmunity",
     {
