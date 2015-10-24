@@ -1,7 +1,7 @@
 {
 	"metadata" : {
 		"name" : "shoggothdungeon",
-		"species" : "dummy",
+		"species" : "generic",
 		"rules" : [],
 		"maxRadius" : 1000000,
 		"maxParts" : 1,
@@ -134,12 +134,12 @@
     {
       "value" : [63, 74, 60, 255],
       "comment" : "foreground obsidian",
-      "brush" : [ [ "clear" ], [ "back", "obsidian" ], [ "front", "obsidian" ] ]
+      "brush" : [ [ "clear" ], [ "back", "shadowwallblock" ], [ "front", "shadowwallblock" ] ]
     },
     {
       "value" : [48, 57, 46, 255],
       "comment" : "background obsidian",
-      "brush" : [ [ "clear" ], [ "back", "obsidian" ] ]
+      "brush" : [ [ "clear" ], [ "back", "shadowwallblock" ] ]
     },
     
     {

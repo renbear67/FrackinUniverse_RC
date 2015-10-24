@@ -18,7 +18,7 @@
       "projectile" : {
         "type" : "minishoggothspawn",
         "config" : {
-          "power" : 40,
+          "power" : 20,
           "speed" : 40
         },
         "offset" : [10, -5]

@@ -80,7 +80,9 @@
     "dungeonWorld" : "shoggothdungeon",
     "seed" : 1234,
     "spawningEnabled" : false,
-    
+    "worldProperties" : {
+      "nonCombat" : false
+    },
     "skyParameters" : {
       "spaceLevel" : 3000,
       "ambientLightLevel" : [ 24, 28, 24 ],

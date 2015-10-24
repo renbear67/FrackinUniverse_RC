@@ -18,8 +18,9 @@
     "path": "/shoggothdungeon",
     "value": 
       {"primaryDungeon":"shoggothdungeon",
-      "threatLevel":5,
-      "gravity":100,
+      "threatLevel":7,
+      "gravity":110,
+      "airless" : true,
       "worldSize":[2000,2000],
       "dungeonBaseHeight" : 1400,
       "dungeonSurfaceHeight" : 1209,
