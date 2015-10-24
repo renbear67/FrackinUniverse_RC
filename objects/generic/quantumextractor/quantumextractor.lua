@@ -1,6 +1,10 @@
 local recipes =
 {
 -- bees mod content
+{inputs = { flowerblue=1 }, outputs = { geneticmaterial=1 }, time = 0.5},
+{inputs = { flowerred=1 }, outputs = { geneticmaterial=1 }, time = 0.5},
+{inputs = { flowerspring=1 }, outputs = { geneticmaterial=1 }, time = 0.5},
+{inputs = { floweryellow=1 }, outputs = { geneticmaterial=1 }, time = 0.5},
 {inputs = { adaptivedrone=1 }, outputs = { geneticmaterial=4 }, time = 0.5},
 {inputs = { adaptivequeen=1 }, outputs = { geneticmaterial=4 }, time = 0.5},
 {inputs = { aggressivedrone=1 }, outputs = { geneticmaterial=4 }, time = 0.5},

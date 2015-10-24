@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "liquidirradium", "count" : 5 },
+    { "item" : "ff_silicon", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "isn_battery_t3_fero",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "genetics", "all" ]
+}

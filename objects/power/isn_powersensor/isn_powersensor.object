@@ -1,0 +1,71 @@
+{
+  "objectName" : "isn_powersensor",
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A small sensor to check how much power is flowing into it.",
+  "shortdescription" : "Power Sensor",
+  "race" : "generic",
+  "category" : "wire",
+  "price" : 1000,
+
+  "inventoryIcon" : "isn_powersensoricon.png",
+
+  "orientations" : [
+    {
+      "image" : "isn_powersensor.png:base",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "direction" : "right"
+    },
+    {
+      "image" : "isn_powersensor.png:base",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right"
+    },
+    {
+      "image" : "isn_powersensor.png:base",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ],
+      "direction" : "right"
+    },
+    {
+      "image" : "isn_powersensor.png:base",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ],
+      "direction" : "right"
+    },
+    {
+      "image" : "isn_powersensor.png:base",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ],
+      "direction" : "right"
+    }
+  ],
+  
+  "scripts" : [ "/objects/power/isn_powersensor/isn_powersensor.lua",
+                "/objects/power/isn_sharedpowerscripts.lua",
+				"/objects/isn_sharedobjectscripts.lua"],
+  "scriptDelta" : 20,
+
+  "animation" : "isn_powersensor.animation",
+  "animationParts" : {
+    "num" : "isn_powersensor_num.png",
+    "base" : "isn_powersensor.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "inboundNodes" : [ [0, 0] ],
+  "isn_powerReciever" : true,
+  "isn_freePower" : true
+}

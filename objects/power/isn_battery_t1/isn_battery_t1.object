@@ -1,0 +1,48 @@
+{
+  "objectName" : "isn_battery_t1",
+  "rarity" : "Common",
+  "category" : "wire",
+  "price" : 2500,
+  "description" : "A power storage unit. Stores up to 1000u of power and dispenses 1u when connected.",
+  "shortdescription" : "1000u 1v Battery Unit",
+  "race" : "generic",
+  "printable" : false,
+    "learnBlueprintsOnPickup" : [ "isn_battery_t2", "isn_arcsmelter" ],
+
+  "apexDescription" : "These are useful to have if you can't produce power all the time.",
+  "avianDescription" : "These work pretty well in tandem with solar generators.",
+  "floranDescription" : "Floran ssstore up zapsss for later.",
+  "glitchDescription" : "Disappointed. This battery's current is incompatible with my own.",
+  "humanDescription" : "1000 units of power, but only one at a time. I wonder how long that'll last.",
+  "hylotlDescription" : "The color strip is a nice touch, I'll give it that much credit.",
+
+  "inventoryIcon" : "isn_battery_t1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "isn_battery_t1_base.png",
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "isn_battery_t1.animation",
+  "animationParts" : {
+    "meter" : "isn_battery_t1_meter.png",
+    "base" : "isn_battery_t1_base.png"
+  },
+  "animationPosition" : [0, 0],
+  
+  "scripts" : [ "/objects/power/isn_battery.lua",
+                "/objects/power/isn_sharedpowerscripts.lua",
+				"/objects/isn_sharedobjectscripts.lua"],
+  "scriptDelta" : 50,
+  
+  "outboundNodes" : [ [1, 3] ],
+  "inboundNodes" : [ [0, 1], [2, 1] ],
+  
+  "isn_powerSupplier" : true,
+  "isn_powerReciever" : true,
+  "isn_batteryCapacity" : 1000,
+  "isn_batteryVoltage" : 1
+}

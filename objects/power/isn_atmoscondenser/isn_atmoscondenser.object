@@ -1,0 +1,58 @@
+{
+  "objectName" : "isn_atmoscondenser",
+  "rarity" : "Common",
+  "description" : "Condenses the atmosphere into usable reagents. Requires 2u of power.",
+  "shortdescription" : "Atmospheric Condenser",
+  "race" : "generic",
+  "category" : "storage",
+  "price" : 500,
+  "objectType" : "container",
+  "printable" : false,
+    "learnBlueprintsOnPickup" : [ "isn_atmosregulator" ],
+  "apexDescription" : "I don't feel too good about the prospect of meddling with the atmosphere.",
+  "avianDescription" : "It's almost like a magician's trick, pulling resources out of literal thin air.",
+  "floranDescription" : "Ssstop ssstealing the air! Floran isss usssing that!",
+  "glitchDescription" : "Irritable. Perhaps this could pull oxidisers out of the air. I hate rusting.",
+  "humanDescription" : "Let's find the mega condenser! Am I saying that too fast?",
+  "hylotlDescription" : "To pull an ocean out of thin air is just plain madness.",
+  
+  "scripts" : [ "/objects/power/isn_resource_generator.lua",
+                "/objects/power/isn_sharedpowerscripts.lua",
+				"/objects/isn_sharedobjectscripts.lua"],
+  "scriptDelta" : 120,
+  
+  "openSounds" : [ "/sfx/objects/metalbox_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/metalbox_close.wav" ],
+  "slotCount" : 9,
+  "uiConfig" : "/objects/power/isn_atmoscondenser/isn_atmoscondenser.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  
+  "commonOutputs" : [ "liquidwater", "aminoacid", "algaegreen" ],
+  
+  "uncommonOutputs" : [ "cellmateria", "geneticmaterial", "mineralsample" ],
+  
+  "rareOutputs" : [ "helium3gasliquid", "shadowgasliquid", "liquidgravrain" ],
+  
+  "animation" : "/objects/power/isn_resource_generator.animation",
+
+  "animationParts" : {
+    "basemachine" : "isn_atmoscondenser.png"
+  },
+  "animationPosition" : [0, 0],
+  
+  "inboundNodes" : [ [1, 1] ],
+  "isn_powerReciever" : true,
+  "isn_requiredPower" : 2,
+  "isn_liquidCollector" : false,
+  
+  "inventoryIcon" : "isn_atmoscondenser_inv.png",
+  "orientations" : [
+    {
+      "image" : "isn_atmoscondenser.png:<color>.idle",
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

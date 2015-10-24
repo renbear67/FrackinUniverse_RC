@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "steelbar", "count" : 10 },
+    { "item" : "goldbar", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "isn_powdersifter",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "genetics", "all" ]
+}

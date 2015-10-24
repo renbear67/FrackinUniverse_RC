@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "steelbar", "count" : 5 },
+    { "item" : "silverbar", "count" : 5 },
+    { "item" : "liquidwater", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "isn_hydroponicstray",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "genetics", "all" ]
+}
