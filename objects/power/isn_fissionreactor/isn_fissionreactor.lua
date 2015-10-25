@@ -73,9 +73,16 @@ function isn_slotDecayCheck(slot, chance)
 	local slotContent = world.containerItemAt(entity.id(),slot)
 	
 	if slotContent == nil then return false end
-	if slotContent.name == "biofuelcannister" or slotContent.name == "biofuelcannisteradv" or slotContent.name == "uraniumrod" or slotContent.name == "plutoniumrod" or slotContent.name == "biofuelcannistermax" or slotContent.name == "solariumstar" then
-		if math.random(1,100) <= chance then return true end
+	
+	if slotContent.name == "biofuelcannister" or slotContent.name == "biofuelcannisteradv" then
+		if math.random(1,60) <= chance then return true end
 	end
+	if slotContent.name == "uraniumrod" or slotContent.name == "plutoniumrod" then
+		if math.random(1,80) <= chance then return true end
+	end	
+	if slotContent.name == "biofuelcannistermax" or slotContent.name == "solariumstar" then
+		if math.random(1,100) <= chance then return true end
+	end		
 	return false
 end
 

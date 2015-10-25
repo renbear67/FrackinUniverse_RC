@@ -1,6 +1,6 @@
 {
   "objectName" : "isn_atmoscondenser",
-  "rarity" : "Common",
+  "rarity" : "rare",
   "description" : "Condenses the atmosphere into usable reagents. Requires 2u of power.",
   "shortdescription" : "Atmospheric Condenser",
   "race" : "generic",
@@ -18,7 +18,7 @@
   
   "scripts" : [ "/objects/power/isn_resource_generator.lua",
                 "/objects/power/isn_sharedpowerscripts.lua",
-				"/objects/isn_sharedobjectscripts.lua"],
+		"/objects/isn_sharedobjectscripts.lua"],
   "scriptDelta" : 120,
   
   "openSounds" : [ "/sfx/objects/metalbox_open.wav" ],

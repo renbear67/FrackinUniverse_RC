@@ -1,0 +1,40 @@
+{
+  "objectName" : "isn_gravitylift",
+  "rarity" : "Rare",
+  "description" : "Projects a field that sends you upwards when you pass by.",
+  "shortdescription" : "Gravity Lift",
+  "race" : "generic",
+  "price" : 2000,
+  "category" : "wire",
+  "printable" : false,
+
+  "apexDescription" : "Impressive technology, if it can defy the laws of physics.",
+  "avianDescription" : "A machine that makes you fly. The Avos priesthood would have a coronary.",
+  "floranDescription" : "Floran hear one joke about gravity of sssituation and it'sss ssstabbing time.",
+  "glitchDescription" : "Amused. This looks fun.",
+  "humanDescription" : "There is some serious science goin' on in that thing.",
+  "hylotlDescription" : "This technology is so advanced, it must seem to be magic.",
+
+  "inventoryIcon" : "isn_gravitylift_inv.png",
+  "orientations" : [
+    {
+      "dualImage" : "isn_gravitylift_base.png",
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "collision" : "platform",
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/misc/isn_gravitylift/isn_gravitylift.lua",
+	            "/objects/isn_sharedobjectscripts.lua" ],
+  "scriptDelta" : 1,
+
+  "animation" : "isn_gravitylift.animation",
+  "animationParts" : {
+    "anim" : "isn_gravitylift_lit.png",
+    "base" : "isn_gravitylift_base.png"
+  },
+  
+  "animationPosition" : [0, 0]
+}

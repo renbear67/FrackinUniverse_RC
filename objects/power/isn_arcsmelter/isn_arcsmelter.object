@@ -1,7 +1,7 @@
 {
   "objectName" : "isn_arcsmelter",
-  "rarity" : "Rare",
-  "description" : "An incredibly powerful furnace that uses electricity. Requires 8u of power.",
+  "rarity" : "legendary",
+  "description" : "An incredibly powerful furnace that uses electricity. Requires 8u of power. Extreme efficiency.",
   "shortdescription" : "Arc Smelter",
   "race" : "generic",
   "category" : "storage",
@@ -92,32 +92,32 @@
   
   "bonusOutputs" : {
       "coalore" : {
-	      "sulphur" : 5,
+	      "sulphur" : 2,
 	      "diamond" : 1
 	  },
       "copperore" : {
-	      "ff_silicon" : 3,
+	      "ff_silicon" : 2,
 	      "ironore" : 1
 	  },
       "ironore" : {
-	      "ironore" : 3,
-	      "ff_silicon" : 3,
+	      "ironore" : 1,
+	      "ff_silicon" : 1,
 	      "lead" : 1
 	  },
       "silverore" : {
-	      "ff_silicon" : 3,
+	      "ff_silicon" : 2,
 	      "mineralsample" : 1
 	  },
       "goldore" : {
-	      "ff_silicon" : 3,
+	      "ff_silicon" : 2,
 	      "mineralsample" : 1
 	  },
       "platinumore" : {
-	      "ff_silicon" : 3,
+	      "ff_silicon" : 2,
 	      "mineralsample" : 1
 	  },
       "titaniumore" : {
-	      "ff_silicon" : 3,
+	      "ff_silicon" : 2,
 	      "mineralsample" : 1
 	  },
       "alienrock" : {
@@ -126,56 +126,54 @@
 	      "liquidnitrogenitem" : 1
 	  },
       "bars" : {
-	      "ironore" : 5,
-	      "ff_oxygen" : 5
+	      "ironore" : 1
 	  },
       "blaststone" : {
 	      "ironore" : 2,
-	      "sulphur" : 5,
+	      "sulphur" : 3,
 	      "liquidlava" : 1
 	  },
       "bonematerial" : {
-	      "bone" : 10,
+	      "bone" : 3,
 	      "dnasample" : 1
 	  },
       "cobblestonematerial" : {
-	      "sulphur" : 2,
-	      "lead" : 3,
-	      "ironore" : 5
+	      "sulphur" : 1,
+	      "lead" : 1,
+	      "ironore" : 1
 	  },
       "direstone" : {
-	      "carbonplate" : 2,
-	      "sulphur" : 5
+	      "coalore" : 1,
+	      "sulphur" : 2
 	  },
       "drysand" : {
 	      "ff_silicon" : 1
 	  },
       "heavyironbars" : {
-	      "ironbar" : 3
+	      "ironbar" : 1
 	  },
       "junktech" : {
-	      "ironore" : 3,
+	      "ironore" : 1,
 	      "ff_silicon" : 1
 	  },
       "magmarock" : {
 	      "carbonplate" : 1,
-	      "liquidnitrogenitem" : 10,
+	      "liquidnitrogenitem" : 1,
 	      "sulphur" : 2,
 	      "liquidlava" : 2
 	  },
       "meteoriterock" : {
-	      "liquidhelium3gas" : 2,
+	      "liquidhelium3gas" : 1,
 	      "moonstoneore" : 1
 	  },
       "moonrock" : {
-	      "liquidhelium3gas" : 2
+	      "liquidhelium3gas" : 1
 	  },
       "moonstone" : {
 	      "moonstoneore" : 1
 	  },
       "rustyblock" : {
-	      "isn_iron" : 5,
-	      "isn_oxygen" : 5
+	      "ironore" : 1
 	  },
       "rustymetal" : {
 	      "ironore" : 1
@@ -187,8 +185,8 @@
 	      "ff_silicon" : 1
 	  },
 	  "treasurehoard" : {
-		  "silverbar" : 33,
-		  "goldbar" : 10
+		  "silverbar" : 6,
+		  "goldbar" : 6
 	  }
   }
 }

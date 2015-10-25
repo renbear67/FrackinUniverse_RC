@@ -6,9 +6,13 @@ function init(virtual)
 	storage.currentinput = nil
 	storage.currentoutput = nil
 	storage.bonusoutputtable = nil
+	self.timer = 1
 end
 
 function update(dt)
+  self.timer = self.timer - dt
+  if self.timer <= 0 then
+
 	if isn_hasRequiredPower() == false then
 		entity.setAnimationState("furnaceState", "idle")
 		return
@@ -28,7 +32,7 @@ function update(dt)
 	
 	if world.containerAvailable(entity.id(), {name = storage.currentinput, count = 1, data={}}) ~= nil then
 		if math.random(1,3) ~= 1 then
-			world.containerConsume(entity.id(), {name = storage.currentinput, count = 1, data={}})
+			world.containerConsume(entity.id(), {name = storage.currentinput, count = 4, data={}})
 		end
 		if hasBonusOutputs(storage.currentinput) == true then
 			if storage.bonusoutputtable == nil then return end 
@@ -36,11 +40,14 @@ function update(dt)
 					if clearSlotCheck(key) == false then break end
 					if math.random(1,100) <= value then
 						world.containerAddItems(entity.id(), {name = key, count = 1, data={}})
+						self.timer = 0.25
 					end
 			end
 		end
 		world.containerAddItems(entity.id(), {name = storage.currentoutput, count = 1, data={}})
+		self.timer = 0.25
 	end
+  end	
 end
 
 function oreCheck()

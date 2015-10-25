@@ -1,0 +1,10 @@
+{
+  "name" : "isn_gravlift",
+  "defaultDuration" : 0.1,
+
+  "scripts" : [
+    "isn_gravlift.lua"
+  ],
+
+  "label" : "Gravity Lift"
+}
