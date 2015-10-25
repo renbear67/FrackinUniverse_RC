@@ -2,8 +2,8 @@
   "input" : [
     { "item" : "ff_fertilizer", "count" : 2 },
     { "item" : "phosphorus", "count" : 8 },
-    { "item" : "fu_salt", "count" : 10 },
-    { "item" : "mineralsample", "count" : 4 }
+    { "item" : "fu_nitrogen", "count" : 20 },
+    { "item" : "synthesizedprotein", "count" : 2 }
   ],
   "output" : {
     "item" : "ff_fertilizer2",

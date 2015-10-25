@@ -2,9 +2,9 @@
   "input" : [
     { "item" : "liquidoil", "count" : 20 },
     { "item" : "sulphur", "count" : 7 },
-    { "item" : "fu_salt", "count" : 10 },
+    { "item" : "fu_nitrogen", "count" : 20 },
     { "item" : "magnesiumsulfate", "count" : 7 },
-    { "item" : "pesticide", "count" : 1 }
+    { "item" : "methyliodide", "count" : 1 }
   ],
   "output" : {
     "item" : "ff_fertilizer3",

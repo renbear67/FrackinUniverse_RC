@@ -3,6 +3,6 @@
   "rarity" : "Common",
   "inventoryIcon" : "magnesiumore.png",
   "description" : "great for creating magnesium powder",
-  "shortdescription" : "Magnesium Ore",
+  "shortdescription" : "Magnesite Ore",
   "learnBlueprintsOnPickup" : [ "magnesiumpowder" ]
 }

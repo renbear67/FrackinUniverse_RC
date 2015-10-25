@@ -28,11 +28,11 @@
   "frameCooldown" : 67,
   "autoCloseCooldown" : 3600,
   
-  "commonOutputs" : [ "liquidwater", "fu_salt", "fu_oxygen", "fu_hydrogen" ],
+  "commonOutputs" : [ "liquidwater", "fu_oxygen", "fu_hydrogen", "fu_nitrogen" ],
   
-  "uncommonOutputs" : [ "cellmateria", "geneticmaterial", "mineralsample", "fu_carbon" ],
+  "uncommonOutputs" : [ "fu_carbon", "fu_salt" ],
   
-  "rareOutputs" : [ "helium3gasliquid", "shadowgasliquid", "liquidgravrain" ],
+  "rareOutputs" : [ "helium3gasliquid", "shadowgasliquid", "cellmateria", "geneticmaterial", "mineralsample" ],
   
   "animation" : "/objects/power/isn_resource_generator.animation",
 

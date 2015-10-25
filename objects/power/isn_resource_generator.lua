@@ -24,10 +24,10 @@ if self.timer <= 0 then
     self.timer = 5
   elseif rarityroll >= 79 then
     output = entity.randomizeParameter("uncommonOutputs")
-    self.timer = 5
+    self.timer = 3.5
   else
     output = entity.randomizeParameter("commonOutputs")
-    self.timer = 5
+    self.timer = 2
   end
   
   if output == nil or clearSlotCheck(output) == false then return end
