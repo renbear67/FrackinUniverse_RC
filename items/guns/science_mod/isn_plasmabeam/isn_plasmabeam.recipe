@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "feroziumcompound", "count" : 15 },
+    { "item" : "isn_plasma", "count" : 20 }
+  ],
+  "output" : {
+    "item" : "isn_plasmabeam",
+    "count" : 1
+  },
+  "groups" : [ "acceleratortable", "weapons", "isn_mechanicalworkbench" ]
+}

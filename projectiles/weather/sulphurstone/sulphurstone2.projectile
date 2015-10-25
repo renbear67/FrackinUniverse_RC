@@ -10,7 +10,8 @@
     {
       "action" : "config",
       "file" : "/projectiles/explosions/weatheringexplosion/weatheringexplosion.config"
-    }
+    },
+    { "action" : "liquid", "liquid" : "sulphuricacid", "quantity" : 0.2 }
   ],
   "power" : 1.0,
   "damageKind" : "default",

@@ -1,4 +1,19 @@
 [
+  {"op":"add","path":"/isn_bouncyslime","value":{
+    "mass" : 1.0,
+    "gravityMultiplier" : 1.0,
+    "bounceFactor" : 1.0,
+    "groundSlideMovementEnabled" : true,
+    "maxMovementPerStep" : 1.0,
+
+    "collisionPoly" : [ [-0.25, -0.25], [0.25, -0.25], [0.25, 0.25], [-0.25, 0.25] ],
+    "ignorePlatformCollision" : false,
+
+    "airFriction" : 0.0,
+    "liquidFriction" : 1.0,
+    "groundFriction" : 0.0
+ }
+ },
 {"op":"add",
 "path":"/vaporizer",
 "value": {

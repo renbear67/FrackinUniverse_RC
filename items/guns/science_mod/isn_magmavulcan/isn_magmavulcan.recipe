@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 15 },
+    { "item" : "liquidlava", "count" : 25 },
+    { "item" : "sulphur", "count" : 25 }
+  ],
+  "output" : {
+    "item" : "isn_magmavulcan",
+    "count" : 1
+  },
+  "groups" : [ "acceleratortable", "weapons", "isn_mechanicalworkbench" ]
+}

@@ -1,0 +1,31 @@
+{
+  "itemName" : "isn_flamethrower",
+  "inventoryIcon" : "isn_flamethrowericon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A gas-powered flamethrower. Great for barbeques.",
+  "shortdescription" : "Flamethrower",
+  "image" : "isn_flamethrower.png",
+  "handPosition" : [-7, -4],
+  "firePosition" : [15, 2],
+
+  "weaponType" : "Flamethrower",
+  "recoilTime" : 0,
+  "spread" : 1,
+  "muzzleEffect" : {
+    "animation" : "/animations/muzzleflash/flamemuzzle/flamemuzzle.animation",
+    "fireSound" : [ { "file" : "/items/guns/isn_flamethrower.wav" } ]
+  },
+  "fireTime" : 0.05,
+  "twoHanded" : true,
+  "level" : 3,
+  "classMultiplier" : 1,
+
+  "projectileType" : "isn_flamethrower_shot",
+  "projectile" : {
+    "speed" : 60,
+    "power" : 0.2,
+    "color" : [10, 255, 10]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "itemName" : "isn_flamethrower4",
+  "inventoryIcon" : "isn_flamethrower4icon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "A highly deadly advanced flamethrower.",
+  "shortdescription" : "Devil's Tongue",
+  "image" : "isn_flamethrower4.png",
+  "handPosition" : [0, 6],
+  "firePosition" : [44, -1],
+
+  "weaponType" : "Flamethrower",
+  "recoilTime" : 0,
+  "spread" : 3,
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/items/guns/isn_flamethrower_deep.wav" } ]
+  },
+  
+  "fireTime" : 0.01,
+  "twoHanded" : true,
+  "level" : 5,
+  "classMultiplier" : 1,
+
+  "projectileType" : "isn_flamethrower4",
+  "projectile" : {
+	"speed" : 120,
+    "power" : 0.075,
+    "color" : [255, 255, 255]
+  }
+}

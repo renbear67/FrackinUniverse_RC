@@ -1,0 +1,31 @@
+{
+  "itemName" : "isn_plasmabeam",
+  "inventoryIcon" : "isn_plasmabeamicon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "A cannon that shoots streams of superheated plasma.",
+  "shortdescription" : "Plasma Beam Cannon",
+  "image" : "isn_plasmabeam.png",
+  "handPosition" : [0, 6],
+  "firePosition" : [0, -1],
+
+  "weaponType" : "Flamethrower",
+  "recoilTime" : 0,
+  "spread" : 1,
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/items/guns/isn_plasmabeam.wav" } ]
+  },
+  
+  "fireTime" : 0.5,
+  "twoHanded" : true,
+  "level" : 6,
+  "classMultiplier" : 2.5,
+
+  "projectileType" : "isn_plasmabeam_starter",
+  "projectile" : {
+	"speed" : 60,
+    "power" : 2.5,
+    "color" : [150, 255, 150]
+  }
+}

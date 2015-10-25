@@ -1,0 +1,18 @@
+{
+  "projectileName" : "isn_sunstream",
+  "frames" : "isn_sunstreamshot.png",
+  "physics" : "grenadezbomb",
+  "animationCycle" : 1,
+  "damageKindImage" : "icon.png",
+  "frameNumber" : 4,
+  "power" : 0.2,
+  "level" : 6,
+  "speed" : 50,
+  "timeToLive" : 1,
+  "bounces" : 0,
+  "piercing" : false,
+  "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],
+  "lightColor" : [100, 100, 0],
+  "damageKind" : "flamethrower",
+  "statusEffects" : [ "burning" ]
+}

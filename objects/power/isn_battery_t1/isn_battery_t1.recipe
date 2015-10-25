@@ -2,7 +2,8 @@
   "input" : [
     { "item" : "steelbar", "count" : 5 },
     { "item" : "goldbar", "count" : 1 },
-    { "item" : "ff_silicon", "count" : 3 }
+    { "item" : "ff_silicon", "count" : 5 },
+    { "item" : "circuitboard", "count" : 2 }
   ],
   "output" : {
     "item" : "isn_battery_t1",

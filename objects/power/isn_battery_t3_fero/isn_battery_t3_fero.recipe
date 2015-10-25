@@ -1,7 +1,10 @@
 {
   "input" : [
     { "item" : "liquidirradium", "count" : 5 },
-    { "item" : "ff_silicon", "count" : 2 }
+    { "item" : "fu_nitrogen", "count" : 5 },
+    { "item" : "magneticshielding", "count" : 5 },
+    { "item" : "fuprocessor", "count" : 2 },
+    { "item" : "particlecore", "count" : 2 }
   ],
   "output" : {
     "item" : "isn_battery_t3_fero",

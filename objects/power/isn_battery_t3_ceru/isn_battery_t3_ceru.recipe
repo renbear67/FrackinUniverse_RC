@@ -1,7 +1,9 @@
 {
   "input" : [
-    { "item" : "vialproto", "count" : 5 },
-    { "item" : "ff_silicon", "count" : 1 }
+    { "item" : "vialproto", "count" : 4 },
+    { "item" : "fu_nitrogen", "count" : 5 },
+    { "item" : "magneticshielding", "count" : 5 },
+    { "item" : "aichip", "count" : 1 }
   ],
   "output" : {
     "item" : "isn_battery_t3_ceru",

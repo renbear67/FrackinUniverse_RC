@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "feroziumcompound", "count" : 15 },
+    { "item" : "isn_atom", "count" : 50 },
+    { "item" : "liquidlava", "count" : 50 }
+  ],
+  "output" : {
+    "item" : "isn_fusioncannon",
+    "count" : 1
+  },
+  "groups" : [ "acceleratortable", "weapons", "isn_mechanicalworkbench" ]
+}

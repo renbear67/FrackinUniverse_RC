@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 15 },
+    { "item" : "liquidoil", "count" : 15 },
+    { "item" : "isn_alcohol", "count" : 15 }
+  ],
+  "output" : {
+    "item" : "isn_napalmsprayer",
+    "count" : 1
+  },
+  "groups" : [ "acceleratortable", "weapons", "isn_mechanicalworkbench" ]
+}

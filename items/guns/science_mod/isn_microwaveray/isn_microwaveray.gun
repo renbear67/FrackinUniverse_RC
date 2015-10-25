@@ -1,0 +1,32 @@
+{
+  "itemName" : "isn_microwaveray",
+  "inventoryIcon" : "isn_microwaverayicon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "A weapon that fires heat waves which ignore armor.",
+  "shortdescription" : "Microwave Ray",
+  "image" : "isn_microwaveray.png",
+  "handPosition" : [-2, -4],
+  "firePosition" : [15, 1],
+
+  "weaponType" : "Energy Weapon",
+  "recoilTime" : 0,
+  "spread" : 1,
+  "accuracy" : 100,
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/items/guns/isn_heatray.wav" } ]
+  },
+  
+  "fireTime" : 0.08,
+  "twoHanded" : true,
+  "level" : 6,
+  "classMultiplier" : 2,
+
+  "projectileType" : "isn_microwaveray",
+  "projectile" : {
+	"speed" : 30,
+    "power" : 0.3,
+    "color" : [200, 200, 200]
+  }
+}

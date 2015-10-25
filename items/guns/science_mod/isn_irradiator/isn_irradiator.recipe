@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 15 },
+    { "item" : "liquidpoison", "count" : 25 },
+    { "item" : "toxicwaste", "count" : 25 }
+  ],
+  "output" : {
+    "item" : "isn_irradiator",
+    "count" : 1
+  },
+  "groups" : [ "acceleratortable", "weapons", "isn_mechanicalworkbench" ]
+}

@@ -5,7 +5,8 @@ local recipes =
 {inputs = { poop=1 }, outputs = { fu_nitrogen=5 }, time = 0.5},
 {inputs = { liquidpus=50 }, outputs = { fu_nitrogen=3 }, time = 0.5},
 {inputs = { algaegreen=5 }, outputs = { fu_nitrogen=3 }, time = 0.5},
-
+{inputs = { fu_nitrogen=1 }, outputs = { liquidnitrogenitem=2 }, time = 0.5},
+{inputs = { liquidnitrogenitem=1 }, outputs = { fu_nitrogen=2 }, time = 0.5},
 -- bees mod content
 {inputs = { flowerblue=1 }, outputs = { fu_nitrogen=1 }, time = 0.5},
 {inputs = { flowerred=1 }, outputs = { fu_nitrogen=1 }, time = 0.5},

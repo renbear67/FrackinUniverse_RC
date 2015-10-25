@@ -49,7 +49,7 @@
   "isn_requiredPower" : 8,
   
   "inputsToOutputs" : {
-	  "coalore" : "liquidblacktar",
+	  "coalore" : "fu_carbon",
 	  "copperore" : "copperbar",
 	  "ironore" : "ironbar",
 	  "silverore" : "silverbar",
@@ -63,7 +63,7 @@
 	  "rubiumore" : "refinedrubium",
 	  "solariumore" : "solariumstar",
 	  "alienrock" : "ff_silicon",
-	  "bars" : "ironore",
+	  "bars" : "fu_carbon",
 	  "blaststone" : "ff_silicon",
 	  "bonematerial" : "geneticmaterial",
 	  "cobblestonematerial" : "ff_silicon",
@@ -71,7 +71,7 @@
 	  "direstone" : "ff_silicon",
 	  "drysand" : "glassmaterial",
 	  "goldblock" : "goldbar",
-	  "heavyironbars" : "ironore",
+	  "heavyironbars" : "fu_carbon",
 	  "ironblock" : "ironbar",
 	  "junktech" : "ironore",
 	  "magmarock" : "ff_silicon",
@@ -147,7 +147,7 @@
 	      "sulphur" : 2
 	  },
       "drysand" : {
-	      "ff_silicon" : 1
+	      "fu_carbon" : 1
 	  },
       "heavyironbars" : {
 	      "ironbar" : 1
@@ -173,16 +173,16 @@
 	      "moonstoneore" : 1
 	  },
       "rustyblock" : {
-	      "ironore" : 1
+	      "fu_carbon" : 1
 	  },
       "rustymetal" : {
-	      "ironore" : 1
+	      "fu_carbon" : 1
 	  },
       "sand" : {
-	      "ff_silicon" : 1
+	      "fu_carbon" : 1
 	  },
       "sand2" : {
-	      "ff_silicon" : 1
+	      "fu_carbon" : 1
 	  },
 	  "treasurehoard" : {
 		  "silverbar" : 6,

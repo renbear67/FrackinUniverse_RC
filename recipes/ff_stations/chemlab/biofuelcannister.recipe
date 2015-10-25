@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "algaegreen", "count" : 2 },
     { "item" : "fu_salt", "count" : 3 },
-    { "item" : "fu_hydrogen", "count" : 3 }
+    { "item" : "fu_oxygen", "count" : 3 }
   ],
   "output" : {
     "item" : "biofuelcannister",

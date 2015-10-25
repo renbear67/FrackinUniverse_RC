@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "peptidechain", "count" : 6 },
     { "item" : "methanol", "count" : 1 },
-    { "item" : "glassmaterial", "count" : 1 }
+    { "item" : "fu_oxygen", "count" : 2 }
   ],
   "output" : {
     "item" : "synthesizedprotein",

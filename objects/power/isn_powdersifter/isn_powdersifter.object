@@ -28,9 +28,9 @@
   "frameCooldown" : 67,
   "autoCloseCooldown" : 3600,
   
-  "commonOutputs" : [ "saltpeter", "ironore", "coalore", "sulphur", "rawminerals", "nutrientpaste", "copperore", "plantfibre", "ff_silicon", "lead" ],
-  "uncommonOutputs" : [ "petalred", "petalyellow", "petalblue", "ironore", "bone", "crystal", "silverore", "goldore", "money", "fleshstrand", "fabric" ],
-  "rareOutputs" : [ "crystal", "icecrystal", "platinumore", "diamondore", "glowfibre" ],
+  "commonOutputs" : [ "saltpeter", "ironore", "coalore", "sulphur", "rawminerals", "nutrientpaste", "copperore", "fu_salt", "ff_silicon", "lead" ],
+  "uncommonOutputs" : [ "petalred", "petalyellow", "petalblue", "bone", "crystal", "silverore", "goldore", "fu_carbon" ],
+  "rareOutputs" : [ "crystal", "icecrystal", "platinumore", "diamond" ],
   
   "animation" : "/objects/power/isn_powdersifter/isn_powdersifter.animation",
 

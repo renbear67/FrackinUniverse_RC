@@ -1,0 +1,31 @@
+{
+  "itemName" : "isn_annihilator",
+  "inventoryIcon" : "isn_annihilator_inv.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "Uses antimatter annihilation to shoot powerful waves of energy.",
+  "shortdescription" : "Annihilator",
+  "image" : "isn_annihilator.png",
+  "handPosition" : [-10, -4],
+  "firePosition" : [30, -1],
+
+  "weaponType" : "Energy Weapon",
+  "recoilTime" : 0,
+  "spread" : 1,
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/plasma_shotgun2.wav" } ]
+  },
+  
+  "fireTime" : 0.33,
+  "twoHanded" : true,
+  "level" : 7,
+  "classMultiplier" : 2,
+
+  "projectileType" : "isn_annihilator",
+  "projectile" : {
+	"speed" : 80,
+    "power" : 5,
+    "color" : [255, 255, 255]
+  }
+}
