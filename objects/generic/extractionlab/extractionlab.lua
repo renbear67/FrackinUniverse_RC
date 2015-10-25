@@ -5,6 +5,7 @@ local recipes =
 {inputs = { liquidwater=50 }, outputs = { fu_salt=1, fu_oxygen=1, fu_hydrogen=1 }, time = 1.12},
 {inputs = { poop=1 }, outputs = { fu_nitrogen=3 }, time = 1.12},
 {inputs = { liquidpus=50 }, outputs = { fu_nitrogen=1 }, time = 1.12},
+{inputs = { algaegreen=5 }, outputs = { fu_nitrogen=1 }, time = 1.12},
 
 -- bees mod content
 {inputs = { flowerblue=1 }, outputs = { fu_nitrogen=1 }, time = 1.12},
@@ -269,7 +270,7 @@ local recipes =
 {inputs = { energywood=50 }, outputs = { penumbriteore=1 }, time = 1.12},
 {inputs = { vine=50 }, outputs = { plantfibre=2 }, time = 1.12},
 -- seeds
-{inputs = { algaeseed=1 }, outputs = { geneticmaterial=3 }, time = 1.12},
+{inputs = { algaeseed=1 }, outputs = { fu_nitrogen=3 }, time = 1.12},
 {inputs = { automatoseed=1 }, outputs = { geneticmaterial=3 }, time = 1.12},
 {inputs = { avesmingoseed=1 }, outputs = { geneticmaterial=3 }, time = 1.12},
 {inputs = { bananaseed=1 }, outputs = { geneticmaterial=3 }, time = 1.12},

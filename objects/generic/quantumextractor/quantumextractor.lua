@@ -3,7 +3,8 @@ local recipes =
 --liquids
 {inputs = { liquidwater=50 }, outputs = { fu_salt=1, fu_oxygen=1, fu_hydrogen=1 }, time = 0.5},
 {inputs = { poop=1 }, outputs = { fu_nitrogen=5 }, time = 0.5},
-{inputs = { liquidpus=50 }, outputs = { fu_nitrogen=3 }, time = 1.12},
+{inputs = { liquidpus=50 }, outputs = { fu_nitrogen=3 }, time = 0.5},
+{inputs = { algaegreen=5 }, outputs = { fu_nitrogen=3 }, time = 0.5},
 
 -- bees mod content
 {inputs = { flowerblue=1 }, outputs = { fu_nitrogen=1 }, time = 0.5},
