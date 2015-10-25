@@ -1,6 +1,7 @@
 {
   "input" : [
-    { "item" : "shadowgasliquid", "count" : 60 }
+    { "item" : "shadowgasliquid", "count" : 60 },
+    { "item" : "fu_hydrogen", "count" : 4 }
   ],
   "output" : {
     "item" : "shadowgascannister",

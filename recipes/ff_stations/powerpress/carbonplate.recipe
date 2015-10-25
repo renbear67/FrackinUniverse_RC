@@ -1,8 +1,7 @@
 {
   "input" : [
-    { "item" : "durasteelbar", "count" : 2 },
-    { "item" : "coalore", "count" : 4 },
-    { "item" : "lead", "count" : 1 }
+    { "item" : "fu_carbon", "count" : 14 },
+    { "item" : "lead", "count" : 2 }
   ],
   "output" : { 
     "item" : "carbonplate", 

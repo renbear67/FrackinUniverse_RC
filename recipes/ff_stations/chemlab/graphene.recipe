@@ -1,12 +1,13 @@
 {
   "input" : [
-    { "item" : "coalore", "count" : 2 },
-    { "item" : "liquidwater", "count" : 1 },
-    { "item" : "ff_silicon", "count" : 2 }
+    { "item" : "fu_carbon", "count" : 5 },
+    { "item" : "methanol", "count" : 2 },
+    { "item" : "iodine", "count" : 1 },
+    { "item" : "platinumore", "count" : 1 }
   ],
   "output" : {
     "item" : "graphene",
-    "count" : 1
+    "count" : 3
   },
   "groups" : [ "chemlab", "compounds", "all" ]
 }

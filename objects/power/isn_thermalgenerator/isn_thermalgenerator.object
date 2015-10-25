@@ -8,7 +8,7 @@
   "shortdescription" : "Thermo-Electric Generator",
   "race" : "generic",
   "printable" : false,
-  "learnBlueprintsOnPickup" : [ "isn_fissiongenerator" ],
+  "learnBlueprintsOnPickup" : [ "isn_fissionreactor" ],
   "apexDescription" : "Low-class Apex housing is usually near generators like these. The constant noise prevents you from getting any good sleep.",
   "avianDescription" : "I'm not a fan of heavy industry.",
   "floranDescription" : "Floran not like hot noisssy machine.",

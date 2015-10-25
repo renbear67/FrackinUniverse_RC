@@ -2,6 +2,7 @@
   "input" : [
     { "item" : "liquidoil", "count" : 20 },
     { "item" : "sulphur", "count" : 7 },
+    { "item" : "fu_salt", "count" : 10 },
     { "item" : "magnesiumsulfate", "count" : 7 },
     { "item" : "pesticide", "count" : 1 }
   ],

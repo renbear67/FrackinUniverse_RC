@@ -1,9 +1,10 @@
 {
   "input" : [
-    { "item" : "iceblock", "count" : 4 },
-    { "item" : "glassmaterial", "count" : 2},
+    { "item" : "fu_oxygen", "count" : 4 },
+    { "item" : "fu_hydrogen", "count" : 4},
     { "item" : "crystal", "count" : 1},
-    { "item" : "liquidnitrogenitem", "count" : 1},
+    { "item" : "liquidsulphuricacid", "count" : 4},
+    { "item" : "liquidnitrogenitem", "count" : 4},
     { "item" : "mineralsample", "count" : 2 }
   ],
   "output" : {

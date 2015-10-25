@@ -1,6 +1,7 @@
 {
   "input" : [
     { "item" : "liquidgravrain", "count" : 3 },
+    { "item" : "fu_salt", "count" : 8 },
     { "item" : "cellmateria", "count" : 1 }
   ],
   "output" : {

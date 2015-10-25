@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "mineralsample", "count" : 1 }, 
+    { "item" : "fu_oxygen", "count" : 4 }, 
     { "item" : "mutavisksilk", "count" : 1 },
     { "item" : "dnasample", "count" : 2 }
   ],

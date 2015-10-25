@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "moonstonebar", "count" : 1 },
+    { "item" : "fu_salt", "count" : 8 },
     { "item" : "blisterbushplantfood", "count" : 1 },
     { "item" : "dnasample", "count" : 1 }
   ],

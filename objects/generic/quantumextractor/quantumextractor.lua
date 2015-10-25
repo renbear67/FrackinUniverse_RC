@@ -1,5 +1,7 @@
 local recipes =
 {
+--liquids
+{inputs = { liquidwater=50 }, outputs = { fu_salt=1, fu_oxygen=1, fu_hydrogen=1 }, time = 0.5},
 -- bees mod content
 {inputs = { flowerblue=1 }, outputs = { geneticmaterial=1 }, time = 0.5},
 {inputs = { flowerred=1 }, outputs = { geneticmaterial=1 }, time = 0.5},
@@ -697,7 +699,7 @@ local recipes =
 {inputs = { carcass1=1 }, outputs = { tissueculture=24,geneticmaterial=24  }, time = 0.5},
 {inputs = { carcass2=1 }, outputs = { tissueculture=24,geneticmaterial=24  }, time = 0.5},
 -- vanilla ores
-{inputs = { coalore=1 }, outputs = { ammoniumsulfate=2 }, time = 0.5},
+{inputs = { coalore=12 }, outputs = { fu_carbon=1 }, time = 0.5},
 {inputs = { copperore=1 }, outputs = { rawminerals=6 }, time = 0.5},
 {inputs = { ironore=1 }, outputs = { liquidironfu=4 }, time = 0.5},
 {inputs = { silverore=1 }, outputs = { rawminerals=8 }, time = 0.5},
@@ -715,7 +717,7 @@ local recipes =
 {inputs = { triangliumore=1 }, outputs = { rawminerals=8 }, time = 0.5},
 {inputs = { uraniumore=1 }, outputs = { matteritem=7 }, time = 0.5},
 {inputs = { lead=1 }, outputs = { rawminerals=7 }, time = 0.5},
-{inputs = { diamond=1 }, outputs = { rawminerals=11 }, time = 0.5},
+{inputs = { diamond=1 }, outputs = { fu_carbon=11 }, time = 0.5},
 {inputs = { violiumore=1 }, outputs = { rawminerals=9 }, time = 0.5},
 -- fu ores
 {inputs = { mascagniteore=4 }, outputs = { ammoniumsulfate=2 }, time = 0.5},

@@ -3,7 +3,7 @@
     { "item" : "fu_nodule", "count" : 10 },
     { "item" : "liquidbioooze", "count" : 8},
     { "item" : "geneticmaterial", "count" : 10},
-    { "item" : "glassmaterial", "count" : 4},
+    { "item" : "fu_salt", "count" : 8},
     { "item" : "dnasample", "count" : 2 }
   ],
   "output" : {

@@ -1,6 +1,7 @@
 {
   "input" : [
     { "item" : "coralfragment", "count" : 3 },
+    { "item" : "fu_salt", "count" : 8 },
     { "item" : "vialproto", "count" : 1 }
   ],
   "output" : {

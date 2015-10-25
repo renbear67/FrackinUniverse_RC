@@ -2,6 +2,7 @@
   "input" : [
     { "item" : "calciumnitrate", "count" : 8 },
     { "item" : "methyliodide", "count" : 1 },
+    { "item" : "fu_salt", "count" : 20 },
     { "item" : "ammoniumsulfate", "count" : 5 },
     { "item" : "methanol", "count" : 10 }
   ],

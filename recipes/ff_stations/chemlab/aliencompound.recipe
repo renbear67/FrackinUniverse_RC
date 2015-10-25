@@ -1,6 +1,8 @@
 {
   "input" : [
     { "item" : "protorockmaterial", "count" : 3 },
+    { "item" : "fu_hydrogen", "count" : 12 },
+    { "item" : "fu_oxygen", "count" : 12 },
     { "item" : "prisilitestar", "count" : 1 }
   ],
   "output" : {

@@ -8,7 +8,7 @@
   "price" : 500,
   "objectType" : "container",
   "printable" : false,
-    "learnBlueprintsOnPickup" : [ "isn_atmosregulator" ],
+  "learnBlueprintsOnPickup" : [ "isn_atmosregulator" ],
   "apexDescription" : "I don't feel too good about the prospect of meddling with the atmosphere.",
   "avianDescription" : "It's almost like a magician's trick, pulling resources out of literal thin air.",
   "floranDescription" : "Ssstop ssstealing the air! Floran isss usssing that!",
@@ -28,9 +28,9 @@
   "frameCooldown" : 67,
   "autoCloseCooldown" : 3600,
   
-  "commonOutputs" : [ "liquidwater", "aminoacid", "algaegreen" ],
+  "commonOutputs" : [ "liquidwater", "fu_salt", "fu_oxygen", "fu_hydrogen" ],
   
-  "uncommonOutputs" : [ "cellmateria", "geneticmaterial", "mineralsample" ],
+  "uncommonOutputs" : [ "cellmateria", "geneticmaterial", "mineralsample", "fu_carbon" ],
   
   "rareOutputs" : [ "helium3gasliquid", "shadowgasliquid", "liquidgravrain" ],
   

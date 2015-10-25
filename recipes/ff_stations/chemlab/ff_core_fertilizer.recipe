@@ -1,6 +1,7 @@
 {
   "input" : [
     { "item" : "ammoniumsulfate", "count" : 5 },
+    { "item" : "fu_salt", "count" : 10 },
     { "item" : "sulphur", "count" : 5 },
     { "item" : "methanol", "count" : 8 }
   ],

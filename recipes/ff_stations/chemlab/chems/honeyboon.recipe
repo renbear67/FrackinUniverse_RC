@@ -1,6 +1,7 @@
 {
   "input" : [
     { "item" : "liquidmercury", "count" : 1 },
+    { "item" : "fu_salt", "count" : 8 },
     { "item" : "fu_liquidhoney", "count" : 1 }
   ],
   "output" : {

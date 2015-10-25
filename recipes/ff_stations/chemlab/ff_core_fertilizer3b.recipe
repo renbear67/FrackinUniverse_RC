@@ -1,6 +1,7 @@
 {
   "input" : [
     { "item" : "ff_fertilizer2", "count" : 2 },
+    { "item" : "fu_salt", "count" : 10 },
     { "item" : "pesticide", "count" : 4 }
   ],
   "output" : {
