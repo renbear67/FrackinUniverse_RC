@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "wolframiteore", "count" : 3 },
+    { "item" : "steelbar", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "tungstenbar",
+    "count" : 1
+  },
+  "groups" : [ "alloyfurnace", "all" ]
+}

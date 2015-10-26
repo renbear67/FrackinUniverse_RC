@@ -7,7 +7,7 @@
   "shortdescription" : "Solar Panel",
   "race" : "generic",
   "printable" : false,
-  "learnBlueprintsOnPickup" : [ "isn_thermalgenerator" ],
+  "learnBlueprintsOnPickup" : [ "isn_thermalgenerator", "isn_powdersifter" ],
   "apexDescription" : "The MiniKnog tends not to care about renewable energy. There are all manner of theories as to why.",
   "avianDescription" : "Just one of the many uses of the sun.",
   "floranDescription" : "Machine get power from sssun like plant. Floran like it.",

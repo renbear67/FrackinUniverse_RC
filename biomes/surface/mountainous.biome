@@ -145,7 +145,7 @@
 
   "mainBlock" : "cobblestone",
   "subBlocks" : [ "dirt", "gravel", "rock03" ],
-  "ores" : "surfaceOres",
+  "ores" : "ff_mountainousOres",
 
   "parallax" : "/parallax/surface/mountainous.parallax",
 

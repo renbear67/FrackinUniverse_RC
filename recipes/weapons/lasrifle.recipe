@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "steelbar", "count" : 8 },
+    { "item" : "tungstenbar", "count" : 8 },
     { "item" : "microchip", "count" : 2 },
     { "item" : "electromagnet", "count" : 1 }
   ],

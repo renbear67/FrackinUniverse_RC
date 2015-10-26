@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "steelbar", "count" : 5 },
+    { "item" : "tungstenbar", "count" : 5 },
     { "item" : "corefragmentore", "count" : 5 },
-    { "item" : "fu_oxygen", "count" : 15 }
+    { "item" : "fu_oxygen", "count" : 10 }
   ],
   "output" : {
     "item" : "isn_incinerator",

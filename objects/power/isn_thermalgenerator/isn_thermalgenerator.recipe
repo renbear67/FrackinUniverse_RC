@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "titaniumbar", "count" : 12 },
+    { "item" : "tungstenbar", "count" : 12 },
     { "item" : "goldbar", "count" : 5 },
     { "item" : "ff_silicon", "count" : 30 }
   ],

@@ -5,7 +5,7 @@
   ],
   "output" : {
     "item" : "steelbar",
-    "count" : 6
+    "count" : 20
   },
   "groups" : [ "fissionfurnace", "prototyper",  "all" ]
 }

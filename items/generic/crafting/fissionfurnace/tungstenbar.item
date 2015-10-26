@@ -1,0 +1,8 @@
+{
+  "itemName" : "tungstenbar",
+  "rarity" : "rare",
+  "inventoryIcon" : "tungstenbar.png",
+  "description" : "Has the highest melting point magnitudes greater than steel and titanium.",
+  "shortdescription" : "Tungsten Bar",
+  "learnBlueprintsOnPickup" : [ "corruptspear", "diamondblade", "frostblade", "corruptblade", "moltenblade", "quietusplate" ]
+}

@@ -1157,23 +1157,31 @@
           //"dungeonCountRange" : [0, 2],
           "dungeons" : [ "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "humanbunker", "floranhuntinggrounds", "floranvillagetower" ]
         },
-		  
+        "subsurface" : {
+          "primaryRegion" : [ "mountainousunderground" ]
+        },		  
         "underground1" : {
+          "primaryRegion" : [ "mountainousunderground" ],
           "secondaryRegion" : [ "abandonedmines", "zen", "ffspidernest", "luminouscaves", "stonecaves", "bonecaves", "icecaves", "wildernessunderground" ]
         },
         "underground2" : {
+          "primaryRegion" : [ "mountainousunderground" ],
           "secondaryRegion" : [ "abandonedmines", "zen", "ffspidernest", "luminouscaves", "stonecaves", "bonecaves", "icecaves", "mushroomunderground" ]
         },
         "underground3" : {
+          "primaryRegion" : [ "mountainousunderground" ],
           "secondaryRegion" : [ "abandonedmines", "zen", "ffspidernest", "luminouscaves", "stonecaves", "bonecaves", "icecaves", "wildernessunderground" ]
         },
         "underground4" : {
+          "primaryRegion" : [ "mountainousunderground" ],
           "secondaryRegion" : [ "abandonedmines", "zen", "ffspidernest", "luminouscaves", "stonecaves", "bonecaves", "icecaves" ]
         },
         "underground5" : {
+          "primaryRegion" : [ "mountainousunderground" ],
           "secondaryRegion" : [ "abandonedmines", "zen", "ffspidernest", "luminouscaves", "stonecaves", "bonecaves", "icecaves" ]
         },
         "underground6" : {
+          "primaryRegion" : [ "mountainousunderground" ],
           "secondaryRegion" : [ "abandonedmines", "zen", "ffspidernest", "luminouscaves", "stonecaves", "bonecaves", "icecaves" ]
         }
       }
@@ -3815,6 +3823,19 @@
       "bgOreSelector" : [ "commonVeins" ],  
       "biome" : [
         [0, [ "arborealunderground"]]
+      ]
+    }
+  },
+  
+  {"op" : "add", 
+  "path" : "/regionTypes/mountainousunderground",
+  "value" : 
+  {
+      "caveLiquid" : [ "water", "healingliquid", "poison" ],
+      "caveLiquidChanceRange" : [5, 35],
+      "bgOreSelector" : [ "commonVeins" ],  
+      "biome" : [
+        [0, [ "mountainousunderground"]]
       ]
     }
   },

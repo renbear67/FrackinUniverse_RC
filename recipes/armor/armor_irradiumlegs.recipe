@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "triangliumpyramid", "count" : 5 },
     { "item" : "irradiumbar", "count" : 10 },
-    { "item" : "quietusplate", "count" : 3 },
+    { "item" : "tungstenbar", "count" : 4 },
     { "item" : "liquidirradium", "count" : 14 }
   ],
   "output" : {

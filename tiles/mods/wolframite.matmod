@@ -1,0 +1,18 @@
+{
+  "modId" : 6751,
+  "modName" : "wolframite",
+  "itemDrop" : "wolframiteore",
+  "Description" : "Wolframite",
+  "health" : 11,
+  "breaksWithTile" : true,
+  "harvestLevel" : 3,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "wolframite.png",
+    "variants" : 8,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}
+

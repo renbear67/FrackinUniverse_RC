@@ -1,6 +1,7 @@
 {
   "input" : [
     { "item" : "carbonplate", "count" : 6 },
+    { "item" : "tungstenbar", "count" : 2 },
     { "item" : "cpu", "count" : 2 },
     { "item" : "powercore", "count" : 1 }
   ],

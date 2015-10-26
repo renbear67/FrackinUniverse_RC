@@ -735,7 +735,8 @@ local recipes =
 {inputs = { corruptionore=4 }, outputs = { rawminerals=5 }, time = 1.9},
 {inputs = { solarishard=20 }, outputs = { crystal=1 }, time = 1.6},
 {inputs = { solaricrystal=1 }, outputs = { solarishard=4 }, time = 1.12},
-{inputs = { matteritem=50 }, outputs = { unstableparticles=1 }, time = 1.65}
+{inputs = { matteritem=50 }, outputs = { unstableparticles=1 }, time = 1.65},
+{inputs = { wolframiteore=4 }, outputs = { fu_carbon=4 }, time = 1.65}
 }
 
 --  *************
