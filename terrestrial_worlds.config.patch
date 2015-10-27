@@ -1149,7 +1149,7 @@
 {"op" : "add",
 "path" : "/planetTypes/mountainous",
 "value" : {       
-      "threatRange" : [2, 3],
+      "threatRange" : [2, 5],
       "layers" : {
         "surface" : {
           "primaryRegion" : [ "mountainous" ], 
@@ -1526,7 +1526,7 @@
 {"op" : "add",
 "path" : "/planetTypes/tidewater",
 "value" : {       
-      "threatRange" : [3, 3],
+      "threatRange" : [3, 5],
       "layers" : {
         "surface" : {
           "primaryRegion" : [ "tidewater" ], 

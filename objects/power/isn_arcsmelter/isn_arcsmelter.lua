@@ -30,7 +30,7 @@ function update(dt)
 	
 	entity.setAnimationState("furnaceState", "active")
 	
-	if world.containerAvailable(entity.id(), {name = storage.currentinput, count = 1, data={}}) ~= nil then
+	if world.containerConsume(entity.id(), {name = storage.currentinput, count = 4, data={}}) then
 		if math.random(1,3) ~= 1 then
 			world.containerConsume(entity.id(), {name = storage.currentinput, count = 4, data={}})
 		end
@@ -40,7 +40,6 @@ function update(dt)
 					if clearSlotCheck(key) == false then break end
 					if math.random(1,100) <= value then
 						world.containerAddItems(entity.id(), {name = key, count = 1, data={}})
-						self.timer = 0.25
 					end
 			end
 		end

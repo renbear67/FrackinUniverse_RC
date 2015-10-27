@@ -739,14 +739,6 @@ local recipes =
 {inputs = { wolframiteore=4 }, outputs = { fu_carbon=4 }, time = 1.65}
 }
 
---  *************
---  add random chance to drop higher or lower quality versions of samples? rares? etc?
---  *************
--- local.samplingbenefit = 0 --this value will be set based on items used.
--- The higher the sampling benefit, the better chance at a super-item. These take the
--- form of things like unlockable recipes via item as in vanilla starbound, or super-seeds
--- and that sort of thing.
-
 function init(args)
     if args then return end
     self.timer = 1
@@ -805,7 +797,8 @@ function getValidRecipes(query)
 return filter(recipes, function(l) return subset(l.inputs, query) end)
 
 end
--- by Zoomah: find next fitting slot
+
+
 function getOutSlotsFor(something)
     local empty = {} -- empty slots in the outputs
     local slots = {} -- slots with a stack of "something"

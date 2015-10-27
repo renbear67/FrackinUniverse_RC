@@ -13,5 +13,5 @@
   "damageKind" : "direct",
   "damageType" : "ignoresdef",
   "timeToLive" : 0.1,
-  "statusEffects" : [ "biomeradiation" ]
+  "statusEffects" : [ "ffextremeradiation" ]
 }

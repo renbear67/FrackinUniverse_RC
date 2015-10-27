@@ -87,106 +87,82 @@
 	  "silverblock" : "silverbar",
 	  "treasurehoard" : "goldbar",
 	  "corefragmentore" : "liquidlava",
-	  "metallic" : "ironore"
+	  "metallic" : "ironore",
+
+// FU ores
+
+"eridianore" : "eridianbar",
+"berliniteore" : "phosphorus",
+"fu_carbon" : "diamond",
+"cinnabarore" : "ff_mercury",
+"corruptionore" : "corruptionseed",
+"densiniumore" : "densiniumbar",
+"ff_plastic" : "ff_silk",
+"graphene" : "fu_carbon",
+"irradiumore" : "irradiumbar",
+"wolframiteore" : "tungstenbar",
+"mascagniteore" : "ammoniumsulfate",
+"magnesiumore" : "magnesiumpowder",
+"lazuliteore" : "phosphorus",
+"penumbriteore" : "penumbriteshard",
+"prisiliteore" : "prisilitestar",
+"protociteore" : "protocitebar",
+"quietusore" : "quietusbar",
+"solarishard" : "solaricrystal",
+"triangliumore" : "triangliumpyramid",
+"moonstoneore" : "moonstonebar"
+
+
   },
   
   "bonusOutputs" : {
-      "coalore" : {
-	      "sulphur" : 2,
-	      "diamond" : 1
-	  },
-      "copperore" : {
-	      "ff_silicon" : 2,
-	      "ironore" : 1
-	  },
-      "ironore" : {
-	      "ironore" : 1,
-	      "ff_silicon" : 1,
-	      "lead" : 1
-	  },
-      "silverore" : {
-	      "ff_silicon" : 2,
-	      "mineralsample" : 1
-	  },
-      "goldore" : {
-	      "ff_silicon" : 2,
-	      "mineralsample" : 1
-	  },
-      "platinumore" : {
-	      "ff_silicon" : 2,
-	      "mineralsample" : 1
-	  },
-      "titaniumore" : {
-	      "ff_silicon" : 2,
-	      "mineralsample" : 1
-	  },
-      "alienrock" : {
-	      "carbonplate" : 1,
-	      "vialproto" : 1,
-	      "liquidnitrogenitem" : 1
-	  },
-      "bars" : {
-	      "ironore" : 1
-	  },
-      "blaststone" : {
-	      "ironore" : 2,
-	      "sulphur" : 3,
-	      "liquidlava" : 1
-	  },
-      "bonematerial" : {
-	      "bone" : 3,
-	      "dnasample" : 1
-	  },
-      "cobblestonematerial" : {
-	      "sulphur" : 1,
-	      "lead" : 1,
-	      "ironore" : 1
-	  },
-      "direstone" : {
-	      "coalore" : 1,
-	      "sulphur" : 2
-	  },
-      "drysand" : {
-	      "fu_carbon" : 1
-	  },
-      "heavyironbars" : {
-	      "ironbar" : 1
-	  },
-      "junktech" : {
-	      "ironore" : 1,
-	      "ff_silicon" : 1
-	  },
-      "magmarock" : {
-	      "carbonplate" : 1,
-	      "liquidnitrogenitem" : 1,
-	      "sulphur" : 2,
-	      "liquidlava" : 2
-	  },
-      "meteoriterock" : {
-	      "liquidhelium3gas" : 1,
-	      "moonstoneore" : 1
-	  },
-      "moonrock" : {
-	      "liquidhelium3gas" : 1
-	  },
-      "moonstone" : {
-	      "moonstoneore" : 1
-	  },
-      "rustyblock" : {
-	      "fu_carbon" : 1
-	  },
-      "rustymetal" : {
-	      "fu_carbon" : 1
-	  },
-      "sand" : {
-	      "fu_carbon" : 1
-	  },
-      "sand2" : {
-	      "fu_carbon" : 1
-	  },
-	  "treasurehoard" : {
-		  "silverbar" : 6,
-		  "goldbar" : 6
-	  }
+      "coalore" : { "sulphur" : 12,"diamond" : 2, "fu_carbon" : 25 },
+      "copperore" : { "ff_silicon" : 5,"ironore" : 5 },
+      "ironore" : { "fu_carbon" : 10,"lead" : 5 },
+      "silverore" : { "ff_silicon" : 12,"mineralsample" : 5 },
+      "goldore" : { "ff_silicon" : 12,"mineralsample" : 5 },
+      "platinumore" : { "ff_silicon" : 12,"mineralsample" : 5 },
+      "titaniumore" : { "ff_silicon" : 12,"mineralsample" : 5 },
+      "alienrock" : { "fu_nitrogen" : 22,"vialproto" : 15,"liquidnitrogenitem" : 11 },
+      "bars" : { "ironore" : 12 },
+      "blaststone" : { "ironore" : 12,"sulphur" : 13,"liquidlava" : 12 },
+      "bonematerial" : { "bone" : 13,"dnasample" : 5},
+      "cobblestonematerial" : {"sulphur" : 11,"lead" : 11,"ironore" : 11 },
+      "direstone" : { "coalore" : 9,"sulphur" : 5 },
+      "drysand" : { "fu_carbon" : 8 },
+      "heavyironbars" : { "ironbar" : 25 },
+      "junktech" : { "ironore" : 12,"ff_silicon" : 12 },
+      "magmarock" : { "carbonplate" : 12,"sulphur" : 12,"liquidlava" : 12 },
+      "meteoriterock" : { "liquidhelium3gas" : 12, "moonstoneore" : 12 },
+      "moonrock" : { "liquidhelium3gas" : 12 },
+      "moonstone" : { "moonstoneore" : 12 },
+      "rustyblock" : { "fu_carbon" : 12 },
+      "rustymetal" : { "fu_carbon" : 12 },
+      "sand" : { "fu_carbon" : 12 },
+      "sand2" : { "fu_carbon" : 12 },
+      "treasurehoard" : { "silverbar" : 16,"goldbar" : 16 },
+
+//FU bonus outpots
+"eridianore" : { "liquidbioooze" : 16, "fu_nitrogen" :9  },
+"berliniteore" : { "ammoniumsulfate" : 16, "fu_carbon" : 9 },
+"fu_carbon" : { "liquidironfu" : 16 },
+"cinnabarore" : { "fu_nitrogen" : 16, "fu_carbon" : 9 },
+"corruptionore" : { "liquiddarkwater" : 16, "ff_silicon" : 9 },
+"densiniumore" : { "liquidironfu" : 16, "fu_carbon" : 9 },
+"ff_plastic" : { "fu_carbon" : 16, "ff_resin" : 9 },
+"graphene" : { "fu_carbon" : 16, "liquidwater" : 9 },
+"irradiumore" : { "liquidirradium" : 16, "fu_carbon" : 9 },
+"wolframiteore" : { "liquidironfu" : 16, "fu_carbon" : 9 },
+"mascagniteore" : { "ammoniumsulfate" : 16, "fu_carbon" : 9 },
+"magnesiumore" : { "magnesiumopowder" : 16, "fu_oxygen" : 9 },
+"lazuliteore" : { "phosphorus" : 16, "fu_oxygen" : 9 },
+"penumbriteore" : { "liquiddarkwater" : 16, "fu_nitrogen" : 9 },
+"prisiliteore" : { "liquidgravrain" : 16, "fu_oxygen" : 9 },
+"protociteore" : { "vialproto" : 16, "fu_carbon" : 9 },
+"quietusore" : { "shadowgasliquid" : 16, "ff_silicon" : 9 },
+"solarishard" : { "liquidnitrogenitem" : 16, "fu_carbon" : 9 },
+"triangliumore" : { "liquidmercury" : 16, "fu_silicon" : 9 },
+"moonstoneore" : { "helium3gasliquid" : 16, "fu_carbon" : 9 }
+
   }
 }
