@@ -12,6 +12,7 @@ function init()
   self.jumpTimer = 30000 
   self.isBlocked = false
   self.willFall = false
+  self.hadTarge = false
 
   self.queryTargetDistance = entity.configParameter("queryTargetDistance", 30)
   self.trackTargetDistance = entity.configParameter("trackTargetDistance")
@@ -58,6 +59,10 @@ function update(dt)
   end
 
   if hasTarget() and entity.health() > 0 then
+    if self.hadTarget == false then
+      entity.playSound("turnHostile")
+      self.hadTarget = true
+    end
     script.setUpdateDelta(1)
     updatePhase(dt)
   else
@@ -66,6 +71,7 @@ function update(dt)
       if currentPhase() then
         self.phaseStates[currentPhase()].endState()
       end
+      self.hadTarget = false
       self.phase = nil
       self.lastPhase = nil
       setPhaseStates(self.phases)
