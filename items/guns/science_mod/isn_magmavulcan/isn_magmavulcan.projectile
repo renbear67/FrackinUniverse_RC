@@ -19,7 +19,7 @@
   "actionOnReap" : [
     {
       "action" : "config",
-      "file" : "/items/guns/isn_magmavulcan/isn_magmavulcan.config"
+      "file" : "/items/guns/science_mod/isn_magmavulcan/isn_magmavulcan.config"
     }
   ]
 }

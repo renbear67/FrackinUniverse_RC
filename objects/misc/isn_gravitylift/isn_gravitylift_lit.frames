@@ -1,9 +1,0 @@
-{
-  "frameGrid" : {
-    "size" : [32, 16],
-    "dimensions" : [7, 1],
-    "names" : [
-      [ "anim.1", "anim.2", "anim.3", "anim.4", "anim.5", "anim.6", "anim.7" ]
-	]
-  }
-}

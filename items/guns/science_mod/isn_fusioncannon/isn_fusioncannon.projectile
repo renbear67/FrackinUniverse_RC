@@ -26,7 +26,7 @@
     },
     {
       "action" : "config",
-      "file" : "/items/guns/isn_fusioncannon/isn_fusioncannon.config"
+      "file" : "/items/guns/science_mod/isn_fusioncannon/isn_fusioncannon.config"
     },
 	{
       "action" : "projectile",
