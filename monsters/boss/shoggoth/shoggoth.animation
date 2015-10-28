@@ -541,7 +541,7 @@
     }
   },
   "sounds" : {
-    "turnHostile" : [  ],
+    "turnHostile" : [ "/sfx/npc/unique/spiderboss_turnhostile.wav" ],
     "deathPuff" : [ "/sfx/npc/enemydeathpuff.wav" ]
   },
   "effects" : {

@@ -1,0 +1,31 @@
+{
+  "objectName" : "cycpillar2",
+  "rarity" : "Common",
+  "category" : "pot",
+  "price" : 400,
+  "printable" : false,  
+  "description" : "Who could have built this?",
+  "shortdescription" : "Strange Monument",
+  "health" : 275,
+  "inventoryIcon" : "cycpillar2.png",
+  "orientations" : [
+    {
+      "image" : "cycpillar2.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "smashSounds" : [ "/sfx/tools/axe_chop_alt_heavy.wav" ],
+  "smashDropOptions" : [
+    [ [ "cycpillar2", 1, { } ] ]
+  ],
+
+  "breakDropOptions" : [
+    [ [ "cycpillar2", 1, { } ] ]
+  ]
+}
