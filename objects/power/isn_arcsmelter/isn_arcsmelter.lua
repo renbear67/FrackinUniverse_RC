@@ -10,6 +10,7 @@ function init(virtual)
 end
 
 function update(dt)
+  self.oresubtract = math.random(1,2)
   self.timer = self.timer - dt
   if self.timer <= 0 then
 
@@ -30,9 +31,9 @@ function update(dt)
 	
 	entity.setAnimationState("furnaceState", "active")
 	
-	if world.containerConsume(entity.id(), {name = storage.currentinput, count = 4, data={}}) then
-		if math.random(1,3) ~= 1 then
-			world.containerConsume(entity.id(), {name = storage.currentinput, count = 4, data={}})
+	if world.containerConsume(entity.id(), {name = storage.currentinput, count = 2, data={}}) then
+		if math.random(1,2) == 1 then
+			world.containerConsume(entity.id(), {name = storage.currentinput, count = self.oresubtract, data={}})
 		end
 		if hasBonusOutputs(storage.currentinput) == true then
 			if storage.bonusoutputtable == nil then return end 
@@ -43,11 +44,14 @@ function update(dt)
 					end
 			end
 		end
+		
 		world.containerAddItems(entity.id(), {name = storage.currentoutput, count = 1, data={}})
 		self.timer = 0.25
 	end
   end	
 end
+
+
 
 function oreCheck()
 	local contents = world.containerItems(entity.id())

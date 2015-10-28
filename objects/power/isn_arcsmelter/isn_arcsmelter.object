@@ -49,6 +49,7 @@
   "isn_requiredPower" : 8,
   
   "inputsToOutputs" : {
+          //"coalore" : { "currentoutput" : "fu_carbon", "consumedamount" : 3, "outputamount": 3},
 	  "coalore" : "fu_carbon",
 	  "copperore" : "copperbar",
 	  "ironore" : "ironbar",
