@@ -20,7 +20,7 @@
       "fireSound" : [ { "file" : "/sfx/gun/plasma_mp2.wav" } ],
       "animation" : "/animations/muzzleflash/plasmamuzzle2/plasmamuzzle2.animation"
     },
-  
+    "learnBlueprintsOnPickup" : [ "isn_terawattlaser" ],
     "fireOnRelease" : false,
     
     "projectileType" : "fulaserpistol",

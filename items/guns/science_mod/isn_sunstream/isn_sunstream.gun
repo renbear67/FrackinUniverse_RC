@@ -4,29 +4,28 @@
   "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Legendary",
-  "description" : "A gun that uses fusion power to launch superheated energy.",
-  "shortdescription" : "Sunstream",
+  "description" : "A gun that uses fusion power to launch a spread of superheated energy.",
+  "shortdescription" : "Polaris Gun",
   "image" : "isn_sunstream.png",
   "handPosition" : [3, -5],
   "firePosition" : [20, 1],
-
+  "tooltipKind" : "gun",
   "weaponType" : "Energy Weapon",
   "recoilTime" : 0,
-  "spread" : 3,
+  "projectileCount" : 3,
   "muzzleEffect" : {
     "animation" : "/animations/muzzleflash/flamemuzzle/flamemuzzle.animation",
     "fireSound" : [ { "file" : "/sfx/projectiles/fireball_poof.wav" } ]
   },
   
-  "fireTime" : 0.08,
+  "fireTime" : 0.12,
   "twoHanded" : true,
   "level" : 6,
   "classMultiplier" : 1.2,
 
   "projectileType" : "isn_sunstream",
   "projectile" : {
-	"speed" : 50,
-    "power" : 0.2,
+    "power" : 1.2,
     "color" : [0, 0, 0]
   }
 }

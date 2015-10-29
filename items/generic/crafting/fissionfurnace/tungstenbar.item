@@ -4,5 +4,5 @@
   "inventoryIcon" : "tungstenbar.png",
   "description" : "Has the highest melting point magnitudes greater than steel and titanium.",
   "shortdescription" : "Tungsten Bar",
-  "learnBlueprintsOnPickup" : [ "laspistol", "lasrifle" ]
+  "learnBlueprintsOnPickup" : [ "laspistol", "lasrifle", "isn_napalmsprayer" ]
 }

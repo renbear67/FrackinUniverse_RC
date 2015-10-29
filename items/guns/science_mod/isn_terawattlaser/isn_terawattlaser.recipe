@@ -1,12 +1,12 @@
 {
   "input" : [
-    { "item" : "feroziumcompound", "count" : 15 },
-    { "item" : "icecrystal", "count" : 10 },
+    { "item" : "eridianbar", "count" : 4 },
+    { "item" : "ff_focusingarray", "count" : 1 },
     { "item" : "diamond", "count" : 10 }
   ],
   "output" : {
     "item" : "isn_terawattlaser",
     "count" : 1
   },
-  "groups" : [ "acceleratortable", "weapons", "isn_mechanicalworkbench" ]
+  "groups" : [ "prototyper", "weapons", "all" ]
 }

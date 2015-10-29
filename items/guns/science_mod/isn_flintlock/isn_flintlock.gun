@@ -4,23 +4,23 @@
   "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "Doesn't have much of a punch, but that's makeshift for you.",
-  "shortdescription" : "Makeshift Flintlock",
+  "description" : "An old-style sidearm with tons of stopping power.",
+  "shortdescription" : ".45 Revolver",
   "image" : "isn_flintlock.png",
   "handPosition" : [-4, -2],
   "firePosition" : [17, 3],
   "recoilTime" : 0.1,
-  "level" : 0.5,
   "tooltipKind" : "gun",
   "fireTime" : 0.6,
   "twoHanded" : false,
   "walkWhileFiring" : false,
-
+  "level" : 2,
   "projectileType" : "bullet-2",
+  "classMultiplier" : 0.5,
   "projectile" : {
     "speed" : 75,
     "life" : 3,
-    "power" : 2.7,
+    "power" : 8,
     "color" : [255, 10, 10]
   },
   "muzzleEffect" : {

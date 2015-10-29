@@ -1,12 +1,13 @@
 {
   "input" : [
-    { "item" : "refinedaegisalt", "count" : 15 },
-    { "item" : "liquidlava", "count" : 25 },
-    { "item" : "sulphur", "count" : 25 }
+    { "item" : "magmawall2", "count" : 12 },
+    { "item" : "liquidlava", "count" : 50 },
+    { "item" : "powercore", "count" : 1 },
+    { "item" : "moltencore", "count" : 3 }
   ],
   "output" : {
     "item" : "isn_magmavulcan",
     "count" : 1
   },
-  "groups" : [ "acceleratortable", "weapons", "isn_mechanicalworkbench" ]
+  "groups" : [ "prototyper", "weapons", "all" ]
 }

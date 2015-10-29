@@ -4,15 +4,16 @@
   "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Rare",
-  "description" : "A rapid-fire magma ball launcher. May cause extreme collateral damage.",
-  "shortdescription" : "Magma Vulcan",
+  "description" : "A rapid-fire magma ball launcher. May cause extreme collateral damage. Use caution.",
+  "shortdescription" : "Magma Cannon",
   "image" : "isn_magmavulcan.png",
   "handPosition" : [2, -6],
   "firePosition" : [15, 1],
   "weaponType" : "Grenade Launcher",
   "recoilTime" : 0.20,
+  "tooltipKind" : "gun",
   "spread" : 1,
-  "accuracy" : 100,
+  "accuracy" : 0.012,
   "muzzleEffect" : {
     "fireSound" : [ { "file" : "/sfx/gun/shotgun4.wav" } ]
   },
@@ -24,8 +25,8 @@
 
   "projectileType" : "isn_magmavulcan",
   "projectile" : {
-	"speed" : 80,
-    "power" : 1.5,
+    "speed" : 80,
+    "power" : 5.5,
     "color" : [255, 200, 0]
   }
 }

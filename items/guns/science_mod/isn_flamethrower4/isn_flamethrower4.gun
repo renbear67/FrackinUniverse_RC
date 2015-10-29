@@ -4,11 +4,12 @@
   "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Rare",
-  "description" : "A highly deadly advanced flamethrower.",
-  "shortdescription" : "Devil's Tongue",
+  "description" : "A nasty flame weapon guaranteed to cook, or your money back.",
+  "shortdescription" : "Inferno Gun",
   "image" : "isn_flamethrower4.png",
   "handPosition" : [0, 6],
   "firePosition" : [44, -1],
+  "tooltipKind" : "gun",
 
   "weaponType" : "Flamethrower",
   "recoilTime" : 0,
@@ -25,7 +26,7 @@
   "projectileType" : "isn_flamethrower4",
   "projectile" : {
 	"speed" : 120,
-    "power" : 0.075,
+    "power" : 0.75,
     "color" : [255, 255, 255]
   }
 }

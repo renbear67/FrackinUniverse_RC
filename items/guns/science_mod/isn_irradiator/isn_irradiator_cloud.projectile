@@ -8,11 +8,11 @@
   "power" : 0,
   "level" : 5,
   "speed" : 0,
-  "timeToLive" : 20,
+  "timeToLive" : 12,
   "bounces" : -1,
   "piercing" : true,
   "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],
-  "lightColor" : [0, 200, 0],
+  "lightColor" : [0, 70, 0],
   "damageKind" : "plasma",
   "damageType" : "ignoresdef",
   "statusEffects" : [ "isn_irradiation" ]

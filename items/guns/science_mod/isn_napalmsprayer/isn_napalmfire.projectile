@@ -11,7 +11,7 @@
   "frameNumber" : 4,
   "emitters" : [ "flames" ],
   "piercing" : false,
-  "power" : 0.1,
+  "power" : 0.5,
   "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],
   "actionOnReap" : [
     {

@@ -3,13 +3,13 @@
   "inventoryIcon" : "isn_microwaverayicon.png",
   "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Legendary",
+  "rarity" : "Rare",
   "description" : "A weapon that fires heat waves which ignore armor.",
-  "shortdescription" : "Microwave Ray",
+  "shortdescription" : "Microwave Beam",
   "image" : "isn_microwaveray.png",
-  "handPosition" : [-2, -4],
+  "handPosition" : [-11, -4],
   "firePosition" : [15, 1],
-
+  "tooltipKind" : "gun",
   "weaponType" : "Energy Weapon",
   "recoilTime" : 0,
   "spread" : 1,
@@ -20,13 +20,13 @@
   
   "fireTime" : 0.08,
   "twoHanded" : true,
-  "level" : 6,
+  "level" : 3,
   "classMultiplier" : 2,
 
   "projectileType" : "isn_microwaveray",
   "projectile" : {
-	"speed" : 30,
-    "power" : 0.3,
+    "speed" : 30,
+    "power" : 1.42,
     "color" : [200, 200, 200]
   }
 }

@@ -2,11 +2,11 @@
   "input" : [
     { "item" : "refinedaegisalt", "count" : 15 },
     { "item" : "liquidfuel", "count" : 15 },
-    { "item" : "isn_explosive", "count" : 10 }
+    { "item" : "fu_oxygen", "count" : 50 }
   ],
   "output" : {
     "item" : "isn_flamethrower4",
     "count" : 1
   },
-  "groups" : [ "acceleratortable", "weapons", "isn_mechanicalworkbench" ]
+  "groups" : [ "prototyper", "weapons", "all" ]
 }

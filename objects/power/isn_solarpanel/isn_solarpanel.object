@@ -14,7 +14,7 @@
   "glitchDescription" : "Analytical. Atmospheric interference means this panel will generate less power at low altitudes.",
   "humanDescription" : "I hope it doesn't rain. That'd block out the sun!",
   "hylotlDescription" : "Only structures close to the surface of the ocean can use these. A pity.",
-
+  "learnBlueprintsOnPickup" : [ "isn_terawattlaser" ],
   "inventoryIcon" : "isn_solarpanel_inv.png",
   "orientations" : [
     {

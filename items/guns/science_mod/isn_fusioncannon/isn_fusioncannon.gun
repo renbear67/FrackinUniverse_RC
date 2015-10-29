@@ -3,13 +3,14 @@
   "inventoryIcon" : "isn_fusioncannonicon.png",
   "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Legendary",
-  "description" : "A powerful cannon that launches miniature suns.",
-  "shortdescription" : "Fusion Cannon",
+  "rarity" : "Rare",
+  "description" : "A very dangerous fusion weapon. Oh hey, it has a skull. Cute!",
+  "shortdescription" : "Death's Head",
   "image" : "isn_fusioncannon.png",
   "handPosition" : [2, -6],
   "firePosition" : [15, 1],
   "weaponType" : "Energy Weapon",
+  "tooltipKind" : "gun",
   "recoilTime" : 2,
   "spread" : 1,
   "accuracy" : 100,
@@ -24,8 +25,8 @@
 
   "projectileType" : "isn_fusioncannon",
   "projectile" : {
-	"speed" : 60,
-    "power" : 12,
+    "speed" : 60,
+    "power" : 24,
     "color" : [255, 200, 0]
   }
 }

@@ -4,5 +4,6 @@
   "inventoryIcon" : "densiniumplate.png",
   "description" : "There are few things harder and tougher than this.",
   "shortdescription" : "^#b84cbc;Densinium Plating^white;",
-  "category" : "Metal Plate"
+  "category" : "Metal Plate",
+  "learnBlueprintsOnPickup" : [ "isn_fusioncannon" ]
 }

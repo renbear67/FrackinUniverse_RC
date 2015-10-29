@@ -7,8 +7,8 @@ end
 
 function update(dt)
   mcontroller.controlModifiers({
-      runModifier = -0.5,
-      jumpModifier = -0.8
+      runModifier = -0.35,
+      jumpModifier = -0.4
     })
 
   self.tickTimer = self.tickTimer - dt
@@ -16,7 +16,7 @@ function update(dt)
     self.tickTimer = 1
     status.applySelfDamageRequest({
         damageType = "IgnoresDef",
-        damage = 0.05 * status.resourceMax("health"),
+        damage = 0.06 * status.resourceMax("health"),
         sourceEntityId = entity.id()
       })
   end

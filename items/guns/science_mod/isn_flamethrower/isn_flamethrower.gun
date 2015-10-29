@@ -4,12 +4,13 @@
   "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "A gas-powered flamethrower. Great for barbeques.",
-  "shortdescription" : "Flamethrower",
+  "description" : "A nifty flame-throwing sidearm.",
+  "shortdescription" : "Incinerator",
   "image" : "isn_flamethrower.png",
   "handPosition" : [-7, -4],
   "firePosition" : [15, 2],
-
+  "tooltipKind" : "gun",
+"learnBlueprintsOnPickup" : [ "isn_flamethrower4" ],
   "weaponType" : "Flamethrower",
   "recoilTime" : 0,
   "spread" : 1,
@@ -25,7 +26,7 @@
   "projectileType" : "isn_flamethrower_shot",
   "projectile" : {
     "speed" : 60,
-    "power" : 0.2,
+    "power" : 0.75,
     "color" : [10, 255, 10]
   }
 }

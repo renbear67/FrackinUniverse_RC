@@ -4,12 +4,12 @@
   "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Rare",
-  "description" : "A gun that sprays a powerful flammable liquid.",
-  "shortdescription" : "Napalm Sprayer",
+  "description" : "A gun that sprays a powerful liquid thermite.",
+  "shortdescription" : "Thermite Sprayer",
   "image" : "isn_napalmsprayer.png",
-  "handPosition" : [6, -3],
+  "handPosition" : [-11, -3],
   "firePosition" : [23, 1],
-
+  "tooltipKind" : "gun",
   "weaponType" : "Chemical Weapon",
   "recoilTime" : 0,
   "spread" : 1,
@@ -20,13 +20,13 @@
   
   "fireTime" : 0.1,
   "twoHanded" : true,
-  "level" : 5,
-  "classMultiplier" : 7,
+  "level" : 4,
+  "classMultiplier" : 3,
 
   "projectileType" : "isn_napalmsprayer",
   "projectile" : {
-	"speed" : 30,
-    "power" : 0.5,
+    "speed" : 30,
+    "power" : 3,
     "color" : [255, 200, 45]
   }
 }

@@ -134,12 +134,12 @@
     {
       "value" : [63, 74, 60, 255],
       "comment" : "foreground obsidian",
-      "brush" : [ [ "clear" ], [ "back", "shadowwallblock" ], [ "front", "shadowwallblock" ] ]
+      "brush" : [ [ "clear" ], [ "back", "eldertile" ], [ "front", "eldertile" ] ]
     },
     {
       "value" : [48, 57, 46, 255],
       "comment" : "background obsidian",
-      "brush" : [ [ "clear" ], [ "back", "shadowwallblock" ] ]
+      "brush" : [ [ "clear" ], [ "back", "eldertile" ] ]
     },
     
     {

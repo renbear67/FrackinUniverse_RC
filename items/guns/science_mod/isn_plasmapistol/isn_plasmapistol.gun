@@ -4,13 +4,13 @@
   "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Legendary",
-  "description" : "A Plasma Powered Pistol.",
+  "description" : "A potent energy-round sidearm.",
   "shortdescription" : "P3 Sidearm",
   "image" : "isn_plasmapistol.png",
   "handPosition" : [-5, -2],
   "firePosition" : [13, 4],
   "recoilTime" : 0.1,
-  "level" : 4,
+  "level" : 3,
   "tooltipKind" : "gun",
   "weaponType" : "Pistol",
   "fireTime" : 0.1,
@@ -21,7 +21,7 @@
   "projectileType" : "isn_plasmapistol",
   "projectile" : {
     "speed" : 75,
-    "power" : 0.5,
+    "power" : 3,
     "color" : [200, 0, 255]
   },
   "muzzleEffect" : {
