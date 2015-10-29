@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "biospore", "count" : 6 },
+    { "item" : "ff_protoplating", "count" : 1 },
+    { "item" : "densealloy", "count" : 2 },
+    { "item" : "biochip", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "hytalisarmorhead",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "armors", "all" ]
+}

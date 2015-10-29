@@ -1,7 +1,7 @@
   {
   "id" : "6_beerbeerbeer.gearup",
   "title" : "^#1693d5;Beer, beer, beer",
-  "text" : "It's ^blue;beer time^white;! Go to your ^orange;Fermenter^white; to make a ^green;Beer^white;. You'll need 1 Wort, 2 Hops, 2 Wheat Seeds, 1 Yeast Water and 1 Empty Bottle.",
+  "text" : "It's ^blue;beer time^white;! Go to your ^orange;Fermenter^white; to make a ^green;Beer^white;. You'll need 1 Wort, 2 Hops, 2 Wheat, 1 Yeast Water and 1 Empty Bottle.",
   "completionText" : "Cheers! Now that you can make your own beer, your life is one step closer to perfection.",
   "completionConditions" : [ 
     { "type" : "gather", "item" : "beer", "consume" : false }

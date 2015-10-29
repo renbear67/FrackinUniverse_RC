@@ -1,6 +1,7 @@
 {
   "objectName" : "isn_thermalgenerator",
   "rarity" : "Common",
+    "tags" : [ "science" ],
   "category" : "wire",
   "objectType" : "container",
   "price" : 2500,

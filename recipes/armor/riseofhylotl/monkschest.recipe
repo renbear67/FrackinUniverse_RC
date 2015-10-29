@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "silk", "count" : 8 },
+    { "item" : "biochip", "count" : 1 },
+    { "item" : "fabric", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "missionaryrobechest",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "armors", "all" ]
+}

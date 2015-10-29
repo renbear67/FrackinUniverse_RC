@@ -1,6 +1,6 @@
 {
   "itemName" : "isn_annihilator",
-  "inventoryIcon" : "isn_annihilator_inv.png",
+  "inventoryIcon" : "isn_annihilator.png",
   "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Rare",

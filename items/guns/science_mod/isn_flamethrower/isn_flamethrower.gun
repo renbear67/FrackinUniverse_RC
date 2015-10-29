@@ -1,6 +1,6 @@
 {
   "itemName" : "isn_flamethrower",
-  "inventoryIcon" : "isn_flamethrowericon.png",
+  "inventoryIcon" : "isn_flamethrower.png",
   "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",

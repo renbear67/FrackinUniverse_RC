@@ -1,20 +1,21 @@
 {
   "objectName" : "isn_solarpanel",
   "rarity" : "Common",
+    "tags" : [ "science" ],
   "category" : "wire",
   "price" : 2500,
   "description" : "Uses sunlight to generate electricity. It can generate up to 2u of power in optimal conditions.",
   "shortdescription" : "Solar Panel",
   "race" : "generic",
   "printable" : false,
-  "learnBlueprintsOnPickup" : [ "isn_thermalgenerator", "isn_powdersifter" ],
+  "learnBlueprintsOnPickup" : [ "isn_thermalgenerator", "isn_powdersifter", "isn_terawattlaser" ],
   "apexDescription" : "The MiniKnog tends not to care about renewable energy. There are all manner of theories as to why.",
   "avianDescription" : "Just one of the many uses of the sun.",
   "floranDescription" : "Machine get power from sssun like plant. Floran like it.",
   "glitchDescription" : "Analytical. Atmospheric interference means this panel will generate less power at low altitudes.",
   "humanDescription" : "I hope it doesn't rain. That'd block out the sun!",
   "hylotlDescription" : "Only structures close to the surface of the ocean can use these. A pity.",
-  "learnBlueprintsOnPickup" : [ "isn_terawattlaser" ],
+
   "inventoryIcon" : "isn_solarpanel_inv.png",
   "orientations" : [
     {

@@ -1,6 +1,6 @@
 {
   "itemName" : "isn_microwaveray",
-  "inventoryIcon" : "isn_microwaverayicon.png",
+  "inventoryIcon" : "isn_microwaveray.png",
   "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Rare",

@@ -1,11 +1,11 @@
 {
   "input" : [
-    { "item" : "durasteelbar", "count" : 15 },
-    { "item" : "isn_plasma", "count" : 10 }
+    { "item" : "unstableparticles", "count" : 2 },
+    { "item" : "densiniumbar", "count" : 5 }
   ],
   "output" : {
     "item" : "isn_plasmalight",
     "count" : 1
   },
-  "groups" : [ "isn_mechanicalworkbench", "tools" ]
+  "groups" : [ "prototyper", "armors", "all" ]
 }

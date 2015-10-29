@@ -5,5 +5,5 @@
   "description" : "Aegisalt, Violium and Rubium have formed this into a Dense Alloy",
   "category" : "Alloy",
   "shortdescription" : "^#88e25b;Dense Alloy^white;",
-  "learnBlueprintsOnPickup" : [ "isn_magmavulcan" ]
+  "learnBlueprintsOnPickup" : [ "isn_magmavulcan", "hylatisarmorchest", "hylatisarmorpants", "hylatisarmorhead" ]
 }

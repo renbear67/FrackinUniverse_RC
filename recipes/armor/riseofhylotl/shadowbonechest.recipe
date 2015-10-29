@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "quietusbar", "count" : 6 },
+    { "item" : "bone", "count" : 12 },
+    { "item" : "corruptionseed", "count" : 8 },
+    { "item" : "biochip", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "shadowbonearmorchest",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "armors", "all" ]
+}

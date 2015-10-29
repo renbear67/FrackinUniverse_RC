@@ -1,6 +1,7 @@
 {
   "objectName" : "isn_battery_t1",
   "rarity" : "Common",
+    "tags" : [ "science" ],
   "category" : "wire",
   "price" : 2500,
   "description" : "A power storage unit. Stores up to 1000u of power and dispenses 1u when connected.",

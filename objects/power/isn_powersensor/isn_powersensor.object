@@ -1,6 +1,7 @@
 {
   "objectName" : "isn_powersensor",
   "printable" : false,
+    "tags" : [ "science" ],
   "rarity" : "Common",
   "description" : "A small sensor to check how much power is flowing into it.",
   "shortdescription" : "Power Sensor",

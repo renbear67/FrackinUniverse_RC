@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "copperplate", "count" : 1 },
+    { "item" : "ironbar", "count" : 4 },
+    { "item" : "mutaviskthread", "count" : 4 },
+    { "item" : "biochip", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "kinumoarmorpants",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "armors", "all" ]
+}

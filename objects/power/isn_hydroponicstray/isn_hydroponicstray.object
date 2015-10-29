@@ -1,6 +1,7 @@
 {
   "objectName" : "isn_hydroponicstray",
   "printable" : false,
+    "tags" : [ "science" ],
   "rarity" : "Common",
   "description" : "Grows crops more efficiently and quickly. Requires 2u of power.",
   "shortdescription" : "Hydroponics Tray",

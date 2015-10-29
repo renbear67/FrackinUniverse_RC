@@ -4,5 +4,5 @@
   "inventoryIcon" : "carbon.png",
   "description" : "Condensed carbon.",
   "shortdescription" : "Carbon",
-    "learnBlueprintsOnPickup" : [ "carbonplate" ]
+    "learnBlueprintsOnPickup" : [ "carbonplate", "fishboneheadbasher", "goldenseascion" ]
 }

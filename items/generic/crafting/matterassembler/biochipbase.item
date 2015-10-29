@@ -4,5 +4,5 @@
   "inventoryIcon" : "biochipbase.png",
   "description" : "Unfilled bio-chip.",
   "shortdescription" : "Bio-Chip Base",
-  "learnBlueprintsOnPickup" : [ "biochip" ]
+  "learnBlueprintsOnPickup" : [ "biochip", "missionaryrobechest", "missionaryrobepants", "missionaryrobehead" ]
 }

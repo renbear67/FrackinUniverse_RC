@@ -1,6 +1,6 @@
 {
   "itemName" : "isn_plasmabeam",
-  "inventoryIcon" : "isn_plasmabeamicon.png",
+  "inventoryIcon" : "isn_plasmabeam.png",
   "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Legendary",

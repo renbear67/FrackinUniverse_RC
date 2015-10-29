@@ -1,6 +1,7 @@
 {
   "objectName" : "isn_atmoscondenser",
   "rarity" : "rare",
+    "tags" : [ "science" ],
   "description" : "Condenses the atmosphere into usable reagents. Requires 2u of power.",
   "shortdescription" : "Atmospheric Condenser",
   "race" : "generic",

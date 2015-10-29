@@ -11,7 +11,7 @@
 
   "image" : "fishboneheadbasher.png",
   "firePosition" : [12.5, -3.5],
-  "fireTime" : 0.9,
+  "fireTime" : 1.2,
   "fireAfterWindup" : true,
   "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_hammer.wav" } ] },
 
@@ -46,7 +46,7 @@
     "projectileType" : "hammerswoosh1",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 67
+      "power" : 8
     },
     "idle" : {
       "twoHanded" : false,
@@ -63,7 +63,7 @@
       "handPosition" : [-2.7, -14.5],
       "duration" : 0.2,
       "statusEffects" : [
-        { "kind" : "shieldsuppressed", "duration" : 0.1 }
+        
       ]
     },
     "cooldown" : {
@@ -73,7 +73,7 @@
       "handPosition" : [-2.7, -27],
       "duration" : 0.4,
       "statusEffects" : [
-        { "kind" : "shieldsuppressed", "duration" : 0.1 }
+        
       ]
     }
   }

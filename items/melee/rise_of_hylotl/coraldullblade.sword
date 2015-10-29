@@ -4,8 +4,8 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "rare",
-  "description" : "Dull but hard as bone and rough as nails.",
-  "shortdescription" : "Coral Bone Razer",
+  "description" : "Hard as bone and rough as nails.",
+  "shortdescription" : "Coral Bone Razor",
   "inspectionKind" : "sword",
   "kind" : "Broadsword",
 
@@ -46,7 +46,7 @@
     "projectileType" : "testswoosh3",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 736
+      "power" : 9
     },
     "idle" : {
       "twoHanded" : false,
@@ -62,9 +62,7 @@
       "swordAngle" : 90,
       "handPosition" : [-6.0, -17.0],
       "duration" : 0.2,
-      "statusEffects" : [
-        { "kind" : "shieldsuppressed", "duration" : 0.1 }
-      ]
+      "statusEffects" : []
     },
     "cooldown" : {
       "twoHanded" : true,
@@ -72,9 +70,7 @@
       "swordAngle" : -90,
       "handPosition" : [-6.0, -27.5],
       "duration" : 0.4,
-      "statusEffects" : [
-        { "kind" : "shieldsuppressed", "duration" : 0.1 }
-      ]
+      "statusEffects" : []
     }
   }
 }

@@ -4,5 +4,6 @@
   "inventoryIcon" : "copperplate.png",
   "description" : "A Pressed Copper Plate",
   "category" : "Metal Plate",
-  "shortdescription" : "Copper Plate"
+  "shortdescription" : "Copper Plate",
+  "learnBlueprintsOnPickup" : [ "kinumoarmorhead", "kinumoarmorchest", "kinumoarmorpants" ]
 }

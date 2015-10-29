@@ -1,13 +1,12 @@
 {
   "input" : [
-    { "item" : "monsterplating", "count" : 10 },
     { "item" : "bone", "count" : 4 },
     { "item" : "cellmateria", "count" : 4 },
-    { "item" : "isn_dna_thermal", "count" : 5 }
+    { "item" : "tungstenbar", "count" : 5 }
   ],
   "output" : {
     "item" : "isn_heatshell",
     "count" : 1
   },
-  "groups" : [ "isn_biodesigner", "armors" ]
+  "groups" : [ "prototyper", "armors", "all" ]
 }

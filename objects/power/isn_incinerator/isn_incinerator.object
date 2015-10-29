@@ -1,6 +1,7 @@
 {
   "objectName" : "isn_incinerator",
   "rarity" : "Common",
+    "tags" : [ "science" ],
   "description" : "Instantly destroys any item placed within. Good for mass disposal.",
   "shortdescription" : "Incinerator",
   "race" : "generic",

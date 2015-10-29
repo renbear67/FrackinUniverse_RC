@@ -1,6 +1,6 @@
 {
   "itemName" : "isn_terawattlaser",
-  "inventoryIcon" : "isn_terawattlasericon.png",
+  "inventoryIcon" : "isn_terawattlaser.png",
   "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Legendary",

@@ -3,7 +3,7 @@
   "inventoryIcon" : "isn_heatshell_inv.png",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "rarity" : "Rare",
-  "description" : "A symbotic shell that enables the wearer to endure extreme temperatures.",
+  "description" : "A symbiotic shell that enables the wearer to endure cold and heat.",
   "shortdescription" : "Heat Shell",
 
   "maleFrames" : "back.png",

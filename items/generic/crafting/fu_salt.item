@@ -4,5 +4,5 @@
   "inventoryIcon" : "fu_salt.png",
   "description" : "Extremely useful in many, many things.",
   "shortdescription" : "Salt",
-  "learnBlueprintsOnPickup" : [ "ff_fertilizer", "pesticide", "methyliodide" ]
+  "learnBlueprintsOnPickup" : [ "ff_fertilizer", "kelpsteelhatchet" ]
 }

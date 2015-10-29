@@ -1,6 +1,7 @@
 {
   "objectName" : "isn_arcsmelter",
   "rarity" : "legendary",
+  "tags" : [ "science" ],
   "description" : "An incredibly powerful furnace that uses electricity. Requires 8u of power. Extreme efficiency.",
   "shortdescription" : "Arc Smelter",
   "race" : "generic",

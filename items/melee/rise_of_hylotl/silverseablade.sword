@@ -45,8 +45,8 @@
   "primaryStances" : {
     "projectileType" : "shortswordswoosh1",
     "projectile" : {
-      "speed" : 5.5,
-      "power" : 13
+      "speed" : 0.1,
+      "power" : 3
     },
     "idle" : {
       "twoHanded" : false,
@@ -63,7 +63,7 @@
       "handPosition" : [0.2, -24],
       "duration" : 0.2,
       "statusEffects" : [
-        { "kind" : "shieldsuppressed", "duration" : 0.1 }
+        
       ]
     },
     "cooldown" : {
@@ -73,7 +73,7 @@
       "handPosition" : [2.0, -10],
       "duration" : 0.4,
       "statusEffects" : [
-        { "kind" : "shieldsuppressed", "duration" : 0.1 }
+        
       ]
     }
   }
