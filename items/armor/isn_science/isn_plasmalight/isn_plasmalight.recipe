@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 15 },
+    { "item" : "isn_plasma", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "isn_plasmalight",
+    "count" : 1
+  },
+  "groups" : [ "isn_mechanicalworkbench", "tools" ]
+}
