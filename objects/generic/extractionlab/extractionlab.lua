@@ -408,7 +408,7 @@ local recipes =
 {inputs = { wildbiospore=1}, outputs = { shroom=2 }, time = 1.12},
 {inputs = { wildbiscornseed=1 }, outputs = { tissueculture=3 }, time = 1.12},
 {inputs = { wildblizzberryseed=1 }, outputs = { tissueculture=2 }, time = 1.12},
-{inputs = { wildbloodrootseed=1 }, outputs = { bloodliquid=4 }, time = 1.12},
+{inputs = { wildbloodrootseed=1 }, outputs = { liquidblood=4 }, time = 1.12},
 {inputs = { wildbluemelonseed=1 }, outputs = { geneticmaterial=2 }, time = 1.12},
 {inputs = { wildblexplantseed=1 }, outputs = { ff_resin=2 }, time = 1.12},
 {inputs = { wildboltbulbseed=1 }, outputs = { coil=1 }, time = 1.12},

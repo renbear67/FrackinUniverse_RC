@@ -18,11 +18,11 @@
     },    
     {
       "stat" : "protection",
-      "amount" : 17
+      "amount" : 9
     },
     {
       "stat" : "maxEnergy",
-      "amount" : 40
+      "amount" : 32
     },
     "energyregenfu_armor20"
   ]

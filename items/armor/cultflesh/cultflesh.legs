@@ -14,21 +14,21 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "basePercentage" : 0.5
-    },  
+      "basePercentage" : 0.6
+    },      
     {
       "stat" : "protection",
-      "amount" : 11
+      "amount" : 13
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 32
+      "amount" : 38
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 12
+      "amount" : 9
     },
     "slimestickimmunity"
   ],

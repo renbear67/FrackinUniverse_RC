@@ -14,21 +14,21 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "basePercentage" : 0.63
+      "basePercentage" : 0.5
     },  
     {
       "stat" : "protection",
-      "amount" : 25
+      "amount" : 15
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 35
+      "amount" : 27
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 45
+      "amount" : 20
     },
     "ffextremecoldresist"
   ],

@@ -13,5 +13,20 @@
   "supportsProcessing" : true,
   "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],
   "lightColor" : [100, 0, 0],
-  "damageKind" : "plasma"
+  "damageKind" : "plasma",
+  
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "isn_plasmablast",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 1.0,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "config",
+      "file" : "/items/guns/science_mod/isn_plasmabeam/isn_plasmablast.config"
+    }
+  ]
+  
 }

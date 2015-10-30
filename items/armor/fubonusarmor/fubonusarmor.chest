@@ -22,21 +22,21 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "basePercentage" : 2.0
+      "basePercentage" : 1.5
     },  
     {
       "stat" : "protection",
-      "amount" : 22
+      "amount" : 37
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 120
+      "amount" : 110
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 25
+      "amount" : 20
     }
   ],
   "questTags" : [ "tier5armor" ],  

@@ -15,20 +15,22 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "basePercentage" : 0.85
+      "basePercentage" : 0.5
     },
 
     {
       "stat" : "protection",
-      "amount" : 18
+      "amount" : 11
     },
-    {
-      "stat" : "maxHealth",
-      "amount" : 10
-    },
+
     {
       "stat" : "maxEnergy",
-      "amount" : 50
+      "amount" : 26
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 7
     }
   ],
   "triggerKeys" : [ "durasteelarmor" ],

@@ -14,12 +14,12 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "basePercentage" : 0.5
+      "basePercentage" : 0.52
     },
 
     {
       "stat" : "protection",
-      "amount" : 15
+      "amount" : 12
     },
 
     {

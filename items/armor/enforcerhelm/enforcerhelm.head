@@ -15,11 +15,11 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "basePercentage" : 1.45
+      "basePercentage" : 0.724
     },    
     {
       "stat" : "protection",
-      "amount" : 22
+      "amount" : 12
     },
 
     {
@@ -29,7 +29,7 @@
 
     {
       "stat" : "maxHealth",
-      "amount" : 25
+      "amount" : 15
     },
     "defenseboost60"
   ]

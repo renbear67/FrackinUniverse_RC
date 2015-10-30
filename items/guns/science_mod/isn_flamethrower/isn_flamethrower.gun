@@ -16,17 +16,17 @@
   "spread" : 1,
   "muzzleEffect" : {
     "animation" : "/animations/muzzleflash/flamemuzzle/flamemuzzle.animation",
-    "fireSound" : [ { "file" : "/items/guns/isn_flamethrower.wav" } ]
+    "fireSound" : [ { "file" : "/items/guns/science_mod/isn_flamethrower/isn_flamethrower.wav" } ]
   },
   "fireTime" : 0.05,
   "twoHanded" : true,
   "level" : 3,
-  "classMultiplier" : 1,
+  "classMultiplier" : 0.72,
 
   "projectileType" : "isn_flamethrower_shot",
   "projectile" : {
     "speed" : 60,
-    "power" : 0.75,
+    "power" : 0.38,
     "color" : [10, 255, 10]
   }
 }

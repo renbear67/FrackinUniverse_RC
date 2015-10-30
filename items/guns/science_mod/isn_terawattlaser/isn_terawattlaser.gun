@@ -20,7 +20,7 @@
   "fireTime" : 0.2,
   "twoHanded" : true,
   "level" : 5,
-  "classMultiplier" : 1.6,
+  "classMultiplier" : 1,
 
   "projectileType" : "isn_terawattlaser",
   "projectile" : {

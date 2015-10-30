@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "cobblestonematerial", "count" : 65 },
-    { "item" : "ironbar", "count" : 40 },
-    { "item" : "copperbar", "count" : 10 }
+    { "item" : "cobblestonematerial", "count" : 35 },
+    { "item" : "ironbar", "count" : 30 },
+    { "item" : "copperbar", "count" : 7 }
   ],
   "output" : {
     "item" : "distillery",

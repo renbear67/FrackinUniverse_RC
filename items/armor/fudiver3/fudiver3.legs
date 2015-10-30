@@ -14,22 +14,22 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "basePercentage" : 0.8
+      "basePercentage" : 0.54
     },
 
     {
       "stat" : "protection",
-      "amount" : 34
+      "amount" : 17
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 40
+      "amount" : 42
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 40
+      "amount" : 14
     },
     "biooozeimmunity",
     "swimboost4"

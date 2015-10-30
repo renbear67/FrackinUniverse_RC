@@ -16,7 +16,7 @@
   "percentarmorboost80",
     {
       "stat" : "damagebonus",
-      "amount" : 1.6
+      "amount" : 1.2
     },
     "energyregenfu_armor30",
     "insanity"

@@ -6,5 +6,6 @@
   "description" : "Okay, ew.",
   "shortdescription" : "Rotting Flesh",
   
-  "materialId" : 6583
+  "materialId" : 6583,
+  "learnBlueprintsOnUnlock" : [ "isn_meatplant" ] 
 }

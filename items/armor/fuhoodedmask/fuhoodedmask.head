@@ -15,7 +15,7 @@
   "statusEffects" : [
     {
       "stat" : "protection",
-      "amount" : 62
+      "amount" : 11
     },
    "regenerationminor2",
    "energyregenfu_armor30"

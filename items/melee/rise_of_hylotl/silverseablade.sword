@@ -43,7 +43,7 @@
   ],
 
   "primaryStances" : {
-    "projectileType" : "shortswordswoosh1",
+    "projectileType" : "poisonshortsword",
     "projectile" : {
       "speed" : 0.1,
       "power" : 3

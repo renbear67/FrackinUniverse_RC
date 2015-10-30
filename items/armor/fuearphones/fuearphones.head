@@ -14,15 +14,15 @@
   "statusEffects" : [
       {
         "stat" : "maxHealth",
-        "amount" : 80
+        "amount" : 10
     },
     {
       "stat" : "maxEnergy",
-      "amount" : 40
+      "amount" : 20
     },
     {
       "stat" : "protection",
-      "amount" : 40
+      "amount" : 2
     }
   ]
 

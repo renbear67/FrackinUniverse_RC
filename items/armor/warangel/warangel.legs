@@ -13,7 +13,7 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "basePercentage" : 2
+      "basePercentage" : 0.75
     },
 
     {
@@ -28,7 +28,7 @@
 
     {
       "stat" : "maxHealth",
-      "amount" : 18
+      "amount" : 25
     },
     "warangelimmunity"
   ],

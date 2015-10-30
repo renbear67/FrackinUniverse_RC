@@ -12,10 +12,10 @@
   "tooltipKind" : "gun",
   "weaponType" : "Energy Weapon",
   "recoilTime" : 0,
-  "spread" : 1,
+  "projectileCount" : 6,
   "accuracy" : 100,
   "muzzleEffect" : {
-    "fireSound" : [ { "file" : "/items/guns/isn_heatray.wav" } ]
+    "fireSound" : [ { "file" : "/items/guns/science_mod/isn_microwaveray/isn_heatray.wav" } ]
   },
   
   "fireTime" : 0.08,
@@ -26,7 +26,7 @@
   "projectileType" : "isn_microwaveray",
   "projectile" : {
     "speed" : 30,
-    "power" : 1.42,
-    "color" : [200, 200, 200]
+    "power" : 0.12,
+    "color" : [120, 120, 120]
   }
 }

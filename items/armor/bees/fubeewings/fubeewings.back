@@ -10,7 +10,6 @@
   "femaleFrames" : "back.png",
 	
   "statusEffects" : [
-  "runboost25", "jumpboost25", "nofalldamage"
-    
+    "runboost25", "jumpboost25", "nofalldamage"
   ]
 }

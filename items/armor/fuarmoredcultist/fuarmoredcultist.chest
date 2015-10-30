@@ -28,15 +28,15 @@
     },  
     {
       "stat" : "protection",
-      "amount" : 25
+      "amount" : 22
     },
     {
       "stat" : "maxHealth",
       "amount" : 20
     },
     {
-      "stat" : "energyRegen",
-      "amount" : 0.7
+      "stat" : "maxEnergy",
+      "amount" : 55
     }
   ],
 

@@ -23,21 +23,21 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "basePercentage" : 1.52
+      "basePercentage" : 1.05
     },  
     {
       "stat" : "protection",
-      "amount" : 22
+      "amount" : 37
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 120
+      "amount" : 60
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 42
+      "amount" : 35
     },
     "beeimmunity"
   ]

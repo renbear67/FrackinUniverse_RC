@@ -15,17 +15,17 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "basePercentage" : 0.75
+      "basePercentage" : 0.6
     },
 
     {
       "stat" : "protection",
-      "amount" : 20
+      "amount" : 13
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 45
+      "amount" : 36
     },
     {
       "stat" : "biomeradiationImmunity",

@@ -21,7 +21,7 @@
         "override" : [
             [0, [
           {
-            "head" : [ "goggles1" ],
+            "head" : [ "goggles2" ],
             "chest" : [ "steampunkchest" ],
             "legs" : [ "steampunklegs" ]
           }

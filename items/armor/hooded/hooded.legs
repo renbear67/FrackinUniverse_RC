@@ -23,11 +23,11 @@
     },
     {
       "stat" : "maxEnergy",
-      "amount" : 50
+      "amount" : 34
     },
     {
       "stat" : "energyRegen",
-      "amount" : 0.25
+      "amount" : 0.15
     }
   ],
 

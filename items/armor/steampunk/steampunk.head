@@ -18,15 +18,15 @@
     },   
     {
       "stat" : "maxHealth",
-      "amount" : 25
+      "amount" : 14
     },
     {
       "stat" : "maxEnergy",
-      "amount" : 30
+      "amount" : 48
     },
     {
       "stat" : "protection",
-      "amount" : 20
+      "amount" : 15
     }
   ],
 

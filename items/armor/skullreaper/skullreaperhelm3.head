@@ -14,11 +14,11 @@
   "statusEffects" : [
     {
       "stat" : "maxEnergy",
-      "amount" : 160
+      "amount" : 61
     },
     {
       "stat" : "protection",
-      "amount" : 36
+      "amount" : 19
     },
     "glow"
   ]

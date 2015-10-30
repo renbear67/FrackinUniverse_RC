@@ -23,22 +23,22 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "basePercentage" : 1.10
+      "basePercentage" : 1.45
     },
 
     {
       "stat" : "protection",
-      "amount" : 45
+      "amount" : 30
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 55
+      "amount" : 80
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 35
+      "amount" : 25
     },
     "honeyslowimmunity"
   ]

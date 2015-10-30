@@ -14,11 +14,11 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "basePercentage" : 1.435
+      "basePercentage" : 0.55
     },  
       {
         "stat" : "maxEnergy",
-        "amount" : 55
+        "amount" : 40
       },
       {
         "stat" : "protection",
@@ -26,7 +26,7 @@
       },
     {
       "stat" : "maxHealth",
-      "amount" : 15
+      "amount" : 18
     },      
       "densiniumlegeffects"
   ],

@@ -18,15 +18,15 @@
     "fireSound" : [ { "file" : "/sfx/blocks/lava_burn.wav" } ]
   },
   
-  "fireTime" : 0.2,
+  "fireTime" : 0.35,
   "twoHanded" : true,
   "level" : 5,
-  "classMultiplier" : 4,
+  "classMultiplier" : 1.75,
 
   "projectileType" : "isn_irradiator",
   "projectile" : {
    "speed" : 40,
-    "power" : 1,
-    "color" : [0, 200, 0]
+    "power" : 3,
+    "color" : [0, 100, 0]
   }
 }

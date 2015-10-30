@@ -15,12 +15,12 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "basePercentage" : 1.3
+      "basePercentage" : 0.75
     },
 
     {
       "stat" : "protection",
-      "amount" : 16
+      "amount" : 18
     },
 
     {
@@ -30,7 +30,7 @@
 
     {
       "stat" : "maxHealth",
-      "amount" : 12
+      "amount" : 17
     },
     "headlamp3"
   ],

@@ -17,16 +17,16 @@
   
     {
       "stat" : "powerMultiplier",
-      "basePercentage" : 0.93
+      "basePercentage" : 0.7
     },  
     {
       "stat" : "protection",
-      "amount" : 15
+      "amount" : 22
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 120
+      "amount" : 36
     },
 
     {

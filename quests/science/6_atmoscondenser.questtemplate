@@ -1,0 +1,17 @@
+  {
+  "id" : "6_atmoscondenser.gearup",
+  "title" : "^#1693d5;Atmospheric",
+  "text" : "The ^orange;Atmosphere Condenser^white; sucks in resources directly from the air! Make one and connect it to a power source.",
+  "completionText" : "This sweet baby will siphon some useful resources pretty much non-stop! It's quite useful.",
+  "completionConditions" : [ 
+    { "type" : "gather", "item" : "isn_atmoscondenser", "consume" : false }
+  ],
+  "moneyRange" : [200,300],
+  "rewards" : [ 
+    ],
+
+  "requireTurnIn" : false,
+  "canBeAbandoned" : false,
+  "followUp" : "7_arcsmelter.gearup"
+}
+ 

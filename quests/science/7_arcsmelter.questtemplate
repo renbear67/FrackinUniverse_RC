@@ -1,0 +1,15 @@
+  {
+  "id" : "7_arcsmelter.gearup",
+  "title" : "^#1693d5;Arc Smelter",
+  "text" : "If you really want to power-up your resource gathering, ^green;build an ^orange;Arc Smelter^white; in the assembler^white;. It's a power-hungry beast but well worth the cost to make it!",
+  "completionText" : "While a hog on power, you can generate quite a decent supply of resources. Toss just about any ore in there, and you're off to the races!",
+  "completionConditions" : [ 
+    { "type" : "gather", "item" : "isn_arcsmelter", "consume" : false }
+  ],
+  "moneyRange" : [900,1200],
+  "rewards" : [],
+
+  "requireTurnIn" : false,
+  "canBeAbandoned" : false,
+  "followUp" : ""
+}

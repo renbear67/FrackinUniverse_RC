@@ -1,5 +1,30 @@
 [
 {"op":"add",
+	"path":"/isn_meatplant",
+	"value":[[0, {
+	"pool":[ 
+        {"weight" : 0.3, "item" : "fleshstrand"},
+        {"weight" : 0.3, "item" : "alienmeat"},
+        {"weight" : 0.1, "item" : "rawfleshlump"},
+        {"weight" : 0.1, "item" : "offal"},
+        {"weight" : 0.05, "item" : "rawbacon"},
+        {"weight" : 0.05, "item" : "rawpoultry"},
+        {"weight" : 0.05, "item" : "rawribmeat"},
+        {"weight" : 0.05, "item" : "rawfish"}
+	
+	],
+	"poolRounds":[
+          [0.5, 3],
+          [0.25, 4],
+	  [0.125, 5],
+	  [0.125, 6]
+	]
+      }
+    ]
+  ]
+},  
+  
+{"op":"add",
 	"path":"/fuspongeweedseedHarvest",
 	"value":[[0, {
 	"fill":[ {"item":"fuspongeweedseed"},{"item":"fuspongeweed"}  ],

@@ -23,20 +23,20 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "basePercentage" : 2.6
+      "basePercentage" : 1.35
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 30
+      "amount" : 45
     },
     {
       "stat" : "protection",
-      "amount" : 50
+      "amount" : 90
     },
     {
       "stat" : "maxEnergy",
-      "amount" : 145
+      "amount" : 45
     },
     "densiniumchesteffects"
   ],

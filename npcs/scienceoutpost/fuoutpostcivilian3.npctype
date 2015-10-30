@@ -3,7 +3,6 @@
   "baseType" : "outpostcivilian",
   "damageTeam" : 1,
   "scriptConfig" : {
-    
     "reactions" : {
       "spontaneous" : [
       ]

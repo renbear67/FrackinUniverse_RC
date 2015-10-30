@@ -27,7 +27,7 @@
     },  
     {
       "stat" : "protection",
-      "amount" : 50
+      "amount" : 34
     },
 
     {
@@ -37,7 +37,7 @@
 
     {
       "stat" : "maxHealth",
-      "amount" : 50
+      "amount" : 30
     },
     {
       "stat" : "sulphuricImmunity",

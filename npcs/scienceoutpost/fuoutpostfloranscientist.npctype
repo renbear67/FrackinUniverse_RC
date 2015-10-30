@@ -3,14 +3,14 @@
   "baseType" : "fuoutpostcivilian",
  "damageTeam" : 1, 
     "scriptConfig" : {
-        "offeredQuests" : [ "1_designlab.gearup" ],
+        "offeredQuests" : [ "1_designlab.gearup", "1_solararray.gearup" ],
         "turnInQuests" : [ "8_todesignlab.gearup" ],
         "converse" : {
             "waitTime" : 0.5,
             "dialog" : {
           
                 "default" : [
-                      "Wana ssstab a tree for me?"
+                      "Wanna ssstab a tree for me?"
                 ]
                 }
             }

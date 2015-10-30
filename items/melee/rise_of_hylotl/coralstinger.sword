@@ -43,7 +43,7 @@
   ],
 
   "primaryStances" : {
-    "projectileType" : "bloodswoosh",
+    "projectileType" : "cellswoosh",
     "projectile" : {
       "speed" : 0.1,
       "power" : 5

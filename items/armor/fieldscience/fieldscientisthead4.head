@@ -15,7 +15,7 @@
   "statusEffects" : [
       {
         "stat" : "protection",
-        "amount" : 29
+        "amount" : 8
       },
       {
         "stat" : "maxEnergy",

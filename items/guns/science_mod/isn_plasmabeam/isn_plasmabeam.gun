@@ -14,13 +14,13 @@
   "recoilTime" : 0,
   "spread" : 1,
   "muzzleEffect" : {
-    "fireSound" : [ { "file" : "/items/guns/isn_plasmabeam.wav" } ]
+    "fireSound" : [ { "file" : "/items/guns/science_mod/isn_plasmabeam/isn_plasmabeam.wav" } ]
   },
   
   "fireTime" : 0.5,
   "twoHanded" : true,
   "level" : 4,
-  "classMultiplier" : 2.5,
+  "classMultiplier" : 1,
 
   "projectileType" : "isn_plasmabeam_starter",
   "projectile" : {

@@ -23,7 +23,7 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "basePercentage" : 2.1
+      "basePercentage" : 1.25
     },
 
     {
@@ -38,7 +38,7 @@
 
     {
       "stat" : "maxHealth",
-      "amount" : 16
+      "amount" : 30
     },
     "liquidnitrogenimmunity", 
     "sulphuricacidimmunity" 

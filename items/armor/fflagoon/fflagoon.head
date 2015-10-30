@@ -25,11 +25,12 @@
 
     {
       "stat" : "maxEnergy",
-      "amount" : 45
+      "amount" : 50
     },
+
     {
       "stat" : "maxHealth",
-      "amount" : 15
+      "amount" : 14
     },
     {
       "stat" : "breathProtection",

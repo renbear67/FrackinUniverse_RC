@@ -26,7 +26,7 @@
   "projectileType" : "isn_annihilator",
   "projectile" : {
     "speed" : 72,
-    "power" : 3.75,
-    "color" : [255, 255, 255]
+    "power" : 4.75,
+    "color" : [75, 75, 75]
   }
 }

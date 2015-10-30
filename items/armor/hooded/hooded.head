@@ -23,11 +23,11 @@
     },
     {
       "stat" : "maxHealth",
-      "amount" : 50
+      "amount" : 11
     },
     {
       "stat" : "maxEnergy",
-      "amount" : 54
+      "amount" : 45
     }
   ],
 

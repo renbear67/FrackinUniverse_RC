@@ -23,7 +23,7 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "basePercentage" : 1.5
+      "basePercentage" : 1.0
     },
 
     {
@@ -38,13 +38,13 @@
 
     {
       "stat" : "maxHealth",
-      "amount" : 12
+      "amount" : 17
     },
     "liquidnitrogenimmunity", 
     "sulphuricacidimmunity" 
   ],
 
-  "triggerKeys" : [ "tier5armor" ],
+  "triggerKeys" : [ "tier3armor" ],
 
   "colorOptions" : [
     /* YELLOW */

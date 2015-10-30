@@ -15,18 +15,18 @@
   "spread" : 1,
   "accuracy" : 100,
   "muzzleEffect" : {
-    "fireSound" : [ { "file" : "/items/guns/isn_magmacannon.wav" } ]
+    "fireSound" : [ { "file" : "/items/guns/science_mod/isn_fusioncannon/isn_magmacannon.wav" } ]
   },
   
   "fireTime" : 2.5,
   "twoHanded" : true,
   "level" : 6,
-  "classMultiplier" : 1,
+  "classMultiplier" : 0.8,
 
   "projectileType" : "isn_fusioncannon",
   "projectile" : {
     "speed" : 60,
-    "power" : 24,
-    "color" : [255, 200, 0]
+    "power" : 50,
+    "color" : [25, 100, 177]
   }
 }

@@ -15,18 +15,18 @@
   "recoilTime" : 0,
   "spread" : 3,
   "muzzleEffect" : {
-    "fireSound" : [ { "file" : "/items/guns/isn_flamethrower_deep.wav" } ]
+    "fireSound" : [ { "file" : "/items/guns/science_mod/isn_flamethrower4/isn_flamethrower_deep.wav" } ]
   },
   
   "fireTime" : 0.01,
   "twoHanded" : true,
   "level" : 5,
-  "classMultiplier" : 1,
+  "classMultiplier" : 1.52,
 
   "projectileType" : "isn_flamethrower4",
   "projectile" : {
-	"speed" : 120,
-    "power" : 0.75,
-    "color" : [255, 255, 255]
+    "speed" : 120,
+    "power" : 0.22,
+    "color" : [185, 44, 33]
   }
 }

@@ -21,17 +21,17 @@
 
     {
       "stat" : "protection",
-      "amount" : 26
+      "amount" : 18
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 33
+      "amount" : 48
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 23
+      "amount" : 12
     },
     "honeyslowimmunity"
   ]

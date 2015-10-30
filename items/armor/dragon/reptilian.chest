@@ -26,17 +26,17 @@
     },  
     {
       "stat" : "protection",
-      "amount" : 22
+      "amount" : 28
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 120
+      "amount" : 90
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 25
+      "amount" : 20
     }
   ],
   "questTags" : [ "tier5armor" ],  

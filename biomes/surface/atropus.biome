@@ -445,7 +445,23 @@
 
           "type" : "microdungeon",
           "microdungeons" : [ "desertplatforming" ]
-        }
+        },
+           {
+             "mode" : "floor",
+             "priority" : 1.0,
+             "variants" : 1,
+             "distribution" : "/biomes/distributions.config:ffunCommon",
+   
+             "type" : "object",
+             "objectSets" : [
+               {
+                 "pool" : [ 
+                   [0.50, "isn_meatplant" ]
+                 ],
+                 "parameters" : { "startingStage" : 3 }
+               }
+             ]
+           }
       ]
     },
     "undergroundPlaceables" : {

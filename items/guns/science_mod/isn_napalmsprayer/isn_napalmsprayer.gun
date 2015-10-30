@@ -21,12 +21,12 @@
   "fireTime" : 0.1,
   "twoHanded" : true,
   "level" : 4,
-  "classMultiplier" : 3,
+  "classMultiplier" : 1.5,
 
   "projectileType" : "isn_napalmsprayer",
   "projectile" : {
     "speed" : 30,
-    "power" : 3,
+    "power" : 1.25,
     "color" : [255, 200, 45]
   }
 }

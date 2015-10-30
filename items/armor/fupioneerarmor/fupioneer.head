@@ -15,22 +15,22 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "basePercentage" : 0.75
+      "basePercentage" : 0.65
     },
 
     {
       "stat" : "protection",
-      "amount" : 18
+      "amount" : 13
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 48
+      "amount" : 36
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 12
+      "amount" : 8
     }
   ],
 
