@@ -13,7 +13,7 @@
   "level" : 3,
   "tooltipKind" : "gun",
   "weaponType" : "Pistol",
-  "fireTime" : 0.1,
+  "fireTime" : 0.21,
   "inaccuracy" : 0.01,
   "twoHanded" : false,
   "walkWhileFiring" : false,
@@ -21,7 +21,7 @@
   "projectileType" : "isn_plasmapistol",
   "projectile" : {
     "speed" : 75,
-    "power" : 3,
+    "power" : 2,
     "color" : [200, 0, 255]
   },
   "muzzleEffect" : {

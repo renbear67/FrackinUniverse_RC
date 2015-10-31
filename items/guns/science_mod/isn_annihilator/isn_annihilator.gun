@@ -21,12 +21,12 @@
   "fireTime" : 0.33,
   "twoHanded" : true,
   "level" : 4,
-  "classMultiplier" : 0.62,
+  "classMultiplier" : 1.0,
 
   "projectileType" : "isn_annihilator",
   "projectile" : {
     "speed" : 72,
-    "power" : 4.75,
+    "power" : 3,
     "color" : [75, 75, 75]
   }
 }

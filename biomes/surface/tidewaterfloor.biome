@@ -4,7 +4,7 @@
 
   "spawnProfiles" : [
     {
-      "groups" : [ "oceanfloor" ],
+      "groups" : [ "oceanfloor", "elder_deepone2" ],
       "extraSpawns" : [ "glowingfishcritter", "floatbagcritter", "fishlemoncritter", "fishcritter", "fishberrycritter", "fishchilicritter", "smallFishOcean1", "smallFishOcean2", "aggroLargeFish", "passiveLargeFish" ]
     }
   ],

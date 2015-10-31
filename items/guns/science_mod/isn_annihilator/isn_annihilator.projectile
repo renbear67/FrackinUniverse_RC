@@ -1,7 +1,7 @@
 {
   "projectileName" : "isn_annihilator",
   "frames" : "isn_annihilator_shot.png",
-  "physics" : "laser",
+  "physics" : "fuannihilator",
   "damageKindImage" : "icon.png",
   "animationCycle" : 0.05,
   "frameNumber" : 2,
@@ -13,7 +13,7 @@
   "bounces" : 0,
   "supportsProcessing" : true,
   "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],
-  "lightColor" : [255, 255, 255],
+  "lightColor" : [125, 125, 125],
   "emitters" : [ "isn_annihilator" ],
   "damageKind" : "plasma"
 }

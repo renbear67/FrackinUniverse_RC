@@ -20,7 +20,7 @@
       "action" : "projectile",
       "type" : "isn_plasmablast",
       "fuzzAngle" : 0,
-      "inheritDamageFactor" : 1.0,
+      "inheritDamageFactor" : 0.1,
       "angleAdjust" : 0
     },
     {

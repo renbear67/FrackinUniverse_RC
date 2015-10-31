@@ -2,7 +2,7 @@
   "projectileName" : "gravitonorb",
   "frames" : "gravitonorb.png",
   "animationCycle" : 1.0,
-  "physics" : "hover",
+  "physics" : "fugraviton",
   "frameNumber" : 10,
   "pointLight" : true,
   "lightColor" : [255,0,255],

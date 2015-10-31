@@ -18,14 +18,14 @@
     "fireSound" : [ { "file" : "/sfx/projectiles/fireball_poof.wav" } ]
   },
   
-  "fireTime" : 0.12,
+  "fireTime" : 0.22,
   "twoHanded" : true,
   "level" : 6,
   "classMultiplier" : 1.2,
 
   "projectileType" : "isn_sunstream",
   "projectile" : {
-    "power" : 1.2,
+    "power" : 0.65,
     "color" : [0, 0, 0]
   }
 }

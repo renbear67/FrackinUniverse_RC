@@ -5,22 +5,18 @@
   "level" : 1,
   "frameNumber" : 2,
   "damageKindImage" : "icon.png",
-  "physics" : "floatystickybomb",
+  "physics" : "fublistergun",
   "pointLight" : false,
   "timeToLive" : 6,
   "bounces" : 1,
-  "lightColor" : [200, 0, 200],
+  "lightColor" : [170, 0, 170],
   
   "actionOnReap" : [
     {
       "action" : "projectile",
-      "type" : "magentaglobeexplosion",
+      "type" : "blistergunexplosion",
       "inheritDamageFactor" : 1,
       "angle" : 5
-    },
-    {
-      "action" : "sound",
-      "options" : [ "/sfx/projectiles/goocluster_pop.wav" ]
     }
   ],
   

@@ -11,7 +11,7 @@
   "firePosition" : [17, 3],
   "recoilTime" : 0.1,
   "tooltipKind" : "gun",
-  "fireTime" : 0.6,
+  "fireTime" : 0.5,
   "twoHanded" : false,
   "walkWhileFiring" : false,
   "level" : 2,
@@ -20,8 +20,8 @@
   "projectile" : {
     "speed" : 75,
     "life" : 3,
-    "power" : 8,
-    "color" : [255, 10, 10]
+    "power" : 4,
+    "color" : [155, 10, 10]
   },
   "muzzleEffect" : {
     "fireSound" : [ { "file" : "/sfx/gun/revolver2.wav" } ],

@@ -17,15 +17,15 @@
     "fireSound" : [ { "file" : "/items/guns/science_mod/isn_plasmabeam/isn_plasmabeam.wav" } ]
   },
   
-  "fireTime" : 0.5,
+  "fireTime" : 1,
   "twoHanded" : true,
   "level" : 4,
-  "classMultiplier" : 1,
+  "classMultiplier" : 2.214,
 
   "projectileType" : "isn_plasmabeam_starter",
   "projectile" : {
     "speed" : 60,
-    "power" : 7.5,
+    "power" : 12,
     "color" : [150, 255, 150]
   }
 }

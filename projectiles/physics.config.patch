@@ -14,6 +14,91 @@
     "groundFriction" : 0.0
  }
  },
+ 
+
+{"op":"add",
+"path":"/fublistergun",
+"value": {
+    "mass" : 0.7,
+    "gravityMultiplier" : 0.58,
+    "stickyCollision" : true,
+    "stickyForce" : 0.5,
+    "bounceFactor" : 0.0,
+    "maxMovementPerStep" : 0.4,
+    "collisionPoly" : [ [-0.25, -0.25], [0.25, -0.25], [0.25, 0.25], [-0.25, 0.25] ],
+    "ignorePlatformCollision" : true,
+    "groundFriction" : 4.0,
+    "airFriction" : 0.2,
+    "liquidFriction" : 12.0,
+    "speedLimit" : null
+  }
+},      
+  
+
+    
+{"op":"add",
+"path":"/fugraviton",
+"value": {
+    "mass" : 1.5,
+    "gravityMultiplier" : 0.0,
+    "maxMovementPerStep" : 0.07,
+
+    "collisionPoly" : [ [-0.5, -0.5], [0.5, -0.5], [0.5, 0.5], [-0.5, 0.5] ],
+    "ignorePlatformCollision" : true,
+
+    "airFriction" : 4.5,
+    "liquidFriction" : 4.5,
+    "groundFriction" : 4.5
+  }
+}, 
+
+{"op":"add",
+"path":"/fuwaterbullet",
+"value": {
+    "mass" : 0.7,
+    "gravityMultiplier" : 0.38,
+    "bounceFactor" : 0.0,
+    "maxMovementPerStep" : 0.4,
+    "collisionPoly" : [ [-0.25, -0.25], [0.25, -0.25], [0.25, 0.25], [-0.25, 0.25] ],
+    "ignorePlatformCollision" : true,
+    "groundFriction" : 9.0,
+    "airFriction" : 12.2,
+    "liquidFriction" : 0.3,
+    "speedLimit" : null
+  }
+}, 
+
+{"op":"add",
+"path":"/fuannihilator",
+"value": {
+    "gravityMultiplier" : 0.12,
+    "bounceFactor" : 0.0,
+    "maxMovementPerStep" : 0.25,
+    "collisionPoly" : [ [-0.25, -0.25], [0.25, -0.25], [0.25, 0.25], [-0.25, 0.25] ],
+    "ignorePlatformCollision" : true,
+    "groundFriction" : 0.6,
+    "airFriction" : 0.75,
+    "liquidFriction" : 0.0,
+    "speedLimit" : null
+  }
+},    
+
+{"op":"add",
+"path":"/fubullet",
+"value": {
+    "mass" : 1.0,
+    "gravityMultiplier" : 0.24,
+    "maxMovementPerStep" : 0.4,
+
+    "collisionPoly" : [ [-0.25, -0.25], [0.25, -0.25], [0.25, 0.25], [-0.25, 0.25] ],
+    "ignorePlatformCollision" : true,
+    "groundFriction" : 0,
+    "airFriction" : 0.0,
+    "liquidFriction" : 0.0,
+    "speedLimit" : null
+  }
+},
+
 {"op":"add",
 "path":"/vaporizer",
 "value": {

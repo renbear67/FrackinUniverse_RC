@@ -114,7 +114,7 @@ local recipes =
 {inputs = { mutavisksilk=5 }, outputs = { dnasample=1 }, time = 1.12},
 {inputs = { obsidianshard=1 }, outputs = { ammoniumsulfate=1 }, time = 1.12},
 {inputs = { ff_bambooshoot=1 }, outputs = { geneticmaterial=2 }, time = 1.12},
-{inputs = { blooddiamond=1 }, outputs = { bloodore=3 }, time = 1.12},
+{inputs = { blooddiamond=1 }, outputs = { quietusore=3 }, time = 1.12},
 -- tiles
 {inputs = { concretematerial=50 }, outputs = { rawminerals=2 }, time = 1.12},
 {inputs = { honeycombmaterial=50 }, outputs = { fu_liquidhoney=2 }, time = 1.12},

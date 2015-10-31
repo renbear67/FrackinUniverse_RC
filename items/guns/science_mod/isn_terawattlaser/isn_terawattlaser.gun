@@ -17,7 +17,7 @@
     "fireSound" : [ { "file" : "/sfx/gun/plasma_sniper2.wav" } ]
   },
   
-  "fireTime" : 0.2,
+  "fireTime" : 0.34,
   "twoHanded" : true,
   "level" : 5,
   "classMultiplier" : 1,
@@ -25,7 +25,7 @@
   "projectileType" : "isn_terawattlaser",
   "projectile" : {
     "speed" : 300,
-    "power" : 4,
+    "power" : 1.74,
     "color" : [255, 0, 0]
   }
 }

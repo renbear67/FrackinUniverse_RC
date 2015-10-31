@@ -26,7 +26,7 @@
   "projectileType" : "isn_microwaveray",
   "projectile" : {
     "speed" : 30,
-    "power" : 0.12,
+    "power" : 0.15,
     "color" : [120, 120, 120]
   }
 }

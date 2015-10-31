@@ -49,6 +49,12 @@
       "deepone"
       ] 
 },
+{"op":"add",
+ "path":"/spawnGroups/elder_deepone2",
+ "value":[       
+      "deeponecommon"
+      ] 
+},
 
 {"op":"add",
  "path":"/spawnGroups/fu_hive",
@@ -327,8 +333,8 @@
 
 //elder
 {"op":"add","path":"/spawns/starspawn","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.01,"monsterType":"starspawn","monsterParameters":{"aggressive":true}}},
-{"op":"add","path":"/spawns/deepone","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.01,"monsterType":"deepone","monsterParameters":{"aggressive":true}}},
-{"op":"add","path":"/spawns/deeponecommon","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.1,"monsterType":"deepone","monsterParameters":{"aggressive":true}}},
+{"op":"add","path":"/spawns/deepone","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.01,"monsterType":"deepone","monsterParameters":{"aggressive":true}}},
+{"op":"add","path":"/spawns/deeponecommon","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.1,"monsterType":"deepone","monsterParameters":{"aggressive":true}}},
 
 
 

@@ -4,7 +4,7 @@
   "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Rare",
-  "description" : "A weapon that fires a sickening radioactive mist. It's great.",
+  "description" : "A weapon that fires a sickening radioactive mist. It's great!",
   "shortdescription" : "Irradiator",
   "image" : "isn_irradiator.png",
   "handPosition" : [-7, -4],
@@ -20,13 +20,13 @@
   
   "fireTime" : 0.35,
   "twoHanded" : true,
-  "level" : 5,
-  "classMultiplier" : 1.75,
+  "level" : 4,
+  "classMultiplier" : 1.45,
 
   "projectileType" : "isn_irradiator",
   "projectile" : {
    "speed" : 40,
-    "power" : 3,
+    "power" : 1.67,
     "color" : [0, 100, 0]
   }
 }

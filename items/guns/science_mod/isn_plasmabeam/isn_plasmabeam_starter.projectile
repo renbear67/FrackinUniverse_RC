@@ -20,35 +20,35 @@
       "type" : "isn_plasmabeam_1",
       "fuzzAngle" : 0,
       "angleAdjust" : 0,
-      "inheritDamageFactor" : 1
+      "inheritDamageFactor" : 0.9
     },
 	{
       "action" : "projectile",
       "type" : "isn_plasmabeam_2",
       "fuzzAngle" : 0,
       "angleAdjust" : 0,
-      "inheritDamageFactor" : 0.80
+      "inheritDamageFactor" : 0.70
     },
 	{
       "action" : "projectile",
       "type" : "isn_plasmabeam_3",
       "fuzzAngle" : 0,
       "angleAdjust" : 0,
-      "inheritDamageFactor" : 0.60
+      "inheritDamageFactor" : 0.50
     },
 	{
       "action" : "projectile",
       "type" : "isn_plasmabeam_4",
       "fuzzAngle" : 0,
       "angleAdjust" : 0,
-      "inheritDamageFactor" : 0.40
+      "inheritDamageFactor" : 0.30
     }
 	,{
       "action" : "projectile",
       "type" : "isn_plasmabeam_5",
       "fuzzAngle" : 0,
       "angleAdjust" : 0,
-      "inheritDamageFactor" : 0.20
+      "inheritDamageFactor" : 0.10
     }
   ]
 }

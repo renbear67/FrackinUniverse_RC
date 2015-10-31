@@ -26,7 +26,7 @@
   "projectileType" : "isn_fusioncannon",
   "projectile" : {
     "speed" : 60,
-    "power" : 50,
+    "power" : 30,
     "color" : [25, 100, 177]
   }
 }

@@ -416,7 +416,7 @@
              "objectSets" : [
                {
                  "pool" : [ 
-                   [0.50, "isn_meatplant" ]
+                   [0.50, "isn_wildmeatplant" ]
                  ],
                  "parameters" : { "startingStage" : 3 }
                }
