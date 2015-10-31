@@ -15,7 +15,6 @@
     "level" : 6,
     "tooltipKind" : "gun",
     "fireTime" : 0.025,
-    //"inaccuracy" : 0.005,
     "twoHanded" : true,
     "walkWhileFiring" : false,
     "rateOfFire" : [2, 7],
@@ -30,7 +29,7 @@
     "powerProjectileTime" : [0.4, 50],
     "projectile" : {
       "speed" : 33, 
-      "power" : 0.5, 
+      "power" : 0.2, 
       "color" : [0, 220, 0] 
   	}
 }

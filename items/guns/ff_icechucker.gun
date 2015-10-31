@@ -18,7 +18,7 @@
   
   "projectileType" : "iceshardsmall",
   "projectile" : {
-    "power" : 2.3,
+    "power" : 1.7,
     "speed" : 50,
     "color" : [40, 0, 180]
   },

@@ -13,8 +13,19 @@
   "damageKind" : "fireplasma",
   "actionOnReap" : [
     {
+      "action" : "liquid", 
+      "liquid" : "pus", 
+      "quantity" : 1
+    },
+    {
+      "action" : "applySurfaceMod",
+      "previousMod" : "metamod:none",
+      "newMod" : "tentaclegrass",
+      "radius" : 3
+    },
+    {
       "action" : "config",
-      "file" : "/projectiles/explosions/grenadeexplosion/grenadeexplosion.config"
+      "file" : "/projectiles/explosions/cellexplosion/cellexplosion.config"
     },
     {
       "action" : "loop",

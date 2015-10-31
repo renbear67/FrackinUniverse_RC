@@ -11,7 +11,7 @@
   "firePosition" : [12, 0],
   "weaponType" : "Beam",
   "recoilTime" : 0.1,
-  "level" : 4,
+  "level" : 3,
   "tooltipKind" : "gun",
   "fireTime" : 0.782,
   "twoHanded" : false,

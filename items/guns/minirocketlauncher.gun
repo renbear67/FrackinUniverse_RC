@@ -28,7 +28,7 @@
     "powerProjectileTime" : [0.4, 50],
     "projectile" : {
       "speed" : 65, 
-      "power" : 4.8, 
+      "power" : 3.8, 
       "color" : [45, 45, 45] 
   	}
 }

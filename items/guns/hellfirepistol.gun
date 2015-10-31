@@ -21,7 +21,7 @@
   "projectileType" : "hellfireprojectile2small",
   "projectile" : { 
   "speed" : 60, 
-  "power" : 3 , 
+  "power" : 3.6 , 
   "color" : [255, 141, 40] 
   },
   

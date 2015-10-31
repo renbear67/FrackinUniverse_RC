@@ -27,7 +27,7 @@
   "drawPowerCurve" : "drawTimeMultiplier",
   "projectile" : {
     "speed" : 80,
-    "power" : 4.5
+    "power" : 4.9
   },
 
   "muzzleEffect" : {

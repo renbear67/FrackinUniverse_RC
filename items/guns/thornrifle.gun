@@ -19,7 +19,7 @@
   "walkWhileFiring" : false,
   
   "projectileType" : "thornriflebullet",
-  "projectile" : { "speed" : 90, "power" : 6 },
+  "projectile" : { "speed" : 90, "power" : 5.6 },
   "muzzleEffect" : {
        "fireSound" : [ { "file" : "/sfx/projectiles/thorn.wav" } ],
        "animation" :  "/animations/muzzleflash/smokemuzzle/smokemuzzle.animation"

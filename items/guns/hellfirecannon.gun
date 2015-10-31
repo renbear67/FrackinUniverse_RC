@@ -22,7 +22,7 @@
   "projectileType" : "hellfireburst",
   "projectile" : { 
   "speed" : 50, 
-  "power" : 12 , 
+  "power" : 23 , 
   "color" : [255, 141, 40] 
   },
   

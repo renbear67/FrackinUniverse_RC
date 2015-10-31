@@ -11,7 +11,7 @@
     "firePosition" : [27, 2],
     "weaponType" : "Rocket Launcher",
     "recoilTime" : 0.1,
-    "level" : 4,
+    "level" : 5,
     "tooltipKind" : "gun",
     "fireTime" : 0.35,
     "twoHanded" : true,
@@ -27,7 +27,7 @@
     "powerProjectileTime" : [0.4, 50],
     "projectile" : {
       "speed" : 65, 
-      "power" : 4.8, 
+      "power" : 3.95, 
       "color" : [45, 45, 45] 
   	}
 }

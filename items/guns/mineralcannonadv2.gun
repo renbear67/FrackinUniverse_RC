@@ -11,7 +11,7 @@
   "firePosition" : [20, 1.5],
   "weaponType" : "Beam",
   "recoilTime" : 0.1,
-  "level" : 5,
+  "level" : 6,
   "tooltipKind" : "gun",
   "fireTime" : 2.3,
   "twoHanded" : true,
@@ -23,7 +23,7 @@
   "projectileType" : "mineralcannonshotadv2",
   "projectile" : { 
   "speed" : 60, 
-  "power" : 11 , 
+  "power" : 15 , 
   "color" : [0, 220, 0] 
   },
   

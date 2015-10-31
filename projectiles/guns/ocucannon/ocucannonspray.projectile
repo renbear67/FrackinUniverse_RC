@@ -15,19 +15,19 @@
       "action" : "projectile",
       "type" : "ocucannonshot2",
       "fuzzAngle" : 20,
-      "inheritDamageFactor" : 0.33
+      "inheritDamageFactor" : 0.13
     },
     {
       "action" : "projectile",
       "type" : "ocucannonshot2",
       "fuzzAngle" : 20,
-      "inheritDamageFactor" : 0.33
+      "inheritDamageFactor" : 0.13
     },
     {
       "action" : "projectile",
       "type" : "ocucannonshot2",
       "fuzzAngle" : 20,
-      "inheritDamageFactor" : 0.33
+      "inheritDamageFactor" : 0.13
     }
   ]
 }

@@ -21,7 +21,7 @@
   "projectile" : { 
   "speed" : 50, 
   "life" : 3,
-  "power" : 6.75 , 
+  "power" : 6.95 , 
   "color" : [255, 0, 235] 
   },
   "muzzleEffect" : {

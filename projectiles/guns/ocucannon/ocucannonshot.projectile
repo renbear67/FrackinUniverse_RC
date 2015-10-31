@@ -17,10 +17,21 @@
       "file" : "/projectiles/explosions/grenadeexplosion/grenadeexplosion.config"
     },
     {
+      "action" : "liquid", 
+      "liquid" : "pus", 
+      "quantity" : 1.5
+    },
+    {
+      "action" : "applySurfaceMod",
+      "previousMod" : "metamod:none",
+      "newMod" : "tentaclegrass",
+      "radius" : 3
+    },
+    {
       "action" : "projectile",
       "type" : "ocucannonspray",
       "fuzzAngle" : 20,
-      "inheritDamageFactor" : 0.33
+      "inheritDamageFactor" : 0.13
     },
     {
       "action" : "loop",

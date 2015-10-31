@@ -9,9 +9,9 @@
   "image" : "fugaussrifle.png",
   "handPosition" : [-4, -1],
   "firePosition" : [24, 0],
-  "weaponType" : "Beam",
+  "weaponType" : "Coilgun",
   "recoilTime" : 0.1,
-  "level" : 5,
+  "level" : 4,
   "tooltipKind" : "gun",
   "fireTime" : 0.1,
   "inaccuracy" : 0.025,
@@ -23,7 +23,7 @@
   "projectileType" : "gaussrifleshot",
   "projectile" : { 
   "speed" : 75, 
-  "power" : 4.4 , 
+  "power" : 1.0 , 
   "color" : [141, 72, 141] 
   },
   

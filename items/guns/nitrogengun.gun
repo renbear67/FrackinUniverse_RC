@@ -11,7 +11,7 @@
   "firePosition" : [26, 2],
   "weaponType" : "Beam",
   "recoilTime" : 0.1,
-  "level" : 6,
+  "level" : 5,
   "tooltipKind" : "gun",
   "fireTime" : 1.5,
   "twoHanded" : true,
@@ -22,7 +22,7 @@
   "projectileType" : "iceblade",
   "projectile" : { 
   "speed" : 50, 
-  "power" : 6 , 
+  "power" : 14 , 
   "color" : [255, 141, 40] 
   },
   

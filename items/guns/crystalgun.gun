@@ -19,7 +19,7 @@
   "twoHanded" : true,  
   "walkWhileFiring" : false,
   "projectileType" : "crystalshardsmall",
-  "projectile" : { "speed" : 65, "power" : 3.25 , "color" : [22, 10, 76] },
+  "projectile" : { "speed" : 65, "power" : 2.95 , "color" : [22, 10, 76] },
   "muzzleEffect" : {
        "fireSound" : [ { "file" : "/sfx/weapons/vashtagun.wav" } ],
        "animation" :  "/animations/muzzleflash/smokemuzzle/smokemuzzle.animation"

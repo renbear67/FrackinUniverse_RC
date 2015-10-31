@@ -13,11 +13,11 @@
   "tooltipKind" : "gun",
   "level" : 2,
   "recoilTime" : 0.1,
-  "fireTime" : 0.08,
+  "fireTime" : 0.09,
   "inaccuracy" : 0.045,
   "twoHanded" : false,
   "walkWhileFiring" : false,
   
   "projectileType" : "friendlybubble",
-  "projectile" : { "speed" : 40, "power" : 0.98 }
+  "projectile" : { "speed" : 40, "power" : 0.78 }
 }

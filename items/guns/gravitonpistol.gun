@@ -23,7 +23,7 @@
   "projectileType" : "gravitonorbsmall",
   "projectile" : { 
   "speed" : 70, 
-  "power" : 1.8, 
+  "power" : 2.4, 
   "color" : [255, 44, 44] 
   },
   

@@ -13,7 +13,7 @@
   "recoilTime" : 0.1,
   "level" : 3,
   "tooltipKind" : "gun",
-  "fireTime" : 0.15,
+  "fireTime" : 0.25,
   "inaccuracy" : 0.03,
   "twoHanded" : true,
   "walkWhileFiring" : false,
@@ -22,7 +22,7 @@
   "projectileType" : "ionrifleshot",
   "projectile" : { 
   "speed" : 60, 
-  "power" : 2.72 
+  "power" : 1.92 
   },
   
   "muzzleEffect" : {

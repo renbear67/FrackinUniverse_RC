@@ -19,7 +19,7 @@
   "walkWhileFiring" : false,
   
   "projectileType" : "razorleaf",
-  "projectile" : { "speed" : 65, "power" : 3.6  },
+  "projectile" : { "speed" : 65, "power" : 0.82  },
   "muzzleEffect" : {
        "fireSound" : [ { "file" : "/sfx/projectiles/thorn.wav" } ],
        "animation" :  "/animations/muzzleflash/smokemuzzle/smokemuzzle.animation"

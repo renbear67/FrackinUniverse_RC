@@ -20,7 +20,7 @@
   "walkWhileFiring" : false,
   
   "projectileType" : "vashtagunshot",
-  "projectile" : { "speed" : 45, "power" : 6 , "color" : [0, 0, 0] },
+  "projectile" : { "speed" : 45, "power" : 2.3 , "color" : [0, 0, 0] },
   "muzzleEffect" : {
        "fireSound" : [ { "file" : "/sfx/weapons/vashtagun.wav" } ],
        "animation" :  "/animations/muzzleflash/smokemuzzle/smokemuzzle.animation" 

@@ -22,7 +22,7 @@
   "projectileType" : "fftesla",
   "projectile" : { 
   "speed" : 70, 
-  "power" : 9 , 
+  "power" : 12 , 
   "color" : [255, 0, 255] 
   },
   
