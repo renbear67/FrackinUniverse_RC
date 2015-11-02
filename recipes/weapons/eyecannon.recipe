@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "fleshstrand", "count" : 70 },
-    { "item" : "eyepiles", "count" : 12 },
-    { "item" : "corruptionseed", "count" : 8 },
+    { "item" : "fleshstrand", "count" : 40 },
+    { "item" : "eyepiles", "count" : 4 },
+    { "item" : "corruptionseed", "count" : 5 },
     { "item" : "corvex", "count" : 1 }
   ],
   "output" : { "item" : "eyecannon", "count" : 1 },

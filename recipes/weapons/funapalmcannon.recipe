@@ -1,9 +1,9 @@
 {
   "input" : [
-   { "item" : "carbonplate", "count" : 20 },
-   { "item" : "biofuelcannister", "count" : 12 },
+   { "item" : "carbonplate", "count" : 6 },
+   { "item" : "biofuelcannisteradv", "count" : 12 },
    { "item" : "moltencore", "count" : 1 },
-   { "item" : "corefragmentore", "count" : 24 }
+   { "item" : "corefragmentore", "count" : 8 }
   ],
   "output" : {
     "item" : "napalmcannon",

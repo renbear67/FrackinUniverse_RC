@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "particlecannister", "count" : 1 },
-    { "item" : "phosphorus", "count" : 4 }
+    { "item" : "fu_hydrogen", "count" : 3 }
   ],
   "output" : {
     "item" : "particlegrenade",

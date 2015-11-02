@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "thornitox", "count" : 12 },
-    { "item" : "dnasample", "count" : 12 },
-    { "item" : "ironbar", "count" : 6 },
+    { "item" : "thornitox", "count" : 5 },
+    { "item" : "dnasample", "count" : 2 },
+    { "item" : "ironbar", "count" : 4 },
     { "item" : "biochip", "count" : 5 }
   ],
   "output" : {

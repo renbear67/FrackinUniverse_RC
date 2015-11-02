@@ -1,10 +1,8 @@
 {
   "input" : [
-   { "item" : "densiniumbar", "count" : 12 },
+   { "item" : "densiniumbar", "count" : 6 },
    { "item" : "mutagene1", "count" : 2 },
-   { "item" : "densealloy", "count" : 6 },
    { "item" : "particlecore", "count" : 1 },
-   { "item" : "electromagnet", "count" : 8 },
    { "item" : "eridianbar", "count" : 4 }
   ],
   "output" : {

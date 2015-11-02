@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "solaricrystal", "count" : 12 },
-    { "item" : "bone", "count" : 6 },
+    { "item" : "solaricrystal", "count" : 6 },
+    { "item" : "bone", "count" : 2 },
     { "item" : "copperbar", "count" : 4 }
   ],
   "output" : {

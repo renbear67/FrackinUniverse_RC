@@ -4,7 +4,7 @@
     { "item" : "elderrelic12", "count" : 1 },
     { "item" : "glarestalkeye", "count" : 1 },
     { "item" : "corruptionseed", "count" : 12 },
-    { "item" : "energywood", "count" : 10 }
+    { "item" : "energywood", "count" : 7 }
   ],
   "output" : {
     "item" : "cultiststaff3",

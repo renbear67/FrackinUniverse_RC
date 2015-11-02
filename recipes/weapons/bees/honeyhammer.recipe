@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "fuamberchunk", "count" : 10 },
+    { "item" : "fuamberchunk", "count" : 8 },
     { "item" : "bone", "count" : 5 },
     { "item" : "waxchunk", "count" : 8 }
   ],

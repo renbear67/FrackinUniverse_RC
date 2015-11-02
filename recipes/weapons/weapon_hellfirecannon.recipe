@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "advancealloy", "count" : 12 },
-    { "item" : "hellfireplantseed", "count" : 6 },
+    { "item" : "advancealloy", "count" : 5 },
+    { "item" : "hellfireplantseed", "count" : 3 },
     { "item" : "ff_focusingarray", "count" : 2 },
     { "item" : "prisilitestar", "count" : 8 },
     { "item" : "moltencore", "count" : 2 }

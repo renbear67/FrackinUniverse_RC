@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "protocitebar", "count" : 8 },
-    { "item" : "moonstonebar", "count" : 6 },
+    { "item" : "protocitebar", "count" : 4 },
+    { "item" : "moonstonebar", "count" : 3 },
     { "item" : "tungstenbar", "count" : 1 },
     { "item" : "diamond", "count" : 2 }
   ],

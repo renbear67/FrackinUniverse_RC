@@ -1,10 +1,10 @@
 {
   "input" : [
-    { "item" : "obsidianshard", "count" : 8 },
-    { "item" : "imperviumcompound", "count" : 12 },
+    { "item" : "obsidianshard", "count" : 3 },
+    { "item" : "imperviumcompound", "count" : 4 },
     { "item" : "hellfireplantseed", "count" : 2 },
-    { "item" : "ignuschili", "count" : 2 },
-    { "item" : "penumbriteshard", "count" : 6 }
+    { "item" : "corefragmentore", "count" : 2 },
+    { "item" : "penumbriteshard", "count" : 3 }
   ],
   "output" : {
     "item" : "hellfirespear",
