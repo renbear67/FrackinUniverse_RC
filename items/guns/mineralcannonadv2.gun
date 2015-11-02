@@ -17,13 +17,14 @@
   "twoHanded" : true,
   "walkWhileFiring" : false,
   "projectileCount" : 3,
-
+  "classMultiplier" : 0.5,
   "fireOnRelease" : false,
 
   "projectileType" : "mineralcannonshotadv2",
+  
   "projectile" : { 
   "speed" : 60, 
-  "power" : 15 , 
+  "power" : 16 , 
   "color" : [0, 220, 0] 
   },
   

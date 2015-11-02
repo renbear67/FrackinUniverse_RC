@@ -16,14 +16,14 @@
   "tooltipKind" : "gun",
   "fireTime" : 1.2,
   "twoHanded" : true,
-
+  "classMultiplier" : 0.7,
   "fireOnRelease" : false,
   "walkWhileFiring" : false,
 
   "projectileType" : "mineralcannonshotadv",
   "projectile" : { 
   "speed" : 60, 
-  "power" : 18 , 
+  "power" : 25 , 
   "color" : [0, 220, 0] 
   },
   
