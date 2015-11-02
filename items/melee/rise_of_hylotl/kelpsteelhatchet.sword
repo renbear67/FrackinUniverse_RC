@@ -6,7 +6,7 @@
   "rarity" : "rare",
   "description" : "A strangely strong axeblade made from Kelp.",
   "shortdescription" : "Kelpsteel Hatchet",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "kelpsteelhatchet.png",

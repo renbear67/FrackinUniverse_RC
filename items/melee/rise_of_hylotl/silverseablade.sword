@@ -6,7 +6,7 @@
   "rarity" : "common",
   "description" : "A short but sharp sword.",
   "shortdescription" : "Silver Seablade",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Shortsword",
 
   "image" : "silverseablade.png",

@@ -6,7 +6,7 @@
   "rarity" : "rare",
   "description" : "Hard as bone and rough as nails.",
   "shortdescription" : "Coral Bone Razor",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "coraldullblade.png",

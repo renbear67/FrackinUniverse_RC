@@ -6,7 +6,7 @@
   "rarity" : "rare",
   "description" : "A powerful blade you don't want to mess with.",
   "shortdescription" : "Goldensea Spikeblade",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "goldenseascion.png",

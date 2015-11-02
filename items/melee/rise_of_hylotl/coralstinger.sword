@@ -6,7 +6,7 @@
   "rarity" : "rare",
   "description" : "An intimidating weapon that shreds with sharply carved coral.",
   "shortdescription" : "Coral Stinger",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "coralstinger.png",

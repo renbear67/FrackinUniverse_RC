@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Fishbone Headbasher. A spiny hammer.",
   "shortdescription" : "Fishbone Headbasher",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Hammer",
 
   "image" : "fishboneheadbasher.png",

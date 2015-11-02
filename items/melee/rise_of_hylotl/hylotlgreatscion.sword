@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Wielded by many of the greatest Hylotl warriors, and wielded by even greater fools than one can count.",
   "shortdescription" : "Hylotl Warsword",
-  "inspectionKind" : "sword",
+  "tooltipKind" : "sword",
   "kind" : "Broadsword",
 
   "image" : "hylotlgreatscion.png",
