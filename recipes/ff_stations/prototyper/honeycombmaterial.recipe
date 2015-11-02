@@ -6,5 +6,5 @@
     "item" : "honeycombmaterial",
     "count" : 1
   },
-  "groups" : [ "prototyper", "materials", "all" ]
+  "groups" : [ "beestation", "prototyper", "materials", "all" ]
 }

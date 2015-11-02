@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "blisterextract", "count" : 8 },
+    { "item" : "blisterextract", "count" : 3 },
     { "item" : "titaniumplate", "count" : 2 },
-    { "item" : "ff_silicon", "count" : 7 },
-    { "item" : "biochip", "count" : 4 }
+    { "item" : "ff_silicon", "count" : 3 },
+    { "item" : "biochip", "count" : 3 }
   ],
   "output" : {
     "item" : "blisterhelm",

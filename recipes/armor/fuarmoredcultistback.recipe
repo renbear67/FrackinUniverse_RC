@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "corruptionseed", "count" : 4 },
+    { "item" : "corruptionseed", "count" : 3 },
     { "item" : "fleshstrand", "count" : 10 },
-    { "item" : "mutaviskthread", "count" : 6 }
+    { "item" : "mutaviskthread", "count" : 4 }
   ],
   "output" : {
     "item" : "fuarmoredcultistback",

@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "monsterplating", "count" : 11 },
-    { "item" : "ff_resin", "count" : 6 }
+    { "item" : "monsterplating", "count" : 5 },
+    { "item" : "ff_resin", "count" : 3 }
   ],
   "output" : { "item" : "fumonsterplatedhead", "count" : 1 },
   "groups" : [ "prototyper", "armors", "all"]

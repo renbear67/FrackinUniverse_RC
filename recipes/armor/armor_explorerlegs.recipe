@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "ff_penumbraplating", "count" : 6 },
-    { "item" : "ceruliumcompound", "count" : 8 },
-    { "item" : "magneticshielding", "count" : 2 },
+    { "item" : "ff_penumbraplating", "count" : 3 },
+    { "item" : "ceruliumcompound", "count" : 3 },
+    { "item" : "magneticshielding", "count" : 1 },
     { "item" : "microchip", "count" : 2 }
   ],
   "output" : {

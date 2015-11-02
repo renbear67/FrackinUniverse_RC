@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "quietusplate", "count" : 5 },
-    { "item" : "fuprocessor", "count" : 2 },
-    { "item" : "advancealloy", "count" : 4 },
+    { "item" : "quietusplate", "count" : 3 },
+    { "item" : "fuprocessor", "count" : 1 },
+    { "item" : "advancealloy", "count" : 2 },
     { "item" : "blooddiamond", "count" : 2 }
   ],
   "output" : {

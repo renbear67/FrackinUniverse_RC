@@ -3,7 +3,7 @@
     { "item" : "ff_penumbraplating", "count" : 2 },
     { "item" : "triangliumpyramid", "count" : 2 },
     { "item" : "ff_diamondplating", "count" : 2 },
-    { "item" : "eridianbar", "count" : 2 }
+    { "item" : "eridianbar", "count" : 1 }
   ],
   "output" : {
     "item" : "diamondshield",

@@ -3,7 +3,7 @@
     { "item" : "fuamberchunk", "count" : 7 },
     { "item" : "fu_honeycombblock", "count" : 7 },
     { "item" : "godlycomb", "count" : 7 },
-    { "item" : "graphene", "count" : 5 }
+    { "item" : "graphene", "count" : 3 }
   ],
   "output" : {
     "item" : "fugoldenlegs",

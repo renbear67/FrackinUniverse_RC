@@ -13,14 +13,14 @@
   "recoilTime" : 0.1,
   "level" : 4,
   "tooltipKind" : "gun",
-  "projectileCount" : 2,
-  "inaccuracy" : 0.065,
-  "fireTime" : 0.5,
+  "projectileCount" : 1,
+  "inaccuracy" : 0.2,
+  "fireTime" : 0.09,
   "twoHanded" : true,  
   "walkWhileFiring" : false,
   
   "projectileType" : "vashtagunshot",
-  "projectile" : { "speed" : 45, "power" : 2.3 , "color" : [0, 0, 0] },
+  "projectile" : { "speed" : 65, "power" : 0.75 , "color" : [0, 0, 0] },
   "muzzleEffect" : {
        "fireSound" : [ { "file" : "/sfx/weapons/vashtagun.wav" } ],
        "animation" :  "/animations/muzzleflash/smokemuzzle/smokemuzzle.animation" 

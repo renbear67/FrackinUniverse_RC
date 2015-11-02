@@ -69,6 +69,22 @@
 }, 
 
 {"op":"add",
+"path":"/fuvashta",
+"value": {
+    "mass" : 3.4,
+    "gravityMultiplier" : -0.2,
+    "bounceFactor" : 3.0,
+    "maxMovementPerStep" : 0.6,
+    "collisionPoly" : [ [-0.25, -0.25], [0.25, -0.25], [0.25, 0.25], [-0.25, 0.25] ],
+    "ignorePlatformCollision" : true,
+    "groundFriction" : 0.0,
+    "airFriction" : 4.2,
+    "liquidFriction" : 20.3,
+    "speedLimit" : null
+  }
+}, 
+
+{"op":"add",
 "path":"/fuannihilator",
 "value": {
     "gravityMultiplier" : 0.12,

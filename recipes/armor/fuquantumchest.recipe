@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "eridianplate", "count" : 6 },
+    { "item" : "eridianplate", "count" : 5 },
     { "item" : "advcircuit", "count" : 3 },
     { "item" : "aichip", "count" : 1 }
   ],

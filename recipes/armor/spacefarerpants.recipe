@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "titaniumplate", "count" : 6 },
-    { "item" : "protocitebar", "count" : 5 },
+    { "item" : "titaniumplate", "count" : 3 },
+    { "item" : "protocitebar", "count" : 2 },
     { "item" : "vialproto", "count" : 4 },
     { "item" : "electromagnet", "count" : 2 }
   ],

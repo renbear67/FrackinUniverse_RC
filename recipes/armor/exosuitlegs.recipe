@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "fleshstrand", "count" : 22 },
+    { "item" : "fleshstrand", "count" : 12 },
     { "item" : "bone", "count" : 8 },
-    { "item" : "ff_resin", "count" : 10 },
+    { "item" : "ff_resin", "count" : 5 },
     { "item" : "carbonplate", "count" : 4 },
     { "item" : "liquidironfu", "count" : 40 }
   ],

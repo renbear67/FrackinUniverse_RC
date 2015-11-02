@@ -1,7 +1,7 @@
 {
   "projectileName" : "vashtagunshot",
   "frames" : "vashtagunshot.png",
-  "physics" : "laser",
+  "physics" : "fuvashta",
   "timeToLive" : 2,
   "animationCycle" : 0.2,
   "damageKindImage" : "icon.png",
@@ -11,6 +11,7 @@
   "lightColor" : [25, 25, 25],
   "speed" : 30,
   "piercing" : false,
+  "bounces" : 3,
   "damagePoly" : [ [0, -8], [16, -8], [16, 8], [0, 8] ],
   "damageKind" : "electricplasma",
   "actionOnReap" : [

@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "matteritem", "count" : 12 },
+    { "item" : "matteritem", "count" : 8 },
     { "item" : "eridianplate", "count" : 5 },
     { "item" : "wretchel", "count" : 2 },
     { "item" : "corefragmentore", "count" : 12 }

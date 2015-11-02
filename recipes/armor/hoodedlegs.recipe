@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "mutaviskthread", "count" : 7 },
-    { "item" : "graphene", "count" : 3 },
+    { "item" : "mutaviskthread", "count" : 4 },
+    { "item" : "graphene", "count" : 2 },
     { "item" : "biochip", "count" : 2 }
   ],
   "output" : {

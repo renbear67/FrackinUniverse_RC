@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "bone", "count" : 20 },
+    { "item" : "bone", "count" : 10 },
     { "item" : "ironplate", "count" : 2 },
     { "item" : "ff_resin", "count" : 3 }
   ],

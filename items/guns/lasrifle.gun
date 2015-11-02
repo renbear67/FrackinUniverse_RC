@@ -8,7 +8,7 @@
     "shortdescription" : "Las Rifle",
     "image" : "lasrifle.png",
     "handPosition" : [-12, -2],
-    "firePosition" : [27, 2],
+    "firePosition" : [19, 2],
     "weaponType" : "Beam",
     "recoilTime" : 0.1,
     "level" : 2,

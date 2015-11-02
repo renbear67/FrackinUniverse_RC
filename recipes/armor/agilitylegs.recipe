@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "eridianplate", "count" : 5 },
+    { "item" : "eridianplate", "count" : 2 },
     { "item" : "blooddiamond", "count" : 2 },
-    { "item" : "mutaviskthread", "count" : 9 },
-    { "item" : "biochip", "count" : 3 }
+    { "item" : "mutaviskthread", "count" : 4 },
+    { "item" : "biochip", "count" : 2 }
   ],
   "output" : {
     "item" : "agilitysuitlegs",

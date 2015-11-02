@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "ff_protoplating", "count" : 6 },
+    { "item" : "ff_protoplating", "count" : 3 },
     { "item" : "vialproto", "count" : 2 },
-    { "item" : "titaniumplate", "count" : 3 },
-    { "item" : "moonstonebar", "count" : 5 }
+    { "item" : "titaniumplate", "count" : 2 },
+    { "item" : "moonstonebar", "count" : 4 }
   ],
   "output" : {
     "item" : "ff_scoutpants",

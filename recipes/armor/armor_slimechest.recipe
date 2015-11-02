@@ -1,8 +1,8 @@
 {
   "input" : [
     { "item" : "algaegreen", "count" : 6 },
-    { "item" : "greenslime", "count" : 15 },
-    { "item" : "ironplate", "count" : 5 },
+    { "item" : "greenslime", "count" : 6 },
+    { "item" : "ironplate", "count" : 3 },
     { "item" : "endomorphicjelly", "count" : 4 }
   ],
   "output" : {

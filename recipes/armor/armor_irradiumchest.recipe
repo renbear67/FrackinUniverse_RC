@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "irradiumbar", "count" : 8 },
-    { "item" : "triangliumpyramid", "count" : 6 },
+    { "item" : "irradiumbar", "count" : 4 },
+    { "item" : "triangliumpyramid", "count" : 3 },
     { "item" : "tungstenbar", "count" : 6 },
     { "item" : "liquidirradium", "count" : 12 }
   ],

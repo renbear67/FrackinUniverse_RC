@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "triangliumpyramid", "count" : 4 },
-    { "item" : "ff_diamondplating", "count" : 4 },
-    { "item" : "eridianplate", "count" : 2 }
+    { "item" : "triangliumpyramid", "count" : 3 },
+    { "item" : "ff_diamondplating", "count" : 2 },
+    { "item" : "eridianplate", "count" : 1 }
   ],
   "output" : {
     "item" : "ff_diamondarmorpants",

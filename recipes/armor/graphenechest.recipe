@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "graphene", "count" : 16 },
+    { "item" : "graphene", "count" : 4 },
     { "item" : "ff_silicon", "count" : 8 },
-    { "item" : "carbonplate", "count" : 5 }
+    { "item" : "carbonplate", "count" : 4 }
   ],
   "output" : { "item" : "graphenechest", "count" : 1 },
   "groups" : [ "prototyper", "armors", "all" ]

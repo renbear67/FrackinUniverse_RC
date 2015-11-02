@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "triangliumpyramid", "count" : 4 },
-    { "item" : "irradiumbar", "count" : 8 },
-    { "item" : "tungstenbar", "count" : 3 },
+    { "item" : "triangliumpyramid", "count" : 3 },
+    { "item" : "irradiumbar", "count" : 3 },
+    { "item" : "tungstenbar", "count" : 4 },
     { "item" : "liquidirradium", "count" : 14 }
   ],
   "output" : {
