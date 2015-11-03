@@ -39,7 +39,7 @@ function update(dt)
 		-- Decrement our current fuel by one
 		storage.fueledticks = storage.fueledticks - 1
 		-- Increase power but cap it at a 0-100 range
-		storage.currentpowerprod = isn_numericRange((storage.currentpowerprod + storage.decayrate),0,100)
+		storage.currentpowerprod = isn_numericRange((storage.currentpowerprod + storage.decayrate),0,150)
 	else -- oh no we've got no fuel
 		-- if the generator isn't active don't bother trying to refuel
 		if storage.active == true then
@@ -47,7 +47,7 @@ function update(dt)
 			local contents = world.containerItems(entity.id())
 			if contents[1] == nil then
 				-- if there's nothing in storage just skip straight to cutting power
-				storage.currentpowerprod = isn_numericRange((storage.currentpowerprod - storage.decayrate),0,100)
+				storage.currentpowerprod = isn_numericRange((storage.currentpowerprod - storage.decayrate),0,150)
 				return
 			end
 			
@@ -73,7 +73,9 @@ function isn_getCurrentPowerOutput(divide)
 	if divisor < 1 then divisor = 1 end
 	
 	local powercount = 0
-	if storage.currentpowerprod > 90 then powercount = 3
+	if storage.currentpowerprod > 150 then powercount = 5
+	elseif storage.currentpowerprod > 120 then powercount = 4
+	elseif storage.currentpowerprod > 90 then powercount = 3
 	elseif storage.currentpowerprod > 50 then powercount = 2
 	elseif storage.currentpowerprod > 10 then powercount = 1
 	else powercount = 0 end

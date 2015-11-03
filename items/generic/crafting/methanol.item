@@ -4,5 +4,5 @@
   "inventoryIcon" : "methanol.png",
   "description" : "a light, volatile alcohol",
   "shortdescription" : "Methanol",
-  "learnBlueprintsOnPickup" : [ "pesticide" ]
+  "learnBlueprintsOnPickup" : [ "pesticide", "methyliodide" ]
 }
