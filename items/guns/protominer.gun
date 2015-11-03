@@ -9,7 +9,7 @@
     "image" : "protominer.png",
     "learnBlueprintsOnPickup" : [ "penumbriteminer" ],
     "handPosition" : [-8, 0],
-    "firePosition" : [8, -1],
+    "firePosition" : [5, 0],
     "weaponType" : "Beam",
     "recoilTime" : 0.1,
     "level" : 1,

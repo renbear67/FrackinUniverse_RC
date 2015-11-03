@@ -7,7 +7,7 @@
   "description" : "A gene-spliced living weapon.",
   "shortdescription" : "Blister Gun",
   "image" : "blistergun.png",
-  "handPosition" : [-7, -1],
+  "handPosition" : [-10, -1],
   "firePosition" : [18, 4],
   "weaponType" : "Bio Weapon",
   "recoilTime" : 0.1,

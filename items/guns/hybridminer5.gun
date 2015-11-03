@@ -8,7 +8,7 @@
     "shortdescription" : "CT-4 Mining Cannon",
     "image" : "hybridminer5.png",
     "handPosition" : [-8, 0],
-    "firePosition" : [8, 1.5],
+    "firePosition" : [8, 0],
     "weaponType" : "Beam",
     "recoilTime" : 0.1,
     "level" : 2,

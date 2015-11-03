@@ -8,7 +8,7 @@
   "shortdescription" : "Blister Pistol",
   "image" : "blisterpistol.png",
   "handPosition" : [-4, -3],
-  "firePosition" : [16, 2],
+  "firePosition" : [14, 2],
   "weaponType" : "Bio Weapon",
   "recoilTime" : 0.1,
   "level" : 3,

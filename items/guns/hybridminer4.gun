@@ -8,7 +8,7 @@
     "shortdescription" : "KX-1 Mining Beam",
     "image" : "hybridminer4.png",
     "handPosition" : [-8, 0],
-    "firePosition" : [8, 1.5],
+    "firePosition" : [6, 0],
     "learnBlueprintsOnPickup" : [ "hybridminer5" ],
     "weaponType" : "Beam",
     "recoilTime" : 0.1,

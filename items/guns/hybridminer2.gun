@@ -9,7 +9,7 @@
     "image" : "hybridminer2.png",
     "learnBlueprintsOnPickup" : [ "hybridminer3" ],
     "handPosition" : [-8, 0],
-    "firePosition" : [8, -2],
+    "firePosition" : [5, 0],
     "weaponType" : "Beam",
     "recoilTime" : 0.1,
     "level" : 1,
