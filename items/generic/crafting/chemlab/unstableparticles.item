@@ -4,5 +4,5 @@
   "inventoryIcon" : "unstableparticles.png",
   "description" : "unshielded particles for weapons",
   "shortdescription" : "^#77acc3;Unstable Particles^white;",
-  "learnBlueprintsOnPickup" : [ "fuonewayteleporter", "solariumstar", "shadowblade", "mineralpistollite", "mineralcannonlite", "particlecannister", "nuclearcore", "particlegrenade", "particlecore" ]
+  "learnBlueprintsOnPickup" : [ "fuonewayteleporter", "solariumstar", "shadowblade", "particlecannister", "nuclearcore", "particlegrenade", "particlecore" ]
 }

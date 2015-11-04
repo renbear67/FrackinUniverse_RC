@@ -9,7 +9,6 @@
   "shortdescription" : "Quantum Reactor",
   "race" : "generic",
   "printable" : false,
-  "learnBlueprintsOnPickup" : [ "isn_fissionreactor" ],
 
   "inventoryIcon" : "fu_quantumgeneratoricon.png",
   "orientations" : [

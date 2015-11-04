@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "isn_fissionfurnace", "count" : 1 },
+    { "item" : "isn_fissionreactor", "count" : 1 },
     { "item" : "nuclearcore", "count" : 2 },
     { "item" : "eridianplate", "count" : 6 },
     { "item" : "quietusplate", "count" : 6 },
