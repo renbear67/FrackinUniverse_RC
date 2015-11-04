@@ -8,7 +8,7 @@
   "shortdescription" : "Solar Panel",
   "race" : "generic",
   "printable" : false,
-  "learnBlueprintsOnPickup" : [ "isn_thermalgenerator", "isn_powdersifter", "isn_terawattlaser" ],
+  "learnBlueprintsOnPickup" : [ "fu_solararray", "isn_powdersifter", "isn_radiostation" ],
   "apexDescription" : "The MiniKnog tends not to care about renewable energy. There are all manner of theories as to why.",
   "avianDescription" : "Just one of the many uses of the sun.",
   "floranDescription" : "Machine get power from sssun like plant. Floran like it.",
@@ -35,7 +35,7 @@
   
   "scripts" : [ "/objects/power/isn_solarpanel/isn_solarpanel.lua",
                 "/objects/power/isn_sharedpowerscripts.lua",
-				"/objects/isn_sharedobjectscripts.lua"],
+		"/objects/isn_sharedobjectscripts.lua"],
   "scriptDelta" : 50,
   
   "outboundNodes" : [ [2, 1] ],

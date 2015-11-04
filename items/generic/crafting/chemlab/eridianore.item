@@ -4,5 +4,5 @@
   "inventoryIcon" : "eridianore.png",
   "description" : "Eridian ore. A lab-built custom alloy.",
   "shortdescription" : "^#b84cbc;Eridian Chunk^white;",
-  "learnBlueprintsOnPickup" : [ "eridianbar" ]
+  "learnBlueprintsOnPickup" : [ "eridianbar", "isn_terawattlaser" ]
 }

@@ -1,0 +1,55 @@
+{
+  "objectName" : "fu_quantumgenerator",
+  "rarity" : "Common",
+    "tags" : [ "science" ],
+  "category" : "wire",
+  "objectType" : "container",
+  "price" : 2500,
+  "description" : "A hi-tech power solution. Provides excessive power, but requires fuel.",
+  "shortdescription" : "Quantum Reactor",
+  "race" : "generic",
+  "printable" : false,
+  "learnBlueprintsOnPickup" : [ "isn_fissionreactor" ],
+
+  "inventoryIcon" : "fu_quantumgeneratoricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "fu_quantumgenerator_base.png",
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "fu_quantumgenerator.animation",
+  "animationParts" : {
+    "screen" : "fu_quantumgenerator_screen.png",
+    "fans" : "fu_quantumgenerator_fans.png",
+    "base" : "fu_quantumgenerator_base.png"
+  },
+  "animationPosition" : [0, 0],
+  "soundEffect" : "/objects/power/fu_quantumgenerator/fu_quantumgenerator.wav",
+  
+  "slotCount" : 1,
+  "uiConfig" : "/objects/power/fu_quantumgenerator/fu_quantumgenerator.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  
+  "scripts" : [ "/objects/power/fu_quantumgenerator/fu_quantumgenerator.lua",
+                "/objects/power/isn_sharedpowerscripts.lua",
+		"/objects/isn_sharedobjectscripts.lua"],
+  "scriptDelta" : 50,
+  
+  "inboundNodes" : [ [2, 4] ],
+  "outboundNodes" : [ [2, 2] ],
+  
+  "isn_powerSupplier" : true,
+  "acceptablefuel" : {
+    "biofuelcannister" : 1,
+    "biofuelcannisteradv" : 2,
+    "biofuelcannistermax" : 3,
+    "vialproto" : 4,
+    "elderfluid" : 5,
+    "solariumstar" : 6
+  }
+}

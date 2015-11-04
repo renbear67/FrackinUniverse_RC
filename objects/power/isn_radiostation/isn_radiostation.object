@@ -1,0 +1,120 @@
+{
+  "objectName" : "isn_radiostation",
+  "printable" : false,
+  "rarity" : "Rare",
+  "description" : "Picks up on faster-than-light communications. Allows purchase of goods. Requires 2u of power.",
+  "shortdescription" : "Ansible Network",
+  "race" : "generic",
+  "category" : "wire",
+  "price" : 1000,
+
+  "apexDescription" : "It seems to include a small matter transmitter to allow trading. That's useful.",
+  "avianDescription" : "Only the Stargazers are allowed to use subwave communicators in Avos society.",
+  "floranDescription" : "Floran like cosssmic vending machine.",
+  "glitchDescription" : "Impressed. This is very cutting-edge technology.",
+  "humanDescription" : "If this uses quantum physics, I wonder if the signal changes if I observe it.",
+  "hylotlDescription" : "Highly advanced science is at work here.",
+
+  "inventoryIcon" : "isn_radiostation_inv.png",
+  "orientations" : [
+    {
+      "dualImage" : "isn_radiostation_base.png",
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  
+  "scripts" : [ "/objects/power/isn_radiostation/isn_radiostation.lua",
+                "/objects/power/isn_sharedpowerscripts.lua",
+				"/objects/isn_sharedobjectscripts.lua"],
+  "scriptDelta" : 60,
+
+  "animation" : "isn_radiostation.animation",
+  "animationParts" : {
+    "anim" : "isn_radiostation_anim.png",
+    "base" : "isn_radiostation_base.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "inboundNodes" : [ [1, 1] ],
+  "isn_powerReciever" : true,
+  "isn_requiredPower" : 2,
+  
+  "isn_baseFrequencies" : {
+	"isn_miningVendor" : "/objects/power/isn_radiostation/configs/isn_miningvendor.config",
+	"isn_medicalVendor" : "/objects/power/isn_radiostation/configs/isn_medicalvendor.config",
+	"isn_seedsVendor" : "/objects/power/isn_radiostation/configs/isn_seedsvendor.config"
+  },
+  
+  "isn_miningVendor" : {
+	"copperore" : 10,
+	"ironore" : 20,
+	"titaniumore" : 40,
+	"uraniumore" : 100,
+	"plutoniumore" : 175,
+	"silverore" : 25,
+	"goldore" : 50,
+	"platinumore" : 75,
+	"diamond" : 150,
+//FU ores
+	"blooddiamond" : 250,
+	"wolframiteore" : 100,
+	"berliniteore" : 60,
+	"cinnabarore" : 90,
+	"lazuliteore" : 60,
+	"solarishard" : 60,
+	"magnesiumore" : 60,
+	"protociteore" : 350,
+	"penumbriteore" : 350,
+	"irradiumore" : 150,
+	"densiniumore" : 750,
+	"triangliumore" : 450,
+	"prisiliteore" : 350,
+	"corruptionore" : 1150
+
+  },
+  "isn_medicalVendor" : {
+	"bandage" : 20,
+	"antidote" : 20,
+	"medkit" : 75,
+	"nanowrap" : 175,
+	"redstim" : 100,
+	"yellowstim" : 100,
+	"greenstim" : 100,
+	"bluestim" : 100
+  },
+  "isn_seedsVendor" : {
+	"toxictopseed" : 50,
+	"neonmelonseed" : 50,
+	"oculemonseed" : 50,
+	"automatoseed" : 20,
+	"boltbulbseed" : 20,
+	"currentcornseed" : 20,
+	"diodiaseed" : 20,
+	"avesmingoseed" : 20,
+	"beakseed" : 20,
+	"feathercrownseed" : 20,
+	"bonebooseed" : 20,
+	"dirturchinseed" : 20,
+	"pussplumseed" : 20,
+	"wartweedseed" : 20,
+	"eggshootseed" : 20,
+	"coralcreepseed" : 20,
+	"pearlpeaseed" : 20,
+	"reefpodseed" : 20,
+	"bananaseed" : 10,
+	"carrotseed" : 10,
+	"chiliseed" : 10,
+	"coffeeseed" : 10,
+	"cornseed" : 10,
+	"grapesseed" : 10,
+	"kiwiseed" : 10,
+	"pineappleseed" : 10,
+	"potatoseed" : 10,
+	"riceseed" : 10,
+	"sugarcaneseed" : 10,
+	"tomatoseed" : 10,
+	"wheatseed" : 10
+  }
+}

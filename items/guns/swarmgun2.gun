@@ -9,7 +9,7 @@
   "image" : "swarmgun2.png",
   "handPosition" : [-12, -1],
   "firePosition" : [20, 0],
-  "weaponType" : "Beam",
+  "weaponType" : "Bio-Tech",
   "recoilTime" : 0.1,
   "level" : 8,
   "tooltipKind" : "gun",
@@ -22,7 +22,7 @@
   "projectileType" : "fuhivebugx",
   "projectile" : { 
   "speed" : 50, 
-  "power" : 15 , 
+  "power" : 10 , 
   "color" : [255, 141, 40] 
   },
   

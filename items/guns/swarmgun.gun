@@ -9,7 +9,7 @@
   "image" : "swarmgun.png",
   "handPosition" : [-12, -1],
   "firePosition" : [20, 0],
-  "weaponType" : "Beam",
+  "weaponType" : "Bio-Tech",
   "recoilTime" : 0.1,
   "level" : 6,
   "tooltipKind" : "gun",
@@ -22,7 +22,7 @@
   "projectileType" : "insectswarm",
   "projectile" : { 
   "speed" : 50, 
-  "power" : 10 , 
+  "power" : 6, 
   "color" : [255, 141, 40] 
   },
   

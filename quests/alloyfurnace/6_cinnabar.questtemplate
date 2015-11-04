@@ -7,7 +7,7 @@
     { "type" : "gather", "item" : "ff_mercury", "consume" : false }
   ],
   "moneyRange" : [300,500],
-  "rewards" : [ [ "steampunkhead-recipe" ] ],
+  "rewards" : [ [ "steampunkhead" ] ],
 
   "requireTurnIn" : false
 }

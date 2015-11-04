@@ -7,7 +7,7 @@
   "description" : "A wonderful, weird mask.",
   "shortdescription" : "Steampunk Mask",
   "tooltipKind" : "armor",
-
+  "learnBlueprintsOnPickup" : [ "steampunkhead" ],
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",

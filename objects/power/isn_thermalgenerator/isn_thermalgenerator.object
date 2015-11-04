@@ -43,7 +43,7 @@
   
   "scripts" : [ "/objects/power/isn_thermalgenerator/isn_thermalgenerator.lua",
                 "/objects/power/isn_sharedpowerscripts.lua",
-				"/objects/isn_sharedobjectscripts.lua"],
+		"/objects/isn_sharedobjectscripts.lua"],
   "scriptDelta" : 50,
   
   "inboundNodes" : [ [2, 4] ],
@@ -54,11 +54,13 @@
 	  "paper" : 1,
 	  "fullwood1" : 2,
 	  "fullwood2" : 2,
-	  "coalore" : 4,
+	  "coalore" : 3,
+	  "biofuelcannister" : 3,
 	  "liquidoil" : 4,
-	  "isn_petroleum" : 8,
-	  "liquidfuel" : 8,
-	  "supermatter" : 8,
-	  "solariumstar" : 16
+	  "liquidfuel" : 5,
+	  "biofuelcannisteradv" : 5,
+	  "supermatter" : 6,
+	  "biofuelcannistermax" : 7,
+	  "solariumstar" : 8
   }
 }
