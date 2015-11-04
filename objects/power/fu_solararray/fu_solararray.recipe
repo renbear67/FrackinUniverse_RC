@@ -8,5 +8,5 @@
     "item" : "fu_solararray",
     "count" : 1
   },
-  "groups" : [ "prototyper", "genetics", "all" ]
+  "groups" : [ "prototyper", "chemical", "all" ]
 }

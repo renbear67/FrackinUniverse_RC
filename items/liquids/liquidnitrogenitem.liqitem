@@ -8,6 +8,6 @@
 
   "liquid" : "liquidnitrogen",
 
-  "learnBlueprintsOnPickup" : [ "icecrystal", "nitrogengun", "nitrogenpistol" ]
+  "learnBlueprintsOnPickup" : [ "icecrystal", "nitrogengun", "nitrogenpistol", "liquidnitrogenitem" ]
 
 }

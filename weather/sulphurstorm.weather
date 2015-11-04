@@ -60,7 +60,7 @@
     {
       "projectile" : "sulphurstone",
       "parameters" : {
-        "power" : 3
+        "power" : 6
       },
       "velocity" : [0, -50],
       "ratePerX" : 0.004,
@@ -82,7 +82,7 @@
     {
       "projectile" : "sulphurstone3",
       "parameters" : {
-        "power" : 2
+        "power" : 4
       },
       "velocity" : [0, -50],
       "ratePerX" : 0.007,
@@ -93,7 +93,7 @@
     {
       "projectile" : "sulphurstone4",
       "parameters" : {
-        "power" : 1
+        "power" : 3
       },
       "velocity" : [0, -50],
       "ratePerX" : 0.007,

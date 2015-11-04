@@ -50,7 +50,6 @@
   "isn_requiredPower" : 8,
   
   "inputsToOutputs" : {
-          //"coalore" : { "currentoutput" : "fu_carbon", "consumedamount" : 3, "outputamount": 3},
 	  "coalore" : "fu_carbon",
 	  "copperore" : "copperbar",
 	  "ironore" : "ironbar",
@@ -95,7 +94,7 @@
 
 "eridianore" : "eridianbar",
 "berliniteore" : "phosphorus",
-"fu_carbon" : "diamond",
+"fu_carbon" : "coalore",
 "cinnabarore" : "ff_mercury",
 "corruptionore" : "corruptionseed",
 "densiniumore" : "densiniumbar",
@@ -147,7 +146,7 @@
 //FU bonus outpots
 "eridianore" : { "liquidbioooze" : 16, "fu_nitrogen" :9  },
 "berliniteore" : { "ammoniumsulfate" : 16, "fu_carbon" : 9 },
-"fu_carbon" : { "liquidironfu" : 16 },
+"fu_carbon" : { "liquidironfu" : 16, "diamond" : 0.01  },
 "cinnabarore" : { "fu_nitrogen" : 16, "fu_carbon" : 9 },
 "corruptionore" : { "liquiddarkwater" : 16, "ff_silicon" : 9 },
 "densiniumore" : { "liquidironfu" : 16, "fu_carbon" : 9 },
@@ -156,14 +155,14 @@
 "irradiumore" : { "liquidirradium" : 16, "fu_carbon" : 9 },
 "wolframiteore" : { "liquidironfu" : 16, "fu_carbon" : 9 },
 "mascagniteore" : { "ammoniumsulfate" : 16, "fu_carbon" : 9 },
-"magnesiumore" : { "magnesiumopowder" : 16, "fu_oxygen" : 9 },
+"magnesiumore" : { "magnesiumpowder" : 16, "fu_oxygen" : 9 },
 "lazuliteore" : { "phosphorus" : 16, "fu_oxygen" : 9 },
 "penumbriteore" : { "liquiddarkwater" : 16, "fu_nitrogen" : 9 },
 "prisiliteore" : { "liquidgravrain" : 16, "fu_oxygen" : 9 },
 "protociteore" : { "vialproto" : 16, "fu_carbon" : 9 },
 "quietusore" : { "shadowgasliquid" : 16, "ff_silicon" : 9 },
 "solarishard" : { "liquidnitrogenitem" : 16, "fu_carbon" : 9 },
-"triangliumore" : { "liquidmercury" : 16, "fu_silicon" : 9 },
+"triangliumore" : { "liquidmercury" : 16, "ff_silicon" : 9 },
 "moonstoneore" : { "helium3gasliquid" : 16, "fu_carbon" : 9 }
 
   }

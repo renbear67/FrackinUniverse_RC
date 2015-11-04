@@ -1,8 +1,8 @@
 {
   "input" : [
     { "item" : "liquidirradium", "count" : 5 },
-    { "item" : "fu_nitrogen", "count" : 5 },
-    { "item" : "magneticshielding", "count" : 5 },
+    { "item" : "fu_nitrogen", "count" : 50 },
+    { "item" : "electromagnet", "count" : 2 },
     { "item" : "fuprocessor", "count" : 2 },
     { "item" : "particlecore", "count" : 2 }
   ],
@@ -10,5 +10,5 @@
     "item" : "isn_battery_t3_fero",
     "count" : 1
   },
-  "groups" : [ "prototyper", "genetics", "all" ]
+  "groups" : [ "prototyper", "chemical", "all" ]
 }

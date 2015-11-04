@@ -5,6 +5,6 @@
   "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
   "shortdescription" : "Bio-Ooze",
   "description" : "A measure of bio-ooze.",
-
+  "learnBlueprintsOnPickup" : [ "liquidbioooze" ], 
   "liquid" : "bio_ooze"
 }

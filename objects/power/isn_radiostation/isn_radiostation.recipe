@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "durasteelbar", "count" : 15 },
+    { "item" : "durasteelbar", "count" : 10 },
     { "item" : "goldbar", "count" : 5 },
     { "item" : "silverbar", "count" : 10 }
   ],
@@ -8,5 +8,5 @@
     "item" : "isn_radiostation",
     "count" : 1
   },
-  "groups" : [ "isn_mechanicalworkbench", "power" ]
+  "groups" : [ "prototyper", "chemical", "all" ]
 }

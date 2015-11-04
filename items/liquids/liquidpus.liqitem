@@ -5,6 +5,6 @@
   "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
   "shortdescription" : "Pus",
   "description" : "This is absolutely disgusting.",
-
+  "learnBlueprintsOnPickup" : [ "liquidpus" ], 
   "liquid" : "pus"
 }

@@ -796,6 +796,23 @@
   "interactions":[]
   }
 }, 
+
+{"op":"add",
+"path":"/liquids/58",
+"value":{
+  "name":"wastewater",
+  "tickDelta":2,
+  "color":[89,81,56,200],
+  "radiantLight":[0,0,0],
+  "itemDrop":"liquidwastewater",
+  "texture":"/liquids/watertex.png",
+  "bottomLightMix":[51,60,30],
+  "textureMovementFactor":1.6,
+  "statusEffects" :[ "swimming", "weakpoison" ],
+  "interactions":[]
+  }
+}, 
+
 //ItA-Tidewater
     {"op" : "add", 
     "path" : "/liquids/60", 
@@ -841,6 +858,6 @@
 	"bottomLightMix" : [0, 78, 255],
 	"textureMovementFactor" : 1.6
 	} 
-   }
+}
    
 ]

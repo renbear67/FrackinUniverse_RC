@@ -1,0 +1,115 @@
+{
+  "objectName" : "centrifuge",
+  "rarity" : "rare",
+  "tags" : [ "science" ],
+  "description" : "A useful device for separating immiscible liquids.",
+  "shortdescription" : "Lab Centrifuge",
+  "race" : "generic",
+  "category" : "storage",
+  "price" : 1500,
+  "objectType" : "container",
+  "printable" : false,
+
+  "scripts" : [ "/objects/power/centrifuge/centrifuge.lua",
+                "/objects/power/isn_sharedpowerscripts.lua",
+		"/objects/isn_sharedobjectscripts.lua"],
+  "scriptDelta" : 1,
+  
+  "openSounds" : [ "/sfx/objects/campfire_use.wav" ],
+  "slotCount" : 15,
+  "uiConfig" : "/objects/power/centrifuge/centrifuge.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  
+  "animation" : "/objects/power/centrifuge/centrifuge.animation",
+
+  "animationParts" : {
+    "centrifuge" : "centrifuge.png"
+  },
+  "animationPosition" : [0, 0],
+  
+  "inventoryIcon" : "centrifuge_inv.png",
+  "orientations" : [
+    {
+      "dualImage" : "centrifuge.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  
+  "inboundNodes" : [ [2, 2] ],
+  "isn_powerReciever" : true,
+  "isn_requiredPower" : 1,
+  
+  "inputsToOutputs" : {
+// vanilla liquids  
+	  "liquidwater" : "liquidwastewater",
+	  "liquidpoison" : "liquidwastewater",
+	  "liquidlava" : "liquidwastewater",
+	  "liquidslime" : "liquidwastewater",
+	  "liquidoil" : "liquidwastewater",
+	  "liquidfuel" : "liquidwastewater",
+	  "liquidhealing" : "liquidwastewater",
+//fu liquids
+	  "bloodliquid" : "liquidwastewater",
+	  "liquidbioooze" : "liquidwastewater",
+	  "liquidblacktar" : "liquidwastewater",
+	  "liquidorganicsoup" : "liquidwastewater",
+	  "vialproto" : "liquidwastewater",
+	  "liquidelderfluid" : "liquidwastewater",
+	  "liquidsulphuricacid" : "liquidwastewater",
+	  "liquidirradium" : "liquidwastewater",
+	  "liquidmercury" : "liquidwastewater",
+	  "liquidgravrain" : "liquidwastewater",
+	  "liquidironfu" : "liquidwastewater",
+	  "liquidpus" : "liquidwastewater",
+	  "fu_liquidhoney" : "liquidwastewater",
+	  "liquidalienjuice" : "liquidwastewater",
+    "liquidnitrogenitem" : "liquidwastewater",
+    "liquiddarkwater" : "liquidwastewater",
+//isotopes (only for advanced centrifuges)
+    "toxicwaste" : "uraniumore",
+    "uraniumore" : "enricheduranium",
+    "uraniumrod" : "enricheduranium",
+    "plutoniumore" : "enrichedplutonium",
+    "plutoniumrod" : "enrichedplutonium",
+    "solariumore" : "ultronium",
+    "solariumstar" : "ultronium"
+  },
+  
+  "bonusOutputs" : {
+    "liquidwater" : { "fu_hydrogen" : 10,"fu_oxygen" : 10 },
+    "liquidpoison" : { "toxicwaste" : 5,"fu_carbon" : 9 },
+    "liquidlava" : { "corefragmentore" : 3,"fu_carbon" : 8 },
+    "liquidslime" : { "greenslime" : 7 },
+    "liquidoil" : { "fu_carbon" : 8 },
+    "liquidfuel" : { "toxicwaste" : 6, "ff_silicon" : 5 },
+    "liquidhealing" : { "fu_oxygen" : 10, "ff_silicon" : 5 },
+//fu liquids
+    "bloodliquid" : { "geneticmaterial" : 5,"tissueculture" : 5, "dnasample" : 3 },
+    "liquidbioooze" : { "liquidpoison" : 6,"ff_silicon" : 3 },
+    "liquidblacktar" : { "liquidoil" : 8,"fu_carbon" : 5 },
+    "liquidorganicsoup" : { "geneticmaterial" : 7,"tissueculture" : 6, "dnasample" : 1 },
+    "vialproto" : { "protociteore" : 3,"rawminerals" : 8,"nutrientpaste" : 8  },
+    "liquidelderfluid" : { "plutoniumore" : 8,"rawminerals" : 9, "aliencompound" : 1 },
+    "liquidsulphuricacid" : { "sulphur" : 12,"fu_carbon" : 5 },
+    "liquidirradium" : { "sulphur" : 9,"fu_nitrogen" : 6 },
+    "liquidmercury" : { "ff_mercury" : 8,"rawminerals" : 7 },
+    "liquidgravrain" : { "sulphur" : 4,"ff_silicon" : 7,"rawminerals" : 8  },
+    "liquidironfu" : { "ironore" : 8,"fu_carbon" : 8 },
+    "liquidpus" : { "nutrientpaste" : 7,"tissueculture" : 7,"dnasample" : 2  },
+    "fu_liquidhoney" : { "geneticmaterial" : 8,"nutrientpaste" : 8 },
+    "liquidalienjuice" : { "geneticmaterial" : 8,"ff_silicon" : 5 },
+    "liquidnitrogenitem" : { "fu_nitrogen" : 8,"icecrystal" : 1 },
+    "liquiddarkwater" : { "nutrientpaste" : 8,"liquidpoison" : 8,"rawminerals" : 6  },
+//isotopes (only for advanced centrifuges)
+    "toxicwaste" : { "toxicwaste" : 8,"uraniumore" : 5 },
+    "uraniumore" : { "rawminerals" : 8,"fu_carbon" : 5 },
+    "uraniumrod" : { "rawminerals" : 8,"fu_carbon" : 5 },
+    "plutoniumore" : { "rawminerals" : 8,"fu_carbon" : 5 },
+    "plutoniumrod" : { "rawminerals" : 8,"fu_carbon" : 5 },
+    "solariumore" : { "rawminerals" : 8,"fu_carbon" : 5 },
+    "solariumstar" : { "rawminerals" : 8,"fu_carbon" : 5 }
+  }
+}

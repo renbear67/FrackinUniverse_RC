@@ -1,11 +1,12 @@
 {
   "input" : [
     { "item" : "steelbar", "count" : 10 },
+    { "item" : "advcircuit", "count" : 1 },
     { "item" : "goldbar", "count" : 5 }
   ],
   "output" : {
     "item" : "isn_powdersifter",
     "count" : 1
   },
-  "groups" : [ "prototyper", "genetics", "all" ]
+  "groups" : [ "prototyper", "chemical", "all" ]
 }

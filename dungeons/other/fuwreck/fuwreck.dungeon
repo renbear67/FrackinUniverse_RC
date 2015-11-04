@@ -194,7 +194,7 @@
     {
       "value" : [23, 87, 38, 255],
       "comment" : "rustymetal background tiles, with wrecklocker",
-      "brush" : [ [ "clear" ], [ "back", "rustymetal" ], [ "object", "wrecklocker" ] ]
+      "brush" : [ [ "clear" ], [ "back", "rustymetal" ], [ "object", "wrecklocker", { "direction" : "left", "parameters" : { "treasurePools" : [ "basicChestTreasure" ] } } ] ]
     },
 
     {

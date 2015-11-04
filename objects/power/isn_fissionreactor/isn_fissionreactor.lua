@@ -62,8 +62,11 @@ function isn_powerSlotCheck(slotnum)
 	if slotContent.name == "biofuelcannister" then return 1
 	elseif slotContent.name == "biofuelcannisteradv" then return 2
 	elseif slotContent.name == "uraniumrod" then return 1
+	elseif slotContent.name == "enricheduranium" then return 2
 	elseif slotContent.name == "plutoniumrod" then return 2
+	elseif slotContent.name == "enrichedplutonium" then return 3
 	elseif slotContent.name == "biofuelcannistermax" then return 3
+	elseif slotContent.name == "ultronium" then return 3
 	elseif slotContent.name == "solariumstar" then return 3
 	else return 0 end
 end
@@ -80,7 +83,7 @@ function isn_slotDecayCheck(slot, chance)
 	if slotContent.name == "uraniumrod" or slotContent.name == "plutoniumrod" then
 		if math.random(1,80) <= chance then return true end
 	end	
-	if slotContent.name == "biofuelcannistermax" or slotContent.name == "solariumstar" then
+	if slotContent.name == "biofuelcannistermax" or slotContent.name == "solariumstar" or slotContent.name == "enricheduranium" or slotContent.name == "enrichedplutonium" then
 		if math.random(1,100) <= chance then return true end
 	end		
 	return false

@@ -46,9 +46,9 @@
   "acceptablefuel" : {
     "biofuelcannister" : 1,
     "biofuelcannisteradv" : 2,
-    "biofuelcannistermax" : 3,
-    "vialproto" : 4,
-    "elderfluid" : 5,
-    "solariumstar" : 6
+    "vialproto" : 2,
+    "biofuelcannistermax" : 4,
+    "solariumstar" : 5,
+    "elderfluid" : 6
   }
 }
