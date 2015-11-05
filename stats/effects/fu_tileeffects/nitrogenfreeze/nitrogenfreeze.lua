@@ -4,16 +4,19 @@ function init()
   
   script.setUpdateDelta(5)
 
-  self.tickDamagePercentage = 0.015
-  self.tickTime = 1.0
+  self.tickDamagePercentage = 0.01
+  self.tickTime = 0.7
   self.tickTimer = self.tickTime
 end
 
 function update(dt)
   mcontroller.controlModifiers({
-      groundMovementModifier = -0.4,
-      runModifier = -0.5,
-      jumpModifier = -0.3
+        normalGroundFriction = 0.52,
+        groundForce = 23.5,
+        slopeSlidingFactor = 0.375  
+        groundMovementModifier = -0.4,
+        runModifier = -0.32,
+        jumpModifier = -0.15
     })
 
   mcontroller.controlParameters({
@@ -31,7 +34,7 @@ function update(dt)
       })
   end
 
-  effect.setParentDirectives("fade=0000AA="..self.tickTimer * 0.4)
+  effect.setParentDirectives("fade=66FFFF="..self.tickTimer * 0.4)
 end
 
 function uninit()

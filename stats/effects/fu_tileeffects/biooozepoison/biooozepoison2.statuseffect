@@ -2,8 +2,10 @@
   "name" : "biooozepoison2",
   "blockingStat" : "biooozeImmunity",
 
-  "effectConfig" : {},
-  "defaultDuration" : 6,
+  "effectConfig" : {
+    "healthDown" : -0.20  
+  },
+  "defaultDuration" : 30,
 
   "scripts" : [
     "biooozepoison.lua"

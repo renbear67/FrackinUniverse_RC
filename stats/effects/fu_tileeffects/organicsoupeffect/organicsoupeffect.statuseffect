@@ -1,12 +1,14 @@
 {
   "name" : "organicsoupeffect",
-  "effectConfig" : {},
-  "defaultDuration" : 1.0,
+  "effectConfig" : {
+    "healthDown" : 0.25
+    },
+  "defaultDuration" : 5,
 
   "scripts" : [
     "organicsoupeffect.lua"
   ],
 
   "label" : "Organic Soup",
-  "icon" : "/interface/statuses/bounce.png"
+  "icon" : "/interface/statuses/maxhealth.png"
 }

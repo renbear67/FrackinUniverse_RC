@@ -1,11 +1,20 @@
 function init()
+  _x = effect.configParameter("healthDown", 0)
+baseValue = effect.configParameter("healthDown",0)*(status.resourceMax("energy"))
+
+  if (status.resourceMax("health")) * _x >= 100.0 then
+     effect.addStatModifierGroup({{stat = "maxHealth", amount = baseValue }})
+     else
+     effect.addStatModifierGroup({{stat = "maxHealth", amount = baseValue }})
+  end
+  
   script.setUpdateDelta(5)
-  self.tickDamagePercentage = 0.026
-  self.tickTime = 1.0
-  self.tickTimer = self.tickTime
+
+  self.tickDamagePercentage = 0.0
+  self.tickTime = 3.0
+  self.tickTimer = self.tickTime  
   activateVisualEffects()
 end
-
 
 function activateVisualEffects()
   animator.setParticleEmitterOffsetRegion("drips", mcontroller.boundBox())
@@ -27,9 +36,9 @@ function update(dt)
       })
   end
 
-  effect.setParentDirectives("fade=AA00AA="..self.tickTimer * 0.4)
-end
+  effect.setParentDirectives("fade=EEEEEE="..self.tickTimer * 0.4)
 
+end
 
 function uninit()
   

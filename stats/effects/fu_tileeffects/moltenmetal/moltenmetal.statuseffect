@@ -3,7 +3,7 @@
   "blockingStat" : "lavaImmunity",
 
   "effectConfig" : {},
-  "defaultDuration" : 5.75,
+  "defaultDuration" : 7,
 
   "scripts" : [
     "moltenmetal.lua"

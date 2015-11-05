@@ -1,18 +1,18 @@
 {
-  "name" : "mercurypoison",
+  "name" : "contaminatedpoison",
   "blockingStat" : "poisonImmunity",
 
   "effectConfig" : {
-    "healthDown" : -0.50
+    "healthDown" : -0.15
     },
     
-  "defaultDuration" : 120,
+  "defaultDuration" : 60,
 
   "scripts" : [
-    "mercurypoison.lua"
+    "contaminatedpoison.lua"
   ],
 
-  "animationConfig" : "mercurypoison.animation",
+  "animationConfig" : "contaminatedpoison.animation",
 
   "label" : "Poisoned",
   "icon" : "/interface/statuses/poison.png"

@@ -199,7 +199,7 @@
 	"tickDelta" : 2,
 	"color" : [255, 0, 255, 205],
 	"radiantLight" : [115, 0, 115],
-        "statusEffects" : [ "swimming", "energyregenfu05" ],
+        "statusEffects" : [ "swimming", "organicsoupeffect" ],
         "itemDrop" : "liquidorganicsoup",
         "interactions" : [
           {
@@ -802,14 +802,31 @@
 "value":{
   "name":"wastewater",
   "tickDelta":2,
-  "color":[89,81,56,200],
+  "color":[89,81,56,200],//eventually change to default water color for evil funz
   "radiantLight":[0,0,0],
   "itemDrop":"liquidwastewater",
   "texture":"/liquids/watertex.png",
   "bottomLightMix":[51,60,30],
   "textureMovementFactor":1.6,
-  "statusEffects" :[ "swimming", "weakpoison" ],
-  "interactions":[]
+  "statusEffects" :[ "swimming", "contaminatedpoison" ],
+  "interactions":[
+        {
+          "liquid" : 3,
+          "liquidResult" : 3
+        },
+        {
+          "liquid" : 8,
+          "liquidResult" : 0
+        },
+        {
+          "liquid": 12,
+          "liquidResult" : 12
+        } ,
+        {
+          "liquid": 6,
+          "liquidResult" : 6
+        }  
+    ]
   }
 }, 
 
