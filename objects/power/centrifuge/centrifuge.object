@@ -52,7 +52,7 @@
 	  "liquidfuel" : "liquidwastewater",
 	  "liquidhealing" : "liquidwastewater",
 //fu liquids
-	  "bloodliquid" : "liquidwastewater",
+	  "liquidblood" : "liquidwastewater",
 	  "liquidbioooze" : "liquidwastewater",
 	  "liquidblacktar" : "liquidwastewater",
 	  "liquidorganicsoup" : "liquidwastewater",

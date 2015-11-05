@@ -11,12 +11,12 @@ end
 
 function update(dt)
   mcontroller.controlModifiers({
-        normalGroundFriction = 0.52,
-        groundForce = 23.5,
-        slopeSlidingFactor = 0.375,  
-        groundMovementModifier = -0.4,
+
+        groundForce = 43.5,
+        slopeSlidingFactor = 0.6,  
+        groundMovementModifier = -0.6,
         runModifier = -0.32,
-        jumpModifier = -0.15
+        jumpModifier = -0.25
     })
 
   mcontroller.controlParameters({

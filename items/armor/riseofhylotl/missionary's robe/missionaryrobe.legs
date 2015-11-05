@@ -6,7 +6,7 @@
   "rarity" : "common",
   "description" : "A simple pair of protective boots.",
   "shortdescription" : "Missionary Boots",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

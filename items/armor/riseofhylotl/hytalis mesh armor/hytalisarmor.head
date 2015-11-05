@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Grants immunity to poisons.",
   "shortdescription" : "Ultra-Mesh Helm",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

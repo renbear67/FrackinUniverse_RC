@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Immune to acid and liquid nitrogen.",
   "shortdescription" : "Ultra-Mesh Breastplate",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",

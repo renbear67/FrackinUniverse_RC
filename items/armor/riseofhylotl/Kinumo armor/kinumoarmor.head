@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "description" : "Copper-laced protection for wanderers.",
   "shortdescription" : "Sirens Helm",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
