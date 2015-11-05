@@ -13,7 +13,7 @@ function update(dt)
   mcontroller.controlModifiers({
         normalGroundFriction = 0.52,
         groundForce = 23.5,
-        slopeSlidingFactor = 0.375  
+        slopeSlidingFactor = 0.375,  
         groundMovementModifier = -0.4,
         runModifier = -0.32,
         jumpModifier = -0.15

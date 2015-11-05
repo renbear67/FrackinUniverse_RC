@@ -3,7 +3,7 @@
   "blockingStat" : "nitrogenfreezeImmunity",
 
   "effectConfig" : {},
-  "defaultDuration" : 6,
+  "defaultDuration" : 10,
 
   "scripts" : [
     "nitrogenfreeze.lua"
