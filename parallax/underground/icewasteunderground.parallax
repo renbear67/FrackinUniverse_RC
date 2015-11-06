@@ -1,13 +1,18 @@
 {
   "layers" : [
     {
-      "kind" : "tile/icewasteunderground",
-      "nohueshift" : true,
+      "kind" : "tile/icecavernhollow",
+      "nohueshift" : false,
       "lightMapped" : true,
       "parallax" : 1.2,
-      "repeatY" : true,
-      "modifiers" : "?saturation=-10",
-      "baseCount" : 3
+      "repeatY" : true
+    },
+    {
+      "kind" : "tile/icecavern",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.5,
+      "repeatY" : true
     }
   ]
 }

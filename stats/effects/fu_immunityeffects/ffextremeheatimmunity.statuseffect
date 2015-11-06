@@ -6,6 +6,6 @@
   "scripts" : [
     "ffextremeheatimmunity.lua"
   ],
-  "label" : "Heat Immunity",
+  "label" : "Heat Shld",
   "icon" : "/interface/statuses/biomeheat.png"
 }

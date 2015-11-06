@@ -6,6 +6,6 @@
   "scripts" : [
     "pusimmunity.lua"
   ],
-  "label" : "Antidote",
+  "label" : "Pus Proof",
   "icon" : "/interface/statuses/antidote.png"
 }

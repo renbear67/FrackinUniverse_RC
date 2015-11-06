@@ -35,6 +35,7 @@
     {
       "stat" : "lavaImmunity",
       "amount" : 1
-    }
+    },
+    "gloworange"
   ]
 }
