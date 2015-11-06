@@ -40,6 +40,11 @@
       "comment" : "exitteleporter",
       "brush" : [ [ "clear" ], [ "object", "exitteleporter" ] ]
     },
+    {
+      "value" : [90, 104, 53, 255],
+      "comment" : "returnconsole facing right",
+      "brush" : [ [ "clear" ], [ "object", "returnconsole", { "direction" : "right" } ] ]
+    },
 		{
 			"value" : [111, 111, 0, 255],
 			"comment" : "elderurn1 2x2 x-2",

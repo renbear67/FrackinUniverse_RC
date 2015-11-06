@@ -7,7 +7,7 @@
   "description" : "Blister-pod derived armor.",
   "shortdescription" : "Blister Chest",
   "tooltipKind" : "armor",
-
+  "learnBlueprintsOnPickup" : [ "blisterchestalt"],
   "maleFrames" : {
     "body" : "chest.png",
     "backSleeve" : "bsleeve.png",

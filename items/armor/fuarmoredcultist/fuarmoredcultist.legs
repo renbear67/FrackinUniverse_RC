@@ -15,17 +15,17 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "basePercentage" : 0.45
+      "basePercentage" : 0.65
     },  
-    "movementprotection",
     {
       "stat" : "protection",
-      "amount" : 10
+      "amount" : 19
     },
     {
       "stat" : "energyRegen",
       "amount" : 0.35
-    }
+    },
+    "movementprotection"
   ],
 
   "colorOptions" : [

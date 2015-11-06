@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "corruptionseed", "count" : 4 },
-    { "item" : "fleshstrand", "count" : 9 },
+    { "item" : "shoggothflesh", "count" : 9 },
     { "item" : "mutaviskthread", "count" : 5 }
   ],
   "output" : {

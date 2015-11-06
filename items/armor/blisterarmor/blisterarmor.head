@@ -7,7 +7,8 @@
   "description" : "An effective lightsource and decent radiation shield",
   "shortdescription" : "Blister Helm",
   "tooltipKind" : "armor",
-
+  "learnBlueprintsOnPickup" : [ "blisterhelmalt"],
+  
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",

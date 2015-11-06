@@ -20,12 +20,12 @@
   "fireTime" : 1,
   "twoHanded" : true,
   "level" : 4,
-  "classMultiplier" : 2.214,
+  "classMultiplier" : 1,
 
   "projectileType" : "isn_plasmabeam_starter",
   "projectile" : {
     "speed" : 60,
-    "power" : 12,
+    "power" : 16,
     "color" : [150, 255, 150]
   }
 }

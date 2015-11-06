@@ -7,11 +7,7 @@
   "animation" : "shoggoth.animation",
   "colors" : "/monsters/colors.config",
   "reversed" : true,
-  "dropPools" : [
-    {
-      "default" : "money"
-    }
-  ],
+  "dropPools" : [ "shoggothFlesh" ],
 
   "baseParameters" : {
     "scripts" : [
@@ -19,6 +15,7 @@
       "/scripts/stateMachine.lua",
       "/scripts/util.lua",
       "/scripts/vec2.lua",
+      "/monsters/simpleRangedAttack.lua",
       "/monsters/boss/shoggoth/dieState.lua",
       "/monsters/boss/shoggoth/idleState.lua"
     ],
@@ -125,7 +122,7 @@
           "baseValue" : 1.0
         }
       },
-
+      
       "resources" : {
         "health" : {
           "maxStat" : "maxHealth",
@@ -136,6 +133,61 @@
     },
 
     "mouthOffset" : [1.0, -1.5],
-    "feetOffset" : [0, -21]
+    "feetOffset" : [0, -21],
+    
+    
+    
+    "projectiles" : {
+      "deathexplosion" : {
+        "type" : "regularexplosion2universal",
+        "config" : {
+          "speed" : 0.1,
+          "power" : 2,
+
+          "actionOnReap" : [
+            {
+              "action" : "config",
+              "file" : "/projectiles/explosions/regularexplosion2/regularexplosion2universal.config"
+            },
+            {
+              "action" : "projectile",
+              "type" : "shoggothflesh",
+              "inheritDamageFactor" : 0.2,
+              "fuzzAngle" : 30,
+              "angleAdjust" : 0
+            },
+            {
+              "action" : "projectile",
+              "type" : "shoggothflesh",
+              "inheritDamageFactor" : 0.2,
+              "fuzzAngle" : 30,
+              "angleAdjust" : 45
+            },
+            {
+              "action" : "projectile",
+              "type" : "shoggothflesh",
+              "inheritDamageFactor" : 0.2,
+              "fuzzAngle" : 30,
+              "angleAdjust" : -45
+            }
+          ]
+        },
+
+        "fireTime" : 8.0,
+        "fireInterval" : 0.2,
+        "cooldown" : 0.1
+      }
+    }
+    
+    
   }
 }
+
+
+
+
+
+
+
+    
+    

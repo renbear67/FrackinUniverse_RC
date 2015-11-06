@@ -26,7 +26,7 @@
       "dungeonSurfaceHeight" : 1209,
       "ambientLightLevel":[30,20,50],
       "biome" : "icewaste",
-      "musicTrack" : "/music/inviolate.ogg"
+      "musicTrack" : "/sfx/ambiance/shoggoth.ogg"
       }
 }
 ]

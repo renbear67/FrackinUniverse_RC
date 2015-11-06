@@ -1,0 +1,8 @@
+{
+  "itemName" : "shoggothflesh",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "shoggothflesh.png",
+  "description" : "Chunks of flesh from an abhorrent Shoggoth.",
+  "shortdescription" : "Shoggoth Flesh",
+  "learnBlueprintsOnPickup" : [ "fuarmoredcultistback", "fuarmoredcultistchest", "fuarmoredcultisthead", "fuarmoredcultistlegs" ]
+}

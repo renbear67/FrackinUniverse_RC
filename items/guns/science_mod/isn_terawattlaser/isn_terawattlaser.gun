@@ -25,7 +25,7 @@
   "projectileType" : "isn_terawattlaser",
   "projectile" : {
     "speed" : 300,
-    "power" : 3.24,
+    "power" : 3.64,
     "color" : [255, 0, 0]
   }
 }
