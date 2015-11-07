@@ -8,7 +8,7 @@
   "shortdescription" : "1000u 1v Battery Unit",
   "race" : "generic",
   "printable" : false,
-    "learnBlueprintsOnPickup" : [ "isn_battery_t2", "isn_arcsmelter" ],
+    "learnBlueprintsOnPickup" : [ "isn_battery_t2", "fu_blastfurnace" ],
 
   "apexDescription" : "These are useful to have if you can't produce power all the time.",
   "avianDescription" : "These work pretty well in tandem with solar generators.",
