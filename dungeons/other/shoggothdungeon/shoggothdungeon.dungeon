@@ -78,6 +78,11 @@
       "brush" : [ [ "clear" ], [ "front", "protorock" ] ]
     },
     {
+      "value" : [214, 204, 175, 255],
+      "comment" : "background bone tile",
+      "brush" : [ [ "clear" ], [ "front", "bonematerial" ] ]
+    },
+    {
       "value" : [72, 71, 54, 255],
       "comment" : "background elderstone",
       "brush" : [ [ "clear" ], [ "back", "elderstone" ] ]
@@ -299,7 +304,57 @@
       "comment" : "wallshackles facing right",
       "brush" : [ [ "clear" ], [ "object", "wallshackles", { "direction" : "right" } ] ]
     },
-
+    {
+      "value" : [97, 124, 140, 255],
+      "comment" : "pillar 1",
+      "brush" : [ [ "clear" ], [ "object", "cycpillar1" ] ]
+    },  
+    {
+      "value" : [97, 126, 142, 255],
+      "comment" : "pillar 2",
+      "brush" : [ [ "clear" ], [ "object", "cycpillar2" ] ]
+    },  
+    {
+      "value" : [97, 128, 144, 255],
+      "comment" : "pillar 3",
+      "brush" : [ [ "clear" ], [ "object", "cycpillar3" ] ]
+    },      
+    {
+      "value" : [97, 144, 150, 255],
+      "comment" : "huge pillar 1",
+      "brush" : [ [ "clear" ], [ "object", "cycpillar4" ] ]
+    },  
+    {
+      "value" : [97, 146, 152, 255],
+      "comment" : "huge pillar 2",
+      "brush" : [ [ "clear" ], [ "object", "cycpillar5" ] ]
+    },  
+    {
+      "value" : [97, 148, 154, 255],
+      "comment" : "huge pillar 3",
+      "brush" : [ [ "clear" ], [ "object", "cycpillar6" ] ]
+    },  
+    {
+      "value" : [79, 65, 80, 255],
+      "comment" : "elder torch",
+      "brush" : [ [ "clear" ], [ "object", "cyctorch", { "direction" : "right" } ] ]
+    }, 
+    {
+      "value" : [69, 63, 69, 255],
+      "comment" : "elder torch",
+      "brush" : [ [ "clear" ], [ "object", "cyctorch", { "direction" : "left" } ] ]
+    },     
+    {
+      "value" : [228, 213, 46, 255],
+      "comment" : "elder thing statue",
+      "brush" : [ [ "clear" ], [ "object", "elderthingstatue", { "direction" : "left" } ] ]
+    }, 
+    {
+      "value" : [229, 213, 46, 255],
+      "comment" : "elder thing statue",
+      "brush" : [ [ "clear" ], [ "object", "elderthingstatue", { "direction" : "right" } ] ]
+    },     
+    
 	    {
 			"value" : [85, 255, 0, 255],
 			"comment" : "Player Spawn",
@@ -384,11 +439,11 @@
 		// npcs //
 		{
 		"value" : [200, 110, 211, 255],
-		"comment" : "swarpion monster",
+		"comment" : "deepone monster",
 		"brush" : [ [ "npc",
 			{
 				"kind" : "monster",
-				"typeName" : "swarpion",
+				"typeName" : "deepone",
 				"seed" : "stable",
 				"parameters" : {
 				"aggressive" : true,
@@ -397,6 +452,51 @@
 			}
 			] ]
 		},
+		{
+		"value" : [227, 110, 155, 255],
+		"comment" : "mini-shoggoth monster",
+		"brush" : [ [ "npc",
+			{
+				"kind" : "monster",
+				"typeName" : "minishoggoth",
+				"seed" : "stable",
+				"parameters" : {
+				"aggressive" : true,
+				"persistent" : true
+                                }
+			}
+			] ]
+		},
+		{
+		"value" : [247, 12, 155, 255],
+		"comment" : "fleshleech monster",
+		"brush" : [ [ "npc",
+			{
+				"kind" : "monster",
+				"typeName" : "fleshleech",
+				"seed" : "stable",
+				"parameters" : {
+				"aggressive" : true,
+				"persistent" : true
+                                }
+			}
+			] ]
+		},
+		{
+		"value" : [55, 75, 155, 255],
+		"comment" : "shadowtop monster",
+		"brush" : [ [ "npc",
+			{
+				"kind" : "monster",
+				"typeName" : "shadowtop",
+				"seed" : "stable",
+				"parameters" : {
+				"aggressive" : true,
+				"persistent" : true
+                                }
+			}
+			] ]
+		},		
 		{
 		"value" : [100, 110, 111, 255],
 		"comment" : "starspawn monster",

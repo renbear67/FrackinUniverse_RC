@@ -1,7 +1,7 @@
 {
   "name" : "organicsoupeffect",
   "effectConfig" : {
-    "healthDown" : 0.25
+    "healthDown" : 0.20
     },
   "defaultDuration" : 5,
 

@@ -4,14 +4,15 @@
   "category" : "pot",
   "price" : 400,
   "printable" : false,  
-  "description" : "What manner of being is this?",
+  "description" : "An ancient, unknown race. Creepy.",
   "shortdescription" : "Strange Monument",
   "health" : 275,
+  "race" : "generic",
   "inventoryIcon" : "elderthingstatue.png",
   "orientations" : [
     {
       "image" : "elderthingstatue.png:<color>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [-45, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
 
