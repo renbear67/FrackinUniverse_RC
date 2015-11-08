@@ -104,11 +104,11 @@
     "liquidnitrogenitem" : { "fu_nitrogen" : 12,"icecrystal" : 3 },
     "liquiddarkwater" : { "nutrientpaste" : 12,"liquidpoison" : 12,"rawminerals" : 9  },
     "toxicwaste" : { "toxicwaste" : 12,"uraniumore" : 5  },
-    "uraniumore" : { "rawminerals" : 12,"fu_hydrogen" : 12,"enricheduranium" : 8  },
-    "uraniumrod" : { "rawminerals" : 12,"fu_hydrogen" : 12,"enricheduranium" : 15  },
-    "plutoniumore" : { "rawminerals" : 12,"fu_hydrogen" : 12,"enrichedplutonium" : 8  },
-    "plutoniumrod" : { "rawminerals" : 12,"fu_hydrogen" : 12,"enrichedplutonium" : 15  },
-    "solariumore" : { "rawminerals" : 12,"fu_hydrogen" : 12,"ultronium" : 8  },
-    "solariumstar" : { "rawminerals" : 12,"fu_hydrogen" : 12,"ultronium" : 15  }
+    "uraniumore" : { "rawminerals" : 12,"fu_hydrogen" : 12,"enricheduranium" : 16  },
+    "uraniumrod" : { "rawminerals" : 12,"fu_hydrogen" : 12,"enricheduranium" : 25  },
+    "plutoniumore" : { "rawminerals" : 12,"fu_hydrogen" : 12,"enrichedplutonium" : 16  },
+    "plutoniumrod" : { "rawminerals" : 12,"fu_hydrogen" : 12,"enrichedplutonium" : 25  },
+    "solariumore" : { "rawminerals" : 12,"fu_hydrogen" : 12,"ultronium" : 16  },
+    "solariumstar" : { "rawminerals" : 12,"fu_hydrogen" : 12,"ultronium" : 25  }
   }
 }

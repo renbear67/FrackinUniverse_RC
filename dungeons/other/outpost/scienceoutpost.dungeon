@@ -102,7 +102,12 @@
       "value" : [178, 166, 64, 255],
       "comment" : "isn radiostation array facing left",
       "brush" : [ [ "clear" ], [ "object", "isn_radiostation", { "direction" : "left", "parameters" : { "defaultSwitchState" : true } } ] ]
-    },      
+    }, 
+    {
+      "value" : [22, 21, 64, 255],
+      "comment" : "isn incinerator array facing left",
+      "brush" : [ [ "clear" ], [ "object", "isn_incinerator", { "direction" : "left", "parameters" : { "defaultSwitchState" : true } } ] ]
+    },     
     {
       "value" : [147, 178, 64, 255],
       "comment" : "centrifuge 2 array facing left",
@@ -138,6 +143,21 @@
       "comment" : "microscope array facing left",
       "brush" : [ [ "clear" ], [ "object", "microscope", { "direction" : "right", "parameters" : { "defaultSwitchState" : true } } ] ]
     },  
+    {
+      "value" : [77, 77, 164, 255],
+      "comment" : "screens array facing left",
+      "brush" : [ [ "clear" ], [ "object", "screenarray1", { "direction" : "right", "parameters" : { "defaultSwitchState" : true } } ] ]
+    }, 
+    {
+      "value" : [97, 127, 124, 255],
+      "comment" : "screens array facing left",
+      "brush" : [ [ "clear" ], [ "object", "screenarray2", { "direction" : "right", "parameters" : { "defaultSwitchState" : true } } ] ]
+    },   
+    {
+      "value" : [97, 77, 104, 255],
+      "comment" : "screens array facing left",
+      "brush" : [ [ "clear" ], [ "object", "screenarray3", { "direction" : "right", "parameters" : { "defaultSwitchState" : true } } ] ]
+    },     
 // ELDER GOODIES
     {
       "value" : [222, 204, 249, 255],
@@ -540,7 +560,8 @@
           {
             "kind" : "npc",
             "species" : "human",
-            "typeName" : "miner"
+            "typeName" : "miner",
+            "seed" : 112
           }
         ] ]
     },
@@ -566,7 +587,7 @@
             "kind" : "npc",
             "species" : "avian",
             "typeName" : "outpostavianrefugee",
-            "seed" : 25
+            "seed" : 95
           }
         ] ]
     },
@@ -592,7 +613,7 @@
             "kind" : "npc",
             "species" : "floran",
             "typeName" : "outpostfloranhunter",
-            "seed" : 22
+            "seed" : 172
           }
         ] ]
     },
@@ -605,7 +626,7 @@
             "kind" : "npc",
             "species" : "glitch",
             "typeName" : "outpostglitchmechanic",
-            "seed" : 21
+            "seed" : 72
           }
         ] ]
     },
@@ -631,7 +652,7 @@
             "kind" : "npc",
             "species" : "human",
             "typeName" : "outposthumanexcon",
-            "seed" : 46
+            "seed" : 346
           }
         ] ]
     },
@@ -643,7 +664,8 @@
           {
             "kind" : "npc",
             "species" : "penguin",
-            "typeName" : "outpostpenguinpromoter"
+            "typeName" : "outpostpenguinpromoter",
+            "seed" : 462
           }
         ] ]
     },
@@ -1744,14 +1766,14 @@
     
     {
       "value" : [179, 126, 89, 255],
-      "comment" : "outpostairlocklarge facing left",
-      "brush" : [ [ "clear" ], [ "object", "outpostairlocklarge", { "direction" : "left" } ] ]
+      "comment" : "labdoorlarge facing left",
+      "brush" : [ [ "clear" ], [ "object", "labdoorlarge", { "direction" : "left" } ] ]
     },
 
     {
       "value" : [166, 117, 83, 255],
-      "comment" : "outpostairlocklarge facing right",
-      "brush" : [ [ "clear" ], [ "object", "outpostairlocklarge", { "direction" : "right" } ] ]
+      "comment" : "labdoorlarge facing right",
+      "brush" : [ [ "clear" ], [ "object", "labdoorlarge", { "direction" : "right" } ] ]
     },
     
     {
@@ -2303,7 +2325,7 @@
             "kind" : "npc",
             "species" : "hylotl",
             "typeName" : "fuoutpostcivilian",
-            "seed" : 9
+            "seed" : 500
           }
         ] ]
     },

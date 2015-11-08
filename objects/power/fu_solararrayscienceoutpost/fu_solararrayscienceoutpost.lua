@@ -22,14 +22,14 @@ function isn_getCurrentPowerOutput(divide)
 	local genmult = 1
 	local location = isn_getTruePosition()
 	local light = world.lightLevel(location)
-	if light > 0.2 then generated = generated + 3.5 end
-	if light > 0.4 then generated = generated + 3.5 end
-	if light > 0.6 then generated = generated + 3.5 end
-	if light > 0.8 then generated = generated + 6 end
+	if light > 0.2 then generated = generated + 30.5 end
+	if light > 0.4 then generated = generated + 30.5 end
+	if light > 0.6 then generated = generated + 30.5 end
+	if light > 0.8 then generated = generated + 60 end
 	
-	if location[2] < 500 then genmult = 3
-	elseif location[2] > 800 then genmult = 5.5
-	elseif location[2] > 1000 then genmult = 8 end
+	if location[2] < 500 then genmult = 30
+	elseif location[2] > 800 then genmult = 50.5
+	elseif location[2] > 1000 then genmult = 80 end
 	
 	generated = generated * genmult
 	generated = math.min(generated,2)

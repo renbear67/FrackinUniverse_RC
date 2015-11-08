@@ -6,12 +6,12 @@
   "parameters" : {
     "starspawnSpitAttack" : {
       "factory" : "createRangedAttack",
-      "projectile" : "cultistshot",
+      "projectile" : "redboltsmall",
       "range" : 15,
-      "speed" : 25,
-      "power" : 26,
-      "shots" : 1,
-      "windupTime" : 0.05,
+      "speed" : 55,
+      "power" : 20,
+      "shots" : 4,
+      "windupTime" : 0.15,
       "winddownTime" : 0.2
     }
   },

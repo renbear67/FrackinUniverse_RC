@@ -18,13 +18,13 @@
     "path": "/shoggothdungeon",
     "value": 
       {"primaryDungeon":"shoggothdungeon",
-      "threatLevel":7,
+      "threatLevel":6,
       "gravity":110,
       "airless" : true,
       "worldSize":[2000,2000],
       "dungeonBaseHeight" : 1400,
       "dungeonSurfaceHeight" : 1209,
-      "ambientLightLevel":[30,20,50],
+      "ambientLightLevel":[15,10,25],
       "biome" : "icewaste",
       "musicTrack" : "/sfx/ambiance/shoggoth.ogg"
       }

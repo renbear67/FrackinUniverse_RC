@@ -185,7 +185,7 @@
   {
       "baseImages" : "/celestial/system/terrestrial/horizon/textures/moon_desert_<selector>.png",
       "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
-      "maskPerPlanetRange" : [0, 0]  
+      "maskPerPlanetRange" : [3, 3]  
   }},
   {"op" : "add", 
   "path" : "/terrestrialHorizonGraphics/moon_stone",
@@ -193,7 +193,7 @@
   {
       "baseImages" : "/celestial/system/terrestrial/horizon/textures/moon_stone_<selector>.png",
       "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
-      "maskPerPlanetRange" : [0, 0]  
+      "maskPerPlanetRange" : [3, 3]  
   }},
   {"op" : "add", 
   "path" : "/terrestrialHorizonGraphics/moon_toxic",
@@ -201,7 +201,7 @@
   {
       "baseImages" : "/celestial/system/terrestrial/horizon/textures/moon_toxic_<selector>.png",
       "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
-      "maskPerPlanetRange" : [0, 0]  
+      "maskPerPlanetRange" : [3, 3]  
   }},
   {"op" : "add", 
   "path" : "/terrestrialHorizonGraphics/moon_volcanic",
@@ -209,7 +209,7 @@
   {
       "baseImages" : "/celestial/system/terrestrial/horizon/textures/moon_volcanic_<selector>.png",
       "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
-      "maskPerPlanetRange" : [0, 0]  
+      "maskPerPlanetRange" : [3, 3]  
   }},
   {"op" : "add", 
   "path" : "/terrestrialHorizonGraphics/moon_shadow",

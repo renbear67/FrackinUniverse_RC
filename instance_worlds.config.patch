@@ -85,7 +85,7 @@
     },
     "skyParameters" : {
       "spaceLevel" : 3000,
-      "ambientLightLevel" : [ 24, 28, 24 ],
+      "ambientLightLevel" : [ 14, 22, 24 ],
       "satellites" : [ {
         "pos" : [ 0.310561, 0.35497 ],
         "layers" : [ {
