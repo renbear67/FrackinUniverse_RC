@@ -1,0 +1,16 @@
+[
+	{"op":"add","path":"/learnBlueprintsOnPickup","value": [     
+    "tier2bed",
+    "tier2chair",
+    "tier2door",
+    "tier2light",
+    "tier2switch",
+    "tier2table",
+    "steelbow",
+    "hardenedsteelblade", 
+    "genecabinet", 
+    "genestorage", 
+    "fusteelgirdirmaterial",
+    "microscope"
+    ] }
+]

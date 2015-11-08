@@ -6,5 +6,5 @@
     { "item" : "electromagnet", "count" : 2 }
   ],
   "output" : { "item" : "spacefarerpants", "count" : 1 },
-  "groups" : [ "prototyper", "armors", "all" ]
+  "groups" : [ "armory", "armors", "all" ]
 }

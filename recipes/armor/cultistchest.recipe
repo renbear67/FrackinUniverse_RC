@@ -8,5 +8,5 @@
     "item" : "cultarmorchest",
     "count" : 1
   },
-  "groups" : [ "prototyper", "armor", "all" ]
+  "groups" : [ "armory", "armor", "all" ]
 }

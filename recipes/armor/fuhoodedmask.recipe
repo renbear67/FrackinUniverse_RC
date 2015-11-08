@@ -6,5 +6,5 @@
     { "item" : "regengene1", "count" : 1 }
   ],
   "output" : { "item" : "fuhoodedmask", "count" : 1 },
-  "groups" : [ "prototyper", "armors", "all" ]
+  "groups" : [ "armory", "armors", "all" ]
 }

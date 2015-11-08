@@ -7,5 +7,5 @@
     "item" : "armoredsnowpants",
     "count" : 1
   },
-  "groups" : [ "prototyper", "armors", "all" ]
+  "groups" : [ "armory", "armors", "all" ]
 }

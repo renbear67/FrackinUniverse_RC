@@ -5,5 +5,5 @@
     { "item" : "aichip", "count" : 1 }
   ],
   "output" : { "item" : "fuquantumlegs", "count" : 1 },
-  "groups" : [ "prototyper", "armors", "all" ]
+  "groups" : [ "armory", "armors", "all" ]
 }

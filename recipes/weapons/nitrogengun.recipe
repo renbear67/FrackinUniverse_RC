@@ -6,5 +6,5 @@
     
   ],
   "output" : { "item" : "nitrogengun", "count" : 1 },
-  "groups" : [ "prototyper", "weapons", "all" ]
+  "groups" : [ "armory", "weapons", "all" ]
 }

@@ -3,5 +3,6 @@
   "rarity" : "Common",
   "inventoryIcon" : "saltpeter.png",
   "description" : "Useful for various compounds",
-  "shortdescription" : "Saltpeter"
+  "shortdescription" : "Saltpeter",
+  "learnBlueprintsOnPickup" : [ "saltpeter" ]
 }

@@ -4,5 +4,5 @@
     { "item" : "ff_plastic", "count" : 6 }
   ],
   "output" : { "item" : "fupioneerchest", "count" : 1 },
-  "groups" : [ "prototyper", "armors", "all" ]
+  "groups" : [ "armory", "armors", "all" ]
 }

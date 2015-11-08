@@ -71,18 +71,73 @@
     {
       "value" : [132, 139, 104, 255],
       "comment" : "powerpress facing left",
-      "brush" : [ [ "clear" ], [ "object", "powerpress", { "direction" : "left", "parameters" : { "defaultSwitchState" : true } } ] ]
+      "brush" : [ [ "clear" ], [ "object", "powerpress", { "direction" : "right", "parameters" : { "defaultSwitchState" : true } } ] ]
     }, 
     {
       "value" : [122, 139, 114, 255],
       "comment" : "fissionfurnace facing left",
-      "brush" : [ [ "clear" ], [ "object", "fissionfurnace", { "direction" : "left", "parameters" : { "defaultSwitchState" : true } } ] ]
+      "brush" : [ [ "clear" ], [ "object", "fissionfurnace", { "direction" : "right", "parameters" : { "defaultSwitchState" : true } } ] ]
     }, 
     {
-      "value" : [128, 179, 114, 255],
+      "value" : [128, 179, 114, 255], 
       "comment" : "nanofab facing left",
       "brush" : [ [ "clear" ], [ "object", "nanofabricator", { "direction" : "left", "parameters" : { "defaultSwitchState" : true } } ] ]
     },
+    {
+      "value" : [178, 179, 24, 255],
+      "comment" : "armory facing left",
+      "brush" : [ [ "clear" ], [ "object", "armory", { "direction" : "right", "parameters" : { "defaultSwitchState" : true } } ] ]
+    },    
+    {
+      "value" : [178, 129, 24, 255],
+      "comment" : "solar array facing left",
+      "brush" : [ [ "clear" ], [ "object", "fu_solararrayscienceoutpost", { "direction" : "right", "parameters" : { "defaultSwitchState" : true } } ] ]
+    },   
+    {
+      "value" : [178, 139, 64, 255],
+      "comment" : "blast furnace array facing left",
+      "brush" : [ [ "clear" ], [ "object", "fu_blastfurnace", { "direction" : "right", "parameters" : { "defaultSwitchState" : true } } ] ]
+    },      
+    {
+      "value" : [178, 166, 64, 255],
+      "comment" : "isn radiostation array facing left",
+      "brush" : [ [ "clear" ], [ "object", "isn_radiostation", { "direction" : "left", "parameters" : { "defaultSwitchState" : true } } ] ]
+    },      
+    {
+      "value" : [147, 178, 64, 255],
+      "comment" : "centrifuge 2 array facing left",
+      "brush" : [ [ "clear" ], [ "object", "centrifuge2", { "direction" : "right", "parameters" : { "defaultSwitchState" : true } } ] ]
+    },      
+    {
+      "value" : [147, 128, 174, 255],
+      "comment" : "atmoscondenser array facing left",
+      "brush" : [ [ "clear" ], [ "object", "isn_atmoscondenser", { "direction" : "left", "parameters" : { "defaultSwitchState" : true } } ] ]
+    },
+    {
+      "value" : [127, 128, 194, 255],
+      "comment" : "powdersifter array facing left",
+      "brush" : [ [ "clear" ], [ "object", "isn_powdersifter", { "direction" : "right", "parameters" : { "defaultSwitchState" : true } } ] ]
+    },   
+    {
+      "value" : [117, 168, 34, 255],
+      "comment" : "arcsmelter array facing left",
+      "brush" : [ [ "clear" ], [ "object", "isn_arcsmelter", { "direction" : "right", "parameters" : { "defaultSwitchState" : true } } ] ]
+    }, 
+    {
+      "value" : [17, 168, 34, 255],
+      "comment" : "hydroponicstray array facing left",
+      "brush" : [ [ "clear" ], [ "object", "isn_hydroponicstray", { "direction" : "right", "parameters" : { "defaultSwitchState" : true } } ] ]
+    },     
+    {
+      "value" : [17, 255, 64, 255],
+      "comment" : "apexpod array facing left",
+      "brush" : [ [ "clear" ], [ "object", "apexpod", { "direction" : "right", "parameters" : { "defaultSwitchState" : true } } ] ]
+    },  
+    {
+      "value" : [17, 24, 164, 255],
+      "comment" : "microscope array facing left",
+      "brush" : [ [ "clear" ], [ "object", "microscope", { "direction" : "right", "parameters" : { "defaultSwitchState" : true } } ] ]
+    },  
 // ELDER GOODIES
     {
       "value" : [222, 204, 249, 255],

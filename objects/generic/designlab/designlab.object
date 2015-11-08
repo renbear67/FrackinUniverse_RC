@@ -28,8 +28,7 @@
       "animationCycle" : 3.0,
 
       "spaceScan" : 0.1,
-      "fgAnchors" : [ [0, -1] ],
-      "collision" : "platform"
+      "fgAnchors" : [ [0, -1] ]
     }
   ]
 

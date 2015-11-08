@@ -6,5 +6,5 @@
     { "item" : "bone", "count" : 20 }
   ],
   "output" : { "item" : "cultfleshchest", "count" : 1 },
-  "groups" : [ "prototyper", "armors", "all" ]
+  "groups" : [ "armory", "armors", "all" ]
 }

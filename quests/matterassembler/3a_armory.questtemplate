@@ -1,0 +1,15 @@
+  {
+  "id" : "3a_armory.gearup",
+  "prerequisites" : [ ],
+  "title" : "^#1693d5;The Armory",
+  "text" : "You're going to want to produce weapons and armor at some point. For that, you will need an ^orange;Armory^white;. Go ahead and make one.",
+  "completionText" : "Now you will be able to put together some truly useful protection, and gain access to whole new realms of discovery.",
+  "completionConditions" : [ 
+    { "type" : "gather", "item" : "armory", "consume" : false }
+  ],
+  "moneyRange" : [0,0],
+  "rewards" : [],
+  "requireTurnIn" : false,
+  "canBeAbandoned" : false,
+  "followUp" : "3b_powerpress.gearup"
+}

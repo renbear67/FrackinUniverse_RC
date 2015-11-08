@@ -6,5 +6,5 @@
     { "item" : "corvex", "count" : 4 }
   ],
   "output" : { "item" : "goregun", "count" : 1 },
-  "groups" : [ "prototyper", "weapons", "all" ]
+  "groups" : [ "armory", "weapons", "all" ]
 }

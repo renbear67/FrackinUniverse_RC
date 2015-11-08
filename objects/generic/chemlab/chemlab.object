@@ -21,7 +21,7 @@
   "humanDescription" : "A BioChem Lab.",
   "hylotlDescription" : "A BioChem Lab.",
 
-  "learnBlueprintsOnPickup" : [ "xenostation", "synthesizedprotein", "luminescentpaste", "peptidechain", "cellmatter", "calciumnitrate", "magnesiumsulfate", "cellmateria", "aminoacid", "ff_fertilizer", "unstableparticles"  ],
+  "learnBlueprintsOnPickup" : [ "xenostation", "synthesizedprotein", "luminescentpaste", "ff_fertilizer", "unstableparticles"  ],
 
   "lightColor" : [20, 20, 40],
   "soundEffect" : "/sfx/objects/fridge_hum.wav",
@@ -35,8 +35,7 @@
       "animationCycle" : 0.6,
 
       "spaceScan" : 0.1,
-      "fgAnchors" : [ [0, -1] ],
-      "collision" : "platform"
+      "fgAnchors" : [ [0, -1] ]
     }
   ]
 

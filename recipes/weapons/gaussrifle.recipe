@@ -10,5 +10,5 @@
     "item" : "fugaussrifle",
     "count" : 1
   },
-  "groups" : [ "prototyper", "weapons", "all" ]
+  "groups" : [ "armory", "weapons", "all" ]
 }
