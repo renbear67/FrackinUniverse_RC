@@ -1,7 +1,7 @@
 {
   "objectName" : "elderthingstatue",
   "rarity" : "Common",
-  "category" : "pot",
+  "category" : "decorative",
   "price" : 400,
   "printable" : false,  
   "description" : "An ancient, unknown race. Creepy.",
@@ -12,7 +12,7 @@
   "orientations" : [
     {
       "image" : "elderthingstatue.png:<color>",
-      "imagePosition" : [-45, 0],
+      "imagePosition" : [0, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
 
@@ -20,13 +20,5 @@
       "anchors" : [ "bottom" ]
 
     }
-  ],
-  "smashSounds" : [ "/sfx/tools/axe_chop_alt_heavy.wav" ],
-  "smashDropOptions" : [
-    [ [ "elderthingstatue", 1, { } ] ]
-  ],
-
-  "breakDropOptions" : [
-    [ [ "elderthingstatue", 1, { } ] ]
   ]
 }

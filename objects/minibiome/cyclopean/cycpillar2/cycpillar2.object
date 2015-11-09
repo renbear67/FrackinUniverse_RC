@@ -1,7 +1,7 @@
 {
   "objectName" : "cycpillar2",
   "rarity" : "Common",
-  "category" : "pot",
+  "category" : "decorative",
   "price" : 400,
   "printable" : false,  
   "description" : "Who could have built this?",
@@ -11,7 +11,7 @@
   "orientations" : [
     {
       "image" : "cycpillar2.png:<color>",
-      "imagePosition" : [-15, 0],
+      "imagePosition" : [0, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
 
@@ -19,13 +19,5 @@
       "anchors" : [ "bottom" ]
 
     }
-  ],
-  "smashSounds" : [ "/sfx/tools/axe_chop_alt_heavy.wav" ],
-  "smashDropOptions" : [
-    [ [ "cycpillar2", 1, { } ] ]
-  ],
-
-  "breakDropOptions" : [
-    [ [ "cycpillar2", 1, { } ] ]
   ]
 }

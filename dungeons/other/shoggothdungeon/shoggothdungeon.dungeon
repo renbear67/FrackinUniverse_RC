@@ -307,32 +307,32 @@
     {
       "value" : [97, 124, 140, 255],
       "comment" : "pillar 1",
-      "brush" : [ [ "clear" ], [ "object", "cycpillar1" ] ]
+      "brush" : [ [ "clear" ], [ "object", "cycpillar1", { "direction" : "left" } ] ]
     },  
     {
       "value" : [97, 126, 142, 255],
       "comment" : "pillar 2",
-      "brush" : [ [ "clear" ], [ "object", "cycpillar2" ] ]
+      "brush" : [ [ "clear" ], [ "object", "cycpillar2", { "direction" : "left" } ] ]
     },  
     {
       "value" : [97, 128, 144, 255],
       "comment" : "pillar 3",
-      "brush" : [ [ "clear" ], [ "object", "cycpillar3" ] ]
+      "brush" : [ [ "clear" ], [ "object", "cycpillar3", { "direction" : "left" } ] ]
     },      
     {
       "value" : [97, 144, 150, 255],
       "comment" : "huge pillar 1",
-      "brush" : [ [ "clear" ], [ "object", "cycpillar4" ] ]
+      "brush" : [ [ "clear" ], [ "object", "cycpillar4", { "direction" : "left" } ] ]
     },  
     {
       "value" : [97, 146, 152, 255],
       "comment" : "huge pillar 2",
-      "brush" : [ [ "clear" ], [ "object", "cycpillar5" ] ]
+      "brush" : [ [ "clear" ], [ "object", "cycpillar5", { "direction" : "left" } ] ]
     },  
     {
       "value" : [97, 148, 154, 255],
       "comment" : "huge pillar 3",
-      "brush" : [ [ "clear" ], [ "object", "cycpillar6" ] ]
+      "brush" : [ [ "clear" ], [ "object", "cycpillar6", { "direction" : "left" } ] ]
     },  
     {
       "value" : [79, 65, 80, 255],

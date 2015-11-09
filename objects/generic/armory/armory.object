@@ -25,9 +25,7 @@
       "animationCycle" : 1.2,
 
       "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ],
-      "collision" : "platform"
-
+      "anchors" : [ "bottom" ]
     }
   ],
   "scripts" : [ "/scripts/npcToyObject.lua" ],
