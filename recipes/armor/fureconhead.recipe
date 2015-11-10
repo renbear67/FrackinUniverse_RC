@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "steelbar", "count" : 4 },
+    { "item" : "fabric", "count" : 3 },
+    { "item" : "glassmaterial", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "fureconhead",
+    "count" : 1
+  },
+  "groups" : [ "armory", "armors", "all" ]
+}

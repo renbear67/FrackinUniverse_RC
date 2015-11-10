@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "wretchel", "count" : 14 },
+    { "item" : "mutaviskthread", "count" : 7 },
+    { "item" : "ff_diamondplating", "count" : 3 },
+    { "item" : "aliencompound", "count" : 6 }
+  ],
+  "output" : {
+    "item" : "wretchelchest",
+    "count" : 1
+  },
+  "groups" : [ "armory", "armors", "all" ]
+}

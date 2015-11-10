@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "eridianplate", "count" : 3 },
+    { "item" : "refinedaegisalt", "count" : 1 },
+    { "item" : "mutaviskthread", "count" : 3 },
+    { "item" : "biochip", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "fubountyhunterpants",
+    "count" : 1
+  },
+  "groups" : [ "armory", "armors", "all" ]
+}

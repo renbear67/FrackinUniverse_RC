@@ -2,7 +2,7 @@
   "id" : "2_battery.gearup",
   "title" : "^#1693d5;Batteries",
   "text" : "^orange;Batteries^white; can provide additional power and store excess energy. Build one.",
-  "completionText" : "Now ^green;press T^white; and ^orange;connect red slots on the battery to red slot on the solar panel^white; and the battery will slowly charge.",
+  "completionText" : "Now ^green;press T^white; and ^orange;connect blue slots on the battery to red slot on the solar panel^white; and the battery will slowly charge.",
   "completionConditions" : [ 
     { "type" : "gather", "item" : "isn_battery_t1", "consume" : false }
   ],

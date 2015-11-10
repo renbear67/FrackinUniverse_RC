@@ -3,5 +3,7 @@
   "rarity" : "rare",
   "inventoryIcon" : "corvex.png",
   "description" : "This material is a fantastic bonding agent.",
-  "shortdescription" : "Corvex"
+  "shortdescription" : "Corvex",
+  "learnBlueprintsOnPickup" : [ "fuwarphunterchest", "fuwarphunterhead", "fuwarphunterpants" ]
+
 }

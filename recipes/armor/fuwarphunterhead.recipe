@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "corvex", "count" : 3 },
+    { "item" : "refinedviolium", "count" : 2 },
+    { "item" : "refinedrubium", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "fuwarphunterhead",
+    "count" : 1
+  },
+  "groups" : [ "armory", "armors", "all" ]
+}

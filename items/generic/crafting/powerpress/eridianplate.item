@@ -5,6 +5,6 @@
   "description" : "A thick plate made of eridian.",
   "category" : "Metal Plate",
   "shortdescription" : "^#b84cbc;Eridian Plate^white;",
-  "learnBlueprintsOnPickup" : [ "cellulararmorchest", "cellulararmorpants", "cellulararmorhead" ]
+  "learnBlueprintsOnPickup" : [ "cellulararmorchest", "cellulararmorpants", "cellulararmorhead", "fubountyhunterchest", "fubountyhunterhead", "fubountyhunterpants" ]
 }
 

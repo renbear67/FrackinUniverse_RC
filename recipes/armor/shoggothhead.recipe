@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "shoggothflesh", "count" : 4 },
+    { "item" : "densiniumplate", "count" : 2 },
+    { "item" : "ff_diamondplating", "count" : 2 },
+    { "item" : "aliencompound", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "shoggothhead",
+    "count" : 1
+  },
+  "groups" : [ "armory", "armors", "all" ]
+}
