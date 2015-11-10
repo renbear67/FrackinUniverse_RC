@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "corefragmentore", "count" : 12 },
-    { "item" : "moonstonebar", "count" : 3 },
+    { "item" : "corefragmentore", "count" : 9 },
+    { "item" : "densealloy", "count" : 3 },
     { "item" : "liquidlava", "count" : 24 },
-    { "item" : "magmawall2", "count" : 11 }
+    { "item" : "obsidianshard", "count" : 15 }
   ],
   "output" : {
     "item" : "hellfirelegs",

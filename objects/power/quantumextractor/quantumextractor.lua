@@ -302,7 +302,7 @@ local recipes =
 {inputs = { mossypackeddirt=50 }, outputs = { fu_nitrogen=4 }, time = 0.1},
 {inputs = { mud=50 }, outputs = { nutrientpaste=2 }, time = 0.1},
 {inputs = { mudstonematerial=50 }, outputs = { rawminerals=3 }, time = 0.1},
-{inputs = { obsidianmaterial=10 }, outputs = { obsidianshard=2 }, time = 0.1},
+{inputs = { obsidian=10 }, outputs = { obsidianshard=2 }, time = 0.1},
 {inputs = { packeddirt=50 }, outputs = { nutrientpaste=2 }, time = 0.1},
 {inputs = { penumbradirtmaterial=30 }, outputs = { nutrientpaste=2 }, time = 0.1},
 {inputs = { penumbrastonematerial=30 }, outputs = { rawminerals=2 }, time = 0.1},
@@ -831,7 +831,7 @@ local recipes =
 
 function init(args)
     if args then return end
-    self.timer = 0.5
+    self.timer = 0.15
     self.mintick = 0,05
     self.crafting = false
     self.output = {}
@@ -933,6 +933,7 @@ function update(dt)
             self.output = {}
             self.timer = self.mintick --reset timer to a safe minimum
             entity.setAnimationState("samplingarrayanim", "idle")
+            entity.setLightColor({0, 0, 0, 0})
         end
 
         if not self.crafting and self.timer <= 0 then --make sure we didn't just finish crafting
@@ -947,6 +948,7 @@ function startCrafting(result)
 
   if isn_hasRequiredPower() == false then
     entity.setAnimationState("samplingarrayanim", "idle")
+    entity.setLightColor({0, 0, 0, 0})
     self.timer = 0.1
 	return
   end
@@ -958,10 +960,10 @@ function startCrafting(result)
         end
 
         self.crafting = true
-        self.timer = result.time
+        self.timer = 0.04
         self.output = result.outputs
         entity.setAnimationState("samplingarrayanim", "working")
-
+        entity.setLightColor(entity.configParameter("lightColor", {100, 176, 191}))
         return true
     end              
 end

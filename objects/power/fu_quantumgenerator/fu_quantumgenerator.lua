@@ -6,7 +6,7 @@ function init(virtual)
 	if storage.currentpowerprod == nil then storage.currentpowerprod = 0 end
 	if storage.fueledticks == nil then storage.fueledticks = 0 end
 	if storage.decayrate == nil then storage.decayrate = 5 end
-	if storage.active == nil then storage.active = true end
+	if storage.active == nil then storage.active = true end	
 end
 
 function onInboundNodeChange(args)
@@ -21,18 +21,24 @@ end
 function update(dt)
 	-- check current power production and set the animation state accordingly
 	if storage.currentpowerprod > 90 then
-		entity.setAnimationState("screen", "fast")
+		entity.setAnimationState("screen", "slow")
+                entity.setLightColor(entity.configParameter("lightColor", {126, 236, 255}))
+                entity.setSoundEffectEnabled(true)
 	elseif storage.currentpowerprod > 50 then
-		entity.setAnimationState("screen", "med")
-		entity.setAnimationState("fans", "fast")
+		entity.setAnimationState("screen", "slow")
+		entity.setAnimationState("fans", "slow")
+                entity.setLightColor(entity.configParameter("lightColor", {70, 156, 161}))		
 		entity.setSoundEffectEnabled(true)
 	elseif storage.currentpowerprod > 10 then
 		entity.setAnimationState("screen", "slow")
 		entity.setAnimationState("fans", "slow")
-		entity.setSoundEffectEnabled(false)
+                entity.setLightColor(entity.configParameter("lightColor", {35, 79, 87}))
+		entity.setSoundEffectEnabled(true)
 	else
 		entity.setAnimationState("screen", "off")
 		entity.setAnimationState("fans", "off")
+
+                entity.setLightColor({0, 0, 0, 0})		
 	end
 
 	if storage.fueledticks > 0 then -- if we're currently fueled up

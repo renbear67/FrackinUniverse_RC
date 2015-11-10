@@ -1,0 +1,16 @@
+{
+  "itemName" : "hermespill",
+  "rarity" : "uncommon",
+  "price" : 55,
+  "inventoryIcon" : "hermespill.png",
+  "description" : "Full of delicious amphetamines to increase your speed.",
+  "shortdescription" : "^#77acc3;Mutavisk Bandage^white;",
+  "effects" : [ [
+      "runboost15"
+    ] ],
+  "emote" : "",
+  "emitters" : [ "bandageuse" ],
+  "blockingEffects" : [
+    "runboost15"
+  ]
+}

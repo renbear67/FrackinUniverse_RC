@@ -303,7 +303,7 @@ local recipes =
 {inputs = { mossypackeddirt=50 }, outputs = { fu_nitrogen=2 }, time = 0.95},
 {inputs = { mud=50 }, outputs = { nutrientpaste=1 }, time = 0.95},
 {inputs = { mudstonematerial=50 }, outputs = { rawminerals=2 }, time = 0.95},
-{inputs = { obsidianmaterial=10 }, outputs = { obsidianshard=1 }, time = 0.95},
+{inputs = { obsidian=10 }, outputs = { obsidianshard=1 }, time = 0.95},
 {inputs = { packeddirt=50 }, outputs = { nutrientpaste=1 }, time = 0.95},
 {inputs = { penumbradirtmaterial=30 }, outputs = { nutrientpaste=1 }, time = 0.95},
 {inputs = { penumbrastonematerial=30 }, outputs = { rawminerals=1 }, time = 0.95},

@@ -27,7 +27,7 @@
     "base" : "fu_quantumgenerator_base.png"
   },
   "animationPosition" : [0, 0],
-  "soundEffect" : "/objects/power/fu_quantumgenerator/fu_quantumgenerator.wav",
+  "soundEffect" : "/objects/power/fu_quantumgenerator/fu_quantumgenerator.ogg",
   
   "slotCount" : 1,
   "uiConfig" : "/objects/power/fu_quantumgenerator/fu_quantumgenerator.config",

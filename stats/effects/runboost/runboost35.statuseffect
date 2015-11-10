@@ -1,7 +1,7 @@
 {
   "name" : "runboost35",
   "effectConfig" : {},
-  "defaultDuration" : 1,
+  "defaultDuration" : 30,
 
   "scripts" : [
     "runboost35.lua"
