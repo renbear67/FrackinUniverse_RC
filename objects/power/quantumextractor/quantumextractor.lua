@@ -820,19 +820,10 @@ local recipes =
 {inputs = { wolframiteore=4 }, outputs = { fu_carbon=12 }, time = 0.1}
 }
 
-
---  *************
---  add random chance to drop higher or lower quality versions of samples? rares? etc?
---  *************
--- local.samplingbenefit = 0 --this value will be set based on items used.
--- The higher the sampling benefit, the better chance at a super-item. These take the
--- form of things like unlockable recipes via item as in vanilla starbound, or super-seeds
--- and that sort of thing.
-
 function init(args)
     if args then return end
-    self.timer = 0.15
-    self.mintick = 0,05
+    self.timer = 0
+    self.mintick = 0
     self.crafting = false
     self.output = {}
 end
@@ -887,8 +878,8 @@ function getValidRecipes(query)
 return filter(recipes, function(l) return subset(l.inputs, query) end)
 
 end
-  
--- by Zoomah: find next fitting slot
+
+
 function getOutSlotsFor(something)
     local empty = {} -- empty slots in the outputs
     local slots = {} -- slots with a stack of "something"
@@ -912,6 +903,11 @@ end
 
 
 function update(dt)
+  if isn_hasRequiredPower() == false then
+    entity.setAnimationState("samplingarrayanim", "idle")
+    entity.setLightColor({0, 0, 0, 0})
+	return
+  end
     self.timer = self.timer - dt
     if self.timer <= 0 then
         if self.crafting then
@@ -945,13 +941,6 @@ end
 
 
 function startCrafting(result)
-
-  if isn_hasRequiredPower() == false then
-    entity.setAnimationState("samplingarrayanim", "idle")
-    entity.setLightColor({0, 0, 0, 0})
-    self.timer = 0.1
-	return
-  end
     if next(result) == nil then return false
     else _,result = next(result)
 
@@ -960,7 +949,7 @@ function startCrafting(result)
         end
 
         self.crafting = true
-        self.timer = 0.04
+        self.timer = result.time
         self.output = result.outputs
         entity.setAnimationState("samplingarrayanim", "working")
         entity.setLightColor(entity.configParameter("lightColor", {100, 176, 191}))
