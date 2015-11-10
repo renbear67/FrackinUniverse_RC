@@ -15,7 +15,8 @@ end
 function update(args)
   local bounceCollisionPoly = tech.parameter("bounceCollisionPoly")
   local bounceFactor = tech.parameter("bounceFactor")
-
+  local energyUsagePerSecond = tech.parameter("energyUsagePerSecond")
+  
   if args.actions["activate"] then
     self.active = true
     tech.playSound("activate")
@@ -23,7 +24,7 @@ function update(args)
     self.active = false
   end
 
-  if self.active then
+  if self.active and tech.consumeTechEnergy(energyUsagePerSecond * args.dt) then
     mcontroller.controlParameters({
       frictionEnabled = false,
       gravityEnabled = false
