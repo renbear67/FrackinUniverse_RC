@@ -4,7 +4,7 @@
   "text" : "Bees won't be happy without flowers to pollenate. Make ^orange;a small garden of flowers^white; next to your apiary and your bees will get going!",
   "completionText" : "Bee patient. You can't just rust the bees when they are just beeing bees. It takes time to make babies and honeycomb.",
   "completionConditions" : [ 
-    { "type" : "gather", "item" : "isn_solarpanel", "consume" : false }
+    { "type" : "gather", "item" : "flowerred", "consume" : false }
   ],
   "moneyRange" : [20,90],
   "rewards" : [],
