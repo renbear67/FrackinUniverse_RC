@@ -10,5 +10,5 @@
   "rewards" : [],
   "requireTurnIn" : false,
   "canBeAbandoned" : false,
-  "followUp" : "2_battery.gearup"
+  "followUp" : ""
 }
