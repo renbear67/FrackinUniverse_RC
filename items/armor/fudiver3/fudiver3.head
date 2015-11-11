@@ -37,6 +37,10 @@
       "stat" : "breathProtection",
       "amount" : 1.0
     },
+    {
+      "stat" : "wetImmunity",
+      "amount" : 1
+    },
     "headlamp4"
   ],
 

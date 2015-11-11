@@ -40,6 +40,10 @@
       "stat" : "maxHealth",
       "amount" : 23
     },
+    {
+      "stat" : "wetImmunity",
+      "amount" : 1
+    },
     "biooozeimmunity"  
   ],
   "questTags" : [ "tier5armor" ], 

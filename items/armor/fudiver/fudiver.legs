@@ -31,6 +31,10 @@
       "stat" : "maxHealth",
       "amount" : 8
     },
+    {
+      "stat" : "wetImmunity",
+      "amount" : 1
+    },
     "biooozeimmunity",
     "swimboost2"
   ],

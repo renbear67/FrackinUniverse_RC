@@ -24,6 +24,10 @@
       "stat" : "maxHealth",
       "amount" : 9
     },
+    {
+      "stat" : "wetImmunity",
+      "amount" : 1
+    },
     "energyregenfu_armor20",
     "slimestickimmunity"
   ],

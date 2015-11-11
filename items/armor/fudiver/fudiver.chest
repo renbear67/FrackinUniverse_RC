@@ -40,6 +40,10 @@
       "stat" : "maxHealth",
       "amount" : 17
     },
+    {
+      "stat" : "wetImmunity",
+      "amount" : 1
+    },
     "liquidnitrogenimmunity", 
     "sulphuricacidimmunity" 
   ],

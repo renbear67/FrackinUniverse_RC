@@ -33,6 +33,10 @@
       "stat" : "maxHealth",
       "amount" : 6
     },    
+    {
+      "stat" : "wetImmunity",
+      "amount" : 1
+    },
     "biooozeimmunity"
   ],
   "questTags" : [ "tier2armor" ],
