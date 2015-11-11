@@ -2581,10 +2581,9 @@
     [1, {
         "pool" : [
           {"weight" : 0.40, "pool" : "money"},
-          {"weight" : 0.25, "item" : [ "fu_liquidhoney", 1]},
           {"weight" : 0.25, "item" : [ "honeycombmaterial", 1]},
           {"weight" : 0.25, "item" : [ "fu_honeycombblock", 1]},
-          {"weight" : 0.25, "item" : [ "waxchunk", 1]} 
+          {"weight" : 0.25, "item" : [ "bugshell", 1]} 
         ],
         "poolRounds" : [
           [0.75, 1]
@@ -2597,10 +2596,9 @@
     [1, {
         "pool" : [
           {"weight" : 0.40, "pool" : "money"},
-          {"weight" : 0.25, "item" : [ "fu_liquidhoney", 1]},
           {"weight" : 0.25, "item" : [ "honeycombmaterial", 1]},
           {"weight" : 0.25, "item" : [ "fu_redhoneycombblock", 1]},
-          {"weight" : 0.25, "item" : [ "redwaxchunk", 1]} 
+          {"weight" : 0.25, "item" : [ "bugshell", 1]} 
         ],
         "poolRounds" : [
           [0.75, 1]
