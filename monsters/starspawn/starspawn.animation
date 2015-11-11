@@ -395,7 +395,26 @@
       "particles" : [
       ]
     },
-
+    "blinkout" : {
+      "particles" : [
+        {
+          "particle" : {
+            "type" : "animated",
+            "animation" : "/animations/blinkout/blinkout.animation",
+            "size" : 1,
+            "angularVelocity" : 35,
+            "fade" : 1,
+            "destructionTime" : 5,
+            "position" : [0, 0],
+            "initialVelocity" : [0, 0],
+            "finalVelocity" : [0, 0],
+            "approach" : [1, 1],
+            "timeToLive" : 0.75,
+            "layer" : "front"
+          }
+        }
+      ]
+    },
     "deathPoof" : {
       "particles" : [
         {
@@ -587,7 +606,8 @@
   },
 
   "sounds" : {
-    "turnHostile" : [ ],
-    "deathPuff" : [ "/sfx/npc/enemydeathpuff.wav" ]
+    "turnHostile" : [ "/sfx/npc/smallbiped/teethyhead_small_idle2.wav"],
+    "deathPuff" : [ "/sfx/npc/smallbiped/powlhead_small_death.wav" ],
+    "blinkSound" : ["/sfx/gun/lightningcoil3.wav"]
   }
 }
