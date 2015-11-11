@@ -1,0 +1,14 @@
+  {
+  "id" : "9_honeyjarrer.gearup",
+  "title" : "^#1693d5;Jarring Honey",
+  "text" : "To make the most out of your bee farm, you'll want to harvest honey. Try to build a ^orange;Honey Jarrer^white; to aid with this process. Toss in some honey jars while you're at it.",
+  "completionText" : "There's a second part to the ^orange;honey jarrer^white;. We'll build that now, and they'll work great together.",
+  "completionConditions" : [ 
+    { "type" : "gather", "item" : "honeyjarrer", "consume" : false }
+  ],
+  "moneyRange" : [20,90],
+  "rewards" : [],
+  "requireTurnIn" : false,
+  "canBeAbandoned" : false,
+  "followUp" : "10_industrialcentrifuge.gearup"
+}

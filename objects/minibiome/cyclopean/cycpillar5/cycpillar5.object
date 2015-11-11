@@ -10,7 +10,7 @@
   "inventoryIcon" : "cycpillar5.png",
   "orientations" : [
     {
-      "image" : "cycpillar5.png:<color>",
+      "dualImage" : "cycpillar5.png:<color>",
       "imagePosition" : [0, 0],
       "frames" : 1,
       "animationCycle" : 0.5,

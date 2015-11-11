@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "lazuliteore", "count" : 4 }
+    { "item" : "lazuliteore", "count" : 3 }
   ],
   "output" : {
     "item" : "magnesiumpowder",

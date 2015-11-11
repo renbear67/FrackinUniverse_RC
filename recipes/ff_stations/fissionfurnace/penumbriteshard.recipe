@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "penumbriteore", "count" : 4 }
+    { "item" : "penumbriteore", "count" : 3 }
   ],
   "output" : {
     "item" : "penumbriteshard",

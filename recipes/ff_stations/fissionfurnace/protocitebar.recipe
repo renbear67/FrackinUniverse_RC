@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "protociteore", "count" : 4 }
+    { "item" : "protociteore", "count" : 3 }
   ],
   "output" : {
     "item" : "protocitebar",

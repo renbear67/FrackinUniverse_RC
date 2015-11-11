@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "berliniteore", "count" : 5 }
+    { "item" : "berliniteore", "count" : 3 }
   ],
   "output" : {
     "item" : "phosphorus",

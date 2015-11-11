@@ -1,0 +1,14 @@
+  {
+  "id" : "1_beestation.gearup",
+  "title" : "^#1693d5;Beekeeping 101",
+  "text" : "Care to try a simpler life, ^green;breeding^white; bees and reaping the profits? Build a ^orange;Bee Station^white; and we can get started.",
+  "completionText" : "With the ^orange;Bee Station^white;, you'll be able to craft a whole new array of goods you've likely not seen before!",
+  "completionConditions" : [ 
+    { "type" : "gather", "item" : "beestation", "consume" : false }
+  ],
+  "moneyRange" : [20,90],
+  "rewards" : [],
+  "requireTurnIn" : false,
+  "canBeAbandoned" : false,
+  "followUp" : "1b_apiary.gearup"
+}

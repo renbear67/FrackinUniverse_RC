@@ -11,6 +11,321 @@
     "protected" : true
   },
   "tiles" : [
+  
+// bee and booze stuff
+    {
+      "value" : [71, 21, 0, 255],
+      "comment" : "beeeeeees",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "npc",
+            "species" : "human",
+            "typeName" : "fuoutpostbeekeeper",
+            "seed" : 562
+          }
+        ] ]
+    },
+		{
+			"value" : [250, 166, 84, 255],
+			"comment" : "sproutingtable left",
+			"brush" : [ [ "clear" ], [ "object", "sproutingtable", { "direction" : "left" } ] ]
+		},
+		{
+			"value" : [250, 166, 87, 255],
+			"comment" : "rainbarrel left",
+			"brush" : [ [ "clear" ], [ "object", "rainbarrel", { "direction" : "left" } ] ]
+		},
+		{
+			"value" : [250, 166, 90, 255],
+			"comment" : "mashingtun left",
+			"brush" : [ [ "clear" ], [ "object", "mashingtun", { "direction" : "left" } ] ]
+		},
+		{
+			"value" : [250, 166, 92, 255],
+			"comment" : "winepress left",
+			"brush" : [ [ "clear" ], [ "object", "winepress", { "direction" : "left" } ] ]
+		},
+		{
+			"value" : [250, 166, 94, 255],
+			"comment" : "fermenter left",
+			"brush" : [ [ "clear" ], [ "object", "fermenter", { "direction" : "left" } ] ]
+		},
+		{
+			"value" : [250, 106, 94, 255],
+			"comment" : "distillery left",
+			"brush" : [ [ "clear" ], [ "object", "distillery", { "direction" : "left" } ] ]
+		},
+		{
+			"value" : [250, 106, 92, 255],
+			"comment" : "booze kit left",
+			"brush" : [ [ "clear" ], [ "object", "boozekit", { "direction" : "left" } ] ]
+		},
+		{
+			"value" : [230, 156, 92, 255],
+			"comment" : "wood table left",
+			"brush" : [ [ "clear" ], [ "object", "medievaltable", { "direction" : "left" } ] ]
+		},
+		{
+			"value" : [230, 156, 90, 255],
+			"comment" : "honey table left",
+			"brush" : [ [ "clear" ], [ "object", "honeyjarrer", { "direction" : "left" } ] ]
+		},
+		{
+			"value" : [230, 156, 89, 255],
+			"comment" : "honey table left",
+			"brush" : [ [ "clear" ], [ "object", "bees_industrialcentrifuge", { "direction" : "left" } ] ]
+		},
+		{
+			"value" : [230, 156, 88, 255],
+			"comment" : "honey table left",
+			"brush" : [ [ "clear" ], [ "object", "honeyextractor", { "direction" : "right" } ] ]
+		},
+		{
+			"value" : [230, 156, 87, 255],
+			"comment" : "honey table left",
+			"brush" : [ [ "clear" ], [ "object", "honeytable", { "direction" : "left" } ] ]
+		},
+		{
+			"value" : [230, 156, 86, 255],
+			"comment" : "alviary left",
+			"brush" : [ [ "clear" ], [ "object", "normalalveary", { "direction" : "left" } ] ]
+		},
+		{
+			"value" : [230, 156, 85, 255],
+			"comment" : "beestation left",
+			"brush" : [ [ "clear" ], [ "object", "beestation", { "direction" : "left" } ] ]
+		},
+		{
+			"value" : [230, 156, 84, 255],
+			"comment" : "apiary left",
+			"brush" : [ [ "clear" ], [ "object", "normalapiary", { "direction" : "left" } ] ]
+		},
+		{
+			"value" : [136, 121, 23, 255],
+			"comment" : "flower crop",
+			"brush" : [ [ "clear" ], [ "object", "flowerred", { "direction" : "left", "parameters" : { "startingStage" : 2 } } ] ]
+		},
+		{
+			"value" : [136, 121, 22, 255],
+			"comment" : "flower crop",
+			"brush" : [ [ "clear" ], [ "object", "flowerspring", { "direction" : "left", "parameters" : { "startingStage" : 2 } } ] ]
+		},
+		{
+			"value" : [136, 121, 21, 255],
+			"comment" : "flower crop",
+			"brush" : [ [ "clear" ], [ "object", "flowerblue", { "direction" : "left", "parameters" : { "startingStage" : 2 } } ] ]
+		},
+		{
+			"value" : [196, 233, 242, 255],
+			"comment" : "background woodenwindow1",
+			"brush" : [ [ "clear" ], [ "back", "woodenwindow1" ] ]
+		},
+
+		{
+			"value" : [196, 233, 243, 255],
+			"comment" : "foreground woodenwindow1",
+			"brush" : [ [ "clear" ], [ "back", "woodenwindow1" ], [ "front", "woodenwindow1" ] ]
+		},
+		
+		{
+			"value" : [211, 171, 150, 255],
+			"comment" : "background darkwood",
+			"brush" : [ [ "clear" ], [ "back", "darkwood" ] ]
+		},
+		
+		{
+			"value" : [185, 122, 87, 255],
+			"comment" : "foreground darkwood",
+			"brush" : [ [ "clear" ], [ "back", "darkwood" ], [ "front", "darkwood" ] ]
+		},
+		
+		{
+			"value" : [237, 28, 36, 255],
+			"comment" : "foreground rooftiles",
+			"brush" : [ [ "clear" ], [ "back", "rooftiles" ], [ "front", "rooftiles" ] ]
+		},
+		
+		{
+			"value" : [195, 195, 195, 255],
+			"comment" : "background rockbrick",
+			"brush" : [ [ "clear" ], [ "back", "rockbrick" ] ]
+		},
+
+		{
+			"value" : [127, 127, 127, 255],
+			"comment" : "foreground rockbrick",
+			"brush" : [ [ "clear" ], [ "back", "rockbrick" ], [ "front", "rockbrick" ] ]
+		},
+		
+		{
+			"value" : [255, 242, 0, 255],
+			"comment" : "foreground treasurehoard",
+			"brush" : [ [ "clear" ], [ "back", "treasurehoard" ], [ "front", "treasurehoard" ] ]
+		},
+		
+		{
+			"value" : [217, 193, 128, 255],
+			"comment" : "tilled foreground dirt",
+			"brush" : [ [ "clear" ], [ "back", "dirt" ], [ "front", "dirt", "tilled" ] ]
+		},
+
+		
+		
+		{
+			"value" : [224, 174, 201, 255],
+			"comment" : "woodendoor left",
+			"brush" : [ [ "clear" ], [ "object", "woodendoor", { "direction" : "left" } ] ]
+		},
+		
+		{
+			"value" : [225, 174, 201, 255],
+			"comment" : "woodendoor right",
+			"brush" : [ [ "clear" ], [ "object", "woodendoor", { "direction" : "right" } ] ]
+		},
+		
+		{
+			"value" : [128, 64, 64, 255],
+			"comment" : "woodenchair facing left",
+			"brush" : [ [ "clear" ], [ "object", "woodenchair", { "direction" : "left" } ] ]
+		},
+
+		{
+			"value" : [138, 64, 64, 255],
+			"comment" : "woodenchair facing right",
+			"brush" : [ [ "clear" ], [ "object", "woodenchair", { "direction" : "right" } ] ]
+		},
+		
+
+
+		
+		{
+			"value" : [30, 12, 120, 255],
+			"comment" : "barrelgoldfilled facing left",
+			"brush" : [ [ "clear" ], [ "object", "barrelgoldfilled", { "direction" : "left", "parameters" : { "treasurePools" : [ "basicChestTreasure" ] } } ] ]
+		},
+		
+		{
+			"value" : [200, 100, 200, 255],
+			"comment" : "medievalcandle facing left",
+			"brush" : [ [ "clear" ], [ "object", "medievalcandle", { "direction" : "left" } ] ]
+		},
+		
+		{
+			"value" : [201, 100, 200, 255],
+			"comment" : "farmtools facing left",
+			"brush" : [ [ "clear" ], [ "object", "farmtools", { "direction" : "left" } ] ]
+		},
+		
+		{
+			"value" : [202, 100, 200, 255],
+			"comment" : "juicekeg facing left",
+			"brush" : [ [ "clear" ], [ "object", "juicekeg", { "direction" : "left" } ] ]
+		},
+		
+		{
+			"value" : [239, 228, 176, 255],
+			"comment" : "haystack facing left",
+			"brush" : [ [ "clear" ], [ "object", "haystack", { "direction" : "left" } ] ]
+		},
+		
+		{
+			"value" : [240, 228, 176, 255],
+			"comment" : "haystack facing right",
+			"brush" : [ [ "clear" ], [ "object", "haystack", { "direction" : "right" } ] ]
+		},
+		
+		{
+			"value" : [241, 228, 176, 255],
+			"comment" : "haypile facing right",
+			"brush" : [ [ "clear" ], [ "object", "haypile", { "direction" : "right" } ] ]
+		},
+		
+		{
+			"value" : [100, 100, 100, 255],
+			"comment" : "tier2bed facing right",
+			"brush" : [ [ "clear" ], [ "object", "tier2bed", { "direction" : "right" } ] ]
+		},
+		
+		{
+			"value" : [110, 100, 100, 255],
+			"comment" : "woodenbookcase facing left",
+			"brush" : [ [ "clear" ], [ "object", "woodenbookcase", { "direction" : "left" } ] ]
+		},
+		
+		{
+			"value" : [120, 100, 100, 255],
+			"comment" : "woodenlocker facing left",
+			"brush" : [ [ "clear" ], [ "object", "woodencrate1", { "direction" : "right", "parameters" : { "treasurePools" : [ "tool", "ore" ] } } ] ]
+		},
+		
+		{
+			"value" : [120, 110, 100, 255],
+			"comment" : "garagetools facing left",
+			"brush" : [ [ "clear" ], [ "object", "garagetools" ] ]
+		},
+		
+		{
+			"value" : [190, 110, 100, 255],
+			"comment" : "wellcover facing left",
+			"brush" : [ [ "clear" ], [ "object", "wellcover" ] ]
+		},
+		
+		{
+			"value" : [136, 121, 21, 255],
+			"comment" : "corn crop",
+			"brush" : [ [ "clear" ], [ "object", "cornseed", { "direction" : "left", "parameters" : { "startingStage" : 2 } } ] ]
+		},
+		
+		{
+			"value" : [120, 0, 0, 255],
+			"comment" : "fridge facing right",
+			"brush" : [ [ "clear" ], [ "object", "fridge", { "direction" : "right", "parameters" : { "treasurePools" : [ "produce" ] } } ] ]
+		},
+		
+		{
+			"value" : [130, 0, 0, 255],
+			"comment" : "woodencrate1 facing right",
+			"brush" : [ [ "clear" ], [ "object", "woodencrate1", { "direction" : "right", "parameters" : { "treasurePools" : [ "produce", "seed" ] } } ] ]
+		},
+		
+		{
+			"value" : [140, 0, 0, 255],
+			"comment" : "woodencrate2 facing left",
+			"brush" : [ [ "clear" ], [ "object", "woodencrate2", { "direction" : "left", "parameters" : { "treasurePools" : [ "produce", "seed" ] } } ] ]
+		},
+		
+
+
+		{
+			"value" : [184, 145, 101, 255],
+			"comment" : "wooden stairs/platform",
+			"brush" : [ [ "clear" ], [ "front", "woodenplatform" ] ]
+		},
+		
+
+		
+		{
+			"value" : [0, 200, 0, 255],
+			"comment" : "human survivor npc",
+			"brush" : [ [ "npc",
+				{
+					"kind" : "npc",
+					"species" : "human",
+					"typeName" : "newhumansurvivor"
+				}
+				] ]
+		},
+		
+
+		
+		{
+			"value" : [28, 10, 254, 255],
+			"comment" : "water pool foreground",
+			"brush" : [ [ "clear" ], [ "liquid", "water" ] ]
+		},			
+		
+		
+		
   //fu stuff
   
     {

@@ -1,0 +1,14 @@
+  {
+  "id" : "7_extractcombs.gearup",
+  "title" : "^#1693d5;Wax and Wane",
+  "text" : "Place the combs within your ^orange;wooden centrifuge^white; and collect the ^orange;wax chunks^white; from within.",
+  "completionText" : "Different combs contain very different resources.Experimentation is part of the challenge!",
+  "completionConditions" : [ 
+    { "type" : "gather", "item" : "waxchunk", "consume" : false }
+  ],
+  "moneyRange" : [20,90],
+  "rewards" : [],
+  "requireTurnIn" : false,
+  "canBeAbandoned" : false,
+  "followUp" : "8_alveary.gearup"
+}

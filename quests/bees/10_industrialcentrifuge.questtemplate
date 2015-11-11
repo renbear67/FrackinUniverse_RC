@@ -1,0 +1,14 @@
+  {
+  "id" : "10_industrialcentrifuge.gearup",
+  "title" : "^#1693d5;Industrial Edge",
+  "text" : "Now it's time to maximize your output. Build an ^orange;Industrial Centrifuge^white; and connect it to your Honey Jarrer.",
+  "completionText" : "Paired together, you'll get tons of honey now. From here on out, it's up to you to experiment and breed the best bees you can! Bee all you can bee!",
+  "completionConditions" : [ 
+    { "type" : "gather", "item" : "bees_industrialcentrifuge", "consume" : false }
+  ],
+  "moneyRange" : [20,90],
+  "rewards" : [],
+  "requireTurnIn" : false,
+  "canBeAbandoned" : false,
+  "followUp" : "2_battery.gearup"
+}

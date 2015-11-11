@@ -10,7 +10,7 @@
   "inventoryIcon" : "cycpillar1.png",
   "orientations" : [
     {
-      "image" : "cycpillar1.png:<color>",
+      "dualImage" : "cycpillar1.png:<color>",
       "imagePosition" : [0, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
@@ -21,13 +21,3 @@
     }
   ]
 }
-
-
-
-
-
-
-
-
-
-

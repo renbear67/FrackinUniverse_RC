@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "limestone", "count" : 4 }
+    { "item" : "limestone", "count" : 45 }
   ],
   "output" : {
     "item" : "saltpeter",

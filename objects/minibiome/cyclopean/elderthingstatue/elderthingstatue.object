@@ -11,7 +11,7 @@
   "inventoryIcon" : "elderthingstatue.png",
   "orientations" : [
     {
-      "image" : "elderthingstatue.png:<color>",
+      "dualImage" : "elderthingstatue.png:<color>",
       "imagePosition" : [0, 0],
       "frames" : 1,
       "animationCycle" : 0.5,

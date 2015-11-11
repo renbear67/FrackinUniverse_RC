@@ -1,0 +1,14 @@
+  {
+  "id" : "3_bees.gearup",
+  "title" : "^#1693d5;Queen and Drone",
+  "text" : "Now you need to ^orange;catch a queen and a drone bee of the same type^white; and let them loose inside your apiary.",
+  "completionText" : "Find ^orange;other types of bees^white;, and cross-breed them within. You never know what you'll end up with!",
+  "completionConditions" : [ 
+    { "type" : "gather", "item" : "isn_solarpanel", "consume" : false }
+  ],
+  "moneyRange" : [20,90],
+  "rewards" : [],
+  "requireTurnIn" : false,
+  "canBeAbandoned" : false,
+  "followUp" : "4_plantflowers.gearup"
+}
