@@ -927,6 +927,7 @@
 "path":"/planetaryTypes/Tier4/baseParameters/terrestrialType/-",
 "value":"arboreal2"
 },
+
 {"op":"add",
 "path":"/planetaryTypes/Tier4/baseParameters/terrestrialType/-",
 "value":"ffunknown"
@@ -955,7 +956,10 @@
 "path":"/planetaryTypes/Tier4/baseParameters/terrestrialType/-",
 "value":"ocean"
 },
-
+{"op":"add",
+"path":"/planetaryTypes/Tier4/baseParameters/terrestrialType/-",
+"value":"slimeworld"
+},
 {"op":"add",
 "path":"/planetaryTypes/Tier4/baseParameters/terrestrialType/-",
 "value":"sulphuric"
@@ -1028,6 +1032,11 @@
 {"op":"add",
 "path":"/planetaryTypes/Tier5/baseParameters/terrestrialType/-",
 "value":"jungle"
+},
+
+{"op":"add",
+"path":"/planetaryTypes/Tier5/baseParameters/terrestrialType/-",
+"value":"slimeworld"
 },
 
 {"op":"add",
@@ -1109,6 +1118,11 @@
 {"op":"add",
 "path":"/planetaryTypes/Tier6/baseParameters/terrestrialType/-",
 "value":"tundra"
+},
+
+{"op":"add",
+"path":"/planetaryTypes/Tier6/baseParameters/terrestrialType/-",
+"value":"slimeworld"
 },
 
 {"op":"add",

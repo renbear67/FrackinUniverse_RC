@@ -9,7 +9,7 @@
       "projectile" : "goocluster2",
       "range" : 14,
       "speed" : 25,
-      "power" : 8,
+      "power" : 12,
       "shots" : 8,
       "arc" : "low",
       "fireInterval" : 0.12

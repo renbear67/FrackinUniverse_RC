@@ -3,7 +3,7 @@
   "level" : 2,
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "rare",
+  "rarity" : "uncommon",
   "description" : "Superior quality steel blade.",
   "shortdescription" : "Hardened Steel Blade",
   "inspectionKind" : "sword",
@@ -20,7 +20,7 @@
     "projectileType" : "shortswordswoosh1",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 4.6
+      "power" : 6.5
     },
     "idle" : {
       "twoHanded" : false,

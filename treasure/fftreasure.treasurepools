@@ -2074,9 +2074,10 @@
   "slimemonsterTreasure" : [
     [1, {
         "pool" : [
-          {"weight" : 0.20, "pool" : "money"},
-          {"weight" : 0.1, "item" : [ "greenslime", 1]},
-          {"weight" : 0.1, "item" : [ "liquidslime", 2]}
+          {"weight" : 0.70, "pool" : "money"},
+          {"weight" : 0.3, "item" : [ "greenslime", 1]},
+          {"weight" : 0.2, "item" : [ "liquidslime", 2]},
+          {"weight" : 0.1, "item" : [ "endomorphicjelly", 1]}
         ],
         "poolRounds" : [
           [0.23, 1],
@@ -2095,7 +2096,9 @@
         "pool" : [
           {"weight" : 0.40, "pool" : "money"},
           {"weight" : 0.60, "item" : [ "greenslime", 1]},
-          {"weight" : 0.80, "item" : [ "endomorphicjelly", 3]},
+          {"weight" : 0.80, "item" : [ "endomorphicjelly", 2]},
+          {"weight" : 0.50, "item" : [ "endomorphicjelly", 3]},
+          {"weight" : 0.40, "item" : [ "endomorphicjelly", 4]},
           {"weight" : 0.60, "item" : [ "liquidslime", 2]},
           {"weight" : 0.005, "item" : [ "ff_slimechest3", 1]},
           {"weight" : 0.005, "item" : [ "ff_slimelegs3", 1]},

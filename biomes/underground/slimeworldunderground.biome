@@ -57,7 +57,7 @@
 
     "mainBlock" : "slime",
     "subBlocks" : [ "slimedirt", "slime2", "clay", "rock12" ],
-    "ores" : "ff_deepsurfacebogOres",
+    "ores" : "ff_deepsurfaceslimeOres",
 
   "parallax" : "/parallax/underground/slimeworldunderground.parallax",
 

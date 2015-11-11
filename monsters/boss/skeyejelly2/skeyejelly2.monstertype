@@ -9,7 +9,7 @@
   "reversed" : true,
   "dropPools" : [
     {
-      "default" : "slimemonsterlargeTreasure"
+      "default" : "lesserBossTreasure"
     }
   ],
   "baseParameters" : {
@@ -112,7 +112,7 @@
 
             "stats" : {
               "maxHealth" : {
-                "baseValue" : 120
+                "baseValue" : 80
               },
               "protection" : {
                 "baseValue" : 15.0

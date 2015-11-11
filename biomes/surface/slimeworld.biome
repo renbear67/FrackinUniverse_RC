@@ -124,7 +124,7 @@
   
     "mainBlock" : "slimedirt",
     "subBlocks" : [ "slime", "rock12", "slime2" ],
-    "ores" : "ff_surfacebogOres",
+    "ores" : "ff_surfaceslimeOres",
 
   "parallax" : "/parallax/surface/slimeworld.parallax",
 

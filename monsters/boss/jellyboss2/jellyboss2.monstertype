@@ -113,10 +113,10 @@
 
             "stats" : {
               "maxHealth" : {
-                "baseValue" : 450
+                "baseValue" : 375
               },
               "protection" : {
-                "baseValue" : 25.0
+                "baseValue" : 20.0
               },
               "healthRegen" : {
                 "baseValue" : 0.0
@@ -128,6 +128,9 @@
                "baseValue" : 1.0
               },        
               "poisonImmunity" : {
+                "baseValue" : 1.0
+              },
+              "biooozeImmunity" : {
                 "baseValue" : 1.0
               }
             },

@@ -6,7 +6,7 @@
   "parameters" : {
     "slimeSprayAttack" : {
       "factory" : "createRangedAttack",
-      "projectile" : "ffslimeblob",
+      "projectile" : "ffslimeblobboss",
       "arc" : "low",
       "range" : 15,
       "speed" : 25,

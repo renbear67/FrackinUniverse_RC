@@ -1,6 +1,6 @@
 {
   "name" : "slimePoisonBlastAttack",
-  "label" : "BIO BLAST",
+  "label" : "BIO ERUPTION",
   "image" : "/monsters/flying/skills/default.png",
 
   "parameters" : {
@@ -9,7 +9,7 @@
       "projectile" : "bioblast",
       "range" : 12,
       "speed" : 25,
-      "power" : 24,
+      "power" : 15,
       "shots" : 1
     }
   },
