@@ -385,7 +385,8 @@
   },
 
   "sounds" : {
-    "turnHostile" : [ ],
-    "deathPuff" : [ "/sfx/npc/enemydeathpuff.wav" ]
+    "turnHostile" : [ "/sfx/dino/dino1.ogg" ],
+    "attackSound" : [ "/sfx/dino/dino2.ogg", "/sfx/dino/dino3.ogg" ],
+    "deathPuff" : [ "/sfx/dino/dino4.ogg" ]
   }
 }

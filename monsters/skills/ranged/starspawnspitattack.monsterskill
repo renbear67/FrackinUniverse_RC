@@ -7,7 +7,7 @@
     "starspawnSpitAttack" : {
       "factory" : "createRangedAttack",
       "projectile" : "redboltsmall",
-      "range" : 15,
+      "range" : 14,
       "speed" : 55,
       "power" : 20,
       "shots" : 4,
@@ -18,7 +18,7 @@
 
   "animationParameters" : {
     "sounds" : {
-      "rangedAttack" : [ ]
+      "rangedAttack" : [ "/sfx/starspawn/attack.wav" ]
     }
   }
 }

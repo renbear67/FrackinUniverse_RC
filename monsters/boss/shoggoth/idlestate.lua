@@ -2,7 +2,7 @@ idleState = {}
 
 function idleState.enter()
   if hasTarget() then return nil end
-
+    entity.playSound("turnHostile")
   return {}
 end
 

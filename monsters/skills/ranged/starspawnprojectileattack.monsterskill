@@ -18,7 +18,7 @@
 
   "animationParameters" : {
     "sounds" : {
-      "rangedAttack" : [ ]
+      "rangedAttack" : [ "/sfx/starspawn/starspawn1.ogg" ]
     }
   }
 }

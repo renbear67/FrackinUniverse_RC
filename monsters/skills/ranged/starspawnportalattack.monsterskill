@@ -19,7 +19,7 @@
 
   "animationParameters" : {
     "sounds" : {
-      "rangedAttack" : [ ]
+      "rangedAttack" : [ "/sfx/starspawn/attack2.wav" ]
     }
   }
 }

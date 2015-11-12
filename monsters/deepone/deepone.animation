@@ -387,7 +387,8 @@
   },
 
   "sounds" : {
-    "turnHostile" : [ ],
-    "deathPuff" : [ "/sfx/npc/enemydeathpuff.wav" ]
+    "attackSound" : [ "/sfx/deepone/attack1.ogg" , "/sfx/deepone/attack2.ogg"  ],
+    "turnHostile" : [ "/sfx/deepone/turnhostile.ogg" ],
+    "deathPuff" : [ "/sfx/raptor/turnhostile.ogg" ]
   }
 }

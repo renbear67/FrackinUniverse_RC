@@ -60,7 +60,6 @@ function update(dt)
 
   if hasTarget() and entity.health() > 0 then
     if self.hadTarget == false then
-      entity.playSound("turnHostile")
       self.hadTarget = true
     end
     script.setUpdateDelta(1)
@@ -95,7 +94,9 @@ function damage(args)
 
   if entity.health() <= 0 then
     local inState = self.state.stateDesc()
+    entity.playSound("deathPuff")
     if inState ~= "dieState" and not self.state.pickState({ die = true }) then
+      
       self.state.endState()
       self.dead = true
     end

@@ -23,8 +23,8 @@
       "/monsters/ground/skills/createGroundRangedAttack.lua"
     ],
 
-    "baseSkills" : [ "starspawnSpitAttack", "starspawnBlinkAttack" ],
-    "specialSkills" : [ "starspawnShockAttack", "starspawnSwarmAttack", "starspawnPortalAttack" ],
+    "baseSkills" : [ "starspawnBlinkAttack" ],
+    "specialSkills" : [ "starspawnSpitAttack", "starspawnShockAttack", "starspawnSwarmAttack", "starspawnPortalAttack" ],
 
     "projectileSourcePosition" : [0.75, -0.62],
 

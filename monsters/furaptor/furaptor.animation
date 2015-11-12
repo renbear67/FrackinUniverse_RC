@@ -376,9 +376,8 @@
   },
 
   "sounds" : {
-  
-    "attackSound" : [ "/sfx/npc/unique/spiderboss_idle1.wav" , "/sfx/npc/unique/spiderboss_idle2.wav"  ],
-    "turnHostile" : [ "/sfx/npc/unique/spiderboss_turnhostile.wav" ],
-    "deathPuff" : [ "/sfx/npc/unique/spiderboss_death.wav" ]
+    "attackSound" : [ "/sfx/raptor/raptor2.ogg" , "/sfx/raptor/raptor4.ogg"  ],
+    "turnHostile" : [ "/sfx/raptor/raptor1.ogg" ],
+    "deathPuff" : [ "/sfx/raptor/raptor3.ogg" ]
   }
 }
