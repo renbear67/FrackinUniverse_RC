@@ -14,7 +14,7 @@
   "recoilTime" : 0,
   "spread" : 1,
   "muzzleEffect" : {
-    "fireSound" : [ { "file" : "/items/guns/science_mod/isn_plasmabeam/isn_plasmabeam.wav" } ]
+    "fireSound" : [ { "file" : "/sfx/weapons/megagun.ogg" } ]
   },
   
   "fireTime" : 1,

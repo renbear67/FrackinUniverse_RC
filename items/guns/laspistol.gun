@@ -17,7 +17,7 @@
     "twoHanded" : false,
     "rateOfFire" : [2, 7],
     "muzzleEffect" : {
-      "fireSound" : [ { "file" : "/sfx/gun/plasma_mp2.wav" } ],
+      "fireSound" : [ { "file" : "/sfx/weapons/energypew.ogg" } ],
       "animation" : "/animations/muzzleflash/plasmamuzzle2/plasmamuzzle2.animation"
     },
     "learnBlueprintsOnPickup" : [ "isn_terawattlaser" ],

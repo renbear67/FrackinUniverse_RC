@@ -18,7 +18,7 @@
     "rateOfFire" : [2, 7],
     "walkWhileFiring" : true,
     "muzzleEffect" : {
-      "fireSound" : [ { "file" : "/sfx/gun/plasma_mp2.wav" } ],
+      "fireSound" : [ { "file" : "/sfx/weapons/energypew.ogg" } ],
       "animation" : "/animations/muzzleflash/plasmamuzzle2/plasmamuzzle2.animation"
     },
     "fireOnRelease" : false,

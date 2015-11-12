@@ -15,7 +15,7 @@
   "projectileCount" : 3,
   "muzzleEffect" : {
     "animation" : "/animations/muzzleflash/flamemuzzle/flamemuzzle.animation",
-    "fireSound" : [ { "file" : "/sfx/projectiles/fireball_poof.wav" } ]
+    "fireSound" : [ { "file" : "/sfx/weapons/energyweapon2.ogg" } ]
   },
   
   "fireTime" : 0.22,

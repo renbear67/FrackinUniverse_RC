@@ -376,8 +376,8 @@
   },
 
   "sounds" : {
-    "turnHostile" : [ "/sfx/npc/quadruped/canine_idle1.wav" ],
+    "turnHostile" : [ "/sfx/troll/roar.wav" ],
     "attackSound" : [ "/sfx/npc/quadruped/doublejawhead_attack1.wav", "/sfx/npc/quadruped/doublejawhead_attack2.wav" ],
-    "deathPuff" : [ "/sfx/npc/quadruped/doublejawhead_death.wav" ]
+    "deathPuff" : [ "/sfx/troll/death.wav" ]
   }
 }

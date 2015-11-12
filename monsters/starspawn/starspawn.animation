@@ -606,7 +606,7 @@
   },
 
   "sounds" : {
-    "turnHostile" : [ "/sfx/npc/smallbiped/teethyhead_small_idle2.wav"],
+    "turnHostile" : [ "/sfx/starspawn/attack.wav"],
     "deathPuff" : [ "/sfx/npc/smallbiped/powlhead_small_death.wav" ],
     "blinkSound" : ["/sfx/gun/lightningcoil3.wav"]
   }

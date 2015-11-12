@@ -541,8 +541,9 @@
     }
   },
   "sounds" : {
-    "turnHostile" : [ "/sfx/npc/unique/spiderboss_turnhostile.wav" ],
-    "deathPuff" : [ "/sfx/npc/enemydeathpuff.wav" ]
+    "turnHostile" : [ "/sfx/shoggoth/growl.wav" ],
+    "attackMain" : [ "/sfx/npc/unique/spiderboss_turnhostile.wav" ],
+    "deathPuff" : [ "/sfx/shoggoth/death.wav" ]
   },
   "effects" : {
     "blink" : {

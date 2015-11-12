@@ -15,7 +15,7 @@
   "projectileCount" : 6,
   "accuracy" : 100,
   "muzzleEffect" : {
-    "fireSound" : [ { "file" : "/items/guns/science_mod/isn_microwaveray/isn_heatray.wav" } ]
+    "fireSound" : [ { "file" : "/items/guns/science_mod/isn_microwaveray/isn_heatray.ogg" } ]
   },
   
   "fireTime" : 0.08,

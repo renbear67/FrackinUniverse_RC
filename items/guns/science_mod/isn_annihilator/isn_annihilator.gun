@@ -15,7 +15,7 @@
   "recoilTime" : 0,
   "spread" : 1,
   "muzzleEffect" : {
-    "fireSound" : [ { "file" : "/sfx/gun/plasma_shotgun2.wav" } ]
+    "fireSound" : [ { "file" : "/sfx/weapons/disruptor.ogg" } ]
   },
   
   "fireTime" : 0.33,
