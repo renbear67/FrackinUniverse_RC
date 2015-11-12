@@ -2639,7 +2639,7 @@
           {
             "kind" : "npc",
             "species" : "hylotl",
-            "typeName" : "fuoutpostcivilian",
+            "typeName" : "fuoutpostcivilian2",
             "seed" : 500
           }
         ] ]
@@ -2651,7 +2651,7 @@
           {
             "kind" : "npc",
             "species" : "human",
-            "typeName" : "fuoutpostcivilian",
+            "typeName" : "fuoutpostcivilian3",
             "seed" : 52
           }
         ] ]

@@ -5,6 +5,8 @@
 
   "damageTeam" : 1,
   "scriptConfig" : {
+    "offeredQuests" : [ "seedsofdiscontent1.gearup","seedsofdiscontent2.gearup","seedsofdiscontent3.gearup" ],
+    "turnInQuests" : [ "seedsofdiscontent1.gearup","seedsofdiscontent2.gearup","seedsofdiscontent3.gearup" ],
     
     "reactions" : {
       "spontaneous" : [
@@ -806,10 +808,6 @@
       }]
     ],
     
-    
-    "offeredQuests" : [ "seedsofdiscontent1.gearup","seedsofdiscontent2.gearup","seedsofdiscontent3.gearup" ],
-    "turnInQuests" : [ "seedsofdiscontent1.gearup","seedsofdiscontent2.gearup","seedsofdiscontent3.gearup" ],
-
     "wander" : {
       "timeRange" : [2.0, 10.0],
       "chatDistance" : 4,

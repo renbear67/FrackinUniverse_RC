@@ -68,7 +68,9 @@
   "sitFlipDirection" : true,
   "sitEmote" : "happy",
   "sitStatusEffects" : [
-    { "kind" : "Nude" }
+    "regeneration2",
+    "nude"
   ],
+
   "sitPosition" : [-5, 19]
 }

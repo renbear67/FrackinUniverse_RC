@@ -4,7 +4,7 @@
   "text" : "Before you take care of bees, you need a place to put them. Build an ^orange;Apiary^white; for this.",
   "completionText" : "The ^orange;apiary^white; is essential for a beekeeper. You'll likely want more than one.",
   "completionConditions" : [ 
-    { "type" : "gather", "item" : "apiary", "consume" : false }
+    { "type" : "gather", "item" : "normalapiary", "consume" : false }
   ],
   "moneyRange" : [20,90],
   "rewards" : [],
