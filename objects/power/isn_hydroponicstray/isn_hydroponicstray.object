@@ -61,10 +61,13 @@
   },
 
   "isn_fertInputs" : {
+        "fu_mulch" : 1,
 	"ff_fertilizer" : 1,
 	"ff_fertilizer2" : 2,
 	"ff_fertilizer3" : 3,
-	"pesticide" : 3
+	"pesticide" : 3,
+	"poop" : 2
+	
   },
 
   "isn_seedOutputs" : {

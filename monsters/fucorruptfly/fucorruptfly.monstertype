@@ -109,7 +109,7 @@
 
       "stats" : {
         "maxHealth" : {
-          "baseValue" : 40
+          "baseValue" : 30
         },
         "protection" : {
           "baseValue" : 0.0

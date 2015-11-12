@@ -60,6 +60,7 @@ function update(dt)
 
   if hasTarget() and entity.health() > 0 then
     if self.hadTarget == false then
+      entity.playSound("turnHostile")
       self.hadTarget = true
     end
     script.setUpdateDelta(1)

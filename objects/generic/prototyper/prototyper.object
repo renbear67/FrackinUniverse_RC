@@ -14,7 +14,7 @@
   "race" : "generic",
   "category" : "crafting",
   "price" : 450,
-  "learnBlueprintsOnPickup" : [ "apexbrainjar", "powerpress", "apexpod2", "magneticshielding", "electronmicroscope", "extractionlab", "extractionlab_roof", "nanofabricator", "circuitboard", "biochipbase", "basicminer" ],
+  "learnBlueprintsOnPickup" : [ "clothingfabricator", "apexbrainjar", "powerpress", "apexpod2", "magneticshielding", "electronmicroscope", "extractionlab", "extractionlab_roof", "nanofabricator", "circuitboard", "biochipbase", "basicminer" ],
 
   "inventoryIcon" : "prototypericon.png",
   "orientations" : [
