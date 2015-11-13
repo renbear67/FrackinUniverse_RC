@@ -377,6 +377,8 @@
 
   "sounds" : {
     "turnHostile" : [ ],
-    "deathPuff" : [ "/sfx/npc/enemydeathpuff.wav" ]
+    "deathPuff" : [ "/sfx/npc/smallbiped/arrowhead_small_death.wav" ],
+    "attack" : [ "/sfx/npc/smallbiped/arrowhead_small_attack1.wav" ]
+
   }
 }

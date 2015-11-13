@@ -6,7 +6,9 @@
         "default" : "idle",
         "states" : {
           "idle" : {
-            "frames" : 1
+            "frames" : 8,
+            "cycle" : 1,
+            "mode" : "loop"
           },
           "jump" : {
             "frames" : 1,
@@ -19,12 +21,12 @@
           },
           "walk" : {
             "frames" : 4,
-            "cycle" : 2.0,
+            "cycle" : 0.4,
             "mode" : "loop"
           },
           "run" : {
             "frames" : 4,
-            "cycle" : 0.5,
+            "cycle" : 0.4,
             "mode" : "loop"
           },
           "chargeWindup" : {
@@ -51,7 +53,9 @@
         "default" : "idle",
         "states" : {
           "idle" : {
-            "frames" : 1
+            "frames" : 8,
+            "cycle" : 1,
+            "mode" : "loop"
           },
           "melee" : {
             "frames" : 4,
@@ -109,7 +113,7 @@
           "movement" : {
             "idle" : {
               "properties" : {
-                "image" : "<partImage>:idle"
+                "image" : "<partImage>:idle.<frame>"
               }
             },
             "walk" : {
@@ -239,8 +243,7 @@
 
   "sounds" : {
     "turnHostile" : [ ],
-    "deathPuff" : [ "/sfx/npc/enemydeathpuff.wav" ],
-    "hatch" : [ "/sfx/npc/unique/ixoling_hatch1.wav", "/sfx/npc/unique/ixoling_hatch2.wav" ],
-    "attack" : [  "/sfx/npc/smallbiped/bugthinghead_small_attack1.wav", "/sfx/npc/smallbiped/bugthinghead_small_attack2.wav"  ]
+    "deathPuff" : [ "/sfx/npc/smallbiped/spidermonkey_death.wav" ],
+    "attack" : [  "/sfx/npc/smallbiped/spidermonkey_idle1.wav" ]
   }
 }

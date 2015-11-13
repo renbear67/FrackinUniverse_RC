@@ -49,6 +49,7 @@ function shoggothChargeAttack.update(dt, stateData)
           table.insert(crashTiles, entity.toAbsolutePosition({basePos[1] + xOffset, basePos[2] + yOffset}))
         end
       end
+      entity.playSound("shoggothChomp")
       world.damageTiles(crashTiles, "foreground", entity.toAbsolutePosition({10, 0}), "plantish", 20)
 
       -- self.state.pickState({stun=true,duration=entity.configParameter("chargeAttack.crashStunTime")})

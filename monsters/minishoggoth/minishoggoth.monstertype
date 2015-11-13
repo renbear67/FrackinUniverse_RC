@@ -24,7 +24,7 @@
       "/monsters/ground/skills/createGroundRangedAttack.lua"
     ],
 
-    "baseSkills" : [ "meleeAttack"],
+    "baseSkills" : [ "fuSoundMeleeAttack"],
     "specialSkills" : [ "acidicSpitAttack" ],
 
     "projectileSourcePosition" : [1.875, -1],

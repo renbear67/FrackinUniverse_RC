@@ -543,7 +543,8 @@
   "sounds" : {
     "turnHostile" : [ "/sfx/shoggoth/shoggothhostile.ogg" ],
     "attackMain" : [ "/sfx/shoggoth/growl.wav", "/sfx/shoggoth/shoggoth1.ogg" ],
-    "deathPuff" : [ "/sfx/shoggoth/death.wav" ]
+    "deathPuff" : [ "/sfx/shoggoth/death.wav" ],
+    "shoggothChomp" : [ "/sfx/melee/bite_robotic1.wav"]
   },
   "effects" : {
     "blink" : {
