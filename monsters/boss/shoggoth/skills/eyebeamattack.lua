@@ -28,7 +28,7 @@ end
 function eyeBeamAttack.update(dt, stateData)
   if not hasTarget() then return true end
 
-  local toTarget = world.distance(self.targetPosition, mcontroller.position())
+  local toTarget = world.distance(self.targetPosition, vec2.add(mcontroller.position(), {-10, -5}))
   local targetDir = util.toDirection(toTarget[1])
 
 
