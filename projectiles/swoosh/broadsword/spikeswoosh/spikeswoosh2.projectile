@@ -11,7 +11,7 @@
   "piercing" : true,
   "flippable" : true,
   "damageKind" : "poison",
-  "effectSources" : [ "sparkles" ],
+  "emitters" : [ "corrosive" ],
 
 
   "actionOnReap" : [

@@ -7,10 +7,10 @@
   "speed" : 0,
   "fallSpeed" : 0,
   "animationLoops" : false,
-  "piercing" : true,
+  "piercing" : false,
   "flippable" : true,
   "pointLight" : true,
   "lightColor" : [168,175,155],
-  "universalDamage" : true,
+  "universalDamage" : false,
   "damageKind" : "default"
 }

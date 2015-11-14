@@ -15,25 +15,75 @@
  }
  },
  
+{"op":"add",
+"path":"/nocollision",
+"value": {
+     "gravityMultiplier" : 0.0,
+     "bounceFactor" : 1.0,
+     "maxMovementPerStep" : 0.4,
+     "groundSlideMovementEnabled" : false,
+     "collisionPoly" : [],
+     "ignorePlatformCollision" : true,
+     "groundFriction" : 0,
+     "airFriction" : 0,
+     "liquidFriction" : 0,
+     "speedLimit" : null
+  }
+}, 
+ 
+{"op":"add",
+"path":"/lunari",
+"value": {
+    "mass" : 0.3,
+    "gravityMultiplier" : 0.1,
+    "bounceFactor" : 0,
+    "maxMovementPerStep" : 0.4,
+    "groundSlideMovementEnabled" : true,
 
+    "collisionPoly" : [ [-0.25, -0.25], [0.25, -0.25], [0.25, 0.25], [-0.25, 0.25] ],
+    "ignorePlatformCollision" : true,
+
+    "airFriction" : 0.25,
+    "liquidFriction" : 2.5,
+    "groundFriction" : 0
+  }
+}, 
+ 
+{"op":"add",
+"path":"/lunarifall",
+"value": {
+    "mass" : 0.3,
+    "gravityMultiplier" : 0.6,
+    "bounceFactor" : 0.7,
+    "maxMovementPerStep" : 0.4,
+
+    "collisionPoly" : [ [-0.25, -0.25], [0.25, -0.25], [0.25, 0.25], [-0.25, 0.25] ],
+    "ignorePlatformCollision" : true,
+
+    "airFriction" : 12.0,
+    "liquidFriction" : 8.0,
+    "groundFriction" : 15.0
+  }
+}, 
+    
 {"op":"add",
 "path":"/fublistergun",
 "value": {
-    "mass" : 0.7,
-    "gravityMultiplier" : 0.58,
-    "stickyCollision" : true,
-    "stickyForce" : 0.5,
-    "bounceFactor" : 0.0,
-    "maxMovementPerStep" : 0.4,
+    "mass" : 0.3,
+    "gravityMultiplier" : 0.1,
+    "stickyForce" : 0.25,
+    "bounceFactor" : 2.0,
+    "maxMovementPerStep" : 0.5,
+
     "collisionPoly" : [ [-0.25, -0.25], [0.25, -0.25], [0.25, 0.25], [-0.25, 0.25] ],
     "ignorePlatformCollision" : true,
-    "groundFriction" : 4.0,
-    "airFriction" : 0.2,
-    "liquidFriction" : 12.0,
-    "speedLimit" : null
+
+    "airFriction" : 0.25,
+    "liquidFriction" : 8.0,
+    "groundFriction" : 15.0
   }
 },      
-  
+
 
     
 {"op":"add",
@@ -41,14 +91,14 @@
 "value": {
     "mass" : 1.5,
     "gravityMultiplier" : 0.0,
-    "maxMovementPerStep" : 0.07,
+    "maxMovementPerStep" : 0.02,
 
     "collisionPoly" : [ [-0.5, -0.5], [0.5, -0.5], [0.5, 0.5], [-0.5, 0.5] ],
     "ignorePlatformCollision" : true,
 
-    "airFriction" : 4.5,
-    "liquidFriction" : 4.5,
-    "groundFriction" : 4.5
+    "airFriction" : 7.5,
+    "liquidFriction" : -5.5,
+    "groundFriction" : 0
   }
 }, 
 

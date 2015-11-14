@@ -311,6 +311,18 @@
           "treeStemHueShiftMax" : 220,
           "treeStemList" : [ "bloodvine" ],
           "treeFoliageList" : [ "nofoliagevine"  ]
+        },
+        {
+          "mode" : "ceiling",
+          "priority" : 2.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:ffCommon",
+
+          "type" : "tree",
+          "treeFoliageHueShiftMax" : 220,
+          "treeStemHueShiftMax" : 220,
+          "treeStemList" : [ "eyevein" ],
+          "treeFoliageList" : [ "eyeveiny"  ]
         }
     ]
   },

@@ -31,7 +31,7 @@
       "action" : "projectile",
       "type" : "ocucannonspray",
       "fuzzAngle" : 20,
-      "inheritDamageFactor" : 0.13
+      "inheritDamageFactor" : 0.3
     },
     {
       "action" : "loop",

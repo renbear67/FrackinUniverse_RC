@@ -46,7 +46,7 @@
     "projectileType" : "cellswoosh",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 9
+      "power" : 7.6
     },
     "idle" : {
       "twoHanded" : false,

@@ -3,7 +3,7 @@
     { "item" : "refinedviolium", "count" : 2 },
     { "item" : "fleshstrand", "count" : 4 },
     { "item" : "corruptionseed", "count" : 3 },
-    { "item" : "bone", "count" : 12 }
+    { "item" : "larva", "count" : 8 }
   ],
   "output" : { "item" : "cultfleshhead", "count" : 1 },
   "groups" : [ "armory", "armors", "all" ]

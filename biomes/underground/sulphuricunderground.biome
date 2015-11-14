@@ -4,12 +4,48 @@
 
   "spawnProfiles" : [
     {
-      "profiles" : [ "mediumunderground1" ],
-      "extraSpawns" : [ ]
+      "groups" : [ "fu_sulphuric" ],
+      "extraSpawns" : [ "fuscorpion", "funewt" ],
+      "monsterParameters" : {
+        "statusSettings" : {
+          "stats" : {
+            "sulphuricImmunity" : {
+              "baseValue" : 1.0
+            },
+            "poisonImmunity" : {
+              "baseValue" : 1.0
+            },
+            "blacktarImmunity" : {
+              "baseValue" : 1.0
+            },            
+            "breathProtection" : {
+              "baseValue" : 1.0
+            }
+          }
+        }
+      }
     },
     {
-      "profiles" : [ "mediumunderground2" ],
-      "extraSpawns" : [ ]
+      "groups" : [ "fu_sulphuric" ],
+      "extraSpawns" : [ "fuscorpion", "funewt" ],
+      "monsterParameters" : {
+        "statusSettings" : {
+          "stats" : {
+            "sulphuricImmunity" : {
+              "baseValue" : 1.0
+            },
+            "poisonImmunity" : {
+              "baseValue" : 1.0
+            },
+            "blacktarImmunity" : {
+              "baseValue" : 1.0
+            },            
+            "breathProtection" : {
+              "baseValue" : 1.0
+            }
+          }
+        }
+      }
     }
   ],
 

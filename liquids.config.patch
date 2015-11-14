@@ -68,8 +68,8 @@
           }          
         ],
  	"texture" : "/liquids/bloodtex.png",
-	"bottomLightMix" : [1, 0, 0],
-	"textureMovementFactor" : 2.6
+	"bottomLightMix" : [61, 0, 20],
+	"textureMovementFactor" : 0.76
 	}
     },
     { "op" : "add", 

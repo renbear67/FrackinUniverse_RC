@@ -21,6 +21,6 @@
       "quantity" : 1
     }
   ],
-  "effectSources" : [ "corrosive" ],
+  "emmiters" : [ "corrosive" ],
   "statusEffects" : [ "weakpoison" ]
 }

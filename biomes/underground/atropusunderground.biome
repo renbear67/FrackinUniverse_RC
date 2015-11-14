@@ -162,13 +162,25 @@
           "mode" : "ceiling",
           "priority" : 2.0,
           "variants" : 1,
+          "distribution" : "/biomes/distributions.config:ffunCommon",
+
+          "type" : "tree",
+          "treeFoliageHueShiftMax" : 220,
+          "treeStemHueShiftMax" : 220,
+          "treeStemList" : [ "fleshvine_atropus", "fleshvine2", "podvine"],
+          "treeFoliageList" : [ "nofoliagevine" ]
+        },
+        {
+          "mode" : "ceiling",
+          "priority" : 2.0,
+          "variants" : 1,
           "distribution" : "/biomes/distributions.config:denseMedium",
 
           "type" : "tree",
           "treeFoliageHueShiftMax" : 220,
           "treeStemHueShiftMax" : 220,
-          "treeStemList" : [  "fleshvine_atropus", "fleshvine2", "podvine" ],
-          "treeFoliageList" : [ "nofoliagevine" ]
+          "treeStemList" : [ "vein", "bluevein"],
+          "treeFoliageList" : [ "blueveiny", "veiny" ]
         },
         {
           "mode" : "floor",

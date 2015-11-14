@@ -14,6 +14,7 @@
     "level" : 2,
     "tooltipKind" : "gun",
     "fireTime" : 0.30,
+    "inaccuracy" : 0.0314,
     "twoHanded" : false,
     "rateOfFire" : [2, 7],
     "muzzleEffect" : {
@@ -24,7 +25,6 @@
     
     "projectileType" : "lunarishot",
 
-    "powerProjectileTime" : [0.4, 50],
     "projectile" : {
       "speed" : 50, 
       "power" : 3.5 , 

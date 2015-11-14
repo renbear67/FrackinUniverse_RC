@@ -16,7 +16,7 @@
   ],
 
 
-  "parallax" : "/parallax/underground/bloodstoneunderground.parallax",
+  "parallax" : "/parallax/surface/bloodstoneseafloor.parallax",
 
   "skyOptions" : [
 
@@ -123,28 +123,7 @@
 
           "type" : "microdungeon",
           "microdungeons" : [ "block1platforms", "loops", "spiralspikes", "blocks", "stripeblocks", "blockpile", "reversepyramids", "flats", "spikes", "rods", "wiggles", "rockyshapes", "layeredspire", "blank", "none" ]
-        },
-        {
-          "mode" : "floor",
-          "priority" : 1.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:ffunCommon",
-
-          "type" : "object",
-          "objectSets" : [
-            {
-              "pool" : [ 
-              [0.65, "wilderithianalgaeseed" ],
-              [0.65, "wildglarestalkseed" ],
-              [0.65, "wildlasherplantseed" ],
-              [0.65, "wildgazelemonseed" ],
-              [0.35, "wildbloodrootseed" ],
-              [0.65, "wildshockshroomseed" ] 
-              ],
-              "parameters" : { "startingStage" : 3 }
-            }
-          ]
-        },           
+        },         
         {
           "mode" : "floor",
           "priority" : 1.0,
@@ -268,6 +247,18 @@
             }
           ]
         },
+      {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseMedium",
+
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 0,
+        "treeStemHueShiftMax" : 0,
+        "treeStemList" : [ "bloodkelp" ],
+        "treeFoliageList" : [ "bloodkelpy" ]
+      },
         {
           "mode" : "ceiling",
           "priority" : 2.0,
@@ -279,7 +270,22 @@
           "treeStemHueShiftMax" : 220,
           "treeStemList" : [ "bloodvine" ],
           "treeFoliageList" : [ "nofoliagevine"  ]
-        }
+        },
+      {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseMedium",
+
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "bloodsea",
+            "baseHueShiftMax" : 0,
+            "modHueShiftMax" : 0
+          }
+        ]
+      }
       ]
     }
 }

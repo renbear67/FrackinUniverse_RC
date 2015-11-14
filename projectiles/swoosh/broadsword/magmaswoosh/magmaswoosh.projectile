@@ -12,7 +12,7 @@
   "flippable" : true,
   "damageKind" : "firebroadsword",
   "color" : "orange",
-  "effectSources" : [ "sparkles" ],
+  "emitters" : [ "fireswoosh1" ],
   "knockback" : 25,
   "knockbackDirectional" : true,
 

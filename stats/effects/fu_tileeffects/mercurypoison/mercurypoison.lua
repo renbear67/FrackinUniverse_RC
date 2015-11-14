@@ -1,6 +1,6 @@
 function init()
   _x = effect.configParameter("healthDown", 0)
-baseValue = effect.configParameter("healthDown",0)*(status.resourceMax("energy"))
+baseValue = effect.configParameter("healthDown",0)*(status.resourceMax("health"))
 
   if (status.resourceMax("health")) * _x >= 100.0 then
      effect.addStatModifierGroup({{stat = "maxHealth", amount = baseValue }})

@@ -27,6 +27,7 @@
       "action" : "config",
       "file" : "/items/guns/science_mod/isn_plasmabeam/isn_plasmablast.config"
     }
-  ]
+  ],
+  "emitter" : [ "electricplasma" ]
   
 }

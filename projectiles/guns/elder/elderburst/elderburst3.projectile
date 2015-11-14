@@ -23,7 +23,7 @@
       "action" : "projectile",
       "type" : "elderburst4",
       "fuzzAngle" : 30,
-      "inheritDamageFactor" : 0.5,
+      "inheritDamageFactor" : 0.7,
       "angleAdjust" : 0
     }
   ],

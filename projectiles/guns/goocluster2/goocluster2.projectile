@@ -13,7 +13,7 @@
     {
       "action" : "projectile",
       "type" : "smallregularexplosion",
-      "inheritDamageFactor" : 1,
+      "inheritDamageFactor" : 0.35,
       "angle" : 5
     },
     {

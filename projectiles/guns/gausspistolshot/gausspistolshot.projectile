@@ -6,7 +6,7 @@
   "frameNumber" : 6,
   "damageKindImage" : "icon.png",
   "pointLight" : true,
-  "lightColor" : [168,175,155],
+  "lightColor" : [110, 80, 110],
   "power" : 2,
   "speed" : 65,
   "timeToLive" : 0.6,
@@ -18,5 +18,6 @@
   ],
   "damagePoly" : [ [-64, 0], [-64, -13], [0, -13], [64, -13], [64, 0], [64, 13], [0, 13], [-64, 13] ],
   "damageKind" : "fireplasma",
-  "physics" : "laser"
+  "physics" : "bullet",
+  "emitters" : [ "sparks" ]
 }

@@ -66,6 +66,9 @@
 {"op":"add","path":"/planetTypeToDescription/arboreal2",
 "value":"^#59a849;Giant trees^white; are abundant on this ancient and ^#cd5d02;volcanic primeval forest^white; world."},
 
+{"op":"add","path":"/planetTypeToDescription/arborealdark",
+"value":"A nearly lightless ^#59a849;Primeval Forest^white;. How do all these trees grow?"},
+
 {"op":"add","path":"/planetTypeToDescription/atropus",
 "value":"An ^#cc8d5a;atropus^white; world. This unusual planet appears to be ^#cc8d5a;biologically mutated^white; as if created by an insane God."},
 
@@ -102,6 +105,9 @@
 {"op":"add","path":"/planetTypeToDescription/icewaste",
 "value":"Scanners show deadly ice and abolute zero temperatures on this ^#69f1fd;ice waste^white;. Proceed with caution."},
 
+{"op":"add","path":"/planetTypeToDescription/icewastedark",
+"value":"Scanners show deadly ice and abolute zero temperatures on this ^#69f1fd;ice waste^white;...and pretty much zero light."},
+
 {"op":"add","path":"/planetTypeToDescription/infernus",
 "value":"Volatile lava and extreme deadly heat await on ^#cd5d02;infernus^white; worlds. Protection recommended."},
 
@@ -131,6 +137,9 @@
 
 {"op":"add","path":"/planetTypeToDescription/sulphuric",
 "value":"^#ffea00;Sulphuric^white; worlds are extremely dangerous. Airless. Violent deadly storms. Abundant ^#772211;cinnabar^white; detected."},
+
+{"op":"add","path":"/planetTypeToDescription/sulphuricdark",
+"value":"^#ffea00;Sulphuric^white; worlds are extremely dangerous. They're worse without any light."},
 
 {"op":"add","path":"/planetTypeToDescription/sulphuricocean",
 "value":"A ^#ffea00;sulphuric ocean^white; covers almost the entire surface. Abundant ^#772211;cinnabar^white; detected."},
@@ -167,6 +176,9 @@
 
 {"op":"add","path":"/planetTypeToDescription/shadow",
 "value":"A ^#ccfa33;shadow world^white; that seems to block our scanners. Whatever is down there, it's likely rather dark."},
+
+{"op":"add","path":"/planetTypeToDescription/strangesea",
+"value":"This world is covered in a ^#da67b8;strange sea^white;. Scanners reveal little useful info."},
 
 {"op":"add","path":"/planetTypeToDescription/superdense",
 "value":"^#914560;Super-dense^white; worlds have enormous gravitational force."}

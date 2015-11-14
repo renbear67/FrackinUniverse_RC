@@ -3,7 +3,7 @@
     "inventoryIcon" : "minirocketlauncher2.png",
     "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
     "maxStack" : 1,
-    "rarity" : "rare",
+    "rarity" : "legendary",
     "description" : "Fires adorable little missiles.",
     "shortdescription" : "Micro-Rocket Ejector",
     "image" : "minirocketlauncher2.png",

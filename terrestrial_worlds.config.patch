@@ -207,6 +207,48 @@
    },
 
 
+   {"op" : "add", 
+   "path" : "/planetTypes/strangesea",
+   "value" : 
+     {
+       "threatRange" : [4, 7],
+       "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "ocean", "magma", "toxic", "nitrogensea", "sulphuricocean", "tidewater", "bloodstonesea", "arctic" ],
+          "secondaryRegion" : [ "corruptmoon", "corruptedforest", "corrupt", "magicsnowland", "eden", "fieldofbracken", "supermatterzone", "aliendesert", "goreforest", "cactiplace", "metalworks", "metalworks2", "crystalswamp", "ffhive", "corruptmoon", "birchforest", "alienforest", "sulphuricmagma", "cellfield", "reddesert", "finesand", "cloudforest", "hauntedforest", "hauntedgraveyard", "rainbowforest", "swamp", "mountainous", "tidewater", "estuary", "breakwater", "corrupt", "spring", "mushroom", "oasis", "tar", "alpine", "bioluminescence", "colourful", "bones", "giantflowers", "eyepatch", "ice", "rust", "crystalline", "alien", "arctic", "barren", "desert", "forest", "jungle", "magma", "ocean", "savannah", "scorched", "snow", "toxic", "tundra", "volcanic", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "calichefield", "bloodstonefield", "crystalplain", "deadwood", "desertoasis", "dryriverbed", "elder", "energyorbforest", "flowerforest", "hellfirefield", "hellhive", "icefire", "irradiatedwaste", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "pitchfield", "primevalforest", "snowyforest", "sulphuricplain", "taiga" ],
+          //"dungeonCountRange" : [0, 2],
+          "dungeons" : [ "fuwreck", "wreck", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "avianairship", "aviantemple","humanbunker", "floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison", "naturalcave" ]
+        },
+        "subsurface" : {
+          "primaryRegion" : [ "oceanfloor", "toxicoceanfloor", "magmaoceanfloor", "arcticoceanfloor","nitrogenseafloor", "bloodstoneseafloor", "sulphuricoceanfloor"  ]
+        },
+        "underground1" : {
+          "secondaryRegion" : [ "colourful", "zen", "shadow", "crystalcave", "abandonedmines", "hive","coralcavern", "luminouscaves", "stonecaves", "bonecaves", "icecaves" ]
+        },
+        "underground2" : {
+          "secondaryRegion" : [ "colourful", "zen", "shadow", "crystalcave", "abandonedmines", "hive","coralcavern", "luminouscaves", "stonecaves", "bonecaves", "icecaves" ]
+        },
+        "underground3" : {
+          "secondaryRegion" : [ "colourful", "zen", "shadow", "crystalcave", "abandonedmines", "hive","coralcavern", "luminouscaves", "stonecaves", "bonecaves", "icecaves" ]
+        },
+        "underground4" : {
+          "secondaryRegion" : [ "colourful", "zen", "shadow", "crystalcave", "abandonedmines", "hive","coralcavern", "luminouscaves", "stonecaves", "bonecaves", "icecaves" ]
+        },
+        "underground5" : {
+          "secondaryRegion" : [ "colourful", "zen", "shadow", "crystalcave", "abandonedmines", "hive","coralcavern", "luminouscaves", "stonecaves", "bonecaves", "icecaves" ]
+        },
+        "underground6" : {
+          "secondaryRegion" : [ "colourful", "zen", "shadow", "crystalcave", "abandonedmines", "hive","coralcavern", "luminouscaves", "stonecaves", "bonecaves", "icecaves" ]
+        },
+        "core" : {
+          "primaryRegion" : [ "mooncore", "nitrogencore", "protocore", "core", "liquidprotocore", "irradiumcore" ]
+        } 
+       }
+     }
+   },
+   
+   
+   
 
    {"op" : "add", 
    "path" : "/planetTypes/shadow",
@@ -215,8 +257,11 @@
        "gravityRange" : [10, 120],
        "threatRange" : [4, 7],
        "layers" : {
+      "space" : {
+        "primaryRegion" : [ "elderasteroid" ]
+      },
         "surface" : {
-          "primaryRegion" : [ "metallicmoon", "penumbra", "lightless", "moon_shadow", "atropusdark" ],
+          "primaryRegion" : [ "metallicmoon", "penumbra", "lightless", "moon_shadow", "atropusdark", "arborealdark", "sulphuricdark", "icewastedark" ],
           "secondaryRegion" : [ "corruptmoon", "corrupt", "tarball", "atropus","supermatterzone", "metalworks", "metalworks2", "sulphuricmagma", "tar", "desert", "scorched", "volcanic", "elder", "pitchfield", "sulphuricplain" ],
           //"dungeonCountRange" : [0, 2],
           "dungeons" : [ "fuwreck", "wreck", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "avianairship", "aviantemple","humanbunker", "floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison", "naturalcave" ]
@@ -416,7 +461,7 @@
       },
         "surface" : {
           "primaryRegion" : [ "arboreal2" ],
-          "secondaryRegion" : [ "fieldofbracken", "ffhive", "goreforest", "cactiplace", "crystalswamp", "birchforest", "alienforest", "swamp", "hellhive", "elder", "corruptedforest", "fieldofwheat", "fieldofsugar",  "fieldofpotato", "fieldofcorn",  "fieldofgrape",  "fieldoftomato","pineforest", "flowerforest", "snowyforest", "taiga",  "deadwood", "giantflowers", "forest", "jungle", "savannah", "snow",  "tundra" ],
+          "secondaryRegion" : [ "corruptedforest", "ffhive", "goreforest", "cactiplace", "crystalswamp", "birchforest", "alienforest", "swamp", "hellhive", "elder", "corruptedforest", "flowerforest", "deadwood", "giantflowers" ],
           //"dungeonCountRange" : [0, 2],
           "dungeons" : [ "elderruins", "crystalcavern", "greenruins", "fuwreck", "wreck", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "avianairship", "aviantemple","humanbunker", "floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison", "naturalcave"  ]
         },
@@ -447,7 +492,52 @@
        }
      }
    },
-   
+  
+   {"op" : "add", 
+   "path" : "/planetTypes/arborealdark",
+   "value" : 
+     {
+       "threatRange" : [4, 7],
+       "layers" : {
+      "space" : {
+        "primaryRegion" : [ "elderasteroid" ]
+      },
+      "atmosphere" : {
+        "primaryRegion" : [ "clouds" ]
+      },
+        "surface" : {
+          "primaryRegion" : [ "arboreal2" ],
+          "secondaryRegion" : [ "corruptedforest", "hellhive", "goreforest", "cactiplace", "crystalswamp", "birchforest", "alienforest", "swamp", "hellhive", "elder", "corruptedforest", "flowerforest", "deadwood", "giantflowers" ],
+          //"dungeonCountRange" : [0, 2],
+          "dungeons" : [ "elderruins", "crystalcavern", "greenruins", "fuwreck", "wreck", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "avianairship", "aviantemple","humanbunker", "floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison", "naturalcave"  ]
+        },
+        "subsurface" : {
+          "primaryRegion" : [ "arborealunderground" ]
+        },
+        "underground1" : {
+          "secondaryRegion" : [ "ffhellhiveunderground", "zen", "shroomcave", "colorfulcave", "ffspidernest", "luminouscaves",  "minivillageunderground", "mushroomunderground", "wildernessunderground", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine" ]
+        },
+        "underground2" : {
+          "secondaryRegion" : [ "ffhellhiveunderground", "zen", "shroomcave", "colorfulcave", "ffspidernest", "luminouscaves",  "minivillageunderground", "mushroomunderground", "wildernessunderground", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine" ]
+        },
+        "underground3" : {
+          "secondaryRegion" : [ "ffhellhiveunderground", "zen", "shroomcave", "colorfulcave", "ffspidernest",  "luminouscaves",  "minivillageunderground", "mushroomunderground", "wildernessunderground", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine" ]
+        },
+        "underground4" : {
+          "secondaryRegion" : [ "zen", "shroomcave", "colorfulcave", "ffspidernest", "luminouscaves",  "minivillageunderground", "mushroomunderground", "wildernessunderground", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine" ]
+        },
+        "underground5" : {
+          "secondaryRegion" : [ "zen", "shroomcave", "colorfulcave", "ffspidernest", "luminouscaves",  "minivillageunderground", "mushroomunderground", "wildernessunderground", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine" ]
+        },
+        "underground6" : {
+          "secondaryRegion" : [ "zen", "shroomcave", "colorfulcave", "ffspidernest", "luminouscaves",  "minivillageunderground", "mushroomunderground", "wildernessunderground", "ffvolcanic", "ffsilvermine", "ffcoalmine", "ffgoldmine", "ffcoppermine" ]
+        },
+        "core" : {
+          "primaryRegion" : [ "core" ]
+        } 
+       }
+     }
+   },   
    {"op" : "add", 
    "path" : "/planetTypes/atropus",
    "value" : 
@@ -909,7 +999,57 @@
         }
       }
    },
-   	
+    {"op" : "add", 
+    "path" : "/planetTypes/icewastedark",
+    "value" : 
+      {
+      "threatRange" : [4, 7],
+      "layers" : {
+      "space" : {
+        "primaryRegion" : [ "elderasteroid" ]
+      },
+        "atmosphere" : {
+        "primaryRegion" : [ "iceclouds" ]
+        },
+        "surface" : {
+          "primaryRegion" : [ "icewaste", "icecloudswastesurface" ],
+          "secondaryRegion" : [ "crystaldesert", "crystalswamp","supermatterzone", "elder", "ice", "snow", "icefire" ],
+          //"dungeonCountRange" : [0, 2],
+          "dungeons" : [ "elderruins", "crystalcavern", "fuwreck", "wreck", "apexresearchlab"]
+        },
+        "subsurface" : {
+          "primaryRegion" : [ "icewasteunderground" ]
+        },
+         "underground1" : {
+         "primaryRegion" : [ "icewasteunderground" ],
+          "secondaryRegion" : [ "ffcrystalrealm", "crystalcave", "ffsupermatter", "icecaves", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
+        },
+        "underground2" : {
+        "primaryRegion" : [ "icewasteunderground" ],
+          "secondaryRegion" : [ "ffcrystalrealm", "crystalcave", "ffsupermatter", "icecaves", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
+        },
+        "underground3" : {
+        "primaryRegion" : [ "icewasteunderground" ],
+          "secondaryRegion" : [ "ffcrystalrealm", "crystalcave", "ffsupermatter", "icecaves", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
+        },
+        "underground4" : {
+        "primaryRegion" : [ "icewasteunderground" ],
+          "secondaryRegion" : [ "ffcrystalrealm", "crystalcave", "ffsupermatter", "icecaves", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
+        },
+        "underground5" : {
+        "primaryRegion" : [ "icewasteunderground" ],
+          "secondaryRegion" : [ "ffcrystalrealm", "crystalcave", "ffsupermatter", "icecaves", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
+        },
+        "underground6" : {
+        "primaryRegion" : [ "icewasteunderground" ],
+          "secondaryRegion" : [ "ffcrystalrealm", "crystalcave", "ffsupermatter", "icecaves", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
+        },
+        "core" : {
+          "primaryRegion" : [ "nitrogencore" ]
+        }
+        }
+      }
+   },   	
     {"op" : "add", 
     "path" : "/planetTypes/icemoon",
     "value" : 
@@ -1434,6 +1574,54 @@
    },
    
     {"op" : "add", 
+    "path" : "/planetTypes/sulphuricdark",
+    "value" : 
+      {
+      "threatRange" : [4, 7],
+      "layers" : {
+      "space" : {
+        "primaryRegion" : [ "elderasteroid" ]
+      },
+        "surface" : {
+          "primaryRegion" : [ "sulphuric" ],
+          "secondaryRegion" : [ "crystaldesert", "crystalswamp","supermatterzone", "sulphuricmagma", "infernus", "magma", "volcanic", "hellfirefield" ],
+          //"dungeonCountRange" : [0, 2],
+          "dungeons" : [ "fuwreck", "wreck" ]
+        },
+        "subsurface" : {
+          "primaryRegion" : [ "sulphuricunderground" ]
+        },
+         "underground1" : {
+         "primaryRegion" : [ "sulphuricunderground" ],
+          "secondaryRegion" : [ "ffcrystalrealm", "crystalcave", "ffsupermatter", "stonecaves", "fftarunderground", "ffvolcanic" ]
+        },
+        "underground2" : {
+        "primaryRegion" : [ "sulphuricunderground" ],
+          "secondaryRegion" : [ "ffcrystalrealm", "crystalcave", "ffsupermatter", "stonecaves", "fftarunderground", "ffvolcanic" ]
+        },
+        "underground3" : {
+        "primaryRegion" : [ "sulphuricunderground" ],
+          "secondaryRegion" : [ "ffcrystalrealm", "crystalcave", "ffsupermatter", "stonecaves", "fftarunderground", "ffvolcanic" ]
+        },
+        "underground4" : {
+        "primaryRegion" : [ "sulphuricunderground" ],
+          "secondaryRegion" : [ "ffcrystalrealm", "crystalcave", "ffsupermatter", "stonecaves", "fftarunderground", "ffvolcanic" ]
+        },
+        "underground5" : {
+        "primaryRegion" : [ "sulphuricunderground" ],
+          "secondaryRegion" : [ "ffcrystalrealm", "crystalcave", "ffsupermatter", "stonecaves", "fftarunderground", "ffvolcanic" ]
+        },
+        "underground6" : {
+        "primaryRegion" : [ "sulphuricunderground" ],
+          "secondaryRegion" : [ "ffcrystalrealm", "crystalcave", "ffsupermatter", "stonecaves", "fftarunderground", "ffvolcanic" ]
+        },
+        "core" : {
+          "primaryRegion" : [ "core" ]
+        } 
+        }
+      }
+   },   
+    {"op" : "add", 
     "path" : "/planetTypes/sulphuricocean",
     "value" : 
       {
@@ -1651,7 +1839,7 @@
   "path" : "/regionTypes/desert_wastes",
   "value" : 
   {
-      "caveLiquid" : [  "water", "tarliquid", "blacktar" ],
+      "caveLiquid" : [  "tarliquid", "blacktar" ],
       "blockSelector" : [ "remixedSurface", "remixedCanyonsSurface", "remixedMildCanyonsSurface", "remixedStepsSurface", "remixedMildSurface" ],
       "fgCaveSelector" : [ "denseCaves" ],
       "biome" : [
@@ -1701,7 +1889,19 @@
       ]
     }
   },
-  
+  {"op" : "add", 
+  "path" : "/regionTypes/arborealdark",
+  "value" : 
+  {
+      "caveLiquid" : [  "wastewater", "blacktar", "water", "darkwater" ],
+      "blockSelector" : [ "remixedSurface", "remixedMildSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "bgOreSelector" : [ "commonVeins", "denseVeins" ], 
+      "biome" : [
+        [0, [ "arborealdark" ]]
+      ]
+    }
+  },  
   {"op" : "add", 
   "path" : "/regionTypes/atropus",
   "value" : 
@@ -1902,11 +2102,25 @@
       "fgCaveSelector" : [ "surfaceCaves", "denseCaves" ],
       "bgOreSelector" : [ "denseVeins" ],       
       "biome" : [
+        [0, [ "icewastedark" ]]
+      ]
+    }
+  },
+  {"op" : "add", 
+  "path" : "/regionTypes/icewastedark",
+  "value" : 
+  {
+      "caveLiquid" : [ "liquidnitrogen" ],
+      "caveLiquidChanceRange" : [55, 80],
+      "blockSelector" : [ "remixedMountainsSurface", "remixedCanyonsSurface", "remixedMildCanyonsSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves", "denseCaves" ],
+      "bgOreSelector" : [ "denseVeins" ],       
+      "biome" : [
         [0, [ "icewaste" ]]
       ]
     }
   },
-
+  
   {"op" : "add", 
   "path" : "/regionTypes/icemoon",
   "value" : 
@@ -2111,6 +2325,8 @@
   "path" : "/regionTypes/moon_shadow",
   "value" : 
     {   
+      "caveLiquid" : [ "shadowgas" ],
+      "caveLiquidChanceRange" : [99, 100],
       "blockSelector" : [ "remixedMildSurface" ],
       "fgCaveSelector" : [ "moonSurfaceCaves" ],
       "biome" : [
@@ -2462,7 +2678,21 @@
       ]
     }
   },
-
+  {"op" : "add", 
+  "path" : "/regionTypes/sulphuricdark",
+  "value" : 
+  {
+      "caveLiquid" : [ "sulphuricacid", "blacktar" ],
+      "caveLiquidChanceRange" : [100, 100],
+      "blockSelector" : [ "remixedSwampySurface", "remixedCanyonsSurface", "remixedSurface", "remixedMountainsSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "bgOreSelector" : [ "denseVeins" ],       
+      "biome" : [
+        [0, [ "sulphuricdark" ]]
+      ]
+    }
+  },
+  
   {"op" : "add", 
   "path" : "/regionTypes/aliendesert",
   "value" : 
@@ -3375,6 +3605,23 @@
        "bgOreSelector" : [ "commonVeins" ], 
        "biome" : [
          [0, [ "tidewater" ]]
+       ]
+ 	}
+ },
+
+ {"op" : "add",
+ "path": "/regionTypes/strangesea",
+ "value" : 
+ 	{
+       "oceanLiquid" : [ "bloodliquid", "bio_ooze", "blacktar", "organicsoup", "protociteliquid", "elderfluid", "sulphuricacid", "irradiumliquid", "mercuryliquid", "gravrain", "fuironliquid", "pus", "alienjuice", "liquidnitrogen", "darkwater" ],
+       "oceanLevelOffset" : 0, 
+       "caveLiquid" : [ "bloodliquid", "bio_ooze", "blacktar", "organicsoup", "protociteliquid", "elderfluid", "sulphuricacid", "irradiumliquid", "mercuryliquid", "gravrain", "fuironliquid", "pus", "alienjuice", "liquidnitrogen", "darkwater", "fuhoney", "helium3gas", "shadowgas", "wastewater", "poison", "lava" ],
+       "caveLiquidChanceRange" : [100, 100],
+       "blockSelector" : [ "remixedIslandsSurface", "submergedIslandsSurface", "spikeIslandsSurface" ],
+       "fgCaveSelector" : [ "surfaceCaves" ],
+       "bgOreSelector" : [ "commonVeins" ], 
+       "biome" : [
+         [0, [ "strangesea" ]]
        ]
  	}
  },
@@ -4311,7 +4558,7 @@
   "value" : 
   {
       "caveLiquid" : [ "darkwater", "shadowgas", "elderfluid" ],
-      "caveLiquidChanceRange" : [25, 75],
+      "caveLiquidChanceRange" : [25, 100],
       "bgOreSelector" : [ "denseVeins" ],  
       "biome" : [
         [0, [ "shadow"]]

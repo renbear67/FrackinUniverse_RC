@@ -1,17 +1,53 @@
 {
   "name" : "sulphuric",
   "friendlyName" : "Sulphuric",
-  "requiredStatuses" : [ ],
+  "requiredStatuses" : [ "ffextremesulphuric" ],
   "airless" : true,
   "breathable" : false,
   "spawnProfiles" : [
     {
-      "groups" : [ ],
-      "extraSpawns" : [  ]
+      "groups" : [ "fu_sulphuric" ],
+      "extraSpawns" : [ "fuscorpion", "funewt" ],
+      "monsterParameters" : {
+        "statusSettings" : {
+          "stats" : {
+            "sulphuricImmunity" : {
+              "baseValue" : 1.0
+            },
+            "poisonImmunity" : {
+              "baseValue" : 1.0
+            },
+            "blacktarImmunity" : {
+              "baseValue" : 1.0
+            },            
+            "breathProtection" : {
+              "baseValue" : 1.0
+            }
+          }
+        }
+      }
     },
     {
-      "groups" : [  ],
-      "extraSpawns" : [  ]
+      "groups" : [ "fu_sulphuric" ],
+      "extraSpawns" : [ "fuscorpion", "funewt" ],
+      "monsterParameters" : {
+        "statusSettings" : {
+          "stats" : {
+            "sulphuricacidImmunity" : {
+              "baseValue" : 1.0
+            },
+            "poisonImmunity" : {
+              "baseValue" : 1.0
+            },
+            "blacktarImmunity" : {
+              "baseValue" : 1.0
+            },            
+            "breathProtection" : {
+              "baseValue" : 1.0
+            }
+          }
+        }
+      }
     }
   ],
 

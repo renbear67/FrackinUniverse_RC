@@ -14,7 +14,7 @@
   "color" : "orange",
   "knockback" : 35,
   "knockbackDirectional" : true,
-  "effectSources" : [ "sparkles" ],
+  "emitters" : [ "defaultblue" ],
 
 
   "actionOnReap" : [

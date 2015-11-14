@@ -9,7 +9,7 @@
   "level" : 6,
   "speed" : 75,
   "timeToLive" : 0.25,
-  "piercing" : false,
+  "piercing" : true,
   "supportsProcessing" : true,
   "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],
   "lightColor" : [100, 0, 0],

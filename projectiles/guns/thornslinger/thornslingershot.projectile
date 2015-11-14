@@ -8,24 +8,12 @@
   "pointLight" : false,
   "timeToLive" : 0.001,
   "actionOnReap" : [
-//    {
-//      "action" : "projectile",
-//      "type" : "thornshot",
-//      "inheritDamageFactor" : 0.5,
-//      "angleAdjust" : 0.5
-//    }//,
     {
       "action" : "projectile",
       "type" : "thornshot",
-      "inheritDamageFactor" : 0.5,
+      "inheritDamageFactor" : 0.3,
       "angleAdjust" : 0
-    }//,
-//    {
-//      "action" : "projectile",
-//      "type" : "thornshot",
-//      "inheritDamageFactor" : 0.5,
-//      "angleAdjust" : -0.5
-//	}
+    }
   ],
   
   "statusEffects" : [ "weakpoison" ],

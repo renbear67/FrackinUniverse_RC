@@ -10,7 +10,7 @@
   "piercing" : true,
   "flippable" : true,
   "damageKind" : "default",
-  "effectSources" : [ "sparkles" ],
+  "emitters" : [ "iceswoosh1" ],
 
   "actionOnReap" : [
     {

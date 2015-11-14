@@ -16,7 +16,7 @@
     {
       "action" : "projectile",
       "type" : "protocluster",
-      "inheritDamageFactor" : 0.03
+      "inheritDamageFactor" : 0.1
     }
   ]  
 }

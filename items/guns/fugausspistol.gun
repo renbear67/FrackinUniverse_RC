@@ -8,7 +8,7 @@
   "shortdescription" : "Gauss Pistol",
   "image" : "fugausspistol.png",
   "handPosition" : [-7, -2],
-  "firePosition" : [4, 2],
+  "firePosition" : [2, 2],
   "weaponType" : "Coilgun",
   "recoilTime" : 0.1,
   "level" : 3,
@@ -23,8 +23,8 @@
   "projectileType" : "gausspistolshot",
   "projectile" : { 
   "speed" : 70, 
-  "power" : 1.0 , 
-  "color" : [141, 72, 141] 
+  "power" : 0.9, 
+  "color" : [90, 40, 90] 
   },
   
   "muzzleEffect" : {

@@ -198,6 +198,16 @@
 },
 
 {"op":"add",
+ "path":"/spawnGroups/fu_sulphuric",
+ "value":[       
+      "sulphurtroll",
+      "futargolem",
+      "fumoontant",
+      "fuswarpion"
+      ] 
+},
+
+{"op":"add",
  "path":"/spawnGroups/fu_irradiated",
  "value":[       
       "futoxicgolem",
@@ -321,6 +331,7 @@
 {"op":"add","path":"/spawns/rocktroll","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.005,"monsterType":"rocktroll","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/rocktroll2","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.005,"monsterType":"rocktroll2","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/icetroll","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.005,"monsterType":"icetroll","monsterParameters":{"aggressive":true}}},
+{"op":"add","path":"/spawns/sulphurtroll","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.008,"monsterType":"sulphurtroll","monsterParameters":{"aggressive":true}}},
 
 {"op":"add","path":"/spawns/fuashgolem","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.005,"monsterType":"fuashgolem","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/magmagolem","value":{"spawnParameters":{"area":"surface","region":"all","time":"night"},"targetDensity":0.002,"monsterType":"magmagolem","monsterParameters":{"aggressive":true}}},

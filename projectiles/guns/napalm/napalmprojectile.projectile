@@ -19,11 +19,11 @@
       "action" : "projectile",
       "type" : "napalm2",
       "fuzzAngle" : 0,
-      "inheritDamageFactor" : 1,
+      "inheritDamageFactor" : 0.35,
       "angleAdjust" : 0
     }
 
   ],
-  
+  "emitters" : [ "gausssmoke" ], 
   "statusEffects" : [ "burning" ]
 }

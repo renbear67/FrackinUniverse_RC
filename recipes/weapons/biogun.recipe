@@ -2,7 +2,7 @@
   "input" : [
    { "item" : "aliencompound", "count" : 4 },
    { "item" : "mutagene4", "count" : 1 },
-   { "item" : "bone", "count" : 15 },
+   { "item" : "larva", "count" : 15 },
    { "item" : "corruptionseed", "count" : 4 },
    { "item" : "monsterplating", "count" : 5 }
   ],

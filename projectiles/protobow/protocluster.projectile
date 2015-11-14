@@ -14,7 +14,7 @@
     {
       "action" : "projectile",
       "type" : "slimestormexplosionbow",
-      "inheritDamageFactor" : 1,
+      "inheritDamageFactor" : 0.2,
       "angle" : 5
     },
     {

@@ -16,5 +16,6 @@
     }
   ],
   "power" : 5.0,
-  "damageKind" : "fireplasma"
+  "damageKind" : "fireplasma",
+  "emitters" : [ "smoke", "fireplasma" ]
 }

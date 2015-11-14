@@ -46,7 +46,7 @@
     "projectileType" : "poisonhammer",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 8
+      "power" : 12
     },
     "idle" : {
       "twoHanded" : false,

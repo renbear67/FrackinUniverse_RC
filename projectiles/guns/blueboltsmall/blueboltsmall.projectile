@@ -16,5 +16,6 @@
   ],
   "damagePoly" : [ [-18, 0], [-6, -6], [0, -18], [6, -6], [18, 0], [6, 6], [0, 18], [-6, 6] ],
   "damageKind" : "electricplasma",
-  "physics" : "laser"
+  "physics" : "laser",
+  "emitters" : [ "defaultblue" ]
 }

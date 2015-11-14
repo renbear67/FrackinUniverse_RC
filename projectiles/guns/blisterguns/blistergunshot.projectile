@@ -8,16 +8,14 @@
   "physics" : "fublistergun",
   "pointLight" : false,
   "timeToLive" : 6,
-  "bounces" : 1,
+  "bounces" : 24,
   "lightColor" : [170, 0, 170],
   
   "actionOnReap" : [
     {
-      "action" : "projectile",
-      "type" : "blistergunexplosion",
-      "inheritDamageFactor" : 1,
-      "angle" : 5
-    }
+      "action" : "config",
+      "file" : "/projectiles/explosions/blistergunexplosion/blistergunexplosion.config"
+    }  
   ],
   
   "statusEffects" : [ "glow" ],

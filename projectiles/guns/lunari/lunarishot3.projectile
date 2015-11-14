@@ -2,17 +2,23 @@
   "projectileName" : "lunarishot3",
   "frames" : "lunarishot.png",
   "animationCycle" : 0.25,
-  "physics" : "laser",
+  "physics" : "lunarifall",
   "frameNumber" : 2,
-  "lightColor" : [0, 50, 100],
+  "lightColor" : [155, 147, 27],
   "animationLoops" : true,
-  "speed" : 150,
-  "timeToLive" : 2.5,
-  "power" : 4,
+  "speed" : 2,
+  "timeToLive" : 4.5,
+  "power" : 1,
   "damagePoly" : [ [-2, 2], [-2, -2], [2, -2], [2, 2] ],
   "damageKind" : "electricplasma",
-  "emitters" : [ "defaultblue" ],
-  "hydrophobic" : true
+  "emitters" : [ "lunariyellow" ],
+
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/cellexplosion/cellexplosion.config"
+    }
+  ]
 }
 
 

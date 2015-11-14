@@ -23,7 +23,7 @@
     }
   ],
   "damageKind" : "default",
-  "emitters" : [ "javelinred" ]
+  "emitters" : [ "fireflames" ]
 }
 
 

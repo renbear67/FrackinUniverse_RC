@@ -46,7 +46,7 @@
     "projectileType" : "poisonshortsword",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 3
+      "power" : 5
     },
     "idle" : {
       "twoHanded" : false,

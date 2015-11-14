@@ -10,7 +10,7 @@
   "piercing" : true,
   "flippable" : true,
   "damageKind" : "electricbroadsword",
-  "effectSources" : [ "sparkles" ],
+  "emitters" : [ "defaultblue" ],
 
   "actionOnReap" : [
     {

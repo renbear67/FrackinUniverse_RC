@@ -10,7 +10,6 @@
   "animationLoops" : false,
   "piercing" : true,
   "bounces" : -1,
-  "effectSources" : [ "sparkles" ],
   "flippable" : true,
   "emitters" : [ "electricswoosh" ],
   "damageKind" : "electrichammer",

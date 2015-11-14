@@ -30,5 +30,5 @@
   "damagePoly" : [ [-8, 0], [8, 18], [8, -18] ],
 
   "health" : 200.0,
-  "healthRegen" : 0.035
+  "healthRegen" : 0.040
 }

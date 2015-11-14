@@ -1,0 +1,26 @@
+{
+  "itemName" : "eldercarbine2",
+  "inventoryIcon" : "eldercarbine2.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "The ultimate annihilator.",
+  "shortdescription" : "Disruptor 2",
+  "image" : "eldercarbine.png",
+  "handPosition" : [-12, -3],
+  "firePosition" : [16, 2],
+  "weaponType" : "Energy Weapon",
+  "recoilTime" : 0.1,
+  "level" : 9,
+  "tooltipKind" : "gun",
+  "fireTime" : 0.20,
+  "twoHanded" : true,  
+  "walkWhileFiring" : true,
+  
+  "projectileType" : "elderblast1",
+  "projectile" : { "power" : 6 , "color" : [55, 190, 32] },
+  "muzzleEffect" : {
+       "fireSound" : [ { "file" : "/sfx/weapons/eldercarbine.wav" } ],
+       "animation" :  "/animations/muzzleflash/plasmamuzzle4green/plasmamuzzle4green.animation"
+	   }   
+}

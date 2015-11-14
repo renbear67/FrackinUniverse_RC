@@ -3,9 +3,33 @@
   "friendlyName" : "Sulphuric Ocean",
   "airless" : true,
   "breathable" : false,
-  
-  "spawnProfiles" : [ ],
 
+
+  "spawnProfiles" : [
+    {
+      "groups" : [ "oceanfloor" ],
+      "extraSpawns" : [ ],
+      "monsterParameters" : {
+        "statusSettings" : {
+          "stats" : {
+            "sulphuricImmunity" : {
+              "baseValue" : 1.0
+            },
+            "poisonImmunity" : {
+              "baseValue" : 1.0
+            },
+            "blacktarImmunity" : {
+              "baseValue" : 1.0
+            },            
+            "breathProtection" : {
+              "baseValue" : 1.0
+            }
+          }
+        }
+      }
+    }
+  ],
+  
   "parallax" : "/parallax/underground/sulphuricunderground.parallax",
   
   "ambientNoises" : {

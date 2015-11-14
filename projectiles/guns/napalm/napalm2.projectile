@@ -12,5 +12,6 @@
   "lightColor" : [168,175,155],
   "damageKind" : "fireplasma",
   "damagePoly" : [ [-40, 0], [-40, -25], [0, -25], [40, -25], [40, 0], [40, 25], [0, 25], [-40, 25] ],
-  "statusEffects" : [ "burningnapalm" ]
+  "statusEffects" : [ "burningnapalm" ],
+  "emitters" : [ "gausssmoke" ]
 }

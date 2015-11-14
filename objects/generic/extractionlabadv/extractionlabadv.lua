@@ -147,6 +147,7 @@ local recipes =
 {inputs = { bottle=1 }, outputs = { tissueculture=1 }, time = 0.65},
 {inputs = { brain=1 }, outputs = { tissueculture=5 }, time = 0.65},
 {inputs = { bugshell=1 }, outputs = { tissueculture=1 }, time = 0.65},
+{inputs = { larva=1 }, outputs = { geneticmaterial=1 }, time = 0.65},
 {inputs = { cellmateria=1 }, outputs = { geneticmaterial=1 }, time = 0.65},
 {inputs = { cellmatter=1 }, outputs = { geneticmaterial=1 }, time = 0.65},
 {inputs = { coralfragment=1 }, outputs = { tissueculture=1 }, time = 0.65},

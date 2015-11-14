@@ -9,8 +9,7 @@
   "level" : 10,
   "speed" : 25,
   "timeToLive" : 0.9,
-  "piercing" : true,
-  "lightColor" : [255, 20, 20],
+  "lightColor" : [120, 20, 20],
   "damageKind" : "cosmicdamage",
   "actionOnReap" : [
     {
@@ -18,5 +17,6 @@
       "file" : "/projectiles/explosions/cultiststaffexplosion/cultiststaffexplosion.config"
     }
   ],
-  "statusEffects" : [ "cultistblastfx" ]
+  "statusEffects" : [ "cultistblastfx" ],
+  "emitters" : [ "javelinred" ]
 }

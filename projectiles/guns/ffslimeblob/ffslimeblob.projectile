@@ -13,19 +13,19 @@
     {
       "action" : "projectile",
       "type" : "goocluster2",
-      "inheritDamageFactor" : 0.5,
+      "inheritDamageFactor" : 0.25,
       "angle" : 0
     },
     {
       "action" : "projectile",
       "type" : "goocluster2",
-      "inheritDamageFactor" : 0.5,
+      "inheritDamageFactor" : 0.25,
       "angle" : 35
     },
     {
       "action" : "projectile",
       "type" : "goocluster2",
-      "inheritDamageFactor" : 0.5,
+      "inheritDamageFactor" : 0.25,
       "angle" : -35
     },
     {

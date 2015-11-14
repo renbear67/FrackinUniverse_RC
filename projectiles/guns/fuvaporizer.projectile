@@ -13,6 +13,7 @@
   "piercing" : true,
   "damagePoly" : [ [0, -8], [16, -8], [16, 8], [0, 8] ],
   "damageKind" : "plasma",
+  "emitters" : [ "lighttrailfast" ],
   "actionOnReap" : [
     {
       "action" : "config",

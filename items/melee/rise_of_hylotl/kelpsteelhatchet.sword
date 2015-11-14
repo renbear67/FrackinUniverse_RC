@@ -46,7 +46,7 @@
     "projectileType" : "coralswoosh",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 6
+      "power" : 9
     },
     "idle" : {
       "twoHanded" : false,

@@ -10,7 +10,7 @@
   "piercing" : true,
   "flippable" : true,
   "damageKind" : "electricaxe",
-  "effectSources" : [ "sparkles" ],
+  "emitters" : [ "defaultblue" ],
 
   "actionOnReap" : [
 

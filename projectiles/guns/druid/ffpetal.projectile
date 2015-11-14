@@ -21,6 +21,6 @@
   ],
   //"power" : 5.0,
   "damageKind" : "poisonplasma",
-  "effectSources" : [ "corrosive" ],
+  "emitters" : [ "defaultgreen" ],
   "statusEffects" : [ "biooozepoison2" ]
 }

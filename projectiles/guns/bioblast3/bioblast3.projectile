@@ -24,6 +24,6 @@
       "quantity" : 3
     }    
   ],
-  "effectSources" : [ "corrosive" ],
+  "emitters" : [ "corrosive" ],
   "statusEffects" : [ "biooozepoison2" ]
 }

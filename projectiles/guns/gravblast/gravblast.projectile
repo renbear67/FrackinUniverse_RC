@@ -16,6 +16,7 @@
   "lightColor" : [120,0,0],
   "damageKind" : "fireplasma",
   "statusEffects" : [ "gravgun" ],
+  "emitters" : [ "fireplasma" ],
   "actionOnReap" : [
     {
       "action" : "config",

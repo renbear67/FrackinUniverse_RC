@@ -13,7 +13,7 @@
   "damageKind" : "poison",
   "knockback" : 55,
   "knockbackDirectional" : true,
-  "effectSources" : [ "sparkles" ],
+  "emitters" : [ "corrosive" ],
 
   "actionOnReap" : [
 

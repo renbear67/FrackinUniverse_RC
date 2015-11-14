@@ -13,18 +13,18 @@
     {
       "action" : "projectile",
       "type" : "swarmmissile",
-      "inheritDamageFactor" : 0.4
+      "inheritDamageFactor" : 0.3
     },
 	{
       "action" : "projectile",
       "type" : "swarmmissile",
-      "inheritDamageFactor" : 0.4,
+      "inheritDamageFactor" : 0.3,
 	  "angleAdjust" : -15
     },
 	{
       "action" : "projectile",
       "type" : "swarmmissile",
-      "inheritDamageFactor" : 0.4,
+      "inheritDamageFactor" : 0.3,
 	  "angleAdjust" : 15
     },
 	{
@@ -33,5 +33,6 @@
     }
   ],
   "power" : 5.0,
-  "damageKind" : "fireplasma"
+  "damageKind" : "fireplasma",
+  "emitters" : [ "smoke", "fireplasma" ]
 }

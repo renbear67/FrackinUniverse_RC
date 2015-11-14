@@ -14,6 +14,6 @@
   "lightColor" : [0,87,0],
   "universalDamage" : true,
   "damageKind" : "default",
-  "effectSources" : [ "corrosive" ],
+  "emmiters" : [ "corrosive" ],
   "statusEffects" : [ "biooozepoison2" ]
 }

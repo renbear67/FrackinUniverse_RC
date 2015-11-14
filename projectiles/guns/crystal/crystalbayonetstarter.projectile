@@ -12,12 +12,12 @@
     {
      "action" : "projectile",
      "type" : "crystalbayonetbullet" ,
-	  "inheritDamageFactor" : 0.75
+	  "inheritDamageFactor" : 0.35
 	},
 	{
      "action" : "projectile",
      "type" : "crystalbayonet" ,
-	  "inheritDamageFactor" : 0.75
+	  "inheritDamageFactor" : 0.35
 	}
 
     ],

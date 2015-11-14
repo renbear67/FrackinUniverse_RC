@@ -13,7 +13,7 @@
     {
       "action" : "projectile",
       "type" : "protogoo",
-      "inheritDamageFactor" : 0.03
+      "inheritDamageFactor" : 0.1
     },
     {
       "action" : "config",

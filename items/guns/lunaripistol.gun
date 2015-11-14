@@ -24,7 +24,6 @@
     
     "projectileType" : "lunarishot",
 
-    "powerProjectileTime" : [0.4, 50],
     "projectile" : {
       "speed" : 50, 
       "power" : 2.7 , 

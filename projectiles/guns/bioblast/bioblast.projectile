@@ -17,6 +17,6 @@
       "file" : "/projectiles/explosions/bioboom/bioboom.config"
     }
   ],
-  "effectSources" : [ "corrosive" ],
+  "emitters" : [ "corrosive" ],
   "statusEffects" : [ "biooozepoison2" ]
 }
