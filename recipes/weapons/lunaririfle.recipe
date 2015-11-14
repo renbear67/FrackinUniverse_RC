@@ -5,7 +5,7 @@
     { "item" : "ironbar", "count" : 4 }
   ],
   "output" : {
-    "item" : "lunaripistol",
+    "item" : "lunaririfle",
     "count" : 1
   },
   "groups" : [ "armory", "weapons", "all" ]

@@ -258,7 +258,7 @@
        "threatRange" : [4, 7],
        "layers" : {
       "space" : {
-        "primaryRegion" : [ "elderasteroid" ]
+        "primaryRegion" : [ "elderasteroid", "elderasteroid", "asteroids" ]
       },
         "surface" : {
           "primaryRegion" : [ "metallicmoon", "penumbra", "lightless", "moon_shadow", "atropusdark", "arborealdark", "sulphuricdark", "icewastedark" ],
@@ -309,6 +309,9 @@
        "gravityRange" : [100, 170],
        "threatRange" : [4, 6],
        "layers" : {
+      "space" : {
+        "primaryRegion" : [ "elderasteroid", "elderasteroid", "asteroids" ]
+      },
         "surface" : {
           "primaryRegion" : [ "mountainous", "atropus", "bloodstone", "crystalmoon", "icewaste", "infernus", "metallicmoon", "sulphuric", "urbanwasteland", "alien", "desert", "scorched", "volcanic" ],
           "secondaryRegion" : [ "fieldofbracken", "supermatterzone", "aliendesert", "metalworks", "metalworks2", "sulphuricmagma","reddesert", "mountainous", "corrupt","tar","crystalline", "alien", "desert", "scorched", "volcanic", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "calichefield", "bloodstonefield", "corruptedforest", "crystalplain", "deadwood", "desertoasis", "dryriverbed", "elder", "energyorbforest", "flowerforest", "hellfirefield", "hellhive", "icefire", "irradiatedwaste", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "pitchfield", "primevalforest", "snowyforest", "sulphuricplain", "taiga" ],
@@ -500,7 +503,7 @@
        "threatRange" : [4, 7],
        "layers" : {
       "space" : {
-        "primaryRegion" : [ "elderasteroid" ]
+        "primaryRegion" : [ "elderasteroid", "asteroids", "corruptasteroid" ]
       },
       "atmosphere" : {
         "primaryRegion" : [ "clouds" ]
@@ -545,7 +548,7 @@
        "threatRange" : [4, 7],
        "layers" : {
       "space" : {
-        "primaryRegion" : [ "elderasteroid", "asteroids" ] 
+        "primaryRegion" : [ "elderasteroid", "asteroids", "corruptasteroid" ] 
       },
         "surface" : {
           "primaryRegion" : [ "atropus" ],
@@ -594,7 +597,7 @@
        "threatRange" : [4, 7],
        "layers" : {
       "space" : {
-        "primaryRegion" : [ "elderasteroid", "asteroids" ]
+        "primaryRegion" : [ "elderasteroid", "asteroids", "corruptasteroid" ]
       },
         "surface" : {
           "primaryRegion" : [ "atropusdark" ],
@@ -643,7 +646,7 @@
       "threatRange" : [3, 6],
       "layers" : {
       "space" : {
-        "primaryRegion" : [ "elderasteroid", "asteroids" ]
+        "primaryRegion" : [ "elderasteroid", "asteroids", "corruptasteroid" ]
       },
         "surface" : {
           "primaryRegion" : [ "bloodstone" ],
@@ -692,7 +695,7 @@
       "threatRange" : [3, 6],
       "layers" : {
       "space" : {
-        "primaryRegion" : [ "elderasteroid", "asteroids" ]
+        "primaryRegion" : [ "elderasteroid", "asteroids", "corruptasteroid" ]
       },
         "surface" : {
           "primaryRegion" : [ "bloodstonesea" ]       
@@ -1006,7 +1009,7 @@
       "threatRange" : [4, 7],
       "layers" : {
       "space" : {
-        "primaryRegion" : [ "elderasteroid" ]
+        "primaryRegion" : [ "elderasteroid", "asteroids", "corruptasteroid" ]
       },
         "atmosphere" : {
         "primaryRegion" : [ "iceclouds" ]
@@ -1196,7 +1199,7 @@
       "threatRange" : [3, 6],
       "layers" : {
       "space" : {
-        "primaryRegion" : [ "elderasteroid" ]
+        "primaryRegion" : [ "elderasteroid", "asteroids", "corruptasteroid" ]
       },
         "surface" : {
           "primaryRegion" : [ "lightless" ],
@@ -1384,7 +1387,7 @@
       "threatRange" : [3, 6],
       "layers" : {
       "space" : {
-        "primaryRegion" : [ "elderasteroid", "asteroids" ]
+        "primaryRegion" : [ "elderasteroid", "asteroids", "corruptasteroid" ]
       },
       "atmosphere" : {
         "primaryRegion" : [ "clouds" ]
@@ -1436,7 +1439,7 @@
       "threatRange" : [3, 6],
       "layers" : {
       "space" : {
-        "primaryRegion" : [ "elderasteroid", "asteroids" ]
+        "primaryRegion" : [ "elderasteroid", "asteroids", "corruptasteroid" ]
       },
       "atmosphere" : {
         "primaryRegion" : [ "clouds" ]
@@ -1580,7 +1583,7 @@
       "threatRange" : [4, 7],
       "layers" : {
       "space" : {
-        "primaryRegion" : [ "elderasteroid" ]
+        "primaryRegion" : [ "elderasteroid", "asteroids", "corruptasteroid" ]
       },
         "surface" : {
           "primaryRegion" : [ "sulphuric" ],
@@ -2276,11 +2279,11 @@
       "threatRange" : [4, 7],
       "layers" : {
       "space" : {
-        "primaryRegion" : [ "elderasteroid" ]
+        "primaryRegion" : [ "elderasteroid", "asteroids", "corruptasteroid" ]
       },
         "surface" : {
           "primaryRegion" : [ "moon_shadow" ],
-          "secondaryRegion" : [ "sulphuricmagma", "cellfield", "hellhive", "elder", "hive" ],
+          "secondaryRegion" : [ "corruptmoon", "sulphuricmagma", "cellfield", "hellhive", "elder", "hive" ],
           //"dungeonCountRange" : [0, 2],
           "dungeons" : [ "elderruins", "crystalcavern", "fuwreck", "wreck"  ]
         },
@@ -3811,6 +3814,18 @@
 		    "bgCaveSelector" : [ "largeClumps" ],
 		      "biome" : [
 		        [0, [ "elderasteroid" ]]
+		      ]
+		    }
+	},
+	{
+		"op" : "add",
+		"path" : "/regionTypes/corruptasteroid",
+		"value" : {
+                    "blockSelector" : [ "iceclouds" ],
+		    "fgCaveSelector" : [ "normalCaves" ],
+		    "bgCaveSelector" : [ "largeClumps" ],
+		      "biome" : [
+		        [0, [ "corruptasteroid" ]]
 		      ]
 		    }
 	},

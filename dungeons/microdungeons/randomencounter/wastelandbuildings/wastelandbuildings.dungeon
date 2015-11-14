@@ -4,7 +4,7 @@
     "species" : "dummy",
     "rules" : [
     ],
-    "anchor" : [ "skyscraper1", "skyscraper2", "skyscraper3", "skyscraper4", "rubble1", "rubble2", "rubble3", "rubble4", "skyscrapercollapse1" ],
+    "anchor" : [ "monorail1", "monorail1b", "skyscraper1","skyscraper1b", "skyscraper2", "skyscraper2b","skyscraper3", "skyscraper3b","skyscraper4", "skyscraper4b", "rubble1", "rubble2", "rubble3", "rubble4", "skyscrapercollapse1", "skyscrapercollapse1b" ],
 
     "maxRadius" : 20000,
     "maxParts" : 100
@@ -1480,17 +1480,16 @@
           }
         ] ]
     },
-
     {
-      "value" : [0, 200, 0, 255],
-      "comment" : "repairbot npc",
+      "value" : [0, 200, 27, 255],
+      "comment" : "raider npc",
       "brush" : [ [ "npc",
           {
-            "kind" : "monster",
-            "typeName" : "repairbot",
-            "seed" : "stable",
+            "kind" : "npc",
+            "species" : "human",
+            "typeName" : "fuwastelandraider",
             "parameters" : {
-              "aggressive" : false
+              "aggressive" : true
             }
           }
         ] ]
@@ -1551,9 +1550,19 @@
       "def" : [ "image", [ "skyscraper1.png", "skyscraper1objects.png" ] ]
     },
     {
+      "name" : "skyscraper1b",
+      "rules" : [ ],
+      "def" : [ "image", [ "skyscraper1b.png", "skyscraper1bobjects.png" ] ]
+    },
+    {
       "name" : "skyscraper2",
       "rules" : [ ],
       "def" : [ "image", [ "skyscraper2.png" ] ]
+    },
+    {
+      "name" : "skyscraper2b",
+      "rules" : [ ],
+      "def" : [ "image", [ "skyscraper2b.png", "skyscraper2bobjects.png" ] ]
     },
     {
       "name" : "skyscraper3",
@@ -1561,9 +1570,19 @@
       "def" : [ "image", [ "skyscraper3.png", "skyscraper3objects.png" ] ]
     },
     {
+      "name" : "skyscraper3b",
+      "rules" : [ ],
+      "def" : [ "image", [ "skyscraper3b.png", "skyscraper3bobjects.png" ] ]
+    },    
+    {
       "name" : "skyscraper4",
       "rules" : [ ],
       "def" : [ "image", [ "skyscraper4.png", "skyscraper4objects.png" ] ]
+    },
+    {
+      "name" : "skyscraper4b",
+      "rules" : [ ],
+      "def" : [ "image", [ "skyscraper4b.png", "skyscraper4bobjects.png" ] ]
     },
     {
       "name" : "rubble1",
@@ -1591,9 +1610,19 @@
       "def" : [ "image", [ "monorail1.png", "monorail1objects.png" ] ]
     },
     {
+      "name" : "monorail1b",
+      "rules" : [ ],
+      "def" : [ "image", [ "monorail1b.png", "monorail1bobjects.png" ] ]
+    },
+    {
       "name" : "skyscrapercollapse1",
       "rules" : [ ],
       "def" : [ "image", [ "skyscrapercollapse1.png", "skyscrapercollapse1objects.png" ] ]
+    },
+    {
+      "name" : "skyscrapercollapse1b",
+      "rules" : [ ],
+      "def" : [ "image", [ "skyscrapercollapse1b.png", "skyscrapercollapse1bobjects.png" ] ]
     }
   ]
 }

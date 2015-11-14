@@ -1,0 +1,91 @@
+{
+  "type" : "fuwastelandraider",
+  "baseType" : "hostile",
+
+  "levelVariance" : [0, 1],
+
+  "dropPools" : [ "ffbanditTreasure" ],
+  
+ "scriptConfig" : {
+  "dialog" : {
+  "attack" : "/dialog/attack.config:attack"
+  }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "fureconhead" } ],
+            "chest" : [ { "name" : "fureconchest" } ],
+            "legs" : [ { "name" : "fureconpants" } ],
+            "primary" : [
+              { "name" : "laspistol" }
+            ],
+            "alt" : [
+              { "name" : "flashlight" }
+            ]
+          },
+          {
+            "head" : [ { "name" : "ff_gasmask" } ],
+            "chest" : [ { "name" : "chitinchest", "parameters" : { "colorIndex" : 2 } } ],
+            "legs" : [ { "name" : "chitinlegs", "parameters" : { "colorIndex" : 2 } } ],
+            "primary" : [
+              { "name" : "mechgun" }
+            ]
+          },
+          {
+            "head" : [ { "name" : "wastelandhead2" } ],
+            "chest" : [ { "name" : "wastelandchest2" } ],
+            "legs" : [ { "name" : "wastelandlegs2" } ],
+            "primary" : [
+              { "name" : "energyassault" }
+            ]
+          },
+          {
+            "head" : [ { "name" : "wastelandhead" } ],
+            "chest" : [ { "name" : "wastelandchest" } ],
+            "legs" : [ { "name" : "wastelandlegs" } ],
+            "primary" : [
+              { "name" : "lasrifle" }
+            ]
+          },
+          {
+            "head" : [ { "name" : "ff_gasmask" } ],
+            "chest" : [ { "name" : "fureconchest", "parameters" : { "colorIndex" : 2 } } ],
+            "legs" : [ { "name" : "fureconpants", "parameters" : { "colorIndex" : 2 } } ],
+            "primary" : [
+              { "name" : "blisterpistol" }
+            ],
+            "alt" : [
+              { "name" : "flashlight" }
+            ]
+          },
+          {
+            "head" : [ { "name" : "fieldscientisthead" } ],
+            "chest" : [ { "name" : "chitinchest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "chitinlegs", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              { "name" : "fusteampunkgun" }
+            ]
+          },
+          {
+            "head" : [ { "name" : "ff_gasmask" } ],
+            "chest" : [ { "name" : "wastelandchest2" } ],
+            "legs" : [ { "name" : "watelandlegs2" } ],
+            "primary" : [
+              { "name" : "goregun" }
+            ]
+          },
+          {
+            "head" : [ { "name" : "goggles2" } ],
+            "chest" : [ { "name" : "wastelandchest" } ],
+            "legs" : [ { "name" : "watelandlegs" } ],
+            "primary" : [
+              { "name" : "thornrifle" }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

@@ -4,7 +4,7 @@
     { "item" : "ironplate", "count" : 4 }
   ],
   "output" : {
-    "item" : "rustlegs",
+    "item" : "rustedlegs",
     "count" : 1
   },
   "groups" : [ "armory", "armors", "all" ]

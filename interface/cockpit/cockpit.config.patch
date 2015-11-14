@@ -73,7 +73,7 @@
 "value":"An ^#cc8d5a;atropus^white; world. This unusual planet appears to be ^#cc8d5a;biologically mutated^white; as if created by an insane God."},
 
 {"op":"add","path":"/planetTypeToDescription/atropusdark",
-"value":"An ^#cc8d5a;lightless atropus^white; world. This unusual planet appears to be ^#cc8d5a;biologically mutated^white; as if created by an insane God."},
+"value":"An ^#aa6b48;dark atropus^white; world. This unusual planet appears to be ^#cc8d5a;biologically mutated^white; as if created by an insane God."},
 
 {"op":"add","path":"/planetTypeToDescription/bloodstone",
 "value":"Scanners show strange ^#ba3b04;bloodstone^white; formations and ^#8e5ca6;unknown organic^white; elements."},
@@ -91,7 +91,7 @@
 "value":"The majority of the planet's surface is ^#c80000;scorching red desert ^white;with very little plant life."},
 
 {"op":"add","path":"/planetTypeToDescription/eden",
-"value":"This ^#00f0ff;eden ^white;houses very little in the way of hostile life and little darkness. A lovely place to build a home."},
+"value":"This ^#00f0ff;eden ^white;houses very little in the way of hostile life and very little darkness. A lovely place to build a home."},
 
 {"op":"add","path":"/planetTypeToDescription/frozenvolcanic",
 "value":"^#b86c00;Frozen Volcanic^white; worlds are relatively rare, and possess a mix of ice and lava."},
@@ -133,10 +133,10 @@
 "value":"A ^#517f51;Proto World^white;. Mutated flora and ^#e2ef55;protocite^white; detected."},
 
 {"op":"add","path":"/planetTypeToDescription/slimeworld",
-"value":"A ^#517f51;gelatinous^white;, slimy world. Encumbering terrain hides abundant algae and other resources."},
+"value":"A ^#517f51;gelatinous^white;, slimy world. High elasticity. Strange lifeforms detected."},
 
 {"op":"add","path":"/planetTypeToDescription/sulphuric",
-"value":"^#ffea00;Sulphuric^white; worlds are extremely dangerous. Airless. Violent deadly storms. Abundant ^#772211;cinnabar^white; detected."},
+"value":"^#ffea00;Sulphuric^white; worlds are extremely dangerous. Airless, acidic and toxic atmosphere. Abundant ^#772211;cinnabar^white; detected."},
 
 {"op":"add","path":"/planetTypeToDescription/sulphuricdark",
 "value":"^#ffea00;Sulphuric^white; worlds are extremely dangerous. They're worse without any light."},
@@ -172,7 +172,7 @@
 "value":"A ^#999999;rocky moon^white; with jagged and dangerous stone formations."},
 
 {"op":"add","path":"/planetTypeToDescription/moon_shadow",
-"value":"A ^#505f50;complete lack of light^white; makes this resource-rich moon a rather spooky place. Watch your step."},
+"value":"A ^#505f50;complete lack of light^white; makes this resource-rich moon a rather spooky, dangerous place. Watch your step."},
 
 {"op":"add","path":"/planetTypeToDescription/shadow",
 "value":"A ^#ccfa33;shadow world^white; that seems to block our scanners. Whatever is down there, it's likely rather dark."},
