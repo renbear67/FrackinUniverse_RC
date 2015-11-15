@@ -28,12 +28,12 @@
     "blockedSensors" : [ [1.5, -0.8], [1.5, 0.2], [1.5, 0.7] ],
     "fallSensors" : [ [0.5, -2.5], [0.5, -3.5], [0.5, -4.5], [2.0, -2.5], [2.0, -3.5], [2.0, -4.5] ],
 
-    "baseSkills" : [ "meleeAttack"],
-    "specialSkills" : [ "pounceAttack" ],
+    "baseSkills" : [ "fuSoundMeleeAttack" ],
+    "specialSkills" : [ ],
 
     "projectileSourcePosition" : [0.5, 0],
 
-    "attackStartDistance" : 3.5,
+    "attackStartDistance" : 1,
     "attackTime" : 0.75,
     "attackCooldownTime" : 0.5,
 
@@ -67,8 +67,8 @@
       "collisionPoly" : [ [-1, -0.6], [-0.6, -1], [0.6, -1], [1, -0.6], [1, 0.6], [0.6, 1], [-0.6, 1], [-1, 0.6] ],
 
       "mass" : 0.5,
-      "walkSpeed" : 1.0,
-      "runSpeed" : 2.0,
+      "walkSpeed" : 6.0,
+      "runSpeed" : 8.0,
       "flySpeed" : 25.0,
       "airForce" : 50.0,
       "airJumpProfile": {
