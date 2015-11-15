@@ -9,7 +9,7 @@
     "image" : "lunaripistol.png",
     "handPosition" : [-8, 0],
     "firePosition" : [5, 0],
-    "weaponType" : "Beam",
+    "weaponType" : "Crystalline",
     "recoilTime" : 0.1,
     "level" : 2,
     "tooltipKind" : "gun",

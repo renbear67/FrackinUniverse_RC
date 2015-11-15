@@ -10,7 +10,7 @@
     "image" : "protopistol.png",
     "handPosition" : [-12, -3],
     "firePosition" : [4, 0],
-    "weaponType" : "Beam",
+    "weaponType" : "Energy",
     "recoilTime" : 0.1,
     "level" : 3,
     "tooltipKind" : "gun",

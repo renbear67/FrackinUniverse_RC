@@ -9,7 +9,7 @@
   "image" : "gravitonpistol.png",
   "handPosition" : [-4, -3],
   "firePosition" : [16, 2],
-  "weaponType" : "High Tech",
+  "weaponType" : "Focused Gravity",
   "recoilTime" : 0.1,
   "level" : 5,
   "tooltipKind" : "gun",

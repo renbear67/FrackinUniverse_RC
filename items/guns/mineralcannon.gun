@@ -10,7 +10,7 @@
   "image" : "mineralcannon.png",
   "handPosition" : [-10, -2],
   "firePosition" : [10, 1.5],
-  "weaponType" : "Beam",
+  "weaponType" : "Particle",
   "recoilTime" : 0.1,
   "level" : 3,
   "tooltipKind" : "gun",

@@ -9,7 +9,7 @@
     "image" : "lunaririfle.png",
     "handPosition" : [-2, -4],
     "firePosition" : [16, 0],
-    "weaponType" : "Beam",
+    "weaponType" : "Crystalline Shotgun",
     "recoilTime" : 0.1,
     "level" : 2,
     "tooltipKind" : "gun",

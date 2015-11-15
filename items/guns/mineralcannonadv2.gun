@@ -9,7 +9,7 @@
   "image" : "mineralcannonadv2.png",
   "handPosition" : [-13, -3],
   "firePosition" : [20, 1.5],
-  "weaponType" : "Beam",
+  "weaponType" : "Particle",
   "recoilTime" : 0.1,
   "level" : 6,
   "tooltipKind" : "gun",

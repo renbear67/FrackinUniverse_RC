@@ -9,7 +9,7 @@
   "image" : "fuplasmagun.png",
   "handPosition" : [-12, -1],
   "firePosition" : [18, 1],
-  "weaponType" : "Beam",
+  "weaponType" : "Energy",
   "recoilTime" : 0.1,
   "level" : 7,
   "tooltipKind" : "gun",

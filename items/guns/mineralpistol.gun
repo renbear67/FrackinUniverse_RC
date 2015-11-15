@@ -10,7 +10,7 @@
     "image" : "mineralpistol.png",
     "handPosition" : [-7, -3],
     "firePosition" : [8, 2],
-    "weaponType" : "Beam",
+    "weaponType" : "Particle",
     "recoilTime" : 0.1,
     "level" : 3,
     "tooltipKind" : "gun",

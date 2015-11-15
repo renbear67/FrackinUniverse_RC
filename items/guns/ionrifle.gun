@@ -9,7 +9,7 @@
   "image" : "ionrifle.png",
   "handPosition" : [-7, -1],
   "firePosition" : [20, 3],
-  "weaponType" : "Beam",
+  "weaponType" : "Energy",
   "recoilTime" : 0.1,
   "level" : 3,
   "tooltipKind" : "gun",

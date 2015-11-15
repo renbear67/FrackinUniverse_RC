@@ -9,7 +9,7 @@
   "image" : "mechgun.png",
   "handPosition" : [-14, -3],
   "firePosition" : [30, 1.5],
-  "weaponType" : "Beam",
+  "weaponType" : "Energy",
   "recoilTime" : 0.1,
   "level" : 3,
   "tooltipKind" : "gun",

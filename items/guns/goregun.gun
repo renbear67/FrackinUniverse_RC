@@ -9,7 +9,7 @@
   "image" : "goregun.png",
   "handPosition" : [-7, -1],
   "firePosition" : [20, 0],
-  "weaponType" : "Beam",
+  "weaponType" : "Bio-Tech",
   "recoilTime" : 0.1,
   "level" : 4,
   "tooltipKind" : "gun",

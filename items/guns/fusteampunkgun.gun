@@ -10,7 +10,7 @@
     "learnBlueprintsOnPickup" : [ "penumbriteminer" ],
     "handPosition" : [-8, 0],
     "firePosition" : [12, 0],
-    "weaponType" : "Beam",
+    "weaponType" : "Electric",
     "recoilTime" : 0.1,
     "level" : 3,
     "tooltipKind" : "gun",

@@ -9,7 +9,7 @@
   "image" : "crystalgun.png",
   "handPosition" : [-12, -3],
   "firePosition" : [16, 1],
-  "weaponType" : "Elemental Weapon",
+  "weaponType" : "Crystalline",
   "recoilTime" : 0.1,
   "level" : 3,
   "tooltipKind" : "gun",

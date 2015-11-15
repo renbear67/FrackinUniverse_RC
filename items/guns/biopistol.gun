@@ -9,7 +9,7 @@
   "image" : "biopistol.png",
   "handPosition" : [-7, -1],
   "firePosition" : [12, 0],
-  "weaponType" : "Beam",
+  "weaponType" : "Bio-Toxin",
   "recoilTime" : 0.1,
   "level" : 3,
   "tooltipKind" : "gun",

@@ -9,7 +9,7 @@
     "image" : "slimelauncher.png",
     "handPosition" : [-4, -3],
     "firePosition" : [12, 2],
-    "weaponType" : "Bio Weapon",
+    "weaponType" : "Slime Ejector",
     "recoilTime" : 0.1,
     "level" : 2,
     "tooltipKind" : "gun",

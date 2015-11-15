@@ -10,7 +10,7 @@
     "image" : "fuvaporizer.png",
     "handPosition" : [-4, -4],
     "firePosition" : [19, 1.5],
-    "weaponType" : "Beam",
+    "weaponType" : "Antimatter",
     "recoilTime" : 0.1,
     "level" : 6,
     "tooltipKind" : "gun",

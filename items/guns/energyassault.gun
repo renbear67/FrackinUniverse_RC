@@ -9,7 +9,7 @@
   "image" : "energyassault.png",
   "handPosition" : [-12, -3],
   "firePosition" : [11, 1],
-  "weaponType" : "Energy Weapon",
+  "weaponType" : "Energy",
   "recoilTime" : 0.1,
   "level" : 3,
   "tooltipKind" : "gun",

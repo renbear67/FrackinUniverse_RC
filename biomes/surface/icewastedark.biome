@@ -27,16 +27,16 @@
   "skyOptions" : [
 //blue tinted, in most cases. some are "very" blue, or "very" white.
     {
-      "mainColor" : [125, 125, 125],
+      "mainColor" : [45, 45, 85],
 
       "morningColors" : [ [124, 124, 200], [134, 134, 225] ],
       "dayColors" : [ [70, 70, 150], [70, 70, 170] ],
       "eveningColors" : [ [30, 30, 100], [30, 30, 120] ],
       "nightColors" : [ [14, 14, 75], [14, 14, 90] ],
 
-      "morningLightColor" : [70, 70, 70],
-      "dayLightColor" : [50, 50, 50],
-      "eveningLightColor" : [30, 30, 30],
+      "morningLightColor" : [50, 50, 50],
+      "dayLightColor" : [30, 30, 30],
+      "eveningLightColor" : [12, 12, 12],
       "nightLightColor" : [0, 0, 0]
     }
   ],

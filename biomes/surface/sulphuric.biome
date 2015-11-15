@@ -1,7 +1,7 @@
 {
   "name" : "sulphuric",
   "friendlyName" : "Sulphuric",
-  "requiredStatuses" : [ "ffextremesulphuric" ],
+  "statusEffects" : [ "ffextremesulphuric"  ],
   "airless" : true,
   "breathable" : false,
   "spawnProfiles" : [

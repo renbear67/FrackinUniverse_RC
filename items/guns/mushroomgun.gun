@@ -9,7 +9,7 @@
   "image" : "mushroomgun.png",
   "handPosition" : [-7, -1],
   "firePosition" : [20, 4],
-  "weaponType" : "Beam",
+  "weaponType" : "Bio-Tech",
   "recoilTime" : 0.1,
   "level" : 4,
   "tooltipKind" : "gun",

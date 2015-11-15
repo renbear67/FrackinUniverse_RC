@@ -9,7 +9,7 @@
     "image" : "densiniumrifle.png",
     "handPosition" : [-6, 1],
     "firePosition" : [19, 2],
-    "weaponType" : "Beam",
+    "weaponType" : "Energy",
     "recoilTime" : 0.1,
     "level" : 9,
     "tooltipKind" : "gun",

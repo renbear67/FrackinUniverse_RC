@@ -9,7 +9,7 @@
   "image" : "hellfirecannon.png",
   "handPosition" : [-7, -1],
   "firePosition" : [20, 0],
-  "weaponType" : "Beam",
+  "weaponType" : "Incendiary Cannon",
   "recoilTime" : 0.1,
   "level" : 7,
   "tooltipKind" : "gun",

@@ -9,7 +9,7 @@
   "image" : "eldercarbine.png",
   "handPosition" : [-12, -3],
   "firePosition" : [16, 2],
-  "weaponType" : "Energy Weapon",
+  "weaponType" : "Disruptor",
   "recoilTime" : 0.1,
   "level" : 9,
   "tooltipKind" : "gun",

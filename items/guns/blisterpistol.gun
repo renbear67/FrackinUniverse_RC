@@ -9,7 +9,7 @@
   "image" : "blisterpistol.png",
   "handPosition" : [-4, -3],
   "firePosition" : [14, 2],
-  "weaponType" : "Bio Weapon",
+  "weaponType" : "Bio-Tech",
   "recoilTime" : 0.1,
   "level" : 3,
   "tooltipKind" : "gun",

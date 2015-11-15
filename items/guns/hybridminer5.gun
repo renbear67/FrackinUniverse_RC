@@ -9,7 +9,7 @@
     "image" : "hybridminer5.png",
     "handPosition" : [-8, 0],
     "firePosition" : [8, 0],
-    "weaponType" : "Beam",
+    "weaponType" : "Energy",
     "recoilTime" : 0.1,
     "level" : 2,
     "tooltipKind" : "gun",

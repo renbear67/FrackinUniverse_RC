@@ -9,7 +9,7 @@
   "image" : "teslagun.png",
   "handPosition" : [-11, -1],
   "firePosition" : [16, 0],
-  "weaponType" : "Beam",
+  "weaponType" : "Electric",
   "recoilTime" : 0.1,
   "level" : 5,
   "tooltipKind" : "gun",

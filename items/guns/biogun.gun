@@ -9,7 +9,7 @@
     "image" : "biogun.png",
     "handPosition" : [-10, -4],
     "firePosition" : [44, 2],
-    "weaponType" : "Beam",
+    "weaponType" : "Bio-Toxin",
     "recoilTime" : 0.1,
     "level" : 5,
     "tooltipKind" : "gun",

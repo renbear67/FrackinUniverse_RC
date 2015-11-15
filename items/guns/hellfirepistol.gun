@@ -9,7 +9,7 @@
   "image" : "hellfirepistol.png",
   "handPosition" : [-7, -1],
   "firePosition" : [20, 1.5],
-  "weaponType" : "Beam",
+  "weaponType" : "Incendiary",
   "recoilTime" : 0.1,
   "level" : 6,
   "tooltipKind" : "gun",

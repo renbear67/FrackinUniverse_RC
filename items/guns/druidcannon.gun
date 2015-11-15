@@ -9,7 +9,7 @@
   "image" : "druidcannon.png",
   "handPosition" : [-12, -3],
   "firePosition" : [8, 0],
-  "weaponType" : "Bio-Weapon",
+  "weaponType" : "Bio-Tech",
   "recoilTime" : 0.1,
   "level" : 2,
   "tooltipKind" : "gun",

@@ -1,7 +1,7 @@
 {
   "name" : "sulphuricdark",
   "friendlyName" : "Sulphuric",
-  "requiredStatuses" : [ "ffextremesulphuric" ],
+  "statusEffects" : [ "ffextremesulphuric"  ],
   "airless" : true,
   "breathable" : false,
   "spawnProfiles" : [
@@ -62,7 +62,7 @@
   "skyOptions" : [
 
     {
-      "mainColor" : [200, 250, 205],
+      "mainColor" : [70, 150, 70],
 
       "morningColors" : [ [130, 205, 130], [130, 205, 130] ],
       "dayColors" : [ [100, 180, 100], [100, 189, 100] ],

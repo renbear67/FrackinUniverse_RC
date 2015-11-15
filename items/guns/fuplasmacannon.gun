@@ -9,7 +9,7 @@
   "image" : "fuplasmacannon.png",
   "handPosition" : [-7, -1],
   "firePosition" : [26, 1.5],
-  "weaponType" : "High Tech",
+  "weaponType" : "Energy",
   "recoilTime" : 0.1,
   "level" : 7,
   "tooltipKind" : "gun",

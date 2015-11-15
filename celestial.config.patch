@@ -19,6 +19,16 @@
       "maskRange" : [1, 25],
       "maskPerPlanetRange" : [3, 3]  
   }},
+    {"op" : "add", 
+    "path" : "/terrestrialHorizonGraphics/arborealdark",
+    "value" : 
+    {
+        "baseImages" : "/celestial/system/terrestrial/horizon/textures/arboreal_<selector>.png",
+        "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+        "maskRange" : [1, 25],
+        "maskPerPlanetRange" : [3, 3]  
+  }},
+
   {"op" : "add", 
   "path" : "/terrestrialHorizonGraphics/atropus",
   "value" : 
@@ -142,6 +152,15 @@
       "maskPerPlanetRange" : [3, 3]  
   }},  
   {"op" : "add", 
+  "path" : "/terrestrialHorizonGraphics/icewastedark",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/icewaste_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]  
+  }}, 
+  {"op" : "add", 
   "path" : "/terrestrialHorizonGraphics/infernus",
   "value" : 
   {
@@ -239,7 +258,7 @@
       "baseImages" : "/celestial/system/terrestrial/horizon/textures/nitrogensea_<selector>.png",
       "maskTextures" : "/celestial/system/terrestrial/horizon/masks/ocean/<mask>_<selector>.png",
       "maskRange" : [1, 25],
-      "maskPerPlanetRange" : [0, 3]  
+      "maskPerPlanetRange" : [1, 2]  
   }}, 
    {"op" : "add", 
   "path" : "/terrestrialHorizonGraphics/strangesea",
@@ -248,7 +267,7 @@
       "baseImages" : "/celestial/system/terrestrial/horizon/textures/ocean_<selector>.png",
       "maskTextures" : "/celestial/system/terrestrial/horizon/masks/ocean/<mask>_<selector>.png",
       "maskRange" : [1, 25],
-      "maskPerPlanetRange" : [0, 3]  
+      "maskPerPlanetRange" : [0, 2]  
   }},   
   {"op" : "add", 
   "path" : "/terrestrialHorizonGraphics/penumbra",
@@ -279,6 +298,15 @@
   }},
   {"op" : "add", 
   "path" : "/terrestrialHorizonGraphics/sulphuric",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/sulphuric_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]  
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialHorizonGraphics/sulphuricdark",
   "value" : 
   {
       "baseImages" : "/celestial/system/terrestrial/horizon/textures/sulphuric_<selector>.png",
@@ -327,9 +355,9 @@
   "value" : 
   {
       "baseImages" : "/celestial/system/terrestrial/horizon/textures/tidewater_<selector>.png",
-      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/ocean/<mask>_<selector>.png",
       "maskRange" : [1, 25],
-      "maskPerPlanetRange" : [3, 3]  
+      "maskPerPlanetRange" : [0, 3]  
   }},
   {"op" : "add", 
   "path" : "/terrestrialHorizonGraphics/urbanwasteland",
@@ -368,6 +396,14 @@
   }},
   {"op" : "add", 
   "path" : "/terrestrialGraphics/arboreal2",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/biomes/arboreal/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange" : [1, 30]
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialGraphics/arborealdark",
   "value" : 
   {
       "baseImages" : "/celestial/system/terrestrial/biomes/arboreal/maskie<num>.png",
@@ -487,6 +523,14 @@
       "dynamicsRange" : [1, 50] 
   }},  
   {"op" : "add", 
+  "path" : "/terrestrialGraphics/icewastedark",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/biomes/icewaste/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 50] 
+  }},  
+  {"op" : "add", 
   "path" : "/terrestrialGraphics/infernus",
   "value" : 
   {
@@ -572,17 +616,17 @@
   "value" : 
   {
       "baseImages" : "/celestial/system/terrestrial/biomes/nitrogensea/maskie<num>.png",
-      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
-      "dynamicsRange" : [1, 50]
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/ocean/<num>.png",
+      "dynamicsRange" : [1, 20]
   }}, 
    {"op" : "add", 
   "path" : "/terrestrialGraphics/strangesea",
   "value" : 
   {
       "baseImages" : "/celestial/system/terrestrial/biomes/ocean/maskie<num>.png",
-      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
-      "dynamicsRange" : [1, 30],
-      "baseCount" : 2
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/ocean/<num>.png",
+      "dynamicsRange" : [1, 20],
+      "baseCount" : 1
   }}, 
   {"op" : "add", 
   "path" : "/terrestrialGraphics/penumbra",
@@ -610,6 +654,14 @@
   }},
   {"op" : "add", 
   "path" : "/terrestrialGraphics/sulphuric",
+  "value" : 
+  {
+      "baseImages" : "/celestial/system/terrestrial/biomes/sulphuric/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 50]
+  }},
+  {"op" : "add", 
+  "path" : "/terrestrialGraphics/sulphuricdark",
   "value" : 
   {
       "baseImages" : "/celestial/system/terrestrial/biomes/sulphuric/maskie<num>.png",
@@ -653,8 +705,8 @@
   "value" : 
   {
       "baseImages" : "/celestial/system/terrestrial/biomes/tidewater/maskie<num>.png",
-      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
-      "dynamicsRange" : [1, 30]
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/ocean/<num>.png",
+      "dynamicsRange" : [1, 20]
   }},
   {"op" : "add", 
   "path" : "/terrestrialGraphics/urbanwasteland",

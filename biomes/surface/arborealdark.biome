@@ -33,7 +33,7 @@
   "skyOptions" : [
     // green tinted bright
     {
-      "mainColor" : [120, 220, 120],
+      "mainColor" : [70, 120, 70],
 
       "morningColors" : [ [20, 60, 30], [30, 60, 40] ],
       "dayColors" : [ [20, 40, 20], [20, 50, 20] ],

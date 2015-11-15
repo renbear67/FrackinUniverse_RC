@@ -10,7 +10,7 @@
     "learnBlueprintsOnPickup" : [ "hybridminer4" ],
     "handPosition" : [-8, 0],
     "firePosition" : [7, 0],
-    "weaponType" : "Beam",
+    "weaponType" : "Energy",
     "recoilTime" : 0.1,
     "level" : 1,
     "tooltipKind" : "gun",
