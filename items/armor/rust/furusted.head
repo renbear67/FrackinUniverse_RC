@@ -1,44 +1,39 @@
 {
-  "itemName" : "rustedchest",
-  "inventoryIcon" : "icons.png:chest",
+  "itemName" : "furustedhead",
+  "inventoryIcon" : "icons.png:head",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "uncommon",
   "description" : "Somewhat rusty, but still functional.",
-  "shortdescription" : "Rusty Chestplate",
+  "shortdescription" : "Rusty Helmet",
   "tooltipKind" : "armor",
 
-  "maleFrames" : {
-    "body" : "chest.png",
-    "backSleeve" : "bsleeve.png",
-    "frontSleeve" : "fsleeve.png"
-  },
-
-  "femaleFrames" : {
-    "body" : "chest.png",
-    "backSleeve" : "bsleeve.png",
-    "frontSleeve" : "fsleeve.png"
-  },
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
 
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "basePercentage" : 1.12
+      "basePercentage" : 0.75
     },
 
     {
       "stat" : "protection",
-      "amount" : 29
+      "amount" : 16
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 79
+      "amount" : 50
     },
-
     {
       "stat" : "maxHealth",
-      "amount" : 22
+      "amount" : 15
+    },
+    {
+      "stat" : "breathProtection",
+      "amount" : 1.0
     }
   ],
 

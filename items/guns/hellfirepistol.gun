@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "Legendary",
   "description" : "Built to incinerate.",
-  "shortdescription" : "Hellfire Pistol",
+  "shortdescription" : "Hellfire Gun",
   "image" : "hellfirepistol.png",
   "handPosition" : [-7, -1],
   "firePosition" : [20, 1.5],

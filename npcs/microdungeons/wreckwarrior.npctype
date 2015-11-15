@@ -64,9 +64,9 @@
             ]
           },
           {
-            "head" : [ { "name" : "rustedhead", "parameters" : { "colorIndex" : 1 } } ],
-            "chest" : [ { "name" : "rustedchest", "parameters" : { "colorIndex" : 1 } } ],
-            "legs" : [ { "name" : "rustedlegs", "parameters" : { "colorIndex" : 1 } } ],
+            "head" : [ { "name" : "furustedhead", "parameters" : { "colorIndex" : 1 } } ],
+            "chest" : [ { "name" : "furustedchest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "furustedlegs", "parameters" : { "colorIndex" : 1 } } ],
             "primary" : [
               { "name" : "lasrifle" }
             ]

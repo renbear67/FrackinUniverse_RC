@@ -1,34 +1,44 @@
 {
-  "itemName" : "rustedlegs",
-  "inventoryIcon" : "icons.png:pants",
+  "itemName" : "furustedchest",
+  "inventoryIcon" : "icons.png:chest",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "uncommon",
   "description" : "Somewhat rusty, but still functional.",
-  "shortdescription" : "Rusty Greaves",
+  "shortdescription" : "Rusty Chestplate",
   "tooltipKind" : "armor",
 
-  "maleFrames" : "pants.png",
-  "femaleFrames" : "pants.png",
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
 
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "basePercentage" : 0.5
+      "basePercentage" : 1.12
     },
 
     {
       "stat" : "protection",
-      "amount" : 9
+      "amount" : 29
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 33
+      "amount" : 79
     },
+
     {
       "stat" : "maxHealth",
-      "amount" : 8
+      "amount" : 22
     }
   ],
 
