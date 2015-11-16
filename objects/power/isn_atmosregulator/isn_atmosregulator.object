@@ -62,5 +62,5 @@
 
   "inboundNodes" : [ [1, 2] ],
   "isn_powerReciever" : true,
-  "isn_requiredPower" : 4
+  "isn_requiredPower" : 24
 }

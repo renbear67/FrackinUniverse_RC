@@ -2,7 +2,7 @@
   "objectName" : "centrifuge",
   "rarity" : "rare",
   "tags" : [ "science" ],
-  "description" : "A useful device for separating immiscible liquids. Needs 1u power.",
+  "description" : "A useful device for separating immiscible liquids. Needs 2u power.",
   "shortdescription" : "Lab Centrifuge",
   "race" : "generic",
   "category" : "storage",
@@ -40,7 +40,7 @@
   
   "inboundNodes" : [ [2, 2] ],
   "isn_powerReciever" : true,
-  "isn_requiredPower" : 1,
+  "isn_requiredPower" : 2,
   
   "inputsToOutputs" : {
 // vanilla liquids  

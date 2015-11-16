@@ -2,7 +2,7 @@
   "objectName" : "isn_powdersifter",
   "rarity" : "Common",
     "tags" : [ "science" ],
-  "description" : "Sifts through powders to find useful reagents. Requires 1u of power.",
+  "description" : "Sifts through powders to find useful reagents. Requires 2u of power.",
   "shortdescription" : "Sifting Device",
   "race" : "generic",
   "category" : "storage",
@@ -42,7 +42,7 @@
   
   "inboundNodes" : [ [1, 1] ],
   "isn_powerReciever" : true,
-  "isn_requiredPower" : 1,
+  "isn_requiredPower" : 2,
   
   "inventoryIcon" : "isn_powdersiftericon.png",
   "orientations" : [

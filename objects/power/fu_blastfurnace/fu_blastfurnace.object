@@ -2,7 +2,7 @@
   "objectName" : "fu_blastfurnace",
   "rarity" : "rare",
   "tags" : [ "science" ],
-  "description" : "A superior form of furnace, for smelting mass quantities.",
+  "description" : "A superior form of furnace, for smelting mass quantities. Requires 4u power.",
   "shortdescription" : "Blast Furnace",
   "race" : "generic",
   "category" : "storage",
@@ -40,7 +40,7 @@
   
   "inboundNodes" : [ [2, 2] ],
   "isn_powerReciever" : true,
-  "isn_requiredPower" : 3,
+  "isn_requiredPower" : 4,
   
   "inputsToOutputs" : {
 	  "coalore" : "fu_carbon",

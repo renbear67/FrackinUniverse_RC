@@ -2,7 +2,7 @@
   "objectName" : "isn_arcsmelter",
   "rarity" : "legendary",
   "tags" : [ "science" ],
-  "description" : "An incredibly powerful furnace that uses electricity. Requires 8u of power. Extreme efficiency.",
+  "description" : "An incredibly efficient furnace that requires 12u power.",
   "shortdescription" : "Arc Smelter",
   "race" : "generic",
   "category" : "storage",
@@ -10,13 +10,6 @@
   "objectType" : "container",
   "printable" : false,
 
-  "apexDescription" : "Good grief, this is some heavy machinery.",
-  "avianDescription" : "This thing is terrifying...",
-  "floranDescription" : "Aaaaaaaaaahhhhh!!!",
-  "glitchDescription" : "Unnerved. The current that can run through this machine is capable of destroying a glitch fifty times over.",
-  "humanDescription" : "This is super efficient, but boy does it give me the creeps.",
-  "hylotlDescription" : "So uncivilized.",
-  
   "scripts" : [ "/objects/power/isn_arcsmelter/isn_arcsmelter.lua",
                 "/objects/power/isn_sharedpowerscripts.lua",
 				"/objects/isn_sharedobjectscripts.lua"],
@@ -47,7 +40,7 @@
   
   "inboundNodes" : [ [2, 2] ],
   "isn_powerReciever" : true,
-  "isn_requiredPower" : 8,
+  "isn_requiredPower" : 12,
   
   "inputsToOutputs" : {
 	  "coalore" : "fu_carbon",

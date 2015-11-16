@@ -4,7 +4,7 @@
   "category" : "crafting",
   "price" : 3000,
   "objectType" : "container", 
-  "description" : "Apply upgrades to weapons and armor.",
+  "description" : "Apply upgrades to weapons and armor. Requires 5u power.",
   "shortdescription" : "Upgrade Station",
   "race" : "generic",
 
@@ -23,7 +23,7 @@
   
   "inboundNodes" : [ [1, 1] ],
   "isn_powerReciever" : true,
-  "isn_requiredPower" : 1,
+  "isn_requiredPower" : 6,
   "isn_liquidCollector" : false,
 
   "scripts" : [ 

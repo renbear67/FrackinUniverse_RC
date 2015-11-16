@@ -83,7 +83,7 @@ function isn_slotDecayCheck(slot, chance)
 	if slotContent.name == "uraniumrod" or slotContent.name == "plutoniumrod" then
 		if math.random(1,80) <= chance then return true end
 	end	
-	if slotContent.name == "biofuelcannistermax" or slotContent.name == "solariumstar" or slotContent.name == "enricheduranium" or slotContent.name == "enrichedplutonium" then
+	if slotContent.name == "biofuelcannistermax" or slotContent.name == "solariumstar" or slotContent.name == "enricheduranium" or slotContent.name == "enrichedplutonium" or or slotContent.name == "ultronium" then
 		if math.random(1,100) <= chance then return true end
 	end		
 	return false
