@@ -1,7 +1,7 @@
 {
   "name" : "atropus",
   "friendlyName" : "Atropus",
-  "requiredStatuses" : [],
+  "statusEffects" : [ "insanity"  ],
   "spawnProfiles" : [
     {
       "groups" : [ "hardsurface1", "fu_atropus" ],

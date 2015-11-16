@@ -2,12 +2,12 @@
   "name" : "partytime2",
   "effectConfig" : {},
   "defaultDuration" : 120,
-"blockingStat" : "insanityImmunity",
+  "blockingStat" : "insanityImmunity",
   "scripts" : [
     "partytime.lua"
   ],
 
-  "animationConfig" : "partytime.animation",
+  "animationConfig" : "partytime2.animation",
 
   "label" : "Party Time!",
   "icon" : "/interface/statuses/levitate.png"

@@ -289,7 +289,32 @@
     
     
     
-  
+
+{"op":"add",
+"path":"/ff_chromaticOres",
+"value": 
+    [
+      [0.5, [ [ "coal", 0.6], [ "iron", 0.6], [ "uranium", 0.5], [ "plutonium", 0.5], [ "solarium", 0.30], [ "lead", 0.5], [ "diamond", 0.10], [ "crystal", 0.20], [ "wolframite", 0.20], [ "mascagnite", 0.20],[ "lazulite", 0.20],[ "magnesium", 0.40],[ "berlinite", 0.20],[ "prisilite", 0.40] ] ],
+      [1.5, [ [ "coal", 0.6], [ "iron", 0.6], [ "uranium", 0.5], [ "plutonium", 0.5], [ "solarium", 0.30], [ "lead", 0.5], [ "diamond", 0.20], [ "crystal", 0.25], [ "wolframite", 0.25], [ "mascagnite", 0.30],[ "lazulite", 0.30],[ "magnesium", 0.40],[ "berlinite", 0.30],[ "prisilite", 0.45] ] ],
+      [2.5, [ [ "coal", 0.6], [ "iron", 0.6], [ "uranium", 0.5], [ "plutonium", 0.5], [ "solarium", 0.30], [ "lead", 0.5], [ "diamond", 0.20], [ "crystal", 0.30], [ "wolframite", 0.35], [ "mascagnite", 0.40],[ "lazulite", 0.40],[ "magnesium", 0.50],[ "berlinite", 0.40],[ "prisilite", 0.50] ] ],
+      [3.5, [ [ "coal", 0.6], [ "iron", 0.6], [ "uranium", 0.5], [ "plutonium", 0.5], [ "solarium", 0.30], [ "lead", 0.5], [ "diamond", 0.30], [ "crystal", 0.40], [ "wolframite", 0.45], [ "mascagnite", 0.50],[ "lazulite", 0.50],[ "magnesium", 0.50],[ "berlinite", 0.50],[ "prisilite", 0.55] ] ],
+      [4.5, [ [ "coal", 0.6], [ "iron", 0.6], [ "uranium", 0.5], [ "plutonium", 0.5], [ "solarium", 0.30], [ "lead", 0.5], [ "diamond", 0.40], [ "crystal", 0.50], [ "wolframite", 0.55], [ "mascagnite", 0.60],[ "lazulite", 0.60],[ "magnesium", 0.50],[ "berlinite", 0.60],[ "prisilite", 0.60] ] ],
+      [5.5, [ [ "coal", 0.6], [ "iron", 0.6], [ "uranium", 0.5], [ "plutonium", 0.5], [ "solarium", 0.30], [ "lead", 0.5], [ "diamond", 0.50], [ "crystal", 0.55], [ "wolframite", 0.65], [ "mascagnite", 0.70],[ "lazulite", 0.70],[ "magnesium", 0.60],[ "berlinite", 0.70],[ "prisilite", 0.70] ] ]
+    ]
+},
+{"op":"add",
+"path":"/ff_deepchromaticOres",
+"value": 
+    [
+      [0.5, [ [ "coal", 1.15], [ "iron", 1.0], [ "uranium", 1.0], [ "plutonium", 1.00], [ "solarium", 0.40], [ "lead", 1.00], [ "diamond", 0.60], [ "crystal", 0.70], [ "wolframite", 0.70], [ "mascagnite", 1.00],[ "lazulite", 1.00],[ "magnesium", 1.00],[ "berlinite", 1.00],[ "prisilite", 1.05] ] ],
+      [1.5, [ [ "coal", 1.15], [ "iron", 1.0], [ "uranium", 1.0], [ "plutonium", 1.00], [ "solarium", 0.40], [ "lead", 1.00], [ "diamond", 0.70], [ "crystal", 0.80], [ "wolframite", 0.80], [ "mascagnite", 1.00],[ "lazulite", 1.00],[ "magnesium", 1.00],[ "berlinite", 1.00],[ "prisilite", 1.10] ] ],
+      [2.5, [ [ "coal", 1.15], [ "iron", 1.0], [ "uranium", 1.0], [ "plutonium", 1.00], [ "solarium", 0.40], [ "lead", 1.00], [ "diamond", 0.75], [ "crystal", 0.90], [ "wolframite", 0.90], [ "mascagnite", 1.00],[ "lazulite", 1.00],[ "magnesium", 1.00],[ "berlinite", 1.00],[ "prisilite", 1.15] ] ],
+      [3.5, [ [ "coal", 1.15], [ "iron", 1.0], [ "uranium", 1.0], [ "plutonium", 1.00], [ "solarium", 0.40], [ "lead", 1.00], [ "diamond", 0.80], [ "crystal", 1.0], [ "wolframite", 1.00], [ "mascagnite", 1.00],[ "lazulite", 1.00],[ "magnesium", 1.00],[ "berlinite", 1.10],[ "prisilite", 1.20] ] ],
+      [4.5, [ [ "coal", 1.15], [ "iron", 1.0], [ "uranium", 1.0], [ "plutonium", 1.00], [ "solarium", 0.40], [ "lead", 1.00], [ "diamond", 0.90], [ "crystal", 1.1], [ "wolframite", 1.10], [ "mascagnite", 1.00],[ "lazulite", 1.00],[ "magnesium", 1.00],[ "berlinite", 1.10],[ "prisilite", 1.30] ] ],
+      [5.5, [ [ "coal", 1.15], [ "iron", 1.0], [ "uranium", 1.0], [ "plutonium", 1.00], [ "solarium", 0.40], [ "lead", 1.00], [ "diamond", 1.00], [ "crystal", 1.2], [ "wolframite", 1.15], [ "mascagnite", 1.00],[ "lazulite", 1.00],[ "magnesium", 1.00],[ "berlinite", 1.20],[ "prisilite", 1.40] ] ]
+    ]
+},    
+
 {"op":"add",
 "path":"/ff_crystalmoonOres",
 "value": 
@@ -310,8 +335,8 @@
       [1.5, [ [ "diamond", 0.70], [ "crystal", 1.00], [ "prisilite", 0.80], [ "mascagnite", 1.00],[ "lazulite", 1.00],[ "magnesium", 1.00],[ "berlinite", 1.00],[ "cinnabar", 0.70],[ "lunariore", 1.10] ] ],
       [2.5, [ [ "diamond", 0.75], [ "crystal", 1.10], [ "prisilite", 0.90], [ "mascagnite", 1.00],[ "lazulite", 1.00],[ "magnesium", 1.00],[ "berlinite", 1.00],[ "cinnabar", 0.80],[ "lunariore", 1.15] ] ],
       [3.5, [ [ "diamond", 0.80], [ "crystal", 1.15], [ "prisilite", 1.00], [ "mascagnite", 1.00],[ "lazulite", 1.00],[ "magnesium", 1.00],[ "berlinite", 1.10],[ "cinnabar", 0.80],[ "lunariore", 1.20] ] ],
-      [4.5, [ [ "diamond", 0.90], [ "crystal", 1.20], [ "prisilite", 1.10], [ "mascagnite", 1.00],[ "lazulite", 1.00],[ "magnesium", 1.00],[ "berlinite", 1.10],[ "cinnabar", 0.90],[ "lunariore", 1.30] ] ],
-      [5.5, [ [ "diamond", 1.00], [ "crystal", 1.25], [ "prisilite", 1.15], [ "mascagnite", 1.00],[ "lazulite", 1.00],[ "magnesium", 1.00],[ "berlinite", 1.20],[ "cinnabar", 1.00],[ "lunariore", 1.40] ] ]
+      [4.5, [ [ "diamond", 0.85], [ "crystal", 1.20], [ "prisilite", 1.10], [ "mascagnite", 1.00],[ "lazulite", 1.00],[ "magnesium", 1.00],[ "berlinite", 1.10],[ "cinnabar", 0.90],[ "lunariore", 1.30] ] ],
+      [5.5, [ [ "diamond", 0.87], [ "crystal", 1.25], [ "prisilite", 1.15], [ "mascagnite", 1.00],[ "lazulite", 1.00],[ "magnesium", 1.00],[ "berlinite", 1.20],[ "cinnabar", 1.00],[ "lunariore", 1.40] ] ]
     ]
 },    
  

@@ -166,7 +166,7 @@
        "threatRange" : [3, 8],
        "layers" : {
         "surface" : {
-          "primaryRegion" : [ "eden", "tarball", "arboreal2", "desert_wastes","mountainous", "tidewater", "arboreal", "atropus", "bloodstone", "bog", "crystalmoon", "icemoon", "icewaste", "infernus", "irradiated", "lightless", "metallicmoon", "nitrogensea", "penumbra", "protoworld", "sulphuric", "thickjungle", "urbanwasteland", "alien", "barren", "desert", "forest", "jungle", "savannah", "scorched", "snow", "tundra", "volcanic" ],
+          "primaryRegion" : [ "chromatic", "arborealdark", "icewastedark", "sulphuricdark", "eden", "tarball", "arboreal2", "desert_wastes","mountainous", "tidewater", "arboreal", "atropus", "bloodstone", "bog", "crystalmoon", "icemoon", "icewaste", "infernus", "irradiated", "lightless", "metallicmoon", "nitrogensea", "penumbra", "protoworld", "sulphuric", "thickjungle", "urbanwasteland", "alien", "barren", "desert", "forest", "jungle", "savannah", "scorched", "snow", "tundra", "volcanic" ],
           "secondaryRegion" : [ "magicsnowland", "eden", "fieldofbracken", "supermatterzone", "aliendesert", "goreforest", "cactiplace", "metalworks", "metalworks2", "crystalswamp", "ffhive", "corruptmoon", "birchforest", "alienforest", "sulphuricmagma", "cellfield", "reddesert", "finesand", "cloudforest", "hauntedforest", "hauntedgraveyard", "rainbowforest", "swamp", "mountainous", "tidewater", "estuary", "breakwater", "corrupt", "spring", "mushroom", "oasis", "tar", "alpine", "bioluminescence", "colourful", "bones", "giantflowers", "eyepatch", "ice", "rust", "crystalline", "alien", "arctic", "barren", "desert", "forest", "jungle", "magma", "ocean", "savannah", "scorched", "snow", "toxic", "tundra", "volcanic", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "calichefield", "bloodstonefield", "corruptedforest", "crystalplain", "deadwood", "desertoasis", "dryriverbed", "elder", "energyorbforest", "flowerforest", "hellfirefield", "hellhive", "icefire", "irradiatedwaste", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "pitchfield", "primevalforest", "snowyforest", "sulphuricplain", "taiga" ],
           //"dungeonCountRange" : [0, 2],
           "dungeons" : [ "fuwreck", "wreck", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "avianairship", "aviantemple","humanbunker", "floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison", "naturalcave" ]
@@ -827,7 +827,52 @@
       }
    },
 
-
+    {"op" : "add", 
+    "path" : "/planetTypes/chromatic",
+    "value" : 
+      {
+      "threatRange" : [4, 7],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "chromatic" ],
+          "secondaryRegion" : [ "aliendesert", "goreforest", "crystaldesert", "crystalswamp","supermatterzone", "ffhive", "corruptedforest", "birchforest", "alienforest", "cellfield", "reddesert", "swamp", "bloodgulch", "hellhive", "elder",  "icewaste", "snow", "protoworld", "irradiated" ],
+          //"dungeonCountRange" : [0, 2],
+          "dungeons" : [ "fuwreck", "wreck", "glitchsewer", "glitchvillage", "avianairship","floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison" ]
+        },
+        "subsurface" : {
+          "primaryRegion" : [ "chromaticunderground" ]
+        },
+         "underground1" : {
+          "primaryRegion" : [ "chromaticunderground" ],
+          "secondaryRegion" : [ "ffhellhiveunderground", "ffpoopit", "ffcrystalrealm", "zen", "shadow", "heck", "colorfulcave", "shroomcave", "ffspidernest", "ffsupermatter", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffcrystalcavern" ]
+          },
+        "underground2" : {
+         "primaryRegion" : [ "chromaticunderground" ],
+          "secondaryRegion" : [ "ffhellhiveunderground", "ffpoopit", "ffcrystalrealm", "zen", "shadow", "heck", "colorfulcave", "shroomcave", "ffspidernest", "ffsupermatter", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffcrystalcavern" ]
+          },
+        "underground3" : {
+         "primaryRegion" : [ "chromaticunderground" ],
+          "secondaryRegion" : [ "ffhellhiveunderground", "ffpoopit", "ffcrystalrealm", "zen", "shadow", "heck", "colorfulcave", "shroomcave", "ffspidernest", "ffsupermatter", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffcrystalcavern" ]
+          },
+        "underground4" : {
+         "primaryRegion" : [ "chromaticunderground" ],
+          "secondaryRegion" : [ "ffpoopit", "ffcrystalrealm", "zen", "shadow", "heck", "colorfulcave", "shroomcave", "ffspidernest", "ffsupermatter", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffcrystalcavern" ]
+          },
+        "underground5" : {
+         "primaryRegion" : [ "chromaticunderground" ],
+          "secondaryRegion" : [ "ffpoopit", "ffcrystalrealm", "zen", "shadow", "heck", "colorfulcave", "shroomcave", "ffspidernest", "ffsupermatter", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffcrystalcavern" ]
+          },
+        "underground6" : {
+         "primaryRegion" : [ "chromaticunderground" ],
+          "secondaryRegion" : [ "ffpoopit", "ffcrystalrealm", "zen", "shadow", "heck", "colorfulcave", "shroomcave", "ffspidernest", "ffsupermatter", "ffshadow", "ffzen", "fffrostcavern", "ffvolcanic", "ffcrystalcavern" ]
+          },
+        "core" : {
+          "primaryRegion" : [ "core" ]
+        } 
+        }
+      }
+   },
+   
    {"op" : "add", 
    "path" : "/planetTypes/desert_wastes",
    "value" : 
@@ -1850,6 +1895,20 @@
       ]
     }
   },  
+
+  {"op" : "add", 
+  "path" : "/regionTypes/chromatic",
+  "value" : 
+  {
+      "caveLiquid" : [  "water", "healingliquid", "alienjuice" ],
+      "blockSelector" : [ "remixedSurface", "remixedMildSurface","remixedMountainsSurface", "remixedMegaMountainsSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "bgOreSelector" : [ "commonVeins", "acidPoolCaves" ], 
+      "biome" : [
+        [0, [ "chromatic" ]]
+      ]
+    }
+  },
   
   {"op" : "add", 
   "path" : "/regionTypes/arboreal",
@@ -4354,7 +4413,7 @@
       "caveLiquid" : [ "swampwater", "poison","bio_ooze", "alienjuice", "slimeliquid" ], 
       "caveLiquidChanceRange" : [5, 15],
       "fgCaveSelector" : [ "acidPoolCaves", "denseCaves" ],
-      "bgOreSelector" : [ "denseVeins" ],  
+      "bgOreSelector" : [ "commonVeins" ],  
       "biome" : [
         [0, [ "irradiatedunderground"]]
       ]
@@ -4367,7 +4426,7 @@
   {
       "caveLiquid" : [ "water", "blacktar", "organicsoup", "bio_ooze", "alienjuice" ],
       "caveLiquidChanceRange" : [5, 25],
-      "bgOreSelector" : [ "denseVeins" ],  
+      "bgOreSelector" : [ "commonVeins" ],  
       "biome" : [
         [0, [ "penumbraunderground"]]
       ]
@@ -4458,7 +4517,7 @@
   {
       "caveLiquid" : [ "organicsoup", "alienjuice", "healingliquid" ],
       "caveLiquidChanceRange" : [45, 75],
-      "bgOreSelector" : [ "denseVeins" ],  
+      "bgOreSelector" : [ "commonVeins" ],  
       "biome" : [
         [0, [ "ffsupermatter"]]
       ]
@@ -4503,14 +4562,25 @@
       ]
     }
   }, 
-  
+  {"op" : "add", 
+  "path" : "/regionTypes/chromaticunderground",
+  "value" : 
+  {
+      "caveLiquid" : [ "water", "healingliquid", "alienjuice" ],
+      "caveLiquidChanceRange" : [25, 70],
+      "bgOreSelector" : [ "commonVeins" ],  
+      "biome" : [
+        [0, [ "chromaticunderground"]]
+      ]
+    }
+  },   
   {"op" : "add", 
   "path" : "/regionTypes/thickjungleunderground",
   "value" : 
   {
       "caveLiquid" : [ "water", "tarliquid" ],
       "caveLiquidChanceRange" : [65, 100],
-      "bgOreSelector" : [ "denseVeins" ],  
+      "bgOreSelector" : [ "commonVeins" ],  
       "biome" : [
         [0, [ "thickjungleunderground"]]
       ]

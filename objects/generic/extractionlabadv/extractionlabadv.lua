@@ -289,6 +289,7 @@ local recipes =
 {inputs = { irradiatedwall=50 }, outputs = { uraniumore=1 }, time = 0.65},
 {inputs = { irradiatedwall2=50 }, outputs = { rawminerals=2 }, time = 0.65},
 {inputs = { irradiatedwall3=50 }, outputs = { uraniumore=1 }, time = 0.65},
+{inputs = { chromadirtmaterial=50 }, outputs = { fu_carbon=1 }, time = 0.65},
 {inputs = { jungledirt1material=50 }, outputs = { fu_mulch=1 }, time = 0.65},
 {inputs = { jungledirt2material=50 }, outputs = { fu_nitrogen=2, fu_oxygen=1 }, time = 0.65},
 {inputs = { limestonematerial=50 }, outputs = { rawminerals=2, calciumnitrate=1 }, time = 0.65},

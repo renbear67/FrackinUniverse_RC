@@ -60,6 +60,9 @@
     "value" : "Red Star"
   }, 
 
+{"op":"add","path":"/planetTypeToDescription/chromatic",
+"value":"^#ffc2f9;Chromatic^white; worlds are strange, with an almost mystical quality, though they are bathed in ^green;deadly radiation^white;."},
+
 {"op":"add","path":"/planetTypeToDescription/arboreal",
 "value":"^#59a849;Giant trees^white; are abundant on this ancient ^#59a849;primeval forest^white; world."},
 
