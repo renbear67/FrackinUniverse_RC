@@ -12,7 +12,7 @@
   "flippable" : true,
   "damageKind" : "firebroadsword",
   "color" : "orange",
-  "emitters" : [ "fireswoosh1" ],
+  "emitters" : [ "fireswoosh" ],
   "knockback" : 25,
   "knockbackDirectional" : true,
 
@@ -23,7 +23,7 @@
       "type" : "hellfireprojectile",
       "color" : "orange",
       "fuzzAngle" : 0,
-      "inheritDamageFactor" : 0.5
+      "inheritDamageFactor" : 0.25
     }
 
   ],
