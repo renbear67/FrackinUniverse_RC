@@ -13,6 +13,7 @@
   "damageKind" : "electricbroadsword",
   "knockback" : 55,
   "knockbackDirectional" : true,
+    "emitters" : [ "defaultgreen" ], 
   "actionOnReap" : [
     {
       "action" : "config",

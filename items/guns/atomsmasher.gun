@@ -1,0 +1,34 @@
+{
+    "itemName" : "atomsmasher",
+    "inventoryIcon" : "atomsmasher.png",
+    "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+    "maxStack" : 1,
+    "rarity" : "rare",
+    "description" : "Weighs about 900 pounds. Is awesome.",
+    "shortdescription" : "Atom Smasher",
+    "image" : "atomsmasher.png",
+    "handPosition" : [0, -7],
+    "firePosition" : [44, 2],
+    "weaponType" : "Rocket Launcher",
+    "recoilTime" : 0.1,
+    "level" : 10,
+    "tooltipKind" : "gun",
+    "fireTime" : 4,
+    "twoHanded" : true,
+    "walkWhileFiring" : false,
+    "muzzleEffect" : {
+      "fireSound" : [ { "file" : "/sfx/weapons/densiniumrifle.wav" } ],
+      "animation" : "/animations/protomuzzle/protomuzzle.animation"
+    },
+    "fireOnRelease" : false,
+    
+    "projectileType" : "atomsmasher_shot",
+
+    "powerProjectileTime" : [0.4, 50],
+    "projectile" : {
+      "speed" : 55, 
+      "power" : 35, 
+      "color" : [0, 0, 130] 
+  	}
+}
+  

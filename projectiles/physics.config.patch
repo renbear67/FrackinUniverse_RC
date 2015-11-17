@@ -65,7 +65,25 @@
     "groundFriction" : 5.0
   }
 }, 
-    
+
+{"op":"add",
+"path":"/atomsmasher",
+"value": {
+    "mass" : 0.3,
+    "gravityMultiplier" : 0.0,
+    "stickyCollision" : false,
+    "stickyForce" : 20.0,
+    "maxMovementPerStep" : 0.4,
+
+    "collisionPoly" : [ [-0.25, -0.25], [0.25, -0.25], [0.25, 0.25], [-0.25, 0.25] ],
+    "ignorePlatformCollision" : true,
+
+    "airFriction" : 2.5,
+    "liquidFriction" : 1.0,
+    "groundFriction" : 1.0
+  }
+}, 
+
 {"op":"add",
 "path":"/fublistergun",
 "value": {
@@ -170,15 +188,15 @@
 "value": {
     "mass" : 0.01,
     "gravityMultiplier" : 0.01,
-    "bounceFactor" : 2.7,
-    "maxMovementPerStep" : 0.7,
+    "bounceFactor" : 0,
+    "maxMovementPerStep" : 0.4,
 
     "collisionPoly" : [ [-0.25, -0.25], [0.25, -0.25], [0.25, 0.25], [-0.25, 0.25] ],
     "ignorePlatformCollision" : true,
 
     "airFriction" : 0.0,
-    "liquidFriction" : 0.0,
-    "groundFriction" : 0.0
+    "liquidFriction" : -2.0,
+    "groundFriction" : 2.0
   }
 },
 {"op":"add",

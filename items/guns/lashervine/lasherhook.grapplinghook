@@ -27,8 +27,7 @@
   "hookImage" : "/items/guns/lashervine/lasherhook.png",
   "handleImage" : "/items/guns/lashervine/lasherhandle.png",
   "hookOffset" : [-0.5, -1],
-  "primaryLineColors" : [ [175, 0, 0, 50],
-    [77, 0, 0, 65] ],
-  "altLineColors" : [ [175, 0, 0, 50],
-    [77, 0, 0, 65] ]
+  "primaryLineColors" : [ [175, 0, 0, 50], [77, 0, 0, 65] ],
+  "altLineColors" : [ [175, 0, 0, 50], [77, 0, 0, 65] ],
+  "price" : 11000
 }
