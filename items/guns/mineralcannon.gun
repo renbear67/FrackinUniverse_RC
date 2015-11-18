@@ -9,7 +9,7 @@
   "shortdescription" : "Particle Rifle",
   "image" : "mineralcannon.png",
   "handPosition" : [-10, -2],
-  "firePosition" : [10, 1.5],
+  "firePosition" : [22, 3.0],
   "weaponType" : "Particle",
   "recoilTime" : 0.1,
   "level" : 3,
@@ -22,6 +22,6 @@
   "projectile" : { "speed" : 60, "power" : 4.4 , "color" : [0, 180, 0] },
   "muzzleEffect" : {
        "fireSound" : [ { "file" : "/sfx/gun/plasma_pistol3.wav" } ],
-       "animation" :  "/animations/muzzleflash/smokemuzzle/smokemuzzle.animation"
+       "animation" :  "/animations/muzzleflash/greenstuffmuzzle/greenstuffmuzzle.animation"
 	   }   
 }

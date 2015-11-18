@@ -276,6 +276,49 @@
            }
          ]
       },
+         {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:ffunCommon",
+
+          "type" : "object",
+          "objectSets" : [
+            {
+              "pool" : [ 
+              [0.35, "wildcaprioleplantseed" ],
+              [0.35, "flowerspring" ],
+              [0.35, "wildlittlegoodberryseed" ],
+              [0.35, "wildmutaviskseed" ],
+              [0.35, "wildighantseed" ],
+              [0.35, "wildmelodistarseed" ],
+              [0.35, "wildrockrootseed" ],
+              [0.35, "wildmiraclegrassseed" ],
+              [0.35, "wildshinyacornseed" ],
+              [0.35, "wildtyvokkseed" ],
+              [0.35, "wildvextongueseed" ],
+              [0.35, "wildlactariusindigoseed" ],
+              [0.35, "wildonionseed" ],
+              [0.35, "wildgoldshroomseed" ],
+              [0.35, "wildhopsseed" ]
+          
+              ],
+              "parameters" : { "startingStage" : 3 }
+            }
+          ]
+        },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 3,
+        "distribution" : "/biomes/distributions.config:ffunCommon",
+
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 255,
+        "treeStemHueShiftMax" : 15,
+        "treeStemList" : [ "colourfulstem", "crystalline" ],
+        "treeFoliageList" : [ "colourfulpalm", "crystallinenofoliage" ]
+      },
       {
         "mode" : "floor",
         "priority" : 1.0,
@@ -283,10 +326,10 @@
         "distribution" : "/biomes/distributions.config:denseLarge",
 
         "type" : "tree",
-        "treeFoliageHueShiftMax" : 120,
-        "treeStemHueShiftMax" : 15,
-        "treeStemList" : [ "colourfulstem", "baobab", "crystalline", "geometricstem" ],
-        "treeFoliageList" : [ "colourfulpalm", "baobab", "crystallinenofoliage", "geometricfoliage" ]
+        "treeFoliageHueShiftMax" : 255,
+        "treeStemHueShiftMax" : 255,
+        "treeStemList" : [ "chromatree"  ],
+        "treeFoliageList" : [ "chromafoliage", "chromafoliage2", "chromafoliage3", "chromafoliage4" ]
       },
       
         {
@@ -337,8 +380,8 @@
         "distribution" : "/biomes/distributions.config:denseMedium",
 
         "type" : "tree",
-        "treeFoliageHueShiftMax" : 120,
-        "treeStemHueShiftMax" : 15,
+        "treeFoliageHueShiftMax" : 255,
+        "treeStemHueShiftMax" : 255,
         "treeStemList" : [ "colourfulvine" ],
         "treeFoliageList" : [ "colourfulleaves" ]
       },           
