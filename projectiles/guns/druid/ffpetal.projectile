@@ -22,5 +22,5 @@
   //"power" : 5.0,
   "damageKind" : "poisonplasma",
   "emitters" : [ "defaultgreen" ],
-  "statusEffects" : [ "biooozepoison2" ]
+  "statusEffects" : [ "biooozepoisonshort" ]
 }

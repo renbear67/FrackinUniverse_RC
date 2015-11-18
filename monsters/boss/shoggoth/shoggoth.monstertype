@@ -41,7 +41,7 @@
       {
         "trigger" : "healthPercentage",
         "healthPercentage" : 0.25,
-        "skills" : [ "shoggothChargeAttack", "tentacleSwipeAttack" ]
+        "skills" : [ "eyeBeamAttack", "shoggothChargeAttack", "tentacleSwipeAttack" ]
       }//,
       //{
       //  "trigger" : "healthPercentage",
@@ -85,7 +85,7 @@
 
     "touchDamage" : {
       "poly" : [ [-16, -16], [16, -16], [16, 0], [-16, 0] ],
-      "damage" : 100,
+      "damage" : 140,
 
       "teamType" : "enemy",
       "damageSourceKind" : "lash",

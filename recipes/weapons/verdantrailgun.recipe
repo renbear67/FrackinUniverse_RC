@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "biochip", "count" : 4 },
+    { "item" : "energywood", "count" : 7 },
+    { "item" : "coil", "count" : 4 },
+    { "item" : "algaegreen", "count" : 25 }
+  ],
+  "output" : {
+    "item" : "verdantrailgun",
+    "count" : 1
+  },
+  "groups" : [ "armory", "weapons", "all" ]
+}

@@ -1,6 +1,6 @@
 {
-  "projectileName" : "hybridminerexplosion",
-  "frames" : "hybridminerexplosion.png",
+  "projectileName" : "vaporizerexplosion",
+  "frames" : "vaporizerexplosion.png",
   "animationCycle" : 0.2,
   "level" : 3,
   "frameNumber" : 4,
