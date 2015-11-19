@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "rare",
   "description" : "Launches a cloud of incandescent gas that erupts - charge to launch as a grenade.",
-  "shortdescription" : "Cloudgun",
+  "shortdescription" : "Boom Cannon",
   "image" : "fucloudgun.png:<frame>",
   "imageFrameSelector" : "fucloudgunImageSelector",
  
@@ -15,7 +15,7 @@
   "tooltipKind" : "gun",
   "weaponType" : "Shotgun",
  
-  "fireTime" : 0.35,
+  "fireTime" : 0.55,
   "twoHanded" : true,
   "recoilTime" : 0.2,
   "hands" : [2, 2],
@@ -30,7 +30,7 @@
    "powerProjectileType" : "fucloudgunshotpower",
   "powerProjectileTime" : [0.3, 50],
   "projectile" : {
-    "power" : 3,
+    "power" : 3.6,
     "powerCurve" : "fucloudgunTimeMultiplier",
     "color" : [10, 255, 10]
 	}

@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "refinedrubium", "count" : 5 },
+    { "item" : "blooddiamond", "count" : 5 },
+    { "item" : "aichip", "count" : 1 },
+    { "item" : "biochip", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "fuprecursorhead",
+    "count" : 1
+  },
+  "groups" : [ "armory", "armors", "all" ]
+}

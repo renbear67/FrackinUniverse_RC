@@ -14,14 +14,11 @@
   "actionOnReap" : [
      {
       "action" : "config",
-      "file" : "/projectiles/explosions/molotovexplosion/molotovexplosion.config"
+      "file" : "/projectiles/explosions/energyburstexplosion/energyburstexplosion.config"
     }
   ],  
   "statusEffects" : [
-	{
-      "effect" : "testburning",
-      "amount" : 8
-    }
+	"burning"
 	 ],
   "damageKind" : "default",
   "emitters" : [ "cloudtrail" ]

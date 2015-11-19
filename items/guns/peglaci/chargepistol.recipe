@@ -1,7 +1,7 @@
 {
   "input" : [
    { "item" : "icecrystal", "count" : 3 },
-   { "item" : "irradiumbar", "count" : 4 },
+   { "item" : "protocitebar", "count" : 2 },
    { "item" : "liquidnitrogenitem", "count" : 35 },
    { "item" : "coil", "count" : 1 }
   ],

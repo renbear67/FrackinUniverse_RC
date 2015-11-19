@@ -124,13 +124,13 @@
 "value":"^#666666;Metal^white; forms almost the entire surface of this moon. Abundant mineral deposits detected."},
 
 {"op":"add","path":"/planetTypeToDescription/mountainous",
-"value":"This ^#b398ba;mountainous^white; world is studded with immensely tall rocky mountains & crystal clear lakes."},
+"value":"This ^#b398ba;mountainous^white; world is studded with immensely tall rocky mountains. ^#e47998;Wolframite^white; detected."},
 
 {"op":"add","path":"/planetTypeToDescription/nitrogensea",
 "value":"A ^#69f1fd;liquid nitrogen sea^white; awaits beneath a dense layer of ice."},
 
 {"op":"add","path":"/planetTypeToDescription/penumbra",
-"value":"Sunlight rarely penetrates a ^#78657f;penumbra^white; atmosphere. They are extremely useful for resources.."},
+"value":"Sunlight rarely penetrates a ^#78657f;penumbra^white; atmosphere. They are extremely useful for resources."},
 
 {"op":"add","path":"/planetTypeToDescription/protoworld",
 "value":"A ^#517f51;Proto World^white;. Mutated flora and ^#e2ef55;protocite^white; detected."},

@@ -15,51 +15,34 @@
     {
       "action" : "projectile",
       "type" : "fucloudgunshot3a",
-      "inheritDamageFactor" : 0.125,
+      "inheritDamageFactor" : 0.35,
 	  "fuzzAngle" : 10,
       "angleAdjust" : 0
     },
 	{
       "action" : "projectile",
       "type" : "fucloudgunshot3",
-      "inheritDamageFactor" : 0.125,
+      "inheritDamageFactor" : 0.35,
 	  "fuzzAngle" : 10,
       "angleAdjust" : -180
     },
     {
       "action" : "projectile",
       "type" : "fucloudgunshot3",
-      "inheritDamageFactor" : 0.125,
+      "inheritDamageFactor" : 0.35,
 	  "fuzzAngle" : 10,
       "angleAdjust" : 90
     },
 	{
       "action" : "projectile",
       "type" : "fucloudgunshot3",
-      "inheritDamageFactor" : 0.125,
+      "inheritDamageFactor" : 0.35,
 	  "fuzzAngle" : 10,
       "angleAdjust" : -90
-    },
-    {
-      "action" : "projectile",
-      "type" : "fucloudgunshot3",
-      "inheritDamageFactor" : 0.125,
-	  "fuzzAngle" : 10,
-      "angleAdjust" : 45
-    },
-    {
-      "action" : "projectile",
-      "type" : "fucloudgunshot3",
-      "inheritDamageFactor" : 0.125,
-	  "fuzzAngle" : 10,
-      "angleAdjust" : -45
     }
   ],
   "statusEffects" : [
-	{
-      "effect" : "burning",
-      "amount" : 8
-    }
+	"burning"
 	 ],
   "damageKind" : "default",
   "emitters" : [ "cloudtrail" ]

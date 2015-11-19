@@ -29,7 +29,7 @@
   "powerProjectileType" : "fupowerdart",
   "powerProjectileTime" : [0.7, 50],
   "projectile" : {
-    "power" : 3.4,
+    "power" : 4.4,
     "powerCurve" : "chargepistolTimeMultiplier",
     "color" : [10, 255, 10]
 	}

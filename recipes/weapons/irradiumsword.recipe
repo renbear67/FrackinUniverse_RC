@@ -1,8 +1,8 @@
 {
   "input" : [
    { "item" : "irradiumbar", "count" : 9 },
-   { "item" : "liquidirradium", "count" : 5 },
-   { "item" : "densealloy", "count" : 5 }
+   { "item" : "liquidirradium", "count" : 3 },
+   { "item" : "penumbriteshard", "count" : 3 }
   ],
   "output" : {
     "item" : "irradiumsword",

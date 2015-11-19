@@ -4,6 +4,7 @@
   "inventoryIcon" : "ironplate.png",
   "description" : "A thick plate made of iron.",
   "category" : "Metal Plate",
-  "shortdescription" : "Iron Plate"
+  "shortdescription" : "Iron Plate",
+  "learnBlueprintsOnPickup" : [ "fuinvaderchest", "fuinvaderhead", "fuinvaderpants" ]
 }
 

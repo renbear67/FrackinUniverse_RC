@@ -1,0 +1,13 @@
+  {
+  "id" : "5a_mascagnite.gearup",
+  "title" : "^#1693d5;Super Melting Point",
+  "text" : "^orange;Wolframite^white; is a fantastic ore that breaks down into ^orange;Tungsten^white;. Tungsten has a very high melting point, which makes it pricess in certain applications. Make some now.",
+  "completionText" : "You did it. Now you can churn out some useful gear, but offensive and defensive.",
+  "completionConditions" : [ 
+    { "type" : "gather", "item" : "tungstenbar", "consume" : false }
+  ],
+  "moneyRange" : [120,240],
+
+  "requireTurnIn" : false,
+  "followUp" : "6_cinnabar.gearup"
+}

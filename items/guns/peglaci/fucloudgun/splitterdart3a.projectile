@@ -13,21 +13,18 @@
   "actionOnReap" : [
      {
       "action" : "config",
-      "file" : "/projectiles/explosions/molotovexplosion/molotovexplosion.config"
+      "file" : "/projectiles/explosions/energyburstexplosion/energyburstexplosion.config"
     },
 	 {
       "action" : "projectile",
       "type" : "molotovflame",
       "fuzzAngle" : 0,
-      "inheritDamageFactor" : 0.2,
+      "inheritDamageFactor" : 0.45,
       "angleAdjust" : 0
     }
   ],  
   "statusEffects" : [
-	{
-      "effect" : "burning",
-      "amount" : 8
-    }
+	"burning"
 	 ],
   "damageKind" : "default",
   "emitters" : [ "cloudtrail" ]

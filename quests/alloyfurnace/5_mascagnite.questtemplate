@@ -9,5 +9,5 @@
   "moneyRange" : [120,240],
 
   "requireTurnIn" : false,
-  "followUp" : "6_cinnabar.gearup"
+  "followUp" : "5a_wolframite.gearup"
 }

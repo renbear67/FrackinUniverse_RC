@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "refinedrubium", "count" : 7 },
+    { "item" : "blooddiamond", "count" : 7 },
+    { "item" : "powercore", "count" : 1 },
+    { "item" : "biochip", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "fuprecursorchest",
+    "count" : 1
+  },
+  "groups" : [ "armory", "armors", "all" ]
+}
