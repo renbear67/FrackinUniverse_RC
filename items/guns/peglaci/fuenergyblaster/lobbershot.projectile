@@ -1,0 +1,27 @@
+{
+  "projectileName" : "lobbershot",
+  "frames" : "lobbershot.png",
+  "animationCycle" : 0.5,
+  "level" : 1,
+  "frameNumber" : 2,
+  "damageKindImage" : "icon.png",
+  "physics" : "beachball",
+  "pointLight" : false,
+  "timeToLive" : 1.5,
+  "bounces" : 4,
+  "lightColor" : [84, 120, 144],
+  
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/items/guns/peglaci/fuenergyblaster/lobberexplosion.config"
+    }    
+  ],
+  "damageType" : "ignoresdef",
+  "damageKind" : "poisonplasma",
+  "onlyHitTerrain" : false
+}
+
+
+
+

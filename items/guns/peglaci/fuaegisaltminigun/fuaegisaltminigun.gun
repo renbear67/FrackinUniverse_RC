@@ -1,0 +1,32 @@
+{
+  "itemName" : "fuaegisaltminigun",
+  "inventoryIcon" : "fuaegisaltminigunicon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "A storm of aegisalt shards rend armor with ease and reflect off walls.",
+  "shortdescription" : "Imperius Minigun",
+  "image" : "fuaegisaltminigun.png:<frame>",
+  "imageFrameSelector" : "fuaegisaltminigunImageSelector",
+  "handPosition" : [-5, 5],
+  "firePosition" : [16, 0],
+  "level" : 5,
+  "tooltipKind" : "gun",
+  "weaponType" : "Vulcan Cannon",
+  "fireTime" : 0.1,
+  "twoHanded" : true,
+  "hands" : [2, 2],
+  "muzzleEffect" : {
+    "animation" : "/animations/muzzleflash/electromuzzle/electromuzzle.animation",
+    "fireSound" : [ { "file" : "/sfx/gun/plasma_shotgun3.wav" } ]
+  },
+
+   "projectileType" : "fuaegisaltminigunshot",
+  "projectile" : {
+    "power" : 0.75,
+    "powerCurve" : "fuaegisaltminigunTimeMultiplier",
+    "color" : [10, 70, 10]
+	}
+
+
+}
