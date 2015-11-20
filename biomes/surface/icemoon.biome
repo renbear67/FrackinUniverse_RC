@@ -7,14 +7,14 @@
   
   "spawnProfiles" : [
     {
-      "groups" : [ ],
+      "groups" : [ "fu_frosty" ],
       "extraSpawns" : [ "fusnowball" ],
       "monsterParameters" : {
         "colors" : "ice"
       }      
     },
     {
-      "groups" : [  ],
+      "groups" : [ "fu_frosty" ],
       "extraSpawns" : [ "fusnowball" ],
       "monsterParameters" : {
         "colors" : "ice"

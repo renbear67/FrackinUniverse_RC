@@ -158,6 +158,13 @@
 },
 
 {"op":"add",
+ "path":"/spawnGroups/fu_frosty",
+ "value":[       
+      "fupenguin","fupenguin2", "fupenguintank", "fupenguinboss"
+      ] 
+},
+
+{"op":"add",
  "path":"/spawnGroups/fu_ash",
  "value":[       
       "fuashgolem",
@@ -347,6 +354,12 @@
 {"op":"add","path":"/spawns/deepone","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.01,"monsterType":"deepone","monsterParameters":{"aggressive":true}}},
 {"op":"add","path":"/spawns/deeponecommon","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.1,"monsterType":"deepone","monsterParameters":{"aggressive":true}}},
 
+//penguins
+{"op":"add","path":"/spawns/fupenguin","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.01,"monsterType":"penguintrooper","monsterParameters":{"aggressive":true}}},
+{"op":"add","path":"/spawns/fupenguinboss","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.01,"monsterType":"penguingeneral","monsterParameters":{"aggressive":true}}},
+{"op":"add","path":"/spawns/fupenguin2","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.01,"monsterType":"penguinrockettrooper","monsterParameters":{"aggressive":true}}},
+{"op":"add","path":"/spawns/fupenguintank","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.01,"monsterType":"penguinTank","monsterParameters":{"aggressive":true}}},
+//{"op":"add","path":"/spawns/fupenguinminiufo","value":{"spawnParameters":{"area":"surface","region":"all","time":"all"},"targetDensity":0.01,"monsterType":"penguinMiniUfo","monsterParameters":{"aggressive":true}}},
 
 
 //critters

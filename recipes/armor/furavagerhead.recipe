@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ceruliumcompound", "count" : 5 },
+    { "item" : "corvex", "count" : 3 },
+    { "item" : "fuprocessor", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "furavagerhead",
+    "count" : 1
+  },
+  "groups" : [ "armory", "armors", "all" ]
+}

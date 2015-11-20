@@ -2,8 +2,7 @@
   "input" : [
     { "item" : "refinedrubium", "count" : 4 },
     { "item" : "blooddiamond", "count" : 4 },
-    { "item" : "advcircuit", "count" : 1 },
-    { "item" : "biochip", "count" : 1 }
+    { "item" : "advcircuit", "count" : 1 }
   ],
   "output" : {
     "item" : "fuprecursorpants",

@@ -38,7 +38,7 @@
 
     {
       "stat" : "maxHealth",
-      "amount" : 25
+      "amount" : 15
     },
     "exosuitchest"
   ],

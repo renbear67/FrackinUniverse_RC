@@ -19,7 +19,7 @@
 
     {
       "stat" : "protection",
-      "amount" : 10
+      "amount" : 12
     },
 
     {
@@ -29,7 +29,7 @@
 
     {
       "stat" : "maxHealth",
-      "amount" : 16
+      "amount" : 9
     },
     "exosuitlegs"
   ],

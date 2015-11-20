@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "imperviumcompound", "count" : 7 },
+    { "item" : "wretchel", "count" : 2 },
+    { "item" : "graphene", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "fuguardianchest",
+    "count" : 1
+  },
+  "groups" : [ "armory", "armors", "all" ]
+}
