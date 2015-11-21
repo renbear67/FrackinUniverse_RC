@@ -1,9 +1,9 @@
 {
   "input" : [
     { "item" : "protominer", "count" : 1 },
-    { "item" : "durasteelbar", "count" : 1 }, 
-    { "item" : "cpu", "count" : 2 },  
-    { "item" : "penumbriteshard", "count" : 5 }
+    { "item" : "manipulatormodule", "count" : 1 },
+    { "item" : "cpu", "count" : 1 },  
+    { "item" : "tungstenbar", "count" : 2 }
   ],
   "output" : {
     "item" : "penumbriteminer",

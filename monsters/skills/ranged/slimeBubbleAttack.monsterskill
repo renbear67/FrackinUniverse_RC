@@ -10,7 +10,7 @@
       "arc" : "low",
       "range" : 15,
       "speed" : 25,
-      "power" : 11,
+      "power" : 8,
       "shots" : 20,
       "fireInterval" : 0.066
     }

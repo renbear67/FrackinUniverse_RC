@@ -17,7 +17,7 @@
     {
       "action" : "projectile",
       "type" : "lunarishot2",
-      "inheritDamageFactor" : 0.5,
+      "inheritDamageFactor" : 0.6,
       "fuzzAngle" : 10,
       "angleAdjust" : 0
     }

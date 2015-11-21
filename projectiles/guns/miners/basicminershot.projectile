@@ -1,22 +1,22 @@
 {
-  "projectileName" : "hybridminershot2",
-  "frames" : "hybridminershot2.png",
+  "projectileName" : "basicminershot",
+  "frames" : "newminershot.png",
   "physics" : "laser",
-  "timeToLive" : 0.60,
+  "timeToLive" : 0.25,
   "animationCycle" : 0.2,
   "damageKindImage" : "icon.png",
   "frameNumber" : 4,
   "level" : 1,
   "power" : 0.1,
-  "lightColor" : [117, 77, 0],
-  "speed" : 30,
+  "lightColor" : [9, 30, 11],
+  "speed" : 20,
   "piercing" : false,
   "damagePoly" : [ [0, -8], [16, -8], [16, 8], [0, 8] ],
   "damageKind" : "plasma",
   "actionOnReap" : [
     {
       "action" : "config",
-      "file" : "/projectiles/explosions/hybridminerexplosion2.config"
+      "file" : "/projectiles/explosions/basicminerexplosion.config"
     }
   ]
   

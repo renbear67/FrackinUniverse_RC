@@ -9,7 +9,7 @@
       "projectile" : "bioblast",
       "range" : 12,
       "speed" : 25,
-      "power" : 15,
+      "power" : 12,
       "shots" : 1
     }
   },

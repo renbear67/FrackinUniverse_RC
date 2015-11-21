@@ -50,7 +50,7 @@
 
     "touchDamage" : {
       "poly" : [ [-0.75, -1.125], [0.875, -1.125], [0.875, 0.25], [-0.75, 0.25] ],
-      "damage" : 12,
+      "damage" : 6,
 
       "teamType" : "enemy",
       "damageSourceKind" : "lash",

@@ -1,14 +1,14 @@
 {
-  "projectileName" : "penumbriteminershot",
-  "frames" : "penumbriteminershot.png",
+  "projectileName" : "hybridminershot3",
+  "frames" : "newminershot.png",
   "physics" : "laser",
-  "timeToLive" : 0.36,
+  "timeToLive" : 0.7,
   "animationCycle" : 0.2,
   "damageKindImage" : "icon.png",
   "frameNumber" : 4,
   "level" : 1,
   "power" : 0.1,
-  "lightColor" : [56, 71, 94],
+  "lightColor" : [9, 30, 11],
   "speed" : 20,
   "piercing" : false,
   "damagePoly" : [ [0, -8], [16, -8], [16, 8], [0, 8] ],
@@ -16,7 +16,7 @@
   "actionOnReap" : [
     {
       "action" : "config",
-      "file" : "/projectiles/explosions/penumbriteminerexplosion.config"
+      "file" : "/projectiles/explosions/hybridminerexplosion3.config"
     }
   ]
   

@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "Copper-laced protection for wanderers.",
+  "description" : "Copper-laced protection for wanderers. Gives 5% energy boost.",
   "shortdescription" : "Sirens Breastplate",
   "tooltipKind" : "armor",
 
@@ -28,7 +28,7 @@
 
     {
       "stat" : "protection",
-      "amount" : 18
+      "amount" : 20
     },
 
     {
@@ -39,7 +39,8 @@
     {
       "stat" : "maxHealth",
       "amount" : 20
-    }
+    },
+    "percentenergyboost5"
   ],
 
   "colorOptions" : [

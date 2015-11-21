@@ -11,11 +11,11 @@
     "firePosition" : [16, 0],
     "weaponType" : "Crystalline Shotgun",
     "recoilTime" : 0.1,
-    "level" : 2,
+    "level" : 3,
     "tooltipKind" : "gun",
     "fireTime" : 0.30,
     "inaccuracy" : 0.0314,
-    "twoHanded" : false,
+    "twoHanded" : true,
     "rateOfFire" : [2, 7],
     "muzzleEffect" : {
       "fireSound" : [ { "file" : "/sfx/weapons/beam.ogg" } ]
@@ -27,7 +27,7 @@
 
     "projectile" : {
       "speed" : 50, 
-      "power" : 3.2 , 
+      "power" : 2.4 , 
       "color" : [143, 131, 98] 
   	}
 }

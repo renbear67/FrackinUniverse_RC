@@ -11,7 +11,7 @@
     "firePosition" : [5, 0],
     "weaponType" : "Crystalline",
     "recoilTime" : 0.1,
-    "level" : 2,
+    "level" : 3,
     "tooltipKind" : "gun",
     "fireTime" : 0.35,
     "twoHanded" : false,
@@ -26,7 +26,7 @@
 
     "projectile" : {
       "speed" : 50, 
-      "power" : 2.7 , 
+      "power" : 2.4 , 
       "color" : [143, 131, 98] 
   	}
 }

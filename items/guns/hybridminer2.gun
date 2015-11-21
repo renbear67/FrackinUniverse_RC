@@ -4,8 +4,8 @@
     "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
     "maxStack" : 1,
     "rarity" : "rare",
-    "description" : "Combines Protocyte and Penumbrite to destroy tiles swiftly.",
-    "shortdescription" : "Miner (Ultra)",
+    "description" : "Rubium powers this up quite nicely.",
+    "shortdescription" : "C-7 Miner",
     "image" : "hybridminer2.png",
     "learnBlueprintsOnPickup" : [ "hybridminer3" ],
     "handPosition" : [-8, 0],
@@ -29,7 +29,7 @@
     "projectile" : {
       "speed" : 20, 
       "power" : 0.05 , 
-      "color" : [120, 120, 120] 
+      "color" : [70, 70, 70] 
   	}
 }
   

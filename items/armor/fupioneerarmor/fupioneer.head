@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Uncommon",
-  "description" : "The sleek titanium helm of the pioneer.",
+  "description" : "The sleek steel helm of the pioneer.",
   "shortdescription" : "Wanderer Helm",
   "tooltipKind" : "armor",
 

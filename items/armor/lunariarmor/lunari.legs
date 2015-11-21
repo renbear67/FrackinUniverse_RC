@@ -14,21 +14,21 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "basePercentage" : 0.32
+      "basePercentage" : 0.34
     },  
     {
       "stat" : "protection",
-      "amount" : 6
+      "amount" : 8
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 18
+      "amount" : 22
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 6
+      "amount" : 8
     }
   ],
   "questTags" : [ "titaniumarmor" ],

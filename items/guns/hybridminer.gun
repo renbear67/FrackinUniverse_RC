@@ -4,8 +4,8 @@
     "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
     "maxStack" : 1,
     "rarity" : "rare",
-    "description" : "Combines Protocyte and Penumbrite to destroy tiles swiftly.",
-    "shortdescription" : "Miner (Hybrid)",
+    "description" : "Combines Protocyte and advanced alloys to destroy tiles swiftly.",
+    "shortdescription" : "B-97 Miner",
     "image" : "hybridminer.png",
     "learnBlueprintsOnPickup" : [ "hybridminer2" ],
     "handPosition" : [-8, 0],
@@ -29,7 +29,7 @@
     "projectile" : {
       "speed" : 20, 
       "power" : 0.03 , 
-      "color" : [120, 120, 120] 
+      "color" : [60, 60, 60] 
   	}
 }
   

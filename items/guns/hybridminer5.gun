@@ -29,7 +29,7 @@
     "projectile" : {
       "speed" : 20, 
       "power" : 0.1 , 
-      "color" : [153, 197, 208] 
+      "color" : [40, 70, 90] 
   	}
 }
   

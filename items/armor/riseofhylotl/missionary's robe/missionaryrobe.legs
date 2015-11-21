@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "common",
-  "description" : "A simple pair of protective boots.",
+  "description" : "A simple pair of protective boots. Makes you jump higher.",
   "shortdescription" : "Missionary Boots",
   "tooltipKind" : "armor",
 
@@ -29,7 +29,7 @@
 
     {
       "stat" : "maxHealth",
-      "amount" : 4
+      "amount" : 8
     },
     "jumpboost15"
   ],

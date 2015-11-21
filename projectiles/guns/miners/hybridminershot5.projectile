@@ -1,14 +1,14 @@
 {
-  "projectileName" : "protominershot",
-  "frames" : "protominershot.png",
+  "projectileName" : "hybridminershot5",
+  "frames" : "newminershot.png",
   "physics" : "laser",
-  "timeToLive" : 0.50,
+  "timeToLive" : 0.9,
   "animationCycle" : 0.2,
   "damageKindImage" : "icon.png",
   "frameNumber" : 4,
   "level" : 1,
   "power" : 0.1,
-  "lightColor" : [54, 87, 34],
+  "lightColor" : [9, 30, 11],
   "speed" : 20,
   "piercing" : false,
   "damagePoly" : [ [0, -8], [16, -8], [16, 8], [0, 8] ],
@@ -16,7 +16,7 @@
   "actionOnReap" : [
     {
       "action" : "config",
-      "file" : "/projectiles/explosions/protominerexplosion.config"
+      "file" : "/projectiles/explosions/hybridminerexplosion5.config"
     }
   ]
   

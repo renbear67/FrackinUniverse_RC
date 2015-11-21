@@ -8,7 +8,7 @@
       "factory" : "createRangedAttack",
       "projectile" : "bioblastslime",
       "range" : 20,
-      "power" : 15,
+      "power" : 11,
       "speed" : 35,
       "shots" : 3,
       "fireInterval" : 0.066

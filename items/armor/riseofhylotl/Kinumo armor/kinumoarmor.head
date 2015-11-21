@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "Copper-laced protection for wanderers.",
+  "description" : "Copper-laced protection for wanderers. Grants minor regen.",
   "shortdescription" : "Sirens Helm",
   "tooltipKind" : "armor",
 
@@ -20,7 +20,7 @@
 
     {
       "stat" : "protection",
-      "amount" : 12
+      "amount" : 13
     },
 
     {
@@ -31,7 +31,8 @@
     {
       "stat" : "maxHealth",
       "amount" : 12
-    }
+    },
+    "regenerationminor"
   ],
 
   "colorOptions" : [

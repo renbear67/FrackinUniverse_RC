@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "Copper-laced protection for wanderers.",
+  "description" : "Copper-laced protection for wanderers. Gives 5% energy regen.",
   "shortdescription" : "Sirens Greaves",
   "tooltipKind" : "armor",
 
@@ -19,7 +19,7 @@
 
     {
       "stat" : "protection",
-      "amount" : 9
+      "amount" : 10
     },
 
     {
@@ -30,7 +30,8 @@
     {
       "stat" : "maxHealth",
       "amount" : 8
-    }
+    },
+    "energyregenfu05"
   ],
 
   "colorOptions" : [

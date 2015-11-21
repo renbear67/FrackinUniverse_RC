@@ -1,8 +1,9 @@
 {
   "input" : [
-   { "item" : "densiniumplate", "count" : 1 },
+   { "item" : "quietusplate", "count" : 1 },
    { "item" : "eridianplate", "count" : 1 },
-   { "item" : "ff_focusingarray", "count" : 2 }, 
+   { "item" : "manipulatormodule", "count" : 1 },
+   { "item" : "ff_focusingarray", "count" : 1 }, 
    { "item" : "hybridminer3", "count" : 1 }
   ],
   "output" : {

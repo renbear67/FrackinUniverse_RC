@@ -1,8 +1,8 @@
 {
   "input" : [
     { "item" : "electromagnet", "count" : 1 },
-    { "item" : "manipulatormodule", "count" : 2 },
-    { "item" : "solaricrystal", "count" : 1 }
+    { "item" : "manipulatormodule", "count" : 1 },
+    { "item" : "ironbar", "count" : 2 }
   ],
   "output" : {
     "item" : "basicminer",

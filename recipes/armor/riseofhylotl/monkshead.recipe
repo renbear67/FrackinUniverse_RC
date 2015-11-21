@@ -1,7 +1,6 @@
 {
   "input" : [
     { "item" : "silk", "count" : 6 },
-    { "item" : "biochip", "count" : 1 },
     { "item" : "fabric", "count" : 2 }
   ],
   "output" : {

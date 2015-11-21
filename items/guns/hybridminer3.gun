@@ -4,8 +4,8 @@
     "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
     "maxStack" : 1,
     "rarity" : "rare",
-    "description" : "Great power and range. ",
-    "shortdescription" : "Miner (Quantum)",
+    "description" : "Great digging power and enhanced range. ",
+    "shortdescription" : "D4-B Miner",
     "image" : "hybridminer3.png",
     "learnBlueprintsOnPickup" : [ "hybridminer4" ],
     "handPosition" : [-8, 0],
@@ -29,7 +29,7 @@
     "projectile" : {
       "speed" : 20, 
       "power" : 0.07 , 
-      "color" : [120, 120, 120] 
+      "color" : [80, 80, 80] 
   	}
 }
   

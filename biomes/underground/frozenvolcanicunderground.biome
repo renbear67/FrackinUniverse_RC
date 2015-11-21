@@ -21,7 +21,7 @@
 
   "mainBlock" : "iceblock4",
   "subBlocks" : [ "iceblock3", "magmarock", "frozenstone" ],
-  "ores" : "ff_deepcrystalmoonOres",
+  "ores" : "ff_deepicewasteOres",
     
   "parallax" : "/parallax/underground/frozenvolcanicunderground.parallax",
 
