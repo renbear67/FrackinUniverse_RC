@@ -16,7 +16,7 @@
     }
   ],
   "statusEffects" : [
-	"defenseboostneg20"
+	"percentarmorboostneg2"
   ],
   "damageKind" : "default",
   "emitters" : [ "peglacitrailorange" ]

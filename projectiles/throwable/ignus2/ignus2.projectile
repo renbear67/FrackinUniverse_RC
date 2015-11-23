@@ -83,6 +83,7 @@
       "angleAdjust" : 65
     }
   ],
+  "statusEffects" : [ "burning" ],
   "power" : 415.0,
   "damageKind" : "fireplasma"
 }

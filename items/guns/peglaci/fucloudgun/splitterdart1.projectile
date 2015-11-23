@@ -50,10 +50,7 @@
     }	
   ],  
   "statusEffects" : [
-	{
-      "effect" : "burning",
-      "amount" : 8
-    }
+	"burning"
 	 ],
   "damageKind" : "default",
   "emitters" : [ "cloudtrail" ]

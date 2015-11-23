@@ -1,14 +1,9 @@
 function init()
+  effect.setParentDirectives("fade=00CCFF=0.20")
   script.setUpdateDelta(5)
-  _x = effect.configParameter("healthDown", 0)
-baseValue = effect.configParameter("healthDown",0)*(status.resourceMax("health"))
-
-  if (status.resourceMax("health")) * _x >= 100.0 then
-     effect.addStatModifierGroup({{stat = "protection", amount = baseValue }})
-     else
-     effect.addStatModifierGroup({{stat = "protection", amount = baseValue }})
-  end
-  
+  _x = effect.configParameter("defenseModifier", 0)
+  baseValue = effect.configParameter("defenseModifier",0)*(status.stat("protection"))
+ effect.addStatModifierGroup({{stat = "protection", amount = baseValue }})
 end
 
 function update(dt)

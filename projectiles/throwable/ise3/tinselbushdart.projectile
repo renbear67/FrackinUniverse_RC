@@ -10,7 +10,13 @@
     {
       "action" : "config",
       "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
-    }
+    },
+    {
+      "action" : "applySurfaceMod",
+      "previousMod" : "metamod:none",
+      "newMod" : "hydrotilled",
+      "radius" : 2
+    } 
   ],
   "power" : 100.0,
   "damageKind" : "spear",

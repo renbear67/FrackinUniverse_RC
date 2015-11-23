@@ -2,9 +2,9 @@
   "itemName" : "rockroot",
   "rarity" : "Common",
   "inventoryIcon" : "rockrooticon.png",
-  "description" : "Grants 90 Protection",
+  "description" : "Grants +20% defense",
   "shortdescription" : "Rockroot",
     "effects" : [ [
-       "defenseboost90"
+       "percentarmorboost20"
     ] ]
 }

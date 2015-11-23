@@ -9,5 +9,5 @@
     "item" : "speedboosttechgrant",
     "count" : 1
   },
-  "groups" : [ "nanofabricator", "armors", "all" ]
+  "groups" : [ "nanofabricator", "tech", "all" ]
 }

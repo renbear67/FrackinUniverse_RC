@@ -67,6 +67,7 @@
       "quantity" : 12
     }
   ],
+  "statusEffects" : [ "burning" ],
   "power" : 1250.0,
   "damageKind" : "fireplasma"
 }

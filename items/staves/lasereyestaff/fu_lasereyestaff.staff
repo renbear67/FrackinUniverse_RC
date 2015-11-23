@@ -1,0 +1,43 @@
+{
+  "itemName" : "fu_lasereyestaff",
+  "inventoryIcon" : "fu_lasereyestaff.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Summons a laser eye to shoot beams at your foes.",
+  "shortdescription" : "Beame Eye Cane",
+  "image" : "fu_lasereyestaff.png",
+  "handPosition" : [-1.5, -7],
+  "firePosition" : [5, 1.5],
+  "level" : 3,
+  "fireTime" : 0.2,
+  "windupTime" : 1.2,
+  "cooldown" : 0.3,
+  "twoHanded" : true,
+  "fireOnRelease" : true,
+
+  "swingStart" : 10,
+  "swingFinish" : 0,
+  "coolingDownAngle" : 0,
+
+  "projectileType" : "fu_lasereyestaff_shot",
+  "projectile" : {
+    "speed" : 0.01,
+    "power" : 3.6,
+    "color" : [10, 255, 10]
+  },
+
+  "level1ChargeTime" : 0.5,
+  "level2ChargeTime" : 1.2,
+
+  "staffChargingGlow" : {
+    "file" : "fu_lasereyestaff_charge.png",
+    "chargingFrames" : 13,
+    "sparkFrames" : 3,
+    "loopFrames" : 4,
+    "fireFrames" : 3,
+    "sparkTime" : 0.5,
+    "loopTime" : 0.5,
+    "offset" : [ 0, 6 ]
+  }
+}

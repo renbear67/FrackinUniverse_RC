@@ -13,7 +13,7 @@
   "mask" : "mask.png",
 
   "statusEffects" : [
-  "percentarmorboost80",
+  "percentarmorboost15",
     {
       "stat" : "damagebonus",
       "amount" : 1.2

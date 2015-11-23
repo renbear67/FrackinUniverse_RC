@@ -17,7 +17,8 @@
       "file" : "/items/guns/peglaci/fuenergyblaster/lobberexplosion.config"
     }    
   ],
-  "damageType" : "ignoresdef",
+  "damageType" : "ignoresdef", 
+  "statusEffects" : [ "percentarmorboostneg1" ],
   "damageKind" : "poisonplasma",
   "onlyHitTerrain" : false
 }

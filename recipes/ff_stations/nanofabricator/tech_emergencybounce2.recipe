@@ -9,5 +9,5 @@
     "item" : "emergencybouncetechgrant2",
     "count" : 1
   },
-  "groups" : [ "nanofabricator", "armors", "all" ]
+  "groups" : [ "nanofabricator", "tech", "all" ]
 }

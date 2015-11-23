@@ -15,5 +15,6 @@
   ],
   "power" : 100.0,
   "damageKind" : "electricplasma",
+  "statusEffects" : [ "negativehealth" ],
   "emitters" : [ "daggerblue" ]
 }

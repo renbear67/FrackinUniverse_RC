@@ -2,7 +2,7 @@
   "id" : "seedsofdiscontent1.gearup",
   "prerequisites" : [ "fu_intro4.gearup" ],
   "title" : "^#1693d5;Seeds of Discontent I",
-  "text" : "I love spicy foods, but nothing is hot enough. Can you perhaps toss me a seed or two for Ignus Chili? I'd be rather grateful.",
+  "text" : "I love spicy foods, but nothing is hot enough. I'd love to try ^orange;Ignus Chili^white;. I'd be rather grateful to obtain a few seeds, so that I can try some!",
   "completionText" : "I guess we'll see if this is hot enough.",
   "completionConditions" : [ 
   { "type" : "gather", "item" : "ignuschiliseed", "count" :3, "consume" : true } ],

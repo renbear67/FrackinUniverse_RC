@@ -2,7 +2,11 @@
   "name" : "insanity",
   "blockingStat" : "insanityImmunity",
 
-  "effectConfig" : {},
+  "effectConfig" : {
+    "defenseModifier" : -0.15
+  },
+  
+  
   "defaultDuration" : 120,
 
   "scripts" : [

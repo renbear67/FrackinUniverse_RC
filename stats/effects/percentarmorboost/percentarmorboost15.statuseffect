@@ -1,7 +1,7 @@
 {
   "name" : "percentarmorboost15",
   "effectConfig" : {
-    "healthDown" : 0.15
+    "defenseModifier" : 0.15
   },
   "defaultDuration" : 30,
 

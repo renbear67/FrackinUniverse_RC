@@ -9,5 +9,5 @@
     "item" : "inertiacanceltechgrant",
     "count" : 1
   },
-  "groups" : [ "nanofabricator", "armors", "all" ]
+  "groups" : [ "nanofabricator", "tech", "all" ]
 }

@@ -2,9 +2,9 @@
   "itemName" : "herrodbushgem",
   "rarity" : "Common",
   "inventoryIcon" : "herrodbushgem.png",
-  "description" : "Grants a massive defense boost.",
+  "description" : "Grants a massive +50% defense.",
   "shortdescription" : "Herrod Bush Gem",
       "effects" : [ [
-          "defenseboost180"
+          "percentarmorboost50"
     ] ]
 }

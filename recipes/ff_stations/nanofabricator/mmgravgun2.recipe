@@ -8,5 +8,5 @@
     { "item" : "mmgravgun", "count" : 1 }
   ],
   "output" : { "item" : "mmgravgun2", "count" : 1 },
-  "groups" : [ "nanofabricator", "weapon", "all" ]
+  "groups" : [ "nanofabricator", "gear", "all" ]
 }

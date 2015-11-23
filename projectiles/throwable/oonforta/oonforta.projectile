@@ -17,7 +17,7 @@
       "type" : "biolightball",
       "inheritDamageFactor" : 0.05,
       "angle" : 1
-    },
+    }
     {
       "action" : "sound",
       "options" : [ "/sfx/objects/burst.wav" ]

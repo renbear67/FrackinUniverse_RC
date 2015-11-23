@@ -61,13 +61,13 @@ function isn_powerSlotCheck(slotnum)
 	if slotContent == nil then return 0 end
 	if slotContent.name == "biofuelcannister" then return 1
 	elseif slotContent.name == "biofuelcannisteradv" then return 2
-	elseif slotContent.name == "uraniumrod" then return 1
-	elseif slotContent.name == "enricheduranium" then return 2
-	elseif slotContent.name == "plutoniumrod" then return 2
-	elseif slotContent.name == "enrichedplutonium" then return 3
 	elseif slotContent.name == "biofuelcannistermax" then return 3
-	elseif slotContent.name == "ultronium" then return 3
-	elseif slotContent.name == "solariumstar" then return 3
+	elseif slotContent.name == "uraniumrod" then return 2
+	elseif slotContent.name == "enricheduranium" then return 3
+	elseif slotContent.name == "plutoniumrod" then return 3
+	elseif slotContent.name == "enrichedplutonium" then return 4
+	elseif slotContent.name == "solariumstar" then return 4
+	elseif slotContent.name == "ultronium" then return 5
 	else return 0 end
 end
 
@@ -77,15 +77,18 @@ function isn_slotDecayCheck(slot, chance)
 	
 	if slotContent == nil then return false end
 	
-	if slotContent.name == "biofuelcannister" or slotContent.name == "biofuelcannisteradv" then
+	if slotContent.name == "biofuelcannister" or slotContent.name == "biofuelcannisteradv" or slotContent.name == "biofuelcannistermax" then
 		if math.random(1,60) <= chance then return true end
 	end
+	
 	if slotContent.name == "uraniumrod" or slotContent.name == "plutoniumrod" then
 		if math.random(1,80) <= chance then return true end
 	end	
-	if slotContent.name == "biofuelcannistermax" or slotContent.name == "solariumstar" or slotContent.name == "enricheduranium" or slotContent.name == "enrichedplutonium" or or slotContent.name == "ultronium" then
+	
+	if slotContent.name == "solariumstar" or slotContent.name == "enricheduranium" or slotContent.name == "enrichedplutonium" or slotContent.name == "ultronium" then
 		if math.random(1,100) <= chance then return true end
-	end		
+	end	
+	
 	return false
 end
 

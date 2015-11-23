@@ -72,7 +72,7 @@
           {
             "head" : [ { "name" : "ff_gasmask" } ],
             "chest" : [ { "name" : "wastelandchest2" } ],
-            "legs" : [ { "name" : "watelandlegs2" } ],
+            "legs" : [ { "name" : "wastelandlegs2" } ],
             "primary" : [
               { "name" : "goregun" }
             ]
@@ -80,9 +80,41 @@
           {
             "head" : [ { "name" : "goggles2" } ],
             "chest" : [ { "name" : "wastelandchest" } ],
-            "legs" : [ { "name" : "watelandlegs" } ],
+            "legs" : [ { "name" : "wastelandlegs" } ],
             "primary" : [
               { "name" : "thornrifle" }
+            ]
+          },
+          {
+            "head" : [ { "name" : "warangelhead" } ],
+            "chest" : [ { "name" : "warangelchest" } ],
+            "legs" : [ { "name" : "warangellegs" } ],
+            "primary" : [
+              { "name" : "fuaegisaltminigun" }
+            ]
+          },
+          {
+            "head" : [ { "name" : "ff_slimehead3" } ],
+            "chest" : [ { "name" : "ff_slimechest3" } ],
+            "legs" : [ { "name" : "ff_slimelegs3" } ],
+            "primary" : [
+              { "name" : "slimelauncher" }
+            ]
+          },
+          {
+            "head" : [ { "name" : "fuintrepidhead" } ],
+            "chest" : [ { "name" : "fuintrepidchest" } ],
+            "legs" : [ { "name" : "fuintrepidpants" } ],
+            "primary" : [
+              { "name" : "verdantcarbine" }
+            ]
+          },
+          {
+            "head" : [ { "name" : "fusunwalkerhead" } ],
+            "chest" : [ { "name" : "fusunwalkerchest" } ],
+            "legs" : [ { "name" : "fusunwalkerpants" } ],
+            "primary" : [
+              { "name" : "fuenergyblaster" }
             ]
           }
         ] ]

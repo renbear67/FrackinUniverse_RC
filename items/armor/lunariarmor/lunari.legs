@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "uncommon",
-  "description" : "Lunari crystals fashioned into armor.",
+  "description" : "Lunari crystals fashioned into armor. Increases health 5%.",
   "shortdescription" : "Lunari Greaves",
   "tooltipKind" : "armor",
 
@@ -29,7 +29,8 @@
     {
       "stat" : "maxHealth",
       "amount" : 8
-    }
+    },
+    "percenthealthboost5"
   ],
   "questTags" : [ "titaniumarmor" ],
   "colorOptions" : [

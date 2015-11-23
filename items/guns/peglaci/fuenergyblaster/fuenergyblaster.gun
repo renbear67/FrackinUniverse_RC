@@ -4,7 +4,7 @@
   "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Rare",
-  "description" : "Absolutely gorgeous energy blobs decimate your foes.",
+  "description" : "Explosive blobs of matter decrease enemy armor.",
   "shortdescription" : "Energy Lobber",
   "image" : "fuenergyblaster.png:<frame>",
   "imageFrameSelector" : "fuenergyblasterImageSelector",

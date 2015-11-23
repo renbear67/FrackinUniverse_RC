@@ -12,11 +12,5 @@
   "flippable" : true,
   "universalDamage" : true,
   "damageKind" : "default",
-  "actionOnReap" : [
-    {
-      "action" : "liquid",
-      "liquid" : "gravrain",
-      "quantity" : 1
-    }  
-  ]
+  "statusEffects" : [ "percentarmorboostneg2" ]
 }

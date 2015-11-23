@@ -7,11 +7,13 @@
   "frameNumber" : 8,
   "power" : -1,
   "speed" : 10,
-  "timeToLive" : 1.4,
+  "timeToLive" : 3.4,
+  "piercing" : true,
   "bounces" : 1,
   "damagePoly" : [ [-18, 0], [-12, -12], [0, -18], [12, -12], [18, 0], [12, 12], [0, 18], [-12, 12] ],
   "piercing" : true,
   "universalDamage" : true,
   "damageType" : "ignoresdef",
-  "damageKind" : "poisonplasma"
+  "damageKind" : "poisonplasma",
+  "statusEffects" : [ "booze2", "weakpoison" ]
 }

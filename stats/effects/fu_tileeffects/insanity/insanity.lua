@@ -8,6 +8,9 @@ function init()
   for i = 1, 4 do
     self.timers[i] = math.random() * 2 * math.pi
   end  
+  _x = effect.configParameter("defenseModifier", 0)
+  baseValue = effect.configParameter("defenseModifier",0)*(status.stat("protection"))
+  effect.addStatModifierGroup({{stat = "protection", amount = baseValue }})
 end
 
 

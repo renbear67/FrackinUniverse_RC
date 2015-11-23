@@ -84,7 +84,8 @@
     }
   ],
   "power" : 500.0,
-  "damageKind" : "poisonplasma"
+  "damageKind" : "poisonplasma",
+  "statusEffects" : [ "booze2", "weakpoison" ]
 }
 
 

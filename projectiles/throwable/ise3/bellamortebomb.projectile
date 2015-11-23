@@ -19,6 +19,7 @@
     }
   ],
   "power" : 115.0,
+  "statusEffects" : [ "slow" ],
   "damageKind" : "poison"
 }
 

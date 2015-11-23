@@ -11,6 +11,7 @@
     "texture" : "glowsandgrass.png",
     "variants" : 5,
     "multiColored" : false,
-    "zLevel" : 0
+    "zLevel" : 0,
+    "radiantLight" : [0, 90, 80]
   }
 }

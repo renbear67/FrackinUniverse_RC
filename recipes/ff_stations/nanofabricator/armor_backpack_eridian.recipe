@@ -10,5 +10,5 @@
     "item" : "batterypack_eridian",
     "count" : 1
   },
-  "groups" : [ "nanofabricator", "armors", "all" ]
+  "groups" : [ "nanofabricator", "gear", "all" ]
 }
