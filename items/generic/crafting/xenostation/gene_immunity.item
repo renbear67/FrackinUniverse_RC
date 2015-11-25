@@ -2,7 +2,7 @@
   "itemName" : "gene_immunity",
   "rarity" : "Common",
   "inventoryIcon" : "gene_immunity.png",
-  "description" : "Resistant to effects.",
+  "description" : "Immune to specific effects.",
   "shortdescription" : "Immunization",
   "learnBlueprintsOnPickup" : [ "gene_immunity" ]
 }

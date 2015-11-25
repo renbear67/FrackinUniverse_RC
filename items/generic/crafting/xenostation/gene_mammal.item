@@ -2,7 +2,7 @@
   "itemName" : "gene_mammal",
   "rarity" : "Common",
   "inventoryIcon" : "gene_mammal.png",
-  "description" : "Mammalian cells.",
+  "description" : "Mammalian cells define this gene.",
   "shortdescription" : "Mammalian",
   "learnBlueprintsOnPickup" : [ "gene_mammal" ]
 }

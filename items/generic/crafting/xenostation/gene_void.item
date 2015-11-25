@@ -2,7 +2,7 @@
   "itemName" : "gene_void",
   "rarity" : "Common",
   "inventoryIcon" : "gene_void.png",
-  "description" : "Unknown.",
+  "description" : "Unknown. What is this?",
   "shortdescription" : "Nether-Touched",
   "learnBlueprintsOnPickup" : [ "gene_void" ]
 }

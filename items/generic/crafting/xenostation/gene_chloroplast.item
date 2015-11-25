@@ -2,7 +2,7 @@
   "itemName" : "gene_chloroplast",
   "rarity" : "Common",
   "inventoryIcon" : "gene_chloroplast.png",
-  "description" : "Strong photosynthesis.",
+  "description" : "Strong photosynthetic ability means a hardy plant.",
   "shortdescription" : "Chloroplast Boost",
   "learnBlueprintsOnPickup" : [ "gene_chloroplast" ]
 }

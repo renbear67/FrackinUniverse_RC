@@ -2,7 +2,7 @@
   "itemName" : "gene_pyro",
   "rarity" : "Common",
   "inventoryIcon" : "gene_pyro.png",
-  "description" : "a bit hot.",
+  "description" : "All things related to heat.",
   "shortdescription" : "Pyrogenic",
   "learnBlueprintsOnPickup" : [ "gene_pyro" ]
 }

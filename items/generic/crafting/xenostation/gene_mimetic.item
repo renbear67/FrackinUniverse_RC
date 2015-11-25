@@ -2,7 +2,7 @@
   "itemName" : "gene_mimetic",
   "rarity" : "Common",
   "inventoryIcon" : "gene_mimetic.png",
-  "description" : "Copycats.",
+  "description" : "This gene copies others around it.",
   "shortdescription" : "Mimicry",
   "learnBlueprintsOnPickup" : [ "gene_mimetic" ]
 }

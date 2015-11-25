@@ -2,7 +2,7 @@
   "itemName" : "gene_corrosive",
   "rarity" : "Common",
   "inventoryIcon" : "gene_corrosive.png",
-  "description" : "Melty goodness.",
+  "description" : "Corrosive toxin, or similar mechanisms, come from this gene.",
   "shortdescription" : "Corrosive",
   "learnBlueprintsOnPickup" : [ "gene_corrosive" ]
 }

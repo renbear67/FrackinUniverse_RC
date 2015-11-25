@@ -2,7 +2,7 @@
   "itemName" : "gene_electric",
   "rarity" : "Common",
   "inventoryIcon" : "gene_electric.png",
-  "description" : "shocking.",
+  "description" : "Capable of generating electric charge.",
   "shortdescription" : "Electrogenic",
   "learnBlueprintsOnPickup" : [ "gene_electric" ]
 }

@@ -2,7 +2,7 @@
   "itemName" : "gene_aquacelerity",
   "rarity" : "Common",
   "inventoryIcon" : "gene_aquacelerity.png",
-  "description" : "Aquatic celerity",
+  "description" : "Swim fast. Sharks are dangerous.",
   "shortdescription" : "Aquatic Celerity",
   "learnBlueprintsOnPickup" : [ "gene_aquacelerity" ]
 }

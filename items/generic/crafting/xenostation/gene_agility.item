@@ -2,7 +2,7 @@
   "itemName" : "gene_agility",
   "rarity" : "Common",
   "inventoryIcon" : "gene_agility.png",
-  "description" : "agility.",
+  "description" : "This gene increases overall physical agility or metabolism.",
   "shortdescription" : "Agility",
   "learnBlueprintsOnPickup" : [ "gene_agility" ]
 }

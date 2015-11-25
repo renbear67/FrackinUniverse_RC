@@ -2,7 +2,7 @@
   "itemName" : "gene_skeletal",
   "rarity" : "Common",
   "inventoryIcon" : "gene_skeletal.png",
-  "description" : "Bones and plates.",
+  "description" : "Bones and plates and increased bone toughness.",
   "shortdescription" : "Skeletal Structure",
   "learnBlueprintsOnPickup" : [ "gene_skeletal" ]
 }

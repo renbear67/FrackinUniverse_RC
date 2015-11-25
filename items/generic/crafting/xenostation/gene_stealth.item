@@ -2,7 +2,7 @@
   "itemName" : "gene_stealth",
   "rarity" : "Common",
   "inventoryIcon" : "gene_stealth.png",
-  "description" : "Shhhh. Sneaky.",
+  "description" : "Shhhh. Be vewy vewy quiet.",
   "shortdescription" : "Stealth",
   "learnBlueprintsOnPickup" : [ "gene_stealth" ]
 }

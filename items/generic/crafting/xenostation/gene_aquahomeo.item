@@ -2,7 +2,7 @@
   "itemName" : "gene_aquahomeo",
   "rarity" : "Common",
   "inventoryIcon" : "gene_aquahomeo.png",
-  "description" : "Aquatic Homeostasis",
+  "description" : "Water survival is impossible without it.",
   "shortdescription" : "Aquatic Homeostasis",
   "learnBlueprintsOnPickup" : [ "gene_aquahomeo" ]
 }

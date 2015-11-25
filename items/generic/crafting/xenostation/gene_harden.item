@@ -2,7 +2,7 @@
   "itemName" : "gene_harden",
   "rarity" : "Common",
   "inventoryIcon" : "gene_harden.png",
-  "description" : "Tough cells.",
+  "description" : "Tough cells built to withstand stress.",
   "shortdescription" : "Hardened Shell",
   "learnBlueprintsOnPickup" : [ "gene_harden" ]
 }

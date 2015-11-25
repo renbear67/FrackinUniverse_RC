@@ -2,7 +2,7 @@
   "itemName" : "gene_avian",
   "rarity" : "Common",
   "inventoryIcon" : "gene_avian.png",
-  "description" : "Bird cells.",
+  "description" : "The genes of a bird.",
   "shortdescription" : "Avian",
   "learnBlueprintsOnPickup" : [ "gene_avian" ]
 }
