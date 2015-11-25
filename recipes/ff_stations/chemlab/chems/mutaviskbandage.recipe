@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "mutaviskthread", "count" : 1 }
+    { "item" : "mutaviskthread", "count" : 3 }
   ],
   "output" : {
     "item" : "mutaviskbandage",

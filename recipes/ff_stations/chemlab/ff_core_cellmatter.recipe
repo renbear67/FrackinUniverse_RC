@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "geneticmaterial", "count" : 5 },
-    { "item" : "aminoacid", "count" : 5 },
+    { "item" : "fu_oxygen", "count" : 5 },
+    { "item" : "dnasample", "count" : 5 },
     { "item" : "magnesiumpowder", "count" : 1 }    
   ],
   "output" : {
