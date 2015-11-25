@@ -3,11 +3,11 @@
   "tags" : ["nature"],
   "rarity" : "Common",
   "category" : "farmable",
-  "description" : "Hops, full of runny goodness.",
+  "description" : "Hops, used in the making of beer.",
   "shortdescription" : "Hops Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "objectItem" : "hopsseed",
+  "price" : 100,
 
   "inventoryIcon" : "hopsseedicon.png",
   "orientations" : [
@@ -27,14 +27,18 @@
       "duration" : [60, 120]
     },
     {
-      "duration" : [120, 240]
+      "duration" : [60, 120]
     },
     {
       "alts" : 5,
       "harvestPool" : "hopsHarvest",
-      "resetToStage" : 0,
-      "duration" : [60, 200]
+      "resetToStage" : 0
     }
   ],
-  "maxImmersion" : 0.125
+  "maxImmersion" : 0.125,
+  "breakDropOptions" : [
+    [ [ "hopsseed", 1, { } ] ]
+  ]  
 }
+
+

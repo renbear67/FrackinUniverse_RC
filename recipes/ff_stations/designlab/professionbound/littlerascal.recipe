@@ -1,10 +1,9 @@
 {
   "input" : [
-    { "item" : "shockgene", "count" : 1 },
-    { "item" : "biosample", "count" : 3 },
-    { "item" : "adaptivecells", "count" : 1 },
-    { "item" : "regengene2", "count" : 1 },
-    { "item" : "nervebundle1", "count" : 1 }
+    { "item" : "biscornseed", "count" : 3 },
+    { "item" : "gene_regen", "count" : 7 },
+    { "item" : "gene_mammal", "count" : 3 },
+    { "item" : "gene_assimilate", "count" : 3 }
   ],
   "output" : {
     "item" : "littlerascalseed",

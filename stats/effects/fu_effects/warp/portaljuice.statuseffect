@@ -1,7 +1,7 @@
 {
   "name" : "portaljuice",
   "effectConfig" : {},
-  "defaultDuration" : 1200,
+  "defaultDuration" : 600,
 
   "scripts" : [
     "warp.lua"

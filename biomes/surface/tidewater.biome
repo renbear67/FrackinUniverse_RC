@@ -227,7 +227,11 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.25, "wildcoralcreepseed" ], [0.25, "goldenseaspongeplant" ],[0.25, "cellpodsplant" ],[0.25, "kamaranpodsplant" ],[0.25, "wildaquapodseed" ] ],
+            "pool" : [ 
+            [0.25, "wildcellpodsplant" ], 
+            [0.25, "wildkamaranpodsplant" ],
+            [0.25, "wildaquapodseed" ] 
+            ],
             "parameters" : {
               "startingStage" : 3
             }

@@ -2,10 +2,9 @@
   "name" : "thornsstranglevinesuper",
   "effectConfig" : {
     "range" : 5,
-
     "damageProjectileType" : "armorthornburst",
-    "damageMultiplier" : 6,
-
+    "damageMultiplier" : 2,
+    "minTriggerDamage" : 1,
     "cooldown" : 1
 
   },

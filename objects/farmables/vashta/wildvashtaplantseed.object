@@ -7,7 +7,7 @@
   "shortdescription" : "Vashta",
   "objectType" : "farmable",
   "printable" : false, 
-  "objectItem" : "dnasample",
+  
   "inventoryIcon" : "vashtaplantseedicon.png",
   "orientations" : [
     {
@@ -30,12 +30,12 @@
     },
     {
       "alts" : 2,
-      "harvestPool" : "wildvashtaplantHarvest",
+      "harvestPool" : "vashtaplantHarvest",
       "resetToStage" : 0
     }
   ],
     "maxImmersion" : 0.125,
   "breakDropOptions" : [
-    [ [ "dnasample", 1, { } ] ]
+    [ [ "vashtaplantseed", 1, { } ] ]
   ]
 }

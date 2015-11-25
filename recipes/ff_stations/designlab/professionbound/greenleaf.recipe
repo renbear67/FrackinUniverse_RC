@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "organicsynthesis", "count" : 1 },
-    { "item" : "shockgene", "count" : 2 },
-    { "item" : "adaptivecells", "count" : 1 },
-    { "item" : "nervebundle1", "count" : 1 },
+    { "item" : "dnasample", "count" : 14 },
+    { "item" : "flowerspring", "count" : 3 },
+    { "item" : "gene_adaptivecell", "count" : 11 },
+    { "item" : "gene_energy", "count" : 18 },
     { "item" : "ginsengseed", "count" : 3 }
   ],
   "output" : {

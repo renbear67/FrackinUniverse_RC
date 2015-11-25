@@ -7,8 +7,7 @@
   "shortdescription" : "Ghost Mushroom",
   "objectType" : "farmable",
   "printable" : false,
-  "objectItem" : "mineralsample",
-
+  
   "inventoryIcon" : "ghostmushroomseedicon.png",
   "orientations" : [
     {
@@ -31,14 +30,14 @@
     {
       "duration" : [120, 240]
     },
+
     {
       "alts" : 5,
-      "harvestPool" : "wildghostmushroomHarvest",
+      "harvestPool" : "ghostmushroomHarvest",
       "resetToStage" : 0
     }
   ],
-    "maxImmersion" : 0.125,
   "breakDropOptions" : [
-    [ [ "mineralsample", 1, { } ] ]
+    [ [ "ghostmushroomseed", 1, { } ] ]
   ]
 }

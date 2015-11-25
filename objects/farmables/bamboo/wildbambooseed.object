@@ -7,8 +7,7 @@
   "shortdescription" : "Micro-Bamboo",
   "objectType" : "farmable",
   "printable" : false, 
-  "objectItem" : "bambooseed",
-
+  
   "apexDescription" : "Bamboo.",
   "avianDescription" : "Bamboo.",
   "floranDescription" : "Sssharp sssticksss for ssstabbing.",
@@ -38,7 +37,11 @@
     },
     {
       "alts" : 4,
-      "harvestPool" : "wildbambooHarvest",
+      "duration" : [80, 120]
+    },
+    {
+      "alts" : 4,
+      "harvestPool" : "bambooHarvest",
       "resetToStage" : 0
     }
   ],

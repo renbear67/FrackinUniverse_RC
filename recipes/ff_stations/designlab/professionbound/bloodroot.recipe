@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "organicsynthesis", "count" : 2 },
-    { "item" : "regengene2", "count" : 1 },
-    { "item" : "adaptivecells", "count" : 1 },
-    { "item" : "plantmatter", "count" : 2 }
+    { "item" : "dnasample", "count" : 2 },
+    { "item" : "gene_regen", "count" : 4 },
+    { "item" : "gene_mimetic", "count" : 1 },
+    { "item" : "plantmatter", "count" : 4 }
   ],
   "output" : {
     "item" : "bloodrootseed",

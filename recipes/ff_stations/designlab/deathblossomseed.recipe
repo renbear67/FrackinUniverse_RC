@@ -1,9 +1,10 @@
 {
   "input" : [
-    { "item" : "toxicgene", "count" : 1 },
-    { "item" : "explosivegene", "count" : 1 },
-    { "item" : "thornfruit", "count" : 3 },
-    { "item" : "cellhardening2", "count" : 1 }
+    { "item" : "shockshroomseed", "count" : 3 },
+    { "item" : "agaranichor", "count" : 3 },
+    { "item" : "gene_reactive", "count" : 8 },
+    { "item" : "gene_reproductive", "count" : 3 },
+    { "item" : "gene_defense", "count" : 3 }
   ],
   "output" : {
     "item" : "deathblossomseed",

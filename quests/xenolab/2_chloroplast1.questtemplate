@@ -1,10 +1,10 @@
   {
   "id" : "2_chloroplast1.gearup",
   "title" : "^#1693d5;Chloroplast",
-  "text" : "Explanation. The easiest gene to craft is the ^orange;chloroplast^white;. You need to combine four units of ^orange;water^white;, ^orange;amino acid^white; and a ^orange;peptide chain^white;.",
+  "text" : "Explanation. Collect ^orange;Chloroplast Boost^white; gene. Detail. Wheat is a viable source for this.",
   "completionText" : "Neutral. Success.",
   "completionConditions" : [ 
-    { "type" : "gather", "item" :"chloroplast1", "consume" : false }
+    { "type" : "gather", "item" :"gene_chloroplast", "consume" : false }
   ],
   "moneyRange" : [0,0],
   "rewards" : [],

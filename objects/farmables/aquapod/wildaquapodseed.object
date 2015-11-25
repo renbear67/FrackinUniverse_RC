@@ -6,8 +6,7 @@
   "description" : "It's fruit enables rapid movement when suspended in liquid.",
   "shortdescription" : "Aquapod",
   "objectType" : "farmable",
-  "objectItem" : "dnasample",
-
+  
   "inventoryIcon" : "aquapodseedicon.png",
   "orientations" : [
     {
@@ -34,13 +33,13 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "wildaquapodHarvest",
+      "harvestPool" : "aquapodHarvest",
       "resetToStage" : 2
     }
   ],
     "maxImmersion" : 1.0,
     "consumeSoilMoisture" : false,
   "breakDropOptions" : [
-    [ [ "dnasample", 1, { } ] ]
+    [ [ "aquapodseed", 1, { } ] ]
   ]
 }

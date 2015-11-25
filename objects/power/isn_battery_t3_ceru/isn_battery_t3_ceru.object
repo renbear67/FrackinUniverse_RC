@@ -4,18 +4,11 @@
     "tags" : [ "science" ],
   "category" : "wire",
   "price" : 2500,
-  "description" : "A power storage unit. Stores up to 10000u of power and dispenses 2u when connected.",
-  "shortdescription" : "10000u 2v Battery Unit",
+  "description" : "A power storage unit. Stores up to 4000u of power and dispenses 4u when connected.",
+  "shortdescription" : "4000u 4v Battery Unit",
   "race" : "generic",
   "printable" : false,
     "learnBlueprintsOnPickup" : [ "isn_battery_t3_fero" ],
-
-  "apexDescription" : "This battery's storage capacity is really impressive.",
-  "avianDescription" : "With frugal management a battery like this could power a base for days.",
-  "floranDescription" : "Big zap box.",
-  "glitchDescription" : "Surprised. This battery's capacity is huge.",
-  "humanDescription" : "This could power a device for ages.",
-  "hylotlDescription" : "Cerulium used to it's full capacity is a startling thing indeed.",
 
   "inventoryIcon" : "isn_battery_t3_ceru_inv.png",
   "orientations" : [
@@ -36,7 +29,7 @@
   
   "scripts" : [ "/objects/power/isn_battery.lua",
                 "/objects/power/isn_sharedpowerscripts.lua",
-				"/objects/isn_sharedobjectscripts.lua"],
+		"/objects/isn_sharedobjectscripts.lua"],
   "scriptDelta" : 50,
   
   "outboundNodes" : [ [1, 3] ],
@@ -44,6 +37,6 @@
   
   "isn_powerSupplier" : true,
   "isn_powerReciever" : true,
-  "isn_batteryCapacity" : 10000,
-  "isn_batteryVoltage" : 2
+  "isn_batteryCapacity" : 4000,
+  "isn_batteryVoltage" : 4
 }

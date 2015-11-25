@@ -7,7 +7,7 @@
   "shortdescription" : "Fayshroom Spore",
   "objectType" : "farmable",
   "printable" : false,
-
+  "learnBlueprintsOnPickup" : [ "tetherhookseed" ],
   "inventoryIcon" : "fayshroomseedicon.png",
   "orientations" : [
     {
@@ -30,6 +30,7 @@
     {
       "duration" : [120, 360]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "fayshroomHarvest",

@@ -7,8 +7,7 @@
   "shortdescription" : "Blex Cactus Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "objectItem" : "dnasample",
-  "inventoryIcon" : "blexseedicon.png",
+    "inventoryIcon" : "blexseedicon.png",
   "orientations" : [
     {
       "dualImage" : "blexplantseed.png:<color>.<stage>.<alt>",
@@ -36,12 +35,12 @@
     },
     {
       "alts" : 4,
-      "harvestPool" : "wildblexplantHarvest",
+      "harvestPool" : "blexplantHarvest",
       "resetToStage" : 2
     }
   ],
     "maxImmersion" : 0.125,
   "breakDropOptions" : [
-    [ [ "dnasample", 1, { } ] ]
+    [ [ "blexplantseed", 1, { } ] ]
   ]
 }

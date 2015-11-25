@@ -7,7 +7,7 @@
   "shortdescription" : "Pasaka Vine",
   "objectType" : "farmable",
   "printable" : false, 
-  
+  "learnBlueprintsOnPickup" : [ "porphisplantseed" ],  
   "lightColor" : [120, 120, 255],
   
   "inventoryIcon" : "pasakavineseedicon.png",

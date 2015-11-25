@@ -1,8 +1,8 @@
 {
   "input" : [
     { "item" : "kiwiseed", "count" : 3 },
-    { "item" : "nervebundle1", "count" : 1 },
-    { "item" : "luminescentcells", "count" : 1 }
+    { "item" : "gene_nervebundle", "count" : 4 },
+    { "item" : "gene_bioluminescent", "count" : 5 }
   ],
   "output" : {
     "item" : "energiflowerseed",

@@ -7,8 +7,7 @@
   "shortdescription" : "Shiny Acorn Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "objectItem" : "mineralsample",
-
+  
   "inventoryIcon" : "shinyacornseedicon.png",
   "orientations" : [
     {
@@ -37,12 +36,12 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "wildshinyacornHarvest",
+      "harvestPool" : "shinyacornHarvest",
       "resetToStage" : 2
     }
   ],
     "maxImmersion" : 0.125,
   "breakDropOptions" : [
-    [ [ "mineralsample", 1, { } ] ]
+    [ [ "shinyacornseed", 1, { } ] ]
   ]
 }

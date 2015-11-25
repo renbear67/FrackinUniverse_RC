@@ -26,13 +26,15 @@
 
 "stages" : [
     {
+      "alts" : 3,
       "duration" : [120, 360]
     },
     {
+      "alts" : 3,
       "duration" : [120, 360]
     },
     {
-      "alts" : 4,
+      "alts" : 5,
       "harvestPool" : "crystallite",
       "resetToStage" : 0
     }

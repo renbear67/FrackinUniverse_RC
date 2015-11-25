@@ -7,6 +7,7 @@
   "shortdescription" : "Little Rascal Seed",
   "objectType" : "farmable",
   "printable" : false,
+  "learnBlueprintsOnPickup" : [ "melodistarseed" ],
 
   "inventoryIcon" : "littlerascalseedicon.png",
   "orientations" : [
@@ -30,6 +31,7 @@
     {
       "duration" : [120, 240]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "littlerascalHarvest",

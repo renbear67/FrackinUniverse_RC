@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "musclegene2", "count" : 1 },
-    { "item" : "nervebundle2", "count" : 1 },
-    { "item" : "adaptivecells", "count" : 1 },
-    { "item" : "cellresistance1", "count" : 1 },
+    { "item" : "goldenglowseed", "count" : 3 },
+    { "item" : "gene_nervebundle", "count" : 12 },
+    { "item" : "gene_muscle", "count" : 14 },
+    { "item" : "dnasample", "count" : 12 },
     { "item" : "biscornseed", "count" : 3 }
   ],
   "output" : {

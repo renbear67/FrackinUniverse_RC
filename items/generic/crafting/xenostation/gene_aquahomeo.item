@@ -1,0 +1,8 @@
+{
+  "itemName" : "gene_aquahomeo",
+  "rarity" : "Common",
+  "inventoryIcon" : "gene_aquahomeo.png",
+  "description" : "Aquatic Homeostasis",
+  "shortdescription" : "Aquatic Homeostasis",
+  "learnBlueprintsOnPickup" : [ "gene_aquahomeo" ]
+}

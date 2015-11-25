@@ -1,0 +1,8 @@
+{
+  "itemName" : "gene_fish",
+  "rarity" : "Common",
+  "inventoryIcon" : "gene_fish.png",
+  "description" : "Cells of a fish-creature.",
+  "shortdescription" : "Osteichthyes",
+  "learnBlueprintsOnPickup" : [ "gene_fish" ]
+}

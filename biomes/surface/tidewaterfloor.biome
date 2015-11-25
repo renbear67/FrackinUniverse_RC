@@ -196,7 +196,10 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [1, "wildcoralcreepseed" ] ],
+            "pool" : [ 
+            [0.5, "wildcoralcreepseed" ],
+            [0.5, "wildcellpodsplant" ]
+            ],
             "parameters" : {
               "startingStage" : 3
             }
@@ -212,7 +215,10 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [1, "wildreefpodseed" ] ],
+            "pool" : [ 
+            [0.5, "wildreefpodseed" ],
+            [0.5, "wildfuspongeweedseed" ] 
+            ],
             "parameters" : {
               "startingStage" : 3
             }

@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "adaptivecells", "count" : 4 },
-    { "item" : "biosample", "count" : 8 }, 
-    { "item" : "nervebundle1", "count" : 1 },
-    { "item" : "cellresistance1", "count" : 1 }
+    { "item" : "gene_adaptivecell", "count" : 4 },
+    { "item" : "biosample", "count" : 4 }, 
+    { "item" : "gene_nervebundle", "count" : 3 },
+    { "item" : "gene_resist", "count" : 2 }
   ],
   "output" : {
     "item" : "ighantseed",

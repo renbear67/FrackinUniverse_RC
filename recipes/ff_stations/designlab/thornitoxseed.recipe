@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "toxicgene", "count" : 1 },
-    { "item" : "tissueculture", "count" : 3 },
-    { "item" : "cellhardening1", "count" : 6 }
+    { "item" : "gene_poisonous", "count" : 3 },
+    { "item" : "cornseed", "count" : 3 },
+    { "item" : "gene_skeletal", "count" : 1 }
   ],
   "output" : {
     "item" : "thornitoxseed",

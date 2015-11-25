@@ -1,10 +1,9 @@
 {
   "input" : [
-    { "item" : "toxicgene", "count" : 1 },
-    { "item" : "cellhardening3", "count" : 1 },
-    { "item" : "aggressiongene", "count" : 1 },
-    { "item" : "thornfruit", "count" : 3 },
-    { "item" : "cellresistance2", "count" : 1 }
+    { "item" : "poetree", "count" : 3 },
+    { "item" : "gene_poisonous", "count" : 16 },
+    { "item" : "gene_reactive", "count" : 12 },
+    { "item" : "shroom", "count" : 10 }
   ],
   "output" : {
     "item" : "bellamorte",

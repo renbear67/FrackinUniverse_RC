@@ -119,22 +119,14 @@
           "objectSets" : [
             {
               "pool" : [ 
-              [0.35, "wildbrackentreeseed" ],
               [0.35, "wildalgaeseed" ],
-              [0.35, "wildtalonseedseed" ],
-              [0.35, "wildmutaviskseed" ],
-              [0.35, "wildleafshellseed" ],
-              [0.35, "wildbiscornseed" ],
               [0.35, "wildvaranberryseed" ],
-              [0.35, "wildmiraclegrassseed" ],
-              [0.35, "wildginsengseed" ],
               [0.35, "wildgreenleafseed" ],
-              [0.35, "wildbloodrootseed" ],
+              [0.35, "wildginsengseed" ],
               [0.35, "wildcarrotseed" ],
               [0.35, "wildtomatoseed" ],
               [0.35, "wildpotatoseed" ],
               [0.35, "wildhopsseed" ]
-          
               ],
               "parameters" : { "startingStage" : 3 }
             }

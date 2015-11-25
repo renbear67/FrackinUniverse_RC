@@ -7,14 +7,7 @@
   "shortdescription" : "Biscorn Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "objectItem" : "mineralsample",
-
-  "apexDescription" : "Dog biscuits that grow in the place of corn.",
-  "avianDescription" : "It's a corn for pets.",
-  "floranDescription" : "Crunchy crunchy bissscorn!",
-  "glitchDescription" : "Wonder. Is this meant to be consumed by Glitch?",
-  "humanDescription" : "This makes a great snack for pets.",
-  "hylotlDescription" : "Not a very appetizing variant of corn.",
+    "learnBlueprintsOnPickup" : [ "littlerascalseed" ],
 
   "inventoryIcon" : "biscornseedicon.png",
   "orientations" : [
@@ -42,12 +35,12 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "wildbiscornHarvest",
+      "harvestPool" : "biscornHarvest",
       "resetToStage" : 2
     }
   ],
     "maxImmersion" : 0.125,
   "breakDropOptions" : [
-    [ [ "dnasample", 1, { } ] ]
+    [ [ "biscornseed", 1, { } ] ]
   ]
 }

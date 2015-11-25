@@ -30,6 +30,7 @@
     {
       "duration" : [120, 240]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "ginsengHarvest",

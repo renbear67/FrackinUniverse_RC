@@ -7,8 +7,7 @@
   "shortdescription" : "Minkocoa Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "objectItem" : "mineralsample",
-
+    "learnBlueprintsOnPickup" : [ "lasherplantseed" ],
   "inventoryIcon" : "minkocoapodseedicon.png",
   "orientations" : [
     {
@@ -35,12 +34,12 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "wildminkocoapodHarvest",
+      "harvestPool" : "minkocoapodHarvest",
       "resetToStage" : 2
     }
   ],
     "maxImmersion" : 0.125,
   "breakDropOptions" : [
-    [ [ "mineralsample", 1, { } ] ]
+    [ [ "minkocoapodseed", 1, { } ] ]
   ]
 }

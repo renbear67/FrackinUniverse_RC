@@ -4,11 +4,10 @@
   "rarity" : "uncommon",
   "category" : "Farmable",
   "description" : "Protects the user from harm.",
-  "shortdescription" : "Living Root Seed",
+  "shortdescription" : "Vanus Flower Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "objectItem" : "mineralsample",
-
+    "learnBlueprintsOnPickup" : [ "livingrootseed", "rockrootseed" ],
   "inventoryIcon" : "livingrootseedicon.png",
   "orientations" : [
     {
@@ -31,14 +30,15 @@
     {
       "duration" : [60, 120]
     },
+
     {
       "alts" : 5,
-      "harvestPool" : "wildlivingrootHarvest",
+      "harvestPool" : "livingrootHarvest",
       "resetToStage" : 0
     }
   ],
     "maxImmersion" : 0.125,
   "breakDropOptions" : [
-    [ [ "mineralsample", 1, { } ] ]
+    [ [ "livingrootseed", 1, { } ] ]
   ]
 }

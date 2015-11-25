@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "luminescentcells", "count" : 1 },
-    { "item" : "immunegene1", "count" : 1 },
-    { "item" : "adaptivecells", "count" : 1 },
-    { "item" : "voidgene", "count" : 1 },
+    { "item" : "mineralsample", "count" : 5 },
+    { "item" : "gene_immunity", "count" : 9 },
+    { "item" : "gene_resist", "count" : 11 },
+    { "item" : "gene_void", "count" : 2 },
     { "item" : "energywood", "count" : 3 }
   ],
   "output" : {

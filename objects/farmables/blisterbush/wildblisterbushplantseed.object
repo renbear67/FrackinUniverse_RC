@@ -7,10 +7,10 @@
   "shortdescription" : "Blister Pod",
   "objectType" : "farmable",
   "printable" : false, 
-  "objectItem" : "dnasample",
-  
-  "lightColor" : [255, 0, 255],
-  
+    "lightColor" : [155, 0, 155],
+
+  "learnBlueprintsOnPickup" : [ "ff_blisterlight1", "ff_blisterlight2", "ff_blisterlight3", "blisterhelm","blisterchest","blisterpants", "neuropodseed" ],
+
   "inventoryIcon" : "blisterbushseedicon.png",
   "orientations" : [
     {
@@ -37,14 +37,14 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "wildblisterbushHarvest",
+      "harvestPool" : "blisterbushHarvest",
       "resetToStage" : 2
     }
   ],
     "maxImmersion" : 1.0,
     "consumeSoilMoisture" : false,
   "breakDropOptions" : [
-    [ [ "dnasample", 1, { } ] ]
+    [ [ "blisterbushplantseed", 1, { } ] ]
   ]
     
 }

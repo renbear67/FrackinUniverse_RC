@@ -7,8 +7,7 @@
   "shortdescription" : "Energiflower Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "objectItem" : "dnasample",
-
+    "learnBlueprintsOnPickup" : [ "energiflowerseed" ],
   "lightColor" : [100, 255, 185],
   "flickerDistance" : 0.5,
   "flickerStrength" : 0.1,
@@ -39,12 +38,12 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "wildenergiflowerHarvest",
+      "harvestPool" : "energiflowerHarvest",
       "resetToStage" : 2
     }
   ],
     "maxImmersion" : 0.125,
   "breakDropOptions" : [
-    [ [ "dnasample", 1, { } ] ]
+    [ [ "energiflowerseed", 1, { } ] ]
   ]
 }

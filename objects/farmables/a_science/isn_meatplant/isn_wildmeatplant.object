@@ -5,8 +5,7 @@
   "description" : "A plant that grows meat! Not for the squeamish.",
   "shortdescription" : "Meatvine Bulb",
   "objectType" : "farmable",
-  "objectItem" : "dnasample",
-  "printable" : false,
+    "printable" : false, 
   "price" : 252,
 
   "inventoryIcon" : "isn_meatplant_inv.png",
@@ -38,7 +37,12 @@
     {
       "alts" : 5,
       "harvestPool" : "isn_meatplant",
-      "resetToStage" : 2
+      "resetToStage" : 3
     }
+  ],
+  "maxImmersion" : 1.0,
+  "consumeSoilMoisture" : false,
+  "breakDropOptions" : [
+    [ [ "isn_meatplant", 1, { } ] ]
   ]
 }

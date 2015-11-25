@@ -7,8 +7,7 @@
   "shortdescription" : "Glarestalk Gib",
   "objectType" : "farmable",
   "printable" : false, 
-  "objectItem" : "dnasample",
-  
+    
   "inventoryIcon" : "glarestalkseedicon.png",
   "orientations" : [
     {
@@ -32,11 +31,15 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "wildglarestalkHarvest"
+      "duration" : [210, 330]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "glarestalkHarvest"
     }
   ],
     "maxImmersion" : 0.125,
   "breakDropOptions" : [
-    [ [ "dnasample", 1, { } ] ]
+    [ [ "glarestalkseed", 1, { } ] ]
   ]
 }

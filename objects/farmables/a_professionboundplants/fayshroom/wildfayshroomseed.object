@@ -7,7 +7,7 @@
   "shortdescription" : "Fayshroom Spore",
   "objectType" : "farmable",
   "printable" : false,
-  "objectItem" : "mineralsample",
+    "learnBlueprintsOnPickup" : [ "tetherhookseed" ],
 
   "inventoryIcon" : "fayshroomseedicon.png",
   "orientations" : [
@@ -31,14 +31,15 @@
     {
       "duration" : [120, 360]
     },
+
     {
       "alts" : 5,
-      "harvestPool" : "wildfayshroomHarvest",
+      "harvestPool" : "fayshroomHarvest",
       "resetToStage" : 0
     }
   ],
     "maxImmersion" : 0.125,
   "breakDropOptions" : [
-    [ [ "dnasample", 1, { } ] ]
+    [ [ "fayshroomseed", 1, { } ] ]
   ]
 }

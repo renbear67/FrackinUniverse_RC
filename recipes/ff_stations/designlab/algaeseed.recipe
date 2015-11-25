@@ -1,8 +1,7 @@
 {
   "input" : [
-    { "item" : "chloroplast1", "count" : 1 },
-    { "item" : "kelp", "count" : 3 },
-    { "item" : "aquatichomeostasis", "count" : 1 }
+    { "item" : "dnasample", "count" : 1 },
+    { "item" : "liquidwater", "count" : 3 }
   ],
   "output" : {
     "item" : "algaeseed",

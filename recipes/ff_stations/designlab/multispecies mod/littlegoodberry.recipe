@@ -1,10 +1,10 @@
 {
   "input" : [
-    { "item" : "organicsynthesis", "count" : 1 },
-    { "item" : "regengene1", "count" : 1 },
-    { "item" : "aggressiongene", "count" : 1 },
-    { "item" : "cellhardening2", "count" : 1 },
-    { "item" : "pearlpeaseed", "count" : 3 }
+    { "item" : "pearlpeaseed", "count" : 3 },
+    { "item" : "gene_muscle", "count" : 3 },
+    { "item" : "gene_stimulant", "count" : 8 },
+    { "item" : "gene_reactive", "count" : 6 },
+    { "item" : "dnasample", "count" : 7 }
   ],
   "output" : {
     "item" : "littlegoodberryseed",

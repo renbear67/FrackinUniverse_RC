@@ -8,6 +8,7 @@
   "objectType" : "farmable",
   "printable" : false,
   "lightColor" : [12, 65, 12],
+    "learnBlueprintsOnPickup" : [ "xaxseed" ],
   "inventoryIcon" : "zathiseedicon.png",
   "orientations" : [
     {

@@ -1,10 +1,10 @@
 {
   "input" : [
-    { "item" : "organicsynthesis", "count" : 1 },
-    { "item" : "aggressiongene", "count" : 1 },
-    { "item" : "blobbushjelly", "count" : 2 },
-    { "item" : "adaptivecells", "count" : 1 },
-    { "item" : "petalblue", "count" : 3 }
+    { "item" : "eggshootseed", "count" : 3 },
+    { "item" : "gene_rage", "count" : 3 },
+    { "item" : "mineralsample", "count" : 4 },
+    { "item" : "gene_adaptivecell", "count" : 3 },
+    { "item" : "petalyellow", "count" : 8 }
   ],
   "output" : {
     "item" : "aenemaflower",

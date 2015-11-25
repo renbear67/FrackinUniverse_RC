@@ -7,7 +7,7 @@
   "shortdescription" : "Tinselbush",
   "objectType" : "farmable",
   "printable" : false, 
-
+  "learnBlueprintsOnPickup" : [ "bladetree", "tinselbush" ],
   "inventoryIcon" : "tinselbushicon.png",
   "orientations" : [
     {
@@ -26,17 +26,18 @@
 
 "stages" : [
     {
+      "alts" : 3,
       "duration" : [60, 160]
     },
     {
+      "alts" : 3,
       "duration" : [60, 160]
     },
     {
-      "alts" : 4,
+      "alts" : 5,
       "harvestPool" : "tinselbush",
       "resetToStage" : 0
     }
   ],
-  "learnBlueprintsOnPickup" : [ "bladetree" ],
     "maxImmersion" : 0.125
   }

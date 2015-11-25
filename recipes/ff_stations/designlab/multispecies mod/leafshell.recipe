@@ -1,10 +1,10 @@
 {
   "input" : [
-    { "item" : "beakseedseed", "count" : 3 },
-    { "item" : "defensegene1", "count" : 1 },
-    { "item" : "immunegene3", "count" : 1 },
-    { "item" : "regengene1", "count" : 1 },
-    { "item" : "adaptivecells", "count" : 2 }
+    { "item" : "wubstemseed", "count" : 3 },
+    { "item" : "gene_defense", "count" : 6 },
+    { "item" : "gene_reproductive", "count" : 4 },
+    { "item" : "gene_resist", "count" : 3 },
+    { "item" : "mineralsample", "count" : 5 }
 	],
   "output" : {
     "item" : "leafshellseed",

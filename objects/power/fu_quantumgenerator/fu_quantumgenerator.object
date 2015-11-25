@@ -5,7 +5,7 @@
   "category" : "wire",
   "objectType" : "container",
   "price" : 2500,
-  "description" : "A hi-tech power solution. Provides excessive power, but requires fuel.",
+  "description" : "A hi-tech power solution. Unmatched power output (7u to 34u), but requires bio-fuels or similar fluids.",
   "shortdescription" : "Quantum Reactor",
   "race" : "generic",
   "printable" : false,

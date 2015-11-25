@@ -1,10 +1,10 @@
 {
   "input" : [
-    { "item" : "voidgene", "count" : 1 },
-    { "item" : "cellhardening3", "count" : 1 },
-    { "item" : "cellresistance3", "count" : 1 },
-    { "item" : "rainbowwood", "count" : 3 },
-    { "item" : "aggressiongene", "count" : 1 }
+    { "item" : "bellamorte", "count" : 3 },
+    { "item" : "gene_harden", "count" : 19 },
+    { "item" : "gene_resist", "count" : 12 },
+    { "item" : "rainbowwood", "count" : 12 },
+    { "item" : "gene_rage", "count" : 8 }
   ],
   "output" : {
     "item" : "arkaentree",

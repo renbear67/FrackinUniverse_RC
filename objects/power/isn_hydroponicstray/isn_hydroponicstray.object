@@ -3,7 +3,7 @@
   "printable" : false,
     "tags" : [ "science" ],
   "rarity" : "Common",
-  "description" : "Grows crops more efficiently and quickly. Requires 2u of power.",
+  "description" : "Grows crops more quick and efficiently. Requires 2u of power.",
   "shortdescription" : "Hydroponics Tray",
   "race" : "generic",
   "category" : "wire",

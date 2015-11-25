@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "luminescentcells", "count" : 5 },
-    { "item" : "chloroplast1", "count" : 6 }, 
-    { "item" : "thornfruit", "count" : 3 }
+    { "item" : "feathercrownseed", "count" : 3 },
+    { "item" : "gene_bioluminescent", "count" : 2 }, 
+    { "item" : "gene_reactive", "count" : 1 }
   ],
   "output" : {
     "item" : "oonfortaseed",

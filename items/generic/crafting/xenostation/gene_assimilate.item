@@ -1,0 +1,8 @@
+{
+  "itemName" : "gene_assimilate",
+  "rarity" : "Common",
+  "inventoryIcon" : "gene_assimilate.png",
+  "description" : "Assimilate.",
+  "shortdescription" : "Assimilation",
+  "learnBlueprintsOnPickup" : [ "gene_assimilate" ]
+}

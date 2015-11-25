@@ -5,13 +5,9 @@
   "category" : "farmable",
   "description" : "Gleams under light.",
   "shortdescription" : "Goldensea Sponge",
-    "apexDescription" : "The sponge is strangely soft, too soft.",
-    "avianDescription" : "The sponge doesn't swallow as good as it looks.",
-    "floranDescription" : "A brother-fruit from the seas.",
-    "glitchDescription" : "Observation. The sea sponge can possibly be used to construct powerful metals.",
-    "humanDescription" : "Looks pretty...underwater.",
-  "hylotlDescription" : "A hylotl's best sponge-friend.",
-  
+
+  "learnBlueprintsOnPickup" : [ "goldenseaspongeplant" ], 
+
   "objectType" : "farmable",
   "printable" : false, 
   "inventoryIcon" : "goldenseaspongeplanticon.png",
@@ -35,11 +31,11 @@
     {
       "duration" : [240, 420]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "goldenseaspongeplantHarvest",
       "resetToStage" : 0
     }
-  ],
-    "maxImmersion" : 80.125
+  ]
 }

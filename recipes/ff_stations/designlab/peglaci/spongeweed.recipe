@@ -1,10 +1,10 @@
 {
   "input" : [
-    { "item" : "immunegene2", "count" : 1 },
-    { "item" : "toxicgene", "count" : 1 },
-    { "item" : "adaptivecells", "count" : 1 },
-    { "item" : "cellresistance2", "count" : 1 },
-    { "item" : "tissueculture", "count" : 3 }
+    { "item" : "dnasample", "count" : 5 },
+    { "item" : "gene_poisonous", "count" : 4 },
+    { "item" : "gene_mimetic", "count" : 4 },
+    { "item" : "gene_skeletal", "count" : 1 },
+    { "item" : "avesmingoseed", "count" : 3 }
   ],
   "output" : {
     "item" : "fuspongeweedseed",

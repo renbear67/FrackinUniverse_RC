@@ -309,56 +309,27 @@
         },
 
 // crops
-	   {
+        {
           "mode" : "floor",
           "priority" : 1.0,
           "variants" : 1,
-          "distribution" : "/biomes/distributions.config:potsRare",
+          "distribution" : "/biomes/distributions.config:ffunCommon",
 
           "type" : "object",
           "objectSets" : [
             {
-              "pool" : [ [1, "wildcarrotseed" ] ],
-              "parameters" : { "startingStage" : 3 }
-            },
-            {
-              "pool" : [ [1, "wildavesmingoseed" ] ],
-              "parameters" : { "startingStage" : 3 }
-            },
-            {
-              "pool" : [ [1, "wildbeakseedseed" ] ],
-              "parameters" : { "startingStage" : 3 }
-            },
-            {
-              "pool" : [ [1, "wildchiliseed" ] ],
-              "parameters" : { "startingStage" : 3 }
-            },
-            {
-              "pool" : [ [1, "wildeggshootseed" ] ],
-              "parameters" : { "startingStage" : 3 }
-            },
-            {
-              "pool" : [ [1, "wildfeathercrownseed" ] ],
-              "parameters" : { "startingStage" : 3 }
-            },
-            {
-              "pool" : [ [1, "wildgrapesseed" ] ],
-              "parameters" : { "startingStage" : 3 }
-            },
-            {
-              "pool" : [ [1, "wildpotatoseed" ] ],
-              "parameters" : { "startingStage" : 3 }
-            },
-            {
-              "pool" : [ [1, "wildriceseed" ] ],
-              "parameters" : { "startingStage" : 3 }
-            },
-            {
-              "pool" : [ [1, "wildtomatoseed" ] ],
+              "pool" : [ 
+              [0.35, "wildtinselbush" ],
+              [0.35, "wildyellowfootseed" ],
+              [0.35, "wildcurrentcornseed" ],
+              [0.35, "wildavesmingoseed" ],
+              [0.35, "wilddirturchinseed" ] 
+          ],
               "parameters" : { "startingStage" : 3 }
             }
           ]
-        }
+        } 
+         
       ]
     },
 	

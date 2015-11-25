@@ -1,9 +1,11 @@
 {
   "input" : [
-    { "item" : "coldgene", "count" : 1 },
-    { "item" : "immunegene1", "count" : 1 },
-    { "item" : "cellhardening1", "count" : 1 },
-    { "item" : "biosample", "count" : 3 }
+    { "item" : "blizzberryseed", "count" : 3 },
+    { "item" : "gene_cryo", "count" : 24 },
+    { "item" : "gene_immunity", "count" : 18 },
+    { "item" : "gene_resist", "count" : 12 },
+    { "item" : "dnasample", "count" : 10 },
+    { "item" : "mineralsample", "count" : 10 }
   ],
   "output" : {
     "item" : "kramil",

@@ -7,8 +7,7 @@
   "shortdescription" : "Shock-Shroom",
   "objectType" : "farmable",
   "printable" : false,
-  "objectItem" : "dnasample",
-
+    "learnBlueprintsOnPickup" : [ "deathblossomseed" ],
   "inventoryIcon" : "shockshroomseedicon.png",
   "orientations" : [
     {
@@ -33,7 +32,7 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "wildshockshroomHarvest",
+      "harvestPool" : "shockshroomHarvest",
       "resetToStage" : 0
     }
   ],
@@ -47,7 +46,7 @@
           },
     "maxImmersion" : 0.125,
   "breakDropOptions" : [
-    [ [ "dnasample", 1, { } ] ]
+    [ [ "shockshroomseed", 1, { } ] ]
   ]
           
 }

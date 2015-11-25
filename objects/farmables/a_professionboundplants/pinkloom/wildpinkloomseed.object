@@ -7,8 +7,7 @@
   "shortdescription" : "Pinkloom Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "objectItem" : "mineralsample",
-
+  
   "inventoryIcon" : "pinkloomseedicon.png",
   "orientations" : [
     {
@@ -31,14 +30,15 @@
     {
       "duration" : [120, 360]
     },
+
     {
       "alts" : 5,
-      "harvestPool" : "wildpinklookHarvest",
+      "harvestPool" : "wildpinkloomHarvest",
       "resetToStage" : 0
     }
   ],
     "maxImmersion" : 0.125,
   "breakDropOptions" : [
-    [ [ "mineralsample", 1, { } ] ]
+    [ [ "pinkloomseed", 1, { } ] ]
   ]
 }

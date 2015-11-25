@@ -1,0 +1,8 @@
+{
+  "itemName" : "gene_adaptivecell",
+  "rarity" : "Common",
+  "inventoryIcon" : "gene_adaptivecell.png",
+  "description" : "adaptive cells.",
+  "shortdescription" : "Adaptive Cells",
+  "learnBlueprintsOnPickup" : [ "gene_adaptivecell" ]
+}

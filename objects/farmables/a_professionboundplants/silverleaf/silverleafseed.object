@@ -7,7 +7,7 @@
   "shortdescription" : "Silverleaf Seed",
   "objectType" : "farmable",
   "printable" : false,
-
+  "learnBlueprintsOnPickup" : [ "haleflowerseed"],
   "inventoryIcon" : "silverleafseedicon.png",
   "orientations" : [
     {
@@ -30,12 +30,12 @@
     {
       "duration" : [120, 360]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "silverleafHarvest",
       "resetToStage" : 0
     }
   ],
-  "learnBlueprintsOnPickup" : [ "fletchweed" ],
     "maxImmersion" : 0.125
 }

@@ -1,8 +1,8 @@
 {
   "input" : [
     { "item" : "liquidalienjuice", "count" : 5 },
-    { "item" : "aliencompound", "count" : 15},
-    { "item" : "geneticmaterial", "count" : 10},
+    { "item" : "aliencompound", "count" : 3},
+    { "item" : "geneticmaterial", "count" : 7},
     { "item" : "fu_salt", "count" : 8},
     { "item" : "dnasample", "count" : 2 }
   ],

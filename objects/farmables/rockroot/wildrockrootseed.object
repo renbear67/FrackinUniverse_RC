@@ -7,8 +7,7 @@
   "shortdescription" : "Rockroot Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "objectItem" : "mineralsample",
-
+    "learnBlueprintsOnPickup" : [ "beetlesproutseed" ],
   "inventoryIcon" : "rockrootseedicon.png",
   "orientations" : [
     {
@@ -35,12 +34,12 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "wildrockrootHarvest",
+      "harvestPool" : "rockrootHarvest",
       "resetToStage" : 2
     }
   ],
     "maxImmersion" : 0.125,
   "breakDropOptions" : [
-    [ [ "mineralsample", 1, { } ] ]
+    [ [ "rockrootseed", 1, { } ] ]
   ]
 }

@@ -1,6 +1,7 @@
 {
   "input" : [
-    { "item" : "redwaxchunk", "count" : 15 },  { "item" : "ironbar", "count" : 5 }
+    { "item" : "redwaxchunk", "count" : 15 },  
+    { "item" : "ironbar", "count" : 5 }
   ],
   "output" : {
     "item" : "redwaxsword",

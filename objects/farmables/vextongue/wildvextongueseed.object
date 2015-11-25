@@ -7,7 +7,7 @@
   "shortdescription" : "Vextongue Seed",
   "objectType" : "farmable",
   "printable" : false, 
-  "objectItem" : "dnasample",
+    "learnBlueprintsOnPickup" : [ "tyvokkseed"],
   "inventoryIcon" : "vextongueseedicon.png",
   "orientations" : [
     {
@@ -30,12 +30,12 @@
     },
     {
       "alts" : 3,
-      "harvestPool" : "wildvextongueHarvest",
+      "harvestPool" : "vextongueHarvest",
       "resetToStage" : 0
     }
   ],
     "maxImmersion" : 0.125,
   "breakDropOptions" : [
-    [ [ "dnasample", 1, { } ] ]
+    [ [ "vextongueseed", 1, { } ] ]
   ]
 }

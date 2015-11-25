@@ -1,0 +1,8 @@
+{
+  "itemName" : "gene_agility",
+  "rarity" : "Common",
+  "inventoryIcon" : "gene_agility.png",
+  "description" : "agility.",
+  "shortdescription" : "Agility",
+  "learnBlueprintsOnPickup" : [ "gene_agility" ]
+}

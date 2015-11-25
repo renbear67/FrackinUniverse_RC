@@ -1,0 +1,8 @@
+{
+  "itemName" : "gene_cryo",
+  "rarity" : "Common",
+  "inventoryIcon" : "gene_cryo.png",
+  "description" : "Brr.",
+  "shortdescription" : "Cryogenic",
+  "learnBlueprintsOnPickup" : [ "gene_cryo" ]
+}

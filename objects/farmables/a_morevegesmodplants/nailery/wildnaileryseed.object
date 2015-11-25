@@ -7,8 +7,7 @@
   "shortdescription" : "Nailery Seed",
   "objectType" : "farmable",
   "printable" : false, 
-  "objectItem" : "mineralsample",
-
+  
   "inventoryIcon" : "naileryseedicon.png",
   "orientations" : [
     {
@@ -31,14 +30,15 @@
     {
       "duration" : [60, 120]
     },
+
     {
       "alts" : 5,
-      "harvestPool" : "wildnaileryHarvest",
+      "harvestPool" : "naileryHarvest",
       "resetToStage" : 0
     }
   ],
     "maxImmersion" : 0.125,
   "breakDropOptions" : [
-    [ [ "ironore", 1, { } ] ]
+    [ [ "naileryseed", 1, { } ] ]
   ]
 }

@@ -7,7 +7,8 @@
   "shortdescription" : "Varan Berry Bush",
   "objectType" : "farmable",
   "printable" : false,
-  "objectItem" : "dnasample",
+    "learnBlueprintsOnPickup" : [ "varanberryseed" ],
+  
   "inventoryIcon" : "varanberryseedicon.png",
   "orientations" : [
     {
@@ -34,12 +35,12 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "wildvaranberryHarvest",
+      "harvestPool" : "varanberryHarvest",
       "resetToStage" : 2
     }
   ],
-    "maxImmersion" : 0.125,
+  "maxImmersion" : 0.125,
   "breakDropOptions" : [
-    [ [ "dnasample", 1, { } ] ]
+    [ [ "varanberryseed", 1, { } ] ]
   ]
 }

@@ -2,10 +2,9 @@
   "name" : "fireburst",
   "effectConfig" : {
     "range" : 5,
-
     "damageProjectileType" : "armorthornburst",
     "damageMultiplier" : 2.5,
-
+    "minTriggerDamage" : 1,
     "cooldown" : 1
 
   },

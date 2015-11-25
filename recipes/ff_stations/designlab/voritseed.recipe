@@ -1,10 +1,10 @@
 {
   "input" : [
-    { "item" : "organicsynthesis", "count" : 1 },
-    { "item" : "nervebundle2", "count" : 1 },
-    { "item" : "fu_nodule", "count" : 3 },
-    { "item" : "aquatichomeostasis", "count" : 1 },
-    { "item" : "aquaticcelerity", "count" : 1 }
+    { "item" : "aquapodseed", "count" : 3 },
+    { "item" : "gene_aquahomeo", "count" : 6 },
+    { "item" : "gene_aquacelerity", "count" : 12 },
+    { "item" : "biosample", "count" : 9 },
+    { "item" : "agaranichor", "count" : 3 }
   ],
   "output" : {
     "item" : "voritseed",

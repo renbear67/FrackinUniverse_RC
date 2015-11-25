@@ -7,8 +7,7 @@
   "shortdescription" : "Little Good Berry Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "objectItem" : "mineralsample",
-
+  
   "inventoryIcon" : "littlegoodberryseedicon.png",
   "orientations" : [
     {
@@ -35,12 +34,12 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "wildlittlegoodberryHarvest",
+      "harvestPool" : "littlegoodberryHarvest",
       "resetToStage" : 2
     }
   ],
     "maxImmersion" : 0.125,
   "breakDropOptions" : [
-    [ [ "mineralsample", 1, { } ] ]
+    [ [ "littlegoodberryseed", 1, { } ] ]
   ]
 }

@@ -22,6 +22,8 @@
             {
               "pool" : [ 
               [0.35, "wildbrackentreeseed" ],
+              [0.35, "wildonionseed" ],
+              [0.35, "wildjillyrootseed" ],
               [0.35, "wildhopsseed" ]
               ],
               "parameters" : { "startingStage" : 3 }

@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "chloroplast3", "count" : 1 },
-    { "item" : "nervebundle2", "count" : 1 },
-    { "item" : "adaptivecells", "count" : 1 },
+    { "item" : "flowerblue", "count" : 12 },
+    { "item" : "gene_energy", "count" : 12 },
+    { "item" : "gene_adaptivecell", "count" : 8 },
     { "item" : "diodiahybridseed", "count" : 3 }
   ],
   "output" : {

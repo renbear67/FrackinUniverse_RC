@@ -7,8 +7,7 @@
   "shortdescription" : "Leafshell Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "objectItem" : "mineralsample",
-
+    "learnBlueprintsOnPickup" : [ "wubstemseed"],
   "inventoryIcon" : "leafshellseedicon.png",
   "orientations" : [
     {
@@ -35,12 +34,12 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "wildleafshellHarvest",
+      "harvestPool" : "leafshellHarvest",
      "resetToStage" : 2
     }
   ],
     "maxImmersion" : 0.125,
   "breakDropOptions" : [
-    [ [ "mineralsample", 1, { } ] ]
+    [ [ "leafshellseed", 1, { } ] ]
   ]
 }

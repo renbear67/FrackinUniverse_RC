@@ -1,0 +1,8 @@
+{
+  "itemName" : "gene_insectoid",
+  "rarity" : "Common",
+  "inventoryIcon" : "gene_insectoid.png",
+  "description" : "creepy crawly properties.",
+  "shortdescription" : "Insectoid",
+  "learnBlueprintsOnPickup" : [ "gene_insectoid" ]
+}

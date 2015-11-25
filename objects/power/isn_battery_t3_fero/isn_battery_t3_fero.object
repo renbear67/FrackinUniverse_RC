@@ -4,17 +4,10 @@
     "tags" : [ "science" ],
   "category" : "wire",
   "price" : 2500,
-  "description" : "A power storage unit. Stores up to 2500u of power and dispenses 5u when connected.",
-  "shortdescription" : "2500u 5v Battery Unit",
+  "description" : "A power storage unit. Stores up to 8000u of power and dispenses 5u when connected.",
+  "shortdescription" : "8000u 8v Battery Unit",
   "race" : "generic",
   "printable" : false,
-
-  "apexDescription" : "It has a poor capacity, but it can run even the most power-hungry device.",
-  "avianDescription" : "Such power...",
-  "floranDescription" : "Quick zap box.",
-  "glitchDescription" : "Alarmed. The voltage this battery puts out is intense!",
-  "humanDescription" : "This thing could shock the crap out of me, if it wasn't grounded.",
-  "hylotlDescription" : "That is a lot of power.",
 
   "inventoryIcon" : "isn_battery_t3_fero_inv.png",
   "orientations" : [
@@ -35,7 +28,7 @@
   
   "scripts" : [ "/objects/power/isn_battery.lua",
                 "/objects/power/isn_sharedpowerscripts.lua",
-				"/objects/isn_sharedobjectscripts.lua"],
+		"/objects/isn_sharedobjectscripts.lua"],
   "scriptDelta" : 50,
   
   "outboundNodes" : [ [1, 3] ],
@@ -43,6 +36,6 @@
   
   "isn_powerSupplier" : true,
   "isn_powerReciever" : true,
-  "isn_batteryCapacity" : 2500,
+  "isn_batteryCapacity" : 8000,
   "isn_batteryVoltage" : 5
 }

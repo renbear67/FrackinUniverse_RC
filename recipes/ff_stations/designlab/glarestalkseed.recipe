@@ -1,11 +1,12 @@
 {
   "input" : [
-    { "item" : "chloroplast2", "count" : 1 },
-    { "item" : "fleshstrand", "count" : 3 },
-    { "item" : "musclegene2", "count" : 1 },
-    { "item" : "oculargene", "count" : 2 },
-    { "item" : "nervebundle2", "count" : 2 },
-    { "item" : "corruptionseed", "count" : 12 }
+    { "item" : "gazelemonseed", "count" : 3 },
+    { "item" : "fleshstrand", "count" : 20 },
+    { "item" : "gene_muscle", "count" : 8 },
+    { "item" : "gene_ocular", "count" : 12 },
+    { "item" : "agaranichor", "count" : 6 },
+    { "item" : "gene_nervebundle", "count" : 12 },
+    { "item" : "corruptionseed", "count" : 6 }
   ],
   "output" : {
     "item" : "glarestalkseed",

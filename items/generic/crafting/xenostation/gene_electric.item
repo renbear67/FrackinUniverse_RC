@@ -1,0 +1,8 @@
+{
+  "itemName" : "gene_electric",
+  "rarity" : "Common",
+  "inventoryIcon" : "gene_electric.png",
+  "description" : "shocking.",
+  "shortdescription" : "Electrogenic",
+  "learnBlueprintsOnPickup" : [ "gene_electric" ]
+}

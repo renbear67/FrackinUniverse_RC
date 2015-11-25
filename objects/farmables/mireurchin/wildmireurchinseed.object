@@ -7,8 +7,7 @@
   "shortdescription" : "Mireurchin Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "objectItem" : "dnasample",
-
+  
   "inventoryIcon" : "mireurchinseedicon.png",
   "orientations" : [
     {
@@ -31,16 +30,16 @@
     },
     {
       "alts" : 5,
-      "duration" : [110, 130]
+      "duration" : [110, 360]
     },
     {
       "alts" : 5,
-      "harvestPool" : "wildmireurchinHarvest",
+      "harvestPool" : "mireurchinHarvest",
       "resetToStage" : 2
     }
   ],
     "maxImmersion" : 0.125,
   "breakDropOptions" : [
-    [ [ "dnasample", 1, { } ] ]
+    [ [ "mireurchinseed", 1, { } ] ]
   ]
 }

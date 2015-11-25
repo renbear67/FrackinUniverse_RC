@@ -1,0 +1,16 @@
+  {
+  "id" : "3_chemlab_fertilizer.gearup",
+  "title" : "^#1693d5;Fertilizer",
+  "text" : "You can't accomplish much advanced plant research without ^orange;Fertilizer^white;. Always have some on hand. You'll need ^orange;Ammonium sulphate^white;, ^orange;Sulphur^white;, ^orange;Salt^white; and ^orange;Methanol^white; to make it.",
+  "completionText" : "Good. Now let's make a more complex product.",
+  "completionConditions" : [ 
+    { "type" : "gather", "item" : "ff_fertilizer", "consume" : false }
+  ],
+  "moneyRange" : [0,0],
+  "rewards" : [],
+
+  "requireTurnIn" : false,
+  "canBeAbandoned" : false,
+  "followUp" : "4_chemlab_dnasample.gearup"
+}
+ 

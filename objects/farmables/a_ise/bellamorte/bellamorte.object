@@ -7,7 +7,7 @@
   "shortdescription" : "Bella Morte",
   "objectType" : "farmable",
   "printable" : false, 
-
+  "learnBlueprintsOnPickup" : [ "arkaentree" ],
   "inventoryIcon" : "bellamorteicon.png",
   "orientations" : [
     {
@@ -26,17 +26,18 @@
 
 "stages" : [
     {
+      "alts" : 3,
       "duration" : [210, 420]
     },
     {
+      "alts" : 3,
       "duration" : [210, 420]
     },
     {
-      "alts" : 4,
+      "alts" : 5,
       "harvestPool" : "bellamorte",
       "resetToStage" : 0
     }
   ],
-  "learnBlueprintsOnPickup" : [ "arkaentree" ],
     "maxImmersion" : 0.125
   }

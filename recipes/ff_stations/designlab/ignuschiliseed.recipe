@@ -1,10 +1,9 @@
 {
   "input" : [
-    { "item" : "firegene", "count" : 1 },
-    { "item" : "chiliseed", "count" : 1 },
-    { "item" : "corefragmentore", "count" : 2 },
-    { "item" : "explosivegene", "count" : 1 },
-    { "item" : "cellresistance1", "count" : 1 }
+    { "item" : "gene_pyro", "count" : 4 },
+    { "item" : "chiliseed", "count" : 3 },
+    { "item" : "gene_resist", "count" : 4 },
+    { "item" : "gene_reactive", "count" : 2 }
   ],
   "output" : {
     "item" : "ignuschiliseed",

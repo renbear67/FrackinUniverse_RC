@@ -35,12 +35,11 @@
     {
       "duration" : [120, 360]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "kamaranpodsplantHarvest",
       "resetToStage" : 0
     }
-  ],
-
-    "maxImmersion" : 80.125
+  ]
 }

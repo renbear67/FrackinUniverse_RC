@@ -7,7 +7,6 @@
   "shortdescription" : "Arkaen Bush",
   "objectType" : "farmable",
   "printable" : false, 
-  
   "inventoryIcon" : "arkaentreeicon.png",
   "orientations" : [
     {
@@ -26,13 +25,15 @@
 
 "stages" : [
     {
+      "alts" : 3,
       "duration" : [300, 600]
     },
     {
+      "alts" : 3,
       "duration" : [300, 600]
     },
     {
-      "alts" : 4,
+      "alts" : 5,
       "harvestPool" : "arkaentree",
       "resetToStage" : 0
     }

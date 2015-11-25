@@ -1,0 +1,8 @@
+{
+  "itemName" : "gene_defense",
+  "rarity" : "Common",
+  "inventoryIcon" : "gene_defense.png",
+  "description" : "These cells are protected.",
+  "shortdescription" : "Natural Defense",
+  "learnBlueprintsOnPickup" : [ "gene_defense" ]
+}

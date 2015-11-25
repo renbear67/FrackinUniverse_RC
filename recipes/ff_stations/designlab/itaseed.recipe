@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "toxicgene", "count" : 1 },
-    { "item" : "cellmateria", "count" : 3 },
-    { "item" : "immunegene1", "count" : 1 },
-    { "item" : "regengene1", "count" : 1 }
+    { "item" : "nissseed", "count" : 1 },
+    { "item" : "cell_immunity", "count" : 8 },
+    { "item" : "cell_resist", "count" : 11 },
+    { "item" : "cell_regen", "count" : 6 }
   ],
   "output" : {
     "item" : "itaseed",

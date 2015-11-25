@@ -1,0 +1,8 @@
+{
+  "itemName" : "gene_avian",
+  "rarity" : "Common",
+  "inventoryIcon" : "gene_avian.png",
+  "description" : "Bird cells.",
+  "shortdescription" : "Avian",
+  "learnBlueprintsOnPickup" : [ "gene_avian" ]
+}

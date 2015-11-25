@@ -7,7 +7,7 @@
   "shortdescription" : "Rockroot Seed",
   "objectType" : "farmable",
   "printable" : false,
-
+  "learnBlueprintsOnPickup" : [ "beetlesproutseed" ],
   "inventoryIcon" : "rockrootseedicon.png",
   "orientations" : [
     {
@@ -38,6 +38,5 @@
       "resetToStage" : 2
     }
   ],
-  "learnBlueprintsOnPickup" : [ "beetlesproutseed" ],
     "maxImmersion" : 0.125
 }

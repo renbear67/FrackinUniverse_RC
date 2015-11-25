@@ -1,9 +1,8 @@
 {
   "input" : [
-    { "item" : "defensegene1", "count" : 1 },
-    { "item" : "cellresistance1", "count" : 1 },
-    { "item" : "biosample", "count" : 3 },
-    { "item" : "regengene1", "count" : 1 }
+    { "item" : "beakseedseed", "count" : 3 },
+    { "item" : "gene_regen", "count" : 5 },
+    { "item" : "dnasample", "count" : 2 }
   ],
   "output" : {
     "item" : "talonseedseed",

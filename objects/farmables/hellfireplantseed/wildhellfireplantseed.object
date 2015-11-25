@@ -7,8 +7,7 @@
   "shortdescription" : "Hellfire Plant Seed",
   "objectType" : "farmable",
   "printable" : false, 
-  "objectItem" : "dnasample",
-  "inventoryIcon" : "hellfireplantseedicon.png",
+    "inventoryIcon" : "hellfireplantseedicon.png",
   "orientations" : [
     {
       "dualImage" : "hellfireplantseed.png:<color>.<stage>.<alt>",
@@ -51,11 +50,11 @@
     },
     {
       "alts" : 3,
-      "duration" : [110, 130]
+      "duration" : [160, 330]
     },
     {
       "alts" : 3,
-      "harvestPool" : "wildhellfireHarvest",
+      "harvestPool" : "hellfireHarvest",
       "resetToStage" : 2
     }
   ],
@@ -69,6 +68,6 @@
     "maxImmersion" : 0.5,
     "consumeSoilMoisture" : false,
   "breakDropOptions" : [
-    [ [ "mineralsample", 1, { } ] ]
+    [ [ "hellfireplantseed", 1, { } ] ]
   ]
 }

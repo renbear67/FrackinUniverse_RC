@@ -1,9 +1,9 @@
   {
   "id" : "6_nervebundle1.gearup",
   "title" : "^#1693d5;Get some nerve",
-  "text" : "Confused. Plants should not have nerves. But some of them actually do. So you'll need to craft a ^orange;nerve bundle^white;.",
+  "text" : "Confused. Plants should not have nerves. But some of them actually do. So you'll need to locate a ^orange;Nerve Bundle^white; gene. Try a tomato plant.",
   "completionText" : "Statement. You learned much now. Let's make a last one.",
-  "completionConditions" : [ { "type" : "gather", "item" : "nervebundle1", "consume" : false }
+  "completionConditions" : [ { "type" : "gather", "item" : "gene_nervebundle", "consume" : false }
   ],
   "moneyRange" : [0,0],
   "rewards" : [],

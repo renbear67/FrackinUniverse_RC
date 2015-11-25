@@ -3,7 +3,7 @@
     { "item" : "steelplate", "count" : 2 },
     { "item" : "ironplate", "count" : 4 },
     { "item" : "fabric", "count" : 6 },
-    { "item" : "regengene1", "count" : 1 }
+    { "item" : "gene_regen", "count" : 2 }
   ],
   "output" : { "item" : "fuhoodedmask", "count" : 1 },
   "groups" : [ "armory", "armors", "all" ]

@@ -355,19 +355,23 @@
         },
         {
           "mode" : "floor",
-          "priority" : 2.0,
+          "priority" : 1.0,
           "variants" : 1,
-          "distribution" : "/biomes/distributions.config:scatteredSmall",
+          "distribution" : "/biomes/distributions.config:ffunCommon",
 
           "type" : "object",
           "objectSets" : [
             {
-              "pool" : [ [1, "diodiaseed" ] ],
+              "pool" : [ 
+              [0.35, "wilddiodiaseed" ],
+              [0.35, "wildautomatoseed" ],
+              [0.35, "wildcurrentcornseed" ]
+              
+          ],
               "parameters" : { "startingStage" : 3 }
             }
           ]
-        },
-                
+        },                
         {
           "mode" : "ceiling",
           "priority" : 1.0,

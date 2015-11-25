@@ -7,11 +7,10 @@
   "shortdescription" : "Goldenglow Seed",
   "objectType" : "farmable",
   "printable" : false, 
-  
   "lightColor" : [255, 204, 0],
   "flickerDistance" : 0.7,
   "flickerStrength" : 0.2,
-  "learnBlueprintsOnPickup" : [ "speedboosttechgrant" ],
+  "learnBlueprintsOnPickup" : [ "speedboosttechgrant", "garikleaf" ],
   "inventoryIcon" : "goldenglowseedicon.png",
   "orientations" : [
     {

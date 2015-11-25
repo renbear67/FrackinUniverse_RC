@@ -1,0 +1,8 @@
+{
+  "itemName" : "gene_chloroplast",
+  "rarity" : "Common",
+  "inventoryIcon" : "gene_chloroplast.png",
+  "description" : "Strong photosynthesis.",
+  "shortdescription" : "Chloroplast Boost",
+  "learnBlueprintsOnPickup" : [ "gene_chloroplast" ]
+}

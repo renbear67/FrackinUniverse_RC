@@ -7,7 +7,7 @@
   "shortdescription" : "Strangler Vine",
   "objectType" : "farmable",
   "printable" : false,
-
+  "learnBlueprintsOnPickup" : [ "tentacleplant" ],
   "inventoryIcon" : "stranglevineseedicon.png",
   "orientations" : [
     {
@@ -38,6 +38,5 @@
       "resetToStage" : 2
     }
   ],
-  "learnBlueprintsOnPickup" : [ "fayshroomseed" ],
     "maxImmersion" : 0.125
 }

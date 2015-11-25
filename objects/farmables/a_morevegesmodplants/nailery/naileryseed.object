@@ -30,6 +30,7 @@
     {
       "duration" : [60, 120]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "naileryHarvest",

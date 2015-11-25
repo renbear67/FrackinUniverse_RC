@@ -1,10 +1,8 @@
 {
   "input" : [
-    { "item" : "nervebundle2", "count" : 1 },
-    { "item" : "oculargene", "count" : 1 },
-    { "item" : "regengene1", "count" : 1 },
-    { "item" : "cellhardening1", "count" : 1 },
-    { "item" : "cellmateria", "count" : 3 }
+    { "item" : "mineralsample", "count" : 3 },
+    { "item" : "gene_energy", "count" : 2 },
+    { "item" : "gene_regen", "count" : 1 }
   ],
   "output" : {
     "item" : "wubstemseed",

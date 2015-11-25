@@ -7,8 +7,7 @@
   "shortdescription" : "Shadow Root Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "objectItem" : "mineralsample",
-
+    "learnBlueprintsOnPickup" : [ "petrifiedrootseed" ],
   "inventoryIcon" : "petrifiedrootseedicon.png",
   "orientations" : [
     {
@@ -31,14 +30,15 @@
     {
       "duration" : [300, 600]
     },
+
     {
       "alts" : 5,
-      "harvestPool" : "wildpetrifiedrootHarvest",
+      "harvestPool" : "petrifiedrootHarvest",
       "resetToStage" : 0
     }
   ],
     "maxImmersion" : 0.125,
   "breakDropOptions" : [
-    [ [ "mineralsample", 1, { } ] ]
+    [ [ "petrifiedrootseed", 1, { } ] ]
   ]
 }

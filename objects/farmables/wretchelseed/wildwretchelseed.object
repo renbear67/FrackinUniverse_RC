@@ -7,7 +7,7 @@
   "shortdescription" : "Wretchel Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "objectItem" : "mineralsample",
+    "learnBlueprintsOnPickup" : [ "herrodbush" ],
   "inventoryIcon" : "wretchelseedicon.png",
   "orientations" : [
     {
@@ -34,12 +34,12 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "wildwretchelHarvest",
+      "harvestPool" : "wretchelHarvest",
       "resetToStage" : 2
     }
   ],
     "maxImmersion" : 0.125,
   "breakDropOptions" : [
-    [ [ "mineralsample", 1, { } ] ]
+    [ [ "wretchelseed", 1, { } ] ]
   ]
 }

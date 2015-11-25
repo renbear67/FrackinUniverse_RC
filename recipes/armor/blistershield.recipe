@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "blisterextract", "count" : 4 },
     { "item" : "titaniumplate", "count" : 2 },
-    { "item" : "ff_silicon", "count" : 4 },
+    { "item" : "gene_harden", "count" : 2 },
     { "item" : "biochip", "count" : 4 }
   ],
   "output" : {

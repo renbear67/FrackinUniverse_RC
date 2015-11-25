@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "plantfibre", "count" : 1 },
-    { "item" : "organicsynthesis", "count" : 1 },
-    { "item" : "coldgene", "count" : 2 },
-    { "item" : "immunegene2", "count" : 1 }
+    { "item" : "fusnowberryseed", "count" : 3 },
+    { "item" : "gene_cryo", "count" : 9 },
+    { "item" : "gene_immunity", "count" : 12 },
+    { "item" : "gene_stimulant", "count" : 5 }
   ],
   "output" : {
     "item" : "blizzberryseed",

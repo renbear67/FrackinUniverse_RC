@@ -9,6 +9,7 @@
   "printable" : false, 
   "lightColor" : [22, 34, 176],
   "inventoryIcon" : "darklightflowericon.png",
+  "learnBlueprintsOnPickup" : [ "darklightflower" ],
   "orientations" : [
     {
       "dualImage" : "darklightflower.png:<color>.<stage>.<alt>",
@@ -26,13 +27,15 @@
 
 "stages" : [
     {
+      "alts" : 3,
       "duration" : [111, 120]
     },
     {
+      "alts" : 3,
       "duration" : [111, 120]
     },
     {
-      "alts" : 4,
+      "alts" : 5,
       "harvestPool" : "darklightflower",
       "resetToStage" : 0
     }

@@ -1,10 +1,10 @@
 {
   "input" : [
-    { "item" : "immunegene1", "count" : 1 },
-    { "item" : "toxicgene", "count" : 1 },
-    { "item" : "defensegene1", "count" : 1 },
-    { "item" : "cellhardening1", "count" : 1 },
-    { "item" : "biosample", "count" : 3 }
+    { "item" : "mineralsample", "count" : 5 },
+    { "item" : "gene_corrosive", "count" : 4 },
+    { "item" : "gene_immunity", "count" : 5 },
+    { "item" : "gene_harden", "count" : 4 },
+    { "item" : "wheatseed", "count" : 3 }
   ],
   "output" : {
     "item" : "whitespine",

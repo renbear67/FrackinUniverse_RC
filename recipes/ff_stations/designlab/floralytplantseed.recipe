@@ -1,9 +1,10 @@
 {
   "input" : [
-    { "item" : "regengene2", "count" : 1 },
-    { "item" : "aliencompound", "count" : 12 },
-    { "item" : "adaptivecells", "count" : 1 },
-    { "item" : "chloroplast2", "count" : 2 }
+    { "item" : "gene_regen", "count" : 12 },
+    { "item" : "aliencompound", "count" : 4 },
+    { "item" : "agaranichor", "count" : 7 },
+    { "item" : "gene_adaptivecell", "count" : 4 },
+    { "item" : "gene_chloroplast", "count" : 7 }
   ],
   "output" : {
     "item" : "floralytplantseed",

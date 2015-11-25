@@ -7,8 +7,7 @@
   "shortdescription" : "Erithian Algae",
   "objectType" : "farmable",
   "printable" : false,
-  "objectItem" : "mineralsample",
-
+  
   "inventoryIcon" : "erithianalgaeicon.png",
   "orientations" : [
     {
@@ -37,13 +36,13 @@
     },
     {
       "alts" : 3,
-      "harvestPool" : "wilderithianalgaeHarvest",
+      "harvestPool" : "erithianalgaeHarvest",
       "resetToStage" : 2
     }
   ],
     "maxImmersion" : 1.0,
     "consumeSoilMoisture" : false,
   "breakDropOptions" : [
-    [ [ "mineralsample", 1, { } ] ]
+    [ [ "erithianalgaeseed", 1, { } ] ]
   ]
 }

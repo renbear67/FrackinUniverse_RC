@@ -1,0 +1,8 @@
+{
+  "itemName" : "gene_harden",
+  "rarity" : "Common",
+  "inventoryIcon" : "gene_harden.png",
+  "description" : "Tough cells.",
+  "shortdescription" : "Hardened Shell",
+  "learnBlueprintsOnPickup" : [ "gene_harden" ]
+}

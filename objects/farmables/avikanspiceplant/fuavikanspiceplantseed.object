@@ -9,24 +9,6 @@
   "printable" : false,
   "price" : 20,
 
-  "apexDescription" : "The fruits of this plant make for excellent spices.",
-  "avianDescription" : "The fruits of this plant are not very tasty.",
-  "floranDescription" : "Ssspicccy plantsss.",
-  "glitchDescription" : "Statement. Spices from this plant can be used to add flavour to organic food.",
-  "humanDescription" : "Alien spices. Very spicy.",
-  "hylotlDescription" : "Spices made from this plant are very strong.",
-  
-  "aegiDescription" : "Spices made from this plant are very popular amongst the Avikan.",
-  "avikanDescription" : "These spices remind me of home.",
-  "erixianDescription" : "Spices made from this plant are quite valuable.",
-  "trinkDescription" : "This unit has no use for spices.",
-  "hymidDescription" : "Our food does not need additional spicing.",
-  "notixDescription" : "Spices are a large export sector for the Avikan.",
-  "jorgasianDescription" : "Spicy. Very spicy.",
-  "centensDescription" : "Spices are used by many species. Mine is not one of them.",
-  "dremetonDescription" : "These spices, combined with the right ingredients, make for an excellent meal.",
-  "hyvonDescription" : "This plant holds nothing of value for Creaton.",
-
   "inventoryIcon" : "fuavikanspiceplantseedicon.png",
   "orientations" : [
     {
@@ -51,7 +33,7 @@
     },
     {
       "alts" : 5,
-      "duration" : [400, 440]
+      "duration" : [100, 140]
     },
     {
       "alts" : 5,

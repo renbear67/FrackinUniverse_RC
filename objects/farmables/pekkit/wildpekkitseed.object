@@ -7,8 +7,7 @@
   "shortdescription" : "Pekkit",
   "objectType" : "farmable",
   "printable" : false,
-  "objectItem" : "pekkit",
-
+  
   "inventoryIcon" : "pekkitseedicon.png",
   "orientations" : [
     {
@@ -35,12 +34,12 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "wildpekkitHarvest",
+      "harvestPool" : "pekkitHarvest",
       "resetToStage" : 2
     }
   ],
     "maxImmersion" : 0.125,
   "breakDropOptions" : [
-    [ [ "dnasample", 1, { } ] ]
+    [ [ "pekkitseed", 1, { } ] ]
   ]
 }

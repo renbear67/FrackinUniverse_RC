@@ -1,10 +1,9 @@
 {
   "input" : [
-    { "item" : "cellhardening1", "count" : 1 },
-    { "item" : "adaptivecells", "count" : 1 },
-    { "item" : "coralcreepseed", "count" : 3 },
-    { "item" : "nervebundle1", "count" : 1 },
-	{ "item" : "defensegene1", "count" : 1 }
+    { "item" : "dirturchinseed", "count" : 3 },
+    { "item" : "gene_defense", "count" : 11 },
+    { "item" : "gene_aquahomeo", "count" : 2 },
+    { "item" : "gene_nervebundle", "count" : 5 }
   ],
   "output" : {
     "item" : "mireurchinseed",

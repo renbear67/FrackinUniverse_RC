@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "nervebundle1", "count" : 1 },
-    { "item" : "musclegene1", "count" : 1 },
-    { "item" : "celeritygene", "count" : 1 },
-    { "item" : "coffeeseed", "count" : 3 }
+    { "item" : "sugarcaneseed", "count" : 3 },
+    { "item" : "gene_muscle", "count" : 4 },
+    { "item" : "gene_agility", "count" : 2 },
+    { "item" : "dnasample", "count" : 3 }
   ],
   "output" : {
     "item" : "minkocoapodseed",

@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "luminescentcells", "count" : 1 },
-    { "item" : "cellhardening1", "count" : 1 },
-    { "item" : "plantfibre", "count" : 3 },
-    { "item" : "nervebundle1", "count" : 1 }
+    { "item" : "gene_bioluminescent", "count" : 1 },
+    { "item" : "bonebooseed", "count" : 1 },
+    { "item" : "gene_insectoid", "count" : 3 },
+    { "item" : "gene_nervebundle", "count" : 1 }
   ],
   "output" : {
     "item" : "pasakavineseed",

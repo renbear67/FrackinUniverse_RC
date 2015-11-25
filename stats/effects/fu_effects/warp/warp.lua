@@ -1,18 +1,6 @@
 function init()
   script.setUpdateDelta(3)
   rescuePosition = mcontroller.position()
-  --world.logInfo("--- Dumping rescuePosition ---");
-  --world.logInfo(dump(rescuePosition))
-  --world.logInfo("--- Dumping ENV ---");
-  --world.logInfo(dump(_ENV))
-  --world.logInfo("--- Dumping self ---");
-  --world.logInfo(dump(self))
-  --world.logInfo("--- Dumping entity ---");
-  --world.logInfo(dump(entity))
-  --world.logInfo("--- Dumping world ---");
-  --world.logInfo(dump(world))
-  --world.logInfo("--- Dumping tech ---");
-  --world.logInfo(dump(tech))
 end
 
 function update(dt)
@@ -22,7 +10,6 @@ function update(dt)
 	mcontroller.setPosition(rescuePosition)
 	status.setResourcePercentage("health", 0.100)
   end
-  --world.logInfo("Health: " .. status.resourcePercentage("health"))
 end
 
 function uninit()

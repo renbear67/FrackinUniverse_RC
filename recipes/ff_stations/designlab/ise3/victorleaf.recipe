@@ -1,10 +1,10 @@
 {
   "input" : [
-    { "item" : "musclegene3", "count" : 1 },
-    { "item" : "nervebundle3", "count" : 1 },
-    { "item" : "adaptivecells", "count" : 1 },
-    { "item" : "cellresistance2", "count" : 1 },
-    { "item" : "greenleafseed", "count" : 3 }
+    { "item" : "garikleaf", "count" : 1 },
+    { "item" : "gene_muscle", "count" : 24 },
+    { "item" : "gene_mammal", "count" : 9 },
+    { "item" : "gene_skeletal", "count" : 12 },
+    { "item" : "silverleafseed", "count" : 3 }
   ],
   "output" : {
     "item" : "victorleaf",

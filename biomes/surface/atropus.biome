@@ -468,7 +468,8 @@
              "objectSets" : [
                {
                  "pool" : [ 
-                   [0.50, "isn_wildmeatplant" ]
+                   [0.50, "isn_wildmeatplant" ],
+                   [0.50, "tentacleplantseed" ]
                  ],
                  "parameters" : { "startingStage" : 3 }
                }

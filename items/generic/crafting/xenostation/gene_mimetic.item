@@ -1,0 +1,8 @@
+{
+  "itemName" : "gene_mimetic",
+  "rarity" : "Common",
+  "inventoryIcon" : "gene_mimetic.png",
+  "description" : "Copycats.",
+  "shortdescription" : "Mimicry",
+  "learnBlueprintsOnPickup" : [ "gene_mimetic" ]
+}

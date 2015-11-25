@@ -7,8 +7,8 @@
   "shortdescription" : "Thornitox Seed",
   "objectType" : "farmable",
   "printable" : false, 
-  "objectItem" : "dnasample",
-
+    "learnBlueprintsOnPickup" : [ "vashtaplantseed", "spikesword", "thornrifle", "thornslinger" ],
+  
   "inventoryIcon" : "thornitoxseedicon.png",
   "orientations" : [
     {
@@ -31,7 +31,7 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "wildthornitoxHarvest",
+      "harvestPool" : "thornitoxHarvest",
       "resetToStage" : 0
     }
   ],
@@ -44,6 +44,6 @@
           },
     "maxImmersion" : 0.125,
   "breakDropOptions" : [
-    [ [ "dnasample", 1, { } ] ]
+    [ [ "thornitoxseed", 1, { } ] ]
   ]
 }

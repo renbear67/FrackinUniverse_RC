@@ -6,7 +6,7 @@
   "description" : "An interesting algae type. Excellent biofuel.",
   "shortdescription" : "Algae Pod",
   "objectType" : "farmable",
-
+  "learnBlueprintsOnPickup" : [ "algaeseed", "erithianalgaeseed" ],
   "inventoryIcon" : "algaegreenicon.png",
   "orientations" : [
     {
@@ -32,7 +32,6 @@
       "harvestPool" : "algaeHarvest"
     }
   ],
-  "learnBlueprintsOnPickup" : [ "erithianalgaeseed" ],
     "maxImmersion" : 1.0,
     "consumeSoilMoisture" : false
 }

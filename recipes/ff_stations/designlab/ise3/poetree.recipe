@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "organicsynthesis", "count" : 1 },
-    { "item" : "cellhardening1", "count" : 1 },
+    { "item" : "potatoseed", "count" : 3 },
+    { "item" : "gene_harden", "count" : 2 },
     { "item" : "cacti", "count" : 3 }
   ],
   "output" : {

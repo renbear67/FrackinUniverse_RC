@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "chloroplast1", "count" : 1 },
-    { "item" : "adaptivegene", "count" : 3 },
+    { "item" : "gene_chloroplast", "count" : 1 },
+    { "item" : "gene_adaptivecell", "count" : 1 },
     { "item" : "petalyellow", "count" : 3 }
   ],
   "output" : {

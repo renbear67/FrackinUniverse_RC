@@ -7,7 +7,7 @@
   "shortdescription" : "Shock-Shroom",
   "objectType" : "farmable",
   "printable" : false,
-
+  "learnBlueprintsOnPickup" : [ "deathblossomseed" ],
   "inventoryIcon" : "shockshroomseedicon.png",
   "orientations" : [
     {
@@ -42,6 +42,5 @@
             "damageType" : "IgnoresDef",
             "damageSourceKind" : "electroshock"
           },
-  "learnBlueprintsOnPickup" : [ "deathblossomseed" ],
     "maxImmersion" : 0.125
 }

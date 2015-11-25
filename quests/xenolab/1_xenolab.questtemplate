@@ -1,8 +1,8 @@
   {
   "id" : "1_xenolab.gearup",
   "title" : "^#1693d5;Xeno Lab",
-  "prerequisites" : [ "8_toxenolab.gearup" ],
-  "text" : "Statement. You need a ^orange;Xeno Research Lab^white;. You'll conduct your research there in order to create new forms of plant life.",
+  "prerequisites" : [ "7_chemlab_toxenolab.gearup" ],
+  "text" : "Statement. You need a ^orange;Xeno Research Lab^white;. Using this is as simple as your extractor. Seed goes in, Gene comes out.",
   "completionText" : "Emphasis. Congratulations on your creation. Let us celebrate by working.",
   "completionConditions" : [ 
     { "type" : "gather", "item" : "xenostation", "consume" : false }

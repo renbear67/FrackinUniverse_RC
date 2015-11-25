@@ -289,7 +289,7 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [1, "wildcarrotseed" ] ],
+            "pool" : [ [1, "wildfeathercrownseed" ] ],
             "parameters" : {
               "startingStage" : 2
             }
@@ -305,7 +305,7 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [1, "wildtomatoseed" ] ],
+            "pool" : [ [1, "wildlittlegoodberryseed" ] ],
             "parameters" : {
               "startingStage" : 3
             }
@@ -321,7 +321,7 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [1, "wildcoffeeseed" ] ],
+            "pool" : [ [1, "wildcorvexseed" ] ],
             "parameters" : {
               "startingStage" : 3
             }

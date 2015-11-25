@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "organicsynthesis", "count" : 1 },
-    { "item" : "aquaticcelerity", "count" : 1 },
-    { "item" : "tissueculture", "count" : 3 },
-    { "item" : "aquatichomeostasis", "count" : 1 }
+    { "item" : "reefpodseed", "count" : 3 },
+    { "item" : "gene_aquacelerity", "count" : 2 },
+    { "item" : "gene_aquahomeo", "count" : 1 },
+    { "item" : "dnasample", "count" : 1 }
   ],
   "output" : {
     "item" : "aquapodseed",

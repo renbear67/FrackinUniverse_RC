@@ -7,8 +7,8 @@
   "shortdescription" : "Niss Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "objectItem" : "dnasample",
- 
+     "learnBlueprintsOnPickup" : [ "itaseed"],
+
   "inventoryIcon" : "nissseedicon.png",
   "orientations" : [
     {
@@ -30,13 +30,13 @@
       "duration" : [120, 200]
     },
     {
-      "alts" : 5,
-      "harvestPool" : "wildnissHarvest",
-      "resetToStage" : 0
+      "alts" : 3,
+      "harvestPool" : "nissHarvest",
+      "resetToStage" : 2
     }
   ],
     "maxImmersion" : 0.125,
   "breakDropOptions" : [
-    [ [ "dnasample", 1, { } ] ]
+    [ [ "nissseed", 1, { } ] ]
   ]
 }

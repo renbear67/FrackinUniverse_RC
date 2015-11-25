@@ -8,7 +8,7 @@
   "objectType" : "farmable",
   "printable" : false,
   "price" : 100,
-
+  "learnBlueprintsOnPickup" : [ "fayshroomseed" ],
   "apexDescription" : "A delicacy of a plant, grown for use as spice.",
   "avianDescription" : "Fermented beverages are a favorite amongst the Grounded. Nothing spells religious rebellion like getting drunk off of cinnamon schnapps.",
   "floranDescription" : "Not asss hot asss chili, but cinnamon isss still hot!",

@@ -5,14 +5,9 @@
   "category" : "farmable",
   "description" : "Soft to the touch.",
   "shortdescription" : "Cellpod Seed",
-  "apexDescription" : "The cellpod is strangely squishy.",
-  "avianDescription" : "If I poke it with my beak it bursts with nasty goo.",
-  "floranDescription" : "A brother-fruit from the seas.",
-  "glitchDescription" : "Observation. The cellpod is not my favorite plant.",
-  "humanDescription" : "I wonder what will happen if I shoot at it.",
-  "hylotlDescription" : "Cellpods! Cellpods!",
 
-  
+  "learnBlueprintsOnPickup" : [ "kamaranpodsplant" ],
+
   "objectType" : "farmable",
   "printable" : false, 
   "inventoryIcon" : "cellpodsplanticon.png",
@@ -36,11 +31,11 @@
     {
       "duration" : [120, 240]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "cellpodsplantHarvest",
       "resetToStage" : 0
     }
-  ],
-    "maxImmersion" : 80.125
+  ]
 }

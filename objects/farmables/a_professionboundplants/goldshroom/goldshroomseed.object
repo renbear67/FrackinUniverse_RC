@@ -7,7 +7,7 @@
   "shortdescription" : "Gold Shroom Spore",
   "objectType" : "farmable",
   "printable" : false,
-
+  "learnBlueprintsOnPickup" : [ "zathiseed" ],
   "inventoryIcon" : "goldshroomseedicon.png",
   "orientations" : [
     {
@@ -30,6 +30,7 @@
     {
       "duration" : [120, 240]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "goldshroomHarvest",

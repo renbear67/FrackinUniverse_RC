@@ -7,9 +7,8 @@
   "shortdescription" : "Pasaka Vine",
   "objectType" : "farmable",
   "printable" : false, 
-  "objectItem" : "dnasample",
-  "lightColor" : [120, 120, 255],
-  
+    "lightColor" : [120, 120, 255],
+  "learnBlueprintsOnPickup" : [ "porphisplantseed" ],    
   "inventoryIcon" : "pasakavineseedicon.png",
   "orientations" : [
     {
@@ -32,12 +31,12 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "wildpasakaHarvest",
+      "harvestPool" : "pasakaHarvest",
       "resetToStage" : 0
     }
   ],
     "maxImmersion" : 0.125,
   "breakDropOptions" : [
-    [ [ "dnasample", 1, { } ] ]
+    [ [ "pasakavineseed", 1, { } ] ]
   ]
 }

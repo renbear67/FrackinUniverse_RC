@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "organicsynthesis", "count" : 1 },
-    { "item" : "defensegene1", "count" : 1 },
-    { "item" : "mineralsample", "count" : 3 }
+    { "item" : "cacti", "count" : 5 },
+    { "item" : "gene_immunity", "count" : 5 },
+    { "item" : "gene_stimulant", "count" : 13 }
   ],
   "output" : {
     "item" : "fuavikancactusseed",

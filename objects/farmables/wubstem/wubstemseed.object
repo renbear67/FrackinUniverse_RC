@@ -8,7 +8,8 @@
   "objectType" : "farmable",
   "printable" : false,
   "soundEffect" : "/sfx/objects/wubstem.wav",
-  "soundEffectRadius" : 15,
+  "soundEffectRadius" : 15, 
+  "learnBlueprintsOnPickup" : [ "wubstemseed" ],
   "inventoryIcon" : "wubstemseedicon.png",
   "orientations" : [
     {

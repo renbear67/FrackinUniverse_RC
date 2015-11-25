@@ -1,10 +1,10 @@
 {
   "input" : [
-    { "item" : "immunegene1", "count" : 1 },
+    { "item" : "gene_immunity", "count" : 2 },
     { "item" : "greenslime", "count" : 3 },
-    { "item" : "adaptivecells", "count" : 1 },
-    { "item" : "defensegene1", "count" : 1 },
-    { "item" : "endomorphicjelly", "count" : 4 }
+    { "item" : "gene_reactive", "count" : 3 },
+    { "item" : "gene_defense", "count" : 5 },
+    { "item" : "avesmingoseed", "count" : 3 }
   ],
   "output" : {
     "item" : "slimeplantseed",

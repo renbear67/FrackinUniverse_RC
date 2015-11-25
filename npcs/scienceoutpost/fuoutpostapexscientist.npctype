@@ -5,7 +5,7 @@
 
   "damageTeam" : 1,
     "scriptConfig" : {
-        "offeredQuests" : [ "1_biochemlab.gearup" ],
+        "offeredQuests" : [ "1_chemlab.gearup" ],
         "turnInQuests" : [ "8_tobiochem.gearup" ],
     "wander" : {
       "timeRange" : [2.0, 10.0],

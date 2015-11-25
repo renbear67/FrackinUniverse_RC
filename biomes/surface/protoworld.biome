@@ -238,12 +238,9 @@
               [0.65, "wilderithianalgaeseed" ],
               [0.65, "wildblisterbushplantseed" ],
               [0.65, "wildcorvexseed" ],
-              [0.65, "wildslimeplantseed" ],
+              [0.65, "wildmutaviskseed" ],
               [0.65, "wildvextongueseed" ],
-              [0.35, "wildguamseed" ],
-              [0.35, "wilddragonsbeardseed" ],
-              [0.35, "wildlittlerascalseed" ],
-              [0.65, "wildwubstemseed" ]
+              [0.35, "wildguamseed" ]
               ],
               "parameters" : { "startingStage" : 3 }
             }

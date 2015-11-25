@@ -7,8 +7,7 @@
   "shortdescription" : "Blue Melon Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "objectItem" : "dnasample",
-
+  
   "inventoryIcon" : "bluemelonseedicon.png",
   "orientations" : [
     {
@@ -31,14 +30,15 @@
     {
       "duration" : [120, 360]
     },
+
     {
       "alts" : 5,
-      "harvestPool" : "wildbluemelonHarvest",
+      "harvestPool" : "bluemelonHarvest",
       "resetToStage" : 0
     }
   ],
     "maxImmersion" : 0.125,
   "breakDropOptions" : [
-    [ [ "dnasample", 1, { } ] ]
+    [ [ "bluemelonseed", 1, { } ] ]
   ]
 }

@@ -7,7 +7,7 @@
   "shortdescription" : "Capriole Seed",
   "objectType" : "farmable",
   "printable" : false, 
-  "objectItem" : "dnasample",
+    "learnBlueprintsOnPickup" : [ "triplejumptechgrant", "caprioleplantseed" ],
   "inventoryIcon" : "caprioleplantseedicon.png",
   "orientations" : [
     {
@@ -36,12 +36,12 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "wildcaprioleHarvest",
+      "harvestPool" : "caprioleHarvest",
       "resetToStage" : 2
     }
   ],
-    "maxImmersion" : 0.125,
+  "maxImmersion" : 0.125,
   "breakDropOptions" : [
-    [ [ "dnasample", 1, { } ] ]
+    [ [ "caprioleplantseed", 1, { } ] ]
   ]
 }

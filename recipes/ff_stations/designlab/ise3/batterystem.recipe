@@ -1,10 +1,9 @@
 {
   "input" : [
-    { "item" : "chloroplast1", "count" : 1 },
-    { "item" : "nervebundle1", "count" : 1 },
-    { "item" : "adaptivecells", "count" : 1 },
-    { "item" : "shockgene", "count" : 1 },
-    { "item" : "oonfortaseed", "count" : 3 }
+    { "item" : "currentcornseed", "count" : 3 },
+    { "item" : "gene_energy", "count" : 3 },
+    { "item" : "gene_regen", "count" : 1 },
+    { "item" : "gene_electric", "count" : 2 }
   ],
   "output" : {
     "item" : "batterystem",

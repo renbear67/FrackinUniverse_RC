@@ -116,8 +116,8 @@
   ],
   
   
-  "mainBlock" : "waste",
-  "subBlocks" : [ "irradiatedtile", "irradiatedtile2" ],
+  "mainBlock" : "irradiatedtile",
+  "subBlocks" : [ "waste", "irradiatedtile2" ],
   "ores" : "ff_radioactiveOres",
 
   "parallax" : "/parallax/surface/irradiated.parallax",
@@ -186,11 +186,11 @@
           "objectSets" : [
             {
               "pool" : [ 
-              [0.35, "wildalgaeseed" ],
+              [0.35, "wildguamseed" ],
               [0.35, "wildtoxictopseed" ],
               [0.35, "wildoonfortaseed" ],
               [0.35, "wilddeathblossomseed" ],
-              [0.35, "wildvashtaplantseed" ],
+              [0.35, "wildlivingrootseed" ],
               [0.35, "wildporphisplantseed" ],
               [0.35, "wildenergiflowerseed" ],
               [0.35, "wilddragonsbeardseed" ]

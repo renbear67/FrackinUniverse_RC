@@ -26,13 +26,15 @@
 
 "stages" : [
     {
+      "alts" : 3,
       "duration" : [68, 111]
     },
     {
+      "alts" : 3,
       "duration" : [68, 111]
     },
     {
-      "alts" : 4,
+      "alts" : 5,
       "harvestPool" : "quellstem",
       "resetToStage" : 0
     }

@@ -7,7 +7,7 @@
   "shortdescription" : "Poe Tree",
   "objectType" : "farmable",
   "printable" : false, 
-
+  "learnBlueprintsOnPickup" : [ "bellamorte" ],
   "inventoryIcon" : "poetreeicon.png",
   "orientations" : [
     {
@@ -26,13 +26,15 @@
 
 "stages" : [
     {
+      "alts" : 3,
       "duration" : [120, 240]
     },
     {
+      "alts" : 3,
       "duration" : [120, 240]
     },
     {
-      "alts" : 4,
+      "alts" : 5,
       "harvestPool" : "poetree",
       "resetToStage" : 0
     }

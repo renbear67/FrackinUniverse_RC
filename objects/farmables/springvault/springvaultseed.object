@@ -7,7 +7,7 @@
   "shortdescription" : "Springvault Seed",
   "objectType" : "farmable",
   "printable" : false, 
-  "learnBlueprintsOnPickup" : [ "emergencybouncetechgrant" ],  
+  "learnBlueprintsOnPickup" : [ "emergencybouncetechgrant", "fletchweed" ],  
   "inventoryIcon" : "springvaultseedicon.png",
   "orientations" : [
     {

@@ -1,11 +1,11 @@
 {
   "input" : [
-    { "item" : "aggressiongene", "count" : 1 },
-    { "item" : "musclegene2", "count" : 1 },
-    { "item" : "celeritygene", "count" : 1 },
+    { "item" : "gene_rage", "count" : 3 },
+    { "item" : "gene_defense", "count" : 8 },
+    { "item" : "gene_agility", "count" : 6 },
     { "item" : "cellmatter", "count" : 3 },
     { "item" : "corruptionseed", "count" : 3 },
-    { "item" : "adaptivecells", "count" : 1 }
+    { "item" : "mineralsample", "count" : 20 }
   ],
   "output" : {
     "item" : "petrifiedrootseed",

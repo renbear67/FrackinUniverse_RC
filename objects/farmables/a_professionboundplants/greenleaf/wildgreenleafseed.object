@@ -7,8 +7,7 @@
   "shortdescription" : "Greenleaf Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "objectItem" : "dnasample",
-
+    "learnBlueprintsOnPickup" : [ "silverleafseed", "greenleafseed" ],
   "inventoryIcon" : "greenleafseedicon.png",
   "orientations" : [
     {
@@ -31,14 +30,15 @@
     {
       "duration" : [240, 420]
     },
+
     {
       "alts" : 5,
-      "harvestPool" : "wildgreenleafHarvest",
+      "harvestPool" : "greenleafHarvest",
       "resetToStage" : 0
     }
   ],
     "maxImmersion" : 0.125,
   "breakDropOptions" : [
-    [ [ "dnasample", 1, { } ] ]
+    [ [ "greenleafseed", 1, { } ] ]
   ]
 }

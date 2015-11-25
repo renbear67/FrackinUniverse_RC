@@ -23,7 +23,7 @@
   "projectileType" : "cellblastX",
   "projectile" : { 
   "speed" : 70, 
-  "power" : 4.4 , 
+  "power" : 3.0 , 
   "color" : [255, 141, 255] 
   },
   

@@ -1,9 +1,10 @@
 {
   "input" : [
-    { "item" : "organicsynthesis", "count" : 3 },
-    { "item" : "chloroplast3", "count" : 1 },
-    { "item" : "corruptionseed", "count" : 3 },
-    { "item" : "aquatichomeostasis", "count" : 1 },
+    { "item" : "grapesseed", "count" : 3 },
+    { "item" : "gene_chloroplast", "count" : 2 },
+    { "item" : "gene_resist", "count" : 5 },
+    { "item" : "gene_aquahomeo", "count" : 2 },
+    { "item" : "agaranichor", "count" : 3 },
     { "item" : "greenslime", "count" : 3 }
   ],
   "output" : {

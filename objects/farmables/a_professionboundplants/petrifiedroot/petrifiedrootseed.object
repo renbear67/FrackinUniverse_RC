@@ -7,7 +7,7 @@
   "shortdescription" : "Shadow Root Seed",
   "objectType" : "farmable",
   "printable" : false,
-
+  "learnBlueprintsOnPickup" : [ "petrifiedrootseed" ],
   "inventoryIcon" : "petrifiedrootseedicon.png",
   "orientations" : [
     {
@@ -30,6 +30,7 @@
     {
       "duration" : [300, 600]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "petrifiedrootHarvest",

@@ -30,6 +30,7 @@
     {
       "duration" : [100, 120]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "jillyrootHarvest",

@@ -26,7 +26,7 @@
   "projectileType" : "isn_flamethrower4",
   "projectile" : {
     "speed" : 120,
-    "power" : 0.12,
+    "power" : 0.09,
     "color" : [185, 44, 33]
   }
 }

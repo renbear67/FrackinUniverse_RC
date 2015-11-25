@@ -1,9 +1,9 @@
 {
   "input" : [
     { "item" : "plantfibre", "count" : 3 },
-    { "item" : "cellhardening1", "count" : 1 },
-    { "item" : "chloroplast1", "count" : 1 },
-	{ "item" : "organicsynthesis", "count" : 1 }
+    { "item" : "gene_harden", "count" : 3 },
+    { "item" : "gene_reproductive", "count" : 2 },
+	{ "item" : "gene_mimetic", "count" : 4 }
   ],
   "output" : { "item" : "mutaviskseed", "count" : 3 },
   "groups" : [ "designlab", "vegetable", "all" ]

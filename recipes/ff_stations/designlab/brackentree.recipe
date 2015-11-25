@@ -1,7 +1,8 @@
 {
   "input" : [
-    { "item" : "organicsynthesis", "count" : 2 },
-    { "item" : "nutrientpaste", "count" : 3 }
+    { "item" : "wheatseed", "count" : 1 },
+    { "item" : "dnasample", "count" : 1 },
+    { "item" : "gene_chloroplast", "count" : 2 }
   ],
   "output" : {
     "item" : "brackentreeseed",

@@ -1,10 +1,10 @@
   {
   "id" : "5_luminescent.gearup",
   "title" : "^#1693d5;Luminescent gene",
-  "text" : "Excitement. Now you have to craft a very interesting gene. ^orange;Luminescent gene^white; leads to the most awesome plants.",
-  "completionText" : "Statement. These genes can be used to craft ^orange;luminescent paste^white; in the chemlab.",
+  "text" : "Excitement. Now you have to find a very interesting gene. ^orange;Bioluminescent gene^white; can be found within Glow Fibres. You'll need 6 or more.",
+  "completionText" : "Statement. These genes can be used to craft ^orange;glowing plants^white; in the Design Lab.",
   "completionConditions" : [ 
-    { "type" : "gather", "item" : "luminescentcells", "consume" : false }
+    { "type" : "gather", "item" : "gene_bioluminescent", "consume" : false }
   ],
   "moneyRange" : [300, 400],
   "rewards" : [ ],

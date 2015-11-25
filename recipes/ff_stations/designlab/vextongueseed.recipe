@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "adaptivecells", "count" : 1 },
-    { "item" : "tissueculture", "count" : 3 },
-    { "item" : "celeritygene", "count" : 1 },
-	{ "item" : "regengene2", "count" : 1 }
+    { "item" : "kiwiseed", "count" : 3 },
+    { "item" : "gene_regen", "count" : 5 },
+    { "item" : "gene_agility", "count" : 4 },
+	  { "item" : "dnasample", "count" : 5 }
   ],
   "output" : {
     "item" : "vextongueseed",

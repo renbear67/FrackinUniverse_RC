@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "fleshstrand", "count" : 22 },
-    { "item" : "bone", "count" : 12 },
+    { "item" : "gene_skeletal", "count" : 4 },
     { "item" : "ff_resin", "count" : 6 },
     { "item" : "carbonplate", "count" : 4 },
     { "item" : "liquidironfu", "count" : 60 }

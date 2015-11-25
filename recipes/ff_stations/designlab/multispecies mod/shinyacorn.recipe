@@ -1,10 +1,9 @@
 {
   "input" : [
-    { "item" : "firegene", "count" : 1 },
-    { "item" : "cellresistance3", "count" : 1 },
-    { "item" : "cellhardening3", "count" : 1 },
-    { "item" : "luminescentcells", "count" : 2 },
-    { "item" : "biosample", "count" : 3 }
+    { "item" : "automatoseed", "count" : 3 },
+    { "item" : "gene_regen", "count" : 8 },
+    { "item" : "gene_insectoid", "count" : 3 },
+    { "item" : "mineralsample", "count" : 13 }
   ],
   "output" : {
     "item" : "shinyacornseed",

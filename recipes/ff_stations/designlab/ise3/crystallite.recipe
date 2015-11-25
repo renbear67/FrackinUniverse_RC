@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "cellhardening3", "count" : 1 },
     { "item" : "crystalplantseed", "count" : 3 },
-    { "item" : "chloroplast2", "count" : 1 },
-    { "item" : "adaptivecells", "count" : 1 }
+    { "item" : "gene_stealth", "count" : 8 },
+    { "item" : "dnasample", "count" : 11 },
+    { "item" : "gene_reactive", "count" : 8 }
   ],
   "output" : {
     "item" : "crystallite",

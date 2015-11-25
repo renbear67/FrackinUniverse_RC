@@ -7,8 +7,7 @@
   "shortdescription" : "Neuropod Seed",
   "objectType" : "farmable",
   "printable" : false, 
-  "objectItem" : "dnasample",
-
+    "learnBlueprintsOnPickup" : [ "genesiberryseed"],
   "inventoryIcon" : "neuropodseedicon.png",
   "orientations" : [
     {
@@ -35,12 +34,12 @@
     },
     {
       "alts" : 4,
-      "harvestPool" : "wildneuropodHarvest",
+      "harvestPool" : "neuropodHarvest",
       "resetToStage" : 2
     }
   ],
     "maxImmersion" : 0.525,
   "breakDropOptions" : [
-    [ [ "dnasample", 1, { } ] ]
+    [ [ "neuropodseed", 1, { } ] ]
   ]
 }

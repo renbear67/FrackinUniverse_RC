@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "organicsynthesis", "count" : 1 },
-    { "item" : "regengene1", "count" : 1 },
-    { "item" : "nutrientpaste", "count" : 3 }
+    { "item" : "coralcreepseed", "count" : 3 },
+    { "item" : "gene_regen", "count" : 6 },
+    { "item" : "gene_stimulant", "count" : 7 }
   ],
   "output" : {
     "item" : "cellpodsplant",

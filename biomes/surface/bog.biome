@@ -135,38 +135,15 @@
           "objectSets" : [
             {
               "pool" : [ 
-               [0.35, "wildalgaeseed" ]
-          ],
-              "parameters" : { "startingStage" : 3 }
-            }
-          ]
-        },
-        {
-          "mode" : "floor",
-          "priority" : 1.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:potsRare",
-
-          "type" : "object",
-          "objectSets" : [
-            {
-              "pool" : [ 
-          [0.35, "wildpasakavineseed" ], 
-          [0.35, "wildbrackentreeseed" ],
-          [0.35, "wildpussplumseed" ],
-          [0.35, "wildcaprioleplantseed" ],
-          [0.35, "wildthornitoxseed" ],
-          [0.35, "wildighantseed" ],
-          [0.35, "wildwartweedseed" ],
-          [0.35, "wildstranglevineseed" ],
-          [0.35, "wildblisterbushplantseed" ],
-          [0.35, "wildenergiflowerseed" ],
-          [0.35, "wildleafshellseed" ],
-          [0.35, "wildjillyrootseed" ],
-          [0.35, "wildginsengseed" ],
-          [0.35, "wildlivingrootseed" ],
-          [0.35, "wildgoldshroomseed" ],
-          [0.35, "wildfayshroomseed" ]
+                [0.35, "wildalgaeseed" ],
+          	[0.35, "wildbrackentreeseed" ],
+          	[0.35, "wildpussplumseed" ],
+          	[0.35, "wildthornitoxseed" ],
+          	[0.35, "wildwartweedseed" ],
+          	[0.35, "wildbloodrootseed" ],
+          	[0.35, "wildminkocoapodseed" ],
+          	[0.35, "wildjillyrootseed" ],
+          	[0.35, "wildginsengseed" ]          	
           ],
               "parameters" : { "startingStage" : 3 }
             }

@@ -1,9 +1,8 @@
 {
   "input" : [
-    { "item" : "celeritygene", "count" : 1},
-    { "item" : "immunegene2", "count" : 1},
-    { "item" : "toxicgene", "count" : 1},
-    { "item" : "bonebooseed", "count" : 3}
+    { "item" : "mineralsample", "count" : 1},
+    { "item" : "gene_immunity", "count" : 2},
+    { "item" : "gene_stimulant", "count" : 1}
   ],
   "output" : {
     "item" : "nissseed",

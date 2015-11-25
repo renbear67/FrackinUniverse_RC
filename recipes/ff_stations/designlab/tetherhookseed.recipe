@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "nervebundle3", "count" : 1 },
-    { "item" : "musclegene2", "count" : 2 },
-    { "item" : "organicsynthesis", "count" : 1 },
-    { "item" : "biosample", "count" : 3 }
+    { "item" : "gene_nervebundle", "count" : 12 },
+    { "item" : "gene_muscle", "count" : 2 },
+    { "item" : "gene_void", "count" : 5 },
+    { "item" : "fayshroomseed", "count" : 3 }
   ],
   "output" : {
     "item" : "tetherhookseed",

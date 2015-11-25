@@ -1,9 +1,9 @@
 {
   "input" : [
     { "item" : "cornseed", "count" : 3 },
-    { "item" : "musclegene1", "count" : 1 },
-    { "item" : "adaptivecells", "count" : 1 },
-    { "item" : "nervebundle1", "count" : 1 }
+    { "item" : "gene_muscle", "count" : 1 },
+    { "item" : "gene_regen", "count" : 3 },
+    { "item" : "gene_nervebundle", "count" : 1 }
   ],
   "output" : {
     "item" : "biscornseed",

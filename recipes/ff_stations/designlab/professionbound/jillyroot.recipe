@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "regengene1", "count" : 1 },
-    { "item" : "adaptivecells", "count" : 1 },
-    { "item" : "biosample", "count" : 3 }
+    { "item" : "coffeeseed", "count" : 3 },
+    { "item" : "gene_regen", "count" : 3 },
+    { "item" : "dnasample", "count" : 2 }
   ],
   "output" : {
     "item" : "jillyrootseed",

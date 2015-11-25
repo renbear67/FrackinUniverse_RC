@@ -6,8 +6,7 @@
   "description" : "Genetically improved! Talonseed! 100% tastier nostril!",
   "shortdescription" : "Talonseed Seed",
   "objectType" : "farmable",
-  "objectItem" : "dnasample",
-
+  
   "inventoryIcon" : "talonseedicon.png",
   "orientations" : [
     {
@@ -30,12 +29,12 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "wildtalonseedHarvest",
+      "harvestPool" : "talonseedHarvest",
       "resetToStage" : 0
     }
   ],
     "maxImmersion" : 0.125,
   "breakDropOptions" : [
-    [ [ "dnasample", 1, { } ] ]
+    [ [ "talonseedseed", 1, { } ] ]
   ]
 }

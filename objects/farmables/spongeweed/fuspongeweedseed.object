@@ -8,6 +8,8 @@
   "objectType" : "farmable",
   "printable" : false, 
 
+  "learnBlueprintsOnPickup" : [ "fuspongeweedseed" ],
+
   "inventoryIcon" : "spongeweedseedicon.png",
   "orientations" : [
     {

@@ -1,10 +1,10 @@
 {
   "input" : [
-    { "item" : "immunegene2", "count" : 1 },
-    { "item" : "celeritygene", "count" : 1 },
-    { "item" : "coldgene", "count" : 1 },
-    { "item" : "adaptivecells", "count" : 1 },
-    { "item" : "bonebooseed", "count" : 3 }
+    { "item" : "cellpodsplant", "count" : 3 },
+    { "item" : "mineralsample", "count" : 5 },
+    { "item" : "gene_cryo", "count" : 3 },
+    { "item" : "gene_immunity", "count" : 7 },
+    { "item" : "shroom", "count" : 6 }
   ],
   "output" : {
     "item" : "kamaranpodsplant",

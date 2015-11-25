@@ -7,8 +7,7 @@
   "shortdescription" : "Wild Mutavisk",
   "objectType" : "farmable",
   "printable" : false,
-  "objectItem" : "dnasample",
-
+  
   "inventoryIcon" : "mutaviskseedicon.png",
   "orientations" : [
     {
@@ -31,16 +30,16 @@
     },
     {
       "alts" : 5,
-      "duration" : [110, 130]
+      "duration" : [110, 190]
     },
     {
       "alts" : 5,
-      "harvestPool" : "wildmutaviskHarvest",
+      "harvestPool" : "mutaviskHarvest",
       "resetToStage" : 2
     }
   ],
     "maxImmersion" : 0.125,
   "breakDropOptions" : [
-    [ [ "dnasample", 1, { } ] ]
+    [ [ "mutaviskseed", 1, { } ] ]
   ]
 }

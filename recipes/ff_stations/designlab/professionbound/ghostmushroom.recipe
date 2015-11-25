@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "defensegene2", "count" : 1 },
-    { "item" : "adaptivecells", "count" : 2 },
-    { "item" : "shroom", "count" : 3 },
-    { "item" : "nervebundle1", "count" : 1 }
+    { "item" : "gene_stealth", "count" : 12 },
+    { "item" : "gene_adaptivecell", "count" : 6 },
+    { "item" : "shroom", "count" : 8 },
+    { "item" : "automatoseed", "count" : 1 }
   ],
   "output" : {
     "item" : "ghostmushroomseed",

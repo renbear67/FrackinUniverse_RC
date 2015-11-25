@@ -213,14 +213,14 @@
       [0, [
           {
             "head" : [
-              { "name" : "beesuithead", "parameters" : { "colorIndex" : 1 } }
+              { "name" : "fubeesuithead", "parameters" : { "colorIndex" : 1 } }
             ],
             "chest" : [
-              { "name" : "beesuitchest", "parameters" : { "colorIndex" : 1 } }
+              { "name" : "fubeesuitchest", "parameters" : { "colorIndex" : 1 } }
             ],
 
             "legs" : [
-              { "name" : "beesuitpants", "parameters" : { "colorIndex" : 1 } }
+              { "name" : "fubeesuitpants", "parameters" : { "colorIndex" : 1 } }
 			]
           }
         ] ]

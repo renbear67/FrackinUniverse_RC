@@ -8,26 +8,7 @@
   "objectType" : "farmable",
   "printable" : false,
   "price" : 20,
-  "hasObjectItem" : false,
-
-  "apexDescription" : "A juicy cactus. It looks better than it tastes.",
-  "avianDescription" : "Colourful cacti. Not very tasty.",
-  "floranDescription" : "Juicccy green plantsss.",
-  "glitchDescription" : "Statement. Cactus spines make for excellent projectiles.",
-  "humanDescription" : "Alien cacti. I prefer those from Earth.",
-  "hylotlDescription" : "A plant filled with water. A relief to any who live in the desert.",
   
-  "aegiDescription" : "A cactus originally found on Kadavan.",
-  "avikanDescription" : "A cactus from home. Vital for life in the desert.",
-  "erixianDescription" : "A plant full of water. It would not survive on Heragon.",
-  "trinkDescription" : "Cutting this plant releases water. This unit could use some.",
-  "hymidDescription" : "Juicy plants full of water. Similar plants grow on our home planet.",
-  "notixDescription" : "A big, juicy plant. Very green.",
-  "jorgasianDescription" : "A cactus. Those spines might hurt.",
-  "centensDescription" : "Cacti are found on many desert planets. A result of the Seeding.",
-  "dremetonDescription" : "Like the cacti on Elithia, this plant is vital to life in the desert.",
-  "hyvonDescription" : "Only the weak are hurt by the spines of this plant. We are not weak.",
-
   "inventoryIcon" : "fuavikancactusseedicon.png",
   "orientations" : [
     {
@@ -52,7 +33,7 @@
     },
     {
       "alts" : 5,
-      "duration" : [400, 440]
+      "duration" : [100, 140]
     },
     {
       "alts" : 5,

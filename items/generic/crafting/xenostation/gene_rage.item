@@ -1,0 +1,8 @@
+{
+  "itemName" : "gene_rage",
+  "rarity" : "Common",
+  "inventoryIcon" : "gene_rage.png",
+  "description" : "Anger and rage.",
+  "shortdescription" : "Epinephrine",
+  "learnBlueprintsOnPickup" : [ "gene_rage" ]
+}

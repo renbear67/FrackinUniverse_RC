@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "neonmelonseed", "count" : 1 },
-    { "item" : "celeritygene", "count" : 1 },
-    { "item" : "defensegene2", "count" : 1 },
-    { "item" : "cellhardening3", "count" : 1 }
+    { "item" : "currentcornseed", "count" : 3 },
+    { "item" : "gene_regen", "count" : 8 },
+    { "item" : "gene_insectoid", "count" : 3 },
+    { "item" : "mineralsample", "count" : 13 }
   ],
   "output" : {
     "item" : "rockrootseed",

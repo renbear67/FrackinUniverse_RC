@@ -7,7 +7,7 @@
   "shortdescription" : "Yellowfoot Shroom",
   "objectType" : "farmable",
   "printable" : false,
-
+  "learnBlueprintsOnPickup" : [ "yellowfootseed", "pinkloomseed" ],
   "inventoryIcon" : "yellowfootseedicon.png",
   "orientations" : [
     {
@@ -30,12 +30,12 @@
     {
       "duration" : [120, 240]
     },
+
     {
       "alts" : 5,
       "harvestPool" : "yellowfootHarvest",
       "resetToStage" : 0
     }
   ],
-  "learnBlueprintsOnPickup" : [ "silverleafseed" ],
     "maxImmersion" : 0.125
 }

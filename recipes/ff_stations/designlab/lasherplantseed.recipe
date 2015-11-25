@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "aggressiongene", "count" : 1 },
-    { "item" : "defensegene1", "count" : 1 }, 
-    { "item" : "fleshstrand", "count" : 3 },
-    { "item" : "nervebundle1", "count" : 1 }
+    { "item" : "minkocoapodseed", "count" : 3 },
+    { "item" : "cell_rage", "count" : 5 }, 
+    { "item" : "fleshstrand", "count" : 8 },
+    { "item" : "cell_nervebundle", "count" : 7 }
   ],
   "output" : {
     "item" : "lasherplantseed",

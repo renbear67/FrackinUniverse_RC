@@ -288,20 +288,15 @@
               "pool" : [ 
               [0.35, "wildcaprioleplantseed" ],
               [0.35, "flowerspring" ],
-              [0.35, "wildlittlegoodberryseed" ],
+              [0.35, "wildcorvexseed" ],
               [0.35, "wildmutaviskseed" ],
               [0.35, "wildighantseed" ],
-              [0.35, "wildmelodistarseed" ],
-              [0.35, "wildrockrootseed" ],
               [0.35, "wildmiraclegrassseed" ],
-              [0.35, "wildshinyacornseed" ],
               [0.35, "wildtyvokkseed" ],
               [0.35, "wildvextongueseed" ],
-              [0.35, "wildlactariusindigoseed" ],
-              [0.35, "wildonionseed" ],
+              [0.35, "wildpearlpeaseed" ],
               [0.35, "wildgoldshroomseed" ],
               [0.35, "wildhopsseed" ]
-          
               ],
               "parameters" : { "startingStage" : 3 }
             }

@@ -18,7 +18,7 @@ local recipes =
 -- bees mod content
 {inputs = { darkcomb=1 }, outputs = { shadowgasliquid=2 }, time = 0.1 },
 {inputs = { normalcomb=1 }, outputs = { fu_liquidhoney=2 }, time = 0.1 },
-{inputs = { arcticcomb=1 }, outputs = { frozenwater=2 }, time = 0.1 },
+{inputs = { arcticcomb=1 }, outputs = { ice=2 }, time = 0.1 },
 {inputs = { aridcomb=1 }, outputs = { sand=2 }, time = 0.1 },
 {inputs = { exceptionalcomb=1 }, outputs = { fu_liquidhoney=5 }, time = 0.1 },
 {inputs = { flowercomb=1 }, outputs = { liquidorganicsoup=2 }, time = 0.1 },
@@ -156,7 +156,6 @@ local recipes =
 {inputs = { fossilore=1 }, outputs = { tissueculture=4 }, time = 0.1},
 {inputs = { fleshstrand=10 }, outputs = { geneticmaterial=4 }, time = 0.1},
 {inputs = { giantflowerpetal=1 }, outputs = { tissueculture=4 }, time = 0.1},
-{inputs = { glowfibre=6 }, outputs = { luminescentpaste=4 }, time = 0.1},
 {inputs = { gnome=1 }, outputs = { bone=4 }, time = 0.1},
 {inputs = { laboil=1 }, outputs = { liquidoil=40 }, time = 0.1},
 {inputs = { greenslime=1 }, outputs = { tissueculture=4 }, time = 0.1},

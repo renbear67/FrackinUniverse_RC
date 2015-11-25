@@ -35,7 +35,7 @@
     },
     {
       "alts" : 3,
-      "harvestPool" : "wilddeathblossomHarvest",
+      "harvestPool" : "deathblossomHarvest",
       "resetToStage" : 2
     }
   ],
@@ -49,6 +49,6 @@
           },
     "maxImmersion" : 0.125,
   "breakDropOptions" : [
-    [ [ "dnasample", 1, { } ] ]
+    [ [ "deathblossomseed", 1, { } ] ]
   ]
 }

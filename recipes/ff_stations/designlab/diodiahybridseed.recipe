@@ -1,10 +1,9 @@
 {
   "input" : [
-    { "item" : "cellresistance1", "count" : 1 },
-    { "item" : "regengene1", "count" : 1 },
-    { "item" : "diodiaseed", "count" : 1 },
-    { "item" : "currentcornseed", "count" : 1 },
-    { "item" : "organicsynthesis", "count" : 1 }
+    { "item" : "diodiaseed", "count" : 3 },
+    { "item" : "gene_energy", "count" : 1 },
+    { "item" : "dnasample", "count" : 1 },
+    { "item" : "currentcornseed", "count" : 1 }
   ],
   "output" : {
     "item" : "diodiahybridseed",

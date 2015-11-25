@@ -1,10 +1,10 @@
   {
   "id" : "3_organicsynthesis.gearup",
-  "title" : "^#1693d5;Organic synthesis",
-  "text" : "Statement. The ^orange;Organic synthesis^white; gene is a bit more complex. You will now understand why we made you learn how to craft ^orange;fertilizer^white;. You'll use it right now.",
-  "completionText" : "Enthusiastic. Excellent. Now you can start crafting plants. Informative. I have more to teach you.",
+  "title" : "^#1693d5;Healthy Cells",
+  "text" : "Statement. The ^orange;Regeneration^white; gene is necessary for most healing plants. Detail. Miracle Grass is a potential source of these genes.",
+  "completionText" : "Informative. I have more to teach you.",
   "completionConditions" : [ 
-    { "type" : "gather", "item" : "organicsynthesis", "consume" : false }
+    { "type" : "gather", "item" : "gene_regen", "consume" : false }
   ],
   "moneyRange" : [0,0],
   "rewards" : [],

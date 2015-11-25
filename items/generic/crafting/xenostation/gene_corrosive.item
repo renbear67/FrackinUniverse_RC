@@ -1,0 +1,8 @@
+{
+  "itemName" : "gene_corrosive",
+  "rarity" : "Common",
+  "inventoryIcon" : "gene_corrosive.png",
+  "description" : "Melty goodness.",
+  "shortdescription" : "Corrosive",
+  "learnBlueprintsOnPickup" : [ "gene_corrosive" ]
+}

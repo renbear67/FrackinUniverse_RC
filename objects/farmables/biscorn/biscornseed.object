@@ -7,7 +7,7 @@
   "shortdescription" : "Biscorn Seed",
   "objectType" : "farmable",
   "printable" : false,
-
+  "learnBlueprintsOnPickup" : [ "littlerascalseed" ],
   "apexDescription" : "Dog biscuits that grow in the place of corn.",
   "avianDescription" : "It's a corn for pets.",
   "floranDescription" : "Crunchy crunchy bissscorn!",
@@ -45,6 +45,5 @@
       "resetToStage" : 2
     }
   ],
-  "learnBlueprintsOnPickup" : [ "littlerascalseed" ],
     "maxImmersion" : 0.125
 }

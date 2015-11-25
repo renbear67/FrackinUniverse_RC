@@ -1,10 +1,10 @@
 {
   "input" : [
-    { "item" : "nervebundle2", "count" : 1 },
-    { "item" : "adaptivecells", "count" : 1 },
-    { "item" : "shockgene", "count" : 1 },
-    { "item" : "chloroplast2", "count" : 1 },
-    { "item" : "petalblue", "count" : 3 }
+    { "item" : "greenleafseed", "count" : 3 },
+    { "item" : "gene_energy", "count" : 12 },
+    { "item" : "gene_electric", "count" : 3 },
+    { "item" : "mineralsample", "count" : 9 },
+    { "item" : "petalblue", "count" : 10 }
   ],
   "output" : {
     "item" : "silverleafseed",

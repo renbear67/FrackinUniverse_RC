@@ -26,13 +26,15 @@
 
 "stages" : [
     {
+      "alts" : 3,
       "duration" : [240, 420]
     },
     {
+      "alts" : 3,
       "duration" : [240, 420]
     },
     {
-      "alts" : 4,
+      "alts" : 5,
       "harvestPool" : "fletchweed",
       "resetToStage" : 0
     }

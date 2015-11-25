@@ -22,12 +22,12 @@ function update(dt)
 	-- check current power production and set the animation state accordingly
 	if storage.currentpowerprod > 90 then
 		entity.setAnimationState("screen", "slow")
-                entity.setLightColor(entity.configParameter("lightColor", {126, 236, 255}))
+                entity.setLightColor(entity.configParameter("lightColor", {126, 206, 255}))
                 entity.setSoundEffectEnabled(true)
 	elseif storage.currentpowerprod > 50 then
 		entity.setAnimationState("screen", "slow")
 		entity.setAnimationState("fans", "slow")
-                entity.setLightColor(entity.configParameter("lightColor", {70, 156, 161}))		
+                entity.setLightColor(entity.configParameter("lightColor", {70, 126, 161}))		
 		entity.setSoundEffectEnabled(true)
 	elseif storage.currentpowerprod > 10 then
 		entity.setAnimationState("screen", "slow")
@@ -79,11 +79,11 @@ function isn_getCurrentPowerOutput(divide)
 	if divisor < 1 then divisor = 1 end
 	
 	local powercount = 0
-	if storage.currentpowerprod > 90 then powercount = 24
-	elseif storage.currentpowerprod > 70 then powercount = 18
-	elseif storage.currentpowerprod > 50 then powercount = 12
-	elseif storage.currentpowerprod > 30 then powercount = 9
-	elseif storage.currentpowerprod > 10 then powercount = 6
+	if storage.currentpowerprod > 90 then powercount = 34
+	elseif storage.currentpowerprod > 70 then powercount = 24
+	elseif storage.currentpowerprod > 50 then powercount = 18
+	elseif storage.currentpowerprod > 30 then powercount = 12
+	elseif storage.currentpowerprod > 10 then powercount = 7
 	else powercount = 0 end
 	---world.logInfo("TGCPOD: Powercount is" .. powercount)
 	

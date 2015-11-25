@@ -7,7 +7,7 @@
   "shortdescription" : "Vorit Seed",
   "objectType" : "farmable",
   "printable" : false,
-
+  "learnBlueprintsOnPickup" : [ "aquapodseed" ],
   "inventoryIcon" : "voritseedicon.png",
   "orientations" : [
     {

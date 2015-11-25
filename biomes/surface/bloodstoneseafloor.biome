@@ -117,6 +117,22 @@
       "items" : [
         {
           "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:ffunCommon",
+
+          "type" : "object",
+          "objectSets" : [
+            {
+              "pool" : [ 
+              [0.45, "wilderithianalgaeseed" ]
+              ],
+              "parameters" : { "startingStage" : 3 }
+            }
+          ]
+        },
+        {
+          "mode" : "floor",
           "priority" : 3.0,
           "variants" : 1,
           "distribution" : "/biomes/distributions.config:tiyDist",

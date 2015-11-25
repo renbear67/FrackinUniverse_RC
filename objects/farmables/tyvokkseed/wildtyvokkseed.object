@@ -7,7 +7,7 @@
   "shortdescription" : "Tyvokk seed",
   "objectType" : "farmable",
   "printable" : false,
-  "objectItem" : "dnasample",
+  
   "inventoryIcon" : "tyvokkseedicon.png",
   "orientations" : [
     {
@@ -34,12 +34,12 @@
     },
     {
       "alts" : 3,
-      "harvestPool" : "wildtyvokkHarvest",
+      "harvestPool" : "tyvokkHarvest",
       "resetToStage" : 2
     }
   ],
     "maxImmersion" : 0.125,
   "breakDropOptions" : [
-    [ [ "dnasample", 1, { } ] ]
+    [ [ "tyvokkseed", 1, { } ] ]
   ]
 }

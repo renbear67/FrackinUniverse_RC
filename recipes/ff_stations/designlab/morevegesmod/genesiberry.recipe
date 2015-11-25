@@ -1,10 +1,10 @@
 {
   "input" : [
-    { "item" : "regengene3", "count" : 1 },
-    { "item" : "nervebundle3", "count" : 1 },
-    { "item" : "musclegene2", "count" : 1 },
-    { "item" : "cellmatter", "count" : 3 },
-    { "item" : "chloroplast3", "count" : 2 }
+    { "item" : "neuropodseed", "count" : 3 },
+    { "item" : "gene_nervebundle", "count" : 8 },
+    { "item" : "gene_regen", "count" : 30 },
+    { "item" : "cellmatter", "count" : 12 },
+    { "item" : "gene_chloroplast", "count" : 9 }
   ],
   "output" : {
     "item" : "genesiberryseed",

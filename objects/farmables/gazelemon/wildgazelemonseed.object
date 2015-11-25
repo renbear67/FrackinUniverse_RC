@@ -6,8 +6,7 @@
   "description" : "The iris is the best part. Helps eyesight in the dark.",
   "shortdescription" : "Gazelemon Seed",
   "objectType" : "farmable",
-  "objectItem" : "dnasample",
-
+    "learnBlueprintsOnPickup" : [ "blisterbushplantseed" ],
   "inventoryIcon" : "gazelemonseedicon.png",
   "orientations" : [
     {
@@ -34,12 +33,12 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "wildgazelemonHarvest",
+      "harvestPool" : "gazelemonHarvest",
       "resetToStage" : 2
     }
   ],
     "maxImmersion" : 0.125,
   "breakDropOptions" : [
-    [ [ "dnasample", 1, { } ] ]
+    [ [ "gazelemonseed", 1, { } ] ]
   ]
 }

@@ -8,7 +8,8 @@
   "effects" : [ [
     {
         "effect" : "honeyheal6",
-        "duration" :180  },
+        "duration" :180  
+    },
     {
         "effect" : "fedhoney",
         "duration" : 180

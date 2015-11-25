@@ -9,7 +9,7 @@
   "printable" : false,
   "soundEffect" : "/sfx/objects/wubstem.wav",
   "soundEffectRadius" : 15,  
-  "objectItem" : "dnasample",
+    "learnBlueprintsOnPickup" : [ "wubstemseed" ],
   "inventoryIcon" : "wubstemseedicon.png",
   "orientations" : [
     {
@@ -36,12 +36,12 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "wildwubstemHarvest",
+      "harvestPool" : "wubstemHarvest",
       "resetToStage" : 2
     }
   ],
     "maxImmersion" : 0.125,
   "breakDropOptions" : [
-    [ [ "dnasample", 1, { } ] ]
+    [ [ "wubstemseed", 1, { } ] ]
   ]
 }

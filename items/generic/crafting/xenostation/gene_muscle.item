@@ -1,0 +1,8 @@
+{
+  "itemName" : "gene_muscle",
+  "rarity" : "Common",
+  "inventoryIcon" : "gene_muscle.png",
+  "description" : "Strength.",
+  "shortdescription" : "Musculature",
+  "learnBlueprintsOnPickup" : [ "gene_muscle" ]
+}

@@ -1,10 +1,9 @@
 {
   "input" : [
-    { "item" : "organicsynthesis", "count" : 1 },
-    { "item" : "firegene", "count" : 1 },
-    { "item" : "cellhardening3", "count" : 2 },
-    { "item" : "shockgene", "count" : 2 },
-    { "item" : "talonseedseed", "count" : 3 }
+    { "item" : "gene_mammal", "count" : 4 },
+    { "item" : "gene_avian", "count" : 12 },
+    { "item" : "zathiseed", "count" : 3 },
+    { "item" : "biosample", "count" : 9 }
   ],
   "output" : {
     "item" : "xaxseed",

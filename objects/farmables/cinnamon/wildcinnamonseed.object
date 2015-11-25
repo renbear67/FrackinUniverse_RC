@@ -7,8 +7,7 @@
   "shortdescription" : "Cinnamon Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "objectItem" : "cinnamonseed",
-
+    "learnBlueprintsOnPickup" : [ "fayshroomseed" ],
   "apexDescription" : "A delicacy of a plant, grown for use as spice.",
   "avianDescription" : "Fermented beverages are a favorite amongst the Grounded. Nothing spells religious rebellion like getting drunk off of cinnamon schnapps.",
   "floranDescription" : "Not asss hot asss chili, but cinnamon isss still hot!",
@@ -44,5 +43,8 @@
       "duration" : [60, 200]
     }
   ],
-    "maxImmersion" : 0.125
+  "maxImmersion" : 0.125,
+  "breakDropOptions" : [
+    [ [ "cinnamonseed", 1, { } ] ]
+  ]
 }

@@ -1,0 +1,8 @@
+{
+  "itemName" : "gene_aquacelerity",
+  "rarity" : "Common",
+  "inventoryIcon" : "gene_aquacelerity.png",
+  "description" : "Aquatic celerity",
+  "shortdescription" : "Aquatic Celerity",
+  "learnBlueprintsOnPickup" : [ "gene_aquacelerity" ]
+}

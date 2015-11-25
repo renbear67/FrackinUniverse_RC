@@ -81,7 +81,7 @@
 //fu liquids
     "bloodliquid" : { "geneticmaterial" : 13,"tissueculture" : 11, "dnasample" : 5 },
     "liquidbioooze" : { "liquidpoison" : 11,"ff_silicon" : 6 },
-    "liquidblacktar" : { "liquidoil" : 16,"fu_carbon" : 11 },
+    "liquidblacktar" : { "liquidoil" : 46,"fu_carbon" : 21 },
     "liquidorganicsoup" : { "geneticmaterial" : 12,"tissueculture" : 12, "dnasample" : 5 },
     "vialproto" : { "protociteore" : 6,"rawminerals" : 22,"nutrientpaste" : 15  },
     "liquidelderfluid" : { "plutoniumore" : 11,"rawminerals" : 15, "aliencompound" : 4 },

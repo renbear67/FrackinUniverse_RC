@@ -7,7 +7,7 @@
   "shortdescription" : "Melodistar Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "objectItem" : "mineralsample",
+    "learnBlueprintsOnPickup" : [ "floralytplantseed"],
 
   "lightColor" : [200, 200, 30],
   
@@ -33,16 +33,16 @@
     },
     {
       "alts" : 5,
-      "duration" : [110, 130]
+      "duration" : [240, 420]
     },
     {
       "alts" : 5,
-      "harvestPool" : "wildmelodistarHarvest",
+      "harvestPool" : "melodistarHarvest",
       "resetToStage" : 2
     }
   ],
     "maxImmersion" : 0.125,
   "breakDropOptions" : [
-    [ [ "mineralsample", 1, { } ] ]
+    [ [ "melodistarseed", 1, { } ] ]
   ]
 }

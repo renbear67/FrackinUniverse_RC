@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "organicsynthesis", "count" : 2 },
-    { "item" : "cellhardening1", "count" : 1 },
-    { "item" : "dirturchinseed", "count" : 3 },
-    { "item" : "aquatichomeostasis", "count" : 1 }
+    { "item" : "fuspongeweedseed", "count" : 3 },
+    { "item" : "gene_immunity", "count" : 6 },
+    { "item" : "gene_aquacelerity", "count" : 9 },
+    { "item" : "dnasample", "count" : 8 }
   ],
   "output" : {
     "item" : "goldenseaspongeplant",

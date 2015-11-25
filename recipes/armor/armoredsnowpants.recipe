@@ -1,6 +1,7 @@
 {
   "input" : [
     { "item" : "fabric", "count" : 12 },
+    { "item" : "gene_resist", "count" : 1 },
     { "item" : "ironplate", "count" : 2}
   ],
   "output" : {

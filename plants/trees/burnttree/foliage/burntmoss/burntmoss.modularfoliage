@@ -4,7 +4,7 @@
 
   "dropConfig" : {
     "drops" : [
-      [ { "item" : "silkworm" } ]
+      [ { "item" : "dnasample" } ]
     ],
     "sounds" : {
       "breakTree" : [

@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "biospore", "count" : 8 },
-    { "item" : "nervebundle2", "count" : 1 },
-    { "item" : "adaptivecells", "count" : 1 },
-    { "item" : "cellhardening2", "count" : 1 }
+    { "item" : "gene_avian", "count" : 8 },
+    { "item" : "gene_nervebundle", "count" : 6 },
+    { "item" : "gene_adaptivecell", "count" : 1 },
+    { "item" : "goldshroomseed", "count" : 3 }
   ],
   "output" : {
     "item" : "zathiseed",

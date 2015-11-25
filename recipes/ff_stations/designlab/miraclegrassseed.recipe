@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "regengene1", "count" : 1 },
-    { "item" : "chloroplast1", "count" : 1 },
+    { "item" : "gene_regen", "count" : 1 },
+    { "item" : "gene_chloroplast", "count" : 1 },
     { "item" : "plantfibre", "count" : 3 }
   ],
   "output" : {

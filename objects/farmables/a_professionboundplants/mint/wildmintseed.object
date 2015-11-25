@@ -7,8 +7,7 @@
   "shortdescription" : "Star Mint Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "objectItem" : "dnasample",
-
+    "learnBlueprintsOnPickup" : [ "mintseed" ],
   "inventoryIcon" : "mintseedicon.png",
   "orientations" : [
     {
@@ -31,14 +30,15 @@
     {
       "duration" : [100, 120]
     },
+
     {
       "alts" : 5,
-      "harvestPool" : "wildmintHarvest",
+      "harvestPool" : "mintHarvest",
       "resetToStage" : 0
     }
   ],
     "maxImmersion" : 0.125,
   "breakDropOptions" : [
-    [ [ "dnasample", 1, { } ] ]
+    [ [ "mintseed", 1, { } ] ]
   ]
 }

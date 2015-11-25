@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "chloroplast2", "count" : 1 },
-    { "item" : "regengene1", "count" : 1 },
-    { "item" : "shockgene", "count" : 1 },
-    { "item" : "plantfibre", "count" : 3 }
+    { "item" : "coffeeseed", "count" : 3 },
+    { "item" : "gene_regen", "count" : 6 },
+    { "item" : "gene_energy", "count" : 6 },
+    { "item" : "mineralsample", "count" : 3 }
   ],
   "output" : {
     "item" : "ginsengseed",
