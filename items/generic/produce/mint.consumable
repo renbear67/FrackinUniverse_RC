@@ -2,9 +2,9 @@
   "itemName" : "mint",
   "rarity" : "uncommon",
   "inventoryIcon" : "mint.png",
-  "description" : "Radiation-proof herb. Useless against Extreme radiation.",
+  "description" : "Provides energy regeneration.",
   "shortdescription" : "Star Mint",
   "effects" : [ [
-   "heal_15", "energy_15"
+     "energyregenfu10"
     ] ]
 }

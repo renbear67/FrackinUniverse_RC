@@ -7,7 +7,7 @@
   "effects" : [ [
       {
         "effect" : "energyregenfu20",
-        "duration" : 10
+        "duration" : 20
       }
     ] ]
 }

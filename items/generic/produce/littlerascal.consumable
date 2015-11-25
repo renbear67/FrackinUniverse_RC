@@ -5,6 +5,6 @@
   "description" : "Increases health and energy stores.",
   "shortdescription" : "Little Rascal Herb",
   "effects" : [ [
-      "maxhealthboost60", "maxenergyboost60"
+      "maxhealthboost3", "maxenergyboost3"
     ] ]  
 }

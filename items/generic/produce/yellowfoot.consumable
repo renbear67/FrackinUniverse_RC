@@ -2,9 +2,9 @@
   "itemName" : "yellowfoot",
   "rarity" : "uncommon",
   "inventoryIcon" : "yellowfoot.png",
-  "description" : "Yellowfoot boosts personal energy reserves.",
+  "description" : "Yellowfoot boosts personal energy reserves by 15%.",
   "shortdescription" : "Yellow-foot Mushroom",
   "effects" : [ [
-      "maxenergyboost60"
+      "percentenergyboost15"
     ] ]
 }

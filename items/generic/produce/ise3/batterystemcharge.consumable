@@ -5,6 +5,6 @@
   "description" : "Increase your energy for a while.",
   "shortdescription" : "Battery Stem Charge",
       "effects" : [ [
-       "maxenergyboost80"
+       "maxenergyboost5", "energyregenfu05" 
     ] ]
 }

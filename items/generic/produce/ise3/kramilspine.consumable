@@ -5,6 +5,6 @@
   "description" : "Immunity to ice effects",
   "shortdescription" : "Kramil Spine",
       "effects" : [ [
-          "iceslipimmunity", "slushslowimmunity", "snowslowimmunity"
+          "iceslipimmunity", "slushslowimmunity", "snowslowimmunity", "ffextremecoldimmunity"
     ] ]
 }

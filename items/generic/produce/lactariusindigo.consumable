@@ -2,9 +2,9 @@
   "itemName" : "lactariusindigo",
   "rarity" : "uncommon",
   "inventoryIcon" : "lactariusindigo.png",
-  "description" : "Increases health and energy maximums.",
+  "description" : "Heals 25% damage and increases energy.",
   "shortdescription" : "Lactarius Indigo Mushroom",
   "effects" : [ [
-      "maxhealthboost90", "maxenergyboost90"
+      "heal_25", "maxenergyboost2"
     ] ]
 }

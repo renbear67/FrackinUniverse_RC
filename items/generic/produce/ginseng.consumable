@@ -5,10 +5,6 @@
   "description" : "Known for healing and revitalizing properties.",
   "shortdescription" : "Heartroot",
   "effects" : [ [
-      {
-        "effect" : "heal_30",
-        "duration" : 12
-      },
-      "energyregenfu15"
+      "maxenergyboost2", "maxhealthboost2"
     ] ]
 }

@@ -5,6 +5,6 @@
   "description" : "Squishy, delicious meat sacs that heal you up.",
   "shortdescription" : "Cell Pods",
   "effects" : [ [
-      "regeneration1"
+      "regeneration2"
     ] ]
 }

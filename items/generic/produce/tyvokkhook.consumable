@@ -2,15 +2,21 @@
   "itemName" : "tyvokkhook",
   "rarity" : "Common",
   "inventoryIcon" : "tyvokkhook.png",
-  "description" : "A powerful regenerative food.",
+  "description" : "A powerful enhancement food.",
   "shortdescription" : "Tyvokk Hook",
   "effects" : [ [
       {
-        "effect" : "regeneration3",
+        "effect" : "regeneration2",
         "duration" : 20
       },      
       {
-        "effect" : "energyregenfu25",
+        "effect" : "maxHealth",
+        "amount" : 30
+        "duration" : 20
+      },
+      {
+        "effect" : "maxEnergy",
+        "amount" : 50
         "duration" : 20
       }
     ] ]

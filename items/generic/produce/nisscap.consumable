@@ -2,9 +2,9 @@
   "itemName" : "nisscap",
   "rarity" : "Common",
   "inventoryIcon" : "nisscap.png",
-  "description" : "Niss posseses the ability to shield you from ooze & tar.",
+  "description" : "Niss posseses the ability to shield you from tar, mud and clay.",
   "shortdescription" : "Niss Cap",
   "effects" : [ [
-      "blacktarimmunity", "biooozeimmunity"
+      "blacktarimmunity", "fumudslowimmunity"
     ] ]
 }

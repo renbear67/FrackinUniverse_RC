@@ -5,6 +5,6 @@
   "description" : "A potent energy source.",
   "shortdescription" : "Greenleaf Herb",
   "effects" : [ [
-      "energyregenfu50"
+      "energyregenfu40"
     ] ]
 }

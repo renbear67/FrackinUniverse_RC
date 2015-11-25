@@ -2,7 +2,7 @@
   "itemName" : "neuropod",
   "rarity" : "Common",
   "inventoryIcon" : "neuropod.png",
-  "description" : "A powerhouse of speed, energy and strength.",
+  "description" : "A powerhouse of effects.",
   "shortdescription" : "Neuropod Bulb",
   "effects" : [ [
       {
@@ -15,8 +15,8 @@
         "duration" : 35
       },
       {
-        "effect" : "rage",
-        "amount" : 0.35,
+        "effect" : "lowgrav",
+        "amount" : 0.15,
         "duration" : 35
       },
       {

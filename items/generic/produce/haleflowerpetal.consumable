@@ -5,6 +5,6 @@
   "description" : "Tastes like bacon, restores energy like fusion.",
   "shortdescription" : "Hale Flower Petal",
   "effects" : [ [
-        "energyregenfu75"
+        "energyregenfu60"
     ] ]
 }

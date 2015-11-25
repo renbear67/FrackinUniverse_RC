@@ -2,9 +2,9 @@
   "itemName" : "goldenroot",
   "rarity" : "Common",
   "inventoryIcon" : "goldenrooticon.png",
-  "description" : "Increase hitpoints by 60 for 3 minutes.", 
+  "description" : "Increase hitpoints.", 
   "shortdescription" : "Golden Root",
   "effects" : [ [
-    "maxhealthboost60"
+    "maxhealthboost2"
     ] ]
 }

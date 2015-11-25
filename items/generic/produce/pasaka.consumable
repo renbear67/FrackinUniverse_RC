@@ -5,10 +5,6 @@
   "description" : "Eat this soggy bulb, and you'll gain 25% damage.",
   "shortdescription" : "Pasaka Bulb",
   "effects" : [ [
-      {
-        "effect" : "damagebonus",
-        "amount" : 1.25,
-        "duration" : 15
-      }
+      "damagebonus3"
     ] ]
 }

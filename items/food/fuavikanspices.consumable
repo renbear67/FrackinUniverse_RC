@@ -6,10 +6,7 @@
   "description" : "Boost your energy with this tasty spice.",
   "shortdescription" : "Kadavan Spices",
   "effects" : [ [
-		{
-			"effect" : "maxenergyboost65",
-			"duration" : 60
-		},
+		"percentenergyboost20",
 		{
 			"effect" : "wellfed",
 			"duration" : 75

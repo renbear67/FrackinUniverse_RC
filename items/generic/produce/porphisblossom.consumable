@@ -2,12 +2,10 @@
   "itemName" : "porphisblossom",
   "rarity" : "Common",
   "inventoryIcon" : "porphisblossom.png",
-  "description" : "Grants 25% Rage",
+  "description" : "Grants damage bonus and increased health.",
   "shortdescription" : "Porphis Blossom",
   "effects" : [ [
-      "rage"
+      "damagebonus3", "percenthealthboost25"
     ] ],
-  "blockingEffects" : [
-  "rage"
-  ]
+  "blockingEffects" : [ ]
 }

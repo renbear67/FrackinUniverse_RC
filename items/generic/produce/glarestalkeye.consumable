@@ -2,9 +2,9 @@
   "itemName" : "glarestalkeye",
   "rarity" : "Common",
   "inventoryIcon" : "glarestalkeye.png",
-  "description" : "Grants 75% Rage.",
+  "description" : "Grants 40% damage boost. Immune to insanity.",
   "shortdescription" : "Glarestalk Eye",
   "effects" : [ [
-      "rage75"
+      "damagebonus6", "insanityimmunity"
     ] ]
 }

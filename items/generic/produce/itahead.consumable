@@ -2,11 +2,11 @@
   "itemName" : "itahead",
   "rarity" : "Common",
   "inventoryIcon" : "itahead.png",
-  "description" : "Possesses potent anti-toxins. Cures poisons.",
+  "description" : "Possesses potent anti-toxins. Cures poisons and pus infections.",
   "shortdescription" : "Ita Flower Head",
     
   "effects" : [ [ 
-  "poisonimmunity"
+  "poisonimmunity", "beestingimmunity", "biooozeimmunity", "pusimmunity", "slimestickimmunity"
   ] ],
   "blockingEffects" : [
   "antidote"

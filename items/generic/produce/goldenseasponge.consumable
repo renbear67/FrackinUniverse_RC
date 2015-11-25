@@ -5,6 +5,6 @@
   "description" : "Makes you as light as a sponge, affecting your gravity.",
   "shortdescription" : "Golden Sea Sponge",
   "effects" : [ [
-      "lowgrav"
+      "lowgrav", "swimboost2", "poisonimmunity"
     ] ]
 }

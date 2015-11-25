@@ -2,9 +2,9 @@
   "itemName" : "onion",
   "rarity" : "Common",
   "inventoryIcon" : "onionicon.png",
-  "description" : "An gurn onion. Tasty! Heals 15% health.",
+  "description" : "An gurn onion. Tasty! Increases maximum health.",
   "shortdescription" : "Gurn Onion",
   "effects" : [ [
-      "heal_15"
+      "maxhealthboost1"
     ] ]
 }

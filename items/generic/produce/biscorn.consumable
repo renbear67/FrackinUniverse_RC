@@ -5,6 +5,6 @@
   "description" : "Boosts energy and health.",
   "shortdescription" : "Biscorn",
   "effects" : [ [
-      "maxhealthboost30", "maxenergyboost30"
+      "maxhealthboost1", "maxenergyboost1"
     ] ]
 }

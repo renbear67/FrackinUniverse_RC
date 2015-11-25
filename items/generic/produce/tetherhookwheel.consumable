@@ -2,14 +2,10 @@
   "itemName" : "tetherhookwheel",
   "rarity" : "rare",
   "inventoryIcon" : "tetherhookwheel.png",
-  "description" : "Grants a 75% damage bonus.", 
+  "description" : "Warps you around to spare you from death.", 
   "shortdescription" : "Tetherhook Wheel",
 
   "effects" : [ [
-      {
-        "effect" : "damagebonus",
-        "amount" : 1.75,
-        "duration" : 10
-      }
+      "warp"
     ] ]
 }

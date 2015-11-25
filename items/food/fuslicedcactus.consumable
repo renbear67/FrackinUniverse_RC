@@ -8,7 +8,7 @@
   "effects" : [ [
 		{
 			"effect" : "shieldregen2",
-			"duration" : 60
+			"duration" : 20
 		},
 		{
 			"effect" : "foodheal35",
@@ -16,7 +16,7 @@
 		},
 		{
 			"effect" : "wellfed",
-			"duration" : 90
+			"duration" : 120
 		}
     ] ],
   "blockingEffects" : [

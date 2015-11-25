@@ -8,6 +8,6 @@
        "heal_90"
     ] ],
   "blockingEffects" : [
-    "heal_90"
+    "heal_80"
   ]
 }

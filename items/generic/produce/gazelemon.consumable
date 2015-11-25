@@ -2,14 +2,14 @@
   "itemName" : "gazelemon",
   "rarity" : "Common",
   "inventoryIcon" : "gazelemon.png",
-  "description" : "Focused light emits from your face.",
+  "description" : "Focused light emits from your face. Prevents poison effects.",
   "shortdescription" : "Gazelemon",
   "effects" : [ [
-      { 
-      "effect": "headlamp",
-      "amount" : 0.75,
-      "duration" : 30
-      }
+  "headlamp",
+           { 
+            "effect": "poisonImmunity",
+            "duration" : 30
+            }
     ] ],
   "blockingEffects" : [
     "headlamp"
