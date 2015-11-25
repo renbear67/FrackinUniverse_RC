@@ -11,12 +11,12 @@
       },      
       {
         "effect" : "maxHealth",
-        "amount" : 30
+        "amount" : 30,
         "duration" : 20
       },
       {
         "effect" : "maxEnergy",
-        "amount" : 50
+        "amount" : 50,
         "duration" : 20
       }
     ] ]
