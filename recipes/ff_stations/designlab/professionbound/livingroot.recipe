@@ -2,8 +2,8 @@
   "input" : [
     { "item" : "automatoseed", "count" : 3 },
     { "item" : "dnasample", "count" : 12 },
-    { "item" : "cell_harden", "count" : 5 },
-    { "item" : "cell_defense", "count" : 7 }
+    { "item" : "gene_harden", "count" : 5 },
+    { "item" : "gene_defense", "count" : 7 }
   ],
   "output" : {
     "item" : "livingrootseed",

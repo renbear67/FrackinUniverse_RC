@@ -1,8 +1,8 @@
 {
   "input" : [
     { "item" : "gene_nervebundle", "count" : 14 },
-    { "item" : "cell_avian", "count" : 4 },
-    { "item" : "cell_muscle", "count" : 13 },
+    { "item" : "gene_avian", "count" : 4 },
+    { "item" : "gene_muscle", "count" : 13 },
     { "item" : "blisterbushplantseed", "count" : 3 }
   ],
   "output" : {

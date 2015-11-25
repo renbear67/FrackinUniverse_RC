@@ -1,9 +1,9 @@
 {
   "input" : [
     { "item" : "nissseed", "count" : 1 },
-    { "item" : "cell_immunity", "count" : 8 },
-    { "item" : "cell_resist", "count" : 11 },
-    { "item" : "cell_regen", "count" : 6 }
+    { "item" : "gene_immunity", "count" : 8 },
+    { "item" : "gene_resist", "count" : 11 },
+    { "item" : "gene_regen", "count" : 6 }
   ],
   "output" : {
     "item" : "itaseed",
