@@ -1,3 +1,13 @@
 [
-  {"op":"add","path":"/learnBlueprintsOnPickup","value": [ "fuintrepidhead", "fuintrepidchest", "fuintrepidlegs" ] }
+  {"op":"add","path":"/learnBlueprintsOnPickup","value": [ 
+    "tier6bed",
+    "tier6chair",
+    "tier6door",
+    "tier6light",
+    "tier6switch",
+    "tier6table",
+    "feroziumbow",  
+  "fuintrepidhead", 
+  "fuintrepidchest", 
+  "fuintrepidlegs" ] }
 ]

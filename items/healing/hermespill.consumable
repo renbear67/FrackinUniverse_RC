@@ -3,8 +3,8 @@
   "rarity" : "uncommon",
   "price" : 55,
   "inventoryIcon" : "hermespill.png",
-  "description" : "Full of delicious amphetamines to increase your speed.",
-  "shortdescription" : "^#77acc3;Mutavisk Bandage^white;",
+  "description" : "Increases your base running speed for a while.",
+  "shortdescription" : "^#77acc3;Hermes Pill^white;",
   "effects" : [ [
       "runboost15"
     ] ],

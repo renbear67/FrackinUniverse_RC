@@ -327,6 +327,8 @@ function flowerCheck()
 	local FFita = world.objectQuery(entity.position(), 80, {name="itaseed"})
 	local FFniss = world.objectQuery(entity.position(), 80, {name="nissseed"})
 	local FFwubstem = world.objectQuery(entity.position(), 80, {name="wubstemseed"}) 
+	local FFmiraclegrassseed = world.objectQuery(entity.position(), 80, {name="miraclegrassseed"}) 
+	local FFlivingrootseed = world.objectQuery(entity.position(), 80, {name="livingrootseed"}) 
 	
 	local noFlowersYet = self.beePower 			---- Check the initial "beePower" before flowers...
 	if flowerRed ~= nil then	
@@ -363,7 +365,12 @@ function flowerCheck()
 	if FFwubstem ~= nil then	
 		self.beePower = self.beePower + math.ceil(math.sqrt(#FFwubstem) / 2)
 	end
-
+	if FFmiraclegrassseed ~= nil then	
+		self.beePower = self.beePower + math.ceil(math.sqrt(#FFmiraclegrassseed) / 2)
+	end
+	if FFlivingrootseed ~= nil then	
+		self.beePower = self.beePower + math.ceil(math.sqrt(#FFlivingrootseed) / 2)
+	end	
 	
 	if self.beePower == noFlowersYet then
 		self.beePower = -1				--- If there are no flowers for the bees... they can't do anything.
