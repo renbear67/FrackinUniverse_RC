@@ -46,6 +46,7 @@
   "acceptablefuel" : {
     "biofuelcannister" : 1,
     "biofuelcannisteradv" : 2,
+    "energiflower" : 2,
     "vialproto" : 3,
     "biofuelcannistermax" : 4,
     "solariumstar" : 5,
