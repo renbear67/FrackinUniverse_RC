@@ -1,6 +1,6 @@
 function init(args)
 	if self.craftDelay == nil then
-		self.craftDelay = 1
+		self.craftDelay = 0.25
 	end
     entity.setInteractive(true)
  	if itemchance == nil then 
@@ -133,8 +133,8 @@ end
 function update(dt)
         contents = world.containerItems(entity.id())
         if not contents[17] then
-				entity.setAnimationState("cent", "idle")
-                return
+		entity.setAnimationState("cent", "idle") 
+		return
         end
 	if contents[17] then
         deciding()
@@ -142,7 +142,7 @@ function update(dt)
 		honeyCheck()
 		entity.setAnimationState("cent", "working")
 	else
-		  entity.setAnimationState("cent", "idle")
+		entity.setAnimationState("cent", "idle")
 	end
 end
  
@@ -150,10 +150,10 @@ function workingCombs()
 	if self.craftDelay > 0 then
 		self.craftDelay = self.craftDelay - 1
 	elseif self.craftDelay <= 0 then
-		self.craftDelay = 2
+		self.craftDelay = 0.25
 	end
 	
-	if self.craftDelay == 1 then
+	if self.craftDelay <= 1 then
 		world.containerConsume(entity.id(), { name= contents[17].name, count = 1, data={}})
 		if math.random(100)/100 <= itemchance then
 			world.containerAddItems(entity.id(), { name= self.comboutput, count = 1, data={}})
