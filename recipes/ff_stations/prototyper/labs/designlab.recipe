@@ -1,7 +1,6 @@
 {
   "input" : [
-    { "item" : "steelplate", "count" : 2 },
-    { "item" : "advcircuit", "count" : 1 },
+    { "item" : "steelplate", "count" : 8 },
     { "item" : "cpu", "count" : 1 },
     { "item" : "apexpod2", "count" : 1 }
   ],

@@ -4,5 +4,5 @@
   "inventoryIcon" : "tissueculture.png",
   "description" : "Carefully extracted, ready for research.",
   "shortdescription" : "Tissue Culture",
-  "learnBlueprintsOnPickup" : [ "peptidechain", "cellmatter" ]
+  "learnBlueprintsOnPickup" : [ "cellmatter" ]
 }
