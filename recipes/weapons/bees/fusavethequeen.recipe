@@ -8,5 +8,5 @@
     "item" : "fusavethequeen",
     "count" : 1
   },
-  "groups" : [ "beestation","weapons", "all" ]
+  "groups" : [ "beestation","melee", "all" ]
 }

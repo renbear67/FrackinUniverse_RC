@@ -8,5 +8,5 @@
     "item" : "eldershield",
     "count" : 1
   },
-  "groups" : [ "armory", "armor", "all" ]
+  "groups" : [ "armory", "shield", "all" ]
 }

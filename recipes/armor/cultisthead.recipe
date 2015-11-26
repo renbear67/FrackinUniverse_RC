@@ -8,5 +8,5 @@
     "item" : "cultarmorhead",
     "count" : 1
   },
-  "groups" : [ "armory", "armor", "all" ]
+  "groups" : [ "armory", "armors", "all" ]
 }

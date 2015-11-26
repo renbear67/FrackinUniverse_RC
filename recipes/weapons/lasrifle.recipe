@@ -5,5 +5,5 @@
     { "item" : "electromagnet", "count" : 1 }
   ],
   "output" : { "item" : "lasrifle", "count" : 1 },
-  "groups" : [ "armory", "weapons", "all" ]
+  "groups" : [ "armory", "ranged", "all" ]
 }

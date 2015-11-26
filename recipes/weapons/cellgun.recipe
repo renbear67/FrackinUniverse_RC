@@ -5,5 +5,5 @@
     { "item" : "advcircuit", "count" : 1 }
   ],
   "output" : { "item" : "fucellgun", "count" : 1 },
-  "groups" : [ "armory", "weapons", "all" ]
+  "groups" : [ "armory", "ranged", "all" ]
 }

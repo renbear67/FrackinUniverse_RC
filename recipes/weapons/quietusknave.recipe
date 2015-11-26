@@ -8,5 +8,5 @@
     "item" : "quietusknave",
     "count" : 1
   },
-  "groups" : [ "armory", "weapons", "all" ]
+  "groups" : [ "armory", "melee", "all" ]
 }

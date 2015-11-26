@@ -9,5 +9,5 @@
     "item" : "blistershield",
     "count" : 1
   },
-  "groups" : [ "armory", "armors", "all" ]
+  "groups" : [ "armory", "shield", "all" ]
 }

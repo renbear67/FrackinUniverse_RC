@@ -5,5 +5,5 @@
     { "item" : "icecrystal", "count" : 2 }
   ],
   "output" : { "item" : "nitrogenpistol", "count" : 1 },
-  "groups" : [ "armory", "weapons", "all" ]
+  "groups" : [ "armory", "ranged", "all" ]
 }

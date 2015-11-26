@@ -8,5 +8,5 @@
     "item" : "fubeeshield2",
     "count" : 1
   },
-  "groups" : [ "beestation", "armors", "all" ]
+  "groups" : [ "beestation", "shield", "all" ]
 }

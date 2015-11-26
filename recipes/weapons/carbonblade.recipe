@@ -4,5 +4,5 @@
     { "item" : "durasteelbar", "count" : 4 }
   ],
   "output" : { "item" : "carbonblade", "count" : 1 },
-  "groups" : [ "armory", "weapons", "all" ]
+  "groups" : [ "armory", "melee", "all" ]
 }

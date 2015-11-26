@@ -6,5 +6,5 @@
     { "item" : "protocitebar", "count" : 3 }
   ],
   "output" : { "item" : "ionrifle", "count" : 1 },
-  "groups" : [ "armory", "weapons", "all" ]
+  "groups" : [ "armory", "ranged", "all" ]
 }

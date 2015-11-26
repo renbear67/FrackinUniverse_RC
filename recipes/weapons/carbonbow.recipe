@@ -4,5 +4,5 @@
     { "item" : "advancealloy", "count" : 6 }
   ],
   "output" : { "item" : "carbonbow", "count" : 1 },
-  "groups" : [ "armory", "weapons", "all" ]
+  "groups" : [ "armory", "ranged", "all" ]
 }

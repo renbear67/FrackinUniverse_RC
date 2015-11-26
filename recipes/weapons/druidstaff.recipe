@@ -4,5 +4,5 @@
     { "item" : "energywood", "count" : 4 }
   ],
   "output" : { "item" : "druidstaff", "count" : 1 },
-  "groups" : [ "armory", "weapons", "all" ]
+  "groups" : [ "armory", "ranged", "all" ]
 }
