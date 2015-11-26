@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "durasteelbar", "count" : 8 },
-    { "item" : "glarestalkeye", "count" : 4 },
+    { "item" : "gene_ocular", "count" : 8 },
     { "item" : "crystal", "count" : 10 },
     { "item" : "cellmatter", "count" : 20 }
 	

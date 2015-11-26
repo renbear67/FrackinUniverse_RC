@@ -2,7 +2,7 @@
   "itemName" : "aenemapetal",
   "rarity" : "Common",
   "inventoryIcon" : "aenemapetal.png",
-  "description" : "The flowers of this plant actually extract into gas.",
+  "description" : "Grants a firey, protective nova effect. Spicy.",
   "shortdescription" : "Aenema Petal",
-  "effects" : [ [ "wellfed" ] ]
+  "effects" : [ [ "wellfed", "fireburst" ] ]
 }

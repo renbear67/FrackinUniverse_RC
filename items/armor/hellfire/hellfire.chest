@@ -32,10 +32,7 @@
       "stat" : "fireImmunity",
       "amount" : 1
     },
-    {
-      "stat" : "lavaImmunity",
-      "amount" : 1
-    },
-    "ffextremeheatimmunity"
+    "ffextremeheatimmunity",
+    "fireburst"
   ]
 }

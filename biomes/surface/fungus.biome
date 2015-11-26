@@ -138,7 +138,11 @@
               [0.35, "wildfubioshroomyellow" ],
               [0.35, "wildlactariusindigoseed" ],
               [0.35, "wildgoldshroomseed" ],
-              [0.35, "wildfayshroomseed" ]
+              [0.35, "wildfayshroomseed" ],
+              [0.35, "flowerred" ], 
+              [0.35, "flowerblue" ], 
+              [0.35, "floweryellow" ],
+              [0.35, "flowerspring" ]
           ],
               "parameters" : { "startingStage" : 3 }
             }
@@ -172,9 +176,6 @@
           "objectSets" : [
             {
               "pool" : [ 
-              [0.35, "flowerred" ], 
-              [0.35, "flowerblue" ], 
-              [0.35, "floweryellow" ],
               [0.35, "junglebush1" ], 
               [0.35, "junglebush2" ], 
               [0.35, "junglebush3" ], 
@@ -317,6 +318,21 @@
           "mode" : "floor",
           "priority" : 2.0,
           "variants" : 1,
+          "distribution" : "/biomes/distributions.config:ffCommon",
+
+          "type" : "bush",
+          "bushes" : [
+            {
+              "name" : "fungal",
+              "baseHueShiftMax" : 60,
+              "modHueShiftMax" : 90
+            }
+          ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 2.0,
+          "variants" : 1,
           "distribution" : "/biomes/distributions.config:ffunCommon",
 
           "type" : "bush",
@@ -378,7 +394,7 @@
           "mode" : "floor",
           "priority" : 1.0,
           "variants" : 1,
-          "distribution" : "/biomes/distributions.config:superCommon",
+          "distribution" : "/biomes/distributions.config:denseLarge",
 
           "type" : "tree",
           "treeFoliageHueShiftMax" : 90,

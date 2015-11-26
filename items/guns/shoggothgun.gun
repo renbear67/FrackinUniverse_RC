@@ -1,0 +1,34 @@
+{
+    "itemName" : "shoggothgun",
+    "inventoryIcon" : "shoggothgun.png",
+    "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+    "maxStack" : 1,
+    "rarity" : "rare",
+    "description" : "Utterly repulsive, yet fascinating.",
+    "shortdescription" : "Vile Cannon",
+    "image" : "shoggothgun.png",
+    "handPosition" : [-10, -2],
+    "firePosition" : [9, -1],
+    "weaponType" : "Bio-Weapon",
+    "recoilTime" : 0.1,
+    "level" : 10,
+    "tooltipKind" : "gun",
+    "fireTime" : 3,
+    "twoHanded" : true,
+    "walkWhileFiring" : false,
+    "muzzleEffect" : {
+      "fireSound" : [ { "file" : "/sfx/weapons/densiniumrifle.wav" } ],
+      "animation" : "/animations/protomuzzle/protomuzzle.animation"
+    },
+    "fireOnRelease" : false,
+    
+    "projectileType" : "spawnegg3",
+
+    "powerProjectileTime" : [0.4, 50],
+    "projectile" : {
+      "speed" : 55, 
+      "power" : 7, 
+      "color" : [0, 0, 130] 
+  	}
+}
+  
