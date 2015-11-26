@@ -21,14 +21,14 @@
     {
       "kind" : "fungusback",
       "baseCount" : 2,
-      "offset" : [0, 380],
+      "offset" : [0, 360],
       "parallax" : 9,
       "nightCorrelation" : 0,
       "minSpeed" : 0,
       "maxSpeed" : 0,
       "lightningFrequency" : 0.15,
       "modifiers" : "?brightness=20?saturation=-10",
-      "fadePercent" : 0.15
+      "fadePercent" : 0.35
     },
 
     {

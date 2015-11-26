@@ -2,10 +2,10 @@
   "itemName" : "pekkit",
   "rarity" : "Common",
   "inventoryIcon" : "pekkiticon.png",
-  "description" : "This thing radiates cold. Probably not edible.",
+  "description" : "This thing radiates cold. Generates a protective frost aura.",
   "shortdescription" : "Pekkit",
   "learnBlueprintsOnPickup" : [ "pekkitfreeze_freezegrenade" ],
   "effects" : [ [
-      "freeze"
+      "iceburst"
     ] ]
 }
