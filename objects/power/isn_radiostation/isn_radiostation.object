@@ -115,12 +115,10 @@
 	"yellowstim" : 100,
 	"greenstim" : 100,
 	"bluestim" : 100,
-	"aminoacid" : 50,
 	"mutagene1" : 400,
 	"mutagene2" : 400,
 	"mutagene3" : 400,
 	"mutagene4" : 400,
-	"synthesizedprotein" : 120,
 	"crunchychick" :  50,
 	"fuhoneysilkbandage" : 370,
 	"mutaviskbandage" : 270

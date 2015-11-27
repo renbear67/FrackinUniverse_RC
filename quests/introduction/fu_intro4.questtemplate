@@ -8,6 +8,6 @@
     { "type" : "gather", "item" : "prototyper", "consume" : false }
   ],
   "moneyRange" : [300, 400],
-  "rewards" : [ ],
+  "rewards" : [ [ "silverore", 10] ],
   "requireTurnIn" : true
 }
