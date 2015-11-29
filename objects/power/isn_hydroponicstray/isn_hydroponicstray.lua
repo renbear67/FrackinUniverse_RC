@@ -6,6 +6,10 @@ function init(virtual)
 	if storage.water == nil then storage.water = 0 end
 	if storage.fertSpeed == nil then storage.fertSpeed = false end
 	if storage.fertYield == nil then storage.fertYield = false end
+	if storage.fertSpeed2 == nil then storage.fertSpeed2 = false end
+	if storage.fertYield2 == nil then storage.fertYield2 = false end
+	if storage.fertSpeed3 == nil then storage.fertSpeed3 = false end
+	if storage.fertYield3 == nil then storage.fertYield3 = false end
 	if storage.yield == nil then storage.yield = 0 end
 	if storage.growthcap == nil then storage.growthcap = entity.configParameter("isn_growthCap") end
 	storage.seedslot = 1
@@ -42,7 +46,12 @@ function update(dt)
 	if storage.fertSpeed == true then
 		storage.growth = storage.growth + 1
 	end
-	
+	if storage.fertSpeed2 == true then
+	        storage.growth = storage.growth + 2
+	end
+	if storage.fertSpeed3 == true then
+	        storage.growth = storage.growth + 3
+	end	
 	if storage.growth >= storage.growthcap then
 		world.containerAddItems(entity.id(), {name = storage.currentcrop, count = storage.yield, data={}})
 		world.containerAddItems(entity.id(), {name = storage.currentseed, count = math.random(1,2), data={}})
@@ -78,8 +87,10 @@ function isn_doSeedIntake()
 		if seed.name == key then
 			storage.currentseed = key
 			storage.currentcrop = value
-			storage.yield = math.random(5,10)
-			if storage.fertYield == true then storage.yield = storage.yield * 3 end
+			storage.yield = math.random(3,5)
+			if storage.fertYield == true then storage.yield = storage.yield * 2 end
+			if storage.fertYield2 == true then storage.yield = storage.yield * 3 end
+			if storage.fertYield3 == true then storage.yield = storage.yield * 4 end
 			world.containerConsume(entity.id(), {name = seed.name, count = 1, data={}})
 			return true
 		end
@@ -90,6 +101,10 @@ end
 function isn_doFertIntake()
 	storage.fertSpeed = false
 	storage.fertYield = false
+	storage.fertSpeed2 = false
+	storage.fertYield2 = false
+	storage.fertSpeed3 = false
+	storage.fertYield3 = false
 	local contents = world.containerItems(entity.id())
 	local fert = contents[storage.fertslot]
 	if fert == nil then return false end
@@ -104,9 +119,19 @@ function isn_doFertIntake()
 				storage.fertYield = true
 				world.containerConsume(entity.id(), {name = fert.name, count = 1, data={}})
 				return true
-			else
+			elseif value == 3 then
 				storage.fertSpeed = true
 				storage.fertYield = true
+				world.containerConsume(entity.id(), {name = fert.name, count = 1, data={}})
+				return true
+			elseif value == 4 then
+				storage.fertSpeed2 = true
+				storage.fertYield2 = true
+				world.containerConsume(entity.id(), {name = fert.name, count = 1, data={}})
+				return true
+			else
+				storage.fertSpeed3 = true
+				storage.fertYield3 = true				
 				world.containerConsume(entity.id(), {name = fert.name, count = 1, data={}})
 				return true
 			end

@@ -7,7 +7,9 @@
   "completionConditions" : [ ],
   "requireTurnIn" : true,
   "moneyRange" : [100, 100],
-  "rewards" : [ ],
+  "rewards" : [ 
+    [ [ "silverore", 10 ] ] 
+  ],
   "completionCinema" : "/cinematics/coordinates.cinematic",
   "canBeAbandoned" : false,
   "associatedMission" : "scienceoutpostarrival"

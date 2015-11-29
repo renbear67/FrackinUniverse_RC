@@ -63,11 +63,11 @@
   "isn_fertInputs" : {
         "fu_mulch" : 1,
 	"ff_fertilizer" : 1,
+	"poop" : 2,
 	"ff_fertilizer2" : 2,
-	"ff_fertilizer3" : 3,
 	"pesticide" : 3,
-	"poop" : 2
-	
+	"gene_reproductive" : 4,
+	"ff_fertilizer3" : 5
   },
 
   "isn_seedOutputs" : {
@@ -143,7 +143,7 @@
     "jillyrootseed" : "jillyroot",
     "lactariusindigoseed" : "lactariusindigo",
     "littlerascalseed" : "littlerascal",
-    "livingrootseed" : "livingroot",
+    "vanusflowerseed" : "vanusflower",
     "mintseed" : "mint",
     "petrifiedrootseed" : "petrifiedroot",
     "pinkloomseed" : "pinkloom",

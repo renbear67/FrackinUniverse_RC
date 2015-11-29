@@ -328,7 +328,7 @@ function flowerCheck()
 	local FFniss = world.objectQuery(entity.position(), 80, {name="nissseed"})
 	local FFwubstem = world.objectQuery(entity.position(), 80, {name="wubstemseed"}) 
 	local FFmiraclegrassseed = world.objectQuery(entity.position(), 80, {name="miraclegrassseed"}) 
-	local FFlivingrootseed = world.objectQuery(entity.position(), 80, {name="livingrootseed"}) 
+	local FFvanusflowerseed = world.objectQuery(entity.position(), 80, {name="vanusflowerseed"}) 
 	
 	local noFlowersYet = self.beePower 			---- Check the initial "beePower" before flowers...
 	if flowerRed ~= nil then	
@@ -368,8 +368,8 @@ function flowerCheck()
 	if FFmiraclegrassseed ~= nil then	
 		self.beePower = self.beePower + math.ceil(math.sqrt(#FFmiraclegrassseed) / 2)
 	end
-	if FFlivingrootseed ~= nil then	
-		self.beePower = self.beePower + math.ceil(math.sqrt(#FFlivingrootseed) / 2)
+	if FFvanusflowerseed ~= nil then	
+		self.beePower = self.beePower + math.ceil(math.sqrt(#FFvanusflowerseed) / 2)
 	end	
 	
 	if self.beePower == noFlowersYet then
