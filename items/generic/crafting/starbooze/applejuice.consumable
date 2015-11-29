@@ -5,9 +5,6 @@
   "description" : "A sweet juice made of apples.",
   "shortdescription" : "Apple Juice",
   "effects" : [ [
-      {
-        "kind" : "food",
-        "amount" : 5
-      }
+      "heal_5"
     ] ]
 }
