@@ -3,7 +3,7 @@
     "tags" : [ "nature" ],
   "rarity" : "common",
   "category" : "Farmable",
-  "description" : "Both delicious and deadly, depending on your use.",
+  "description" : "Both delicious and pretty. Increases vitality.",
   "shortdescription" : "Blue Melon Seed",
   "objectType" : "farmable",
   "printable" : false,

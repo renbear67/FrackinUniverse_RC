@@ -9,13 +9,6 @@
   "printable" : false,
   "price" : 100,
   "learnBlueprintsOnPickup" : [ "fayshroomseed" ],
-  "apexDescription" : "A delicacy of a plant, grown for use as spice.",
-  "avianDescription" : "Fermented beverages are a favorite amongst the Grounded. Nothing spells religious rebellion like getting drunk off of cinnamon schnapps.",
-  "floranDescription" : "Not asss hot asss chili, but cinnamon isss still hot!",
-  "glitchDescription" : "Statement. Cinnamon. Used to flavor foods and fermented beverages.",
-  "humanDescription" : "Back on Earth, they gave out spicy candies made of this stuff.",
-  "hylotlDescription" : "An ugly tropical plant that can be woven into cheap furniture.",
-  "novakidDescription" : "Ah, yeah, this is that plant that makes that drink I like.",
 
   "inventoryIcon" : "cinnamonseedicon.png",
   "orientations" : [

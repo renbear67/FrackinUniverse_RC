@@ -3,17 +3,11 @@
     "tags" : [ "nature" ],
   "rarity" : "Common",
   "category" : "farmable",
-  "description" : "Boosts health and energy.",
+  "description" : "A farmable dog treat. Boosts health and energy.",
   "shortdescription" : "Biscorn Seed",
   "objectType" : "farmable",
   "printable" : false,
   "learnBlueprintsOnPickup" : [ "littlerascalseed" ],
-  "apexDescription" : "Dog biscuits that grow in the place of corn.",
-  "avianDescription" : "It's a corn for pets.",
-  "floranDescription" : "Crunchy crunchy bissscorn!",
-  "glitchDescription" : "Wonder. Is this meant to be consumed by Glitch?",
-  "humanDescription" : "This makes a great snack for pets.",
-  "hylotlDescription" : "Not a very appetizing variant of corn.",
 
   "inventoryIcon" : "biscornseedicon.png",
   "orientations" : [

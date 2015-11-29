@@ -3,7 +3,7 @@
     "tags" : [ "nature" ],
   "rarity" : "uncommon",
   "category" : "farmable",
-  "description" : "Produces dangerous little shards.",
+  "description" : "Produces dangerous little shards perfect for throwing at things.",
   "shortdescription" : "Crystallite",
   "objectType" : "farmable",
   "printable" : false, 

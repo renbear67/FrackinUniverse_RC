@@ -179,7 +179,7 @@
             {
               "pool" : [ 
                [0.35, "wildpekkitseed" ],
-               [0.35, "wildsnowberryseed" ]
+               [0.35, "wildfusnowberryseed" ]
           ],
               "parameters" : { "startingStage" : 3 }
             }
@@ -267,16 +267,7 @@
 
           "type" : "microdungeon",
           "microdungeons" : [ "randomencounter", "treasureroom", "avianencounter", "glitchencounter" ]
-        },
-        {
-          "mode" : "floor",
-          "priority" : 3.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:minibossoverground",
-
-          "type" : "microdungeon",
-          "microdungeons" : [ "minibossoverground" ]
-        },        
+        },       
         {
           "mode" : "floor",
           "priority" : 3.0,

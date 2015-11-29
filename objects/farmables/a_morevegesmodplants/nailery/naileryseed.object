@@ -3,7 +3,7 @@
     "tags" : [ "nature" ],
   "rarity" : "Common",
   "category" : "farmable",
-  "description" : "Nailery, a Glitch delight. Tastes a bit too much like iron.",
+  "description" : "Nailery, a Glitch delight. Tastes a bit too much like iron. Can be thrown.",
   "shortdescription" : "Nailery Seed",
   "objectType" : "farmable",
   "printable" : false, 

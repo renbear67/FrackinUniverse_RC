@@ -3,7 +3,7 @@
     "tags" : [ "nature" ],
   "rarity" : "Uncommon",
   "category" : "farmable",
-  "description" : "Terrible taste, but utterly immune to bio-ooze.",
+  "description" : "Terrible taste, but utterly immune to tar, mud and clay.",
   "shortdescription" : "Niss Seed",
   "objectType" : "farmable",
   "printable" : false,

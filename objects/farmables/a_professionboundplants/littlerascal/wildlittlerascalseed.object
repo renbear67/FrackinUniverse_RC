@@ -3,7 +3,7 @@
     "tags" : [ "nature" ],
   "rarity" : "common",
   "category" : "Farmable",
-  "description" : "It's produce will provide increased vitality.",
+  "description" : "It's produce will restore health and energy.",
   "shortdescription" : "Little Rascal Seed",
   "objectType" : "farmable",
   "printable" : false,

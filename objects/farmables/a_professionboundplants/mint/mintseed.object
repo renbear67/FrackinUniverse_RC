@@ -3,7 +3,7 @@
     "tags" : [ "nature" ],
   "rarity" : "common",
   "category" : "Farmable",
-  "description" : "A new mint strain capable of healing wounds.",
+  "description" : "Restores natural energy reserves.",
   "shortdescription" : "Star Mint Seed",
   "objectType" : "farmable",
   "printable" : false,

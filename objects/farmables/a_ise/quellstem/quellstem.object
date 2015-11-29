@@ -3,7 +3,7 @@
     "tags" : [ "nature" ],
   "rarity" : "rare",
   "category" : "farmable",
-  "description" : "Immune to all forms of heat. Lava included.",
+  "description" : "Immune to all forms of heat, including lava.",
   "shortdescription" : "Quell Stem",
   "objectType" : "farmable",
   "printable" : false, 

@@ -3,7 +3,7 @@
     "tags" : [ "nature" ],
   "rarity" : "Common",
   "category" : "farmable",
-  "description" : "Pekkit. Can be tossed to freeze enemies.",
+  "description" : "Pekkit. Can be tossed to freeze enemies or eaten to protect you.",
   "shortdescription" : "Pekkit",
   "objectType" : "farmable",
   "printable" : false,

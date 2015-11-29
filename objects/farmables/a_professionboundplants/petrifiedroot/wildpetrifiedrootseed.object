@@ -3,7 +3,7 @@
     "tags" : [ "nature" ],
   "rarity" : "common",
   "category" : "Farmable",
-  "description" : "Dark matter meets flora. Provides warp speed.",
+  "description" : "Dark matter meets flora. Increases defenses.",
   "shortdescription" : "Shadow Root Seed",
   "objectType" : "farmable",
   "printable" : false,

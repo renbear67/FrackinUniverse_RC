@@ -3,7 +3,7 @@
     "tags" : [ "nature" ],
   "rarity" : "Legendary",
   "category" : "farmable",
-  "description" : "This is one ugly plant mutant. It's laden with rage-inducing chemicals.",
+  "description" : "This is one ugly plant mutant. Immune to insanity, and increases damage.",
   "shortdescription" : "Glarestalk Gib",
   "objectType" : "farmable",
   "printable" : false, 

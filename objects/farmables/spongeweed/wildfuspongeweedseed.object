@@ -3,7 +3,7 @@
     "tags" : [ "nature" ],
   "rarity" : "rare",
   "category" : "farmable",
-  "description" : "This fragile plant produces excessive amounts of oxygen.",
+  "description" : "This fragile plant is immune to poison.",
   "shortdescription" : "Spongeweed Clump",
   "objectType" : "farmable",
   "printable" : false, 

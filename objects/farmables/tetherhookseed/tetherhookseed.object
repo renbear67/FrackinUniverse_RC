@@ -3,7 +3,7 @@
     "tags" : [ "nature" ],
   "rarity" : "Uncommon",
   "category" : "farmable",
-  "description" : "Capable of vastly increasing damage.",
+  "description" : "Removes you from danger when near death.",
   "shortdescription" : "Tetherhook Weed",
   "objectType" : "farmable",
   "printable" : false,

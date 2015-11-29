@@ -3,7 +3,7 @@
     "tags" : [ "nature" ],
   "rarity" : "common",
   "category" : "Farmable",
-  "description" : "Flecks of gold adorn this health-boosting vine.",
+  "description" : "Flecks of gold adorn this health-restoring vine.",
   "shortdescription" : "Golden Root Seed",
   "objectType" : "farmable",
   "printable" : false,

@@ -3,7 +3,7 @@
     "tags" : [ "nature" ],
   "rarity" : "Common",
   "category" : "farmable",
-  "description" : "Melodistar, capable of growing in the lifeless vacuum of space.",
+  "description" : "Melodistar can increase your health and energy.",
   "shortdescription" : "Melodistar Seed",
   "objectType" : "farmable",
   "printable" : false,

@@ -3,7 +3,7 @@
     "tags" : [ "nature" ],
   "rarity" : "common",
   "category" : "Farmable",
-  "description" : "This plant increases your health.",
+  "description" : "Causes rage while increasing energy.",
   "shortdescription" : "Pinkloom Seed",
   "objectType" : "farmable",
   "printable" : false,

@@ -3,7 +3,7 @@
     "tags" : [ "nature" ],
   "rarity" : "Common",
   "category" : "farmable",
-  "description" : "Provides slight healing to those eating it.",
+  "description" : "Provides slight energy restoration to those eating it.",
   "shortdescription" : "Wubstem Seed",
   "objectType" : "farmable",
   "printable" : false,

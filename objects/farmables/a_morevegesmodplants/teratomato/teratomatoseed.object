@@ -3,7 +3,7 @@
     "tags" : [ "nature" ],
   "rarity" : "Common",
   "category" : "farmable",
-  "description" : "A freakish mutant plant full of blood-filled tomatos.",
+  "description" : "A freakish mutant plant with blood-filled tomatos.",
   "shortdescription" : "Teratomato Seed",
   "objectType" : "farmable",
   "printable" : false, 
@@ -25,10 +25,10 @@
 
   "stages" : [
     {
-      "duration" : [620, 900]
+      "duration" : [320, 600]
     },
     {
-      "duration" : [620, 900]
+      "duration" : [320, 600]
     },
 
     {

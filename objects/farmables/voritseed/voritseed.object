@@ -3,7 +3,7 @@
     "tags" : [ "nature" ],
   "rarity" : "rare",
   "category" : "farmable",
-  "description" : "A strange mix of jelly and plant, full of air.",
+  "description" : "A strange mix of jelly and plant. Provides massive swim speed increase",
   "shortdescription" : "Vorit Seed",
   "objectType" : "farmable",
   "printable" : false,

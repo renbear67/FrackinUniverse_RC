@@ -3,7 +3,7 @@
     "tags" : [ "nature" ],
   "rarity" : "Uncommon",
   "category" : "farmable",
-  "description" : "This vine gives off bioluminesence. It also increases strength.",
+  "description" : "This vine gives off bioluminesence. It also increases damage.",
   "shortdescription" : "Pasaka Vine",
   "objectType" : "farmable",
   "printable" : false, 
