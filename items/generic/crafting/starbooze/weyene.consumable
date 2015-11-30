@@ -1,8 +1,0 @@
-{
-  "itemName" : "weyene",
-  "rarity" : "Common",
-  "inventoryIcon" : "weyene.png",
-  "description" : "Red, red wine.",
-  "shortdescription" : "Wine",
-  "effects" : [ [ "heal_10"  ] ]
-}

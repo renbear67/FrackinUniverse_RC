@@ -1,8 +1,0 @@
-{
-  "itemName" : "wartwine",
-  "rarity" : "Common",
-  "inventoryIcon" : "wartwine.png",
-  "description" : "Mmm. Warty alcohol. That sounds...tasty?",
-  "shortdescription" : "Wart Wine",
-  "effects" : [ [ "heal_5"  ] ]
-}
