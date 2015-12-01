@@ -1,12 +1,15 @@
 function init()
   activateVisualEffects()
+  local slows = status.statusProperty("slows", {})
+  slows["honeyslow2"] = 0.65
+  status.setStatusProperty("slows", slows)
 end
 
 function update(dt)
   mcontroller.controlModifiers({
-      groundMovementModifier = 0.4,
-      runModifier = 0.6,
-      jumpModifier = 0.60
+      groundMovementModifier = -0.35,
+      runModifier = -0.65,
+      jumpModifier = -0.32
     })
 end
 

@@ -1,6 +1,6 @@
 function init()
-  animator.setParticleEmitterOffsetRegion("iceslip", mcontroller.boundBox())
-  animator.setParticleEmitterActive("iceslip", true)
+  animator.setParticleEmitterOffsetRegion("snow", mcontroller.boundBox())
+  animator.setParticleEmitterActive("snow", true)
 end
 
 function update(dt)
