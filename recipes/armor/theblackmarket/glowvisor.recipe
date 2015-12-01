@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "eridianplate", "count" : 2 },
+    { "item" : "goldenglowseed", "count" : 1 },
+    { "item" : "biochip", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "bmcglowscoutvisor",
+    "count" : 1
+  },
+  "groups" : [ "armory", "armors", "all" ]
+}

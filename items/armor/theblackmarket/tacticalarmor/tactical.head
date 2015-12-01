@@ -4,8 +4,8 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Rare",
-  "description" : "The blackmarket tactical mask, offers no protection. Mainly used to mask identity.",
-  "shortdescription" : "Tactical Mask",
+  "description" : "Little protection. Immune to gasses.",
+  "shortdescription" : "Ghost-Weave Mask",
   "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
@@ -13,6 +13,26 @@
   "mask" : "mask.png",
 
   "statusEffects" : [
+    {
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.9
+    },      
+    {
+      "stat" : "protection",
+      "amount" : 12
+    },
+
+    {
+      "stat" : "maxEnergy",
+      "amount" : 55
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 12
+    },
+    "nofalldamage",
+    "gasimmunity"
   ],
   "colorOptions" : [
     { "ffca8a" : "fffdb0", "e0975c" : "cbc234", "a85636" : "926e19", "6f2919" : "563f0f" },

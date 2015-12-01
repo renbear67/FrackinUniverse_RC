@@ -4,14 +4,33 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Rare",
-  "description" : "The blackmarket tactical pants, offers no protection. Often used to mask identity.",
-  "shortdescription" : "Tactical Pants",
+  "description" : "Little protection. Generates kinetic field to protect from falls. Increases speed.",
+  "shortdescription" : "Ghost-Weave Pants",
   "tooltipKind" : "armor",
 
   "maleFrames" : "pantsm.png",
   "femaleFrames" : "pantsm.png",
 
   "statusEffects" : [
+    {
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.6
+    },      
+    {
+      "stat" : "protection",
+      "amount" : 8
+    },
+
+    {
+      "stat" : "maxEnergy",
+      "amount" : 38
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 9
+    },
+    "nofalldamage", "runboost"  
   ],
   "colorOptions" : [
     { "ffca8a" : "fffdb0", "e0975c" : "cbc234", "a85636" : "926e19", "6f2919" : "563f0f" },

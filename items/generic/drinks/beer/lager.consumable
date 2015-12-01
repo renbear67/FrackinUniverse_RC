@@ -11,7 +11,7 @@
         "amount" : 25
         },
         {
-        "effect" : "defenseboost30",
+        "effect" : "defense2",
 	"duration" : 45
         },
 		{

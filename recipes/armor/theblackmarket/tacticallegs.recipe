@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "eridianplate", "count" : 2 },
+    { "item" : "mutaviskthread", "count" : 6 },
+    { "item" : "biochip", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "tacticalpants",
+    "count" : 1
+  },
+  "groups" : [ "armory", "armors", "all" ]
+}

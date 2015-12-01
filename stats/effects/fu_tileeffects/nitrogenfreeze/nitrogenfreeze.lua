@@ -1,9 +1,7 @@
 function init()
   animator.setParticleEmitterOffsetRegion("snow", mcontroller.boundBox())
   animator.setParticleEmitterActive("snow", true)
-  
   script.setUpdateDelta(5)
-
   self.tickDamagePercentage = 0.01
   self.tickTime = 0.7
   self.tickTimer = self.tickTime
@@ -11,16 +9,15 @@ end
 
 function update(dt)
   mcontroller.controlModifiers({
-
-        groundForce = 43.5,
+        groundForce = 60.5,
         slopeSlidingFactor = 0.6,  
-        groundMovementModifier = -0.6,
-        runModifier = -0.32,
-        jumpModifier = -0.25
+        groundMovementModifier = 0.45,
+        runModifier = 0.65,
+        jumpModifier = 0.75
     })
 
   mcontroller.controlParameters({
-      normalGroundFriction = 0.675
+      normalGroundFriction = 4.675
     })
     
   self.tickTimer = self.tickTimer - dt

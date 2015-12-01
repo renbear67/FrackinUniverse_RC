@@ -3,9 +3,9 @@
   "inventoryIcon" : "icons.png:chest",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Legendary",
-  "description" : "A hight tech black market armour chest plate. It has light armour but a major energy boost.",
-  "shortdescription" : " Mobius Breastplate",
+  "rarity" : "uncommon",
+  "description" : "Soldiers of the Dawn Guard wear this radiation-proof armor.",
+  "shortdescription" : " Dawnstar Plate",
   "tooltipKind" : "armor",
 
   "maleFrames" : {
@@ -21,21 +21,26 @@
   },
   
     "statusEffects" : [
-	"runboost25",
     {
-      "stat" : "protection",
-      "amount" : 150
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 2.25
     },
 
     {
-      "stat" : "maxHealth",
-      "amount" : 90
+      "stat" : "protection",
+      "amount" : 30
     },
-	
-	{
+
+    {
       "stat" : "maxEnergy",
-      "amount" : 500
-    }
+      "amount" : 70
+    },
+
+    {
+      "stat" : "healthRegen",
+      "amount" : 0.25
+    },
+    "ffextremeradiationimmunity"
   ],
 
   "colorOptions" : [

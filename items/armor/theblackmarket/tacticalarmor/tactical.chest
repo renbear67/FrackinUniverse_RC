@@ -4,8 +4,8 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Rare",
-  "description" : "The blackmarket tactical chestpiece. Offers no protection. mainly used to mask identity",
-  "shortdescription" : "Tactical Chestpiece",
+  "description" : "Little protection. Health regeneration and slime immunity.",
+  "shortdescription" : "Ghost-Weave Chestpiece",
   "tooltipKind" : "armor",
 
   "maleFrames" : {
@@ -21,6 +21,26 @@
   },
 
   "statusEffects" : [
+    {
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 2.5
+    },      
+    {
+      "stat" : "protection",
+      "amount" : 15
+    },
+
+    {
+      "stat" : "maxEnergy",
+      "amount" : 95
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 22
+    },
+    "slimestickimmunity",
+    "regeneration2"  
   ],
   "colorOptions" : [
     { "ffca8a" : "fffdb0", "e0975c" : "cbc234", "a85636" : "926e19", "6f2919" : "563f0f" },

@@ -3,9 +3,9 @@
   "inventoryIcon" : "icons.png:pants",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Legendary",
-  "description" : "Xeno Leg Armour. Heavy-duty black market armour.",
-  "shortdescription" : "Xeno Leg Armour",
+  "rarity" : "uncommon",
+  "description" : "Heavy duty protection.",
+  "shortdescription" : "X10 Power Armor",
   "tooltipKind" : "armor",
 
   "maleFrames" : "pantsm.png",
@@ -26,22 +26,30 @@
   ],
 
   "statusEffects" : [
-  "runboost25",
-  
-  
-      {
+    {
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.54
+    },
+
+    {
       "stat" : "protection",
-      "amount" : 200
+      "amount" : 17
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 200
+      "amount" : 42
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 200
-    }
+      "amount" : 14
+    },
+    {
+      "stat" : "wetImmunity",
+      "amount" : 1
+    },
+    "biooozeimmunity",
+    "runboost"
   ]
 }

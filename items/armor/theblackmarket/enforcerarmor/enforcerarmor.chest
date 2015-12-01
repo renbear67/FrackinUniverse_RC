@@ -3,7 +3,7 @@
   "inventoryIcon" : "icons.png:chest",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Legendary",
+  "rarity" : "uncommon",
   "description" : "Nearly unbreakable in every respect.",
   "shortdescription" : "Tritanium Chestplate",
   "tooltipKind" : "armor",
@@ -27,7 +27,7 @@
     },
 
     {
-      "stat" : "Protection",
+      "stat" : "protection",
       "amount" : 30
     },
  
@@ -40,7 +40,7 @@
       "stat" : "maxHealth",
       "amount" : 19
     },
-    "defenseboost10"
+    "defense2"
   ],
 
   "colorOptions" : [

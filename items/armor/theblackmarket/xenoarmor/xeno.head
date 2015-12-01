@@ -3,9 +3,9 @@
   "inventoryIcon" : "icons.png:head",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Legendary",
-  "description" : "Xeno Helmet. Heavy-duty black market armour.",
-  "shortdescription" : "Xeno Helmet",
+  "rarity" : "uncommon",
+  "description" : "Heavy duty protection.",
+  "shortdescription" : "X10 Power Armor",
   "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
@@ -13,20 +13,30 @@
   "mask" : "mask.png",
 
   "statusEffects" : [
-  "headlamp",
-      {
+    {
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.8
+    },
+
+    {
       "stat" : "protection",
-      "amount" : 100
+      "amount" : 22
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 100
+      "amount" : 60
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 100
+      "amount" : 15
+    },
+    "gasimmunity",
+    "headlamp",
+    {
+      "stat" : "breathProtection",
+      "amount" : 1.0
     }
   ],
 

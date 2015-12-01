@@ -3,9 +3,9 @@
   "inventoryIcon" : "icons.png:head",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Legendary",
-  "description" : "The Mobius helmet, Lightly armoured but with major energy storage.",
-  "shortdescription" : "Mobius Helmet",
+  "rarity" : "uncommon",
+  "description" : "Soldiers of the Dawn Guard wear this radiation-proof armor.",
+  "shortdescription" : "Dawnstar Helmet",
   "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
@@ -13,21 +13,21 @@
   "mask" : "mask.png",
 
     "statusEffects" : [
-	"mobiusglow",
     {
-      "stat" : "protection",
-      "amount" : 90
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.7
     },
 
     {
-      "stat" : "maxEnergy",
-      "amount" : 350
+      "stat" : "protection",
+      "amount" : 22
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 50
-    }
+      "amount" : 48
+    },
+    "ffextremeradiationimmunity"
   ],
   
   "colorOptions" : [

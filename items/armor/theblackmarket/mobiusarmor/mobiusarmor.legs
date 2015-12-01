@@ -3,30 +3,30 @@
   "inventoryIcon" : "icons.png:pants",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "legendary",
-  "description" : "High tech black market leg armour. Lightly armoured but with major energy storage.",
-  "shortdescription" : "Mobius Pants",
+  "rarity" : "uncommon",
+  "description" : "Soldiers of the Dawn Guard wear this radiation-proof armor.",
+  "shortdescription" : "Dawnstar Pants",
   "tooltipKind" : "armor",
 
   "maleFrames" : "pantsm.png",
   "femaleFrames" : "pantsm.png",
   
     "statusEffects" : [
-	"jumpboost25",
+    {
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.5
+    },
+
     {
       "stat" : "protection",
-      "amount" : 60
+      "amount" : 15
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 400
+      "amount" : 37
     },
-
-    {
-      "stat" : "maxHealth",
-      "amount" : 35
-    }
+    "ffextremeradiationimmunity"
   ],
 
   "colorOptions" : [

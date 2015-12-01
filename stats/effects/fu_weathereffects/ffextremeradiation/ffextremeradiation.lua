@@ -13,9 +13,9 @@ end
 
 function update(dt)
   mcontroller.controlModifiers({
-      groundMovementModifier = -0.10,
-      runModifier = -0.20,
-      jumpModifier = -0.15
+      groundMovementModifier = 0.90,
+      runModifier = 0.80,
+      jumpModifier = 0.80
     })
     
   self.tickTimer = self.tickTimer - dt

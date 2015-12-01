@@ -1,7 +1,7 @@
 function init()
  --Power
   self.powerModifier = effect.configParameter("powerModifier", 0)
-  effect.addStatModifierGroup({{stat = "powerMultiplier", basePercentage = self.powerModifier}})
+  effect.addStatModifierGroup({{stat = "powerMultiplier", baseMultiplier = self.powerModifier}})
 
   animator.setParticleEmitterOffsetRegion("embers", mcontroller.boundBox())
   animator.setParticleEmitterActive("embers", true)

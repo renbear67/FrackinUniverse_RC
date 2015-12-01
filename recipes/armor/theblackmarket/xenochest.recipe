@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "carbonplate", "count" : 12 },
+    { "item" : "moonstonebar", "count" : 5 },
+    { "item" : "mutaviskthread", "count" : 5 },
+    { "item" : "biochip", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "xenochest",
+    "count" : 1
+  },
+  "groups" : [ "armory", "armors", "all" ]
+}

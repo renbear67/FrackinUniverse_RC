@@ -1,5 +1,5 @@
 function init()
-  effect.addStatModifierGroup({{stat = "beesting", basePercentage = -1}})
+  effect.addStatModifierGroup({{stat = "beesting", baseMultiplier = -2}})
   effect.addStatModifierGroup({{stat = "beesting", tickDamagePercentage = 0}})
 end
 

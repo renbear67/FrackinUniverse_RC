@@ -5,7 +5,7 @@
   "description" : "A superior stim, providing shield regen, health regen, defenseboost and gravity manipulation.",
   "shortdescription" : "X-Stim",
   "effects" : [ [
-     "regeneration2", "shieldregen3", "defenseboost210", "lowgrav"
+     "regeneration2", "shieldregen3", "defense4", "lowgrav"
     ] ],
   "learnBlueprintsOnPickup" : [ "ultrastim" ]
 }

@@ -210,7 +210,10 @@
 {"weight" : 0.01, "item" : ["gene_skeletal", 1]},
 {"weight" : 0.01, "item" : ["gene_stealth", 1]},
 {"weight" : 0.01, "item" : ["gene_stimulant", 1]},
-{"weight" : 0.01, "item" : ["gene_void", 1]}
+{"weight" : 0.01, "item" : ["gene_void", 1]},
+          {"weight" : 0.04, "item" : ["bmcglowscoutvisor-recipe", 1]},
+          {"weight" : 0.04, "item" : ["bmcglowscoutvisor-recipe", 1]},
+          {"weight" : 0.04, "item" : ["bmcglowscoutvisor-recipe", 1]}
         ],
         "poolRounds" : [
           [0.23, 1],
@@ -310,7 +313,7 @@
           {"weight" : 0.01, "item" :  [ "fflagoonchest-recipe", 1]},
           {"weight" : 0.01, "item" :  [ "fflagoonhead-recipe", 1]},
           {"weight" : 0.01, "item" :  [ "ffladoonlegs-recipe", 1]},
-          {"weight" : 0.01, "item" :  [ "greenguardianback-recipe", 1]}          
+          {"weight" : 0.01, "item" :  [ "greenguardianback-recipe", 1]}
         ],
         "poolRounds" : [
           [0.33, 1],
@@ -490,9 +493,9 @@
           {"weight" : 0.015, "item" : ["fuokeahitechtoaster-recipe", 1]},
           {"weight" : 0.015, "item" : ["fuokeahitechtoilet-recipe", 1]},
           {"weight" : 0.015, "item" : ["fuokeahitechvrchair-recipe", 1]},          
-          {"weight" : 0.004, "item" : ["agilitysuitchest-recipe", 1]},
-          {"weight" : 0.004, "item" : ["agilitysuithead-recipe", 1]},
-          {"weight" : 0.004, "item" : ["agilitysuitlegs-recipe", 1]},    
+          {"weight" : 0.004, "item" : ["mobiuschest-recipe", 1]},
+          {"weight" : 0.004, "item" : ["mobiushead-recipe", 1]},
+          {"weight" : 0.004, "item" : ["mobiuspants-recipe", 1]},    
           {"weight" : 0.001, "item" : ["atomsmasher", 1]}, 
           {"weight" : 0.04, "item" : "commonburstrifle"},
           {"weight" : 0.04, "item" : "cellzapper"},
@@ -1061,7 +1064,10 @@
 	  {"weight" : 0.04, "item" : "itemlauncher"},
 	  {"weight" : 0.04, "item" : "slingshot"},  
 	  {"weight" : 0.04, "item" : "randomharpoongun"},
-          {"weight" : 0.04, "item" : "lightsaber"}        
+          {"weight" : 0.04, "item" : "lightsaber"},
+          {"weight" : 0.04, "item" : ["enforcerchest-recipe", 1]},
+          {"weight" : 0.04, "item" : ["enforcerhead-recipe", 1]},
+          {"weight" : 0.04, "item" : ["enforcerpants-recipe", 1]}
         ],
         "poolRounds" : [
           [0.23, 1],
@@ -1230,7 +1236,10 @@
 	  {"weight" : 0.04, "item" : "itemlauncher"},
 	  {"weight" : 0.04, "item" : "slingshot"},  
 	  {"weight" : 0.04, "item" : "randomharpoongun"},
-          {"weight" : 0.04, "item" : "lightsaber"}   
+          {"weight" : 0.04, "item" : "lightsaber"},
+          {"weight" : 0.04, "item" : ["enforcerchest-recipe", 1]},
+          {"weight" : 0.04, "item" : ["enforcerhead-recipe", 1]},
+          {"weight" : 0.04, "item" : ["enforcerpants-recipe", 1]}
         ],
         "poolRounds" : [
           [0.23, 1],
@@ -1415,7 +1424,10 @@
 	  {"weight" : 0.04, "item" : "itemlauncher"},
 	  {"weight" : 0.04, "item" : "slingshot"},  
 	  {"weight" : 0.04, "item" : "randomharpoongun"},
-          {"weight" : 0.04, "item" : "lightsaber"}    
+          {"weight" : 0.04, "item" : "lightsaber"},
+          {"weight" : 0.04, "item" : ["enforcerchest-recipe", 1]},
+          {"weight" : 0.04, "item" : ["enforcerhead-recipe", 1]},
+          {"weight" : 0.04, "item" : ["enforcerpants-recipe", 1]}
         ],
         "poolRounds" : [
           [0.23, 1],
@@ -1547,6 +1559,9 @@
           {"weight" : 0.001, "item" : ["agilitysuitchest-recipe", 1]},
           {"weight" : 0.001, "item" : ["agilitysuithead-recipe", 1]},
           {"weight" : 0.001, "item" : ["agilitysuitlegs-recipe", 1]},
+          {"weight" : 0.001, "item" : ["tacticalchest-recipe", 1]},
+          {"weight" : 0.001, "item" : ["tacticalhead-recipe", 1]},
+          {"weight" : 0.001, "item" : ["tacticalpants-recipe", 1]},          
 {"weight" : 0.01, "item" : ["gene_adaptivecell", 1]},
 {"weight" : 0.01, "item" : ["gene_agility", 1]},
 {"weight" : 0.01, "item" : ["gene_aquacelerity", 1]},
@@ -1784,7 +1799,10 @@
           {"weight" : 0.015, "item" :  [ "elderrelic13", 1]},
           {"weight" : 0.015, "item" :  [ "elderrelic14", 1]},
           {"weight" : 0.015, "item" :  [ "parasitebeam", 1]},
-          {"weight" : 0.012, "item" :  [ "brainslug", 1]}
+          {"weight" : 0.012, "item" :  [ "brainslug", 1]},
+          {"weight" : 0.04, "item" : ["xenochest-recipe", 1]},
+          {"weight" : 0.04, "item" : ["xenohead-recipe", 1]},
+          {"weight" : 0.04, "item" : ["xenolegs-recipe", 1]}
         ],
         "poolRounds" : [
           [0.23, 1],
@@ -1923,9 +1941,9 @@
 	  {"weight" : 0.04, "item" : [ "verdantrailgun-recipe", 1]},
 	  {"weight" : 0.04, "item" : [ "druidstaff-recipe", 1]},
 	  {"weight" : 0.02, "item" : [ "biopistol-recipe", 1]},
-          {"weight" : 0.001, "item" : ["agilitysuitchest-recipe", 1]},
-          {"weight" : 0.001, "item" : ["agilitysuithead-recipe", 1]},
-          {"weight" : 0.001, "item" : ["agilitysuitlegs-recipe", 1]},
+          {"weight" : 0.001, "item" : ["cannoneerchest-recipe", 1]},
+          {"weight" : 0.001, "item" : ["cannoneerhead-recipe", 1]},
+          {"weight" : 0.001, "item" : ["cannoneerlegs-recipe", 1]},
 {"weight" : 0.01, "item" : ["gene_adaptivecell", 1]},
 {"weight" : 0.01, "item" : ["gene_agility", 1]},
 {"weight" : 0.01, "item" : ["gene_aquacelerity", 1]},
@@ -1959,7 +1977,7 @@
 {"weight" : 0.01, "item" : ["gene_skeletal", 1]},
 {"weight" : 0.01, "item" : ["gene_stealth", 1]},
 {"weight" : 0.01, "item" : ["gene_stimulant", 1]},
-{"weight" : 0.01, "item" : ["gene_void", 1]}          
+{"weight" : 0.01, "item" : ["gene_void", 1]}
         ],
         "poolRounds" : [
           [0.23, 1],
@@ -2085,9 +2103,9 @@
 	  {"weight" : 0.04, "item" : [ "verdantcarbine-recipe", 1]},
 	  {"weight" : 0.04, "item" : [ "verdantrailgun-recipe", 1]},
 	        {"weight" : 0.02, "item" : [ "biopistol-recipe", 1]},
-          {"weight" : 0.001, "item" : ["agilitysuitchest-recipe", 1]},
-          {"weight" : 0.001, "item" : ["agilitysuithead-recipe", 1]},
-          {"weight" : 0.001, "item" : ["agilitysuitlegs-recipe", 1]},
+          {"weight" : 0.001, "item" : ["mobiuschest-recipe", 1]},
+          {"weight" : 0.001, "item" : ["mobiushead-recipe", 1]},
+          {"weight" : 0.001, "item" : ["mobiuspants-recipe", 1]},
 {"weight" : 0.01, "item" : ["gene_adaptivecell", 1]},
 {"weight" : 0.01, "item" : ["gene_agility", 1]},
 {"weight" : 0.01, "item" : ["gene_aquacelerity", 1]},
@@ -2792,6 +2810,7 @@
       } 
     ]
 ],
+
 "evilbeeLoot" : [
     [1, {
         "pool" : [

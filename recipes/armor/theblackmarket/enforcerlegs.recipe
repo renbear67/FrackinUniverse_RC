@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "densiniumbar", "count" : 3 },
+    { "item" : "eridianbar", "count" : 2 },
+    { "item" : "cpu", "count" : 2 },
+    { "item" : "biochip", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "enforcerpants",
+    "count" : 1
+  },
+  "groups" : [ "armory", "armors", "all" ]
+}
