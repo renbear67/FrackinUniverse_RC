@@ -5,16 +5,33 @@
   "airless" : true,
   "breathable" : false,
   
-  "spawnProfiles" : [
-    {
-      "groups" : [ ],
-      "extraSpawns" : [  ]
-    },
-    {
-      "groups" : [  ],
-      "extraSpawns" : [  ]
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 1,
+        "pool" : [ 
+          [ 0.1, "orbide" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
+      }
+    ],
+    "monsterParameters" : {
+	  "colors" : "ice",
+      "statusSettings" : {
+        "stats" : {
+          "iceslipImmunity" : {
+            "baseValue" : 1.0
+          },
+          "snowslowImmunity" : {
+            "baseValue" : 1.0
+          }
+        }
+      }
     }
-  ],
+  },
 
   "hueShiftOptions" : [ -50, -25, 0, 25, 50 ],
 

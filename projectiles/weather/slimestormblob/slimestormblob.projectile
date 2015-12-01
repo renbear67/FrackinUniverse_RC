@@ -9,7 +9,7 @@
   "speed" : 30,
   "actionOnReap" : [
     { "action" : "config", "file" : "/projectiles/explosions/slimestormexplosion/slimestormexplosion.config" },
-    { "action" : "sound", "options" : [ "/sfx/projectiles/goocluster_pop.wav" ] },
+    { "action" : "sound", "options" : [ "/sfx/projectiles/goocluster_pop.ogg" ] },
     { "action" : "liquid", "liquid" : "slimeliquid",  "quantity" : 0.65 },
     {
       "action" : "applySurfaceMod",

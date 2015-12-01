@@ -5,7 +5,7 @@
   "itemDrop" : "iceblock2material",
   "description" : "Ancient Ice",
   "shortdescription" : "Ancient Ice",
-  "footstepSound" : "/sfx/blocks/footstep_stone2.wav",
+  "footstepSound" : "/sfx/blocks/footstep_stone2.ogg",
   "health" : 7,
   "category": "materials",
 

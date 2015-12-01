@@ -606,8 +606,8 @@
   },
 
   "sounds" : {
-    "turnHostile" : [ "/sfx/starspawn/attack.wav" ],
-    "deathPuff" : [ "/sfx/npc/smallbiped/powlhead_small_death.wav" ],
-    "blinkSound" : ["/sfx/gun/lightningcoil3.wav"]
+    "turnHostile" : [ "/sfx/starspawn/attack.ogg" ],
+    "deathPuff" : [ "/sfx/npc/smallbiped/powlhead_small_death.ogg" ],
+    "blinkSound" : ["/sfx/gun/lightningcoil3.ogg"]
   }
 }

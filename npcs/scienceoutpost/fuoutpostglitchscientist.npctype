@@ -3,8 +3,8 @@
   "baseType" : "fuoutpostcivilian",
   "damageTeam" : 1,
     "scriptConfig" : {
-        "offeredQuests" : [ "1_xenolab.gearup" ],
-        "turnInQuests" : [ "7_chemlab_toxenolab.gearup" ],
+        "offeredQuests" : [ "xenolab.gearup", "1chloroplast.gearup" ],
+        "turnInQuests" : [ "6skeletal.gearup" ],
         
     "wander" : {
       "timeRange" : [2.0, 10.0],

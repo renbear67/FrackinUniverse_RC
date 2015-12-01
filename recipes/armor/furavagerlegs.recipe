@@ -2,6 +2,7 @@
   "input" : [
     { "item" : "ceruliumcompound", "count" : 4 },
     { "item" : "corvex", "count" : 3 },
+    { "item" : "venomsample", "count" : 3 },
     { "item" : "magneticshielding", "count" : 4 }
   ],
   "output" : {

@@ -2,34 +2,44 @@
   "name" : "protoworldunderground",
   "friendlyName" : "Proto Caves",
 
-  "spawnProfiles" : [
-    {
-      "groups" : [ "mediumsurface1", "fu_protoworld" ],
-      "extraSpawns" : [ "fireflyspawner", "phoenixfly", "orphanfly", "bouncercritter", "glowingballcritter2" ],
-      "monsterParameters" : {
-        "statusSettings" : {
-          "stats" : {
-            "biooozeImmunity" : {
-              "baseValue" : 1.0
-            }
-          }
-        }
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 3,
+        "pool" : [ 
+          [ 0.1111, "fumoontant" ],     
+          [ 0.1111, "swarpion" ],        
+          [ 0.1111, "lumoth" ],
+          [ 0.1111, "crutter" ],     
+          [ 0.1111, "gleap" ],
+          [ 0.1111, "scandroid" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : [
+          [ 0.4, "aggressivebee" ],
+          [ 0.3, "aridbee" ],
+          [ 0.3, "phoenixfly" ],
+          [ 0.3, "bouncercritter" ],
+          [ 0.3, "glowingball2critter" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
       }
-    },
-    {
-      "groups" : [ "mediumsurface2", "fu_protoworld" ],
-      "extraSpawns" : [ "fireflyspawner", "phoenixfly", "orphanfly", "bouncercritter", "glowingballcritter2" ],
-      "monsterParameters" : {
-        "statusSettings" : {
-          "stats" : {
-            "biooozeImmunity" : {
-              "baseValue" : 1.0
-            }
+    ],
+    "monsterParameters" : {
+      "statusSettings" : {
+        "stats" : {
+          "biooozeImmunity" : {
+            "baseValue" : 1.0
           }
         }
       }
     }
-  ],
+  },
     "mainBlock" : "biostone",
     "subBlocks" : [ "biodirt", "bioblock2", "biogravel" ],
     "ores" : "ff_deepsurfaceprotoOres",

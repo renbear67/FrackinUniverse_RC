@@ -19,7 +19,7 @@
   "hands" : [2, 2],
   "muzzleEffect" : {
     "animation" : "/animations/muzzleflash/electromuzzle/electromuzzle.animation",
-    "fireSound" : [ { "file" : "/sfx/gun/plasma_shotgun3.wav" } ]
+    "fireSound" : [ { "file" : "/sfx/gun/plasma_shotgun3.ogg" } ]
   },
 
   "fireOnRelease" : true,

@@ -11,9 +11,9 @@
 
   "image" : "kelpsteelhatchet.png",
   "firePosition" : [15.5, 4.5],
-  "fireTime" : 0.9,
+  "fireTime" : 0.87,
   "fireAfterWindup" : true,
-  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_twohanded.wav" } ] },
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_axe_poison1.ogg" } ] },
 
   "colorOptions" : [
     /* BLACK */
@@ -46,7 +46,7 @@
     "projectileType" : "coralswoosh",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 9
+      "power" : 6
     },
     "idle" : {
       "twoHanded" : false,

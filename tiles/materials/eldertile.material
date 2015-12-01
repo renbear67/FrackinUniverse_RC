@@ -5,7 +5,7 @@
   "itemDrop" : "eldertile",
   "description" : "Unknown stone that meshes perfectly.",
   "shortdescription" : "Elder Tile",
-  "footstepSound" : "/sfx/blocks/footstep_dirt.wav",
+  "footstepSound" : "/sfx/blocks/footstep_dirt.ogg",
   "health" : 12,
   "category": "materials",
 

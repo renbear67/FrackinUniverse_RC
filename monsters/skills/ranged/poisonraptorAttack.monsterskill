@@ -1,7 +1,7 @@
 {
   "name" : "poisonraptorAttack",
   "label" : "POISON SPIT",
-  "image" : "/monsters/flying/skills/default.png",
+  "image" : "/monsters/generated/skills/defaultphysical.png",
 
   "parameters" : {
     "poisonraptorAttack" : {
@@ -20,7 +20,7 @@
 
   "animationParameters" : {
     "sounds" : {
-      "rangedAttack" : [ "/sfx/npc/quadruped/arrowhead_pain2.wav" ]
+      "rangedAttack" : [ "/sfx/npc/quadruped/arrowhead_pain2.ogg" ]
     }
   }
 }

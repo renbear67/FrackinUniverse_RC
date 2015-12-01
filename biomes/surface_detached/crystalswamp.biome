@@ -2,17 +2,33 @@
   "name" : "crystalswamp",
   "friendlyName" : "Crystalline Swamp",
   "hueShiftOptions" : [-225, -195, -125, -40, -25, 0, 25, 40, 125, 195, 225],
-  "spawnProfiles" : [
-    {
-      "groups" : [ "mediumsurface1" ],
-      "extraSpawns" : [ "xenofly","snowskater", "fusnowball", "bouncercritter", "reasonablecritter", "snooglecritter" ]
-    },
-    {
-      "groups" : [ "mediumsurface2" ],
-      "extraSpawns" : [ "xenofly","snowskater", "fusnowball", "bouncercritter", "reasonablecritter", "snooglecritter" ]
-
-    }
-  ],
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 2,
+        "pool" : [ 
+          [ 0.1111, "crustoise" ],     
+          [ 0.1111, "skimbus" ],
+          [ 0.1111, "narfin" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : [
+          [ 0.1, "xenofly" ],
+          [ 0.1, "snowskater" ],
+          [ 0.1, "fusnowball" ],
+		  [ 0.1, "bouncercritter" ],
+		  [ 0.1, "reasonablecritter" ],
+		  [ 0.1, "snooglecritter" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
+      }
+    ]
+  },
     "mainBlock" : "purplecrystal",
     "subBlocks" : [ "swampdirtff", "mud", "wetdirt" ],
     "ores" : "ff_crystalmoonOres",
@@ -103,15 +119,6 @@
         },
         {
           "mode" : "floor",
-          "priority" : 3.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:minibossoverground",
-
-          "type" : "microdungeon",
-          "microdungeons" : [ "minibossoverground" ]
-        },
-        {
-          "mode" : "floor",
           "priority" : 4.0,
           "variants" : 1,
           "distribution" : "/biomes/distributions.config:scatteredSmall",
@@ -127,7 +134,7 @@
           "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "canyonmini", "terrainfeatures", "rockclimb","rocktunnel",  "toxicplains", "sandstone", "blockpile", "loops", "flats", "reversepyramids" ]
+          "microdungeons" : [ "canyonmini", "terrainfeatures", "rockclimb","rocktunnel",  "toxicmicrodungeons", "sandstone", "blockpile", "loops", "flats", "reversepyramids" ]
         },
         {
           "mode" : "floor",
@@ -146,16 +153,7 @@
 
           "type" : "treasureBox",
           "treasureBoxSets" : [ "crystalChest" ]
-        },
-        {
-          "mode" : "floor",
-          "priority" : 3.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:minibossoverground",
-
-          "type" : "microdungeon",
-          "microdungeons" : [ "minibossoverground" ]
-        },        
+        },     
         {
           "mode" : "floor",
           "priority" : 3.0,

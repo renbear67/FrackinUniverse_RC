@@ -5,7 +5,7 @@
 	"itemDrop" : "rostonematerial",
 	"description" : "Rough, unrefined rostone.",
 	"shortdescription" : "Rostone",
-	"footstepSound" : "/sfx/blocks/footstep_stone.wav",
+	"footstepSound" : "/sfx/blocks/footstep_stone.ogg",
 	"health" : 10,
 	"category": "materials",
 

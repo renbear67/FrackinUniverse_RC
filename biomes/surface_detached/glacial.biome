@@ -2,22 +2,46 @@
   "name" : "glacial",
   "friendlyName" : "Glacial",
 
-  "spawnProfiles" : [
-    {
-      "groups" : [ ],
-      "extraSpawns" : [ "fusnowball" ],
-      "monsterParameters" : {
-        "colors" : "ice"
-      }      
-    },
-    {
-      "groups" : [  ],
-      "extraSpawns" : [ "fusnowball" ],
-      "monsterParameters" : {
-        "colors" : "ice"
-      }      
+  "spawnProfile" : {
+    "groups" : [
+        {
+        "select" : 3,
+        "pool" : [ 
+          [ 0.1429, "wisper" ],     
+          [ 0.1429, "lilodon" ],
+          [ 0.1429, "capricoat" ],        
+          [ 0.1429, "skimbus" ],
+          [ 0.1429, "pulpin" ],         
+          [ 0.1429, "monopus" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : [
+          [ 0.4, "polarmoth" ],
+          [ 0.3, "orphanfly" ],
+          [ 0.3, "snowskater" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
+      },
+      {
+        "select" : 2,
+        "pool" : [
+          [ 1, "frozenowlcritter" ],
+          [ 1, "sealcritter" ],
+          [ 1, "icescabcritter" ],
+          [ 1, "dancercritter" ],
+          [ 1, "snowbcritter" ]
+        ]
+      }
+    ],
+    "monsterParameters" : {
+      "colors" : "arctic"
     }
-  ],
+  },
 
   "hueShiftOptions" : [-45, 0, 45],
 

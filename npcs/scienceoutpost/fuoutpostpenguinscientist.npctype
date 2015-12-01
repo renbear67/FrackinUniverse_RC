@@ -3,7 +3,7 @@
   "baseType" : "fuoutpostcivilian",
   "damageTeam" : 1,
     "scriptConfig" : {
-        "offeredQuests" : [ "1_matterassembler.gearup", "2_wire.gearup" ],
+        "offeredQuests" : [ "fissionfurnace.gearup" ],
         "turnInQuests" : [],
         
     "wander" : {

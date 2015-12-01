@@ -7,7 +7,7 @@
   "shortdescription" : "Bamboo",
   "glitchDescription" : "Statement. Bamboo.",
   "floranDescription" : "Sssticks.",
-  "footstepSound" : "/sfx/blocks/footstep_lightwood.wav",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.ogg",
   "tillableMod" : 31,
   "soil" : true,
   "health" : 10,

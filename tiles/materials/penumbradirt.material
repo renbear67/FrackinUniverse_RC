@@ -5,7 +5,7 @@
   "itemDrop" : "penumbradirtmaterial",
   "description" : "This dirt reflects no light.",
   "shortdescription" : "Void Dirt",
-  "footstepSound" : "/sfx/blocks/footstep_dirt.wav",
+  "footstepSound" : "/sfx/blocks/footstep_dirt.ogg",
   "soil" : true,
   "health" : 5,
   "category": "materials",

@@ -22,7 +22,7 @@
 
     }
   ],
-  "smashSounds" : [ "/sfx/objects/capsule_break1.wav", "/sfx/objects/capsule_break2.wav", "/sfx/objects/capsule_break3.wav" ],
+  "smashSounds" : [ "/sfx/objects/capsule_break1.ogg", "/sfx/objects/capsule_break2.ogg", "/sfx/objects/capsule_break3.ogg" ],
   "smashDropOptions" : [
     [ [ "crystal", 1, { } ], [ "crystal", 1, { } ], [ "crystal", 1, { } ] ]
   ],

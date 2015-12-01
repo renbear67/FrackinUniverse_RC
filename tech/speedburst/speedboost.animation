@@ -8,7 +8,7 @@
           },
           "on" : {
             "properties" : {
-              "immediateSound" : "/sfx/tech/tech_dashshort.wav"
+              "immediateSound" : "/sfx/tech/tech_dashshort.ogg"
             }
           }
         }

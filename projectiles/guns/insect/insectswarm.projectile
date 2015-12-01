@@ -19,7 +19,7 @@
     },
     {
       "action" : "sound",
-      "options" : [ "/sfx/projectiles/hivebomb_impact.wav" ]
+      "options" : [ "/sfx/projectiles/hivebomb_impact.ogg" ]
     }
   ],
   "statusEffects" : [ "weakpoison" ]

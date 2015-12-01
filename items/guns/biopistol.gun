@@ -29,7 +29,7 @@
   },
   
   "muzzleEffect" : {
-       "fireSound" : [ { "file" : "/sfx/gun/needler1.wav" } ],
+       "fireSound" : [ { "file" : "/sfx/gun/needler1.ogg" } ],
        "animation" :  "/animations/muzzleflash/smokemuzzle/smokemuzzle.animation"
 	   } 
 }

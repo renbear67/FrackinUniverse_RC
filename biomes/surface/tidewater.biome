@@ -2,17 +2,34 @@
   "name" : "tidewater",
   "friendlyName" : "Rocky Tidewater",
 
-  "spawnProfiles" : [
-    {
-      "groups" : [ "oceansurface1", "elder_deepone2" ],
-      "extraSpawns" : [ "crabcritter", "gullcritter", "savybirdcritter" ]
-    },
-    {
-      "groups" : [ "oceansurface2", "elder_deepone2" ],
-      "extraSpawns" : [ "crabcritter", "gullcritter", "savybirdcritter" ]
-    }
-  ],
-
+    "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 2,
+        "pool" : [ 
+          [ 0.1111, "nautileech" ],     
+          [ 0.1111, "lilodon" ],
+          [ 0.1111, "crabcano" ],        
+          [ 0.1111, "miasmop" ],
+          [ 0.1111, "pulpin" ],     
+          [ 0.1111, "snaggler" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : [
+          [ 0.4, "crabcritter" ],
+          [ 0.3, "gullcritter" ],
+          [ 0.3, "savybirdcritter" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
+      }
+    ]
+  },
+  
   "hueShiftOptions" : [ 0, 0, 0, 0 ],
 
   "weather" : [

@@ -1,0 +1,26 @@
+{
+  "id" : "powerpress.gearup",
+  "prerequisites" : [ "fu_intro2.gearup" ],
+  "title" : "^#1693d5;The Power Press",
+  "text" : "Sometimes, basic metals just aren't enough. A ^orange;Power Press^white; is designed specifically to press metals into new alloys and plates for crafting. ^green;Build one in your Matter Assembler^white;!",
+  "completionText" : "Many other materials can be created in this fashion. Let's move on to mineral samples. Oh, and take this. It isn't much now, but once you upgrade it a bit...",
+  "speaker" : "questGiver",
+  "moneyRange" : [0, 0],
+  "rewards" : [],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "gatherRequirements" : {
+      "items" : {
+        "powerpress" : {
+          "count" : 1,
+          "consume" : true
+        }
+      }
+    }
+  }
+}
+
+ 
+

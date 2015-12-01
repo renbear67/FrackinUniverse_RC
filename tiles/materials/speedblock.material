@@ -5,7 +5,7 @@
   "itemDrop" : "speedblockmaterial",
   "description" : "Gives you a speed boost.",
   "shortdescription" : "Speed Block",
-  "footstepSound" : "/sfx/blocks/footstep_girder.wav",
+  "footstepSound" : "/sfx/blocks/footstep_girder.ogg",
   "health" : 22,
   "category": "materials",
 

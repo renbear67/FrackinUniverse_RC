@@ -19,21 +19,21 @@
 
   "baseParameters" : {
     "scripts" : [
-      "/monsters/ground/groundMonster.lua",
+      "/monsters/fulegacyscripts/ground/groundMonster.lua",
       "/scripts/pathing.lua",
       "/scripts/stateMachine.lua",
       "/scripts/util.lua",
       "/scripts/vec2.lua",
 
-      "/monsters/ground/aggroHopState.lua",
-      "/monsters/ground/approachState.lua",
-      "/monsters/ground/fleeState.lua",
-      "/monsters/ground/stunState.lua",
-      "/monsters/ground/captiveState.lua",
-      "/monsters/ground/socializeState.lua",
-      "/monsters/ground/wanderState.lua",
+      "/monsters/fulegacyscripts/ground/aggroHopState.lua",
+      "/monsters/fulegacyscripts/ground/approachState.lua",
+      "/monsters/fulegacyscripts/ground/fleeState.lua",
+      "/monsters/fulegacyscripts/ground/stunState.lua",
+      "/monsters/fulegacyscripts/ground/captiveState.lua",
+      "/monsters/fulegacyscripts/ground/socializeState.lua",
+      "/monsters/fulegacyscripts/ground/wanderState.lua",
 
-      "/monsters/ground/skills/createGroundRangedAttack.lua"
+      "/monsters/fulegacyscripts/ground/skills/createGroundRangedAttack.lua"
     ],
 
     "territoryDistance" : 5.0,
@@ -126,6 +126,9 @@
             "primaryScriptDelta" : 5,
 
             "stats" : {
+              "grit" : {
+                "baseValue" : 1.0
+              },
               "maxHealth" : {
                 "baseValue" : 80
               },

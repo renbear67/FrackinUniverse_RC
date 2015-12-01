@@ -2,7 +2,6 @@
   "itemName" : "liquidnitrogenitem",
   "rarity" : "uncommon",
   "inventoryIcon" : "liquidnitrogenitemicon.png",
-  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
   "shortdescription" : "Liquid Nitrogen",
   "description" : "A measure of liquid nitrogen.",
 

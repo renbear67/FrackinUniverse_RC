@@ -2,12 +2,21 @@
   "name" : "tidewaterfloor",
   "friendlyName" : "Rocky tidewater floor",
 
-  "spawnProfiles" : [
-    {
-      "groups" : [ "oceanfloor", "elder_deepone2" ],
-      "extraSpawns" : [ "glowingfishcritter", "floatbagcritter", "fishlemoncritter", "fishcritter", "fishberrycritter", "fishchilicritter", "smallFishOcean1", "smallFishOcean2", "aggroLargeFish", "passiveLargeFish" ]
-    }
-  ],
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 6,
+        "pool" : [
+          [ 1, "smallFishOcean1" ],
+          [ 1, "smallFishOcean2" ],
+          [ 1, "passiveLargeFish" ],
+          [ 1, "aggroLargeFish" ],
+          [ 1, "squidcritter" ],
+          [ 1, "jellycritter" ]
+        ]
+      }
+    ]
+  },
 
   "parallax" : "/parallax/surface/oceanfloor.parallax",
 

@@ -18,7 +18,7 @@
     "walkWhileFiring" : false,
     "rateOfFire" : [2, 7],
     "muzzleEffect" : {
-      "fireSound" : [ { "file" : "/sfx/weapons/protopistol.wav" } ],
+      "fireSound" : [ { "file" : "/sfx/weapons/protopistol.ogg" } ],
       "animation" : "/animations/protomuzzle/protomuzzle.animation"
     },
     "fireOnRelease" : false,

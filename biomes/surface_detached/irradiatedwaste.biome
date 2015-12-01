@@ -2,22 +2,61 @@
   "name" : "irradiatedwaste",
   "friendlyName" : "Irradiated Glade",
   "hueShiftOptions" : [-40, -25, 0, 25, 40],
-  "spawnProfiles" : [
-    {
-      "groups" : [ "mediumsurface1" ],
-      "extraSpawns" : [ "forestbee", "junglebee", "greentip", "blueback", "birdcritter", "squirrelcritter", "snail", "sporelingcritter", "owlcritter", "blipcritter", "mousecritter", "fireflyspawner" ],
-      "monsterParameters" : {
-        "colors" : "toxic"
+    "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 3,
+        "pool" : [ 
+          [ 0.1111, "fuaviansentry" ],     
+          [ 0.1111, "fugiantbee" ],
+          [ 0.1111, "seedspawn2" ],        
+          [ 0.1111, "slime" ],
+          [ 0.1111, "pyromantle" ],     
+          [ 0.1111, "futoxicgolem" ],
+          [ 0.1111, "futoxicfly" ]
+        ]
+      },
+      {
+        "select" : 3,
+        "pool" : [
+          [ 0.4, "junglebee" ],
+          [ 0.3, "aridbee" ],
+          [ 0.3, "fireflyspawner" ],
+          [ 0.4, "junglebee" ],
+          [ 0.3, "aridbee" ],
+          [ 0.3, "fireflyspawner" ],
+          [ 0.4, "junglebee" ],
+          [ 0.3, "sackbagcritter" ],
+          [ 0.3, "hazmatcritter" ],
+          [ 0.4, "bowbirdcritter" ],
+          [ 0.3, "blipcritter" ],
+          [ 0.3, "toxiccrabcritter" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
       }
-    },
-    {
-      "groups" : [ "mediumsurface2" ],
-      "extraSpawns" : [ "forestbee", "junglebee", "blueback", "redwing", "birdcritter", "squirrelcritter", "snail", "sporelingcritter", "owlcritter", "blipcritter", "mousecritter", "fireflyspawner" ],
-      "monsterParameters" : {
-        "colors" : "toxic"
+    ],
+    "monsterParameters" : {
+      "statusSettings" : {
+        "stats" : {
+            "biooozeImmunity" : {
+              "baseValue" : 1.0
+            },
+            "poisonImmunity" : {
+              "baseValue" : 1.0
+            },
+            "ffextremeradiationImmunity" : {
+              "baseValue" : 1.0
+            },
+            "biomeradiationImmunity" : {
+              "baseValue" : 1.0
+            }
+        }
       }
     }
-  ],
+  },
     "mainBlock" : "waste",
     "subBlocks" : [ "irradiatedtile2", "sewage", "biorock2" ],
     "ores" : "ff_radioactiveOres",
@@ -42,15 +81,7 @@
             }
           ]
         },
-        {
-          "mode" : "floor",
-          "priority" : 3.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:minibossoverground",
 
-          "type" : "microdungeon",
-          "microdungeons" : [ "minibossoverground" ]
-        },
         {
           "mode" : "floor",
           "priority" : 1.0,

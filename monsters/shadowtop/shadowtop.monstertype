@@ -11,23 +11,23 @@
 
   "baseParameters" : {
     "scripts" : [
-      "/monsters/ground/groundMonster.lua",
+      "/monsters/fulegacyscripts/ground/groundMonster.lua",
       "/scripts/pathing.lua",
       "/scripts/stateMachine.lua",
       "/scripts/util.lua",
       "/scripts/vec2.lua",
 
-      "/monsters/ground/aggroHopState.lua",
-      "/monsters/ground/approachState.lua",
-      "/monsters/ground/fleeState.lua",
-      "/monsters/ground/stunState.lua",
-      "/monsters/fupoptop/wanderskipstate.lua"
+      "/monsters/fulegacyscripts/ground/aggroHopState.lua",
+      "/monsters/fulegacyscripts/ground/approachState.lua",
+      "/monsters/fulegacyscripts/ground/fleeState.lua",
+      "/monsters/fulegacyscripts/ground/stunState.lua",
+      "/monsters/shadowtop/wanderskipstate.lua"
     ],
 
     "blockedSensors" : [ [1.5, -0.8], [1.5, 0.2], [1.5, 0.7] ],
     "fallSensors" : [ [0.5, -2.5], [0.5, -3.5], [0.5, -4.5], [2.0, -2.5], [2.0, -3.5], [2.0, -4.5] ],
 
-    "skills" : [ "meleeAttack", "pounceAttack" ],
+    "skills" : [ "meleeAttack", "fuPounceAttack" ],
 
     "aggressive" : false,
     "territoryDistance" : 10.0,
@@ -93,6 +93,9 @@
       "primaryScriptDelta" : 0,
 
       "stats" : {
+        "grit" : {
+          "baseValue" : 1.0
+        },
         "maxHealth" : {
           "baseValue" : 48
         },

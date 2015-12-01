@@ -1,6 +1,19 @@
 [
-{"op":"add","path":"/spawnProfiles/0","value":{"extraSpawns":["normalbee","flowerbee","butterbee","fawnfly"]}},
-{"op":"add","path":"/spawnProfiles/1","value":{"extraSpawns":["normalbee","flowerbee","butterbee","mudstag"]}},
+{"op":"add","path":"/spawnProfile/groups/-",
+"value":{ 
+      
+        "select" : 6,
+        "pool" : [ 
+          [ 0.111, "normalbee" ],          
+          [ 0.111, "flowerbee" ],
+          [ 0.111, "forestbee" ],
+          [ 0.111, "butterbee" ],
+          [ 0.111, "fawnfly" ],
+          [ 0.111, "mudstag" ]
+        ]
+      }
+},
+
 	{"op":"add","path":"/surfacePlaceables/items/-","value":{
 			"mode" : "floor",
 			"priority" : 3.0,

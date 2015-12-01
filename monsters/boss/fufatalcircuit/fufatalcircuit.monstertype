@@ -22,20 +22,20 @@
       "/scripts/util.lua",
       "/scripts/vec2.lua",
 
-      "/monsters/ground/aggroHopState.lua",
-      "/monsters/ground/approachState.lua",
-      "/monsters/ground/aggressState.lua",
-      "/monsters/ground/stunState.lua",
-      "/monsters/ground/wanderState.lua",
+      "/monsters/fulegacyscripts/ground/aggroHopState.lua",
+      "/monsters/fulegacyscripts/ground/approachState.lua",
+      "/monsters/fulegacyscripts/ground/aggressState.lua",
+      "/monsters/fulegacyscripts/ground/stunState.lua",
+      "/monsters/fulegacyscripts/ground/wanderState.lua",
 
-      "/monsters/ground/skills/createGroundRangedAttack.lua"
+      "/monsters/fulegacyscripts/ground/skills/createGroundRangedAttack.lua"
     ],
 
     "metaBoundBox" : [-1, -5.6, 1, 3],
     "scale" : 1.0,
 	
     "skillCount" : 6,
-    "baseSkills" : [ "pounceAttack", "meleeAttack", "chargeAttack" ],
+    "baseSkills" : [ "fuPounceAttack", "meleeAttack", "fuChargeAttack" ],
     "specialSkills" : [ "robotRocketAttack", "robotZapAttack", "robotIonAttack" ],
     "attackStartDistance" : 7.0,
     "attackMaxDistance" : 20,
@@ -87,7 +87,7 @@
       "attack" : "idle"
     },
     "deathParticles" : "deathPoof",
-    "deathNoise" : [ "/sfx/projectiles/bubble_pop.wav" ],
+    "deathNoise" : [ "/sfx/projectiles/bubble_pop.ogg" ],
 
     "exhaustionTimer" : 3.0,
     "exhaustionTimeout" : 3.0,
@@ -128,6 +128,9 @@
       "primaryScriptDelta" : 5,
 
       "stats" : {
+        "grit" : {
+          "baseValue" : 1.0
+        },
         "maxHealth" : {
           "baseValue" : 750
         },

@@ -13,7 +13,7 @@
   "firePosition" : [52.5, -7.0],
   "fireTime" : 0.76,
   "fireAfterWindup" : true,
-  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_twohanded.wav" } ] },
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_spear.ogg" } ] },
 
   "primaryStances" : {
     "directional" : true,
@@ -30,20 +30,20 @@
       "duration" : 0.1
     },
     "windup" : {
-      "twoHanded" : true,
-      "armAngle" : -110,
-      "swordAngle" : -90,
-      "handPosition" : [1.5, -19.5],
+      "twoHanded" : false,
+      "armAngle" : 0,
+      "swordAngle" : -60,
+      "handPosition" : [0.2, -24],
       "duration" : 0.05,
-      "statusEffects" : []
+      "statusEffects" : [ ]
     },
     "cooldown" : {
-      "twoHanded" : true,
-      "armAngle" : -50,
+      "twoHanded" : false,
+      "armAngle" : -140,
       "swordAngle" : -90,
-      "handPosition" : [1.5, -24.5],
+      "handPosition" : [2.0, -10],
       "duration" : 0.4,
-      "statusEffects" : []
+      "statusEffects" : [ ]
     }
   }
 }

@@ -5,7 +5,7 @@
   "itemDrop" : "penumbrastonematerial",
   "description" : "This stone reflects no light.",
   "shortdescription" : "Umbral Stone",
-  "footstepSound" : "/sfx/blocks/footstep_stone.wav",
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
   "health" : 9,
   "category": "materials",
 

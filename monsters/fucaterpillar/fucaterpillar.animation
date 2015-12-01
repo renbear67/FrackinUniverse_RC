@@ -195,6 +195,11 @@
   },
 
   "particleEmitters" : {
+    "damage" : {
+      "emissionRate" : 0.7,
+      "particles" : [
+      ]
+    },
     "deathPoof" : {
       "particles" : [
         {
@@ -386,7 +391,7 @@
   },
 
   "sounds" : {
-    "turnHostile" : [ "/sfx/npc/enemydeathpuff.wav" ],
-    "deathPuff" : [ "/sfx/npc/enemydeathpuff.wav" ]
+    "turnHostile" : [ "/sfx/npc/enemydeathpuff.ogg" ],
+    "deathPuff" : [ "/sfx/npc/enemydeathpuff.ogg" ]
   }
 }

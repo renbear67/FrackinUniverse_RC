@@ -4,5 +4,6 @@
   "inventoryIcon" : "berliniteore.png",
   "description" : "Can be used to produce phosphorus.",
   "shortdescription" : "Berlinite Ore",
+  "pickupQuestTemplates" : [ "berlinite.gearup" ],
   "learnBlueprintsOnPickup" : [ "phosphorus" ]
 }

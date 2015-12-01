@@ -22,8 +22,8 @@
 		"/objects/isn_sharedobjectscripts.lua"],
   "scriptDelta" : 120,
   
-  "openSounds" : [ "/sfx/objects/metalbox_open.wav" ],
-  "closeSounds" : [ "/sfx/objects/metalbox_close.wav" ],
+  "openSounds" : [ "/sfx/objects/metalbox_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/metalbox_close.ogg" ],
   "slotCount" : 9,
   "uiConfig" : "/objects/power/isn_atmoscondenser/isn_atmoscondenser.config",
   "frameCooldown" : 67,

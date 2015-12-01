@@ -48,7 +48,7 @@
       "brush" : [ [ "npc",
           {
             "kind" : "monster",
-            "typeName" : "smallshroom",
+            "typeName" : "sporgus",
             "seed" : "stable",
             "parameters" : {
               "aggressive" : false

@@ -7,7 +7,7 @@
   "itemDrop" : "labgirdir",
   "description" : "A strong looking plasteel girder.",
   "shortdescription" : "Plasteel Girder",
-  "footstepSound" : "/sfx/blocks/footstep_girder.wav",
+  "footstepSound" : "/sfx/blocks/footstep_girder.ogg",
   "health" : 10,
   "category": "materials",
   

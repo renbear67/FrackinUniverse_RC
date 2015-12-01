@@ -33,7 +33,7 @@
   "scripts" : [ "/objects/woodencentrifuge/centrifuge.lua" ],
   "scriptDelta" : 100,
   "recipeGroup" : "industrialcentrifuge",
-  "openSounds" : [ "/sfx/objects/woodenbox_open.wav" ],
+  "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
   "slotCount" : 5,
   "uiConfig" : "/interface/woodencentrifuge/woodencentrifuge.config",
   "frameCooldown" : 67,

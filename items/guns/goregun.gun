@@ -26,7 +26,7 @@
   },
   
   "muzzleEffect" : {
-       "fireSound" : [ { "file" : "/sfx/gun/impact_flesh.wav" } ],
+       "fireSound" : [ { "file" : "/sfx/gun/impact_flesh.ogg" } ],
        "animation" :  "/animations/muzzleflash/bloodvomitmuzzle/bloodvomitmuzzle.animation"
 	   } 
 }

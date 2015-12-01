@@ -5,7 +5,7 @@
   "itemDrop" : "darknessmaterial",
   "shortdescription" : "Darksoil",
   "description" : "Solid darkness... how?",
-  "footstepSound" : "/sfx/blocks/footstep_dirt.wav",
+  "footstepSound" : "/sfx/blocks/footstep_dirt.ogg",
   "health" : 4,
   "category": "materials",
 

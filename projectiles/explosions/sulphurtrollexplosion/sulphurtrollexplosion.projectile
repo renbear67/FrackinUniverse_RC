@@ -12,5 +12,7 @@
   "piercing" : true,
   "flippable" : true,
   "universalDamage" : false,
-  "damageKind" : "default"
+  "damageKind" : "default",
+  "statusEffects" : [ "sulphuricacideffect", "slow" ],
+  "emmiters" : [ "corrosive" ]
 }

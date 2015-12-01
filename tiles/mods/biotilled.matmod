@@ -2,7 +2,7 @@
   "modId" : 6702,
   "modName" : "biotilled",
   "description" : "Tilled mutated soil",
-  "footstepSound" : "/sfx/blocks/footstep_wetclay.wav",
+  "footstepSound" : "/sfx/blocks/footstep_wetclay.ogg",
   "tilled" : true,
   "health" : 0,
 

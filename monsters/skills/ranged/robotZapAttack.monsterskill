@@ -1,7 +1,7 @@
 {
   "name" : "robotZapAttack",
   "label" : "Ion Burst",
-  "image" : "/monsters/flying/skills/default.png",
+  "image" : "/monsters/generated/skills/defaultphysical.png",
 
   "parameters" : {
     "robotZapAttack" : {
@@ -18,7 +18,7 @@
 
   "animationParameters" : {
     "sounds" : {
-      "rangedAttack" : [ "/sfx/npc/unique/robotboss_attack1.wav" ]
+      "rangedAttack" : [ "/sfx/npc/unique/robotboss_attack1.ogg" ]
     }
   }
 }

@@ -27,7 +27,7 @@
   },
   
   "muzzleEffect" : {
-       "fireSound" : [ { "file" : "/sfx/gun/pumpgun_blast2.wav" } ],
+       "fireSound" : [ { "file" : "/sfx/gun/pumpgun_blast2.ogg" } ],
        "animation" :  "/animations/muzzleflash/smokemuzzle/smokemuzzle.animation"
 	   } 
 }

@@ -2,24 +2,33 @@
   "name" : "breakwater",
   "friendlyName" : "Breakwater",
   
-  "spawnProfiles" : [
-    {
-      "groups" : [ "oceanfloor" ],
-      "extraSpawns" : [ ],
-    "monsterParameters" : {
-        "statusSettings" : {
-          "stats" : {
-            "lavaImmunity" : {
-              "baseValue" : 1.0
-            },
-            "fireImmunity" : {
-              "baseValue" : 1.0
-            }
-          }
-        }
-    }
-    }
-  ],
+    "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 2,
+        "pool" : [ 
+          [ 0.1111, "nautileech" ],     
+          [ 0.1111, "lilodon" ],
+          [ 0.1111, "crabcano" ],        
+          [ 0.1111, "miasmop" ],
+          [ 0.1111, "pulpin" ],     
+          [ 0.1111, "snaggler" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : [
+          [ 0.4, "crabcritter" ],
+          [ 0.3, "gullcritter" ],
+          [ 0.3, "savybirdcritter" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
+      }
+    ]
+  },
 
   "mainBlock" : "marestone",
   "subBlocks" : [ "dirt", "rostone", "oystershell", "clay" ],

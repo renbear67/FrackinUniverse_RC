@@ -2,46 +2,24 @@
   "name" : "nitrogenseaunderground",
   "friendlyName" : "Nitrogen Cavern",
 
-  "spawnProfiles" : [
-    {
-      "groups" : [ "oceansurface1" ],
-      "extraSpawns" : [ "symbiotecritter" ],
-      "monsterParameters" : {
-        "statusSettings" : {
-          "stats" : {
-            "ffextremecoldImmunity" : {
-              "baseValue" : 1.0
-            },
-            "biomecoldImmunity" : {
-              "baseValue" : 1.0
-            },
-            "nitrogenfreezeImmunity" : {
-              "baseValue" : 1.0
-            }
-          }
-        }
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 2,
+        "pool" : [ 
+          [ 1.0, "wisper" ],
+          [ 1.0, "pyromantle" ],
+          [ 1.0, "ignome" ],
+          [ 1.0, "fennix" ],
+          [ 1.0, "pulpin" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : "generatedGround"
       }
-    },
-    {
-      "groups" : [ "oceansurface2" ],
-      "extraSpawns" : [ "symbiotecritter" ],
-      "monsterParameters" : {
-        "statusSettings" : {
-          "stats" : {
-            "ffextremecoldImmunity" : {
-              "baseValue" : 1.0
-            },
-            "biomecoldImmunity" : {
-              "baseValue" : 1.0
-            },
-            "nitrogenfreezeImmunity" : {
-              "baseValue" : 1.0
-            }
-          }
-        }
-      }
-    }
-  ],
+    ]
+  },
   
   "skyOptions" : [],
   

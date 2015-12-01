@@ -1,29 +1,31 @@
 {
   "animatedParts" : {
     "stateTypes" : {
+      "damage" : {
+        "priority" : 3,
+        "default" : "none",
+        "states" : {
+          "none" : {
+            "frames" : 1
+          },
+          "stunned" : {
+            "frames" : 1
+          }
+        }
+      },
       "movement" : {
         "priority" : 0,
         "default" : "idle",
         "states" : {
           "idle" : {
             "frames" : 8,
-            "cycle" : 1,
+            "cycle" : 7.5,
             "mode" : "loop"
           },
           "walk" : {
             "frames" : 8,
-            "cycle" : 0.6,
+            "cycle" : 0.8,
             "mode" : "loop"
-          }
-        }
-      },
-
-      "portrait" : {
-        "priority" : -1,
-        "default" : "portrait",
-        "states" : {
-          "portrait" : {
-            "frames" : 1
           }
         }
       }
@@ -32,8 +34,7 @@
     "parts" : {
       "body" : {
         "properties" : {
-          "rotationGroup" : "body",
-          "fullbright" : true
+          "rotationGroup" : "body"
         },
         "partStates" : {
           "movement" : {
@@ -45,13 +46,6 @@
             "walk" : {
               "properties" : {
                 "image" : "<partImage>:walk.<frame>"
-              }
-            }
-          },
-          "portrait" : {
-            "portrait" : {
-              "properties" : {
-                "image" : "<partImage>:idle.1"
               }
             }
           }
@@ -69,14 +63,6 @@
 
   "particleEmitters" : {
   },
-  "lights" : {
-    "glow1" : {
-      "active" : false,
-      "position" : [0, 0],
-      "color" : [100, 100, 0],
-      "pointLight" : false
-    }
-  },
 
   "effects" : {
     "blink" : {
@@ -88,6 +74,6 @@
 
   "sounds" : {
     "turnHostile" : [ ],
-    "deathPuff" : [ "/sfx/npc/enemydeathpuff.wav" ]
+    "deathPuff" : [ "/sfx/npc/enemydeathpuff.ogg" ]
   }
 }

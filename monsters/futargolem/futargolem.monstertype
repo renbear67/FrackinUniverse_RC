@@ -12,17 +12,17 @@
 
   "baseParameters" : {
     "scripts" : [
-      "/monsters/ground/groundMonster.lua",
+      "/monsters/fulegacyscripts/ground/groundMonster.lua",
       "/scripts/pathing.lua",
       "/scripts/stateMachine.lua",
       "/scripts/util.lua",
       "/scripts/vec2.lua",
 
-      "/monsters/ground/approachState.lua",
-      "/monsters/ground/fleeState.lua",
-      "/monsters/ground/wanderState.lua",
+      "/monsters/fulegacyscripts/ground/approachState.lua",
+      "/monsters/fulegacyscripts/ground/fleeState.lua",
+      "/monsters/fulegacyscripts/ground/wanderState.lua",
 
-      "/monsters/ground/skills/createGroundRangedAttack.lua"
+      "/monsters/fulegacyscripts/ground/skills/createGroundRangedAttack.lua"
     ],
 
     "baseSkills" : [ "targolemBreathAttack"],
@@ -102,6 +102,9 @@
       "primaryScriptDelta" : 0,
 
       "stats" : {
+        "grit" : {
+          "baseValue" : 1.0
+        },
         "maxHealth" : {
           "baseValue" : 152
         },

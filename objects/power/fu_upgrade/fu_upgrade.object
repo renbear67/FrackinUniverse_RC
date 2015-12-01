@@ -35,8 +35,8 @@
    	      
   "scriptDelta" : 120,
   
-  "openSounds" : [ "/sfx/objects/apexcooldoor_open.wav" ],
-  "closeSounds" : [ "/sfx/objects/apexcooldoor_close.wav" ],
+  "openSounds" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/apexcooldoor_close.ogg" ],
   "slotCount" : 10,
   "containerCallback": "containerCallback",
   "uiConfig" : "/objects/power/fu_upgrade/fu_upgrade.config",

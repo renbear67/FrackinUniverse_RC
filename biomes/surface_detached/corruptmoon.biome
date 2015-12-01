@@ -2,17 +2,43 @@
   "name" : "corruptmoon",
   "friendlyName" : "Corrupted Moon",
 
-  "spawnProfiles" : [
-    {
-      "groups" : [ "mediumsurface1" ],
-      "extraSpawns" : [ ]
-    },
-    {
-      "groups" : [ "mediumsurface2" ],
-      "extraSpawns" : [ ]
-    }
-  ],
-
+    "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 3,
+        "pool" : [ 
+          [ 0.1111, "fuaviansentry" ],     
+          [ 0.1111, "fugiantbee" ],
+          [ 0.1111, "seedspawn2" ],        
+          [ 0.1111, "slime" ],
+          [ 0.1111, "pyromantle" ],     
+          [ 0.1111, "futoxicgolem" ],
+          [ 0.1111, "futoxicfly" ]
+        ]
+      },
+      {
+        "select" : 3,
+        "pool" : [
+          [ 0.4, "junglebee" ],
+          [ 0.3, "aridbee" ],
+          [ 0.3, "fireflyspawner" ],
+          [ 0.4, "junglebee" ],
+          [ 0.3, "aridbee" ],
+          [ 0.3, "fireflyspawner" ],
+          [ 0.4, "junglebee" ],
+          [ 0.3, "sackbagcritter" ],
+          [ 0.3, "hazmatcritter" ],
+          [ 0.4, "bowbirdcritter" ],
+          [ 0.3, "blipcritter" ],
+          [ 0.3, "toxiccrabcritter" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
+      }
+    ]
+  },
   "mainBlock" : "corruptslime",
   "subBlocks" : [ "darkstone", "corruptdirt" ],
   "ores" : "ff_surfacecorruptionOres",

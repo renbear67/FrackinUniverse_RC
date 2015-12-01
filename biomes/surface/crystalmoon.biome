@@ -2,18 +2,34 @@
   "name" : "crystalmoon",
   "friendlyName" : "Crystalline World",
 
-  "spawnProfiles" : [
-    {
-      "groups" : [ "mediumsurface1" ],
-      "extraSpawns" : [ "xenofly","snowskater", "fusnowball", "bouncercritter", "reasonablecritter", "snooglecritter" ]
-    },
-    {
-      "groups" : [ "mediumsurface2" ],
-      "extraSpawns" : [ "xenofly","snowskater", "fusnowball", "bouncercritter", "reasonablecritter", "snooglecritter" ]
-
-    }
-  ],
-
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 2,
+        "pool" : [ 
+          [ 0.1111, "crustoise" ],     
+          [ 0.1111, "skimbus" ],
+          [ 0.1111, "narfin" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : [
+          [ 0.1, "xenofly" ],
+          [ 0.1, "snowskater" ],
+          [ 0.1, "fusnowball" ],
+		  [ 0.1, "bouncercritter" ],
+		  [ 0.1, "reasonablecritter" ],
+		  [ 0.1, "snooglecritter" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
+      }
+    ]
+  },
+  
     
   "hueShiftOptions" : [ -255, -225, -200, -180, -140, -120, -100, -80, -60, -40, 0, 40, 60, 80, 100, 120, 140, 180, 200, 225, 255],
 
@@ -276,7 +292,7 @@
           "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "canyonmini", "terrainfeatures", "rockclimb","rocktunnel",  "toxicplains", "sandstone", "blockpile", "loops", "flats", "reversepyramids" ]
+          "microdungeons" : [ "canyonmini", "terrainfeatures", "rockclimb","rocktunnel",  "toxicmicrodungeons", "sandstone", "blockpile", "loops", "flats", "reversepyramids" ]
         },
         {
           "mode" : "floor",
@@ -287,15 +303,6 @@
           "type" : "microdungeon",
           "microdungeons" : [ "randomencounter", "treasureroom", "avianencounter", "glitchencounter" ]
         },
-        {
-          "mode" : "floor",
-          "priority" : 3.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:minibossoverground",
-
-          "type" : "microdungeon",
-          "microdungeons" : [ "minibossoverground" ]
-        },        
         {
           "mode" : "floor",
           "priority" : 3.0,

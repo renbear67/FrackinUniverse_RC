@@ -14,7 +14,7 @@
   "firePosition" : [35.5, 5],
   "fireTime" : 0.75,
   "fireAfterWindup" : true,
-  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_twohanded.wav" } ] },
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_broadsword.ogg" } ] },
 
 
   "primaryStances" : {
@@ -29,7 +29,6 @@
       "armAngle" : -90,
       "swordAngle" : -90,
       "handPosition" : [ 2, -17.0],
-      "armFrameOverride" : "idleMelee",
       "duration" : 0.1
     },
     "windup" : {
@@ -50,7 +49,7 @@
     }
   },
   "parryBlockCooldown" : 1.2,
-  "parrySound" : "/sfx/melee/sword_parry.wav",
+  "parrySound" : "/sfx/melee/sword_parry.ogg",
   "parryParticle" : "shieldspark",
 
   "altStances" : {

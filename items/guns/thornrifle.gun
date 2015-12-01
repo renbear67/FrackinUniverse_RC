@@ -21,7 +21,7 @@
   "projectileType" : "thornriflebullet",
   "projectile" : { "speed" : 90, "power" : 5.6 },
   "muzzleEffect" : {
-       "fireSound" : [ { "file" : "/sfx/projectiles/thorn.wav" } ],
+       "fireSound" : [ { "file" : "/sfx/projectiles/thorn.ogg" } ],
        "animation" :  "/animations/muzzleflash/smokemuzzle/smokemuzzle.animation"
 	   }   
 }

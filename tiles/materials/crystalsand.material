@@ -5,7 +5,7 @@
   "itemDrop" : "crystalsandmaterial",
   "description" : "sparkling crystalline sand.",
   "shortdescription" : "Crystalline Sand",
-  "footstepSound" : "/sfx/blocks/footstep_sand.wav",
+  "footstepSound" : "/sfx/blocks/footstep_sand.ogg",
   "health" : 1,
   "category": "materials",
   "falling" : true,

@@ -5,7 +5,7 @@
   "itemDrop" : "junglestonematerial",
   "description" : "Stone covered in vines and roots.",
   "shortdescription" : "Jungle Stone",
-  "footstepSound" : "/sfx/blocks/footstep_stone.wav",
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
   "health" : 8,
   "category": "materials",
 

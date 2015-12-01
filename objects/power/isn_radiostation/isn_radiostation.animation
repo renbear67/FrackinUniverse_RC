@@ -40,7 +40,7 @@
   },
   
   "sounds" : {
-    "error" : [ "/sfx/interface/nav_insufficient_fuel.wav" ],
-    "cycle" : [ "/sfx/interface/keypad_press.wav" ]
+    "error" : [ "/sfx/interface/nav_insufficient_fuel.ogg" ],
+    "cycle" : [ "/sfx/interface/keypad_press.ogg" ]
   }
 }

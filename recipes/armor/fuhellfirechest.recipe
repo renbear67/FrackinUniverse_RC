@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "corefragmentore", "count" : 12 },
     { "item" : "densealloy", "count" : 4 },
-    { "item" : "liquidlava", "count" : 48 },
+    { "item" : "scorchedcore", "count" : 12 },
     { "item" : "obsidianshard", "count" : 20 }
   ],
   "output" : {

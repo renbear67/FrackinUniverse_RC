@@ -13,14 +13,14 @@
   "firePosition" : [52.5, -7.0],
   "fireTime" : 0.8,
   "fireAfterWindup" : true,
-  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_twohanded.wav" } ] },
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_spear.ogg" } ] },
 
   "primaryStances" : {
     "directional" : true,
     "projectileType" : "spearswoosh1",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 9
+      "power" : 6
     },
     "idle" : {
       "twoHanded" : false,

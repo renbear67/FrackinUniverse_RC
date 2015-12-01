@@ -33,7 +33,7 @@
   "scripts" : [ "/objects/honeyjarrer/honeyjar.lua" ],
   "scriptDelta" : 100,
   "recipeGroup" : "honeyjarrer",
-  "openSounds" : [ "/sfx/objects/florancrate_open.wav" ],
+  "openSounds" : [ "/sfx/objects/florancrate_open.ogg" ],
   "slotCount" : 15,
   "uiConfig" : "/objects/honeyjarrer/honeyjarrer.config",
   "frameCooldown" : 67,

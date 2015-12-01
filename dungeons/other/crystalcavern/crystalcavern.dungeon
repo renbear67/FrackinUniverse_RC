@@ -403,7 +403,7 @@
 		"brush" : [ [ "npc",
 			{
 				"kind" : "monster",
-				"typeName" : "minibossflying",
+				"typeName" : "icetroll",
 				"seed" : "stable",
 				"parameters" : {
 				"aggressive" : true,

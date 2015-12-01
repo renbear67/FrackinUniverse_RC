@@ -21,7 +21,7 @@
   "rateOfFire" : [2, 7],
 	"muzzleEffect" : {
     "animation" : "/animations/muzzleflash/electromuzzle/electromuzzle.animation",
-    "fireSound" : [ { "file" : "/sfx/gun/plasma_ar2.wav" } ]
+    "fireSound" : [ { "file" : "/sfx/gun/plasma_ar2.ogg" } ]
   },
   "fireOnRelease" : true,
   

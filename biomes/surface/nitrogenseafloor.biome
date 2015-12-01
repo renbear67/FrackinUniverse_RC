@@ -4,6 +4,23 @@
   "airless" : true,
   "breathable" : false,
   
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 7,
+        "pool" : [
+          [ 1, "smallFishOcean1" ],
+          [ 1, "smallFishOcean2" ],
+          [ 1, "passiveLargeFish" ],
+          [ 1, "aggroLargeFish" ],
+          [ 1, "charfishcritter" ],
+          [ 1, "narfishcritter" ],
+          [ 1, "arcticfishcritter" ]
+        ]
+      }
+    ]
+  },
+  
   "spawnProfiles" : [
     {
       "groups" : [ "oceanfloor" ],
@@ -199,15 +216,6 @@
 
           "type" : "microdungeon",
           "microdungeons" : [ "block1platforms", "loops", "spiralspikes", "blocks", "stripeblocks", "blockpile", "reversepyramids", "flats", "spikes", "rods", "wiggles", "rockyshapes", "layeredspire", "blank", "none" ]
-        },
-        {
-          "mode" : "floor",
-          "priority" : 3.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:minibossoverground",
-
-          "type" : "microdungeon",
-          "microdungeons" : [ "minibossoverground" ]
         },
         {
           "mode" : "floor",

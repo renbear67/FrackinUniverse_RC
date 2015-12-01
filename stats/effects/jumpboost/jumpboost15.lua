@@ -6,7 +6,7 @@ end
 function update(dt)
   animator.setParticleEmitterActive("jumpparticles", mcontroller.jumping())
   mcontroller.controlModifiers({
-      jumpModifier = 0.15
+      jumpModifier = 1.15
     })
 end
 

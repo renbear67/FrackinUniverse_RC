@@ -2,6 +2,38 @@
   "name" : "moonvolcanicunderground",
   "friendlyName" : "moonvolcanicunderground",
 
+    "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 2,
+        "pool" : [ 
+          [ 1.0, "crabcano" ],
+          [ 1.0, "pyromantle" ],
+          [ 1.0, "fennix" ],
+          [ 1.0, "ignome" ],
+          [ 1.0, "crustoise" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : "generatedGround"
+      }
+    ],
+      "monsterParameters" : {
+        "colors" : "volcanic",
+        "statusSettings" : {
+          "stats" : {
+            "lavaImmunity" : {
+              "baseValue" : 1.0
+            },
+            "fireImmunity" : {
+              "baseValue" : 1.0
+            }
+          }
+        }
+      }
+  },
+  
   "parallax" : "/parallax/underground/moonunderground.parallax",
 
   "mainBlock" : "magmatile4",

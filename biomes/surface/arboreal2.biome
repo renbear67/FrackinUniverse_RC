@@ -3,22 +3,58 @@
   "friendlyName" : "Primeval Forest",
 
   "requiredStatuses" : [],
-  "spawnProfiles" : [
-    {
-      "groups" : [ "easysurface1", "fu_arboreal" ],
-      "extraSpawns" : [ "forestbee", "normalbee", "nocturnalbee", "fireflyspawner", "greentip", "blueback", "aurorabee", "birdcritter", "bunny", "chevcritter", "groopcritter", "harecritter", "hedgehogcritter", "redbreastcritter", "squirrelcritter" ],
-      "monsterParameters" : {
-        "colors" : "forest"
-      }     
-    },
-    {
-      "groups" : [ "easysurface2", "fu_arboreal" ],
-      "extraSpawns" : [ "forestbee", "normalbee",  "nocturnalbee", "fireflyspawner", "greentip", "blueback", "aurorabee", "birdcritter", "bunny", "chevcritter", "groopcritter", "harecritter", "hedgehogcritter", "redbreastcritter", "squirrelcritter" ],
-      "monsterParameters" : {
-        "colors" : "forest"
+      "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 3,
+        "pool" : [ 
+          [ 0.1111, "iguarmor" ],     
+          [ 0.1111, "pteropod" ],
+          [ 0.1111, "nutmidge" ],        
+          [ 0.1111, "mandraflora" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : [ 
+          [ 0.1311, "furaptor" ],     
+          [ 0.1311, "furaptor2" ],
+          [ 0.1511, "furaptor3" ],        
+          [ 0.2111, "furaptor4" ],
+		  [ 0.2411, "furaptor5" ]
+        ]
+      },	  
+      {
+        "select" : 3,
+        "pool" : [
+          [ 0.4, "forestbee" ],
+          [ 0.3, "normalbee" ],
+		  [ 0.3, "greentip" ],
+		  [ 0.3, "blueback" ],
+		  [ 0.3, "aurorabee" ]
+        ]
+      },
+      {
+        "select" : 3,
+        "pool" : [
+		  [ 0.3, "fireflyspawner" ],
+          [ 0.4, "birdcritter" ],
+          [ 0.3, "bunny" ],
+          [ 0.3, "chevcritter" ],
+		  [ 0.3, "groopcritter" ],
+		  [ 0.3, "harecritter" ],
+		  [ 0.3, "hedgehogcritter" ],
+		  [ 0.3, "redbreastcritter" ],
+		  [ 0.3, "squirrelcritter" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
       }
-    }
-  ],
+    ]
+  },
+  
 
   
   "hueShiftOptions" : [-260, -150, -85, -55, -28, 0, 28, 55, 85, 150, 260],
@@ -434,15 +470,6 @@
 
           "type" : "microdungeon",
           "microdungeons" : [ "newhumanmicro", "newavianmicro", "minigreenruins", "fuencountercultist", "arborealmini" ]
-        },
-        {
-          "mode" : "floor",
-          "priority" : 3.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:minibossoverground",
-
-          "type" : "microdungeon",
-          "microdungeons" : [ "minibossoverground" ]
         },
         {
           "mode" : "floor",

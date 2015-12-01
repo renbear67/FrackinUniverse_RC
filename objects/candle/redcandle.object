@@ -36,6 +36,6 @@
     }
   ],
 
-  "soundEffect" : "/sfx/objects/oillantern.wav"
+  "soundEffect" : "/sfx/objects/oillantern.ogg"
 
 }

@@ -1,7 +1,7 @@
 {
   "name" : "caterpillarAttack",
   "label" : "EW!",
-  "image" : "/monsters/flying/skills/default.png",
+  "image" : "/monsters/generated/skills/defaultphysical.png",
 
   "parameters" : {
     "caterpillarAttack" : {
@@ -19,7 +19,7 @@
 
   "animationParameters" : {
     "sounds" : {
-      "rangedAttack" : [ "/sfx/projectiles/goo_spit2.wav" ]
+      "rangedAttack" : [ "/sfx/projectiles/goo_spit2.ogg" ]
     }
   }
 }

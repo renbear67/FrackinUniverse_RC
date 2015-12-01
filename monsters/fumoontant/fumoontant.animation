@@ -551,8 +551,8 @@
   },
 
   "sounds" : {
-    "turnHostile" : [ "/sfx/npc/monsters/monster_surprise.wav" ],
-    "deathPuff" : [ "/sfx/melee/axe_kill_organic1.wav" ]
+    "turnHostile" : [ "/sfx/npc/monsters/monster_surprise.ogg" ],
+    "deathPuff" : [ "/sfx/melee/axe_kill_organic1.ogg" ]
   },
   "effects" : {
     "blink" : {

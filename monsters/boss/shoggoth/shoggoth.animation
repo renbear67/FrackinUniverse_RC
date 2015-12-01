@@ -46,7 +46,7 @@
             "cycle": 1.2,
             "frames" : 16,
             "properties" : {
-              "immediateSound" : "/sfx/melee/swing_fire4.wav"
+              "immediateSound" : "/sfx/melee/swing_fire4.ogg"
             }
           }
         }
@@ -63,7 +63,7 @@
             "cycle" : 0.8,
             "mode" : "loop",
             "properties" : {
-              "persistentSound" : "/sfx/npc/unique/crystalboss_beam.wav"
+              "persistentSound" : "/sfx/npc/unique/crystalboss_beam.ogg"
             }
           },
           "windup" : {
@@ -72,14 +72,14 @@
             "mode" : "transition",
             "transition" : "active",
             "properties" : {
-              "immediateSound" : "/sfx/npc/unique/crystalboss_beamin.wav"
+              "immediateSound" : "/sfx/npc/unique/crystalboss_beamin.ogg"
             }
           },
           "winddown" : {
             "frames" : 8,
             "cycle" : 0.66,
             "properties" : {
-              "immediateSound" : "/sfx/npc/unique/crystalboss_beamout.wav"
+              "immediateSound" : "/sfx/npc/unique/crystalboss_beamout.ogg"
             }
           }
         }
@@ -542,9 +542,9 @@
   },
   "sounds" : {
     "turnHostile" : [ "/sfx/shoggoth/shoggothhostile.ogg" ],
-    "attackMain" : [ "/sfx/shoggoth/growl.wav", "/sfx/shoggoth/shoggoth1.ogg" ],
-    "deathPuff" : [ "/sfx/shoggoth/death.wav" ],
-    "shoggothChomp" : [ "/sfx/melee/bite_robotic1.wav"]
+    "attackMain" : [ "/sfx/shoggoth/growl.ogg", "/sfx/shoggoth/shoggoth1.ogg" ],
+    "deathPuff" : [ "/sfx/shoggoth/death.ogg" ],
+    "shoggothChomp" : [ "/sfx/melee/bite_robotic1.ogg"]
   },
   "effects" : {
     "blink" : {

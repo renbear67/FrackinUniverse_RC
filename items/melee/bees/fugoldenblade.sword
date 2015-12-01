@@ -11,9 +11,9 @@
 
   "image" : "goldenblade.png",
   "firePosition" : [15.5, 4.5],
-  "fireTime" : 0.70,
+  "fireTime" : 0.78,
   "fireAfterWindup" : true,
-  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_twohanded.wav" } ] },
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_broadsword.ogg" } ] },
 
   "primaryStances" : {
     "directional" : false,

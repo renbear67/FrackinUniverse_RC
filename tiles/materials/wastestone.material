@@ -5,7 +5,7 @@
   "itemDrop" : "wastestone",
   "description" : "Tough wastestone.",
   "shortdescription" : "Wastestone Block",
-  "footstepSound" : "/sfx/blocks/footstep_stone.wav",
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
   "health" : 4,
   "damageTable" : "/tiles/flammableDamage.config",
   "category": "materials",

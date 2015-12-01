@@ -34,8 +34,8 @@
   "animation" : "/objects/wired/door/door.animation",
   "animationCustom" : {
     "sounds" : {
-      "open" : [ "/sfx/objects/bunkerslidingdoor_open.wav" ],
-      "close" : [ "/sfx/objects/bunkerslidingdoor_close.wav" ]
+      "open" : [ "/sfx/objects/bunkerslidingdoor_open.ogg" ],
+      "close" : [ "/sfx/objects/bunkerslidingdoor_close.ogg" ]
     }
   },
   "animationParts" : {

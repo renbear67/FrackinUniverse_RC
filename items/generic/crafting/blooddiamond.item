@@ -4,5 +4,6 @@
   "inventoryIcon" : "blooddiamond.png",
   "description" : "Purified, extracted bloodstone.",
   "shortdescription" : "Blood Diamond",
+  "pickupQuestTemplates" : [ "blooddiamond.gearup" ],
   "learnBlueprintsOnPickup" : [ "quietusbar", "hoodedchest", "fuprecursorpants", "fuprecursorchest", "fuprecursorhead" ]
 }

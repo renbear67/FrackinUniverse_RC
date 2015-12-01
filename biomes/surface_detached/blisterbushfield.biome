@@ -1,17 +1,58 @@
 {
   "name" : "blisterbushfield",
   "friendlyName" : "Blister Bush Field",
-  "spawnProfiles" : [
-    {
-      "groups" : [ "hardsurface1", "fu_bog" ],
-      "extraSpawns" : [ "aridbee", "fireflyspawner", "muddancer", "mudstag", "shardwing", "funewt", "mousecritter", "owlcritter", "squeekcritter", "tinycrocodilecritter" ]
-    },
-    {
-      "groups" : [ "hardsurface2", "fu_bog" ],
-      "extraSpawns" : [ "aridbee", "fireflyspawner", "muddancer", "mudstag", "shardwing","funewt", "mousecritter", "owlcritter", "squeekcritter", "tinycrocodilecritter" ]
-
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 3,
+        "pool" : [ 
+          [ 0.1111, "skeyejelly2" ],     
+          [ 0.1111, "skeyejelly" ],        
+          [ 0.1111, "jellyboss2" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : [    
+          [ 0.1111, "pogolem" ],
+          [ 0.1111, "po" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : [
+          [ 0.4, "stinkjack" ],
+          [ 0.3, "bouncebagcritter" ],
+          [ 0.3, "sluggreencritter" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
+      }
+    ],
+    "monsterParameters" : {
+      "statusSettings" : {
+        "stats" : {
+            "poisonImmunity" : {
+              "baseValue" : 1.0
+            },
+            "tarImmunity" : {
+              "baseValue" : 1.0
+            },
+            "biooozeImmunity" : {
+              "baseValue" : 1.0
+            },
+            "slimestickImmunity" : {
+              "baseValue" : 1.0
+            },
+            "slimesfrictionImmunity" : {
+              "baseValue" : 1.0
+            }
+        }
+      }
     }
-  ],
+  },
     "mainBlock" : "biodirt",
     "subBlocks" : [ "biorock2", "bioblock", "protorock" ],
     "ores" : "surfaceOres",
@@ -43,15 +84,6 @@
               "parameters" : { }
             }
           ]
-        },
-        {
-          "mode" : "floor",
-          "priority" : 3.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:minibossoverground",
-
-          "type" : "microdungeon",
-          "microdungeons" : [ "minibossoverground" ]
         },
         {
           "mode" : "floor",

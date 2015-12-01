@@ -2,7 +2,6 @@
   "itemName" : "liquidwastewater",
   "rarity" : "Common",
   "inventoryIcon" : "liquidwastewater.png",
-  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
   "shortdescription" : "Contaminated Water",
   "description" : "A filthy, brackish water.",
 

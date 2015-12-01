@@ -5,7 +5,7 @@
   "itemDrop" : "irradiatedwall2",
   "description" : "This probably isn't safe.",
   "shortdescription" : "Radioactive Rock",
-  "footstepSound" : "/sfx/blocks/footstep_stone2.wav",
+  "footstepSound" : "/sfx/blocks/footstep_stone2.ogg",
   "health" : 10,
   "category": "materials",
 

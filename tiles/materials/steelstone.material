@@ -5,7 +5,7 @@
   "itemDrop" : "steelstonematerial",
   "description" : "Metallic stone as hard as steel.",
   "shortdescription" : "Steel Stone",
-  "footstepSound" : "/sfx/blocks/footstep_metallic.wav",
+  "footstepSound" : "/sfx/blocks/footstep_metallic.ogg",
   "health" : 11,
   "category": "materials",
 

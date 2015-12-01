@@ -5,7 +5,7 @@
   "itemDrop" : "irradiatedwall3",
   "description" : "Yea, this definitely is NOT safe to touch.",
   "shortdescription" : "Radioactive Rock",
-  "footstepSound" : "/sfx/blocks/footstep_stone2.wav",
+  "footstepSound" : "/sfx/blocks/footstep_stone2.ogg",
   "health" : 8,
   "soil" : true,
   "category": "materials",

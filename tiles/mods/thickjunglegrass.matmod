@@ -2,7 +2,7 @@
   "modId" : 6738,
   "modName" : "thickjunglegrass",
   "Description" : "Jungle grasses",
-  "footstepSound" : "/sfx/blocks/footstep_grass.wav",
+  "footstepSound" : "/sfx/blocks/footstep_grass.ogg",
   "grass" : true,
   "health" : 0,
 

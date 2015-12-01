@@ -1,6 +1,17 @@
 [
-{"op":"add","path":"/spawnProfiles/0","value":{"extraSpawns":["phoenixfly","heathugger","volcanicbee"]}},
-{"op":"add","path":"/spawnProfiles/1","value":{"extraSpawns":["phoenixfly","glowbug","volcanicbee"]}},
+
+{"op":"add","path":"/spawnProfile/groups/-",
+"value":{ 
+      
+        "select" : 3,
+        "pool" : [ 
+          [ 0.111, "phoenixfly" ],          
+          [ 0.111, "heathugger" ],
+          [ 0.111, "volcanicbee" ]
+        ]
+      }
+},
+
 	{"op":"add","path":"/surfacePlaceables/items/-","value":{
 			"mode" : "floor",
 			"priority" : 3.0,

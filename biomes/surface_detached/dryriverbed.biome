@@ -1,22 +1,28 @@
 {
   "name" : "dryriverbed",
   "friendlyName" : "Dry Riverbed",
-   "spawnProfiles" : [
-    {
-      "groups" : [ "mediumsurface1", "fu_thickjungle" ],
-      "extraSpawns" : [ "dustmoth", "sunskipper", "goldbuck", "fuscorpion", "deserttortoisecritter", "vulturecritter"  ],
-      "monsterParameters" : {
-        "colors" : "desert"
-      }    
-    },
-    {
-      "groups" : [ "mediumsurface2", "fu_thickjungle" ],
-      "extraSpawns" : [ "dustmoth", "sunskipper", "goldbuck", "fuscorpion", "deserttortoisecritter", "vulturecritter"  ],
-      "monsterParameters" : {
-        "colors" : "desert"
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 1,
+        "pool" : [ 
+          [ 1.0, "toumingo" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : [
+          [ 0.25, "mousecritter" ],
+          [ 0.25, "squeekcritter" ],
+          [ 0.25, "deserttortoisecritter" ],
+          [ 0.25, "bowbirdcritter" ]
+        ]
       }
+    ],
+    "monsterParameters" : {
+      "colors" : "desert"
     }
-  ], 
+  },
   "hueShiftOptions" : [-40, -25, 0, 25, 40],
     "mainBlock" : "drydirt",
     "subBlocks" : [ "dirt", "cobblestone" ],
@@ -49,15 +55,6 @@
               "parameters" : { }
             }
           ]
-        },
-        {
-          "mode" : "floor",
-          "priority" : 3.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:minibossoverground",
-
-          "type" : "microdungeon",
-          "microdungeons" : [ "minibossoverground" ]
         },
         {
           "mode" : "floor",

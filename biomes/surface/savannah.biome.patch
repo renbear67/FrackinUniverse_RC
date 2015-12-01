@@ -1,6 +1,18 @@
 [
-{"op":"add","path":"/spawnProfiles/0","value":{ "extraSpawns":["brightstripe","vineclimber","junglebee", "nocturnalbee","hardybee"]}},
-{"op":"add","path":"/spawnProfiles/1","value":{ "extraSpawns":["brightstripe","thornbee","junglebee", "nocturnalbee","hardybee"]}},
+{"op":"add","path":"/spawnProfile/groups/-",
+"value":{ 
+      
+        "select" : 5,
+        "pool" : [ 
+          [ 0.111, "brightstripe" ],          
+          [ 0.111, "vineclimber" ],
+          [ 0.111, "junglebee" ],
+          [ 0.111, "nocturnalbee" ],
+          [ 0.111, "hardybee" ]
+        ]
+      }
+},
+
 	{"op":"add","path":"/surfacePlaceables/items/-","value":{
 			"mode" : "floor",
 			"priority" : 3.0,

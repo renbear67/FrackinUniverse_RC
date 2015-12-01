@@ -1,7 +1,7 @@
 {
   "name" : "slimeGun2Attack",
   "label" : "SLIME BALL",
-  "image" : "/monsters/flying/skills/default.png",
+  "image" : "/monsters/generated/skills/defaultphysical.png",
 
   "parameters" : {
     "slimeGun2Attack" : {

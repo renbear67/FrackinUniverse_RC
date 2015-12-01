@@ -2,16 +2,43 @@
   "name" : "bloodstonesea",
   "friendlyName" : "Bloodstone Sea",
 
-  "spawnProfiles" : [
-    {
-      "groups" : [ "mediumsurface1", "fu_bloodstone" ],
-      "extraSpawns" : [ "bloodtoadcritter"  ]
-    },
-    {
-      "groups" : [ "mediumsurface2", "fu_bloodstone" ],
-      "extraSpawns" : [ "bloodtoadcritter"  ]
+    "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 2,
+        "pool" : [ 
+          [ 0.1111, "fubloodgolem" ],     
+          [ 0.1111, "headcrab" ],
+          [ 0.1111, "fleshleech" ],        
+          [ 0.1111, "batong" ],
+          [ 0.1111, "nautileech" ],     
+          [ 0.1111, "squeem" ],
+          [ 0.1111, "hemogoblin" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : [
+          [ 0.4, "fawnfly" ],
+          [ 0.3, "brightstripe" ],
+          [ 0.3, "bloodtoadcritter" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
+      }
+    ],
+    "monsterParameters" : {
+      "statusSettings" : {
+        "stats" : {
+          "poisonImmunity" : {
+            "baseValue" : 1.0
+          }
+        }
+      }
     }
-  ],
+  },
 
 
   "hueShiftOptions" : [-35, -15, 0, 15, 35 ],
@@ -242,7 +269,7 @@
           "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "canyonmini", "terrainfeatures", "rockclimb","rocktunnel",  "toxicplains", "sandstone", "blockpile", "rockyshapes", "rods", "spikes" ]
+          "microdungeons" : [ "canyonmini", "terrainfeatures", "rockclimb","rocktunnel",  "toxicmicrodungeons", "sandstone", "blockpile", "rockyshapes", "rods", "spikes" ]
         },
         {
           "mode" : "floor",
@@ -252,16 +279,7 @@
 
           "type" : "microdungeon",
           "microdungeons" : [ "randomencounter" ]
-        },
-        {
-          "mode" : "floor",
-          "priority" : 3.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:minibossoverground",
-
-          "type" : "microdungeon",
-          "microdungeons" : [ "minibossoverground" ]
-        },        
+        },   
         {
           "mode" : "floor",
           "priority" : 3.0,

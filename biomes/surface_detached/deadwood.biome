@@ -2,16 +2,48 @@
   "name" : "deadwood",
   "friendlyName" : "Deadwood",
   "hueShiftOptions" : [-40, -25, 0, 25, 40],
-  "spawnProfiles" : [
-    {
-      "groups" : [ "hardsurface1" ],
-      "extraSpawns" : [ "aridbee", "fireflyspawner", "muddancer", "mudstag", "shardwing","funewt", "mousecritter", "owlcritter", "squeekcritter", "tinycrocodilecritter" ]
-    },
-    {
-      "groups" : [ "hardsurface2" ],
-      "extraSpawns" : [ "aridbee", "fireflyspawner", "muddancer", "mudstag", "shardwing","funewt", "mousecritter", "owlcritter", "squeekcritter", "tinycrocodilecritter" ]
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 3,
+        "pool" : [ 
+          [ 0.111, "peblit" ],          
+          [ 0.111, "crustoise" ],
+          [ 0.111, "iguarmor" ],
+          [ 0.111, "batong" ],
+          [ 0.111, "voltip" ],
+          [ 0.111, "fennix" ],
+          [ 0.111, "ignome" ],
+          [ 0.111, "bobot" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : [
+          [ 0.4, "sunskipper" ],
+          [ 0.3, "goldbuck" ],
+          [ 0.3, "sandclown" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
+      },
+      {
+        "select" : 2,
+        "pool" : [
+          [ 1, "armadillocritter" ],
+          [ 1, "mousecritter" ],
+          [ 1, "groopcritter" ],
+          [ 1, "ravencritter" ],
+          [ 1, "wurmcritter" ]   
+        ]
+      }
+    ],
+    "monsterParameters" : {
+      "colors" : "desert"
     }
-  ],
+  },
     "mainBlock" : "bonematerial",
     "subBlocks" : [ "drydirt", "sand2", "biorock" ],
     "ores" : "surfaceOres",
@@ -43,15 +75,6 @@
               "parameters" : { }
             }
           ]
-        },
-        {
-          "mode" : "floor",
-          "priority" : 3.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:minibossoverground",
-
-          "type" : "microdungeon",
-          "microdungeons" : [ "minibossoverground" ]
         },
         {
           "mode" : "floor",

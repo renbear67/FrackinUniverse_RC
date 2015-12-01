@@ -24,7 +24,7 @@
   "learnBlueprintsOnPickup" : [ "xenostation", "fu_mulch", "ff_fertilizer", "unstableparticles"  ],
 
   "lightColor" : [20, 20, 40],
-  "soundEffect" : "/sfx/objects/fridge_hum.wav",
+  "soundEffect" : "/sfx/objects/fridge_hum.ogg",
   "inventoryIcon" : "chemlabicon.png",
   "orientations" : [
 

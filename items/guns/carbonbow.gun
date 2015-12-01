@@ -31,7 +31,7 @@
   },
 
   "muzzleEffect" : {
-    "fireSound" : [ { "file" : "/sfx/gun/bow_loose.wav" } ]
+    "fireSound" : [ { "file" : "/sfx/gun/bow_loose.ogg" } ]
   }
 }
 

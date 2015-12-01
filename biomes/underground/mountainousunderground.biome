@@ -2,17 +2,24 @@
   "name" : "mountainousunderground",
   "friendlyName" : "Mountain Caverns",
 
-  "spawnProfiles" : [
-    {
-      "groups" : [ "mediumsurface1", "fu_bog" ],
-      "extraSpawns" : [ "fireflyspawner", "muddancer", "mudstag", "shardwing", "funewt", "mousecritter", "owlcritter", "squeekcritter", "tinycrocodilecritter" ]
-    },
-    {
-      "groups" : [ "mediumsurface2", "fu_bog" ],
-      "extraSpawns" : [ "fireflyspawner", "muddancer", "mudstag", "shardwing","funewt", "mousecritter", "owlcritter", "squeekcritter", "tinycrocodilecritter" ]
-
-    }
-  ],
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 2,
+        "pool" : [ 
+          [ 1.0, "crustoise" ],
+          [ 1.0, "tintic" ],
+          [ 1.0, "oculob" ],
+          [ 1.0, "spookit" ],
+          [ 1.0, "petricub" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : "generatedGround"
+      }
+    ]
+  },
 
     "mainBlock" : "cobblestone",
     "subBlocks" : [ "dirt", "gravel", "rock03" ],

@@ -20,8 +20,8 @@
     }
   ],
   "inventoryIcon" : "clonelabicon.png",
-  "openSounds" : [ "/sfx/objects/screen3.wav" ],
-  "closeSounds" : [ "/sfx/objects/screen2.wav" ],
+  "openSounds" : [ "/sfx/objects/screen3.ogg" ],
+  "closeSounds" : [ "/sfx/objects/screen2.ogg" ],
   "slotCount" : 2,
   "uiConfig" : "/objects/generic/clonelab/clonelab.config",
   "containerCallback" : "checkSplice",

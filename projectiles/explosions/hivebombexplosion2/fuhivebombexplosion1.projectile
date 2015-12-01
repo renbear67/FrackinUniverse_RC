@@ -17,7 +17,7 @@
   "actionOnReap" : [
     {
       "action" : "sound",
-      "options" : [ "/sfx/projectiles/bugswarm1.wav" ]
+      "options" : [ "/sfx/projectiles/bugswarm1.ogg" ]
     },
     {
       "action" : "projectile",

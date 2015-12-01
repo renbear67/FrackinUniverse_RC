@@ -25,7 +25,7 @@
   "color" : [255, 0, 235] 
   },
   "muzzleEffect" : {
-       "fireSound" : [ { "file" : "/sfx/projectiles/goo_spit1.wav" } ],
+       "fireSound" : [ { "file" : "/sfx/projectiles/goo_spit1.ogg" } ],
        "animation" :  "/animations/muzzleflash/plasmamuzzle3pink/plasmamuzzle3pink.animation"
 	   }
 }

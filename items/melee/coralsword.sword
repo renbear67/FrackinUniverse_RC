@@ -14,7 +14,7 @@
   "firePosition" : [35.5, 0],
   "fireTime" : 0.7,
   "fireAfterWindup" : true,
-  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_twohanded.wav" } ] },
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_broadsword.ogg" } ] },
 
 
   "primaryStances" : {
@@ -22,14 +22,13 @@
     "projectileType" : "rainbowswoosh",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 7.9
+      "power" : 6.9
     },
     "idle" : {
       "twoHanded" : false,
       "armAngle" : -90,
       "swordAngle" : -90,
       "handPosition" : [-3.0, -25.0],
-      "armFrameOverride" : "idleMelee",
       "duration" : 0.1
     },
     "windup" : {
@@ -50,7 +49,7 @@
     }
   },
   "parryBlockCooldown" : 1.2,
-  "parrySound" : "/sfx/melee/sword_parry.wav",
+  "parrySound" : "/sfx/melee/sword_parry.ogg",
   "parryParticle" : "shieldspark",
 
   "altStances" : {

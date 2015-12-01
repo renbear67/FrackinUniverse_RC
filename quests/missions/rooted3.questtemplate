@@ -1,17 +1,29 @@
-  {
+{
   "id" : "rooted3.gearup",
   "prerequisites" : [ "rooted2.gearup" ],
   "title" : "^#1693d5;Rooted III",
-  "text" : "Thanks to you, I'm almost free! There's just one more thing... Could you perhaps part with a ^orange;single plate of titanium^white;? One of those fancy ones from a ^orange;power press^white;.",
+  "text" : "Thanks to you, I'm almost free! There's just one more thing... Could you perhaps part with ^orange;5 plates of titanium^white;? One of those ones from a ^orange;power press^white;. I'd reward you handsomely.",
   "completionText" : "You've truly saved me, friend. I'll remember this kindness forever!",
-  "completionConditions" : [ 
-  { "type" : "gather", "item" : "titaniumplate", "consume" : true } ],
-  "moneyRange" : [220,420],
-  "rewards" : [ 
-    [ [ "nervebundle2", 1 ] ]
-    ],
+  "speaker" : "questGiver",
+  "moneyRange" : [0, 0],
+  "rewards" : [
+    [ [ "gene_nervebundle", 9 ] ]
+  ],
 
-  "requireTurnIn" : true,
-  "canBeAbandoned" : false,
-  "followUp" : ""
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "requireTurnIn" : true,
+    "gatherRequirements" : {
+      "items" : {
+        "titaniumplate" : {
+          "count" : 5,
+          "consume" : true
+        }
+      }
+    }
+  }
 }
+
+ 
+

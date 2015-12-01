@@ -13,14 +13,14 @@
   "firePosition" : [8, 2],
   "fireTime" : 0.9,
   "fireAfterWindup" : true,
-  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_hammer.wav" } ] },
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_hammer.ogg" } ] },
 
   "primaryStances" : {
     "directional" : false,
     "projectileType" : "quantumhammer",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 14
+      "power" : 11.2
     },
     "idle" : {
       "twoHanded" : false,

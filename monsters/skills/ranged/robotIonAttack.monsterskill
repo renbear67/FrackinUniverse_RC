@@ -1,7 +1,7 @@
 {
   "name" : "robotIonAttack",
   "label" : "Ion Burst",
-  "image" : "/monsters/flying/skills/default.png",
+  "image" : "/monsters/generated/skills/defaultphysical.png",
 
   "parameters" : {
     "robotIonAttack" : {
@@ -19,7 +19,7 @@
 
   "animationParameters" : {
     "sounds" : {
-      "rangedAttack" : [ "/sfx/npc/unique/robotboss_pain1.wav" ]
+      "rangedAttack" : [ "/sfx/npc/unique/robotboss_pain1.ogg" ]
     }
   }
 }

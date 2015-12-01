@@ -4,23 +4,60 @@
   "statusEffects" : [ "biomecold"  ],
   "airless" : true,
   "breathable" : false,
-  
-  "spawnProfiles" : [
-    {
-      "groups" : [ ],
-      "extraSpawns" : [ "fusnowball", "fufireball" ],
-      "monsterParameters" : {
-        "colors" : "magma"
-      }      
-    },
-    {
-      "groups" : [  ],
-      "extraSpawns" : [ "fusnowball", "fufireball" ],
-      "monsterParameters" : {
-        "colors" : "ice"
-      }      
+
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 2,
+        "pool" : [ 
+          [ 0.1111, "crustoise" ],     
+          [ 0.1111, "capricoat" ],
+          [ 0.1111, "gleap" ],        
+          [ 0.1111, "ringram" ],
+          [ 0.1111, "pyromantle" ],     
+          [ 0.1111, "smoglin" ],
+          [ 0.1111, "spookit" ],
+          [ 0.1111, "peblit" ]
+        ]
+      },
+      {
+        "select" : 3,
+        "pool" : [
+          [ 0.4, "flameroach" ],
+          [ 0.3, "lavahopper" ],
+          [ 0.3, "fireygiant" ],
+		  [ 0.3, "fusnowball" ],
+		  [ 0.3, "fufireball" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
+      }
+    ],
+    "monsterParameters" : {
+      "colors" : "magma",
+      "statusSettings" : {
+        "stats" : {
+          "iceslipImmunity" : {
+            "baseValue" : 1.0
+          },
+          "biomecoldImmunity" : {
+            "baseValue" : 1.0
+          },
+          "nitrogenfreezeImmunity" : {
+            "baseValue" : 1.0
+          },		  
+          "lavaImmunity" : {
+            "baseValue" : 1.0
+          },
+          "fireImmunity" : {
+            "baseValue" : 1.0
+          }
+        }
+      }
     }
-  ],
+  },
 
   "hueShiftOptions" : [ -50, -25, 0, 25, 50 ],
 
@@ -295,15 +332,6 @@
               "parameters" : { }
             }
           ]
-        },
-        {
-          "mode" : "floor",
-          "priority" : 3.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:minibossoverground",
-
-          "type" : "microdungeon",
-          "microdungeons" : [ "minibossoverground" ]
         },
         {
           "mode" : "floor",

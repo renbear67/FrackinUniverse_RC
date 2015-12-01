@@ -4,7 +4,7 @@
     { "item" : "eridianplate", "count" : 3 },
     { "item" : "electromagnet", "count" : 2 },
     { "item" : "wretchel", "count" : 2 },
-    { "item" : "corefragmentore", "count" : 8 }
+    { "item" : "staticcell", "count" : 8 }
   ],
   "output" : {
     "item" : "fubonusarmorpants",

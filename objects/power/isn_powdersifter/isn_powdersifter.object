@@ -22,8 +22,8 @@
 				"/objects/isn_sharedobjectscripts.lua"],
   "scriptDelta" : 15,
   
-  "openSounds" : [ "/sfx/objects/metalbox_open.wav" ],
-  "closeSounds" : [ "/sfx/objects/metalbox_close.wav" ],
+  "openSounds" : [ "/sfx/objects/metalbox_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/metalbox_close.ogg" ],
   "slotCount" : 25,
   "uiConfig" : "/objects/power/isn_powdersifter/isn_powdersifter.config",
   "frameCooldown" : 67,

@@ -13,7 +13,7 @@
   "firePosition" : [15.5, 4.5],
   "fireTime" : 0.6,
   "fireAfterWindup" : true,
-  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_twohanded.wav" } ] },
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_broadsword.ogg" } ] },
 
   "colorOptions" : [
     /* BLACK */

@@ -2,34 +2,45 @@
   "name" : "protoworld",
   "friendlyName" : "Proto-World",
 
-  "spawnProfiles" : [
-    {
-      "groups" : [ "mediumsurface1", "fu_protoworld"],
-      "extraSpawns" : [ "aggressivebee", "aridbee", "fireflyspawner", "phoenixfly", "orphanfly", "bouncercritter", "glowingballcritter2" ],
-      "monsterParameters" : {
-        "statusSettings" : {
-          "stats" : {
-            "biooozeImmunity" : {
-              "baseValue" : 1.0
-            }
-          }
-        }
+  
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 3,
+        "pool" : [ 
+          [ 0.1111, "fumoontant" ],     
+          [ 0.1111, "swarpion" ],        
+          [ 0.1111, "lumoth" ],
+          [ 0.1111, "crutter" ],     
+          [ 0.1111, "gleap" ],
+          [ 0.1111, "scandroid" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : [
+          [ 0.4, "aggressivebee" ],
+          [ 0.3, "aridbee" ],
+          [ 0.3, "phoenixfly" ],
+          [ 0.3, "bouncercritter" ],
+          [ 0.3, "glowingball2critter" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
       }
-    },
-    {
-      "groups" : [ "mediumsurface2", "fu_protoworld" ],
-      "extraSpawns" : [ "aggressivebee", "junglebee", "fireflyspawner", "phoenixfly", "orphanfly", "bouncercritter", "glowingballcritter2" ],
-      "monsterParameters" : {
-        "statusSettings" : {
-          "stats" : {
-            "biooozeImmunity" : {
-              "baseValue" : 1.0
-            }
+    ],
+    "monsterParameters" : {
+      "statusSettings" : {
+        "stats" : {
+          "biooozeImmunity" : {
+            "baseValue" : 1.0
           }
         }
       }
     }
-  ],
+  },
 
   "hueShiftOptions" : [ -300, -260, -240, -200, -160, -120, -100, -80, -60, -40, 0, 40, 60, 80, 100, 120, 160, 200, 240, 260, 300],
   
@@ -396,7 +407,7 @@
           "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "terrainfeatures", "rockclimb","rocktunnel",  "toxicplains", "sandstone", "blockpile", "loops", "flats", "reversepyramids" ]
+          "microdungeons" : [ "terrainfeatures", "rockclimb","rocktunnel",  "toxicmicrodungeons", "sandstone", "blockpile", "loops", "flats", "reversepyramids" ]
         },
         {
           "mode" : "floor",
@@ -406,15 +417,6 @@
 
           "type" : "microdungeon",
           "microdungeons" : [ "newhumanmicro", "newavianmicro", "alienmicrodungeons" ]
-        },
-        {
-          "mode" : "floor",
-          "priority" : 3.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:minibossoverground",
-
-          "type" : "microdungeon",
-          "microdungeons" : [ "minibossoverground" ]
         },
         {
           "mode" : "floor",

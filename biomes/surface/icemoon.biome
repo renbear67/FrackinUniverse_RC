@@ -5,22 +5,35 @@
   "airless" : true,
   "breathable" : false,
   
-  "spawnProfiles" : [
-    {
-      "groups" : [ "fu_frosty" ],
-      "extraSpawns" : [ "fusnowball" ],
-      "monsterParameters" : {
-        "colors" : "ice"
-      }      
-    },
-    {
-      "groups" : [ "fu_frosty" ],
-      "extraSpawns" : [ "fusnowball" ],
-      "monsterParameters" : {
-        "colors" : "ice"
-      }      
+    "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 3,
+        "pool" : [
+          [ 0.4, "fu_frosty" ],
+          [ 0.3, "fusnowball" ],
+          [ 0.3, "arcticbee" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
+      }
+    ],
+    "monsterParameters" : {
+	  "colors" : "ice",
+      "statusSettings" : {
+        "stats" : {
+          "iceslipImmunity" : {
+            "baseValue" : 1.0
+          },
+          "snowslowImmunity" : {
+            "baseValue" : 1.0
+          }
+        }
+      }
     }
-  ],
+  },
 
   "hueShiftOptions" : [ 0 ],
 

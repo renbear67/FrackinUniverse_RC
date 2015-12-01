@@ -2,8 +2,6 @@
   "name" : "elderasteroid",
   "friendlyName" : "elderasteroid",
 
-  "spawnProfiles" : [ ],
-
   "mainBlock" : "protorock",
   "subBlocks" : [ "obsidian" ],
 

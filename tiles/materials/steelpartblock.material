@@ -5,7 +5,7 @@
   "itemDrop" : "steelpartblock",
   "description" : "Metal parts for some unknown purpose.",
   "shortdescription" : "Metal Parts",
-  "footstepSound" : "/sfx/blocks/footstep_girder.wav",
+  "footstepSound" : "/sfx/blocks/footstep_girder.ogg",
   "health" : 22,
   "category": "materials",
 

@@ -1,5 +1,6 @@
 {
   "input" : [
+    { "item" : "livingroot", "count" : 2 },
     { "item" : "biochip", "count" : 2 },
     { "item" : "energywood", "count" : 3 },
     { "item" : "algaegreen", "count" : 15 }

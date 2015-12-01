@@ -7,22 +7,41 @@
     "subBlocks" : [ "dirt", "mud" ],
     "ores" : "surfaceOres",
 
-  "spawnProfiles" : [
-    {
-      "groups" : [ "easysurface1" ],
-      "extraSpawns" : [ "flowerbee", "normalbee", "greentip", "blueback", "birdcritter", "squirrelcritter", "snail", "sporelingcritter", "owlcritter", "blipcritter", "mousecritter", "fireflyspawner" ],
-      "monsterParameters" : {
-        "colors" : "forest"
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 4,
+        "pool" : [ 
+          [ 1.0, "gleap" ],
+          [ 1.0, "nutmidge" ],
+          [ 1.0, "poptop" ],
+          [ 1.0, "aggroDenseSmallQuadrupedNightExposed"]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : [
+          [ 0.4, "butterbee" ],
+          [ 0.3, "fawnfly" ],
+          [ 0.3, "mudstag" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : [
+          [ 0.2, "birdcritter" ],
+          [ 0.15, "hedgehogcritter" ],
+          [ 0.15, "tortoisecritter" ],
+          [ 0.2, "mousecritter" ],
+          [ 0.2, "bunnycritter" ],
+          [ 0.2, "snailcritter" ]
+        ]
       }
-    },
-    {
-      "groups" : [ "easysurface2" ],
-      "extraSpawns" : [ "flowerbee", "normalbee", "blueback", "redwing", "birdcritter", "squirrelcritter", "snail", "sporelingcritter", "owlcritter", "blipcritter", "mousecritter", "fireflyspawner" ],
-      "monsterParameters" : {
-        "colors" : "forest"
-      }
+    ],
+    "monsterParameters" : {
+      "colors" : "garden"
     }
-  ],
+  },
 
   "surfacePlaceables" : {
     "grassMod" : [ "mossgrass2", "flowerygrass" ],
@@ -43,15 +62,7 @@
             }
           ]
         },
-        {
-          "mode" : "floor",
-          "priority" : 3.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:minibossoverground",
 
-          "type" : "microdungeon",
-          "microdungeons" : [ "minibossoverground" ]
-        },
         {
           "mode" : "floor",
           "priority" : 2.0,

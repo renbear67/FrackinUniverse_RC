@@ -46,12 +46,12 @@
     }
   ],
 
-  "openSounds" : [ "/sfx/objects/fridge_open.wav" ],
-  "closeSounds" : [ "/sfx/objects/fridge_close.wav" ],
+  "openSounds" : [ "/sfx/objects/fridge_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/fridge_close.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/chests/chest16.config",
   "frameCooldown" : 67,
   "autoCloseCooldown" : 3600,
-  "soundEffect" : "/sfx/objects/fridge_hum.wav"
+  "soundEffect" : "/sfx/objects/fridge_hum.ogg"
 
 }

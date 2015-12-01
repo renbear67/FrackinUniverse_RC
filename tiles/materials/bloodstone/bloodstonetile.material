@@ -5,7 +5,7 @@
   "itemDrop" : "bloodstonewall",
   "description" : "This stuff is literally legendary.",
   "shortdescription" : "Blood Stone",
-  "footstepSound" : "/sfx/blocks/footstep_stone2.wav",
+  "footstepSound" : "/sfx/blocks/footstep_stone2.ogg",
   "health" : 15,
   "category": "materials",
 

@@ -20,7 +20,7 @@
     },
     {
       "action" : "sound",
-      "options" : [ "/sfx/objects/burst.wav" ]
+      "options" : [ "/sfx/objects/burst.ogg" ]
     }
   ],
   

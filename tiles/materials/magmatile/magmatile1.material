@@ -5,7 +5,7 @@
   "itemDrop" : "magmawall1",
   "description" : "Burning-hot magma walls. You should probably not touch this.",
   "shortdescription" : "Volcanic Rock",
-  "footstepSound" : "/sfx/blocks/footstep_stone2.wav",
+  "footstepSound" : "/sfx/blocks/footstep_stone2.ogg",
   "health" : 15,
   "category": "materials",
 

@@ -5,7 +5,7 @@
   "itemDrop" : "fuokeagrass",
   "description" : "It's grass. I don't think it needs describing. Do you?",
   "shortdescription" : "Grass",
-  "footstepSound" : "/sfx/blocks/footstep_grass.wav",
+  "footstepSound" : "/sfx/blocks/footstep_grass.ogg",
   "health" : 10,
   "soil" : true,
   "category": "materials",

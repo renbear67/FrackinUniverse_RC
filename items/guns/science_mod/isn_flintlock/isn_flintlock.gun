@@ -24,7 +24,7 @@
     "color" : [155, 10, 10]
   },
   "muzzleEffect" : {
-    "fireSound" : [ { "file" : "/sfx/gun/revolver2.wav" } ],
+    "fireSound" : [ { "file" : "/sfx/gun/revolver2.ogg" } ],
     "animation" : "/animations/muzzleflash/bulletmuzzle4/bulletmuzzle4.animation"
   }
 }

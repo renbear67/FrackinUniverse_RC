@@ -106,47 +106,47 @@
           "movement" : {
             "idle" : {
               "properties" : {
-                "image" : "<partImage>:idle<flipTag>"
+                "image" : "<partImage>:idle"
               }
             },
             "jump" : {
               "properties" : {
-                "image" : "<partImage>:jump<flipTag>"
+                "image" : "<partImage>:jump"
               }
             },
             "fall" : {
               "properties" : {
-                "image" : "<partImage>:fall.<frame><flipTag>"
+                "image" : "<partImage>:fall.<frame>"
               }
             },
             "walk" : {
               "properties" : {
-                "image" : "<partImage>:move.<frame><flipTag>"
+                "image" : "<partImage>:move.<frame>"
               }
             },
             "run" : {
               "properties" : {
-                "image" : "<partImage>:move.<frame><flipTag>"
+                "image" : "<partImage>:move.<frame>"
               }
             },
             "charge" : {
               "properties" : {
-                "image" : "<partImage>:move.<frame><flipTag>"
+                "image" : "<partImage>:move.<frame>"
               }
             },
             "chargeWindup" : {
               "properties" : {
-                "image" : "<partImage>:move.<frame><flipTag>"
+                "image" : "<partImage>:move.<frame>"
               }
             },
             "knockback" : {
               "properties" : {
-                "image" : "<partImage>:jump<flipTag>"
+                "image" : "<partImage>:jump"
               }
             },
             "knockout" : {
               "properties" : {
-                "image" : "<partImage>:jump<flipTag>"
+                "image" : "<partImage>:jump"
               }
             }
           },
@@ -154,17 +154,17 @@
           "attack" : {
             "shooting" : {
               "properties" : {
-                "image" : "<partImage>:ranged.3<flipTag>"
+                "image" : "<partImage>:ranged.3"
               }
             },
             "windup" : {
               "properties" : {
-                "image" : "<partImage>:windup.<frame><flipTag>"
+                "image" : "<partImage>:windup.<frame>"
               }
             },
             "winddown" : {
               "properties" : {
-                "image" : "<partImage>:winddown.<frame><flipTag>"
+                "image" : "<partImage>:winddown.<frame>"
               }
             }
           },
@@ -189,6 +189,11 @@
   },
 
   "particleEmitters" : {
+    "damage" : {
+      "emissionRate" : 0.7,
+      "particles" : [
+      ]
+    },
     "deathPoof" : {
       "particles" : [
         {
@@ -381,6 +386,6 @@
 
   "sounds" : {
     "turnHostile" : [ ],
-    "deathPuff" : [ "/sfx/npc/enemydeathpuff.wav" ]
+    "deathPuff" : [ "/sfx/npc/enemydeathpuff.ogg" ]
   }
 }

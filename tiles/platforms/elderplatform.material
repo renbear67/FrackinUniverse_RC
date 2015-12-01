@@ -6,7 +6,7 @@
   "itemDrop" : "elderplatform",
   "shortdescription" : "Elder Platform",
   "description" : "Whatever this is made from, it's not normal.",
-  "footstepSound" : "/sfx/blocks/footstep_lightwood.wav",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.ogg",
   "category": "supports",
 
   "renderTemplate" : "/tiles/platformtemplate.config",

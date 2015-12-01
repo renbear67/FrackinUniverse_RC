@@ -18,11 +18,11 @@
       "/scripts/stateMachine.lua",
       "/scripts/vec2.lua",
 
-      "/monsters/flying/skills/createFlyingRangedAttack.lua",
-      "/monsters/flying/circleState.lua",
-      "/monsters/flying/wanderState.lua",
-      "/monsters/flying/landState.lua" ,
-      "/monsters/flying/turnState.lua"
+      "/monsters/fulegacyscripts/flying/skills/createFlyingRangedAttack.lua",
+      "/monsters/fulegacyscripts/flying/circleState.lua",
+      "/monsters/fulegacyscripts/flying/wanderState.lua",
+      "/monsters/fulegacyscripts/flying/landState.lua" ,
+      "/monsters/fulegacyscripts/flying/turnState.lua"
     ],
 
     "baseSkills" : [ "flyingSwoopBounceAttack" ],
@@ -108,6 +108,9 @@
       "primaryScriptDelta" : 0,
 
       "stats" : {
+        "grit" : {
+          "baseValue" : 1.0
+        },
         "maxHealth" : {
           "baseValue" : 1
         },

@@ -7,47 +7,45 @@
     "subBlocks" : [ "sulphurstone", "magmatile2", "magmatile1" ],
     "ores" : "ff_surfacesulfurOres",
 
-    "spawnProfiles" : [
-    {
-      "groups" : [ "hardsurface2", "fu_ash" ],
-      "extraSpawns" : [ "flameroach", "lavahopper", "fufireball" ],
-      "monsterParameters" : {
-        "statusSettings" : {
-          "stats" : {
-            "lavaImmunity" : {
-              "baseValue" : 1.0
-            },
-            "fireImmunity" : {
-              "baseValue" : 1.0
-            },
-            "ffextremeheatImmunity" : {
-              "baseValue" : 1.0
-            }
-          }
-        }
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 1,
+        "pool" : [ 
+          [ 0.1111, "sulphurtroll" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : [
+          [ 0.4, "fuscorpion" ],
+          [ 0.3, "funewt" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
       }
-    },
-    {
-      "groups" : [ "hardsurface1", "fu_ash" ],
-      "extraSpawns" : [ "flameroach", "fireygiant", "fufireball" ],
-      "monsterParameters" : {
-        "statusSettings" : {
-
-          "stats" : {
-            "lavaImmunity" : {
+    ],
+    "monsterParameters" : {
+      "statusSettings" : {
+        "stats" : {
+            "sulphuricImmunity" : {
               "baseValue" : 1.0
             },
-            "fireImmunity" : {
+            "poisonImmunity" : {
               "baseValue" : 1.0
             },
-            "ffextremeheatImmunity" : {
+            "blacktarImmunity" : {
+              "baseValue" : 1.0
+            },            
+            "breathProtection" : {
               "baseValue" : 1.0
             }
-          }
         }
       }
     }
-  ],
+  },
 
   "surfacePlaceables" : {
     "grassMod" : [ "blackash" ],
@@ -68,15 +66,7 @@
             }
           ]
         },
-        {
-          "mode" : "floor",
-          "priority" : 3.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:minibossoverground",
 
-          "type" : "microdungeon",
-          "microdungeons" : [ "minibossoverground" ]
-        },
         {
           "mode" : "floor",
           "priority" : 1.0,

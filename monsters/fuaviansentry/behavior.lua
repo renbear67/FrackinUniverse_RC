@@ -1,5 +1,5 @@
 function init()
-  self.sensors = sensors.create()
+  --self.sensors = sensors.create()
 
   self.state = stateMachine.create({
     "moveState",
@@ -17,7 +17,7 @@ end
 
 function update(dt)
   self.state.update(dt)
-  self.sensors.clear()
+  --self.sensors.clear()
 end
 
 function damage(args)
@@ -48,9 +48,9 @@ function moveState.enter()
 end
 
 function moveState.update(dt, stateData)
-  if self.sensors.collisionSensors.collision.any(true) then
-    stateData.direction = -stateData.direction
-  end
+  --if self.sensors.collisionSensors.collision.any(true) then
+  --  stateData.direction = -stateData.direction
+  --end
 
   move(stateData.direction)
 

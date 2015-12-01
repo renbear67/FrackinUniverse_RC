@@ -5,7 +5,7 @@
   "itemDrop" : "shroomblockglow",
   "description" : "A block made of soft fungus.",
   "shortdescription" : "Mushroom Block",
-  "footstepSound" : "/sfx/blocks/footstep_brains.wav",
+  "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
   "health" : 6,
   "damageTable" : "/tiles/flammableDamage.config",
   "category": "materials",

@@ -5,7 +5,7 @@
   "itemDrop" : "elderstone2material",
   "description" : "This material feels...wrong.",
   "shortdescription" : "Elder Soil",
-  "footstepSound" : "/sfx/blocks/footstep_stone3.wav",
+  "footstepSound" : "/sfx/blocks/footstep_stone3.ogg",
   "health" : 20,
   "category": "materials",
 

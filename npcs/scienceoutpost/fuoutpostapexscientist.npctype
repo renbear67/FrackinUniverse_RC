@@ -5,8 +5,8 @@
 
   "damageTeam" : 1,
     "scriptConfig" : {
-        "offeredQuests" : [ "1_chemlab.gearup" ],
-        "turnInQuests" : [ "8_tobiochem.gearup" ],
+        "offeredQuests" : [ "chemlab.gearup", "1dnasample.gearup" ],
+        "turnInQuests" : [ "7aliencompound.gearup" ],
     "wander" : {
       "timeRange" : [2.0, 10.0],
       "chatDistance" : 4,

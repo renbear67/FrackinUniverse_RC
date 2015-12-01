@@ -10,10 +10,10 @@
     ],
     "sounds" : {
       "breakTree" : [
-        { "file" : "/sfx/environmental/tree_crystal_breaking.wav" }
+        { "file" : "/sfx/environmental/tree_crystal_breaking.ogg" }
       ],
       "hitGround" : [
-        { "file" : "/sfx/environmental/tree_crystal_hitground.wav" }
+        { "file" : "/sfx/environmental/tree_crystal_hitground.ogg" }
       ]
     },
     "particles" : {

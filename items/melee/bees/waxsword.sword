@@ -14,7 +14,7 @@
   "firePosition" : [-2, 4],
   "fireTime" : 1.0,
   "fireAfterWindup" : true,
-  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_twohanded.wav" } ] },
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_twohanded.ogg" } ] },
 
 
   "primaryStances" : {

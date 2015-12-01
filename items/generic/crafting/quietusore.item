@@ -4,5 +4,6 @@
   "inventoryIcon" : "quietusore.png",
   "description" : "Odd, crystallized and metal-infused blood plasma.",
   "shortdescription" : "Quietus Ore",
+  "pickupQuestTemplates" : [ "quietus.gearup" ],
   "learnBlueprintsOnPickup" : [ "blooddiamond", "quietusknave", "quietusassassin", "quietusrogue", "quietusmercenary", "quietuscaptain", "quietusknight", "quietusgeneral", "quietusemperor" ]
 }

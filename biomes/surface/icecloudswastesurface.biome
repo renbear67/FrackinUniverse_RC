@@ -4,17 +4,6 @@
   "statusEffects" : [ "ffextremecold" ],
   "airless" : true,
   "breathable" : false,
-  
-  "spawnProfiles" : [
-    {
-      "groups" : [ ],
-      "extraSpawns" : [  ]
-    },
-    {
-      "groups" : [  ],
-      "extraSpawns" : [  ]
-    }
-  ],
 
   "hueShiftOptions" : [ -50, -25, 0, 25, 50 ],
 

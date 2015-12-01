@@ -15,7 +15,7 @@
   "recoilTime" : 0,
   "spread" : 1,
   "muzzleEffect" : {
-    "fireSound" : [ { "file" : "/sfx/blocks/lava_burn.wav" } ]
+    "fireSound" : [ { "file" : "/sfx/blocks/lava_burn.ogg" } ]
   },
   
   "fireTime" : 0.35,

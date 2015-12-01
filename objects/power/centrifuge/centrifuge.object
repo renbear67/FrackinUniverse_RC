@@ -15,7 +15,7 @@
 		"/objects/isn_sharedobjectscripts.lua"],
   "scriptDelta" : 1,
   
-  "openSounds" : [ "/sfx/objects/campfire_use.wav" ],
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 15,
   "uiConfig" : "/objects/power/centrifuge/centrifuge.config",
   "frameCooldown" : 67,

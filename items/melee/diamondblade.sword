@@ -11,40 +11,39 @@
   "kind" : "Shortsword",
   "image" : "diamondblade.png",
   "firePosition" : [22.5, 4.5],
-  "fireTime" : 0.75,
+  "fireTime" : 0.78,
   "fireAfterWindup" : true,
-  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_onehanded.wav" } ] },
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_shortsword.ogg" } ] },
 
   "primaryStances" : {
     "directional" : true,
     "projectileType" : "shortswordswoosh1",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 5.0
+      "power" : 3.78
     },
     "idle" : {
       "twoHanded" : false,
       "armAngle" : -90,
       "swordAngle" : -90,
       "handPosition" : [-6.0, -17.0],
-      "armFrameOverride" : "idleMelee",
       "duration" : 0.1
     },
     "windup" : {
       "twoHanded" : false,
-      "armAngle" : 90,
-      "swordAngle" : 90,
-      "handPosition" : [-6.0, -17.0],
+      "armAngle" : 0,
+      "swordAngle" : -60,
+      "handPosition" : [0.2, -24],
       "duration" : 0.05,
-      "statusEffects" : []
+      "statusEffects" : [ ]
     },
     "cooldown" : {
       "twoHanded" : false,
-      "armAngle" : -45,
+      "armAngle" : -140,
       "swordAngle" : -90,
-      "handPosition" : [-6.0, -27.5],
+      "handPosition" : [2.0, -10],
       "duration" : 0.4,
-      "statusEffects" : []
+      "statusEffects" : [ ]
     }
   }
 }

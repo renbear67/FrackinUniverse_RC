@@ -1,0 +1,28 @@
+{
+  "id" : "10industrialcentrifuge.gearup",
+  "prerequisites" : [ "9alveary.gearup" ],
+  "title" : "^#1693d5;Industrial Edge",
+  "text" : "Now it's time to maximize your output. Build an ^orange;Industrial Centrifuge^white; and connect it to your Honey Jarrer.",
+  "completionText" : "Paired together, you'll get tons of honey now. From here on out, it's up to you to experiment and breed the best bees you can! Bee all you can bee!",
+  "speaker" : "questGiver",
+  "moneyRange" : [0, 0],
+ "rewards" : [],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "followUp" : "11honeyjarrer.gearup",
+    "requireTurnIn" : true,
+    "gatherRequirements" : {
+      "items" : {
+        "bees_industrialcentrifuge" : {
+          "count" : 1,
+          "consume" : true
+        }
+      }
+    }
+  }
+}
+
+ 
+

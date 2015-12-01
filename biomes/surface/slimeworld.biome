@@ -2,39 +2,41 @@
   "name" : "slimeworld",
   "friendlyName" : "Gelatinous",
   "statusEffects" : [ ],
-  
-  "spawnProfiles" : [
-    {
-      "groups" : [ "fu_slime" ],
-      "extraSpawns" : [ "stinkjack", "bouncebagcritter", "sluggreencritter" ],
-      "monsterParameters" : {
-        "statusSettings" : {
-          "stats" : {
-            "poisonImmunity" : {
-              "baseValue" : 1.0
-            },
-            "tarImmunity" : {
-              "baseValue" : 1.0
-            },
-            "biooozeImmunity" : {
-              "baseValue" : 1.0
-            },
-            "slimestickImmunity" : {
-              "baseValue" : 1.0
-            },
-            "slimesfrictionImmunity" : {
-              "baseValue" : 1.0
-            }
-          }
-        }
+
+
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 3,
+        "pool" : [ 
+          [ 0.1111, "skeyejelly2" ],     
+          [ 0.1111, "skeyejelly" ],        
+          [ 0.1111, "jellyboss2" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : [    
+          [ 0.1111, "pogolem" ],
+          [ 0.1111, "po" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : [
+          [ 0.4, "stinkjack" ],
+          [ 0.3, "bouncebagcritter" ],
+          [ 0.3, "sluggreencritter" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
       }
-    },
-    {
-      "groups" : [ "fu_slime" ],
-      "extraSpawns" : [ "stinkjack", "bouncebagcritter", "sluggreencritter" ],
-      "monsterParameters" : {
-        "statusSettings" : {
-          "stats" : {
+    ],
+    "monsterParameters" : {
+      "statusSettings" : {
+        "stats" : {
             "poisonImmunity" : {
               "baseValue" : 1.0
             },
@@ -50,11 +52,10 @@
             "slimesfrictionImmunity" : {
               "baseValue" : 1.0
             }
-          }
         }
       }
     }
-  ],
+  },
 
   "hueShiftOptions" : [ -220, -165, -100, -55, 0, 55, 100, 165, 220 ],
   
@@ -290,7 +291,7 @@
           "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "terrainfeatures", "rockclimb","rocktunnel",  "toxicplains", "sandstone", "blockpile", "loops", "flats", "reversepyramids" ]
+          "microdungeons" : [ "terrainfeatures", "rockclimb","rocktunnel",  "toxicmicrodungeons", "sandstone", "blockpile", "loops", "flats", "reversepyramids" ]
         },
         {
           "mode" : "floor",
@@ -300,16 +301,7 @@
 
           "type" : "microdungeon",
           "microdungeons" : [ "randomencounter", "treasureroom", "avianencounter", "glitchencounter", "shroomencounter" ]
-        },
-        {
-          "mode" : "floor",
-          "priority" : 3.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:minibossoverground",
-
-          "type" : "microdungeon",
-          "microdungeons" : [ "minibossoverground" ]
-        },        
+        },       
         {
           "mode" : "floor",
           "priority" : 3.0,

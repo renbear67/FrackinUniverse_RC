@@ -16,7 +16,7 @@
     },
     {
       "action" : "sound",
-      "options" : [ "/sfx/weapons/eldercarbine.wav" ]
+      "options" : [ "/sfx/weapons/eldercarbine.ogg" ]
     }
   ],
   //"power" : 5.0,

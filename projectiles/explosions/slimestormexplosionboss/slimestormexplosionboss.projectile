@@ -17,7 +17,7 @@
     { "action" : "liquid", "liquid" : "slimeliquid",  "quantity" : 1.0 },      
     {
       "action" : "sound",
-      "options" : [ "/sfx/projectiles/goocluster_pop.wav" ]
+      "options" : [ "/sfx/projectiles/goocluster_pop.ogg" ]
     }
   ]
 }

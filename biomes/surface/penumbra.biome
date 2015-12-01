@@ -2,41 +2,51 @@
   "name" : "penumbra",
   "friendlyName" : "Penumbra",
   
-  "spawnProfiles" : [
-    {
-      "groups" : [ "mediumsurface1", "fu_penumbra" ],
-      "extraSpawns" : [ "nocturnalbee", "fireflyspawner", "shadowmoth", "glowingballcritter", "ravencritter", "fuglowworm", "fuglowball" ],
-      "monsterParameters" : {
-        "statusSettings" : {
-          "stats" : {
-            "poisonImmunity" : {
-              "baseValue" : 1.0
-            },
-            "biooozeImmunity" : {
-              "baseValue" : 1.0
-            }
-          }
-        }
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 3,
+        "pool" : [ 
+          [ 0.1111, "monopus" ],     
+          [ 0.1111, "wisper" ],
+          [ 0.1111, "anglure" ],        
+          [ 0.1111, "petricub" ],
+          [ 0.1111, "yokat" ],     
+          [ 0.1111, "fucorruptfly" ],
+          [ 0.1111, "fucorruptflylarge" ],
+          [ 0.1111, "shadowhound" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : [
+          [ 0.4, "nocturnalbee" ],
+          [ 0.3, "shadowmoth" ],
+          [ 0.3, "glowingballcritter" ],
+          [ 0.4, "ravencritter" ],
+          [ 0.3, "fuglowworm" ],
+          [ 0.3, "fuglowball" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
       }
-    },
-    {
-      "groups" : [ "mediumsurface2", "fu_penumbra" ],
-      "extraSpawns" : [ "nocturnalbee", "fireflyspawner", "shadowmoth", "glowingballcritter", "ravencritter", "fuglowworm", "fuglowball" ],
-      "monsterParameters" : {
-        "statusSettings" : {
-          "stats" : {
-            "poisonImmunity" : {
-              "baseValue" : 1.0
-            },
-            "biooozeImmunity" : {
-              "baseValue" : 1.0
-            }
+    ],
+    "monsterParameters" : {
+      "statusSettings" : {
+        "stats" : {
+          "poisonImmunity" : {
+            "baseValue" : 1.0
+          },
+          "biooozeImmunity" : {
+            "baseValue" : 1.0
           }
         }
       }
     }
-  ],
-
+  },
+  
   "hueShiftOptions" : [ -65, -35, 0, 35, 65],
   
   "weather" : [
@@ -311,7 +321,7 @@
           "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "terrainfeatures", "rockclimb","rocktunnel",  "toxicplains", "sandstone", "blockpile", "loops", "flats", "reversepyramids" ]
+          "microdungeons" : [ "terrainfeatures", "rockclimb","rocktunnel",  "toxicmicrodungeons", "sandstone", "blockpile", "loops", "flats", "reversepyramids" ]
         },
         {
           "mode" : "floor",
@@ -321,16 +331,7 @@
 
           "type" : "microdungeon",
           "microdungeons" : [ "alienmicrodungeons" ]
-        },
-        {
-          "mode" : "floor",
-          "priority" : 3.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:minibossoverground",
-
-          "type" : "microdungeon",
-          "microdungeons" : [ "minibossoverground" ]
-        },        
+        },     
         {
           "mode" : "floor",
           "priority" : 3.0,

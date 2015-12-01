@@ -13,7 +13,7 @@
   "firePosition" : [-2, 4],
   "fireTime" : 0.52,
   "fireAfterWindup" : true,
-  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/queen/queen.wav" } ] },
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/queen/queen.ogg" } ] },
 
 
  "primaryStances" : {
@@ -21,7 +21,7 @@
     "projectileType" : "queen",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 4.7
+      "power" : 3.2
     },
 	"idle" : {
       "twoHanded" : false,

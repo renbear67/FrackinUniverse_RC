@@ -5,7 +5,7 @@
   "itemDrop" : "corruptslimematerial",
   "description" : "All that remains after being touched by Dark Water.",
   "shortdescription" : "Corruption",
-  "footstepSound" : "/sfx/blocks/footstep_mud.wav",
+  "footstepSound" : "/sfx/blocks/footstep_mud.ogg",
   "health" : 2,
   "category": "materials",
 

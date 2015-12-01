@@ -14,21 +14,20 @@
   "firePosition" : [12, 2],
   "fireTime" : 1.12,
   "fireAfterWindup" : true,
-  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_twohanded.wav" } ] },
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_hammer.ogg" } ] },
 
 
   "primaryStances" : {
     "projectileType" : "electricaxe",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 14
+      "power" : 8
     },
     "idle" : {
       "twoHanded" : false,
       "armAngle" : -90,
       "swordAngle" : -90,
       "handPosition" : [-2.7, -14.5],
-      "armFrameOverride" : "idleMelee",
       "duration" : 0.1
     },
     "windup" : {

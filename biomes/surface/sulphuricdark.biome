@@ -4,13 +4,29 @@
   "statusEffects" : [ "ffextremesulphuric"  ],
   "airless" : true,
   "breathable" : false,
-  "spawnProfiles" : [
-    {
-      "groups" : [ "fu_sulphuric" ],
-      "extraSpawns" : [ "fuscorpion", "funewt" ],
-      "monsterParameters" : {
-        "statusSettings" : {
-          "stats" : {
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 1,
+        "pool" : [ 
+          [ 0.1111, "sulphurtroll" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : [
+          [ 0.4, "fuscorpion" ],
+          [ 0.3, "funewt" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
+      }
+    ],
+    "monsterParameters" : {
+      "statusSettings" : {
+        "stats" : {
             "sulphuricImmunity" : {
               "baseValue" : 1.0
             },
@@ -23,34 +39,11 @@
             "breathProtection" : {
               "baseValue" : 1.0
             }
-          }
-        }
-      }
-    },
-    {
-      "groups" : [ "fu_sulphuric" ],
-      "extraSpawns" : [ "fuscorpion", "funewt" ],
-      "monsterParameters" : {
-        "statusSettings" : {
-          "stats" : {
-            "sulphuricacidImmunity" : {
-              "baseValue" : 1.0
-            },
-            "poisonImmunity" : {
-              "baseValue" : 1.0
-            },
-            "blacktarImmunity" : {
-              "baseValue" : 1.0
-            },            
-            "breathProtection" : {
-              "baseValue" : 1.0
-            }
-          }
         }
       }
     }
-  ],
-
+  },
+  
   "hueShiftOptions" : [ 0 ],
   
   "weather" : [

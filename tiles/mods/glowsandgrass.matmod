@@ -2,7 +2,7 @@
   "modId" : 6717,
   "modName" : "glowsandgrass",
   "Description" : "glowing sand",
-  "footstepSound" : "/sfx/blocks/footstep_sand.wav",
+  "footstepSound" : "/sfx/blocks/footstep_sand.ogg",
   "grass" : true,
   "health" : 0,
 

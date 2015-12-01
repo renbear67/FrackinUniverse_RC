@@ -8,7 +8,7 @@
   "description" : "Small bricks made of honeystone.",
   "glitchDescription" : "Statement. honeystone.",
   "floranDescription" : "honeyssstone.",
-  "footstepSound" : "/sfx/blocks/footstep_stone3.wav",
+  "footstepSound" : "/sfx/blocks/footstep_stone3.ogg",
   "health" : 10,
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {

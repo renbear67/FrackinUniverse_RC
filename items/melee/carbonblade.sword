@@ -13,25 +13,24 @@
   "firePosition" : [22.5, 4.5],
   "fireTime" : 0.7,
   "fireAfterWindup" : true,
-  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_onehanded.wav" } ] },
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_shortsword.ogg" } ] },
 
   "primaryStances" : {
     "directional" : true,
     "projectileType" : "shortswordswoosh1",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 5
+      "power" : 3.8
     },
     "idle" : {
       "twoHanded" : false,
       "armAngle" : -90,
       "swordAngle" : -90,
       "handPosition" : [-6.0, -17.0],
-      "armFrameOverride" : "idleMelee",
       "duration" : 0.1
     },
     "windup" : {
-      "twoHanded" : true,
+      "twoHanded" : false,
       "armAngle" : 90,
       "swordAngle" : 90,
       "handPosition" : [-6.0, -17.0],
@@ -39,7 +38,7 @@
       "statusEffects" : []
     },
     "cooldown" : {
-      "twoHanded" : true,
+      "twoHanded" : false,
       "armAngle" : -45,
       "swordAngle" : -90,
       "handPosition" : [-6.0, -27.5],

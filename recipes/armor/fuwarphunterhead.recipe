@@ -1,6 +1,7 @@
 {
   "input" : [
     { "item" : "corvex", "count" : 3 },
+    { "item" : "cryonicextract", "count" : 4 },
     { "item" : "refinedviolium", "count" : 2 },
     { "item" : "refinedrubium", "count" : 2 }
   ],

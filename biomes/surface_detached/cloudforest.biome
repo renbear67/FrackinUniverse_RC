@@ -1,22 +1,29 @@
 {
   "name" : "cloudforest",
   "friendlyName" : "Cloud Forest",
-  "spawnProfiles" : [
-    {
-      "groups" : [ "easysurface1", "fu_arboreal" ],
-      "extraSpawns" : [ "fireflyspawner", "greentip", "blueback", "aurorabee", "birdcritter", "bunny", "chevcritter", "groopcritter", "harecritter", "hedgehogcritter", "redbreastcritter", "squirrelcritter" ],
-      "monsterParameters" : {
-        "colors" : "forest"
-      }    
-    },
-    {
-      "groups" : [ "easysurface2", "fu_arboreal" ],
-      "extraSpawns" : [ "fireflyspawner", "greentip", "blueback", "aurorabee", "birdcritter", "bunny", "chevcritter", "groopcritter", "harecritter", "hedgehogcritter", "redbreastcritter", "squirrelcritter" ],
-      "monsterParameters" : {
-        "colors" : "forest"
-      }  
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 1,
+        "pool" : [ 
+          [ 1.0, "taroni" ]
+        ]
+      },
+      {
+        "select" : 3,
+        "pool" : [
+          [ 0.20, "bowbirdcritter" ],
+          [ 0.20, "sluggreencritter" ],
+          [ 0.20, "slugbluecritter" ],
+          [ 0.20, "slugcritter" ],
+          [ 0.20, "leafscabcritter" ]
+        ]
+      }
+    ],
+    "monsterParameters" : {
+      "colors" : "desert"
     }
-  ],
+  },
   "hueShiftOptions" : [-225, -165, -70, -25, 0, 25, 70, 165, 225],
 
     "mainBlock" : "cloudblock",
@@ -51,15 +58,6 @@
              }
            ]
          },
-        {
-          "mode" : "floor",
-          "priority" : 3.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:minibossoverground",
-
-          "type" : "microdungeon",
-          "microdungeons" : [ "minibossoverground" ]
-        },
         {
           "mode" : "floor",
           "priority" : 1.0,

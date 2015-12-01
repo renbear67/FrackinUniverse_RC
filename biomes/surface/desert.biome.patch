@@ -1,6 +1,19 @@
 [
-{"op":"add","path":"/spawnProfiles/0","value":{ "extraSpawns":["sunskipper", "goldbuck", "nocturnalbee", "aridbee"]}},
-{"op":"add","path":"/spawnProfiles/1","value":{ "extraSpawns":["sunskipper", "sandclown", "nocturnalbee", "aridbee"]}},
+
+{"op":"add","path":"/spawnProfile/groups/-",
+"value":{ 
+      
+        "select" : 4,
+        "pool" : [ 
+          [ 0.111, "sunskipper" ],          
+          [ 0.111, "goldbuck" ],
+          [ 0.111, "nocturnalbee" ],
+          [ 0.111, "aridbee" ]
+        ]
+      }
+},
+
+
 {"op":"add","path":"/subBlocks/-","value": "calichestone"},
 
 	{"op":"add","path":"/surfacePlaceables/items/-","value":{

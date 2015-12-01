@@ -13,7 +13,7 @@
   "firePosition" : [30.5, -3.5],
   "fireTime" : 0.92,
   "fireAfterWindup" : true,
-  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_axe.wav" } ] },
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_axe.ogg" } ] },
 
   "colorOptions" : [
     /* BLUE */
@@ -47,7 +47,7 @@
     "projectileType" : "densiniumaxeswoosh",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 10.85
+      "power" : 8.85
     },
     "idle" : {
       "twoHanded" : false,

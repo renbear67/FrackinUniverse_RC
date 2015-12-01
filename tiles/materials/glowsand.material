@@ -5,7 +5,7 @@
   "itemDrop" : "glowsandmaterial",
   "description" : "Strange, irradiated sand.",
   "shortdescription" : "Glowing Sand",
-  "footstepSound" : "/sfx/blocks/footstep_sand.wav",
+  "footstepSound" : "/sfx/blocks/footstep_sand.ogg",
   "health" : 4,
   "category": "materials",
 

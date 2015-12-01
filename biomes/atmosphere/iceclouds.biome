@@ -2,17 +2,6 @@
   "name" : "iceclouds",
   "friendlyName" : "Ice Clouds",
 
-  "spawnProfiles" : [
-    {
-      "groups" : [ "sky1" ],
-      "extraSpawns" : [ ]
-    },
-    {
-      "groups" : [ "sky2" ],
-      "extraSpawns" : [ ]
-    }
-  ],
-
   "mainBlock" : "ice",
   "subBlocks" : [ "slush", "snow" ],
   "ores" : "depth3",

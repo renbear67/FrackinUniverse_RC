@@ -29,7 +29,7 @@
   },
   
   "muzzleEffect" : {
-       "fireSound" : [ { "file" : "/sfx/gun/plasma_shotgun3.wav" } ],
+       "fireSound" : [ { "file" : "/sfx/gun/plasma_shotgun3.ogg" } ],
        "animation" :  "/animations/muzzleflash/smokemuzzle/smokemuzzle.animation"
 	   } 
 }

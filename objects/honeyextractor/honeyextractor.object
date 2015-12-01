@@ -27,7 +27,7 @@
   "scripts" : [ "/objects/honeyextractor/extractor.lua" ],
   "scriptDelta" : 100,
   "recipeGroup" : "honeyextractor",
-  "openSounds" : [ "/sfx/objects/florancrate_open.wav" ],
+  "openSounds" : [ "/sfx/objects/florancrate_open.ogg" ],
   "slotCount" : 3,
   "uiConfig" : "/objects/honeyextractor/honeyextractor.config",
   "frameCooldown" : 67,

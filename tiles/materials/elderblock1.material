@@ -5,7 +5,7 @@
   "itemDrop" : "elderblockmaterial",
   "description" : "Cozy, in that malign sort of way.",
   "shortdescription" : "Elder Temple Wall",
-  "footstepSound" : "/sfx/blocks/footstep_stone3.wav",
+  "footstepSound" : "/sfx/blocks/footstep_stone3.ogg",
   "health" : 10,
   "category": "materials",
 

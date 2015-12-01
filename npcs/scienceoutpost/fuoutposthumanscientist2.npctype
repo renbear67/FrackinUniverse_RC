@@ -3,8 +3,8 @@
   "baseType" : "fuoutpostcivilian",
 "damageTeam" : 1,
     "scriptConfig" : {
-        "offeredQuests" : [ "1_cloninglab.gearup" ],
-        "turnInQuests" : [ "9_tocloninglab.gearup" ],
+        "offeredQuests" : [ "1wire.gearup" ],
+        "turnInQuests" : [ "7biochipbase.gearup" ],
         
     "wander" : {
       "timeRange" : [2.0, 10.0],

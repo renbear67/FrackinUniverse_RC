@@ -195,7 +195,7 @@ function armorStatUpgrade(statusList, statusName, statUpgradeItem)
 			if statusName ~= "powerMultiplier" then
                 statusEffect.amount = statusEffect.amount + statUpgradeAmount
             else
-                statusEffect.basePercentage = statusEffect.basePercentage + statUpgradeAmount
+                statusEffect.baseMultiplier = statusEffect.baseMultiplier + statUpgradeAmount
             end
 			statUpgraded = true
 			break
@@ -206,7 +206,7 @@ function armorStatUpgrade(statusList, statusName, statUpgradeItem)
         if statusName ~= "powerMultiplier" then
 		    table.insert(statusList, {stat = statusName, amount = statUpgradeAmount})
         else
-            table.insert(statusList, {stat = statusName, basePercentage = statUpgradeAmount})
+            table.insert(statusList, {stat = statusName, baseMultiplier = statUpgradeAmount})
         end
 	end
 

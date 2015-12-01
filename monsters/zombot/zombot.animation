@@ -376,7 +376,7 @@
   },
 
   "sounds" : {
-    "turnHostile" : [ "/sfx/npc/unique/robotboss_attack1.wav" ],
-    "deathPuff" : [ "/sfx/npc/enemydeathpuff.wav" ]
+    "turnHostile" : [ "/sfx/npc/unique/robotboss_attack1.ogg" ],
+    "deathPuff" : [ "/sfx/npc/enemydeathpuff.ogg" ]
   }
 }

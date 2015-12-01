@@ -18,7 +18,7 @@
     "twoHanded" : true,
     "rateOfFire" : [2, 7],
     "muzzleEffect" : {
-      "fireSound" : [ { "file" : "/sfx/projectiles/swing_electric2.wav" } ]
+      "fireSound" : [ { "file" : "/sfx/projectiles/swing_electric2.ogg" } ]
     },
   
     "fireOnRelease" : false,

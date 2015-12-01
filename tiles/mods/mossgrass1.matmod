@@ -2,7 +2,7 @@
   "modId" : 6728,
   "modName" : "mossgrass1",
   "Description" : "Mossy ground",
-  "footstepSound" : "/sfx/blocks/footstep_grass.wav",
+  "footstepSound" : "/sfx/blocks/footstep_grass.ogg",
   "grass" : true,
   "health" : 0,
 

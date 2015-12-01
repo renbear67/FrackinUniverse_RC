@@ -29,8 +29,8 @@
 
   "muzzleEffect" : {
     "fireSound" : [
-      { "file" : "/sfx/gun/rocket_shot.wav" },
-      { "file" : "/sfx/gun/rocket_fly.wav" }
+      { "file" : "/sfx/gun/rocket_shot.ogg" },
+      { "file" : "/sfx/gun/rocket_fly.ogg" }
     ]
   },
 

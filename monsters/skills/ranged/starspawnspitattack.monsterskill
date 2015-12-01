@@ -1,7 +1,7 @@
 {
   "name" : "starspawnSpitAttack",
   "label" : "VOID CLOUD",
-  "image" : "/monsters/flying/skills/default.png",
+  "image" : "/monsters/generated/skills/defaultphysical.png",
 
   "parameters" : {
     "starspawnSpitAttack" : {
@@ -18,7 +18,7 @@
 
   "animationParameters" : {
     "sounds" : {
-      "rangedAttack" : [ "/sfx/starspawn/attack.wav" ]
+      "rangedAttack" : [ "/sfx/starspawn/attack.ogg" ]
     }
   }
 }

@@ -2,22 +2,61 @@
   "name" : "badlands",
   "friendlyName" : "Badlands",
 
-   "spawnProfiles" : [
-    {
-      "groups" : [ "mediumsurface1", "fu_thickjungle" ],
-      "extraSpawns" : [ "dustmoth", "sunskipper", "goldbuck", "fuscorpion", "deserttortoisecritter", "vulturecritter"  ],
-      "monsterParameters" : {
-        "colors" : "desert"
-      }    
-    },
-    {
-      "groups" : [ "mediumsurface2", "fu_thickjungle" ],
-      "extraSpawns" : [ "dustmoth", "sunskipper", "goldbuck", "fuscorpion", "deserttortoisecritter", "vulturecritter"  ],
-      "monsterParameters" : {
-        "colors" : "desert"
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 3,
+        "pool" : [ 
+          [ 0.1111, "fennix" ],     
+          [ 0.1111, "fugiantscorpion" ],
+          [ 0.1111, "fuheadcrab" ],        
+          [ 0.1111, "ignome" ],
+          [ 0.1111, "pyromantle" ],     
+          [ 0.1111, "smoglin" ],
+          [ 0.1111, "trictus" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : [
+          [ 0.4, "sunskipper" ],
+          [ 0.3, "goldbuck" ],
+          [ 0.3, "sandclown" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
+      },
+      {
+        "select" : 2,
+        "pool" : [
+          [ 1, "armadillocritter" ],
+          [ 1, "mousecritter" ],
+          [ 1, "groopcritter" ],
+          [ 1, "ravencritter" ],
+          [ 1, "wurmcritter" ]   
+        ]
+      }
+    ],
+    "monsterParameters" : {
+      "colors" : "desert",
+      "statusSettings" : {
+        "stats" : {
+          "ffextremeheatImmunity" : {
+            "baseValue" : 1.0
+          },
+          "lavaImmunity" : {
+            "baseValue" : 1.0
+          },
+          "fireImmunity" : {
+            "baseValue" : 1.0
+          }
+        }
       }
     }
-  ],   
+  },
+    
 
   "hueShiftOptions" : [-90, -45, 0, 45, 90],
 
@@ -104,15 +143,6 @@
               "modHueShiftMax" : 180
             }
           ]
-        },
-        {
-          "mode" : "floor",
-          "priority" : 3.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:minibossoverground",
-
-          "type" : "microdungeon",
-          "microdungeons" : [ "minibossoverground" ]
         },
         {
           "mode" : "floor",

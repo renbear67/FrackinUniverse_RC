@@ -1,7 +1,7 @@
 {
   "name" : "targolemAttack",
   "label" : "TAR SPEW",
-  "image" : "/monsters/flying/skills/default.png",
+  "image" : "/monsters/generated/skills/defaultphysical.png",
 
   "parameters" : {
     "targolemAttack" : {

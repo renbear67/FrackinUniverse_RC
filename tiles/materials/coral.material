@@ -5,7 +5,7 @@
 	"itemDrop" : "coralmaterial",
 	"description" : "Ancient coral.",
 	"shortdescription" : "Coral",
-	"footstepSound" : "/sfx/blocks/footstep_stone.wav",
+	"footstepSound" : "/sfx/blocks/footstep_stone.ogg",
 	"health" : 10,
 	"category": "materials",
 

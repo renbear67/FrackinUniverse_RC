@@ -14,14 +14,14 @@
   "firePosition" : [-2, 4],
   "fireTime" : 1.0,
   "fireAfterWindup" : true,
-  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_twohanded.wav" } ] },
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_broadsword.ogg" } ] },
 
 
   "primaryStances" : {
     "projectileType" : "testswoosh3",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 4
+      "power" : 3
     },
     "idle" : {
       "twoHanded" : false,

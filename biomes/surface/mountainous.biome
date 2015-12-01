@@ -2,16 +2,42 @@
   "name" : "mountainous",
   "friendlyName" : "Mountainous",
 
-  "spawnProfiles" : [
-    {
-      "groups" : [ "mediumsurface1", "fu_mountainous" ],
-      "extraSpawns" : [ "normalbee", "fireflyspawner", "redwing", "frostfly", "icetip", "fuminigoat", "cliffcritter", "owlcritter" ]
-    },
-    {
-      "groups" : [ "mediumsurface2", "fu_mountainous" ],
-      "extraSpawns" : [ "normalbee", "fireflyspawner", "redwing", "frostfly", "icetip", "fuminigoat", "cliffcritter", "owlcritter" ]
-    }
-  ],
+  
+  
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 2,
+        "pool" : [ 
+          [ 0.1111, "bulbop" ],     
+          [ 0.1111, "capricoat" ],
+          [ 0.1111, "gleap" ],        
+          [ 0.1111, "oogler" ],
+          [ 0.1111, "peblit" ],     
+          [ 0.1111, "ringram" ],
+          [ 0.1111, "taroni" ],        
+          [ 0.1111, "rocktroll" ],
+          [ 0.1111, "rocktroll2" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : [
+          [ 0.4, "normalbee" ],
+          [ 0.3, "fireflyspawner" ],
+          [ 0.3, "redwing" ],
+		  [ 0.3, "frostfly" ],
+          [ 0.4, "fuminigoat" ],
+          [ 0.3, "cliffcritter" ],
+          [ 0.3, "owncritter" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
+      }
+    ]
+  },
 
   "hueShiftOptions" : [-180, -135, -90, -66, -45, 0, 45, 90, 135, 180],
 
@@ -236,15 +262,6 @@
           "distribution" : "/biomes/distributions.config:randomEncounter",
           "type" : "microdungeon",
           "microdungeons" : [ "forestmicrodungeons" ]
-        },
-        {
-          "mode" : "floor",
-          "priority" : 3.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:minibossoverground",
-
-          "type" : "microdungeon",
-          "microdungeons" : [ "minibossoverground" ]
         },	
         {
           "mode" : "floor",

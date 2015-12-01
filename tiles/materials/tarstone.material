@@ -7,7 +7,7 @@
   "itemDrop" : "tarstonematerial",
   "description" : "Tarry Stone",
   "shortdescription" : "Tarry Stone",
-  "footstepSound" : "/sfx/blocks/footstep_stone2.wav",
+  "footstepSound" : "/sfx/blocks/footstep_stone2.ogg",
   "health" : 3,
   "tillableMod" : 31,
   "soil" : true,

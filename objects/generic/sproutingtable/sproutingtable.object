@@ -28,11 +28,11 @@
     }
   ],
 
-  "soundEffect" : "/sfx/objects/camera_pan_loop.wav",
+  "soundEffect" : "/sfx/objects/camera_pan_loop.ogg",
 
 
   "recipeGroup" : "sprouting",
-  "openSounds" : [ "/sfx/objects/florancrate_open.wav" ],
+  "openSounds" : [ "/sfx/objects/florancrate_open.ogg" ],
   "slotCount" : 2,
   "uiConfig" : "/interface/objectcrafting/sprout.config",
   "frameCooldown" : 67,

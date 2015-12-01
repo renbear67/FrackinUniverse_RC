@@ -1,7 +1,7 @@
 {
   "name" : "robotgaussAttack",
   "label" : "Gauss Cannon",
-  "image" : "/monsters/flying/skills/default.png",
+  "image" : "/monsters/generated/skills/defaultphysical.png",
 
   "parameters" : {
     "robotgaussAttack" : {
@@ -19,7 +19,7 @@
 
   "animationParameters" : {
     "sounds" : {
-      "rangedAttack" : [ "/sfx/gun/mech_gun.wav" ]
+      "rangedAttack" : [ "/sfx/gun/mech_gun.ogg" ]
     }
   }
 }

@@ -17,7 +17,7 @@
   
     {
       "stat" : "powerMultiplier",
-      "basePercentage" : 0.7
+      "baseMultiplier" : 1.7
     },  
     {
       "stat" : "protection",

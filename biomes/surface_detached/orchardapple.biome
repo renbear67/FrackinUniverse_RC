@@ -7,22 +7,52 @@
     "subBlocks" : [ "cobblestone" ],
     "ores" : "surfaceOres",
 
-  "spawnProfiles" : [
-    {
-      "groups" : [ "easysurface1" ],
-      "extraSpawns" : [ "greentip", "blueback", "birdcritter", "squirrelcritter", "snail", "sporelingcritter", "owlcritter", "blipcritter", "mousecritter", "fireflyspawner" ],
-      "monsterParameters" : {
-        "colors" : "forest"
+
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 3,
+        "pool" : [ 
+          [ 0.111, "snaunt" ],
+          [ 0.111, "peblit" ],          
+          [ 0.111, "crustoise" ],
+          [ 0.111, "bobfae" ],
+          [ 0.111, "batong" ],
+          [ 0.111, "scaveran" ],
+          [ 0.111, "crutter" ],
+          [ 0.111, "spookit" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : [
+          [ 0.4, "blueback" ],
+          [ 0.3, "greentip" ],
+          [ 0.3, "redwing" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
+      },
+      {
+        "select" : 4,
+        "pool" : [
+          [ 1, "birdcritter" ],
+          [ 1, "squirrelcritter" ],
+          [ 1, "snailcritter" ],
+          [ 1, "sporelingcritter" ],
+          [ 1, "owlcritter" ],
+          [ 1, "blipcritter" ],
+          [ 1, "mousecritter" ],
+          [ 1, "fireflyspawner" ]         
+        ]
       }
-    },
-    {
-      "groups" : [ "easysurface2" ],
-      "extraSpawns" : [ "blueback", "redwing", "birdcritter", "squirrelcritter", "snail", "sporelingcritter", "owlcritter", "blipcritter", "mousecritter", "fireflyspawner" ],
-      "monsterParameters" : {
-        "colors" : "forest"
-      }
+    ],
+    "monsterParameters" : {
+      "colors" : "forest"
     }
-  ],
+  },
 
   "surfacePlaceables" : {
     "grassMod" : [ "fualiengrass", "grass" ],

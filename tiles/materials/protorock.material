@@ -5,7 +5,7 @@
   "itemDrop" : "protorockmaterial",
   "description" : "This is most...unusual.",
   "shortdescription" : "Elder Stone",
-  "footstepSound" : "/sfx/blocks/footstep_stone3.wav",
+  "footstepSound" : "/sfx/blocks/footstep_stone3.ogg",
   "health" : 50,
   "category": "materials",
 

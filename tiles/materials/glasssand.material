@@ -5,7 +5,7 @@
   "itemDrop" : "glasssandmaterial",
   "description" : "shiny, glassy sand.",
   "shortdescription" : "Glass Sand",
-  "footstepSound" : "/sfx/blocks/footstep_sand.wav",
+  "footstepSound" : "/sfx/blocks/footstep_sand.ogg",
   "health" : 1,
   "category": "materials",
   "soil": true,

@@ -7,25 +7,49 @@
   "subBlocks" : [ "mud", "sandstone01" ],
   "ores" : "surfaceOres",
 
-  "spawnProfiles" : [
-    {
-      "groups" : [ "oceanfloor" ],
-      "extraSpawns" : [ ],
-    "monsterParameters" : {
-        "statusSettings" : {
-          "stats" : {
-            "lavaImmunity" : {
-              "baseValue" : 1.0
-            },
-            "fireImmunity" : {
-              "baseValue" : 1.0
-            }
-          }
-        }
-    }
-    }
-  ],
 
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 3,
+        "pool" : [ 
+          [ 0.1666, "lilodon" ],          
+          [ 0.1666, "monopus" ],
+          [ 0.1666, "miasmop" ],
+          [ 0.1666, "snaggler" ],
+          [ 0.1666, "crabcano" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : [
+          [ 0.4, "tidefly" ],
+          [ 0.3, "seahornet" ],
+          [ 0.3, "wavebird" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
+      },
+      {
+        "select" : 2,
+        "pool" : [
+          [ 1, "gullcritter" ],
+          [ 1, "squidcritter" ],
+          [ 1, "jellycritter" ],
+          [ 1, "crabcritter" ],
+          [ 1, "fishlemoncritter" ],
+          [ 1, "fishberrycritter" ],
+          [ 1, "fishchilicritter" ],
+          [ 1, "tortoisecritter" ] 
+        ]
+      }
+    ],
+    "monsterParameters" : {
+      "colors" : "ocean"
+    }
+  },
   "surfacePlaceables" : {
     "grassMod" : [ "sand" ],
     "grassModDensity" : 0.9,

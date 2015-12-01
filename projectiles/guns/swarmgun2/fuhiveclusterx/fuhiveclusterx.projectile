@@ -16,7 +16,7 @@
     }, 
     {
       "action" : "sound",
-      "options" : [ "/sfx/projectiles/goocluster_pop.wav" ]
+      "options" : [ "/sfx/projectiles/goocluster_pop.ogg" ]
     }
   ],
   "power" : 1.5,

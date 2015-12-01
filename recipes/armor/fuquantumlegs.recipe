@@ -2,6 +2,7 @@
   "input" : [
     { "item" : "eridianplate", "count" : 4 },
     { "item" : "advcircuit", "count" : 3 },
+    { "item" : "carbonplate", "count" : 3 },
     { "item" : "aichip", "count" : 1 }
   ],
   "output" : { "item" : "fuquantumlegs", "count" : 1 },

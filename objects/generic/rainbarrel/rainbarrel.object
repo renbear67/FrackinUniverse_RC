@@ -55,9 +55,9 @@
     }
   ],
 
-  "soundEffect" : "/sfx/objects/aquarium1.wav",
+  "soundEffect" : "/sfx/objects/aquarium1.ogg",
   "recipeGroup" : "rainbarrel",
-  "openSounds" : [ "/sfx/objects/florancrate_open.wav" ],
+  "openSounds" : [ "/sfx/objects/florancrate_open.ogg" ],
   "slotCount" :2,
   "uiConfig" : "/interface/objectcrafting/dip.config",
   "frameCooldown" : 67,

@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "fleshstrand", "count" : 15 },
+    { "item" : "hardenedcarapace", "count" : 9 },
     { "item" : "gene_skeletal", "count" : 3 },
     { "item" : "ff_resin", "count" : 4 },
     { "item" : "carbonplate", "count" : 2 },

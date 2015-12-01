@@ -3,7 +3,8 @@
   "baseType" : "outpostcivilian",
   "damageTeam" : 1,
   "scriptConfig" : {
-    
+        "offeredQuests" : [ "shoggothunlock.gearup" ],
+        "turnInQuests" : [ "shoggothunlock.gearup" ],
     "reactions" : {
       "spontaneous" : [
       ]

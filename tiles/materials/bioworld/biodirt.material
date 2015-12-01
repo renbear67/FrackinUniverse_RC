@@ -5,7 +5,7 @@
   "itemDrop" : "biodirtmaterial",
   "description" : "Somehow, even the dirt here is strange.",
   "shortdescription" : "Proto Soil",
-  "footstepSound" : "/sfx/blocks/footstep_dirt.wav",
+  "footstepSound" : "/sfx/blocks/footstep_dirt.ogg",
   "tillableMod" : 31,
   "soil" : true,
   "health" : 3,

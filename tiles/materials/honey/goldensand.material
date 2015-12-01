@@ -8,7 +8,7 @@
   "glitchDescription" : "Statement. Sand.",
   "floranDescription" : "Sssand.",
   "category": "material",
-  "footstepSound" : "/sfx/blocks/footstep_sand.wav",
+  "footstepSound" : "/sfx/blocks/footstep_sand.ogg",
   "falling" : true,
   "cascading" : true,
   "health" : 1.3,

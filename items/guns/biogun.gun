@@ -17,7 +17,7 @@
     "twoHanded" : true,
     "walkWhileFiring" : false,
     "muzzleEffect" : {
-      "fireSound" : [ { "file" : "/sfx/weapons/biolaunch.wav" } ],
+      "fireSound" : [ { "file" : "/sfx/weapons/biolaunch.ogg" } ],
       "animation" : "/animations/protomuzzle/protomuzzle.animation"
     },
     "fireOnRelease" : false,

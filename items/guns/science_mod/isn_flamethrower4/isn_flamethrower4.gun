@@ -15,7 +15,7 @@
   "recoilTime" : 0,
   "spread" : 3,
   "muzzleEffect" : {
-    "fireSound" : [ { "file" : "/items/guns/science_mod/isn_flamethrower4/isn_flamethrower_deep.wav" } ]
+    "fireSound" : [ { "file" : "/items/guns/science_mod/isn_flamethrower4/isn_flamethrower_deep.ogg" } ]
   },
   
   "fireTime" : 0.01,

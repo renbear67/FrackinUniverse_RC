@@ -2,40 +2,47 @@
   "name" : "lightlessunderground",
   "friendlyName" : "Lightless Cave",
 
-  "spawnProfiles" : [
-    {
-      "groups" : [ "mediumsurface1" ],
-      "extraSpawns" : [ "shadowmoth", "sackbagcritter", "slugbluecritter"  ],
-      "monsterParameters" : {
-        "statusSettings" : {
-          "stats" : {
-            "poisonImmunity" : {
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 2,
+        "pool" : [ 
+          [ 0.1111, "fuaviansentry" ],     
+          [ 0.1111, "fugiantbee" ],
+          [ 0.1111, "seedspawn2" ],        
+          [ 0.1111, "slime" ],
+          [ 0.1111, "pyromantle" ],     
+          [ 0.1111, "futoxicgolem" ],
+          [ 0.1111, "futoxicfly" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : [
+          [ 0.4, "slugbluecritter" ],
+          [ 0.3, "sackbagcritter" ],
+          [ 0.3, "shadowmoth" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
+      }
+    ],
+    "monsterParameters" : {
+	  "colors" : "ice",
+      "statusSettings" : {
+        "stats" : {
+            "biooozeImmunity" : {
               "baseValue" : 1.0
             },
-            "breathProtection" : {
-              "baseValue" : 1.0
-            }          
-          }
-        }
-      }   
-    },
-    {
-      "groups" : [ "mediumsurface2" ],
-      "extraSpawns" : [ "shadowmoth", "sackbagcritter", "slugbluecritter"  ],
-      "monsterParameters" : {
-        "statusSettings" : {
-          "stats" : {
             "poisonImmunity" : {
               "baseValue" : 1.0
-            },
-            "breathProtection" : {
-              "baseValue" : 1.0
-            }          
-          }
+            }
         }
-      }   
+      }
     }
-  ],
+  },
 
     "mainBlock" : "darkstone",
     "subBlocks" : [ "darkness", "matterblock" ],

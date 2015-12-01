@@ -5,7 +5,7 @@
   "itemDrop" : "sulphurdirtmaterial",
   "description" : "Lovely sulphur-rich dirt.",
   "shortdescription" : "Sulphuric dirt",
-  "footstepSound" : "/sfx/blocks/footstep_stone2.wav",
+  "footstepSound" : "/sfx/blocks/footstep_stone2.ogg",
   "health" : 7,
   "category": "materials",
 

@@ -3,7 +3,7 @@
   "baseType" : "fuoutpostcivilian",
   "damageTeam" : 1,
     "scriptConfig" : {
-        "offeredQuests" : [ "1_boozekit.gearup" ],
+        "offeredQuests" : [ "1boozekit.gearup" ],
         
     "wander" : {
       "timeRange" : [2.0, 10.0],

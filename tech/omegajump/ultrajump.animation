@@ -35,6 +35,6 @@
   },
 
   "sounds" : {
-    "multiJumpSound" : ["/sfx/tech/tech_doublejump.wav"]
+    "multiJumpSound" : ["/sfx/tech/tech_doublejump.ogg"]
   }
 }

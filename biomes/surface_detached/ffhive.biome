@@ -6,47 +6,28 @@
     "mainBlock" : "honeycombmaterial",
     "subBlocks" : [ "fu_honeycombblock", "dirt", "spidersilkblock" ],
     "ores" : "ff_honeyOres",
-    
-  "spawnProfiles" : [
-    {
-      "groups" : [ "fu_hive" ],
-      "extraSpawns" : [ ],
-      "monsterParameters" : {
-        "statusSettings" : {
-          "stats" : {
-            "lavaImmunity" : {
-              "baseValue" : 1.0
-            },
-            "honeyslowImmunity" : {
-              "baseValue" : 1.0
-            },
-            "beestingImmunity" : {
-              "baseValue" : 1.0
-            }
-          }
-        }
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 1,
+        "pool" : [ 
+          [ 0.3111, "fugiantbee" ]     
+        ]
+      },
+      {
+        "select" : 3,
+        "pool" : [
+          [ 0.4, "futinybee" ],
+          [ 0.3, "normalbee" ],
+          [ 0.3, "forestbee" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
       }
-    },
-    {
-      "groups" : [ "fu_hive" ],
-      "extraSpawns" : [ ],
-      "monsterParameters" : {
-        "statusSettings" : {
-          "stats" : {
-            "lavaImmunity" : {
-              "baseValue" : 1.0
-            },
-            "honeyslowImmunity" : {
-              "baseValue" : 1.0
-            },
-            "beestingImmunity" : {
-              "baseValue" : 1.0
-            }
-          }
-        }
-      }
-    }
-  ],
+    ]
+  },
 
 
   "surfacePlaceables" : {
@@ -62,15 +43,6 @@
 
           "type" : "microdungeon",
           "microdungeons" : [ "block1platforms", "loops", "spiralspikes", "blocks", "stripeblocks", "blockpile", "reversepyramids", "flats", "spikes", "rods", "wiggles", "rockyshapes", "layeredspire", "blank", "none" ]
-        },
-        {
-          "mode" : "floor",
-          "priority" : 3.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:minibossoverground",
-
-          "type" : "microdungeon",
-          "microdungeons" : [ "minibossoverground" ]
         },
         {
           "mode" : "floor",

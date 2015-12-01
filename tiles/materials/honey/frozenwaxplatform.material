@@ -8,7 +8,7 @@
   "itemDrop" : "frozenwaxplatform",
   "shortdescription" : "Frozen Wax Platform",
   "description" : "Beautiful icy wax platforms.",
-  "footstepSound" : "/sfx/blocks/footstep_ice.wav",
+  "footstepSound" : "/sfx/blocks/footstep_ice.ogg",
   "renderTemplate" : "/tiles/platformtemplate.config",
   "renderParameters" : {
     "texture" : "frozenwaxplatform.png",

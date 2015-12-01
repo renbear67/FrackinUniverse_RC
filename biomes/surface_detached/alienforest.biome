@@ -3,22 +3,51 @@
   "friendlyName" : "alienforest",
 
   "hueShiftOptions" : [-165, -70, -25, 0, 25, 70, 125, 165],
-  "spawnProfiles" : [
-    {
-      "groups" : [ "easysurface1", "fu_arboreal" ],
-      "extraSpawns" : [ "forestbee", "normalbee", "fireflyspawner", "greentip", "blueback", "aurorabee", "birdcritter", "bunny", "chevcritter", "groopcritter", "harecritter", "hedgehogcritter", "redbreastcritter", "squirrelcritter" ],
-      "monsterParameters" : {
-        "colors" : "forest"
-      }    
-    },
-    {
-      "groups" : [ "easysurface2", "fu_arboreal" ],
-      "extraSpawns" : [ "forestbee", "normalbee", "fireflyspawner", "greentip", "blueback", "aurorabee", "birdcritter", "bunny", "chevcritter", "groopcritter", "harecritter", "hedgehogcritter", "redbreastcritter", "squirrelcritter" ],
-      "monsterParameters" : {
-        "colors" : "forest"
-      }  
+    "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 3,
+        "pool" : [ 
+          [ 0.1111, "iguarmor" ],     
+          [ 0.1111, "pteropod" ],
+          [ 0.1111, "nutmidge" ],        
+          [ 0.1111, "mandraflora" ]
+        ]
+      },	  
+      {
+        "select" : 3,
+        "pool" : [
+          [ 0.4, "forestbee" ],
+          [ 0.3, "normalbee" ],
+		  [ 0.3, "greentip" ],
+		  [ 0.3, "blueback" ],
+		  [ 0.3, "aurorabee" ]
+        ]
+      },
+      {
+        "select" : 3,
+        "pool" : [
+		  [ 0.3, "fireflyspawner" ],
+          [ 0.4, "birdcritter" ],
+          [ 0.3, "bunny" ],
+          [ 0.3, "chevcritter" ],
+		  [ 0.3, "groopcritter" ],
+		  [ 0.3, "harecritter" ],
+		  [ 0.3, "hedgehogcritter" ],
+		  [ 0.3, "redbreastcritter" ],
+		  [ 0.3, "squirrelcritter" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
+      }
+    ],
+    "monsterParameters" : {
+      "colors" : "forest"
     }
-  ],
+  },
+  
     "mainBlock" : "alienrock",
     "subBlocks" : [ "eyepiles", "biodirt", "bioblock2" ],
     "ores" : "surfaceOres",
@@ -223,7 +252,7 @@
           "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "terrainfeatures", "rockclimb","rocktunnel",  "toxicplains", "sandstone", "blockpile", "loops", "flats", "reversepyramids" ]
+          "microdungeons" : [ "terrainfeatures", "rockclimb","rocktunnel",  "toxicmicrodungeons", "sandstone", "blockpile", "loops", "flats", "reversepyramids" ]
         },
         {
           "mode" : "floor",
@@ -233,15 +262,6 @@
 
           "type" : "microdungeon",
           "microdungeons" : [ "newhumanmicro", "newavianmicro", "randomencounter", "treasureroom", "avianencounter", "glitchencounter", "shroomencounter" ]
-        },
-        {
-          "mode" : "floor",
-          "priority" : 3.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:minibossoverground",
-
-          "type" : "microdungeon",
-          "microdungeons" : [ "minibossoverground" ]
         },
         {
           "mode" : "floor",

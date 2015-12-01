@@ -605,7 +605,7 @@ local recipes =
 {inputs = { wildkamaranpodsplant=1 }, outputs = { geneticmaterial=4 }, time = 5},
 {inputs = { wildcellpodsplant=1 }, outputs = { geneticmaterial=5 }, time = 5},
 {inputs = { wildgoldenseaspongeplant=1 }, outputs = { tissueculture=5 }, time = 5},
-{inputs = { wildsnowberryseed=1 }, outputs = { tissueculture=6 }, time = 5},
+{inputs = { wildfusnowberryseed=1 }, outputs = { tissueculture=6 }, time = 5},
 {inputs = { wildspongeweedseed=1 }, outputs = { geneticmaterial=4 }, time = 5},
 {inputs = { cellpods=1 }, outputs = { geneticmaterial=1 }, time = 0.65},
 {inputs = { aenemaflower=1 }, outputs = { geneticmaterial=2 }, time = 0.65},

@@ -53,13 +53,13 @@
     }
   ],
 
-  "soundEffect" : "/sfx/objects/torch.wav",
+  "soundEffect" : "/sfx/objects/torch.ogg",
   
   "animation" : "cyctorch.animation",
   "animationCustom" : {
     "sounds" : {
-      "on" : [ "/sfx/objects/torch_on1.wav", "/sfx/objects/torch_on2.wav" ],
-      "off" : [ "/sfx/objects/torch_off1.wav", "/sfx/objects/torch_off2.wav", "/sfx/objects/torch_off3.wav" ]
+      "on" : [ "/sfx/objects/torch_on1.ogg", "/sfx/objects/torch_on2.ogg" ],
+      "off" : [ "/sfx/objects/torch_off1.ogg", "/sfx/objects/torch_off2.ogg", "/sfx/objects/torch_off3.ogg" ]
     }
   },
   "animationParts" : {

@@ -2,41 +2,35 @@
   "name" : "moonshadowunderground",
   "friendlyName" : "moonshadowunderground",
 
-  "spawnProfiles" : [
-    {
-      "groups" : [ "fu_shadowdeep" ],
-      "extraSpawns" : [ ],
-      "monsterParameters" : {
-        "colors" : "shadow",
-        "statusSettings" : {
-          "stats" : {
-            "tarImmunity" : {
-              "baseValue" : 1.0
-            },
-            "blacktarImmunity" : {
-              "baseValue" : 1.0
-            },
-            "darkwaterImmunity" : {
-              "baseValue" : 1.0
-            },
-            "biooozeImmunity" : {
-              "baseValue" : 1.0
-            },
-            "insanityImmunity" : {
-              "baseValue" : 1.0
-            }              
-          }
-        }
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 2,
+        "pool" : [ 
+          [ 0.1111, "monopus" ],     
+          [ 0.1111, "spookit" ],
+          [ 0.1111, "orbide" ],        
+          [ 0.1111, "yokat" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : [
+          [ 0.4, "nocturnalbee" ],
+          [ 0.3, "eyefriend" ],
+          [ 0.3, "eyepodcritter" ],
+		  [ 0.3, "maggotcritter" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
       }
-    },
-    {
-      "groups" : [ "fu_shadowdeep" ],
-      "extraSpawns" : [  ],
-
-      "monsterParameters" : {
-        "colors" : "shadow",
-        "statusSettings" : {
-          "stats" : {
+    ],
+    "monsterParameters" : {
+      "colors" : "magma",
+      "statusSettings" : {
+        "stats" : {
             "tarImmunity" : {
               "baseValue" : 1.0
             },
@@ -51,12 +45,11 @@
             },
             "insanityImmunity" : {
               "baseValue" : 1.0
-            }     
-          }
+            }
         }
       }
     }
-  ],
+  },
   
   "parallax" : "/parallax/underground/moonunderground.parallax",
 

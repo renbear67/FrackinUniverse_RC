@@ -25,7 +25,7 @@
     }
   ],
 
-  "openSounds" : [ "/sfx/objects/florancrate_open.wav" ],
+  "openSounds" : [ "/sfx/objects/florancrate_open.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/chests/chest%slots%.config",
   "frameCooldown" : 5,

@@ -5,7 +5,7 @@
 	"itemDrop" : "coral2material",
 	"description" : "Delicate coral.",
 	"shortdescription" : "Delicate Coral",
-	"footstepSound" : "/sfx/blocks/footstep_stone.wav",
+	"footstepSound" : "/sfx/blocks/footstep_stone.ogg",
 	"health" : 10,
 	"category": "materials",
 

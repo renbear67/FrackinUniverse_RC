@@ -5,7 +5,7 @@
   "itemDrop" : "blackslimematerial",
   "description" : "extremely viscous black slime.",
   "shortdescription" : "Black Slime",
-  "footstepSound" : "/sfx/blocks/footstep_brains.wav",
+  "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
   "health" : 4,
   "category": "materials",
 

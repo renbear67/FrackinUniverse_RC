@@ -2,43 +2,63 @@
   "name" : "atropus",
   "friendlyName" : "Atropus",
   "statusEffects" : [ "insanity"  ],
-  "spawnProfiles" : [
-    {
-      "groups" : [ "hardsurface1", "fu_atropus" ],
-      "extraSpawns" : [ "apexscabcritter", "avianscabcritter", "eyefriend", "eyepodcritter", "floranscabcritter", "glitchscabcritter", "humanscabcritter", "hylotlscabcritter", "maggotcritter" ],
-      "monsterParameters" : {
-        "colors" : "forest",
-        "statusSettings" : {
-          "stats" : {
-            "pusImmunity" : {
-              "baseValue" : 1.0
-            },
-            "biooozeImmunity" : {
-              "baseValue" : 1.0
-            }
-          }
-        }
+  
+  
+    "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 3,
+        "pool" : [ 
+          [ 0.1111, "fleshleech" ],     
+          [ 0.1111, "paratail" ],
+          [ 0.1111, "fuheckblob" ],
+		  [ 0.1111, "hemogoblin" ]
+        ]
+      },  
+      {
+        "select" : 2,
+        "pool" : [
+          [ 0.4, "shardwing" ],
+          [ 0.3, "stinkjack" ],
+		  [ 0.3, "xenofly" ]
+        ]
+      },
+      {
+        "select" : 3,
+        "pool" : [
+		  [ 0.3, "apexscabcritter" ],
+          [ 0.4, "avianscabcritter" ],
+          [ 0.3, "eyefriend" ],
+          [ 0.3, "eyepodcritter" ],
+		  [ 0.3, "floranscabcritter" ],
+		  [ 0.3, "glitchscabcritter" ],
+		  [ 0.3, "humanscabcritter" ],
+		  [ 0.3, "hylotlscabcritter" ],
+		  [ 0.3, "maggotcritter" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
       }
-    },
-    {
-      "groups" : [ "hardsurface2", "fu_atropus" ],
-      "extraSpawns" : [ "apexscabcritter", "avianscabcritter", "eyefriend", "eyepodcritter", "floranscabcritter", "glitchscabcritter", "humanscabcritter", "hylotlscabcritter", "maggotcritter" ],
-
-      "monsterParameters" : {
-        "colors" : "forest",
-        "statusSettings" : {
-          "stats" : {
-            "pusImmunity" : {
-              "baseValue" : 1.0
-            },
-            "biooozeImmunity" : {
-              "baseValue" : 1.0
-            }
+    ],
+    "monsterParameters" : {
+      "colors" : "magma",
+      "statusSettings" : {
+        "stats" : {
+          "insanityImmunity" : {
+            "baseValue" : 1.0
+          },
+          "pusImmunity" : {
+            "baseValue" : 1.0
+          },
+          "biooozeImmunity" : {
+            "baseValue" : 1.0
           }
         }
       }
     }
-  ],
+  },
   
   "hueShiftOptions" : [-35, -15, 0, 15, 35 ],
   
@@ -420,7 +440,7 @@
           "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "canyonmini", "terrainfeatures", "rockclimb", "rocktunnel",  "toxicplains", "layeredspire" ]
+          "microdungeons" : [ "canyonmini", "terrainfeatures", "rockclimb", "rocktunnel",  "toxicmicrodungeons", "layeredspire" ]
         },
         {
           "mode" : "floor",
@@ -439,16 +459,7 @@
 
           "type" : "microdungeon",
           "microdungeons" : [ "fuencountercultist" ]
-        },
-        {
-          "mode" : "floor",
-          "priority" : 3.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:minibossoverground",
-
-          "type" : "microdungeon",
-          "microdungeons" : [ "minibossoverground" ]
-        },        
+        },      
         {
           "mode" : "floor",
           "priority" : 3.0,

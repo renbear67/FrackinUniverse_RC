@@ -2,22 +2,28 @@
   "name" : "desertoasis",
   "friendlyName" : "Colorful Desert Oasis",
   "hueShiftOptions" : [-40, -25, 0, 25, 40],
-   "spawnProfiles" : [
-    {
-      "groups" : [ "mediumsurface1", "fu_thickjungle" ],
-      "extraSpawns" : [ "dustmoth", "sunskipper", "goldbuck", "fuscorpion", "deserttortoisecritter", "vulturecritter"  ],
-      "monsterParameters" : {
-        "colors" : "desert"
-      }    
-    },
-    {
-      "groups" : [ "mediumsurface2", "fu_thickjungle" ],
-      "extraSpawns" : [ "dustmoth", "sunskipper", "goldbuck", "fuscorpion", "deserttortoisecritter", "vulturecritter"  ],
-      "monsterParameters" : {
-        "colors" : "desert"
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 1,
+        "pool" : [ 
+          [ 1.0, "toumingo" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : [
+          [ 0.25, "mousecritter" ],
+          [ 0.25, "squeekcritter" ],
+          [ 0.25, "deserttortoisecritter" ],
+          [ 0.25, "bowbirdcritter" ]
+        ]
       }
+    ],
+    "monsterParameters" : {
+      "colors" : "desert"
     }
-  ], 
+  },
     "mainBlock" : "sand2",
     "subBlocks" : [ "wetdirt", "sandstone01" ],
     "ores" : "surfaceOres",
@@ -49,15 +55,6 @@
               "parameters" : { }
             }
           ]
-        },
-        {
-          "mode" : "floor",
-          "priority" : 3.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:minibossoverground",
-
-          "type" : "microdungeon",
-          "microdungeons" : [ "minibossoverground" ]
         },
         {
           "mode" : "floor",

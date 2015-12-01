@@ -142,7 +142,7 @@ function init()
   -- world.logInfo("Unique Parameters: %s", entity.uniqueParameters())
   entity.setGlobalTag("backwards", "")
 
-  self.debug = true
+  self.debug = false
 end
 
 -------------------------------------------------------------------------------

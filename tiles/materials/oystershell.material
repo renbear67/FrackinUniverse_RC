@@ -5,7 +5,7 @@
   "itemDrop" : "oystershellmaterial",
   "description" : "A layer of crushed oystershells.",
   "shortdescription" : "Oystershells",
-  "footstepSound" : "/sfx/blocks/footstep_gravel.wav",
+  "footstepSound" : "/sfx/blocks/footstep_gravel.ogg",
   "falling" : true,
   "cascading" : true,
   "health" : 1,

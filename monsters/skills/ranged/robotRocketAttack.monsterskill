@@ -1,7 +1,7 @@
 {
   "name" : "robotRocketAttack",
   "label" : "MISSILE SALVO",
-  "image" : "/monsters/flying/skills/default.png",
+  "image" : "/monsters/generated/skills/defaultphysical.png",
 
   "parameters" : {
     "robotRocketAttack" : {
@@ -17,7 +17,7 @@
 
   "animationParameters" : {
     "sounds" : {
-      "rangedAttack" : [ "/sfx/gun/rocket_shot.wav" ]
+      "rangedAttack" : [ "/sfx/gun/rocket_shot.ogg" ]
     }
   }
 }

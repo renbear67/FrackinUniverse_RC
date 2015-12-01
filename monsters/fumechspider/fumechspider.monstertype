@@ -11,15 +11,15 @@
 
   "baseParameters" : {
     "scripts" : [
-      "/monsters/crawling/crawlingMonster.lua",
+      "/monsters/fulegacyscripts/crawling/crawlingMonster.lua",
       "/scripts/stateMachine.lua",
       "/scripts/util.lua",
       "/scripts/vec2.lua",
 
-      "/monsters/crawling/approachState.lua",
-      "/monsters/crawling/fleeState.lua",
-      "/monsters/crawling/wanderState.lua",
-      "/monsters/crawling/idleState.lua"
+      "/monsters/fulegacyscripts/crawling/approachState.lua",
+      "/monsters/fulegacyscripts/crawling/fleeState.lua",
+      "/monsters/fulegacyscripts/crawling/wanderState.lua",
+      "/monsters/fulegacyscripts/crawling/idleState.lua"
     ],
 
     "baseSkills" : ["fumechspiderAttack"],
@@ -98,6 +98,9 @@
       "primaryScriptDelta" : 0,
 
       "stats" : {
+        "grit" : {
+          "baseValue" : 1.0
+        },
         "maxHealth" : {
           "baseValue" : 48
         },

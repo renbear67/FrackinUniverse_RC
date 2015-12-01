@@ -4,25 +4,6 @@
   
   "statusEffects" : [ "biomeheat" ],
   
-  "spawnProfiles" : [
-    {
-      "groups" : [ "oceanfloor" ],
-      "extraSpawns" : [ ],
-	  "monsterParameters" : {
-        "statusSettings" : {
-          "stats" : {
-            "lavaImmunity" : {
-              "baseValue" : 1.0
-            },
-            "fireImmunity" : {
-              "baseValue" : 1.0
-            }
-          }
-        }
-		}
-    }
-  ],
-
   "mainBlock" : "magmarock",
   "subBlocks" : [ "magmatile1", "magmatile2", "magmatile3", "magmatile4" ],
   "ores" : "surfaceOres",

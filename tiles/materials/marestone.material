@@ -5,7 +5,7 @@
 	"itemDrop" : "marestonematerial",
 	"description" : "Rough, unrefined marestone.",
 	"shortdescription" : "Marestone",
-	"footstepSound" : "/sfx/blocks/footstep_stone.wav",
+	"footstepSound" : "/sfx/blocks/footstep_stone.ogg",
 	"health" : 10,
 	"category": "materials",
 

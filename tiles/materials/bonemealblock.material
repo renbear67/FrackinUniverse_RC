@@ -5,7 +5,7 @@
   "itemDrop" : "bonemealmaterial",
   "description" : "mixed bone powder and... gore.",
   "shortdescription" : "Bone Meal",
-  "footstepSound" : "/sfx/blocks/footstep_bone.wav",
+  "footstepSound" : "/sfx/blocks/footstep_bone.ogg",
   "tillableMod" : 31,
   "soil" : true,
   "health" : 7,

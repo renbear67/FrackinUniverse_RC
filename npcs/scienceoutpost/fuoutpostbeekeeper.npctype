@@ -5,7 +5,7 @@
 
   "damageTeam" : 1,
     "scriptConfig" : {
-        "offeredQuests" : [ "1_beestation.gearup" ],
+        "offeredQuests" : [ "1beestation.gearup" ],
         
     "wander" : {
       "timeRange" : [2.0, 10.0],

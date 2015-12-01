@@ -1,0 +1,27 @@
+{
+  "name" : "fuDarkGravityBallAttack",
+  "label" : "FROZEN GRAVITY BALL",
+  "image" : "/monsters/skills/defaultice.png",
+
+  "parameters" : {
+    "fuDarkGravityBallAttack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "frozengravityball",
+      "range" : 15,
+      "speed" : 15,
+      "power" : 16,
+      "shots" : 1,
+      "winddownTime" : 0.5,
+      "castTime" : 0.4,
+      "castEffect" : "castice",
+      "castAnimation" : "charge"
+    }
+  },
+
+  "animationParameters" : {
+    "sounds" : {
+      "rangedAttack" : [ ]
+    }
+  }
+}
+

@@ -106,6 +106,9 @@
       "primaryScriptDelta" : 0,
 
       "stats" : {
+        "grit" : {
+          "baseValue" : 1.0
+        },
         "maxHealth" : {
           "baseValue" : 2000
         },

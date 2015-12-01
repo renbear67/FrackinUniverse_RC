@@ -15,7 +15,7 @@
   "spread" : 1,
   "accuracy" : 100,
   "muzzleEffect" : {
-    "fireSound" : [ { "file" : "/items/guns/science_mod/isn_fusioncannon/isn_magmacannon.wav" } ]
+    "fireSound" : [ { "file" : "/items/guns/science_mod/isn_fusioncannon/isn_magmacannon.ogg" } ]
   },
   
   "fireTime" : 2.5,

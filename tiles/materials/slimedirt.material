@@ -5,7 +5,7 @@
   "itemDrop" : "slimedirtmaterial",
   "description" : "Ew. Slimy.",
   "shortdescription" : "Slimey Soil",
-  "footstepSound" : "/sfx/blocks/footstep_brains.wav",
+  "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
   "health" : 3,
   "tillableMod" : 31,
   "soil" : true,

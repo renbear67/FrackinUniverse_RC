@@ -14,7 +14,7 @@
   "firePosition" : [52.5, -7.0],
   "fireTime" : 0.79,
   "fireAfterWindup" : true,
-  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_spear.wav" } ] },
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_spear.ogg" } ] },
 
   "colorOptions" : [
     /* PURPLE */
@@ -48,7 +48,7 @@
     "projectileType" : "spearswoosh1",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 6.9
+      "power" : 3.9
     },
     "idle" : {
       "twoHanded" : false,

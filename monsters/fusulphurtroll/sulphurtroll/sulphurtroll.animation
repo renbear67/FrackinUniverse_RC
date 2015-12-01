@@ -74,7 +74,18 @@
           }
         }
       },
-
+      "damage" : {
+        "priority" : 3,
+        "default" : "none",
+        "states" : {
+          "none" : {
+            "frames" : 1
+          },
+          "stunned" : {
+            "frames" : 1
+          }
+        }
+      },
       "portrait" : {
         "priority" : -1,
         "default" : "portrait",
@@ -127,7 +138,7 @@
             },
             "knockback" : {
               "properties" : {
-                "image" : "<partImage>:stance.<frame>"
+                "image" : "<partImage>:stance"
               }
             },
             "knockout" : {
@@ -159,7 +170,13 @@
               }
             }
           },
-
+          "damage" : {
+            "stunned" : {
+              "properties" : {
+                "image" : "<partImage>:stance"
+              }
+            }
+          },
           "portrait" : {
             "portrait" : {
               "properties" : {

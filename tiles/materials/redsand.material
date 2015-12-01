@@ -5,7 +5,7 @@
   "itemDrop" : "redsand",
   "description" : "A fine glittering red sand. Could probably be made into glass!",
   "shortdescription" : "Fine Sand",
-  "footstepSound" : "/sfx/blocks/footstep_sand.wav",
+  "footstepSound" : "/sfx/blocks/footstep_sand.ogg",
   "health" : 1,
   "damageTable" : "/tiles/flammableDamage.config",
   "category": "materials",

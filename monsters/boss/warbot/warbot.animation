@@ -406,18 +406,18 @@
   },
 
   "sounds" : {
-    "turnHostile" : [ "/sfx/npc/unique/robotboss_turnhostile.wav" ],
-    "walk" :["/sfx/npc/unique/robotboss_idle2.wav"],
-    "idle" :["/sfx/npc/unique/robotboss_idle1.wav"],
-    "attackSound" :["/sfx/npc/unique/robotboss_attack1.wav", "/sfx/npc/unique/robotboss_attack2.wav"],
-    "melee" :["/sfx/npc/unique/robotboss_attack1.wav"],
-    "melee2" :["/sfx/npc/unique/robotboss_attack2.wav"],
-    "shooting" :["/sfx/npc/unique/robotboss_attack1.wav"],
-    "shooting2" :["/sfx/npc/unique/robotboss_attack2.wav"], 
-    "shooting3" :["/sfx/npc/unique/robotboss_attack2.wav"], 
-    "knockback" :["/sfx/npc/unique/robotboss_pain1.wav"],
-    "knockout" :["/sfx/npc/unique/robotboss_pain2.wav"],
-    "jumpattack" :["/sfx/npc/unique/robotboss_pain3.wav"],
-    "deathPuff" : ["/sfx/npc/unique/robotboss_death.wav", "/sfx/npc/unique/robotboss_deathwithstatic.wav" ]
+    "turnHostile" : [ "/sfx/npc/unique/robotboss_turnhostile.ogg" ],
+    "walk" :["/sfx/npc/unique/robotboss_idle2.ogg"],
+    "idle" :["/sfx/npc/unique/robotboss_idle1.ogg"],
+    "attackSound" :["/sfx/npc/unique/robotboss_attack1.ogg", "/sfx/npc/unique/robotboss_attack2.ogg"],
+    "melee" :["/sfx/npc/unique/robotboss_attack1.ogg"],
+    "melee2" :["/sfx/npc/unique/robotboss_attack2.ogg"],
+    "shooting" :["/sfx/npc/unique/robotboss_attack1.ogg"],
+    "shooting2" :["/sfx/npc/unique/robotboss_attack2.ogg"], 
+    "shooting3" :["/sfx/npc/unique/robotboss_attack2.ogg"], 
+    "knockback" :["/sfx/npc/unique/robotboss_pain1.ogg"],
+    "knockout" :["/sfx/npc/unique/robotboss_pain2.ogg"],
+    "jumpattack" :["/sfx/npc/unique/robotboss_pain3.ogg"],
+    "deathPuff" : ["/sfx/npc/unique/robotboss_death.ogg", "/sfx/npc/unique/robotboss_deathwithstatic.ogg" ]
   }
 }

@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "wretchel", "count" : 9 },
-    { "item" : "mutaviskthread", "count" : 6 },
+    { "item" : "phasematter", "count" : 6 },
     { "item" : "ff_diamondplating", "count" : 3 },
     { "item" : "aliencompound", "count" : 4 }
   ],

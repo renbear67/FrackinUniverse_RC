@@ -1,7 +1,7 @@
 {
   "name" : "raptorstrikeAttack",
   "label" : "TRIPLE STRIKE",
-  "image" : "/monsters/flying/skills/default.png",
+  "image" : "/monsters/generated/skills/defaultphysical.png",
 
   "parameters" : {
     "raptorstrikeAttack" : {
@@ -17,7 +17,7 @@
 
   "animationParameters" : {
     "sounds" : {
-      "rangedAttack" : [ "/sfx/npc/quadruped/arrowhead_pain2.wav", "/sfx/melee/bite.wav" ]
+      "rangedAttack" : [ "/sfx/npc/quadruped/arrowhead_pain2.ogg", "/sfx/melee/bite.ogg" ]
     }
   }
 }

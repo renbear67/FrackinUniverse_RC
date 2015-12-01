@@ -5,7 +5,7 @@
   "itemDrop" : "frozenstonematerial",
   "description" : "Ice-covered stone.",
   "shortdescription" : "Frozen Stone",
-  "footstepSound" : "/sfx/blocks/footstep_stone2.wav",
+  "footstepSound" : "/sfx/blocks/footstep_stone2.ogg",
   "health" : 8,
   "category": "materials",
 

@@ -5,7 +5,7 @@
   "itemDrop" : "frozensandmaterial",
   "description" : "Ice-covered sand.",
   "shortdescription" : "Frozen Sand",
-  "footstepSound" : "/sfx/blocks/footstep_sand2.wav",
+  "footstepSound" : "/sfx/blocks/footstep_sand2.ogg",
   "health" : 1,
   "category": "materials",
   "soil": true,

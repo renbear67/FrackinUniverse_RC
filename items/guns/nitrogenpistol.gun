@@ -27,7 +27,7 @@
   },
   
   "muzzleEffect" : {
-       "fireSound" : [ { "file" : "/sfx/gun/pulsecannon2.wav" } ],
+       "fireSound" : [ { "file" : "/sfx/gun/pulsecannon2.ogg" } ],
        "animation" :  "/animations/muzzleflash/plasmamuzzle3blue/plasmamuzzle3blue.animation"
 	   } 
 }

@@ -46,8 +46,8 @@
     }
   ],
 
-  "openSounds" : [ "/sfx/objects/fridge_open.wav" ],
-  "closeSounds" : [ "/sfx/objects/fridge_close.wav" ],
+  "openSounds" : [ "/sfx/objects/fridge_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/fridge_close.ogg" ],
   "slotCount" : 128,
   "uiConfig" : "/interface/chests/genechest128.config",
   "frameCooldown" : 67,

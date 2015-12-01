@@ -5,7 +5,7 @@
   "itemDrop" : "magmawall4",
   "description" : "Solid, unyielding stone.",
   "shortdescription" : "Cooled Volcanic Stone",
-  "footstepSound" : "/sfx/blocks/footstep_stone2.wav",
+  "footstepSound" : "/sfx/blocks/footstep_stone2.ogg",
    "tillableMod" : 31,
   "soil" : true,
   "health" : 15,

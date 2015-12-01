@@ -2,10 +2,58 @@
   "name" : "fungus",
   "friendlyName" : "Fungal",
 
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 3,
+        "pool" : [ 
+          [ 0.1111, "snaunt" ],     
+          [ 0.1111, "sporgus" ],
+          [ 0.1111, "voltip" ],        
+          [ 0.1111, "fucaterpillar" ],     
+          [ 0.1111, "seedspawn" ]
+        ]
+      },
+      {
+        "select" : 3,
+        "pool" : [
+          [ 0.4, "junglebee" ],
+          [ 0.3, "fireflyspawner" ],
+          [ 0.3, "fawnfly" ],
+          [ 0.4, "fushroomdude" ],
+          [ 0.3, "breakercritter" ],
+          [ 0.3, "breakerfemalecritter" ],
+          [ 0.4, "leafscabcritter" ],
+          [ 0.3, "slugcritter" ],
+          [ 0.3, "snail" ],
+          [ 0.4, "snakecritter" ],
+          [ 0.3, "sporelingcritter" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
+      }
+    ],
+    "monsterParameters" : {
+      "statusSettings" : {
+        "stats" : {
+          "pusImmunity" : {
+            "baseValue" : 1.0
+          },
+          "biooozeImmunity" : {
+            "baseValue" : 1.0
+          }
+        }
+      }
+    }
+  },
+  
+  
   "spawnProfiles" : [
     {
       "groups" : [ "mediumsurface1", "fu_fungal" ],
-      "extraSpawns" : [ "junglebee", "fireflyspawner", "fawnfly", "fushroomdude", "breakercritter", "breakerfemalecritter", "leafscabcritter", "slugcritter", "snail", "snakecritter", "sporelingcritter" ]
+      "extraSpawns" : [ "sporelingcritter" ]
     },
     {
       "groups" : [ "mediumsurface2", "fu_fungal" ],
@@ -292,7 +340,7 @@
           "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "terrainfeatures", "rockclimb", "rocktunnel",  "toxicplains", "sandstone", "blockpile", "loops", "flats", "reversepyramids" ]
+          "microdungeons" : [ "terrainfeatures", "rockclimb", "rocktunnel",  "toxicmicrodungeons", "sandstone", "blockpile", "loops", "flats", "reversepyramids" ]
         },
         {
           "mode" : "floor",
@@ -311,15 +359,6 @@
 
           "type" : "microdungeon",
           "microdungeons" : [  "fuencountercultist", "newhumanmicro", "newavianmicro", "minigreenruins" ]
-        },
-        {
-          "mode" : "floor",
-          "priority" : 3.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:minibossoverground",
-
-          "type" : "microdungeon",
-          "microdungeons" : [ "minibossoverground" ]
         },
         {
           "mode" : "floor",

@@ -8,7 +8,7 @@
           },
           "on" : {
             "properties" : {
-              "persistentSound" : "/sfx/tools/teleport_up.wav"
+              "persistentSound" : "/sfx/tools/teleport_up.ogg"
             }
           }
         }
@@ -44,6 +44,6 @@
   },
 
   "sounds" : {
-    "jumpSound" : ["/sfx/weapons/explosion-large01.wav"]
+    "jumpSound" : ["/sfx/weapons/explosion-large01.ogg"]
   }
 }

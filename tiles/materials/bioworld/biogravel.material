@@ -6,7 +6,7 @@
   "itemDrop" : "biogravelmaterial",
   "description" : "This looks a bit odd...",
   "shortdescription" : "Proto Gravel",
-  "footstepSound" : "/sfx/blocks/footstep_gravel.wav",
+  "footstepSound" : "/sfx/blocks/footstep_gravel.ogg",
   "falling" : true,
   "cascading" : true,
   "health" : 1.5,

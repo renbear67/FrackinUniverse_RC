@@ -26,7 +26,7 @@
   },
   
   "muzzleEffect" : {
-       "fireSound" : [ { "file" : "/sfx/weapons/shock_impact3.wav" } ],
+       "fireSound" : [ { "file" : "/sfx/weapons/shock_impact3.ogg" } ],
        "animation" :  "/animations/muzzleflash/plasmamuzzle3blue/plasmamuzzle3blue.animation"
    }
 }

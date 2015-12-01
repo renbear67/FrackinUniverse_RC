@@ -1,7 +1,7 @@
 {
   "name" : "slimePoisonBlastAttack",
   "label" : "BIO ERUPTION",
-  "image" : "/monsters/flying/skills/default.png",
+  "image" : "/monsters/generated/skills/defaultphysical.png",
 
   "parameters" : {
     "slimePoisonBlastAttack" : {

@@ -5,7 +5,7 @@
   "itemDrop" : "fungalstonematerial",
   "description" : "Stone covered in fungal spores.",
   "shortdescription" : "Fungal Stone",
-  "footstepSound" : "/sfx/blocks/footstep_stone.wav",
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
   "health" : 8,
   "category": "materials",
 

@@ -7,7 +7,7 @@
   "shortdescription" : "Energy Wood",
   "glitchDescription" : "Statement. Energy wood.",
   "floranDescription" : "Energy wood.",
-  "footstepSound" : "/sfx/blocks/footstep_wood.wav",
+  "footstepSound" : "/sfx/blocks/footstep_wood.ogg",
   "health" : 6,
   "damageTable" : "/tiles/flammableDamage.config",
   "category": "materials",

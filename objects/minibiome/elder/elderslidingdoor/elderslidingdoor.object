@@ -28,8 +28,8 @@
   "animation" : "/objects/wired/door/door.animation",
   "animationCustom" : {
     "sounds" : {
-      "open" : [ "/sfx/objects/fleshdoor_open.wav" ],
-      "close" : [ "/sfx/objects/fleshdoor_close.wav" ]
+      "open" : [ "/sfx/objects/fleshdoor_open.ogg" ],
+      "close" : [ "/sfx/objects/fleshdoor_close.ogg" ]
     }
   },
   "animationParts" : {

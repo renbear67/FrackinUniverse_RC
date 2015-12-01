@@ -2,7 +2,7 @@
   "modId" : 6734,
   "modName" : "purplecrystalgrass",
   "Description" : "Crystals",
-  "footstepSound" : "/sfx/blocks/footstep_stone2.wav",
+  "footstepSound" : "/sfx/blocks/footstep_stone2.ogg",
   "grass" : true,
   "health" : 0,
 

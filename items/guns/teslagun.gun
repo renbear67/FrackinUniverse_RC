@@ -27,7 +27,7 @@
   },
   
   "muzzleEffect" : {
-       "fireSound" : [ { "file" : "/sfx/weapons/teslagun.wav" } ],
+       "fireSound" : [ { "file" : "/sfx/weapons/teslagun.ogg" } ],
        "animation" :  "/animations/muzzleflash/electromuzzle/electromuzzle.animation"
 	   } 
 }

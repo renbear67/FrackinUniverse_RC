@@ -7,7 +7,7 @@
   "itemDrop" : "swampdirtffmaterial",
   "description" : "Swamp Dirt",
   "shortdescription" : "Swamp Dirt",
-  "footstepSound" : "/sfx/blocks/footstep_dirt.wav",
+  "footstepSound" : "/sfx/blocks/footstep_dirt.ogg",
   "health" : 3,
   "tillableMod" : 31,
   "soil" : true,

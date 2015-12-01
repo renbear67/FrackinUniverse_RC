@@ -30,7 +30,7 @@
   
   
   "muzzleEffect" : {
-    "fireSound" : [ { "file" : "/sfx/gun/blowgun3.wav" } ]
+    "fireSound" : [ { "file" : "/sfx/gun/blowgun3.ogg" } ]
   }
 }
 

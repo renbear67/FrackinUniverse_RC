@@ -28,10 +28,10 @@
     }
   ],
 
-  "soundEffect" : "/sfx/objects/aquarium1.wav",
+  "soundEffect" : "/sfx/objects/aquarium1.ogg",
 
   "recipeGroup" : "winepress",
-  "openSounds" : [ "/sfx/objects/florancrate_open.wav" ],
+  "openSounds" : [ "/sfx/objects/florancrate_open.ogg" ],
   "slotCount" : 3,
   "uiConfig" : "/interface/objectcrafting/press.config",
   "frameCooldown" : 67,

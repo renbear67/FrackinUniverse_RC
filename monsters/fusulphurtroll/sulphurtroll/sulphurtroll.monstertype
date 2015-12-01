@@ -5,28 +5,28 @@
   "parts" : [ "body" ],
 
   "animation" : "sulphurtroll.animation",
-  "colors" : "/monsters/colors.config",
+  
   "reversed" : true,
 
   "dropPools" : [ "ashgolemLoot" ],
 
   "baseParameters" : {
     "scripts" : [
-      "/monsters/boss/fufatalcircuit/groundMonster.lua",
+      "/monsters/fulegacyscripts/ground/groundMonster.lua",
       "/scripts/pathing.lua",
       "/scripts/stateMachine.lua",
       "/scripts/util.lua",
       "/scripts/vec2.lua",
-      "/monsters/ground/aggroHopState.lua",
-      "/monsters/ground/approachState.lua",
-      "/monsters/ground/fleeState.lua",
-      "/monsters/ground/wanderState.lua",
+      "/monsters/fulegacyscripts/ground/aggroHopState.lua",
+      "/monsters/fulegacyscripts/ground/approachState.lua",
+      "/monsters/fulegacyscripts/ground/fleeState.lua",
+      "/monsters/fulegacyscripts/ground/wanderState.lua",
 
-      "/monsters/ground/skills/createGroundRangedAttack.lua"
+      "/monsters/fulegacyscripts/ground/skills/createGroundRangedAttack.lua"
     ],
 
     "baseSkills" : [ "meleeAttack"],
-    "specialSkills" : [ "chargeAttack" ],
+    "specialSkills" : [ "fuPounceAttack", "stompAttack" ],
 
     "projectileSourcePosition" : [4.75, 1.0],
 
@@ -78,10 +78,10 @@
     "knockoutTime" : 1,
     "knockoutEffect" : "blink",
     "deathParticles" : "deathPoof",
-    "meleeProjectile" : "rocktrollswoosh2",
+    "meleeProjectile" : "sulphurtrollswoosh",
     "touchDamage" : {
       "poly" : [ [-3.125,0.25], [-3.125,-4.125], [-0.75,-4.5], [1.25,-4.625], [2.625,-4.375], [3,-2], [1.25,0.25], [-0.5,0.75], [-1.875,1.375] ],
-      "damage" : 17,
+      "damage" : 15,
 
       "teamType" : "enemy",
       "damageSourceKind" : "lash",
@@ -102,18 +102,21 @@
       "primaryScriptDelta" : 0,
 
       "stats" : {
+        "grit" : {
+          "baseValue" : 1.0
+        },
         "maxHealth" : {
-          "baseValue" : 192
+          "baseValue" : 180
         },
         "protection" : {
-          "baseValue" : 30.0
+          "baseValue" : 42.0
         },
         "healthRegen" : {
           "baseValue" : 0.0
         },
-        "poisonImmunity" : {
+        "sulphuricacidImmunity" : {
           "baseValue" : 1.0
-        }
+        }  
       },
 
       "resources" : {
@@ -129,3 +132,4 @@
     "feetOffset" : [0, -8]
   }
 }
+

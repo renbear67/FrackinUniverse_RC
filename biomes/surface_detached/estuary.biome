@@ -2,25 +2,6 @@
   "name" : "estuary",
   "friendlyName" : "Estuary",
   
-  "spawnProfiles" : [
-    {
-      "groups" : [ "oceanfloor" ],
-      "extraSpawns" : [ ],
-    "monsterParameters" : {
-        "statusSettings" : {
-          "stats" : {
-            "lavaImmunity" : {
-              "baseValue" : 1.0
-            },
-            "fireImmunity" : {
-              "baseValue" : 1.0
-            }
-          }
-        }
-    }
-    }
-  ],
-
   "mainBlock" : "mud",
   "subBlocks" : [ "clay", "wetdirt", "oystershell", "clay" ],
   "ores" : "surfaceOres",

@@ -6,7 +6,7 @@
   "category": "material",
   "description" : "A block made of golden leaves.",
   "shortdescription" : "Golden Leaves",
-  "footstepSound" : "/sfx/blocks/footstep_tallgrass.wav",
+  "footstepSound" : "/sfx/blocks/footstep_tallgrass.ogg",
   "health" : 4,
   "damageTable" : "/tiles/flammableDamage.config",
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",

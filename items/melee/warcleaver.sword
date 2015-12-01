@@ -14,7 +14,7 @@
   "firePosition" : [15.5, 4.5],
   "fireTime" : 1.54,
   "fireAfterWindup" : true,
-  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_twohanded.wav" } ] },
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_twohanded.ogg" } ] },
 
 
   "primaryStances" : {
@@ -22,14 +22,13 @@
     "projectileType" : "starcleaverswordslash",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 17.4
+      "power" : 11
     },
     "idle" : {
       "twoHanded" : false,
       "armAngle" : -90,
       "swordAngle" : -90,
       "handPosition" : [-6.0, -17.0],
-      "armFrameOverride" : "idleMelee",
       "duration" : 0.1
     },
     "windup" : {
@@ -50,7 +49,7 @@
     }
   },
   "parryBlockCooldown" : 1.0,
-  "parrySound" : "/sfx/melee/sword_parry.wav",
+  "parrySound" : "/sfx/melee/sword_parry.ogg",
   "parryParticle" : "shieldspark",
 
   "altStances" : {

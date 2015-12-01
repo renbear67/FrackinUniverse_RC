@@ -10,7 +10,7 @@
   "piercing" : true,
   "flippable" : true,
   "damageKind" : "default",
-  "emitters" : [ "iceswoosh1" ],
+  "emitters" : [ "iceswoosh" ],
 
   "actionOnReap" : [
     {
@@ -19,7 +19,7 @@
     },
     {
       "action" : "sound",
-      "options" : [ "/sfx/npc/quadruped/beastiehead_attack1.wav" ]
+      "options" : [ "/sfx/npc/quadruped/beastiehead_attack1.ogg" ]
     }  
   ]
 }

@@ -24,7 +24,7 @@
   "color" : [120, 0, 0] 
   },
   "muzzleEffect" : {
-       "fireSound" : [ { "file" : "/sfx/weapons/gravitongun.wav" } ],
+       "fireSound" : [ { "file" : "/sfx/weapons/gravitongun.ogg" } ],
        "animation" :  "/animations/muzzleflash/smokemuzzle/smokemuzzle.animation"
 	   }
 }

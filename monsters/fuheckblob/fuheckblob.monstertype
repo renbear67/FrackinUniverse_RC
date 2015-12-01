@@ -13,7 +13,7 @@
   "baseParameters" : {
     "scripts" : [
       "/monsters/capturepod.lua",
-      "/monsters/unique/heckblob/behavior.lua",
+      "/monsters/fulegacyscripts/unique/heckblob/behavior.lua",
       "/scripts/sensors.lua",
       "/scripts/stateMachine.lua",
       "/scripts/util.lua",
@@ -68,6 +68,9 @@
       "primaryScriptDelta" : 0,
 
       "stats" : {
+        "grit" : {
+          "baseValue" : 1.0
+        },
         "maxHealth" : {
           "baseValue" : 70
         },

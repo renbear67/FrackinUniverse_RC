@@ -5,7 +5,7 @@
   "itemDrop" : "darkstonematerial",
   "shortdescription" : "Darkstone",
   "description" : "A stone of solid darkness.",
-  "footstepSound" : "/sfx/blocks/footstep_stone.wav",
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
   "health" : 9,
   "category": "materials",
 

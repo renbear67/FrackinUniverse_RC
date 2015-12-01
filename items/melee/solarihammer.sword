@@ -13,21 +13,20 @@
   "firePosition" : [23.5, 8.5],
   "fireTime" : 1.0,
   "fireAfterWindup" : true,
-  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_hammer.wav" } ] },
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_hammer.ogg" } ] },
 
   "primaryStances" : {
     "directional" : false,
     "projectileType" : "hammerswoosh1",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 12
+      "power" : 10
     },
     "idle" : {
       "twoHanded" : false,
       "armAngle" : -90,
       "swordAngle" : -90,
       "handPosition" : [-2.0, -21.0],
-      "armFrameOverride" : "idleMelee",
       "duration" : 0.1
     },
     "windup" : {
@@ -48,7 +47,7 @@
     }
   },
   "parryBlockCooldown" : 1.2,
-  "parrySound" : "/sfx/melee/sword_parry.wav",
+  "parrySound" : "/sfx/melee/sword_parry.ogg",
   "parryParticle" : "shieldspark",
 
   "altStances" : {

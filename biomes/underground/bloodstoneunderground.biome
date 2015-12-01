@@ -2,16 +2,43 @@
   "name" : "bloodstoneunderground",
   "friendlyName" : "Bloodstone caverns",
 
-  "spawnProfiles" : [
-    {
-      "groups" : [ "mediumsurface1", "fu_bloodstone" ],
-      "extraSpawns" : [ "fawnfly", "brightstripe", "bloodtoadcritter"  ]
-    },
-    {
-      "groups" : [ "mediumsurface2", "fu_bloodstone" ],
-      "extraSpawns" : [ "fawnfly", "bloodtoadcritter"  ]
+    "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 2,
+        "pool" : [ 
+          [ 0.1111, "fubloodgolem" ],     
+          [ 0.1111, "headcrab" ],
+          [ 0.1111, "fleshleech" ],        
+          [ 0.1111, "batong" ],
+          [ 0.1111, "nautileech" ],     
+          [ 0.1111, "squeem" ],
+          [ 0.1111, "hemogoblin" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : [
+          [ 0.4, "fawnfly" ],
+          [ 0.3, "brightstripe" ],
+          [ 0.3, "bloodtoadcritter" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
+      }
+    ],
+    "monsterParameters" : {
+      "statusSettings" : {
+        "stats" : {
+          "poisonImmunity" : {
+            "baseValue" : 1.0
+          }
+        }
+      }
     }
-  ],
+  },
 
     "mainBlock" : "ff_bloodstone",
     "subBlocks" : [ "bloodstonetile", "obsidian", "hellstone" ],

@@ -13,7 +13,7 @@
   "firePosition" : [12.5, -3.5],
   "fireTime" : 1.2,
   "fireAfterWindup" : true,
-  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_hammer.wav" } ] },
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_hammer.ogg" } ] },
 
   "colorOptions" : [
     /* WHITE */
@@ -46,7 +46,7 @@
     "projectileType" : "poisonhammer",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 12
+      "power" : 14
     },
     "idle" : {
       "twoHanded" : false,

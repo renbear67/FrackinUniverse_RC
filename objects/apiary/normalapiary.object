@@ -33,7 +33,7 @@
   },
   "animationPosition" : [0, 0],
   "recipeGroup" : "beetrap",
-  "openSounds" : [ "/sfx/objects/woodenbox_open.wav" ],
+  "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
   "scripts" : [ "/objects/apiary/normalapiary.lua" ],
   "scriptDelta" : 140,
   "slotCount" : 19,

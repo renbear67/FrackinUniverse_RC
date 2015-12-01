@@ -3,22 +3,47 @@
   "friendlyName" : "Eden",
 
   "requiredStatuses" : [],
-  "spawnProfiles" : [
-    {
-      "groups" : [ ],
-      "extraSpawns" : [ "forestbee", "normalbee",  "nocturnalbee", "fireflyspawner", "greentip", "blueback", "aurorabee", "birdcritter", "bunny", "chevcritter", "groopcritter", "harecritter", "hedgehogcritter", "redbreastcritter", "squirrelcritter" ],
-      "monsterParameters" : {
-        "colors" : "forest"
-      }    
-    },
-    {
-      "groups" : [  ],
-      "extraSpawns" : [ "forestbee", "normalbee",  "nocturnalbee", "fireflyspawner", "greentip", "blueback", "aurorabee", "birdcritter", "bunny", "chevcritter", "groopcritter", "harecritter", "hedgehogcritter", "redbreastcritter", "squirrelcritter" ],
-      "monsterParameters" : {
-        "colors" : "forest"
-      }  
+  
+    "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 1,
+        "pool" : [
+          [ 0.4, "forestbee" ],
+          [ 0.3, "normalbee" ],
+          [ 0.3, "fireflyspawner" ],
+		  [ 0.3, "greentip" ],
+		  [ 0.3, "blueback" ],
+		  [ 0.3, "birdcritter" ],
+		  [ 0.3, "bunny" ],
+		  [ 0.3, "aurorabee" ],
+		  [ 0.3, "chevcritter" ],
+		  [ 0.3, "groopcritter" ],
+		  [ 0.3, "harecritter" ],
+		  [ 0.3, "hedgehogcritter" ],
+		  [ 0.3, "squirrelcritter" ],
+		  [ 0.3, "blueback" ],
+		  [ 0.3, "blueback" ],
+		  [ 0.3, "blueback" ],
+		  [ 0.3, "blueback" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
+      }
+    ],
+    "monsterParameters" : {
+      "colors" : "magma",
+      "statusSettings" : {
+        "stats" : {
+          "ffextremeradiationImmunity" : {
+            "baseValue" : 1.0
+          }
+        }
+      }
     }
-  ],
+  },
 
   
   "hueShiftOptions" : [-30, -20, -15, -10, -5, 0, 5, 10, 15, 20, 30],
@@ -240,15 +265,6 @@
 
         "type" : "grass",
         "grasses" : [ "grass", "testflower", "testflower2", "testflower3", "testflower4", "testflower5", "testflower6", "testflower7" ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 3.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:minibossoverground",
-
-        "type" : "microdungeon",
-        "microdungeons" : [ "minibossoverground" ]
       },
       {
         "mode" : "floor",

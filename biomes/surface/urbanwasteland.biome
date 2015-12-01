@@ -2,47 +2,32 @@
   "name" : "urbanwasteland",
   "friendlyName" : "Wasteland",
 
-  "spawnProfiles" : [
-    {
-      "groups" : [ "mediumsurface1" ],
-      "extraSpawns" : [ "dustmoth", "fudrone" ],
-      "monsterParameters" : {
-        "statusSettings" : {
-          "stats" : {
-            "lavaImmunity" : {
-              "baseValue" : 1.0
-            },
-            "poisonImmunity" : {
-              "baseValue" : 1.0
-            },
-            "ffextremeheatImmunity" : {
-              "baseValue" : 1.0
-            }
-          }
-        }
+  
+    "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 2,
+        "pool" : [ 
+          [ 0.1111, "tintix" ],     
+          [ 0.1111, "triplod" ],
+          [ 0.1111, "scandroid" ],        
+          [ 0.1111, "bobot" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : [
+          [ 0.4, "dustmoth" ],
+          [ 0.3, "fudrone" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
       }
-    },
-    {
-      "groups" : [ "mediumsurface2" ],
-      "extraSpawns" : [ "dustmoth", "fudrone" ],
-      "monsterParameters" : {
-        "statusSettings" : {
-          "stats" : {
-            "lavaImmunity" : {
-              "baseValue" : 1.0
-            },
-            "poisonImmunity" : {
-              "baseValue" : 1.0
-            },
-            "ffextremeheatImmunity" : {
-              "baseValue" : 1.0
-            }
-          }
-        }
-      }
-    }
-  ],
-
+    ]
+  },
+  
   "hueShiftOptions" : [ -120, -100, -60, -20, 0, 20, 60, 100, 120 ],
   
   "weather" : [
@@ -159,15 +144,6 @@
 
           "type" : "microdungeon",
           "microdungeons" : [ "randomencounter" ] 
-        },
-        {
-          "mode" : "floor",
-          "priority" : 3.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:minibossoverground",
-
-          "type" : "microdungeon",
-          "microdungeons" : [ "minibossoverground" ]
         },
         {
           "mode" : "floor",

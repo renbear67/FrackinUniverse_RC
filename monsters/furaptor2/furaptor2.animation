@@ -390,8 +390,8 @@
 
   "sounds" : {
   
-    "attackSound" : [ "/sfx/npc/unique/spiderboss_idle1.wav" , "/sfx/npc/unique/spiderboss_idle2.wav"  ],
-    "turnHostile" : [ "/sfx/npc/unique/spiderboss_turnhostile.wav" ],
-    "deathPuff" : [ "/sfx/npc/unique/spiderboss_death.wav" ]
+    "attackSound" : [ "/sfx/npc/unique/spiderboss_idle1.ogg" , "/sfx/npc/unique/spiderboss_idle2.ogg"  ],
+    "turnHostile" : [ "/sfx/npc/unique/spiderboss_turnhostile.ogg" ],
+    "deathPuff" : [ "/sfx/npc/unique/spiderboss_death.ogg" ]
   }
 }

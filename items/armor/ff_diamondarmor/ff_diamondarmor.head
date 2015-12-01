@@ -14,7 +14,7 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "basePercentage" : 0.72
+      "baseMultiplier" : 1.72
     },
 
     {

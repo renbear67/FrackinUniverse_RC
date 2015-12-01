@@ -16,11 +16,11 @@
   "actionOnReap" : [
     {
       "action" : "config",
-      "file" : "/projectiles/explosions/sulphurtrollswoosh/sulphurtrollswoosh.config"
+      "file" : "/projectiles/explosions/sulphurtrollexplosion/sulphurtrollexplosion.config"
     },
     {
       "action" : "sound",
-      "options" : [ "/sfx/npc/quadruped/beastiehead_attack1.wav" ]
+      "options" : [ "/sfx/npc/quadruped/beastiehead_attack1.ogg" ]
     }  
   ]
 }

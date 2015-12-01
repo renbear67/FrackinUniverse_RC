@@ -19,7 +19,7 @@
     "classMultiplier" : 0.007,
     "rateOfFire" : [2, 7],
     "muzzleEffect" : {
-      "fireSound" : [ { "file" : "/sfx/projectiles/swing_electric1.wav" } ]
+      "fireSound" : [ { "file" : "/sfx/projectiles/swing_electric1.ogg" } ]
     },
   
     "fireOnRelease" : false,

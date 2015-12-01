@@ -1,15 +1,12 @@
 function init()
   activateVisualEffects()
-  local slows = status.statusProperty("slows", {})
-  slows["tarslow"] = 0.55
-  status.setStatusProperty("slows", slows)
 end
 
 function update(dt)
   mcontroller.controlModifiers({
-      groundMovementModifier = -0.57,
-      runModifier = -0.57,
-      jumpModifier = -0.45
+      groundMovementModifier = 0.4,
+      runModifier = 0.4,
+      jumpModifier = 0.45
     })
 end
 
@@ -23,7 +20,5 @@ function activateVisualEffects()
 end
 
 function uninit()
-  local slows = status.statusProperty("slows", {})
-  slows["tarslow"] = nil
-  status.setStatusProperty("slows", slows)
+
 end

@@ -1,34 +1,38 @@
 {
   "name" : "elder",
   "friendlyName" : "Eldritch Field",
-  "spawnProfiles" : [
-    {
-      "groups" : [ "mediumsurface1", "fu_protoworld" ],
-      "extraSpawns" : [ "fireflyspawner", "phoenixfly", "orphanfly", "bouncercritter", "glowingballcritter2" ],
-      "monsterParameters" : {
-        "statusSettings" : {
-          "stats" : {
-            "biooozeImmunity" : {
-              "baseValue" : 1.0
-            }
-          }
-        }
+  
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 3,
+        "pool" : [ 
+          [ 0.111, "starspawn" ],          
+          [ 0.111, "deepone" ],
+          [ 0.111, "slime" ],
+          [ 0.111, "fleshleech" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
+      },
+      {
+        "select" : 2,
+        "pool" : [
+          [ 1, "orphanfly" ],
+          [ 1, "phoenixfly" ],
+          [ 1, "glowingball2critter" ],
+          [ 1, "ravencritter" ],
+          [ 1, "wurmcritter" ]   
+        ]
       }
-    },
-    {
-      "groups" : [ "mediumsurface2", "fu_protoworld" ],
-      "extraSpawns" : [ "fireflyspawner", "phoenixfly", "orphanfly", "bouncercritter", "glowingballcritter2" ],
-      "monsterParameters" : {
-        "statusSettings" : {
-          "stats" : {
-            "biooozeImmunity" : {
-              "baseValue" : 1.0
-            }
-          }
-        }
-      }
+    ],
+    "monsterParameters" : {
+      "colors" : "forest"
     }
-  ],
+  },
+
   "hueShiftOptions" : [-20, -10, 0, 10, 20],
     "mainBlock" : "elderstone",
     "subBlocks" : [ "elderstone2", "hive", "protorock" ],
@@ -52,15 +56,6 @@
               "parameters" : { }
             }
           ]
-        },
-        {
-          "mode" : "floor",
-          "priority" : 3.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:minibossoverground",
-
-          "type" : "microdungeon",
-          "microdungeons" : [ "minibossoverground" ]
         },
         {
           "mode" : "floor",

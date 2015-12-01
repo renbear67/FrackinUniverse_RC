@@ -37,6 +37,6 @@
     }
   ],
 
-  "soundEffect" : "/sfx/objects/aquarium1.wav"
+  "soundEffect" : "/sfx/objects/aquarium1.ogg"
 
 }

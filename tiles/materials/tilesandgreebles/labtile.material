@@ -5,7 +5,7 @@
   "itemDrop" : "labtile",
   "description" : "Sturdy plasteel. Great for building.",
   "shortdescription" : "Plasteel",
-  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
   "health" : 10,
   "category": "materials",
   

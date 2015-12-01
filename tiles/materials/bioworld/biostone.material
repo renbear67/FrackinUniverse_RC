@@ -5,7 +5,7 @@
   "itemDrop" : "biostonematerial",
   "description" : "...organic stone?",
   "shortdescription" : "Proto Stone",
-  "footstepSound" : "/sfx/blocks/footstep_stone2.wav",
+  "footstepSound" : "/sfx/blocks/footstep_stone2.ogg",
   "health" : 12,
   "category": "materials",
 

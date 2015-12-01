@@ -2,6 +2,7 @@
   "input" : [
     { "item" : "imperviumcompound", "count" : 5 },
     { "item" : "wretchel", "count" : 2 },
+    { "item" : "phasematter", "count" : 4 },
     { "item" : "graphene", "count" : 4 }
   ],
   "output" : {

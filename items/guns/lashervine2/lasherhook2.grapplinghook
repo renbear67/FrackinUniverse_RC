@@ -12,7 +12,7 @@
   "fireTime" : 0,
   "twoHanded" : false,
   "handPosition" : [0, 1],
-  "strikeSound" : "/items/guns/lashervine/spit.wav",
+  "strikeSound" : "/items/guns/lashervine/spit.ogg",
   "minLength" : -100,
   "maxLength" : 125,
   "hardMaxLength" : 75,

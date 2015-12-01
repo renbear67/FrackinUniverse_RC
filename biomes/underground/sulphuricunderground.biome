@@ -2,35 +2,29 @@
   "name" : "sulphuricunderground",
   "friendlyName" : "Deadly caverns",
 
-  "spawnProfiles" : [
-    {
-      "groups" : [ "fu_sulphuric" ],
-      "extraSpawns" : [ "fuscorpion", "funewt" ],
-      "monsterParameters" : {
-        "statusSettings" : {
-          "stats" : {
-            "sulphuricImmunity" : {
-              "baseValue" : 1.0
-            },
-            "poisonImmunity" : {
-              "baseValue" : 1.0
-            },
-            "blacktarImmunity" : {
-              "baseValue" : 1.0
-            },            
-            "breathProtection" : {
-              "baseValue" : 1.0
-            }
-          }
-        }
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 1,
+        "pool" : [ 
+          [ 0.1111, "sulphurtroll" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : [
+          [ 0.4, "fuscorpion" ],
+          [ 0.3, "funewt" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
       }
-    },
-    {
-      "groups" : [ "fu_sulphuric" ],
-      "extraSpawns" : [ "fuscorpion", "funewt" ],
-      "monsterParameters" : {
-        "statusSettings" : {
-          "stats" : {
+    ],
+    "monsterParameters" : {
+      "statusSettings" : {
+        "stats" : {
             "sulphuricImmunity" : {
               "baseValue" : 1.0
             },
@@ -43,11 +37,10 @@
             "breathProtection" : {
               "baseValue" : 1.0
             }
-          }
         }
       }
     }
-  ],
+  },
 
     "mainBlock" : "sulphurstone",
     "subBlocks" : [ "rock20", "sulphurdirt", "meteoriterock" ],

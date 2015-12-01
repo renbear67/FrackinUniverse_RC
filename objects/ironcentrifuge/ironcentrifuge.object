@@ -33,7 +33,7 @@
   "scripts" : [ "/objects/ironcentrifuge/centrifuge.lua" ],
   "scriptDelta" : 100,
   "recipeGroup" : "ironcentrifuge",
-  "openSounds" : [ "/sfx/objects/locker_open.wav" ],
+  "openSounds" : [ "/sfx/objects/locker_open.ogg" ],
   "slotCount" : 10,
   "uiConfig" : "/interface/ironcentrifuge/ironcentrifuge.config",
   "frameCooldown" : 67,

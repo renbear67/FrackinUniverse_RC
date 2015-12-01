@@ -17,7 +17,7 @@
   ],
   "projectileTypes" : [ "stingergunsting", "cactusthorns", "floranmacethorns", "honeystingergunsting" ],
   "directories" : [ "/items/guns/randomgenerated/other/fustingergun/" ],
-  "fireSound" : [ "/sfx/gun/needler1.wav" ],
+  "fireSound" : [ "/sfx/gun/needler1.ogg" ],
   "palette" : [
     { "e35f5d" : "d39855", "b22042" : "9e5f29", "871132" : "65371a", "a9a9a9" : "a9a9a9", "6a6a6a" : "6a6a6a", "3b3b3b" : "3b3b3b", "222222" : "222222" } //wood stock//
   ],

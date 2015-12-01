@@ -22,7 +22,7 @@
   "projectileType" : "blisterpistolshot",
   "projectile" : { "speed" : 52, "power" : 3.25 , "color" : [255, 0, 235] },
   "muzzleEffect" : {
-       "fireSound" : [ { "file" : "/sfx/projectiles/goo_spit2.wav" } ],
+       "fireSound" : [ { "file" : "/sfx/projectiles/goo_spit2.ogg" } ],
        "animation" :  "/animations/muzzleflash/plasmamuzzle3pink/plasmamuzzle3pink.animation"
 	   }
 }

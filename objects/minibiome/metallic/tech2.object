@@ -30,8 +30,8 @@
     }
   ],
 
-  "openSounds" : [ "/sfx/objects/metalbox_open.wav" ],
-  "closeSounds" : [ "/sfx/objects/metalbox_close.wav" ],
+  "openSounds" : [ "/sfx/objects/metalbox_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/metalbox_close.ogg" ],
   "slotCount" : 200,
   "uiConfig" : "/interface/chests/voidchest200.config",
   "frameCooldown" : 67,

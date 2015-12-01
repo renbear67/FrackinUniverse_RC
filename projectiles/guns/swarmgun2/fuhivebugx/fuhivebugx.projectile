@@ -18,7 +18,7 @@
     },    
     {
       "action" : "sound",
-      "options" : [ "/sfx/npc/smallbiped/bulbouseyehead_small_idle1.wav", "/sfx/npc/smallbiped/bulbouseyehead_small_idle2.wav", "/sfx/npc/smallbiped/bulbouseyehead_small_attack1.wav", "/sfx/npc/smallbiped/bulbouseyehead_small_attack2.wav" ]
+      "options" : [ "/sfx/npc/smallbiped/bulbouseyehead_small_idle1.ogg", "/sfx/npc/smallbiped/bulbouseyehead_small_idle2.ogg", "/sfx/npc/smallbiped/bulbouseyehead_small_attack1.ogg", "/sfx/npc/smallbiped/bulbouseyehead_small_attack2.ogg" ]
     },
         {
       "action" : "projectile",

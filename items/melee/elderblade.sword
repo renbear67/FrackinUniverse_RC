@@ -3,7 +3,7 @@
   "level" : 6,
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "rare",
+  "rarity" : "legendary",
   "description" : "Something is unsettling about these runes...",
   "shortdescription" : "Elder Blade",
   "tooltipKind" : "sword",
@@ -13,14 +13,14 @@
   "firePosition" : [22, -2],
   "fireTime" : 0.666,
   "fireAfterWindup" : true,
-  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_onehanded.wav" } ] },
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_onehanded.ogg" } ] },
 
   "primaryStances" : {
     "directional" : true,
     "projectileType" : "elderbladeswoosh",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 5.32
+      "power" : 4.2
     },
     "idle" : {
       "twoHanded" : false,

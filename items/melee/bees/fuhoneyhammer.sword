@@ -13,7 +13,7 @@
   "firePosition" : [15.5, 4.5],
   "fireTime" : 1.0,
   "fireAfterWindup" : true,
-  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_hammer.wav" } ] },
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_hammer.ogg" } ] },
 
   "colorOptions" : [
     /* GREY */
@@ -47,7 +47,7 @@
     "projectileType" : "hammerswoosh1",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 12
+      "power" : 9.12
     },
     "idle" : {
       "twoHanded" : false,

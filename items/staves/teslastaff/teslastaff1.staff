@@ -29,7 +29,7 @@
 
   "muzzleEffect" : {
     "fireSound" : [
-      { "file" : "/sfx/weapons/teslagun.wav" }
+      { "file" : "/sfx/weapons/teslagun.ogg" }
     ]
   },
 

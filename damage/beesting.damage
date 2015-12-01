@@ -53,7 +53,7 @@
     },
    "robotic" : {
       "hit" : {
-        "sounds" : [ "/sfx/projectiles/bugswarm1.wav" ],
+        "sounds" : [ "/sfx/projectiles/bugswarm1.ogg" ],
         "particles" : [
           [
 

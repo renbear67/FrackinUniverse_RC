@@ -204,6 +204,11 @@
   },
 
   "particleEmitters" : {
+    "damage" : {
+      "emissionRate" : 0.7,
+      "particles" : [
+      ]
+    },
     "deathPoof" : {
       "particles" : [
         {
@@ -243,7 +248,7 @@
 
   "sounds" : {
     "turnHostile" : [ ],
-    "deathPuff" : [ "/sfx/npc/smallbiped/spidermonkey_death.wav" ],
-    "attack" : [  "/sfx/npc/smallbiped/spidermonkey_idle1.wav" ]
+    "deathPuff" : [ "/sfx/npc/smallbiped/spidermonkey_death.ogg" ],
+    "attack" : [  "/sfx/npc/smallbiped/spidermonkey_idle1.ogg" ]
   }
 }

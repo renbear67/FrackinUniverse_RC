@@ -1,22 +1,46 @@
 {
   "name" : "hauntedforest",
   "friendlyName" : "Haunted Forest",
-  "spawnProfiles" : [
-    {
-      "groups" : [ "mediumsurface1" ],
-      "extraSpawns" : [ "forestbee", "greentip", "blueback", "birdcritter", "squirrelcritter", "snail", "sporelingcritter", "owlcritter", "blipcritter", "mousecritter", "fireflyspawner" ],
-      "monsterParameters" : {
-        "colors" : "forest"
+  "spawnProfile" : {
+    "groups" : [
+        {
+        "select" : 3,
+        "pool" : [ 
+          [ 0.1429, "wisper" ],     
+          [ 0.1429, "lilodon" ],
+          [ 0.1429, "capricoat" ],        
+          [ 0.1429, "skimbus" ],
+          [ 0.1429, "pulpin" ],         
+          [ 0.1429, "monopus" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : [
+          [ 0.4, "polarmoth" ],
+          [ 0.3, "orphanfly" ],
+          [ 0.3, "snowskater" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
+      },
+      {
+        "select" : 2,
+        "pool" : [
+          [ 1, "frozenowlcritter" ],
+          [ 1, "sealcritter" ],
+          [ 1, "icescabcritter" ],
+          [ 1, "dancercritter" ],
+          [ 1, "snowbcritter" ]
+        ]
       }
-    },
-    {
-      "groups" : [ "mediumsurface2" ],
-      "extraSpawns" : [ "forestbee", "blueback", "redwing", "birdcritter", "squirrelcritter", "snail", "sporelingcritter", "owlcritter", "blipcritter", "mousecritter", "fireflyspawner" ],
-      "monsterParameters" : {
-        "colors" : "forest"
-      }
+    ],
+    "monsterParameters" : {
+      "colors" : "arctic"
     }
-  ],
+  },
   "hueShiftOptions" : [-165, -70, -25, 0, 25, 70, 125, 165],
 
     "mainBlock" : "dirt",
@@ -200,7 +224,7 @@
           "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures",
         
           "type" : "microdungeon",
-          "microdungeons" : [ "terrainfeatures", "rockclimb","rocktunnel",  "toxicplains", "sandstone", "blockpile", "loops", "flats", "reversepyramids" ]
+          "microdungeons" : [ "terrainfeatures", "rockclimb","rocktunnel",  "toxicmicrodungeons", "sandstone", "blockpile", "loops", "flats", "reversepyramids" ]
         },
         {
           "mode" : "floor",
@@ -210,15 +234,6 @@
 
           "type" : "microdungeon",
           "microdungeons" : [ "newhumanmicro", "newavianmicro", "minigreenruins", "randomencounter", "fuencountercultist" ]
-        },
-        {
-          "mode" : "floor",
-          "priority" : 3.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:minibossoverground",
-
-          "type" : "microdungeon",
-          "microdungeons" : [ "minibossoverground" ]
         },
         {
           "mode" : "floor",

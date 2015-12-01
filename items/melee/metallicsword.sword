@@ -14,7 +14,7 @@
   "firePosition" : [27.5, 0],
   "fireTime" : 0.7,
   "fireAfterWindup" : true,
-  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_twohanded.wav" } ] },
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_broadsword.ogg" } ] },
 
 
   "primaryStances" : {
@@ -22,14 +22,13 @@
     "projectileType" : "electricbroadswordswoosh",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 5.85
+      "power" : 4.75
     },
     "idle" : {
       "twoHanded" : false,
       "armAngle" : -90,
       "swordAngle" : -90,
       "handPosition" : [-6.0, -28.0],
-      "armFrameOverride" : "idleMelee",
       "duration" : 0.1
     },
     "windup" : {

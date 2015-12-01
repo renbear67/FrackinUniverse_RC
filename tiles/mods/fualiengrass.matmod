@@ -2,7 +2,7 @@
   "modId" : 6715,
   "modName" : "fualiengrass",
   "Description" : "alien grass",
-  "footstepSound" : "/sfx/blocks/footstep_grass.wav",
+  "footstepSound" : "/sfx/blocks/footstep_grass.ogg",
   "grass" : true,
   "health" : 0,
 

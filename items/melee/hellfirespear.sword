@@ -11,16 +11,16 @@
   "kind" : "Spear",
   "image" : "hellfirespear.png",
   "firePosition" : [52.5, -7.0],
-  "fireTime" : 0.76,
+  "fireTime" : 0.665,
   "fireAfterWindup" : true,
-  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_twohanded.wav" } ] },
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_spear_fire1.ogg" } ] },
 
   "primaryStances" : {
     "directional" : true,
     "projectileType" : "hellfirespear",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 9.2
+      "power" : 6.2
     },
     "idle" : {
       "twoHanded" : false,

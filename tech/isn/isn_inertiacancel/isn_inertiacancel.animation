@@ -8,7 +8,7 @@
           },
           "on" : {
             "properties" : {
-              "persistentSound" : "/sfx/tech/tech_energycharge.wav"
+              "persistentSound" : "/sfx/tech/tech_energycharge.ogg"
             }
           }
         }
@@ -100,5 +100,5 @@
     }
   },
   
-  "sounds" : { "activate" : ["/sfx/tech/tech_blink3.wav"] }
+  "sounds" : { "activate" : ["/sfx/tech/tech_blink3.ogg"] }
 }

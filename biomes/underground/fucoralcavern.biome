@@ -2,17 +2,6 @@
   "name" : "fucoralcavern",
   "friendlyName" : "Coral Caverns",
 
-  "spawnProfiles" : [
-    {
-      "profiles" : [ "mediumunderground1" ],
-      "extraSpawns" : [ ]
-    },
-    {
-      "profiles" : [ "mediumunderground2" ],
-      "extraSpawns" : [ ]
-    }
-  ],
-
     "mainBlock" : "coral",
     "subBlocks" : [ "coral2", "oystershell", "rostone" ],
     "ores" : "ff_deepsurfacearborealOres",

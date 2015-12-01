@@ -2,36 +2,45 @@
   "name" : "irradiatedunderground",
   "friendlyName" : "Irradiated Cavern",
 
-  "spawnProfiles" : [
-    {
-      "groups" : [ "hardsurface2", "fu_irradiated" ],
-      "extraSpawns" : [ "fireflyspawner", "flameroach", "blipcritter", "bowbirdcritter", "hazmatcritter", "sackbagcritter", "toxiccrabcritter" ],
-      "monsterParameters" : {
-        "statusSettings" : {
-          "stats" : {
-            "biooozeImmunity" : {
-              "baseValue" : 1.0
-            },
-            "poisonImmunity" : {
-              "baseValue" : 1.0
-            },
-            "ffextremeradiationImmunity" : {
-              "baseValue" : 1.0
-            },            
-            "biomeradiationImmunity" : {
-              "baseValue" : 1.0
-            }
-          }
-        }
+    "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 3,
+        "pool" : [ 
+          [ 0.1111, "fuaviansentry" ],     
+          [ 0.1111, "fugiantbee" ],
+          [ 0.1111, "seedspawn2" ],        
+          [ 0.1111, "slime" ],
+          [ 0.1111, "pyromantle" ],     
+          [ 0.1111, "futoxicgolem" ],
+          [ 0.1111, "futoxicfly" ]
+        ]
+      },
+      {
+        "select" : 3,
+        "pool" : [
+          [ 0.4, "junglebee" ],
+          [ 0.3, "aridbee" ],
+          [ 0.3, "fireflyspawner" ],
+          [ 0.4, "junglebee" ],
+          [ 0.3, "aridbee" ],
+          [ 0.3, "fireflyspawner" ],
+          [ 0.4, "junglebee" ],
+          [ 0.3, "sackbagcritter" ],
+          [ 0.3, "hazmatcritter" ],
+          [ 0.4, "bowbirdcritter" ],
+          [ 0.3, "blipcritter" ],
+          [ 0.3, "toxiccrabcritter" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
       }
-    },
-    {
-      "groups" : [ "hardsurface1", "fu_irradiated" ],
-      "extraSpawns" : [ "fireflyspawner", "fireygiant", "blipcritter", "bowbirdcritter", "hazmatcritter", "sackbagcritter", "toxiccrabcritter" ],
-
-      "monsterParameters" : {
-        "statusSettings" : {
-          "stats" : {
+    ],
+    "monsterParameters" : {
+      "statusSettings" : {
+        "stats" : {
             "biooozeImmunity" : {
               "baseValue" : 1.0
             },
@@ -40,15 +49,14 @@
             },
             "ffextremeradiationImmunity" : {
               "baseValue" : 1.0
-            },            
+            },
             "biomeradiationImmunity" : {
               "baseValue" : 1.0
             }
-          }
         }
       }
     }
-  ],
+  },
 
     "mainBlock" : "irradiatedtile",
     "subBlocks" : [ "irradiatedtile2", "irradiatedtile3" ],

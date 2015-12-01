@@ -15,7 +15,7 @@
   "actionOnReap" : [
     {
       "action" : "sound",
-      "options" : [ "/sfx/projectiles/bubble_pop.wav" ]
+      "options" : [ "/sfx/projectiles/bubble_pop.ogg" ]
     }
   ]
 }

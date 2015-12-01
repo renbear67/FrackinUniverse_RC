@@ -51,7 +51,7 @@
     }
   ],
 
-  "sounds" : [ "/sfx/objects/toilet_flush.wav" ],
+  "sounds" : [ "/sfx/objects/toilet_flush.ogg" ],
   "objectType" : "loungeable",
   "interactAction" : "sitdown",
   "sitEmote" : "annoyed",

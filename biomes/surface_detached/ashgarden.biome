@@ -3,16 +3,31 @@
   "friendlyName" : "Ash Garden",
 
   "hueShiftOptions" : [-165, -70, -25, 0, 25, 70, 165],
-  "spawnProfiles" : [
-    {
-      "groups" : [ "mediumsurface1" ],
-      "extraSpawns" : [ ]
-    },
-    {
-      "groups" : [ "mediumsurface2" ],
-      "extraSpawns" : [ ]
-    }
-  ],
+    "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 2,
+        "pool" : [ 
+          [ 0.1111, "tintix" ],     
+          [ 0.1111, "triplod" ],
+          [ 0.1111, "scandroid" ],        
+          [ 0.1111, "bobot" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : [
+          [ 0.4, "dustmoth" ],
+          [ 0.3, "fudrone" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
+      }
+    ]
+  },
+  
     "mainBlock" : "ash",
     "subBlocks" : [ "ash" ],
     "ores" : "surfaceOres",

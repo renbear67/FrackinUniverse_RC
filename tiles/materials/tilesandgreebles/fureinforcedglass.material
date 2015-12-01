@@ -5,7 +5,7 @@
   "itemDrop" : "fureinforcedglass",
   "description" : "Glass reinforced with durasteel wire.",
   "shortdescription" : "Plasteel Reinforced Glass",
-  "footstepSound" : "/sfx/blocks/footstep_glass.wav",
+  "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
   "health" : 3,
   "category": "materials",
   

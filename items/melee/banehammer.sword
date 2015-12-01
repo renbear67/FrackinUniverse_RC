@@ -14,14 +14,14 @@
   "firePosition" : [8, 2],
   "fireTime" : 1.12,
   "fireAfterWindup" : true,
-  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_twohanded.wav" } ] },
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_hammer_poison1.ogg" } ] },
 
 
   "primaryStances" : {
     "projectileType" : "particleswoosh2",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 14
+      "power" : 8
     },
     "idle" : {
       "twoHanded" : false,

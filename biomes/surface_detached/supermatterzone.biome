@@ -7,17 +7,48 @@
     "subBlocks" : [ "purplecrystal" ],
     "ores" : "ff_crystalmoonOres",
 
-  "spawnProfiles" : [
-    {
-      "groups" : [ "hardsurface1" ],
-      "extraSpawns" : [ "xenofly","snowskater", "fusnowball", "bouncercritter", "reasonablecritter", "snooglecritter" ]
-    },
-    {
-      "groups" : [ "hardsurface2" ],
-      "extraSpawns" : [ "xenofly","snowskater", "fusnowball", "bouncercritter", "reasonablecritter", "snooglecritter" ]
-
+      "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 2,
+        "pool" : [ 
+          [ 0.1111, "lumoth" ],     
+          [ 0.1111, "narfin" ],
+          [ 0.1111, "voltip" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : [
+          [ 0.1, "normalbee" ],
+          [ 0.1, "stinkjack" ],
+          [ 0.1, "fireflyspawner" ],
+		  [ 0.1, "goldbuck" ],
+		  [ 0.1, "scuttleploom" ],
+		  [ 0.1, "frog" ],
+		  [ 0.1, "harecritter" ],
+		  [ 0.1, "owlcritter" ],
+		  [ 0.1, "tritrotscritter" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
+      }
+    ],
+    "monsterParameters" : {
+      "statusSettings" : {
+        "stats" : {
+          "ffextremeradiationImmunity" : {
+            "baseValue" : 1.0
+          },
+          "ffextremecoldImmunity" : {
+            "baseValue" : 1.0
+          }		  
+        }
+      }
     }
-  ],
+  },
 
   "surfacePlaceables" : {
     "grassMod" : [ "purplecrystalgrass" ],
@@ -103,15 +134,7 @@
             }
           ]
         },
-        {
-          "mode" : "floor",
-          "priority" : 3.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:minibossoverground",
 
-          "type" : "microdungeon",
-          "microdungeons" : [ "minibossoverground" ]
-        },
         {
           "mode" : "floor",
           "priority" : 3.0,
@@ -119,7 +142,7 @@
           "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "canyonmini", "terrainfeatures", "rockclimb","rocktunnel",  "toxicplains", "sandstone", "blockpile", "loops", "flats", "reversepyramids" ]
+          "microdungeons" : [ "canyonmini", "terrainfeatures", "rockclimb","rocktunnel",  "toxicmicrodungeons", "sandstone", "blockpile", "loops", "flats", "reversepyramids" ]
         },
         {
           "mode" : "floor",
@@ -138,16 +161,7 @@
 
           "type" : "treasureBox",
           "treasureBoxSets" : [ "crystalChest" ]
-        },
-        {
-          "mode" : "floor",
-          "priority" : 3.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:minibossoverground",
-
-          "type" : "microdungeon",
-          "microdungeons" : [ "minibossoverground" ]
-        },        
+        },      
         {
           "mode" : "floor",
           "priority" : 3.0,

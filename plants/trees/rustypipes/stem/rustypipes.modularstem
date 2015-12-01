@@ -11,12 +11,12 @@
     ],
     "sounds" : {
       "breakTree" : [
-        { "file" : "/sfx/environmental/tree_metal_breaking.wav" },
-        { "file" : "/sfx/environmental/tree_metal_breaking_alt.wav" }
+        { "file" : "/sfx/environmental/tree_metal_breaking.ogg" },
+        { "file" : "/sfx/environmental/tree_metal_breaking_alt.ogg" }
       ],
       "hitGround" : [
-        { "file" : "/sfx/environmental/tree_metal_hitground.wav" },
-        { "file" : "/sfx/environmental/tree_metal_hitground2.wav" }
+        { "file" : "/sfx/environmental/tree_metal_hitground.ogg" },
+        { "file" : "/sfx/environmental/tree_metal_hitground2.ogg" }
       ]
     },
     "particles" : {

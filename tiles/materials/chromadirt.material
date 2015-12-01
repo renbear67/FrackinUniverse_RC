@@ -5,7 +5,7 @@
   "itemDrop" : "chromadirtmaterial",
   "description" : "Pure, untarnished soil.",
   "shortdescription" : "Chromatic Dirt",
-  "footstepSound" : "/sfx/blocks/footstep_dirt.wav",
+  "footstepSound" : "/sfx/blocks/footstep_dirt.ogg",
   "tillableMod" : 31,
   "soil" : true,
   "health" : 2,

@@ -1,22 +1,43 @@
 {
   "name" : "bloodgulch",
   "friendlyName" : "Blood Gulch",
-   "spawnProfiles" : [
-    {
-      "groups" : [ "mediumsurface1", "fu_thickjungle" ],
-      "extraSpawns" : [ "dustmoth", "sunskipper", "goldbuck", "fuscorpion", "deserttortoisecritter", "vulturecritter"  ],
-      "monsterParameters" : {
-        "colors" : "desert"
-      }    
-    },
-    {
-      "groups" : [ "mediumsurface2", "fu_thickjungle" ],
-      "extraSpawns" : [ "dustmoth", "sunskipper", "goldbuck", "fuscorpion", "deserttortoisecritter", "vulturecritter"  ],
-      "monsterParameters" : {
-        "colors" : "desert"
+    "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 2,
+        "pool" : [ 
+          [ 0.1111, "fubloodgolem" ],     
+          [ 0.1111, "headcrab" ],
+          [ 0.1111, "fleshleech" ],        
+          [ 0.1111, "batong" ],
+          [ 0.1111, "nautileech" ],     
+          [ 0.1111, "squeem" ],
+          [ 0.1111, "hemogoblin" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : [
+          [ 0.4, "fawnfly" ],
+          [ 0.3, "brightstripe" ],
+          [ 0.3, "bloodtoadcritter" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
+      }
+    ],
+    "monsterParameters" : {
+      "statusSettings" : {
+        "stats" : {
+          "poisonImmunity" : {
+            "baseValue" : 1.0
+          }
+        }
       }
     }
-  ],   
+  }, 
   "hueShiftOptions" : [-165, -70, -25, 0, 25, 70, 165],
 
     "mainBlock" : "bonemeal",
@@ -51,15 +72,6 @@
         },
         {
           "mode" : "floor",
-          "priority" : 3.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:minibossoverground",
-
-          "type" : "microdungeon",
-          "microdungeons" : [ "minibossoverground" ]
-        },
-        {
-          "mode" : "floor",
           "priority" : 1.0,
           "variants" : 1,
           "distribution" : "/biomes/distributions.config:overgroundChests",
@@ -88,7 +100,7 @@
           "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "terrainfeatures", "rockclimb","rocktunnel",  "toxicplains", "sandstone", "blockpile", "rockyshapes", "rods", "spikes" ]
+          "microdungeons" : [ "terrainfeatures", "rockclimb","rocktunnel",  "toxicmicrodungeons", "sandstone", "blockpile", "rockyshapes", "rods", "spikes" ]
         },
         {
           "mode" : "floor",

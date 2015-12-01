@@ -15,7 +15,7 @@
 		"/objects/isn_sharedobjectscripts.lua"],
   "scriptDelta" : 1,
   
-  "openSounds" : [ "/sfx/objects/campfire_use.wav" ],
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 15,
   "uiConfig" : "/objects/power/fu_blastfurnace/fu_blastfurnace.config",
   "frameCooldown" : 67,

@@ -2,7 +2,6 @@
   "itemName" : "liquidironfu",
   "rarity" : "Uncommon",
   "inventoryIcon" : "liquidironicon.png",
-  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
   "shortdescription" : "Liquid Iron",
   "description" : "This is both useful, and somewhat warm.",
 

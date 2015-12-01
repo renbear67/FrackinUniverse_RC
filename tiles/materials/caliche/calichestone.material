@@ -5,7 +5,7 @@
   "itemDrop" : "calichewall",
   "description" : "A rich source of Saltpeter.",
   "shortdescription" : "Caliche Stone",
-  "footstepSound" : "/sfx/blocks/footstep_stone2.wav",
+  "footstepSound" : "/sfx/blocks/footstep_stone2.ogg",
   "health" : 10,
   "category": "materials",
 

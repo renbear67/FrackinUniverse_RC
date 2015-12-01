@@ -1,7 +1,7 @@
 {
   "name" : "starspawnSwarmAttack",
   "label" : "RAVENOUS SWARM",
-  "image" : "/monsters/flying/skills/default.png",
+  "image" : "/monsters/generated/skills/defaultphysical.png",
 
   "parameters" : {
     "starspawnSwarmAttack" : {
@@ -18,7 +18,7 @@
 
   "animationParameters" : {
     "sounds" : {
-      "rangedAttack" : [ "/sfx/starspawn/attack2.wav" ]
+      "rangedAttack" : [ "/sfx/starspawn/attack2.ogg" ]
     }
   }
 }

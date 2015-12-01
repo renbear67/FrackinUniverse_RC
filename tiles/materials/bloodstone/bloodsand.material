@@ -5,7 +5,7 @@
   "itemDrop" : "bloodsandmaterial",
   "description" : "As red as your insides.",
   "shortdescription" : "Blood Sand",
-  "footstepSound" : "/sfx/blocks/footstep_sand.wav",
+  "footstepSound" : "/sfx/blocks/footstep_sand.ogg",
   "health" : 6,
   "soil" : true,
   "damageTable" : "/tiles/flammableDamage.config",

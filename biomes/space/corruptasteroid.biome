@@ -2,8 +2,6 @@
   "name" : "corruptasteroid",
   "friendlyName" : "corruptasteroid",
 
-  "spawnProfiles" : [ ],
-
   "mainBlock" : "corruptslime",
   "subBlocks" : [ "meteoriterock" ],
 

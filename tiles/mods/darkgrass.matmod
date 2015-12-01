@@ -2,7 +2,7 @@
   "modId" : 6710,
   "modName" : "darkgrass",
   "Description" : "strange solid-darkness grass...",
-  "footstepSound" : "/sfx/blocks/footstep_stone2.wav",
+  "footstepSound" : "/sfx/blocks/footstep_stone2.ogg",
   "grass" : true,
   "health" : 0,
 

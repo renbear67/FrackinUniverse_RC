@@ -2,33 +2,38 @@
   "name" : "infernusunderground",
   "friendlyName" : "Scorching Caverns",
 
-    "spawnProfiles" : [
-    {
-      "groups" : [ "hardsurface2", "fu_ash" ],
-      "extraSpawns" : [ "flameroach", "lavahopper", "fufireball" ],
-      "monsterParameters" : {
-        "statusSettings" : {
-          "stats" : {
-            "lavaImmunity" : {
-              "baseValue" : 1.0
-            },
-            "fireImmunity" : {
-              "baseValue" : 1.0
-            },
-            "ffextremeheatImmunity" : {
-              "baseValue" : 1.0
-            }
-          }
-        }
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 2,
+        "pool" : [ 
+          [ 0.1111, "magmagolem" ],     
+          [ 0.1111, "fuashgolem" ],
+          [ 0.1111, "crabcano" ],        
+          [ 0.1111, "ignome" ],
+          [ 0.1111, "pyromantle" ],     
+          [ 0.1111, "smoglin" ],
+          [ 0.1111, "scandroid" ],
+          [ 0.1111, "peblit" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : [
+          [ 0.4, "flameroach" ],
+          [ 0.3, "lavahopper" ],
+          [ 0.3, "fireygiant" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
       }
-    },
-    {
-      "groups" : [ "hardsurface1", "fu_ash" ],
-      "extraSpawns" : [ "flameroach", "fireygiant", "fufireball" ],
-      "monsterParameters" : {
-        "statusSettings" : {
-
-          "stats" : {
+    ],
+    "monsterParameters" : {
+	  "colors" : "ice",
+      "statusSettings" : {
+        "stats" : {
             "lavaImmunity" : {
               "baseValue" : 1.0
             },
@@ -38,11 +43,10 @@
             "ffextremeheatImmunity" : {
               "baseValue" : 1.0
             }
-          }
         }
       }
     }
-  ],
+  },
 
     "mainBlock" : "magmatile4",
     "subBlocks" : [ "obsidian", "blaststone", "magmatile1", "magmatile2", "magmatile3" ],

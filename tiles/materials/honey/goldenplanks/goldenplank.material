@@ -6,7 +6,7 @@
   "itemDrop" : "goldenplank",
   "description" : "Golden wood planks.",
   "shortdescription" : "Golden Plank",
-  "footstepSound" : "/sfx/blocks/footstep_wood.wav",
+  "footstepSound" : "/sfx/blocks/footstep_wood.ogg",
   "health" : 6,
   "damageTable" : "/tiles/flammableDamage.config",
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",

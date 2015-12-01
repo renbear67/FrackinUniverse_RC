@@ -3,7 +3,7 @@
   "level" : 7,
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "rare",
+  "rarity" : "legendary",
   "description" : "A deadly weapon of abhorrent design.",
   "shortdescription" : "Elder Spear",
   "inspectionKind" : "sword",
@@ -13,14 +13,14 @@
   "firePosition" : [52.5, -7.0],
   "fireTime" : 0.86,
   "fireAfterWindup" : true,
-  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_twohanded.wav" } ] },
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_spear.ogg" } ] },
 
   "primaryStances" : {
     "directional" : true,
     "projectileType" : "spearswoosh1",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 10
+      "power" : 6
     },
     "idle" : {
       "twoHanded" : false,

@@ -25,7 +25,7 @@
 
   "smashable" : true,
   "smashOnBreak" : false,
-  "smashSounds" : [ "/sfx/gun/grenadeblast1.wav", "/sfx/gun/grenadeblast2.wav", "/sfx/gun/grenadeblast3.wav" ],
+  "smashSounds" : [ "/sfx/gun/grenadeblast1.ogg", "/sfx/gun/grenadeblast2.ogg", "/sfx/gun/grenadeblast3.ogg" ],
   "smashDropPool" : "empty",
   
   "scripts" : [

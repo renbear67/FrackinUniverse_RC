@@ -6,7 +6,7 @@
   "firePosition" : [15.5, 4.5],
   "fireAfterWindup" : true,
   "muzzleFlashes" : [ ],
-  "soundEffect" : [ "/sfx/weapons/sabre1.wav","/sfx/weapons/sabre2.wav","/sfx/weapons/sabre3.wav","/sfx/weapons/sabre4.wav","/sfx/weapons/sabre5.wav" ],
+  "soundEffect" : [ "/sfx/weapons/sabre1.ogg","/sfx/weapons/sabre2.ogg","/sfx/weapons/sabre3.ogg","/sfx/weapons/sabre4.ogg","/sfx/weapons/sabre5.ogg" ],
   "kind" : "lightsaber",
   "tooltipKind" : "sword",
 
@@ -41,7 +41,7 @@
     }
   },
   "parryBlockCooldown" : 1.2,
-  "parrySound" : "/sfx/melee/sword_parry.wav",
+  "parrySound" : "/sfx/melee/sword_parry.ogg",
   "parryParticle" : "shieldspark",
 
   "altStances" : {

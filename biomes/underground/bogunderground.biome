@@ -2,18 +2,50 @@
   "name" : "bogunderground",
   "friendlyName" : "Bog Caverns",
 
-  "spawnProfiles" : [
-    {
-      "groups" : [ "mediumsurface1", "fu_bog" ],
-      "extraSpawns" : [ "fireflyspawner", "muddancer", "mudstag", "shardwing", "funewt", "mousecritter", "owlcritter", "squeekcritter", "tinycrocodilecritter" ]
-    },
-    {
-      "groups" : [ "mediumsurface2", "fu_bog" ],
-      "extraSpawns" : [ "fireflyspawner", "muddancer", "mudstag", "shardwing","funewt", "mousecritter", "owlcritter", "squeekcritter", "tinycrocodilecritter" ]
-
+      "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 3,
+        "pool" : [ 
+          [ 0.1111, "furatthing" ],     
+          [ 0.1111, "fucaterpillar" ],
+          [ 0.1111, "seedspawn" ],        
+          [ 0.1111, "snaunt" ],
+          [ 0.1111, "batong" ],     
+          [ 0.1111, "toumingo" ],
+          [ 0.1111, "quagmutt" ],
+		  [ 0.1111, "bobfae" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : [
+          [ 0.1, "normalbee" ],
+          [ 0.1, "fireflyspawner" ],
+          [ 0.1, "muddancer" ],
+		  [ 0.1, "mudstag" ],
+		  [ 0.1, "funewt" ],
+		  [ 0.1, "mousecritter" ],
+		  [ 0.1, "owlcritter" ],
+		  [ 0.1, "squeekcritter" ],
+		  [ 0.1, "tinycrocodilecritter" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
+      }
+    ],
+    "monsterParameters" : {
+      "statusSettings" : {
+        "stats" : {
+          "poisonImmunity" : {
+            "baseValue" : 1.0
+          }
+        }
+      }
     }
-  ],
-
+  },
     "mainBlock" : "clay",
     "subBlocks" : [ "mud", "grassyrock", "swampdirtff" ],
     "ores" : "ff_deepsurfacebogOres",

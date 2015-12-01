@@ -1,16 +1,29 @@
 {
   "name" : "cellfield",
   "friendlyName" : "Cellular Expanse",
-  "spawnProfiles" : [
-    {
-      "groups" : [ "mediumsurface1", "fu_bog" ],
-      "extraSpawns" : [ "fireflyspawner", "muddancer", "mudstag", "shardwing", "funewt", "mousecritter", "owlcritter", "squeekcritter", "tinycrocodilecritter" ]
-    },
-    {
-      "groups" : [ "mediumsurface2", "fu_bog" ],
-      "extraSpawns" : [ "fireflyspawner", "muddancer", "mudstag", "shardwing","funewt", "mousecritter", "owlcritter", "squeekcritter", "tinycrocodilecritter" ]
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 1,
+        "pool" : [ 
+          [ 1.0, "taroni" ]
+        ]
+      },
+      {
+        "select" : 3,
+        "pool" : [
+          [ 0.20, "bowbirdcritter" ],
+          [ 0.20, "sluggreencritter" ],
+          [ 0.20, "slugbluecritter" ],
+          [ 0.20, "slugcritter" ],
+          [ 0.20, "leafscabcritter" ]
+        ]
+      }
+    ],
+    "monsterParameters" : {
+      "colors" : "desert"
     }
-  ],
+  },
   "hueShiftOptions" : [-165, -70, -25, 0, 25, 70, 165],
 
     "mainBlock" : "fleshblock",
@@ -22,15 +35,6 @@
     "grassModDensity" : 0.9,
 
     "items" : [
-        {
-          "mode" : "floor",
-          "priority" : 3.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:minibossoverground",
-
-          "type" : "microdungeon",
-          "microdungeons" : [ "minibossoverground" ]
-        },
         {
           "mode" : "floor",
           "priority" : 1.0,
@@ -99,7 +103,7 @@
           "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "terrainfeatures", "rockclimb","rocktunnel",  "toxicplains", "sandstone", "blockpile", "rockyshapes", "rods", "spikes" ]
+          "microdungeons" : [ "terrainfeatures", "rockclimb","rocktunnel",  "toxicmicrodungeons", "sandstone", "blockpile", "rockyshapes", "rods", "spikes" ]
         },
         
         {
@@ -118,15 +122,6 @@
     "grassModDensity" : 0.9,
 
     "items" : [
-        {
-          "mode" : "floor",
-          "priority" : 3.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:minibossoverground",
-
-          "type" : "microdungeon",
-          "microdungeons" : [ "minibossoverground" ]
-        },
         {
           "mode" : "floor",
           "priority" : 1.0,
@@ -157,7 +152,7 @@
           "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "terrainfeatures", "rockclimb","rocktunnel",  "toxicplains", "sandstone", "blockpile", "rockyshapes", "rods", "spikes" ]
+          "microdungeons" : [ "terrainfeatures", "rockclimb","rocktunnel",  "toxicmicrodungeons", "sandstone", "blockpile", "rockyshapes", "rods", "spikes" ]
         },
    
         {

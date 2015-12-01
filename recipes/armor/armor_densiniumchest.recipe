@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "densiniumplate", "count" : 4 },
     { "item" : "ff_diamondplating", "count" : 4 },
-    { "item" : "ff_silicon", "count" : 9 },
+    { "item" : "staticcell", "count" : 8 },
     { "item" : "fuprocessor", "count" : 2 }
   ],
   "output" : {

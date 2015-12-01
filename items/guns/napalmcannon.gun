@@ -27,6 +27,6 @@
   },
   
   "muzzleEffect" : {
-       "fireSound" : [ { "file" : "/sfx/projectiles/flame_burn.wav" } ]
+       "fireSound" : [ { "file" : "/sfx/projectiles/flame_burn.ogg" } ]
   } 
 }

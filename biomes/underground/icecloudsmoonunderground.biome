@@ -2,17 +2,6 @@
   "name" : "icecloudsmoonunderground",
   "friendlyName" : "Ice Moon Ice Clouds",
 
-  "spawnProfiles" : [
-    {
-      "profiles" : [ "mediumunderground1" ],
-      "extraSpawns" : [ ]
-    },
-    {
-      "profiles" : [ "mediumunderground2" ],
-      "extraSpawns" : [ ]
-    }
-  ],
-
   "skyOptions" : [],
   
   "mainBlock" : "iceblock2",

@@ -3,35 +3,35 @@
   "friendlyName" : "tar ball",
 
   "requiredStatuses" : [],
-  "spawnProfiles" : [
-    {
-      "groups" : [ "hardsurface2", "fu_tar" ],
-      "extraSpawns" : [ "fuoildrip" ],
-      "monsterParameters" : {
-        "statusSettings" : {
-          "stats" : {
-            "lavaImmunity" : {
-              "baseValue" : 1.0
-            },
-            "blacktarimmunityImmunity" : {
-              "baseValue" : 1.0
-            },
-            "fireImmunity" : {
-              "baseValue" : 1.0
-            },
-            "ffextremeheatImmunity" : {
-              "baseValue" : 1.0
-            }
-          }
-        }
+  
+  
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 2,
+        "pool" : [ 
+          [ 0.1111, "orbide" ],     
+          [ 0.1111, "petricub" ],
+          [ 0.1111, "quagmutt" ],        
+          [ 0.1111, "smoglin" ],
+          [ 0.1111, "taroni" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : [
+          [ 0.4, "fuoildrip" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
       }
-    },
-    {
-      "groups" : [ "hardsurface1", "fu_tar" ],
-      "extraSpawns" : [ "fuoildrip" ],
-      "monsterParameters" : {
-        "statusSettings" : {
-          "stats" : {
+    ],
+    "monsterParameters" : {
+      "colors" : "magma",
+      "statusSettings" : {
+        "stats" : {
             "lavaImmunity" : {
               "baseValue" : 1.0
             },
@@ -44,12 +44,10 @@
             "ffextremeheatImmunity" : {
               "baseValue" : 1.0
             }
-          }
         }
       }
     }
-  ],
-
+  },
   
   "hueShiftOptions" : [-220, -110, -55, -23, 0, 23, 55, 110, 220],
   
@@ -212,15 +210,6 @@
             }
           ]
         },         
-        {
-          "mode" : "floor",
-          "priority" : 3.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:minibossoverground",
-
-          "type" : "microdungeon",
-          "microdungeons" : [ "minibossoverground" ]
-        },
         {
           "mode" : "floor",
           "priority" : 2.0,

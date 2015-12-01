@@ -4,32 +4,31 @@
   "statusEffects" : [ "biomecold"],
   "airless" : true,
   "breathable" : false,
-  "spawnProfiles" : [
-    {
-      "groups" : [ "oceansurface1", "fu_nitrogensea", "fu_frosty" ],
-      "extraSpawns" : [ "symbiotecritter" ],
-      "monsterParameters" : {
-        "statusSettings" : {
-          "stats" : {
-            "ffextremecoldImmunity" : {
-              "baseValue" : 1.0
-            },
-            "biomecoldImmunity" : {
-              "baseValue" : 1.0
-            },
-            "nitrogenfreezeImmunity" : {
-              "baseValue" : 1.0
-            }
-          }
-        }
+  
+  
+    "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 1,
+        "pool" : [ 
+          [ 0.1111, "icetroll" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : [
+          [ 0.4, "symbiotecritter" ]
+        ]
+      },
+      {
+        "select" : 3,
+        "pool" : "generatedGround"
       }
-    },
-    {
-      "groups" : [ "oceansurface2", "fu_nitrogensea", "fu_frosty" ],
-      "extraSpawns" : [ "symbiotecritter" ],
-      "monsterParameters" : {
-        "statusSettings" : {
-          "stats" : {
+    ],
+    "monsterParameters" : {
+      "colors" : "magma",
+      "statusSettings" : {
+        "stats" : {
             "ffextremecoldImmunity" : {
               "baseValue" : 1.0
             },
@@ -39,11 +38,10 @@
             "nitrogenfreezeImmunity" : {
               "baseValue" : 1.0
             }
-          }
         }
       }
     }
-  ],
+  },
 
   //"hueShiftOptions" : [ -120, -75, -55, -25, 0, 25, 55, 75, 120],
   "hueShiftOptions" : [ 0 ],

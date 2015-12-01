@@ -31,7 +31,7 @@
   },
   "animationPosition" : [0, 0],
   "recipeGroup" : "beetrap",
-  "openSounds" : [ "/sfx/objects/florancrate_open.wav" ],
+  "openSounds" : [ "/sfx/objects/florancrate_open.ogg" ],
   "scripts" : [ "/objects/alveary/normalalveary.lua" ],
   "scriptDelta" : 140,
   "slotCount" : 40,

@@ -7,7 +7,7 @@
   "shortdescription" : "Crystal Block",
   "glitchDescription" : "Admiration. A beautiful purple crystal.",
   "floranDescription" : "Pretty cryssstal.",
-  "footstepSound" : "/sfx/blocks/footstep_crystal.wav",
+  "footstepSound" : "/sfx/blocks/footstep_crystal.ogg",
   "health" : 12,
   "category": "materials",
 

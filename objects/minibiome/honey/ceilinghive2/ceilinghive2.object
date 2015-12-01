@@ -42,7 +42,7 @@
   ],
   
   "smashable" : true,
-  "smashSounds" : [ "/sfx/blocks/water_swim.wav" ],
+  "smashSounds" : [ "/sfx/blocks/water_swim.ogg" ],
   "smashDropOptions" : [
     [ [ "fu_liquidhoney", 1, { } ], [ "fu_liquidhoney", 1, { } ], [ "fu_liquidhoney", 1, { } ] ]
   ]

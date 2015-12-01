@@ -20,7 +20,7 @@
   "hands" : [2, 2],
   "muzzleEffect" : {
     "animation" : "/animations/muzzleflash/electromuzzle/electromuzzle.animation",
-    "fireSound" : [ { "file" : "/sfx/weapons/irradiumrifle.wav" } ]
+    "fireSound" : [ { "file" : "/sfx/weapons/irradiumrifle.ogg" } ]
   },
   
   "projectileType" : "lobbershot",

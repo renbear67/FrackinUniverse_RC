@@ -5,7 +5,7 @@
   "itemDrop" : "sulphurstonematerial",
   "description" : "Jam-packed with goodness.",
   "shortdescription" : "Sulphuric Stone",
-  "footstepSound" : "/sfx/blocks/footstep_stone2.wav",
+  "footstepSound" : "/sfx/blocks/footstep_stone2.ogg",
   "health" : 11,
   "category": "materials",
 

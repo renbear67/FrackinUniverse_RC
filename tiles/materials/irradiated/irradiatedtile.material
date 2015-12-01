@@ -5,7 +5,7 @@
   "itemDrop" : "irradiatedwall",
   "description" : "Probably less than fantastic as a farming soil.",
   "shortdescription" : "Radioactive Soil",
-  "footstepSound" : "/sfx/blocks/footstep_stone2.wav",
+  "footstepSound" : "/sfx/blocks/footstep_stone2.ogg",
   "health" : 10,
   "soil" : true,
   "category": "materials",

@@ -43,7 +43,7 @@
                 "/scripts/npcToyObject.lua" ],
   "scriptDelta" : 5,
   "recipeGroup" : "xenostation",
-  "openSounds" : [ "/sfx/objects/locker_open.wav" ],
+  "openSounds" : [ "/sfx/objects/locker_open.ogg" ],
   "slotCount" : 12,
   "uiConfig" : "/interface/xenolab/xenolab.config",
   "frameCooldown" : 67,

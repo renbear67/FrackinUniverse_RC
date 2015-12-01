@@ -20,7 +20,7 @@
   "projectileType" : "elderburst",
   "projectile" : { "speed" : 55, "power" : 3.2 , "color" : [0, 0, 0] },
   "muzzleEffect" : {
-       "fireSound" : [ { "file" : "/sfx/weapons/eldercarbine.wav" } ],
+       "fireSound" : [ { "file" : "/sfx/weapons/eldercarbine.ogg" } ],
        "animation" :  "/animations/muzzleflash/plasmamuzzle4green/plasmamuzzle4green.animation"
 	   }   
 }

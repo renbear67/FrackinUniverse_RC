@@ -34,7 +34,7 @@ function update(args)
 	
 	if not self.active and activate and world.resolvePolyCollision(bounceCollisionPoly, mcontroller.position(), 1)
 	and tech.consumeTechEnergy(energyUsageRate * args.dt) then
-		status.setPersistentEffects("bounceTech", {{stat = "fallDamageMultiplier", basePercentage = -1}})
+		status.setPersistentEffects("bounceTech", {{stat = "fallDamageMultiplier", baseMultiplier = -2}})
 		self.active = true
 		tech.setAnimationState("bouncing", "on")
 		tech.playSound("activate")

@@ -19,7 +19,7 @@
     "walkWhileFiring" : false,
     "rateOfFire" : [2, 7],
     "muzzleEffect" : {
-      "fireSound" : [ { "file" : "/sfx/tech/tech_blink3.wav" } ],
+      "fireSound" : [ { "file" : "/sfx/tech/tech_blink3.ogg" } ],
       "animation" : "/animations/protomuzzle/protomuzzle.animation"
     },
     "fireOnRelease" : false,

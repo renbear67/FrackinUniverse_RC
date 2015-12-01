@@ -20,8 +20,8 @@
   "scripts" : [ "/objects/power/isn_incinerator/isn_incinerator.lua" ],
   "scriptDelta" : 10,
   
-  "openSounds" : [ "/sfx/objects/chest_small_open.wav" ],
-  "closeSounds" : [ "/sfx/objects/chest_small_close.wav" ],
+  "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
   "slotCount" : 1,
   "uiConfig" : "/objects/power/isn_incinerator/isn_incinerator.config",
   "frameCooldown" : 67,

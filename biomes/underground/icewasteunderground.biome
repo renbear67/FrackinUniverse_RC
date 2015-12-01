@@ -2,22 +2,36 @@
   "name" : "icewasteunderground",
   "friendlyName" : "Nitrogen Cavern",
 
-  "spawnProfiles" : [
-    {
-      "groups" : [ ],
-      "extraSpawns" : [ "fusnowball" ],
-      "monsterParameters" : {
-        "colors" : "ice"
-      }      
-    },
-    {
-      "groups" : [  ],
-      "extraSpawns" : [ "fusnowball" ],
-      "monsterParameters" : {
-        "colors" : "ice"
-      }      
+    "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 3,
+        "pool" : [
+          [ 0.4, "fu_frosty" ],
+          [ 0.3, "fusnowball" ],
+          [ 0.3, "arcticbee" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
+      }
+    ],
+    "monsterParameters" : {
+	  "colors" : "ice",
+      "statusSettings" : {
+        "stats" : {
+          "iceslipImmunity" : {
+            "baseValue" : 1.0
+          },
+          "snowslowImmunity" : {
+            "baseValue" : 1.0
+          }
+        }
+      }
     }
-  ],
+  },
+  
   "skyOptions" : [],
   
     "mainBlock" : "iceblock2",

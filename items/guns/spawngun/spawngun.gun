@@ -13,7 +13,7 @@
   "twoHanded" : true,
   "level" : 1,
     "muzzleEffect" : {
-      "fireSound" : [ { "file" : "/sfx/projectiles/goo_spit1.wav" } ]
+      "fireSound" : [ { "file" : "/sfx/projectiles/goo_spit1.ogg" } ]
     },
   "projectileType" : "spawnegg",
   "projectile" : {

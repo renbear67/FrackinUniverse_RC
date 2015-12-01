@@ -13,7 +13,7 @@
   "firePosition" : [22, -2],
   "fireTime" : 0.4,
   "fireAfterWindup" : true,
-  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_onehanded.wav" } ] },
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_shortsword.ogg" } ] },
 
   "colorOptions" : [
     /* GREY */
@@ -46,14 +46,13 @@
     "projectileType" : "poisonshortsword",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 5
+      "power" : 3
     },
     "idle" : {
       "twoHanded" : false,
       "armAngle" : -90,
       "swordAngle" : -90,
       "handPosition" : [-4.0, -15.5],
-      "armFrameOverride" : "idleMelee",
       "duration" : 0.1
     },
     "windup" : {

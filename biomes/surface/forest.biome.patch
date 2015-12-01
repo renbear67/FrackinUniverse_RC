@@ -1,6 +1,20 @@
 [
-{"op":"add","path":"/spawnProfiles/0","value":{ "extraSpawns":["greentip","blueback","forestbee", "nocturnalbee", "normalbee"]}},
-{"op":"add","path":"/spawnProfiles/1","value":{ "extraSpawns":["redwing","forestbee", "nocturnalbee", "normalbee"]}},
+
+{"op":"add","path":"/spawnProfile/groups/-",
+"value":{ 
+      
+        "select" : 6,
+        "pool" : [ 
+          [ 0.111, "greentip" ],          
+          [ 0.111, "blueback" ],
+          [ 0.111, "forestbee" ],
+          [ 0.111, "nocturnalbee" ],
+          [ 0.111, "normalbee" ],
+          [ 0.111, "redwing" ]
+        ]
+      }
+},
+
 {"op":"add","path":"/surfacePlaceables/items/-","value":{
 			"mode" : "floor",
 			"priority" : 3.0,

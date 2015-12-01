@@ -2,22 +2,28 @@
   "name" : "fieldofsugar",
   "friendlyName" : "Sugarcane Field",
  
-  "spawnProfiles" : [
-    {
-      "groups" : [ "easysurface1" ],
-      "extraSpawns" : [ "forestbee", "normalbee", "greentip", "blueback", "birdcritter", "squirrelcritter", "snail", "sporelingcritter", "owlcritter", "blipcritter", "mousecritter", "fireflyspawner" ],
-      "monsterParameters" : {
-        "colors" : "forest"
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 2,
+        "pool" : [ 
+          [ 1.0, "mandraflora" ],
+          [ 1.0, "bulbop" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : [
+          [ 1, "beebug" ],
+          [ 1, "petalcritter" ]
+        ]
       }
-    },
-    {
-      "groups" : [ "easysurface2" ],
-      "extraSpawns" : [ "forestbee", "normalbee", "blueback", "redwing", "birdcritter", "squirrelcritter", "snail", "sporelingcritter", "owlcritter", "blipcritter", "mousecritter", "fireflyspawner" ],
-      "monsterParameters" : {
-        "colors" : "forest"
-      }
+    ],
+    "monsterParameters" : {
+      "colors" : "jungle"
     }
-  ],
+  },
+
   "hueShiftOptions" : [-30, -20, -15, -10, -5, 0, 5, 10, 15, 20, 30],
   
     "mainBlock" : "petalblock",
@@ -147,7 +153,7 @@
           "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "terrainfeatures", "rockclimb","rocktunnel",  "toxicplains", "sandstone", "blockpile", "loops", "flats", "reversepyramids" ]
+          "microdungeons" : [ "terrainfeatures", "rockclimb","rocktunnel",  "toxicmicrodungeons", "sandstone", "blockpile", "loops", "flats", "reversepyramids" ]
         },
         {
           "mode" : "floor",
@@ -158,15 +164,7 @@
           "type" : "microdungeon",
           "microdungeons" : [ "newhumanmicro", "newavianmicro", "minigreenruins", "junglemicrodungeons" ] 
         },
-        {
-          "mode" : "floor",
-          "priority" : 3.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:minibossoverground",
 
-          "type" : "microdungeon",
-          "microdungeons" : [ "minibossoverground" ]
-        },
         {
           "mode" : "floor",
           "priority" : 3.0,

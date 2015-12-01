@@ -14,7 +14,7 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "basePercentage" : 0.8
+      "baseMultiplier" : 1.8
     },   
       {
         "stat" : "maxHealth",

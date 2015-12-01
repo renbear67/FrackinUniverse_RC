@@ -29,8 +29,8 @@
   },
   "animationCustom" : {
     "sounds" : {
-      "open" : [ "/sfx/objects/woodendoor_open.wav" ],
-      "close" : [ "/sfx/objects/woodendoor_close.wav" ]
+      "open" : [ "/sfx/objects/woodendoor_open.ogg" ],
+      "close" : [ "/sfx/objects/woodendoor_close.ogg" ]
     }
   },
   "animationPosition" : [-16, 0],

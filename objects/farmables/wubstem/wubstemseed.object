@@ -7,7 +7,7 @@
   "shortdescription" : "Wubstem Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "soundEffect" : "/sfx/objects/wubstem.wav",
+  "soundEffect" : "/sfx/objects/wubstem.ogg",
   "soundEffectRadius" : 15, 
   "learnBlueprintsOnPickup" : [ "wubstemseed" ],
   "inventoryIcon" : "wubstemseedicon.png",

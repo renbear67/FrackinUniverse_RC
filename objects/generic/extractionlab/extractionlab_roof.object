@@ -33,7 +33,7 @@
   "scripts" : [ "/objects/generic/extractionlab/extractionlab.lua" ],
   "scriptDelta" : 5,
   "recipeGroup" : "extractionlab",
-  "openSounds" : [ "/sfx/objects/locker_open.wav" ],
+  "openSounds" : [ "/sfx/objects/locker_open.ogg" ],
   "slotCount" : 12,
   "uiConfig" : "/interface/extractor/extractor.config",
   "frameCooldown" : 67,

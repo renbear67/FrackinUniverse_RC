@@ -7,6 +7,6 @@
   "shortdescription" : "Cloud Block",
   "glitchDescription" : "Curious. A block of clouds.",
   "floranDescription" : "Maybe I can eat?",
-  "footstepSound" : "/sfx/blocks/footstep_ash.wav",
+  "footstepSound" : "/sfx/blocks/footstep_ash.ogg",
   "health" : 0
 }

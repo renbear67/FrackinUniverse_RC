@@ -1,7 +1,7 @@
 {
   "name" : "magmablastAttack",
   "label" : "MAGMA BURST",
-  "image" : "/monsters/flying/skills/default.png",
+  "image" : "/monsters/generated/skills/defaultphysical.png",
 
   "parameters" : {
     "magmablastAttack" : {

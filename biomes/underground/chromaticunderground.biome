@@ -2,22 +2,48 @@
   "name" : "chromaticunderground",
   "friendlyName" : "Chromatic Underground",
 
-  "spawnProfiles" : [
-    {
-      "groups" : [ "mediumsurface1", "fu_thickjungle" ],
-      "extraSpawns" : [ "stinkjack", "fireflyspawner", "goldbuck", "scuttleploom", "frog", "harecritter", "hedgehogcritter", "petalcritter", "snakecritter", "tortoise", "tritrotscritter" ],
-      "monsterParameters" : {
-        "colors" : "jungle"
+ "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 2,
+        "pool" : [ 
+          [ 0.1111, "lumoth" ],     
+          [ 0.1111, "narfin" ],
+          [ 0.1111, "voltip" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : [
+          [ 0.1, "normalbee" ],
+          [ 0.1, "stinkjack" ],
+          [ 0.1, "fireflyspawner" ],
+		  [ 0.1, "goldbuck" ],
+		  [ 0.1, "scuttleploom" ],
+		  [ 0.1, "frog" ],
+		  [ 0.1, "harecritter" ],
+		  [ 0.1, "owlcritter" ],
+		  [ 0.1, "tritrotscritter" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
       }
-    },
-    {
-      "groups" : [ "mediumsurface2", "fu_thickjungle" ],
-      "extraSpawns" : [ "stinkjack", "fireflyspawner", "goldbuck", "frog", "harecritter", "hedgehogcritter", "petalcritter", "snakecritter", "tortoise", "tritrotscritter" ],
-      "monsterParameters" : {
-        "colors" : "jungle"
+    ],
+    "monsterParameters" : {
+      "statusSettings" : {
+        "stats" : {
+          "ffextremeradiationImmunity" : {
+            "baseValue" : 1.0
+          },
+          "ffextremecoldImmunity" : {
+            "baseValue" : 1.0
+          }		  
+        }
       }
     }
-  ],
+  },
 
     "mainBlock" : "chromadirt",
     "subBlocks" : [ "moonrock", "rainbowsand", "supermatter" ],

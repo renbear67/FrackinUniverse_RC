@@ -13,7 +13,7 @@
   "firePosition" : [22.5, 4.5],
   "fireTime" : 0.66,
   "fireAfterWindup" : true,
-  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_onehanded.wav" } ] },
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_dagger.ogg" } ] },
 
   "primaryStances" : {
     "directional" : true,
@@ -27,7 +27,6 @@
       "armAngle" : -90,
       "swordAngle" : -90,
       "handPosition" : [-6.0, -17.0],
-      "armFrameOverride" : "idleMelee",
       "duration" : 0.1
     },
     "windup" : {

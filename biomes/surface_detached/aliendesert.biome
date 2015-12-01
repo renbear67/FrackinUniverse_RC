@@ -2,22 +2,50 @@
   "name" : "aliendesert",
   "friendlyName" : "aliendesert",
 
-   "spawnProfiles" : [
-    {
-      "groups" : [ "mediumsurface1", "fu_thickjungle" ],
-      "extraSpawns" : [ "aridbee", "dustmoth", "sunskipper", "goldbuck", "fuscorpion", "deserttortoisecritter", "vulturecritter"  ],
-      "monsterParameters" : {
-        "colors" : "desert"
-      }    
-    },
-    {
-      "groups" : [ "mediumsurface2", "fu_thickjungle" ],
-      "extraSpawns" : [ "aridbee", "dustmoth", "sunskipper", "goldbuck", "fuscorpion", "deserttortoisecritter", "vulturecritter"  ],
-      "monsterParameters" : {
-        "colors" : "desert"
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 3,
+        "pool" : [ 
+          [ 0.1111, "fennix" ],     
+          [ 0.1111, "fugiantscorpion" ],
+          [ 0.1111, "fuheadcrab" ],        
+          [ 0.1111, "ignome" ],
+          [ 0.1111, "pyromantle" ],     
+          [ 0.1111, "smoglin" ],
+          [ 0.1111, "trictus" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : [
+          [ 0.4, "flameroach" ],
+          [ 0.3, "lavahopper" ],
+          [ 0.3, "fireygiant" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
+      }
+    ],
+    "monsterParameters" : {
+      "colors" : "desert",
+      "statusSettings" : {
+        "stats" : {
+          "ffextremeheatImmunity" : {
+            "baseValue" : 1.0
+          },
+          "lavaImmunity" : {
+            "baseValue" : 1.0
+          },
+          "fireImmunity" : {
+            "baseValue" : 1.0
+          }
+        }
       }
     }
-  ],   
+  },
   
   "hueShiftOptions" : [-165, -70, -25, 0, 25, 70, 125, 165],
 
@@ -170,7 +198,7 @@
           "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "terrainfeatures", "rockclimb","rocktunnel",  "toxicplains", "sandstone", "blockpile", "loops", "flats", "reversepyramids" ]
+          "microdungeons" : [ "terrainfeatures", "rockclimb","rocktunnel",  "toxicmicrodungeons", "sandstone", "blockpile", "loops", "flats", "reversepyramids" ]
         },
         {
           "mode" : "floor",
@@ -180,15 +208,6 @@
 
           "type" : "microdungeon",
           "microdungeons" : [ "newhumanmicro", "newavianmicro", "randomencounter", "treasureroom", "avianencounter", "glitchencounter", "shroomencounter" ]
-        },
-        {
-          "mode" : "floor",
-          "priority" : 3.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:minibossoverground",
-
-          "type" : "microdungeon",
-          "microdungeons" : [ "minibossoverground" ]
         },
         {
           "mode" : "floor",

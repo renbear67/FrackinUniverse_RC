@@ -3,8 +3,8 @@
   "baseType" : "fuoutpostcivilian",
  "damageTeam" : 1, 
     "scriptConfig" : {
-        "offeredQuests" : [ "1_designlab.gearup", "1_solararray.gearup" ],
-        "turnInQuests" : [ "8_todesignlab.gearup" ],
+        "offeredQuests" : [ "designlab.gearup", "1bracken.gearup" ],
+        "turnInQuests" : [ "6blisterbush.gearup" ],
     "wander" : {
       "timeRange" : [2.0, 10.0],
       "chatDistance" : 4,

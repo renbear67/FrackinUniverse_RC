@@ -6,7 +6,7 @@ function init()
   if mcontroller.velocity()[2] <= 10 then
     mcontroller.setYVelocity(10.0)
   end
-  effect.addStatModifierGroup({{stat = "fallDamageMultiplier", basePercentage = -1}})
+  effect.addStatModifierGroup({{stat = "fallDamageMultiplier", baseMultiplier = -2}})
 end
 
 function update(dt)

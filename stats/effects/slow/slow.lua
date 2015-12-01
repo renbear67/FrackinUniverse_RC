@@ -8,9 +8,9 @@ end
 
 function update(dt)
   mcontroller.controlModifiers({
-      groundMovementModifier = -0.4,
-      runModifier = -0.45,
-      jumpModifier = -0.45
+      groundMovementModifier = 0.6,
+      runModifier = 0.65,
+      jumpModifier = 0.65
     })
 end
 

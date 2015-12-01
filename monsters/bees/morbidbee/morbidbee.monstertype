@@ -16,7 +16,7 @@
 
   "baseParameters" : {
     "scripts" : [
-      "/monsters/unique/bugs/behavior.lua",
+      "/monsters/bugs/behavior.lua",
       "/scripts/util.lua",
       "/scripts/vec2.lua"
     ],
@@ -79,6 +79,9 @@
       "primaryScriptDelta" : 400,
 
       "stats" : {
+        "grit" : {
+          "baseValue" : 1.0
+        },
         "maxHealth" : {
           "baseValue" : 1
         },

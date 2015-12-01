@@ -3,8 +3,8 @@
   "baseType" : "fuoutpostcivilian",
   "damageTeam" : 1,
     "scriptConfig" : {
-        "offeredQuests" : [ "1b_matterassembler.gearup", "1_samplingarray.gearup", "shoggothunlock.gearup" ],
-        "turnInQuests" : [ "1a_matterassembler.gearup" ],
+        "offeredQuests" : [ "powerpress.gearup", "1copperplate.gearup" ],
+        "turnInQuests" : [ "1copperplate.gearup" ],
         
     "wander" : {
       "timeRange" : [2.0, 10.0],
