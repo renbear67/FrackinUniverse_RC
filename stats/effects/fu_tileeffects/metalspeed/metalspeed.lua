@@ -5,7 +5,7 @@ end
 
 function update(dt)
   mcontroller.controlParameters({
-        groundForce = 120.0,
+        groundForce = 150.0,
         walkSpeed = 14.0,
         runSpeed = 22.0,
     })

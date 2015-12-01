@@ -11,9 +11,9 @@ function update(dt)
         slopeSlidingFactor = 0.162
         })
   mcontroller.controlModifiers({
-        groundMovementModifier = 0.8,
-        runModifier = 0.77,
-        jumpModifier = 0.8
+        groundMovementModifier = -0.20,
+        runModifier = -0.275,
+        jumpModifier = -0.2
     })
 end
 
