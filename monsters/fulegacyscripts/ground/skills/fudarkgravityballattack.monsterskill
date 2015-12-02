@@ -1,6 +1,6 @@
 {
   "name" : "fuDarkGravityBallAttack",
-  "label" : "FROZEN GRAVITY BALL",
+  "label" : "GRAVITY BALL",
   "image" : "/monsters/skills/defaultice.png",
 
   "parameters" : {
@@ -9,7 +9,7 @@
       "projectile" : "frozengravityball",
       "range" : 15,
       "speed" : 15,
-      "power" : 16,
+      "power" : 20,
       "shots" : 1,
       "winddownTime" : 0.5,
       "castTime" : 0.4,

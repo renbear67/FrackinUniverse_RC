@@ -12,7 +12,7 @@
       "startRects" : [ [-14, 2.5, -10, -2.0], [14, 2.5, 10, -2.0] ],
 
       "speed" : 25,
-      "power" : 10,
+      "power" : 12,
       "fireInterval" : 0.2
     }
   }
