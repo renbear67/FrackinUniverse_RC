@@ -21,7 +21,7 @@
 
   "animationParameters" : {
     "sounds" : {
-      "rangedAttack" : [ "/sfx/projectiles/bugswarm1.wav", "/sfx/projectiles/bugswarm2.wav", "/sfx/projectiles/bugswarm3.wav", "/sfx/projectiles/bugswarm4.wav" ]
+      "rangedAttack" : [ "/sfx/projectiles/bugswarm1.ogg", "/sfx/projectiles/bugswarm2.ogg", "/sfx/projectiles/bugswarm3.ogg", "/sfx/projectiles/bugswarm4.ogg" ]
     }
   }
 }

@@ -19,7 +19,7 @@
 
   "animationParameters" : {
     "sounds" : {
-      "rangedAttack" : [ "/sfx/projectiles/spit1.wav", "/sfx/projectiles/spit2.wav" ]
+      "rangedAttack" : [ "/sfx/projectiles/spit1.ogg", "/sfx/projectiles/spit2.ogg" ]
     }
   }
 }

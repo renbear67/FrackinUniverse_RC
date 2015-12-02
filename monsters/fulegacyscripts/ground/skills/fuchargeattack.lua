@@ -79,7 +79,7 @@ function fuChargeAttack.update(dt, stateData)
 
     if entity.animationState("attack") ~= "fuChargeAttack" then
       if math.abs(self.toTarget[1]) < entity.configParameter("fuChargeAttack.attackDistance") then
-        entity.setAnimationState("attack", "fuChargeAttack")
+        entity.setAnimationState("attack", "charge")
       elseif self.toTarget[1] * mcontroller.facingDirection() > 0 then
         entity.setAnimationState("attack", "charge")
       else

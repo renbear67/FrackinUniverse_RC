@@ -26,7 +26,7 @@
 
   "animationParameters" : {
     "sounds" : {
-      "chargeCrash" : [ "/sfx/melee/blunt_hit_organic.wav" ]
+      "chargeCrash" : [ "/sfx/melee/blunt_hit_organic.ogg" ]
     }
   }
 }
