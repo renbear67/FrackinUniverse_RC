@@ -8,7 +8,7 @@
   "colors" : "/monsters/colors.config",
   "reversed" : false,
 
-  "dropPools" : [ "noMeatMonsterTreasure" ],
+  "dropPools" : [ "dinoLoot" ],
 
   "baseParameters" : {
     "scripts" : [

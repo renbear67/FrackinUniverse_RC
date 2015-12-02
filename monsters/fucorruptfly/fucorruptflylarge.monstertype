@@ -8,7 +8,7 @@
   "colors" : "/monsters/colors.config",
   "reversed" : true,
 
-  "dropPools" : [],
+  "dropPools" : [ "corruptflyLoot" ],
 
   "baseParameters" : {
     "scripts" : [
@@ -26,7 +26,7 @@
     ],
 
     "baseSkills" : [ "flyingSwoopBounceAttack" ],
-    "specialSkills" : [ "gustAttack"  ],
+    "specialSkills" : [ "fuAcidicSpitAttack"  ],
 
     "projectileSourcePosition" : [1.5, -0.5],
 

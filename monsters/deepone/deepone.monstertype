@@ -7,7 +7,7 @@
   "animation" : "deepone.animation",
   "reversed" : false,
 
-  "dropPools" : [ "noMeatMonsterTreasure" ],
+  "dropPools" : [ "deeponeTreasure" ],
 
   "baseParameters" : {
     "scripts" : [

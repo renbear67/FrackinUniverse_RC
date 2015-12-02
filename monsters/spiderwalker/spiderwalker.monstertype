@@ -7,7 +7,7 @@
   "animation" : "spiderwalker.animation",
   "reversed" : true,
 
-  "dropPools" : [ "robotTreasure" ],
+  "dropPools" : [ "furobotTreasure" ],
 
   "baseParameters" : {
     "scripts" : [

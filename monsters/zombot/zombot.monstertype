@@ -8,7 +8,7 @@
   "colors" : "/monsters/colors.config",
   "reversed" : true,
 
-  "dropPools" : [ "ffmetallicbossChest", "robotTreasure" ],
+  "dropPools" : [ "ffmetallicbossChest", "furobotTreasure" ],
 
   "baseParameters" : {
     "scripts" : [

@@ -7,7 +7,7 @@
   "animation" : "fumechspider.animation",
   "reversed" : true,
 
-  "dropPools" : [ "robotTreasure" ],
+  "dropPools" : [ "furobotTreasure" ],
 
   "baseParameters" : {
     "scripts" : [

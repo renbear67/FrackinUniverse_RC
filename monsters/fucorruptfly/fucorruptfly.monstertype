@@ -8,7 +8,7 @@
   "colors" : "/monsters/colors.config",
   "reversed" : true,
 
-  "dropPools" : [],
+  "dropPools" : [ "corruptflyLoot" ],
 
   "baseParameters" : {
     "scripts" : [

@@ -6,7 +6,7 @@
   "reversed" : true,
   "animation" : "furatthing.animation",
 
-  "dropPools" : [ "shadowhoundLoot" ],
+  "dropPools" : [ "ratthingLoot" ],
 
   "baseParameters" : {
     "scripts" : [

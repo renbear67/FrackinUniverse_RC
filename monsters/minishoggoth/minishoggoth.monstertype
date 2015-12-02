@@ -7,7 +7,7 @@
   "animation" : "minishoggoth.animation",
   "reversed" : true,
 
-  "dropPools" : [ "noMeatMonsterTreasure" ],
+  "dropPools" : [ "minishoggothLoot" ],
 
   "baseParameters" : {
     "scripts" : [

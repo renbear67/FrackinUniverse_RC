@@ -8,7 +8,7 @@
   
   "reversed" : true,
 
-  "dropPools" : [ "ashgolemLoot" ],
+  "dropPools" : [ "sulphurtrollLoot" ],
 
   "baseParameters" : {
     "scripts" : [

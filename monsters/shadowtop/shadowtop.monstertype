@@ -7,7 +7,7 @@
   "animation" : "shadowtop.animation",
   "colors" : "/monsters/colors.config",
 
-  "dropPools" : [ "basicMonsterTreasure" ],
+  "dropPools" : [ "shadowtopLoot" ],
 
   "baseParameters" : {
     "scripts" : [

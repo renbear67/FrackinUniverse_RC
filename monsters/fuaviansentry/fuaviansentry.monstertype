@@ -6,7 +6,7 @@
 
   "animation" : "fuaviansentry.animation",
 
-  "dropPools" : [ "basicMonsterTreasure" ],
+  "dropPools" : [ "robotTreasure" ],
 
   "baseParameters" : {
     "scripts" : [
@@ -71,7 +71,7 @@
           "baseValue" : 1.0
         },
         "maxHealth" : {
-          "baseValue" : 72
+          "baseValue" : 102
         },
         "protection" : {
           "baseValue" : 1.0
