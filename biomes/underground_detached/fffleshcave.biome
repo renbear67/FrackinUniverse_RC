@@ -2,16 +2,61 @@
   "name" : "fffleshcaves",
   "friendlyName" : "Flesh Caves",
 
-  "spawnProfiles" : [
-    {
-      "groups" : [ "mediumunderground1" ],
-      "extraSpawns" : [ ]
-    },
-    {
-      "groups" : [ "mediumunderground2" ],
-      "extraSpawns" : [ ]
+    "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 3,
+        "pool" : [ 
+          [ 0.1111, "fleshleech" ],     
+          [ 0.1111, "paratail" ],
+          [ 0.1111, "fuheckblob" ],
+		  [ 0.1111, "hemogoblin" ]
+        ]
+      },  
+      {
+        "select" : 2,
+        "pool" : [
+          [ 0.4, "shardwing" ],
+          [ 0.3, "stinkjack" ],
+		  [ 0.3, "xenofly" ]
+        ]
+      },
+      {
+        "select" : 3,
+        "pool" : [
+		  [ 0.3, "apexscabcritter" ],
+          [ 0.4, "avianscabcritter" ],
+          [ 0.3, "eyefriend" ],
+          [ 0.3, "eyepodcritter" ],
+		  [ 0.3, "floranscabcritter" ],
+		  [ 0.3, "glitchscabcritter" ],
+		  [ 0.3, "humanscabcritter" ],
+		  [ 0.3, "hylotlscabcritter" ],
+		  [ 0.3, "maggotcritter" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
+      }
+    ],
+    "monsterParameters" : {
+      "colors" : "magma",
+      "statusSettings" : {
+        "stats" : {
+          "insanityImmunity" : {
+            "baseValue" : 1.0
+          },
+          "pusImmunity" : {
+            "baseValue" : 1.0
+          },
+          "biooozeImmunity" : {
+            "baseValue" : 1.0
+          }
+        }
+      }
     }
-  ],
+  },
 
   "mainBlock" : "fleshblock",
   "subBlocks" : [ "corruptdirt", "bonematerial" ],

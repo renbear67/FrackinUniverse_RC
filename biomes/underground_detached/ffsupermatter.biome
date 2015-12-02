@@ -2,16 +2,44 @@
   "name" : "ffsupermatter",
   "friendlyName" : "Erichus Cave",
 
-  "spawnProfiles" : [
-    {
-      "groups" : [ "mediumunderground1" ],
-      "extraSpawns" : [ ]
-    },
-    {
-      "groups" : [ "mediumunderground2" ],
-      "extraSpawns" : [ ]
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 3,
+        "pool" : [ 
+          [ 0.1111, "fumoontant" ],     
+          [ 0.1111, "swarpion" ],        
+          [ 0.1111, "lumoth" ],
+          [ 0.1111, "crutter" ],     
+          [ 0.1111, "gleap" ],
+          [ 0.1111, "scandroid" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : [
+          [ 0.4, "aggressivebee" ],
+          [ 0.3, "aridbee" ],
+          [ 0.3, "phoenixfly" ],
+          [ 0.3, "bouncercritter" ],
+          [ 0.3, "glowingball2critter" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
+      }
+    ],
+    "monsterParameters" : {
+      "statusSettings" : {
+        "stats" : {
+          "biooozeImmunity" : {
+            "baseValue" : 1.0
+          }
+        }
+      }
     }
-  ],
+  },
 
   "mainBlock" : "rostone",
   "subBlocks" : [ "crystalblock", "supermatter" ],

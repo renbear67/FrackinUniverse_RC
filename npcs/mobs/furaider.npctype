@@ -8,7 +8,7 @@
   
  "scriptConfig" : {
   "dialog" : {
-  "attack" : "/dialog/attack.config:attack"
+  "attack" : "/dialog/combat.config:attack"
   }
   },
 

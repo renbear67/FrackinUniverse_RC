@@ -6,6 +6,6 @@
   "scripts" : [
     "ffextremeradiationimmunity.lua"
   ],
-  "label" : "Radiation Immunity",
+  "label" : "Rad Proof",
   "icon" : "/interface/statuses/biomeradioactive.png"
 }

@@ -2,16 +2,33 @@
   "name" : "ffcoralcave",
   "friendlyName" : "Coral Cave",
 
-  "spawnProfiles" : [
-    {
-      "groups" : [ "mediumunderground1" ],
-      "extraSpawns" : [ ]
-    },
-    {
-      "groups" : [ "mediumunderground2" ],
-      "extraSpawns" : [ ]
-    }
-  ],
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 2,
+        "pool" : [ 
+          [ 0.1111, "crustoise" ],     
+          [ 0.1111, "skimbus" ],
+          [ 0.1111, "narfin" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : [
+          [ 0.1, "xenofly" ],
+          [ 0.1, "snowskater" ],
+          [ 0.1, "fusnowball" ],
+		  [ 0.1, "bouncercritter" ],
+		  [ 0.1, "reasonablecritter" ],
+		  [ 0.1, "snooglecritter" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
+      }
+    ]
+  },
 
   "mainBlock" : "sand2",
   "subBlocks" : [ "coral", "coral2", "oystershell" ],

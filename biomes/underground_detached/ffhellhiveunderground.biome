@@ -2,46 +2,28 @@
   "name" : "ffhellhiveunderground",
   "friendlyName" : "Hell Hive",
 
-  "spawnProfiles" : [
-    {
-      "groups" : [ "fu_hellhive" ],
-      "extraSpawns" : [ ],
-      "monsterParameters" : {
-        "statusSettings" : {
-          "stats" : {
-            "lavaImmunity" : {
-              "baseValue" : 1.0
-            },
-            "honeyslowImmunity" : {
-              "baseValue" : 1.0
-            },
-            "beestingImmunity" : {
-              "baseValue" : 1.0
-            }
-          }
-        }
+    "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 3,
+        "pool" : [ 
+          [ 0.3111, "fugiantbee2" ]
+        ]
+      },	  
+      {
+        "select" : 3,
+        "pool" : [
+          [ 0.3, "forestbee" ],
+          [ 0.3, "normalbee" ],
+		  [ 0.6, "futinybee2" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
       }
-    },
-    {
-      "groups" : [ "fu_hellhive" ],
-      "extraSpawns" : [ ],
-      "monsterParameters" : {
-        "statusSettings" : {
-          "stats" : {
-            "lavaImmunity" : {
-              "baseValue" : 1.0
-            },
-            "honeyslowImmunity" : {
-              "baseValue" : 1.0
-            },
-            "beestingImmunity" : {
-              "baseValue" : 1.0
-            }
-          }
-        }
-      }
-    }
-  ],
+    ]
+  },
 
   "mainBlock" : "redhoneycombmaterial",
   "subBlocks" : [ "fu_redhoneycombblock", "fleshblock", "spidersilkblock" ],

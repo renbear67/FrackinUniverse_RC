@@ -48,20 +48,6 @@
       }
     }
   },
-  
-  
-  "spawnProfiles" : [
-    {
-      "groups" : [ "mediumsurface1", "fu_fungal" ],
-      "extraSpawns" : [ "sporelingcritter" ]
-    },
-    {
-      "groups" : [ "mediumsurface2", "fu_fungal" ],
-      "extraSpawns" : [ "junglebee", "fireflyspawner", "fawnfly", "fushroomdude", "breakercritter", "breakerfemalecritter", "leafscabcritter", "slugcritter", "snail", "snakecritter", "sporelingcritter" ]
-
-    }
-  ],
-
     
   "hueShiftOptions" : [-90, -75, -60, -55, -25, 0, 25, 55, 60, 75, 90],
 

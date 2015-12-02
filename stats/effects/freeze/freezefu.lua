@@ -1,7 +1,7 @@
 function init()
   animator.setParticleEmitterOffsetRegion("snow", mcontroller.boundBox())
   animator.setParticleEmitterActive("snow", true)
-  effect.setParentDirectives("fade=DDDDFF=0.75")
+  effect.setParentDirectives("fade=DDDDFF=0.55")
 
   local stuns = status.statusProperty("stuns", {})
   stuns["freeze"] = true

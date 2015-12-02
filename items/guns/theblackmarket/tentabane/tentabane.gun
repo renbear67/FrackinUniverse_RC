@@ -1,0 +1,30 @@
+{
+  "itemName" : "tentabane",
+  "inventoryIcon" : "tentabane.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "A frost blasting cannon that freezes foes solid.",
+  "shortdescription" : "^cyan;Frostbringer",
+  "image" : "tentabane.png",
+  "handPosition" : [-6, -3],
+  "firePosition" : [23, 2],
+  "recoilTime" : 0.1,
+  "level" : 7,
+  "tooltipKind" : "gun",
+  "fireTime" : 0.3,
+  "twoHanded" : true,
+  "walkWhileFiring" : false,
+  "classMultiplier" : 2.4,
+  "projectileType" : "coldblast1",
+  "powerProjectileTime" : [0.4, 50],
+  "projectile" : {
+    "speed" : 70,
+    "power" : 3.5,
+    "color" : [0, 0, 90]
+  },
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/weapons/teslagun.ogg" } ],
+    "animation" : "/animations/muzzleflash/plasmamuzzle3blue/plasmamuzzle3blue.animation"
+  }
+}

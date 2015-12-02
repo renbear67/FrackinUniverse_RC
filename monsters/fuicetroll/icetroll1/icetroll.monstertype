@@ -25,9 +25,9 @@
       "/monsters/fulegacyscripts/ground/skills/createGroundRangedAttack.lua"
     ],
 
-    "baseSkills" : [ "meleeAttack", "stompAttack" ],
-    "specialSkills" : [ "fuPounceAttack", "recoverSpecial" ],
-
+    "baseSkills" : [ "meleeAttack"],
+    "specialSkills" : [ "fuChargeAttack", "stompAttack" ],
+    
     "projectileSourcePosition" : [4.75, 1.0],
 
     "attackStartDistance" : 3.5,

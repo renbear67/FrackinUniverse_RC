@@ -13,6 +13,7 @@
   "piercing" : false,
   "damagePoly" : [ [0, -8], [16, -8], [16, 8], [0, 8] ],
   "damageKind" : "iceplasma",
+  "statusEffects" : [ "freezefu" ], 
   "actionOnReap" : [
     {
       "action" : "config",

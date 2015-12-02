@@ -2,34 +2,34 @@
   "name" : "ffcellcaves",
   "friendlyName" : "Cell Caves",
 
-  "spawnProfiles" : [
-    {
-      "groups" : [ "mediumunderground1" ],
-      "extraSpawns" : [ ],
-      "monsterParameters" : {
-        "statusSettings" : {
-          "stats" : {
-            "poisonImmunity" : {
-              "baseValue" : 1.0
-            }
-          }
-        }
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 2,
+        "pool" : [ 
+          [ 1.0, "gleap" ],
+          [ 1.0, "batong" ],
+          [ 1.0, "crustoise" ],
+          [ 1.0, "peblit" ],
+          [ 1.0, "bobfae" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : "generatedGround"
+      },
+      {
+        "select" : 5,
+        "pool" : [
+          [ 1, "hedgehogcritter" ],
+          [ 1, "snailcritter" ],
+          [ 1, "tortoisecritter" ],
+          [ 1, "mousecritter" ],
+          [ 1, "bunnycritter" ]
+        ]
       }
-    },
-    {
-      "groups" : [ "mediumunderground2" ],
-      "extraSpawns" : [ ],
-      "monsterParameters" : {
-        "statusSettings" : {
-          "stats" : {
-            "poisonImmunity" : {
-              "baseValue" : 1.0
-            }
-          }
-        }
-      }
-    }
-  ],
+    ]
+  },
 
   "mainBlock" : "slime",
   "subBlocks" : [ "mud" ],

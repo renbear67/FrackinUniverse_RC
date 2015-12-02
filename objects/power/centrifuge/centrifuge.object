@@ -67,7 +67,8 @@
 	  "fu_liquidhoney" : "liquidwastewater",
 	  "liquidalienjuice" : "liquidwastewater",
     "liquidnitrogenitem" : "liquidwastewater",
-    "liquiddarkwater" : "liquidwastewater"
+    "liquiddarkwater" : "liquidwastewater",
+    "liquidwastewater" : "liquidwater"
   },
   
   "bonusOutputs" : {
@@ -94,6 +95,7 @@
     "fu_liquidhoney" : { "geneticmaterial" : 12,"nutrientpaste" : 12 },
     "liquidalienjuice" : { "geneticmaterial" : 12,"ff_silicon" : 11 },
     "liquidnitrogenitem" : { "fu_nitrogen" : 12,"icecrystal" : 3 },
-    "liquiddarkwater" : { "nutrientpaste" : 12,"liquidpoison" : 12,"rawminerals" : 9  }
+    "liquiddarkwater" : { "nutrientpaste" : 12,"liquidpoison" : 12,"rawminerals" : 9  },
+    "liquidwastewater" : { "nutrientpaste" : 12,"liquidpoison" : 12,"rawminerals" : 9  }
   }
 }

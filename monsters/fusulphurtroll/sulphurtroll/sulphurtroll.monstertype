@@ -26,8 +26,8 @@
     ],
 
     "baseSkills" : [ "meleeAttack"],
-    "specialSkills" : [ "fuPounceAttack", "stompAttack" ],
-
+    "specialSkills" : [ "fuChargeAttack", "stompAttack" ],
+    
     "projectileSourcePosition" : [4.75, 1.0],
 
     "attackStartDistance" : 3.5,

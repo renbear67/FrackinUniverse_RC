@@ -1,4 +1,54 @@
 {
+
+  "fficeChestTreasure" : [
+    [1, {
+      "fill" : [
+        {"pool" : "valuableTreasure"}
+      ],
+      "pool" : [
+        {"weight" : 0.5, "pool" : "basicTreasure"},
+        {"weight" : 0.5, "pool" : "fficeTreasure"}
+      ],
+      "poolRounds" : [
+        [0.05, 1],
+        [0.40, 2],
+        [0.30, 3],
+        [0.15, 4],
+        [0.10, 5]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "fficeTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1.0, "item" : ["snowball", 10]},
+        {"weight" : 0.1, "item" : ["mediumsnowball", 2]},
+        {"weight" : 0.3, "item" : "snowgun"}, // TODO: replace old gun
+        {"weight" : 0.2, "item" : ["mediumsnowball", 1]},
+        {"weight" : 0.3, "item" : "survivalgearback"},
+        {"weight" : 0.3, "item" : "snowinfantryhead"},
+        {"weight" : 0.3, "item" : "snowinfantrychest"},
+        {"weight" : 0.3, "item" : "snowinfantrypants"},
+        {"weight" : 0.09, "item" : ["icecrystal", 1]},
+        {"weight" : 0.09, "item" : ["crystal", 3]},
+        {"weight" : 0.08, "item" : ["icecrystal", 2]},
+        {"weight" : 0.08, "item" : ["crystal", 6]},
+        {"weight" : 0.1, "item" : ["cryonicextract", 1]},
+        {"weight" : 0.09, "item" : ["cryonicextract", 2]},
+        {"weight" : 0.08, "item" : ["cryonicextract", 3]},
+        {"weight" : 0.07, "item" : ["cryonicextract", 4]},
+        {"weight" : 0.1, "item" : "snowcone"},
+        {"weight" : 0.02, "item" : "frostcannonarm-recipe"},
+        {"weight" : 0.02, "item" : "freezecannon-recipe"},
+        {"weight" : 0.02, "item" : "frostmachinegun-recipe"},
+        {"weight" : 0.07, "item" : "ff_icechucker"}
+      ]
+    }]
+  ],
+  
+  
   "ffbasicTreasure" : [
     [1, {
         "pool" : [
@@ -177,6 +227,7 @@
 	  {"weight" : 0.004, "item" : [ "verdantrailgun-recipe", 1]},
 	  {"weight" : 0.004, "item" : [ "druidstaff-recipe", 1]},
 	  {"weight" : 0.002, "item" : [ "biopistol-recipe", 1]},
+	  {"weight" : 0.01, "item" : [ "armcannon-recipe", 1]},
 {"weight" : 0.01, "item" : ["gene_adaptivecell", 1]},
 {"weight" : 0.01, "item" : ["gene_agility", 1]},
 {"weight" : 0.01, "item" : ["gene_aquacelerity", 1]},
@@ -493,9 +544,18 @@
           {"weight" : 0.015, "item" : ["fuokeahitechtoaster-recipe", 1]},
           {"weight" : 0.015, "item" : ["fuokeahitechtoilet-recipe", 1]},
           {"weight" : 0.015, "item" : ["fuokeahitechvrchair-recipe", 1]},          
-          {"weight" : 0.004, "item" : ["mobiuschest-recipe", 1]},
-          {"weight" : 0.004, "item" : ["mobiushead-recipe", 1]},
-          {"weight" : 0.004, "item" : ["mobiuspants-recipe", 1]},    
+          {"weight" : 0.025, "item" : ["mobiuschest-recipe", 1]},
+          {"weight" : 0.025, "item" : ["mobiushead-recipe", 1]},
+          {"weight" : 0.025, "item" : ["mobiuspants-recipe", 1]},    
+          {"weight" : 0.025, "item" : ["mobiuspistol-recipe", 1]},
+          {"weight" : 0.025, "item" : ["mobiusrifle-recipe", 1]},
+          {"weight" : 0.015, "item" : ["mobiusrailgun-recipe", 1]},  
+          {"weight" : 0.006, "item" : ["mobiuschest", 1]},
+          {"weight" : 0.006, "item" : ["mobiushead", 1]},
+          {"weight" : 0.006, "item" : ["mobiuspants", 1]},    
+          {"weight" : 0.006, "item" : ["mobiuspistol", 1]},
+          {"weight" : 0.006, "item" : ["mobiusrifle", 1]},
+          {"weight" : 0.006, "item" : ["mobiusrailgun", 1]},  
           {"weight" : 0.001, "item" : ["atomsmasher", 1]}, 
           {"weight" : 0.04, "item" : "commonburstrifle"},
           {"weight" : 0.04, "item" : "cellzapper"},

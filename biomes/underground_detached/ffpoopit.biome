@@ -2,16 +2,58 @@
   "name" : "ffpoopit",
   "friendlyName" : "Excremental Caves",
 
-  "spawnProfiles" : [
-    {
-      "groups" : [ "mediumunderground1" ],
-      "extraSpawns" : [ ]
-    },
-    {
-      "groups" : [ "mediumunderground2" ],
-      "extraSpawns" : [ ]
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 3,
+        "pool" : [ 
+          [ 0.1111, "skeyejelly2" ],     
+          [ 0.1111, "skeyejelly" ],        
+          [ 0.1111, "jellyboss2" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : [    
+          [ 0.1111, "pogolem" ],
+          [ 0.1111, "po" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : [
+          [ 0.4, "stinkjack" ],
+          [ 0.3, "bouncebagcritter" ],
+          [ 0.3, "sluggreencritter" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
+      }
+    ],
+    "monsterParameters" : {
+      "statusSettings" : {
+        "stats" : {
+            "poisonImmunity" : {
+              "baseValue" : 1.0
+            },
+            "tarImmunity" : {
+              "baseValue" : 1.0
+            },
+            "biooozeImmunity" : {
+              "baseValue" : 1.0
+            },
+            "slimestickImmunity" : {
+              "baseValue" : 1.0
+            },
+            "slimesfrictionImmunity" : {
+              "baseValue" : 1.0
+            }
+        }
+      }
     }
-  ],
+  },
 
   "mainBlock" : "sewage",
   "subBlocks" : [ "mud" ],

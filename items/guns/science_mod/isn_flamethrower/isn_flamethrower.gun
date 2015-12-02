@@ -16,7 +16,7 @@
   "spread" : 1,
   "muzzleEffect" : {
     "animation" : "/animations/muzzleflash/flamemuzzle/flamemuzzle.animation",
-    "fireSound" : [ { "file" : "/items/guns/science_mod/isn_flamethrower/isn_flamethrower.ogg" } ]
+    "fireSound" : [ { "file" : "/items/guns/science_mod/isn_flamethrower/isn_flamethrower.wav" } ]
   },
   "fireTime" : 0.05,
   "twoHanded" : true,

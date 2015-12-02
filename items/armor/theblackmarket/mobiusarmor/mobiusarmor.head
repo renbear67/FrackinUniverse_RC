@@ -4,8 +4,8 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "uncommon",
-  "description" : "Soldiers of the Dawn Guard wear this radiation-proof armor.",
-  "shortdescription" : "Dawnstar Helmet",
+  "description" : "Rad-Proof with good all-around protection.",
+  "shortdescription" : "Sentry Helmet",
   "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
@@ -29,7 +29,7 @@
     },
     "ffextremeradiationimmunity"
   ],
-  
+  "learnBlueprintsOnPickup" : [ "mobiuspistol", "mobiusrifle", "mobiusrailgun", "mobiuschest", "mobiuspants" ],
   "colorOptions" : [
     /* GREY */
     { "ffca8a" : "b5b5b5", "e0975c" : "808080", "a85636" : "555555", "6f2919" : "303030" },

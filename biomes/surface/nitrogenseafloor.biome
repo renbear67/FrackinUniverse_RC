@@ -18,51 +18,24 @@
           [ 1, "arcticfishcritter" ]
         ]
       }
-    ]
+    ],
+      "monsterParameters" : {
+        "statusSettings" : {
+          "stats" : {
+            "ffextremecoldImmunity" : {
+              "baseValue" : 1.0
+            },
+            "biomecoldImmunity" : {
+              "baseValue" : 1.0
+            },
+            "nitrogenfreezeImmunity" : {
+              "baseValue" : 1.0
+            }
+          }
+        }
+      }
   },
   
-  "spawnProfiles" : [
-    {
-      "groups" : [ "oceanfloor" ],
-      "extraSpawns" : [ "jellocritter", "jellycritter", "poisonfishcritter", "pufferfishcritter" ],
-      "monsterParameters" : {
-        "statusSettings" : {
-          "stats" : {
-            "ffextremecoldImmunity" : {
-              "baseValue" : 1.0
-            },
-            "biomecoldImmunity" : {
-              "baseValue" : 1.0
-            },
-            "nitrogenfreezeImmunity" : {
-              "baseValue" : 1.0
-            }
-          }
-        }
-      }
-
-    },
-    {
-      "groups" : [ "oceanfloor" ],
-      "extraSpawns" : [ "jellocritter", "jellycritter", "poisonfishcritter", "pufferfishcritter" ],
-
-      "monsterParameters" : {
-        "statusSettings" : {
-          "stats" : {
-            "ffextremecoldImmunity" : {
-              "baseValue" : 1.0
-            },
-            "biomecoldImmunity" : {
-              "baseValue" : 1.0
-            },
-            "nitrogenfreezeImmunity" : {
-              "baseValue" : 1.0
-            }
-          }
-        }
-      }
-    }
-  ],
 
 
   "parallax" : "/parallax/surface/nitrogenseafloor.parallax",

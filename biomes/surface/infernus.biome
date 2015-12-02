@@ -33,7 +33,6 @@
       }
     ],
     "monsterParameters" : {
-	  "colors" : "ice",
       "statusSettings" : {
         "stats" : {
             "lavaImmunity" : {

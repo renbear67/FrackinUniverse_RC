@@ -1,4 +1,6 @@
 local recipes = {
+{inputs = { shroomblockglow=50 }, outputs = { gene_bioluminescent=1 }, time = 5.5},
+{inputs = { biospore=4 }, outputs = { gene_bioluminescent=1 }, time = 5.5},
 {inputs = { hopsseed=1 }, outputs = { gene_stimulant=1 }, time = 5.5},
 {inputs = { cinnamonseed=1 }, outputs = { gene_stimulant=1 }, time = 5.5},
 {inputs = { automatoseed=1 }, outputs = { gene_harden=1 }, time = 5.5},

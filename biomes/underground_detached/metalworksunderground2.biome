@@ -2,16 +2,48 @@
   "name" : "metalworksunderground2",
   "friendlyName" : "Metal Caves",
 
-  "spawnProfiles" : [
-    {
-      "groups" : [ "mediumunderground1" ],
-      "extraSpawns" : [ ]
-    },
-    {
-      "groups" : [ "mediumunderground2" ],
-      "extraSpawns" : [ ]
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 3,
+        "pool" : [ 
+          [ 0.1111, "scandroid" ],     
+          [ 0.1111, "tintix" ],
+          [ 0.1111, "triplod" ],        
+          [ 0.1111, "bobot" ],
+          [ 0.1111, "fumechspider" ],     
+          [ 0.1111, "fuglitchspider" ],
+          [ 0.1111, "fudeathdroid" ],
+          [ 0.1111, "zombot" ],     
+          [ 0.1111, "warbot" ]	  
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : [
+          [ 0.4, "fudrone" ]
+        ]
+      }
+    ],
+    "monsterParameters" : {
+      "statusSettings" : {
+        "stats" : {
+            "lavaImmunity" : {
+              "baseValue" : 1.0
+            },
+            "poisonImmunity" : {
+              "baseValue" : 1.0
+            },
+            "fireImmunity" : {
+              "baseValue" : 1.0
+            },            
+            "ffextremeheatImmunity" : {
+              "baseValue" : 1.0
+            }
+        }
+      }
     }
-  ],
+  },
 
   "mainBlock" : "pressurizedsteel",
   "subBlocks" : [ "plate", "pressurizedbeam", "pressurizedgirder" ],

@@ -2,46 +2,28 @@
   "name" : "ffhiveunderground",
   "friendlyName" : "Hive",
 
-  "spawnProfiles" : [
-    {
-      "groups" : [ "fu_hive" ],
-      "extraSpawns" : [ ],
-      "monsterParameters" : {
-        "statusSettings" : {
-          "stats" : {
-            "lavaImmunity" : {
-              "baseValue" : 1.0
-            },
-            "honeyslowImmunity" : {
-              "baseValue" : 1.0
-            },
-            "beestingImmunity" : {
-              "baseValue" : 1.0
-            }
-          }
-        }
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 1,
+        "pool" : [ 
+          [ 0.3111, "fugiantbee" ]     
+        ]
+      },
+      {
+        "select" : 3,
+        "pool" : [
+          [ 0.4, "futinybee" ],
+          [ 0.3, "normalbee" ],
+          [ 0.3, "forestbee" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
       }
-    },
-    {
-      "groups" : [ "fu_hive" ],
-      "extraSpawns" : [ ],
-      "monsterParameters" : {
-        "statusSettings" : {
-          "stats" : {
-            "lavaImmunity" : {
-              "baseValue" : 1.0
-            },
-            "honeyslowImmunity" : {
-              "baseValue" : 1.0
-            },
-            "beestingImmunity" : {
-              "baseValue" : 1.0
-            }
-          }
-        }
-      }
-    }
-  ],
+    ]
+  },
 
   "mainBlock" : "honeycombmaterial",
   "subBlocks" : [ "fu_honeycombblock", "hive" ],
