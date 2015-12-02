@@ -17,9 +17,9 @@
   "animationParameters" : {
     "sounds" : {
       "gust" : [
-        "/sfx/npc/unique/gustchime1.wav",
-        "/sfx/npc/unique/gustchime2.wav",
-        "/sfx/npc/unique/gustchime3.wav"
+        "/sfx/npc/unique/gustchime1.ogg",
+        "/sfx/npc/unique/gustchime2.ogg",
+        "/sfx/npc/unique/gustchime3.ogg"
       ]
     }
   }

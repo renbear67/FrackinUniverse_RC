@@ -21,7 +21,7 @@
 
   "animationParameters" : {
     "sounds" : {
-      "rangedAttack" : [ "/sfx/gun/fireblast.wav" ]
+      "rangedAttack" : [ "/sfx/gun/fireblast.ogg" ]
     }
   }
 }
