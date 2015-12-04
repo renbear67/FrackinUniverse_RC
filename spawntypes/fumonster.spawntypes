@@ -1,21 +1,6 @@
 [
 //vanilla non-enabled spawns
-  {
-    "name" : "trictus",
 
-    "spawnParameters" : {
-      "area" : "surface",
-      "region" : "all",
-      "time" : "all"
-    },
-
-    "groupSize" : [1, 2],
-    "targetDensity" : 0.04,
-    "monsterType" : "trictus",
-    "monsterParameters" : {
-      "aggressive" : true
-    }
-  },
   {
     "name" : "fuglitchspider",
 
