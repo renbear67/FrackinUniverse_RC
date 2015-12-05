@@ -236,7 +236,7 @@
     {
       "value" : [69, 69, 69, 255],
       "comment" : "rustymetal background tiles, with wreckboiler",
-      "brush" : [ [ "clear" ], [ "back", "rustymetal" ], [ "object", "samplingarray" ] ]
+      "brush" : [ [ "clear" ], [ "back", "rustymetal" ], [ "object", "tetrapod" ] ]
     },
 
     {

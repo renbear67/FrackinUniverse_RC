@@ -16,19 +16,19 @@
       "items" : {
         "applemash" : {
           "count" : 1,
-          "consume" : true
+          "consume" : false
         },
         "pearmash" : {
           "count" : 1,
-          "consume" : true
+          "consume" : false
         },
         "grapemash" : {
           "count" : 1,
-          "consume" : true
+          "consume" : false
         },
         "peachmash" : {
           "count" : 1,
-          "consume" : true
+          "consume" : false
         }
       }
     }

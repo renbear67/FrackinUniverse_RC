@@ -21,9 +21,7 @@
   "fireOnRelease" : false,
 
   "projectileType" : "splitbullet",
-    "projectileParameters" : { 
-      "knockback" : 10
-    },
+
   "projectile" : { 
   "speed" : 60, 
   "power" : 4

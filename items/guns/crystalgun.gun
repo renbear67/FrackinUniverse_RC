@@ -20,9 +20,7 @@
   "walkWhileFiring" : false,
   "projectileType" : "crystalshardsmall",
   "projectile" : { "speed" : 65, "power" : 2.95 , "color" : [22, 10, 76] },
-      "projectileParameters" : { 
-      "knockback" : 5
-    },
+
   "muzzleEffect" : {
        "fireSound" : [ { "file" : "/sfx/weapons/vashtagun.ogg" } ],
        "animation" :  "/animations/muzzleflash/smokemuzzle/smokemuzzle.animation"

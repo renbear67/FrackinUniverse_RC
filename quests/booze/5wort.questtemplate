@@ -18,11 +18,11 @@
       "items" : {
         "wort" : {
           "count" : 1,
-          "consume" : true
+          "consume" : false
         },
         "yeastwater" : {
           "count" : 1,
-          "consume" : true
+          "consume" : false
         }
       }
     }

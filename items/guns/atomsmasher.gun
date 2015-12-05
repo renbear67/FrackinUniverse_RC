@@ -23,9 +23,7 @@
     "fireOnRelease" : false,
     
     "projectileType" : "atomsmasher_shot",
-    "projectileParameters" : { 
-      "knockback" : 60
-    },
+
     "powerProjectileTime" : [0.4, 50],
     "projectile" : {
       "speed" : 55, 

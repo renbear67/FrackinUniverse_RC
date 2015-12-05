@@ -16,7 +16,7 @@
       "items" : {
         "wartwine" : {
           "count" : 1,
-          "consume" : true
+          "consume" : false
         }
       }
     }

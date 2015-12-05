@@ -18,7 +18,7 @@
       "items" : {
         "emptybottle2" : {
           "count" : 1,
-          "consume" : true
+          "consume" : false
         }
       }
     }

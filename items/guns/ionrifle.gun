@@ -20,9 +20,7 @@
   "fireOnRelease" : false,
 
   "projectileType" : "ionrifleshot",
-    "projectileParameters" : { 
-      "knockback" : 5
-    },
+
   "projectile" : { 
   "speed" : 60, 
   "power" : 1.92 
