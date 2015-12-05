@@ -149,8 +149,12 @@ local recipes = {
 {inputs = { kramil=1 }, outputs = { gene_immunity=2 }, time = 5.5},
 {inputs = { quellstem=1 }, outputs = { gene_resist=2 }, time = 5.5},
 {inputs = { victorleaf=1 }, outputs = { gene_muscle=2 }, time = 5.5},
-{inputs = { tentacleplantseed=1 }, outputs = { gene_mimetic=2 }, time = 5.5},
+{inputs = { tentacleplant=1 }, outputs = { gene_mimetic=2 }, time = 5.5},
+{inputs = { fuavikancactusseed=1 }, outputs = { gene_defense=1 }, time = 5.5},
+{inputs = { fuavikanspiceplantseed=1 }, outputs = { gene_mimetic=1 }, time = 5.5},
 
+{inputs = { wildfuavikancactusseed=1 }, outputs = { gene_defense=1 }, time = 5.5},
+{inputs = { wildfuavikanspiceplantseed=1 }, outputs = { gene_mimetic=1 }, time = 5.5},
 {inputs = { wildhopsseed=1 }, outputs = { gene_stimulant=1 }, time = 5.5},
 {inputs = { wildcinnamonseed=1 }, outputs = { gene_stimulant=1 }, time = 5.5},
 {inputs = { wildautomatoseed=1 }, outputs = { gene_harden=1 }, time = 5.5},
@@ -299,7 +303,7 @@ local recipes = {
 {inputs = { wildkramil=1 }, outputs = { gene_immunity=2 }, time = 5.5},
 {inputs = { wildquellstem=1 }, outputs = { gene_resist=2 }, time = 5.5},
 {inputs = { wildvictorleaf=1 }, outputs = { gene_muscle=2 }, time = 5.5},
-{inputs = { wildtentacleplantseed=1 }, outputs = { gene_mimetic=2 }, time = 5.5},
+{inputs = { wildtentacleplant=1 }, outputs = { gene_mimetic=2 }, time = 5.5},
 
 --produce
 {inputs = { glowfibre=25 }, outputs = { gene_bioluminescent=1 }, time = 5.5},
