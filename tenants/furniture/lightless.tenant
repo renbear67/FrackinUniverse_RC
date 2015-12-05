@@ -2,7 +2,7 @@
   "name": "lightless",
   "priority": 10,
 
-  "tagCriteria": {
+  "colonyTagCriteria": {
     "door": 1,
     "evil": 24
   },

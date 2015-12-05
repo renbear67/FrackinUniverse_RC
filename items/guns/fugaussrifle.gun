@@ -21,6 +21,9 @@
   "fireOnRelease" : false,
 
   "projectileType" : "gaussrifleshot",
+      "projectileParameters" : { 
+      "knockback" : 4
+    },
   "projectile" : { 
   "speed" : 70, 
   "power" : 0.85, 

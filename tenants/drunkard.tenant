@@ -2,7 +2,7 @@
   "name": "drunkard_tenant",
   "priority": 8,
 
-  "tagCriteria": {
+  "colonyTagCriteria": {
     "drunkard": 5,
     "door": 1,
     "light": 2

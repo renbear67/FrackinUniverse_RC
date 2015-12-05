@@ -2,7 +2,7 @@
   "name": "beekeeper_tenant",
   "priority": 8,
 
-  "tagCriteria": {
+  "colonyTagCriteria": {
     "hive": 1,
     "bees": 12,
     "door": 1,

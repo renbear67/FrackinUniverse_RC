@@ -2,10 +2,10 @@
   "name": "bioworld",
   "priority": 10,
 
-  "tagCriteria": {
+  "colonyTagCriteria": {
     "light": 1,
     "door": 1,
-    "bioworld": 24
+    "bioworld": 12
   },
 
   "tenants": [

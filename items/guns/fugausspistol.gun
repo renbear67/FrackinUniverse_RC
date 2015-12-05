@@ -21,6 +21,7 @@
   "fireOnRelease" : false,
 
   "projectileType" : "gausspistolshot",
+
   "projectile" : { 
   "speed" : 70, 
   "power" : 0.9, 

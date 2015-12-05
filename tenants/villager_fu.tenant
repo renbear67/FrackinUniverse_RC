@@ -2,7 +2,7 @@
   "name": "villager_futenant",
   "priority": 2,
 
-  "tagCriteria": {
+  "colonyTagCriteria": {
     "light": 1,
     "door": 1,
     "fu": 6

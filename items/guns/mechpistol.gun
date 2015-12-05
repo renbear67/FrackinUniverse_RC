@@ -18,6 +18,9 @@
   "walkWhileFiring" : false,
   
   "projectileType" : "precursorshotsmall",
+    "projectileParameters" : { 
+      "knockback" : 2
+    },
   "projectile" : { "speed" : 60, "power" : 0.74 , "color" : [44, 104, 164] },
   "muzzleEffect" : {
        "fireSound" : [ { "file" : "/sfx/gun/plasma_pistol3.ogg" } ],

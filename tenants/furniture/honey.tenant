@@ -2,7 +2,7 @@
   "name": "honey",
   "priority": 8,
 
-  "tagCriteria": {
+  "colonyTagCriteria": {
     "light": 1,
     "door": 1,
     "honey": 12

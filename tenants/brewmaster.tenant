@@ -2,7 +2,7 @@
   "name": "brewmaster_tenant",
   "priority": 8,
 
-  "tagCriteria": {
+  "colonyTagCriteria": {
     "booze": 12,
     "door": 1,
     "light": 2

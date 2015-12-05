@@ -134,7 +134,7 @@
         {"weight" : 0.53, "pool" : "money"},
         {"weight" : 0.47, "item" : "phasematter"},
         {"weight" : 0.06, "item" : "mattermodulecomponent"},
-        {"weight" : 0.9, "pool" : "sharpenedclaw"}
+        {"weight" : 0.9, "item" : "sharpenedclaw"}
       ],
       "poolRounds" : [
         [0.20, 0],
@@ -150,7 +150,7 @@
         {"weight" : 0.83, "pool" : "money"},
         {"weight" : 0.01, "item" : "shoggothflesh"},
         {"weight" : 0.06, "item" : "mattermodulecomponent"},
-        {"weight" : 0.9, "pool" : "sharpenedclaw"}
+        {"weight" : 0.9, "item" : "sharpenedclaw"}
       ],
       "poolRounds" : [
         [0.20, 0],
