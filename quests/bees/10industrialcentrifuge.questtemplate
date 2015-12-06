@@ -17,7 +17,7 @@
       "items" : {
         "bees_industrialcentrifuge" : {
           "count" : 1,
-          "consume" : true
+          "consume" : false
         }
       }
     }

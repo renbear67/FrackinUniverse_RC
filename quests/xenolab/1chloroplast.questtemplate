@@ -19,7 +19,7 @@
       "items" : {
         "gene_chloroplast" : {
           "count" : 1,
-          "consume" : true
+          "consume" : false
         }
       }
     }

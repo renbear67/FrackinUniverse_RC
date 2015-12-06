@@ -19,7 +19,7 @@
       "items" : {
         "gene_bioluminescent" : {
           "count" : 1,
-          "consume" : true
+          "consume" : false
         }
       }
     }

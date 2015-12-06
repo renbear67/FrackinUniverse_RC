@@ -16,7 +16,7 @@
       "items" : {
         "lazuliteore" : {
           "count" : 50,
-          "consume" : true
+          "consume" : false
         }
       }
     }

@@ -19,7 +19,7 @@
       "items" : {
         "gene_nervebundle" : {
           "count" : 1,
-          "consume" : true
+          "consume" : false
         }
       }
     }

@@ -16,7 +16,7 @@
       "items" : {
         "blooddiamond" : {
           "count" : 25,
-          "consume" : true
+          "consume" : false
         }
       }
     }

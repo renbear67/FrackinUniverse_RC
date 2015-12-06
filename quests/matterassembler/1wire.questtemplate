@@ -18,7 +18,7 @@
       "items" : {
         "wire" : {
           "count" : 5,
-          "consume" : true
+          "consume" : false
         }
       }
     }

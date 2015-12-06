@@ -16,7 +16,7 @@
       "items" : {
         "eridianore" : {
           "count" : 25,
-          "consume" : true
+          "consume" : false
         }
       }
     }

@@ -14,7 +14,7 @@
       "items" : {
         "beestation" : {
           "count" : 1,
-          "consume" : true
+          "consume" : false
         }
       }
     }

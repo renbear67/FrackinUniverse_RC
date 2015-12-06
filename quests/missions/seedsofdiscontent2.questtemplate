@@ -19,7 +19,7 @@
       "items" : {
         "ignuschili2seed" : {
           "count" : 3,
-          "consume" : true
+          "consume" : false
         }
       }
     }

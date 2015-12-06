@@ -16,7 +16,7 @@
       "items" : {
         "ff_fertilizer" : {
           "count" : 1,
-          "consume" : true
+          "consume" : false
         }
       }
     }

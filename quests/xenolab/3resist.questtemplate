@@ -19,7 +19,7 @@
       "items" : {
         "gene_resist" : {
           "count" : 1,
-          "consume" : true
+          "consume" : false
         }
       }
     }

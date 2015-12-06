@@ -16,7 +16,7 @@
       "items" : {
         "mutaviskseed" : {
           "count" : 1,
-          "consume" : true
+          "consume" : false
         }
       }
     }

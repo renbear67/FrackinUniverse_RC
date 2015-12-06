@@ -18,7 +18,7 @@
       "items" : {
         "circuitboard" : {
           "count" : 1,
-          "consume" : true
+          "consume" : false
         }
       }
     }

@@ -16,7 +16,7 @@
       "items" : {
         "calichewall" : {
           "count" : 500,
-          "consume" : true
+          "consume" : false
         }
       }
     }

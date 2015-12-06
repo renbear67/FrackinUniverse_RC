@@ -16,7 +16,7 @@
       "items" : {
         "bees_woodencentrifuge" : {
           "count" : 1,
-          "consume" : true
+          "consume" : false
         }
       }
     }

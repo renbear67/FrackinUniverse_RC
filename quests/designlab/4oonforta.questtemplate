@@ -16,7 +16,7 @@
       "items" : {
         "oonfortaseed" : {
           "count" : 1,
-          "consume" : true
+          "consume" : false
         }
       }
     }

@@ -11,11 +11,12 @@
   "updateDelta" : 10,
   "script" : "/quests/scripts/main.lua",
   "scriptConfig" : {
+  "followUp" : "1nutrientpaste.gearup",
     "gatherRequirements" : {
       "items" : {
         "extractionlab" : {
           "count" : 1,
-          "consume" : true
+          "consume" : false
         }
       }
     }

@@ -15,7 +15,7 @@
       "items" : {
         "designlab" : {
           "count" : 1,
-          "consume" : true
+          "consume" : false
         }
       }
     }

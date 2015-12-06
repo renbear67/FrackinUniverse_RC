@@ -17,7 +17,7 @@
       "items" : {
         "ff_silicon" : {
           "count" : 1,
-          "consume" : true
+          "consume" : false
         }
       }
     }

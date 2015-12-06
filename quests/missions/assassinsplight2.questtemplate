@@ -19,7 +19,7 @@
       "items" : {
         "thornrifle" : {
           "count" : 1,
-          "consume" : true
+          "consume" : false
         }
       }
     }
