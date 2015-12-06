@@ -19,15 +19,15 @@
       "items" : {
         "fupioneerhead" : {
           "count" : 1,
-          "consume" : false
+          "consume" : true
         },
         "fupioneerchest" : {
           "count" : 1,
-          "consume" : false
+          "consume" : true
         },
         "fupioneerpants" : {
           "count" : 1,
-          "consume" : false
+          "consume" : true
         }
       }
     }

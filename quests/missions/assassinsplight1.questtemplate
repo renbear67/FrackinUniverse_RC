@@ -19,7 +19,7 @@
       "items" : {
         "spikesword" : {
           "count" : 1,
-          "consume" : false
+          "consume" : true
         }
       }
     }

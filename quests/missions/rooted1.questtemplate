@@ -19,7 +19,7 @@
       "items" : {
         "ff_gasmask" : {
           "count" : 1,
-          "consume" : false
+          "consume" : true
         }
       }
     }

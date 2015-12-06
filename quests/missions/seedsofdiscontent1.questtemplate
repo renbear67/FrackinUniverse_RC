@@ -19,7 +19,7 @@
       "items" : {
         "ignuschiliseed" : {
           "count" : 3,
-          "consume" : false
+          "consume" : true
         }
       }
     }
