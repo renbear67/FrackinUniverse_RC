@@ -1,8 +1,8 @@
 {
   "name" : "energyregenfu_armor50",
   "effectConfig" : {
-    "regenAmount" : 0.0050,
-    "regenBlockAmount" : 1
+    "regenAmount" : 1.50,
+    "regenBlockAmount" : 5
   },
   "defaultDuration" : 1,
 

@@ -1,8 +1,8 @@
 {
   "name" : "energyregenfu05",
   "effectConfig" : {
-    "regenAmount" : 0.05,
-    "regenBlockAmount" : 2
+    "regenAmount" : 1.05,
+    "regenBlockAmount" : 3
   },
   "defaultDuration" : 1,
 

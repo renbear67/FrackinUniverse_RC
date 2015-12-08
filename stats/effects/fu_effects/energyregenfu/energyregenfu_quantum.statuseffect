@@ -1,8 +1,8 @@
 {
   "name" : "energyregenfu_quantum",
   "effectConfig" : {
-    "regenAmount" : 0.058,
-    "regenBlockAmount" : 2
+    "regenAmount" : 4.028,
+    "regenBlockAmount" : 20
   },
   "defaultDuration" : 1,
 

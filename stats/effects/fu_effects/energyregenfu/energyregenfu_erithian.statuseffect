@@ -1,8 +1,8 @@
 {
   "name" : "energyregenfu_erithian",
   "effectConfig" : {
-    "regenAmount" : 0.015,
-    "regenBlockAmount" : 2
+    "regenAmount" : 2.015,
+    "regenBlockAmount" : 8
   },
   "defaultDuration" : 1,
 
