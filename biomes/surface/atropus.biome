@@ -480,7 +480,7 @@
                {
                  "pool" : [ 
                    [0.50, "isn_wildmeatplant" ],
-                   [0.50, "tentacleplantseed" ]
+                   [0.50, "wildtentacleplant" ]
                  ],
                  "parameters" : { "startingStage" : 3 }
                }

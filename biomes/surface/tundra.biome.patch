@@ -1,6 +1,17 @@
 [
-{"op":"add","path":"/spawnProfiles/0","value":{"extraSpawns":["aurorabee","driftbell","arcticbee"]}},
-{"op":"add","path":"/spawnProfiles/1","value":{"extraSpawns":["aurorabee","shardwing","arcticbee"]}},
+
+{"op":"add","path":"/spawnProfile/groups/-",
+"value":{ 
+      
+        "select" : 3,
+        "pool" : [ 
+          [ 0.111, "aurorabee" ],          
+          [ 0.111, "driftbell" ],
+          [ 0.111, "arcticbee" ]
+        ]
+      }
+},
+
 	{"op":"add","path":"/surfacePlaceables/items/-","value":{
 			"mode" : "floor",
 			"priority" : 3.0,

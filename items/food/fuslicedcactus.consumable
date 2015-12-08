@@ -16,7 +16,7 @@
 		},
 		{
 			"effect" : "wellfed",
-			"duration" : 120
+			"duration" : 80
 		}
     ] ],
   "blockingEffects" : [

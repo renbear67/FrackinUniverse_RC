@@ -1,6 +1,17 @@
 [
-{"op":"add","path":"/spawnProfiles/0","value":{ "extraSpawns":["frostfly","icetip","arcticbee"]}},
-{"op":"add","path":"/spawnProfiles/1","value":{ "extraSpawns":["frostfly","frostfleck","arcticbee"]}},
+
+{"op":"add","path":"/spawnProfile/groups/-",
+"value":{ 
+      
+        "select" : 3,
+        "pool" : [ 
+          [ 0.111, "frostfly" ],          
+          [ 0.111, "icetip" ],
+          [ 0.111, "arcticbee" ]
+        ]
+      }
+},
+
 	{"op":"add","path":"/surfacePlaceables/items/-","value":{
 			"mode" : "floor",
 			"priority" : 3.0,

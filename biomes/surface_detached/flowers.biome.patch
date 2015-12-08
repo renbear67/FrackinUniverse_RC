@@ -1,5 +1,11 @@
 [ 
-
-{"op":"replace","path":"/spawnProfiles/0","value":{"groups":["mediumsurface1"],"extraSpawns":["flowerbee"]}},
-{"op":"replace","path":"/spawnProfiles/1","value":{"groups":["mediumsurface2"],"extraSpawns":["flowerbee"]}}
+{"op":"add","path":"/spawnProfile/groups/-",
+"value":{ 
+      
+        "select" : 1,
+        "pool" : [ 
+          [ 0.111, "flowerbee" ]
+        ]
+      }
+}
 ]

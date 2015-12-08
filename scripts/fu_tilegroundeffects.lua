@@ -9,13 +9,13 @@ function tileMaterials()
   --  groundSoftness}
   -- ["anormaltile"] = {{},1,1,1,14,100,0,1}
   self.matCheck["mud"] = {{"fumudslow"},1,1,1,14,101,1,1.75}
-  self.matCheck["clay"] = {{"fumudslow"},1,1,1,14,101,1,1.75}
-  self.matCheck["sand"] = {{"jungleslow"},1,1,1,14,101,1,1.9}
-  self.matCheck["rainbowsand"] = {{"jungleslow"},1,1,1,14,101,1,1.2}
-  self.matCheck["glowingsand"] = {{"glow"},1,1,1,14,101,1,1.2} 
-  self.matCheck["crystalsand"] = {{"jungleslow"},1,1,1,14,101,1,1.9}
-  self.matCheck["glasssand"] = {{"jungleslow"},1,1,1,14,101,1,1.9}
-  self.matCheck["redsand"] = {{"jungleslow"},1,1,1,14,101,1,1.9}
+  self.matCheck["clay"] = {{"fuclayslow"},1,1,1,14,101,0,1.75}
+  self.matCheck["sand"] = {{"jungleslow"},1,1,1,14,101,0.5,1.9}
+  self.matCheck["rainbowsand"] = {{"jungleslow"},1,1,1,14,101,0.5,1.2}
+  self.matCheck["glowingsand"] = {{"glow"},1,1,1,14,101,0.5,1.2} 
+  self.matCheck["crystalsand"] = {{"jungleslow"},1,1,1,14,101,0.5,1.9}
+  self.matCheck["glasssand"] = {{"jungleslow"},1,1,1,14,101,0.5,1.9}
+  self.matCheck["redsand"] = {{"jungleslow"},1,1,1,14,101,0.5,1.9}
   self.matCheck["jungledirt2"] = {{"jungleslow"},1,1,1,14,100,0,1}
   self.matCheck["swampdirtff"] = {{"jungleslow"},1,1,1,14,100,0,1}
   self.matCheck["frozenwater"] = {{"iceslip"},1,1,1,14,100,0,1}
@@ -30,8 +30,8 @@ function tileMaterials()
   self.matCheck["slime2"] = {{"slimestick"},1,1,1,14,101,1,1.75}
   self.matCheck["magmatile"] = {{"burning"},1,1,1,14,100,0,1}
   self.matCheck["magmatile2"] = {{"burning"},1,1,1,14,100,0,1}
-  self.matCheck["blackslime"] = {{"slimestick","weakpoison"},1,1,1,14,101,1,1.65}
-  self.matCheck["spidersilkblock"] = {{"webstick"},1,1,1,14,101,1,1.32}
+  self.matCheck["blackslime"] = {{"slimestick","weakpoison"},1,1,1,14,101,1.5,1.65}
+  self.matCheck["spidersilkblock"] = {{"webstick"},1,1,1,14,101,0,1.32}
   self.matCheck["irradiatedtile"] = {{"radiationburn"},1,1,1,14,100,0,1}
   self.matCheck["irradiatedtile2"] = {{"radiationburn"},1,1,1,14,100,0,1}
   self.matCheck["irradiatedtile3"] = {{"radiationburn"},1,1,1,14,100,0,1}
@@ -43,7 +43,7 @@ function tileMaterials()
   self.matCheck["asphalt"] = {{"metalspeed"},1,1,1,14,100,0,1.4}
   self.matCheck["cloudblock"] = {{"lowgrav"},1,1,1,14,101,1,1.2}
   self.matCheck["raincloud"] = {{"lowgrav"},1,1,1,14,101,1,1.2}
-  self.matCheck["honeycombmaterial"] = {{"honeyslow"},1,1,1,14,101,1,1.7}  
-  self.matCheck["speedblock"] = {{"runboost35"},1,1,1,14,101,1,1.75} 
-  self.matCheck["jumpblock"] = {{"jumpboost35"},1,1,1,14,101,1,1.75} 
+  self.matCheck["honeycombmaterial"] = {{"honeyslow"},1,1,1,14,101,0,1.7}  
+  self.matCheck["speedblock"] = {{"runboost35"},1,1,1,14,101,0,1.75} 
+  self.matCheck["jumpblock"] = {{"jumpboost35"},1,1,1,14,101,0,1.75} 
 end

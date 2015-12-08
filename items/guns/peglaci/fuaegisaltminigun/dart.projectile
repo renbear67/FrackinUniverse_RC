@@ -47,12 +47,7 @@
       "angleAdjust" : -90
     }
   ],  
-    "statusEffects" : [
-	{
-      "effect" : "protectiondrainpeglaci",
-      "amount" : 20
-    }
-  ],
+    "statusEffects" : [ "defenseboostneg20" ],
   "damageKind" : "default",
   "emitters" : [ "peglacitrailpurple" ]
 }
