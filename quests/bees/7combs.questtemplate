@@ -16,7 +16,7 @@
       "items" : {
         "normalcomb" : {
           "count" : 1,
-          "consume" : false
+          "consume" : true
         }
       }
     }

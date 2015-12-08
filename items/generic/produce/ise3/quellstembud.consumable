@@ -4,26 +4,26 @@
   "inventoryIcon" : "quellstembud.png",
   "description" : "Total immunity to heat and fire.",
   "shortdescription" : "Quellstem Bud",
-      "effects" : [ [
+      "statusEffects" : [ [
       {
         "effect" : "fireImmunity",
         "amount" : 1.0,
-        "duration" : 120
+        "duration" : 60
       },
       {
         "effect" : "lavaImmunity",
         "amount" : 1.0,
-        "duration" : 120
+        "duration" : 60
       },
       {
         "effect" : "biomeheatImmunity",
         "amount" : 1.0,
-        "duration" : 120
+        "duration" : 60
       },
       {
         "effect" : "ffextremeheatImmunity",
         "amount" : 1.0,
-        "duration" : 120
+        "duration" : 60
       }
     ] ]
 }

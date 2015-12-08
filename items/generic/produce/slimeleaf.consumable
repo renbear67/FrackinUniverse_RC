@@ -5,6 +5,6 @@
   "description" : "Tastes like ass. Upside? 30 Protection and Slime immunity.",
   "shortdescription" : "Slime Leaf",
       "effects" : [ [
-          "defenseboost1","slimestickimmunity"
+          "defense1","slimestickimmunity"
     ] ]
 }
