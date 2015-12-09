@@ -39,5 +39,9 @@
       "harvestPool" : "isn_meatplant",
       "resetToStage" : 2
     }
+  ],
+  
+  "breakDropOptions" : [
+    [ [ "isn_meatplant", 1, { } ] ]
   ]
 }
