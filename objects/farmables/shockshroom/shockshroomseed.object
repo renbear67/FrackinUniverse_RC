@@ -40,7 +40,7 @@
             "damage" : 8,
 
             "damageType" : "IgnoresDef",
-            "damageSourceKind" : "electroshock"
+            "damageSourceKind" : "electricplasma"
           },
     "maxImmersion" : 0.125
 }

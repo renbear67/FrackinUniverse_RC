@@ -25,7 +25,7 @@
           [ 0.1, "fireflyspawner" ],
 		  [ 0.1, "goldbuck" ],
 		  [ 0.1, "scuttleploom" ],
-		  [ 0.1, "frog" ],
+		  [ 0.1, "frogcritter" ],
 		  [ 0.1, "harecritter" ],
 		  [ 0.1, "owlcritter" ],
 		  [ 0.1, "tritrotscritter" ]

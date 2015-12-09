@@ -170,6 +170,15 @@
           "distribution" : "/biomes/distributions.config:randomEncounter",
 
           "type" : "microdungeon",
+          "microdungeons" : [ "darkmicrodungeons" ]
+        },        
+        {
+          "mode" : "floor",
+          "priority" : 3.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:randomEncounter",
+
+          "type" : "microdungeon",
           "microdungeons" : [ "randomencounter", "treasureroom", "avianencounter", "glitchencounter", "shroomencounter" ]
         },       
         {

@@ -22,7 +22,8 @@
           [ 0.1, "fireflyspawner" ],
 		  [ 0.1, "goldbuck" ],
 		  [ 0.1, "scuttleploom" ],
-		  [ 0.1, "frog" ],
+		  [ 0.1, "frogcritter" ],
+		  [ 0.1, "owlcritter" ],
 		  [ 0.1, "harecritter" ],
 		  [ 0.1, "owlcritter" ],
 		  [ 0.1, "tritrotscritter" ]
@@ -234,6 +235,24 @@
     "grassModDensity" : 0.9,
     
     "items" : [
+        {
+          "mode" : "floor",
+          "priority" : 3.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures",
+
+          "type" : "microdungeon",
+          "microdungeons" : [ "canyonmini", "terrainfeatures", "rockclimb", "rocktunnel",  "toxicmicrodungeons", "layeredspire" ]
+        },    
+        {
+          "mode" : "floor",
+          "priority" : 3.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
+
+          "type" : "microdungeon",
+          "microdungeons" : [ "fleshmicrodungeons", "alpinemicrodungeons", "prismmicrodungeons" ]
+        },    
       {
         "mode" : "floor",
         "priority" : 1.0,

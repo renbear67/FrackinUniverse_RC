@@ -1,5 +1,21 @@
 [
   {
+    "name" : "eyefriend",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "groupSize" : [1, 3],
+    "targetDensity" : 0.04,
+    "monsterType" : "eyepod",
+    "monsterParameters" : {
+      "aggressive" : false
+    }
+  },
+  {
     "name" : "fudrone",
 
     "spawnParameters" : {

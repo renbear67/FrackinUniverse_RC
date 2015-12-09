@@ -28,7 +28,7 @@
         "pool" : [
 		  [ 0.3, "apexscabcritter" ],
           [ 0.4, "avianscabcritter" ],
-          [ 0.3, "eyefriend" ],
+          [ 0.3, "eyefriendcritter" ],
           [ 0.3, "eyepodcritter" ],
 		  [ 0.3, "floranscabcritter" ],
 		  [ 0.3, "glitchscabcritter" ],

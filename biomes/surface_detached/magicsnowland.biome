@@ -32,7 +32,7 @@
       {
         "select" : 2,
         "pool" : [
-          [ 1, "bunnycommon" ],
+          [ 1, "bunnycritter" ],
           [ 1, "reasonablecritter" ],
           [ 1, "redbreastcritter" ],
           [ 1, "yeticritter" ],

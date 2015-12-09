@@ -27,7 +27,9 @@
 		  [ 0.1, "mudstag" ],
 		  [ 0.1, "funewt" ],
 		  [ 0.1, "mousecritter" ],
+		  [ 0.1, "frogcritter" ],
 		  [ 0.1, "owlcritter" ],
+		  [ 0.4, "snakecritter" ],
 		  [ 0.1, "squeekcritter" ],
 		  [ 0.1, "tinycrocodilecritter" ]
         ]

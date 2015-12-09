@@ -12,6 +12,6 @@
   "animationLoops" : false,
   "piercing" : false,
   "flippable" : true,
-  "damageKind" : "electroshock",
+  "damageKind" : "electricplasma",
   "lightColor" : [100, 0, 100]
 }
