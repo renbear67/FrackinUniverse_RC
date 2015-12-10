@@ -1,0 +1,19 @@
+{
+  "name" : "atropusbush1",
+  "description" : "Strange fleshy stuff.",
+  "shortdescription" : "What in the...just being near this is uncomfortable.",
+  "shapes" : [
+    {
+      "base" : "atropus4.png"
+    },
+    {
+      "base" : "atropus5.png"
+    },
+    {
+      "base" : "atropus6.png"
+    },
+    {
+      "base" : "atropus7.png"
+    }
+  ]
+}
