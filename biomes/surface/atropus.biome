@@ -211,6 +211,9 @@
             {
               "pool" : 
               [ 
+              [0.55, "atropus1" ], 
+              [0.55, "atropus2" ], 
+              [0.55, "atropus3" ],
               [0.15, "fleshbush1" ], 
               [0.15, "fleshbush2" ], 
               [0.15, "fleshbush3" ], 
@@ -227,11 +230,7 @@
               [0.15, "heckbush7" ], 
               [0.15, "heckbush8" ], 
               [0.15, "heckbush9" ], 
-              [0.15, "heckbush10" ],
-              [0.15, "hecklight1" ], 
-              [0.15, "hecklight2" ], 
-              [0.15, "heckpillar1" ], 
-              [0.15, "heckpillar2" ]
+              [0.15, "heckbush10" ]
               ],
               "parameters" : { }
             }
@@ -243,7 +242,7 @@
           "mode" : "floor",
           "priority" : 1.0,
           "variants" : 1,
-          "distribution" : "/biomes/distributions.config:denseLarge",
+          "distribution" : "/biomes/distributions.config:scatteredLarge",
 
           "type" : "tree",
           "treeFoliageHueShiftMax" : 35,
@@ -279,7 +278,7 @@
           "mode" : "floor",
           "priority" : 3.0,
           "variants" : 1,
-          "distribution" : "/biomes/distributions.config:scatteredSmall",
+          "distribution" : "/biomes/distributions.config:ffunCommon",
 
           "type" : "grass",
           "grasses" : [ "freebone", "fleshbone", "fleshplant", "heckflower", "shadowy", "skeletonflower"  ]
@@ -293,6 +292,21 @@
           "type" : "grass",
           "grasses" : [ "ceilingfleshplant", "ceilingfleshbone" ]
         },
+        {
+          "mode" : "floor",
+          "priority" : 2.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:ffCommon",
+
+          "type" : "bush",
+          "bushes" : [
+            {
+              "name" : "atropusbush1",
+              "baseHueShiftMax" :35,
+              "modHueShiftMax" : 35
+            }
+          ]
+        },        
         {
           "mode" : "floor",
           "priority" : 2.0,

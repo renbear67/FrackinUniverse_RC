@@ -1,13 +1,13 @@
 {
   "objectName" : "wildblizzberryseed",
-    "tags" : [ "nature" ],
+  "tags" : [ "nature" ],
   "rarity" : "Common",
   "category" : "farmable",
   "description" : "Immune to even the most extreme cold.",
   "shortdescription" : "Blizzberry Seed",
   "objectType" : "farmable",
   "printable" : false,
-    "learnBlueprintsOnPickup" : [ "kramil" ],
+  "learnBlueprintsOnPickup" : [ "kramil" ],
   "inventoryIcon" : "blizzberryseedicon.png",
   "orientations" : [
     {
