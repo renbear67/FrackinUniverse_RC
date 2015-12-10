@@ -8,7 +8,7 @@
       "repeatY" : true
     },
     {
-      "kind" : "tile/icecavern",
+      "kind" : "tile/iceback",
       "nohueshift" : false,
       "lightMapped" : true,
       "parallax" : 1.5,

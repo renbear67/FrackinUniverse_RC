@@ -1,10 +1,24 @@
 {
   "layers" : [
     {
+      "kind" : "tile/cavernlightsfront",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.2,
+      "repeatY" : true
+    },
+    {
       "kind" : "tile/crystalcave",
       "nohueshift" : false,
       "lightMapped" : true,
       "parallax" : 1.2,
+      "repeatY" : true
+    },
+    {
+      "kind" : "tile/cavernlights",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.5,
       "repeatY" : true
     },
     {

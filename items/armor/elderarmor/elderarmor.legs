@@ -9,7 +9,7 @@
   "tooltipKind" : "armor",
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",
-
+  "effectSources" : [ "shadowsmoke2" ],
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",

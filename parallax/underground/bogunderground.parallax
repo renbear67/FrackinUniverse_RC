@@ -1,13 +1,25 @@
 {
   "layers" : [
     {
-      "kind" : "tile/bogunderground",
-      "nohueshift" : true,
+      "kind" : "tile/plants",
+      "nohueshift" : false,
       "lightMapped" : true,
       "parallax" : 1.2,
-      "repeatY" : true,
-      "modifiers" : "?saturation=-10",
-      "baseCount" : 5
+      "repeatY" : true
+    },
+    {
+      "kind" : "tile/lakecavern",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.2,
+      "repeatY" : true
+    },
+    {
+      "kind" : "tile/lakeback",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.5,
+      "repeatY" : true
     }
   ]
 }

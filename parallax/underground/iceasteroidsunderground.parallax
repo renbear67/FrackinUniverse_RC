@@ -1,10 +1,17 @@
 {
   "layers" : [
     {
-      "kind" : "tile/iceasteroidsground",
-      "nohueshift" : true,
+      "kind" : "tile/icecavernhollow",
+      "nohueshift" : false,
       "lightMapped" : true,
       "parallax" : 1.2,
+      "repeatY" : true
+    },
+    {
+      "kind" : "tile/iceback",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.5,
       "repeatY" : true
     }
   ]

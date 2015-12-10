@@ -1,13 +1,18 @@
 {
   "layers" : [
     {
-      "kind" : "tile/bloodstoneunderground",
-      "nohueshift" : true,
+      "kind" : "tile/stalegtites",
+      "nohueshift" : false,
       "lightMapped" : true,
       "parallax" : 1.2,
-      "repeatY" : true,
-      "modifiers" : "?saturation=-10",
-      "baseCount" : 2
+      "repeatY" : true
+    },
+    {
+      "kind" : "tile/clayback",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.5,
+      "repeatY" : true
     }
   ]
 }

@@ -10,7 +10,7 @@
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",
-
+  "effectSources" : [ "shadowsmoke2" ],
   "statusEffects" : [
       {
       "stat" : "powerMultiplier",
