@@ -197,6 +197,9 @@ local recipes =
 {inputs = { ff_bambooshoot=1 }, outputs = { geneticmaterial=2 }, time = 0.95},
 {inputs = { blooddiamond=1 }, outputs = { quietusore=3 }, time = 0.95},
 -- tiles
+{inputs = { shadowwallblock=50 }, outputs = { rawminerals=3 }, time = 0.95},
+{inputs = { shadowspikeblock=50 }, outputs = { rawminerals=3 }, time = 0.95},
+{inputs = { shadowblock=50 }, outputs = { rawminerals=3 }, time = 0.95},
 {inputs = { concretematerial=50 }, outputs = { rawminerals=2 }, time = 0.95},
 {inputs = { honeycombmaterial=50 }, outputs = { fu_liquidhoney=2 }, time = 0.95},
 {inputs = { fu_honeycombblock=50 }, outputs = { fu_liquidhoney=2 }, time = 0.95},
