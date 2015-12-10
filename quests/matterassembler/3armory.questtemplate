@@ -7,7 +7,7 @@
   "speaker" : "questGiver",
   "moneyRange" : [0, 0],
   "rewards" : [
-    [ [ "ironore", 8 ] ]
+    [ [ "silverore", 12 ] ]
   ],
 
   "updateDelta" : 10,

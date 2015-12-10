@@ -278,6 +278,7 @@
       "maskRange" : [1, 25],
       "maskPerPlanetRange" : [0, 2]  
   }},   
+     
   {"op" : "add", 
   "path" : "/terrestrialHorizonGraphics/penumbra",
   "value" : 

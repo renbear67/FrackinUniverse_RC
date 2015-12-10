@@ -1,7 +1,7 @@
 {
   "id" : "berlinite.gearup",
   "title" : "^#1693d5;Blinded by the Light",
-  "text" : "^orange;Berlinite^white; can be ^green;smelted or extracted^white; tp produce useful Phosphorus. It has numerous applications.",
+  "text" : "^orange;Berlinite^white; can be ^green;smelted or extracted^white; to produce useful Phosphorus. It has numerous applications.",
   "completionText" : "I need to remember not to ignore phosphorus close to my face. That probably wouldn't be wise.",
   "speaker" : "player",
   "moneyRange" : [100, 200],

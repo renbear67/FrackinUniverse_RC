@@ -3,7 +3,7 @@
 	"path":"/isn_meatplant",
 	"value":[[0, {
 	"pool":[ 
-        {"weight" : 0.5, "item" : "isn_meatplant"},
+        {"weight" : 0.3, "item" : "fleshstrand"},
         {"weight" : 0.3, "item" : "alienmeat"},
         {"weight" : 0.1, "item" : "rawfleshlump"},
         {"weight" : 0.1, "item" : "offal"},

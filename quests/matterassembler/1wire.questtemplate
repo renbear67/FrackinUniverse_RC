@@ -7,7 +7,7 @@
   "speaker" : "questGiver",
   "moneyRange" : [0, 0],
   "rewards" : [
-    [ ["scientistlegs",1] ] 
+    [ ["scientistlegs",1]  ] 
   ],
 
   "updateDelta" : 10,
