@@ -16,11 +16,11 @@
   "walkWhileFiring" : false,
   "level" : 2,
   "projectileType" : "bullet-2",
-  "classMultiplier" : 0.5,
+  "classMultiplier" : 1.5,
   "projectile" : {
     "speed" : 75,
     "life" : 3,
-    "power" : 4,
+    "power" : 2,
     "color" : [155, 10, 10]
   },
   "muzzleEffect" : {

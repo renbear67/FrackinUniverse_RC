@@ -31,7 +31,7 @@
   },
 
     "mainBlock" : "purplecrystal",
-    "subBlocks" : [ "moonstone", "obsidian" ],
+    "subBlocks" : [ "moonstone", "crystalblock" ],
     "ores" : "ff_deepcrystalmoonOres",
 
   "parallax" : "/parallax/underground/crystalmoonunderground.parallax",

@@ -9,5 +9,5 @@
     "item" : "hybridminer",
     "count" : 1
   },
-  "groups" : [ "nanofabricator", "tools", "all" ]
+  "groups" : [ "nanofabricator", "weapons", "all" ]
 }
