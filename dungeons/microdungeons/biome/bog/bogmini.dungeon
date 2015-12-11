@@ -83,7 +83,11 @@
       "comment" : "Biome tile brush non-overwritable",
       "brush" : [ [ "surfacebackground" ] ]
     },
-
+    {
+      "value" : [90, 90, 90, 255],
+      "comment" : "Biome tile brush non-overwritable",
+      "brush" : [ [ "surfacebackground" ] ]
+    },
     {
       "value" : [200, 200, 200, 255],
       "comment" : "Biome tile background brush",
