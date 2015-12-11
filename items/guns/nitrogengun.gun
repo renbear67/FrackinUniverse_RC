@@ -16,7 +16,7 @@
   "fireTime" : 1.5,
   "twoHanded" : true,
   "walkWhileFiring" : false,
-
+  "itemTags" : ["weapon","ranged","shotgun"],
   "fireOnRelease" : false,
 
   "projectileType" : "iceblade",

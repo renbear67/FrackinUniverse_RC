@@ -15,7 +15,7 @@
   "fireTime" : 0.47,
   "twoHanded" : true,
   "walkWhileFiring" : false,
-
+  "itemTags" : ["weapon","ranged","rocketlauncher"],
   "projectileType" : "throwingknife",
   "projectile" : { 
   "speed" : 65, 

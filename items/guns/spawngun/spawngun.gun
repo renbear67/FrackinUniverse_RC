@@ -8,7 +8,7 @@
   "image" : "spawngun.png",
   "handPosition" : [-3.5, -3],
   "firePosition" : [20, 1.5],
-
+  "itemTags" : ["weapon","ranged","shotgun"],
   "fireTime" : 1,
   "twoHanded" : true,
   "level" : 1,

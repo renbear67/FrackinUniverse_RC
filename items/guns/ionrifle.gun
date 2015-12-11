@@ -18,7 +18,7 @@
   "twoHanded" : true,
   "walkWhileFiring" : false,
   "fireOnRelease" : false,
-
+  "itemTags" : ["weapon","ranged","assaultrifle"],
   "projectileType" : "ionrifleshot",
 
   "projectile" : { 

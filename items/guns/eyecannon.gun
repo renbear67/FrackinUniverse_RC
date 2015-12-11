@@ -11,6 +11,7 @@
   "firePosition" : [20, 1.5],
   "weaponType" : "Bio-Tech",
   "recoilTime" : 0.1,
+  "itemTags" : ["weapon","ranged","grenadelauncher"],
   "level" : 4,
   "tooltipKind" : "gun",
   "fireTime" : 0.95,

@@ -23,7 +23,7 @@
     },
   
     "fireOnRelease" : false,
-    
+    "itemTags" : ["weapon","ranged","assaultrifle"],
     "projectileType" : "irradiumpistolshot",
 
     "powerProjectileTime" : [0.4, 50],

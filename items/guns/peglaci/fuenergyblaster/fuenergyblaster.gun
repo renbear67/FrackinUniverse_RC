@@ -8,7 +8,7 @@
   "shortdescription" : "Energy Lobber",
   "image" : "fuenergyblaster.png:<frame>",
   "imageFrameSelector" : "fuenergyblasterImageSelector",
- 
+ "itemTags" : ["weapon","ranged","assaultrifle"],
   "handPosition" : [-5, -1],
   "firePosition" : [12, -1],
   "level" : 5,

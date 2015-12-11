@@ -16,7 +16,7 @@
   "fireTime" : 1.075,
   "twoHanded" : true,
   "walkWhileFiring" : false,
-
+  "itemTags" : ["weapon","ranged","rocketlauncher"],
   "projectileType" : "fuplasmarifleblast",
   "projectile" : { 
   "speed" : 60, 

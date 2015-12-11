@@ -16,7 +16,7 @@
   "twoHanded" : false,
   "walkWhileFiring" : false,
   "inaccuracy" : 0.08,
-
+  "itemTags" : ["weapon","ranged","pistol"],
   "fireOnRelease" : false,
 
   "projectileType" : "flaregunflare",

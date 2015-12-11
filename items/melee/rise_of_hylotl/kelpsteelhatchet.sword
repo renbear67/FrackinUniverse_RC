@@ -8,7 +8,7 @@
   "shortdescription" : "Kelpsteel Hatchet",
   "tooltipKind" : "sword",
   "kind" : "Broadsword",
-
+  "itemTags" : ["weapon","melee","broadsword"],
   "image" : "kelpsteelhatchet.png",
   "firePosition" : [15.5, 4.5],
   "fireTime" : 0.87,

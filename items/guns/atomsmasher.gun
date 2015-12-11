@@ -12,6 +12,7 @@
     "weaponType" : "Rocket Launcher",
     "recoilTime" : 0.1,
     "level" : 10,
+    "itemTags" : ["weapon","ranged","rocketlauncher"],
     "tooltipKind" : "gun",
     "fireTime" : 4,
     "twoHanded" : true,

@@ -8,7 +8,7 @@
   "shortdescription" : "Crippler Pistol",
   "image" : "chargesmg.png:<frame>",
   "imageFrameSelector" : "chargesmgImageSelector",
-
+  "itemTags" : ["weapon","ranged","machinepistol"],
   "handPosition" : [-5, -1],
   "firePosition" : [4, 1.5],
   "level" : 3,

@@ -8,6 +8,7 @@
   "shortdescription" : "Bane Spear",
   "inspectionKind" : "sword",
   "tooltipKind" : "sword",
+  "itemTags" : ["weapon","melee","spear"],
   "kind" : "Spear",
   "image" : "banespear.png",
   "firePosition" : [52.5, -7.0],

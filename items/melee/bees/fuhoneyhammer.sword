@@ -8,7 +8,7 @@
   "shortdescription" : "Honey Hammer",
   "tooltipKind" : "sword",
   "weaponType" : "Hammer",
-
+  "itemTags" : ["weapon","melee","hammer"],
   "image" : "honeyhammer.png",
   "firePosition" : [15.5, 4.5],
   "fireTime" : 1.0,

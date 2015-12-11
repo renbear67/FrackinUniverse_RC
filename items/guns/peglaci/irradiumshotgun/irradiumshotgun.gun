@@ -10,6 +10,7 @@
   "imageFrameSelector" : "irradiumshotgunImageSelector",
   "handPosition" : [-9, -3],
   "firePosition" : [12, 2],
+  "itemTags" : ["weapon","ranged","shotgun"],
   "level" : 4,
   "tooltipKind" : "gun",
   "weaponType" : "Shotgun",

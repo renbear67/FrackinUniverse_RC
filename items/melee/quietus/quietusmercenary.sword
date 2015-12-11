@@ -9,7 +9,7 @@
   "inspectionKind" : "sword",
   "tooltipKind" : "sword",
   "kind" : "shortsword",
-
+  "itemTags" : ["weapon","melee","shortsword"],
   "image" : "quietusmercenary.png",
   "firePosition" : [35.5, 0],
   "fireTime" : 0.47,

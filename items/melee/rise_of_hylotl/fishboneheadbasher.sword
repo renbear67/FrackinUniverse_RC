@@ -8,7 +8,7 @@
   "shortdescription" : "Fishbone Headbasher",
   "tooltipKind" : "sword",
   "kind" : "Hammer",
-
+  "itemTags" : ["weapon","melee","hammer"],
   "image" : "fishboneheadbasher.png",
   "firePosition" : [12.5, -3.5],
   "fireTime" : 1.2,

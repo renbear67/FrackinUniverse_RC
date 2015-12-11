@@ -12,6 +12,7 @@
   "recoilTime" : 0.1,
   "level" : 7,
   "tooltipKind" : "gun",
+  "itemTags" : ["weapon","ranged","rifle"],
   "fireTime" : 0.3,
   "twoHanded" : true,
   "walkWhileFiring" : false,

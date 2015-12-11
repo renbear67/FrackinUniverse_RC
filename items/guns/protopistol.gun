@@ -13,6 +13,7 @@
     "weaponType" : "Energy",
     "recoilTime" : 0.1,
     "level" : 3,
+    "itemTags" : ["weapon","ranged","pistol"],
     "tooltipKind" : "gun",
     "fireTime" : 0.25,
     "twoHanded" : false,

@@ -17,7 +17,7 @@
   "fireTime" : 0.45,
   "twoHanded" : true,  
   "walkWhileFiring" : false,
-  
+  "itemTags" : ["weapon","ranged","assaultrifle"],
   "projectileType" : "mineralcannonshot",
   "projectile" : { "speed" : 60, "power" : 4.4 , "color" : [0, 180, 0] },
   "muzzleEffect" : {

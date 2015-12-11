@@ -9,6 +9,7 @@
   "inspectionKind" : "sword",
   "tooltipKind" : "sword",
   "kind" : "Broadsword",
+  "itemTags" : ["weapon","melee","broadsword"],
   "image" : "solarisword.png",
   "firePosition" : [30.5, 0],
   "fireTime" : 0.89,

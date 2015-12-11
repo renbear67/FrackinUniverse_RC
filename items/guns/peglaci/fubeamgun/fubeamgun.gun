@@ -7,6 +7,7 @@
   "description" : "Powerful ray of microwave radiation that causes the ground to erupt in it's wake.",
   "shortdescription" : "Beam Rifle",
   "image" : "fubeamgun.png:<frame>",
+  "itemTags" : ["weapon","ranged","assaultrifle"],
   "imageFrameSelector" : "fubeamgunImageSelector",
   "handPosition" : [-10, -1],
   "firePosition" : [12, 0],

@@ -15,6 +15,7 @@
   "walkWhileFiring" : false,
   "fireTime" : 0.35,
   "inaccuracy" : 0.03,
+  "itemTags" : ["weapon","ranged","pistol"],
   "learnBlueprintsOnPickup" : [ "ff_icechucker" ],
   "projectileType" : "iceshardsmall",
   "projectile" : {

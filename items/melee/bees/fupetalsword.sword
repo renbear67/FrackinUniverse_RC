@@ -8,7 +8,7 @@
   "shortdescription" : "Petal Sword",
   "tooltipKind" : "sword",
   "weaponType" : "Broadsword",
-
+  "itemTags" : ["weapon","melee","broadsword"],
   "image" : "petalsword.png",
   "firePosition" : [15.5, 4.5],
   "fireTime" : 0.8,

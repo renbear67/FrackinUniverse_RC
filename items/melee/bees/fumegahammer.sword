@@ -8,7 +8,7 @@
   "shortdescription" : "Mega Honey Hammer",
   "tooltipKind" : "sword",
   "weaponType" : "Hammer",
-
+  "itemTags" : ["weapon","melee","hammer"],
   "image" : "megahammer.png",
   "firePosition" : [15.5, 4.5],
   "fireTime" : 1.3,

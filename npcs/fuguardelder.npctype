@@ -10,7 +10,7 @@
             "chest" : [ { "name" : "elderarmorchest" } ],
             "legs" : [ { "name" : "elderarmorpants" } ],
             "primary" : [
-              { "name" : "elderblade" }, { "name": "elderpistol" }
+              "elderblade", "elderpistol"
             ]
           }
         ] ]

@@ -9,7 +9,7 @@
   "inspectionKind" : "sword",
   "tooltipKind" : "sword",
   "kind" : "Broadsword",
-
+  "itemTags" : ["weapon","melee","broadsword"],
   "image" : "obsidianblade.png",
   "firePosition" : [-2, 4],
   "fireTime" : 0.67,

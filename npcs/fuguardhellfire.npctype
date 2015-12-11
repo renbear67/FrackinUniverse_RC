@@ -10,10 +10,7 @@
             "chest" : [ { "name" : "fubonusarmorchest" } ],
             "legs" : [ { "name" : "fubonusarmorpants" } ],
             "primary" : [
-              { "name" : "hellfirepistol" }
-            ],
-            "sheathedprimary" : [
-              [ "hellfireblade" ]
+              "hellfirepistol"
             ]
           }
         ] ]

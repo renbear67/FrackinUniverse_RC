@@ -17,7 +17,7 @@
   "inaccuracy" : 0.025,
   "twoHanded" : false,
   "walkWhileFiring" : false,
-
+  "itemTags" : ["weapon","ranged","machinepistol"],
   "fireOnRelease" : false,
 
   "projectileType" : "gausspistolshot",

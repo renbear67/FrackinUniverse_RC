@@ -11,6 +11,7 @@
   "handPosition" : [-9, -4],
   "firePosition" : [6, 1.5],
   "level" : 4,
+  "itemTags" : ["weapon","ranged","pistol"],
   "tooltipKind" : "gun",
   "weaponType" : "Pistol",
   "fireTime" : 0.2,

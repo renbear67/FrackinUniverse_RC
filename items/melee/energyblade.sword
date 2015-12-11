@@ -9,7 +9,7 @@
   "inspectionKind" : "sword",
   "tooltipKind" : "sword",
   "kind" : "Broadsword",
-
+  "itemTags" : ["weapon","melee","broadsword"],
   "image" : "energyblade.png",
   "firePosition" : [35.5, -10.5],
   "fireTime" : 0.7,

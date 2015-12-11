@@ -22,7 +22,7 @@
     },
   
     "fireOnRelease" : false,
-    
+    "itemTags" : ["weapon","ranged","machinepistol"],
     "projectileType" : "hybridminershot3",
 
     "powerProjectileTime" : [0.4, 50],

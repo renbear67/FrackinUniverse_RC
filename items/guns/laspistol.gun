@@ -22,7 +22,7 @@
     },
     "learnBlueprintsOnPickup" : [ "isn_terawattlaser" ],
     "fireOnRelease" : false,
-    
+    "itemTags" : ["weapon","ranged","pistol"],
     "projectileType" : "fulaserpistol",
 
     "powerProjectileTime" : [0.4, 50],

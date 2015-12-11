@@ -9,7 +9,7 @@
   "inspectionKind" : "sword",
   "tooltipKind" : "sword",
   "kind" : "Broadsword",
-
+  "itemTags" : ["weapon","melee","broadsword"],
   "image" : "crystallineblade.png",
   "firePosition" : [35.5, -10.5],
   "fireTime" : 0.78,

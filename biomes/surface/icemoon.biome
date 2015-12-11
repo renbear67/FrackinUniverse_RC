@@ -8,6 +8,16 @@
     "spawnProfile" : {
     "groups" : [
       {
+        "select" : 5,
+        "pool" : [
+          [ 0.2, "fupenguintank" ],
+          [ 0.3, "fupenguinminiufo" ],
+          [ 0.3, "fupenguingeneral" ],
+          [ 0.4, "fupenguinrockettrooper" ],
+          [ 0.5, "fupenguintrooper" ]
+        ]
+      },    
+      {
         "select" : 3,
         "pool" : [
           [ 0.4, "fu_frosty" ],
@@ -21,7 +31,7 @@
       }
     ],
     "monsterParameters" : {
-	  "colors" : "ice",
+      "colors" : "ice",
       "statusSettings" : {
         "stats" : {
           "iceslipImmunity" : {

@@ -9,6 +9,7 @@
   "image" : "hailstrike.png",
   "handPosition" : [4, -5.5],
   "firePosition" : [30, -0.4],
+  "itemTags" : ["weapon","ranged","assaultrifle"],
   "recoilTime" : 0.01,
   "level" : 6,
   "tooltipKind" : "gun",

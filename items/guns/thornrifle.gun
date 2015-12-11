@@ -12,6 +12,7 @@
   "weaponType" : "Poison Dart",
   "recoilTime" : 0.22,
   "level" : 3,
+  "itemTags" : ["weapon","ranged","sniperrifle"],
   "tooltipKind" : "gun",
   "fireTime" : 0.55,
   "inaccuracy" : 0.005,

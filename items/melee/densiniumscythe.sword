@@ -8,7 +8,7 @@
   "shortdescription" : "Densinium Scythe",
   "tooltipKind" : "sword",
   "kind" : "Axe",
-
+  "itemTags" : ["weapon","melee","axe"],
   "image" : "densiniumscythe.png",
   "firePosition" : [30.5, -3.5],
   "fireTime" : 0.92,

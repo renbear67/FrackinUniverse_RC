@@ -8,7 +8,7 @@
   "shortdescription" : "Bomblet Launcher",
   "image" : "chargecannon.png:<frame>",
   "imageFrameSelector" : "chargecannonImageSelector",
- 
+ "itemTags" : ["weapon","ranged","rocketlauncher"],
   "handPosition" : [-5, -1],
   "firePosition" : [12, 2],
   "level" : 4,

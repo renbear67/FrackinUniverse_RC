@@ -8,7 +8,7 @@
   "shortdescription" : "Coldsnap Blizzard",
   "image" : "fufreezecannon.png:<frame>",
   "imageFrameSelector" : "fufreezecannonImageSelector",
- 
+  "itemTags" : ["weapon","ranged","rocketlauncher"],
   "handPosition" : [0, 5],
   "firePosition" : [12, -1],
   "level" : 5,

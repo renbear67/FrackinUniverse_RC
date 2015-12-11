@@ -8,7 +8,7 @@
   "shortdescription" : "Quantum Hammer",
   "tooltipKind" : "sword",
   "kind" : "Hammer",
-
+  "itemTags" : ["weapon","melee","hammer"],
   "image" : "fuquantumhammer.png",
   "firePosition" : [8, 2],
   "fireTime" : 0.9,

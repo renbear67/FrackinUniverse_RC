@@ -12,6 +12,7 @@
   "weaponType" : "Bio-Tech",
   "recoilTime" : 0.1,
   "level" : 8,
+  "itemTags" : ["weapon","ranged","shotgun"],
   "tooltipKind" : "gun",
   "fireTime" : 1.2,
   "twoHanded" : true,

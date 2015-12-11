@@ -22,7 +22,7 @@
   "twoHanded" : true,
   "level" : 3,
   "classMultiplier" : 2,
-
+"itemTags" : ["weapon","ranged","assaultrifle"],
   "projectileType" : "isn_microwaveray",
   "projectile" : {
     "speed" : 30,

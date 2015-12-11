@@ -9,6 +9,7 @@
   "inspectionKind" : "sword",
   "tooltipKind" : "sword",
   "kind" : "Hammer",
+  "itemTags" : ["weapon","melee","hammer"],
   "image" : "solarihammer.png",
   "firePosition" : [23.5, 8.5],
   "fireTime" : 1.0,

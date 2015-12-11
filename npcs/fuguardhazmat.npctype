@@ -10,11 +10,8 @@
             "chest" : [ { "name" : "hazmatdemochest" } ],
             "legs" : [ { "name" : "hazmatdemolegs" } ],
             "primary" : [
-              { "name" : "longarmpistol" },
-              { "name" : "energyassault" }
-            ],
-            "sheathedprimary" : [
-              [ "generatedsword", 1, { "definition" : "lightsaber" } ]
+              "longarmpistol",
+              "energyassault"
             ]
           }
         ] ]

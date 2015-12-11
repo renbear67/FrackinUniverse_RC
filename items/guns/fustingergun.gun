@@ -15,7 +15,7 @@
   "fireTime" : 0.17,
   "twoHanded" : true,
   "walkWhileFiring" : false,
-
+  "itemTags" : ["weapon","ranged","machinepistol"],
   "projectileType" : "stingergunsting",
   "projectile" : { 
   "speed" : 68, 

@@ -16,7 +16,7 @@
   "fireTime" : 0.45,
   "twoHanded" : true,  
   "walkWhileFiring" : false,
-  
+  "itemTags" : ["weapon","ranged","assaultrifle"],
   "projectileType" : "precursorshot",
 
   "projectile" : { "speed" : 60, "power" : 5.25 , "color" : [44, 104, 164] },

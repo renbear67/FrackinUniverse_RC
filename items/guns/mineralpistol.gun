@@ -24,7 +24,7 @@
     },
   
     "fireOnRelease" : false,
-    
+    "itemTags" : ["weapon","ranged","pistol"],
     "projectileType" : "mineralpistolshot2",
 
     "powerProjectileTime" : [0.4, 50],

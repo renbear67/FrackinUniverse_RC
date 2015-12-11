@@ -10,6 +10,7 @@
   "imageFrameSelector" : "fushocklanceImageSelector",
   "handPosition" : [-78, 2],
   "firePosition" : [-70, 0],
+  "itemTags" : ["weapon","ranged","sniperrifle"],
   "level" : 5,
   "tooltipKind" : "gun",
   "weaponType" : "Rifle",

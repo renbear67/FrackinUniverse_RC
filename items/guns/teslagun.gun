@@ -12,6 +12,7 @@
   "weaponType" : "Electric",
   "recoilTime" : 0.1,
   "level" : 5,
+  "itemTags" : ["weapon","ranged","sniperrifle"],
   "tooltipKind" : "gun",
   "fireTime" : 1.5,
   "twoHanded" : true,

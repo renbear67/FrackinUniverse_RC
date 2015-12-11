@@ -22,7 +22,7 @@
     },
   
     "fireOnRelease" : false,
-    
+    "itemTags" : ["weapon","ranged","assaultrifle"],
     "projectileType" : "pulsecannon",
 
     "powerProjectileTime" : [0.4, 50],

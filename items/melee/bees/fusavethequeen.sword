@@ -8,7 +8,7 @@
   "shortdescription" : "Save the Queen",
   "tooltipKind" : "sword",
   "kind" : "Shortsword",
-
+  "itemTags" : ["weapon","melee","shortsword"],
   "image" : "savethequeen.png",
   "firePosition" : [-2, 4],
   "fireTime" : 0.52,

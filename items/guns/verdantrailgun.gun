@@ -21,7 +21,7 @@
       "animation" : "/animations/protomuzzle/protomuzzle.animation"
     },
     "fireOnRelease" : false,
-    
+    "itemTags" : ["weapon","ranged","sniperrifle"],
     "projectileType" : "toxicdart",
 
     "powerProjectileTime" : [0.4, 50],

@@ -8,7 +8,7 @@
   "shortdescription" : "Coral Bone Razor",
   "tooltipKind" : "sword",
   "kind" : "Broadsword",
-
+  "itemTags" : ["weapon","melee","broadsword"],
   "image" : "coraldullblade.png",
   "firePosition" : [15.5, 4.5],
   "fireTime" : 1.4,

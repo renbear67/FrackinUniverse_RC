@@ -8,7 +8,7 @@
   "shortdescription" : "Thresher",
   "image" : "fuenergymachinegun.png:<frame>",
   "imageFrameSelector" : "fuenergymachinegunImageSelector",
- 
+  "itemTags" : ["weapon","ranged","assaultrifle"],
   "handPosition" : [-5, -1],
   "firePosition" : [12, 0],
   "level" : 5,

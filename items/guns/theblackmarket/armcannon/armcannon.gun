@@ -10,6 +10,7 @@
   "handPosition" : [-4.5, -1],
   "firePosition" : [12, 0],
   "recoilTime" : 0.1,
+  "itemTags" : ["weapon","ranged","pistol"],
   "level" : 4,
   "tooltipKind" : "gun",
   "fireTime" : 0.25,

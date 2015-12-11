@@ -19,7 +19,7 @@
   "classMultiplier" : 0.5,
   "fireOnRelease" : false,
   "walkWhileFiring" : false,
-
+  "itemTags" : ["weapon","ranged","rocketlauncher"],
   "projectileType" : "mineralcannonshotadv",
   "projectile" : { 
   "speed" : 60, 

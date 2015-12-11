@@ -16,7 +16,7 @@
   "tooltipKind" : "bow",
   "fireOnRelease" : true,
   "walkWhileFiring" : true,
-
+  "itemTags" : ["weapon","ranged","bow"],
   "projectileType" : "parasiteshot",
   "powerProjectileType" : "bioblast1",
   "powerProjectileTime" : [0.5, 50.1],

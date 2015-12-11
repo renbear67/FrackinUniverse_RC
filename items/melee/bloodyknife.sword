@@ -8,7 +8,7 @@
   "shortdescription" : "Sacrificial Knife",
   "tooltipKind" : "sword",
   "kind" : "Shortsword",
-
+  "itemTags" : ["weapon","melee","shortsword"],
   "image" : "bloodyknife.png",
   "firePosition" : [22, -2],
   "fireTime" : 0.36,
@@ -24,24 +24,24 @@
     },
     "idle" : {
       "twoHanded" : false,
-      "armAngle" : 999,
-      "swordAngle" : 320,
-      "handPosition" : [-6, -2],
+      "armAngle" : -90,
+      "swordAngle" : -90,
+      "handPosition" : [-5.0, -17.0],
       "duration" : 0.1
     },
     "windup" : {
       "twoHanded" : false,
       "armAngle" : 90,
-      "swordAngle" : 115,
-      "handPosition" : [-6, -2],
-      "duration" : 0.2,
+      "swordAngle" : 90,
+      "handPosition" : [-5.0, -17.0],
+      "duration" : 0.05,
       "statusEffects" : []
     },
     "cooldown" : {
       "twoHanded" : false,
-      "armAngle" : -90,
-      "swordAngle" : -65,
-      "handPosition" : [-6, -6],
+      "armAngle" : -45,
+      "swordAngle" : -90,
+      "handPosition" : [-5.0, -27.5],
       "duration" : 0.4,
       "statusEffects" : []
     }

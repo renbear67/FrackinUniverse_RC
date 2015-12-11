@@ -17,7 +17,7 @@
   "inaccuracy" : 0.03,
   "twoHanded" : true,
   "walkWhileFiring" : false,
-
+  "itemTags" : ["weapon","ranged","assaultrifle"],
   "fireOnRelease" : false,
 
   "projectileType" : "cellblastX",

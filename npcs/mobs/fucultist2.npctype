@@ -6,12 +6,6 @@
 
   "dropPools" : [ "ffbanditTreasure" ],
   
- "scriptConfig" : {
-  "dialog" : {
-  "attack" : "/dialog/cultist.config:attack"
-  }
-  },
-
   "items" : {
     "override" : [
       [0, [
@@ -20,10 +14,10 @@
             "chest" : [ { "name" : "cultarmorchest", "parameters" : { "colorIndex" : 7 } } ],
             "legs" : [ { "name" : "cultarmorpants", "parameters" : { "colorIndex" : 7 } } ],
             "primary" : [
-              { "name" : "bloodyknife" }
+              "bloodyknife"
             ],
             "alt" : [
-              { "name" : "flashlight" }
+              "flashlight"
             ]
           },
           {
@@ -31,7 +25,7 @@
             "chest" : [ { "name" : "cultarmorchest", "parameters" : { "colorIndex" : 7 } } ],
             "legs" : [ { "name" : "cultarmorpants", "parameters" : { "colorIndex" : 7 } } ],
             "primary" : [
-              { "name" : "coralspear" }
+              "coralspear"
             ]
           },
           {
@@ -39,10 +33,10 @@
             "chest" : [ { "name" : "cultfleshchest", "parameters" : { "colorIndex" : 7 } } ],
             "legs" : [ { "name" : "cultfleshlegs", "parameters" : { "colorIndex" : 7 } } ],
             "primary" : [
-              { "name" : "obsidianblade" }
+              "obsidianblade"
             ],
             "alt" : [
-              { "name" : "flashlight" }
+              "flashlight"
             ]
           },
           {
@@ -50,10 +44,10 @@
             "chest" : [ { "name" : "cultarmorchest", "parameters" : { "colorIndex" : 7 } } ],
             "legs" : [ { "name" : "cultarmorpants", "parameters" : { "colorIndex" : 7 } } ],
             "primary" : [
-              { "name" : "bloodyknife" }
+              "bloodyknife"
             ],
             "alt" : [
-              { "name" : "bloodyknife" }
+              "bloodyknife"
             ]
           },
           {
@@ -61,10 +55,10 @@
             "chest" : [ { "name" : "fubonearmorchest", "parameters" : { "colorIndex" : 7 } } ],
             "legs" : [ { "name" : "fubonearmorlegs", "parameters" : { "colorIndex" : 7 } } ],
             "primary" : [
-              { "name" : "carbonblade" }
+              "carbonblade"
             ],
             "alt" : [
-              { "name" : "flashlight" }
+              "flashlight"
             ]
           },
           {
@@ -72,10 +66,10 @@
             "chest" : [ { "name" : "fflagoonchest", "parameters" : { "colorIndex" : 7 } } ],
             "legs" : [ { "name" : "fflagoonlegs", "parameters" : { "colorIndex" : 7 } } ],
             "primary" : [
-              { "name" : "elderblade" }
+              "elderblade"
             ],
             "alt" : [
-              { "name" : "eldershield" }
+              "eldershield"
             ]
           },
           {
@@ -83,20 +77,17 @@
             "chest" : [ { "name" : "cultarmorchest" } ],
             "legs" : [ { "name" : "cultarmorpants" } ],
             "primary" : [
-              [ "generatedsword", 1, { "definition" : "commondagger" } ],
-              [ "generatedsword", 1, { "definition" : "commonaxe" } ],
-              [ "generatedsword", 1, { "definition" : "commonshortsword" } ],
-              [ "generatedsword", 1, { "definition" : "commonbroadsword" } ],
-              [ "generatedsword", 1, { "definition" : "commonhammer" } ],
-              [ "generatedsword", 1, { "definition" : "commonspear" } ],
-              [ "generatedgun", 1, { "definition" : "commonassaultrifle" } ],
-              [ "generatedgun", 1, { "definition" : "commonpistol" } ],
-              [ "generatedgun", 1, { "definition" : "commonmachinepistol" } ],
-              [ "generatedgun", 1, { "definition" : "commonshotgun" } ],
-              [ "generatedgun", 1, { "definition" : "commonsniperrifle" } ]
-            ],
-            "alt" : [
-              { "name" : "flashlight" }
+              "npcdagger",
+              "npcaxe",
+              "npcshortsword",
+              "npcbroadsword",
+              "npchammer",
+              "npcspear",
+              "npcassaultrifle",
+              "npcpistol",
+              "npcmachinepistol",
+              "npcshotgun",
+              "npcsniperrifle"
             ]
           }
         ] ]

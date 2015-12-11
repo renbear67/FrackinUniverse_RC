@@ -9,7 +9,7 @@
   "shortdescription" : "Red Wax Sword",
   "inspectionKind" : "sword",
   "kind" : "Broadsword",
-
+  "itemTags" : ["weapon","melee","broadsword"],
   "image" : "redwaxsword.png",
   "firePosition" : [-2, 4],
   "fireTime" : 1.0,

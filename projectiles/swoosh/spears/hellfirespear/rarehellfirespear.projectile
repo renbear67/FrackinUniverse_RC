@@ -16,7 +16,7 @@
   "lightColor" : [191, 103, 2],
   "pointLight" : true,
   "statusEffects" : [
-    "burning",  "damagefreeze"
+    "burning",  "slow"
   ],
   "knockback" : 35,
   "knockbackDirectional" : true

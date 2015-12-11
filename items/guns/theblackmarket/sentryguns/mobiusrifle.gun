@@ -15,7 +15,7 @@
   "fireTime" : 0.085,
   "twoHanded" : true,
   "walkWhileFiring" : false,
-
+  "itemTags" : ["weapon","ranged","rifle"],
   "projectileType" : "mobius",
   "powerProjectileTime" : [0.4, 50],
   "projectile" : {

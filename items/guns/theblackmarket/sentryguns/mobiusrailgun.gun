@@ -16,7 +16,7 @@
   "tooltipKind" : "gun",
   "fireOnRelease" : true,
   "walkWhileFiring" : true,
-
+  "itemTags" : ["weapon","ranged","rifle"],
   "projectileType" : "mobius",
   "powerProjectileType" : "mobiusrgun",
   "powerProjectileTime" : [0.7, 50],

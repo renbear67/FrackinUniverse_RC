@@ -8,7 +8,7 @@
   "shortdescription" : "Amber Great Sword",
   "tooltipKind" : "sword",
   "weaponType" : "Broadsword",
-
+  "itemTags" : ["weapon","melee","broadsword"],
   "image" : "ambersword.png",
   "firePosition" : [15.5, 4.5],
   "fireTime" : 0.89,

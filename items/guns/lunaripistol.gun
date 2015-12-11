@@ -21,7 +21,7 @@
     },
   
     "fireOnRelease" : false,
-    
+    "itemTags" : ["weapon","ranged","pistol"],
     "projectileType" : "lunarishot",
 
     "projectile" : {

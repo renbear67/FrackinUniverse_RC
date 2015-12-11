@@ -9,7 +9,7 @@
   "shortdescription" : "Wax Sword",
   "inspectionKind" : "sword",
   "kind" : "Broadsword",
-
+  "itemTags" : ["weapon","melee","broadsword"],
   "image" : "waxsword.png",
   "firePosition" : [-2, 4],
   "fireTime" : 1.0,

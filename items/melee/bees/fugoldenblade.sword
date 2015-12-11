@@ -8,7 +8,7 @@
   "shortdescription" : "Knight's Amber Blade",
   "tooltipKind" : "sword",
   "weaponType" : "Broadsword",
-
+  "itemTags" : ["weapon","melee","broadsword"],
   "image" : "goldenblade.png",
   "firePosition" : [15.5, 4.5],
   "fireTime" : 0.78,

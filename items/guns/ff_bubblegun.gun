@@ -11,6 +11,7 @@
   "firePosition" : [20, 1.5],
   "weaponType" : "Acid Weapon",
   "tooltipKind" : "gun",
+  "itemTags" : ["weapon","ranged","machinepistol"],
   "level" : 2,
   "recoilTime" : 0.1,
   "fireTime" : 0.09,

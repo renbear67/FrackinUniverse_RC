@@ -16,7 +16,7 @@
   "muzzleEffect" : {
     "fireSound" : [ { "file" : "/sfx/weapons/megagun.ogg" } ]
   },
-  
+  "itemTags" : ["weapon","ranged","assaultrifle"],
   "fireTime" : 1,
   "twoHanded" : true,
   "level" : 4,

@@ -23,7 +23,7 @@
       "animation" : "/animations/protomuzzle/protomuzzle.animation"
     },
     "fireOnRelease" : false,
-    
+    "itemTags" : ["weapon","ranged","assaultrifle"],
     "projectileType" : "densiniumblast",
 
     "powerProjectileTime" : [0.4, 50],

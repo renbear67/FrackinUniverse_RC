@@ -8,7 +8,7 @@
   "shortdescription" : "Glacial Pistol",
   "image" : "chargepistol.png:<frame>",
   "imageFrameSelector" : "chargepistolImageSelector",
-  
+  "itemTags" : ["weapon","ranged","pistol"],
   "handPosition" : [-5, -1],
   "firePosition" : [6, 1.5],
   "recoilTime" : 0.1,

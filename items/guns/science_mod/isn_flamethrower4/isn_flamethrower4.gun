@@ -10,7 +10,7 @@
   "handPosition" : [0, 6],
   "firePosition" : [44, -1],
   "tooltipKind" : "gun",
-
+"itemTags" : ["weapon","ranged","assaultrifle"],
   "weaponType" : "Flamethrower",
   "recoilTime" : 0,
   "spread" : 3,

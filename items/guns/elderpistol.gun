@@ -12,6 +12,7 @@
   "weaponType" : "Disruptor",
   "recoilTime" : 0.1,
   "level" : 8,
+  "itemTags" : ["weapon","ranged","machinepistol"],
   "tooltipKind" : "gun",
   "fireTime" : 0.50,
   "twoHanded" : false,  

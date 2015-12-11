@@ -13,7 +13,7 @@
   "flippable" : true,
   "emitters" : [ "poisonswoosh" ],
   "statusEffects" : [
-    "damagefreeze", "biooozepoison"
+    "insanity", "biooozepoison"
   ],
   "damageKind" : "cosmicdamage",
   "lightColor" : [105, 148, 52],

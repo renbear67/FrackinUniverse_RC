@@ -6,11 +6,15 @@
         "default" : "idle",
         "states" : {
           "idle" : {
+            "frames" : 6,
+            "mode" : "loop"
+          },
+          "idle2" : {
             "frames" : 3,
             "mode" : "loop"
-          },      
+          },          
           "jump" : {
-            "frames" : 4,
+            "frames" : 1,
             "mode" : "loop"
           },
           "fall" : {
@@ -18,22 +22,21 @@
             "mode" : "loop"
           },
           "walk" : {
-            "frames" : 6,
-            "cycle" : 1.0,
+            "frames" : 8,
             "mode" : "loop"
           },
           "run" : {
-            "frames" : 6,
+            "frames" : 8,
             "cycle" : 0.5,
             "mode" : "loop"
           },
           "chargeWindup" : {
-            "frames" : 6,
+            "frames" : 3,
             "cycle" : 0.375,
             "mode" : "loop"
           },
           "charge" : {
-            "frames" : 6,
+            "frames" : 8,
             "cycle" : 0.275,
             "mode" : "loop"
           },
@@ -51,24 +54,29 @@
         "default" : "idle",
         "states" : {
           "idle" : {
+            "frames" : 6,
+            "mode" : "loop"
+          },
+          "idle2" : {
             "frames" : 3,
             "mode" : "loop"
           },
           "melee" : {
-            "frames" : 2,
+            "frames" : 6,
             "mode" : "end"
           },
           "shooting" : {
-            "frames" : 2,
-            "mode" : "end"
+            "frames" : 6,
+            "mode" : "transition",
+            "transition" : "idle"
           },
           "charge" : {
-            "frames" : 6,
+            "frames" : 8,
             "cycle" : 0.8,
             "mode" : "loop"
           },
           "chargeAttack" : {
-            "frames" : 6,
+            "frames" : 8,
             "cycle" : 0.6,
             "mode" : "loop"
           }
@@ -112,17 +120,17 @@
             },
             "jump" : {
               "properties" : {
-                "image" : "<partImage>:jump.<frame>"
+                "image" : "<partImage>:jump"
               }
             },
             "fall" : {
               "properties" : {
-                "image" : "<partImage>:hit"
+                "image" : "<partImage>:jumpattack"
               }
             },
             "chargeWindup" : {
               "properties" : {
-                "image" : "<partImage>:walk.<frame>"
+                "image" : "<partImage>:roar.<frame>"
               }
             },
             "knockback" : {
@@ -132,7 +140,7 @@
             },
             "knockout" : {
               "properties" : {
-                "image" : "<partImage>:hit"
+                "image" : "<partImage>:lose"
               }
             }
           },
@@ -145,12 +153,12 @@
             },
             "shooting" : {
               "properties" : {
-                "image" : "<partImage>:attack.<frame>"
+                "image" : "<partImage>:shoot.<frame>"
               }
             },
             "jumpattack" : {
               "properties" : {
-                "image" : "<partImage>:jump.<frame>"
+                "image" : "<partImage>:jumpattack"
               }
             },            
             "charge" : {
@@ -382,8 +390,8 @@
 
   "sounds" : {
   
-    "attackSound" : [ "/sfx/npc/unique/spiderboss_idle1.ogg" , "/sfx/npc/unique/spiderboss_idle2.ogg"  ],
-    "turnHostile" : [ "/sfx/npc/unique/spiderboss_turnhostile.ogg" ],
-    "deathPuff" : [ "/sfx/npc/unique/spiderboss_death.ogg" ]
+    "attackSound" : [ "/sfx/raptor/raptor2.ogg" , "/sfx/raptor/raptor4.ogg"  ],
+    "turnHostile" : [ "/sfx/raptor/raptor1.ogg" ],
+    "deathPuff" : [ "/sfx/raptor/raptor3.ogg" ]
   }
 }

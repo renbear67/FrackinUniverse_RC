@@ -6,12 +6,6 @@
 
   "dropPools" : [ "ffbanditTreasure" ],
   
- "scriptConfig" : {
-  "dialog" : {
-  "attack" : "/dialog/combat.config:attack"
-  }
-  },
-
   "items" : {
     "override" : [
       [0, [
@@ -20,10 +14,10 @@
             "chest" : [ { "name" : "fureconchest" } ],
             "legs" : [ { "name" : "fureconpants" } ],
             "primary" : [
-              { "name" : "laspistol" }
+              "laspistol"
             ],
             "alt" : [
-              { "name" : "flashlight" }
+             "flashlight"
             ]
           },
           {
@@ -31,7 +25,7 @@
             "chest" : [ { "name" : "chitinchest", "parameters" : { "colorIndex" : 2 } } ],
             "legs" : [ { "name" : "chitinlegs", "parameters" : { "colorIndex" : 2 } } ],
             "primary" : [
-              { "name" : "mechgun" }
+              "mechgun"
             ]
           },
           {
@@ -39,7 +33,7 @@
             "chest" : [ { "name" : "wastelandchest2" } ],
             "legs" : [ { "name" : "wastelandlegs2" } ],
             "primary" : [
-              { "name" : "energyassault" }
+              "energyassault" 
             ]
           },
           {
@@ -47,7 +41,7 @@
             "chest" : [ { "name" : "wastelandchest" } ],
             "legs" : [ { "name" : "wastelandlegs" } ],
             "primary" : [
-              { "name" : "lasrifle" }
+              "lasrifle" 
             ]
           },
           {
@@ -55,10 +49,10 @@
             "chest" : [ { "name" : "fureconchest", "parameters" : { "colorIndex" : 2 } } ],
             "legs" : [ { "name" : "fureconpants", "parameters" : { "colorIndex" : 2 } } ],
             "primary" : [
-              { "name" : "blisterpistol" }
+              "blisterpistol" 
             ],
             "alt" : [
-              { "name" : "flashlight" }
+              "flashlight" 
             ]
           },
           {
@@ -66,7 +60,7 @@
             "chest" : [ { "name" : "chitinchest", "parameters" : { "colorIndex" : 1 } } ],
             "legs" : [ { "name" : "chitinlegs", "parameters" : { "colorIndex" : 1 } } ],
             "primary" : [
-              { "name" : "fusteampunkgun" }
+              "fusteampunkgun" 
             ]
           },
           {
@@ -74,7 +68,7 @@
             "chest" : [ { "name" : "wastelandchest2" } ],
             "legs" : [ { "name" : "wastelandlegs2" } ],
             "primary" : [
-              { "name" : "goregun" }
+              "goregun" 
             ]
           },
           {
@@ -82,7 +76,7 @@
             "chest" : [ { "name" : "wastelandchest" } ],
             "legs" : [ { "name" : "wastelandlegs" } ],
             "primary" : [
-              { "name" : "thornrifle" }
+              "thornrifle" 
             ]
           },
           {
@@ -90,7 +84,7 @@
             "chest" : [ { "name" : "warangelchest" } ],
             "legs" : [ { "name" : "warangellegs" } ],
             "primary" : [
-              { "name" : "fuaegisaltminigun" }
+              "fuaegisaltminigun" 
             ]
           },
           {
@@ -98,7 +92,7 @@
             "chest" : [ { "name" : "ff_slimechest3" } ],
             "legs" : [ { "name" : "ff_slimelegs3" } ],
             "primary" : [
-              { "name" : "slimelauncher" }
+              "slimelauncher" 
             ]
           },
           {
@@ -106,7 +100,7 @@
             "chest" : [ { "name" : "fuintrepidchest" } ],
             "legs" : [ { "name" : "fuintrepidpants" } ],
             "primary" : [
-              { "name" : "verdantcarbine" }
+              "verdantcarbine" 
             ]
           },
           {
@@ -114,7 +108,7 @@
             "chest" : [ { "name" : "fusunwalkerchest" } ],
             "legs" : [ { "name" : "fusunwalkerpants" } ],
             "primary" : [
-              { "name" : "fuenergyblaster" }
+              "fuenergyblaster" 
             ]
           }
         ] ]

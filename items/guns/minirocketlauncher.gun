@@ -22,7 +22,7 @@
     },
     "learnBlueprintsOnPickup" : [ "minirocketlauncher2" ],
     "fireOnRelease" : false,
-    
+    "itemTags" : ["weapon","ranged","rocketlauncher"],
     "projectileType" : "rocketswarmlite",
 
     "powerProjectileTime" : [0.4, 50],

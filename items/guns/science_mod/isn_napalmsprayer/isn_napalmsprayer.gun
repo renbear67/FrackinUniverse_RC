@@ -22,7 +22,7 @@
   "twoHanded" : true,
   "level" : 4,
   "classMultiplier" : 1.5,
-
+"itemTags" : ["weapon","ranged","assaultrifle"],
   "projectileType" : "isn_napalmsprayer",
   "projectile" : {
     "speed" : 30,

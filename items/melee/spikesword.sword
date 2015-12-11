@@ -10,6 +10,7 @@
   "tooltipKind" : "sword",
   "kind" : "Broadsword",
   "image" : "spikesword.png",
+  "itemTags" : ["weapon","melee","broadsword"],
   "firePosition" : [15.5, 4.5],
   "fireTime" : 0.85,
   "fireAfterWindup" : true,

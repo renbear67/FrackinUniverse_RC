@@ -16,7 +16,7 @@
   "fireTime" : 0.87,
   "twoHanded" : true,
   "walkWhileFiring" : false,
-
+  "itemTags" : ["weapon","ranged","rocketlauncher"],
   "projectileType" : "gravblast",
   "projectile" : { 
   "speed" : 40, 

@@ -10,7 +10,7 @@
   "handPosition" : [-10, -4],
   "firePosition" : [30, -1],
   "tooltipKind" : "gun",
-
+"itemTags" : ["weapon","ranged","assaultrifle"],
   "weaponType" : "Energy Weapon",
   "recoilTime" : 0,
   "spread" : 1,

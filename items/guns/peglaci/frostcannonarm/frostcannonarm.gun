@@ -8,7 +8,7 @@
   "shortdescription" : "Mistral Icethrower",
   "image" : "frostcannonarm.png:<frame>",
   "imageFrameSelector" : "frostcannonarmImageSelector",
- 
+ "itemTags" : ["weapon","ranged","pistol"],
   "handPosition" : [-5, -1],
   "firePosition" : [12, -1],
   "level" : 4,

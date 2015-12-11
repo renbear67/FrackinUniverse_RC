@@ -9,6 +9,7 @@
   "inspectionKind" : "sword",
   "tooltipKind" : "sword",
   "kind" : "Broadsword",
+  "itemTags" : ["weapon","melee","broadsword"],
   "image" : "irradiumsword.png",
   "firePosition" : [15.5, 4.5],
   "fireTime" : 1.12,

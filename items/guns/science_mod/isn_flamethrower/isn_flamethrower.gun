@@ -11,6 +11,7 @@
   "firePosition" : [15, 2],
   "tooltipKind" : "gun",
 "learnBlueprintsOnPickup" : [ "isn_flamethrower4" ],
+"itemTags" : ["weapon","ranged","machinepistol"],
   "weaponType" : "Flamethrower",
   "recoilTime" : 0,
   "spread" : 1,

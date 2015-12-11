@@ -16,7 +16,7 @@
   "fireTime" : 0.12,
   "twoHanded" : true,  
   "walkWhileFiring" : false,
-  
+  "itemTags" : ["weapon","ranged","machinepistol"],
   "projectileType" : "precursorshotsmall",
 
   "projectile" : { "speed" : 60, "power" : 0.74 , "color" : [44, 104, 164] },

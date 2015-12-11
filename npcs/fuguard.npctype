@@ -10,8 +10,8 @@
             "chest" : [ { "name" : "lunarichest" } ],
             "legs" : [ { "name" : "lunarilegs" } ],
             "primary" : [
-              { "name" : "laspistol" },
-              { "name" : "lasrifle" }
+              "laspistol",
+              "lasrifle"
             ]
           }
         ] ]

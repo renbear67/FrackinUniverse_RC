@@ -11,6 +11,7 @@
   "firePosition" : [15, 0],
   "weaponType" : "Kinetic",
   "recoilTime" : 0.1,
+  "itemTags" : ["weapon","ranged","sniperrifle"],
   "tooltipKind" : "gun",
   "fireTime" : 0.77,
   "twoHanded" : true,

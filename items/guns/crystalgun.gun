@@ -16,6 +16,7 @@
   "fireTime" : 0.7,
   "projectileCount" : 3,
   "inaccuracy" : 0.12,
+  "itemTags" : ["weapon","ranged","shotgun"],
   "twoHanded" : true,  
   "walkWhileFiring" : false,
   "projectileType" : "crystalshardsmall",

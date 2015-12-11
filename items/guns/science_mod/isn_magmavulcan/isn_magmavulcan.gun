@@ -22,7 +22,7 @@
   "twoHanded" : true,
   "level" : 5,
   "classMultiplier" : 1.0,
-
+"itemTags" : ["weapon","ranged","assaultrifle"],
   "projectileType" : "isn_magmavulcan",
   "projectile" : {
     "speed" : 60,

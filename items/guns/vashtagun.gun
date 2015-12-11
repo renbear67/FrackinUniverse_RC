@@ -12,6 +12,7 @@
   "weaponType" : "Bio-Weapon",
   "recoilTime" : 0.1,
   "level" : 4,
+  "itemTags" : ["weapon","ranged","assaultrifle"],
   "tooltipKind" : "gun",
   "projectileCount" : 1,
   "inaccuracy" : 0.2,

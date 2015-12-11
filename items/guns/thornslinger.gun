@@ -12,6 +12,7 @@
   "weaponType" : "Assault Rifle",
   "recoilTime" : 0.1,
   "level" : 3,
+  "itemTags" : ["weapon","ranged","assaultrifle"],
   "tooltipKind" : "gun",
   "fireTime" : 0.1,
   "inaccuracy" : 0.02,

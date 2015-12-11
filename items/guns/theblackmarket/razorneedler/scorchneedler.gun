@@ -15,7 +15,7 @@
   "fireTime" : 0.1,
   "twoHanded" : true,
   "walkWhileFiring" : false,
-
+  "itemTags" : ["weapon","ranged","machinepistol"],
   "projectileType" : "razorneedlerthorns2",
   "powerProjectileTime" : [0.4, 50],
   "projectile" : {

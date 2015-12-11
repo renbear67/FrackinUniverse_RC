@@ -12,6 +12,7 @@
     "weaponType" : "Bio-Weapon",
     "recoilTime" : 0.1,
     "level" : 10,
+    "itemTags" : ["weapon","ranged","grenadelauncher"],
     "tooltipKind" : "gun",
     "fireTime" : 3,
     "twoHanded" : true,

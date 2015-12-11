@@ -12,6 +12,7 @@
     "weaponType" : "Slime Ejector",
     "recoilTime" : 0.1,
     "level" : 2,
+    "itemTags" : ["weapon","ranged","grenadelauncher"],
     "tooltipKind" : "gun",
     "fireTime" : 0.75,
     "twoHanded" : true,

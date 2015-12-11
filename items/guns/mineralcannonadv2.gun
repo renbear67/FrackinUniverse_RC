@@ -19,7 +19,7 @@
   "projectileCount" : 3,
   "classMultiplier" : 0.5,
   "fireOnRelease" : false,
-
+  "itemTags" : ["weapon","ranged","rocketlauncher"],
   "projectileType" : "mineralcannonshotadv2",
   
   "projectile" : { 

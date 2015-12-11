@@ -17,7 +17,7 @@
   "tooltipKind" : "bow",
   "fireOnRelease" : true,
   "walkWhileFiring" : false,
-
+  "itemTags" : ["weapon","ranged","bow"],
   "projectileType" : "lesserprotoarrow",
   "powerProjectileType" : "protoarrow",
   "powerProjectileTime" : [0.9, 10.1],

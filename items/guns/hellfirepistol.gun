@@ -17,7 +17,7 @@
   "twoHanded" : false,
   "fireOnRelease" : false,
   "walkWhileFiring" : false,
-
+  "itemTags" : ["weapon","ranged","pistol"],
   "projectileType" : "hellfireprojectile2small",
   "projectile" : { 
   "speed" : 60, 

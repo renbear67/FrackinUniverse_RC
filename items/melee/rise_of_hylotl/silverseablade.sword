@@ -8,7 +8,7 @@
   "shortdescription" : "Silver Seablade",
   "tooltipKind" : "sword",
   "kind" : "Shortsword",
-
+  "itemTags" : ["weapon","melee","shortsword"],
   "image" : "silverseablade.png",
   "firePosition" : [22, -2],
   "fireTime" : 0.4,

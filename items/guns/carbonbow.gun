@@ -16,7 +16,7 @@
   "fireTime" : 0.80,
   "inaccuracy" : 0.01,
   "twoHanded" : true,
-
+  "itemTags" : ["weapon","ranged","bow"],
   "fireOnRelease" : true,
   "walkWhileFiring" : true,
 

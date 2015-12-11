@@ -11,6 +11,7 @@
   "firePosition" : [16, 2],
   "weaponType" : "Disruptor",
   "recoilTime" : 0.1,
+  "itemTags" : ["weapon","ranged","assaultrifle"],
   "level" : 9,
   "tooltipKind" : "gun",
   "fireTime" : 0.20,

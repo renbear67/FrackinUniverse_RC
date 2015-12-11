@@ -11,6 +11,7 @@
   "handPosition" : [-87, 2],
   "firePosition" : [-60, 0],
   "level" : 5,
+  "itemTags" : ["weapon","ranged","sniperrifle"],
   "tooltipKind" : "gun",
   "weaponType" : "Coilgun",
   "fireTime" : 0.35,

@@ -16,6 +16,7 @@
     "tooltipKind" : "gun",
     "fireTime" : 0.025,
     "twoHanded" : true,
+    "itemTags" : ["weapon","ranged","assaultrifle"],
     "walkWhileFiring" : false,
     "rateOfFire" : [2, 7],
     "muzzleEffect" : {

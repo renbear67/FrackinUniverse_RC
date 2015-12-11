@@ -16,7 +16,7 @@
   "fireTime" : 0.1,
   "twoHanded" : true,
   "walkWhileFiring" : false,
-
+  "itemTags" : ["weapon","ranged","assaultrifle"],
   "fireOnRelease" : false,
 
   "projectileType" : "napalm2",

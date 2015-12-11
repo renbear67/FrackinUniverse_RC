@@ -9,7 +9,7 @@
   "inspectionKind" : "sword",
   "tooltipKind" : "sword",
   "kind" : "Broadsword",
-
+  "itemTags" : ["weapon","melee","broadsword"],
   "image" : "quietusemperor.png",
   "firePosition" : [35.5, 5],
   "fireTime" : 0.8,

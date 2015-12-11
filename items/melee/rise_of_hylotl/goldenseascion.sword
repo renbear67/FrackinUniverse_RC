@@ -8,7 +8,7 @@
   "shortdescription" : "Goldensea Spikeblade",
   "tooltipKind" : "sword",
   "kind" : "Broadsword",
-
+  "itemTags" : ["weapon","melee","broadsword"],
   "image" : "goldenseascion.png",
   "firePosition" : [15.5, 4.5],
   "fireTime" : 0.6,

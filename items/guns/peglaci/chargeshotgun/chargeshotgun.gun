@@ -8,7 +8,7 @@
   "shortdescription" : "Burstgun",
   "image" : "chargeshotgun.png:<frame>",
   "imageFrameSelector" : "chargeshotgunImageSelector",
-  
+  "itemTags" : ["weapon","ranged","shotgun"],
   "handPosition" : [-5, -1],
   "firePosition" : [12, 2],
   "level" : 2,

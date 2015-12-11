@@ -10,6 +10,7 @@
   "tooltipKind" : "sword",
   "kind" : "Shortsword",
   "image" : "diamondblade.png",
+  "itemTags" : ["weapon","melee","shortsword"],
   "firePosition" : [22.5, 4.5],
   "fireTime" : 0.78,
   "fireAfterWindup" : true,

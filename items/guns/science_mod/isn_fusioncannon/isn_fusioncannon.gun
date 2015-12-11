@@ -10,6 +10,7 @@
   "handPosition" : [2, -6],
   "firePosition" : [15, 1],
   "weaponType" : "Energy Weapon",
+  "itemTags" : ["weapon","ranged","rocketlauncher"],
   "tooltipKind" : "gun",
   "recoilTime" : 2,
   "spread" : 1,

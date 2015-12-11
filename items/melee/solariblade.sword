@@ -9,6 +9,7 @@
   "inspectionKind" : "sword",
   "tooltipKind" : "sword",
   "kind" : "Shortsword",
+  "itemTags" : ["weapon","melee","shortsword"],
   "image" : "solariblade.png",
   "firePosition" : [27.5, -2],
   "fireTime" : 0.69,

@@ -9,6 +9,7 @@
   "inspectionKind" : "sword",
   "tooltipKind" : "sword",
   "kind" : "Shortsword",
+  "itemTags" : ["weapon","melee","shortsword"],
   "image" : "shadowblade.png",
   "firePosition" : [22.5, 4.5],
   "fireTime" : 0.65,

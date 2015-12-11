@@ -11,6 +11,7 @@
   "firePosition" : [11, 1],
   "weaponType" : "Energy",
   "recoilTime" : 0.1,
+  "itemTags" : ["weapon","ranged","assaultrifle"],
   "level" : 3,
   "tooltipKind" : "gun",
   "fireTime" : 0.185,

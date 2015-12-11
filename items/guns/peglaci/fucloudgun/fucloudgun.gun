@@ -8,7 +8,7 @@
   "shortdescription" : "Boom Cannon",
   "image" : "fucloudgun.png:<frame>",
   "imageFrameSelector" : "fucloudgunImageSelector",
- 
+ "itemTags" : ["weapon","ranged","machinepistol"],
   "handPosition" : [-10, -1],
   "firePosition" : [12, 0],
   "level" : 5,

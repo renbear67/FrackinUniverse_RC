@@ -6,12 +6,6 @@
 
   "dropPools" : [ "ffbanditTreasure" ],
   
- "scriptConfig" : {
-  "dialog" : {
-  "attack" : "/dialog/combat.config:attack"
-  }
-  },
-
   "items" : {
     "override" : [
       [0, [
@@ -20,7 +14,7 @@
             "chest" : [ { "name" : "blisterchest", "parameters" : { "colorIndex" : 1 } } ],
             "legs" : [ { "name" : "blisterpants", "parameters" : { "colorIndex" : 1 } } ],
             "primary" : [
-              { "name" : "blistergun" }
+              "blistergun"
             ]
           },
           {
@@ -28,7 +22,7 @@
             "chest" : [ { "name" : "fubountyhunterchest", "parameters" : { "colorIndex" : 1 } } ],
             "legs" : [ { "name" : "fubountyhunterpants", "parameters" : { "colorIndex" : 1 } } ],
             "primary" : [
-              { "name" : "fugaussrifle" }
+              "fugaussrifle"
             ]
           },
           {
@@ -36,10 +30,10 @@
             "chest" : [ { "name" : "fubonusarmorchest", "parameters" : { "colorIndex" : 1 } } ],
             "legs" : [ { "name" : "fubonusarmorpants", "parameters" : { "colorIndex" : 1 } } ],
             "primary" : [
-              { "name" : "protopistol" }
+              "protopistol"
             ],
             "alt" : [
-              { "name" : "flashlight" }
+              "flashlight"
             ]
           },
           {
@@ -47,7 +41,7 @@
             "chest" : [ { "name" : "fuexplorerchest", "parameters" : { "colorIndex" : 7 } } ],
             "legs" : [ { "name" : "fuexplorerlegs", "parameters" : { "colorIndex" : 7 } } ],
             "primary" : [
-              { "name" : "minirocketlauncher" }
+              "minirocketlauncher"
             ]
           },
           {
@@ -55,10 +49,10 @@
             "chest" : [ { "name" : "ff_slimechest2", "parameters" : { "colorIndex" : 1 } } ],
             "legs" : [ { "name" : "ff_slimelegs2", "parameters" : { "colorIndex" : 1 } } ],
             "primary" : [
-              { "name" : "slimelauncher" }
+              "slimelauncher"
             ],
             "alt" : [
-              { "name" : "flashlight" }
+              "flashlight"
             ]
           },
           {
@@ -66,17 +60,17 @@
             "chest" : [ { "name" : "wretchelchest", "parameters" : { "colorIndex" : 1 } } ],
             "legs" : [ { "name" : "wretchelpants", "parameters" : { "colorIndex" : 1 } } ],
             "primary" : [
-              [ "generatedsword", 1, { "definition" : "commondagger" } ],
-              [ "generatedsword", 1, { "definition" : "commonaxe" } ],
-              [ "generatedsword", 1, { "definition" : "commonshortsword" } ],
-              [ "generatedsword", 1, { "definition" : "commonbroadsword" } ],
-              [ "generatedsword", 1, { "definition" : "commonhammer" } ],
-              [ "generatedsword", 1, { "definition" : "commonspear" } ],
-              [ "generatedgun", 1, { "definition" : "commonassaultrifle" } ],
-              [ "generatedgun", 1, { "definition" : "commonpistol" } ],
-              [ "generatedgun", 1, { "definition" : "commonmachinepistol" } ],
-              [ "generatedgun", 1, { "definition" : "harpoongun" } ],
-              [ "generatedgun", 1, { "definition" : "commonsniperrifle" } ]
+              "npcdagger",
+              "npcaxe",
+              "npcshortsword",
+              "npcbroadsword",
+              "npchammer",
+              "npcspear",
+              "npcassaultrifle",
+              "npcpistol",
+              "npcmachinepistol",
+              "npcshotgun",
+              "npcsniperrifle"
             ]
           },
           {
@@ -84,7 +78,7 @@
             "chest" : [ { "name" : "agilitysuitchest", "parameters" : { "colorIndex" : 1 } } ],
             "legs" : [ { "name" : "agilitysuitlegs", "parameters" : { "colorIndex" : 1 } } ],
             "primary" : [
-              { "name" : "energyassault" }
+              "energyassault"
             ]
           },
           {
@@ -92,7 +86,7 @@
             "chest" : [ { "name" : "densiniumchest", "parameters" : { "colorIndex" : 1 } } ],
             "legs" : [ { "name" : "densiniumlegs", "parameters" : { "colorIndex" : 1 } } ],
             "primary" : [
-              { "name" : "mechgun" }
+              "mechgun"
             ]
           }
         ] ]

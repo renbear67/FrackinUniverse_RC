@@ -9,6 +9,7 @@
   "inspectionKind" : "sword",
   "tooltipKind" : "sword",
   "kind" : "Spear",
+  "itemTags" : ["weapon","melee","spear"],
   "image" : "hellfirespear.png",
   "firePosition" : [52.5, -7.0],
   "fireTime" : 0.665,

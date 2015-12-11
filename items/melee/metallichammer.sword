@@ -9,7 +9,7 @@
   "inspectionKind" : "sword",
   "tooltipKind" : "sword",
   "kind" : "Hammer",
-
+  "itemTags" : ["weapon","melee","hammer"],
   "image" : "metallichammer.png",
   "firePosition" : [12, 2],
   "fireTime" : 1.12,

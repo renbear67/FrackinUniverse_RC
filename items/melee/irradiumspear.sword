@@ -9,7 +9,7 @@
   "inspectionKind" : "sword",
   "tooltipKind" : "sword",
   "kind" : "Spear",
-
+  "itemTags" : ["weapon","melee","spear"],
   "image" : "irradiumspear.png",
   "firePosition" : [52.5, -7.0],
   "fireTime" : 0.89,

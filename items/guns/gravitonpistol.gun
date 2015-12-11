@@ -17,7 +17,7 @@
   "inaccuracy" : 0.08,
   "twoHanded" : false,
   "walkWhileFiring" : false,
-
+  "itemTags" : ["weapon","ranged","pistol"],
   "fireOnRelease" : false,
 
   "projectileType" : "gravitonorbsmall",

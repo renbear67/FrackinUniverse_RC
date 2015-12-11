@@ -19,7 +19,7 @@
   "projectileCount" : 7,
   "inaccuracy" : 0.125,
   "fireOnRelease" : false,
-
+  "itemTags" : ["weapon","ranged","shotgun"],
   "projectileType" : "splitbullet",
 
   "projectile" : { 
