@@ -4,7 +4,7 @@
     "species" : "dummy",
     "rules" : [
     ],
-    "anchor" : [ "bogmini1", "bogmini2", "bogmini3", "bogmini4", "bogmini5", "bogmini6" ],
+    "anchor" : [ "bog1", "bog2", "bog3", "bog4", "bog5", "bog6", "bog7", "bog8", "bog9", "bog10", "bog11", "bog12", "bog13", "bog14", "bog15", "bog16", "bog17", "bog18" ],
 
     "maxRadius" : 2000,
     "maxParts" : 15
@@ -25,24 +25,7 @@
       "rules" : [ [ "worldGenMustContainSolidBackground" ], [ "allowOverdrawing" ] ],
       "brush" : [ [ "surface", { "variant" : 0 } ] ]
     },
-    {
-      "value" : [0, 38, 255, 255],
-      "comment" : "bright blue, entrance coupler",
-      "connector" : true
-    },
-
-    {
-      "value" : [0, 255, 186, 255],
-      "comment" : "bright aqua, empty cave coupler",
-      "connector" : true
-    },
-
-    {
-      "value" : [240, 255, 0, 255],
-      "comment" : "bright yellow, entrance piece coupler",
-      "connector" : true
-    },
-
+    
     {
       "value" : [32, 32, 32, 255],
       "comment" : "Empty hole",
@@ -51,14 +34,14 @@
 		// Flora //
 		
 		{
-			"value" : [26, 77, 0, 255],
+			"value" : [94, 230, 84, 255],
 			"comment" : "biome tree",
 			"rules" : [ [ "allowOverdrawing" ] ],
 			"brush" : [ [ "biometree" ] ]
 		},
 
 		{
-			"value" : [34, 102, 0, 255],
+			"value" : [16, 222, 0, 255],
 			"comment" : "biome flora",
 			"rules" : [ [ "allowOverdrawing" ] ],
 			"brush" : [ [ "biomeitems" ] ]
@@ -107,7 +90,7 @@
       "brush" : [ [ "clear" ], [ "surfacebackground" ] ]
     },
     {
-      "value" : [93, 132, 83, 255],
+      "value" : [195, 206, 183, 255],
       "comment" : "water pool foreground",
       "brush" : [ [ "clear" ], [ "liquid", "swampwater" ] ]
     },
@@ -521,34 +504,94 @@
 
   "parts" : [
     {
-      "name" : "bogmini1",
+      "name" : "bog1",
       "rules" : [ ],
-      "def" : [ "image", [ "bogmini1.png", "bogmini1-objects.png" ] ]
+      "def" : [ "image", [ "bog1.png", "bog1-objects.png", "bog1-liquid.png" ] ]
     },
     {
-      "name" : "bogmini2",
+      "name" : "bog2",
       "rules" : [ ],
-      "def" : [ "image", [ "bogmini2.png", "bogmini2-objects.png" ] ]
+      "def" : [ "image", [ "bog2.png", "bog2-objects.png", "bog2-liquid.png" ] ]
     },
     {
-      "name" : "bogmini3",
+      "name" : "bog3",
       "rules" : [ ],
-      "def" : [ "image", [ "bogmini3.png", "bogmini3-objects.png" ] ]
+      "def" : [ "image", [ "bog3.png", "bog3-objects.png", "bog3-liquid.png" ] ]
     },
     {
-      "name" : "bogmini4",
+      "name" : "bog4",
       "rules" : [ ],
-      "def" : [ "image", [ "bogmini4.png", "bogmini4-objects.png" ] ]
+      "def" : [ "image", [ "bog4.png", "bog4-objects.png", "bog4-liquid.png" ] ]
     },
     {
-      "name" : "bogmini5",
+      "name" : "bog5",
       "rules" : [ ],
-      "def" : [ "image", [ "bogmini5.png", "bogmini5-objects.png" ] ]
+      "def" : [ "image", [ "bog5.png", "bog5-objects.png", "bog5-liquid.png" ] ]
     },
     {
-      "name" : "bogmini6",
+      "name" : "bog6",
       "rules" : [ ],
-      "def" : [ "image", [ "bogmini6.png", "bogmini6-objects.png" ] ]
+      "def" : [ "image", [ "bog6.png", "bog6-objects.png", "bog6-liquid.png" ] ]
+    },
+    {
+      "name" : "bog7",
+      "rules" : [ ],
+      "def" : [ "image", [ "bog7.png", "bog7-objects.png", "bog7-liquid.png" ] ]
+    },
+    {
+      "name" : "bog8",
+      "rules" : [ ],
+      "def" : [ "image", [ "bog8.png", "bog8-objects.png", "bog8-liquid.png" ] ]
+    },
+    {
+      "name" : "bog9",
+      "rules" : [ ],
+      "def" : [ "image", [ "bog9.png", "bog9-objects.png", "bog9-liquid.png" ] ]
+    },
+    {
+      "name" : "bog10",
+      "rules" : [ ],
+      "def" : [ "image", [ "bog10.png", "bog10-objects.png", "bog10-liquid.png" ] ]
+    },
+    {
+      "name" : "bog11",
+      "rules" : [ ],
+      "def" : [ "image", [ "bog11.png", "bog11-objects.png", "bog11-liquid.png" ] ]
+    },
+    {
+      "name" : "bog12",
+      "rules" : [ ],
+      "def" : [ "image", [ "bog12.png", "bog12-objects.png", "bog12-liquid.png" ] ]
+    },
+    {
+      "name" : "bog13",
+      "rules" : [ ],
+      "def" : [ "image", [ "bog13.png", "bog13-objects.png", "bog13-liquid.png" ] ]
+    },
+    {
+      "name" : "bog14",
+      "rules" : [ ],
+      "def" : [ "image", [ "bog14.png", "bog14-objects.png", "bog14-liquid.png" ] ]
+    },
+    {
+      "name" : "bog15",
+      "rules" : [ ],
+      "def" : [ "image", [ "bog15.png", "bog15-objects.png", "bog15-liquid.png" ] ]
+    },
+    {
+      "name" : "bog16",
+      "rules" : [ ],
+      "def" : [ "image", [ "bog16.png", "bog16-objects.png", "bog16-liquid.png" ] ]
+    },
+    {
+      "name" : "bog17",
+      "rules" : [ ],
+      "def" : [ "image", [ "bog17.png", "bog17-objects.png", "bog17-liquid.png" ] ]
+    },
+    {
+      "name" : "bog18",
+      "rules" : [ ],
+      "def" : [ "image", [ "bog18.png", "bog18-objects.png", "bog18-liquid.png" ] ]
     }
   ]
 }

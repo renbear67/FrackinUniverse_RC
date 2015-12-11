@@ -796,6 +796,22 @@
     }
   }, 
    {
+    "name" : "skeyejelly",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "night"
+    },
+
+    "groupSize" : [1, 1],
+    "targetDensity" : 0.04,
+    "monsterType" : "skeyejelly3",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  }, 
+   {
     "name" : "skeyejelly2",
 
     "spawnParameters" : {
