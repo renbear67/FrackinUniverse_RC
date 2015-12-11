@@ -1,6 +1,38 @@
 [
 //vanilla non-enabled spawns
   {
+    "name" : "pogolem",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "groupSize" : [1, 2],
+    "targetDensity" : 0.04,
+    "monsterType" : "pogolem",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+  {
+    "name" : "po",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "groupSize" : [2, 5],
+    "targetDensity" : 0.04,
+    "monsterType" : "po",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+  {
     "name" : "fupenguintrooper",
 
     "spawnParameters" : {
