@@ -3,7 +3,7 @@
   "friendlyName" : "Bog",
 
   
-      "spawnProfile" : {
+ "spawnProfile" : {
     "groups" : [
       {
         "select" : 3,
@@ -15,7 +15,7 @@
           [ 0.1111, "batong" ],     
           [ 0.1111, "toumingo" ],
           [ 0.1111, "quagmutt" ],
-		  [ 0.1111, "bobfae" ]
+	  [ 0.1111, "bobfae" ]
         ]
       },
       {
@@ -373,7 +373,7 @@
           "mode" : "floor",
           "priority" : 3.0,
           "variants" : 1,
-          "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures",
+          "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
 
           "type" : "microdungeon",
           "microdungeons" : [ "bogmini" ]
@@ -444,6 +444,18 @@
             }
           ]
         },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredLarge",
+
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 180,
+        "treeStemHueShiftMax" : 15,
+        "treeStemList" : [ "weeping" ],
+        "treeFoliageList" : [ "weepingleaves" ]
+      },
         {
           "mode" : "floor",
           "priority" : 1.0,
@@ -468,18 +480,7 @@
         "treeStemList" : [ "magictree", "magictree2" ],
         "treeFoliageList" : [ "" ]
       },
-      {
-        "mode" : "floor",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredLarge",
 
-        "type" : "tree",
-        "treeFoliageHueShiftMax" : 180,
-        "treeStemHueShiftMax" : 15,
-        "treeStemList" : [ "weeping" ],
-        "treeFoliageList" : [ "weepingleaves" ]
-      },
         {
           "mode" : "floor",
           "priority" : 1.0,

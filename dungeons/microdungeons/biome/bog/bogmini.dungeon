@@ -24,6 +24,26 @@
       "rules" : [ [ "worldGenMustContainSolidBackground" ], [ "allowOverdrawing" ] ],
       "brush" : [ [ "surface", { "variant" : 0 } ] ]
     },
+    {
+      "value" : [126, 149, 159, 255],
+      "comment" : "clay front",
+      "brush" : [ [ "clear" ], [ "back", "clay" ], [ "front", "clay" ] ]
+    },     
+    {
+      "value" : [92, 108, 115, 255],
+      "comment" : "clay back",
+      "brush" : [ [ "clear" ], [ "back", "clay" ] ]
+    },  
+    {
+      "value" : [132, 124, 111, 255],
+      "comment" : "mud front",
+      "brush" : [ [ "clear" ], [ "back", "mud" ], [ "front", "mud" ] ]
+    },     
+    {
+      "value" : [76, 73, 61, 255],
+      "comment" : "mud back",
+      "brush" : [ [ "clear" ], [ "back", "mud" ] ]
+    },      
     
     {
       "value" : [32, 32, 32, 255],
@@ -237,6 +257,66 @@
       "brush" : [ [ "clear" ], [ "front", "wreckplatform" ] ]
     },
 
+
+    {
+      "value" : [106, 1, 1, 255],
+      "comment" : "tent1 facing left",
+      "brush" : [ [ "clear" ], [ "object", "rootbush1" ] ]
+    },
+    {
+      "value" : [112, 1, 1, 255],
+      "comment" : "tent1 facing left",
+      "brush" : [ [ "clear" ], [ "object", "rootbush2" ] ]
+    },
+    {
+      "value" : [124, 1, 1, 255],
+      "comment" : "tent1 facing left",
+      "brush" : [ [ "clear" ], [ "object", "rootbush3" ] ]
+    },
+    {
+      "value" : [148, 1, 1, 255],
+      "comment" : "tent1 facing left",
+      "brush" : [ [ "clear" ], [ "object", "rootbush4" ] ]
+    },
+    {
+      "value" : [164, 1, 1, 255],
+      "comment" : "tent1 facing left",
+      "brush" : [ [ "clear" ], [ "object", "rootbush5" ] ]
+    },
+    {
+      "value" : [1, 1, 112, 255],
+      "comment" : "tent1 facing left",
+      "brush" : [ [ "clear" ], [ "object", "swamproot1" ] ]
+    },
+    {
+      "value" : [1, 1, 124, 255],
+      "comment" : "tent1 facing left",
+      "brush" : [ [ "clear" ], [ "object", "swamproot2" ] ]
+    },
+    {
+      "value" : [1, 1, 136, 255],
+      "comment" : "tent1 facing left",
+      "brush" : [ [ "clear" ], [ "object", "swamproot3" ] ]
+    },
+    {
+      "value" : [1, 1, 148, 255],
+      "comment" : "tent1 facing left",
+      "brush" : [ [ "clear" ], [ "object", "swamproot4" ] ]
+    },
+    {
+      "value" : [1, 1, 164, 255],
+      "comment" : "tent1 facing left",
+      "brush" : [ [ "clear" ], [ "object", "swamproot5" ] ]
+    },    
+    {
+      "value" : [112, 112, 164, 255],
+      "comment" : "tent1 facing left",
+      "brush" : [ [ "clear" ], [ "object", "gasprimer" ] ]
+    },  
+    
+    
+    
+    
     {
       "value" : [119, 182, 124, 255],
       "comment" : "tent1 facing left",
