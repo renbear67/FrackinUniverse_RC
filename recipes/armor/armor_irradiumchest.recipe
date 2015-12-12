@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "irradiumbar", "count" : 4 },
     { "item" : "triangliumpyramid", "count" : 3 },
-    { "item" : "tungstenbar", "count" : 6 },
+    { "item" : "zerchesiumbar", "count" : 6 },
     { "item" : "liquidirradium", "count" : 12 }
   ],
   "output" : {

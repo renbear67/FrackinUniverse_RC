@@ -1,0 +1,12 @@
+{
+  "itemName" : "geodestone",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "geodestone.png",
+  "description" : "Solid geodestone. It reflects the light.",
+  "shortdescription" : "Geode Stone",
+  "glitchdescription" : "Statement. Rock-hard geodestone.",
+  "florandescription" : "Obsssidian. Black like Floran sssoul.",
+
+  "materialId" : 360
+}

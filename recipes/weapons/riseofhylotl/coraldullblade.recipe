@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "coralfragment", "count" : 6 },
     { "item" : "erithianalgae", "count" : 4 },
-    { "item" : "tungstenbar", "count" : 4 },
+    { "item" : "zerchesiumbar", "count" : 4 },
     { "item" : "biochip", "count" : 2 }
   ],
   "output" : {

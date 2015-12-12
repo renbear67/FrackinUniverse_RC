@@ -1,9 +1,8 @@
 {
   "input" : [
     { "item" : "fu_hydrogen", "count" : 4 },
-    { "item" : "crystal", "count" : 1 },
+    { "item" : "liquidcrystal", "count" : 20 },
     { "item" : "liquidsulphuricacid", "count" : 2 },
-    { "item" : "fu_nitrogen", "count" : 2 },
     { "item" : "mineralsample", "count" : 2 }
   ],
   "output" : {

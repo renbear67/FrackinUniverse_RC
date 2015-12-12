@@ -2,7 +2,7 @@
   "input" : [
    { "item" : "refinedaegisalt", "count" : 4 },
    { "item" : "electromagnet", "count" : 1 },
-   { "item" : "tungstenbar", "count" : 5 }
+   { "item" : "zerchesiumbar", "count" : 5 }
   ],
   "output" : {
     "item" : "fuaegisaltminigun",

@@ -19,7 +19,23 @@
     ]
   ]
 },  
-  
+
+{"op":"add",
+	"path":"/cottonHarvest",
+	"value":[[0, {
+	"pool":[ 
+          {"weight" : 0.89, "item" : "cotton"},
+          {"weight" : 0.01, "item" : "cottonseed"},
+          {"weight" : 0.1, "item" : "plantfibre"}
+        ],
+	"poolRounds" : [
+          [0.2, 1],
+          [0.6, 2],
+          [0.2, 3]
+        ]}
+	]]
+},
+
 {"op":"add",
 	"path":"/fuspongeweedseedHarvest",
 	"value":[[0, {
@@ -30,10 +46,13 @@
 },
 {"op":"add",
 	"path":"/fusnowberryseedHarvest",
-	"value":[[0, {
+	"value":
+	[[0, 
+	{
 	"fill":[ {"item":"fusnowberryseed"},{"item":"fusnowberry"}  ],
 	"pool":[ {"weight":0.5, "item":"fusnowberryseed"},{"weight":0.6, "item":"fusnowberry"} ],
-	"poolRounds":[[0.5,0],[0.5,1]]}
+	"poolRounds":[[0.5,0],[0.5,1]]
+	}
 	]]
 },
 

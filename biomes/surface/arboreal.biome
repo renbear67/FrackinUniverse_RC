@@ -218,7 +218,8 @@
               [0.35, "wildcarrotseed" ],
               [0.35, "wildtomatoseed" ],
               [0.35, "wildpotatoseed" ],
-              [0.35, "wildhopsseed" ]
+              [0.35, "wildhopsseed" ],
+              [0.35, "wildcottonseed" ]
               ],
               "parameters" : { "startingStage" : 3 }
             }
@@ -459,7 +460,7 @@
           "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "forestmicrodungeons", "gardenmicrodungeons" ]
+          "microdungeons" : [ "forestmicrodungeons", "gardenmicrodungeons", "arborealmini" ]
         },
         {
           "mode" : "floor",
@@ -468,7 +469,7 @@
           "distribution" : "/biomes/distributions.config:randomEncounter",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "fuencountercultist", "newhumanmicro", "newavianmicro", "minigreenruins", "arborealmini" ]
+          "microdungeons" : [ "fuencountercultist", "newhumanmicro", "newavianmicro", "minigreenruins" ]
         },
         {
           "mode" : "floor",

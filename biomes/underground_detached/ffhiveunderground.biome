@@ -26,7 +26,7 @@
   },
 
   "mainBlock" : "honeycombmaterial",
-  "subBlocks" : [ "fu_honeycombblock", "hive" ],
+  "subBlocks" : [ "fu_honeycombblock", "stonerubble" ],
   "ores" : "ff_deephoneyOres",
 
   "ambientNoises" : {

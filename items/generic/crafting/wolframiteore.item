@@ -1,9 +1,0 @@
-{
-  "itemName" : "wolframiteore",
-  "rarity" : "uncommon",
-  "inventoryIcon" : "wolframiteore.png",
-  "description" : "Can be refined into Tungsten.",
-  "shortdescription" : "Wolfram Ore",
-  "pickupQuestTemplates" : [ "wolframite.gearup" ],
-  "learnBlueprintsOnPickup" : [ "tungstenbar" ]
-}

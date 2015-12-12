@@ -4,7 +4,7 @@
   "hueShiftOptions" : [-40, -25, 0, 25, 40],
 
     "mainBlock" : "redhoneycombmaterial",
-    "subBlocks" : [ "fu_redhoneycombblock", "fleshblock", "spidersilkblock" ],
+    "subBlocks" : [ "fu_redhoneycombblock", "rock14", "spidersilkblock" ],
     "ores" : "ff_redhoneyOres",
     "spawnProfile" : {
     "groups" : [

@@ -197,6 +197,8 @@ local recipes =
 {inputs = { ff_bambooshoot=1 }, outputs = { geneticmaterial=2 }, time = 0.95},
 {inputs = { blooddiamond=1 }, outputs = { quietusore=3 }, time = 0.95},
 -- tiles
+{inputs = { geodeblock=50 }, outputs = { crystal=1 }, time = 0.95},
+{inputs = { geodestone=50 }, outputs = { crystal=1 }, time = 0.95},
 {inputs = { shadowwallblock=50 }, outputs = { rawminerals=3 }, time = 0.95},
 {inputs = { shadowspikeblock=50 }, outputs = { rawminerals=3 }, time = 0.95},
 {inputs = { shadowblock=50 }, outputs = { rawminerals=3 }, time = 0.95},
@@ -820,7 +822,7 @@ local recipes =
 {inputs = { solarishard=20 }, outputs = { crystal=1 }, time = 1.6},
 {inputs = { solaricrystal=1 }, outputs = { solarishard=4 }, time = 0.95},
 {inputs = { matteritem=50 }, outputs = { unstableparticles=1 }, time = 1.65},
-{inputs = { wolframiteore=4 }, outputs = { fu_carbon=4 }, time = 1.65}
+{inputs = { zerchesiumore=4 }, outputs = { fu_carbon=4 }, time = 1.65}
 }
 
 function init(args)

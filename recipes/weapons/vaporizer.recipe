@@ -2,7 +2,7 @@
   "input" : [
    { "item" : "cpu", "count" : 1 },
    { "item" : "powercore", "count" : 2 },
-   { "item" : "tungstenbar", "count" : 4 },
+   { "item" : "zerchesiumbar", "count" : 4 },
    { "item" : "copperplate", "count" : 2 }
   ],
   "output" : {

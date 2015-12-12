@@ -1,7 +1,7 @@
 {
   "input" : [
    { "item" : "prisilitestar", "count" : 4 },
-   { "item" : "tungstenbar", "count" : 3 },
+   { "item" : "zerchesiumbar", "count" : 3 },
    { "item" : "powercore", "count" : 1 }
   ],
   "output" : {

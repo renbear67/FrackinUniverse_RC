@@ -2,7 +2,7 @@
   "input" : [
    { "item" : "moonstonebar", "count" : 4 },
    { "item" : "moltencore", "count" : 1 },
-   { "item" : "tungstenbar", "count" : 2 }
+   { "item" : "zerchesiumbar", "count" : 2 }
   ],
   "output" : {
     "item" : "chargeshotgun",

@@ -1,0 +1,8 @@
+{
+  "itemName" : "cottonwool",
+  "price" : 10,
+  "rarity" : "Common",
+  "inventoryIcon" : "cottonwool.png",
+  "description" : "A roll of processed cotton.",
+  "shortdescription" : "Cotton Wool"
+}

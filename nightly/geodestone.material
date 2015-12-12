@@ -1,0 +1,23 @@
+{
+  "materialId" : 360,
+  "materialName" : "geodestone",
+  "particleColor" : [92, 90, 87, 255],
+  "itemDrop" : "geodestone",
+  "description" : "Solid geodestone. It reflects the light.-todo-",
+  "shortdescription" : "Geode Stone",
+  "glitchDescription" : "Statement. Rock-hard geodestone.-todo-",
+  "floranDescription" : "Obsssidian. Black like Floran sssoul.-todo-",
+  "footstepSound" : "/sfx/blocks/footstep_stone3.ogg",
+  "health" : 24,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "geodestone.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 1561
+  }
+}

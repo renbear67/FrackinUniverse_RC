@@ -185,7 +185,7 @@
 "value":"^#666666;Metallic^white; moons hold ^#90ac7c;abundant rare metals^white; guarded by dangerous servitors. ^#d16fff;Densinium ore^white; and ^#ffda44;Moonstone ore^white; detected."},
 
 {"op":"add","path":"/planetTypeToDescription/mountainous",
-"value":"This ^#b398ba;mountainous^white; world is studded with immensely tall rocky mountains. Scans show large bipedal primitives. ^#e47998;Wolfram ore^white; detected."},
+"value":"This ^#b398ba;mountainous^white; world is studded with immensely tall rocky mountains. Scans show large bipedal primitives. ^#e47998;Zerchesium ore^white; detected."},
 
 {"op":"add","path":"/planetTypeToDescription/nitrogensea",
 "value":"A deadly ^#69f1fd;liquid nitrogen sea^white; awaits beneath a dense layer of ice."},

@@ -1,15 +1,15 @@
 {
   "modId" : 6751,
-  "modName" : "wolframite",
-  "itemDrop" : "wolframiteore",
-  "Description" : "Wolframite",
-  "health" : 11,
+  "modName" : "zerchesium",
+  "itemDrop" : "zerchesiumore",
+  "Description" : "Zerchesium",
+  "health" : 6,
   "breaksWithTile" : true,
   "harvestLevel" : 3,
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "wolframite.png",
+    "texture" : "zerchesium.png",
     "variants" : 8,
     "multiColored" : false,
     "zLevel" : 0

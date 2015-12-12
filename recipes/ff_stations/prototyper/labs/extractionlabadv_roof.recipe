@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "tungstenbar", "count" : 4 },
+    { "item" : "zerchesiumbar", "count" : 4 },
     { "item" : "advancealloy", "count" : 4 },
     { "item" : "goldbar", "count" : 2 },
     { "item" : "extractionlab", "count" : 1 }

@@ -3,7 +3,7 @@
     { "item" : "electromagnet", "count" : 2 },
     { "item" : "staticcell", "count" : 4 },
     { "item" : "cpu", "count" : 2 },
-    { "item" : "tungstenbar", "count" : 2 },
+    { "item" : "zerchesiumbar", "count" : 2 },
     { "item" : "carbonplate", "count" : 4 }
   ],
   "output" : {

@@ -38,7 +38,8 @@
               [0.35, "wildbrackentreeseed" ],
               [0.35, "wildonionseed" ],
               [0.35, "wildjillyrootseed" ],
-              [0.35, "wildhopsseed" ]
+              [0.35, "wildhopsseed" ],
+              [0.35, "wildcottonseed" ]
               ],
               "parameters" : { "startingStage" : 3 }
             }

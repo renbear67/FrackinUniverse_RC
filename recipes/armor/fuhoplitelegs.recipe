@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "tungstenbar", "count" : 3 },
+    { "item" : "zerchesiumbar", "count" : 3 },
     { "item" : "steelbar", "count" : 1 },
     { "item" : "fabric", "count" : 3 }
   ],

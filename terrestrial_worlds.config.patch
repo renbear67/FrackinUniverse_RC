@@ -1903,7 +1903,7 @@
   "path" : "/regionTypes/chromatic",
   "value" : 
   {
-      "caveLiquid" : [  "water", "healingliquid", "alienjuice" ],
+      "caveLiquid" : [  "water", "healingliquid", "alienjuice", "crystalliquid", "bioooze", "blacktar" ],
       "blockSelector" : [ "remixedSurface", "remixedMildSurface","remixedMountainsSurface", "remixedMegaMountainsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "bgOreSelector" : [ "commonVeins", "acidPoolCaves" ], 
@@ -1917,7 +1917,7 @@
   "path" : "/regionTypes/arboreal",
   "value" : 
   {
-      "caveLiquid" : [  "water", "blacktar", "healingliquid" ],
+      "caveLiquid" : [  "water", "tarliquid", "healingliquid" ],
       "blockSelector" : [ "remixedSurface", "remixedMildSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "bgOreSelector" : [ "commonVeins", "denseVeins" ], 
@@ -1999,7 +1999,7 @@
   "path" : "/regionTypes/bloodstone",
   "value" : 
   {
-      "caveLiquid" : [ "bloodliquid", "alienjuice", "darkwater" ],
+      "caveLiquid" : [ "bloodliquid", "alienjuice", "darkwater", "tarliquid" ],
       "blockSelector" : [ "remixedMildCanyonsSurface", "remixedCanyonsSurface", "remixedSurface", "remixedMegaMountainsSurface", "remixedMountainsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves", "denseCaves" ],
       "bgOreSelector" : [ "denseVeins" ], 
@@ -2134,7 +2134,7 @@
   {
       "caveLiquid" : [ "organicsoup", "alienjuice", "healingliquid" ],
       "blockSelector" : [ "remixedSurface", "remixedPoolsSurface", "remixedMountainsSurface", "remixedStepsSurface" ],
-      "fgCaveSelector" : [ "surfaceCaves", "denseCaves"  ],
+      "fgCaveSelector" : [ "surfaceCaves", "denseCaves" ],
       "bgOreSelector" : [ "denseVeins" ], 
       "biome" : [
         [0, [ "crystalmoon" ]]
@@ -2850,7 +2850,7 @@
   "path" : "/regionTypes/alienforest",
   "value" : 
   {
-      "caveLiquid" : [ "water", "alienjuice", "gravrain", "fuironliquid" ],
+      "caveLiquid" : [ "water", "alienjuice", "gravrain", "fuironliquid", "crystalliquid" ],
       "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [  "lowHillsSurface", "flatsSurface", "medHillsSurface", "remixedMountainsSurface"  ],
       "fgCaveSelector" : [ "surfaceCaves" ],
@@ -3262,7 +3262,7 @@
   "path" : "/regionTypes/icefire",
   "value" : 
   {
-      "caveLiquid" : [ "lava" ],
+      "caveLiquid" : [ "lava", "liquidnitrogen" ],
       "caveLiquidChanceRange" : [67, 100],
       "blockSelector" : [ "remixedSpikesSurface", "remixedMountainsSurface", "remixedCanyonsSurface", "remixedMildCanyonsSurface", "remixedSurface"  ],
       "fgCaveSelector" : [ "surfaceCaves" ],
@@ -3449,7 +3449,7 @@
     "path" : "/regionTypes/supermatterzone",
     "value" : 
     {
-        "caveLiquid" : [  "organicsoup", "fuel", "blacktar" ],
+        "caveLiquid" : [  "organicsoup", "fuel", "blacktar", "crystalliquid"  ],
         "blockSelector" : [ "remixedMildSurface", "remixedSurface", "remixedCanyonsSurface", "remixedMildCanyonsSurface"  ],
         "fgCaveSelector" : [ "denseCaves" ],
         "biome" : [
@@ -3475,7 +3475,7 @@
   "path" : "/regionTypes/energyorbforest",
   "value" : 
   {
-      "caveLiquid" : [ "bio_ooze", "alienjuice", "organicsoup", "blacktar", "healingliquid" ],
+      "caveLiquid" : [ "alienjuice", "organicsoup", "healingliquid", "crystalliquid"  ],
       "blockSelector" : [ "remixedMildSurface", "remixedSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
@@ -3678,9 +3678,9 @@
  "path": "/regionTypes/strangesea",
  "value" : 
  	{
-       "oceanLiquid" : [ "bloodliquid", "bio_ooze", "blacktar", "organicsoup", "protociteliquid", "elderfluid", "sulphuricacid", "irradiumliquid", "mercuryliquid", "gravrain", "fuironliquid", "pus", "alienjuice", "liquidnitrogen", "darkwater" ],
+       "oceanLiquid" : [ "crystalliquid", "bloodliquid", "bio_ooze", "blacktar", "organicsoup", "protociteliquid", "elderfluid", "sulphuricacid", "irradiumliquid", "mercuryliquid", "gravrain", "fuironliquid", "pus", "alienjuice", "liquidnitrogen", "darkwater" ],
        "oceanLevelOffset" : 0, 
-       "caveLiquid" : [ "bloodliquid", "bio_ooze", "blacktar", "organicsoup", "protociteliquid", "elderfluid", "sulphuricacid", "irradiumliquid", "mercuryliquid", "gravrain", "fuironliquid", "pus", "alienjuice", "liquidnitrogen", "darkwater", "fuhoney", "helium3gas", "shadowgas", "wastewater", "poison", "lava" ],
+       "caveLiquid" : [ "crystalliquid", "bloodliquid", "bio_ooze", "blacktar", "organicsoup", "protociteliquid", "elderfluid", "sulphuricacid", "irradiumliquid", "mercuryliquid", "gravrain", "fuironliquid", "pus", "alienjuice", "liquidnitrogen", "darkwater", "fuhoney", "helium3gas", "shadowgas", "wastewater", "poison", "lava" ],
        "caveLiquidChanceRange" : [100, 100],
        "blockSelector" : [ "remixedIslandsSurface", "submergedIslandsSurface", "spikeIslandsSurface" ],
        "fgCaveSelector" : [ "surfaceCaves" ],

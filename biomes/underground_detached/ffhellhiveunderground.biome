@@ -26,7 +26,7 @@
   },
 
   "mainBlock" : "redhoneycombmaterial",
-  "subBlocks" : [ "fu_redhoneycombblock", "fleshblock", "spidersilkblock" ],
+  "subBlocks" : [ "fu_redhoneycombblock", "stonerubble", "spidersilkblock" ],
   "ores" : "ff_deepredhoneyOres",
 
   "ambientNoises" : {

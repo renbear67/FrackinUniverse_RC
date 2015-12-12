@@ -1,0 +1,31 @@
+{
+  "name" : "crystalliquid",
+  "liquidId" : 59,
+  "description" : "How does one liquify crystal, exactly?",
+  "tickDelta" : 1,
+  "color":[0,255,192,150],
+  "radiantLight":[49,140,117],
+  "statusEffects" : [ "swimming" ],
+  "itemDrop" : "liquidcrystal",
+  "texture":"/liquids/watertex.png",
+  "bottomLightMix" : [51,60,30],
+  "textureMovementFactor" : 0.75,
+  "interactions":[
+        {
+          "liquid" : 3,
+          "liquidResult" : 58
+        },
+        {
+          "liquid" : 8,
+          "liquidResult" : 0
+        },
+        {
+          "liquid": 12,
+          "liquidResult" : 58
+        } ,
+        {
+          "liquid": 6,
+          "liquidResult" : 58
+        } 
+    ]
+}

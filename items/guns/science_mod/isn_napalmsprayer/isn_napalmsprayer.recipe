@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "tungstenbar", "count" : 9 },
+    { "item" : "zerchesiumbar", "count" : 9 },
     { "item" : "titaniumbar", "count" : 2 },
     { "item" : "liquidoil", "count" : 100 },
     { "item" : "fu_hydrogen", "count" : 15 }

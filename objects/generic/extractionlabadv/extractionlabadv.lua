@@ -197,9 +197,11 @@ local recipes =
 {inputs = { ff_bambooshoot=1 }, outputs = { geneticmaterial=2 }, time = 0.65},
 {inputs = { blooddiamond=1 }, outputs = { quietusore=3 }, time = 0.65},
 -- tiles
-{inputs = { shadowwallblock=50 }, outputs = { rawminerals=4 }, time = 0.95},
-{inputs = { shadowspikeblock=50 }, outputs = { rawminerals=4 }, time = 0.95},
-{inputs = { shadowblock=50 }, outputs = { rawminerals=4 }, time = 0.95},
+{inputs = { geodeblock=50 }, outputs = { crystal=1 }, time = 0.65},
+{inputs = { geodestone=50 }, outputs = { crystal=1 }, time = 0.65},
+{inputs = { shadowwallblock=50 }, outputs = { rawminerals=4 }, time = 0.65},
+{inputs = { shadowspikeblock=50 }, outputs = { rawminerals=4 }, time = 0.65},
+{inputs = { shadowblock=50 }, outputs = { rawminerals=4 }, time = 0.65},
 {inputs = { concretematerial=50 }, outputs = { rawminerals=2 }, time = 0.65},
 {inputs = { honeycombmaterial=50 }, outputs = { fu_liquidhoney=2 }, time = 0.65},
 {inputs = { fu_honeycombblock=50 }, outputs = { fu_liquidhoney=2 }, time = 0.65},
@@ -820,7 +822,7 @@ local recipes =
 {inputs = { solarishard=20 }, outputs = { crystal=1 }, time = 1.6},
 {inputs = { solaricrystal=1 }, outputs = { solarishard=4 }, time = 0.65},
 {inputs = { matteritem=50 }, outputs = { unstableparticles=1 }, time = 1.65},
-{inputs = { wolframiteore=4 }, outputs = { fu_carbon=4 }, time = 1.65}
+{inputs = { zerchesiumore=4 }, outputs = { fu_carbon=4 }, time = 1.65}
 }
 
 function init(args)

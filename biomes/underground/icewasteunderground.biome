@@ -65,7 +65,7 @@
              "mode" : "ceiling",
              "priority" : 1.0,
              "variants" : 1,
-             "distribution" : "/biomes/distributions.config:potsRare",
+             "distribution" : "/biomes/distributions.config:ffCommon",
    
              "type" : "object",
              "objectSets" : [
@@ -76,7 +76,7 @@
               [0.50, "icestalactite3" ],
               [0.50, "icestalactite4" ]
                  ],
-                 "parameters" : { "startingStage" : 3 }
+                 "parameters" : {}
                }
              ]
            },
@@ -84,7 +84,7 @@
              "mode" : "floor",
              "priority" : 1.0,
              "variants" : 1,
-             "distribution" : "/biomes/distributions.config:potsRare",
+             "distribution" : "/biomes/distributions.config:ffunCommon",
    
              "type" : "object",
              "objectSets" : [
@@ -96,7 +96,7 @@
               [0.50, "icestalagmite3" ],
               [0.50, "icestalagmite4" ]              
                  ],
-                 "parameters" : { "startingStage" : 3 }
+                 "parameters" : {}
                }
              ]
            },
@@ -118,7 +118,13 @@
           "type" : "object",
           "objectSets" : [
             {
-              "pool" : [ [0.35, "iceshard1" ], [0.35, "iceshard2" ], [0.35, "iceshard3" ], [0.35, "iceshard4" ], [0.35, "iceshard5" ] ],
+              "pool" : [ 
+              [0.35, "iceshard1" ], 
+              [0.35, "iceshard2" ], 
+              [0.35, "iceshard3" ], 
+              [0.35, "iceshard4" ], 
+              [0.35, "iceshard5" ] 
+              ],
               "parameters" : { }
             }
           ]

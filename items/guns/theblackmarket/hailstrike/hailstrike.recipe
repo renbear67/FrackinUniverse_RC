@@ -1,6 +1,6 @@
 {
   "input" : [
-   { "item" : "tungstenbar", "count" : 14 },
+   { "item" : "zerchesiumbar", "count" : 14 },
    { "item" : "ff_focusingarray", "count" : 1 },
    { "item" : "nuclearcore", "count" : 1 },
    { "item" : "corefragmentore", "count" : 12 }

@@ -1,0 +1,8 @@
+{
+  "itemName" : "cotton",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "cotton.png",
+  "description" : "A tuft of cotton.",
+  "shortdescription" : "Cotton"
+}

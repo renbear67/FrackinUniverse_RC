@@ -3,7 +3,7 @@
     { "item" : "fu_carbon", "count" : 5 },
     { "item" : "methanol", "count" : 2 },
     { "item" : "iodine", "count" : 1 },
-    { "item" : "wolframiteore", "count" : 1 }
+    { "item" : "zerchesiumore", "count" : 1 }
   ],
   "output" : {
     "item" : "graphene",
