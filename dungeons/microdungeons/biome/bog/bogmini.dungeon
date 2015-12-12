@@ -2,8 +2,7 @@
   "metadata" : {
     "name" : "bogmini",
     "species" : "dummy",
-    "rules" : [
-    ],
+    "rules" : [],
     "anchor" : [ "bog1", "bog2", "bog3", "bog4", "bog5", "bog6", "bog7", "bog8", "bog9", "bog10", "bog11", "bog12", "bog13", "bog14", "bog15", "bog16", "bog17", "bog18" ],
 
     "maxRadius" : 2000,
