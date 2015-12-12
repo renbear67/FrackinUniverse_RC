@@ -339,7 +339,7 @@
 			"brush" : [ [ "npc",
 			{
 				"kind" : "monster",
-				"typeName" : "smallquadruped",
+				"typeName" : "poptop",
 				"seed" : "stable",
 				"parameters" : {
 				"aggressive" : true,
@@ -355,7 +355,7 @@
 			"brush" : [ [ "npc",
 			{
 				"kind" : "monster",
-				"typeName" : "largequadruped",
+				"typeName" : "poptop",
 				"seed" : "stable",
 				"parameters" : {
 				"aggressive" : true,
@@ -371,7 +371,7 @@
 			"brush" : [ [ "npc",
 			{
 				"kind" : "monster",
-				"typeName" : "minibossquadruped",
+				"typeName" : "adultpoptop",
 				"seed" : "stable",
 				"parameters" : {
 				"aggressive" : true,
@@ -387,7 +387,7 @@
 		"brush" : [ [ "npc",
 			{
 				"kind" : "monster",
-				"typeName" : "smallflying",
+				"typeName" : "batong",
 				"seed" : "stable",
 				"parameters" : {
 				"aggressive" : true,
@@ -451,7 +451,7 @@
 		"brush" : [ [ "npc",
 			{
 				"kind" : "monster",
-				"typeName" : "minibossbiped",
+				"typeName" : "adultpoptop",
 				"seed" : "stable",
 				"parameters" : {
 				"aggressive" : true,

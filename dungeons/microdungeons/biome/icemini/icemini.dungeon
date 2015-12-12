@@ -4,7 +4,7 @@
     "species" : "dummy",
     "rules" : [
     ],
-    "anchor" : [ "icemini1", "icemini2", "icemini3", "icemini4", "icemini5", "icemini6", "icemini7", "icemini8" ],
+    "anchor" : [ "icemini1", "icemini2", "icemini3", "icemini4", "icemini5", "icemini6" ],
 
     "maxRadius" : 2000,
     "maxParts" : 15
@@ -60,7 +60,11 @@
       "comment" : "Biome tile brush non-overwritable",
       "brush" : [ [ "surface" ] ]
     },
-
+    {
+      "value" : [90, 90, 90, 255],
+      "comment" : "Biome tile brush non-overwritable",
+      "brush" : [ [ "surface" ] ]
+    },
     {
       "value" : [200, 200, 200, 255],
       "comment" : "Biome tile background brush",
@@ -484,42 +488,32 @@
     {
       "name" : "icemini1",
       "rules" : [ ],
-      "def" : [ "image", [ "icemini1.png", "icemini1-objects.png" ] ]
+      "def" : [ "image", [ "icemini1.png" ] ]
     },
     {
       "name" : "icemini2",
       "rules" : [ ],
-      "def" : [ "image", [ "icemini2.png", "icemini2-objects.png" ] ]
+      "def" : [ "image", [ "icemini2.png" ] ]
     },
     {
       "name" : "icemini3",
       "rules" : [ ],
-      "def" : [ "image", [ "icemini3.png", "icemini3-objects.png" ] ]
+      "def" : [ "image", [ "icemini3.png" ] ]
     },
     {
       "name" : "icemini4",
       "rules" : [ ],
-      "def" : [ "image", [ "icemini4.png", "icemini4-objects.png" ] ]
+      "def" : [ "image", [ "icemini4.png" ] ]
     },
     {
       "name" : "icemini5",
       "rules" : [ ],
-      "def" : [ "image", [ "icemini5.png", "icemini5-objects.png" ] ]
+      "def" : [ "image", [ "icemini5.png" ] ]
     },
     {
       "name" : "icemini6",
       "rules" : [ ],
-      "def" : [ "image", [ "icemini6.png", "icemini6-objects.png" ] ]
-    },
-    {
-      "name" : "icemini7",
-      "rules" : [ ],
-      "def" : [ "image", [ "icemini7.png", "icemini7-objects.png" ] ]
-    },
-    {
-      "name" : "icemini8",
-      "rules" : [ ],
-      "def" : [ "image", [ "icemini8.png", "icemini8-objects.png" ] ]
+      "def" : [ "image", [ "icemini6.png" ] ]
     }
   ]
 }

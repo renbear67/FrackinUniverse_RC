@@ -64,7 +64,18 @@
       "comment" : "Biome tile brush non-overwritable",
       "brush" : [ [ "surfacebackground" ] ]
     },
+    {
+      "value" : [159, 159, 159, 255],
+      "comment" : "Biome tile brush",
+      "rules" : [ [ "allowOverdrawing" ] ],
+      "brush" : [ [ "surface" ] ]
+    },
 
+    {
+      "value" : [96, 96, 96, 255],
+      "comment" : "Biome tile brush non-overwritable",
+      "brush" : [ [ "surfacebackground" ] ]
+    },
     {
       "value" : [200, 200, 200, 255],
       "comment" : "Biome tile background brush",
@@ -486,37 +497,37 @@
     {
       "name" : "canyonmini1",
       "rules" : [ ],
-      "def" : [ "image", [ "canyonmini1.png", "canyonmini1-objects.png" ] ]
+      "def" : [ "image", [ "canyonmini1.png" ] ]
     },
     {
       "name" : "canyonmini2",
       "rules" : [ ],
-      "def" : [ "image", [ "canyonmini2.png", "canyonmini2-objects.png" ] ]
+      "def" : [ "image", [ "canyonmini2.png" ] ]
     },
     {
       "name" : "canyonmini3",
       "rules" : [ ],
-      "def" : [ "image", [ "canyonmini3.png", "canyonmini3-objects.png" ] ]
+      "def" : [ "image", [ "canyonmini3.png" ] ]
     },
     {
       "name" : "canyonmini4",
       "rules" : [ ],
-      "def" : [ "image", [ "canyonmini4.png", "canyonmini4-objects.png" ] ]
+      "def" : [ "image", [ "canyonmini4.png" ] ]
     },
     {
       "name" : "canyonmini5",
       "rules" : [ ],
-      "def" : [ "image", [ "canyonmini5.png", "canyonmini5-objects.png" ] ]
+      "def" : [ "image", [ "canyonmini5.png" ] ]
     },
     {
       "name" : "canyonmini6",
       "rules" : [ ],
-      "def" : [ "image", [ "canyonmini6.png", "canyonmini6-objects.png" ] ]
+      "def" : [ "image", [ "canyonmini6.png" ] ]
     },
     {
       "name" : "canyonmini7",
       "rules" : [ ],
-      "def" : [ "image", [ "canyonmini7.png", "canyonmini7-objects.png" ] ]
+      "def" : [ "image", [ "canyonmini7.png" ] ]
     }
   ]
 }
