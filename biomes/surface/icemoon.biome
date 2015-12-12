@@ -20,7 +20,6 @@
       {
         "select" : 3,
         "pool" : [
-          [ 0.4, "fu_frosty" ],
           [ 0.3, "fusnowball" ],
           [ 0.3, "arcticbee" ]
         ]
