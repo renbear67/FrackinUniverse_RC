@@ -1,13 +1,13 @@
 {
   "objectName" : "wildnissseed",
-    "tags" : [ "nature" ],
+  "tags" : [ "nature" ],
   "rarity" : "Uncommon",
   "category" : "farmable",
   "description" : "Terrible taste, but utterly immune to tar, mud and clay.",
   "shortdescription" : "Niss Seed",
   "objectType" : "farmable",
   "printable" : false,
-     "learnBlueprintsOnPickup" : [ "itaseed"],
+  "learnBlueprintsOnPickup" : [ "itaseed"],
 
   "inventoryIcon" : "nissseedicon.png",
   "orientations" : [
@@ -32,7 +32,7 @@
     {
       "alts" : 3,
       "harvestPool" : "nissHarvest",
-      "resetToStage" : 2
+      "resetToStage" : 0
     }
   ],
     "maxImmersion" : 0.125,

@@ -385,9 +385,7 @@
 {"op":"add", 
 	"path":"/nissHarvest", 
 	"value":[[0, {
-	"fill":[{"item":"nissseed"},
-		{"item":"nisscap"},
-		{"item":"plantfibre"}],
+	"fill":[ {"item":"nisscap"}, {"item":"plantfibre"} ],
 	"pool":[ {"weight":0.5, "item":"nissseed"} ],
 	"poolRounds":[[0.5,0],[0.5,1]]}
 		]]
