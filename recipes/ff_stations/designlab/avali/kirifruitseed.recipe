@@ -5,7 +5,7 @@
     { "item" : "liquidalienjuice", "count" : 30 }
   ],
   "output" : {
-    "item" : "kirufruitseed",
+    "item" : "kirifruitseed",
     "count" : 3
   },
   "groups" : [ "designlab", "bush", "all", "tools" ]
