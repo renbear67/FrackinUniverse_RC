@@ -14,7 +14,7 @@
             "chest" : [ { "name" : "cultarmorchest", "parameters" : { "colorIndex" : 7 } } ],
             "legs" : [ { "name" : "cultarmorpants", "parameters" : { "colorIndex" : 7 } } ],
             "primary" : [
-              "bloodyknife"
+              "dblade"
             ],
             "alt" : [
               "flashlight"

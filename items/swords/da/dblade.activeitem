@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "description" : " ",
-  "shortdescription" : "Beam Sword",
+  "shortdescription" : "Tek Blade",
   "tooltipKind" : "sword",
   "weaponType" : "Shortsword",
   "twoHanded" : false,
@@ -21,7 +21,7 @@
   "aimOffset" : 0.0,
   "primaryAttack" : {
     "fireTime" : [0.5, 0.67],
-    "baseDps" : [19.5, 19.5],
+    "baseDps" : [4.5, 9.5],
     "damageConfig" : {
       "damageSourceKind" : "shortsword",
       "statusEffects" : [ ],
@@ -66,12 +66,12 @@
     "animationParts" : {
       "blade" : {
         "path" : "blade/<variant>.png",
-        "variants" : 7,
+        "variants" : 14,
         "paletteSwap" : true
       },
       "handle" : {
         "path" : "handle/<variant>.png",
-        "variants" : 5,
+        "variants" : 10,
         "paletteSwap" : true
       }
     },

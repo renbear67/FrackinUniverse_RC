@@ -641,7 +641,6 @@
           {"weight" : 0.05, "pool" : "weapon"},
           {"weight" : 0.3, "pool" : "food"},
           {"weight" : 0.025, "item" : [ "handgrenade", 3]},
-          {"weight" : 0.005, "item" : [ "generatedgun", 1, { "definition" : "revolver" } ]},
           {"weight" : 0.04, "item" : [ "basicminer", 1]},
           {"weight" : 0.04, "item" : [ "laspistol", 1]},
           {"weight" : 0.04, "item" : [ "bloodyknife", 1]},
@@ -669,7 +668,7 @@
 	  {"weight" : 0.04, "item" : "itemlauncher"},
 	  {"weight" : 0.04, "item" : "slingshot"},  
 	  {"weight" : 0.04, "item" : "randomharpoongun"},
-          {"weight" : 0.04, "item" : "lightsaber"}
+          {"weight" : 0.04, "item" : "dblade"}
         ],
         "poolRounds" : [
           [0.70, 1],
