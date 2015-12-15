@@ -1,0 +1,21 @@
+{
+  "itemName" : "nakatibark",
+  "price" : 5,
+  "rarity" : "Common",
+  "inventoryIcon" : "avaliproduce2.png",
+  "description" : "The spicy bark of the Nakati plant. Increases defense.",
+  "shortdescription" : "Nakati Bark",
+  "effects" : [ [
+    {
+        "effect" : "defense5",
+        "duration" : 45
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 75
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

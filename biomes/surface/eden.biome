@@ -303,6 +303,7 @@
         "objectSets" : [
           {
             "pool" : [ [1, "wildfeathercrownseed" ] ],
+            
             "parameters" : {
               "startingStage" : 2
             }
@@ -318,7 +319,7 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [1, "wildlittlegoodberryseed" ] ],
+            "pool" : [ [0.5, "wildlittlegoodberryseed" ], [0.5, "wildnakatiseed" ] ],
             "parameters" : {
               "startingStage" : 3
             }

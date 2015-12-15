@@ -1,4 +1,7 @@
 local recipes = {
+{inputs = { kirifruitseed=1 }, outputs = { gene_energy=1 }, time = 5.5},
+{inputs = { nakatiseed=1 }, outputs = { gene_defense=1 }, time = 5.5},
+{inputs = { piruseed=1 }, outputs = { gene_agility=1 }, time = 5.5},
 {inputs = { cottonseed=1 }, outputs = { gene_energy=1 }, time = 5.5},
 {inputs = { wildcottonseed=1 }, outputs = { gene_energy=1 }, time = 5.5},
 

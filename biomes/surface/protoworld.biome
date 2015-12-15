@@ -251,7 +251,8 @@
               [0.65, "wildcorvexseed" ],
               [0.65, "wildmutaviskseed" ],
               [0.65, "wildvextongueseed" ],
-              [0.35, "wildguamseed" ]
+              [0.65, "wildnakatiseed" ],
+              [0.65, "wildguamseed" ]
               ],
               "parameters" : { "startingStage" : 3 }
             }

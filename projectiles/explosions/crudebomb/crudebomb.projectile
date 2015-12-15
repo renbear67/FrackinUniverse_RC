@@ -14,6 +14,8 @@
   "universalDamage" : true,
   "damageKind" : "default",
   "timeToLive" : 0.01,
+  "knockback" : 60,
+  "knockbackDirectional" : true,
   "actionOnReap" : [
     {
       "action" : "config",

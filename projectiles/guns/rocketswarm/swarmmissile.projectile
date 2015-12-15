@@ -9,6 +9,8 @@
   "fallSpeed" : 0,
   "lightColor" : [255, 255, 128],
   "pointLight" : true,
+  "knockback" : 5,
+  "knockbackDirectional" : true,
   "actionOnReap" : [
     {
       "action" : "config",

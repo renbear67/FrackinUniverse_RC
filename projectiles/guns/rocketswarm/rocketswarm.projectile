@@ -9,6 +9,8 @@
   "lightColor" : [255, 255, 128],
   "timeToLive" : 0.3,
   "pointLight" : true,
+  "knockback" : 10,
+  "knockbackDirectional" : true,
   "actionOnReap" : [
     {
       "action" : "projectile",

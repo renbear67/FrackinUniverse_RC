@@ -13,5 +13,7 @@
   "lightColor" : [40,140,160],
   "universalDamage" : true,
   "damageKind" : "default",
+  "knockback" : 500,
+  "knockbackDirectional" : true,
   "emitters" : [ "defaultblue" ]
 }

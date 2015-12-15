@@ -14,6 +14,8 @@
   "universalDamage" : true,
   "damageKind" : "default",
   "power" : 50,
+  "knockback" : 120,
+  "knockbackDirectional" : true,
   "actionOnReap" : [
     {
       "action" : "config",

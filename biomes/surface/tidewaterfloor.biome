@@ -207,7 +207,8 @@
           {
             "pool" : [ 
             [0.5, "wildcoralcreepseed" ],
-            [0.5, "wildcellpodsplant" ]
+            [0.5, "wildcellpodsplant" ],
+            [0.5, "wildpiruseed" ]
             ],
             "parameters" : {
               "startingStage" : 3

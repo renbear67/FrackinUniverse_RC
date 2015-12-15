@@ -247,6 +247,7 @@
             "pool" : [ 
             [0.25, "wildcellpodsplant" ], 
             [0.25, "wildkamaranpodsplant" ],
+            [0.35, "wildnakatiseed" ],
             [0.25, "wildaquapodseed" ] 
             ],
             "parameters" : {

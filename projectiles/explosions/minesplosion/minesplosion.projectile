@@ -10,5 +10,7 @@
   "animationLoops" : false,
   "piercing" : true,
   "flippable" : true,
+  "knockback" : 60,
+  "knockbackDirectional" : true,
   "damageKind" : "default"
 }

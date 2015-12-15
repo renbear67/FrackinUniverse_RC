@@ -13,6 +13,8 @@
   "lightColor" : [168,175,155],
   "universalDamage" : true,
   "damageKind" : "default",
+  "knockback" : 60,
+  "knockbackDirectional" : true,
   "timeToLive" : 0.01,
   "actionOnReap" : [
     {

@@ -1,0 +1,22 @@
+{
+  "itemName" : "kirifruit",
+  "price" : 5,
+  "rarity" : "Common",
+  "inventoryIcon" : "avaliproduce1.png",
+  "description" : "The fruiting body of a subterranean slime mold. Regenerates energy.",
+  "shortdescription" : "Kiri Fruit",
+  "handPosition" : [7, 0],
+  "effects" : [ [
+    {
+        "effect" : "energyregen96",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 75
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

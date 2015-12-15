@@ -10,6 +10,8 @@
   "power" : 5,
   "speed" : 65,
   "timeToLive" : 0.6,
+  "knockback" : 5,
+  "knockbackDirectional" : true,
   "actionOnReap" : [
     {
       "action" : "config",

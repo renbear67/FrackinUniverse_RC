@@ -141,7 +141,8 @@
           "objectSets" : [
             {
               "pool" : [ 
-              [0.45, "wilderithianalgaeseed" ]
+              [0.45, "wilderithianalgaeseed" ],
+              [0.45, "wildpiruseed" ]
               ],
               "parameters" : { "startingStage" : 3 }
             }

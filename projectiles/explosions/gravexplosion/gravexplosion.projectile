@@ -11,6 +11,8 @@
   "timeToLive" : 0.5,
   "lightColor" : [120,0,0],
   "universalDamage" : true,
+  "knockback" : 100,
+  "knockbackDirectional" : true,
   "damageKind" : "default",
   "statusEffects" : [ "gravgun" ]
 }
