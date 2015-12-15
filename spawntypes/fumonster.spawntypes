@@ -511,7 +511,7 @@
 
     "groupSize" : [1, 1],
     "targetDensity" : 0.04,
-    "monsterType" : "fudeathdroid",
+    "monsterType" : "deathdroid",
     "monsterParameters" : {
       "aggressive" : true
     }
