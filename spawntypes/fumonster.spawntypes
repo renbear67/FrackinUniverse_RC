@@ -124,7 +124,7 @@
 
     "groupSize" : [1, 2],
     "targetDensity" : 0.04,
-    "monsterType" : "tintix",
+    "monsterType" : "tintic",
     "monsterParameters" : {
       "aggressive" : true
     }
