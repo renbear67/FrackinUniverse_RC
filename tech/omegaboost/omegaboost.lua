@@ -22,12 +22,9 @@ function update(args)
     tech.playSound("jumpSound")
     self.superJumpTimer = superJumpTime
     status.addEphemeralEffects{{effect = "nofalldamage", duration = self.cooldown}}
-  local damageConfig = {
-    power = 150,
-    speed = 0,
-    physics = "default"
-  } 
-    world.spawnProjectile(self.damageProjectileType, vec2.sub(mcontroller.position(),{ 0, 2 }), entity.id(), {0, 0}, true, damageConfig)  
+  local damageConfig = { power = 8,speed = 0,physics = "default" } 
+  gravityMultiplier = -2
+  world.spawnProjectile(self.damageProjectileType, vec2.sub(mcontroller.position(),{ 0, 2 }), entity.id(), {0, 0}, true, damageConfig)  
   end
 
   tech.setFlipped(mcontroller.facingDirection() < 0)
@@ -39,6 +36,7 @@ function update(args)
   else
     tech.setParticleEmitterActive("jumpParticles", false)
   end
+
 end
 
 

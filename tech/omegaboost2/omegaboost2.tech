@@ -6,8 +6,8 @@
   "actions" : [ "superjump" ],
   "animator" : "omegaboost2.animation",
 
-  "energyUsage" : 140.0,
-  "superjumpSpeed" : 325,
-  "superjumpControlForce" : 550,
-  "superjumpTime" : 0.1
+  "energyUsage" : 120.0,
+  "superjumpSpeed" : 1720,
+  "superjumpControlForce" : 900,
+  "superjumpTime" : 1.5
 }
