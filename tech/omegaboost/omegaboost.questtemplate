@@ -1,0 +1,24 @@
+{
+  "id" : "omegaboost.gearup",
+  "prerequisites" : [ ],
+  "title" : "^orange;Omega-Boost",
+  "text" : "You've unlocked the deadly Omega Boost. Explode upward. Kill foes. Nice.",
+  "completionText" : "This could prove quite enjoyable.",
+  "speaker" : "player",
+  "moneyRange" : [0, 0],
+  "rewards" : [],
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "equipTech" : ["omegaboosttech"],
+    "followUp" : "",
+    "gatherRequirements" : {
+      "items" : {
+        "omegaboosttechgrant" : {
+          "count" : 1,
+          "consume" : false
+        }
+      }
+    }
+  }
+}
