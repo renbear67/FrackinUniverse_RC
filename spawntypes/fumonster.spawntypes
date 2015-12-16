@@ -450,6 +450,22 @@
     }
   },
    {
+    "name" : "seedspawn2",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "groupSize" : [1, 3],
+    "targetDensity" : 0.04,
+    "monsterType" : "seedspawn2",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+   {
     "name" : "fucaterpillar",
 
     "spawnParameters" : {
