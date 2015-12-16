@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "livingroot", "count" : 3 },
+    { "item" : "vanusflower", "count" : 3 },
     { "item" : "energywood", "count" : 3 }
   ],
   "output" : { "item" : "druidstaff", "count" : 1 },

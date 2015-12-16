@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "mutaviskthread", "count" : 7 },
-    { "item" : "livingroot", "count" : 1 },
+    { "item" : "vanusflower", "count" : 1 },
     { "item" : "silk", "count" : 5 }
   ],
   "output" : {
