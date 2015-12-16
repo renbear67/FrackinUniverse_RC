@@ -1008,5 +1008,54 @@
     "monsterParameters" : {
       "aggressive" : true
     }
+  },
+  
+  {
+    "name" : "fleshreaper",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "night"
+    },
+
+    "groupSize" : [1, 1],
+    "targetDensity" : 0.04,
+    "monsterType" : "fleshreaper",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+  {
+    "name" : "fleshreaper2",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "night"
+    },
+
+    "groupSize" : [1, 1],
+    "targetDensity" : 0.04,
+    "monsterType" : "fleshreaper2",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+  {
+    "name" : "fleshreaper3",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "night"
+    },
+
+    "groupSize" : [1, 1],
+    "targetDensity" : 0.04,
+    "monsterType" : "fleshreaper3",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
   }
 ]

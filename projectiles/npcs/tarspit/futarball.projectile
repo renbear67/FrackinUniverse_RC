@@ -15,7 +15,14 @@
     {
       "action" : "sound",
       "options" : [ "/sfx/projectiles/goocluster_pop.ogg" ]
-    }
+    },
+  { "action" : "liquid", "liquid" : "blacktar", "quantity" : 0.4 },
+    {
+      "action" : "applySurfaceMod",
+      "previousMod" : "metamod:none",
+      "newMod" : "blackslimegrass",
+      "radius" : 2
+    }     
   ],
   
   "statusEffects" : [ "blacktarslow" ],
