@@ -27,6 +27,12 @@
           },
           "snowslowImmunity" : {
             "baseValue" : 1.0
+          },
+          "ffextremecoldImmunity" : {
+            "baseValue" : 1.0
+          },
+          "biomecoldImmunity" : {
+            "baseValue" : 1.0
           }
         }
       }
