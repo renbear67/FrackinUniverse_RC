@@ -20,13 +20,13 @@
 
   "aimOffset" : 0.0,
   "primaryAttack" : {
-    "fireTime" : [0.5, 0.67],
+    "fireTime" : [0.35, 0.87],
     "baseDps" : [4.5, 9.5],
     "damageConfig" : {
       "damageSourceKind" : "shortsword",
       "statusEffects" : [ ],
       "knockbackMode" : "aim",
-      "knockback" : [10, 15],
+      "knockback" : [5, 25],
       "timeoutGroup" : "primary"
     }
   },
@@ -66,12 +66,12 @@
     "animationParts" : {
       "blade" : {
         "path" : "blade/<variant>.png",
-        "variants" : 14,
+        "variants" : 21,
         "paletteSwap" : true
       },
       "handle" : {
         "path" : "handle/<variant>.png",
-        "variants" : 10,
+        "variants" : 15,
         "paletteSwap" : true
       }
     },

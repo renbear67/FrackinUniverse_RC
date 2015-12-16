@@ -1,4 +1,15 @@
 [
+{
+	"op":"add",
+	"path":"/reedseedHarvest",
+	"value":[[0,{
+			"fill":[{"item":"reedseed"}],
+			"pool":[
+			{"weight":0.7, "item":"reed"},
+			{"weight":0.2,"item":"reedseed"},
+			{"weight":0.2,"item":"plantfibre"}],
+			"poolRounds":[[0.7,2],[0.3,3]]}]]
+},
   { "op": "add", "path": "/fukiriHarvest", "value": [
     [0, {
       "fill" : [
