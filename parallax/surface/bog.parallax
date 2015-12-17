@@ -21,7 +21,7 @@
     {
       "kind" : "bognewback",
       "offset" : [0, 300],
-      "baseCount" : 1,
+      "baseCount" : 2,
       "parallax" : 9,
       "nightCorrelation" : 0,
       "minSpeed" : 0,
@@ -32,7 +32,7 @@
     },
     {
       "kind" : "bognewmid",
-      "baseCount" : 4,
+      "baseCount" : 3,
       "offset" : [0, 310],
       "parallax" : 7.5,
       "nightCorrelation" : 0,
