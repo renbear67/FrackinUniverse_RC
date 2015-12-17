@@ -1,9 +1,9 @@
 {
   "id" : "4biochip.gearup",
   "prerequisites" : [ "3fertilizer.gearup" ],
-  "title" : "^#1693d5;Nutrient Paste",
-  "text" : "^orange;Nutrient Paste^white; is something you'll need a lot of. Fortunately, it's abundant. ^green;Dig 50 ^orange;dirt^green;, extract from it and voila^white;!",
-  "completionText" : "You'll found countless other sources for this resource in your exploration of the cosmos.",
+  "title" : "^#1693d5;Bio-Chip",
+  "text" : "^orange;Bio-Chips^white; can be invaluable in crafting, as they can give biological traits to gear. ^orange;Create one in your Chem Lab^white;!",
+  "completionText" : "Good work. Keep some of these in stock, you'll need them!",
   "speaker" : "questGiver",
   "moneyRange" : [0, 0],
   "rewards" : [],

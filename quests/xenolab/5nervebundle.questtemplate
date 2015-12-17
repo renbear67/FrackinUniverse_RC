@@ -1,6 +1,6 @@
 {
   "id" : "5nervebundle.gearup",
-  "prerequisites" : [ "fu_intro2.gearup" ],
+  "prerequisites" : [  ],
   "title" : "^#1693d5;Get some nerve",
   "text" : "Confused. Plants should not have nerves. But some of them actually do. So you'll need to locate a ^orange;Nerve Bundle^white; gene. Try a tomato plant.",
   "completionText" : "Statement. You learned much now. Let's make a last one.",

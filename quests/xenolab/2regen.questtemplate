@@ -1,6 +1,6 @@
 {
   "id" : "2regen.gearup",
-  "prerequisites" : [ "fu_intro2.gearup" ],
+  "prerequisites" : [],
   "title" : "^#1693d5;Healthy Cells",
   "text" : "Statement. The ^orange;Regeneration^white; gene is necessary for most healing plants. Detail. Miracle Grass is a potential source of these genes.",
   "completionText" : "Informative. I have more to teach you.",

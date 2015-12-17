@@ -1,6 +1,6 @@
 {
   "id" : "3resist.gearup",
-  "prerequisites" : [ "fu_intro2.gearup" ],
+  "prerequisites" : [  ],
   "title" : "^#1693d5;Resistance isn't futile",
   "text" : "Statement. Now locate ^orange;carrots^white; and extract their genes in the ^orange;Xeno Lab^white;!",
   "completionText" : "Enthusiastic. Great. Let us move on.",
