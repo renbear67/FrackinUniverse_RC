@@ -13,7 +13,7 @@
   "updateDelta" : 10,
   "script" : "/quests/scripts/main.lua",
   "scriptConfig" : {
-    "requireTurnIn" : true,
+    "requireTurnIn" : false,
     "gatherRequirements" : {
       "items" : {
         "gene_skeletal" : {
