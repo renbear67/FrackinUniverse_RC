@@ -1,10 +1,10 @@
 {
   "input" : [
     { "item" : "electromagnet", "count" : 1 },
-    { "item" : "extractionlabadv", "count" : 1 }
+    { "item" : "extractionlab", "count" : 1 }
   ],
   "output" : {
-    "item" : "extractionlabadv_roof",
+    "item" : "extractionlab_roof",
     "count" : 1
   },
   "groups" : [ "prototyper", "genetics", "all", "tools" ]
