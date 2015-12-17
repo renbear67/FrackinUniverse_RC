@@ -16,7 +16,7 @@
     "followUp" : "2mineralsample.gearup",
     "gatherRequirements" : {
       "items" : {
-        "nutrientpaste" : {
+        "dnasample" : {
           "count" : 1,
           "consume" : false
         }
