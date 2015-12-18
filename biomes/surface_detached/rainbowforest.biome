@@ -13,19 +13,20 @@
         "select" : 3,
         "pool" : [ 
           [ 0.1111, "iguarmor" ],     
+          [ 0.1111, "spookit" ],
           [ 0.1111, "pteropod" ],
           [ 0.1111, "nutmidge" ],        
-          [ 0.1111, "mandraflora" ]
+          [ 0.1111, "wisper" ]
         ]
       },
       {
         "select" : 2,
         "pool" : [ 
-          [ 0.1311, "furaptor" ],     
-          [ 0.1311, "furaptor2" ],
-          [ 0.1511, "furaptor3" ],        
-          [ 0.2111, "furaptor4" ],
-		  [ 0.2411, "furaptor5" ]
+          [ 0.1311, "futoxicfly" ],     
+          [ 0.1311, "swarpion" ],
+          [ 0.1511, "furatthing" ],        
+          [ 0.2111, "seedspawn" ],
+	  [ 0.2411, "fumoontant" ]
         ]
       },	  
       {
@@ -33,9 +34,9 @@
         "pool" : [
           [ 0.4, "forestbee" ],
           [ 0.3, "normalbee" ],
-		  [ 0.3, "greentip" ],
-		  [ 0.3, "blueback" ],
-		  [ 0.3, "aurorabee" ]
+	  [ 0.3, "greentip" ],
+	  [ 0.3, "blueback" ],
+	  [ 0.3, "aurorabee" ]
         ]
       },
       {
