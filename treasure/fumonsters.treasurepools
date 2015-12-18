@@ -1,4 +1,99 @@
 {
+  
+  "fleshreaperLoot" : [
+    [1, {
+        "pool" : [
+          {"weight" : 0.20, "pool" : "money"},
+          {"weight" : 0.0333, "item" : [ "monsterplating", 15]},
+          {"weight" : 0.0333, "item" : [ "nutrientpaste", 15]},
+	  {"weight" : 0.0333, "item" : [ "rawminerals", 15]},
+          {"weight" : 0.0333, "item" : [ "geneticmaterial", 15]},
+          {"weight" : 0.0333, "item" : [ "dnasample", 15]},
+          {"weight" : 0.0333, "item" : [ "tissueculture", 15]},
+          {"weight" : 0.0333, "item" : [ "laboil", 1]},        
+          {"weight" : 0.0211, "item" : [ "berliniteore", 9]},
+	  {"weight" : 0.0211, "item" : [ "lazuliteore", 9]},
+          {"weight" : 0.0211, "item" : [ "saltpeter", 9]},
+          {"weight" : 0.0211, "item" : [ "magnesiumore", 9]},
+          {"weight" : 0.0211, "item" : [ "mascagniteore", 9]},
+          {"weight" : 0.0210, "item" : [ "cinnabarore", 5]},
+          {"weight" : 0.0210, "item" : [ "sulphur", 5]},
+          {"weight" : 0.0210, "item" : [ "lead", 7]},
+          {"weight" : 0.0211, "item" : [ "glassmaterial", 25]},
+          {"weight" : 0.0211, "item" : [ "protociteore", 5]},
+          {"weight" : 0.0211, "item" : [ "penumbriteore", 5]},             
+          {"weight" : 0.0211, "item" : [ "ebonshard", 25]},
+          {"weight" : 0.0211, "item" : [ "obsidianshard", 5]},
+          {"weight" : 0.0211, "item" : [ "metalchunk", 5]},
+          {"weight" : 0.0211, "item" : [ "ff_spareparts", 5]},
+          {"weight" : 0.0250, "item" : [ "fleshstrand", 50]},
+          {"weight" : 0.0200, "item" : [ "fleshstrand", 100]},
+          {"weight" : 0.0200, "item" : [ "cellmatter", 50]},
+          {"weight" : 0.0200, "item" : [ "cellmateria", 50]},
+          {"weight" : 0.0366, "item" : [ "biospore", 5]},
+          {"weight" : 0.0366, "item" : [ "cellmateria", 5]},
+          {"weight" : 0.0366, "item" : [ "dnasample", 5]},
+          {"weight" : 0.0366, "item" : [ "mineralsample", 5]},
+          {"weight" : 0.0366, "item" : [ "methanol", 30]},
+          {"weight" : 0.0366, "item" : [ "phosphorus", 3]},
+          {"weight" : 0.0366, "item" : [ "silk", 15]},
+          {"weight" : 0.0366, "item" : [ "ff_resin", 12]},  
+          {"weight" : 0.0326, "item" : [ "ff_resin", 24]}, 
+          {"weight" : 0.0366, "item" : [ "ff_plastic", 6]},
+          {"weight" : 0.0366, "item" : [ "iodine", 4]},
+          {"weight" : 0.0366, "item" : [ "ff_mercury", 6]},
+          {"weight" : 0.012, "item" : [ "trooperhead", 1]},
+          {"weight" : 0.012, "item" : [ "trooperhead2", 1]},
+          {"weight" : 0.012, "item" : [ "targetinggoggles", 1]},
+          {"weight" : 0.005, "item" :  [ "yellowguardianback-recipe", 1]},
+          {"weight" : 0.005, "item" :  [ "blueguardianback-recipe", 1]},
+          {"weight" : 0.005, "item" :  [ "pinkguardianback-recipe", 1]},
+          {"weight" : 0.005, "item" :  [ "greenguardianback-recipe", 1]},
+          {"weight" : 0.005, "item" :  [ "cultfleshchest-recipe", 1]},
+	        {"weight" : 0.005, "item" :  [ "cultfleshlegs-recipe", 1]},
+          {"weight" : 0.005, "item" :  [ "cultfleshhead-recipe", 1]},
+          {"weight" : 0.005, "item" :  [ "fuarmoredcultistback-recipe", 1]},    
+          {"weight" : 0.005, "item" :  [ "fuarmoredcultisthead-recipe", 1]},
+	        {"weight" : 0.005, "item" :  [ "fuarmoredcultistchest-recipe", 1]},
+          {"weight" : 0.005, "item" :  [ "fuarmoredcultistlegs-recipe", 1]},
+          {"weight" : 0.012, "item" :  [ "fuexosuitchest-recipe", 1]},
+	        {"weight" : 0.012, "item" :  [ "fuexosuitlegs-recipe", 1]},
+          {"weight" : 0.012, "item" :  [ "fuexosuithead-recipe", 1]},
+          {"weight" : 0.012, "item" :  [ "atropuschest-recipe", 1]},
+          {"weight" : 0.012, "item" :  [ "longarmpistol-recipe", 1]},
+          {"weight" : 0.012, "item" :  [ "longarm-recipe", 1]},          
+          {"weight" : 0.015, "item" :  [ "eldertome", 1]},
+          {"weight" : 0.015, "item" :  [ "elderrelic1", 1]},
+          {"weight" : 0.015, "item" :  [ "elderrelic2", 1]},
+          {"weight" : 0.015, "item" :  [ "elderrelic3", 1]},
+          {"weight" : 0.015, "item" :  [ "elderrelic4", 1]},
+          {"weight" : 0.015, "item" :  [ "elderrelic5", 1]}, 
+          {"weight" : 0.015, "item" :  [ "elderrelic6", 1]},
+          {"weight" : 0.015, "item" :  [ "elderrelic7", 1]},
+          {"weight" : 0.015, "item" :  [ "elderrelic8", 1]},
+          {"weight" : 0.015, "item" :  [ "elderrelic9", 1]},
+          {"weight" : 0.015, "item" :  [ "elderrelic10", 1]}, 
+          {"weight" : 0.015, "item" :  [ "elderrelic11", 1]},
+          {"weight" : 0.015, "item" :  [ "elderrelic12", 1]},
+          {"weight" : 0.015, "item" :  [ "elderrelic13", 1]},
+          {"weight" : 0.015, "item" :  [ "elderrelic14", 1]},
+          {"weight" : 0.015, "item" :  [ "parasitebeam", 1]},
+          {"weight" : 0.012, "item" :  [ "brainslug", 1]},
+          {"weight" : 0.04, "item" : ["xenochest-recipe", 1]},
+          {"weight" : 0.04, "item" : ["xenohead-recipe", 1]},
+          {"weight" : 0.04, "item" : ["xenolegs-recipe", 1]}
+        ],
+        "poolRounds" : [
+          [0.63, 1],
+          [0.33, 2],
+          [0.20, 3]
+        ],
+      "allowDuplication" : true
+      } 
+    ]
+  ],
+
+
   "deeponeTreasure" : [
     [1, {
       "pool" : [
@@ -691,6 +786,7 @@
           {"weight" : 0.20, "item" : [ "leather", 3]},
           {"weight" : 0.25, "item" : [ "sharpenedclaw", 1]},
           {"weight" : 0.15, "item" : [ "dnasample", 1]},
+          {"weight" : 0.20, "item" : [ "monsterplating", 3]},
         {"weight" : 0.06, "item" : "mattermodulecomponent"},
         {"weight" : 0.01, "pool" : "basicTreasure"}
         ],
@@ -731,6 +827,7 @@
           {"weight" : 0.25, "item" : [ "algaegreen", 5]},
           {"weight" : 0.25, "item" : [ "algaegreen", 10]},
           {"weight" : 0.25, "item" : [ "biospore", 5]},
+          {"weight" : 0.20, "item" : [ "monsterplating", 3]},
           {"weight" : 0.25, "item" : [ "sharpenedclaw", 1]},
         {"weight" : 0.06, "item" : "mattermodulecomponent"},
         {"weight" : 0.01, "pool" : "basicTreasure"}
@@ -995,6 +1092,7 @@
           {"weight" : 0.55, "item" : [ "venomsample", 1]},
           {"weight" : 0.35, "item" : [ "hardenedcarapace", 1]},
           {"weight" : 0.25, "item" : [ "liquidpoison", 2]},
+          {"weight" : 0.20, "item" : [ "monsterplating", 5]},
         {"weight" : 0.06, "item" : "mattermodulecomponent"},
         {"weight" : 0.01, "pool" : "basicTreasure"}
         ],
@@ -1013,6 +1111,7 @@
           {"weight" : 0.33, "pool" : "money"},
           {"weight" : 0.33, "item" : [ "hardenedcarapace", 1]},
           {"weight" : 0.33, "item" : [ "sharpenedclaw", 1]},
+          {"weight" : 0.33, "item" : [ "monsterplating", 3]},
         {"weight" : 0.06, "item" : "mattermodulecomponent"},
         {"weight" : 0.01, "pool" : "basicTreasure"}
         ],
@@ -1031,6 +1130,7 @@
           {"weight" : 0.33, "pool" : "money"},
           {"weight" : 0.33, "item" : [ "cryonicextract", 1]},
           {"weight" : 0.33, "item" : [ "icecrystal", 1]},
+          {"weight" : 0.33, "item" : [ "monsterplating", 3]},
         {"weight" : 0.06, "item" : "mattermodulecomponent"},
         {"weight" : 0.01, "pool" : "basicTreasure"}
         ],
@@ -1049,7 +1149,8 @@
           {"weight" : 0.33, "pool" : "money"},
           {"weight" : 0.66, "item" : [ "hardenedcarapace", 1]},
         {"weight" : 0.06, "item" : "mattermodulecomponent"},
-        {"weight" : 0.01, "pool" : "basicTreasure"}
+        {"weight" : 0.01, "pool" : "basicTreasure"},
+        {"weight" : 0.33, "item" : [ "monsterplating", 3]}
         ],
         "poolRounds" : [
           [0.23, 1],
@@ -1065,6 +1166,7 @@
         "pool" : [
           {"weight" : 0.33, "pool" : "money"},
           {"weight" : 0.66, "item" : [ "hardenedcarapace", 1]},
+          {"weight" : 0.33, "item" : [ "monsterplating", 3]},
         {"weight" : 0.06, "item" : "mattermodulecomponent"},
         {"weight" : 0.01, "pool" : "basicTreasure"}
         ],

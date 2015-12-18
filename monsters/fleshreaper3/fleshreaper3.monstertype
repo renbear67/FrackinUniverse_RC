@@ -6,7 +6,7 @@
 
   "animation" : "fleshreaper3.animation",
 
-  "dropPools" : [ { "default" : "ffatropusTreasure", "bow" : "pteropodHunting" } ],
+  "dropPools" : [ { "default" : "fleshreaperLoot", "bow" : "pteropodHunting" } ],
 
   "baseParameters" : {
     "scripts" : [
