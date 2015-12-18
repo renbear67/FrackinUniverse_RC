@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "steelbar", "count" : 10 },
-    { "item" : "copperbar", "count" : 10 },
-    { "item" : "glassmaterial", "count" : 6 }
+    { "item" : "ironbar", "count" : 8 },
+    { "item" : "copperbar", "count" : 6 },
+    { "item" : "glassmaterial", "count" : 4 }
   ],
   "output" : {
     "item" : "prototyper",
