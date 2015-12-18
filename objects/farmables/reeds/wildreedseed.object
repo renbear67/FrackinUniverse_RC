@@ -3,8 +3,8 @@
     "tags" : [ "nature" ],
   "rarity" : "Uncommon",
   "category" : "farmable",
-  "description" : "Makes great furniture.",
-  "shortdescription" : "Reed Seed",
+  "description" : "Reeds grow avidly wherever they can in a bog or swamp.",
+  "shortdescription" : "Reeds",
   "objectType" : "farmable",
   "printable" : false,
   

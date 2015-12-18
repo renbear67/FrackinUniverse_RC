@@ -2,8 +2,8 @@
   "objectName" : "reedseed",
   "rarity" : "Common",
   "category" : "farmable",
-  "description" : "Reeds",
-  "shortdescription" : "Reeds grow avidly wherever they can on in a bog or swamp.",
+  "description" : "Reeds grow avidly wherever they can in a bog or swamp.",
+  "shortdescription" : "Reeds",
   "objectType" : "farmable",
   "printable" : false,
 
