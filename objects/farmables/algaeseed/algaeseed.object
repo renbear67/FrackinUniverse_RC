@@ -1,6 +1,6 @@
 {
   "objectName" : "algaeseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Common",
   "category" : "farmable",
   "description" : "An interesting algae type. Excellent biofuel.",

@@ -1,0 +1,193 @@
+{
+  "margin" : 0,
+  "name" : "objects-by-category/spawner",
+  "properties" : {
+  },
+  "spacing" : 0,
+  "tilecount" : 15,
+  "tileheight" : 40,
+  "tileproperties" : {
+      "0" : {
+          "//description" : "Spawns monsters in a variety of configurable ways.",
+          "//name" : "monsterspawner",
+          "//shortdescription" : "Monster Spawner",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "monsterspawner"
+      },
+      "1" : {
+          "//description" : "Spawn your very own Avian villager!",
+          "//name" : "spawneravian",
+          "//shortdescription" : "Avian Spawner",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "spawneravian",
+          "tilesetDirection" : "right"
+      },
+      "10" : {
+          "//description" : "Stim Merchant Spawner - for when you really need a pick-me-up.",
+          "//name" : "spawnerstim",
+          "//shortdescription" : "Stim Spawner",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "spawnerstim",
+          "tilesetDirection" : "right"
+      },
+      "11" : {
+          "//description" : "Spawn your very own Apex villager!",
+          "//name" : "spawnerapex",
+          "//shortdescription" : "Apex Spawner",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "spawnerapex",
+          "tilesetDirection" : "right"
+      },
+      "12" : {
+          "//description" : "Spawn your very own doctor!",
+          "//name" : "spawnerdoctor",
+          "//shortdescription" : "Doctor Spawner",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "spawnerdoctor",
+          "tilesetDirection" : "right"
+      },
+      "13" : {
+          "//description" : "Tool Merchant Spawner - for when you need to dig a hole.",
+          "//name" : "spawnertools",
+          "//shortdescription" : "Tool Spawner",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "spawnertools",
+          "tilesetDirection" : "right"
+      },
+      "14" : {
+          "//description" : "Place in an ^orange;enclosed building ^white;with at least ^orange;one door and ^orange;light ^white;and someone will move in!",
+          "//name" : "colonydeed",
+          "//shortdescription" : "^yellow;Colony Deed",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "colonydeed",
+          "tilesetDirection" : "right"
+      },
+      "2" : {
+          "//description" : "Spawn your very own Floran villager!",
+          "//name" : "spawnerfloran",
+          "//shortdescription" : "Floran Spawner",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "spawnerfloran",
+          "tilesetDirection" : "right"
+      },
+      "3" : {
+          "//description" : "Spawn your very own guard!",
+          "//name" : "spawnerguard",
+          "//shortdescription" : "Guard Spawner",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "spawnerguard",
+          "tilesetDirection" : "right"
+      },
+      "4" : {
+          "//description" : "Spawn your very own Hylotl villager!",
+          "//name" : "spawnerhylotl",
+          "//shortdescription" : "Hylotl Spawner",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "spawnerhylotl",
+          "tilesetDirection" : "right"
+      },
+      "5" : {
+          "//description" : "Spawn your very own wizard!",
+          "//name" : "spawnerwizard",
+          "//shortdescription" : "Wizard Spawner",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "spawnerwizard",
+          "tilesetDirection" : "right"
+      },
+      "6" : {
+          "//description" : "Spawn your very own human villager!",
+          "//name" : "spawnerhuman",
+          "//shortdescription" : "Human Spawner",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "spawnerhuman",
+          "tilesetDirection" : "right"
+      },
+      "7" : {
+          "//description" : "Spawn your very own Glitch villager!",
+          "//name" : "spawnerglitch",
+          "//shortdescription" : "Glitch Spawner",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "spawnerglitch",
+          "tilesetDirection" : "right"
+      },
+      "8" : {
+          "//description" : "Spawn your very own pirate!",
+          "//name" : "spawnerpirate",
+          "//shortdescription" : "Pirate Spawner",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "spawnerpirate",
+          "tilesetDirection" : "right"
+      },
+      "9" : {
+          "//description" : "Spawn your very own chef!",
+          "//name" : "spawnerchef",
+          "//shortdescription" : "Chef Spawner",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "spawnerchef",
+          "tilesetDirection" : "right"
+      }
+  },
+  "tiles" : {
+      "0" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/monsterspawner.png"
+      },
+      "1" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/spawneravian.png"
+      },
+      "10" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/spawnerstim.png"
+      },
+      "11" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/spawnerapex.png"
+      },
+      "12" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/spawnerdoctor.png"
+      },
+      "13" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/spawnertools.png"
+      },
+      "14" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/colonydeed.png"
+      },
+      "2" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/spawnerfloran.png"
+      },
+      "3" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/spawnerguard.png"
+      },
+      "4" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/spawnerhylotl.png"
+      },
+      "5" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/spawnerwizard.png"
+      },
+      "6" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/spawnerhuman.png"
+      },
+      "7" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/spawnerglitch.png"
+      },
+      "8" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/spawnerpirate.png"
+      },
+      "9" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/spawnerchef.png"
+      }
+  },
+  "tilewidth" : 16
+}

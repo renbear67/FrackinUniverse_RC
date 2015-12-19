@@ -1,6 +1,6 @@
 {
   "objectName" : "fuokeahitechcupboard",
-  "tags" : [ "science", "hitech" ],
+  "colonyTags" : [ "science", "hitech" ],
   "printable" : false,
   "retainObjectParametersInItem" : true,
   "rarity" : "Common",

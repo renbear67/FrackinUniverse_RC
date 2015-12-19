@@ -1,7 +1,7 @@
 {
   "objectName" : "fu_blastfurnace",
   "rarity" : "rare",
-  "tags" : [ "science" ],
+  "colonyTags" : [ "science" ],
   "description" : "A superior form of furnace, for smelting mass quantities. Requires 4u power.",
   "shortdescription" : "Blast Furnace",
   "race" : "generic",

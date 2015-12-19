@@ -1,6 +1,6 @@
 {
   "objectName" : "elderpainting4",
-  "tags" : [ "elder" ],
+  "colonyTags" : [ "elder" ],
   "rarity" : "Common",
   "category" : "decorative",
   "price" : 1350,

@@ -1,6 +1,6 @@
 {
   "objectName" : "raptorneststorage",
-  "tags" : [ "arboreal", "dinosaur" ],
+  "colonyTags" : [ "arboreal", "dinosaur" ],
   "printable" : false,
   "rarity" : "uncommon",
   "objectType" : "container",

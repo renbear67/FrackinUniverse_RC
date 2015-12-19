@@ -1,6 +1,6 @@
 {
   "objectName" : "flowercandle",
-  "tags" : [ "light", "bees" ],
+  "colonyTags" : [ "light", "bees" ],
   "rarity" : "Common",
   "category" : "light",
   "price" : 200,

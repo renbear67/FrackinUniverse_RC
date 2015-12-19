@@ -1,0 +1,427 @@
+{
+  "margin" : 0,
+  "name" : "huge-objects",
+  "properties" : {
+  },
+  "spacing" : 0,
+  "tilecount" : 36,
+  "tileheight" : 696,
+  "tileproperties" : {
+      "0" : {
+          "//description" : "A beanstalk, it grows up to the sky. ",
+          "//name" : "beanstalk",
+          "//shortdescription" : "Beanstalk",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "0",
+          "object" : "beanstalk",
+          "tilesetDirection" : "right"
+      },
+      "1" : {
+          "//description" : "Bright light streaks.",
+          "//name" : "lightstreaks",
+          "//shortdescription" : "Light Streaks",
+          "imagePositionX" : "-352",
+          "imagePositionY" : "-16",
+          "object" : "lightstreaks",
+          "tilesetDirection" : "right"
+      },
+      "10" : {
+          "//description" : "It's a collection of ship parts.",
+          "//name" : "shipyardjunk",
+          "//shortdescription" : "Shipyard Junk",
+          "imagePositionX" : "-96",
+          "imagePositionY" : "0",
+          "object" : "shipyardjunk",
+          "tilesetDirection" : "right"
+      },
+      "11" : {
+          "//description" : "It's a collection of ship parts.",
+          "//name" : "shipyardjunk_orientation1",
+          "//shortdescription" : "Shipyard Junk",
+          "imagePositionX" : "-120",
+          "imagePositionY" : "0",
+          "object" : "shipyardjunk",
+          "tilesetDirection" : "right"
+      },
+      "12" : {
+          "//description" : "Volcanic gas escapes from this opening. Hot is an understatement.",
+          "//name" : "volcanictrap_orientation3",
+          "//shortdescription" : "Natural Volcanic Geyser",
+          "imagePositionX" : "0",
+          "imagePositionY" : "-8",
+          "object" : "volcanictrap",
+          "tilesetDirection" : "right"
+      },
+      "13" : {
+          "//description" : "What a mess.",
+          "//name" : "01back",
+          "//shortdescription" : "Giant Background Object",
+          "imagePositionX" : "0",
+          "imagePositionY" : "40",
+          "object" : "01back",
+          "tilesetDirection" : "right"
+      },
+      "14" : {
+          "//name" : "01front",
+          "invalid" : "true"
+      },
+      "15" : {
+          "//description" : "What a mess.",
+          "//name" : "03back",
+          "//shortdescription" : "Giant Background Object",
+          "imagePositionX" : "0",
+          "imagePositionY" : "40",
+          "object" : "03back",
+          "tilesetDirection" : "right"
+      },
+      "16" : {
+          "//description" : "What a mess.",
+          "//name" : "02back",
+          "//shortdescription" : "Giant Background Object",
+          "imagePositionX" : "0",
+          "imagePositionY" : "40",
+          "object" : "02back",
+          "tilesetDirection" : "right"
+      },
+      "17" : {
+          "//description" : "What a mess.",
+          "//name" : "05back",
+          "//shortdescription" : "Giant Background Object",
+          "imagePositionX" : "0",
+          "imagePositionY" : "40",
+          "object" : "05back",
+          "tilesetDirection" : "right"
+      },
+      "18" : {
+          "//description" : "What a mess.",
+          "//name" : "04back",
+          "//shortdescription" : "Giant Background Object",
+          "imagePositionX" : "0",
+          "imagePositionY" : "40",
+          "object" : "04back",
+          "tilesetDirection" : "right"
+      },
+      "19" : {
+          "//name" : "protectorategardenbench_orientation1",
+          "invalid" : "true"
+      },
+      "2" : {
+          "//description" : "A mysterious ancient statue.",
+          "//name" : "monolithstatue2",
+          "//shortdescription" : "Monolith Statue",
+          "imagePositionX" : "-304",
+          "imagePositionY" : "0",
+          "object" : "monolithstatue2",
+          "tilesetDirection" : "left"
+      },
+      "20" : {
+          "//description" : "What a mess.",
+          "//name" : "01bback",
+          "//shortdescription" : "Giant Background Object",
+          "imagePositionX" : "0",
+          "imagePositionY" : "40",
+          "object" : "01bback",
+          "tilesetDirection" : "right"
+      },
+      "21" : {
+          "//description" : "What a mess.",
+          "//name" : "05bback",
+          "//shortdescription" : "Giant Background Object",
+          "imagePositionX" : "0",
+          "imagePositionY" : "40",
+          "object" : "05bback",
+          "tilesetDirection" : "right"
+      },
+      "22" : {
+          "//description" : "What a mess.",
+          "//name" : "02bback",
+          "//shortdescription" : "Giant Background Object",
+          "imagePositionX" : "0",
+          "imagePositionY" : "40",
+          "object" : "02bback",
+          "tilesetDirection" : "right"
+      },
+      "23" : {
+          "//description" : "What a mess.",
+          "//name" : "04bback",
+          "//shortdescription" : "Giant Background Object",
+          "imagePositionX" : "0",
+          "imagePositionY" : "40",
+          "object" : "04bback",
+          "tilesetDirection" : "right"
+      },
+      "24" : {
+          "//description" : "What a mess.",
+          "//name" : "03bback",
+          "//shortdescription" : "Giant Background Object",
+          "imagePositionX" : "0",
+          "imagePositionY" : "40",
+          "object" : "03bback",
+          "tilesetDirection" : "right"
+      },
+      "25" : {
+          "//description" : "-todo-",
+          "//name" : "magmalamp",
+          "//shortdescription" : "Magma Lamp",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "magmalamp",
+          "tilesetDirection" : "right"
+      },
+      "26" : {
+          "//description" : "What a mess.",
+          "//name" : "06bback",
+          "//shortdescription" : "Giant Background Object",
+          "imagePositionX" : "0",
+          "imagePositionY" : "40",
+          "object" : "06bback",
+          "tilesetDirection" : "right"
+      },
+      "27" : {
+          "//description" : "What a mess.",
+          "//name" : "07back",
+          "//shortdescription" : "Giant Background Object",
+          "imagePositionX" : "0",
+          "imagePositionY" : "40",
+          "object" : "07back",
+          "tilesetDirection" : "right"
+      },
+      "28" : {
+          "//description" : "What a mess.",
+          "//name" : "08bback",
+          "//shortdescription" : "Giant Background Object",
+          "imagePositionX" : "0",
+          "imagePositionY" : "40",
+          "object" : "08bback",
+          "tilesetDirection" : "right"
+      },
+      "29" : {
+          "//description" : "What a mess.",
+          "//name" : "07bback",
+          "//shortdescription" : "Giant Background Object",
+          "imagePositionX" : "0",
+          "imagePositionY" : "40",
+          "object" : "07bback",
+          "tilesetDirection" : "right"
+      },
+      "3" : {
+          "//description" : "A mysterious ancient statue.",
+          "//name" : "monolithstatue1",
+          "//shortdescription" : "Monolith Statue",
+          "imagePositionX" : "-320",
+          "imagePositionY" : "0",
+          "object" : "monolithstatue1",
+          "tilesetDirection" : "left"
+      },
+      "30" : {
+          "//description" : "What a mess.",
+          "//name" : "06back",
+          "//shortdescription" : "Giant Background Object",
+          "imagePositionX" : "0",
+          "imagePositionY" : "40",
+          "object" : "06back",
+          "tilesetDirection" : "right"
+      },
+      "31" : {
+          "//description" : "What a mess.",
+          "//name" : "08back",
+          "//shortdescription" : "Giant Background Object",
+          "imagePositionX" : "0",
+          "imagePositionY" : "40",
+          "object" : "08back",
+          "tilesetDirection" : "right"
+      },
+      "32" : {
+          "//description" : "A light meant to draw attention to an area.",
+          "//name" : "protectoratehalllight",
+          "//shortdescription" : "Small Spotlight",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "protectoratehalllight"
+      },
+      "33" : {
+          "//name" : "protectoratehalllight_orientation1",
+          "invalid" : "true"
+      },
+      "34" : {
+          "//description" : "A stage curtain from the Protectorate Academy.",
+          "//name" : "protectoratehallcurtain",
+          "//shortdescription" : "Protectorate Stage Curtain",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "protectoratehallcurtain"
+      },
+      "35" : {
+          "//description" : "A stage curtain from the Protectorate Academy.",
+          "//name" : "protectoratehallcurtain2",
+          "//shortdescription" : "Protectorate Stage Curtain",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "protectoratehallcurtain2"
+      },
+      "4" : {
+          "//description" : "A ridiculously tall chair",
+          "//name" : "tallchair",
+          "//shortdescription" : "Tall Chair",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "tallchair",
+          "tilesetDirection" : "right"
+      },
+      "5" : {
+          "//description" : "A mysterious ancient gate.",
+          "//name" : "ancientgate",
+          "//shortdescription" : "Ancient Gate",
+          "imagePositionX" : "-40",
+          "imagePositionY" : "0",
+          "object" : "ancientgate",
+          "tilesetDirection" : "left"
+      },
+      "6" : {
+          "//description" : "A mysterious ancient gate.",
+          "//name" : "monolithgate",
+          "//shortdescription" : "Monolith Gate",
+          "imagePositionX" : "-152",
+          "imagePositionY" : "0",
+          "object" : "monolithgate",
+          "tilesetDirection" : "left"
+      },
+      "7" : {
+          "//description" : "Creepy gross Web.",
+          "//name" : "bossweb",
+          "//shortdescription" : "Ixodoom Web",
+          "imagePositionX" : "-280",
+          "imagePositionY" : "-160",
+          "object" : "bossweb"
+      },
+      "8" : {
+          "//description" : "A gigantic bookcase that is damaged",
+          "//name" : "librarybookcaseHUGEdamage",
+          "//shortdescription" : "Damaged Huge Library Bookcase",
+          "imagePositionX" : "-32",
+          "imagePositionY" : "-240",
+          "object" : "librarybookcaseHUGEdamage",
+          "tilesetDirection" : "right"
+      },
+      "9" : {
+          "//description" : "A gigantic bookcase that is damaged",
+          "//name" : "librarybookcaseHUGEdamage_orientation1",
+          "//shortdescription" : "Damaged Huge Library Bookcase",
+          "imagePositionX" : "-80",
+          "imagePositionY" : "-240",
+          "object" : "librarybookcaseHUGEdamage",
+          "tilesetDirection" : "right"
+      }
+  },
+  "tiles" : {
+      "0" : {
+          "image" : ".\\../../../../tiled\\packed\\objects/beanstalk.png"
+      },
+      "1" : {
+          "image" : ".\\../../../../tiled\\packed\\objects/lightstreaks.png"
+      },
+      "10" : {
+          "image" : ".\\../../../../tiled\\packed\\objects/shipyardjunk.png"
+      },
+      "11" : {
+          "image" : ".\\../../../../tiled\\packed\\objects/shipyardjunk_orientation1.png"
+      },
+      "12" : {
+          "image" : ".\\../../../../tiled\\packed\\objects/volcanictrap_orientation3.png"
+      },
+      "13" : {
+          "image" : ".\\../../../../tiled\\packed\\objects/01back.png"
+      },
+      "14" : {
+          "image" : ".\\../../../../tiled\\packed\\../packed/invalid.png"
+      },
+      "15" : {
+          "image" : ".\\../../../../tiled\\packed\\objects/03back.png"
+      },
+      "16" : {
+          "image" : ".\\../../../../tiled\\packed\\objects/02back.png"
+      },
+      "17" : {
+          "image" : ".\\../../../../tiled\\packed\\objects/05back.png"
+      },
+      "18" : {
+          "image" : ".\\../../../../tiled\\packed\\objects/04back.png"
+      },
+      "19" : {
+          "image" : ".\\../../../../tiled\\packed\\../packed/invalid.png"
+      },
+      "2" : {
+          "image" : ".\\../../../../tiled\\packed\\objects/monolithstatue2.png"
+      },
+      "20" : {
+          "image" : ".\\../../../../tiled\\packed\\objects/01bback.png"
+      },
+      "21" : {
+          "image" : ".\\../../../../tiled\\packed\\objects/05bback.png"
+      },
+      "22" : {
+          "image" : ".\\../../../../tiled\\packed\\objects/02bback.png"
+      },
+      "23" : {
+          "image" : ".\\../../../../tiled\\packed\\objects/04bback.png"
+      },
+      "24" : {
+          "image" : ".\\../../../../tiled\\packed\\objects/03bback.png"
+      },
+      "25" : {
+          "image" : ".\\../../../../tiled\\packed\\objects/magmalamp.png"
+      },
+      "26" : {
+          "image" : ".\\../../../../tiled\\packed\\objects/06bback.png"
+      },
+      "27" : {
+          "image" : ".\\../../../../tiled\\packed\\objects/07back.png"
+      },
+      "28" : {
+          "image" : ".\\../../../../tiled\\packed\\objects/08bback.png"
+      },
+      "29" : {
+          "image" : ".\\../../../../tiled\\packed\\objects/07bback.png"
+      },
+      "3" : {
+          "image" : ".\\../../../../tiled\\packed\\objects/monolithstatue1.png"
+      },
+      "30" : {
+          "image" : ".\\../../../../tiled\\packed\\objects/06back.png"
+      },
+      "31" : {
+          "image" : ".\\../../../../tiled\\packed\\objects/08back.png"
+      },
+      "32" : {
+          "image" : ".\\../../../../tiled\\packed\\objects/protectoratehalllight.png"
+      },
+      "33" : {
+          "image" : ".\\../../../../tiled\\packed\\../packed/invalid.png"
+      },
+      "34" : {
+          "image" : ".\\../../../../tiled\\packed\\objects/protectoratehallcurtain.png"
+      },
+      "35" : {
+          "image" : ".\\../../../../tiled\\packed\\objects/protectoratehallcurtain2.png"
+      },
+      "4" : {
+          "image" : ".\\../../../../tiled\\packed\\objects/tallchair.png"
+      },
+      "5" : {
+          "image" : ".\\../../../../tiled\\packed\\objects/ancientgate.png"
+      },
+      "6" : {
+          "image" : ".\\../../../../tiled\\packed\\objects/monolithgate.png"
+      },
+      "7" : {
+          "image" : ".\\../../../../tiled\\packed\\objects/bossweb.png"
+      },
+      "8" : {
+          "image" : ".\\../../../../tiled\\packed\\objects/librarybookcaseHUGEdamage.png"
+      },
+      "9" : {
+          "image" : ".\\../../../../tiled\\packed\\objects/librarybookcaseHUGEdamage_orientation1.png"
+      }
+  },
+  "tilewidth" : 704
+}

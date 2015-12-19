@@ -1,6 +1,6 @@
 {
   "objectName" : "genecabinet",
-  "tags" : [ "fu", "science", "scienceoutpost" ],
+  "colonyTags" : [ "fu", "science", "scienceoutpost" ],
   "printable" : false,
   "rarity" : "Uncommon",
   "objectType" : "container",

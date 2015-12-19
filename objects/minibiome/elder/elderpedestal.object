@@ -1,6 +1,6 @@
 {
   "objectName" : "elderpedestal",
-  "tags" : [ "elder" ],
+  "colonyTags" : [ "elder" ],
   "rarity" : "Common",
   "category" : "decorative",
   "price" : 350,

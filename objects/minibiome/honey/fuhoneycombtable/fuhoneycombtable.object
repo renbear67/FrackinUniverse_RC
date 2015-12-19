@@ -1,6 +1,6 @@
 {
   "objectName" : "fuhoneycombtable",
-  "tags" : [ "bees", "tables" ],
+  "colonyTags" : [ "bees", "tables" ],
   "printable" : false,
   "rarity" : "Common",
   "description" : "An edible table, made with real honeycombs!",

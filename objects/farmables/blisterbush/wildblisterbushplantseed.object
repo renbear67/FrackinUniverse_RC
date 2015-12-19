@@ -1,6 +1,6 @@
 {
   "objectName" : "wildblisterbushplantseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Rare",
   "category" : "farmable",
   "description" : "A bioluminescent mutant plant, with numerous applications.",

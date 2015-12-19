@@ -1,6 +1,6 @@
 {
   "objectName" : "neuropodseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Uncommon",
   "category" : "farmable",
   "description" : "Truly a mad-science creation. Extremely potent effects.",

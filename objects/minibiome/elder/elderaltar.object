@@ -1,6 +1,6 @@
 {
   "objectName" : "elderaltar",
-  "tags" : [ "elder", "hideous" ],
+  "colonyTags" : [ "elder", "hideous" ],
   "printable" : false,
   "rarity" : "rare",
   "description" : "An altar dedicated to some unspeakable horror.",

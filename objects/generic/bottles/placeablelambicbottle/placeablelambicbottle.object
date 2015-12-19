@@ -1,6 +1,6 @@
 {
   "objectName" : "placeablelambicbottle",
-  "tags" : [ "drunkard", "booze" ],
+  "colonyTags" : [ "drunkard", "booze" ],
   "rarity" : "Common",
   "description" : "Brand New! Placeable Grape Lambic Bottle!",
   "shortdescription" : "Placeable Grape Lambic Bottle",

@@ -1,6 +1,6 @@
 {
   "objectName" : "wildreedseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Uncommon",
   "category" : "farmable",
   "description" : "Reeds grow avidly wherever they can in a bog or swamp.",

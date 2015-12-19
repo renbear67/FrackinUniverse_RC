@@ -1,6 +1,6 @@
 {
   "objectName" : "fuhoneycrystallamp",
-  "tags" : [ "bees", "crystal", "light" ],
+  "colonyTags" : [ "bees", "crystal", "light" ],
   "printable" : false,
   "rarity" : "Common",
   "category" : "light",

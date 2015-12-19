@@ -1,6 +1,6 @@
 {
   "objectName" : "eldercabinet",
-  "tags" : [ "elder" ],
+  "colonyTags" : [ "elder" ],
   "printable" : false,
   "rarity" : "Common",
   "objectType" : "container",

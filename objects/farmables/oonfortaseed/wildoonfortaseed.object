@@ -1,6 +1,6 @@
 {
   "objectName" : "wildoonfortaseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Uncommon",
   "category" : "farmable",
   "description" : "The Oonforta grows glowing bulbs on tails that can be tossed for light.",

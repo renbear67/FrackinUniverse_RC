@@ -1,6 +1,6 @@
 {
   "objectName" : "wildfayshroomseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "uncommon",
   "category" : "Farmable",
   "description" : "Protects itself with spike-like cilia. ",

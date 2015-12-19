@@ -1,6 +1,6 @@
 {
   "objectName" : "petrifiedrootseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "common",
   "category" : "Farmable",
   "description" : "Dark matter meets flora. Increases defenses.",

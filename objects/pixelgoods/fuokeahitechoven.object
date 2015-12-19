@@ -1,6 +1,6 @@
 {
   "objectName" : "fuokeahitechoven",
-  "tags" : [ "science", "hitech" ],
+  "colonyTags" : [ "science", "hitech" ],
   "retainObjectParametersInItem" : true,
   "rarity" : "Common",
   "objectType" : "container",

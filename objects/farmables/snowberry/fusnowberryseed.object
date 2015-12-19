@@ -1,6 +1,6 @@
 {
   "objectName" : "fusnowberryseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "rare",
   "category" : "farmable",
   "description" : "Resistant to snow and ice.",

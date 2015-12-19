@@ -1,6 +1,6 @@
 {
   "objectName" : "aquapodseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Uncommon",
   "category" : "farmable",
   "description" : "It's fruit increases swim speed. Must be planted in liquid.",

@@ -1,6 +1,6 @@
 {
   "objectName" : "xenostation",
-  "tags" : [ "fu", "science", "scienceoutpost", "radiation" ],
+  "colonyTags" : [ "fu", "science", "scienceoutpost", "radiation" ],
   "rarity" : "Common",
   "printable" : false,
   "race" : "generic",

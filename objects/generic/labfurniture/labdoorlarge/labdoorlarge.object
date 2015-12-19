@@ -1,6 +1,6 @@
 {
   "objectName" : "labdoorlarge",
-  "tags" : ["fu","science","door"],
+  "colonyTags" : ["fu","science","door"],
   "rarity" : "uncommon",
 
   "category" : "door",

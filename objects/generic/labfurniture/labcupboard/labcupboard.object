@@ -1,6 +1,6 @@
 {
   "objectName" : "labcupboard",
-  "tags" : ["fu","science","storage"],
+  "colonyTags" : ["fu","science","storage"],
   "rarity" : "uncommon",
   "objectType" : "container",
   "tooltipKind" : "container",

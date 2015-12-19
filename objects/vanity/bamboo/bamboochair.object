@@ -1,6 +1,6 @@
 {
   "objectName" : "bamboochair",
-  "tags" : [ "thickjungle", "chair" ],
+  "colonyTags" : [ "thickjungle", "chair" ],
   "printable" : false,
   "rarity" : "Common",
   "description" : "A comfortable bamboo chair.",

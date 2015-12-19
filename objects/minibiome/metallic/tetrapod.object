@@ -1,6 +1,6 @@
 {
   "objectName" : "tetrapod",
-  "tags" : [ "metallic", "rusted" ],
+  "colonyTags" : [ "metallic", "rusted" ],
   "rarity" : "Common",
   "category" : "pot",
   "price" : 400,

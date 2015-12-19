@@ -1,6 +1,6 @@
 {
   "objectName" : "armory",
-  "tags" : [ "fu", "science", "scienceoutpost", "hitech" ],
+  "colonyTags" : [ "fu", "science", "scienceoutpost", "hitech" ],
   "rarity" : "uncommon",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {

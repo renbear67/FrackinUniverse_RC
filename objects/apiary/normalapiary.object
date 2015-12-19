@@ -1,6 +1,6 @@
 {
   "objectName" : "normalapiary",
-  "tags" : [ "hive", "bees", "insects" ],
+  "colonyTags" : [ "hive", "bees", "insects" ],
   "rarity" : "Rare",
   "description" : "A bee breeding apiary.",
   "shortdescription" : "Apiary",

@@ -1,6 +1,6 @@
 {
   "objectName" : "genestorage",
-  "tags" : [ "fu", "science", "scienceoutpost" ],
+  "colonyTags" : [ "fu", "science", "scienceoutpost" ],
   "printable" : false,
   "rarity" : "rare",
   "objectType" : "container",

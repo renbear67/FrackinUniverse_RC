@@ -1601,7 +1601,8 @@
             {"weight" : 0.2, "item" : "AsteroidField"}
           ],
           "satelliteTypes" : [
-            {"weight" : 0.6, "item" : "scorchingMoons"}
+            {"weight" : 0.7, "item" : "scorchingMoons"},
+            {"weight" : 0.15, "item" : "hotMoons"}
           ]
         },
         {
@@ -1613,7 +1614,8 @@
             {"weight" : 0.2, "item" : "AsteroidField"}
           ],
           "satelliteTypes" : [
-            {"weight" : 0.6, "item" : "hotMoons"}
+            {"weight" : 0.6, "item" : "hotMoons"},
+            {"weight" : 0.15, "item" : "warmMoons"}
           ]
         },
         {
@@ -1632,7 +1634,8 @@
             {"weight" : 0.04, "item" : "AsteroidField"}
           ],
           "satelliteTypes" : [
-            {"weight" : 0.6, "item" : "warmMoons"}
+            {"weight" : 0.7, "item" : "warmMoons"},
+            {"weight" : 0.15, "item" : "habitableMoons"}
           ]
         },
         {
@@ -1653,11 +1656,8 @@
             {"weight" : 0.04, "item" : "AsteroidField"}
           ],
           "satelliteTypes" : [
-            {"weight" : 0.5, "item" : "habitableMoons"},
-            {"weight" : 0.1, "item" : "habitableMoons"},
-            {"weight" : 0.1, "item" : "habitableMoons"},
-            {"weight" : 0.1, "item" : "habitableMoons"},
-            {"weight" : 0.05, "item" : "Moon"}
+            {"weight" : 0.7, "item" : "habitableMoons"},
+            {"weight" : 0.15, "item" : "Moon"}
           ]
         },
         {
@@ -1706,15 +1706,6 @@
           "bodyProbability" : 1.0,
           "planetaryTypes" : [
             {"weight" : 1.0, "item" : "Moon"}
-          ],
-          "satelliteTypes" : []
-        },
-        {
-          "regionName" : "Gate",
-          "orbitRange" : [13, 13],
-          "bodyProbability" : 1.0,
-          "planetaryTypes" : [
-            {"weight" : 1.0, "item" : "AncientGateway"}
           ],
           "satelliteTypes" : []
         }
@@ -1759,7 +1750,8 @@
             {"weight" : 0.04, "item" : "AsteroidField"}
           ],
           "satelliteTypes" : [
-            {"weight" : 0.6, "item" : "scorchingMoons"}
+            {"weight" : 0.6, "item" : "scorchingMoons"},
+            {"weight" : 0.2, "item" : "hotMoons"}
           ]
         },
         {
@@ -1770,7 +1762,8 @@
             {"weight" : 0.8, "item" : "hotWorlds"}
           ],
           "satelliteTypes" : [
-            {"weight" : 0.6, "item" : "hotMoons"}
+            {"weight" : 0.6, "item" : "hotMoons"},
+            {"weight" : 0.2, "item" : "warmMoons"}
           ]
         },
         {
@@ -1810,10 +1803,7 @@
             {"weight" : 0.04, "item" : "AsteroidField"}
           ],
           "satelliteTypes" : [
-            {"weight" : 0.5, "item" : "habitableMoons"},
-            {"weight" : 0.1, "item" : "habitableMoons"},
-            {"weight" : 0.1, "item" : "habitableMoons"},
-            {"weight" : 0.1, "item" : "habitableMoons"},
+            {"weight" : 0.7, "item" : "habitableMoons"},
             {"weight" : 0.05, "item" : "Moon"}
           ]
         },
@@ -1833,7 +1823,7 @@
             {"weight" : 0.04, "item" : "AsteroidField"}
           ],
           "satelliteTypes" : [
-            {"weight" : 0.5, "item" : "coldMoons"},
+            {"weight" : 0.7, "item" : "coldMoons"},
             {"weight" : 0.05, "item" : "Moon"}
           ]
         },
@@ -1863,15 +1853,6 @@
           "bodyProbability" : 1.0,
           "planetaryTypes" : [
             {"weight" : 1.0, "item" : "Moon"}
-          ],
-          "satelliteTypes" : []
-        },
-        {
-          "regionName" : "Gate",
-          "orbitRange" : [13, 13],
-          "bodyProbability" : 1.0,
-          "planetaryTypes" : [
-            {"weight" : 1.0, "item" : "AncientGateway"}
           ],
           "satelliteTypes" : []
         }
@@ -1944,7 +1925,8 @@
             {"weight" : 0.04, "item" : "AsteroidField"}
           ],
           "satelliteTypes" : [
-            {"weight" : 0.6, "item" : "hotMoons"}
+            {"weight" : 0.6, "item" : "hotMoons"},
+            {"weight" : 0.15, "item" : "warmMoons"}
           ]
         },
         {
@@ -1963,7 +1945,8 @@
             {"weight" : 0.04, "item" : "AsteroidField"}
           ],
           "satelliteTypes" : [
-            {"weight" : 0.6, "item" : "warmMoons"}
+            {"weight" : 0.6, "item" : "warmMoons"},
+            {"weight" : 0.15, "item" : "habitableMoons"}
           ]
         },
         {
@@ -1984,10 +1967,7 @@
             {"weight" : 0.04, "item" : "AsteroidField"}
           ],
           "satelliteTypes" : [
-            {"weight" : 0.5, "item" : "habitableMoons"},
-            {"weight" : 0.1, "item" : "habitableMoons"},
-            {"weight" : 0.1, "item" : "habitableMoons"},
-            {"weight" : 0.1, "item" : "habitableMoons"},
+            {"weight" : 0.6, "item" : "habitableMoons"},
             {"weight" : 0.05, "item" : "Moon"}
           ]
         },
@@ -2017,15 +1997,6 @@
           "bodyProbability" : 1.0,
           "planetaryTypes" : [
             {"weight" : 1.0, "item" : "Moon"}
-          ],
-          "satelliteTypes" : []
-        },
-        {
-          "regionName" : "Gate",
-          "orbitRange" : [12, 12],
-          "bodyProbability" : 1.0,
-          "planetaryTypes" : [
-            {"weight" : 1.0, "item" : "AncientGateway"}
           ],
           "satelliteTypes" : []
         }
@@ -2087,7 +2058,7 @@
             {"weight" : 0.04, "item" : "AsteroidField"}
           ],
           "satelliteTypes" : [
-            {"weight" : 0.5, "item" : "lightlessMoons"}
+            {"weight" : 0.7, "item" : "lightlessMoons"}
           ]
         },
         {
@@ -2095,16 +2066,7 @@
           "orbitRange" : [11, 11],
           "bodyProbability" : 1.0,
           "planetaryTypes" : [
-            {"weight" : 1.0, "item" : "lightlessMoons"}
-          ],
-          "satelliteTypes" : []
-        },
-        {
-          "regionName" : "Gate",
-          "orbitRange" : [12, 12],
-          "bodyProbability" : 1.0,
-          "planetaryTypes" : [
-            {"weight" : 1.0, "item" : "AncientGateway"}
+            {"weight" : 0.7, "item" : "lightlessMoons"}
           ],
           "satelliteTypes" : []
         }
@@ -2244,15 +2206,6 @@
             {"weight" : 1.0, "item" : "Moon"}
           ],
           "satelliteTypes" : []
-        },
-        {
-          "regionName" : "Gate",
-          "orbitRange" : [12, 12],
-          "bodyProbability" : 1.0,
-          "planetaryTypes" : [
-            {"weight" : 1.0, "item" : "AncientGateway"}
-          ],
-          "satelliteTypes" : []
         }
       ]
     }
@@ -2334,7 +2287,7 @@
             {"weight" : 0.04, "item" : "AsteroidField"}
           ],
           "satelliteTypes" : [
-            {"weight" : 0.5, "item" : "habitableMoons"},
+            {"weight" : 0.5, "item" : "mutatedMoons"},
             {"weight" : 0.1, "item" : "Moon"}
           ]
         },
@@ -2377,15 +2330,6 @@
             {"weight" : 0.5, "item" : "coldMoons"},
             {"weight" : 0.1, "item" : "Moon"}
           ]
-        },
-        {
-          "regionName" : "Gate",
-          "orbitRange" : [12, 12],
-          "bodyProbability" : 1.0,
-          "planetaryTypes" : [
-            {"weight" : 1.0, "item" : "AncientGateway"}
-          ],
-          "satelliteTypes" : []
         }
       ]
     }

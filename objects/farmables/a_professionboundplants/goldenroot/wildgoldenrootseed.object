@@ -1,6 +1,6 @@
 {
   "objectName" : "wildgoldenrootseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "common",
   "category" : "Farmable",
   "description" : "Flecks of gold adorn this health-restoring vine.",

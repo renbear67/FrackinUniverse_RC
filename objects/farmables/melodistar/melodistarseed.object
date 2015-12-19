@@ -1,6 +1,6 @@
 {
   "objectName" : "melodistarseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Common",
   "category" : "farmable",
   "description" : "Melodistar can increase your health and energy.",

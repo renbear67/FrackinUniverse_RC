@@ -1,6 +1,6 @@
 {
   "objectName" : "vanusflowerseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "uncommon",
   "category" : "Farmable",
   "description" : "Protects the user from harm.",

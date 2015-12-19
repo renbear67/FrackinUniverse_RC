@@ -1,6 +1,6 @@
 {
   "objectName" : "wildlactariusindigoseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "uncommon",
   "category" : "Farmable",
   "description" : "Increase health and energy.",

@@ -1,6 +1,6 @@
 {
   "objectName" : "flowerred",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Common",
   "category" : "farmable",
   "description" : "A flower with bright red petals. Useful for making dye.",

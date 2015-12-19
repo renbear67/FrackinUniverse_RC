@@ -1,6 +1,6 @@
 {
   "objectName" : "fuhoneycrystaltable",
-  "tags" : [ "bees", "crystal" ],
+  "colonyTags" : [ "bees", "crystal" ],
   "printable" : false,
   "rarity" : "Common",
   "description" : "A table made of honey crystals. Perfect for rich foods.",

@@ -1,6 +1,6 @@
 {
   "objectName" : "fuhoneycouch",
-  "tags" : [ "bees", "chairs" ],
+  "colonyTags" : [ "bees", "chairs" ],
   "rarity" : "Common",
   "category" : "furniture",
   "price" : 1500,

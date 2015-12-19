@@ -1,6 +1,6 @@
 {
   "objectName" : "slimeplantseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Uncommon",
   "category" : "farmable",
   "description" : "Useful against slime and can protect against damage.",

@@ -1,6 +1,6 @@
 {
   "objectName" : "voidstorage",
-  "tags" : [ "fu", "science", "scienceoutpost" ],
+  "colonyTags" : [ "fu", "science", "scienceoutpost" ],
   "printable" : false,
   "rarity" : "legendary",
   "objectType" : "container",

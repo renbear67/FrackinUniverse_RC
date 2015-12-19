@@ -1,6 +1,6 @@
 {
   "objectName" : "victorleaf",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Common",
   "category" : "farmable",
   "description" : "Provides a massive run boost.",

@@ -1,6 +1,6 @@
 {
   "objectName" : "fuokeahitechvrchair",
-  "tags" : [ "science", "hitech" ],
+  "colonyTags" : [ "science", "hitech" ],
   "retainObjectParametersInItem" : true,
   "rarity" : "Common",
   "printable" : false,

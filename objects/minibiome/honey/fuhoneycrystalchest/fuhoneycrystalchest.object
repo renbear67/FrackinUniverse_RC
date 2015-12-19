@@ -1,6 +1,6 @@
 {
   "objectName" : "fuhoneycrystalchest",
-  "tags" : [ "bees", "crystal" ],
+  "colonyTags" : [ "bees", "crystal" ],
   "printable" : false,
   "rarity" : "Common",
   "objectType" : "container",

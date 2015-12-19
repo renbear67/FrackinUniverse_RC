@@ -1,6 +1,6 @@
 {
   "objectName" : "porphisplantseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Rare",
   "category" : "farmable",
   "description" : "Can increase power and health.",

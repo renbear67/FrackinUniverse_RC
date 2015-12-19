@@ -1,6 +1,6 @@
 {
   "objectName" : "normalalveary",
-  "tags" : [ "hive", "bees", "insects" ],
+  "colonyTags" : [ "hive", "bees", "insects" ],
   "rarity" : "Legendary",
   "description" : "A bee breeding apiary. It's much faster than the apiary, and holds 2 frames.",
   "shortdescription" : "^orange;Giant Apiary^white;",

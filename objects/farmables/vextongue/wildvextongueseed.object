@@ -1,6 +1,6 @@
 {
   "objectName" : "wildvextongueseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Uncommon",
   "category" : "farmable",
   "description" : "Vextongue is a great natural healing alternative.",

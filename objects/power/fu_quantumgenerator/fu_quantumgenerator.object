@@ -1,7 +1,7 @@
 {
   "objectName" : "fu_quantumgenerator",
   "rarity" : "Common",
-    "tags" : [ "science" ],
+    "colonyTags" : [ "science" ],
   "category" : "wire",
   "objectType" : "container",
   "price" : 2500,

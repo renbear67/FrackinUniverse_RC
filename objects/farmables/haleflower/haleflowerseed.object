@@ -1,6 +1,6 @@
 {
   "objectName" : "haleflowerseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Legendary",
   "category" : "farmable",
   "description" : "For a plant, it stores an astounding amount of energy.",

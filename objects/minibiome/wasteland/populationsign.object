@@ -1,6 +1,6 @@
 {
   "objectName" : "populationsign",
-  "tags" : [ "wasteland" ],
+  "colonyTags" : [ "wasteland" ],
   "rarity" : "Common",
   "category" : "decorative",
   "price" : 200,

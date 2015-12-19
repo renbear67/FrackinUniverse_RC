@@ -1,6 +1,6 @@
 {
   "objectName" : "wildjillyrootseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "common",
   "category" : "Farmable",
   "description" : "Able to help speed healing of wounds.",

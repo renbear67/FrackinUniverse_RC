@@ -1,6 +1,6 @@
 {
   "objectName" : "wildpasakavineseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Uncommon",
   "category" : "farmable",
   "description" : "This vine gives off bioluminesence. Increases damage.",

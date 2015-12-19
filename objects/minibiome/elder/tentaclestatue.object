@@ -1,6 +1,6 @@
 {
   "objectName" : "tentaclestatue",
-  "tags" : [ "elder", "hideous" ],
+  "colonyTags" : [ "elder", "hideous" ],
   "printable" : false,
   "rarity" : "Common",
   "description" : "That isn't too incredibly adorable.",

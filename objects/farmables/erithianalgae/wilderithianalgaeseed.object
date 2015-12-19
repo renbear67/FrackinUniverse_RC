@@ -1,6 +1,6 @@
 {
   "objectName" : "wilderithianalgaeseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Common",
   "category" : "farmable",
   "description" : "Mutant strain of algae loaded with energy.",

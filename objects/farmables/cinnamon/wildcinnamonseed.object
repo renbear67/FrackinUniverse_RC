@@ -1,6 +1,6 @@
 {
   "objectName" : "wildcinnamonseed",
-  "tags" : ["nature"],
+  "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "farmable",
   "description" : "Spice of life! Cinnamon!",

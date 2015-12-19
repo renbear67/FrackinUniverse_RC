@@ -1,6 +1,6 @@
 {
   "objectName" : "springvaultseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Uncommon",
   "category" : "farmable",
   "description" : "Springvault intensifies leg-muscle effectiveness by a large amount.",

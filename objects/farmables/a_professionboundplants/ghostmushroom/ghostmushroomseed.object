@@ -1,6 +1,6 @@
 {
   "objectName" : "ghostmushroomseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "common",
   "category" : "Farmable",
   "description" : "These buggers are almost invisible!",

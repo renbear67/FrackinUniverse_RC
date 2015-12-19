@@ -1,6 +1,6 @@
 {
   "objectName" : "greenleafseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "common",
   "category" : "Farmable",
   "description" : "A potent energy source that looks like grass.",

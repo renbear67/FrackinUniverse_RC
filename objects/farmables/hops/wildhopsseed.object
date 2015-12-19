@@ -1,6 +1,6 @@
 {
   "objectName" : "wildhopsseed",
-  "tags" : ["nature"],
+  "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "farmable",
   "description" : "Hops, used in the making of beer.",

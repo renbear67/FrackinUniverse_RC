@@ -1,6 +1,6 @@
 {
   "objectName" : "fayshroomseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "common",
   "category" : "Farmable",
   "description" : "Protects itself with spike-like cilia.",

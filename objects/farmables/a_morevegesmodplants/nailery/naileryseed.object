@@ -1,6 +1,6 @@
 {
   "objectName" : "naileryseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Common",
   "category" : "farmable",
   "description" : "Nailery, a Glitch delight. Tastes a bit too much like iron. Can be thrown.",

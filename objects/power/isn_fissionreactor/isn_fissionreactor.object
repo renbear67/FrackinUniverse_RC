@@ -1,7 +1,7 @@
 {
   "objectName" : "isn_fissionreactor",
   "rarity" : "Common",
-    "tags" : [ "science" ],
+    "colonyTags" : [ "science" ],
   "category" : "wire",
   "objectType" : "container",
   "price" : 5000,

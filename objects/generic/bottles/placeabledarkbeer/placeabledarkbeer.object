@@ -1,6 +1,6 @@
 {
   "objectName" : "placeabledarkbeer",
-  "tags" : [ "drunkard", "booze" ],
+  "colonyTags" : [ "drunkard", "booze" ],
   "rarity" : "Common",
   "description" : "Now your lager can be on a table!",
   "shortdescription" : "Placeable Tiy Lager",

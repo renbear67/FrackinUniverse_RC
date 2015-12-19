@@ -1,6 +1,6 @@
 {
   "objectName" : "elderthingstatue2",
-  "tags" : [ "elder", "hideous" ],
+  "colonyTags" : [ "elder", "hideous" ],
   "printable" : false,
   "rarity" : "Common",
   "description" : "What manner of being is this?",

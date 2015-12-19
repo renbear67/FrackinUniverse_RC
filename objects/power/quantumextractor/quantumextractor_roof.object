@@ -1,6 +1,6 @@
 {
   "objectName" : "quantumextractor_roof",
-  "tags" : [ "fu", "science", "scienceoutpost", "radiation" ],
+  "colonyTags" : [ "fu", "science", "scienceoutpost", "radiation" ],
   "rarity" : "Common",
   "race" : "generic",
   "category" : "crafting",

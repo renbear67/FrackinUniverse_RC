@@ -1,6 +1,6 @@
 {
   "objectName" : "floralytplantseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Legendary",
   "category" : "farmable",
   "description" : "One of the greatest healing agents known anywhere.",

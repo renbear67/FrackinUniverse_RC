@@ -1,6 +1,6 @@
 {
   "objectName" : "varanberryseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Common",
   "category" : "farmable",
   "description" : "Delicious and extremely nutritious.",

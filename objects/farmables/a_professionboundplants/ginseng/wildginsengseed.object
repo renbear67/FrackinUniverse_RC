@@ -1,6 +1,6 @@
 {
   "objectName" : "wildginsengseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "rare",
   "category" : "Farmable",
   "description" : "A well-known medicinal plant.",

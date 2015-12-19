@@ -1,6 +1,6 @@
 {
   "objectName" : "metallicceiling2",
-  "tags" : [ "metallic", "rusted" ],
+  "colonyTags" : [ "metallic", "rusted" ],
   "rarity" : "Common",
   "category" : "decorative",
   "price" : 20,

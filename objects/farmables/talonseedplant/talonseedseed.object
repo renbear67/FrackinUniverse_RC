@@ -1,6 +1,6 @@
 {
   "objectName" : "talonseedseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Uncommon",
   "category" : "farmable",
   "description" : "Genetically improved! Restores health.",

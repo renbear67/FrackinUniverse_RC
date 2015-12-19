@@ -1,6 +1,6 @@
 {
   "objectName" : "guamseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "common",
   "category" : "Farmable",
   "description" : "This mutant strain of guam can filter any radiation.",

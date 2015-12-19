@@ -1,6 +1,6 @@
 {
   "objectName" : "raptornest2",
-  "tags" : [ "arboreal", "dinosaur" ],
+  "colonyTags" : [ "arboreal", "dinosaur" ],
   "rarity" : "Common",
   "description" : "A dinosaur nest. Don't disturb the eggs.",
   "shortdescription" : "Raptor Nest",

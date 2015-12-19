@@ -1,0 +1,1916 @@
+{
+  "margin" : 0,
+  "name" : "objects-by-category/wire",
+  "properties" : {
+  },
+  "spacing" : 0,
+  "tilecount" : 164,
+  "tileheight" : 208,
+  "tileproperties" : {
+      "0" : {
+          "//description" : "<A timer. For when you need time to get away.>",
+          "//name" : "timer5s",
+          "//shortdescription" : "Timer (5 Sec)",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "timer5s"
+      },
+      "1" : {
+          "//description" : "A stunning unicorn statue. Watch out for the horn!",
+          "//name" : "rainbowunicornstatue",
+          "//shortdescription" : "Rainbow Unicorn Statue",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "0",
+          "object" : "rainbowunicornstatue",
+          "tilesetDirection" : "right"
+      },
+      "10" : {
+          "//description" : "<A timer. For when you need time to get away.>",
+          "//name" : "timer",
+          "//shortdescription" : "Timer (0.5 Sec)",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "timer"
+      },
+      "100" : {
+          "//description" : "Use this pressure plate wisely.",
+          "//name" : "avianpressureplate_orientation2",
+          "//shortdescription" : "Crystal Pressure Plate",
+          "imagePositionX" : "0",
+          "imagePositionY" : "-8",
+          "object" : "avianpressureplate",
+          "tilesetDirection" : "right"
+      },
+      "101" : {
+          "//description" : "Use this pressure plate wisely.",
+          "//name" : "avianpressureplate_orientation3",
+          "//shortdescription" : "Crystal Pressure Plate",
+          "imagePositionX" : "0",
+          "imagePositionY" : "-8",
+          "object" : "avianpressureplate",
+          "tilesetDirection" : "right"
+      },
+      "102" : {
+          "//description" : "A sign that says either offline or online.",
+          "//name" : "pumpsign",
+          "//shortdescription" : "Pump Sign",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "0",
+          "object" : "pumpsign",
+          "tilesetDirection" : "right"
+      },
+      "103" : {
+          "//name" : "libraryswitchprop",
+          "invalid" : "true"
+      },
+      "104" : {
+          "//description" : "...",
+          "//name" : "invisibleproximitysensor",
+          "//shortdescription" : "Invisible Proximity Sensor",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "invisibleproximitysensor",
+          "tilesetDirection" : "right"
+      },
+      "105" : {
+          "//description" : "<A timer that stays active for a set duration.>",
+          "//name" : "countdowntimer",
+          "//shortdescription" : "Countdown Timer",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "countdowntimer",
+          "tilesetDirection" : "right"
+      },
+      "106" : {
+          "//name" : "tombtrap",
+          "invalid" : "true"
+      },
+      "107" : {
+          "//name" : "tombtrap_orientation2",
+          "invalid" : "true"
+      },
+      "108" : {
+          "//name" : "tombtrap_orientation3",
+          "invalid" : "true"
+      },
+      "109" : {
+          "//name" : "tombtrap_orientation4",
+          "invalid" : "true"
+      },
+      "11" : {
+          "//description" : "<A Latch. You'll only need to use this if you already know what it is.>",
+          "//name" : "dlatch",
+          "//shortdescription" : "Latch",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "dlatch",
+          "tilesetDirection" : "right"
+      },
+      "110" : {
+          "//name" : "tombtrap_orientation5",
+          "invalid" : "true"
+      },
+      "111" : {
+          "//description" : "A crystal trap designed to deter invaders.",
+          "//name" : "crystaltrap",
+          "//shortdescription" : "Avian Crystal Trap",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "crystaltrap",
+          "tilesetDirection" : "right"
+      },
+      "112" : {
+          "//description" : "A crystal trap designed to deter invaders.",
+          "//name" : "crystaltrap_orientation1",
+          "//shortdescription" : "Avian Crystal Trap",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "crystaltrap",
+          "tilesetDirection" : "right"
+      },
+      "113" : {
+          "//description" : "A crystal trap designed to deter invaders.",
+          "//name" : "crystaltrap_orientation2",
+          "//shortdescription" : "Avian Crystal Trap",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "crystaltrap",
+          "tilesetDirection" : "right"
+      },
+      "114" : {
+          "//description" : "A crystal trap designed to deter invaders.",
+          "//name" : "crystaltrap_orientation3",
+          "//shortdescription" : "Avian Crystal Trap",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "crystaltrap",
+          "tilesetDirection" : "right"
+      },
+      "115" : {
+          "//description" : "A crystal trap designed to deter invaders.",
+          "//name" : "crystaltrap_orientation4",
+          "//shortdescription" : "Avian Crystal Trap",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "crystaltrap",
+          "tilesetDirection" : "right"
+      },
+      "116" : {
+          "//description" : "A crystal trap designed to deter invaders.",
+          "//name" : "crystaltrap_orientation5",
+          "//shortdescription" : "Avian Crystal Trap",
+          "imagePositionX" : "0",
+          "imagePositionY" : "-8",
+          "object" : "crystaltrap",
+          "tilesetDirection" : "right"
+      },
+      "117" : {
+          "//description" : "A crystal trap designed to deter invaders.",
+          "//name" : "crystaltrap_orientation6",
+          "//shortdescription" : "Avian Crystal Trap",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "crystaltrap",
+          "tilesetDirection" : "right"
+      },
+      "118" : {
+          "//description" : "A crystal trap designed to deter invaders.",
+          "//name" : "crystaltrap_orientation7",
+          "//shortdescription" : "Avian Crystal Trap",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "crystaltrap",
+          "tilesetDirection" : "right"
+      },
+      "119" : {
+          "//description" : "A flame trap designed to deter invaders.",
+          "//name" : "flametrap",
+          "//shortdescription" : "Avian Flame Trap",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "flametrap",
+          "tilesetDirection" : "right"
+      },
+      "12" : {
+          "//description" : "Watch your step!",
+          "//name" : "landmine",
+          "//shortdescription" : "Land Mine",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "landmine",
+          "tilesetDirection" : "right"
+      },
+      "120" : {
+          "//description" : "A flame trap designed to deter invaders.",
+          "//name" : "flametrap_orientation2",
+          "//shortdescription" : "Avian Flame Trap",
+          "imagePositionX" : "0",
+          "imagePositionY" : "-8",
+          "object" : "flametrap",
+          "tilesetDirection" : "right"
+      },
+      "121" : {
+          "//description" : "A flame trap designed to deter invaders.",
+          "//name" : "flametrap_orientation3",
+          "//shortdescription" : "Avian Flame Trap",
+          "imagePositionX" : "0",
+          "imagePositionY" : "-8",
+          "object" : "flametrap",
+          "tilesetDirection" : "right"
+      },
+      "122" : {
+          "//description" : "A flame trap designed to deter invaders.",
+          "//name" : "flametrap_orientation4",
+          "//shortdescription" : "Avian Flame Trap",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "flametrap",
+          "tilesetDirection" : "right"
+      },
+      "123" : {
+          "//description" : "A flame trap designed to deter invaders.",
+          "//name" : "flametrap_orientation5",
+          "//shortdescription" : "Avian Flame Trap",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "flametrap",
+          "tilesetDirection" : "right"
+      },
+      "124" : {
+          "//description" : "A flame trap designed to deter invaders.",
+          "//name" : "flametrap_orientation1",
+          "//shortdescription" : "Avian Flame Trap",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "flametrap",
+          "tilesetDirection" : "right"
+      },
+      "125" : {
+          "//description" : "Don't use your finger! This trusty Hylotl sensor indicates the presence of liquids.",
+          "//name" : "hylotlliquidsensor",
+          "//shortdescription" : "Hylotl Liquid Sensor",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "hylotlliquidsensor",
+          "tilesetDirection" : "right"
+      },
+      "126" : {
+          "//description" : "Don't use your finger! This trusty Hylotl sensor indicates the presence of liquids.",
+          "//name" : "hylotlliquidsensor_orientation2",
+          "//shortdescription" : "Hylotl Liquid Sensor",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "hylotlliquidsensor",
+          "tilesetDirection" : "right"
+      },
+      "127" : {
+          "//description" : "Don't use your finger! This trusty Hylotl sensor indicates the presence of liquids.",
+          "//name" : "hylotlliquidsensor_orientation3",
+          "//shortdescription" : "Hylotl Liquid Sensor",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "hylotlliquidsensor",
+          "tilesetDirection" : "right"
+      },
+      "128" : {
+          "//description" : "Don't use your finger! This trusty Hylotl sensor indicates the presence of liquids.",
+          "//name" : "hylotlliquidsensor_orientation4",
+          "//shortdescription" : "Hylotl Liquid Sensor",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "hylotlliquidsensor",
+          "tilesetDirection" : "right"
+      },
+      "129" : {
+          "//description" : "Who knows what it might activate... just press it!",
+          "//name" : "hylotlbutton",
+          "//shortdescription" : "Hylotl Button",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "hylotlbutton"
+      },
+      "13" : {
+          "//description" : "Urge... to push... rising!",
+          "//name" : "bigredbutton",
+          "//shortdescription" : "Big Red Button",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "0",
+          "object" : "bigredbutton",
+          "tilesetDirection" : "right"
+      },
+      "130" : {
+          "//description" : "<A circuit that relays signals after a set delay.>",
+          "//name" : "delay",
+          "//shortdescription" : "Delay Gate",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "delay"
+      },
+      "131" : {
+          "//description" : "This trap spews flames to deter invaders.",
+          "//name" : "ancientflametrap",
+          "//shortdescription" : "Ancient Flame Trap",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "ancientflametrap",
+          "tilesetDirection" : "right"
+      },
+      "132" : {
+          "//description" : "This trap spews flames to deter invaders.",
+          "//name" : "ancientflametrap_orientation1",
+          "//shortdescription" : "Ancient Flame Trap",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "ancientflametrap",
+          "tilesetDirection" : "right"
+      },
+      "133" : {
+          "//description" : "This trap spews flames to deter invaders.",
+          "//name" : "ancientflametrap_orientation2",
+          "//shortdescription" : "Ancient Flame Trap",
+          "imagePositionX" : "0",
+          "imagePositionY" : "-8",
+          "object" : "ancientflametrap",
+          "tilesetDirection" : "right"
+      },
+      "134" : {
+          "//description" : "This trap spews flames to deter invaders.",
+          "//name" : "ancientflametrap_orientation3",
+          "//shortdescription" : "Ancient Flame Trap",
+          "imagePositionX" : "0",
+          "imagePositionY" : "-8",
+          "object" : "ancientflametrap",
+          "tilesetDirection" : "right"
+      },
+      "135" : {
+          "//description" : "This trap spews flames to deter invaders.",
+          "//name" : "ancientflametrap_orientation4",
+          "//shortdescription" : "Ancient Flame Trap",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "ancientflametrap",
+          "tilesetDirection" : "right"
+      },
+      "136" : {
+          "//description" : "This trap spews flames to deter invaders.",
+          "//name" : "ancientflametrap_orientation5",
+          "//shortdescription" : "Ancient Flame Trap",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "ancientflametrap",
+          "tilesetDirection" : "right"
+      },
+      "137" : {
+          "//description" : "Boing boing!",
+          "//name" : "jumppad",
+          "//shortdescription" : "Jump Pad",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "jumppad"
+      },
+      "138" : {
+          "//description" : "...",
+          "//name" : "invisiblesound",
+          "//shortdescription" : "Invisible Sound",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "invisiblesound",
+          "tilesetDirection" : "right"
+      },
+      "139" : {
+          "//description" : "A brass valve, rusted from years of use.",
+          "//name" : "boilervalve",
+          "//shortdescription" : "Boiler Valve",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "boilervalve",
+          "tilesetDirection" : "right"
+      },
+      "14" : {
+          "//description" : "<A /'Not'/ switch. Inverts the input on the circuit.>",
+          "//name" : "not",
+          "//shortdescription" : "Not Switch",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "not",
+          "tilesetDirection" : "right"
+      },
+      "140" : {
+          "//description" : "This steel elevator will get the job done.",
+          "//name" : "steelelevatorlong",
+          "//shortdescription" : "Long Steel Elevator",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "0",
+          "object" : "steelelevatorlong",
+          "tilesetDirection" : "left"
+      },
+      "141" : {
+          "//description" : "This steel elevator will get the job done.",
+          "//name" : "steelelevatorshort",
+          "//shortdescription" : "Short Steel Elevator",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "0",
+          "object" : "steelelevatorshort",
+          "tilesetDirection" : "left"
+      },
+      "142" : {
+          "//description" : "This elevator operates on an elaborate system of clockwork.",
+          "//name" : "mechanicalelevatorlong",
+          "//shortdescription" : "Long Mechanical Elevator",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "0",
+          "object" : "mechanicalelevatorlong",
+          "tilesetDirection" : "right"
+      },
+      "143" : {
+          "//description" : "This simple wooden elevator operates on a pulley system.",
+          "//name" : "woodenelevatorshort",
+          "//shortdescription" : "Short Wooden Elevator",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "0",
+          "object" : "woodenelevatorshort",
+          "tilesetDirection" : "left"
+      },
+      "144" : {
+          "//description" : "This elevator operates on an elaborate system of clockwork.",
+          "//name" : "mechanicalelevatorshort",
+          "//shortdescription" : "Short Mechanical Elevator",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "0",
+          "object" : "mechanicalelevatorshort",
+          "tilesetDirection" : "right"
+      },
+      "145" : {
+          "//description" : "This simple wooden elevator operates on a pulley system.",
+          "//name" : "woodenelevatorlong",
+          "//shortdescription" : "Long Wooden Elevator",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "0",
+          "object" : "woodenelevatorlong",
+          "tilesetDirection" : "left"
+      },
+      "146" : {
+          "//description" : "This elevator design is commonly seen in Foundries.",
+          "//name" : "foundryelevatorlong",
+          "//shortdescription" : "Long Foundry Elevator",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "0",
+          "object" : "foundryelevatorlong",
+          "tilesetDirection" : "left"
+      },
+      "147" : {
+          "//description" : "-todo-",
+          "//name" : "foundryswitch",
+          "//shortdescription" : "Foundry Switch",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "foundryswitch"
+      },
+      "148" : {
+          "//description" : "This elevator design is commonly seen in Foundries.",
+          "//name" : "foundryelevatorshort",
+          "//shortdescription" : "Short Foundry Elevator",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "0",
+          "object" : "foundryelevatorshort",
+          "tilesetDirection" : "left"
+      },
+      "149" : {
+          "//description" : "Lots of tempting levers that should probably be left alone.-todo-",
+          "//name" : "foundryconsole",
+          "//shortdescription" : "Foundry Switch",
+          "imagePositionX" : "-24",
+          "imagePositionY" : "0",
+          "object" : "foundryconsole",
+          "tilesetDirection" : "right"
+      },
+      "15" : {
+          "//description" : "<An /'Or'/ switch. Allows you to have multiple individual inputs.>",
+          "//name" : "or",
+          "//shortdescription" : "Or Switch",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "or",
+          "tilesetDirection" : "right"
+      },
+      "150" : {
+          "//description" : "-todo-",
+          "//name" : "foundrybutton",
+          "//shortdescription" : "Foundry Button",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "foundrybutton",
+          "tilesetDirection" : "right"
+      },
+      "151" : {
+          "//description" : "<An /'X Or'/ switch. Requires one input to be on, and one off.>-todo-",
+          "//name" : "foundryxor",
+          "//shortdescription" : "Foundry X Or Switch",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "foundryxor",
+          "tilesetDirection" : "right"
+      },
+      "152" : {
+          "//description" : "<A timer that stays active for a set duration.>",
+          "//name" : "foundrycountdowntimer",
+          "//shortdescription" : "Foundry Countdown Timer",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "foundrycountdowntimer",
+          "tilesetDirection" : "right"
+      },
+      "153" : {
+          "//description" : "<A timer. For when you need time to get away.>",
+          "//name" : "foundrytimer1s",
+          "//shortdescription" : "Foundry Timer (1 Sec)",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "foundrytimer1s"
+      },
+      "154" : {
+          "//description" : "<A timer. For when you need time to get away.>",
+          "//name" : "foundrytimer",
+          "//shortdescription" : "Foundry Timer (0.5 Sec)",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "foundrytimer"
+      },
+      "155" : {
+          "//description" : "<A timer. For when you need time to get away.>",
+          "//name" : "foundrytimer5s",
+          "//shortdescription" : "Foundry Timer (5 Sec)",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "foundrytimer5s"
+      },
+      "156" : {
+          "//description" : "<A circuit that relays signals after a set delay.>",
+          "//name" : "foundrydelay",
+          "//shortdescription" : "Foundry Delay Gate",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "foundrydelay",
+          "tilesetDirection" : "right"
+      },
+      "157" : {
+          "//description" : "<An /'Or'/ switch. Allows you to have multiple individual inputs.>",
+          "//name" : "foundryor",
+          "//shortdescription" : "Foundry Or Switch",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "foundryor",
+          "tilesetDirection" : "right"
+      },
+      "158" : {
+          "//description" : "<A /'Not'/ switch. Inverts the input on the circuit.>",
+          "//name" : "foundrynot",
+          "//shortdescription" : "Foundry Not Switch",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "foundrynot",
+          "tilesetDirection" : "right"
+      },
+      "159" : {
+          "//description" : "<A Latch. You'll only need to use this if you already know what it is.>",
+          "//name" : "foundrydlatch",
+          "//shortdescription" : "Foundry Latch",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "foundrydlatch",
+          "tilesetDirection" : "right"
+      },
+      "16" : {
+          "//description" : "Turret for your protection! Can only be placed once.",
+          "//name" : "standingturret",
+          "//shortdescription" : "Defense Turret",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "0",
+          "object" : "standingturret",
+          "tilesetDirection" : "right"
+      },
+      "160" : {
+          "//description" : "<A timer. For when you need time to get away.>",
+          "//name" : "foundrytimer4s",
+          "//shortdescription" : "Foundry Timer (4 Sec)",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "foundrytimer4s"
+      },
+      "161" : {
+          "//description" : "<A timer. For when you need time to get away.>",
+          "//name" : "foundrytimer3s",
+          "//shortdescription" : "Foundry Timer (3 Sec)",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "foundrytimer3s"
+      },
+      "162" : {
+          "//description" : "<An /'And'/ switch. Requires all inputs to be /'on'/ to work.>",
+          "//name" : "foundryand",
+          "//shortdescription" : "Foundry And Switch",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "foundryand",
+          "tilesetDirection" : "right"
+      },
+      "163" : {
+          "//description" : "<A timer. For when you need time to get away.>",
+          "//name" : "foundrytimer2s",
+          "//shortdescription" : "Foundry Timer (2 Sec)",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "foundrytimer2s"
+      },
+      "17" : {
+          "//description" : "Turret for your protection! Can only be placed once.",
+          "//name" : "standingturret_orientation2",
+          "//shortdescription" : "Defense Turret",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "-24",
+          "object" : "standingturret",
+          "tilesetDirection" : "right"
+      },
+      "18" : {
+          "//description" : "Turret for your protection! Can only be placed once.",
+          "//name" : "standingturret_orientation3",
+          "//shortdescription" : "Defense Turret",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "-24",
+          "object" : "standingturret",
+          "tilesetDirection" : "right"
+      },
+      "19" : {
+          "//description" : "Turret for your protection! Can only be placed once.",
+          "//name" : "standingturret_orientation4",
+          "//shortdescription" : "Defense Turret",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "standingturret",
+          "tilesetDirection" : "right"
+      },
+      "2" : {
+          "//description" : "A stunning unicorn statue. Watch out for the horn!",
+          "//name" : "rainbowunicornstatue_orientation1",
+          "//shortdescription" : "Rainbow Unicorn Statue",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "0",
+          "object" : "rainbowunicornstatue",
+          "tilesetDirection" : "right"
+      },
+      "20" : {
+          "//description" : "Turret for your protection! Can only be placed once.",
+          "//name" : "standingturret_orientation5",
+          "//shortdescription" : "Defense Turret",
+          "imagePositionX" : "-24",
+          "imagePositionY" : "0",
+          "object" : "standingturret",
+          "tilesetDirection" : "right"
+      },
+      "21" : {
+          "//description" : "Use this pressure plate wisely.",
+          "//name" : "medievalpressureplate",
+          "//shortdescription" : "Pressure Plate",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "medievalpressureplate"
+      },
+      "22" : {
+          "//description" : "The finest automated security the Apex labs have to offer.",
+          "//name" : "apexturret",
+          "//shortdescription" : "Apex Turret",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "0",
+          "object" : "apexturret",
+          "tilesetDirection" : "right"
+      },
+      "23" : {
+          "//description" : "<An /'And'/ switch. Requires all inputs to be /'on'/ to work.>",
+          "//name" : "and",
+          "//shortdescription" : "And Switch",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "and",
+          "tilesetDirection" : "right"
+      },
+      "24" : {
+          "//description" : "One of these shackles looks suspicious...",
+          "//name" : "medievalswitchshackle",
+          "//shortdescription" : "Wall Shackles",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-24",
+          "object" : "medievalswitchshackle",
+          "tilesetDirection" : "right"
+      },
+      "25" : {
+          "//description" : "Lots of tempting levers that should probably be left alone.",
+          "//name" : "apexconsole1",
+          "//shortdescription" : "Big Ape Terminal",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "0",
+          "object" : "apexconsole1",
+          "tilesetDirection" : "right"
+      },
+      "26" : {
+          "//description" : "Shiny armour stands resolute. Hmm... the axe looks loose.",
+          "//name" : "medievalarmorswitch",
+          "//shortdescription" : "Glitch Display Armour",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "0",
+          "object" : "medievalarmorswitch",
+          "tilesetDirection" : "right"
+      },
+      "27" : {
+          "//description" : "A sunflower who's just looking for the sun.",
+          "//name" : "movingsunflower",
+          "//shortdescription" : "Moving Sunflower",
+          "imagePositionX" : "-24",
+          "imagePositionY" : "0",
+          "object" : "movingsunflower",
+          "tilesetDirection" : "right"
+      },
+      "28" : {
+          "//description" : "-todo-",
+          "//name" : "referencegenerator",
+          "//shortdescription" : "Reference Generator",
+          "imagePositionX" : "-80",
+          "imagePositionY" : "0",
+          "object" : "referencegenerator",
+          "tilesetDirection" : "right"
+      },
+      "29" : {
+          "//description" : "The amount of data on this screen is overwhelming.",
+          "//name" : "bunkerbigpanel",
+          "//shortdescription" : "Large Monitor",
+          "imagePositionX" : "-40",
+          "imagePositionY" : "-16",
+          "object" : "bunkerbigpanel",
+          "tilesetDirection" : "right"
+      },
+      "3" : {
+          "//description" : "A compact switch that can be flipped on or off.",
+          "//name" : "tinywallswitch",
+          "//shortdescription" : "Tiny Wall Switch",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "tinywallswitch",
+          "tilesetDirection" : "right"
+      },
+      "30" : {
+          "//description" : "It seems to scan eyeballs to match personnel data.",
+          "//name" : "bunkereyescanner",
+          "//shortdescription" : "USCM Eye Scanner",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "bunkereyescanner",
+          "tilesetDirection" : "right"
+      },
+      "31" : {
+          "//description" : "This chest is rigged with a sensor that sends a signal when its opened.",
+          "//name" : "trapchest",
+          "//shortdescription" : "Trap Chest",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "trapchest",
+          "tilesetDirection" : "right"
+      },
+      "32" : {
+          "//description" : "Activates the bottom node in dim light and the top node in bright light.",
+          "//name" : "lightsensor",
+          "//shortdescription" : "Light Sensor",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "lightsensor"
+      },
+      "33" : {
+          "//description" : "Activates the bottom node in dim light and the top node in bright light.",
+          "//name" : "lightsensor_orientation2",
+          "//shortdescription" : "Light Sensor",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "lightsensor"
+      },
+      "34" : {
+          "//description" : "Activates the bottom node in dim light and the top node in bright light.",
+          "//name" : "lightsensor_orientation3",
+          "//shortdescription" : "Light Sensor",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "lightsensor"
+      },
+      "35" : {
+          "//description" : "Activates the bottom node in dim light and the top node in bright light.",
+          "//name" : "lightsensor_orientation4",
+          "//shortdescription" : "Light Sensor",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "lightsensor"
+      },
+      "36" : {
+          "//description" : "An access panel with a bird crudely etched into the base.",
+          "//name" : "consoletribal1",
+          "//shortdescription" : "Avian Bird Console",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "consoletribal1",
+          "tilesetDirection" : "right"
+      },
+      "37" : {
+          "//description" : "Stay still! It can't see you if you stay still.",
+          "//name" : "bunkermotiondetector",
+          "//shortdescription" : "Motion Detector",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "bunkermotiondetector",
+          "tilesetDirection" : "right"
+      },
+      "38" : {
+          "//description" : "It looks like a screen full of personnel memos.",
+          "//name" : "bunkerconsole3",
+          "//shortdescription" : "Small Console",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "0",
+          "object" : "bunkerconsole3",
+          "tilesetDirection" : "right"
+      },
+      "39" : {
+          "//description" : "It looks like a screen full of personnel memos.",
+          "//name" : "bunkerconsole3_orientation1",
+          "//shortdescription" : "Small Console",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "bunkerconsole3",
+          "tilesetDirection" : "right"
+      },
+      "4" : {
+          "//description" : "Flippin' awesome.",
+          "//name" : "smallwallswitchlighttoggle",
+          "//shortdescription" : "Small Wall Switch (Toggled Light)",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "smallwallswitchlighttoggle"
+      },
+      "40" : {
+          "//description" : "An access panel with a flame carved into its base.",
+          "//name" : "consoletribal3",
+          "//shortdescription" : "Avian Flame Console",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "consoletribal3",
+          "tilesetDirection" : "right"
+      },
+      "41" : {
+          "//description" : "An impervium console. So exquisite, you can't help but treat it with respect.",
+          "//name" : "tier10switch",
+          "//shortdescription" : "Impervium Console",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "tier10switch",
+          "tilesetDirection" : "right"
+      },
+      "42" : {
+          "//description" : "It scans fingerprints to match personnel data.",
+          "//name" : "bunkerhandscanner",
+          "//shortdescription" : "USCM Fingerprint Scanner",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "bunkerhandscanner",
+          "tilesetDirection" : "right"
+      },
+      "43" : {
+          "//description" : "<An output light. Shows whether something is on or off.>",
+          "//name" : "bulb",
+          "//shortdescription" : "Bulb",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "bulb"
+      },
+      "44" : {
+          "//description" : "The finest security camera the Apex labs have to offer.",
+          "//name" : "apexsecuritycamera",
+          "//shortdescription" : "Apex Security Camera",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "apexsecuritycamera",
+          "tilesetDirection" : "right"
+      },
+      "45" : {
+          "//description" : "A sleek control console.",
+          "//name" : "lunarbaseconsole",
+          "//shortdescription" : "Lunar Base Console",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "lunarbaseconsole",
+          "tilesetDirection" : "right"
+      },
+      "46" : {
+          "//description" : "A button.",
+          "//name" : "outpostbutton",
+          "//shortdescription" : "Outpost Button",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "outpostbutton",
+          "tilesetDirection" : "right"
+      },
+      "47" : {
+          "//description" : "Flippin' awesome.",
+          "//name" : "smallwallswitchlit",
+          "//shortdescription" : "Small Wall Switch (Light)",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "smallwallswitchlit"
+      },
+      "48" : {
+          "//description" : "<A timer. For when you need time to get away.>",
+          "//name" : "timer4s",
+          "//shortdescription" : "Timer (4 Sec)",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "timer4s"
+      },
+      "49" : {
+          "//description" : "The sword in the... console?",
+          "//name" : "ironswitch",
+          "//shortdescription" : "Iron Console",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "ironswitch",
+          "tilesetDirection" : "right"
+      },
+      "5" : {
+          "//description" : "Who knows what it might activate... just press it!",
+          "//name" : "smallwallbutton",
+          "//shortdescription" : "Small Wall Button",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "smallwallbutton"
+      },
+      "50" : {
+          "//description" : "Pushing it might be fun, at least for a moment.",
+          "//name" : "smallfloorbutton",
+          "//shortdescription" : "Small Floor Button",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "smallfloorbutton",
+          "tilesetDirection" : "right"
+      },
+      "51" : {
+          "//description" : "A security console. For keeping things secure.",
+          "//name" : "outpostsecurityconsole",
+          "//shortdescription" : "Outpost Security Console",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "0",
+          "object" : "outpostsecurityconsole",
+          "tilesetDirection" : "right"
+      },
+      "52" : {
+          "//description" : "A shield generator. Protective!",
+          "//name" : "humangenerator",
+          "//shortdescription" : "Human Shield Generator",
+          "imagePositionX" : "-80",
+          "imagePositionY" : "0",
+          "object" : "humangenerator",
+          "tilesetDirection" : "right"
+      },
+      "53" : {
+          "//description" : "I know it doesn't LOOK like a shield generator...",
+          "//name" : "shieldgenerator",
+          "//shortdescription" : "Shield Generator",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "shieldgenerator"
+      },
+      "54" : {
+          "//description" : "All Hail the Great Banana! The sacred fruit!",
+          "//name" : "apexstatue3",
+          "//shortdescription" : "Great Banana Lock Statue",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "apexstatue3",
+          "tilesetDirection" : "right"
+      },
+      "55" : {
+          "//description" : "<A timer. For when you need time to get away.>",
+          "//name" : "timer3s",
+          "//shortdescription" : "Timer (3 Sec)",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "timer3s"
+      },
+      "56" : {
+          "//description" : "Gurgle gurgle!",
+          "//name" : "drain",
+          "//shortdescription" : "Drain",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "drain"
+      },
+      "57" : {
+          "//description" : "Flippin' awesome.",
+          "//name" : "smallwallswitch",
+          "//shortdescription" : "Small Wall Switch",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "smallwallswitch"
+      },
+      "58" : {
+          "//description" : "<An /'X Or'/ switch. Requires one input to be on, and one off.>",
+          "//name" : "xor",
+          "//shortdescription" : "X Or Switch",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "xor",
+          "tilesetDirection" : "right"
+      },
+      "59" : {
+          "//description" : "Don't use your finger! This trusty sensor indicates the presence of liquids.",
+          "//name" : "liquidsensor",
+          "//shortdescription" : "Liquid Sensor",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "liquidsensor",
+          "tilesetDirection" : "right"
+      },
+      "6" : {
+          "//description" : "Perfect for all your automated door needs!",
+          "//name" : "scanner",
+          "//shortdescription" : "Proximity Scanner",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "scanner"
+      },
+      "60" : {
+          "//description" : "Don't use your finger! This trusty sensor indicates the presence of liquids.",
+          "//name" : "liquidsensor_orientation2",
+          "//shortdescription" : "Liquid Sensor",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "liquidsensor",
+          "tilesetDirection" : "right"
+      },
+      "61" : {
+          "//description" : "Don't use your finger! This trusty sensor indicates the presence of liquids.",
+          "//name" : "liquidsensor_orientation3",
+          "//shortdescription" : "Liquid Sensor",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "liquidsensor",
+          "tilesetDirection" : "right"
+      },
+      "62" : {
+          "//description" : "Don't use your finger! This trusty sensor indicates the presence of liquids.",
+          "//name" : "liquidsensor_orientation4",
+          "//shortdescription" : "Liquid Sensor",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "liquidsensor",
+          "tilesetDirection" : "right"
+      },
+      "63" : {
+          "//description" : "A keypad.",
+          "//name" : "outpostkeypad",
+          "//shortdescription" : "Outpost Keypad",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "outpostkeypad",
+          "tilesetDirection" : "right"
+      },
+      "64" : {
+          "//description" : "A large control panel powered by Avian crystals.",
+          "//name" : "consoletribal4",
+          "//shortdescription" : "Large Avian Console",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "0",
+          "object" : "consoletribal4",
+          "tilesetDirection" : "right"
+      },
+      "65" : {
+          "//description" : "I wonder what all these buttons are for...",
+          "//name" : "apexconsolekeyboard",
+          "//shortdescription" : "Console Keyboard",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "0",
+          "object" : "apexconsolekeyboard",
+          "tilesetDirection" : "right"
+      },
+      "66" : {
+          "//description" : "An access panel with an egg is etched into its base.",
+          "//name" : "consoletribal2",
+          "//shortdescription" : "Avian Egg Console",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "consoletribal2",
+          "tilesetDirection" : "right"
+      },
+      "67" : {
+          "//description" : "Switches and stays switched.",
+          "//name" : "persistentswitch",
+          "//shortdescription" : "Persistent Switch",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "persistentswitch"
+      },
+      "68" : {
+          "//description" : "An ideal device for preparing traps and the like.",
+          "//name" : "huntingpressureplate",
+          "//shortdescription" : "Hunting Pressure Plate",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "huntingpressureplate",
+          "tilesetDirection" : "right"
+      },
+      "69" : {
+          "//description" : "I wonder what this does?",
+          "//name" : "medievalswitchlever",
+          "//shortdescription" : "Switch Lever",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "medievalswitchlever",
+          "tilesetDirection" : "right"
+      },
+      "7" : {
+          "//description" : "This pressure plate activates when stepped on.",
+          "//name" : "proximitysensor",
+          "//shortdescription" : "Pressure Plate",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "proximitysensor",
+          "tilesetDirection" : "right"
+      },
+      "70" : {
+          "//description" : "This crystal seems like it might do something if I touch it.",
+          "//name" : "castleswitch",
+          "//shortdescription" : "Gem Switch",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "castleswitch",
+          "tilesetDirection" : "right"
+      },
+      "71" : {
+          "//description" : "One of these books looks out of place... I wonder...",
+          "//name" : "medievalbookcaseswitch",
+          "//shortdescription" : "Glitch Bookcase Switch",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "medievalbookcaseswitch",
+          "tilesetDirection" : "right"
+      },
+      "72" : {
+          "//description" : "This floor tile looks different from the rest.",
+          "//name" : "medievalswitchhidden",
+          "//shortdescription" : "Hidden Switch",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "medievalswitchhidden",
+          "tilesetDirection" : "right"
+      },
+      "73" : {
+          "//description" : "It's a screen full of super top secret mission data... Boring.",
+          "//name" : "bunkerconsole4",
+          "//shortdescription" : "Wide Console",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "0",
+          "object" : "bunkerconsole4",
+          "tilesetDirection" : "right"
+      },
+      "74" : {
+          "//description" : "A sign that says either offline or online.",
+          "//name" : "miningpowersign",
+          "//shortdescription" : "Power Sign",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "0",
+          "object" : "miningpowersign",
+          "tilesetDirection" : "right"
+      },
+      "75" : {
+          "//description" : "Two keyboards and one monitor?",
+          "//name" : "bunkerconsole2",
+          "//shortdescription" : "Large Console",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "0",
+          "object" : "bunkerconsole2",
+          "tilesetDirection" : "right"
+      },
+      "76" : {
+          "//description" : "Lots of tempting buttons that should probably be left alone.",
+          "//name" : "plantpanel",
+          "//shortdescription" : "Plant Control Panel",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "plantpanel",
+          "tilesetDirection" : "right"
+      },
+      "77" : {
+          "//description" : "A sewer valve. It's had a funny turn.",
+          "//name" : "sewervalve",
+          "//shortdescription" : "Sewer Valve",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "sewervalve",
+          "tilesetDirection" : "right"
+      },
+      "78" : {
+          "//description" : "A control panel that appears to operate lights, doors and alarms.",
+          "//name" : "prisoncontrolpanel",
+          "//shortdescription" : "Prison Control Panel",
+          "imagePositionX" : "-24",
+          "imagePositionY" : "0",
+          "object" : "prisoncontrolpanel",
+          "tilesetDirection" : "right"
+      },
+      "79" : {
+          "//description" : "A computer console made of tar.",
+          "//name" : "tarconsole",
+          "//shortdescription" : "Tar Console",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "tarconsole",
+          "tilesetDirection" : "right"
+      },
+      "8" : {
+          "//description" : "<A timer. For when you need time to get away.>",
+          "//name" : "timer2s",
+          "//shortdescription" : "Timer (2 Sec)",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "timer2s"
+      },
+      "80" : {
+          "//description" : "A laser made to mine through moon rock.",
+          "//name" : "lunarbaselaser",
+          "//shortdescription" : "Lunar Laser",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "lunarbaselaser",
+          "tilesetDirection" : "right"
+      },
+      "81" : {
+          "//description" : "Watch your step!",
+          "//name" : "proximitywallsensor",
+          "//shortdescription" : "Proximity Wall Sensor",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "proximitywallsensor",
+          "tilesetDirection" : "right"
+      },
+      "82" : {
+          "//description" : "A control console.",
+          "//name" : "outpostconsole",
+          "//shortdescription" : "Outpost Console",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "outpostconsole",
+          "tilesetDirection" : "right"
+      },
+      "83" : {
+          "//description" : "A compact button that activates when pressed.",
+          "//name" : "tinywallbutton",
+          "//shortdescription" : "Tiny Wall Button",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "tinywallbutton"
+      },
+      "84" : {
+          "//name" : "avianproximitysensor",
+          "invalid" : "true"
+      },
+      "85" : {
+          "//description" : "This tile looks different from the rest.",
+          "//name" : "avianswitchhidden2",
+          "//shortdescription" : "Avian Tomb Hidden Switch",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "avianswitchhidden2",
+          "tilesetDirection" : "right"
+      },
+      "86" : {
+          "//description" : "Use this pressure plate wisely.",
+          "//name" : "avianpressureplate",
+          "//shortdescription" : "Crystal Pressure Plate",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "avianpressureplate",
+          "tilesetDirection" : "right"
+      },
+      "87" : {
+          "//description" : "This tile looks different from the rest.",
+          "//name" : "avianswitchhidden1",
+          "//shortdescription" : "Avian Temple Hidden Switch",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "avianswitchhidden1",
+          "tilesetDirection" : "right"
+      },
+      "88" : {
+          "//description" : "This tile looks different from the rest.",
+          "//name" : "avianswitchhidden2_orientation2",
+          "//shortdescription" : "Avian Tomb Hidden Switch",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "avianswitchhidden2",
+          "tilesetDirection" : "right"
+      },
+      "89" : {
+          "//description" : "This tile looks different from the rest.",
+          "//name" : "avianswitchhidden2_orientation3",
+          "//shortdescription" : "Avian Tomb Hidden Switch",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "avianswitchhidden2",
+          "tilesetDirection" : "right"
+      },
+      "9" : {
+          "//description" : "<A timer. For when you need time to get away.>",
+          "//name" : "timer1s",
+          "//shortdescription" : "Timer (1 Sec)",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "timer1s"
+      },
+      "90" : {
+          "//description" : "This tile looks different from the rest.",
+          "//name" : "avianswitchhidden2_orientation4",
+          "//shortdescription" : "Avian Tomb Hidden Switch",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "avianswitchhidden2",
+          "tilesetDirection" : "right"
+      },
+      "91" : {
+          "//description" : "This tile looks different from the rest.",
+          "//name" : "avianswitchhidden2_orientation5",
+          "//shortdescription" : "Avian Tomb Hidden Switch",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "avianswitchhidden2",
+          "tilesetDirection" : "right"
+      },
+      "92" : {
+          "//description" : "This floor tile looks different from the rest.",
+          "//name" : "medievalswitchhidden_orientation2",
+          "//shortdescription" : "Hidden Switch",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "medievalswitchhidden",
+          "tilesetDirection" : "right"
+      },
+      "93" : {
+          "//description" : "This floor tile looks different from the rest.",
+          "//name" : "medievalswitchhidden_orientation3",
+          "//shortdescription" : "Hidden Switch",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "medievalswitchhidden",
+          "tilesetDirection" : "right"
+      },
+      "94" : {
+          "//description" : "This floor tile looks different from the rest.",
+          "//name" : "medievalswitchhidden_orientation4",
+          "//shortdescription" : "Hidden Switch",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "medievalswitchhidden",
+          "tilesetDirection" : "right"
+      },
+      "95" : {
+          "//description" : "This floor tile looks different from the rest.",
+          "//name" : "medievalswitchhidden_orientation5",
+          "//shortdescription" : "Hidden Switch",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "medievalswitchhidden",
+          "tilesetDirection" : "right"
+      },
+      "96" : {
+          "//description" : "This tile looks different from the rest.",
+          "//name" : "avianswitchhidden1_orientation2",
+          "//shortdescription" : "Avian Temple Hidden Switch",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "avianswitchhidden1",
+          "tilesetDirection" : "right"
+      },
+      "97" : {
+          "//description" : "This tile looks different from the rest.",
+          "//name" : "avianswitchhidden1_orientation3",
+          "//shortdescription" : "Avian Temple Hidden Switch",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "avianswitchhidden1",
+          "tilesetDirection" : "right"
+      },
+      "98" : {
+          "//description" : "This tile looks different from the rest.",
+          "//name" : "avianswitchhidden1_orientation4",
+          "//shortdescription" : "Avian Temple Hidden Switch",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "avianswitchhidden1",
+          "tilesetDirection" : "right"
+      },
+      "99" : {
+          "//description" : "This tile looks different from the rest.",
+          "//name" : "avianswitchhidden1_orientation5",
+          "//shortdescription" : "Avian Temple Hidden Switch",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "avianswitchhidden1",
+          "tilesetDirection" : "right"
+      }
+  },
+  "tiles" : {
+      "0" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/timer5s.png"
+      },
+      "1" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/rainbowunicornstatue.png"
+      },
+      "10" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/timer.png"
+      },
+      "100" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/avianpressureplate_orientation2.png"
+      },
+      "101" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/avianpressureplate_orientation3.png"
+      },
+      "102" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/pumpsign.png"
+      },
+      "103" : {
+          "image" : "..\\../../../../tiled\\packed\\../packed/invalid.png"
+      },
+      "104" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/invisibleproximitysensor.png"
+      },
+      "105" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/countdowntimer.png"
+      },
+      "106" : {
+          "image" : "..\\../../../../tiled\\packed\\../packed/invalid.png"
+      },
+      "107" : {
+          "image" : "..\\../../../../tiled\\packed\\../packed/invalid.png"
+      },
+      "108" : {
+          "image" : "..\\../../../../tiled\\packed\\../packed/invalid.png"
+      },
+      "109" : {
+          "image" : "..\\../../../../tiled\\packed\\../packed/invalid.png"
+      },
+      "11" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/dlatch.png"
+      },
+      "110" : {
+          "image" : "..\\../../../../tiled\\packed\\../packed/invalid.png"
+      },
+      "111" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/crystaltrap.png"
+      },
+      "112" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/crystaltrap_orientation1.png"
+      },
+      "113" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/crystaltrap_orientation2.png"
+      },
+      "114" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/crystaltrap_orientation3.png"
+      },
+      "115" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/crystaltrap_orientation4.png"
+      },
+      "116" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/crystaltrap_orientation5.png"
+      },
+      "117" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/crystaltrap_orientation6.png"
+      },
+      "118" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/crystaltrap_orientation7.png"
+      },
+      "119" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/flametrap.png"
+      },
+      "12" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/landmine.png"
+      },
+      "120" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/flametrap_orientation2.png"
+      },
+      "121" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/flametrap_orientation3.png"
+      },
+      "122" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/flametrap_orientation4.png"
+      },
+      "123" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/flametrap_orientation5.png"
+      },
+      "124" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/flametrap_orientation1.png"
+      },
+      "125" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/hylotlliquidsensor.png"
+      },
+      "126" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/hylotlliquidsensor_orientation2.png"
+      },
+      "127" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/hylotlliquidsensor_orientation3.png"
+      },
+      "128" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/hylotlliquidsensor_orientation4.png"
+      },
+      "129" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/hylotlbutton.png"
+      },
+      "13" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/bigredbutton.png"
+      },
+      "130" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/delay.png"
+      },
+      "131" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/ancientflametrap.png"
+      },
+      "132" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/ancientflametrap_orientation1.png"
+      },
+      "133" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/ancientflametrap_orientation2.png"
+      },
+      "134" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/ancientflametrap_orientation3.png"
+      },
+      "135" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/ancientflametrap_orientation4.png"
+      },
+      "136" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/ancientflametrap_orientation5.png"
+      },
+      "137" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/jumppad.png"
+      },
+      "138" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/invisiblesound.png"
+      },
+      "139" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/boilervalve.png"
+      },
+      "14" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/not.png"
+      },
+      "140" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/steelelevatorlong.png"
+      },
+      "141" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/steelelevatorshort.png"
+      },
+      "142" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/mechanicalelevatorlong.png"
+      },
+      "143" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/woodenelevatorshort.png"
+      },
+      "144" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/mechanicalelevatorshort.png"
+      },
+      "145" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/woodenelevatorlong.png"
+      },
+      "146" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/foundryelevatorlong.png"
+      },
+      "147" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/foundryswitch.png"
+      },
+      "148" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/foundryelevatorshort.png"
+      },
+      "149" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/foundryconsole.png"
+      },
+      "15" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/or.png"
+      },
+      "150" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/foundrybutton.png"
+      },
+      "151" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/foundryxor.png"
+      },
+      "152" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/foundrycountdowntimer.png"
+      },
+      "153" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/foundrytimer1s.png"
+      },
+      "154" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/foundrytimer.png"
+      },
+      "155" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/foundrytimer5s.png"
+      },
+      "156" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/foundrydelay.png"
+      },
+      "157" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/foundryor.png"
+      },
+      "158" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/foundrynot.png"
+      },
+      "159" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/foundrydlatch.png"
+      },
+      "16" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/standingturret.png"
+      },
+      "160" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/foundrytimer4s.png"
+      },
+      "161" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/foundrytimer3s.png"
+      },
+      "162" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/foundryand.png"
+      },
+      "163" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/foundrytimer2s.png"
+      },
+      "17" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/standingturret_orientation2.png"
+      },
+      "18" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/standingturret_orientation3.png"
+      },
+      "19" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/standingturret_orientation4.png"
+      },
+      "2" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/rainbowunicornstatue_orientation1.png"
+      },
+      "20" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/standingturret_orientation5.png"
+      },
+      "21" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/medievalpressureplate.png"
+      },
+      "22" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/apexturret.png"
+      },
+      "23" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/and.png"
+      },
+      "24" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/medievalswitchshackle.png"
+      },
+      "25" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/apexconsole1.png"
+      },
+      "26" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/medievalarmorswitch.png"
+      },
+      "27" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/movingsunflower.png"
+      },
+      "28" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/referencegenerator.png"
+      },
+      "29" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/bunkerbigpanel.png"
+      },
+      "3" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/tinywallswitch.png"
+      },
+      "30" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/bunkereyescanner.png"
+      },
+      "31" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/trapchest.png"
+      },
+      "32" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/lightsensor.png"
+      },
+      "33" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/lightsensor_orientation2.png"
+      },
+      "34" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/lightsensor_orientation3.png"
+      },
+      "35" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/lightsensor_orientation4.png"
+      },
+      "36" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/consoletribal1.png"
+      },
+      "37" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/bunkermotiondetector.png"
+      },
+      "38" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/bunkerconsole3.png"
+      },
+      "39" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/bunkerconsole3_orientation1.png"
+      },
+      "4" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/smallwallswitchlighttoggle.png"
+      },
+      "40" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/consoletribal3.png"
+      },
+      "41" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/tier10switch.png"
+      },
+      "42" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/bunkerhandscanner.png"
+      },
+      "43" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/bulb.png"
+      },
+      "44" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/apexsecuritycamera.png"
+      },
+      "45" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/lunarbaseconsole.png"
+      },
+      "46" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/outpostbutton.png"
+      },
+      "47" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/smallwallswitchlit.png"
+      },
+      "48" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/timer4s.png"
+      },
+      "49" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/ironswitch.png"
+      },
+      "5" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/smallwallbutton.png"
+      },
+      "50" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/smallfloorbutton.png"
+      },
+      "51" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/outpostsecurityconsole.png"
+      },
+      "52" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/humangenerator.png"
+      },
+      "53" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/shieldgenerator.png"
+      },
+      "54" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/apexstatue3.png"
+      },
+      "55" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/timer3s.png"
+      },
+      "56" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/drain.png"
+      },
+      "57" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/smallwallswitch.png"
+      },
+      "58" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/xor.png"
+      },
+      "59" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/liquidsensor.png"
+      },
+      "6" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/scanner.png"
+      },
+      "60" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/liquidsensor_orientation2.png"
+      },
+      "61" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/liquidsensor_orientation3.png"
+      },
+      "62" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/liquidsensor_orientation4.png"
+      },
+      "63" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/outpostkeypad.png"
+      },
+      "64" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/consoletribal4.png"
+      },
+      "65" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/apexconsolekeyboard.png"
+      },
+      "66" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/consoletribal2.png"
+      },
+      "67" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/persistentswitch.png"
+      },
+      "68" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/huntingpressureplate.png"
+      },
+      "69" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/medievalswitchlever.png"
+      },
+      "7" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/proximitysensor.png"
+      },
+      "70" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/castleswitch.png"
+      },
+      "71" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/medievalbookcaseswitch.png"
+      },
+      "72" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/medievalswitchhidden.png"
+      },
+      "73" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/bunkerconsole4.png"
+      },
+      "74" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/miningpowersign.png"
+      },
+      "75" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/bunkerconsole2.png"
+      },
+      "76" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/plantpanel.png"
+      },
+      "77" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/sewervalve.png"
+      },
+      "78" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/prisoncontrolpanel.png"
+      },
+      "79" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/tarconsole.png"
+      },
+      "8" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/timer2s.png"
+      },
+      "80" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/lunarbaselaser.png"
+      },
+      "81" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/proximitywallsensor.png"
+      },
+      "82" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/outpostconsole.png"
+      },
+      "83" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/tinywallbutton.png"
+      },
+      "84" : {
+          "image" : "..\\../../../../tiled\\packed\\../packed/invalid.png"
+      },
+      "85" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/avianswitchhidden2.png"
+      },
+      "86" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/avianpressureplate.png"
+      },
+      "87" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/avianswitchhidden1.png"
+      },
+      "88" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/avianswitchhidden2_orientation2.png"
+      },
+      "89" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/avianswitchhidden2_orientation3.png"
+      },
+      "9" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/timer1s.png"
+      },
+      "90" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/avianswitchhidden2_orientation4.png"
+      },
+      "91" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/avianswitchhidden2_orientation5.png"
+      },
+      "92" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/medievalswitchhidden_orientation2.png"
+      },
+      "93" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/medievalswitchhidden_orientation3.png"
+      },
+      "94" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/medievalswitchhidden_orientation4.png"
+      },
+      "95" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/medievalswitchhidden_orientation5.png"
+      },
+      "96" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/avianswitchhidden1_orientation2.png"
+      },
+      "97" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/avianswitchhidden1_orientation3.png"
+      },
+      "98" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/avianswitchhidden1_orientation4.png"
+      },
+      "99" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/avianswitchhidden1_orientation5.png"
+      }
+  },
+  "tilewidth" : 160
+}

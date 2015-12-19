@@ -1,6 +1,6 @@
 {
   "objectName" : "junctionbox",
-  "tags" : [ "metallic", "tech" ],
+  "colonyTags" : [ "metallic", "tech" ],
   "rarity" : "Common",
   "category" : "decorative",
   "price" : 1000,

@@ -1,6 +1,6 @@
 {
   "objectName" : "magmasofa",
-    "tags" : [ "magma", "chair" ],
+    "colonyTags" : [ "magma", "chair" ],
   "printable" : false,
   "rarity" : "Common",
   "description" : "This can't possibly be comfortable.",

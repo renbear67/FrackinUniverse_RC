@@ -1,6 +1,6 @@
 {
   "objectName" : "wildsilverleafseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "common",
   "category" : "Farmable",
   "description" : "A great way to boost energy.",

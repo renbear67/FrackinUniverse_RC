@@ -1,6 +1,6 @@
 {
   "objectName" : "bamboocabinet",
-  "tags" : [ "thickjungle", "storage" ],
+  "colonyTags" : [ "thickjungle", "storage" ],
   "printable" : false,
   "rarity" : "Common",
   "objectType" : "container",

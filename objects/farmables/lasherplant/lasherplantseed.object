@@ -1,6 +1,6 @@
 {
   "objectName" : "lasherplantseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Rare",
   "category" : "farmable",
   "description" : "Lashers are nasty things, and can induce rage. Their tongues are useful, too.",

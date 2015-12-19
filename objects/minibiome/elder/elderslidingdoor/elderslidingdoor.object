@@ -1,6 +1,6 @@
 {
   "objectName" : "elderslidingdoor",
-  "tags" : [ "elder", "door" ],
+  "colonyTags" : [ "elder", "door" ],
   "printable" : false,
   "rarity" : "Common",
 

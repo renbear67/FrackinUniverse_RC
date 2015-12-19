@@ -1,6 +1,6 @@
 {
   "objectName" : "fugoldenoakchest",
-  "tags" : [ "bees", "insects" ],
+  "colonyTags" : [ "bees", "insects" ],
   "rarity" : "Common",
   "objectType" : "container",
   "printable" : false,

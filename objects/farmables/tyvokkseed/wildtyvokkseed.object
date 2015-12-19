@@ -1,6 +1,6 @@
 {
   "objectName" : "wildtyvokkseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Legendary",
   "category" : "farmable",
   "description" : "This plant is a literal powerhouse of energy and vitality.",

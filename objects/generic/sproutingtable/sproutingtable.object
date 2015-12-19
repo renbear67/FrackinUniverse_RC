@@ -1,6 +1,6 @@
 {
   "objectName" : "sproutingtable",
-  "tags" : [ "crafting", "booze" ],
+  "colonyTags" : [ "crafting", "booze" ],
   "printable" : false,
   "rarity" : "Common",
   "description" : "Sprout seeds on this table",

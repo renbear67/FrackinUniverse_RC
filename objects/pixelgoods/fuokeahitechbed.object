@@ -1,6 +1,6 @@
 {
   "objectName" : "fuokeahitechbed",
-  "tags" : [ "science", "hitech" ],
+  "colonyTags" : [ "science", "hitech" ],
   "retainObjectParametersInItem" : true,
   "printable" : false,
   "rarity" : "Common",

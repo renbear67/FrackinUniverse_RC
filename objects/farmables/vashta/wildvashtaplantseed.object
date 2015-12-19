@@ -1,6 +1,6 @@
 {
   "objectName" : "wildvashtaplantseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Uncommon",
   "category" : "farmable",
   "description" : "Vashta is ugly stuff, but not as ugly as the rage it induces.",

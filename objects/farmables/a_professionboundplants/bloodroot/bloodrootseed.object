@@ -1,6 +1,6 @@
 {
   "objectName" : "bloodrootseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "common",
   "category" : "Farmable",
   "description" : "Vitality-increasing plant.",

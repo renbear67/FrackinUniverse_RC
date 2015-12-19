@@ -1,6 +1,6 @@
 {
   "objectName" : "fucombchest",
-    "tags" : [ "hive", "bees", "storage" ],
+    "colonyTags" : [ "hive", "bees", "storage" ],
   "rarity" : "Uncommon",
   "objectType" : "container",
   "printable" : false,

@@ -1,6 +1,6 @@
 {
   "objectName" : "wildonionseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Common",
   "category" : "farmable",
   "description" : "An gurn onion! Great for washing all those tears away.",

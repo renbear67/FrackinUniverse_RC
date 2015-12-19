@@ -1,6 +1,6 @@
 {
   "objectName" : "pinkloomseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "common",
   "category" : "Farmable",
   "description" : "Causes rage while increasing energy.",

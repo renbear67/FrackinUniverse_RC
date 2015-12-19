@@ -1,6 +1,6 @@
 {
   "objectName" : "wildtalonseedseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Common",
   "category" : "farmable",
   "description" : "Genetically improved! Restores health.",

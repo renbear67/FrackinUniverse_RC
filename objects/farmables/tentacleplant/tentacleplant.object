@@ -1,6 +1,6 @@
 {
   "objectName" : "tentacleplant",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "uncommon",
   "category" : "farmable",
   "description" : "Lashes out at enemies.",

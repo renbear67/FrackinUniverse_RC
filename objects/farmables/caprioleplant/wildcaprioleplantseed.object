@@ -1,6 +1,6 @@
 {
   "objectName" : "wildcaprioleplantseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Uncommon",
   "category" : "farmable",
   "description" : "Increases your limb strength for jumping.",

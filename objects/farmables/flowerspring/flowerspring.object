@@ -1,6 +1,6 @@
 {
   "objectName" : "flowerspring",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Common",
   "category" : "farmable",
   "description" : "The seeds of a beautiful spring flower.",

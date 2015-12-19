@@ -1,6 +1,6 @@
 {
   "objectName" : "smallwoodencrate1",
-  "tags" : [ "drunkard", "booze" ],
+  "colonyTags" : [ "drunkard", "booze" ],
   "rarity" : "Common",
   "objectType" : "container",
   "description" : "A wooden alcohol crate.",

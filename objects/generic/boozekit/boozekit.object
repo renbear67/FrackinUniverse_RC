@@ -1,6 +1,6 @@
 {
   "objectName" : "boozekit",
-  "tags" : [ "crafting", "booze" ],
+  "colonyTags" : [ "crafting", "booze" ],
   "rarity" : "Common",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {

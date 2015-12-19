@@ -1,6 +1,6 @@
 {
   "objectName" : "ff_stonechest2",
-  "tags" : [ "fu", "storage" ],
+  "colonyTags" : [ "fu", "storage" ],
   "printable" : false,
   "rarity" : "Common",
   "objectType" : "container",

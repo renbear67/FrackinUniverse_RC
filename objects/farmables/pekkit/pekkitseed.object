@@ -1,6 +1,6 @@
 {
   "objectName" : "pekkitseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Common",
   "category" : "farmable",
   "description" : "Pekkit. Can be tossed to freeze enemies or eaten to protect you.",

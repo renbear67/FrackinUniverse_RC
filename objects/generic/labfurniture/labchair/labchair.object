@@ -1,6 +1,6 @@
 {
   "objectName" : "labchair",
-  "tags" : ["fu","science"],
+  "colonyTags" : ["fu","science"],
   "rarity" : "Common",
   "category" : "furniture",
   "price" : 75,

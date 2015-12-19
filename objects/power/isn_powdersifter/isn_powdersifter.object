@@ -1,7 +1,7 @@
 {
   "objectName" : "isn_powdersifter",
   "rarity" : "Common",
-    "tags" : [ "science" ],
+    "colonyTags" : [ "science" ],
   "description" : "Sifts through powders to find useful reagents. Requires 2u of power.",
   "shortdescription" : "Sifting Device",
   "race" : "generic",

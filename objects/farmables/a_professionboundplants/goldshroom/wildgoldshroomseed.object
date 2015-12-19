@@ -1,6 +1,6 @@
 {
   "objectName" : "wildgoldshroomseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "uncommon",
   "category" : "Farmable",
   "description" : "Glow in the dark.",

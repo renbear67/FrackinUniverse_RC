@@ -1,6 +1,6 @@
 {
   "objectName" : "ginsengseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "common",
   "category" : "Farmable",
   "description" : "A well-known medicinal plant.",

@@ -1,6 +1,6 @@
 {
   "objectName" : "wildcorvexseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Uncommon",
   "category" : "farmable",
   "description" : "Corvex is an alien plant with strange chemical properties.",

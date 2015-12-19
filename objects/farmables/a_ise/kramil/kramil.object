@@ -1,6 +1,6 @@
 {
   "objectName" : "kramil",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "rare",
   "category" : "farmable",
   "description" : "Kramil is known for it's potent anti-cold properties.",

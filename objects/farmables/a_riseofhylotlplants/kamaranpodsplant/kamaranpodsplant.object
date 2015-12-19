@@ -1,6 +1,6 @@
 {
   "objectName" : "kamaranpodsplant",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "rare",
   "category" : "farmable",
   "description" : "Hard to crack open.",

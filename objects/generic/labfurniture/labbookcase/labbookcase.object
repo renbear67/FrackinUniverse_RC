@@ -1,6 +1,6 @@
 {
   "objectName" : "labbookcase",
-  "tags" : ["fu","science","knowledge","storage"],
+  "colonyTags" : ["fu","science","knowledge","storage"],
   "rarity" : "Common",
   "category" : "decorative",
   "objectType" : "container",

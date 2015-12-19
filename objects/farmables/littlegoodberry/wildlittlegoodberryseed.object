@@ -1,6 +1,6 @@
 {
   "objectName" : "wildlittlegoodberryseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Common",
   "category" : "farmable",
   "description" : "Small, delicious berries that also increase your ability to cause pain.",

@@ -1,6 +1,6 @@
 {
   "objectName" : "elderpillar1",
-  "tags" : [ "elder", "hideous" ],
+  "colonyTags" : [ "elder", "hideous" ],
   "printable" : false,
   "rarity" : "Common",
   "description" : "Ruins of some cyclopean structure",

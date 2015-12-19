@@ -1,6 +1,6 @@
 {
   "objectName" : "wildshockshroomseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Uncommon",
   "category" : "farmable",
   "description" : "Shock shrooms make useful weapons when processed.",

@@ -1,6 +1,6 @@
 {
   "objectName" : "batterystem",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Common",
   "category" : "farmable",
   "description" : "Not surprisingly, these are jammed with energy.",

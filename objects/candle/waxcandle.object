@@ -1,6 +1,6 @@
 {
   "objectName" : "waxcandle",
-  "tags" : [ "hive", "bees", "light" ],
+  "colonyTags" : [ "hive", "bees", "light" ],
   "rarity" : "Common",
   "category" : "light",
   "price" : 200,

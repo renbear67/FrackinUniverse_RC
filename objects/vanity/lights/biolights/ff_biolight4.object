@@ -1,6 +1,6 @@
 {
   "objectName" : "ff_biolight4",
-  "tags" : [ "fu", "light" ],
+  "colonyTags" : [ "fu", "light" ],
   "rarity" : "Common",
   "description" : "gene-engineered lamp",
   "shortdescription" : "Bio-Light",

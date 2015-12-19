@@ -1,6 +1,6 @@
 {
   "objectName" : "magmatable",
-  "tags" : [ "magma", "table" ],
+  "colonyTags" : [ "magma", "table" ],
   "printable" : false,
   "rarity" : "Common",
   "description" : "Burning death for dinner.",

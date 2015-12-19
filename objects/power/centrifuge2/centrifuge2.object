@@ -1,7 +1,7 @@
 {
   "objectName" : "centrifuge2",
   "rarity" : "rare",
-  "tags" : [ "science" ],
+  "colonyTags" : [ "science" ],
   "description" : "A step up from the lesser Centrifuge. Can process radioactive ores. Needs 3u power.",
   "shortdescription" : "Advanced Centrifuge",
   "race" : "generic",

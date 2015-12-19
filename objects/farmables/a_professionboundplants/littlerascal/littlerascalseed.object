@@ -1,6 +1,6 @@
 {
   "objectName" : "littlerascalseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "common",
   "category" : "Farmable",
   "description" : "It's produce will restore health and energy.",

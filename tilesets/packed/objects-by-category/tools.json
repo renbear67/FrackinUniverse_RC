@@ -1,0 +1,74 @@
+{
+  "margin" : 0,
+  "name" : "objects-by-category/tools",
+  "properties" : {
+  },
+  "spacing" : 0,
+  "tilecount" : 5,
+  "tileheight" : 56,
+  "tileproperties" : {
+      "0" : {
+          "//description" : "This could attract anything... I should make sure I'm prepared before using it.",
+          "//name" : "peanutbutter",
+          "//shortdescription" : "Peanut Butter Trap",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "0",
+          "object" : "peanutbutter",
+          "tilesetDirection" : "right"
+      },
+      "1" : {
+          "//description" : "A distress beacon. Who knows who might hear it?",
+          "//name" : "ironbeacon",
+          "//shortdescription" : "Distress Beacon",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "0",
+          "object" : "ironbeacon",
+          "tilesetDirection" : "right"
+      },
+      "2" : {
+          "//description" : "An inactive robot! I wonder what happens if it's switched on.",
+          "//name" : "robot",
+          "//shortdescription" : "Inactive Robot",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "0",
+          "object" : "robot",
+          "tilesetDirection" : "right"
+      },
+      "3" : {
+          "//description" : "A decoy princess. The perfect bait.",
+          "//name" : "decoyprincess",
+          "//shortdescription" : "Decoy Princess",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "0",
+          "object" : "decoyprincess",
+          "tilesetDirection" : "right"
+      },
+      "4" : {
+          "//description" : "A distress beacon. Who knows who might hear it?",
+          "//name" : "beaconsnow",
+          "//shortdescription" : "Distress Beacon",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "beaconsnow",
+          "tilesetDirection" : "right"
+      }
+  },
+  "tiles" : {
+      "0" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/peanutbutter.png"
+      },
+      "1" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/ironbeacon.png"
+      },
+      "2" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/robot.png"
+      },
+      "3" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/decoyprincess.png"
+      },
+      "4" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/beaconsnow.png"
+      }
+  },
+  "tilewidth" : 48
+}

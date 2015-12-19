@@ -1,6 +1,6 @@
 {
   "objectName" : "fugoldenoakcabinet",
-  "tags" : [ "bees", "cabinet" ],
+  "colonyTags" : [ "bees", "cabinet" ],
   "rarity" : "Common",
   "objectType" : "container",
   "description" : "I wonder if there's a gateway to another hive in here.",

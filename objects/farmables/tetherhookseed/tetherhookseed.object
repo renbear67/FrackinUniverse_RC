@@ -1,6 +1,6 @@
 {
   "objectName" : "tetherhookseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Uncommon",
   "category" : "farmable",
   "description" : "Removes you from danger when near death.",

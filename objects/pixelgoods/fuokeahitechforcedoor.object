@@ -1,6 +1,6 @@
 {
   "objectName" : "fuokeahitechforcedoor",
-  "tags" : [ "science", "hitech", "door" ],
+  "colonyTags" : [ "science", "hitech", "door" ],
   "rarity" : "Common",
 
   "category" : "door",

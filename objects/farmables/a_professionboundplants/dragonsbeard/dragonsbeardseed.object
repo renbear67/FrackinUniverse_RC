@@ -1,6 +1,6 @@
 {
   "objectName" : "dragonsbeardseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "common",
   "category" : "Farmable",
   "description" : "Nearly immune to all forms of heat.",

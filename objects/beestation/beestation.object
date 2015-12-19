@@ -1,6 +1,6 @@
 {
   "objectName" : "beestation",
-  "tags" : [ "bees", "insects" ],
+  "colonyTags" : [ "bees", "insects" ],
   "rarity" : "rare",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {

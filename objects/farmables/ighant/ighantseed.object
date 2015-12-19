@@ -1,6 +1,6 @@
 {
   "objectName" : "ighantseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Uncommon",
   "category" : "farmable",
   "description" : "The ighant is a curious, fast-growing plant. Provides bounce.",

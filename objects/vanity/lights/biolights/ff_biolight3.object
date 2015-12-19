@@ -1,6 +1,6 @@
 {
   "objectName" : "ff_biolight3",
-  "tags" : [ "fu", "light" ],
+  "colonyTags" : [ "fu", "light" ],
   "printable" : false,
   "rarity" : "Common",
   "category" : "light",

@@ -1,6 +1,6 @@
 {
   "objectName" : "ff_lavalamp1",
-  "tags" : [ "fu", "light" ],
+  "colonyTags" : [ "fu", "light" ],
   "printable" : false,
   "rarity" : "Common",
   "category" : "light",

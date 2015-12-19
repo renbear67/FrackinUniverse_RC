@@ -1,6 +1,6 @@
 {
   "objectName" : "thornitoxseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Uncommon",
   "category" : "farmable",
   "description" : "Poisonous and spiky. Thornitox could have use in weapons manufacture.",

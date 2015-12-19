@@ -1,6 +1,6 @@
 {
   "objectName" : "placeabledarkalebottle",
-  "tags" : [ "drunkard", "booze" ],
+  "colonyTags" : [ "drunkard", "booze" ],
   "rarity" : "Common",
   "description" : "Brand New! Placeable Mild Ale!",
   "shortdescription" : "Placeable Mild Ale",

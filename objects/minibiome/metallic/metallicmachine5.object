@@ -1,6 +1,6 @@
 {
   "objectName" : "metallicmachine5",
-  "tags" : [ "metallic", "rusted" ],
+  "colonyTags" : [ "metallic", "rusted" ],
   "rarity" : "Common",
   "category" : "decorative",
   "price" : 400,

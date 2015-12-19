@@ -1,6 +1,6 @@
 {
   "objectName" : "bambootable",
-    "tags" : [ "thickjungle", "table" ],
+    "colonyTags" : [ "thickjungle", "table" ],
   "printable" : false,
   "rarity" : "Common",
   "description" : "A stylish bamboo table.",

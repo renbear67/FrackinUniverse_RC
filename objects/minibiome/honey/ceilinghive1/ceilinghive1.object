@@ -1,6 +1,6 @@
 {
   "objectName" : "ceilinghive1",
-  "tags" : [ "hive", "bees", "insects" ],
+  "colonyTags" : [ "hive", "bees", "insects" ],
   "rarity" : "Common",
   "category" : "other",
   "price" : 60,

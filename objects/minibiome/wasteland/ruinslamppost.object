@@ -1,6 +1,6 @@
 {
   "objectName" : "ruinslamppost",
-  "tags" : [ "wasteland", "tech" ],
+  "colonyTags" : [ "wasteland", "tech" ],
   "rarity" : "Common",
   "category" : "decorative",
   "price" : 100,

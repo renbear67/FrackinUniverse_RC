@@ -1,6 +1,6 @@
 {
   "objectName" : "darklightflower",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "rare",
   "category" : "farmable",
   "description" : "Beautifully gleaming flowers that cure insanity.",

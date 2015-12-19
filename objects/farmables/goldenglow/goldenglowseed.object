@@ -1,6 +1,6 @@
 {
   "objectName" : "goldenglowseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Rare",
   "category" : "farmable",
   "description" : "It glows, but it's real strength is in how it increases speed.",

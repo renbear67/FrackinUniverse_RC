@@ -1,6 +1,6 @@
 {
   "objectName" : "powerpress",
-  "tags" : [ "fu", "science", "scienceoutpost", "combat", "laser" ],
+  "colonyTags" : [ "fu", "science", "scienceoutpost", "combat", "laser" ],
   "rarity" : "uncommon",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {

@@ -1,6 +1,6 @@
 {
   "objectName" : "fuavikanspiceplantseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Common",
   "category" : "farmable",
   "description" : "Spices can be made by drying this plant's fruits.",

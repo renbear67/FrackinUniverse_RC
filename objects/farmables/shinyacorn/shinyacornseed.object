@@ -1,6 +1,6 @@
 {
   "objectName" : "shinyacornseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Common",
   "category" : "farmable",
   "description" : "Delicious nutty fruits that increase your vitality.",

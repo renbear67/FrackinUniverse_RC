@@ -1,6 +1,6 @@
 {
   "objectName" : "castlevaniaice",
-  "tags" : [ "icewaste" ],
+  "colonyTags" : [ "icewaste" ],
   "printable" : false,
   "rarity" : "Rare",
   "description" : "A solid pillar of ice.",

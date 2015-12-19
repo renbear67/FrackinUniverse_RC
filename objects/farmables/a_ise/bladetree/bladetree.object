@@ -1,6 +1,6 @@
 {
   "objectName" : "bladetree",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Common",
   "category" : "farmable",
   "description" : "The barbs on this tree are as sharp as knives.",

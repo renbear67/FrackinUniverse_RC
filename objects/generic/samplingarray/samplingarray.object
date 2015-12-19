@@ -1,6 +1,6 @@
 {
   "objectName" : "samplingarray",
-  "tags" : [ "fu", "science", "scienceoutpost" ],
+  "colonyTags" : [ "fu", "science", "scienceoutpost" ],
   "rarity" : "Common",
   "race" : "generic",
   "category" : "crafting",

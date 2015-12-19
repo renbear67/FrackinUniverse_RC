@@ -1,6 +1,6 @@
 {
   "objectName" : "yellowfootseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "common",
   "category" : "Farmable",
   "description" : "Boosts energy reserves.",

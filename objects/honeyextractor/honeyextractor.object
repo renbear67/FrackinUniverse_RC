@@ -1,6 +1,6 @@
 {
   "objectName" : "honeyextractor",
-  "tags" : [ "bees" ],
+  "colonyTags" : [ "bees" ],
   "printable" : false,
   "rarity" : "rare",
   "description" : "Extract honey out of honeycombs, and jar it!",

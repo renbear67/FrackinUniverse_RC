@@ -1,6 +1,6 @@
 {
   "objectName" : "carcass1",
-  "tags" : [ "arboreal", "dinosaur" ],
+  "colonyTags" : [ "arboreal", "dinosaur" ],
   "rarity" : "Common",
   "category" : "decorative",
   "price" : 1000,

@@ -1,6 +1,6 @@
 {
   "objectName" : "crystallite",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "uncommon",
   "category" : "farmable",
   "description" : "Produces dangerous little shards perfect for throwing at things.",

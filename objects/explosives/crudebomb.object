@@ -1,6 +1,6 @@
 {
   "objectName" : "crudebomb",
-  "tags" : ["human","humanbunker","storage"],
+  "colonyTags" : ["human","humanbunker","storage"],
   "rarity" : "Common",
   "category" : "decorative",
   "price" : 55,

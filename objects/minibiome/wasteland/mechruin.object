@@ -1,6 +1,6 @@
 {
   "objectName" : "mechruin",
-  "tags" : [ "wasteland", "combat" ],
+  "colonyTags" : [ "wasteland", "combat" ],
   "rarity" : "Common",
   "category" : "decorative",
   "price" : 2000,

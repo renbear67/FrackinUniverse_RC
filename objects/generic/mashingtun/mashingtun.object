@@ -1,6 +1,6 @@
 {
   "objectName" : "mashingtun",
-  "tags" : [ "crafting", "booze" ],
+  "colonyTags" : [ "crafting", "booze" ],
   "category" : "crafting",
   "rarity" : "Common",
   "description" : "A vat to make mash.",

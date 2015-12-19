@@ -1,6 +1,6 @@
 {
   "objectName" : "wildmintseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "common",
   "category" : "Farmable",
   "description" : "Restores natural energy reserves.",

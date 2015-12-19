@@ -1,6 +1,6 @@
 {
   "objectName" : "labtable",
-  "tags" : ["fu","science","commerce"],
+  "colonyTags" : ["fu","science","commerce"],
   "rarity" : "uncommon",
   "category" : "furniture",
   "price" : 105,

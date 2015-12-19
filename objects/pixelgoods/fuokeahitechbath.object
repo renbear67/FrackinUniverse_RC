@@ -1,6 +1,6 @@
 {
   "objectName" : "fuokeahitechbath",
-  "tags" : [ "science", "hitech" ],
+  "colonyTags" : [ "science", "hitech" ],
   "rarity" : "Common",
   "category" : "furniture",
   "price" : 950,

@@ -1,6 +1,6 @@
 {
   "objectName" : "whitespine",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Common",
   "category" : "farmable",
   "description" : "Completely immune to acid.",

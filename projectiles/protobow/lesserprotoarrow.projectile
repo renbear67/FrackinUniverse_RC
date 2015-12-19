@@ -10,7 +10,7 @@
   "timeToLive" : 3,
   "pointLight" : false,
   "lightColor" : [181, 187, 29],
-  "damageKind" : "testpoison",
+  "damageKind" : "poisonspear",
   "statusEffects" : [ ],
    "actionOnReap" : [
     {

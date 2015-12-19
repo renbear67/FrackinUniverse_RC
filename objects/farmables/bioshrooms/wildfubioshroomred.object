@@ -1,6 +1,6 @@
 {
   "objectName" : "wildfubioshroomred",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Uncommon",
   "category" : "farmable",
   "description" : "Provides colored light.",

@@ -1,6 +1,6 @@
 {
   "objectName" : "fuokeahitechcounter",
-  "tags" : [ "science", "hitech" ],
+  "colonyTags" : [ "science", "hitech" ],
   "retainObjectParametersInItem" : true,
   "category" : "crafting",
   "rarity" : "Common",

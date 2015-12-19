@@ -1,6 +1,6 @@
 {
   "objectName" : "wildbrackentreeseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Common",
   "category" : "farmable",
   "description" : "Bracken provide essential Resin and Silk.",

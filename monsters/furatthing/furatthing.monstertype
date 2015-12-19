@@ -91,7 +91,7 @@
       "damage" : 30,
 
       "teamType" : "enemy",
-      "damageSourceKind" : "testpoison",
+      "damageSourceKind" : "poisonspear",
       "statusEffects" : [ ]
     },
 

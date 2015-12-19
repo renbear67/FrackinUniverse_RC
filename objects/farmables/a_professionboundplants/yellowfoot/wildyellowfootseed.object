@@ -1,6 +1,6 @@
 {
   "objectName" : "wildyellowfootseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "uncommon",
   "category" : "Farmable",
   "description" : "Boosts energy reserves.",

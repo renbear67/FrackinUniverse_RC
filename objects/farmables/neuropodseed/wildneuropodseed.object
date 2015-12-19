@@ -1,6 +1,6 @@
 {
   "objectName" : "wildneuropodseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Rare",
   "category" : "farmable",
   "description" : "Truly a mad-science creation. Extremely potent effects.",

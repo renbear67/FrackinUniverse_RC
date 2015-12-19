@@ -1,6 +1,6 @@
 {
   "objectName" : "arkaentree",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "rare",
   "category" : "farmable",
   "description" : "Sprouts odd, dangerous dimensional darts.",

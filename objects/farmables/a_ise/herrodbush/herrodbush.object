@@ -1,6 +1,6 @@
 {
   "objectName" : "herrodbush",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "rare",
   "category" : "farmable",
   "description" : "Provides substantial defenses.",

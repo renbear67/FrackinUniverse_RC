@@ -1,6 +1,6 @@
 {
   "objectName" : "wildnissseed",
-  "tags" : [ "nature" ],
+  "colonyTags" : [ "nature" ],
   "rarity" : "Uncommon",
   "category" : "farmable",
   "description" : "Terrible taste, but utterly immune to tar, mud and clay.",

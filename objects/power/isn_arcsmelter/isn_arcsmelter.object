@@ -1,7 +1,7 @@
 {
   "objectName" : "isn_arcsmelter",
   "rarity" : "legendary",
-  "tags" : [ "science" ],
+  "colonyTags" : [ "science" ],
   "description" : "An incredibly efficient furnace that requires 12u power.",
   "shortdescription" : "Arc Smelter",
   "race" : "generic",

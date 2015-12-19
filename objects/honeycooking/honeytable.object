@@ -1,6 +1,6 @@
 {
   "objectName" : "honeytable",
-  "tags" : [ "bees" ],
+  "colonyTags" : [ "bees" ],
   "printable" : false,
   "rarity" : "rare",
   "interactAction" : "OpenCraftingInterface",

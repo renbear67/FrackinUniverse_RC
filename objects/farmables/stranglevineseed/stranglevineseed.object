@@ -1,6 +1,6 @@
 {
   "objectName" : "stranglevineseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Common",
   "category" : "farmable",
   "description" : "It's roots lash out when attacked.",

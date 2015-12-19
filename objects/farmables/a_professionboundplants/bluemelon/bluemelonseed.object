@@ -1,6 +1,6 @@
 {
   "objectName" : "bluemelonseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "common",
   "category" : "Farmable",
   "description" : "Both delicious and pretty. Increases vitality.",

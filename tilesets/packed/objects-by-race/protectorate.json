@@ -1,0 +1,264 @@
+{
+  "margin" : 0,
+  "name" : "objects-by-race/protectorate",
+  "properties" : {
+  },
+  "spacing" : 0,
+  "tilecount" : 22,
+  "tileheight" : 8,
+  "tileproperties" : {
+      "0" : {
+          "//description" : "A Protectorate wallbanner from the Protectorate academy.",
+          "//name" : "protectoratewallbanner",
+          "//shortdescription" : "Protectorate Wall Banner",
+          "imagePositionX" : "-24",
+          "imagePositionY" : "-40",
+          "object" : "protectoratewallbanner"
+      },
+      "1" : {
+          "//description" : "A bathroom mirror from the Protectorate academy.",
+          "//name" : "protectoratedormmirror",
+          "//shortdescription" : "Protectorate Bathroom Mirror",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-16",
+          "object" : "protectoratedormmirror"
+      },
+      "10" : {
+          "//description" : "The standard Protectorate Dorm Toilet.",
+          "//name" : "protectoratedormtoilet",
+          "//shortdescription" : "Protectorate Dorm Toilet",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "protectoratedormtoilet",
+          "tilesetDirection" : "right"
+      },
+      "11" : {
+          "//description" : "A bench found in the Protectorate garden. It has a plaque.",
+          "//name" : "protectorategardenbench",
+          "//shortdescription" : "Protectorate Garden Bench",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "0",
+          "object" : "protectorategardenbench",
+          "tilesetDirection" : "right"
+      },
+      "12" : {
+          "//description" : "Protectorate Garden Bushes.",
+          "//name" : "protectorategardentree",
+          "//shortdescription" : "Protectorate Garden Bushes",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "protectorategardentree"
+      },
+      "13" : {
+          "//description" : "Protectorate wind chimes. These can be found in the garden.",
+          "//name" : "protectorategardenwindchimes",
+          "//shortdescription" : "Protectorate Garden Wind Chimes",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-16",
+          "object" : "protectorategardenwindchimes",
+          "tilesetDirection" : "right"
+      },
+      "14" : {
+          "//description" : "A toilet roll holder. Hope it doesn't run out!",
+          "//name" : "protectoratedormtoiletroll",
+          "//shortdescription" : "Protectorate Toilet Roll Holder.",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "protectoratedormtoiletroll"
+      },
+      "15" : {
+          "//description" : "The Protectorate Academy door.",
+          "//name" : "protectoratedoor",
+          "//shortdescription" : "Protectorate Academy Door",
+          "imagePositionX" : "-24",
+          "imagePositionY" : "0",
+          "object" : "protectoratedoor",
+          "tilesetDirection" : "right"
+      },
+      "16" : {
+          "//description" : "A bench found in the Protectorate.",
+          "//name" : "protectoratebench",
+          "//shortdescription" : "Protectorate Bench",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "protectoratebench",
+          "tilesetDirection" : "right"
+      },
+      "17" : {
+          "//description" : "A portrait of a former Grand Protectorate.",
+          "//name" : "protectorateportrait1",
+          "//shortdescription" : "Grand Protectorate Portrait",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "protectorateportrait1"
+      },
+      "18" : {
+          "//description" : "An empty picture frame.",
+          "//name" : "protectorateportrait5",
+          "//shortdescription" : "Empty Protectorate Picture Frame",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "protectorateportrait5"
+      },
+      "19" : {
+          "//description" : "A portrait of a former Grand Protectorate.",
+          "//name" : "protectorateportrait3",
+          "//shortdescription" : "Grand Protectorate Portrait",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "protectorateportrait3"
+      },
+      "2" : {
+          "//description" : "A vendingmachine from the Protectorate Lobby.",
+          "//name" : "protectoratelobbyvending",
+          "//shortdescription" : "Protectorate Lobby Vending Machine",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "0",
+          "object" : "protectoratelobbyvending"
+      },
+      "20" : {
+          "//description" : "A portrait of a former Grand Protectorate.",
+          "//name" : "protectorateportrait2",
+          "//shortdescription" : "Grand Protectorate Portrait",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "protectorateportrait2"
+      },
+      "21" : {
+          "//description" : "A portrait of a former Grand Protectorate.",
+          "//name" : "protectorateportrait4",
+          "//shortdescription" : "Grand Protectorate Portrait",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",
+          "object" : "protectorateportrait4"
+      },
+      "3" : {
+          "//description" : "A table from the Protectorate academy.",
+          "//name" : "protectoratelobbytable",
+          "//shortdescription" : "Protectorate Lobby Table",
+          "imagePositionX" : "-24",
+          "imagePositionY" : "0",
+          "object" : "protectoratelobbytable"
+      },
+      "4" : {
+          "//description" : "A Protectorate locker, containing Protectorate stuff.",
+          "//name" : "protectoratelobbylockers",
+          "//shortdescription" : "Protectorate Locker",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "protectoratelobbylockers"
+      },
+      "5" : {
+          "//description" : "The standard Protectorate student bunk bed.",
+          "//name" : "protectoratedormbed",
+          "//shortdescription" : "Protectorate Bunk Bed.",
+          "imagePositionX" : "-24",
+          "imagePositionY" : "0",
+          "object" : "protectoratedormbed",
+          "tilesetDirection" : "right"
+      },
+      "6" : {
+          "//description" : "Race banners from the Protectorate Academy.",
+          "//name" : "protectoratelobbyracebanners",
+          "//shortdescription" : "Protectorate Race Banners",
+          "imagePositionX" : "-72",
+          "imagePositionY" : "-24",
+          "object" : "protectoratelobbyracebanners"
+      },
+      "7" : {
+          "//description" : "A nice lobby plant.",
+          "//name" : "protectoratelobbyplant",
+          "//shortdescription" : "Protectorate Lobby Plant.",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0",
+          "object" : "protectoratelobbyplant"
+      },
+      "8" : {
+          "//description" : "",
+          "//name" : "protectoratelobbytv",
+          "//shortdescription" : "Lobby TV",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "protectoratelobbytv",
+          "tilesetDirection" : "right"
+      },
+      "9" : {
+          "//description" : "A nice looking chair for cool Protectorate students.",
+          "//name" : "protectoratelobbychair",
+          "//shortdescription" : "Protectorate Lobby Chair",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "0",
+          "object" : "protectoratelobbychair",
+          "tilesetDirection" : "right"
+      }
+  },
+  "tiles" : {
+      "0" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/protectoratewallbanner.png"
+      },
+      "1" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/protectoratedormmirror.png"
+      },
+      "10" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/protectoratedormtoilet.png"
+      },
+      "11" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/protectorategardenbench.png"
+      },
+      "12" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/protectorategardentree.png"
+      },
+      "13" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/protectorategardenwindchimes.png"
+      },
+      "14" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/protectoratedormtoiletroll.png"
+      },
+      "15" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/protectoratedoor.png"
+      },
+      "16" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/protectoratebench.png"
+      },
+      "17" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/protectorateportrait1.png"
+      },
+      "18" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/protectorateportrait5.png"
+      },
+      "19" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/protectorateportrait3.png"
+      },
+      "2" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/protectoratelobbyvending.png"
+      },
+      "20" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/protectorateportrait2.png"
+      },
+      "21" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/protectorateportrait4.png"
+      },
+      "3" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/protectoratelobbytable.png"
+      },
+      "4" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/protectoratelobbylockers.png"
+      },
+      "5" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/protectoratedormbed.png"
+      },
+      "6" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/protectoratelobbyracebanners.png"
+      },
+      "7" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/protectoratelobbyplant.png"
+      },
+      "8" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/protectoratelobbytv.png"
+      },
+      "9" : {
+          "image" : "..\\../../../../tiled\\packed\\objects/protectoratelobbychair.png"
+      }
+  },
+  "tilewidth" : 8
+}

@@ -1,6 +1,6 @@
 {
   "objectName" : "honeyjarrer",
-  "tags" : [ "bees" ],
+  "colonyTags" : [ "bees" ],
   "printable" : false,
   "rarity" : "rare",
   "description" : "Connect it to an Industrial Centrifuge, and add empty jars!",

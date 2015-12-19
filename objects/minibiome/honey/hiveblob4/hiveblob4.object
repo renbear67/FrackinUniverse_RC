@@ -1,6 +1,6 @@
 {
   "objectName" : "hiveblob4",
-  "tags" : [ "hive", "bees", "insects" ],
+  "colonyTags" : [ "hive", "bees", "insects" ],
   "rarity" : "Common",
   "category" : "pot",
   "printable" : false,

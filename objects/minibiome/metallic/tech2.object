@@ -1,6 +1,6 @@
 {
   "objectName" : "tech2",
-  "tags" : [ "fu", "metallic", "precursor" ],
+  "colonyTags" : [ "fu", "metallic", "precursor" ],
   "printable" : false,
   "rarity" : "legendary",
   "objectType" : "container",

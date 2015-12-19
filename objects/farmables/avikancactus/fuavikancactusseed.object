@@ -1,6 +1,6 @@
 {
   "objectName" : "fuavikancactusseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "uncommon",
   "category" : "farmable",
   "description" : "Cacti originating from Kadavan.",

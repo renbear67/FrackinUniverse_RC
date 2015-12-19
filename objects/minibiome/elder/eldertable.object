@@ -1,6 +1,6 @@
 {
   "objectName" : "eldertable",
-  "tags" : [ "elder", "table" ],
+  "colonyTags" : [ "elder", "table" ],
   "printable" : false,
   "rarity" : "Common",
   "description" : "A lovely, insanity-causing table.",

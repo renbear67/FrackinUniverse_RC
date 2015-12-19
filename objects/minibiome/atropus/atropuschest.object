@@ -1,6 +1,6 @@
 {
   "objectName" : "atropuschest",
-  "tags" : [ "atropus", "odd", "evil"],
+  "colonyTags" : [ "atropus", "odd", "evil"],
   "printable" : false,
   "rarity" : "Common",
   "objectType" : "container",

@@ -1,6 +1,6 @@
 {
   "objectName" : "labcomputer",
-  "tags" : ["fu","science","laser"],
+  "colonyTags" : ["fu","science","laser"],
   "rarity" : "uncommon",
   "category" : "decorative",
   "price" : 50,

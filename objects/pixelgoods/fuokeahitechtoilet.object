@@ -1,6 +1,6 @@
 {
   "objectName" : "fuokeahitechtoilet",
-  "tags" : [ "science", "hitech" ],
+  "colonyTags" : [ "science", "hitech" ],
   "rarity" : "Common",
   "retainObjectParametersInItem" : true, 
   "description" : "Auto-flush and self-cleaning",

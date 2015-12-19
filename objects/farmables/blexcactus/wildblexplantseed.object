@@ -1,6 +1,6 @@
 {
   "objectName" : "wildblexplantseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Uncommon",
   "category" : "farmable",
   "description" : "Blex Cactus is known to be energizing.",

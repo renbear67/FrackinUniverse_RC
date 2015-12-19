@@ -1,6 +1,6 @@
 {
   "objectName" : "cellpodsplant",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "rare",
   "category" : "farmable",
   "description" : "Soft to the touch.",

@@ -1,6 +1,6 @@
 {
   "objectName" : "wildblizzberryseed",
-  "tags" : [ "nature" ],
+  "colonyTags" : [ "nature" ],
   "rarity" : "Common",
   "category" : "farmable",
   "description" : "Immune to even the most extreme cold.",

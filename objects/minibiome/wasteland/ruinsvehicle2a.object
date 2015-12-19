@@ -1,6 +1,6 @@
 {
   "objectName" : "ruinsvehicle2a",
-  "tags" : [ "wasteland", "vehicle" ],
+  "colonyTags" : [ "wasteland", "vehicle" ],
   "rarity" : "Common",
   "category" : "decorative",
   "price" : 1000,

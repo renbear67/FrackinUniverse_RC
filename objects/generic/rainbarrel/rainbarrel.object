@@ -1,6 +1,6 @@
 {
   "objectName" : "rainbarrel",
-  "tags" : [ "crafting", "booze" ],
+  "colonyTags" : [ "crafting", "booze" ],
   "printable" : false,
   "rarity" : "Common",
   "description" : "A barrel to collect rainwater!",

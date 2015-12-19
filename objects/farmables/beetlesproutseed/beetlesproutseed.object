@@ -1,6 +1,6 @@
 {
   "objectName" : "beetlesproutseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "Uncommon",
   "category" : "farmable",
   "description" : "A strange insect-jelly plant. Very tough.",

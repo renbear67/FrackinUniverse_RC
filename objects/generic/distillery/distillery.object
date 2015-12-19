@@ -1,6 +1,6 @@
 {
   "objectName" : "distillery",
-  "tags" : [ "crafting", "booze" ],
+  "colonyTags" : [ "crafting", "booze" ],
   "category" : "crafting",
   "rarity" : "Common",
   "description" : "A machine that allows distillation of alcohol!",

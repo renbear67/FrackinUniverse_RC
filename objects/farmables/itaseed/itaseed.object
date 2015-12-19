@@ -1,6 +1,6 @@
 {
   "objectName" : "itaseed",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "rare",
   "category" : "farmable",
   "description" : "A unique strain of Lotus, full of potent antitoxins.",

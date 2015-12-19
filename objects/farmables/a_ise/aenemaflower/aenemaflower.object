@@ -1,6 +1,6 @@
 {
   "objectName" : "aenemaflower",
-    "tags" : [ "nature" ],
+    "colonyTags" : [ "nature" ],
   "rarity" : "uncommon",
   "category" : "farmable",
   "description" : "The buds on this plant produce shadow gas and are hot to the touch.",

@@ -1,6 +1,6 @@
 {
   "objectName" : "rainforestchest",
-  "tags" : [ "fu", "storage" ],
+  "colonyTags" : [ "fu", "storage" ],
   "printable" : false,
   "rarity" : "Common",
   "objectType" : "container",
