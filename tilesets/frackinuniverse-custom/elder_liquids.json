@@ -1,0 +1,27 @@
+{
+  "margin" : 0,
+  "name" : "liquids",
+  "properties" : { },
+  "spacing" : 0,
+  "tilecount" : 2,
+  "tileheight" : 8,
+  "tileproperties" : {
+      "0" : {
+          "//name" : "sulphuricacid",
+          "liquid" : "sulphuricacid"
+      },
+      "1" : {
+          "//name" : "sulphuricacid_source",
+          "liquid" : "sulphuricacid_source"
+      }
+  },
+  "tiles" : {
+      "0" : {
+          "image" : ".\\../../../../tiled\\frackinuniverse-custom\\liquids/sulphuricacid.png"
+      },
+      "1" : {
+          "image" : ".\\../../../../tiled\\frackinuniverse-custom\\liquids/sulphuricacid_source.png"
+      }
+  },
+  "tilewidth" : 8
+}
