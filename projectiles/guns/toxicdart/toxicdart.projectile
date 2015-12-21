@@ -18,7 +18,7 @@
     }
   ],
   "statusEffects" : [
-    "damageflash", "biooozepoisonshort"
+    "biooozepoisonshort"
   ],
   "lightColor" : [67, 110, 32],
   "damageKind" : "poisonplasma"
