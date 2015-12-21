@@ -21,7 +21,7 @@
   "projectileType" : "blueboltsmall",
   "projectile" : { "speed" : 65, "power" : 1.6 , "color" : [70, 0, 120] },
   "muzzleEffect" : {
-       "fireSound" : [ { "file" : "/sfx/gun/plasma_mp7.ogg" } ],
+       "fireSound" : [ { "file" : "/sfx/gun/plasma_mp3.ogg" } ],
        "animation" :  "/animations/muzzleflash/plasmamuzzle3blue/plasmamuzzle3blue.animation"
 	   }   
 }

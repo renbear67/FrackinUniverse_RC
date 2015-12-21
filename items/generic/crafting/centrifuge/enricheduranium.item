@@ -4,6 +4,6 @@
   "inventoryIcon" : "enricheduranium.png",
   "description" : "An improved form of uranium.",
   "shortdescription" : "^#88e25b;Enriched Uranium Rod^white;",
-  "fuelAmount" : 6,
+  "fuelAmount" : 50,
   "learnBlueprintsOnPickup" : [ "chargesmg", "chargemachinegun" ]
 }

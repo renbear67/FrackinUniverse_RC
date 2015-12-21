@@ -5,6 +5,41 @@
  "spacing":0,
  "tilecount":11,
  "tileheight":8,
+  "tileproperties" : {
+      "0" : {
+          "material" : "elderblock1"
+      },
+      "1" : {
+          "material" : "elderblock2"
+      },
+      "2" : {
+          "material" : "elderplatform"
+      },  
+      "3" : {
+          "material" : "elderstone"
+      }, 
+      "4" : {
+          "material" : "elderstone2"
+      }, 
+      "5" : {
+          "material" : "eldertile"
+      }, 
+      "6" : {
+          "material" : "iceblock1"
+      },  
+      "7" : {
+          "material" : "iceblock2"
+      },    
+      "8" : {
+          "material" : "iceblock3"
+      }, 
+      "9" : {
+          "material" : "iceblock4"
+      },   
+      "10" : {
+          "material" : "protorock"
+      }     
+ }, 
  "tiles":
     {
      "0":

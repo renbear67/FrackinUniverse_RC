@@ -5,6 +5,142 @@
  "spacing":0,
  "tilecount":44,
  "tileheight":279,
+  "tileproperties" : {
+      "0" : {
+          "object" : "cycpillar1"
+      },
+      "1" : {
+          "object" : "cycpillar2"
+      },
+      "2" : {
+          "object" : "cycpillar3"
+      },
+      "3" : {
+          "object" : "cycpillar4"
+      },
+      "4" : {
+          "object" : "cycpillar5"
+      },
+      "5" : {
+          "object" : "cycpillar6"
+      }, 
+      "6" : {
+          "object" : "cyctorch"
+      },
+      "7" : {
+          "object" : "elderaltar"
+      },
+      "8" : {
+          "object" : "elderbed"
+      },
+      "9" : {
+          "object" : "elderbookcase"
+      },
+      "10" : {
+          "object" : "eldercabinet"
+      },
+      "11" : {
+          "object" : "eldercarving1"
+      },  
+      "12" : {
+          "object" : "eldercarving2"
+      },
+      "13" : {
+          "object" : "eldercarving3"
+      },
+      "14" : {
+          "object" : "eldercarving4"
+      },
+      "15" : {
+          "object" : "eldercarving5"
+      },
+      "16" : {
+          "object" : "eldercarving6"
+      },
+      "17" : {
+          "object" : "elderchair"
+      }, 
+      "18" : {
+          "object" : "elderchest"
+      },
+      "19" : {
+          "object" : "elderchest2"
+      },
+      "20" : {
+          "object" : "elderidol"
+      },
+      "21" : {
+          "object" : "elderido2"
+      },
+      "22" : {
+          "object" : "elderidol3"
+      },
+      "23" : {
+          "object" : "elderpedestal"
+      },   
+      
+      "24" : {
+          "object" : "elderpillar1"
+      },
+      "25" : {
+          "object" : "elderpillar2"
+      },
+      "26" : {
+          "object" : "elderpillar3"
+      },
+      "27" : {
+          "object" : "elderslidingdoor"
+      },
+      "28" : {
+          "object" : "elderstatue"
+      }, 
+      "29" : {
+          "object" : "eldertable"
+      },
+      "30" : {
+          "object" : "elderthingstatue"
+      },
+      "31" : {
+          "object" : "elderthingstatue2"
+      },
+      "32" : {
+          "object" : "elderurn1"
+      },
+      "33" : {
+          "object" : "elderurn2"
+      },
+      "34" : {
+          "object" : "elderurn3"
+      },  
+      "35" : {
+          "object" : "monolith1"
+      },
+      "36" : {
+          "object" : "monolith2"
+      },
+      "37" : {
+          "object" : "monolith3"
+      },
+      "38" : {
+          "object" : "monolith4"
+      },
+      "39" : {
+          "object" : "mysteriousmachine1"
+      },
+      "40" : {
+          "object" : "plynth1"
+      }, 
+      "41" : {
+          "object" : "plynth2"
+      },
+      "42" : {
+          "object" : "strangedevice1"
+      },
+      "43" : {
+          "object" : "tentaclestatue"
+      }
+    },
+      
  "tiles":
     {
      "0":
