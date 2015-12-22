@@ -3,7 +3,7 @@
  "properties":
     {},
  "spacing":0,
- "tilecount":44,
+ "tilecount":53,
  "tileheight":279,
   "tileproperties" : {
       "0" : {
@@ -138,6 +138,33 @@
       },
       "43" : {
           "object" : "tentaclestatue"
+      },
+      "44" : {
+          "object" : "elderblood1"
+      },
+      "45" : {
+          "object" : "elderblood2"
+      },
+      "46" : {
+          "object" : "elderblood3"
+      },
+      "47" : {
+          "object" : "elderblood4"
+      },
+      "48" : {
+          "object" : "elderblood5"
+      },
+      "49" : {
+          "object" : "elderleggore"
+      },
+      "50" : {
+          "object" : "elderskullgore"
+      },
+      "51" : {
+          "object" : "elderblood6"
+      },
+      "52" : {
+          "object" : "elderblood7"
       }
     },
       
@@ -298,6 +325,42 @@
      "43":
         {
          "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/tentaclestatue.png"
+        },
+     "44":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/elderblood1.png"
+        },
+     "45":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/elderblood2.png"
+        },
+     "46":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/elderblood3.png"
+        },
+     "47":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/elderblood4.png"
+        },
+     "48":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/elderblood5.png"
+        },
+     "49":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/elderleggore.png"
+        },
+     "50":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/elderskullgore.png"
+        },
+     "51":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/elderblood6.png"
+        },
+     "52":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/elderblood7.png"
         },
      "5":
         {

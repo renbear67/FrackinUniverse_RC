@@ -8,5 +8,5 @@
     "item" : "prototyper",
     "count" : 1
   },
-  "groups" : [ "craftingtable", "prototyper", "objects", "all", "tools" ]
+  "groups" : [ "craftingtable", "prototyper", "metalworkstation", "objects", "all", "tools" ]
 }
