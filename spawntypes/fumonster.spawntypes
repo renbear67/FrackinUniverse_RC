@@ -601,6 +601,22 @@
     }
   },  
    {
+    "name" : "fuheadcrab",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "groupSize" : [1, 3],
+    "targetDensity" : 0.04,
+    "monsterType" : "headcrab",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },  
+   {
     "name" : "headcrab",
 
     "spawnParameters" : {
