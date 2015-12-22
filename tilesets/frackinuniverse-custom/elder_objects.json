@@ -3,7 +3,7 @@
  "properties":
     {},
  "spacing":0,
- "tilecount":53,
+ "tilecount":57,
  "tileheight":279,
   "tileproperties" : {
       "0" : {
@@ -78,7 +78,6 @@
       "23" : {
           "object" : "elderpedestal"
       },   
-      
       "24" : {
           "object" : "elderpillar1"
       },
@@ -165,6 +164,18 @@
       },
       "52" : {
           "object" : "elderblood7"
+      },
+      "53" : {
+          "object" : "elderbloodychunks"
+      },
+      "54" : {
+          "object" : "elderblood8"
+      },
+      "55" : {
+          "object" : "elderblood9"
+      },
+      "56" : {
+          "object" : "elderblood10"
       }
     },
       
@@ -361,6 +372,22 @@
      "52":
         {
          "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/elderblood7.png"
+        },
+     "53":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/elderbloodychunks.png"
+        },
+     "54":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/elderblood8.png"
+        },
+     "55":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/elderblood9.png"
+        },
+     "56":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/elderblood10.png"
         },
      "5":
         {
