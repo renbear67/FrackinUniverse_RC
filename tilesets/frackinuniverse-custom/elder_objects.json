@@ -3,7 +3,7 @@
  "properties":
     {},
  "spacing":0,
- "tilecount":57,
+ "tilecount":58,
  "tileheight":279,
   "tileproperties" : {
       "0" : {
@@ -176,6 +176,9 @@
       },
       "56" : {
           "object" : "elderblood10"
+      },
+      "57" : {
+          "object" : "wagner"
       }
     },
       
@@ -388,6 +391,10 @@
      "56":
         {
          "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/elderblood10.png"
+        },
+     "57":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/wagner.png"
         },
      "5":
         {
