@@ -76,7 +76,7 @@
 
       "teamType" : "enemy",
       "damageSourceKind" : "default",
-      "statusEffects" : [ ]
+      "statusEffects" : [ "percentarmorboostneg2" ]
     },
 
     "statusSettings" : {

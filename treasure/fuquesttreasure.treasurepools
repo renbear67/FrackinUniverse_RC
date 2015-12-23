@@ -1,0 +1,17 @@
+{
+
+  "wagner1Treasure" : [
+    [1, {
+      "fill" : [
+        {"weight" : 1.0, "item" : ["wagner1", 1]}
+      ]
+    }]
+  ],
+  "wagner2Treasure" : [
+    [1, {
+      "fill" : [
+        {"weight" : 1.0, "item" : ["wagner2", 1]}
+      ]
+    }]
+  ]
+}
