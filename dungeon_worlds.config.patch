@@ -25,7 +25,7 @@
       "dungeonBaseHeight" : 1400,
       "dungeonSurfaceHeight" : 1209,
       "ambientLightLevel":[15,10,25],
-      "biome" : "icewaste",
+      "biome" : "shoggothbiome",
       "musicTrack" : "/sfx/ambiance/shoggoth.ogg"
       }
 },
@@ -41,7 +41,7 @@
       "dungeonBaseHeight" : 1400,
       "dungeonSurfaceHeight" : 1209,
       "ambientLightLevel":[15,10,25],
-      "biome" : "icewaste",
+      "biome" : "shoggothbiome",
       "musicTrack" : "/sfx/ambiance/shoggoth.ogg"
       }
 }

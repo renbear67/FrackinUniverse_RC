@@ -1000,6 +1000,51 @@
    }, 
    
     {"op" : "add", 
+    "path" : "/planetTypes/shoggothbiome",
+    "value" : 
+      {
+      "threatRange" : [4, 7],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "icewastedark" ],
+          "secondaryRegion" : [ "prism", "crystaldesert", "crystalswamp","supermatterzone", "elder", "ice", "snow", "icefire" ],
+          //"dungeonCountRange" : [0, 2],
+          "dungeons" : [ "elderruins", "crystalcavern", "fuwreck", "wreck", "apexresearchlab"]
+        },
+        "subsurface" : {
+          "primaryRegion" : [ "atropusunderground" ]
+        },
+         "underground1" : {
+         "primaryRegion" : [ "atropusunderground" ],
+          "secondaryRegion" : [ "ffcrystalrealm", "crystalcave", "ffsupermatter", "icecaves", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
+        },
+        "underground2" : {
+        "primaryRegion" : [ "atropusunderground" ],
+          "secondaryRegion" : [ "ffcrystalrealm", "crystalcave", "ffsupermatter", "icecaves", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
+        },
+        "underground3" : {
+        "primaryRegion" : [ "atropusunderground" ],
+          "secondaryRegion" : [ "ffcrystalrealm", "crystalcave", "ffsupermatter", "icecaves", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
+        },
+        "underground4" : {
+        "primaryRegion" : [ "atropusunderground" ],
+          "secondaryRegion" : [ "ffcrystalrealm", "crystalcave", "ffsupermatter", "icecaves", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
+        },
+        "underground5" : {
+        "primaryRegion" : [ "atropusunderground" ],
+          "secondaryRegion" : [ "ffcrystalrealm", "crystalcave", "ffsupermatter", "icecaves", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
+        },
+        "underground6" : {
+        "primaryRegion" : [ "atropusunderground" ],
+          "secondaryRegion" : [ "ffcrystalrealm", "crystalcave", "ffsupermatter", "icecaves", "fffrostcavern", "ffcrystalcavern", "ffcoralcave" ]
+        },
+        "core" : {
+          "primaryRegion" : [ "nitrogencore" ]
+        }
+        }
+      }
+   },   
+    {"op" : "add", 
     "path" : "/planetTypes/icewaste",
     "value" : 
       {
@@ -2156,7 +2201,20 @@
       ]
     }
   },
-  
+  {"op" : "add", 
+  "path" : "/regionTypes/shoggothbiome",
+  "value" : 
+  {
+      "caveLiquid" : [ "liquidnitrogen" ],
+      "caveLiquidChanceRange" : [55, 80],
+      "blockSelector" : [ "remixedMountainsSurface", "remixedCanyonsSurface", "remixedMildCanyonsSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves", "denseCaves" ],
+      "bgOreSelector" : [ "denseVeins" ],       
+      "biome" : [
+        [0, [ "icewastedark" ]]
+      ]
+    }
+  },  
   {"op" : "add", 
   "path" : "/regionTypes/icewaste",
   "value" : 
