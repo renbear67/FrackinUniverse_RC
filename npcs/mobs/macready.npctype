@@ -1,0 +1,21 @@
+{
+  "type" : "macready",
+  "baseType" : "hostile",
+
+  "levelVariance" : [0, 0],
+
+  "dropPools" : [ "ffbanditTreasure", "macreadyTreasure" ],
+  
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "brainslug" } ],
+            "chest" : [ { "name" : "fieldscientistchest" } ],
+            "legs" : [ { "name" : "fieldscientistlegs" } ],
+            "primary" : [ "fuenergymachinegun" ]
+          }
+      ] ]
+    ]
+  }
+}

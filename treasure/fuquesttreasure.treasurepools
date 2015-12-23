@@ -1,5 +1,11 @@
 {
-
+  "macreadyTreasure" : [
+    [1, {
+      "fill" : [
+        {"weight" : 1.0, "item" : ["elder_research2", 1]}
+      ]
+    }]
+  ],
   "wagner1Treasure" : [
     [1, {
       "fill" : [

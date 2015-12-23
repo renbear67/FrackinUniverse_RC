@@ -4,10 +4,7 @@ function init()
   self.tickTime = 5.0
   self.tickTimer = self.tickTime
   activateVisualEffects()
-  self.timers = {}
-  for i = 1, 4 do
-    self.timers[i] = math.random() * 2 * math.pi
-  end  
+  self.timers = {} 
   _x = effect.configParameter("defenseModifier", 0)
   baseValue = effect.configParameter("defenseModifier",0)*(status.stat("protection"))
   effect.addStatModifierGroup({{stat = "protection", amount = baseValue }})
@@ -30,13 +27,6 @@ function update(dt)
         damageSourceKind = "poison",
         sourceEntityId = entity.id()
       })
-  end
-  for i = 1, 4 do
-    self.timers[i] = self.timers[i] + dt
-    if self.timers[i] > (2 * math.pi) then self.timers[i] = self.timers[i] - 2 * math.pi end
-
-    local lightAngle = math.cos(self.timers[i]) * 120 + (i * 90)
-    animator.setLightPointAngle("light"..i, lightAngle)
   end
 end
 
