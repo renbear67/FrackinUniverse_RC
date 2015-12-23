@@ -5836,8 +5836,8 @@
                  "type":"",
                  "visible":true,
                  "width":58,
-                 "x":7472,
-                 "y":4136
+                 "x":7464,
+                 "y":4152
                 }, 
                 {
                  "gid":362,
@@ -5852,40 +5852,8 @@
                  "type":"",
                  "visible":true,
                  "width":58,
-                 "x":7408,
-                 "y":4136
-                }, 
-                {
-                 "gid":362,
-                 "height":16,
-                 "id":3020,
-                 "name":"",
-                 "properties":
-                    {
-
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":58,
-                 "x":7344,
-                 "y":4136
-                }, 
-                {
-                 "gid":362,
-                 "height":16,
-                 "id":3021,
-                 "name":"",
-                 "properties":
-                    {
-
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":58,
-                 "x":7280,
-                 "y":4136
+                 "x":7360,
+                 "y":4176
                 }, 
                 {
                  "gid":362,
@@ -5900,8 +5868,8 @@
                  "type":"",
                  "visible":true,
                  "width":58,
-                 "x":7216,
-                 "y":4136
+                 "x":7232,
+                 "y":4152
                 }, 
                 {
                  "gid":4372,
@@ -6510,6 +6478,244 @@
                  "width":20,
                  "x":1448,
                  "y":4512
+                }, 
+                {
+                 "height":8,
+                 "id":3164,
+                 "name":"",
+                 "properties":
+                    {
+                     "monster":"deepone",
+                     "parameters":"{ \"level\" : 6, \"aggressive\" : true }",
+                     "seed":"stable"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":5992,
+                 "y":4496
+                }, 
+                {
+                 "height":8,
+                 "id":3165,
+                 "name":"",
+                 "properties":
+                    {
+                     "monster":"deepone",
+                     "parameters":"{ \"level\" : 6, \"aggressive\" : true }",
+                     "seed":"stable"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":5776,
+                 "y":4480
+                }, 
+                {
+                 "height":8,
+                 "id":3166,
+                 "name":"",
+                 "properties":
+                    {
+                     "monster":"deepone",
+                     "parameters":"{ \"level\" : 6, \"aggressive\" : true }",
+                     "seed":"stable"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":5512,
+                 "y":4464
+                }, 
+                {
+                 "height":8,
+                 "id":3167,
+                 "name":"",
+                 "properties":
+                    {
+                     "monster":"fleshreaper",
+                     "parameters":"{ \"level\" : 6, \"aggressive\" : true }",
+                     "seed":"stable"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":5160,
+                 "y":4416
+                }, 
+                {
+                 "height":8,
+                 "id":3168,
+                 "name":"",
+                 "properties":
+                    {
+                     "monster":"fleshreaper2",
+                     "parameters":"{ \"level\" : 6, \"aggressive\" : true }",
+                     "seed":"stable"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":4216,
+                 "y":4432
+                }, 
+                {
+                 "height":8,
+                 "id":3169,
+                 "name":"",
+                 "properties":
+                    {
+                     "monster":"fleshreaper3",
+                     "parameters":"{ \"level\" : 6, \"aggressive\" : true }",
+                     "seed":"stable"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":4648,
+                 "y":4376
+                }, 
+                {
+                 "height":8,
+                 "id":3170,
+                 "name":"",
+                 "properties":
+                    {
+                     "monster":"starspawn",
+                     "parameters":"{ \"level\" : 6, \"aggressive\" : true }",
+                     "seed":"stable"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":4616,
+                 "y":4448
+                }, 
+                {
+                 "height":8,
+                 "id":3171,
+                 "name":"",
+                 "properties":
+                    {
+                     "monster":"starspawn",
+                     "parameters":"{ \"level\" : 6, \"aggressive\" : true }",
+                     "seed":"stable"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":3920,
+                 "y":4456
+                }, 
+                {
+                 "height":8,
+                 "id":3172,
+                 "name":"",
+                 "properties":
+                    {
+                     "monster":"starspawn",
+                     "parameters":"{ \"level\" : 6, \"aggressive\" : true }",
+                     "seed":"stable"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":3552,
+                 "y":4448
+                }, 
+                {
+                 "height":8,
+                 "id":3173,
+                 "name":"",
+                 "properties":
+                    {
+                     "monster":"starspawn",
+                     "parameters":"{ \"level\" : 6, \"aggressive\" : true }",
+                     "seed":"stable"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":3176,
+                 "y":4424
+                }, 
+                {
+                 "height":8,
+                 "id":3174,
+                 "name":"",
+                 "properties":
+                    {
+                     "monster":"starspawn",
+                     "parameters":"{ \"level\" : 6, \"aggressive\" : true }",
+                     "seed":"stable"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":2736,
+                 "y":4416
+                }, 
+                {
+                 "height":8,
+                 "id":3175,
+                 "name":"",
+                 "properties":
+                    {
+                     "monster":"starspawn",
+                     "parameters":"{ \"level\" : 6, \"aggressive\" : true }",
+                     "seed":"stable"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":1920,
+                 "y":4424
+                }, 
+                {
+                 "height":8,
+                 "id":3176,
+                 "name":"",
+                 "properties":
+                    {
+                     "monster":"fleshreaper2",
+                     "parameters":"{ \"level\" : 6, \"aggressive\" : true }",
+                     "seed":"stable"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":1864,
+                 "y":4368
+                }, 
+                {
+                 "height":8,
+                 "id":3177,
+                 "name":"",
+                 "properties":
+                    {
+                     "monster":"shadowtop",
+                     "parameters":"{ \"level\" : 6, \"aggressive\" : true }",
+                     "seed":"stable"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":24,
+                 "x":1688,
+                 "y":4472
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -9158,102 +9364,6 @@
                 }, 
                 {
                  "height":0,
-                 "id":3026,
-                 "name":"",
-                 "polyline":[
-                        {
-                         "x":0,
-                         "y":0
-                        }, 
-                        {
-                         "x":1168,
-                         "y":984
-                        }],
-                 "properties":
-                    {
-
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":0,
-                 "x":6056,
-                 "y":3136
-                }, 
-                {
-                 "height":0,
-                 "id":3027,
-                 "name":"",
-                 "polyline":[
-                        {
-                         "x":0,
-                         "y":0
-                        }, 
-                        {
-                         "x":-256,
-                         "y":256
-                        }],
-                 "properties":
-                    {
-
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":0,
-                 "x":7544,
-                 "y":3864
-                }, 
-                {
-                 "height":0,
-                 "id":3028,
-                 "name":"",
-                 "polyline":[
-                        {
-                         "x":0,
-                         "y":0
-                        }, 
-                        {
-                         "x":624,
-                         "y":2016
-                        }],
-                 "properties":
-                    {
-
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":0,
-                 "x":6728,
-                 "y":2104
-                }, 
-                {
-                 "height":0,
-                 "id":3029,
-                 "name":"",
-                 "polyline":[
-                        {
-                         "x":0,
-                         "y":0
-                        }, 
-                        {
-                         "x":-592,
-                         "y":3048
-                        }],
-                 "properties":
-                    {
-
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":0,
-                 "x":8008,
-                 "y":1072
-                }, 
-                {
-                 "height":0,
                  "id":3034,
                  "name":"",
                  "polyline":[
@@ -10482,7 +10592,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":3163,
+ "nextobjectid":3178,
  "orientation":"orthogonal",
  "properties":
     {
