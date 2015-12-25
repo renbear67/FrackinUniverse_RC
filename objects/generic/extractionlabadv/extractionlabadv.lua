@@ -820,7 +820,8 @@ local recipes =
 {inputs = { solarishard=20 }, outputs = { crystal=1 }, time = 1.6},
 {inputs = { solaricrystal=1 }, outputs = { solarishard=4 }, time = 0.65},
 {inputs = { matteritem=50 }, outputs = { unstableparticles=1 }, time = 1.65},
-{inputs = { zerchesiumore=4 }, outputs = { fu_carbon=4 }, time = 1.65}
+{inputs = { zerchesiumore=4 }, outputs = { fu_carbon=4 }, time = 1.65},
+{inputs = { rawminerals=4 }, outputs = { lead=1 }, time = 0.65}
 }
 
 function init(args)

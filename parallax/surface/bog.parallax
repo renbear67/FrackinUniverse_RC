@@ -38,7 +38,7 @@
       "nightCorrelation" : 0,
       "minSpeed" : 0,
       "maxSpeed" : 0,
-      "modifiers" : ""
+      "modifiers" : "?brightness=20?saturation=-10"
     },
     {
       "kind" : "bognewmid2",
@@ -48,7 +48,7 @@
       "nightCorrelation" : 0,
       "minSpeed" : 0,
       "maxSpeed" : 0,
-      "modifiers" : ""
+      "modifiers" : "?brightness=30?saturation=-10"
     },
     {
       "kind" : "bognewfront",
@@ -58,7 +58,7 @@
       "nightCorrelation" : 0,
       "minSpeed" : 0,
       "maxSpeed" : 0,
-      "modifiers" : ""
+      "modifiers" : "?brightness=50?saturation=-10"
     },
 
     {
@@ -69,7 +69,7 @@
       "nightCorrelation" : 0,
       "minSpeed" : 0,
       "maxSpeed" : 0,
-      "modifiers" : ""
+      "modifiers" : "?brightness=60"
     },
     {
       "kind" : "bogplantlayer2",
@@ -79,7 +79,7 @@
       "nightCorrelation" : 0,
       "minSpeed" : 0,
       "maxSpeed" : 0,
-      "modifiers" : ""
+      "modifiers" : "?brightness=80"
     },
     {
       "kind" : "bogplantlayer3",

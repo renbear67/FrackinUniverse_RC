@@ -179,7 +179,8 @@
     "subBlocks" : [ "biostone", "bioblock", "biogravel" ],
     "ores" : "ff_surfaceprotoOres",
 
-  "parallax" : "/parallax/surface/protoworld.parallax",
+  //"parallax" : "/parallax/surface/protoworld.parallax",
+  "parallax" : "/parallax/surface/jungle.parallax",
 
   "ambientNoises" : {
     "day" : {

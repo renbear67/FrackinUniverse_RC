@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "slimematerial", "count" : 1 },
+    { "item" : "slime", "count" : 1 },
     { "item" : "steelbar", "count" : 1 },
     { "item" : "ff_silicon", "count" : 5 }
   ],

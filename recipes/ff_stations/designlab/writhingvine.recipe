@@ -3,7 +3,7 @@
     { "item" : "stranglevineseed", "count" : 3 },
     { "item" : "gene_reactive", "count" : 14 },
     { "item" : "gene_resist", "count" : 4 },
-    { "item" : "gene_void", "count" : 2 },
+    { "item" : "gene_void", "count" : 4 },
     { "item" : "agaranichor", "count" : 3 }
   ],
   "output" : {

@@ -1,6 +1,7 @@
 {
   "input" : [
     { "item" : "currentcornseed", "count" : 3 },
+    { "item" : "mineralsample", "count" : 3 },
     { "item" : "gene_energy", "count" : 3 },
     { "item" : "gene_regen", "count" : 1 },
     { "item" : "gene_electric", "count" : 2 }

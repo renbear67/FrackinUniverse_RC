@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "corefragmentore", "count" : 12 },
+    { "item" : "rawminerals", "count" : 30 },
     { "item" : "densealloy", "count" : 4 },
     { "item" : "scorchedcore", "count" : 12 },
     { "item" : "obsidianshard", "count" : 20 }

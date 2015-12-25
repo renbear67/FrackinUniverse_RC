@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "magmawall3", "count" : 10 },
     { "item" : "magmawall2", "count" : 10 },
-    { "item" : "ff_resin", "count" : 6 }
+    { "item" : "rawminerals", "count" : 6 }
   ],
   "output" : {
     "item" : "magmatable",
