@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "densiniumbar", "count" : 2 },
     { "item" : "graphene", "count" : 2 },
-    { "item" : "lead", "count" : 4 }
+    { "item" : "lead", "count" : 2 }
   ],
   "output" : {
     "item" : "densiniumplate",

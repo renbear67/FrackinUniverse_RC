@@ -93,8 +93,11 @@ function isn_slotDecayCheck(slot, chance)
 end
 
 function isn_doSlotDecay(slot)
+        if math.random(1,4) <= 1 then
 	world.containerConsumeAt(entity.id(),slot,1)
+	end
 	local waste = world.containerItemAt(entity.id(),5)
+	
 	if waste ~= nil then
 		if waste.name ~= "toxicwaste" then
 			storage.radiation = storage.radiation + 5

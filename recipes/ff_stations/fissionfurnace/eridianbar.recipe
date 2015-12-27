@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "eridianore", "count" : 3 }
+    { "item" : "eridianore", "count" : 2 }
   ],
   "output" : {
     "item" : "eridianbar",

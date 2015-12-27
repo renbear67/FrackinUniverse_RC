@@ -3,7 +3,7 @@
     { "item" : "densiniumbar", "count" : 4 },
     { "item" : "corefragmentore", "count" : 3 },
     { "item" : "refinedrubium", "count" : 4 },
-    { "item" : "lunaricrystal", "count" : 2 }
+    { "item" : "solari", "count" : 2 }
   ],
   "output" : {
     "item" : "fujunkerpants",

@@ -1699,15 +1699,6 @@
             {"weight" : 0.5, "item" : "frozenMoons"},
             {"weight" : 0.05, "item" : "Moon"}
           ]
-        },
-        {
-          "regionName" : "Moon",
-          "orbitRange" : [12, 12],
-          "bodyProbability" : 1.0,
-          "planetaryTypes" : [
-            {"weight" : 1.0, "item" : "Moon"}
-          ],
-          "satelliteTypes" : []
         }
       ]
     }
@@ -1846,15 +1837,6 @@
             {"weight" : 0.5, "item" : "frozenMoons"},
             {"weight" : 0.05, "item" : "Moon"}
           ]
-        },
-        {
-          "regionName" : "Moon",
-          "orbitRange" : [12, 12],
-          "bodyProbability" : 1.0,
-          "planetaryTypes" : [
-            {"weight" : 1.0, "item" : "Moon"}
-          ],
-          "satelliteTypes" : []
         }
       ]
     }
@@ -1990,15 +1972,6 @@
             {"weight" : 0.5, "item" : "coldMoons"},
             {"weight" : 0.12, "item" : "Moon"}
           ]
-        },
-        {
-          "regionName" : "Moon",
-          "orbitRange" : [11, 11],
-          "bodyProbability" : 1.0,
-          "planetaryTypes" : [
-            {"weight" : 1.0, "item" : "Moon"}
-          ],
-          "satelliteTypes" : []
         }
       ]
     }
@@ -2060,15 +2033,6 @@
           "satelliteTypes" : [
             {"weight" : 0.7, "item" : "lightlessMoons"}
           ]
-        },
-        {
-          "regionName" : "Moon",
-          "orbitRange" : [11, 11],
-          "bodyProbability" : 1.0,
-          "planetaryTypes" : [
-            {"weight" : 0.7, "item" : "lightlessMoons"}
-          ],
-          "satelliteTypes" : []
         }
       ]
     }
@@ -2197,15 +2161,6 @@
             {"weight" : 0.5, "item" : "coldMoons"},
             {"weight" : 0.1, "item" : "Moon"}
           ]
-        },
-        {
-          "regionName" : "Moon",
-          "orbitRange" : [11, 11],
-          "bodyProbability" : 1.0,
-          "planetaryTypes" : [
-            {"weight" : 1.0, "item" : "Moon"}
-          ],
-          "satelliteTypes" : []
         }
       ]
     }

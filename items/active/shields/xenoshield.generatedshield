@@ -1,0 +1,52 @@
+{
+  "name" : "xenoshield",
+  "kind" : "xeno",
+
+  "rarity" : "rare",
+  "palette" : [
+    /* Black */
+    { "ffca8a" : "727272", "e0975c" : "414141", "a85636" : "1c1c1c", "6f2919" : "060606" },
+    /* White */
+    { "ffca8a" : "e9e9e9", "e0975c" : "727272", "a85636" : "333333", "6f2919" : "161616" },
+    /* Red */
+    { "ffca8a" : "e6a49e", "e0975c" : "ac3b37", "a85636" : "521010", "6f2919" : "200407" },
+    /* Orange */
+    { "ffca8a" : "f3cea2", "e0975c" : "cf7d2c", "a85636" : "773611", "6f2919" : "221004" },
+    /* Yellow */
+    { "ffca8a" : "f8f6da", "e0975c" : "d3be46", "a85636" : "745d16", "6f2919" : "1e1705" },
+    /* Green */
+    { "ffca8a" : "bbe69d", "e0975c" : "5ba73c", "a85636" : "1d4e0f", "6f2919" : "051403" },
+    /* Blue */
+    { "ffca8a" : "99bee5", "e0975c" : "3e65b7", "a85636" : "151f5f", "6f2919" : "040619" },
+    /* Purple */
+    { "ffca8a" : "d29be8", "e0975c" : "933eb4", "a85636" : "47145b", "6f2919" : "0e0314" },
+    /* Magenta */
+    { "ffca8a" : "edb8ee", "e0975c" : "c94ac7", "a85636" : "6f1768", "6f2919" : "1e051c" },
+    /* Brown */
+    { "ffca8a" : "ebd3c4", "e0975c" : "be8569", "a85636" : "763f28", "6f2919" : "1c0c06" }
+  ],
+
+  "hitSound" : "/sfx/melee/shield_block_metal.wav",
+  "perfectHitSound" : "/sfx/melee/shield_block_metal_perfect.wav",
+  "breakSound" : "/sfx/melee/shield_break_metal.wav",
+  "perfectBlockParticle" : "shieldspark",
+  "breakParticle" : "guardbrokenmessage",
+
+  "baseline" : {
+    "recoilTime" : 0.2,
+    "knockbackPower" : 10,
+    "knockbackDamageKind" : "",
+    "statusEffects" : [
+      {
+        "stat" : "encumberance",
+        "amount" : 1.0
+      }
+    ],
+    "shieldPoly" : [ [-8, 0], [-8, 12], [8, 20], [8, -24], [-8, -12] ],
+    "damagePoly" : [ [-8, 0], [8, 18], [8, -18] ]
+  },
+  "nameGenerator" : "xenoshieldnames.config:nameGen",
+  "tooltipKind" : "shield",
+  "health" : 100.0,
+  "healthRegen" : 0.05
+}

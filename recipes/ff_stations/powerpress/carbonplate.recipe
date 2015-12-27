@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "fu_carbon", "count" : 14 },
-    { "item" : "lead", "count" : 2 }
+    { "item" : "fu_carbon", "count" : 10 },
+    { "item" : "lead", "count" : 1 }
   ],
   "output" : { 
     "item" : "carbonplate", 

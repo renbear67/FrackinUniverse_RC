@@ -365,8 +365,10 @@
       "surface" : {
           "primaryRegion" : [ "arboreal" ],
           "secondaryRegion" : [ "steamspring", "fieldofbracken", "ffhive", "aliendesert", "cactiplace", "crystalswamp", "birchforest", "alienforest", "cloudforest", "rainbowforest", "swamp", "elder", "corruptedforest", "fieldofwheat", "fieldofsugar",  "fieldofpotato", "fieldofcorn",  "fieldofgrape",  "fieldoftomato", "pineforest", "flowerforest", "snowyforest", "giantflowers", "forest", "jungle", "savannah", "snow",  "tundra" ],
-          //"dungeonCountRange" : [0, 2],
-          "dungeons" : [ "elderruins", "crystalcavern", "greenruins", "fuwreck", "wreck", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "avianairship", "aviantemple","humanbunker", "floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison", "naturalcave"  ]
+          "dungeonCountRange" : [7, 12],
+ //          "dungeons" : [ "shipwreck", "avianfloatingislands", "avianpyramid", "aviansilo", "glitchfarm", "glitchjoust", "uscmbase", "lakes", "volcano", "greenruins", "fuwreck", "wreck", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "avianairship", "aviantemple","humanbunker", "floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison", "naturalcave"  ]
+
+ "dungeons" : [ "shipwreck", "avianfloatingislands", "avianpyramid", "glitchfarm", "glitchjoust", "uscmbase", "lakes", "volcano"]
         },
         "subsurface" : {
           "primaryRegion" : [ "arborealunderground" ]

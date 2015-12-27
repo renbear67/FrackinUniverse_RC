@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "protocitebar", "count" : 2 },
     { "item" : "ff_mercury", "count" : 2 },
-    { "item" : "lead", "count" : 2 }
+    { "item" : "lead", "count" : 1 }
   ],
   "output" : {
     "item" : "ff_protoplating",
