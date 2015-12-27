@@ -366,9 +366,7 @@
           "primaryRegion" : [ "arboreal" ],
           "secondaryRegion" : [ "steamspring", "fieldofbracken", "ffhive", "aliendesert", "cactiplace", "crystalswamp", "birchforest", "alienforest", "cloudforest", "rainbowforest", "swamp", "elder", "corruptedforest", "fieldofwheat", "fieldofsugar",  "fieldofpotato", "fieldofcorn",  "fieldofgrape",  "fieldoftomato", "pineforest", "flowerforest", "snowyforest", "giantflowers", "forest", "jungle", "savannah", "snow",  "tundra" ],
           "dungeonCountRange" : [7, 12],
- //          "dungeons" : [ "shipwreck", "avianfloatingislands", "avianpyramid", "aviansilo", "glitchfarm", "glitchjoust", "uscmbase", "lakes", "volcano", "greenruins", "fuwreck", "wreck", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "avianairship", "aviantemple","humanbunker", "floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison", "naturalcave"  ]
-
- "dungeons" : [ "shipwreck", "avianfloatingislands", "avianpyramid", "glitchfarm", "glitchjoust", "uscmbase", "lakes", "volcano"]
+             "dungeons" : [ "shipwreck", "avianfloatingislands", "avianpyramid", "glitchfarm", "glitchjoust", "uscmbase", "lakes", "volcano", "greenruins", "fuwreck", "wreck", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "avianairship", "aviantemple","humanbunker", "floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison", "naturalcave" ]
         },
         "subsurface" : {
           "primaryRegion" : [ "arborealunderground" ]
@@ -468,7 +466,7 @@
           "primaryRegion" : [ "arboreal2" ],
           "secondaryRegion" : [ "steamspring", "corruptedforest", "ffhive", "goreforest", "cactiplace", "crystalswamp", "birchforest", "alienforest", "swamp", "hellhive", "elder", "corruptedforest", "flowerforest", "deadwood", "giantflowers" ],
           //"dungeonCountRange" : [0, 2],
-          "dungeons" : [ "elderruins", "crystalcavern", "greenruins", "fuwreck", "wreck", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "avianairship", "aviantemple","humanbunker", "floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison", "naturalcave"  ]
+             "dungeons" : [ "shipwreck", "avianfloatingislands", "avianpyramid", "glitchfarm", "glitchjoust", "uscmbase", "lakes", "volcano", "greenruins", "fuwreck", "wreck", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "avianairship", "aviantemple","humanbunker", "floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison", "naturalcave" ]
         },
         "subsurface" : {
           "primaryRegion" : [ "arborealunderground" ]
@@ -514,7 +512,7 @@
           "primaryRegion" : [ "arboreal2" ],
           "secondaryRegion" : [ "steamspring", "corruptedforest", "hellhive", "goreforest", "cactiplace", "crystalswamp", "birchforest", "alienforest", "swamp", "hellhive", "elder", "corruptedforest", "flowerforest", "deadwood", "giantflowers" ],
           //"dungeonCountRange" : [0, 2],
-          "dungeons" : [ "elderruins", "crystalcavern", "greenruins", "fuwreck", "wreck", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "avianairship", "aviantemple","humanbunker", "floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison", "naturalcave"  ]
+             "dungeons" : [ "elderruins", "crystalcavern", "shipwreck", "avianfloatingislands", "avianpyramid", "glitchfarm", "glitchjoust", "uscmbase", "lakes", "volcano", "greenruins", "fuwreck", "wreck", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "avianairship", "aviantemple","humanbunker", "floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison", "naturalcave" ]
         },
         "subsurface" : {
           "primaryRegion" : [ "arborealunderground" ]
