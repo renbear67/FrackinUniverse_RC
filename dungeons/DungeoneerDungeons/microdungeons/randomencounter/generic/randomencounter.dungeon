@@ -313,7 +313,7 @@
 	{
       "value" : [54, 64, 105, 255],
       "comment" : "lava pool foreground",
-      "brush" : [ [ "clear" ], [ "lava" ] ]
+      "brush" : [ [ "clear" ], [ "liquid", "lava" ] ]
     },
 
     {
@@ -338,7 +338,7 @@
     {
       "value" : [54, 63, 105, 255],
       "comment" : "water pool foreground",
-      "brush" : [ [ "clear" ], [ "water" ] ]
+      "brush" : [ [ "clear" ], [ "liquid", "water" ] ]
     },
 
     {
@@ -370,7 +370,7 @@
 	{
       "value" : [150, 255, 0, 255],
       "comment" : "acid pool foreground",
-      "brush" : [ [ "clear" ], [ "acid" ] ]
+      "brush" : [ [ "clear" ], [ "liquid", "sulphuricacid" ] ]
     },
 
     {

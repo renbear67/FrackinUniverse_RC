@@ -51,7 +51,7 @@
           "clear"
         ],
         [
-          "acid"
+          "liquid", "acid"
         ]
       ],
       "connector": false,
@@ -1220,7 +1220,7 @@
           "clear"
         ],
         [
-          "water"
+          "liquid", "water"
         ]
       ],
       "connector": false,

@@ -477,7 +477,7 @@
           "clear"
         ],
         [
-          "water"
+          "liquid", "water"
         ]
       ],
       "connector": false,
