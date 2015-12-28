@@ -1,7 +1,7 @@
 {
   "name" : "fuJellyBossExplodeAttack",
   "label" : "EXPEND JELLY",
-  "image" : "/monsters/generated/skills/defaultphysical.png",
+  "image" : "/monsters/generated/ground/skills/icon.png",
 
   "parameters" : {
     "fuJellyBossExplodeAttack" : {

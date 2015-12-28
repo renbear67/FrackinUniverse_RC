@@ -504,7 +504,6 @@
 	        {"weight" : 0.008, "item" : "itemlauncher"},
 	        {"weight" : 0.008, "item" : "slingshot"},  
 	        {"weight" : 0.008, "item" : "randomharpoongun"},
-	        {"weight" : 0.006, "item" : "lightsaber"},
 	        {"weight" : 0.04, "item" : [ "fuearphones-recipe", 1]},
 	        {"weight" : 0.04, "item" : [ "fuhoodedmask-recipe", 1]},
 	  {"weight" : 0.004, "item" : [ "verdantcarbine-recipe", 1]},
@@ -700,7 +699,6 @@
 	  {"weight" : 0.04, "item" : "itemlauncher"},
 	  {"weight" : 0.04, "item" : "slingshot"},  
 	  {"weight" : 0.04, "item" : "randomharpoongun"},
-          {"weight" : 0.04, "item" : "lightsaber"},
           {"weight" : 0.04, "item" : ["enforcerchest-recipe", 1]},
           {"weight" : 0.04, "item" : ["enforcerhead-recipe", 1]},
           {"weight" : 0.04, "item" : ["enforcerpants-recipe", 1]}

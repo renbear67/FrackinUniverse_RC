@@ -1,7 +1,7 @@
 {
   "name" : "fuBloodVomitAttack",
   "label" : "BLOODY VOMIT",
-  "image" : "/monsters/skills/defaultpoison.png",
+  "image" : "/monsters/generated/ground/skills/icon.png",
 
   "parameters" : {
     "fuBloodVomitAttack" : {

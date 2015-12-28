@@ -280,7 +280,7 @@
           "clear"
         ],
         [
-          "acid"
+          "liquid", "sulphuricacid"
         ]
       ],
       "connector": false

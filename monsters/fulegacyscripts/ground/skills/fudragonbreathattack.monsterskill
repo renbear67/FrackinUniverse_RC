@@ -1,7 +1,7 @@
 {
   "name" : "fuDragonBreathAttack",
   "label" : "DRAGONBREATH",
-  "image" : "/monsters/generated/skills/defaultphysical.png",
+  "image" : "/monsters/generated/ground/skills/icon.png",
 
   "parameters" : {
     "fuDragonBreathAttack" : {

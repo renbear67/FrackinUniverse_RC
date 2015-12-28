@@ -1,7 +1,7 @@
 {
   "name" : "fuBlueFlameAttack",
   "label" : "ANCIENT FLAMES",
-  "image" : "/monsters/skills/defaultfire.png",
+  "image" : "/monsters/generated/ground/skills/icon.png",
 
   "parameters" : {
     "fuBlueFlameAttack" : {

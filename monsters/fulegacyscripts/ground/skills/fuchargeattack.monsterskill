@@ -1,7 +1,7 @@
 {
   "name" : "fuChargeAttack",
   "label" : "CHARGE",
-  "image" : "/monsters/generated/skills/defaultphysical.png",
+  "image" : "/monsters/generated/ground/skills/icon.png",
 
   "parameters" : {
     "scripts" : [ "/monsters/fulegacyscripts/ground/skills/fuChargeAttack.lua" ],

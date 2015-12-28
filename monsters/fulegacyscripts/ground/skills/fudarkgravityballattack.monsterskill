@@ -1,7 +1,7 @@
 {
   "name" : "fuDarkGravityBallAttack",
   "label" : "GRAVITY BALL",
-  "image" : "/monsters/skills/defaultice.png",
+  "image" : "/monsters/generated/ground/skills/icon.png",
 
   "parameters" : {
     "fuDarkGravityBallAttack" : {

@@ -1,7 +1,7 @@
 {
   "name" : "fuDarkPlasmaAttack",
   "label" : "DARK PLASMA",
-  "image" : "/monsters/generated/skills/defaultphysical.png",
+  "image" : "/monsters/generated/ground/skills/icon.png",
 
   "parameters" : {
     "fuDarkPlasmaAttack" : {

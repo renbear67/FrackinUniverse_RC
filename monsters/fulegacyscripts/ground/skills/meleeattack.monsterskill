@@ -1,8 +1,7 @@
 {
   "name" : "meleeAttack",
   "label" : "BASH",
-  "image" : "/monsters/generated/skills/defaultphysical.png",
-
+  "image" : "/monsters/generated/ground/skills/icon.png",
   "parameters" : {
     "scripts" : [ "/monsters/fulegacyscripts/ground/skills/meleeAttack.lua" ],
     "meleeAttack" : {

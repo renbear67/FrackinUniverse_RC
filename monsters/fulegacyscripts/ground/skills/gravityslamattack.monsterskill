@@ -1,7 +1,7 @@
 {
   "name" : "gravitySlamAttack",
   "label" : "GRAVITY SLAM",
-  "image" : "/monsters/fulegacyscripts/ground/skills/icon.png",
+  "image" : "/monsters/generated/ground/skills/icon.png",
 
   "parameters" : {
     "scripts" : [ "/monsters/fulegacyscripts/ground/skills/gravitySlamAttack.lua" ],

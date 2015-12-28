@@ -1,7 +1,7 @@
 {
   "name" : "fuDarkGasAttack",
   "label" : "SHADOWY VAPORS",
-  "image" : "/monsters/generated/skills/defaultphysical.png",
+  "image" : "/monsters/generated/ground/skills/icon.png",
 
   "parameters" : {
     "fuDarkGasAttack" : {

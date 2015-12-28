@@ -1,7 +1,7 @@
 {
   "name" : "fuFlySwarmAttack",
   "label" : "FLY SWARM",
-  "image" : "/monsters/generated/skills/defaultphysical.png",
+  "image" : "/monsters/generated/ground/skills/icon.png",
 
   "parameters" : {
     "fuFlySwarmAttack" : {

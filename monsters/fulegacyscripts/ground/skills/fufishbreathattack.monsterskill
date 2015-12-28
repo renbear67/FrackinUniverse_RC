@@ -1,7 +1,7 @@
 {
   "name" : "fuFishBreathAttack",
   "label" : "TOXIC REGURGITATION",
-  "image" : "/monsters/skills/defaultpoison.png",
+  "image" : "/monsters/generated/ground/skills/icon.png",
 
   "parameters" : {
     "fuFishBreathAttack" : {

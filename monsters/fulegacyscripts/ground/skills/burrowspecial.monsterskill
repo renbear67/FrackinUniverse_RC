@@ -1,7 +1,7 @@
 {
   "name" : "burrowSpecial",
   "label" : "BURROW",
-  "image" : "/monsters/fulegacyscripts/ground/skills/icon.png",
+  "image" : "/monsters/generated/ground/skills/icon.png",
 
   "parameters" : {
     "scripts" : [ "/monsters/fulegacyscripts/ground/skills/burrowSpecial.lua" ],
