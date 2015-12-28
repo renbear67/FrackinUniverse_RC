@@ -594,7 +594,7 @@
     {
       "value" : [54, 63, 105, 255],
       "comment" : "water pool foreground",
-      "brush" : [ [ "clear" ], [ "water" ] ]
+      "brush" : [ [ "clear" ], [ "liquid", "water" ] ]
     },
 
     {
@@ -3700,7 +3700,7 @@
     {
       "value" : [66, 154, 255, 255],
       "comment" : "underwater woodsupport",
-      "brush" : [ [ "clear" ], [ "water" ], [ "object", "woodsupport" ] ]
+      "brush" : [ [ "clear" ], [ "liquid", "water" ], [ "object", "woodsupport" ] ]
     },
 
     {
