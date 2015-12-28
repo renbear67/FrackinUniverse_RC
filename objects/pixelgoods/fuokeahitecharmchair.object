@@ -1,62 +1,30 @@
 {
   "objectName" : "fuokeahitecharmchair",
   "colonyTags" : [ "science", "hitech" ],
-  "retainObjectParametersInItem" : true,
-  "rarity" : "Common",
   "printable" : false,
-  "category" : "furniture",
-  "price" : 325,
+  "rarity" : "Common",
   "description" : "Never before havr your butt cheeks rested on something so comfortable",
   "shortdescription" : "Hi-tech Armchair",
   "race" : "generic",
-  "unlit" : false,
-  "lightColors" : {
-    "default" : [40, 185, 185],
-    "red" : [40, 185, 185],
-    "blue" : [40, 185, 185],
-    "green" : [40, 185, 185],
-    "yellow" : [40, 185, 185],
-    "orange" : [40, 185, 185],
-    "pink" : [40, 185, 185],
-    "black" : [40, 185, 185],
-    "white" : [40, 185, 185]
-  },
-  "flickerDistance" : 0.2,
-  "flickerStrength" : 0.01,
-  "flickerTiming" : 4,
-
-  "apexDescription" : "Hi-tech Armchair.",
-  "avianDescription" : "Hi-tech Armchair.",
-  "floranDescription" : "Hi-tech Armchair.",
-  "glitchDescription" : "Hi-tech Armchair.",
-  "humanDescription" : "Hi-tech Armchair.",
-  "hylotlDescription" : "Hi-tech Armchair.",
+  "category" : "furniture",
+  "price" : 65,
 
   "inventoryIcon" : "fuokeahitecharmchairicon.png",
   "orientations" : [
     {
-      "image" : "fuokeahitecharmchair.png:<color>",
-      "sitCoverImage" : "/objects/pixelgoods/fuokeahitecharmchairoverlay.png",
-      "flipImages" : true,
+      "dualImage" : "fuokeahitecharmchair.png:<color>",
+
       "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
       "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ],
-      "direction" : "left"
-    },
-    {
-      "image" : "fuokeahitecharmchair.png:<color>",
-      "sitCoverImage" : "/objects/pixelgoods/fuokeahitecharmchairoverlay.png",
-      "imagePosition" : [-8, 0],
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ],
-      "direction" : "right"
+      "anchors" : [ "bottom" ]
+
     }
   ],
 
-
   "objectType" : "loungeable",
-  "interactAction" : "sitdown",
   "sitFlipDirection" : false,
   "sitPosition" : [2, 24]
-
 }

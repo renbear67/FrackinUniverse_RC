@@ -1,65 +1,30 @@
 {
   "objectName" : "fuokeahitechvrchair",
   "colonyTags" : [ "science", "hitech" ],
-  "retainObjectParametersInItem" : true,
-  "rarity" : "Common",
   "printable" : false,
-  "category" : "furniture",
-  "price" : 800,
-  "description" : "A whole new world awaits you online!",
-  "shortdescription" : "Hi-tech VR Chair",
+  "rarity" : "Common",
+  "description" : "Never before havr your butt cheeks rested on something so comfortable",
+  "shortdescription" : "Hi-tech Armchair",
   "race" : "generic",
-  "unlit" : false,
-  "lightColors" : {
-    "default" : [40, 185, 185],
-    "red" : [40, 185, 185],
-    "blue" : [40, 185, 185],
-    "green" : [40, 185, 185],
-    "yellow" : [40, 185, 185],
-    "orange" : [40, 185, 185],
-    "pink" : [40, 185, 185],
-    "black" : [40, 185, 185],
-    "white" : [40, 185, 185]
-  },
-  "flickerDistance" : 0.2,
-  "flickerStrength" : 0.01,
-  "flickerTiming" : 4,
-
-
-  "apexDescription" : "Hi-tech VR Chair.",
-  "avianDescription" : "Hi-tech VR Chair.",
-  "floranDescription" : "Hi-tech VR Chair.",
-  "glitchDescription" : "Hi-tech VR Chair.",
-  "humanDescription" : "Hi-tech VR Chair.",
-  "hylotlDescription" : "Hi-tech VR Chair.",
+  "category" : "furniture",
+  "price" : 65,
 
   "inventoryIcon" : "fuokeahitechvrchairicon.png",
   "orientations" : [
     {
-      "image" : "fuokeahitechvrchair.png:<color>",
-      "sitCoverImage" : "/objects/pixelgoods/fuokeahitechvrchairoverlay.png",
+      "dualImage" : "fuokeahitechvrchair.png:<color>",
+
       "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
       "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ],
-      "direction" : "left"
-    },
-    {
-      "image" : "fuokeahitechvrchair.png:<color>",
-      "sitCoverImage" : "/objects/pixelgoods/fuokeahitechvrchairoverlay.png",
-      "flipImages" : true,
-      "imagePosition" : [-8, 0],
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ],
-      "direction" : "right"
+      "anchors" : [ "bottom" ]
+
     }
   ],
 
-
   "objectType" : "loungeable",
-  "interactAction" : "sitdown",
-  "sitOrientation" : "sit",
-  "sitAngle" : 8,
-  "sitFlipDirection" : false,
-  "sitPosition" : [2, 24]
-
+  "sitFlipDirection" : true,
+  "sitPosition" : [2, 22]
 }

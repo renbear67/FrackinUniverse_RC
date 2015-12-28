@@ -1,7 +1,6 @@
 {
   "objectName" : "fuokeahitechbed",
   "colonyTags" : [ "science", "hitech" ],
-  "retainObjectParametersInItem" : true,
   "printable" : false,
   "rarity" : "Common",
   "description" : "Leaving this bed in the morning is an ultimate test of one's willpower",
@@ -9,21 +8,6 @@
   "race" : "generic",
   "category" : "furniture",
   "price" : 875,
-  "unlit" : false,
-  "lightColors" : {
-    "default" : [40, 185, 185],
-    "red" : [40, 185, 185],
-    "blue" : [40, 185, 185],
-    "green" : [40, 185, 185],
-    "yellow" : [40, 185, 185],
-    "orange" : [40, 185, 185],
-    "pink" : [40, 185, 185],
-    "black" : [40, 185, 185],
-    "white" : [40, 185, 185]
-  },
-  "flickerDistance" : 0.2,
-  "flickerStrength" : 0.01,
-  "flickerTiming" : 4,
 
   "apexDescription" : "The most comfortable bed in the universe.",
   "avianDescription" : "Once you lie here, you won't want to get up.",
