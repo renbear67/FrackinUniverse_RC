@@ -16,7 +16,7 @@
     "followUp" : "6powdersifter.gearup",
     "gatherRequirements" : {
       "items" : {
-        "isn_powdersifter" : {
+        "centrifuge" : {
           "count" : 1,
           "consume" : false
         }
