@@ -1,6 +1,6 @@
 {
   "objectName" : "aquapodseed",
-    "colonyTags" : [ "nature" ],
+  "colonyTags" : [ "nature" ],
   "rarity" : "Uncommon",
   "category" : "farmable",
   "description" : "It's fruit increases swim speed. Must be planted in liquid.",
@@ -31,17 +31,12 @@
     },
     {
       "alts" : 5,
-      "duration" : [60, 200]
+      "duration" : [120, 230]
     },
     {
       "alts" : 5,
       "harvestPool" : "aquapodHarvest",
-      "resetToStage" : 2,
-      "duration" : [420, 500]
-    },
-    {
-      "alts" : 1,
-      "duration" : [100, 200]
+      "resetToStage" : 2
     }
   ],
   "learnBlueprintsOnPickup" : [ "voritseed", "littlegoodberryseed" ],
