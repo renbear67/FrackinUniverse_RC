@@ -35,7 +35,7 @@ local recipes =
 {inputs = { mooncomb=1 }, outputs = { helium3gasliquid=2 }, time = 0.1 },
 {inputs = { morbidcomb=1 }, outputs = { rottingfleshmaterial=2 }, time = 0.91 },
 {inputs = { mythicalcomb=1 }, outputs = { vialproto=2 }, time = 0.1 },
-{inputs = { nocturnalhoneycomb=1 }, outputs = { shadowgasliquid=2 }, time = 0.1 },
+{inputs = { nocturnalcomb=1 }, outputs = { shadowgasliquid=2 }, time = 0.1 },
 {inputs = { plutoniumcomb=1 }, outputs = { plutoniumore=2 }, time = 0.1 },
 {inputs = { radioactivecomb=1 }, outputs = { uraniumore=2 }, time = 0.1 },
 {inputs = { redcomb=1 }, outputs = { liquidblood=2 }, time = 0.1 },

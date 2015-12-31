@@ -21,6 +21,7 @@
         "pool" : [
           [ 0.4, "slugbluecritter" ],
           [ 0.3, "sackbagcritter" ],
+          [ 0.3, "fubat" ],
           [ 0.3, "shadowmoth" ]
         ]
       },

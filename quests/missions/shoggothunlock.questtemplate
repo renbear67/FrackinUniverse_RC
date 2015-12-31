@@ -2,14 +2,15 @@
   "id" : "shoggothunlock.gearup",
   "requiredShipLevel" : 3,
   "prerequisites" : [ "kelpquest.gearup" ],
+  "prerequisites" : [ ],
   "title" : "^#1693d5;The Dark Edge of Space",
-  "text" : "We've lost contact with a research base on the Fringe. Could you ^orange;find Wagner or learn what has happened^white;? I'm a friend, and would love to know if he's okay.",
-  "completionText" : "Oh poor Wagner! Thank you for learning the truth. Please tell me you aren't crazy enough to ^orange;investigate further^white;!",
+  "text" : "A research outpost on the edge of known space was set up to monitor and test odd readings emanating from the moon there. We've lost contact with them. I wonder, could you ^orange;Investigate and learn what happened^white;?",
+  "completionText" : "Use the coordinates to find the place. Please use caution. One never knows what lurks in the Fringe.",
   "speaker" : "questGiver",
-  "moneyRange" : [5000, 6000],
+  "moneyRange" : [0,0],
   "rewards" : [ ],
   "completionCinema" : "/cinematics/coordinates.cinematic",
-  "canBeAbandoned" : true,
+  "canBeAbandoned" : false,
   "questGiverIndicator" : "mainquestgiver",
   "questReceiverIndicator" : "mainquestreceiver",
 
@@ -18,14 +19,6 @@
   "scriptConfig" : {
     "associatedMission" : "shoggothdungeonarrival",
     "requireTurnIn" : false,
-    "followUp" : "shoggoth2.gearup",
-    "gatherRequirements" : {
-      "item" : {
-        "wagner3" : {
-          "count" : 1,
-          "consume" : false
-        }
-      }
-    }
+    "followUp" : "shoggoth1.gearup"
   }
 }

@@ -4,7 +4,8 @@
   "damageTeam" : 1,
   "scriptConfig" : {
         "offeredQuests" : [ "shoggothunlock.gearup" ],
-        "turnInQuests" : [ "shoggothunlock.gearup" ],
+        "turnInQuests" : [ "shoggothunlock.gearup", "shoggoth1.gearup" ],
+        
     "reactions" : {
       "spontaneous" : [
       ]

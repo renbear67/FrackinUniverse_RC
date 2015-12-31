@@ -20,11 +20,11 @@
       {
         "select" : 2,
         "pool" : [
-          [ 1, "orphanfly" ],
-          [ 1, "phoenixfly" ],
-          [ 1, "glowingball2critter" ],
-          [ 1, "ravencritter" ],
-          [ 1, "wurmcritter" ]   
+          [ 0.3, "orphanfly" ],
+          [ 0.3, "phoenixfly" ],
+          [ 0.3, "glowingball2critter" ],
+          [ 0.4, "fubat" ],
+          [ 0.3, "wurmcritter" ]   
         ]
       }
     ],
