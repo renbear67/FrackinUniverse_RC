@@ -5,6 +5,6 @@
   "description" : "A fresh, juicy peach, ripe for baking or consuming with my face!",
   "shortdescription" : "Peach",
   "effects" : [ [
-      "heal_10"
+      "heal_2"
     ] ]
 }
