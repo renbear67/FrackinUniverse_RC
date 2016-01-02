@@ -1,7 +1,7 @@
 {
   "name" : "ffextremecoldimmunity",
   "effectConfig" : {},
-  "defaultDuration" : 120,
+  "defaultDuration" : 60,
 
   "scripts" : [
     "ffextremecoldimmunity.lua"
