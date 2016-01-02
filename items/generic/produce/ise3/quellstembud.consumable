@@ -5,11 +5,7 @@
   "description" : "Total immunity to heat and fire.",
   "shortdescription" : "Quellstem Bud",
       "statusEffects" : [ [
-      {
-        "effect" : "fireImmunity",
-        "amount" : 1.0,
-        "duration" : 60
-      },
+      "fireblock",
       {
         "effect" : "lavaImmunity",
         "amount" : 1.0,
