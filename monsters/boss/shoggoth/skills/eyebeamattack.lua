@@ -27,10 +27,13 @@ end
 --------------------------------------------------------------------------------
 function eyeBeamAttack.update(dt, stateData)
   if not hasTarget() then return true end
-
-  local toTarget = world.distance(self.targetPosition, vec2.add(mcontroller.position(), {-10, -5}))
+  local toTarget = world.distance(self.targetPosition, mcontroller.position())
   local targetDir = util.toDirection(toTarget[1])
-
+  if (targetDir == 1) then 
+    toTarget = world.distance(self.targetPosition, vec2.add(mcontroller.position(), {10, -5}))
+  else
+    toTarget = world.distance(self.targetPosition, vec2.add(mcontroller.position(), {-10, -5}))
+  end
 
   if not stateData.blasting then 
     if math.abs(toTarget[1]) > stateData.distanceRange[2] then
