@@ -20,7 +20,6 @@ end
 --------------------------------------------------------------------------------
 function eyeBeamAttack.enteringState(stateData)
   entity.setAnimationState("movement", "idle")
-  entity.setAnimationState("firstBeams", "windup")
   entity.setActiveSkillName("eyeBeamAttack")
 end
 
@@ -30,9 +29,9 @@ function eyeBeamAttack.update(dt, stateData)
   local toTarget = world.distance(self.targetPosition, mcontroller.position())
   local targetDir = util.toDirection(toTarget[1])
   if (targetDir == 1) then 
-    toTarget = world.distance(self.targetPosition, vec2.add(mcontroller.position(), {10, -5}))
+    toTargetAim = world.distance(self.targetPosition, vec2.add(mcontroller.position(), {10, -5}))
   else
-    toTarget = world.distance(self.targetPosition, vec2.add(mcontroller.position(), {-10, -5}))
+    toTargetAim = world.distance(self.targetPosition, vec2.add(mcontroller.position(), {-10, -5}))
   end
 
   if not stateData.blasting then 
@@ -60,18 +59,20 @@ function eyeBeamAttack.update(dt, stateData)
       end
       stateData.windupTimer = stateData.windupTimer - dt
       if stateData.windupTimer  < 0 then
+          world.logInfo("Help, I'm stuck in windup.")
           entity.setLightActive("beam1", true)
           entity.setAnimationState("firstBeams", "active")
           
           -- rotate the eyebeam animation to aim at user
-          local animationAngle = math.atan(-toTarget[2], math.abs(toTarget[1]))
+          local animationAngle = math.atan(-toTargetAim[2], math.abs(toTargetAim[1]))
           entity.rotateGroup("projectileAim", animationAngle)
-          entity.targetSnapshot = toTarget
+          entity.targetSnapshot = toTargetAim
 
       end
       return flase
     -- phase 2 - active (????)
     elseif stateData.timer > 0 then
+      world.logInfo("Help I'm stuck blasting")
       eyeBeamAttack.blast(entity.targetSnapshot)
       stateData.timer = stateData.timer - dt
       if stateData.timer < 0 then
