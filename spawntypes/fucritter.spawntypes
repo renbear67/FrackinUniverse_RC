@@ -1,5 +1,21 @@
 [
   {
+    "name" : "fubat",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "groupSize" : [1, 3],
+    "targetDensity" : 0.04,
+    "monsterType" : "fubat",
+    "monsterParameters" : {
+      "aggressive" : false
+    }
+  },
+  {
     "name" : "eyefriend",
 
     "spawnParameters" : {
