@@ -8,8 +8,7 @@
     "groups" : [
       {
         "select" : 3,
-        "pool" : [ 
-          [ 0.1111, "fuaviansentry" ],     
+        "pool" : [     
           [ 0.1111, "fugiantbee" ],
           [ 0.1111, "seedspawn2" ],        
           [ 0.1111, "slime" ],
@@ -170,7 +169,7 @@
           "distribution" : "/biomes/distributions.config:ffCommon",
 
           "type" : "grass",
-          "grasses" : [ "eyeplant", "sulphurplant", "mushroom", "toxicmicrodungeons", "blobby" ]
+          "grasses" : [ "eyeplant", "sulphurplant", "mushroom", "toxicplains", "blobby" ]
         },
         {
           "mode" : "floor",
@@ -295,7 +294,7 @@
           "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "terrainfeatures", "rockclimb","rocktunnel",  "toxicmicrodungeons", "sandstone", "blockpile", "loops", "flats", "reversepyramids" ]
+          "microdungeons" : [ "terrainfeatures", "rockclimb","rocktunnel", "sandstone", "blockpile", "loops", "flats", "reversepyramids" ]
         },
         {
           "mode" : "floor",
