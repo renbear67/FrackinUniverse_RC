@@ -359,6 +359,48 @@
     }
   },
 
+    "projectiles" : {
+      "deathexplosion" : {
+        "type" : "darkmatterexplosion",
+        "config" : {
+          "speed" : 0.1,
+          "power" : 2,
+
+          "actionOnReap" : [
+            {
+              "action" : "config",
+              "file" : "/projectiles/explosions/darkmatterexplosion/darkmatterexplosion.config"
+            },
+            {
+              "action" : "projectile",
+              "type" : "shoggothflesh",
+              "inheritDamageFactor" : 0.2,
+              "fuzzAngle" : 30,
+              "angleAdjust" : 0
+            },
+            {
+              "action" : "projectile",
+              "type" : "shoggothflesh",
+              "inheritDamageFactor" : 0.2,
+              "fuzzAngle" : 30,
+              "angleAdjust" : 45
+            },
+            {
+              "action" : "projectile",
+              "type" : "shoggothflesh",
+              "inheritDamageFactor" : 0.2,
+              "fuzzAngle" : 30,
+              "angleAdjust" : -45
+            }
+          ]
+        },
+
+        "fireTime" : 5.0,
+        "fireInterval" : 0.2,
+        "cooldown" : 0.1
+      }
+    },  
+    
   "particleEmitters" : {
     "damage" : {
       "emissionRate" : 0.7,
@@ -367,11 +409,12 @@
     },
 
     "deathPoof" : {
+      
       "particles" : [
         {
           "particle" : {
             "type" : "animated",
-            "animation" : "/animations/puff2c/puff2c.animation",
+            "animation" : "/animations/shadowsmoke/shadowsmoke.animation",
             "size" : 1,
             "angularVelocity" : 35,
             "fade" : 1,
@@ -387,7 +430,7 @@
         {
           "particle" : {
             "type" : "animated",
-            "animation" : "/animations/fizz1/fizz1.animation",
+            "animation" : "/animations/shadowsmoke/shadowsmoke.animation",
             "size" : 1,
             "angularVelocity" : 20,
             "fade" : 1,
@@ -407,7 +450,7 @@
         {
           "particle" : {
             "type" : "animated",
-            "animation" : "/animations/fizz1/fizz1.animation",
+            "animation" : "/animations/shadowsmoke/shadowsmoke.animation",
             "size" : 1,
             "angularVelocity" : 20,
             "fade" : 1,
@@ -427,7 +470,7 @@
         {
           "particle" : {
             "type" : "animated",
-            "animation" : "/animations/fizz2/fizz2.animation",
+            "animation" : "/animations/shadowsmoke/shadowsmoke.animation",
             "size" : 1,
             "angularVelocity" : 20,
             "fade" : 1,
@@ -447,7 +490,7 @@
         {
           "particle" : {
             "type" : "animated",
-            "animation" : "/animations/fizz2/fizz2.animation",
+            "animation" : "/animations/shadowsmoke/shadowsmoke.animation",
             "size" : 1,
             "angularVelocity" : 20,
             "fade" : 1,
@@ -467,7 +510,7 @@
         {
           "particle" : {
             "type" : "animated",
-            "animation" : "/animations/fizz3/fizz3.animation",
+            "animation" : "/animations/shadowsmoke/shadowsmoke.animation",
             "size" : 1,
             "angularVelocity" : 20,
             "fade" : 1,
@@ -487,7 +530,7 @@
         {
           "particle" : {
             "type" : "animated",
-            "animation" : "/animations/fizz3/fizz3.animation",
+            "animation" : "/animations/shadowsmoke/shadowsmoke.animation",
             "size" : 1,
             "angularVelocity" : 20,
             "fade" : 1,
@@ -507,7 +550,7 @@
         {
           "particle" : {
             "type" : "animated",
-            "animation" : "/animations/fizz4/fizz4.animation",
+            "animation" : "/animations/shadowsmoke/shadowsmoke.animation",
             "size" : 1,
             "angularVelocity" : 20,
             "fade" : 1,
@@ -527,7 +570,7 @@
         {
           "particle" : {
             "type" : "animated",
-            "animation" : "/animations/fizz4/fizz4.animation",
+            "animation" : "/animations/shadowsmoke/shadowsmoke.animation",
             "size" : 1,
             "angularVelocity" : 20,
             "fade" : 1,
@@ -551,7 +594,7 @@
     "beam1" : {
       "active" : false,
       "position" : [-25, 0],
-      "color" : [0, 255, 0],
+      "color" : [0, 205, 0],
       "pointLight" : false
     }
   },

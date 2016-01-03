@@ -2,8 +2,7 @@
   "input" : [
     { "item" : "fu_carbon", "count" : 4 },
     { "item" : "vialproto", "count" : 1},
-    { "item" : "advancealloy", "count" : 1},
-    { "item" : "corvex", "count" : 1},
+    { "item" : "phasematter", "count" : 1},
     { "item" : "liquidsulphuricacid", "count" : 3}
   ],
   "output" : {

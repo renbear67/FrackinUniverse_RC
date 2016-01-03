@@ -34,20 +34,25 @@
       },
       {
         "trigger" : "healthPercentage",
+        "healthPercentage" : 0.60,
+        "skills" : [ "eyeBeamAttack" ]
+      },      
+      {
+        "trigger" : "healthPercentage",
         "healthPercentage" : 0.5,
         "enterPhase" : "miniShoggothSpawnAttack",
         "skills" : [ "eyeBeamAttack", "fleshBombAttack", "tentacleSwipeAttack", "shoggothAcidAttack" ]
       },
       {
         "trigger" : "healthPercentage",
-        "healthPercentage" : 0.25,
+        "healthPercentage" : 0.35,
         "skills" : [ "eyeBeamAttack", "shoggothChargeAttack", "tentacleSwipeAttack" ]
-      }//,
-      //{
-      //  "trigger" : "healthPercentage",
-      //  "healthPercentage" : 0.15,
-      //  "skills" : [ "shoggothChargeAttack" ]
-      //}
+      },
+      {
+        "trigger" : "healthPercentage",
+        "healthPercentage" : 0.25,
+        "skills" : [ "shoggothChargeAttack" ]
+      }
     ],
 
     "scale" : 1,

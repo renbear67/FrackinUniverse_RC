@@ -9,7 +9,7 @@ function shoggothChargeAttack.enter()
 
 
   return {
-    timer = entity.configParameter("shoggothChargeAttack.skillTime", 1),
+    timer = entity.configParameter("shoggothChargeAttack.skillTime", 0.24),
     damagePerSecond = entity.configParameter("shoggothChargeAttack.damagePerSecond", 5000),
     distanceRange = entity.configParameter("shoggothChargeAttack.distanceRange"),
     intervalTime = entity.configParameter("shoggothChargeAttack.intervalTime"),
@@ -33,8 +33,6 @@ function shoggothChargeAttack.update(dt, stateData)
   local targetDir = util.toDirection(toTarget[1])
 
   if not stateData.swiping then 
-
-
 
     --projectile interval check and spawn
     if stateData.currentPeriod < 0 then

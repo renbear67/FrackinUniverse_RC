@@ -129,7 +129,7 @@
   "subBlocks" : [ "waste", "irradiatedtile2" ],
   "ores" : "ff_radioactiveOres",
 
-  "parallax" : "/parallax/surface/irradiated.parallax",
+  "parallax" : "/parallax/surface/jungle.parallax",
 
   "ambientNoises" : {
     "day" : {
