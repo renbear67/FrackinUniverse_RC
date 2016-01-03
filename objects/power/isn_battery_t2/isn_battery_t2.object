@@ -4,8 +4,8 @@
     "colonyTags" : [ "science" ],
   "category" : "wire",
   "price" : 2500,
-  "description" : "A power storage unit. Stores up to 2500u of power and dispenses 3u when connected.",
-  "shortdescription" : "2500u 3v Battery Unit",
+  "description" : "A power storage unit. Stores up to 2500u of power and dispenses 5u when connected.",
+  "shortdescription" : "2500u 5v Battery Unit",
   "race" : "generic",
   "printable" : false,
   "learnBlueprintsOnPickup" : [ "isn_battery_t3_ceru", "isn_atmoscondenser" ],
@@ -38,5 +38,5 @@
   "isn_powerSupplier" : true,
   "isn_powerReciever" : true,
   "isn_batteryCapacity" : 2500,
-  "isn_batteryVoltage" : 3
+  "isn_batteryVoltage" : 5
 }

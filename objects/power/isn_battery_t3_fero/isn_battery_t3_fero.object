@@ -4,7 +4,7 @@
     "colonyTags" : [ "science" ],
   "category" : "wire",
   "price" : 2500,
-  "description" : "A power storage unit. Stores up to 8000u of power and dispenses 5u when connected.",
+  "description" : "A power storage unit. Stores up to 8000u of power and dispenses 8u when connected.",
   "shortdescription" : "8000u 8v Battery Unit",
   "race" : "generic",
   "printable" : false,
@@ -37,5 +37,5 @@
   "isn_powerSupplier" : true,
   "isn_powerReciever" : true,
   "isn_batteryCapacity" : 8000,
-  "isn_batteryVoltage" : 5
+  "isn_batteryVoltage" : 8
 }

@@ -34,6 +34,11 @@
             "cycle" : 1.0,
             "mode" : "loop"
           },
+          "death" : {
+            "frames" : 16,
+            "cycle" : 2.0,
+            "mode" : "loop"
+          },
           "knockback" : {
             "frames" : 16,
             "mode" : "loop"
@@ -46,7 +51,7 @@
             "cycle": 1.2,
             "frames" : 16,
             "properties" : {
-              "immediateSound" : "/sfx/melee/swing_fire4.ogg"
+              "immediateSound" : "/sfx/melee/tarhammer_hit_organic.ogg"
             }
           }
         }
@@ -187,6 +192,11 @@
               "properties" : {
                 "image" : "<partImage>:idle.<frame>"
               }
+            },            
+            "death" : {
+              "properties" : {
+                "image" : "<partImage>:idle.<frame>"
+              }
             },
             "swipe" : {
               "properties" : {
@@ -268,6 +278,11 @@
             "knockout" : {
               "properties" : {
                 "image" : "<partImage>:idle.<frame>"
+              }
+            },
+            "death" : {
+              "properties" : {
+                "image" : "<partImage>:death.<frame>"
               }
             },
             "swipe" : {

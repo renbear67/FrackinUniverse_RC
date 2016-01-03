@@ -4,8 +4,8 @@
     "colonyTags" : [ "science" ],
   "category" : "wire",
   "price" : 2500,
-  "description" : "A power storage unit. Stores up to 1000u of power and dispenses 2u when connected.",
-  "shortdescription" : "1000u 2v Battery Unit",
+  "description" : "A power storage unit. Stores up to 1000u of power and dispenses 4u when connected.",
+  "shortdescription" : "1000u 4v Battery Unit",
   "race" : "generic",
   "printable" : false,
   "learnBlueprintsOnPickup" : [ "isn_battery_t2", "fu_blastfurnace" ],
@@ -38,5 +38,5 @@
   "isn_powerSupplier" : true,
   "isn_powerReciever" : true,
   "isn_batteryCapacity" : 1000,
-  "isn_batteryVoltage" : 2
+  "isn_batteryVoltage" : 4
 }

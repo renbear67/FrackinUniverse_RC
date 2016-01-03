@@ -55,8 +55,8 @@
     "movementSettings" : {
       "collisionPoly" : [ [-16, -16], [16, -16], [16, 0], [-16, 0] ],
       "mass" : 1,
-      "walkSpeed" : 8,
-      "runSpeed" : 10,
+      "walkSpeed" : 6,
+      "runSpeed" : 8,
       "jumpSpeed" : 20,
       "airforce" : 10
     },
@@ -142,7 +142,7 @@
     
     "projectiles" : {
       "deathexplosion" : {
-        "type" : "regularexplosion2universal",
+        "type" : "darkmatterexplosion",
         "config" : {
           "speed" : 0.1,
           "power" : 2,
@@ -150,7 +150,7 @@
           "actionOnReap" : [
             {
               "action" : "config",
-              "file" : "/projectiles/explosions/regularexplosion2/regularexplosion2universal.config"
+              "file" : "/projectiles/explosions/darkmatterexplosion/darkmatterexplosion.config"
             },
             {
               "action" : "projectile",
@@ -176,7 +176,7 @@
           ]
         },
 
-        "fireTime" : 8.0,
+        "fireTime" : 5.0,
         "fireInterval" : 0.2,
         "cooldown" : 0.1
       }
