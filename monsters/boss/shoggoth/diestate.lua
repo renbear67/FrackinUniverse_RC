@@ -8,7 +8,7 @@ dieState.enterWith = function(params)
 
   return {
     timer = 6.0,
-    basePosition = mcontroller.position(),
+    basePosition = mcontroller.position()
   }
 end
 
@@ -22,7 +22,6 @@ dieState.update = function(dt, stateData)
   
   if stateData.timer <= 0.0 then
     self.dead = true
-
   end
 
   stateData.timer = stateData.timer - dt
