@@ -369,3 +369,9 @@ end
 function willFall()
   return self.willFall
 end
+
+function waitforseconds(seconds)
+  local start = os.time()
+  repeat until os.time() > start + seconds
+end
+
