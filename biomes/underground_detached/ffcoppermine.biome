@@ -7,7 +7,6 @@
        {
          "select" : 3,
          "pool" : [ 
-           [ 0.4, "fuaviansentry" ],
            [ 0.3, "batong" ],
            [ 0.3, "adultpoptop" ],
            [ 0.4, "poptop" ],
