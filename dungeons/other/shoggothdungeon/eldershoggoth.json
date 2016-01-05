@@ -12177,30 +12177,6 @@
                  "width":0,
                  "x":7504,
                  "y":2936
-                }, 
-                {
-                 "height":0,
-                 "id":3767,
-                 "name":"",
-                 "polyline":[
-                        {
-                         "x":0,
-                         "y":0
-                        }, 
-                        {
-                         "x":240,
-                         "y":-24
-                        }],
-                 "properties":
-                    {
-
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":0,
-                 "x":8008,
-                 "y":1064
                 }],
          "opacity":1,
          "type":"objectgroup",

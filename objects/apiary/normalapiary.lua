@@ -513,7 +513,7 @@ function workingBees()
 			    trySpawnHoney(0.80, "normal")
 				trySpawnBee(  0.40, "exceptional")
 				trySpawnDrone(0.40, "exceptional")
-                trySpawnItems(0.40, "liquidhoney")
+                trySpawnItems(0.40, "fu_liquidhoney")
                 return true
 			end
 			if equippedBees("aggressive") then					--AGGRESSIVE
