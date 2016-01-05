@@ -14,7 +14,7 @@
 			{"weight" : 0.02, "pool" : "shield"},
 			{"weight" : 0.02, "pool" : "rareGun"},
 			{"weight" : 0.02, "pool" : "legendaryGun"},
-			{"weight" : 0.02, "pool" : "uniqueMelee"},
+			{"weight" : 0.02, "pool" : "basicTreasure"},
          {"weight" : 0.20, "pool" : "money"},
         {"weight" : 0.5, "item" : ["darkwoodmaterial", 10]},
         {"weight" : 0.5, "item" : ["plantfibre", 10]},
