@@ -17,7 +17,7 @@
 
   "animationParameters" : {
     "sounds" : {
-      "rangedAttack" : [ "/sfx/gun/rocket_shot.ogg" ]
+      "rangedAttack" : [ "/sfx/gun/rocketblast1.ogg" ]
     }
   }
 }

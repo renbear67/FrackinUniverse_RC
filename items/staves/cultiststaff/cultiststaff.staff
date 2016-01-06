@@ -29,7 +29,7 @@
 
   "muzzleEffect" : {
     "fireSound" : [
-      { "file" : "/sfx/gun/rocket_shot.ogg" },
+      { "file" : "/sfx/gun/rocket_poison1.ogg" },
       { "file" : "/sfx/gun/rocket_fly.ogg" }
     ]
   },

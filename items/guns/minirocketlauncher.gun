@@ -17,7 +17,7 @@
     "twoHanded" : true,
     "walkWhileFiring" : false,
     "muzzleEffect" : {
-       "fireSound" : [ { "file" : "/sfx/gun/rocket_shot.ogg" } ],
+       "fireSound" : [ { "file" : "/sfx/gun/rocket_fire1.ogg" } ],
        "animation" :  "/animations/muzzleflash/smokemuzzle/smokemuzzle.animation"
     },
     "learnBlueprintsOnPickup" : [ "minirocketlauncher2" ],
