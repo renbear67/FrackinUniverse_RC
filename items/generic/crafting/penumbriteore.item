@@ -5,5 +5,5 @@
   "description" : "Super-hard Penumbrite",
   "shortdescription" : "Penumbrite Ore",
   "pickupQuestTemplates" : [ "penumbrite.gearup" ],
-  "learnBlueprintsOnPickup" : [ "penumbriteshard" ]
+  "learnBlueprintsOnPickup" : [ "penumbriteshard", "staticcell" ]
 }
