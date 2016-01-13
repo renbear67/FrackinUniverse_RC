@@ -31,7 +31,7 @@ function update(dt)
 	
 	entity.setAnimationState("furnaceState", "active")
 	
-	if world.containerConsume(entity.id(), {name = storage.currentinput, count = 2, data={}}) then
+	if world.containerConsume(entity.id(), {name = storage.currentinput, count = 1, data={}}) then
 		if math.random(1,2) == 1 then
 			world.containerConsume(entity.id(), {name = storage.currentinput, count = self.oresubtract, data={}})
 		end
