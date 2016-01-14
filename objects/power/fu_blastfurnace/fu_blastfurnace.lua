@@ -31,9 +31,9 @@ function update(dt)
 	
 	entity.setAnimationState("furnaceState", "active")
 	
-	if world.containerConsume(entity.id(), {name = storage.currentinput, count = 1, data={}}) then
+	if world.containerConsume(entity.id(), {name = storage.currentinput, count = 2, data={}}) then
 		if math.random(1,4) == 1 then
-			world.containerConsume(entity.id(), {name = storage.currentinput, count = 1, data={}})
+			world.containerConsume(entity.id(), {name = storage.currentinput, count = 2, data={}})
 		end
 		if hasBonusOutputs(storage.currentinput) == true then
 			if storage.bonusoutputtable == nil then return end 
