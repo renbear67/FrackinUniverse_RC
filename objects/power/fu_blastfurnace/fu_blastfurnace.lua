@@ -45,7 +45,7 @@ function update(dt)
 			end
 		end
 		
-		world.containerAddItems(entity.id(), {name = storage.currentoutput, count = 1, data={}})
+		world.containerAddItems(entity.id(), {name = storage.currentoutput, count = self.oresubtract, data={}})
 		self.timer = 0.5
 	end
   end	
