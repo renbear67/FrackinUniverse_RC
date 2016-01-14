@@ -10,7 +10,7 @@ function init(virtual)
 end
 
 function update(dt)
-  self.orerandom = math.random(1,2)
+  self.orerandom = math.random(1,3)
   self.timer = self.timer - dt
   if self.timer <= 0 then
 
@@ -33,18 +33,18 @@ function update(dt)
 	
 	if world.containerConsume(entity.id(), {name = storage.currentinput, count = 2, data={}}) then
 		if math.random(1,6) == 1 then
-			world.containerConsume(entity.id(), {name = storage.currentinput, count = 2, data={}})
+		  world.containerConsume(entity.id(), {name = storage.currentinput, count = 2, data={}})
 		end
 		if hasBonusOutputs(storage.currentinput) == true then
 			if storage.bonusoutputtable == nil then return end 
 				for key, value in pairs(storage.bonusoutputtable) do
 					if clearSlotCheck(key) == false then break end
 					if math.random(1,100) <= value then
-						world.containerAddItems(entity.id(), {name = key, count = 1, data={}})
+					  world.containerAddItems(entity.id(), {name = key, count = 1, data={}})
 					end
 			end
 		end
-		
+
 		world.containerAddItems(entity.id(), {name = storage.currentoutput, count = self.orerandom, data={}})
 		self.timer = 0.25
 	end
