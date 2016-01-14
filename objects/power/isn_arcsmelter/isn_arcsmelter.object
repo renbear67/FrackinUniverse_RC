@@ -139,9 +139,9 @@
 //FU bonus outpots
 "eridianore" : { "liquidbioooze" : 28, "fu_nitrogen" :45  },
 "berliniteore" : { "ammoniumsulfate" : 28, "fu_carbon" : 35 },
-"fu_carbon" : { "liquidironfu" : 28, "diamond" : 0.01  },
+"fu_carbon" : { "liquidironfu" : 28, "diamond" : 2  },
 "cinnabarore" : { "fu_nitrogen" : 28, "fu_carbon" : 45 },
-"corruptionore" : { "liquiddarkwater" : 28, "ff_silicon" : 45 },
+"corruptionore" : { "liquiddarkwater" : 28, "unstableparticles" : 25 },
 "densiniumore" : { "liquidironfu" : 28, "fu_carbon" : 45 },
 "ff_plastic" : { "fu_carbon" : 28, "ff_resin" : 45 },
 "graphene" : { "fu_carbon" : 28, "liquidwater" : 45 },
@@ -150,13 +150,15 @@
 "mascagniteore" : { "ammoniumsulfate" : 28, "fu_carbon" : 45 },
 "magnesiumore" : { "magnesiumpowder" : 28, "fu_oxygen" : 45 },
 "lazuliteore" : { "phosphorus" : 28, "fu_oxygen" : 45 },
-"penumbriteore" : { "liquiddarkwater" : 28, "fu_nitrogen" : 45 },
+"penumbriteore" : { "liquiddarkwater" : 28, "phasematter" : 25 },
 "prisiliteore" : { "liquidgravrain" : 28, "fu_oxygen" : 45 },
 "protociteore" : { "vialproto" : 25, "fu_carbon" : 45 },
 "quietusore" : { "shadowgasliquid" : 28, "ff_silicon" : 45 },
 "solarishard" : { "liquidnitrogenitem" : 38, "fu_carbon" : 45 },
 "triangliumore" : { "liquidmercury" : 38, "ff_silicon" : 45 },
-"moonstoneore" : { "helium3gasliquid" : 28, "fu_carbon" : 45 }
-
+"moonstoneore" : { "helium3gasliquid" : 28, "fu_carbon" : 45 },
+"violiumore" : { "fu_carbon" : 28, "fu_nitrogen" : 45 },
+"aegisaltore" : { "helium3gas" : 28, "staticcell" : 25 },
+"rubiumore" : { "fu_hydrogen" : 28, "quietusore" : 25 }
   }
 }

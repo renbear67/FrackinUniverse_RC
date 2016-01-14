@@ -139,9 +139,9 @@
 //FU bonus outpots
 "eridianore" : { "liquidbioooze" : 18, "fu_nitrogen" :15  },
 "berliniteore" : { "ammoniumsulfate" : 18, "fu_carbon" : 15 },
-"fu_carbon" : { "liquidironfu" : 18, "diamond" : 0.01  },
+"fu_carbon" : { "liquidironfu" : 18, "diamond" : 0.5  },
 "cinnabarore" : { "fu_nitrogen" : 18, "fu_carbon" : 15 },
-"corruptionore" : { "liquiddarkwater" : 18, "ff_silicon" : 15 },
+"corruptionore" : { "liquiddarkwater" : 18, "unstableparticles" : 15 },
 "densiniumore" : { "liquidironfu" : 18, "fu_carbon" : 15 },
 "ff_plastic" : { "fu_carbon" : 18, "ff_resin" : 15 },
 "graphene" : { "fu_carbon" : 18, "liquidwater" : 15 },
@@ -150,13 +150,15 @@
 "mascagniteore" : { "ammoniumsulfate" : 18, "fu_carbon" : 15 },
 "magnesiumore" : { "magnesiumpowder" : 18, "fu_oxygen" : 15 },
 "lazuliteore" : { "phosphorus" : 18, "fu_oxygen" : 15 },
-"penumbriteore" : { "liquiddarkwater" : 18, "fu_nitrogen" : 15 },
+"penumbriteore" : { "liquiddarkwater" : 18, "phasematter" : 15 },
 "prisiliteore" : { "liquidgravrain" : 18, "fu_oxygen" : 15 },
 "protociteore" : { "vialproto" : 18, "fu_carbon" : 15 },
 "quietusore" : { "shadowgasliquid" : 18, "ff_silicon" : 15 },
 "solarishard" : { "liquidnitrogenitem" : 18, "fu_carbon" : 15 },
 "triangliumore" : { "liquidmercury" : 18, "ff_silicon" : 15 },
-"moonstoneore" : { "helium3gasliquid" : 18, "fu_carbon" : 15 }
-
+"moonstoneore" : { "helium3gasliquid" : 18, "fu_carbon" : 15 },
+"violiumore" : { "fu_carbon" : 18, "fu_nitrogen" : 15 },
+"aegisaltore" : { "helium3gas" : 18, "staticcell" : 15 },
+"rubiumore" : { "fu_hydrogen" : 18, "quietusore" : 15 }
   }
 }
