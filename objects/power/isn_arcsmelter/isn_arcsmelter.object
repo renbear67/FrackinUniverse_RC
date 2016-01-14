@@ -157,8 +157,8 @@
 "solarishard" : { "liquidnitrogenitem" : 38, "fu_carbon" : 45 },
 "triangliumore" : { "liquidmercury" : 38, "ff_silicon" : 45 },
 "moonstoneore" : { "helium3gasliquid" : 28, "fu_carbon" : 45 },
-"violiumore" : { "fu_carbon" : 28, "fu_nitrogen" : 45 },
-"aegisaltore" : { "helium3gas" : 28, "staticcell" : 25 },
-"rubiumore" : { "fu_hydrogen" : 28, "quietusore" : 25 }
+"violiumore" : { "fu_carbon" : 28, "mineralsample" : 25},
+"aegisaltore" : { "helium3gasliquid" : 18, "staticcell" : 15 },
+"rubiumore" : { "fu_hydrogen" : 18, "iodine" : 25 }
   }
 }
