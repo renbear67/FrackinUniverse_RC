@@ -10,7 +10,7 @@ function init(virtual)
 end
 
 function update(dt)
-  self.oresubtract = math.random(1,2)
+  self.orerandom = math.random(1,2)
   self.timer = self.timer - dt
   if self.timer <= 0 then
 
@@ -45,7 +45,7 @@ function update(dt)
 			end
 		end
 		
-		world.containerAddItems(entity.id(), {name = storage.currentoutput, count = self.oresubtract, data={}})
+		world.containerAddItems(entity.id(), {name = storage.currentoutput, count = self.orerandom, data={}})
 		self.timer = 0.25
 	end
   end	
