@@ -21,7 +21,7 @@
   "projectileType" : "plasmaarrow",
   "projectile" : {
     "speed" : 70,
-    "power" : 0.75,
+    "power" : 0.35,
     "color" : [70, 0, 0]
   },
   "muzzleEffect" : {

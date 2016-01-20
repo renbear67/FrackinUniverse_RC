@@ -10,7 +10,7 @@ function init(virtual)
 end
 
 function update(dt)
-  self.orerandom = math.random(1,3)
+  self.orerandom = math.random(1,2)
   self.timer = self.timer - dt
   if self.timer <= 0 then
 

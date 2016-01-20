@@ -3592,7 +3592,7 @@
       "brush" : [ [ "npc",
           {
             "kind" : "monster",
-            "typeName" : "quadruped",
+            "typeName" : "furatthing",
             "seed" : "stable",
             "parameters" : {
               "aggressive" : false
