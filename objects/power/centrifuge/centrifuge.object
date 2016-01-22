@@ -80,7 +80,7 @@
     "liquidfuel" : { "toxicwaste" : 9, "ff_silicon" : 15 },
     "liquidhealing" : { "fu_oxygen" : 25, "ff_silicon" : 9 },
 //fu liquids
-    "bloodliquid" : { "geneticmaterial" : 13,"tissueculture" : 11, "dnasample" : 5 },
+    "liquidblood" : { "geneticmaterial" : 13,"tissueculture" : 11, "dnasample" : 5 },
     "liquidbioooze" : { "liquidpoison" : 11,"ff_silicon" : 6 },
     "liquidblacktar" : { "liquidoil" : 46,"fu_carbon" : 21 },
     "liquidorganicsoup" : { "geneticmaterial" : 12,"tissueculture" : 12, "dnasample" : 5 },
