@@ -227,7 +227,8 @@
           {
             "pool" : [ 
             [0.5, "wildreefpodseed" ],
-            [0.5, "wildfuspongeweedseed" ] 
+            [0.5, "wildfuspongeweedseed" ],
+            [0.5, "wildgoldenseaspongeplant" ] 
             ],
             "parameters" : {
               "startingStage" : 3
