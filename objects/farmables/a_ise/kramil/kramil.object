@@ -3,7 +3,7 @@
     "colonyTags" : [ "nature" ],
   "rarity" : "rare",
   "category" : "farmable",
-  "description" : "Kramil is known for it's potent anti-cold properties.",
+  "description" : "Kramil is known for its potent anti-cold properties.",
   "shortdescription" : "Kramil",
   "objectType" : "farmable",
   "printable" : false, 
@@ -36,7 +36,7 @@
     {
       "alts" : 5,
       "harvestPool" : "kramil",
-      "resetToStage" : 0
+      "resetToStage" : 1
     }
   ],
     "maxImmersion" : 0.125
