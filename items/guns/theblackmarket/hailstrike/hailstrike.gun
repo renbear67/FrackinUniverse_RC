@@ -18,10 +18,10 @@
   "walkWhileFiring" : true,
    "inaccuracy" : 0.1,
   "classMultiplier" : 2.0,
-  "projectileType" : "plasmaarrow",
+  "projectileType" : "fulaserpistol",
   "projectile" : {
     "speed" : 70,
-    "power" : 0.35,
+    "power" : 0.15,
     "color" : [70, 0, 0]
   },
   "muzzleEffect" : {
