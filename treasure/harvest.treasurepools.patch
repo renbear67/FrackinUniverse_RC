@@ -676,7 +676,14 @@
 
  //NON FF PLANTS
  {"op":"add", "path":"/biscornHarvest", "value":[[0, {"fill":[{"item":"biscornseed"}], "pool":[{"weight":0.6, "item":"biscorn"}, {"weight":0.2, "item":"biscornseed"}, {"weight":0.2, "item":"plantfibre"}], "poolRounds":[[0.5,0],[0.5,1]]}]]}, 
- {"op":"add", "path":"/blizzberryHarvest", "value":[[0, {"fill":[{"item":"blizzberryseed"}], "pool":[{"weight":0.6, "item":"blizzberry"}, {"weight":0.2, "item":"blizzberryseed"}, {"weight":0.2, "item":"plantfibre"}], "poolRounds":[[0.5,0],[0.5,1]]}]]}, 
+ {"op":"add",
+	 "path":"/blizzberryHarvest",
+	 "value":[[0, {
+		 "fill":[{"item":"blizzberryseed"}, {"item":"blizzberry"}],
+		 "pool":[{"weight":0.5, "item":"blizzberryseed"}, {"weight":0.5, "item":"plantfibre"}],
+		 "poolRounds":[[0.5,0],[0.5,1]]
+	 }]]
+ },
  {"op":"add", "path":"/energiflowerHarvest", "value":[[0, {"fill":[{"item":"energiflowerseed"}], "pool":[{"weight":0.6, "item":"energiflower"}, {"weight":0.2, "item":"energiflowerseed"}, {"weight":0.2, "item":"plantfibre"}], "poolRounds":[[0.5,0],[0.5,1]]}]]}, 
  {"op":"add", "path":"/pekkitHarvest", "value":[[0, {"fill":[{"item":"pekkitseed"}], "pool":[{"weight":0.6, "item":"pekkit"}, {"weight":0.2, "item":"pekkitseed"}, {"weight":0.2, "item":"plantfibre"}], "poolRounds":[[0.5,0],[0.5,1]]}]]}, 
  {"op":"add", "path":"/leafshellHarvest", "value":[[0, {"fill":[{"item":"leafshellseed"}], "pool":[{"weight":0.6, "item":"leafshell"}, {"weight":0.2, "item":"leafshellseed"}, {"weight":0.2, "item":"plantfibre"}], "poolRounds":[[0.5,0],[0.5,1]]}]]}, 
