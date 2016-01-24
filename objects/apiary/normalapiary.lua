@@ -141,12 +141,12 @@ function equippedBees(queen,drone)
         local q = queen .. "queen"
         local d = drone .. "drone"
         if equipped(q,d) then 
-		return true 
+			return true 
 		end
         local q = drone .. "queen"
         local d = queen .. "drone"
         if equipped(q,d) then 
-		return true 
+			return true 
 		end
         return false
 end
@@ -258,6 +258,14 @@ function expellQueens(type)   ---Checks how many queens are in the apiary, eithe
 				world.spawnItem(queenname, entity.toAbsolutePosition({ 1, 2 }), queenremoval)
 			end
 		end
+end
+
+
+function spawnHoneyDronesBees(type)  ---condenses the functions that every breeding bee uses, to save space.
+    trySpawnHoney(0.60, type)
+    trySpawnBee(  0.40, type)			---Some randomization is added by the 0.35 chance of spawn.
+    trySpawnDrone(0.40, type)
+	expellQueens(type)  -- bitches this be MY house. (Kicks all queens but 1 out of the apiary)
 end
 
 
@@ -419,6 +427,22 @@ function daytimeCheck()
 				whatTimeOfDay = 2
 			end
 		end
+		if whatTimeOfDay == 2 then
+			if beeNocturnalDiurnal == "diurnal" then
+				entity.setAnimationState("bees", "off")
+			end
+			if beeNocturnalDiurnal == "nocturnal" then
+				entity.setAnimationState("bees", "on")
+			end
+		end
+		if whatTimeOfDay == 1 then
+			if beeNocturnalDiurnal == "nocturnal" then
+				entity.setAnimationState("bees", "off")
+			end
+			if beeNocturnalDiurnal == "diurnal" then
+				entity.setAnimationState("bees", "on")
+			end
+		end
 end
 
 function ammendBeeName()
@@ -465,26 +489,20 @@ function update(dt)
 end
  
 function workingBees()
-	diurnalBees = {"normal", "arid", "miner", "red",  "arctic", "volcanic", "flower", "mythical", "forest", "jungle", "sun", "radioactive", "plutonium", "solarium", "godly" }
-	nocturnalBees = {"nocturnal", "morbid"}   ----these bees will only work at night.
-	ammendBeeName()  ---Removes drone and queen from the bee names and assigns the results to variables bee1Type and bee2Type.
-	
-	if bee1Type == bee2Type then
-		entity.setAnimationState("bees", "on")
-		if whatTimeOfDay == 1 then  				----Daytime
-			for _,v in pairs(diurnalBees) do
-				if v == bee1Type then
-					trySpawnHoney(0.60, bee1Type)
-					trySpawnBee(  0.55, bee1Type)
-					trySpawnDrone(0.40, bee1Type)
-					expellQueens(bee1Type)
-					return true
-				end
+	if whatTimeOfDay == 1 then
+			if equippedBees("normal") then					--NORMAL
+                spawnHoneyDronesBees("normal")
+				beeNocturnalDiurnal = "diurnal"					
+                return true -- no need to check for other bees
 			end
---Bees with exceptions to the default production:
-			if equippedBees("miner") then 
-				trySpawnBee(  0.55, bee1Type)
-				trySpawnDrone(0.40, bee1Type)
+			if equippedBees("arid") then					--ARID
+                spawnHoneyDronesBees("arid")
+				beeNocturnalDiurnal = "diurnal"	
+                return true
+			end
+			if equippedBees("miner") then					--BORING
+                spawnHoneyDronesBees("miner")
+				beeNocturnalDiurnal = "diurnal"	
 				if coppercombs == true then
 					trySpawnHoney(1, "copper")
 				end
@@ -493,7 +511,7 @@ function workingBees()
 				end
 				if goldcombs == true then
 					trySpawnHoney(1, "gold")
-				end                                           ----miner bees depend on frames, and have many resulting outputs.
+				end
 				if preciouscombs == true then
 					trySpawnHoney(1, "precious")
 				end
@@ -514,6 +532,45 @@ function workingBees()
 				trySpawnBee(  0.40, "exceptional")
 				trySpawnDrone(0.40, "exceptional")
                 trySpawnItems(0.40, "fu_liquidhoney")
+				beeNocturnalDiurnal = "diurnal"	
+                return true
+			end
+			if equippedBees("flower") then					--FLOWER
+                spawnHoneyDronesBees("flower")
+                trySpawnItems(0.25, "beeflower")
+				beeNocturnalDiurnal = "diurnal"	
+                return true
+			end
+			if equippedBees("forest") then					--FOREST
+                spawnHoneyDronesBees("forest")
+				beeNocturnalDiurnal = "diurnal"	
+                return true
+			end
+			if equippedBees("jungle") then					--JUNGLE
+                spawnHoneyDronesBees("jungle")
+                trySpawnItems(0.70, "plantfibre")
+				beeNocturnalDiurnal = "diurnal"	
+                return true
+			end
+			if equippedBees("mythical") then					--MYTHICAL
+                spawnHoneyDronesBees("mythical")
+				beeNocturnalDiurnal = "diurnal"	
+                return true
+			end
+			if equippedBees("plutonium") then					--PLUTONIUM
+                spawnHoneyDronesBees("plutonium")
+				beeNocturnalDiurnal = "diurnal"	
+                return true
+			end
+			if equippedBees("radioactive") then					--RADIOACTIVE
+                spawnHoneyDronesBees("radioactive")
+				beeNocturnalDiurnal = "diurnal"	
+                return true
+			end
+			if equippedBees("red") then					--RED
+                spawnHoneyDronesBees("red")
+                trySpawnItems(0.20, "redwaxchunk")
+				beeNocturnalDiurnal = "diurnal"	
                 return true
 			end
 			if equippedBees("aggressive") then					--AGGRESSIVE
@@ -522,57 +579,93 @@ function workingBees()
 				trySpawnDrone(0.40, "aggressive")
 				trySpawnItems(0.10, "alienmeat")
 				expellQueens("aggressive")
-  				beeSting()
+				beeNocturnalDiurnal = "diurnal"	
+				beeSting()
+                return true
+			end
+			if equippedBees("morbid") then					--Morbid
+                spawnHoneyDronesBees("morbid")
+				trySpawnItems(0.60, "ghostlywax")
+				beeNocturnalDiurnal = "diurnal"	
+				beeSting()
                 return true
 			end
 			if equippedBees("hunter") then					--HUNTER
 			    trySpawnHoney(0.50, "silk")
 				trySpawnBee(  0.40, "hunter")
 				trySpawnDrone(0.40, "hunter")
+				beeNocturnalDiurnal = "diurnal"	
 				expellQueens("hunter")
+                return true
+			end
+
+			if equippedBees("solarium") then					--SOLARIUM
+                spawnHoneyDronesBees("solarium")
+				beeNocturnalDiurnal = "diurnal"	
                 return true
 			end
 			if equippedBees("adaptive") then					--Adaptive
 			    trySpawnHoney(0.80, "normal")
 				trySpawnBee(  0.40, "adaptive")
+				beeNocturnalDiurnal = "diurnal"	
 				trySpawnDrone(0.40, "adaptive")
 				expellQueens("adaptive")
                 return true
 			end
+
 			if equippedBees("hardy") then					--HARDY
 			    trySpawnHoney(0.80, "normal")
 				trySpawnBee(  0.40, "hardy")
-				trySpawnDrone(0.40, "hardy")			
+				trySpawnDrone(0.40, "hardy")		
+				beeNocturnalDiurnal = "diurnal"	
 				expellQueens("hardy")
                 return true
 			end
-		end
-
-		if whatTimeOfDay == 2 then   				 ----Night
-			for _,v in pairs(nocturnalBees) do
-				if v == bee1Type then
-					trySpawnHoney(0.60, bee1Type)
-					trySpawnBee(  0.55, bee1Type)
-					trySpawnDrone(0.40, bee1Type)
-					expellQueens(bee1Type)
-					return true
-				end
-			if equippedBees("moon") then					--HARDY
-			    trySpawnHoney(0.80, "normal")
-				trySpawnBee(  0.40, "moon")
-				trySpawnDrone(0.40, "moon")			
-				expellQueens("moon")
-                return true
-			end	
-				if equippedBees("morbid") then					--HARDY
-					beeSting()
+			if equippedBees("godly") then					--GODLY
+                spawnHoneyDronesBees("godly")
+				beeNocturnalDiurnal = "diurnal"	
                 return true
 			end
+			if equippedBees("volcanic") then					--VOLCANIC
+                spawnHoneyDronesBees("volcanic")
+				beeNocturnalDiurnal = "diurnal"	
+                return true
 			end
-		end
+			
+			if equippedBees("sun") then					--SUN
+                spawnHoneyDronesBees("sun")
+				beeNocturnalDiurnal = "diurnal"	
+                return true
+			end
+			if equippedBees("arctic") then					--arctic
+                spawnHoneyDronesBees("arctic")
+				beeNocturnalDiurnal = "diurnal"	
+                return true
+			end
+			if equippedBees("arid") then					--DESERT BEE DONT GIVE A $#@% BOUT CLIMATE
+                spawnHoneyDronesBees("arid")
+                trySpawnItems(0.30, "goldensand")
+				beeNocturnalDiurnal = "diurnal"	
+                return true
+			end
 	end
-	entity.setAnimationState("bees", "off")
-    return false -- we do not have found a match yet, returning false so we can run breedingBees() in main()
+		
+--- In case temp gets added back to Starbound. (Everything Bees)-----------------------------------------------------------------
+		
+----- Nocturnal Bees ------
+	if whatTimeOfDay == 2 then	
+			if equippedBees("moon") then					--MOON
+                spawnHoneyDronesBees("moon")
+				beeNocturnalDiurnal = "nocturnal"
+                return true
+			end
+			if equippedBees("nocturnal") then					--NOCTURNAL
+                spawnHoneyDronesBees("nocturnal")
+				beeNocturnalDiurnal = "nocturnal"
+                return true
+			end
+	end
+	return false -- we do not have found a match yet, returning false so we can run breedingBees() in main()
 end
  
 function breedingBees()
@@ -586,7 +679,7 @@ function breedingBees()
 					["radioactivehardy"] = "plutonium",	["hardyradioactive"] = "plutonium",
 					["plutoniumexceptional"] = "solarium",	["exceptionalplutonium"] = "solarium",
 					["forestjungle"] = "flower",	["jungleforest"] = "flower",
-					["flowerhardy"] = "red",	["hardyflower"] = "red",
+					["flowernormal"] = "red",	["normalflower"] = "red",
 					["flowerexceptional"] = "mythical",	["exceptionalflower"] = "mythical",
 					["minernocturnal"] = "moon",	["nocturnalminer"] = "moon",
 					["moonsolarium"] = "sun",	["solariummoon"] = "sun",
@@ -595,7 +688,7 @@ function breedingBees()
 	
 	ammendBeeName()   ----removes queen and drone from the item names. equippedBees() also does this, but this function is a simple version.
 	local speciesFinder = (bee1Type .. bee2Type)
-	
+	if whatTimeOfDay == 1 then
 		if beeComboList[speciesFinder] ~= nil then   ---If we still have a result...
 			entity.setAnimationState("bees", "on")
 			trySpawnHoney(0.2, "normal") 
@@ -603,9 +696,10 @@ function breedingBees()
 			trySpawnMutantDrone(0.20, beeComboList[speciesFinder]) 
 			expellQueens(bee1Type) 
 			expellQueens(bee2Type)	
+			beeNocturnalDiurnal = "diurnal"
 			return true
 		end
-
+	end
 	beeNocturnalDiurnal = "unknown"	
 	entity.setAnimationState("bees", "off")
     self.beePower = -1
