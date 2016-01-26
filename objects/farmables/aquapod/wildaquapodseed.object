@@ -37,7 +37,7 @@
       "resetToStage" : 2
     }
   ],
-    "maxImmersion" : 1.0,
+    "minImmersion" : 1.0,
     "consumeSoilMoisture" : false,
   "breakDropOptions" : [
     [ [ "aquapodseed", 1, { } ] ]
