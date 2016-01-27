@@ -5,6 +5,5 @@
   "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
   "shortdescription" : "Cooled Volcanic Rock",
   "description" : "You can touch this without losing a hand.",
-  "learnBlueprintsOnPickup" : [ "hellfirehelm", "hellfirechest", "hellfirelegs", "hellfireshield" ],
   "materialId" : 6541
 }
