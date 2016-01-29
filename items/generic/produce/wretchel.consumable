@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "inventoryIcon" : "wretchel.png",
   "description" : "Dimensional instability provides +40% protection from harm. It's a teency bit poisonous, though.",
-  "shortdescription" : "Wretchel Chunk",
+  "shortdescription" : "Wretchel Fruit",
   "learnBlueprintsOnPickup" : [ "batterypack_eridian", "wretchelchest", "wretchelhead", "wretchelpants", "wretchelpoultice" ],
 
   "effects" : [ [
