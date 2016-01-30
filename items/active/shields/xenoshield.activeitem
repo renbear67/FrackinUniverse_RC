@@ -9,7 +9,7 @@
   "twoHanded" : false,
   "itemTags" : ["shield"],
 
-  "inventoryIcon" : "images/reptileshield.png:nearidle",
+  "inventoryIcon" : "images/xenoshield.png:nearidle",
 
   "animation" : "shield.animation",
   "animationParts" : {

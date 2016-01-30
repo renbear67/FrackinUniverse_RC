@@ -57,17 +57,17 @@
           "imagePositionY" : "-8"
       },      
       "10" : {
-          "object" : "screenarray",
-          "imagePositionX" : "-16",
-          "imagePositionY" : "0"
-      },      
-      "11" : {
           "object" : "screenarray1",
           "imagePositionX" : "-16",
           "imagePositionY" : "0"
       },      
-      "12" : {
+      "11" : {
           "object" : "screenarray2",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "0"
+      },      
+      "12" : {
+          "object" : "screenarray3",
           "imagePositionX" : "-16",
           "imagePositionY" : "0"
       }, 
