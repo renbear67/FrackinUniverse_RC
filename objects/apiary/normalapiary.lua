@@ -277,6 +277,16 @@ end
 
 
 function flowerCheck()
+	local flowerObject1 = world.objectQuery(entity.position(), 80, {name="giantflower1"})
+	local flowerObject2 = world.objectQuery(entity.position(), 80, {name="giantflower2"})
+	local flowerObject3 = world.objectQuery(entity.position(), 80, {name="giantflower3"})
+	local flowerObject4 = world.objectQuery(entity.position(), 80, {name="giantflower4"})
+	local flowerObject5 = world.objectQuery(entity.position(), 80, {name="springbush1"})
+	local flowerObject6 = world.objectQuery(entity.position(), 80, {name="springbush2"})
+	local flowerObject7 = world.objectQuery(entity.position(), 80, {name="springbush3"})
+	local flowerObject8 = world.objectQuery(entity.position(), 80, {name="springbush4"})
+	local flowerObject9 = world.objectQuery(entity.position(), 80, {name="springbush5"})
+	local flowerObject10 = world.objectQuery(entity.position(), 80, {name="springbush6"})
 	local flowerRed = world.objectQuery(entity.position(), 80, {name="flowerred"})
 	local flowerYellow = world.objectQuery(entity.position(), 80, {name="floweryellow"})
 	local flowerBlue = world.objectQuery(entity.position(), 80, {name="flowerblue"})
@@ -290,6 +300,36 @@ function flowerCheck()
 	local FFwubstem = world.objectQuery(entity.position(), 80, {name="wubstemseed"}) 
 	
 	local noFlowersYet = self.beePower 			---- Check the initial "beePower" before flowers...
+	if flowerObject1 ~= nil then	
+		self.beePower = self.beePower + math.ceil(math.sqrt(#flowerObject1) / 2)
+	end
+	if flowerObject2 ~= nil then	
+		self.beePower = self.beePower + math.ceil(math.sqrt(#flowerObject2) / 2)
+	end
+	if flowerObject3 ~= nil then	
+		self.beePower = self.beePower + math.ceil(math.sqrt(#flowerObject3) / 2)
+	end	
+	if flowerObject4 ~= nil then	
+		self.beePower = self.beePower + math.ceil(math.sqrt(#flowerObject4) / 2)
+	end	
+	if flowerObject5 ~= nil then	
+		self.beePower = self.beePower + math.ceil(math.sqrt(#flowerObject5) / 2)
+	end	
+	if flowerObject6 ~= nil then	
+		self.beePower = self.beePower + math.ceil(math.sqrt(#flowerObject6) / 2)
+	end	
+	if flowerObject7 ~= nil then	
+		self.beePower = self.beePower + math.ceil(math.sqrt(#flowerObject7) / 2)
+	end	
+	if flowerObject8 ~= nil then	
+		self.beePower = self.beePower + math.ceil(math.sqrt(#flowerObject8) / 2)
+	end	
+	if flowerObject9 ~= nil then	
+		self.beePower = self.beePower + math.ceil(math.sqrt(#flowerObject9) / 2)
+	end
+	if flowerObject10 ~= nil then	
+		self.beePower = self.beePower + math.ceil(math.sqrt(#flowerObject10) / 2)
+	end	
 	if flowerRed ~= nil then	
 		self.beePower = self.beePower + math.ceil(math.sqrt(#flowerRed) / 2)
 	end

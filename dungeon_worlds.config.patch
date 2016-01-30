@@ -6,9 +6,10 @@
       {"primaryDungeon":"scienceoutpost",
       "threatLevel":1,
       "gravity":100,
-      "worldSize":[2000,1000],
-      "dungeonBaseHeight":500,
-      "ambientLightLevel":[200,255,200],
+      "worldSize":[2000,2000],
+      "dungeonBaseHeight":1500,
+      "dungeonSurfaceHeight" : 1209,
+      "ambientLightLevel":[200,200,200],
       "biome" : "thickjungle",
       "musicTrack" : "/music/cygnus-x1.ogg"
       }
