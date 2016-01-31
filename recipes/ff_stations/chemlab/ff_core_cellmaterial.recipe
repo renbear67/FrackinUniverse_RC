@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "geneticmaterial", "count" : 5 },
     { "item" : "tissueculture", "count" : 5 },
-    { "item" : "iodine", "count" : 3 }
+    { "item" : "iodine", "count" : 2 }
   ],
   "output" : {
     "item" : "cellmateria",

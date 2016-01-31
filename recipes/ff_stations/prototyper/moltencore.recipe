@@ -1,8 +1,8 @@
 {
   "input" : [
     { "item" : "corefragmentore", "count" : 2 },
-    { "item" : "liquidlava", "count" : 25 },
-    { "item" : "liquidironfu", "count" : 50 },
+    { "item" : "liquidlava", "count" : 20 },
+    { "item" : "liquidironfu", "count" : 40 },
     { "item" : "zerchesiumbar", "count" : 3 },
     { "item" : "magneticshielding", "count" : 2 }
   ],

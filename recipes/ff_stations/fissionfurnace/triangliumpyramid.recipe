@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "triangliumore", "count" : 3 }
+    { "item" : "triangliumore", "count" : 2 }
   ],
   "output" : {
     "item" : "triangliumpyramid",

@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "ff_protoplating", "count" : 5 },
+    { "item" : "ff_protoplating", "count" : 2 },
     { "item" : "quietusbar", "count" : 2 },
-    { "item" : "titaniumbar", "count" : 5 },
+    { "item" : "titaniumbar", "count" : 4 },
     { "item" : "corefragmentore", "count" : 3 }
   ],
   "output" : {

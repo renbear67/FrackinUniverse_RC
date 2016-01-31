@@ -1,9 +1,9 @@
 {
   "input" : [
     { "item" : "ff_focusingarray", "count" : 2 },
-    { "item" : "helium3cannister", "count" : 6 },
+    { "item" : "helium3cannister", "count" : 4 },
     { "item" : "batterypack_protocyte", "count" : 1 },
-    { "item" : "densealloy", "count" : 4 },
+    { "item" : "densealloy", "count" : 2 },
     { "item" : "fuprocessor", "count" : 1 },
     { "item" : "advcircuit", "count" : 4 }
   ],

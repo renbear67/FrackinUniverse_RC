@@ -3,7 +3,7 @@
    { "item" : "gunpowder", "count" : 8 },
    { "item" : "quietusplate", "count" : 2 },
    { "item" : "minirocketlauncher", "count" : 1 },
-   { "item" : "monsterplating", "count" : 5 }
+   { "item" : "irradiumbar", "count" : 2 }
   ],
   "output" : {
     "item" : "minirocketlauncher2",

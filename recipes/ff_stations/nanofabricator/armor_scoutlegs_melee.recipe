@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "ff_protoplating", "count" : 6 },
+    { "item" : "ff_protoplating", "count" : 3 },
     { "item" : "quietusbar", "count" : 2 },
-    { "item" : "titaniumbar", "count" : 6 },
-    { "item" : "corefragmentore", "count" : 6 }
+    { "item" : "titaniumbar", "count" : 3 },
+    { "item" : "corefragmentore", "count" : 3 }
   ],
   "output" : {
     "item" : "ff_scoutpants_melee",

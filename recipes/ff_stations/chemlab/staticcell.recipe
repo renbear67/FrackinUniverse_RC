@@ -1,9 +1,8 @@
 {
   "input" : [
-    { "item" : "penumbriteore", "count" : 2 },
-    { "item" : "aliencompound", "count" : 2 },
-    { "item" : "fu_hydrogen", "count" : 6 },
-    { "item" : "dnasample", "count" : 4 }
+    { "item" : "algaegreen", "count" : 2 },
+    { "item" : "fu_hydrogen", "count" : 2 },
+    { "item" : "dnasample", "count" : 2 }
   ],
   "output" : {
     "item" : "staticcell",

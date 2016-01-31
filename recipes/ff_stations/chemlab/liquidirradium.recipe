@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "irradiumore", "count" : 20 }
+    { "item" : "irradiumore", "count" : 2 }
   ],
   "output" : {
     "item" : "liquidirradium",

@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "thornitox", "count" : 16 },
-    { "item" : "dnasample", "count" : 48 },
-    { "item" : "ceruliumcompound", "count" : 14 },
+    { "item" : "thornitox", "count" : 8 },
+    { "item" : "dnasample", "count" : 12 },
+    { "item" : "ceruliumcompound", "count" : 4 },
     { "item" : "biochip", "count" : 5 }
   ],
   "output" : {
