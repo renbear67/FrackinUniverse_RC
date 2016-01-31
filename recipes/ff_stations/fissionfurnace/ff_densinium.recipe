@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "densiniumore", "count" : 4 }
+    { "item" : "densiniumore", "count" : 2 }
   ],
   "output" : {
     "item" : "densiniumbar",

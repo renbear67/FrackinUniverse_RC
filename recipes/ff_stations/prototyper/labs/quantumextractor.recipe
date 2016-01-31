@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "densealloy", "count" : 4 },
     { "item" : "quietusplate", "count" : 2 },
-    { "item" : "ff_diamondplating", "count" : 6 },
+    { "item" : "diamond", "count" : 8 },
     { "item" : "nuclearcore", "count" : 1 },
     { "item" : "aichip", "count" : 4 }
   ],

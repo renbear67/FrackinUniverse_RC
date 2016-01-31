@@ -5,7 +5,7 @@
   ],
   "output" : {
     "item" : "fureinforcedglass",
-    "count" : 10
+    "count" : 20
   },
   "groups" : [ "prototyper", "materials", "all" ]
 }

@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "fu_carbon", "count" : 10 },
+    { "item" : "fu_carbon", "count" : 4 },
     { "item" : "lead", "count" : 1 }
   ],
   "output" : { 

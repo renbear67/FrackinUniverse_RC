@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "solarishard", "count" : 3 }
+    { "item" : "solarishard", "count" : 2 }
   ],
   "output" : {
     "item" : "solaricrystal",

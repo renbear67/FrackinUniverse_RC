@@ -1,10 +1,10 @@
 {
   "input" : [
     { "item" : "lead", "count" : 8 },
-    { "item" : "refinedaegisalt", "count" : 8 },
+    { "item" : "refinedaegisalt", "count" : 5 },
     { "item" : "advcircuit", "count" : 2 },
-    { "item" : "unstableparticles", "count" : 4 },
-    { "item" : "helium3cannister", "count" : 4 },
+    { "item" : "unstableparticles", "count" : 3 },
+    { "item" : "helium3cannister", "count" : 3 },
     { "item" : "cpu", "count" : 1 }
   ],
   "output" : {

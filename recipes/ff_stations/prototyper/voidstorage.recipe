@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "shadowgascannister", "count" : 24 },
-    { "item" : "wretchel", "count" : 12 },
+    { "item" : "wretchel", "count" : 8 },
     { "item" : "densiniumbar", "count" : 4 },
     { "item" : "elderrelic9", "count" : 1 },
     { "item" : "elderrelic7", "count" : 1 },

@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "cinnabarore", "count" : 3 }
+    { "item" : "cinnabarore", "count" : 2 }
   ],
   "output" : {
     "item" : "ff_mercury",

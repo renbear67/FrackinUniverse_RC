@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "mascagniteore", "count" : 3 }
+    { "item" : "mascagniteore", "count" : 2 }
   ],
   "output" : {
     "item" : "ammoniumsulfate",

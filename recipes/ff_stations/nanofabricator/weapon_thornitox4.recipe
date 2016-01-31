@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "thornitox", "count" : 12 },
-    { "item" : "dnasample", "count" : 36 },
+    { "item" : "thornitox", "count" : 8 },
+    { "item" : "dnasample", "count" : 12 },
     { "item" : "uraniumrod", "count" : 6 },
     { "item" : "biochip", "count" : 5 }
   ],

@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "fu_salt", "count" : 8 },
+    { "item" : "fu_salt", "count" : 4 },
     { "item" : "blisterbushplantfood", "count" : 1 },
     { "item" : "dnasample", "count" : 1 }
   ],

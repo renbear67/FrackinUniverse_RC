@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "omegajumptechgrant", "count" : 1 },
     { "item" : "unstableparticles", "count" : 5 },
-    { "item" : "eridianbar", "count" : 12 },
+    { "item" : "eridianbar", "count" : 4 },
     { "item" : "blanktechcard", "count" : 2 }
   ],
   "output" : {
