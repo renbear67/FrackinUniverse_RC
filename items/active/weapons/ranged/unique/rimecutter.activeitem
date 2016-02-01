@@ -1,11 +1,11 @@
 {
-  "itemName" : "blistergun2",
+  "itemName" : "rimecutter",
   "price" : 160,
-  "inventoryIcon" : "blistergun2.png",
+  "inventoryIcon" : "rimecutter.png",
   "maxStack" : 1,
-  "rarity" : "common",
-  "description" : "Fires repulsive glowy goo-globs.",
-  "shortdescription" : "Blsiter Gun",
+  "rarity" : "uncommon",
+  "description" : "Fires icy death spikes.",
+  "shortdescription" : "Rime Cutter",
   "level" : 3,
   "tooltipKind" : "gun",
   "weaponType" : "Rifle",
@@ -15,33 +15,33 @@
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
     "butt" : "",
-    "middle" : "blistergun2.png",
+    "middle" : "rimecutter.png",
     "barrel" : "",
-    "muzzleFlash" : "/items/active/weapons/ranged/plasmamuzzle3pink.png"
+    "muzzleFlash" : "/items/active/weapons/ranged/plasmamuzzle3blue.png"
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : [ "/sfx/gun/burstshot1.ogg" ]
+      "fire" : [ "/sfx/weapons/icechucker.ogg" ]
     }
   },
 
-  "baseOffset" : [1.5, 0.0],
-  "muzzleOffset" : [1.645, 0.125],
+  "baseOffset" : [0.56, 0.2],
+  "muzzleOffset" : [2.645, -0.225],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
   "elementalType" : "physical",
 
   "primaryAttack" : {
-    "fireTime" : 1.0,
-    "baseDps" : 6.5,
-    "energyUsage" : 18.0,
-    "inaccuracy" : 0.008,
+    "fireTime" : 0.15,
+    "baseDps" : 7.5,
+    "energyUsage" : 23.5,
+    "inaccuracy" : 0.007,
 
     "projectileCount" : 1,
     "fireType" : "auto",
 
-    "projectileType" : "blistergunshot",
+    "projectileType" : "iceshardsmall",
     "projectileParameters" : { 
       "speed" : 50,
       "knockback" : 20
@@ -67,7 +67,7 @@
       "allowFlip" : false
     },
     "cooldown" : {
-      "duration" : 0.25,
+      "duration" : 0.05,
       "armRotation" : 5,
       "weaponRotation" : 5,
       "twoHanded" : true,
@@ -77,7 +77,7 @@
     }
   },
 
-  "altAbilitySource" : "/items/active/weapons/ranged/altabilities/blisteraltshot.altability",
+  "altAbilitySource" : "/items/active/weapons/ranged/altabilities/rimecutteraltshot.altability",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

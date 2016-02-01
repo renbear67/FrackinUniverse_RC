@@ -3,7 +3,7 @@
  "properties":
     {},
  "spacing":0,
- "tilecount":62,
+ "tilecount":64,
  "tileheight":279,
   "tileproperties" : {
       "0" : {
@@ -315,7 +315,17 @@
           "object" : "genesequencer",
           "imagePositionX" : "-14",
           "imagePositionY" : "0"
-      }      
+      },
+      "62" : {
+          "object" : "electronmicroscope",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0"
+      },
+      "63" : {
+          "object" : "guidestorage",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "0"
+      }  
     },
       
  "tiles":
@@ -567,7 +577,15 @@
      "61":
         {
          "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/stations\/genesequencer.png"
-        }
+        },
+     "62":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/stations\/electronmicroscopeleft.png"
+        },
+     "63":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/stations\/guidestorage.png"
+        }  
     },
  "tilewidth":285
 }
