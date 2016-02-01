@@ -1,50 +1,50 @@
 {
-  "itemName" : "rimecutter",
+  "itemName" : "crystalgun",
   "price" : 160,
-  "inventoryIcon" : "rimecutter.png",
+  "inventoryIcon" : "crystalgun.png",
   "maxStack" : 1,
   "rarity" : "uncommon",
-  "description" : "Fires icy death spikes.",
-  "shortdescription" : "Rime Cutter",
+  "description" : "Fires crystal blades.",
+  "shortdescription" : "Crystalline Cannon",
   "level" : 3,
   "tooltipKind" : "gun",
-  "weaponType" : "Rifle",
+  "weaponType" : "Crystalline",
   "itemTags" : ["weapon","ranged","rifle"],
   "twoHanded" : true,
 
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
     "butt" : "",
-    "middle" : "rimecutter.png",
+    "middle" : "crystalgun.png",
     "barrel" : "",
-    "muzzleFlash" : "/items/active/weapons/ranged/plasmamuzzle3blue.png"
+    "muzzleFlash" : "/animations/muzzleflash/smokemuzzle/smokemuzzle.animation"
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : [ "/sfx/weapons/icechucker.ogg" ]
+      "fire" : [ "/sfx/weapons/vashtagun.ogg" ]
     }
   },
 
-  "baseOffset" : [0.56, 0.2],
-  "muzzleOffset" : [2.645, 0.225],
+  "baseOffset" : [1.5, 0.32],
+  "muzzleOffset" : [1.645, 0.125],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
-  "elementalType" : "physical",
+  "elementalType" : "ice",
 
   "primaryAttack" : {
-    "fireTime" : 0.15,
-    "baseDps" : 7.5,
-    "energyUsage" : 23.5,
-    "inaccuracy" : 0.007,
+    "fireTime" : 0.50,
+    "baseDps" : 9.5,
+    "energyUsage" : 27.5,
+    "inaccuracy" : 0.10,
 
-    "projectileCount" : 1,
+    "projectileCount" : 5,
     "fireType" : "auto",
 
-    "projectileType" : "iceshardsmall",
+    "projectileType" : "crystalshardsmall",
     "projectileParameters" : { 
       "speed" : 50,
-      "knockback" : 20
+      "knockback" : 15
     }
   },
 
@@ -59,17 +59,17 @@
     },
     "fire" : {
       "duration" : 0,
-      "armRotation" : 5,
-      "weaponRotation" : 5,
+      "armRotation" : 8,
+      "weaponRotation" : 8,
       "twoHanded" : true,
 
       "allowRotate" : false,
       "allowFlip" : false
     },
     "cooldown" : {
-      "duration" : 0.05,
-      "armRotation" : 5,
-      "weaponRotation" : 5,
+      "duration" : 0.2,
+      "armRotation" : 8,
+      "weaponRotation" : 8,
       "twoHanded" : true,
 
       "allowRotate" : false,
@@ -77,7 +77,7 @@
     }
   },
 
-  "altAbilitySource" : "/items/active/weapons/ranged/altabilities/rimecutteraltshot.altability",
+  "altAbilitySource" : "/items/active/weapons/ranged/altabilities/crystalbomb.altability",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

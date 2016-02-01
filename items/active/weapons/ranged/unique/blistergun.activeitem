@@ -1,7 +1,7 @@
 {
-  "itemName" : "blistergun2",
+  "itemName" : "blistergun",
   "price" : 160,
-  "inventoryIcon" : "blistergun2.png",
+  "inventoryIcon" : "blistergun.png",
   "maxStack" : 1,
   "rarity" : "common",
   "description" : "Fires repulsive glowy goo-globs.",
@@ -15,7 +15,7 @@
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
     "butt" : "",
-    "middle" : "blistergun2.png",
+    "middle" : "blistergun.png",
     "barrel" : "",
     "muzzleFlash" : "/items/active/weapons/ranged/plasmamuzzle3pink.png"
   },
@@ -30,7 +30,7 @@
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
-  "elementalType" : "physical",
+  "elementalType" : "poison",
 
   "primaryAttack" : {
     "fireTime" : 1.0,

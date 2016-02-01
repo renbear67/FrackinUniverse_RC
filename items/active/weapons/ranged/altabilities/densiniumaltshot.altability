@@ -8,34 +8,34 @@
         "transformationGroups" : ["muzzle"],
         "offsetRegion" : [0, 0, 0, 0],
         "particles" : [
-          { "particle" : "bouncyspark"},
-          { "particle" : "bouncyspark"},
-          { "particle" : "bouncyspark"},
-          { "particle" : "bouncyspark"},
-          { "particle" : "bouncyspark"},
-          { "particle" : "bouncyspark"}
+          { "particle" : "burningdust2"},
+          { "particle" : "burningdust2"},
+          { "particle" : "burningdust2"},
+          { "particle" : "burningdust"},
+          { "particle" : "burningdust"},
+          { "particle" : "burningdust"}
         ]
       }
     },
     "sounds" : {
-      "altFire" : [ "/sfx/projectiles/goo_spit1.ogg" ]
+      "altFire" : [ "/sfx/weapons/fucellgun.ogg" ]
     }
   },
 
   "altAbility" : {
-    "name" : "Guck Spew",
-    "type" : "bouncingshot",
+    "name" : "Warp Blast",
+    "type" : "piercingshot",
     "scripts" : ["/items/active/weapons/ranged/altabilities/altfire.lua"],
 
-    "projectileType" : "blistergunshot",
+    "projectileType" : "densiniumblast",
     "projectileParameters" : {
-      "bounces" : 12,
-      "speed" : 100
+      "piercing" : false
     },
-    
+    "fireTime" : 1.0,
+    "baseDps" : 4.5,
     // use baseDps and fireTime from primary fire
-    
-    "energyUsage" : 32.0,
+    "fireType" : "auto",
+    "energyUsage" : 80.0,
 
     "stances" : {
       "fire" : {
