@@ -111,23 +111,6 @@
                  "y":872
                 }, 
                 {
-                 "height":8,
-                 "id":5256,
-                 "name":"",
-                 "properties":
-                    {
-                     "npc":"human",
-                     "seed":"200",
-                     "typeName":"fuoutpostbeekeeper"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":2760,
-                 "y":984
-                }, 
-                {
                  "gid":3101,
                  "height":8,
                  "id":5257,
@@ -320,23 +303,6 @@
                  "y":864
                 }, 
                 {
-                 "height":8,
-                 "id":5269,
-                 "name":"",
-                 "properties":
-                    {
-                     "npc":"human",
-                     "seed":"12",
-                     "typeName":"fuoutpostcivilian2"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":2192,
-                 "y":984
-                }, 
-                {
                  "gid":2147487781,
                  "height":16,
                  "id":5270,
@@ -447,23 +413,6 @@
                  "width":24,
                  "x":1376,
                  "y":904
-                }, 
-                {
-                 "height":8,
-                 "id":5277,
-                 "name":"",
-                 "properties":
-                    {
-                     "npc":"novakid",
-                     "seed":"77",
-                     "typeName":"fuoutpostcivilian3"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":1736,
-                 "y":968
                 }, 
                 {
                  "gid":2147487781,
@@ -1042,23 +991,6 @@
                  "y":1032
                 }, 
                 {
-                 "height":8,
-                 "id":5317,
-                 "name":"",
-                 "properties":
-                    {
-                     "npc":"human",
-                     "seed":"145",
-                     "typeName":"fuoutposthumanscientist2"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":1384,
-                 "y":1072
-                }, 
-                {
                  "gid":1882,
                  "height":8,
                  "id":5318,
@@ -1107,23 +1039,6 @@
                  "y":792
                 }, 
                 {
-                 "height":8,
-                 "id":5321,
-                 "name":"",
-                 "properties":
-                    {
-                     "npc":"human",
-                     "seed":"280",
-                     "typeName":"starboozenpc"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":3736,
-                 "y":920
-                }, 
-                {
                  "gid":4546,
                  "height":16,
                  "id":5322,
@@ -1138,22 +1053,6 @@
                  "width":24,
                  "x":1600,
                  "y":1016
-                }, 
-                {
-                 "gid":2147487942,
-                 "height":16,
-                 "id":5323,
-                 "name":"",
-                 "properties":
-                    {
-
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":40,
-                 "x":1320,
-                 "y":920
                 }, 
                 {
                  "gid":4446,
@@ -1314,23 +1213,6 @@
                  "width":16,
                  "x":976,
                  "y":1040
-                }, 
-                {
-                 "height":8,
-                 "id":5334,
-                 "name":"",
-                 "properties":
-                    {
-                     "npc":"novakid",
-                     "seed":"22",
-                     "typeName":"fuoutpostnovakidscientist"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":1344,
-                 "y":872
                 }, 
                 {
                  "gid":4529,
@@ -1845,23 +1727,6 @@
                  "y":808
                 }, 
                 {
-                 "height":8,
-                 "id":5368,
-                 "name":"",
-                 "properties":
-                    {
-                     "npc":"human",
-                     "seed":"166",
-                     "typeName":"fuoutposthumanscientist1"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":1248,
-                 "y":968
-                }, 
-                {
                  "gid":4535,
                  "height":24,
                  "id":5369,
@@ -2310,23 +2175,6 @@
                  "y":792
                 }, 
                 {
-                 "height":8,
-                 "id":5397,
-                 "name":"",
-                 "properties":
-                    {
-                     "npc":"hylotl",
-                     "seed":"88",
-                     "typeName":"fuoutposthylotlscientist"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":1416,
-                 "y":608
-                }, 
-                {
                  "gid":2147488232,
                  "height":16,
                  "id":5398,
@@ -2727,23 +2575,6 @@
                  "y":808
                 }, 
                 {
-                 "height":8,
-                 "id":5423,
-                 "name":"",
-                 "properties":
-                    {
-                     "npc":"avian",
-                     "seed":"99",
-                     "typeName":"fuoutpostavianscientist"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":1504,
-                 "y":760
-                }, 
-                {
                  "gid":4568,
                  "height":21,
                  "id":5424,
@@ -3112,23 +2943,6 @@
                  "y":792
                 }, 
                 {
-                 "height":8,
-                 "id":5450,
-                 "name":"",
-                 "properties":
-                    {
-                     "npc":"apex",
-                     "seed":"778",
-                     "typeName":"fuoutpostapexscientist"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":1496,
-                 "y":528
-                }, 
-                {
                  "gid":1882,
                  "height":8,
                  "id":5451,
@@ -3481,23 +3295,6 @@
                  "y":1040
                 }, 
                 {
-                 "height":8,
-                 "id":5474,
-                 "name":"",
-                 "properties":
-                    {
-                     "npc":"human",
-                     "seed":"278",
-                     "typeName":"fuoutpostcivilian"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":2152,
-                 "y":768
-                }, 
-                {
                  "gid":1882,
                  "height":8,
                  "id":5475,
@@ -3544,23 +3341,6 @@
                  "width":16,
                  "x":880,
                  "y":1040
-                }, 
-                {
-                 "height":8,
-                 "id":5479,
-                 "name":"",
-                 "properties":
-                    {
-                     "npc":"hylotl",
-                     "seed":"33",
-                     "typeName":"fuoutpostpenguinscientist"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":1768,
-                 "y":872
                 }, 
                 {
                  "gid":3101,
@@ -3851,23 +3631,6 @@
                  "y":808
                 }, 
                 {
-                 "height":8,
-                 "id":5501,
-                 "name":"",
-                 "properties":
-                    {
-                     "npc":"floran",
-                     "seed":"321",
-                     "typeName":"fuoutpostfloranscientist"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":1472,
-                 "y":880
-                }, 
-                {
                  "gid":94,
                  "height":8,
                  "id":5502,
@@ -3978,23 +3741,6 @@
                  "width":8,
                  "x":1296,
                  "y":976
-                }, 
-                {
-                 "height":8,
-                 "id":5509,
-                 "name":"",
-                 "properties":
-                    {
-                     "npc":"glitch",
-                     "seed":"441",
-                     "typeName":"fuoutpostglitchscientist"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":1672,
-                 "y":752
                 }, 
                 {
                  "gid":4529,
@@ -4621,7 +4367,7 @@
                  "y":784
                 }, 
                 {
-                 "gid":4793,
+                 "gid":4794,
                  "height":16,
                  "id":5555,
                  "name":"",
@@ -4637,7 +4383,7 @@
                  "y":752
                 }, 
                 {
-                 "gid":2147488441,
+                 "gid":2147488442,
                  "height":16,
                  "id":5557,
                  "name":"",
@@ -4653,7 +4399,7 @@
                  "y":752
                 }, 
                 {
-                 "gid":4793,
+                 "gid":4794,
                  "height":16,
                  "id":5558,
                  "name":"",
@@ -4669,7 +4415,7 @@
                  "y":752
                 }, 
                 {
-                 "gid":2147488441,
+                 "gid":2147488442,
                  "height":16,
                  "id":5559,
                  "name":"",
@@ -4685,7 +4431,7 @@
                  "y":752
                 }, 
                 {
-                 "gid":4793,
+                 "gid":4794,
                  "height":16,
                  "id":5560,
                  "name":"",
@@ -4701,7 +4447,7 @@
                  "y":792
                 }, 
                 {
-                 "gid":2147488441,
+                 "gid":2147488442,
                  "height":16,
                  "id":5561,
                  "name":"",
@@ -4717,7 +4463,7 @@
                  "y":792
                 }, 
                 {
-                 "gid":4793,
+                 "gid":4794,
                  "height":16,
                  "id":5562,
                  "name":"",
@@ -4733,7 +4479,7 @@
                  "y":792
                 }, 
                 {
-                 "gid":2147488441,
+                 "gid":2147488442,
                  "height":16,
                  "id":5563,
                  "name":"",
@@ -4749,7 +4495,7 @@
                  "y":792
                 }, 
                 {
-                 "gid":4643,
+                 "gid":4644,
                  "height":16,
                  "id":5564,
                  "name":"",
@@ -5019,6 +4765,38 @@
                  "width":40,
                  "x":1624,
                  "y":672
+                }, 
+                {
+                 "gid":2147488277,
+                 "height":48,
+                 "id":5758,
+                 "name":"",
+                 "properties":
+                    {
+
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":43,
+                 "x":1320,
+                 "y":920
+                }, 
+                {
+                 "gid":3153,
+                 "height":16,
+                 "id":5814,
+                 "name":"",
+                 "properties":
+                    {
+
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":1568,
+                 "y":1408
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -5611,55 +5389,7 @@
                 }, 
                 {
                  "height":0,
-                 "id":5572,
-                 "name":"",
-                 "polyline":[
-                        {
-                         "x":0,
-                         "y":0
-                        }, 
-                        {
-                         "x":-32,
-                         "y":-576
-                        }],
-                 "properties":
-                    {
-
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":0,
-                 "x":1576,
-                 "y":1376
-                }, 
-                {
-                 "height":0,
-                 "id":5573,
-                 "name":"",
-                 "polyline":[
-                        {
-                         "x":0,
-                         "y":0
-                        }, 
-                        {
-                         "x":-48,
-                         "y":-584
-                        }],
-                 "properties":
-                    {
-
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":0,
-                 "x":1568,
-                 "y":1376
-                }, 
-                {
-                 "height":0,
-                 "id":5574,
+                 "id":5805,
                  "name":"",
                  "polyline":[
                         {
@@ -5668,7 +5398,7 @@
                         }, 
                         {
                          "x":48,
-                         "y":576
+                         "y":584
                         }],
                  "properties":
                     {
@@ -5683,7 +5413,7 @@
                 }, 
                 {
                  "height":0,
-                 "id":5575,
+                 "id":5806,
                  "name":"",
                  "polyline":[
                         {
@@ -5691,104 +5421,8 @@
                          "y":0
                         }, 
                         {
-                         "x":-32,
+                         "x":-48,
                          "y":-672
-                        }],
-                 "properties":
-                    {
-
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":0,
-                 "x":1576,
-                 "y":1376
-                }, 
-                {
-                 "height":0,
-                 "id":5576,
-                 "name":"",
-                 "polyline":[
-                        {
-                         "x":0,
-                         "y":0
-                        }, 
-                        {
-                         "x":48,
-                         "y":672
-                        }],
-                 "properties":
-                    {
-
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":0,
-                 "x":1520,
-                 "y":696
-                }, 
-                {
-                 "height":0,
-                 "id":5577,
-                 "name":"",
-                 "polyline":[
-                        {
-                         "x":0,
-                         "y":0
-                        }, 
-                        {
-                         "x":-48,
-                         "y":-680
-                        }],
-                 "properties":
-                    {
-
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":0,
-                 "x":1568,
-                 "y":1376
-                }, 
-                {
-                 "height":0,
-                 "id":5578,
-                 "name":"",
-                 "polyline":[
-                        {
-                         "x":0,
-                         "y":0
-                        }, 
-                        {
-                         "x":48,
-                         "y":776
-                        }],
-                 "properties":
-                    {
-
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":0,
-                 "x":1520,
-                 "y":600
-                }, 
-                {
-                 "height":0,
-                 "id":5579,
-                 "name":"",
-                 "polyline":[
-                        {
-                         "x":0,
-                         "y":0
-                        }, 
-                        {
-                         "x":-48,
-                         "y":-768
                         }],
                  "properties":
                     {
@@ -5800,6 +5434,150 @@
                  "width":0,
                  "x":1568,
                  "y":1368
+                }, 
+                {
+                 "height":0,
+                 "id":5807,
+                 "name":"",
+                 "polyline":[
+                        {
+                         "x":0,
+                         "y":0
+                        }, 
+                        {
+                         "x":32,
+                         "y":576
+                        }],
+                 "properties":
+                    {
+
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":1544,
+                 "y":800
+                }, 
+                {
+                 "height":0,
+                 "id":5808,
+                 "name":"",
+                 "polyline":[
+                        {
+                         "x":0,
+                         "y":0
+                        }, 
+                        {
+                         "x":32,
+                         "y":672
+                        }],
+                 "properties":
+                    {
+
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":1544,
+                 "y":704
+                }, 
+                {
+                 "height":0,
+                 "id":5817,
+                 "name":"",
+                 "polyline":[
+                        {
+                         "x":0,
+                         "y":0
+                        }, 
+                        {
+                         "x":-48,
+                         "y":-704
+                        }],
+                 "properties":
+                    {
+
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":1568,
+                 "y":1400
+                }, 
+                {
+                 "height":0,
+                 "id":5818,
+                 "name":"",
+                 "polyline":[
+                        {
+                         "x":0,
+                         "y":0
+                        }, 
+                        {
+                         "x":-48,
+                         "y":-792
+                        }],
+                 "properties":
+                    {
+
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":1568,
+                 "y":1392
+                }, 
+                {
+                 "height":0,
+                 "id":5819,
+                 "name":"",
+                 "polyline":[
+                        {
+                         "x":0,
+                         "y":0
+                        }, 
+                        {
+                         "x":32,
+                         "y":696
+                        }],
+                 "properties":
+                    {
+
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":1544,
+                 "y":704
+                }, 
+                {
+                 "height":0,
+                 "id":5820,
+                 "name":"",
+                 "polyline":[
+                        {
+                         "x":0,
+                         "y":0
+                        }, 
+                        {
+                         "x":32,
+                         "y":600
+                        }],
+                 "properties":
+                    {
+
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":1544,
+                 "y":800
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -5813,7 +5591,245 @@
          "draworder":"topdown",
          "height":0,
          "name":"monsters & npcs",
-         "objects":[],
+         "objects":[
+                {
+                 "height":8,
+                 "id":5790,
+                 "name":"",
+                 "properties":
+                    {
+                     "npc":"floran",
+                     "seed":"321",
+                     "typeName":"fuoutpostfloranscientist"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":1464,
+                 "y":880
+                }, 
+                {
+                 "height":8,
+                 "id":5791,
+                 "name":"",
+                 "properties":
+                    {
+                     "npc":"novakid",
+                     "seed":"77",
+                     "typeName":"fuoutpostcivilian3"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":1728,
+                 "y":968
+                }, 
+                {
+                 "height":8,
+                 "id":5792,
+                 "name":"",
+                 "properties":
+                    {
+                     "npc":"human",
+                     "seed":"280",
+                     "typeName":"starboozenpc"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":3728,
+                 "y":920
+                }, 
+                {
+                 "height":8,
+                 "id":5793,
+                 "name":"",
+                 "properties":
+                    {
+                     "npc":"human",
+                     "seed":"145",
+                     "typeName":"fuoutposthumanscientist2"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":1376,
+                 "y":1072
+                }, 
+                {
+                 "height":8,
+                 "id":5794,
+                 "name":"",
+                 "properties":
+                    {
+                     "npc":"glitch",
+                     "seed":"441",
+                     "typeName":"fuoutpostglitchscientist"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":1664,
+                 "y":752
+                }, 
+                {
+                 "height":8,
+                 "id":5795,
+                 "name":"",
+                 "properties":
+                    {
+                     "npc":"hylotl",
+                     "seed":"88",
+                     "typeName":"fuoutposthylotlscientist"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":1408,
+                 "y":608
+                }, 
+                {
+                 "height":8,
+                 "id":5796,
+                 "name":"",
+                 "properties":
+                    {
+                     "npc":"human",
+                     "seed":"200",
+                     "typeName":"fuoutpostbeekeeper"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":2752,
+                 "y":984
+                }, 
+                {
+                 "height":8,
+                 "id":5797,
+                 "name":"",
+                 "properties":
+                    {
+                     "npc":"human",
+                     "seed":"278",
+                     "typeName":"fuoutpostcivilian"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":2144,
+                 "y":768
+                }, 
+                {
+                 "height":8,
+                 "id":5798,
+                 "name":"",
+                 "properties":
+                    {
+                     "npc":"avian",
+                     "seed":"99",
+                     "typeName":"fuoutpostavianscientist"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":1496,
+                 "y":760
+                }, 
+                {
+                 "height":8,
+                 "id":5799,
+                 "name":"",
+                 "properties":
+                    {
+                     "npc":"human",
+                     "seed":"166",
+                     "typeName":"fuoutposthumanscientist1"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":1240,
+                 "y":968
+                }, 
+                {
+                 "height":8,
+                 "id":5800,
+                 "name":"",
+                 "properties":
+                    {
+                     "npc":"novakid",
+                     "seed":"22",
+                     "typeName":"fuoutpostnovakidscientist"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":1416,
+                 "y":864
+                }, 
+                {
+                 "height":8,
+                 "id":5801,
+                 "name":"",
+                 "properties":
+                    {
+                     "npc":"human",
+                     "seed":"12",
+                     "typeName":"fuoutpostcivilian2"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":2184,
+                 "y":984
+                }, 
+                {
+                 "height":8,
+                 "id":5802,
+                 "name":"",
+                 "properties":
+                    {
+                     "npc":"hylotl",
+                     "seed":"33",
+                     "typeName":"fuoutpostpenguinscientist"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":1760,
+                 "y":872
+                }, 
+                {
+                 "height":8,
+                 "id":5803,
+                 "name":"",
+                 "properties":
+                    {
+                     "npc":"apex",
+                     "seed":"778",
+                     "typeName":"fuoutpostapexscientist"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":1488,
+                 "y":528
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -5870,7 +5886,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":5758,
+ "nextobjectid":5822,
  "orientation":"orthogonal",
  "properties":
     {
@@ -5984,11 +6000,11 @@
          "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/giraffe_storage\/mods\/FrackinUniverse\/tilesets\/frackinuniverse-custom\/fu_stations.json"
         }, 
         {
-         "firstgid":4629,
+         "firstgid":4630,
          "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/assets\/unpacked\/tilesets\/packed\/objects-by-category\/wire.json"
         }, 
         {
-         "firstgid":4793,
+         "firstgid":4794,
          "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/assets\/unpacked\/tilesets\/packed\/objects-by-colonytag\/ancient.json"
         }],
  "tilewidth":8,
