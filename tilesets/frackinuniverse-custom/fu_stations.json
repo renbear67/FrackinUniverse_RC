@@ -3,7 +3,7 @@
  "properties":
     {},
  "spacing":0,
- "tilecount":61,
+ "tilecount":62,
  "tileheight":279,
   "tileproperties" : {
       "0" : {
@@ -310,7 +310,12 @@
           "object" : "bees_woodencentrifuge",
           "imagePositionX" : "0",
           "imagePositionY" : "0"
-      }
+      },
+      "61" : {
+          "object" : "genesequencer",
+          "imagePositionX" : "-14",
+          "imagePositionY" : "0"
+      }      
     },
       
  "tiles":
@@ -558,7 +563,11 @@
      "60":
         {
          "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/stations\/woodencentrifuge.png"
-        }        
+        },
+     "61":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/stations\/genesequencer.png"
+        }
     },
  "tilewidth":285
 }

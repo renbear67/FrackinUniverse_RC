@@ -80,7 +80,7 @@
         "override" : [
             [0, [
           {
-            "head" : [ "goggles1" ],
+            "head" : [ "blisterhelm" ],
             "chest" : [ "blisterchest" ],
             "legs" : [ "blisterpants" ]
           }
