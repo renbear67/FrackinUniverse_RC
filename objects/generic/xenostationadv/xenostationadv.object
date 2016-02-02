@@ -24,7 +24,7 @@
     {
       "imageLayers" : [ { "image" : "xenostationadvlit.png:<color>.<frame>", "fullbright" : true },{ "image" : "xenostationadv.png:<color>.<frame>" } ],
 
-      "imagePosition" : [-8, 0],
+      "imagePosition" : [0, 0],
       "frames" : 4,
       "animationCycle" : 0.75,
       
@@ -37,7 +37,7 @@
     {
       "imageLayers" : [ { "image" : "xenostationadvlit.png:<color>.<frame>", "fullbright" : true },{ "image" : "xenostationadv.png:<color>.<frame>" } ],
 
-      "imagePosition" : [-8, 0],
+      "imagePosition" : [0, 0],
       "frames" : 4,
       "animationCycle" : 0.75,
       

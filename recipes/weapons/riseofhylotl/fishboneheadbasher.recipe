@@ -8,5 +8,5 @@
     "item" : "fishboneheadbasher",
     "count" : 1
   },
-  "groups" : [ "armory", "weapons", "all" ]
+  "groups" : [ "armory", "weapons", "melee", "all" ]
 }
