@@ -37,7 +37,7 @@
     "fireType" : "auto",
     // use baseDps and fireTime from primary fire
 
-    "energyUsage" : 30.0,
+    "energyUsage" : 50.0,
 
     "stances" : {
       "fire" : {
