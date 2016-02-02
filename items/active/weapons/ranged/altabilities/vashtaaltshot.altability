@@ -23,7 +23,7 @@
   },
 
   "altAbility" : {
-    "name" : "Ice Blade",
+    "name" : "Thorn Claw",
     "type" : "piercingshot",
     "scripts" : ["/items/active/weapons/ranged/altabilities/altfire.lua"],
 
