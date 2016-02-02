@@ -1,6 +1,6 @@
 {
   "projectileName" : "densiniumrifleshot",
-  "physics" : "gas",
+  "physics" : "laser",
   "bounces" : 0,
   "speed" : 5,
   "timeToLive" : 1.4,
@@ -21,5 +21,5 @@
     }
   ],
   "damageKind" : "plasma",
-  "emitters" : [ "barrierelectric" ]
+  "emitters" : [ "iceplasma" ]
 }
