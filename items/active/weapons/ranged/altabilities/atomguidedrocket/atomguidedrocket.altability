@@ -36,7 +36,9 @@
       "ice" : { "projectileType" : "atomguidedrocket" },
       "poison" : { "projectileType" : "atomguidedrocket" }
     },
-    "projectileParameters" : {},
+    "projectileParameters" : {
+          "knockback" : 20
+         },
     "baseDps" : 6.35,
     "energyUsage" : 44,
     "fireTime" : 0.1,

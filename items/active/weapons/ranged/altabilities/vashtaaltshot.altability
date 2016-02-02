@@ -1,0 +1,61 @@
+{
+  "animationParts" : { },
+  "animationCustom" : {
+    "particleEmitters" : {
+      "altMuzzleFlash" : {
+        "active" : false,
+        "emissionRate" : 8,
+        "transformationGroups" : ["muzzle"],
+        "offsetRegion" : [0, 0, 0, 0],
+        "particles" : [
+          { "particle" : "fastrisingpoison1"},
+          { "particle" : "fastrisingpoison1"},
+          { "particle" : "fastrisingpoison1"},
+          { "particle" : "fastrisingpoison1"},
+          { "particle" : "fastrisingpoison1"},
+          { "particle" : "fastrisingpoison1"}
+        ]
+      }
+    },
+    "sounds" : {
+      "altFire" : [ "/sfx/weapons/vashtagun.ogg" ]
+    }
+  },
+
+  "altAbility" : {
+    "name" : "Ice Blade",
+    "type" : "piercingshot",
+    "scripts" : ["/items/active/weapons/ranged/altabilities/altfire.lua"],
+
+    "projectileType" : "vashtagunshot",
+    "projectileParameters" : {
+      "piercing" : true
+    },
+    "fireTime" : 1.0,
+    "baseDps" : 5.5,
+    // use baseDps and fireTime from primary fire
+
+    "energyUsage" : 50.0,
+
+    "stances" : {
+      "fire" : {
+        "duration" : 0.15,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.15,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  }
+}
