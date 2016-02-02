@@ -1,58 +1,58 @@
 {
-  "itemName" : "fugaussrifle",
+  "itemName" : "vashtagun",
   "price" : 160,
-  "inventoryIcon" : "fugaussrifle.png",
+  "inventoryIcon" : "vashtagun.png",
   "maxStack" : 1,
-  "rarity" : "uncommon",
-  "description" : "A fantastic assault rifle.",
-  "shortdescription" : "Gauss Rifle",
+  "rarity" : "rare",
+  "description" : "Shoots nasty, curved, weaponized vashta blades.",
+  "shortdescription" : "Vashta Cutter",
   "level" : 3,
   "tooltipKind" : "gun",
-  "weaponType" : "Coilgun",
-  "itemTags" : ["weapon","ranged","assaultrifle"],
+  "weaponType" : "Rifle",
+  "itemTags" : ["weapon","ranged","rocketlauncher"],
   "twoHanded" : true,
 
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
     "butt" : "",
-    "middle" : "fugaussrifle.png",
+    "middle" : "vashtagun.png",
     "barrel" : "",
     "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : [ "/sfx/gun/pulserifle2.ogg" ]
+      "fire" : [ "/sfx/weapons/vashtagun.ogg" ]
     }
   },
 
-  "baseOffset" : [0.7, 0.3],
-  "muzzleOffset" : [2.845, -0.12],
-
+  "baseOffset" : [1.0, 0.2],
+  "muzzleOffset" : [1.645, 0.125],
+  "learnBlueprintsOnPickup" : [ "minirocketlauncher2" ],
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
-  "elementalType" : "electric",
+  "elementalType" : "poison",
 
   "primaryAttack" : {
-    "fireTime" : 0.154,
-    "baseDps" : 7.5,
-    "energyUsage" : 25.0,
-    "inaccuracy" : 0.03,
+    "fireTime" : 0.22,
+    "baseDps" : 3.8,
+    "energyUsage" : 18.0,
+    "inaccuracy" : 0.1,
 
     "projectileCount" : 1,
     "fireType" : "auto",
 
-    "projectileType" : "gaussrifleshot",
+    "projectileType" : "lunarangshard",
     "projectileParameters" : { 
-      "speed" : 72,
-      "knockback" : 4
+      "speed" : 50,
+      "knockback" : 20
     }
   },
     "particleEmitters" : {
       "muzzleFlash" : {
         "particles" : [
-          { "particle" : "tinyrocketsmoke", "offset" : [0.0, 0.0] },
-          { "particle" : "tinyrocketsmoke", "offset" : [0.0, 0.0] },
-          { "particle" : "tinyrocketsmoke", "offset" : [0.0, 0.0] }
+          { "particle" : "fastrisingpoison1", "offset" : [0.0, 0.0] },
+          { "particle" : "fastrisingpoison1", "offset" : [0.0, 0.0] },
+          { "particle" : "fastrisingpoison1", "offset" : [0.0, 0.0] }
         ]
       }
     },
@@ -75,7 +75,7 @@
       "allowFlip" : false
     },
     "cooldown" : {
-      "duration" : 0.075,
+      "duration" : 0.25,
       "armRotation" : 5,
       "weaponRotation" : 5,
       "twoHanded" : true,
@@ -85,7 +85,7 @@
     }
   },
 
-  "altAbilitySource" : "/items/active/weapons/ranged/altabilities/spray/spray.altability",
+  "altAbilitySource" : "/items/active/weapons/ranged/altabilities/vashtaaltshot.altability",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

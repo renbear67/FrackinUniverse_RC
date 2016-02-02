@@ -1,51 +1,50 @@
 {
-  "itemName" : "ionrifle",
+  "itemName" : "fucellgun",
   "price" : 160,
-  "inventoryIcon" : "ionrifle.png",
+  "inventoryIcon" : "fucellgun.png",
   "maxStack" : 1,
-  "rarity" : "uncommon",
-  "description" : "Fires reflective bursts of ion energy.",
-  "shortdescription" : "Ion Rifle",
+  "rarity" : "rare",
+  "description" : "Eradicates cellular matter.",
+  "shortdescription" : "Cellular Rifle",
   "level" : 3,
   "tooltipKind" : "gun",
-  "weaponType" : "Energy",
-  "itemTags" : ["weapon","ranged","assaultrifle"],
+  "weaponType" : "Bio-Weaopn",
+  "itemTags" : ["weapon","ranged","sniperrifle"],
   "twoHanded" : true,
 
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
     "butt" : "",
-    "middle" : "ionrifle.png",
+    "middle" : "fucellgun.png",
     "barrel" : "",
     "muzzleFlash" : "/items/active/weapons/ranged/plasmamuzzle3blue.png"
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : [ "/sfx/weapons/ionrifle.ogg" ]
+      "fire" : [ "/sfx/weapons/fucellgun.ogg" ]
     }
   },
 
-  "baseOffset" : [0.68, -0.22],
-  "muzzleOffset" : [2.845, 0.325],
+  "baseOffset" : [0.86, 0.4],
+  "muzzleOffset" : [2.445, 0.125],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
-  "elementalType" : "electric",
+  "elementalType" : "ice",
 
   "primaryAttack" : {
-    "fireTime" : 0.11,
-    "baseDps" : 7.158,
-    "energyUsage" : 32,
-    "inaccuracy" : 0.03,
-    "burstTime" : 0.075,
-    "burstCount" : 3,
-    "projectileCount" : 1,
-    "fireType" : "burst",
+    "fireTime" : 0.7,
+    "baseDps" : 8.5,
+    "energyUsage" : 43.5,
+    "inaccuracy" : 0,
 
-    "projectileType" : "ionrifleshot",
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "cellblastX",
     "projectileParameters" : { 
-      "speed" : 60,
-      "knockback" : 2.5
+      "speed" : 50,
+      "knockback" : 20
     }
   },
 
@@ -68,7 +67,7 @@
       "allowFlip" : false
     },
     "cooldown" : {
-      "duration" : 0.002,
+      "duration" : 0.15,
       "armRotation" : 5,
       "weaponRotation" : 5,
       "twoHanded" : true,
@@ -78,7 +77,7 @@
     }
   },
 
-  "altAbilitySource" : "/items/active/weapons/ranged/altabilities/iongrenadelauncher/iongrenadelauncher.altability",
+  "altAbilitySource" : "/items/active/weapons/ranged/altabilities/explosiveburst/explosiveburst.altability",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

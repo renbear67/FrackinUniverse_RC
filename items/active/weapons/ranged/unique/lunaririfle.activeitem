@@ -1,51 +1,49 @@
 {
-  "itemName" : "ionrifle",
+  "itemName" : "lunaririfle",
   "price" : 160,
-  "inventoryIcon" : "ionrifle.png",
+  "inventoryIcon" : "lunaririfle.png",
   "maxStack" : 1,
   "rarity" : "uncommon",
-  "description" : "Fires reflective bursts of ion energy.",
-  "shortdescription" : "Ion Rifle",
+    "description" : "Fires wonderful crystal blasts.",
+    "shortdescription" : "Lunari Rifle",
   "level" : 3,
   "tooltipKind" : "gun",
-  "weaponType" : "Energy",
+  "weaponType" : "Crystalline Shotgun",
   "itemTags" : ["weapon","ranged","assaultrifle"],
   "twoHanded" : true,
 
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
     "butt" : "",
-    "middle" : "ionrifle.png",
-    "barrel" : "",
-    "muzzleFlash" : "/items/active/weapons/ranged/plasmamuzzle3blue.png"
+    "middle" : "lunaririfle.png",
+    "barrel" : ""
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : [ "/sfx/weapons/ionrifle.ogg" ]
+      "fire" : [ "/sfx/weapons/beam.ogg" ]
     }
   },
 
-  "baseOffset" : [0.68, -0.22],
-  "muzzleOffset" : [2.845, 0.325],
+  "baseOffset" : [0.56, 0.2],
+  "muzzleOffset" : [2.645, 0.225],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
-  "elementalType" : "electric",
+  "elementalType" : "physical",
 
   "primaryAttack" : {
-    "fireTime" : 0.11,
-    "baseDps" : 7.158,
-    "energyUsage" : 32,
-    "inaccuracy" : 0.03,
-    "burstTime" : 0.075,
-    "burstCount" : 3,
-    "projectileCount" : 1,
-    "fireType" : "burst",
+    "fireTime" : 0.36,
+    "baseDps" : 6.5,
+    "energyUsage" : 23.5,
+    "inaccuracy" : 0.085,
 
-    "projectileType" : "ionrifleshot",
+    "projectileCount" : 4,
+    "fireType" : "auto",
+
+    "projectileType" : "lunarishot",
     "projectileParameters" : { 
-      "speed" : 60,
-      "knockback" : 2.5
+      "speed" : 40,
+      "knockback" : 10
     }
   },
 
@@ -68,7 +66,7 @@
       "allowFlip" : false
     },
     "cooldown" : {
-      "duration" : 0.002,
+      "duration" : 0.05,
       "armRotation" : 5,
       "weaponRotation" : 5,
       "twoHanded" : true,
@@ -78,7 +76,7 @@
     }
   },
 
-  "altAbilitySource" : "/items/active/weapons/ranged/altabilities/iongrenadelauncher/iongrenadelauncher.altability",
+  "altAbilitySource" : "/items/active/weapons/ranged/altabilities/lunarishrapnelbomb/lunarishrapnelbomb.altability",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

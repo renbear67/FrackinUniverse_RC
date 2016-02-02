@@ -1,51 +1,49 @@
 {
-  "itemName" : "ionrifle",
+  "itemName" : "fusteampunkgun",
   "price" : 160,
-  "inventoryIcon" : "ionrifle.png",
+  "inventoryIcon" : "fusteampunkgun.png",
   "maxStack" : 1,
-  "rarity" : "uncommon",
-  "description" : "Fires reflective bursts of ion energy.",
-  "shortdescription" : "Ion Rifle",
+  "rarity" : "rare",
+    "description" : "Zappy fun to be had with this sweet baby.",
+    "shortdescription" : "Shock Rifle",
   "level" : 3,
   "tooltipKind" : "gun",
-  "weaponType" : "Energy",
-  "itemTags" : ["weapon","ranged","assaultrifle"],
+  "weaponType" : "Electric",
+  "itemTags" : ["weapon","ranged","sniperrifle"],
   "twoHanded" : true,
 
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
     "butt" : "",
-    "middle" : "ionrifle.png",
+    "middle" : "fusteampunkgun.png",
     "barrel" : "",
-    "muzzleFlash" : "/items/active/weapons/ranged/plasmamuzzle3blue.png"
+    "muzzleFlash" : "/items/active/weapons/ranged/densiniummuzzle.png"
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : [ "/sfx/weapons/ionrifle.ogg" ]
+      "fire" : [ "/sfx/weapons/teslagun.ogg" ]
     }
   },
 
-  "baseOffset" : [0.68, -0.22],
-  "muzzleOffset" : [2.845, 0.325],
+  "baseOffset" : [0.68, 0.32],
+  "muzzleOffset" : [1.845, 0.105],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
   "elementalType" : "electric",
 
   "primaryAttack" : {
-    "fireTime" : 0.11,
-    "baseDps" : 7.158,
-    "energyUsage" : 32,
-    "inaccuracy" : 0.03,
-    "burstTime" : 0.075,
-    "burstCount" : 3,
+    "fireTime" : 0.22,
+    "baseDps" : 7,
+    "energyUsage" : 30,
+    "inaccuracy" : 0.012,
     "projectileCount" : 1,
-    "fireType" : "burst",
+    "fireType" : "auto",
 
-    "projectileType" : "ionrifleshot",
+    "projectileType" : "pulsecannon",
     "projectileParameters" : { 
       "speed" : 60,
-      "knockback" : 2.5
+      "knockback" : 4
     }
   },
 
@@ -68,7 +66,7 @@
       "allowFlip" : false
     },
     "cooldown" : {
-      "duration" : 0.002,
+      "duration" : 0.055,
       "armRotation" : 5,
       "weaponRotation" : 5,
       "twoHanded" : true,
@@ -78,7 +76,7 @@
     }
   },
 
-  "altAbilitySource" : "/items/active/weapons/ranged/altabilities/iongrenadelauncher/iongrenadelauncher.altability",
+  "altAbilitySource" : "/items/active/weapons/ranged/altabilities/steampunkburstshot/steampunkburstshot.altability",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }
