@@ -40,7 +40,7 @@
     "statusEffects" : [
 	"ffextremeradiation"	
   ],
-  "damageKind" : "default",
+  "damageKind" : "poison",
   "emitters" : [ "peglacitrail" ]
 }
 
