@@ -27,7 +27,7 @@
 
     "projectileType" : "gravitonorb2",
     "projectileParameters" : { 
-      "speed" : 30,
+      "speed" : 50,
       "knockback" : 80
     },
     "fireTime" : 1.0,

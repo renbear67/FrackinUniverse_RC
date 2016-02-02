@@ -6,7 +6,7 @@
   "rarity" : "rare",
   "description" : "Launches micro-gravity disruptions.",
   "shortdescription" : "Graviton Gun",
-  "level" : 3,
+  "level" : 4,
   "tooltipKind" : "gun",
   "weaponType" : "Grav-Projector",
   "itemTags" : ["weapon","ranged","rocketlauncher"],
@@ -26,7 +26,7 @@
   },
 
   "baseOffset" : [1.0, 0.2],
-  "muzzleOffset" : [1.645, 0.125],
+  "muzzleOffset" : [1.645, 0.225],
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
   "elementalType" : "physical",
