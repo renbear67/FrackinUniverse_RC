@@ -4,7 +4,7 @@
   "category" : "crafting",
   "price" : 3000,
   "objectType" : "container", 
-  "description" : "Apply upgrades to weapons and armor. Requires 6u power.",
+  "description" : "Apply upgrades to any body armor. Requires 6u power.",
   "shortdescription" : "Upgrade Station",
   "race" : "generic",
 

@@ -5,7 +5,7 @@
     { "item" : "bone", "count" : 4 }
   ],
   "output" : {
-    "item" : "fuwarphunterhead",
+    "item" : "fudesertwalkerhead",
     "count" : 1
   },
   "groups" : [ "armory", "armors", "all" ]

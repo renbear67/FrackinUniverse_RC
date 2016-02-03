@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "refinedviolium", "count" : 5 },
+    { "item" : "refinedviolium", "count" : 3 },
     { "item" : "graphene", "count" : 3 },
     { "item" : "coil", "count" : 2 }
   ],

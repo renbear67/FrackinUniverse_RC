@@ -2,8 +2,8 @@
   "input" : [
     { "item" : "rawminerals", "count" : 20 },
     { "item" : "densealloy", "count" : 3 },
-    { "item" : "scorchedcore", "count" : 5 },
-    { "item" : "obsidianshard", "count" : 15 }
+    { "item" : "scorchedcore", "count" : 3 },
+    { "item" : "obsidianshard", "count" : 4 }
   ],
   "output" : {
     "item" : "hellfirelegs",

@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "steelbar", "count" : 3 },
     { "item" : "gene_regen", "count" : 2 },
-    { "item" : "solaricrystal", "count" : 6 }
+    { "item" : "solaricrystal", "count" : 4 }
   ],
   "output" : {
     "item" : "lunarilegs",
