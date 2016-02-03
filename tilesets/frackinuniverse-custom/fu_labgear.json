@@ -3,7 +3,7 @@
  "properties":
     {},
  "spacing":0,
- "tilecount":33,
+ "tilecount":34,
  "tileheight":279,
   "tileproperties" : {
       "0" : {
@@ -170,7 +170,12 @@
           "object" : "fuokeaclock2",
           "imagePositionX" : "-8",
           "imagePositionY" : "-8"
-      }      
+      },
+      "33" : {
+          "object" : "labdoor3",
+          "imagePositionX" : "-20",
+          "imagePositionY" : "0"
+      }        
     },
       
  "tiles":
@@ -306,7 +311,11 @@
      "32":
         {
          "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/pixelgoods\/okeaclock2.png"
-        }
+        },
+     "33":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/labgear\/labdoor3.png"
+        }        
     },
  "tilewidth":285
 }
