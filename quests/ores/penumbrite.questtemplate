@@ -2,9 +2,9 @@
   "id" : "penumbrite.gearup",
   "title" : "^#1693d5;A Glow in the Darkness",
   "text" : "Well, how about that. ^orange;Penumbrite Ore^white;. I can fashion this into shards or plates for use in weapons, armor and more.",
-  "completionText" : "I'm glad I found a lot of this ore, since it is exceptionally useful with the right applications.",
+  "completionText" : "I should stockpile this ore, since it seems to possess many desirable qualities.",
   "speaker" : "player",
-  "moneyRange" : [500, 900],
+  "moneyRange" : [100, 200],
   "rewards" : [],
 
 
@@ -15,7 +15,7 @@
     "gatherRequirements" : {
       "items" : {
         "penumbriteore" : {
-          "count" : 50,
+          "count" : 1,
           "consume" : false
         }
       }

@@ -4,7 +4,7 @@
   "text" : "I managed to score some ^orange;Irradium Ore^white;! I've heard from colleagues that it can be used to make some ^green;amazing technology^white;.",
   "completionText" : "While it is radioactive, these isotopes actually seem benign to my biology. That could make for some rather useful armaments and defenses.",
   "speaker" : "player",
-  "moneyRange" : [500, 1000],
+  "moneyRange" : [100, 200],
   "rewards" : [],
 
 
@@ -15,7 +15,7 @@
     "gatherRequirements" : {
       "items" : {
         "irradiumore" : {
-          "count" : 50,
+          "count" : 1,
           "consume" : false
         }
       }

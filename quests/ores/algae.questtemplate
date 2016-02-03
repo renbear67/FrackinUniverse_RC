@@ -15,7 +15,7 @@
     "gatherRequirements" : {
       "items" : {
         "algaegreen" : {
-          "count" : 50,
+          "count" : 1,
           "consume" : false
         }
       }

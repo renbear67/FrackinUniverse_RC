@@ -2,7 +2,7 @@
   "id" : "magnesite.gearup",
   "title" : "^#1693d5;Metal of Magnesia",
   "text" : "I've located some ^orange;Magnesite Ore^white;. I can smelt or extract this for some handy magnesium, which in turn can fashion ^green;superior resources^white;.",
-  "completionText" : "I now have a source of Magnesium, which will most certainly come in handy in the near future. I can't do much in my lab without it.",
+  "completionText" : "I now have a source of Magnesium. I can't do much in my lab without it.",
   "speaker" : "player",
   "moneyRange" : [100, 200],
   "rewards" : [],
@@ -15,7 +15,7 @@
     "gatherRequirements" : {
       "items" : {
         "magnesiumore" : {
-          "count" : 50,
+          "count" : 1,
           "consume" : false
         }
       }

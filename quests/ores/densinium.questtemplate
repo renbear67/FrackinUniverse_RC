@@ -4,7 +4,7 @@
   "text" : "I found something extremely rare today: ^orange;Densinium Ore^white;. This is, hands down, one of the ^green;strongest metals in existence^white;. It's value is quite high.",
   "completionText" : "With this, I can create some of the toughest, most reliable technology known.",
   "speaker" : "player",
-  "moneyRange" : [1000, 2000],
+  "moneyRange" : [100, 200],
   "rewards" : [],
 
 
@@ -15,7 +15,7 @@
     "gatherRequirements" : {
       "items" : {
         "densiniumore" : {
-          "count" : 50,
+          "count" : 1,
           "consume" : false
         }
       }

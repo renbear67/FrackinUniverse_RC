@@ -4,7 +4,7 @@
   "text" : "I've located some ^orange;Protocyte^white;. It generates a natural energy, and makes my hands tingle. This will definitely be useful ^green;in my lab^white;.",
   "completionText" : "Protocyte has numerous uses in construction, but it can also be melted down into a liquid and used as a fuel source, and so much more besides.",
   "speaker" : "player",
-  "moneyRange" : [500, 1200],
+  "moneyRange" : [100, 200],
   "rewards" : [],
 
 
@@ -15,7 +15,7 @@
     "gatherRequirements" : {
       "items" : {
         "protociteore" : {
-          "count" : 50,
+          "count" : 1,
           "consume" : false
         }
       }
