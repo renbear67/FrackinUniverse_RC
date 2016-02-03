@@ -10,7 +10,8 @@
   "speed" : 55,
   "timeToLive" : 1.25,
   "bounces" : 5,
-  "piercing" : true,
+    "lightColor" : [81,96,61],
+  "piercing" : false,
   "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],
   "damageKind" : "electricplasma"
 }

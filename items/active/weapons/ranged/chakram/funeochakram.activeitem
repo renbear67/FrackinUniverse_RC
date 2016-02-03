@@ -1,0 +1,92 @@
+{
+  "itemName" : "funeochakram",
+  "price" : 500,
+  
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "Crackling with destructive energy.",
+  "shortdescription" : "Pisces Iscariot",
+  "tooltipKind" : "base",
+  "weaponType" : "Chakram",
+  "twoHanded" : false,
+  "itemTags" : ["weapon"],
+
+  "inventoryIcon" : "funeochakram.png",
+  "animation" : "chakram.animation",
+  "animationParts" : {
+    "chakram" : "funeochakram.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "throw" : [ "/sfx/melee/swing_dagger.ogg" ]
+    }
+  },
+  "scripts" : ["/items/active/weapons/ranged/boomerang/boomerang.lua"],
+  "fireOffset" : [1.25, 0.5],
+  
+  "projectileType" : "neochakram",
+  "projectileParameters" : {
+    "knockback" : 5,
+    "power" : 3,
+    "damageRepeatTimeout" : 0.075,
+
+    "returnOnHit" : false,
+    "pickupDistance" : 4.0,
+
+    "hoverMaxDistance" : 25,
+    "hoverTime" : 1.4
+  },
+  "level" : 4,
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -20,
+      "itemRotation" : {
+        "weapon" : 0
+      },
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "windup" : {
+      "duration" : 0.1,
+      "transition" : "throw",
+      "transitionFunction" : "fire",
+      "armRotation" : 70,
+      "itemRotation" : {
+        "weapon" : 0
+      },
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "throw" : {
+      "armRotation" : 0,
+      "itemRotation" : {
+        "weapon" : 0
+      },
+      "animationState" : {
+        "weapon" : "hidden"
+      },
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "catch" : {
+      "duration" : 0.2,
+      "transition" : "idle",
+      "armRotation" : 60,
+      "itemRotation" : {
+        "weapon" : 0
+      },
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : false,
+      "allowFlip" : true
+    }
+  }
+}
