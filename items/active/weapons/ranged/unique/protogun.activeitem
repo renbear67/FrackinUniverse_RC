@@ -25,18 +25,18 @@
     }
   },
 
-  "baseOffset" : [1.5, 0.32],
-  "muzzleOffset" : [1.645, 0.125],
+  "baseOffset" : [1.7, 0.32],
+  "muzzleOffset" : [1.645, -0.225],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
   "elementalType" : "electric",
 
   "primaryAttack" : {
-    "fireTime" : 0.50,
-    "baseDps" : 9.75,
+    "fireTime" : 0.80,
+    "baseDps" : 7.0,
     "energyUsage" : 27.5,
-    "inaccuracy" : 0.40,
+    "inaccuracy" : 0.20,
 
     "projectileCount" : 5,
     "fireType" : "auto",
