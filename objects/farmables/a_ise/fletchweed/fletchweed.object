@@ -3,7 +3,7 @@
     "colonyTags" : [ "nature" ],
   "rarity" : "rare",
   "category" : "farmable",
-  "description" : "Its produce is quite packed with energy.",
+  "description" : "It's produce is quite packed with energy.",
   "shortdescription" : "Fletchweed",
   "objectType" : "farmable",
   "printable" : false, 
