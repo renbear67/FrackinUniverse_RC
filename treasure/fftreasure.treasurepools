@@ -56,6 +56,7 @@
           {"weight" : 0.5, "item" : ["bandage", 3]},
           {"weight" : 0.05, "item" : ["molotov", 3]},
           {"weight" : 0.3, "item" : "medkit"},
+          {"weight" : 0.333, "item" : [ "polymer", 10]},
           {"weight" : 0.333, "item" : [ "fu_nitrogen", 10]},
           {"weight" : 0.333, "item" : [ "fu_oxygen", 10]},   
           {"weight" : 0.333, "item" : [ "fu_hydrogen", 10]},   
@@ -178,6 +179,7 @@
     [1, {
         "pool" : [
           {"weight" : 0.20, "pool" : "money"},
+          {"weight" : 0.333, "item" : [ "polymer", 10]},
           {"weight" : 0.5, "item" : ["darkwoodmaterial", 10]},
           {"weight" : 0.5, "item" : ["plantfibre", 10]},
           {"weight" : 0.5, "item" : ["bandage", 3]},
@@ -505,6 +507,7 @@
         "pool" : [
           {"weight" : 0.40, "pool" : "money"},
           {"weight" : 0.20, "pool" : "money"},
+          {"weight" : 0.333, "item" : [ "polymer", 20]},
           {"weight" : 0.333, "item" : [ "cryonicextract", 1]},
           {"weight" : 0.333, "item" : [ "phasematter", 1]},
           {"weight" : 0.333, "item" : [ "scorchedcore", 1]},
@@ -1067,6 +1070,7 @@
         "pool" : [
           {"weight" : 0.40, "pool" : "money"},
           {"weight" : 0.20, "pool" : "money"},
+          {"weight" : 0.333, "item" : [ "polymer", 10]},
           {"weight" : 0.333, "item" : [ "cryonicextract", 1]},
           {"weight" : 0.333, "item" : [ "phasematter", 1]},
           {"weight" : 0.333, "item" : [ "scorchedcore", 1]},
@@ -1825,6 +1829,7 @@
     [1, {
         "pool" : [
           {"weight" : 0.20, "pool" : "money"},
+          {"weight" : 0.333, "item" : [ "polymer", 10]},
           {"weight" : 0.5, "item" : ["darkwoodmaterial", 10]},
           {"weight" : 0.5, "item" : ["plantfibre", 10]},
           {"weight" : 0.5, "item" : ["bandage", 3]},
@@ -2001,6 +2006,7 @@
     [1, {
         "pool" : [
           {"weight" : 0.20, "pool" : "money"},
+          {"weight" : 0.333, "item" : [ "polymer", 10]},
           {"weight" : 0.5, "item" : ["darkwoodmaterial", 10]},
           {"weight" : 0.5, "item" : ["plantfibre", 10]},
           {"weight" : 0.5, "item" : ["bandage", 3]},

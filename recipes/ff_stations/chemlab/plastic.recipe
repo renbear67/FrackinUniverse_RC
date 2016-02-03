@@ -1,8 +1,8 @@
 {
   "input" : [
     { "item" : "liquidoil", "count" : 4 },
-    { "item" : "fu_oxygen", "count" : 4 },
-    { "item" : "silk", "count" : 3 }
+    { "item" : "polymer", "count" : 1 },
+    { "item" : "silk", "count" : 2 }
   ],
   "output" : {
     "item" : "ff_plastic",
