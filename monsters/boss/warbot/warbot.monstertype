@@ -45,8 +45,8 @@
     "wanderTime" : [4.0, 6.0],
     "wanderMovementTime" : [2.0, 3.0],
 
-    "jumpTargetDistance" : 11,
-    "jumpTime" : [1.6, 2.2],
+    "jumpTargetDistance" : 5,
+    "jumpTime" : [0.3, 0.8],
 
     "pathing" : {
       "canOpenDoors" : false
@@ -62,13 +62,13 @@
       "walkSpeed" : 2,
       "runSpeed" : 4,
       "flySpeed" : 14,
-      "airForce" : 60.0,
+      "airForce" : 10.0,
 
       "airFriction" : 0.0,
       "airJumpProfile" : {
         "jumpSpeed" : 15.0,
-        "jumpInitialPercentage" : 2.0,
-        "jumpHoldTime" : 1.24             
+        "jumpInitialPercentage" : 0.5,
+        "jumpHoldTime" : 0.24             
       }
     },
 
@@ -108,7 +108,7 @@
           "baseValue" : 160
         },
         "protection" : {
-          "baseValue" : 50.0
+          "baseValue" : 25.0
         },
         "healthRegen" : {
           "baseValue" : 0.0

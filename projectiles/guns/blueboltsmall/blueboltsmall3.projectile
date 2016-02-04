@@ -1,6 +1,6 @@
 {
-  "projectileName" : "blueboltsmall",
-  "frames" : "blueboltsmall.png",
+  "projectileName" : "blueboltsmall3",
+  "frames" : "blueboltsmall3.png",
   "animationCycle" : 0.4,
   "frameNumber" : 4,
   "damageKindImage" : "icon.png",

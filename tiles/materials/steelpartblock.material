@@ -6,7 +6,7 @@
   "description" : "Metal parts for some unknown purpose.",
   "shortdescription" : "Metal Parts",
   "footstepSound" : "/sfx/blocks/footstep_girder.ogg",
-  "health" : 22,
+  "health" : 10,
   "category": "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",

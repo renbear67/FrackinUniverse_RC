@@ -8,9 +8,11 @@
       "factory" : "createRangedAttack",
       "projectile" : "rocketswarm",
       "range" : 22,
-      "power" : 12,
+      "power" : 6,
       "speed" : 55,
-      "shots" : 6,
+      "shots" : 3,
+      "windupTime" : 0.5,
+      "winddownTime" : 0.2,      
       "fireInterval" : 0.35
     }
   },

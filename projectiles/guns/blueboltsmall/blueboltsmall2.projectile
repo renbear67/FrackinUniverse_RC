@@ -1,8 +1,8 @@
 {
-  "projectileName" : "blueboltsmall",
-  "frames" : "blueboltsmall.png",
+  "projectileName" : "blueboltsmall2",
+  "frames" : "blueboltsmall2.png",
   "animationCycle" : 0.4,
-  "frameNumber" : 4,
+  "frameNumber" : 7,
   "damageKindImage" : "icon.png",
   "pointLight" : true,
   "lightColor" : [0,0,127],

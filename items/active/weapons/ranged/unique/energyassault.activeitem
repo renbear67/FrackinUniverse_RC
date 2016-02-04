@@ -41,7 +41,7 @@
     "projectileCount" : 1,
     "fireType" : "auto",
 
-    "projectileType" : "blueboltsmall",
+    "projectileType" : "blueboltsmall3",
     "projectileParameters" : { 
       "speed" : 62,
       "knockback" : 4
