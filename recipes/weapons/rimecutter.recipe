@@ -1,6 +1,6 @@
 {
   "input" : [
-   { "item" : "aliencompound", "count" : 4 },
+   { "item" : "isogenbar", "count" : 2 },
    { "item" : "titaniumbar", "count" : 5 },
    { "item" : "cryonicextract", "count" : 5 }
   ],

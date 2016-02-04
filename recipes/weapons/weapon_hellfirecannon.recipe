@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "densealloy", "count" : 4 },
+    { "item" : "pyreitebar", "count" : 4 },
     { "item" : "hellfireplantseed", "count" : 3 },
     { "item" : "ff_focusingarray", "count" : 2 },
     { "item" : "prisilitestar", "count" : 8 },

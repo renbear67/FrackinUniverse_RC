@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "magmawall2", "count" : 12 },
+    { "item" : "pyreitebar", "count" : 12 },
     { "item" : "liquidlava", "count" : 50 },
-    { "item" : "powercore", "count" : 1 },
-    { "item" : "moltencore", "count" : 3 }
+    { "item" : "scorchedcore", "count" : 3 },
+    { "item" : "moltencore", "count" : 1 }
   ],
   "output" : {
     "item" : "isn_magmavulcan",

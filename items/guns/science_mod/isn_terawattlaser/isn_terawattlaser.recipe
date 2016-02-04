@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "eridianbar", "count" : 4 },
+    { "item" : "eridianbar", "count" : 5 },
     { "item" : "ff_focusingarray", "count" : 1 },
-    { "item" : "diamond", "count" : 10 }
+    { "item" : "diamond", "count" : 4 }
   ],
   "output" : {
     "item" : "isn_terawattlaser",
