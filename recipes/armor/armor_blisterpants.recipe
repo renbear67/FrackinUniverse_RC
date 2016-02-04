@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "blisterextract", "count" : 2 },
-    { "item" : "titaniumplate", "count" : 2 },
+    { "item" : "titaniumbar", "count" : 2 },
     { "item" : "polymer", "count" : 3 },
     { "item" : "biochip", "count" : 2 }
   ],

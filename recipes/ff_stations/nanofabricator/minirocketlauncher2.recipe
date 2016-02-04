@@ -1,7 +1,7 @@
 {
   "input" : [
    { "item" : "gunpowder", "count" : 8 },
-   { "item" : "quietusplate", "count" : 2 },
+   { "item" : "quietusbar", "count" : 2 },
    { "item" : "minirocketlauncher", "count" : 1 },
    { "item" : "irradiumbar", "count" : 2 }
   ],

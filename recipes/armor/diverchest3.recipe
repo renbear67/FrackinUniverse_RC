@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "quietusplate", "count" : 5 },
+    { "item" : "quietusbar", "count" : 5 },
     { "item" : "fudiverchest2", "count" : 1 }
   ],
   "output" : {

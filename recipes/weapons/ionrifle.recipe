@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "helium3cannister", "count" : 6 },
-    { "item" : "titaniumplate", "count" : 2 },
+    { "item" : "titaniumbar", "count" : 2 },
     { "item" : "powercore", "count" : 1 },
     { "item" : "protocitebar", "count" : 3 }
   ],

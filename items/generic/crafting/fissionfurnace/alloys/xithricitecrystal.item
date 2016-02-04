@@ -4,5 +4,5 @@
   "inventoryIcon" : "xithricitecrystal.png",
   "description" : "A pan-dimensional powerhouse.",
   "shortdescription" : "^#b84cbc;Xithricite^white;",
-  "learnBlueprintsOnPickup" : [ "isn_plasmalight", "densiniumplate", "densiniumshield", "densiniumrifle", "densiniumscythe", "densiniumlegs", "densiniumchest", "densiniumhead" ]
+  "learnBlueprintsOnPickup" : [ "sciencefuhead", "sciencefulegs", "sciencefuchest", "ff_focusingarray", "quantumextractor", "quantumextractor_roof" ]
 }

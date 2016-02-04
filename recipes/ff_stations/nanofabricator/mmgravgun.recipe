@@ -3,8 +3,8 @@
     { "item" : "nuclearcore", "count" : 1 },
     { "item" : "aichip", "count" : 2 },
     { "item" : "manipulatormodule", "count" : 1 },
-    { "item" : "eridianplate", "count" : 2 },
-    { "item" : "quietusplate", "count" : 1 },
+    { "item" : "eridianbar", "count" : 2 },
+    { "item" : "pyreitebar", "count" : 2 },
     { "item" : "hybridminer4", "count" : 1 }
   ],
   "output" : { "item" : "mmgravgun", "count" : 1 },

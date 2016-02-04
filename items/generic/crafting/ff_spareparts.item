@@ -3,6 +3,5 @@
   "rarity" : "Common",
   "inventoryIcon" : "ff_spareparts.png",
   "description" : "handy bits. probably worth extracting, too.",
-  "shortdescription" : "Spare Parts",
-  "learnBlueprintsOnPickup" : [ "steelplate" ]
+  "shortdescription" : "Spare Parts"
 }

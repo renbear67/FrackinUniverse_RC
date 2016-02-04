@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "titaniumplate", "count" : 3 },
+    { "item" : "tritaniumbar", "count" : 3 },
     { "item" : "blooddiamond", "count" : 2 },
     { "item" : "mutaviskthread", "count" : 4 },
     { "item" : "graphene", "count" : 2 }

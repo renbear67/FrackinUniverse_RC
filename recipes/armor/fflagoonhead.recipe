@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "thesauce", "count" : 2 },
-    { "item" : "titaniumplate", "count" : 2 },
+    { "item" : "titaniumbar", "count" : 2 },
     { "item" : "algaegreen", "count" : 7 },
     { "item" : "biochip", "count" : 2 }
   ],

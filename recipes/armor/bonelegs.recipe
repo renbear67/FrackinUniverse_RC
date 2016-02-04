@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "bone", "count" : 14 },
-    { "item" : "ironplate", "count" : 3 },
+    { "item" : "ironbar", "count" : 3 },
     { "item" : "ff_resin", "count" : 5 }
   ],
   "output" : {

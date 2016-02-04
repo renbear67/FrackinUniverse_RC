@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "ironplate", "count" : 2 },
+    { "item" : "moonstonebar", "count" : 2 },
     { "item" : "titaniumbar", "count" : 2 },
     { "item" : "protocitebar", "count" : 1 }
   ],

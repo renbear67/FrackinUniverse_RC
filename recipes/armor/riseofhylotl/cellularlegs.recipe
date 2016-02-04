@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "eridianplate", "count" : 1 },
-    { "item" : "cellmatter", "count" : 4 },
-    { "item" : "graphene", "count" : 4 },
-    { "item" : "biochip", "count" : 3 }
+    { "item" : "isogenbar", "count" : 1 },
+    { "item" : "cellmatter", "count" : 3 },
+    { "item" : "graphene", "count" : 2 },
+    { "item" : "biochip", "count" : 1 }
   ],
   "output" : {
     "item" : "cellulararmorpants",

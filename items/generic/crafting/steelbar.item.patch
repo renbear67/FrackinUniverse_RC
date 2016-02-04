@@ -12,6 +12,6 @@
     "genestorage", 
     "fusteelgirdirmaterial",
     "microscope",
-    "labfence"
+    "labfence", "isn_powersensor", "isn_solarpanel", "isn_hydroponicstray", "isn_battery_t1"
     ] }
 ]

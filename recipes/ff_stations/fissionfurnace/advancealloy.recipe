@@ -9,5 +9,5 @@
     "item" : "advancealloy",
     "count" : 1
   },
-  "groups" : [ "powerpress", "materials", "all" ]
+  "groups" : [ "fissionfurnace", "all" ]
 }

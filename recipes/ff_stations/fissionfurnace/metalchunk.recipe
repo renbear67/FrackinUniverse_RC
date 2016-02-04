@@ -7,5 +7,5 @@
     "item" : "durasteelbar",
     "count" : 3
   },
-  "groups" : [ "powerpress", "materials", "all" ]
+  "groups" : [ "fissionfurnace", "all" ]
 }

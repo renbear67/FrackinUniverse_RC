@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "blisterextract", "count" : 3 },
-    { "item" : "ff_penumbraplating", "count" : 2 },
+    { "item" : "penumbriteshard", "count" : 2 },
     { "item" : "titaniumbar", "count" : 2 }
   ],
   "output" : {

@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "copperplate", "count" : 2 },
+    { "item" : "copperbar", "count" : 2 },
     { "item" : "silk", "count" : 6 },
     { "item" : "mutaviskthread", "count" : 5 },
     { "item" : "biochip", "count" : 2 }

@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "titaniumplate", "count" : 4 },
+    { "item" : "titaniumbar", "count" : 4 },
     { "item" : "protocitebar", "count" : 2 },
     { "item" : "penumbriteshard", "count" : 2 }
   ],

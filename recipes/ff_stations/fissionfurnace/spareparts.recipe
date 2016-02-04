@@ -6,5 +6,5 @@
     "item" : "steelbar",
     "count" : 2
   },
-  "groups" : [ "powerpress", "materials", "all" ]
+  "groups" : [ "fissionfurnace", "all" ]
 }

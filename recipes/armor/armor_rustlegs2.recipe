@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "copperplate", "count" : 3 },
-    { "item" : "ironplate", "count" : 2 }
+    { "item" : "copperbar", "count" : 3 },
+    { "item" : "ironbar", "count" : 2 }
   ],
   "output" : {
     "item" : "rustlegs2",

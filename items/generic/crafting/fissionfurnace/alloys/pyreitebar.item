@@ -4,5 +4,5 @@
   "inventoryIcon" : "pyreitebar.png",
   "description" : "A naturally hot metal with high durability.",
   "shortdescription" : "^#b84cbc;Pyreite Bar^white;",
-  "learnBlueprintsOnPickup" : [ "isn_plasmalight", "densiniumplate", "densiniumshield", "densiniumrifle", "densiniumscythe", "densiniumlegs", "densiniumchest", "densiniumhead" ]
+  "learnBlueprintsOnPickup" : [ "moltenblade", "isn_plasmalight" ]
 }
