@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "monsterplating", "count" : 12 },
+    { "item" : "monsterplating", "count" : 6 },
     { "item" : "ff_resin", "count" : 5 }
   ],
   "output" : { "item" : "fumonsterplatedchest", "count" : 1 },

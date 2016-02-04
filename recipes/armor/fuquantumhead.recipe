@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "eridianplate", "count" : 3 },
+    { "item" : "eridianplate", "count" : 2 },
     { "item" : "advcircuit", "count" : 3 },
-    { "item" : "carbonplate", "count" : 4 },
+    { "item" : "carbonplate", "count" : 2 },
     { "item" : "aichip", "count" : 1 }
   ],
   "output" : { "item" : "fuquantumhead", "count" : 1 },

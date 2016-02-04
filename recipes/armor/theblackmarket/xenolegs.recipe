@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "carbonplate", "count" : 9 },
+    { "item" : "carbonplate", "count" : 3 },
     { "item" : "moonstonebar", "count" : 4 },
     { "item" : "mutaviskthread", "count" : 5 },
     { "item" : "biochip", "count" : 1 }

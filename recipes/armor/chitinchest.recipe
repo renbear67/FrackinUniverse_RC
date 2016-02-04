@@ -2,8 +2,8 @@
   "input" : [
     { "item" : "ff_resin", "count" : 5 },
     { "item" : "monsterplating", "count" : 8 },
-    { "item" : "bugshell", "count" : 10 },
-    { "item" : "biochip", "count" : 5 }
+    { "item" : "bugshell", "count" : 5 },
+    { "item" : "biochip", "count" : 3 }
   ],
   "output" : {
     "item" : "chitinchest",

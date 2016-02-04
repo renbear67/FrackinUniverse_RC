@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "hardenedcarapace", "count" : 9 },
+    { "item" : "hardenedcarapace", "count" : 6 },
     { "item" : "gene_skeletal", "count" : 3 },
     { "item" : "ff_resin", "count" : 4 },
     { "item" : "carbonplate", "count" : 2 },

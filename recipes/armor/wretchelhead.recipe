@@ -1,8 +1,8 @@
 {
   "input" : [
     { "item" : "wretchel", "count" : 6 },
-    { "item" : "phasematter", "count" : 3 },
-    { "item" : "ff_diamondplating", "count" : 2 },
+    { "item" : "phasematter", "count" : 2 },
+    { "item" : "ff_diamondplating", "count" : 1 },
     { "item" : "aliencompound", "count" : 2 }
   ],
   "output" : {

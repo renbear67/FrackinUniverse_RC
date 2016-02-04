@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "fabric", "count" : 4 },
-    { "item" : "silk", "count" : 6 },
+    { "item" : "silk", "count" : 4 },
     { "item" : "gene_regen", "count" : 2 }
   ],
   "output" : {

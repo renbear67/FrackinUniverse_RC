@@ -15,7 +15,7 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "baseMultiplier" : 1.25
+      "baseMultiplier" : 1.55
     },
 
     {
@@ -32,7 +32,7 @@
       "stat" : "maxHealth",
       "amount" : 11
     },
-    "damagebonus4"
+    "damagebonus2"
   ],
 
   "colorOptions" : [

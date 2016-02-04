@@ -2,9 +2,9 @@
   "id" : "lunari.gearup",
   "title" : "^#1693d5;Crystalline Awesomeness",
   "text" : "^orange;Lunari Ore^white; can fashion some useful weapons and armor due to it's strength and versatility. This will definitely be useful ^green;in my lab^white;.",
-  "completionText" : "Thanks to the strengths of this odd crystal, I can probably fashion a suit of regenerative armor.",
+  "completionText" : "I could probably mix this with ^orange;regenerative genes^white; for some interesting gear.",
   "speaker" : "player",
-  "moneyRange" : [200, 400],
+  "moneyRange" : [100, 200],
   "rewards" : [],
 
 
@@ -15,7 +15,7 @@
     "gatherRequirements" : {
       "items" : {
         "solarishard" : {
-          "count" : 50,
+          "count" : 1,
           "consume" : false
         }
       }

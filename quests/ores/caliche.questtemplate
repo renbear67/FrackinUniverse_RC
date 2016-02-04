@@ -1,7 +1,7 @@
 {
   "id" : "caliche.gearup",
   "title" : "^#1693d5;Caliche",
-  "text" : "Ah, fantastic! ^orange;Caliche Stone^white; can be broken down in either my ^green;extractor or a furnace^white;. This will prove quite a useful material.",
+  "text" : "Ah, fantastic! ^orange;Caliche Stone^white; can be broken down in my ^green;extractor ^white; to produce saltpeter and iodine. Both resources are quite useful.",
   "completionText" : "Iodine and Saltpeter are both found in this material, and both will be needed in my genetic research.",
   "speaker" : "player",
   "moneyRange" : [100, 200],
@@ -15,7 +15,7 @@
     "gatherRequirements" : {
       "items" : {
         "calichewall" : {
-          "count" : 500,
+          "count" : 50,
           "consume" : false
         }
       }

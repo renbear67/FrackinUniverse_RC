@@ -15,7 +15,7 @@
     "gatherRequirements" : {
       "items" : {
         "eridianore" : {
-          "count" : 25,
+          "count" : 1,
           "consume" : false
         }
       }

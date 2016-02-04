@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "eridianplate", "count" : 4 },
+    { "item" : "eridianplate", "count" : 3 },
     { "item" : "refinedaegisalt", "count" : 2 },
     { "item" : "mutaviskthread", "count" : 4 },
     { "item" : "biochip", "count" : 3 }

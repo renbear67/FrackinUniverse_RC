@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "steelplate", "count" : 2 },
-    { "item" : "ironplate", "count" : 4 },
+    { "item" : "ironplate", "count" : 2 },
     { "item" : "fabric", "count" : 6 },
     { "item" : "gene_regen", "count" : 2 }
   ],

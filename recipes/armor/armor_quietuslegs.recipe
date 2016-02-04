@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "quietusplate", "count" : 4 },
+    { "item" : "quietusplate", "count" : 3 },
     { "item" : "advancealloy", "count" : 3 },
     { "item" : "blooddiamond", "count" : 3 }
   ],

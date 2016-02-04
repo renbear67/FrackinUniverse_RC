@@ -912,13 +912,15 @@
           "default" : [
             "Informative. There are 3,682 follicles on your nose. Each more hateful than the last.",
             "Distinguished. I have obtained no less than 11 scientific accolades.",
+            "Agitated. How can I have an itch? I do not possess nerve endings.",
             "Pleased. You are a well respected member of this research community."
           ]
         },
         "novakid" : {
           "default" : [
                 "I'm pretty sure my intellect surpasses your paltry, pathetic knowledge base.",
-                "Sometimes I sneak into your ship at night and watch you sleep. For science. You understand, I'm sure.",
+                "Sometimes I sneak into your ship at night and watch you sleep. For science.",
+                "There is no greater threat to sanity than boredom. You're boring me.",
                 "There is no reality in which you are better than I am. Except K4VC-9."
           ]
         }

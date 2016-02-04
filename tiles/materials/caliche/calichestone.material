@@ -6,7 +6,7 @@
   "description" : "A rich source of Saltpeter.",
   "shortdescription" : "Caliche Stone",
   "footstepSound" : "/sfx/blocks/footstep_stone2.ogg",
-  "health" : 10,
+  "health" : 4,
   "category": "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",

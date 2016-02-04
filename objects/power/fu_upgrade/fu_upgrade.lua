@@ -5,9 +5,9 @@ function init(virtual)
 	}
 	-- these are types of items, which can be improved
 	upgradebleItemsList = {
-		["sword"] = true,
-		["gun"] = true,
-		["shield"] = true,
+		["sword"] = false,
+		["gun"] = false,
+		["shield"] = false,
 		["headarmor"] = true,
 		["chestarmor"] = true,
 		["legsarmor"] = true,

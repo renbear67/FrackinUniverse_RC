@@ -1,8 +1,8 @@
 {
   "input" : [
     { "item" : "advancealloy", "count" : 4 },
-    { "item" : "ff_protoplating", "count" : 3 },
-    { "item" : "ff_penumbraplating", "count" : 3 },
+    { "item" : "ff_protoplating", "count" : 2 },
+    { "item" : "ff_penumbraplating", "count" : 2 },
     { "item" : "advcircuit", "count" : 1 },
     { "item" : "cpu", "count" : 1 }
   ],
