@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "obsidianshard", "count" : 3 },
-    { "item" : "densealloy", "count" : 4 },
+    { "item" : "pyreitebar", "count" : 4 },
     { "item" : "hellfireplantseed", "count" : 2 },
     { "item" : "corefragmentore", "count" : 2 },
     { "item" : "penumbriteshard", "count" : 3 }

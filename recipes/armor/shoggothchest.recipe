@@ -1,8 +1,8 @@
 {
   "input" : [
     { "item" : "shoggothflesh", "count" : 8 },
-    { "item" : "densiniumplate", "count" : 4 },
-    { "item" : "ff_diamondplating", "count" : 3 },
+    { "item" : "nocxiumbar", "count" : 4 },
+    { "item" : "diamond", "count" : 3 },
     { "item" : "aliencompound", "count" : 6 }
   ],
   "output" : {

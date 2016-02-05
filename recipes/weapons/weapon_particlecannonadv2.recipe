@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "ff_focusingarray", "count" : 3 },
     { "item" : "nuclearcore", "count" : 2 },
-    { "item" : "ff_diamondplating", "count" : 4 },
+    { "item" : "isogenbar", "count" : 4 },
     { "item" : "densiniumbar", "count" : 8 }
   ],
   "output" : {

@@ -3,7 +3,7 @@
    { "item" : "cpu", "count" : 1 },
    { "item" : "powercore", "count" : 2 },
    { "item" : "zerchesiumbar", "count" : 4 },
-   { "item" : "copperplate", "count" : 2 }
+   { "item" : "isogenbar", "count" : 2 }
   ],
   "output" : {
     "item" : "fuvaporizer",

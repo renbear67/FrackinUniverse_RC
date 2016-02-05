@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "titaniumplate", "count" : 1 },
+    { "item" : "titaniumbar", "count" : 1 },
     { "item" : "electromagnet", "count" : 4 },
     { "item" : "fuprocessor", "count" : 1 },
     { "item" : "graphene", "count" : 3 }

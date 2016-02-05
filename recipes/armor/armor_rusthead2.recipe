@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "copperplate", "count" : 3 },
+    { "item" : "copperbar", "count" : 3 },
     { "item" : "glassmaterial", "count" : 2 },
-    { "item" : "ironplate", "count" : 2 }
+    { "item" : "ironbar", "count" : 2 }
   ],
   "output" : {
     "item" : "rusthead2",

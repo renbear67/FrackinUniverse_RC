@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "eridianplate", "count" : 2 },
+    { "item" : "isogenbar", "count" : 4 },
     { "item" : "cellmatter", "count" : 6 },
-    { "item" : "graphene", "count" : 7 },
-    { "item" : "biochip", "count" : 2 }
+    { "item" : "graphene", "count" : 5 },
+    { "item" : "biochip", "count" : 1 }
   ],
   "output" : {
     "item" : "cellulararmorchest",

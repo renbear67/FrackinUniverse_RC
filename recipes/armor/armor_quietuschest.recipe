@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "quietusplate", "count" : 4 },
+    { "item" : "quietusbar", "count" : 5 },
     { "item" : "advancealloy", "count" : 3 },
     { "item" : "powercore", "count" : 1 },
-    { "item" : "blooddiamond", "count" : 6 }
+    { "item" : "blooddiamond", "count" : 5 }
   ],
   "output" : {
     "item" : "quietuschest",

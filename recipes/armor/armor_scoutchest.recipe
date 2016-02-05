@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "ff_protoplating", "count" : 4 },
-    { "item" : "titaniumplate", "count" : 4 },
+    { "item" : "penumbriteshard", "count" : 4 },
+    { "item" : "titaniumbar", "count" : 4 },
     { "item" : "moonstonebar", "count" : 4 }
   ],
   "output" : {

@@ -63,19 +63,22 @@
             "mode" : "end"
           },          
           "shooting" : {
-            "frames" : 4,
+            "frames" : 6,
             "mode" : "transition",
-            "transition" : "idle"
+            "transition" : "idle",
+            "cycle" : 1.0
           },
           "shooting2" : {
-            "frames" : 3,
+            "frames" : 4,
             "mode" : "transition",
-            "transition" : "idle"
+            "transition" : "idle",
+            "cycle" : 0.5
           },
           "shooting3" : {
             "frames" : 5,
             "mode" : "transition",
-            "transition" : "idle"
+            "transition" : "idle",
+            "cycle" : 0.4
           },          
           "charge" : {
             "frames" : 8,

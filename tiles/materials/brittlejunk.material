@@ -8,7 +8,7 @@
   "glitchdescription" : "Statement. Compressed junk metal.",
   "florandescription" : "Ready to sssnap.",
   "footstepSound" : "/sfx/blocks/footstep_girder.ogg",
-  "health" : 6,
+  "health" : 4,
   "category": "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",

@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "algaegreen", "count" : 4 },
     { "item" : "greenslime", "count" : 6 },
-    { "item" : "ironplate", "count" : 2 },
+    { "item" : "ironbar", "count" : 2 },
     { "item" : "endomorphicjelly", "count" : 2 }
   ],
   "output" : {

@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "densiniumplate", "count" : 2 },
-    { "item" : "ff_diamondplating", "count" : 2 },
+    { "item" : "densiniumbar", "count" : 4 },
+    { "item" : "diamond", "count" : 4 },
     { "item" : "staticcell", "count" : 5 },
     { "item" : "cpu", "count" : 1 }
   ],

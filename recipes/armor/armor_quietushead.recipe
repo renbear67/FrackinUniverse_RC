@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "quietusplate", "count" : 3 },
+    { "item" : "quietusbar", "count" : 3 },
     { "item" : "fuprocessor", "count" : 1 },
     { "item" : "advancealloy", "count" : 2 },
     { "item" : "blooddiamond", "count" : 2 }

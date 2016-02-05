@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "irradiumbar", "count" : 2 },
     { "item" : "ff_silicon", "count" : 5 },
-    { "item" : "ff_diamondplating", "count" : 1 },
+    { "item" : "xithricitecrystal", "count" : 1 },
     { "item" : "mutaviskthread", "count" : 4 }
   ],
   "output" : {

@@ -1,9 +1,9 @@
 {
   "input" : [
     { "item" : "imperviumcompound", "count" : 6 },
-    { "item" : "eridianplate", "count" : 5 },
+    { "item" : "isogenbar", "count" : 5 },
     { "item" : "densiniumplate", "count" : 6 },
-    { "item" : "ff_diamondplating", "count" : 4 }
+    { "item" : "tritaniumbar", "count" : 4 }
   ],
   "output" : {
     "item" : "warangellegs",

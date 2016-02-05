@@ -8,7 +8,7 @@
   "glitchdescription" : "Alarm. This metal makes me uncomfortable.",
   "florandescription" : "Ready to sssnap.",
   "footstepSound" : "/sfx/blocks/footstep_girder.ogg",
-  "health" : 6,
+  "health" : 5,
   "category": "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",

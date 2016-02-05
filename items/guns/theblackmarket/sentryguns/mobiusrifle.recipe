@@ -1,7 +1,7 @@
 {
   "input" : [
    { "item" : "protocitebar", "count" : 6 },
-   { "item" : "titaniumplate", "count" : 4 },
+   { "item" : "zerchesiumbar", "count" : 4 },
    { "item" : "cpu", "count" : 1 }
   ],
   "output" : {

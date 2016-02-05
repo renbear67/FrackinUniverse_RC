@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "matteritem", "count" : 8 },
-    { "item" : "eridianplate", "count" : 2 },
+    { "item" : "nocxiumbar", "count" : 2 },
     { "item" : "advcircuit", "count" : 1 },
     { "item" : "wretchel", "count" : 2 },
     { "item" : "staticcell", "count" : 6 }

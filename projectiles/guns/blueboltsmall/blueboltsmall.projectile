@@ -2,7 +2,7 @@
   "projectileName" : "blueboltsmall",
   "frames" : "blueboltsmall.png",
   "animationCycle" : 0.4,
-  "frameNumber" : 7,
+  "frameNumber" : 4,
   "damageKindImage" : "icon.png",
   "pointLight" : true,
   "lightColor" : [0,0,127],

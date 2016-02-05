@@ -2,7 +2,7 @@
   "id" : "rooted3.gearup",
   "prerequisites" : [ "rooted2.gearup" ],
   "title" : "^#1693d5;Rooted III",
-  "text" : "Thanks to you, I'm almost free! There's just one more thing... Could you perhaps part with ^orange;5 plates of titanium^white;? One of those ones from a ^orange;power press^white;. I'd reward you handsomely.",
+  "text" : "Thanks to you, I'm almost free! There's just one more thing... Could you perhaps part with ^orange;5 bars of pyreite^white;? I'd reward you handsomely.",
   "completionText" : "You've truly saved me, friend. I'll remember this kindness forever!",
   "speaker" : "questGiver",
   "moneyRange" : [0, 0],
@@ -16,7 +16,7 @@
     "requireTurnIn" : true,
     "gatherRequirements" : {
       "items" : {
-        "titaniumplate" : {
+        "pyreitebar" : {
           "count" : 5,
           "consume" : true
         }

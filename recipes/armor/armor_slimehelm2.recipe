@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "quietusplate", "count" : 3 },
+    { "item" : "pyreitebar", "count" : 3 },
     { "item" : "corruptionseed", "count" : 2 },
     { "item" : "ff_slimehead", "count" : 1 }
   ],

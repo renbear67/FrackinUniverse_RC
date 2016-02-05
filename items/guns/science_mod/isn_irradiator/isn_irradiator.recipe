@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "icecrystal", "count" : 6 },
-    { "item" : "densealloy", "count" : 3 },
+    { "item" : "icecrystal", "count" : 2 },
+    { "item" : "irradiumbar", "count" : 4 },
     { "item" : "plutoniumrod", "count" : 6 },
     { "item" : "toxicwaste", "count" : 25 }
   ],

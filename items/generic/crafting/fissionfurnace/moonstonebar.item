@@ -4,5 +4,5 @@
   "inventoryIcon" : "moonstonebar.png",
   "description" : "Forged moonstone.",
   "shortdescription" : "^#77acc3;Moonstone Bar^white;",
-  "learnBlueprintsOnPickup" : [ "chargeshotgun", "frostcannonarm" ]
+  "learnBlueprintsOnPickup" : [ "tritaniumbar", "chargeshotgun", "frostcannonarm", "fuinvaderchest", "fuinvaderhead", "fuinvaderpants" ] 
 }

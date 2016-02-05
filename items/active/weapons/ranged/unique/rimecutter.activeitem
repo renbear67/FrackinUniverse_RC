@@ -26,7 +26,7 @@
   },
 
   "baseOffset" : [0.56, 0.2],
-  "muzzleOffset" : [2.645, 0.225],
+  "muzzleOffset" : [2.645, -0.025],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
@@ -41,7 +41,7 @@
     "projectileCount" : 1,
     "fireType" : "auto",
 
-    "projectileType" : "iceshardsmall",
+    "projectileType" : "snowflakeshuriken",
     "projectileParameters" : { 
       "speed" : 50,
       "knockback" : 20

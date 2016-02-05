@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "quietusplate", "count" : 3 },
+    { "item" : "quietusbar", "count" : 4 },
     { "item" : "advancealloy", "count" : 3 },
-    { "item" : "blooddiamond", "count" : 3 }
+    { "item" : "blooddiamond", "count" : 2 }
   ],
   "output" : {
     "item" : "quietuslegs",

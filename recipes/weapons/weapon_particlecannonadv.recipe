@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "ff_focusingarray", "count" : 1 },
     { "item" : "particlecore", "count" : 1 },
-    { "item" : "ff_penumbraplating", "count" : 5 },
+    { "item" : "penumbriteshard", "count" : 5 },
     { "item" : "ceruliumcompound", "count" : 5 }
   ],
   "output" : {

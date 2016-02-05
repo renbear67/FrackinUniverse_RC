@@ -1,9 +1,8 @@
 {
   "input" : [
-   { "item" : "titaniumplate", "count" : 4 },
+   { "item" : "titaniumbar", "count" : 4 },
    { "item" : "gunpowder", "count" : 8 },
-   { "item" : "coil", "count" : 4 },
-   { "item" : "magneticshielding", "count" : 2 }
+   { "item" : "coil", "count" : 4 }
   ],
   "output" : {
     "item" : "minirocketlauncher",

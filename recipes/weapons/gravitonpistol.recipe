@@ -1,6 +1,6 @@
 {
   "input" : [
-   { "item" : "densealloy", "count" : 3 },
+   { "item" : "tritaniumbar", "count" : 3 },
    { "item" : "electromagnet", "count" : 2 },
    { "item" : "coil", "count" : 2 },
    { "item" : "triangliumpyramid", "count" : 2 },

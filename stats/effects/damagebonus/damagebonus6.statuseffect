@@ -1,7 +1,7 @@
 {
   "name" : "damagebonus6",
   "effectConfig" : {
-    "powerModifier" : 0.50
+    "powerModifier" : 1.50
   },
   "defaultDuration" : 15,
 

@@ -2,8 +2,8 @@
   "input" : [
     { "item" : "elderrelic5", "count" : 1 },
     { "item" : "elderrelic11", "count" : 1 },
-    { "item" : "densiniumbar", "count" : 6 },
-    { "item" : "aliencompound", "count" : 6 }
+    { "item" : "densiniumbar", "count" : 5 },
+    { "item" : "nocxiumbar", "count" : 3 }
   ],
   "output" : {
     "item" : "elderblade",

@@ -10,10 +10,10 @@
       "range" : 18,
       "speed" : 65,
       "power" : 10,
-      "shots" : 10,
-      "windupTime" : 0.6,
+      "shots" : 5,
+      "windupTime" : 0.5,
       "winddownTime" : 0.4,
-      "fireInterval" : 0.066
+      "fireInterval" : 0.16
     }
   },
 
