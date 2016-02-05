@@ -876,6 +876,15 @@ function breedingBees()
 				beeNocturnalDiurnal = "diurnal"	
                 return true
 			end
+			if equippedBees("flower","hardy") then	
+                trySpawnHoney(0.40,"flower")
+                trySpawnMutantBee(  0.18,"red")
+				trySpawnMutantDrone(0.14, "red")
+				expellQueens("flower")
+				expellQueens("normal")
+				beeNocturnalDiurnal = "diurnal"	
+                return true
+			end
 			if equippedBees("flower","exceptional") then	
                 trySpawnHoney(0.40,"flower")
                 trySpawnMutantBee(  0.18,"mythical")
