@@ -12,7 +12,7 @@
       "parallax" : 1.199
     },
     {
-      "kind" : "tile/atropusunderground",
+      "kind" : "tile/shoggothunderground",
       "nohueshift" : true,
       "lightMapped" : true,
       "repeatY" : true,

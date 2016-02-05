@@ -3,7 +3,7 @@
  "properties":
     {},
  "spacing":0,
- "tilecount":58,
+ "tilecount":59,
  "tileheight":279,
   "tileproperties" : {
       "0" : {
@@ -179,7 +179,12 @@
       },
       "57" : {
           "object" : "wagner"
-      }
+      },
+      "58" : {
+          "object" : "fukluexstatue",
+          "imagePositionX" : "-51",
+          "imagePositionY" : "0"          
+      }      
     },
       
  "tiles":
@@ -396,6 +401,10 @@
         {
          "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/wagner.png"
         },
+     "58":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/avianhuge.png"
+        },        
      "5":
         {
          "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/cycpillar6.png"
