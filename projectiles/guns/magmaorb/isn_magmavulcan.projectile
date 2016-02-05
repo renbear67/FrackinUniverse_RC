@@ -13,13 +13,13 @@
   "piercing" : false,
   "fallSpeed" : 10,
   "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],
-  "lightColor" : [255, 205, 0],
-  "damageKind" : "default",
+  "lightColor" : [155, 77, 0],
+  "damageKind" : "fire",
   "emitters" : [ "flamesfast" ],
   "actionOnReap" : [
     {
       "action" : "config",
-      "file" : "/items/guns/science_mod/isn_magmavulcan/isn_magmavulcan.config"
+      "file" : "/projectiles/guns/magmaorb/isn_magmavulcan.config"
     }
   ]
 }
