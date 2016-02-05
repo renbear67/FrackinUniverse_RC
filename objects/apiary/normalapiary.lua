@@ -720,6 +720,7 @@ function breedingBees()
 					["plutoniumexceptional"] = "solarium",	["exceptionalplutonium"] = "solarium",
 					["forestjungle"] = "flower",	["jungleforest"] = "flower",
 					["flowernormal"] = "red",	["normalflower"] = "red",
+					["flowerhardy"] = "red",	["hardyflower"] = "red",
 					["flowerexceptional"] = "mythical",	["exceptionalflower"] = "mythical",
 					["minernocturnal"] = "moon",	["nocturnalminer"] = "moon",
 					["moonsolarium"] = "sun",	["solariummoon"] = "sun",
