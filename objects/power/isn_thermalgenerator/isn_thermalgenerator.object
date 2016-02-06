@@ -34,7 +34,7 @@
     "base" : "isn_thermalgenerator_base.png"
   },
   "animationPosition" : [0, 0],
-  "soundEffect" : "/objects/power/isn_thermalgenerator/isn_thermalgenerator.ogg",
+  "soundEffect" : "/objects/power/isn_thermalgenerator/isn_thermalgenerator.wav",
   
   "slotCount" : 1,
   "uiConfig" : "/objects/power/isn_thermalgenerator/isn_thermalgenerator.config",
