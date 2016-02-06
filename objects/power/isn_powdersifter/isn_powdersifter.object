@@ -3,7 +3,7 @@
   "rarity" : "Common",
     "colonyTags" : [ "science" ],
   "description" : "Sifts through powders to find useful reagents. Requires 2u of power.",
-  "shortdescription" : "Sifting Device",
+  "shortdescription" : "Powder Sifter",
   "race" : "generic",
   "category" : "storage",
   "price" : 500,

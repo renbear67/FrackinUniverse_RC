@@ -46,6 +46,7 @@ function update(dt)
 		storage.currentpowerprod = isn_numericRange((storage.currentpowerprod + storage.decayrate),0,150)
 	else -- oh no we've got no fuel
 		-- if the generator isn't active don't bother trying to refuel
+		if storage.timer <= 1 
 		if storage.active == true then
 			-- try to get some fuel
 			local contents = world.containerItems(entity.id())
@@ -63,6 +64,8 @@ function update(dt)
 					return -- end it here since we want to start again with the new fuel
 				end
 			end
+		end
+		storage.timer = storage.timer-1
 		end
 		-- since the loop ends this update if it finds fuel, if we've reached this point
 		-- it means we didn't find any fuel so now we decrease power gradually
