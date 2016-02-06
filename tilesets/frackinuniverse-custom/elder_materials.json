@@ -3,7 +3,7 @@
  "properties":
     {},
  "spacing":0,
- "tilecount":11,
+ "tilecount":14,
  "tileheight":8,
   "tileproperties" : {
       "0" : {
@@ -38,7 +38,16 @@
       },   
       "10" : {
           "material" : "protorock"
-      }     
+      },
+      "11" : {
+          "material" : "elderpillar1"
+      },
+      "12" : {
+                "material" : "elderpillarcap"
+      },
+      "13" : {
+                "material" : "elderfloor"
+      } 
  }, 
  "tiles":
     {
@@ -85,7 +94,19 @@
      "9":
         {
          "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/iceblock4.png"
-        }
+        },
+     "11":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/elderpillar1material.png"
+        },
+     "12":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/elderpillarcapmaterial.png"
+        },
+     "13":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/elderfloorblock.png"
+        }     
     },
  "tilewidth":8
 }
