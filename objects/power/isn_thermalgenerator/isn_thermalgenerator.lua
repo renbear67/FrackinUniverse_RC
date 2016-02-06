@@ -52,7 +52,7 @@ function update(dt)
 			local contents = world.containerItems(entity.id())
 			if contents[1] == nil then
 				-- if there's nothing in storage just skip straight to cutting power
-				storage.currentpowerprod = isn_numericRange((storage.currentpowerprod - storage.decayrate),0,150)
+				storage.currentpowerprod = isn_numericRange((storage.currentpowerprod - storage.decayrate),0,100)
 				return
 			end
 			
@@ -82,7 +82,7 @@ function isn_getCurrentPowerOutput(divide)
 	if storage.currentpowerprod > 90 then powercount = 10
 	elseif storage.currentpowerprod > 70 then powercount = 8
 	elseif storage.currentpowerprod > 50 then powercount = 6
-	elseif storage.currentpowerprod > 30 then powercount = 5
+	elseif storage.currentpowerprod > 30 then powercount = 4
 	elseif storage.currentpowerprod > 10 then powercount = 2	
 	else powercount = 0 end
 	---world.logInfo("TGCPOD: Powercount is" .. powercount)

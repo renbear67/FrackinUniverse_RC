@@ -3,11 +3,11 @@
   "printable" : false,
     "colonyTags" : [ "science" ],
   "rarity" : "Common",
-  "description" : "A small sensor to check how much power is flowing into it.",
+  "description" : "A small sensor that displays power levels flowing into it.",
   "shortdescription" : "Power Sensor",
   "race" : "generic",
   "category" : "wire",
-  "price" : 1000,
+  "price" : 100,
 
   "inventoryIcon" : "isn_powersensoricon.png",
 
@@ -56,7 +56,7 @@
   
   "scripts" : [ "/objects/power/isn_powersensor/isn_powersensor.lua",
                 "/objects/power/isn_sharedpowerscripts.lua",
-				"/objects/isn_sharedobjectscripts.lua"],
+		"/objects/isn_sharedobjectscripts.lua"],
   "scriptDelta" : 20,
 
   "animation" : "isn_powersensor.animation",
@@ -67,6 +67,7 @@
   "animationPosition" : [0, 0],
 
   "inboundNodes" : [ [0, 0] ],
+
   "isn_powerReciever" : true,
   "isn_freePower" : true
 }

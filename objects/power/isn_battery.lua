@@ -15,11 +15,13 @@ function update(dt)
 	
 	local powerinput = isn_getCurrentPowerInput(true)
 	if powerinput >= 1 then
-		storage.currentstoredpower = storage.currentstoredpower + powerinput end
+		storage.currentstoredpower = storage.currentstoredpower + powerinput
+	end
 		
 	local poweroutput = isn_getCurrentPowerOutput()
 	if poweroutput > 0 then
-		storage.currentstoredpower = storage.currentstoredpower - storage.voltage end
+		storage.currentstoredpower = storage.currentstoredpower - storage.voltage 
+	end
 end
 
 function isn_getCurrentPowerOutput(divide)
