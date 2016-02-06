@@ -4,6 +4,7 @@
   "damageTeam" : 1,
     "scriptConfig" : {
         "offeredQuests" : [ "1boozekit.gearup" ],
+        "turnInQuests" : [ "9merrymead.gearup" ],
         
     "wander" : {
       "timeRange" : [2.0, 10.0],
