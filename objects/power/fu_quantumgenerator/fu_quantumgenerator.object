@@ -44,12 +44,12 @@
   
   "isn_powerSupplier" : true,
   "acceptablefuel" : {
-    "biofuelcannister" : 8,
-    "biofuelcannisteradv" : 12,
-    "energiflower" : 12,
-    "vialproto" : 16,
-    "biofuelcannistermax" : 20,
-    "solariumstar" : 25,
-    "elderfluid" : 40
+    "biofuelcannister" : 60,
+    "biofuelcannisteradv" : 90,
+    "energiflower" : 120,
+    "vialproto" : 180,
+    "biofuelcannistermax" : 220,
+    "solariumstar" : 260,
+    "elderfluid" : 300
   }
 }
