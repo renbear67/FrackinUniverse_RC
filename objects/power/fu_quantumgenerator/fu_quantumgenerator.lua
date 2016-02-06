@@ -43,9 +43,9 @@ function update(dt)
 
 	if storage.fueledticks > 0 then -- if we're currently fueled up
 		-- Decrement our current fuel by one.    FU added : random chance to reduce fuel cost rate
-		if math.random(1,8) <= 1 then
+		
 		  storage.fueledticks = storage.fueledticks - 1
-		end
+		
 		-- Increase power but cap it at a 0-100 range
 		storage.currentpowerprod = isn_numericRange((storage.currentpowerprod + storage.decayrate),0,100)
 	else -- oh no we've got no fuel

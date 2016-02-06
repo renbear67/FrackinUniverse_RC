@@ -43,7 +43,7 @@ function update(dt)
 		-- Decrement our current fuel by one
 		storage.fueledticks = storage.fueledticks - 1
 		-- Increase power but cap it at a 0-100 range
-		storage.currentpowerprod = isn_numericRange((storage.currentpowerprod + storage.decayrate),0,150)
+		storage.currentpowerprod = isn_numericRange((storage.currentpowerprod + storage.decayrate),0,100)
 	else -- oh no we've got no fuel
 		-- if the generator isn't active don't bother trying to refuel
 		
@@ -79,11 +79,11 @@ function isn_getCurrentPowerOutput(divide)
 	if divisor < 1 then divisor = 1 end
 	
 	local powercount = 0
-	if storage.currentpowerprod > 150 then powercount = 10
-	elseif storage.currentpowerprod > 120 then powercount = 8
-	elseif storage.currentpowerprod > 90 then powercount = 6
-	elseif storage.currentpowerprod > 50 then powercount = 4
-	elseif storage.currentpowerprod > 10 then powercount = 2
+	if storage.currentpowerprod > 90 then powercount = 12
+	elseif storage.currentpowerprod > 70 then powercount = 9
+	elseif storage.currentpowerprod > 50 then powercount = 7
+	elseif storage.currentpowerprod > 30 then powercount = 5
+	elseif storage.currentpowerprod > 10 then powercount = 2	
 	else powercount = 0 end
 	---world.logInfo("TGCPOD: Powercount is" .. powercount)
 	

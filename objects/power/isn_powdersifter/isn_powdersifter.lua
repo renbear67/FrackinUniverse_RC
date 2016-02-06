@@ -36,10 +36,12 @@ function update(dt)
   else
     entity.setAnimationState("sifterState", "idle")
   end
+  
+  
 end
 
 function checkforvalidinput(itemname)
-  local acceptableMaterials = { "ash", "drysand", "sand", "gravelmaterial", "moondust", "sand2", "magmatile4", "biogravelmaterial", "coralmaterial", "coral2material", "crystalsandmaterial", "redsandmaterial", "bonemealmaterial", "frozensandmaterial", "glasssandmaterial", "rainbowsandmaterial", "steelsandmaterial", "steelashmaterial"  }
+  local acceptableMaterials = { "ash", "drysand", "sand", "gravelmaterial", "moondust", "sand2", "magmatile4", "biogravelmaterial", "coralmaterial", "coral2material", "crystalsandmaterial", "redsandmaterial", "bonemealmaterial", "frozensandmaterial", "glasssandmaterial", "rainbowsandmaterial", "steelsand", "steelashmaterial", "sulphurdirtmaterial"  }
   for i, name in ipairs(acceptableMaterials) do
     if name == itemname then return true
     end

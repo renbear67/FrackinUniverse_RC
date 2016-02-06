@@ -5,7 +5,7 @@
   "category" : "wire",
   "objectType" : "container",
   "price" : 2500,
-  "description" : "A fuel-burning generator. It can generate up to 3u of power.",
+  "description" : "A fuel-burning generator. It can generate up to 12u of power.",
   "shortdescription" : "Thermo-Electric Generator",
   "race" : "generic",
   "printable" : false,

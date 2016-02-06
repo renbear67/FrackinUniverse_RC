@@ -5,7 +5,7 @@
   "category" : "wire",
   "objectType" : "container",
   "price" : 2500,
-  "description" : "A hi-tech power solution. Unmatched power output (7u to 34u), but requires bio-fuels or similar fluids.",
+  "description" : "A hi-tech power solution. Unmatched power at 34u, but requires bio-fuels or high-end fuels to operate.",
   "shortdescription" : "Quantum Reactor",
   "race" : "generic",
   "printable" : false,
@@ -47,9 +47,9 @@
     "biofuelcannister" : 60,
     "biofuelcannisteradv" : 90,
     "energiflower" : 120,
-    "vialproto" : 180,
-    "biofuelcannistermax" : 220,
-    "solariumstar" : 260,
-    "elderfluid" : 300
+    "vialproto" : 150,
+    "biofuelcannistermax" : 180,
+    "solariumstar" : 200,
+    "elderfluid" : 220
   }
 }
