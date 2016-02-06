@@ -14,17 +14,18 @@
   "level" : 5,
   "tooltipKind" : "gun",
   "weaponType" : "Vulcan Cannon",
-  "fireTime" : 0.1,
+  "fireTime" : 0.05,
   "twoHanded" : true,
   "hands" : [2, 2],
   "muzzleEffect" : {
     "animation" : "/animations/muzzleflash/electromuzzle/electromuzzle.animation",
     "fireSound" : [ { "file" : "/sfx/gun/plasma_shotgun3.ogg" } ]
   },
-
+  "projectileCount" : 2,
+  "inaccuracy" : 0.05,
    "projectileType" : "fuaegisaltminigunshot",
   "projectile" : {
-    "power" : 0.75,
+    "power" : 0.65,
     "powerCurve" : "fuaegisaltminigunTimeMultiplier",
     "color" : [10, 70, 10]
 	}

@@ -32,12 +32,12 @@
       "piercing" : true
     },
     "fireTime" : 0.77,
-    "baseDps" : 5.5,
+    "baseDps" : 3.5,
     "projectileCount" : 1,
     "fireType" : "auto",
     // use baseDps and fireTime from primary fire
 
-    "energyUsage" : 50.0,
+    "energyUsage" : 40.0,
 
     "stances" : {
       "fire" : {
