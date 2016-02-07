@@ -376,8 +376,8 @@
   },
 
   "sounds" : {
-    "attackSound" : [ "/sfx/raptor/raptor2.ogg" , "/sfx/raptor/raptor4.ogg"  ],
-    "turnHostile" : [ "/sfx/raptor/raptor1.ogg" ],
-    "deathPuff" : [ "/sfx/raptor/raptor3.ogg" ]
+    "attackSound" : [ "/sfx/raptor/raptor1.ogg", "/sfx/raptor/raptor2.ogg" , "/sfx/raptor/raptor3.ogg", "/sfx/raptor/raptor4.ogg" , "/sfx/raptor/raptor5.ogg"  ],
+    "turnHostile" : [ "/sfx/raptor/raptor1.ogg", "/sfx/raptor/raptor2.ogg" , "/sfx/raptor/raptor3.ogg", "/sfx/raptor/raptor4.ogg" , "/sfx/raptor/raptor5.ogg"  ],
+    "deathPuff" : [ "/sfx/raptor/raptor2.ogg", "/sfx/raptor/raptor3.ogg" ]
   }
 }

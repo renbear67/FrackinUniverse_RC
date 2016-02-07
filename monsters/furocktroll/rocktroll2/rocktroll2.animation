@@ -376,8 +376,8 @@
   },
 
   "sounds" : {
-    "turnHostile" : [ "/sfx/troll/troll1.ogg" ],
-    "attackSound" : [ "/sfx/troll/troll2.ogg", "/sfx/troll/troll3.ogg" ],
-    "deathPuff" : [ "/sfx/troll/troll4.ogg" ]
+    "turnHostile" : [ "/sfx/troll/troll1.ogg", "/sfx/troll/troll3.ogg", "/sfx/troll/troll4.ogg", "/sfx/troll/troll5.ogg" ],
+    "attackSound" : [ "/sfx/troll/troll1.ogg", "/sfx/troll/troll3.ogg", "/sfx/troll/troll4.ogg", "/sfx/troll/troll5.ogg" ],
+    "deathPuff" : [ "/sfx/troll/troll1.ogg", "/sfx/troll/troll2.ogg" ]
   }
 }
