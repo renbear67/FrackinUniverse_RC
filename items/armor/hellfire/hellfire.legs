@@ -18,11 +18,11 @@
     },
     {
       "stat" : "protection",
-      "amount" : 21
+      "amount" : 19
     },
     {
       "stat" : "maxEnergy",
-      "amount" : 50
+      "amount" : 52
     },
     {
       "stat" : "maxHealth",

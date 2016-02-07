@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "uncommon",
-  "description" : "A calcium-rich face-protector.",
+  "description" : "A calcium-rich face-protector. Prevents Insanity.",
   "shortdescription" : "Shadow Helmet",
   "tooltipKind" : "armor",
 

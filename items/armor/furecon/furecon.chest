@@ -5,7 +5,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "Special armor that negates radioactivity in most forms.",
+  "description" : "Special armor that negates radiation.",
   "shortdescription" : "Recon Vest",
   "tooltipKind" : "armor",
 

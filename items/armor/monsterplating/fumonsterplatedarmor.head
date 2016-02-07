@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Uncommon",
-  "description" : "A helmet made with tough monster hide. Even with spikes!",
+  "description" : "A helmet made with tough monster hide. Even with spikes! Attackers are stung.",
   "shortdescription" : "Monster Plate Helmet",
   "tooltipKind" : "armor",
 
@@ -30,7 +30,6 @@
       "stat" : "maxEnergy",
       "amount" : 20
     },
-    "fumudslowimmunity",
-    "blacktarimmunity"
+    "thornsstranglevine"
   ]
 }

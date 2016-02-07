@@ -1,7 +1,7 @@
 {
   "name" : "energyregenfu_eridian",
   "effectConfig" : {
-    "regenAmount" : 3.075,
+    "regenAmount" : 1.75,
     "regenBlockAmount" : 12
   },
   "defaultDuration" : 1,

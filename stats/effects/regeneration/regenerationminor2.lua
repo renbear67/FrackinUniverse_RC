@@ -4,7 +4,7 @@ function init()
 
   script.setUpdateDelta(5)
 
-  self.healingRate = 0.25 / effect.configParameter("healTime", 60)
+  self.healingRate = 1.008 / effect.configParameter("healTime", 60)
 end
 
 function update(dt)

@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Rare",
-  "description" : "Makes you look like a big purple bad-ass.",
+  "description" : "Makes you look like a big purple bad-ass. Immune to radiation.",
   "shortdescription" : "Mutavisk Helm",
   "tooltipKind" : "armor",
   "maleFrames" : "head.png",
@@ -18,7 +18,7 @@
     },  
     {
       "stat" : "protection",
-      "amount" : 16
+      "amount" : 14
     },
 
     {
