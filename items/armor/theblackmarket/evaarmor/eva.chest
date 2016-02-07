@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Rare",
-  "description" : "Environmental. Vulnerability. Assisting suit. Resists liquids.",
+  "description" : "Environmental Vulnerability Assisting suit. Resists liquids.",
   "shortdescription" : "E.V.A Suit",
   "tooltipKind" : "armor",
 

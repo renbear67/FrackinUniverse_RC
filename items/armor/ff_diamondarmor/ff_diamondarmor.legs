@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "rare",
-  "description" : "Diamond greaves. Sparkles!",
+  "description" : "Diamond greaves. Sparkles! Regenerates energy!",
   "shortdescription" : "Diamond Greaves",
   "tooltipKind" : "armor",
   "maleFrames" : "pants.png",

@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Uncommon",
-  "description" : "Head protection forged from dead animal armor.",
+  "description" : "Head protection forged from chitin.",
   "shortdescription" : "Chitin Helm",
   "tooltipKind" : "armor",
 
@@ -30,7 +30,7 @@
 
     {
       "stat" : "maxHealth",
-      "amount" : 7
+      "amount" : 14
     }
   ],
   "triggerKeys" : [ "durasteelarmor" ],

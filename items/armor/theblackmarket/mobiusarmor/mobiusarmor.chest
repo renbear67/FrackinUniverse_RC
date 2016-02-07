@@ -25,20 +25,22 @@
       "stat" : "powerMultiplier",
       "baseMultiplier" : 2.25
     },
-
     {
       "stat" : "protection",
       "amount" : 30
     },
-
     {
       "stat" : "maxEnergy",
       "amount" : 70
     },
+    {
+      "stat" : "maxHealth",
+      "amount" : 18
+    },
 
     {
       "stat" : "healthRegen",
-      "amount" : 0.25
+      "amount" : 1.1
     },
     "ffextremeradiationimmunity"
   ],

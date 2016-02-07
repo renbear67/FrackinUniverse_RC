@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "legendary",
-  "description" : "Provides an extra layer of protection via kinetic dampener.",
+  "description" : "Provides an extra layer of protection via kinetic dampener. Also, a built-in targeting HUD will increase damage output.",
   "shortdescription" : "Mark VI Enforcer Helm",
   "tooltipKind" : "armor",
 

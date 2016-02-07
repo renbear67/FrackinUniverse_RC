@@ -23,12 +23,12 @@
 
     {
       "stat" : "maxEnergy",
-      "amount" : 130
+      "amount" : 120
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 37
+      "amount" : 35
     },
       "elderarmorimmunity"
   ],

@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "uncommon",
-  "description" : "This swampy chestpiece is covered in scales.",
+  "description" : "This swampy chestpiece is covered in scales. They'll stabify things that stabify you!",
   "shortdescription" : "Fishman Chestplate",
   "tooltipKind" : "armor",
 
@@ -39,7 +39,8 @@
     {
       "stat" : "maxHealth",
       "amount" : 22
-    }
+    },
+    "thornsstranglevine"
   ],
 
   "colorOptions" : [

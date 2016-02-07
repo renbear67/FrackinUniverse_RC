@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "eridianplate", "count" : 3 },
+    { "item" : "eridianbar", "count" : 3 },
     { "item" : "mutaviskthread", "count" : 7 },
     { "item" : "biochip", "count" : 2 }
   ],
@@ -8,5 +8,5 @@
     "item" : "tacticalhead",
     "count" : 1
   },
-  "groups" : [ "armory", "armors", "all" ]
+  "groups" : [ "clothingfabricator", "armors", "all" ]
 }
