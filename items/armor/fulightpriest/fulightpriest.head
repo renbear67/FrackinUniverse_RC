@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "Protectors of the galaxy, the Light Priests represent good.",
+  "description" : "Glows with light, and grants +5% health regeneration.",
   "shortdescription" : "Light Priest Hood",
   "tooltipKind" : "armor",
 
@@ -15,24 +15,24 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "baseMultiplier" : 1.4
+      "baseMultiplier" : 1.95
     },
 
     {
       "stat" : "protection",
-      "amount" : 9
+      "amount" : 10
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 70
+      "amount" : 80
     },
 
     {
       "stat" : "healthRegen",
-      "amount" : 0.05
+      "amount" : 1.05
     },
-    "sulphuricacidimmunity"
+    "glowyellow2"
   ],
 
  "colorOptions" : [

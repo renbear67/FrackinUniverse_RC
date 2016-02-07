@@ -15,11 +15,11 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "baseMultiplier" : 1.62
+      "baseMultiplier" : 1.72
     },  
     {
       "stat" : "protection",
-      "amount" : 12
+      "amount" : 14
     },
 
     {
@@ -29,7 +29,7 @@
 
     {
       "stat" : "maxHealth",
-      "amount" : 11
+      "amount" : 12
     },
     "sulphuricacidimmunity"
   ],

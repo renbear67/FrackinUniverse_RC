@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "eridianplate", "count" : 2 },
+    { "item" : "eridianbar", "count" : 2 },
     { "item" : "goldenglowseed", "count" : 1 },
     { "item" : "biochip", "count" : 3 }
   ],

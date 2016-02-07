@@ -1,0 +1,8 @@
+{
+  "itemName" : "syntheticmaterial",
+  "price" : 30,
+  "rarity" : "uncommon",
+  "inventoryIcon" : "syntheticmaterial.png",
+  "description" : "A small square of synthetic material.",
+  "shortdescription" : "Synthetic Material"
+}

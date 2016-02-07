@@ -23,11 +23,11 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "baseMultiplier" : 2.0
+      "baseMultiplier" : 2.4
     },  
     {
       "stat" : "protection",
-      "amount" : 22
+      "amount" : 24
     },
 
     {

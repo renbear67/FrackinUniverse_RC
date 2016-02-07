@@ -4,5 +4,6 @@
   "rarity" : "Common",
   "inventoryIcon" : "cotton.png",
   "description" : "A tuft of cotton.",
-  "shortdescription" : "Cotton"
+  "shortdescription" : "Cotton",
+  "learnBlueprintsOnPickup" : [ "cottonwool" ]
 }

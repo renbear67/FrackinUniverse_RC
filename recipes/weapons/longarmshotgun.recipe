@@ -1,6 +1,6 @@
 {
   "input" : [
-   { "item" : "eridianplate", "count" : 3 },
+   { "item" : "eridianbar", "count" : 3 },
    { "item" : "coil", "count" : 4 },
    { "item" : "zerchesiumbar", "count" : 5 }
   ],
