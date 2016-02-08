@@ -22,7 +22,7 @@
   "projectileType" : "toxicdart",
   "projectile" : { "speed" : 65, "power" : 1.3, "color" : [0, 30, 0]   },
   "muzzleEffect" : {
-       "fireSound" : [ { "file" : "/sfx/projectiles/thorn.ogg" } ],
+       "fireSound" : [ { "file" : "/sfx/weapons/verdantcarbine.ogg" } ],
        "animation" :  "/animations/muzzleflash/smokemuzzle/smokemuzzle.animation"
 	   }   
 }
