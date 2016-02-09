@@ -21,10 +21,13 @@
       "stat" : "protection",
       "amount" : 15
     },
-
     {
       "stat" : "maxEnergy",
-      "amount" : 37
+      "amount" : 38
+    },
+    {
+      "stat" : "maxHealth",
+      "amount" : 18
     },
     "ffextremeradiationimmunity"
   ],

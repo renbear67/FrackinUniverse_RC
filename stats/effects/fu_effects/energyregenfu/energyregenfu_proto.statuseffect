@@ -1,7 +1,7 @@
 {
   "name" : "energyregenfu_proto",
   "effectConfig" : {
-    "regenAmount" : 1.445,
+    "regenAmount" : 1.15,
     "regenBlockAmount" : 4
   },
   "defaultDuration" : 1,

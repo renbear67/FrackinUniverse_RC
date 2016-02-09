@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "dnasample", "count" : 1 },
-    { "item" : "toxictop", "count" : 3 }
+    { "item" : "toxictop", "count" : 4 }
   ],
   "output" : {
     "item" : "gene_poisonous",

@@ -3,7 +3,7 @@
   "inventoryIcon" : "icon.png",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "rarity" : "common",
-  "description" : "A gene-infused survival pack. Grants +15 HP and Energy, and a glow.",
+  "description" : "A gene-infused survival pack. Grants +15 HP and Energy, and a mild glow.",
   "shortdescription" : "Type-S Survival Pack",
 
   "maleFrames" : "back.png",

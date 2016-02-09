@@ -27,7 +27,7 @@
     },
     {
       "stat" : "protection",
-      "amount" : 47
+      "amount" : 46
     },
     {
       "stat" : "maxEnergy",
@@ -35,7 +35,7 @@
     },
     {
       "stat" : "maxHealth",
-      "amount" : 47
+      "amount" : 45
     },
     "elderarmorimmunity"
   ],

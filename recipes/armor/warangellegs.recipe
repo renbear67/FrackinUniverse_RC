@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "imperviumcompound", "count" : 6 },
     { "item" : "isogenbar", "count" : 5 },
-    { "item" : "densiniumplate", "count" : 6 },
+    { "item" : "densiniumbar", "count" : 6 },
     { "item" : "tritaniumbar", "count" : 4 }
   ],
   "output" : {

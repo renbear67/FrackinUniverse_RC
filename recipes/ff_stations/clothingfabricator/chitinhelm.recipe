@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "ff_resin", "count" : 8 },
+    { "item" : "cottonwool", "count" : 2 },
+    { "item" : "bugshell", "count" : 3 },
+    { "item" : "biochip", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "chitinhead",
+    "count" : 1
+  },
+  "groups" : [ "clothingfabricator", "armors", "all" ]
+}

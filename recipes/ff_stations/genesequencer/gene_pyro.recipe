@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "dnasample", "count" : 1 },
-    { "item" : "corefragmentore", "count" : 2 }
+    { "item" : "volatilepowder", "count" : 5 }
   ],
   "output" : {
     "item" : "gene_pyro",

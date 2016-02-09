@@ -4,10 +4,10 @@
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
     "config" : "/interface/windowconfig/spinningwheel.config",
-    "filter" : [ "spinningwheel" ]
+    "filter" : [ "spinningwheel", "clothingfabricator" ]
   },
 
-  "description" : "Much prettier than a spinning wheel made of wood.",
+  "description" : "Fabricates clothing and complex fabric-based armors. Use the Armory for Weapons and Ore-based armors.",
   "shortdescription" : "^orange;Clothing Fabricator^white;",
   "race" : "generic",
   "category" : "crafting",

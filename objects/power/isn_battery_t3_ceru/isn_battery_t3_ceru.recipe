@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "vialproto", "count" : 4 },
     { "item" : "fu_nitrogen", "count" : 25 },
-    { "item" : "electromagnet", "count" : 2 },
+    { "item" : "battery", "count" : 2 },
     { "item" : "aichip", "count" : 1 }
   ],
   "output" : {

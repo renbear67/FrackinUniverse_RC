@@ -5,7 +5,7 @@
   "category" : "wire",
   "objectType" : "container",
   "price" : 2500,
-  "description" : "A fuel-burning generator. It can generate up to 3u of power.",
+  "description" : "A fuel-burning generator. It can generate up to 10u of power.",
   "shortdescription" : "Thermo-Electric Generator",
   "race" : "generic",
   "printable" : false,
@@ -34,7 +34,7 @@
     "base" : "isn_thermalgenerator_base.png"
   },
   "animationPosition" : [0, 0],
-  "soundEffect" : "/objects/power/isn_thermalgenerator/isn_thermalgenerator.ogg",
+  "soundEffect" : "/objects/power/isn_thermalgenerator/isn_thermalgenerator.wav",
   
   "slotCount" : 1,
   "uiConfig" : "/objects/power/isn_thermalgenerator/isn_thermalgenerator.config",
@@ -51,15 +51,15 @@
   
   "isn_powerSupplier" : true,
   "acceptablefuel" : {
-	  "paper" : 1,
-	  "fullwood1" : 2,
-	  "fullwood2" : 2,
-	  "coalore" : 3,
-	  "biofuelcannister" : 3,
-	  "liquidoil" : 4,
-	  "liquidfuel" : 5,
-	  "biofuelcannisteradv" : 5,
-	  "supermatter" : 6,
-	  "biofuelcannistermax" : 7
+	  "paper" : 4,
+	  "fullwood1" : 12,
+	  "fullwood2" : 12,
+	  "coalore" : 20,
+	  "biofuelcannister" : 30,
+	  "liquidoil" : 45,
+	  "liquidfuel" : 60,
+	  "biofuelcannisteradv" : 70,
+	  "supermatter" : 80,
+	  "biofuelcannistermax" : 90
   }
 }

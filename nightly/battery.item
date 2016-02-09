@@ -1,0 +1,8 @@
+{
+  "itemName" : "battery",
+  "price" : 5000,
+  "rarity" : "uncommon",
+  "inventoryIcon" : "battery.png",
+  "description" : "This battery can be used to power electronics!",
+  "shortdescription" : "Battery"
+}

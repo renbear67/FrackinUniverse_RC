@@ -93,7 +93,7 @@ function isn_slotDecayCheck(slot, chance)
 end
 
 function isn_doSlotDecay(slot)
-        if math.random(1,3) <= 1 then  --fuel consumption random chance (was 25% (1,4))
+        if math.random(1,6) <= 1 then  --fuel consumption random chance (was 25% (1,4))
 	  world.containerConsumeAt(entity.id(),slot,1)
 	end
 	local waste = world.containerItemAt(entity.id(),5)

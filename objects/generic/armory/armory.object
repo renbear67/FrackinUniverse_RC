@@ -8,7 +8,7 @@
     "filter" : [ "armory" ]
   },
   "printable" : false,
-  "description" : "This machine is a weapons and armor manufacturing interface.",
+  "description" : "This machine is a weapons and armor manufacturing interface. Use the Clothing Fabricator for fabric-based armors.",
   "shortdescription" : "^orange;Armory^white;",
   "race" : "generic",
   "category" : "crafting",

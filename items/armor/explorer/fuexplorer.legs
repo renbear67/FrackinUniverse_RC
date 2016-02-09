@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "uncommon",
-  "description" : "Power Armour Leg Armour. Heavy-duty armour.",
+  "description" : "Power Armour Leg Armour. Heavy-duty armour. Leg servos provide amazing jumping ability.",
   "shortdescription" : "Assault Greaves",
   "tooltipKind" : "armor",
 
@@ -30,7 +30,8 @@
     {
       "stat" : "maxHealth",
       "amount" : 17
-    }
+    },
+    "jumpboost35"
   ],
   "questTags" : [ "tier6armor" ],
   "colorOptions" : [

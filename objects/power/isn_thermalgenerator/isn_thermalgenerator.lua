@@ -43,15 +43,16 @@ function update(dt)
 		-- Decrement our current fuel by one
 		storage.fueledticks = storage.fueledticks - 1
 		-- Increase power but cap it at a 0-100 range
-		storage.currentpowerprod = isn_numericRange((storage.currentpowerprod + storage.decayrate),0,150)
+		storage.currentpowerprod = isn_numericRange((storage.currentpowerprod + storage.decayrate),0,100)
 	else -- oh no we've got no fuel
 		-- if the generator isn't active don't bother trying to refuel
+		
 		if storage.active == true then
 			-- try to get some fuel
 			local contents = world.containerItems(entity.id())
 			if contents[1] == nil then
 				-- if there's nothing in storage just skip straight to cutting power
-				storage.currentpowerprod = isn_numericRange((storage.currentpowerprod - storage.decayrate),0,150)
+				storage.currentpowerprod = isn_numericRange((storage.currentpowerprod - storage.decayrate),0,100)
 				return
 			end
 			
@@ -64,6 +65,7 @@ function update(dt)
 				end
 			end
 		end
+		
 		-- since the loop ends this update if it finds fuel, if we've reached this point
 		-- it means we didn't find any fuel so now we decrease power gradually
 		storage.currentpowerprod = isn_numericRange((storage.currentpowerprod - storage.decayrate),0,100)
@@ -77,11 +79,11 @@ function isn_getCurrentPowerOutput(divide)
 	if divisor < 1 then divisor = 1 end
 	
 	local powercount = 0
-	if storage.currentpowerprod > 150 then powercount = 10
-	elseif storage.currentpowerprod > 120 then powercount = 8
-	elseif storage.currentpowerprod > 90 then powercount = 6
-	elseif storage.currentpowerprod > 50 then powercount = 4
-	elseif storage.currentpowerprod > 10 then powercount = 2
+	if storage.currentpowerprod > 90 then powercount = 10
+	elseif storage.currentpowerprod > 70 then powercount = 8
+	elseif storage.currentpowerprod > 50 then powercount = 6
+	elseif storage.currentpowerprod > 30 then powercount = 4
+	elseif storage.currentpowerprod > 10 then powercount = 2	
 	else powercount = 0 end
 	---world.logInfo("TGCPOD: Powercount is" .. powercount)
 	

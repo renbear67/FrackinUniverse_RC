@@ -791,7 +791,7 @@ local recipes =
 {inputs = { ironore=1 }, outputs = { liquidironfu=2 }, time = 1.0},
 {inputs = { silverore=1 }, outputs = { rawminerals=5 }, time = 0.65},
 {inputs = { goldore=1 }, outputs = { rawminerals=6 }, time = 0.65},
-{inputs = { corefragmentore=1 }, outputs = { ammoniumsulfate=4 }, time = 0.65},
+{inputs = { corefragmentore=2 }, outputs = { ammoniumsulfate=1, volatilepowder=1 }, time = 0.65},
 {inputs = { aegisaltore=1 }, outputs = { rawminerals=7 }, time = 0.65},
 {inputs = { platinumore=1 }, outputs = { rawminerals=7 }, time = 0.65},
 {inputs = { prisiliteore=1 }, outputs = { rawminerals=8 }, time = 0.65},

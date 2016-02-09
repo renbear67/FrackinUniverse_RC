@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "ff_protoplating", "count" : 3 },
+    { "item" : "protocitebar", "count" : 3 },
     { "item" : "electromagnet", "count" : 1 },
     { "item" : "microchip", "count" : 4 },
     { "item" : "stickofram", "count" : 2 }

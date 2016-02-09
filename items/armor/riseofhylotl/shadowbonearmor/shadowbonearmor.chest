@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "uncommon",
-  "description" : "Protects against the ravenous claws of monsters.",
+  "description" : "Protects against the ravenous claws of monsters. Prevents Insanity.",
   "shortdescription" : "Shadow Chestplate",
   "tooltipKind" : "armor",
 

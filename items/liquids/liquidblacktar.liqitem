@@ -4,6 +4,6 @@
   "inventoryIcon" : "liquidblacktaricon.png",
   "shortdescription" : "Black Tar",
   "description" : "A measure of viscous tar.",
-  "learnBlueprintsOnPickup" : [ "liquidblacktar" ], 
+  "learnBlueprintsOnPickup" : [ "liquidblacktar","syntheticmaterial" ], 
   "liquid" : "blacktar"
 }

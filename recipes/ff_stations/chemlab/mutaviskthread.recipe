@@ -1,8 +1,7 @@
 {
   "input" : [
-    { "item" : "fu_oxygen", "count" : 4 }, 
-    { "item" : "mutavisksilk", "count" : 1 },
-    { "item" : "dnasample", "count" : 2 }
+    { "item" : "resin", "count" : 1 }, 
+    { "item" : "mutavisksilk", "count" : 1 }
   ],
   "output" : {
     "item" : "mutaviskthread",

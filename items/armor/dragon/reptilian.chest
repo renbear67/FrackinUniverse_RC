@@ -36,7 +36,7 @@
 
     {
       "stat" : "maxHealth",
-      "amount" : 20
+      "amount" : 25
     }
   ],
   "questTags" : [ "tier5armor" ],  

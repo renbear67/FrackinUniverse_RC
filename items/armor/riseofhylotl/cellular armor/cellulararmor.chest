@@ -37,7 +37,10 @@
       "stat" : "maxEnergy",
       "amount" : 60
     },
-    "regeneration01"
+    {
+      "stat" : "healthRegen",
+      "amount" : 1.05
+    }
   ],
 
   "colorOptions" : [

@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "Prevents radiation burns.",
+  "description" : "Prevents radiation burns, but not actual radiation exposure.",
   "shortdescription" : "Nomad Hood",
   "tooltipKind" : "armor",
 
@@ -15,22 +15,22 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "baseMultiplier" : 1.45
+      "baseMultiplier" : 1.65
     },
 
     {
       "stat" : "protection",
-      "amount" : 10
+      "amount" : 12
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 22
+      "amount" : 24
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 16
+      "amount" : 18
     },    
     "radiationburnimmunity"
   ],

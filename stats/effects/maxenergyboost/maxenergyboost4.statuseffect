@@ -9,6 +9,6 @@
     "maxenergyboost.lua"
   ],
 
-  "label" : "Bonus Energy",
+  "label" : "+Energy",
   "icon" : "/interface/statuses/maxenergy.png"
 }
