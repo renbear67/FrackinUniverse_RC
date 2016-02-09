@@ -8,8 +8,8 @@
   "shortdescription" : "Mask of Nekron",
   "tooltipKind" : "armor",
 
-  "maleFrames" : "skullreaper2.png",
-  "femaleFrames" : "skullreaper2.png",
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
   "mask" : "mask.png",
   "statusEffects" : [
     {
