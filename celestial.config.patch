@@ -2092,14 +2092,38 @@
         "twinkleTime" : [1.0, 1.5]
       },
       "variationParameters" : [
-        {
-          "magnitude" : 5,
-          "description" : "Large Binary Star",
-          "imageScale" : 0.085,
-          "twinkleFrames" : "/celestial/stars/star7pxYellow.png",
-          "twinkleBackground" : "/celestial/stars/backgrounds/star7px.png",
-          "brightness" : [1, 1]
-        }
+  {
+  "magnitude" : 3,
+  "description" : "Small Yellow Star",
+  "imageScale" : 0.04,
+  "twinkleFrames" : "/celestial/stars/star7pxbinary.png",
+  "twinkleBackground" : "/celestial/stars/backgrounds/star7px.png",
+  "brightness" : [1, 1]
+  },
+  {
+  "magnitude" : 5,
+  "description" : "Medium Yellow Star",
+  "imageScale" : 0.055,
+  "twinkleFrames" : "/celestial/stars/star13pxbinary.png",
+  "twinkleBackground" : "/celestial/stars/backgrounds/star13px.png",
+  "brightness" : [1, 1]
+  },
+  {
+  "magnitude" : 7,
+  "description" : "Large Yellow Star",
+  "imageScale" : 0.075,
+  "twinkleFrames" : "/celestial/stars/star17pxbinary.png",
+  "twinkleBackground" : "/celestial/stars/backgrounds/star17px.png",
+  "brightness" : [1, 1]
+  },
+  {
+  "magnitude" : 9,
+  "description" : "Huge Yellow Star",
+  "imageScale" : 0.075,
+  "twinkleFrames" : "/celestial/stars/star21pxbinary.png",
+  "twinkleBackground" : "/celestial/stars/backgrounds/star21px.png",
+  "brightness" : [1, 1]
+  }
       ],
       "orbitRegions" : [
         {
@@ -2216,14 +2240,38 @@
         "twinkleTime" : [1.0, 1.5]
       },
       "variationParameters" : [
-        {
-          "magnitude" : 5,
-          "description" : "Large Dying Star",
-          "imageScale" : 0.095,
-          "twinkleFrames" : "/celestial/stars/star7pxgreen.png",
-          "twinkleBackground" : "/celestial/stars/backgrounds/star7px.png",
-          "brightness" : [1, 1]
-        }
+  {
+  "magnitude" : 3,
+  "description" : "Small Green Star",
+  "imageScale" : 0.04,
+  "twinkleFrames" : "/celestial/stars/star7pxgreen.png",
+  "twinkleBackground" : "/celestial/stars/backgrounds/star7px.png",
+  "brightness" : [1, 1]
+  },
+  {
+  "magnitude" : 5,
+  "description" : "Medium Green Star",
+  "imageScale" : 0.055,
+  "twinkleFrames" : "/celestial/stars/star13pxgreen.png",
+  "twinkleBackground" : "/celestial/stars/backgrounds/star13px.png",
+  "brightness" : [1, 1]
+  },
+  {
+  "magnitude" : 7,
+  "description" : "Large Green Star",
+  "imageScale" : 0.075,
+  "twinkleFrames" : "/celestial/stars/star17pxgreen.png",
+  "twinkleBackground" : "/celestial/stars/backgrounds/star17px.png",
+  "brightness" : [1, 1]
+  },
+  {
+  "magnitude" : 9,
+  "description" : "Huge Green Star",
+  "imageScale" : 0.075,
+  "twinkleFrames" : "/celestial/stars/star21pxgreen.png",
+  "twinkleBackground" : "/celestial/stars/backgrounds/star21px.png",
+  "brightness" : [1, 1]
+  }
       ],
       "orbitRegions" : [
         {
