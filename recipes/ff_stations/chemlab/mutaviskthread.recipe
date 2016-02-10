@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "resin", "count" : 1 }, 
+    { "item" : "ff_resin", "count" : 1 }, 
     { "item" : "mutavisksilk", "count" : 1 }
   ],
   "output" : {
