@@ -3,7 +3,7 @@
   "physics" : "fu_flybug",
   "speed" : 30,
   "bounces" : 0,
-  "timeToLive" : 2.0,
+  "timeToLive" : 0.7,
   "frames" : "floatyshroom.png",
   "animationCycle" : 1.5,
   "animationLoops" : false,
