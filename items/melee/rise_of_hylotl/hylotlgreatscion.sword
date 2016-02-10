@@ -46,10 +46,10 @@
     "projectileType" : "poisonbroadswordswoosh",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 9
+      "power" : 9.7
     },
     "idle" : {
-      "twoHanded" : false,
+      "twoHanded" : true,
       "armAngle" : -90,
       "swordAngle" : -90,
       "handPosition" : [-6.0, -17.0],

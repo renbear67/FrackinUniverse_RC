@@ -20,7 +20,7 @@
   "projectile" : { 
   "speed" : 68, 
   "life" : 3,
-  "power" : 5.25 
+  "power" : 3.356 
   },
   "muzzleEffect" : {
        "fireSound" : [ { "file" : "/sfx/gun/needler1.ogg" } ],

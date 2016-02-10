@@ -24,8 +24,8 @@
 
   "projectileType" : "poisonraptor",
   "projectile" : { 
-  "speed" : 20, 
-  "power" : 1.2 , 
+  "speed" : 32, 
+  "power" : 1.44 , 
   "color" : [75, 255, 40] 
   },
   

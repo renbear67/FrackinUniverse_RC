@@ -19,7 +19,7 @@
   "itemTags" : ["weapon","ranged","machinepistol"],
   "projectileType" : "precursorshotsmall",
 
-  "projectile" : { "speed" : 60, "power" : 0.74 , "color" : [44, 104, 164] },
+  "projectile" : { "speed" : 60, "power" : 1.24 , "color" : [44, 104, 164] },
   "muzzleEffect" : {
        "fireSound" : [ { "file" : "/sfx/gun/plasma_pistol3.ogg" } ],
        "animation" :  "/animations/muzzleflash/precursorflash/muzzleflash_precursor_small.animation"

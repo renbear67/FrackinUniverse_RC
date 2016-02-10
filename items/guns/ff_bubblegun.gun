@@ -20,5 +20,5 @@
   "walkWhileFiring" : false,
   
   "projectileType" : "friendlybubble",
-  "projectile" : { "speed" : 40, "power" : 0.78 }
+  "projectile" : { "speed" : 40, "power" : 1.28 }
 }

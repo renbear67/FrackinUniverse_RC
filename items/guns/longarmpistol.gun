@@ -24,7 +24,7 @@
 
   "projectile" : { 
   "speed" : 60, 
-  "power" : 4
+  "power" : 3
   },
   
   "muzzleEffect" : {

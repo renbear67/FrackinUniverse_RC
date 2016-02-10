@@ -20,7 +20,7 @@
   "projectileType" : "gravblast",
   "projectile" : { 
   "speed" : 40, 
-  "power" : 8.2 , 
+  "power" : 7.2 , 
   "color" : [120, 0, 0] 
   },
   "muzzleEffect" : {

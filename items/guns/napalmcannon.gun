@@ -22,7 +22,7 @@
   "projectileType" : "napalm2",
   "projectile" : { 
   "speed" : 40, 
-  "power" : 0.52 , 
+  "power" : 0.62 , 
   "color" : [255, 141, 40] 
   },
   

@@ -14,7 +14,7 @@
   "actionOnReap" : [
     {
       "action" : "config",
-      "file" : "/projectiles/explosions/vsmallregularexplosionnosound/vsmallregularexplosionnosound.config"
+      "file" : "/projectiles/explosions/vsmallregularexplosion/vsmallregularexplosion.config"
     },    
     {
       "action" : "sound",
