@@ -22,7 +22,7 @@
   "projectileType" : "flaregunflare",
   "projectile" : { 
   "speed" : 50, 
-  "power" : 0.01 
+  "power" : 2.01 
   },
   
   "muzzleEffect" : {

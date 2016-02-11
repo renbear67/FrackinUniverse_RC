@@ -20,7 +20,7 @@
   "projectileType" : "fuplasmarifleblast",
   "projectile" : { 
   "speed" : 60, 
-  "power" : 9.5 
+  "power" : 7.5 
   },
   
   "muzzleEffect" : {

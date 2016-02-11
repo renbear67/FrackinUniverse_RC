@@ -23,7 +23,7 @@
   "projectileType" : "fuhivebugx",
   "projectile" : { 
   "speed" : 50, 
-  "power" : 10 , 
+  "power" : 9, 
   "color" : [255, 141, 40] 
   },
   

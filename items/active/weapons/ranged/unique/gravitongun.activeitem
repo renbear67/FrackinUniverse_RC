@@ -33,7 +33,7 @@
 
   "primaryAttack" : {
     "fireTime" : 0.55,
-    "baseDps" : 5.8,
+    "baseDps" : 6.9,
     "energyUsage" : 18.0,
     "inaccuracy" : 0.06,
 

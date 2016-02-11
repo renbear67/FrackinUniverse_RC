@@ -1,9 +1,9 @@
 local recipes =
 {
 --liquids
-{inputs = { liquidwater=10 }, outputs = { fu_salt=1, fu_oxygen=1, fu_hydrogen=1 }, time = 0.1 },
-{inputs = { swampwater=10 }, outputs = { fu_salt=1, fu_oxygen=1, fu_hydrogen=1 }, time = 0.1 },
-{inputs = { liquiddarkwater=20 }, outputs = { fu_salt=3, fu_nitrogen=1, fu_carbon=1 }, time = 0.1 },
+{inputs = { liquidwater=10 }, outputs = { fu_salt=2, fu_oxygen=2, fu_hydrogen=2 }, time = 0.1 },
+{inputs = { swampwater=10 }, outputs = { fu_salt=2, fu_oxygen=2, fu_hydrogen=2 }, time = 0.1 },
+{inputs = { liquiddarkwater=20 }, outputs = { fu_salt=3, fu_nitrogen=2, fu_carbon=1 }, time = 0.1 },
 {inputs = { poop=1 }, outputs = { fu_nitrogen=5 }, time = 0.1 },
 {inputs = { liquidpus=50 }, outputs = { fu_nitrogen=3 }, time = 0.1 },
 {inputs = { algaegreen=5 }, outputs = { fu_nitrogen=3 }, time = 0.1 },

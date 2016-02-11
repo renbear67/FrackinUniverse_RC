@@ -16,7 +16,7 @@
   "fireTime" : 1.5,
   "twoHanded" : true,
   "walkWhileFiring" : false,
-  "projectileCount" : 7,
+  "projectileCount" : 6,
   "inaccuracy" : 0.125,
   "fireOnRelease" : false,
   "itemTags" : ["weapon","ranged","shotgun"],
@@ -24,7 +24,7 @@
 
   "projectile" : { 
   "speed" : 60, 
-  "power" : 3.5
+  "power" : 3.85
   },
   
   "muzzleEffect" : {

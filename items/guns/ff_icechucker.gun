@@ -19,7 +19,7 @@
   "learnBlueprintsOnPickup" : [ "ff_icechucker" ],
   "projectileType" : "iceshardsmall",
   "projectile" : {
-    "power" : 1.7,
+    "power" : 3.2,
     "speed" : 50,
     "color" : [40, 0, 180]
   },

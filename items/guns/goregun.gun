@@ -22,7 +22,7 @@
   "projectileType" : "bloodvomit",
   "projectile" : { 
   "speed" : 60, 
-  "power" : 0.56
+  "power" : 0.66
   },
   
   "muzzleEffect" : {

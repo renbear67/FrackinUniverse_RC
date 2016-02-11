@@ -1659,6 +1659,7 @@
           {"weight" : 0.045, "item" :  [ "eldertable-recipe", 1]},
 	  {"weight" : 0.045, "item" :  [ "elderchair-recipe", 1]},
           {"weight" : 0.045, "item" :  [ "elderbed-recipe", 1]},
+          {"weight" : 0.045, "item" :  [ "elderdoor2-recipe", 1]},
           {"weight" : 0.045, "item" :  [ "eldercabinet-recipe", 1]},
 	  {"weight" : 0.045, "item" :  [ "elderpedestal-recipe", 1]},
           {"weight" : 0.045, "item" :  [ "elderslidingdoor-recipe", 1]},          

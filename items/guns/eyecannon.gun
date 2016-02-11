@@ -22,7 +22,7 @@
   "projectile" : { 
   "speed" : 50, 
   "life" : 3,
-  "power" : 10
+  "power" : 8
   },
   "muzzleEffect" : {
        "fireSound" : [ { "file" : "/sfx/projectiles/goo_spit1.ogg" } ],

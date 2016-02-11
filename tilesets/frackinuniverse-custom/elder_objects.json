@@ -3,7 +3,7 @@
  "properties":
     {},
  "spacing":0,
- "tilecount":59,
+ "tilecount":61,
  "tileheight":279,
   "tileproperties" : {
       "0" : {
@@ -184,7 +184,13 @@
           "object" : "fukluexstatue",
           "imagePositionX" : "-51",
           "imagePositionY" : "0"          
-      }      
+      },
+      "59" : {
+          "object" : "elderdoor2"         
+      },
+      "60" : {
+          "object" : "elderbookcase2"         
+      } 
     },
       
  "tiles":
@@ -424,6 +430,14 @@
      "9":
         {
          "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/elderbookcase.png"
+        },
+     "59":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/elderdoor2.png"
+        },
+     "60":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/elderbookcase2.png"
         }
     },
  "tilewidth":285

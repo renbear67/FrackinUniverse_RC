@@ -46,7 +46,7 @@
   },
 
   "mainBlock" : "junktech",
-  "subBlocks" : [ "rustymetal", "ironblock" ],
+  "subBlocks" : [ "rustymetal", "junk" ],
   "ores" : "ff_metalmoonOres",
 
   "ambientNoises" : {

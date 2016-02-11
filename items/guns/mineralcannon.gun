@@ -19,7 +19,7 @@
   "walkWhileFiring" : false,
   "itemTags" : ["weapon","ranged","assaultrifle"],
   "projectileType" : "mineralcannonshot",
-  "projectile" : { "speed" : 60, "power" : 4.4 , "color" : [0, 180, 0] },
+  "projectile" : { "speed" : 60, "power" : 5 , "color" : [0, 180, 0] },
   "muzzleEffect" : {
        "fireSound" : [ { "file" : "/sfx/gun/plasma_pistol3.ogg" } ],
        "animation" :  "/animations/muzzleflash/greenstuffmuzzle/greenstuffmuzzle.animation"
