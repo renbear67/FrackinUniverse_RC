@@ -33,8 +33,5 @@
   "autoCloseCooldown" : 3600,
 
   "scripts" : [ "/objects/scripts/autofill.lua" ],
-  "scriptDelta" : 240,
-
-  "autofillContents" : [ {"name" : "cthulureward", "count" : 1, "parameters" : {}} ]
-  
+  "scriptDelta" : 240
 }

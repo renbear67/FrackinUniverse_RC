@@ -19,5 +19,12 @@
         {"weight" : 1.0, "item" : ["wagner2", 1]}
       ]
     }]
-  ]
+  ],
+  "cthulurewardtreasure" : [
+    [1, {
+      "fill" : [
+        {"weight" : 1.0, "item" : ["cthulureward", 1]}
+      ]
+    }]
+  ] 
 }
