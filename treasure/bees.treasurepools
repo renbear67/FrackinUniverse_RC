@@ -1,4 +1,46 @@
 {
+
+//FU Beetles
+   "elderbeetle" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.6, "item" : [ "bugshell", 2]},
+        {"weight" : 0.1, "item" : [ "mutagene1", 1]},
+        {"weight" : 0.1, "item" : [ "mutagene2", 1]},
+        {"weight" : 0.1, "item" : [ "mutagene3", 1]},
+        {"weight" : 0.1, "item" : [ "mutagene4", 1]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+   "blackbeetle" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1.0, "item" : [ "bugshell", 1]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+   "hellbeetle" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1.0, "item" : [ "bugshell", 2]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+
+
    "normalqueen" : [
     [0, {
       "pool" : [

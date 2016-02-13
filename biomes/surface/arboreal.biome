@@ -28,6 +28,7 @@
       {
         "select" : 3,
         "pool" : [
+          [ 0.4, "blackbeetle" ],
           [ 0.4, "forestbee" ],
           [ 0.3, "normalbee" ],
 		  [ 0.3, "greentip" ],

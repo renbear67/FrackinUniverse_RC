@@ -29,6 +29,7 @@
         "pool" : [
           [ 0.4, "forestbee" ],
           [ 0.3, "normalbee" ],
+          [ 0.4, "hellbeetle" ],
 		  [ 0.3, "greentip" ],
 		  [ 0.3, "blueback" ],
 		  [ 0.3, "aurorabee" ]
