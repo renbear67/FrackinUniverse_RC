@@ -21,6 +21,8 @@
         "pool" : [
           [ 0.4, "fawnfly" ],
           [ 0.3, "brightstripe" ],
+          [ 0.4, "blackbeetle" ],
+          [ 0.4, "hellbeetle" ],
           [ 0.3, "bloodtoadcritter" ]
         ]
       },

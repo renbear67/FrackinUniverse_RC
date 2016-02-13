@@ -34,7 +34,8 @@
     "parts" : {
       "body" : {
         "properties" : {
-          "rotationGroup" : "body"
+          "rotationGroup" : "body",
+          "fullbright" : true
         },
         "partStates" : {
           "movement" : {
