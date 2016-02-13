@@ -15,7 +15,7 @@
     "gatherRequirements" : {
       "items" : {
         "berliniteore" : {
-          "count" : 50,
+          "count" : 1,
           "consume" : false
         }
       }
