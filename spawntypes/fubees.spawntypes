@@ -1,6 +1,54 @@
 [
 //Bees
   {
+    "name" : "blackbeetle",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "groupSize" : [1, 2],
+    "targetDensity" : 0.01,
+    "monsterType" : "blackbeetle",
+    "monsterParameters" : {
+      "aggressive" : false
+    }
+  },
+  {
+    "name" : "hellbeetle",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "groupSize" : [1, 2],
+    "targetDensity" : 0.01,
+    "monsterType" : "hellbeetle",
+    "monsterParameters" : {
+      "aggressive" : false
+    }
+  },
+  {
+    "name" : "elderbee",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "groupSize" : [1, 2],
+    "targetDensity" : 0.01,
+    "monsterType" : "elderbee",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+  {
     "name" : "adaptivebee",
 
     "spawnParameters" : {
