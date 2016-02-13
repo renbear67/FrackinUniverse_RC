@@ -41,7 +41,7 @@
       "time" : "all"
     },
 
-    "groupSize" : [1, 2],
+    "groupSize" : [2, 6],
     "targetDensity" : 0.01,
     "monsterType" : "elderbee",
     "monsterParameters" : {
