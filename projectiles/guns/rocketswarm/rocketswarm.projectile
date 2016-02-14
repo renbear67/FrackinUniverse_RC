@@ -15,18 +15,18 @@
     {
       "action" : "projectile",
       "type" : "fuswarmmissile",
-      "inheritDamageFactor" : 0.3
+      "inheritDamageFactor" : 0.33
     },
 	{
       "action" : "projectile",
       "type" : "fuswarmmissile",
-      "inheritDamageFactor" : 0.3,
+      "inheritDamageFactor" : 0.33,
 	  "angleAdjust" : -15
     },
 	{
       "action" : "projectile",
       "type" : "fuswarmmissile",
-      "inheritDamageFactor" : 0.3,
+      "inheritDamageFactor" : 0.33,
 	  "angleAdjust" : 15
     },
 	{
