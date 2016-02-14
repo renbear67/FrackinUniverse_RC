@@ -20,7 +20,7 @@
   "itemTags" : ["weapon","ranged","bow"],
   "projectileType" : "lesserprotoarrow",
   "powerProjectileType" : "protoarrow",
-  "powerProjectileTime" : [0.9, 10.1],
+  "powerProjectileTime" : [0.9, 5.1],
   "drawSpeedCurve" : "drawTimeMultiplier",
   "drawPowerCurve" : "drawTimeMultiplier",
   "projectile" : {

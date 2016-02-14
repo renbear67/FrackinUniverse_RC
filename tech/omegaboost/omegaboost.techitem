@@ -2,7 +2,7 @@
   "itemName" : "omegaboosttech",
   "rarity" : "Legendary",
   "inventoryIcon" : "/tech/burstjump.png",
-  "description" : "Press down and jump to blast nearby foes or blocks as you leap high.",
+  "description" : "Press up and jump to blast nearby foes or blocks as you leap high.",
   "shortdescription" : "Burst Jump",
 
   "techModule" : "omegaboosttech"

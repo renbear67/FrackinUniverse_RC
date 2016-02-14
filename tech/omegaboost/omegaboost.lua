@@ -6,7 +6,7 @@ function init()
 end
 
 function input(args)
-  if args.moves["jump"] and args.moves["down"] and mcontroller.onGround() then
+  if args.moves["jump"] and args.moves["up"] and mcontroller.onGround() then
     return "superjump"
   else
     return nil

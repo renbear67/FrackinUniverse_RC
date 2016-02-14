@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "solaricrystal", "count" : 5 },
+    { "item" : "solarishard", "count" : 12 },
     { "item" : "bone", "count" : 5 },
     { "item" : "mutaviskthread", "count" : 2 }
   ],

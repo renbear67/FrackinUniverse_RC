@@ -5,5 +5,5 @@
   "description" : "A sparkling yellow crystal shard.",
   "shortdescription" : "Lunari Shard",
   "pickupQuestTemplates" : [ "lunari.gearup" ],
-  "learnBlueprintsOnPickup" : [ "icecrystal", "solaricrystal", "solarisword", "solarihammer", "solariblade", "solarispear" ]
+  "learnBlueprintsOnPickup" : [ "icecrystal", "solaricrystal", "lunaribow", "solarisword", "solarihammer", "solariblade", "solarispear" ]
 }
