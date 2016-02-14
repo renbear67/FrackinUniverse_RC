@@ -7,7 +7,7 @@
   "animator" : "omegaboost.animation",
 
   "energyUsage" : 80.0,
-  "superjumpSpeed" : 950,
-  "superjumpControlForce" : 1600,
+  "superjumpSpeed" : 750,
+  "superjumpControlForce" : 940,
   "superjumpTime" : 0.20
 }

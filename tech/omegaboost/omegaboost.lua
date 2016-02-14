@@ -6,7 +6,7 @@ function init()
 end
 
 function input(args)
-  if args.moves["jump"] and args.moves["up"] and mcontroller.onGround() then
+  if args.moves["jump"] and args.moves["down"] and mcontroller.onGround() then
     return "superjump"
   else
     return nil
@@ -22,7 +22,7 @@ function update(args)
     tech.playSound("jumpSound")
     self.superJumpTimer = superJumpTime
     status.addEphemeralEffects{{effect = "nofalldamage", duration = self.cooldown}}
-  local damageConfig = { power = 8,speed = 0,physics = "default" } 
+  local damageConfig = { power = 25,speed = 0,physics = "default" } 
   gravityMultiplier = -2
   world.spawnProjectile(self.damageProjectileType, vec2.sub(mcontroller.position(),{ 0, 2 }), entity.id(), {0, 0}, true, damageConfig)  
   end
