@@ -2,7 +2,7 @@
   "id" : "4bioluminescent.gearup",
   "prerequisites" : [  ],
   "title" : "^#1693d5;Luminescent gene",
-  "text" : "Excitement. Now you have to find a very interesting gene. ^orange;Bioluminescent gene^white; can be found within Glow Fibres. You'll need 6 or more.",
+  "text" : "Excitement. Now you have to find a very interesting gene. ^orange;Bioluminescent gene^white; can be found within Glow Fibres. You'll need 25 or more.",
   "completionText" : "Statement. These genes can be used to craft ^orange;glowing plants^white; in the Design Lab.",
   "speaker" : "questGiver",
   "moneyRange" : [0, 0],
