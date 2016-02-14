@@ -8,6 +8,6 @@
 
   "energyUsage" : 80.0,
   "superjumpSpeed" : 950,
-  "superjumpControlForce" : 900,
-  "superjumpTime" : 0.1
+  "superjumpControlForce" : 1600,
+  "superjumpTime" : 0.20
 }
