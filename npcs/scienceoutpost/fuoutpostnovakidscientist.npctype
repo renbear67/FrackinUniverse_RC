@@ -3,7 +3,7 @@
   "baseType" : "fuoutpostcivilian",
   "damageTeam" : 1,
     "scriptConfig" : {
-        "offeredQuests" : [ "powerpress.gearup", "1copperplate.gearup" ],
+        "offeredQuests" : [ "1copperplate.gearup" ],
         "turnInQuests" : [ "1copperplate.gearup" ],
         
     "wander" : {
