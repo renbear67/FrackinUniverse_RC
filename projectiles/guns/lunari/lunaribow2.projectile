@@ -1,5 +1,5 @@
 {
-  "projectileName" : "lunarishot2",
+  "projectileName" : "lunaribow2",
   "frames" : "lunarishot.png",
   "animationCycle" : 0.25,
   "physics" : "laser",
@@ -16,8 +16,8 @@
   "actionOnReap" : [
     {
       "action" : "projectile",
-      "type" : "lunarishot3",
-      "inheritDamageFactor" : 0.3,
+      "type" : "lunaribow3",
+      "inheritDamageFactor" : 0.33,
       "fuzzAngle" : 5,
       "angleAdjust" : 0
     }

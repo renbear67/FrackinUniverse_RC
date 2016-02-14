@@ -3,7 +3,7 @@
   "prerequisites" : [ ],
   "title" : "^orange;Omega-Boost",
   "text" : "You've unlocked the deadly Omega Boost. Explode upward. Kill foes. Nice.",
-  "completionText" : "This could prove quite enjoyable.",
+  "completionText" : "I just press UP when I jump and blammo! I also get 4 seconds immunity to fall damage.",
   "speaker" : "player",
   "moneyRange" : [0, 0],
   "rewards" : [],

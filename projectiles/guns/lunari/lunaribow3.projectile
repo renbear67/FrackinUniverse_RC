@@ -1,5 +1,5 @@
 {
-  "projectileName" : "lunarishot2",
+  "projectileName" : "lunaribow3",
   "frames" : "lunarishot.png",
   "animationCycle" : 0.25,
   "physics" : "laser",
@@ -7,7 +7,7 @@
   "lightColor" : [155, 147, 27],
   "animationLoops" : true,
   "speed" : 60,
-  "timeToLive" : 0.35,
+  "timeToLive" : 0.25,
   "power" : 1,
   "damagePoly" : [ [-2, 2], [-2, -2], [2, -2], [2, 2] ],
   "supportsProcessing" : true,
@@ -15,12 +15,9 @@
   "emitters" : [ "lunariyellow" ],
   "actionOnReap" : [
     {
-      "action" : "projectile",
-      "type" : "lunarishot3",
-      "inheritDamageFactor" : 0.3,
-      "fuzzAngle" : 5,
-      "angleAdjust" : 0
-    }
+      "action" : "config",
+      "file" : "/projectiles/explosions/teslaboom/teslaboomsmall.config"
+    }    
   ]
 }
 
