@@ -7,6 +7,7 @@
   "shortdescription" : "Gold Shroom Spore",
   "objectType" : "farmable",
   "printable" : false,
+  "price" : 300,
   "learnBlueprintsOnPickup" : [ "zathiseed" ],
   "inventoryIcon" : "goldshroomseedicon.png",
   "orientations" : [

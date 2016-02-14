@@ -6,7 +6,8 @@
   "description" : "Poisonous and spiky. Thornitox could have use in weapons manufacture.",
   "shortdescription" : "Thornitox Seed",
   "objectType" : "farmable",
-  "printable" : false, 
+  "printable" : false,
+  "price" : 300,
   "learnBlueprintsOnPickup" : [ "vashtaplantseed", "spikesword", "thornrifle", "thornslinger" ],
 
   "inventoryIcon" : "thornitoxseedicon.png",

@@ -7,7 +7,7 @@
   "shortdescription" : "Victorleaf",
   "objectType" : "farmable",
   "printable" : false, 
-
+  "price" : 300,
   "inventoryIcon" : "victorbushicon.png",
   "orientations" : [
     {

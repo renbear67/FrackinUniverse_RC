@@ -6,7 +6,8 @@
   "description" : "This vine gives off bioluminesence. It also increases damage.",
   "shortdescription" : "Pasaka Vine",
   "objectType" : "farmable",
-  "printable" : false, 
+  "printable" : false,
+  "price" : 300,
   "learnBlueprintsOnPickup" : [ "porphisplantseed" ],  
   "lightColor" : [120, 120, 255],
   

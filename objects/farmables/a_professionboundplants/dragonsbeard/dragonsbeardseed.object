@@ -7,6 +7,7 @@
   "shortdescription" : "Dragonsbeard",
   "objectType" : "farmable",
   "printable" : false,
+  "price" : 300,
   "learnBlueprintsOnPickup" : [ "dragonsbeardseed"],
   "inventoryIcon" : "dragonsbeardseedicon.png",
   "orientations" : [

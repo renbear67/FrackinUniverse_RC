@@ -7,6 +7,7 @@
   "shortdescription" : "Mutavisk",
   "objectType" : "farmable",
   "printable" : false,
+  "price" : 300,
 
   "inventoryIcon" : "mutaviskseedicon.png",
   "orientations" : [

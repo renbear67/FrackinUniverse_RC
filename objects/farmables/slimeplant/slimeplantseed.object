@@ -6,7 +6,8 @@
   "description" : "Useful against slime and can protect against damage.",
   "shortdescription" : "Slime Glob Bush",
   "objectType" : "farmable",
-  "printable" : false, 
+  "printable" : false,
+  "price" : 300,
 
   "inventoryIcon" : "slimeplantseedicon.png",
   "orientations" : [

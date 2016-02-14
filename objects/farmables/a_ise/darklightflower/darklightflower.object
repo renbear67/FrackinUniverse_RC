@@ -7,6 +7,7 @@
   "shortdescription" : "Darklight Flower",
   "objectType" : "farmable",
   "printable" : false, 
+  "price" : 300,
   "lightColor" : [22, 34, 176],
   "inventoryIcon" : "darklightflowericon.png",
   "learnBlueprintsOnPickup" : [ "darklightflower" ],

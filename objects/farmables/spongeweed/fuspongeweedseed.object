@@ -6,7 +6,8 @@
   "description" : "This fragile plant is immune to poison.",
   "shortdescription" : "Spongeweed Clump",
   "objectType" : "farmable",
-  "printable" : false, 
+  "printable" : false,
+  "price" : 300,
 
   "learnBlueprintsOnPickup" : [ "fuspongeweedseed" ],
 
