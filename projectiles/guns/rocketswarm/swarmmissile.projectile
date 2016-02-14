@@ -1,5 +1,5 @@
 {
-  "projectileName" : "swarmmissile",
+  "projectileName" : "fuswarmmissile",
   "frames" : "swarmmissile.png",
   "physics" : "grenadenobounce",
   "animationCycle" : 0.25,
