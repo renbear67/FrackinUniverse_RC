@@ -7,7 +7,7 @@
   "actions" : [ "activate", "deactivate" ],
   "animator" : "emergencybounce.animation",
 
-  "energyUsageRate" : 45.0,
+  "energyUsageRate" : 40.0,
   "bounceCollisionPoly" : [[-1.25, 2.5], [1.25, 2.5], [2.5, 1.25], [2.5, -1.25], [1.25, -2.5], [-1.25, -2.5], [-2.5, -1.25], [-2.5, 1.25]],
-  "bounceFactor" : 2.5
+  "bounceFactor" : 1.4
 }
