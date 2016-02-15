@@ -7,6 +7,7 @@
   "shortdescription" : "Gazelemon Seed",
   "objectType" : "farmable",
   "printable" : false,
+  "price" : 300,
   "learnBlueprintsOnPickup" : [ "blisterbushplantseed" ],
   "inventoryIcon" : "gazelemonseedicon.png",
   "orientations" : [

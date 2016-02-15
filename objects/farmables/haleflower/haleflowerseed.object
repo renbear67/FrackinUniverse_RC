@@ -6,7 +6,8 @@
   "description" : "For a plant, it stores an astounding amount of energy.",
   "shortdescription" : "Haleflower Seed",
   "objectType" : "farmable",
-  "printable" : false, 
+  "printable" : false,
+  "price" : 300,
   
   "inventoryIcon" : "haleflowerseedicon.png",
   "orientations" : [

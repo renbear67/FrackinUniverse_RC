@@ -6,7 +6,8 @@
   "description" : "This is one ugly plant mutant. Immune to insanity, and increases damage.",
   "shortdescription" : "Glarestalk Gib",
   "objectType" : "farmable",
-  "printable" : false, 
+  "printable" : false,
+  "price" : 300, 
   
   "inventoryIcon" : "glarestalkseedicon.png",
   "orientations" : [

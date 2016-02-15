@@ -5,7 +5,7 @@
   "category" : "farmable",
   "description" : "Soft to the touch.",
   "shortdescription" : "Cellpod Seed",
-
+"price" : 300,
   "learnBlueprintsOnPickup" : [ "kamaranpodsplant" ],
 
   "objectType" : "farmable",

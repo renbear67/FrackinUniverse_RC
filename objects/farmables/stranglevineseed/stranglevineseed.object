@@ -7,6 +7,7 @@
   "shortdescription" : "Strangler Vine",
   "objectType" : "farmable",
   "printable" : false,
+  "price" : 300,
   "learnBlueprintsOnPickup" : [ "tentacleplant" ],
   "inventoryIcon" : "stranglevineseedicon.png",
   "orientations" : [

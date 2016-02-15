@@ -6,7 +6,8 @@
   "description" : "One of the greatest healing agents known anywhere.",
   "shortdescription" : "Floralyt Seed",
   "objectType" : "farmable",
-  "printable" : false, 
+  "printable" : false,
+  "price" : 300,
 
   "inventoryIcon" : "floralytplantseedicon.png",
   "orientations" : [

@@ -6,7 +6,8 @@
   "description" : "The Oonforta grows glowing bulbs on tails that can be tossed for light.",
   "shortdescription" : "Oonforta Seed",
   "objectType" : "farmable",
-  "printable" : false, 
+  "printable" : false,
+  "price" : 300,
   
   "lightColor" : [90, 90, 90],
   "inventoryIcon" : "oonfortaseedicon.png",

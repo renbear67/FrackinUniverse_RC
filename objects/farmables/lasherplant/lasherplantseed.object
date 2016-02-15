@@ -6,7 +6,8 @@
   "description" : "Lashers are nasty things, and can induce rage. Their tongues are useful, too.",
   "shortdescription" : "Lasher Seed",
   "objectType" : "farmable",
-  "printable" : false, 
+  "printable" : false,
+  "price" : 300,
   
   "lightColor" : [1, 1, 1],
   "flickerDistance" : 0.0,

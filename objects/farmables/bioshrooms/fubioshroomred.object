@@ -6,7 +6,8 @@
   "description" : "Provides colored light.",
   "shortdescription" : "Glowing Mushroom",
   "objectType" : "farmable",
-  "printable" : false, 
+  "printable" : false,
+  "price" : 300,
     "lightColor" : [175, 0, 0],
   "inventoryIcon" : "fubioshroomredicon.png",
   "orientations" : [

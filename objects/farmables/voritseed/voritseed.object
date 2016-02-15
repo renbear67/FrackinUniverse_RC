@@ -7,6 +7,7 @@
   "shortdescription" : "Vorit Seed",
   "objectType" : "farmable",
   "printable" : false,
+  "price" : 300,
   "learnBlueprintsOnPickup" : [ "aquapodseed" ],
   "inventoryIcon" : "voritseedicon.png",
   "orientations" : [
