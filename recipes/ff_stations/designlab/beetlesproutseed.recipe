@@ -4,7 +4,7 @@
 	{ "item" : "gene_harden", "count" : 6 },
         { "item" : "gene_energy", "count" : 3 },
         { "item" : "agaranichor", "count" : 3 },
-        { "item" : "endomorphicjelly", "count" : 3 }
+        { "item" : "ff_mercury", "count" : 5 }
   ],
   "output" : {
     "item" : "beetlesproutseed",

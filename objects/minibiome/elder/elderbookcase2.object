@@ -1,6 +1,6 @@
 {
   "objectName" : "elderbookcase2",
-  "colonyTags" : [ "elder" ],
+  "colonyTags" : [ "elder", "bookcase", "hideous" ],
   "rarity" : "Common",
   "objectType" : "container",
   "tooltipKind" : "container",

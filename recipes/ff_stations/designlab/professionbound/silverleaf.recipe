@@ -4,7 +4,7 @@
     { "item" : "gene_energy", "count" : 12 },
     { "item" : "gene_electric", "count" : 3 },
     { "item" : "mineralsample", "count" : 9 },
-    { "item" : "petalblue", "count" : 10 }
+    { "item" : "silverbar", "count" : 1 }
   ],
   "output" : {
     "item" : "silverleafseed",

@@ -4,14 +4,14 @@
 
   "colonyTagCriteria": {
     "door": 1,
-    "evil": 24
+    "evil": 20
   },
 
   "tenants": [
     {
       "spawn": "npc",
-      "species": "glitch",
-      "type": "steampunk",
+      "species": "human",
+      "type": "lightlessciv",
       "overrides": {
         "damageTeamType" : "friendly"
        }

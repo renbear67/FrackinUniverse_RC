@@ -4,6 +4,6 @@
   "inventoryIcon" : "liquidmercuryicon.png",
   "shortdescription" : "Liquid Mercury",
   "description" : "A measure of liquid mercury.",
-  "learnBlueprintsOnPickup" : [ "liquidmercury" ], 
+  "learnBlueprintsOnPickup" : [ "ff_mercury" ], 
   "liquid" : "mercuryliquid"
 }

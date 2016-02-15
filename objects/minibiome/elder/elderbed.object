@@ -1,6 +1,6 @@
 {
   "objectName" : "elderbed",
-  "colonyTags" : [ "elder" ],
+  "colonyTags" : [ "elder", "bed", "hideous" ],
   "rarity" : "rare",
   "description" : "You could sleep on it. If you're brave enough.",
   "shortdescription" : "Elder Bed",

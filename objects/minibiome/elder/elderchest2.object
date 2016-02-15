@@ -1,6 +1,6 @@
 {
   "objectName" : "elderchest2",
-  "colonyTags" : [ "elder" ],
+  "colonyTags" : [ "elder", "hideous", "furniture", "container" ],
   "printable" : false,
   "rarity" : "Common",
   "objectType" : "container",

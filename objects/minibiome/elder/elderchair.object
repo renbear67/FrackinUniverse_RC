@@ -1,6 +1,6 @@
 {
   "objectName" : "elderchair",
-  "colonyTags" : [ "elder", "chair" ],
+  "colonyTags" : [ "elder", "chair", "hideous" ],
   "rarity" : "Common",
   "description" : "A malignant stone chair.",
   "shortdescription" : "Elder Chair",
