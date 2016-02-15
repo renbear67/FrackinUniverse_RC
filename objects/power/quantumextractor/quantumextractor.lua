@@ -185,7 +185,7 @@ local recipes =
 {inputs = { silkworm=1 }, outputs = { silk=2 }, time = 0.1},
 {inputs = { biospore=2 }, outputs = { tissueculture=2, fu_oxygen=2 }, time = 0.1},
 {inputs = { ebonshard=1 }, outputs = { rawminerals=4 }, time = 0.1},
-{inputs = { ff_mercury=1 }, outputs = { liquidmercury=4 }, time = 0.1},
+{inputs = { ff_mercury=1 }, outputs = { coalore=2, ironore=2 }, time = 0.1},
 {inputs = { ff_resin=1 }, outputs = { nutrientpaste=4 }, time = 0.1},
 {inputs = { greenslime=1 }, outputs = { fu_oxygen=4, fu_hydrogen=2 }, time = 0.1},
 {inputs = { fu_nodule=1 }, outputs = { tissueculture=8 }, time = 0.1},

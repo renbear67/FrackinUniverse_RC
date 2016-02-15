@@ -1,8 +1,8 @@
 {
   "id" : "cinnabar.gearup",
   "title" : "^#1693d5;Cinnabar Toast Crunch",
-  "text" : "Well, at risk of death by acid I managed to procure some ^orange;Cinnabar Ore^white;. The trick now is going to be ^green;smelting or extracting the material^white; to see what pops out!",
-  "completionText" : "I suspect the mercury contained within this mineral will be invaluable in my studies.",
+  "text" : "Well, at risk of death by acid I managed to procure some ^orange;Cinnabar Ore^white;. I should ^green;smelti or extract the material^white; in my lab.",
+  "completionText" : "I suspect the mercury contained within this resource will prove useful.",
   "speaker" : "player",
   "moneyRange" : [100, 200],
   "rewards" : [],

@@ -155,7 +155,7 @@
 "protociteore" : { "vialproto" : 18, "fu_carbon" : 15 },
 "quietusore" : { "shadowgasliquid" : 18, "ff_silicon" : 15 },
 "solarishard" : { "liquidnitrogenitem" : 18, "fu_carbon" : 15 },
-"triangliumore" : { "liquidmercury" : 18, "ff_silicon" : 15 },
+"triangliumore" : { "ff_mercury" : 18, "ff_silicon" : 15 },
 "moonstoneore" : { "helium3gasliquid" : 18, "fu_carbon" : 15 },
 "violiumore" : { "fu_carbon" : 18, "mineralsample" : 15 },
 "aegisaltore" : { "helium3gasliquid" : 18, "staticcell" : 15 },
