@@ -297,7 +297,10 @@ function flowerCheck()
 	local FFhaleflower = world.objectQuery(entity.position(), 80, {name="haleflowerseed"})	
 	local FFita = world.objectQuery(entity.position(), 80, {name="itaseed"})
 	local FFniss = world.objectQuery(entity.position(), 80, {name="nissseed"})
-	local FFwubstem = world.objectQuery(entity.position(), 80, {name="wubstemseed"}) 
+	local FFwubstem = world.objectQuery(entity.position(), 80, {name="wubstemseed"})
+	local FFmiraclegrassseed = world.objectQuery(entity.position(), 80, {name="miraclegrassseed"}) 
+	local FFvanusflowerseed = world.objectQuery(entity.position(), 80, {name="vanusflowerseed"}) 
+	local FFbeeflower = world.objectQuery(entity.position(), 80, {name="beeflower"})
 	
 	local noFlowersYet = self.beePower 			---- Check the initial "beePower" before flowers...
 	if flowerObject1 ~= nil then	
@@ -364,7 +367,15 @@ function flowerCheck()
 	if FFwubstem ~= nil then	
 		self.beePower = self.beePower + math.ceil(math.sqrt(#FFwubstem) / 2)
 	end
-
+	if FFmiraclegrassseed ~= nil then	
+		self.beePower = self.beePower + math.ceil(math.sqrt(#FFmiraclegrassseed) / 2)
+	end
+	if FFvanusflowerseed ~= nil then	
+		self.beePower = self.beePower + math.ceil(math.sqrt(#FFvanusflowerseed) / 2)
+	end	
+	if FFbeeflower ~= nil then	
+		self.beePower = self.beePower + math.ceil(math.sqrt(#FFbeeflower) / 2)
+	end
 	
 	if self.beePower == noFlowersYet then
 		self.beePower = -1				--- If there are no flowers for the bees... they can't do anything.
