@@ -1,0 +1,16 @@
+{
+  "type" : "lightlessciv",
+  "baseType" : "outpostcivilian",
+
+  "items" : {
+    "override" : [
+      [1, [
+          {
+            "head" : [ { "name" : "shadowbonearmorhead" } ],
+            "chest" : [ { "name" : "shadowbonearmorchest" } ],
+            "legs" : [ { "name" : "shadowbonearmorpants" } ]
+          }
+        ] ]
+    ]
+  }
+}
