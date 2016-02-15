@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "titaniumbar", "count" : 1 },
+    { "item" : "ff_mercury", "count" : 2 },
     { "item" : "wire", "count" : 4 },
     { "item" : "staticcell", "count" : 1 }
   ],
