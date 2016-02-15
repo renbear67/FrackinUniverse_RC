@@ -1,6 +1,6 @@
 {
   "objectName" : "elderidol",
-  "colonyTags" : [ "elder", "hideous" ],
+  "colonyTags" : [ "elder", "hideous", "statue" ],
   "rarity" : "Common",
   "category" : "pot",
   "price" : 400,

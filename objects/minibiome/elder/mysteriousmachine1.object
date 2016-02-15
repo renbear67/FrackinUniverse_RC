@@ -1,6 +1,6 @@
 {
   "objectName" : "mysteriousmachine1",
-  "colonyTags" : [ "elder" ],
+  "colonyTags" : [ "elder", "hideous" ],
   "printable" : false,
   "rarity" : "Common",
   "description" : "The purpose of this machine is unclear.",
