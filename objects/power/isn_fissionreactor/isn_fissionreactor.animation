@@ -6,8 +6,8 @@
         "states" : {
           "off" : {"frames" : 1},
           "slow" : {"frames" : 3, "cycle" : 1.7, "mode" : "loop"},
-          "med" : {"frames" : 3, "cycle" : 1.7, "mode" : "loop"},
-          "on" : {"frames" : 3, "cycle" : 1.7, "mode" : "loop"}
+          "med" : {"frames" : 3, "cycle" : 1.0, "mode" : "loop"},
+          "on" : {"frames" : 3, "cycle" : 0.7, "mode" : "loop"}
         }
       },
       "hazard" : {
