@@ -16,6 +16,13 @@ function onInboundNodeChange(args)
 end
 
 function update(dt)
+
+local wasteSlot = world.containerItemsAt(entity.id(),5)
+if wasteSlot.name ~= "toxic waste" then
+     world.containerConsumeAt(entity.id(),5,wasteSlot.count)
+     world.spawnItem(entity.position()),wasteSlot.name,wasteSlot.count)  -- object.position() in unstable/nightly?
+end
+
 	if storage.radiation >= 100 then
 		entity.setAnimationState("hazard", "danger")
 	elseif storage.radiation >= 60 then

@@ -13,7 +13,7 @@
   "scripts" : [ "/objects/power/fu_blastfurnace/fu_blastfurnace.lua",
                 "/objects/power/isn_sharedpowerscripts.lua",
 		"/objects/isn_sharedobjectscripts.lua"],
-  "scriptDelta" : 1,
+  "scriptDelta" : 10,
   
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 15,

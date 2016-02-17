@@ -44,7 +44,7 @@
   "scripts" : [ "/objects/power/isn_thermalgenerator/isn_thermalgenerator.lua",
                 "/objects/power/isn_sharedpowerscripts.lua",
 		"/objects/isn_sharedobjectscripts.lua"],
-  "scriptDelta" : 50,
+  "scriptDelta" : 70,
   
   "inboundNodes" : [ [2, 4] ],
   "outboundNodes" : [ [2, 2] ],

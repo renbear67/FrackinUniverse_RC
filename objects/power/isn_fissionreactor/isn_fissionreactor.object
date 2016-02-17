@@ -43,7 +43,7 @@
   "scripts" : [ "/objects/power/isn_fissionreactor/isn_fissionreactor.lua",
                 "/objects/power/isn_sharedpowerscripts.lua",
 		"/objects/isn_sharedobjectscripts.lua"],
-  "scriptDelta" : 50,
+  "scriptDelta" : 80,
   
   "inboundNodes" : [ [2, 4] ],
   "outboundNodes" : [ [2, 2] ],
