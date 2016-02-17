@@ -16,12 +16,15 @@ function onInboundNodeChange(args)
 end
 
 function update(dt)
+
 	if storage.radiation >= 100 then
 		entity.setAnimationState("hazard", "danger")
 	elseif storage.radiation >= 60 then
 		entity.setAnimationState("hazard", "warn")
-	else
+	elseif storage.radiation >= 1 then
 		entity.setAnimationState("hazard", "safe")
+	else 
+	        entity.setAnimationState("hazard", "off")
 	end
 
 	if storage.active == false then
@@ -37,7 +40,15 @@ function update(dt)
 	if isn_slotDecayCheck(3,5) == true then isn_doSlotDecay(3) end
 	
 	local power = isn_getCurrentPowerOutput(false)
-	if power > 0 then entity.setAnimationState("screen", "on") end
+	if power > 8 then
+	  entity.setAnimationState("screen", "on")
+	elseif power >= 4 then
+	  entity.setAnimationState("screen", "med")
+	elseif power >= 1 then 
+	  entity.setAnimationState("screen", "slow")
+	elseif power <= 0 then
+	  entity.setAnimationState("screen", "off")
+	end
 	
 	local rads = -4
 	rads = rads + power
@@ -50,19 +61,19 @@ function update(dt)
 	storage.radiation = isn_numericRange(storage.radiation,0,100)
 
 	if storage.radiation >= 50 then
-		isn_projectileAllInRange("isn_fissionrads",5)
+		isn_projectileAllInRange("isn_fissionrads",4)
 	end
 	
 	if storage.radiation >= 80 then
-		isn_projectileAllInRange("isn_fissionrads",10)
+		isn_projectileAllInRange("isn_fissionrads",8)
 	end
 
 	if storage.radiation >= 100 then
-		isn_projectileAllInRange("isn_fissionrads",15)
+		isn_projectileAllInRange("isn_fissionrads",12)
 	end
 
 	if storage.radiation >= 120 then
-		isn_projectileAllInRange("isn_fissionrads",20)
+		isn_projectileAllInRange("isn_fissionrads",16)
 	end
 end
 
@@ -80,15 +91,16 @@ function isn_powerSlotCheck(slotnum)
 	elseif slotContent.name == "enrichedplutonium" then return 4
 	elseif slotContent.name == "solariumstar" then return 4
 	elseif slotContent.name == "ultronium" then return 5
-	else return 0 end
+	else return 0 end	
 end
 
 function isn_slotDecayCheck(slot, chance)
 	local contents = world.containerItems(entity.id())
 	local slotContent = world.containerItemAt(entity.id(),slot)
-	
+
+
 	if slotContent == nil then return false end
-	
+
 	if slotContent.name == "biofuelcannister" or slotContent.name == "biofuelcannisteradv" or slotContent.name == "biofuelcannistermax" then
 		if math.random(1,60) <= chance then return true end
 	end
@@ -105,22 +117,26 @@ function isn_slotDecayCheck(slot, chance)
 end
 
 function isn_doSlotDecay(slot)
-        --if math.random(1,6) <= 1 then  --fuel consumption random chance (was 25% (1,4))
-	  world.containerConsumeAt(entity.id(),slot,1)
-	--end
+
+	world.containerConsumeAt(entity.id(),slot,1) --consume resource
+
 	local waste = world.containerItemAt(entity.id(),5)
 	
 	if waste ~= nil then
 		if waste.name ~= "toxicwaste" then
-			storage.radiation = storage.radiation + 5
+		  storage.radiation = storage.radiation + 5
+		else
+		  world.containerConsumeAt(entity.id(),slot,waste.count) --consume resource
+		  world.spawnItem(entity.position(),waste.name,waste.count)
 		end
 	end
-	
+
 	local wastestack
+	
 	if waste == nil then
-		wastestack = world.containerAddItems(entity.id(),{name = "toxicwaste", count = 1, data={}})
+		wastestack = world.containerAddItems(entity.id(),{name = "toxicwaste", count = 1, data={}},5)
 	elseif waste.name == "toxicwaste" then
-		wastestack = world.containerStackItems(entity.id(),{name = "toxicwaste", count = 1, data={}})
+		wastestack = world.containerStackItems(entity.id(),{name = "toxicwaste", count = 1, data={}},5)
 	end
 	
 	if wastestack ~= nil then

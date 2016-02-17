@@ -33,6 +33,10 @@
       "stat" : "maxHealth",
       "amount" : 20
     },
+    {
+      "stat" : "maxEnergy",
+      "amount" : 50
+    },        
     "shieldregen2"
   ]
 }

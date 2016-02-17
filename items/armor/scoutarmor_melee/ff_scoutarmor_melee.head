@@ -26,6 +26,10 @@
       "amount" : 11
     },
     {
+      "stat" : "maxEnergy",
+      "amount" : 40
+    },    
+    {
       "stat" : "rage",
       "amount" : 0.20
     }
