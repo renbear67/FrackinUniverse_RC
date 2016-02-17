@@ -31,10 +31,10 @@ function update(dt)
 		return
 	end
 	
-	if isn_slotDecayCheck(0,5) == true then isn_doSlotDecay(1) end
-	if isn_slotDecayCheck(1,5) == true then isn_doSlotDecay(2) end
-	if isn_slotDecayCheck(2,5) == true then isn_doSlotDecay(3) end
-	if isn_slotDecayCheck(3,5) == true then isn_doSlotDecay(4) end
+	if isn_slotDecayCheck(0,5) == true then isn_doSlotDecay(0) end
+	if isn_slotDecayCheck(1,5) == true then isn_doSlotDecay(1) end
+	if isn_slotDecayCheck(2,5) == true then isn_doSlotDecay(2) end
+	if isn_slotDecayCheck(3,5) == true then isn_doSlotDecay(3) end
 	
 	local power = isn_getCurrentPowerOutput(false)
 	if power > 0 then entity.setAnimationState("screen", "on") end
@@ -93,9 +93,9 @@ function isn_slotDecayCheck(slot, chance)
 end
 
 function isn_doSlotDecay(slot)
-        if math.random(1,6) <= 1 then  --fuel consumption random chance (was 25% (1,4))
+        --if math.random(1,6) <= 1 then  --fuel consumption random chance (was 25% (1,4))
 	  world.containerConsumeAt(entity.id(),slot,1)
-	end
+	--end
 	local waste = world.containerItemAt(entity.id(),5)
 	
 	if waste ~= nil then
