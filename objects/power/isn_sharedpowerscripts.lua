@@ -59,6 +59,10 @@ function isn_doesNotConsumePower()
 	else return false end
 end
 
+function isn_activeConsumption()
+	return storage.activeConsumption   -- doesn't actually have to exist first, will return nil if not
+end
+
 function isn_checkValidOutput()
 	local connectedDevices = isn_getAllDevicesConnectedOnNode(0,"outbound")
 	if connectedDevices == nil then return false end
@@ -92,5 +96,22 @@ function isn_countPowerDevicesConnectedOnOutboundNode(node)
 		end
 	end
 	---world.logInfo("POWER DEVICE COUNT DEBUG END")
+	return devicecount
+end
+
+function isn_countPowerActiveDevicesConnectedOnOutboundNode(node)
+	if node == nil then return 0 end
+	local devicecount = 0
+	local devicelist = isn_getAllDevicesConnectedOnNode(node,"outbound")
+	if devicelist == nil then return 0 end
+	for key, value in pairs(devicelist) do
+		if world.callScriptedEntity(value,"isn_canRecievePower") == true then
+			if world.callScriptedEntity(value,"isn_doesNotConsumePower") == false then
+				if world.callScriptedEntity(value,"isn_activeConsumption") == true then
+					devicecount = devicecount + 1
+				end
+			end
+		end
+	end
 	return devicecount
 end

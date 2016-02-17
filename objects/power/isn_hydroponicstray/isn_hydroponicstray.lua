@@ -12,12 +12,14 @@ function init(virtual)
 	if storage.fertYield3 == nil then storage.fertYield3 = false end
 	if storage.yield == nil then storage.yield = 0 end
 	if storage.growthcap == nil then storage.growthcap = entity.configParameter("isn_growthCap") end
+	if storage.activeConsumption == nil then storage.activeConsumption = false end
 	storage.seedslot = 1
 	storage.waterslot = 2
 	storage.fertslot = 3
 end
 
 function update(dt)
+	storage.activeConsumption = false
 	if isn_hasRequiredPower() == false then
 		entity.setAnimationState("powlight", "off")
 		return
@@ -41,7 +43,7 @@ function update(dt)
 	
 	if storage.water <= 0 and isn_doWaterIntake() ~= true then return end
 	storage.water = storage.water - 1
-	
+	storage.activeConsumption = true
 	storage.growth = storage.growth + 1
 	if storage.fertSpeed == true then
 		storage.growth = storage.growth + 1

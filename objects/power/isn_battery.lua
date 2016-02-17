@@ -9,7 +9,7 @@ end
 
 function update(dt)
 	local powerlevel = isn_getXPercentageOfY(storage.currentstoredpower,storage.powercapacity)
-	if powerlevel ~= 0 then powerlevel = powerlevel / 10 end
+	if powerlevel ~= 0 then powerlevel = powerlevel / 10 end			-- why a separate statement?
 	powerlevel = isn_numericRange(powerlevel,0,10)
 	entity.setAnimationState("meter", tostring(math.floor(powerlevel)))
 	
@@ -18,10 +18,20 @@ function update(dt)
 		storage.currentstoredpower = storage.currentstoredpower + powerinput
 	end
 		
-	local poweroutput = isn_getCurrentPowerOutput()
+	local poweroutput = isn_getCurrentPowerOutputUsage()
 	if poweroutput > 0 then
-		storage.currentstoredpower = storage.currentstoredpower - storage.voltage 
+		storage.currentstoredpower = storage.currentstoredpower - poweroutput 
 	end
+end
+
+function isn_getCurrentPowerOutputUsage()
+	if storage.active == false then return 0 end
+	if storage.currentstoredpower <= 0 then return 0 end
+	local actives = isn_countPowerActiveDevicesConnectedOnOutboundNode(0)
+	local potentials = isn_countPowerDevicesConnectedOnOutboundNode(0)
+	if actives == 0 then return 0 end
+	local totalusage = storage.voltage / potentials * actives
+	return totalusage
 end
 
 function isn_getCurrentPowerOutput(divide)
