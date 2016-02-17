@@ -44,6 +44,10 @@ function isn_hasRequiredPower()
 	else return false end
 end
 
+function isn_requiredPowerValue()
+	return entity.configParameter("isn_requiredPower")
+end
+
 function isn_canSupplyPower()
 	if entity.configParameter("isn_powerSupplier") == true then return true
 	else return false end
@@ -57,6 +61,10 @@ end
 function isn_doesNotConsumePower()
 	if entity.configParameter("isn_freePower") == true then return true
 	else return false end
+end
+
+function isn_activeConsumption()
+	return storage.activeConsumption == nil or storage.activeConsumption		-- shim in place for uncorrected stations
 end
 
 function isn_checkValidOutput()
@@ -93,4 +101,22 @@ function isn_countPowerDevicesConnectedOnOutboundNode(node)
 	end
 	---world.logInfo("POWER DEVICE COUNT DEBUG END")
 	return devicecount
+end
+
+function isn_sumPowerActiveDevicesConnectedOnOutboundNode(node)
+	if node == nil then return 0 end
+	local voltagecount = 0
+	local devicelist = isn_getAllDevicesConnectedOnNode(node,"outbound")
+	if devicelist == nil then return 0 end
+	for key, value in pairs(devicelist) do
+		if world.callScriptedEntity(value,"isn_canRecievePower") == true then
+			if world.callScriptedEntity(value,"isn_doesNotConsumePower") == false then
+				if world.callScriptedEntity(value,"isn_activeConsumption") == true then
+					voltagecount = voltagecount + world.callScriptedEntity(value,"isn_requiredPowerValue")
+					-- world.logInfo("Found a consumer, " .. value .. ", total increased to " .. voltagecount)
+				end
+			end
+		end
+	end
+	return voltagecount
 end

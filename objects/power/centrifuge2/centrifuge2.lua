@@ -6,6 +6,7 @@ function init(virtual)
 	storage.currentinput = nil
 	storage.currentoutput = nil
 	storage.bonusoutputtable = nil
+	storage.activeConsumption = false
 	self.timer = 0.25
 end
 
@@ -16,20 +17,24 @@ function update(dt)
 
 	if isn_hasRequiredPower() == false then
 		entity.setAnimationState("furnaceState", "idle")
+		storage.activeConsumption = false
 		return
 	end
 	
 	if oreCheck() == false then 
 		entity.setAnimationState("furnaceState", "idle")
+		storage.activeConsumption = false
 		return
 	end
 	
 	if storage.currentoutput == nil or clearSlotCheck(storage.currentoutput) == false then
 		entity.setAnimationState("furnaceState", "idle")
+		storage.activeConsumption = false
 		return
 	end
 	
 	entity.setAnimationState("furnaceState", "active")
+	storage.activeConsumption = true
 	
 	if world.containerConsume(entity.id(), {name = storage.currentinput, count = 5, data={}}) then
 		if math.random(1,2) == 1 then
