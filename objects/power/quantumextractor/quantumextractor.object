@@ -44,7 +44,7 @@
   		"/objects/power/quantumextractor/quantumextractor.lua"
    	      ],
    	      
-  "scriptDelta" : 120,
+  "scriptDelta" : 5,
   
   "recipeGroup" : "quantumextractor",
   "openSounds" : [ "/sfx/objects/locker_open.ogg" ],
