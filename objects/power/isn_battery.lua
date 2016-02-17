@@ -17,21 +17,14 @@ function update(dt)
 	if powerinput >= 1 then
 		storage.currentstoredpower = storage.currentstoredpower + powerinput
 	end
-		
-	local poweroutput = isn_getCurrentPowerOutputUsage()
-	if poweroutput > 0 then
-		storage.currentstoredpower = storage.currentstoredpower - poweroutput 
-	end
-end
 
-function isn_getCurrentPowerOutputUsage()
-	if storage.active == false then return 0 end
-	if storage.currentstoredpower <= 0 then return 0 end
-	local actives = isn_countPowerActiveDevicesConnectedOnOutboundNode(0)
-	local potentials = isn_countPowerDevicesConnectedOnOutboundNode(0)
-	if actives == 0 then return 0 end
-	local totalusage = storage.voltage / potentials * actives
-	return totalusage
+	local poweroutput = isn_sumPowerActiveDevicesConnectedOnOutboundNode(0)
+	if poweroutput > 0 and storage.currentstoredpower > 0 then
+		storage.currentstoredpower = storage.currentstoredpower - poweroutput
+		-- world.logInfo("Draining " .. poweroutput .. " volts, now at " .. storage.currentstoredpower .. " volts.")
+	end
+	
+	storage.currentstoredpower = math.min(storage.currentstoredpower, storage.powercapacity)
 end
 
 function isn_getCurrentPowerOutput(divide)
