@@ -113,6 +113,7 @@
   "value" : 
   {
       "baseImages" : "/celestial/system/terrestrial/horizon/textures/desert_wastes_<selector>.png",
+      "maskRange" : [0, 0],
       "maskPerPlanetRange" : [0, 0]  
   }},  
   {"op" : "add", 
