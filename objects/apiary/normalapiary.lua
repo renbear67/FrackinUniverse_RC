@@ -36,9 +36,9 @@ end
 --- Check the type of frame. Adjust variables-------------		
 	if contents[19] then
 		if contents[19].name == "basicframe" then
-				self.honeyModifier = 15				---A basic reduction to the number of times the apiary has to reduce a cooldown to spawn honey.
+				self.honeyModifier = 15	---A basic reduction to the number of times the apiary has to reduce a cooldown to spawn honey.
 				return
-		end											---A 600 cooldown, with 30 beepower, is now reduced to a 570 cooldown. 30 beepower = 60 reduced per second, or 9.5 seconds, instead of 10.
+		end		                        ---A 600 cooldown, with 30 beepower, is now reduced to a 570 cooldown. 30 beepower = 60 reduced per second, or 9.5 seconds, instead of 10.
 		if contents[19].name == "sweetframe" then
 				self.honeyModifier = 25
 				return

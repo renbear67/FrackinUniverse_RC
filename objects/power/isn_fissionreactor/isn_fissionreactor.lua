@@ -18,7 +18,7 @@ end
 function update(dt)
 	if storage.radiation >= 100 then
 		entity.setAnimationState("hazard", "danger")
-	elseif storage.radiation >= 40 then
+	elseif storage.radiation >= 60 then
 		entity.setAnimationState("hazard", "warn")
 	else
 		entity.setAnimationState("hazard", "safe")
@@ -31,10 +31,10 @@ function update(dt)
 		return
 	end
 	
-	if isn_slotDecayCheck(0,5) == true then isn_doSlotDecay(1) end
-	if isn_slotDecayCheck(1,5) == true then isn_doSlotDecay(2) end
-	if isn_slotDecayCheck(2,5) == true then isn_doSlotDecay(3) end
-	if isn_slotDecayCheck(3,5) == true then isn_doSlotDecay(4) end
+	if isn_slotDecayCheck(0,5) == true then isn_doSlotDecay(0) end
+	if isn_slotDecayCheck(1,5) == true then isn_doSlotDecay(1) end
+	if isn_slotDecayCheck(2,5) == true then isn_doSlotDecay(2) end
+	if isn_slotDecayCheck(3,5) == true then isn_doSlotDecay(3) end
 	
 	local power = isn_getCurrentPowerOutput(false)
 	if power > 0 then entity.setAnimationState("screen", "on") end
@@ -48,9 +48,21 @@ function update(dt)
 	end
 	storage.radiation = storage.radiation + rads
 	storage.radiation = isn_numericRange(storage.radiation,0,100)
+
+	if storage.radiation >= 50 then
+		isn_projectileAllInRange("isn_fissionrads",5)
+	end
 	
-	if storage.radiation >= 100 then
+	if storage.radiation >= 80 then
 		isn_projectileAllInRange("isn_fissionrads",10)
+	end
+
+	if storage.radiation >= 100 then
+		isn_projectileAllInRange("isn_fissionrads",15)
+	end
+
+	if storage.radiation >= 120 then
+		isn_projectileAllInRange("isn_fissionrads",20)
 	end
 end
 
@@ -93,9 +105,9 @@ function isn_slotDecayCheck(slot, chance)
 end
 
 function isn_doSlotDecay(slot)
-        if math.random(1,6) <= 1 then  --fuel consumption random chance (was 25% (1,4))
+        --if math.random(1,6) <= 1 then  --fuel consumption random chance (was 25% (1,4))
 	  world.containerConsumeAt(entity.id(),slot,1)
-	end
+	--end
 	local waste = world.containerItemAt(entity.id(),5)
 	
 	if waste ~= nil then
