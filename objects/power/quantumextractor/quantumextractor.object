@@ -1,7 +1,7 @@
 {
   "objectName" : "quantumextractor",
   "colonyTags" : [ "fu", "science", "scienceoutpost", "radiation" ],
-  "rarity" : "Common",
+  "rarity" : "legendary",
   "race" : "generic",
   "category" : "crafting",
   "printable" : false,

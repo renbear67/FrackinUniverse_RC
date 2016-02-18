@@ -1,6 +1,6 @@
 {
   "objectName" : "isn_atmosregulator",
-  "rarity" : "Rare",
+  "rarity" : "legendary",
     "colonyTags" : [ "science" ],
   "description" : "Generates a field that protects against environmental hazards. Requires 24u of power.",
   "shortdescription" : "Atmospheric Regulator",
