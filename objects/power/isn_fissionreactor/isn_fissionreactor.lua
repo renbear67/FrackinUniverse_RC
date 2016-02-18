@@ -40,9 +40,9 @@ function update(dt)
 	if isn_slotDecayCheck(3,5) == true then isn_doSlotDecay(3) end
 	
 	local power = isn_getCurrentPowerOutput(false)
-	if power > 8 then
+	if power > 11 then
 	  entity.setAnimationState("screen", "on")
-	elseif power >= 4 then
+	elseif power >= 6 then
 	  entity.setAnimationState("screen", "med")
 	elseif power >= 1 then 
 	  entity.setAnimationState("screen", "slow")

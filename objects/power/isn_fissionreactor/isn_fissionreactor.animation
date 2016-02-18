@@ -5,18 +5,18 @@
         "default" : "off",
         "states" : {
           "off" : {"frames" : 1},
-          "slow" : {"frames" : 3, "cycle" : 1.7, "mode" : "loop"},
-          "med" : {"frames" : 3, "cycle" : 1.0, "mode" : "loop"},
-          "on" : {"frames" : 3, "cycle" : 0.7, "mode" : "loop"}
+          "slow" : {"frames" : 4, "cycle" : 1.2, "mode" : "loop"},
+          "med" : {"frames" : 4, "cycle" : 0.8, "mode" : "loop"},
+          "on" : {"frames" : 4, "cycle" : 0.6, "mode" : "loop"}
         }
       },
       "hazard" : {
         "default" : "off",
         "states" : {
           "off" : {"frames" : 1},
-          "safe" : {"frames" : 3, "cycle" : 1.7, "mode" : "loop"},
-          "warn" : {"frames" : 3, "cycle" : 1.5, "mode" : "loop"},
-          "danger" : {"frames" : 3, "cycle" : 1.25, "mode" : "loop"}
+          "safe" : {"frames" : 4, "cycle" : 0.7, "mode" : "loop"},
+          "warn" : {"frames" : 4, "cycle" : 0.5, "mode" : "loop"},
+          "danger" : {"frames" : 4, "cycle" : 0.3, "mode" : "loop"}
         }
       },
 	  "base" : {
