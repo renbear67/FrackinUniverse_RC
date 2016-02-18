@@ -6,11 +6,11 @@
   "shortdescription" : "Miracle Grass Clipping",
   "effects" : [ [
       {
-        "effect" : "foodheal10",
-        "duration" : 240
+        "effect" : "regenerationminor",
+        "duration" : 90
       }
     ] ],
   "blockingEffects" : [
-    "foodheal10"
+    "regenerationminor"
   ]
 }
