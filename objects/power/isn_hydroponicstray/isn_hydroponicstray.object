@@ -4,7 +4,7 @@
     "colonyTags" : [ "science" ],
   "rarity" : "Common",
   "description" : "Grows crops more quick and efficiently. Requires 2u of power.",
-  "shortdescription" : "Hydroponics Tray",
+  "shortdescription" : "^cyan;Hydroponics Tray^white;",
   "race" : "generic",
   "category" : "wire",
   "objectType" : "container",

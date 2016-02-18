@@ -3,7 +3,7 @@
   "rarity" : "rare",
   "colonyTags" : [ "science" ],
   "description" : "A step up from the lesser Centrifuge. Can process radioactive ores. Needs 3u power.",
-  "shortdescription" : "Advanced Centrifuge",
+  "shortdescription" : "^cyan;Advanced Centrifuge^white;",
   "race" : "generic",
   "category" : "storage",
   "price" : 1500,

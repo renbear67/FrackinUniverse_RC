@@ -4,7 +4,7 @@
   "category" : "crafting",
   "rarity" : "Common",
   "description" : "A machine that allows fermentation to create alcohol!",
-  "shortdescription" : "Fermenter",
+  "shortdescription" : "^orange;Fermenter^white;",
   "race" : "general",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {

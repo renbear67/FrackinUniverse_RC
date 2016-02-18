@@ -18,7 +18,7 @@
   },
   "printable" : false,
   "description" : "Your very own homebrewing kit",
-  "shortdescription" : "Booze Kit",
+  "shortdescription" : "^orange;Booze Kit^white;",
   "race" : "general",
   "price" : 1,
   "inventoryIcon" : "boozekiticon.png",

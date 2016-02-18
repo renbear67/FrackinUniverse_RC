@@ -5,7 +5,7 @@
   "category" : "wire",
   "price" : 2500,
   "description" : "Uses sunlight to generate electricity. It can generate up to 2u of power in optimal conditions.",
-  "shortdescription" : "Solar Panel",
+  "shortdescription" : "^cyan;Solar Panel^white;",
   "race" : "generic",
   "printable" : false,
   "learnBlueprintsOnPickup" : [ "fu_solararray", "isn_powdersifter", "isn_radiostation" ],

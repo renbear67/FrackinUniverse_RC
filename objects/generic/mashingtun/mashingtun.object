@@ -4,7 +4,7 @@
   "category" : "crafting",
   "rarity" : "Common",
   "description" : "A vat to make mash.",
-  "shortdescription" : "Mashing Tun",
+  "shortdescription" : "^orange;Mashing Tun^white;",
   "race" : "general",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {

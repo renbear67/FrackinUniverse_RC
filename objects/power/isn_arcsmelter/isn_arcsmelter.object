@@ -3,7 +3,7 @@
   "rarity" : "legendary",
   "colonyTags" : [ "science" ],
   "description" : "An incredibly efficient furnace that requires 12u power.",
-  "shortdescription" : "Arc Smelter",
+  "shortdescription" : "^cyan;Arc Smelter^white;",
   "race" : "generic",
   "category" : "storage",
   "price" : 7500,

@@ -9,7 +9,7 @@
     "filter" : [ "honeytable" ]
   },
   "description" : "Cook honey based food on this!",
-  "shortdescription" : "Honey Cooking Table",
+  "shortdescription" : "^orange;Honey Cooking Table^white;",
   "race" : "generic",
   "category" : "crafting",
 

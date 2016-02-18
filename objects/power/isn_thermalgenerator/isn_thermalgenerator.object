@@ -6,7 +6,7 @@
   "objectType" : "container",
   "price" : 2500,
   "description" : "A fuel-burning generator. It can generate up to 10u of power.",
-  "shortdescription" : "Thermo-Electric Generator",
+  "shortdescription" : "^cyan;Combustion Generator^white;",
   "race" : "generic",
   "printable" : false,
   "learnBlueprintsOnPickup" : [ "isn_fissionreactor", "isn_atmoscondenser" ],
