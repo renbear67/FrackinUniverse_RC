@@ -10,7 +10,7 @@
   "inventoryIcon" : "extractionlabicon.png",
   "description" : "Converts materials into useful resources faster.",
   "learnBlueprintsOnPickup" : [ "extractionlabadv_roof" ],
-  "shortdescription" : "^orange;MKII Extraction Lab^white;",
+  "shortdescription" : "^orange;Extraction Lab MKII ^white;",
   "subtitle" : "Resource converter",
   "orientations" : [
     {

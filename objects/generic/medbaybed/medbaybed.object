@@ -3,7 +3,7 @@
   "colonyTags" : [ "fu", "science", "scienceoutpost", "medbay" ],
   "rarity" : "rare",
   "description" : "Few things stitch up wounds faster than this sweet baby.",
-  "shortdescription" : "Medical Bay",
+  "shortdescription" : "^orange;Medical Bay^white;",
   "race" : "glitch",
   "category" : "furniture",
   "price" : 625,

@@ -5,7 +5,7 @@
   "price" : 3000,
   "objectType" : "container", 
   "description" : "Apply upgrades to any body armor. Requires 6u power.",
-  "shortdescription" : "Upgrade Station",
+  "shortdescription" : "^cyan;Upgrade Station^white;",
   "race" : "generic",
 
   "inventoryIcon" : "fu_upgradeicon.png",

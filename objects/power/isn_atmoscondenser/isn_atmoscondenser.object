@@ -3,7 +3,7 @@
   "rarity" : "rare",
     "colonyTags" : [ "science" ],
   "description" : "Condenses the atmosphere into usable reagents. Requires 5u of power.",
-  "shortdescription" : "Atmospheric Condenser",
+  "shortdescription" : "^cyan;Atmospheric Condenser^white;",
   "race" : "generic",
   "category" : "storage",
   "price" : 500,

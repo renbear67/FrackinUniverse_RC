@@ -6,7 +6,7 @@
   "objectType" : "container",
   "price" : 5000,
   "description" : "Uses radioactive materials to generate power. Can generate from 4u to 20u. Higher power will be highly radioactive.",
-  "shortdescription" : "Nuclear Fission Reactor",
+  "shortdescription" : "^cyan;Fission Reactor^white;",
   "race" : "generic",
   "printable" : false,
   "learnBlueprintsOnPickup" : [ "fu_quantumgenerator" ],

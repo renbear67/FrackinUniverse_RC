@@ -4,7 +4,7 @@
   "printable" : false,
   "rarity" : "Common",
   "description" : "A barrel to collect rainwater!",
-  "shortdescription" : "Rain Barrel",
+  "shortdescription" : "^orange;Rain Barrel^white;",
   "subtitle" : "Rain Barrel.",
   "race" : "generic",
   "category" : "crafting",

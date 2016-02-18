@@ -3,7 +3,7 @@
   "colonyTags" : [ "hive", "bees", "insects" ],
   "rarity" : "Rare",
   "description" : "A bee breeding apiary.",
-  "shortdescription" : "Apiary",
+  "shortdescription" : "^orange;Apiary^white;",
   "race" : "generic",
   "subtitle" : "Harvest honey!",
   "category" : "apiary",

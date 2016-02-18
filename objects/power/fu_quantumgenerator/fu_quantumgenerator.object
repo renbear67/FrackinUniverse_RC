@@ -6,7 +6,7 @@
   "objectType" : "container",
   "price" : 2500,
   "description" : "A hi-tech power solution. Unmatched power at 34u, but requires bio-fuels or high-end fuels to operate.",
-  "shortdescription" : "Quantum Reactor",
+  "shortdescription" : "^cyan;Quantum Reactor^white;",
   "race" : "generic",
   "printable" : false,
 

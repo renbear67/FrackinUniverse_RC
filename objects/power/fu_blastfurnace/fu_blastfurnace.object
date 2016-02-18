@@ -3,7 +3,7 @@
   "rarity" : "rare",
   "colonyTags" : [ "science" ],
   "description" : "A superior form of furnace, for smelting mass quantities. Requires 4u power.",
-  "shortdescription" : "Blast Furnace",
+  "shortdescription" : "^cyan;Blast Furnace^white;",
   "race" : "generic",
   "category" : "storage",
   "price" : 900,

@@ -4,7 +4,7 @@
   "printable" : false,
   "rarity" : "Common",
   "description" : "A machine used to squeeze juices from fruits.",
-  "shortdescription" : "Fruit Press",
+  "shortdescription" : "^orange;Fruit Press^white;",
   "subtitle" : "Wine making!",
   "race" : "generic",
   "category" : "winepress",
