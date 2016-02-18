@@ -8,7 +8,7 @@
   "category" : "storage",
   "price" : 1000,
   "description" : "This should be perfect for your lab storage.",
-  "shortdescription" : "^purple;Gene Cabinet^white;",
+  "shortdescription" : "^#e43774;Gene Cabinet^white;",
   "race" : "generic",
 
   "apexDescription" : "Man, I have slaughtered a lot of creatures.",

@@ -7,7 +7,7 @@
   "effects" : [ [
       {
         "effect" : "regenerationminor",
-        "duration" : 90
+        "duration" : 120
       }
     ] ],
   "blockingEffects" : [
