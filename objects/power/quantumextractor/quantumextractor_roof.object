@@ -9,7 +9,7 @@
   "price" : 1450,
   "lightColor" : [75, 75, 170],
   "inventoryIcon" : "quantumextractoricon.png",
-  "description" : "The ultimate in extraction technology. Requires 3u ^orange;power^white; ",
+  "description" : "The ultimate in extraction technology. Requires 5u ^orange;power^white; ",
   "shortdescription" : "^orange;Quantum Extractor (roof)^white;",
   "subtitle" : "Resource converter",
   "orientations" : [
@@ -37,7 +37,7 @@
   "isn_liquidCollector" : false,
   
   "scripts" : [ 
-                "/objects/power/quantumextractor/fu_sharedpowerscripts.lua",
+                "/objects/power/isn_sharedpowerscripts.lua",
 		"/objects/isn_sharedobjectscripts.lua",
   		"/objects/power/quantumextractor/quantumextractor.lua"
    	      ],

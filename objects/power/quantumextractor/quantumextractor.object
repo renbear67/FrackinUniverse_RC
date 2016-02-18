@@ -39,7 +39,7 @@
   "isn_liquidCollector" : false,
   
   "scripts" : [ 
-                "/objects/power/quantumextractor/fu_sharedpowerscripts.lua",
+                "/objects/power/isn_sharedpowerscripts.lua",
 		"/objects/isn_sharedobjectscripts.lua",
   		"/objects/power/quantumextractor/quantumextractor.lua"
    	      ],
