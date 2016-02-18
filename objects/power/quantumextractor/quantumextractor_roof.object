@@ -1,7 +1,7 @@
 {
   "objectName" : "quantumextractor_roof",
   "colonyTags" : [ "fu", "science", "scienceoutpost", "radiation" ],
-  "rarity" : "Common",
+  "rarity" : "legendary",
   "race" : "generic",
   "category" : "crafting",
   "printable" : false,
@@ -42,7 +42,7 @@
   		"/objects/power/quantumextractor/quantumextractor.lua"
    	      ],
    	      
-  "scriptDelta" : 120,
+  "scriptDelta" : 5,
   
   "recipeGroup" : "quantumextractor",
   "openSounds" : [ "/sfx/objects/locker_open.ogg" ],
