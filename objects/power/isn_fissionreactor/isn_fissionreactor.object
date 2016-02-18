@@ -29,8 +29,8 @@
 
   "animation" : "isn_fissionreactor.animation",
   "animationParts" : {
-    "hazard" : "isn_fissionreactor_hazard.png",
     "screen" : "isn_fissionreactor_screen.png",
+    "hazard" : "isn_fissionreactor_hazard.png",
     "base" : "isn_fissionreactor_base.png"
   },
   "animationPosition" : [0, 0],
