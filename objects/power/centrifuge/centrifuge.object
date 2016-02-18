@@ -1,6 +1,6 @@
 {
   "objectName" : "centrifuge",
-  "rarity" : "rare",
+  "rarity" : "uncommon",
   "colonyTags" : [ "science" ],
   "description" : "A useful device for separating immiscible liquids. Needs 2u power.",
   "shortdescription" : "Lab Centrifuge",
