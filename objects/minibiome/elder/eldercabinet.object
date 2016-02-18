@@ -2,7 +2,7 @@
   "objectName" : "eldercabinet",
   "colonyTags" : [ "elder", "hideous", "furniture" ],
   "printable" : false,
-  "rarity" : "Common",
+  "rarity" : "rare",
   "objectType" : "container",
 
   "category" : "storage",

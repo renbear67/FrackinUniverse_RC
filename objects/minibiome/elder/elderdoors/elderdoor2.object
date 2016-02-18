@@ -2,7 +2,7 @@
   "objectName" : "elderdoor2",
   "colonyTags" : ["door","lab"],
   "printable" : false,
-  "rarity" : "Common",
+  "rarity" : "rare",
 
   "category" : "door",
   "price" : 60,

@@ -1,7 +1,7 @@
 {
   "objectName" : "elderbookcase2",
   "colonyTags" : [ "elder", "bookcase", "hideous" ],
-  "rarity" : "Common",
+  "rarity" : "rare",
   "objectType" : "container",
   "tooltipKind" : "container",
   "description" : "A bookcase for storing flesh-bound hellish tomes.",
