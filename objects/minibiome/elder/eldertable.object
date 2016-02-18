@@ -2,7 +2,7 @@
   "objectName" : "eldertable",
   "colonyTags" : [ "elder", "table", "hideous" ],
   "printable" : false,
-  "rarity" : "Common",
+  "rarity" : "rare",
   "description" : "A lovely, insanity-causing table.",
   "shortdescription" : "Elder Table",
   "race" : "generic",

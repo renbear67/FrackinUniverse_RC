@@ -2,7 +2,7 @@
   "objectName" : "elderslidingdoor",
   "colonyTags" : [ "elder", "door" ],
   "printable" : false,
-  "rarity" : "Common",
+  "rarity" : "rare",
 
   "category" : "door",
   "price" : 475,

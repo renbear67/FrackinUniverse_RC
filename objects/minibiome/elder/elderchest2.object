@@ -2,7 +2,7 @@
   "objectName" : "elderchest2",
   "colonyTags" : [ "elder", "hideous", "furniture", "container" ],
   "printable" : false,
-  "rarity" : "Common",
+  "rarity" : "rare",
   "objectType" : "container",
 
   "category" : "storage",

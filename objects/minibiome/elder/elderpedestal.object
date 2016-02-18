@@ -1,7 +1,7 @@
 {
   "objectName" : "elderpedestal",
   "colonyTags" : [ "elder", "hideous" ],
-  "rarity" : "Common",
+  "rarity" : "rare",
   "category" : "decorative",
   "price" : 350,
   "description" : "A pedestal for putting your fanciness on display.",
