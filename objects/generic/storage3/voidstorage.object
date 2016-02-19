@@ -8,7 +8,7 @@
   "category" : "storage",
   "price" : 12000,
   "description" : "The ultimate storage.",
-  "shortdescription" : "^purple;Dimensional Storage^white;",
+  "shortdescription" : "^#e43774;Dimensional Storage^white;",
   "race" : "generic",
   "lightColor" : [0, 255, 0],
   "apexDescription" : "Man, I have slaughtered a lot of creatures.",
