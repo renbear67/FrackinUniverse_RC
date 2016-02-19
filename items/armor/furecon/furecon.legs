@@ -8,7 +8,7 @@
   "description" : "Recon boots have fancy tech that mitigates mud, slush and slime tile effects.",
   "shortdescription" : "Recon Leggings",
   "tooltipKind" : "armor",
-
+"learnBlueprintsOnPickup" : [ "fureconhead2", "fureconchest2", "fureconpants2" ],
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",
 
@@ -20,7 +20,7 @@
 
     {
       "stat" : "protection",
-      "amount" : 5
+      "amount" : 6
     },
 
     {

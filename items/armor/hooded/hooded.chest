@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "rare",
-  "description" : "This chest protection provides great energy reserves.",
+  "description" : "This chest protection provides 25% energy regeneration.",
   "shortdescription" : "Dweller Chest",
   "tooltipKind" : "armor",
 
@@ -35,7 +35,7 @@
     },
     {
       "stat" : "energyRegen",
-      "amount" : 1.2
+      "amount" : 1.25
     }
   ],
 

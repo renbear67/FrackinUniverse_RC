@@ -8,7 +8,7 @@
   "description" : "Rapid computation HUD allows swifter movement.",
   "shortdescription" : "Recon Headgear",
   "tooltipKind" : "armor",
-
+"learnBlueprintsOnPickup" : [ "fureconhead2", "fureconchest2", "fureconpants2" ],
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",
@@ -21,7 +21,7 @@
 
     {
       "stat" : "protection",
-      "amount" : 8
+      "amount" : 9
     },
 
     {
