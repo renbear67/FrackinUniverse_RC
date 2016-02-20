@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "rare",
-  "description" : "Reliable protection. Decent energy regen.",
+  "description" : "Reliable protection. Decent health bonus.",
   "shortdescription" : "Scout Helm",
   "tooltipKind" : "armor",
 
@@ -19,15 +19,15 @@
     },    
     {
       "stat" : "protection",
-      "amount" : 13
+      "amount" : 14
     },
     {
       "stat" : "maxEnergy",
-      "amount" : 40
+      "amount" : 12
     },
     {
       "stat" : "maxHealth",
-      "amount" : 9
+      "amount" : 14
     }
   ]
 }

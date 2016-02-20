@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "rare",
-  "description" : "Reliable protection. Decent energy regen.",
+  "description" : "Reliable protection. Decent energy regeneration.",
   "shortdescription" : "Scout Greaves",
   "tooltipKind" : "armor",
 
@@ -18,11 +18,11 @@
     },    
     {
       "stat" : "protection",
-      "amount" : 9
+      "amount" : 12
     },
     {
       "stat" : "maxEnergy",
-      "amount" : 32
+      "amount" : 22
     },
     "energyregenfu_armor20"
   ]

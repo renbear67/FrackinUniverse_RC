@@ -85,7 +85,7 @@
 	"value":[[0, {
 	"pool":[ 
           {"weight" : 0.89, "item" : "cotton"},
-          {"weight" : 0.01, "item" : "cottonseed"},
+          {"weight" : 0.33, "item" : "cottonseed"},
           {"weight" : 0.1, "item" : "plantfibre"}
         ],
 	"poolRounds" : [

@@ -1,0 +1,16 @@
+{
+  "name" : "regenerationmiraclegrass",
+  "effectConfig" : {
+    "healTime" : 60
+  },
+  "defaultDuration" : 15,
+
+  "scripts" : [
+    "regenerationmiraclegrass.lua"
+  ],
+
+  "animationConfig" : "regeneration.animation",
+
+  "label" : "Regen 1",
+  "icon" : "/interface/statuses/heal.png"
+}

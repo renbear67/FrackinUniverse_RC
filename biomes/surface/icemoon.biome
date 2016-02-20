@@ -11,7 +11,7 @@
         "select" : 5,
         "pool" : [
           [ 0.2, "fupenguintank" ],
-          [ 0.3, "fupenguinminiufo" ],
+          //[ 0.3, "fupenguinminiufo" ],
           [ 0.3, "fupenguingeneral" ],
           [ 0.4, "fupenguinrockettrooper" ],
           [ 0.5, "fupenguintrooper" ]

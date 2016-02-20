@@ -24,12 +24,12 @@
 
     {
       "stat" : "maxEnergy",
-      "amount" : 32
+      "amount" : 12
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 11
+      "amount" : 12
     },
     "spacefarerimmunity"
   ]
