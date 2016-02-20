@@ -5,27 +5,27 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "Recon boots have fancy tech that mitigates most movement-based effects.",
+  "description" : "Recon boots have fancy tech that mitigates mud, slush and slime tile effects.",
   "shortdescription" : "Recon Leggings",
   "tooltipKind" : "armor",
-
+"learnBlueprintsOnPickup" : [ "fureconhead2", "fureconchest2", "fureconpants2" ],
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",
 
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "baseMultiplier" : 1.42
+      "baseMultiplier" : 1.32
     },
 
     {
       "stat" : "protection",
-      "amount" : 5
+      "amount" : 6
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 16
+      "amount" : 6
     },
 
     {
@@ -34,7 +34,6 @@
     },
     "fumudslowimmunity",
     "slushslowimmunity",
-    "spiderwebimmunity",
     "slimestickimmunity"
   ],
 

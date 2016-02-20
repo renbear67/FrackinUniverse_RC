@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "Tar can't slow these down.",
+  "description" : "Thick black tar can't slow these down.",
   "shortdescription" : "Nomad Robes",
   "tooltipKind" : "armor",
 
@@ -19,7 +19,7 @@
 
     {
       "stat" : "protection",
-      "amount" : 8
+      "amount" : 10
     },
 
     {

@@ -1,42 +1,64 @@
 {
-  "itemName" : "hoodedlegs",
-  "inventoryIcon" : "icons.png:pants",
+  "itemName" : "fureconchest2",
+  "price" : 375,
+  "inventoryIcon" : "icons.png:chest",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "rare",
-  "description" : "Immune to slime, mud, ice and snow.",
-  "shortdescription" : "Dweller Greaves",
+  "rarity" : "Common",
+  "description" : "Special armor that negates radiation.",
+  "shortdescription" : "Elite Recon Vest",
   "tooltipKind" : "armor",
+"learnBlueprintsOnPickup" : [ "fureconhead3", "fureconchest3", "fureconpants3" ],
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
 
-  "maleFrames" : "pants.png",
-  "femaleFrames" : "pants.png",
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
 
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "baseMultiplier" : 1.35
-    },  
+      "baseMultiplier" : 2.04
+    },
+
     {
       "stat" : "protection",
-      "amount" : 10
+      "amount" : 22
     },
+
     {
       "stat" : "maxEnergy",
-      "amount" : 34
+      "amount" : 40
     },
-    "movementprotection"
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 18
+    },
+    "ffextremeradiationimmunity",
+    "radiationburnimmunity"
   ],
+
+  "questTags" : [ "tier4armor" ],
 
   "colorOptions" : [
 
-    /* BLUE */
-    { "ffca8a" : "96cbe7", "e0975c" : "5588d4", "a85636" : "344495", "6f2919" : "1a1c51" },
+     /* BLACK */
+    { "ffca8a" : "466634", "e0975c" : "335024", "a85636" : "274019", "6f2919" : "142e0e" },
     /* BLACK */
     { "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },
     /* GREY */
     { "ffca8a" : "b5b5b5", "e0975c" : "808080", "a85636" : "555555", "6f2919" : "303030" },
     /* WHITE */
-    { "ffca8a" : "e6e6e6", "e0975c" : "b6b6b6", "a85636" : "7b7b7b", "6f2919" : "373737" },    
+    { "ffca8a" : "e6e6e6", "e0975c" : "b6b6b6", "a85636" : "7b7b7b", "6f2919" : "373737" },
+    /* RED */
+    { "ffca8a" : "f4988c", "e0975c" : "d93a3a", "a85636" : "932625", "6f2919" : "601119" },
     /* ORANGE */
     { "ffca8a" : "ffd495", "e0975c" : "ea9931", "a85636" : "af4e00", "6f2919" : "6e2900" },
     /* YELLOW */
@@ -62,5 +84,6 @@
     { "ffca8a" : "717171", "e0975c" : "505050", "a85636" : "363636", "6f2919" : "181818" },
     { "ffca8a" : "e6e9ea", "e0975c" : "c6d2d4", "a85636" : "97abac", "6f2919" : "627677" }
 */
+
   ]
 }

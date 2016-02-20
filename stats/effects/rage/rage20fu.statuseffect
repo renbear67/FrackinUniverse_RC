@@ -1,7 +1,7 @@
 {
   "name" : "rage20fu",
   "effectConfig" : {
-    "powerModifier" : 0.2
+    "powerModifier" : 1.2
   },
   "defaultDuration" : 15,
 

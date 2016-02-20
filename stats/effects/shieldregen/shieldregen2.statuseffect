@@ -1,7 +1,7 @@
 {
   "name" : "shieldregen2",
   "effectConfig" : {
-    "shieldRegenPercentage" : 0.2,
+    "shieldRegenPercentage" : 1.2,
     "expireOnFull" : true
   },
   "defaultDuration" : 30,
