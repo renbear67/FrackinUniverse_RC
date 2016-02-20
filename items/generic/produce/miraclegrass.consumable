@@ -6,11 +6,11 @@
   "shortdescription" : "Miracle Grass Clipping",
   "effects" : [ [
       {
-        "effect" : "regenerationminor",
+        "effect" : "regenerationmiraclegrass",
         "duration" : 120
       }
     ] ],
   "blockingEffects" : [
-    "regenerationminor"
+    "regenerationmiraclegrass"
   ]
 }
