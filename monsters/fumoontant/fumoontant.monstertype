@@ -72,7 +72,7 @@
   "familyParameters" : [
     [
       {
-        "baseSkills" : [ "blinkAttack" ],
+        "baseSkills" : [ "slimeGun2Attack" ],
         //"specialSkills" : [ "moontantGoopAttack" ]
         "specialSkills" : [ "cellBlastAttack" ]
       }

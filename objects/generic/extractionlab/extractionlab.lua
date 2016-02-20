@@ -233,7 +233,7 @@ local recipes =
 {inputs = { alienrock=50 }, outputs = { ff_silicon=2 }, time = 0.95},
 {inputs = { alienstripedwood=50 }, outputs = { tissueculture=2 }, time = 0.95},
 {inputs = { alienweirdwood=50 }, outputs = { tissueculture=2 }, time = 0.95},
-{inputs = { blackslimematerial=50 }, outputs = { geneticmaterial=2 }, time = 0.95},
+{inputs = { blackslimematerial=8 }, outputs = { blobbushjelly=1 }, time = 0.95},
 {inputs = { bamboo=50 }, outputs = { geneticmaterial=2 }, time = 0.95},
 {inputs = { bonematerial=25 }, outputs = { bone=5, liquidoil=10 }, time = 0.95},
 {inputs = { bonemealmaterial=50 }, outputs = { nutrientpaste=2 }, time = 0.95},
