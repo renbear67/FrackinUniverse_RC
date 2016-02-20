@@ -38,7 +38,7 @@
               [0.35, "wildhopsseed" ],
               [0.35, "wildmiraclegrassseed" ],
               [0.35, "wildcinnamonseed" ],
-              [0.35, "wildcottonseed" ]
+              [0.65, "wildcottonseed" ]
               ],
               "parameters" : { "startingStage" : 3 }
             }
