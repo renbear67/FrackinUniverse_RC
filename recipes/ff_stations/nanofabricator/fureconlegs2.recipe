@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "fureconpants", "count" : 1 },
-    { "item" : "xithricitecrystal", "count" : 4 },
+    { "item" : "icecrystal", "count" : 4 },
     { "item" : "mutaviskthread", "count" : 3 }
   ],
   "output" : {
