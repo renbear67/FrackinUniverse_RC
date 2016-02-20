@@ -8,5 +8,5 @@
     "item" : "fureconpants3",
     "count" : 1
   },
-  "groups" : [ "clothingfabricator", "armors", "all" ]
+  "groups" : [ "nanofabricator", "armors", "all" ]
 }
