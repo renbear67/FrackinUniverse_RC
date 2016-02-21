@@ -1,9 +1,8 @@
 {
   "input" : [
-   { "item" : "gunpowder", "count" : 8 },
-   { "item" : "quietusbar", "count" : 2 },
-   { "item" : "minirocketlauncher", "count" : 1 },
-   { "item" : "irradiumbar", "count" : 2 }
+   { "item" : "pyreitebar", "count" : 4 },
+   { "item" : "scorchedcore", "count" : 2 },
+   { "item" : "minirocketlauncher", "count" : 1 }
   ],
   "output" : {
     "item" : "minirocketlauncher2",
