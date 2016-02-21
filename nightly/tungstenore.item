@@ -4,5 +4,6 @@
   "rarity" : "Common",
   "inventoryIcon" : "tungstenore.png",
   "description" : "It's tungsten. It can be used for smelting.",
-  "shortdescription" : "Tungsten Ore"
+  "shortdescription" : "Tungsten Ore",
+    "learnBlueprintsOnPickup" : [ "tungstenbar" ]
 }

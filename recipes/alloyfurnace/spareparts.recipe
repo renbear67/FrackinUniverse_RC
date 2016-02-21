@@ -3,7 +3,7 @@
     { "item" : "ff_spareparts", "count" : 1 }
   ],
   "output" : {
-    "item" : "steelbar",
+    "item" : "tungstenbar",
     "count" : 2
   },
   "groups" : [ "alloyfurnace", "all" ]

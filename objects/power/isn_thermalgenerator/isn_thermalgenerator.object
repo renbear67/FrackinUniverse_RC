@@ -51,15 +51,15 @@
   
   "isn_powerSupplier" : true,
   "acceptablefuel" : {
-	  "paper" : 4,
-	  "fullwood1" : 12,
-	  "fullwood2" : 12,
-	  "coalore" : 20,
-	  "biofuelcannister" : 30,
-	  "liquidoil" : 45,
-	  "liquidfuel" : 60,
-	  "biofuelcannisteradv" : 70,
-	  "supermatter" : 80,
-	  "biofuelcannistermax" : 90
+	  "paper" : 2,
+	  "fullwood1" : 4,
+	  "fullwood2" : 4,
+	  "coalore" : 6,
+	  "biofuelcannister" : 8,
+	  "liquidoil" : 8,
+	  "liquidfuel" : 10,
+	  "biofuelcannisteradv" : 12,
+	  "supermatter" : 14,
+	  "biofuelcannistermax" : 16
   }
 }

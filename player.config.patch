@@ -107,6 +107,8 @@
     { "op": "add", "path": "/normalModeDeathDrops/-", "value": "mutaviskthread" },
     { "op": "add", "path": "/normalModeDeathDrops/-", "value": "pesticide" },
     { "op": "add", "path": "/normalModeDeathDrops/-", "value": "ff_resin" },
+    { "op": "add", "path": "/normalModeDeathDrops/-", "value": "tungstenore"  },
+    { "op": "add", "path": "/normalModeDeathDrops/-", "value": "durasteelore"  },
     { "op": "add", "path": "/normalModeDeathDrops/-", "value": "ff_silicon" },
     { "op": "add", "path": "/normalModeDeathDrops/-", "value": "saltpeter" },
     { "op": "add", "path": "/normalModeDeathDrops/-", "value": "graphene" },
@@ -177,6 +179,10 @@
     { "op": "add", "path": "/normalModeDeathDrops/-", "value": "blisterextract" },
     { "op": "add", "path": "/normalModeDeathDrops/-", "value": "dnasample" },
     { "op": "add", "path": "/normalModeDeathDrops/-", "value": "mineralsample" },
-    { "op": "add", "path": "/normalModeDeathDrops/-", "value": "unstableparticles" }
-    
+    { "op": "add", "path": "/normalModeDeathDrops/-", "value": "unstableparticles" },
+    { "op": "add", "path": "/normalModeDeathDrops/-", "value": "xithricitecrystal"  },
+    { "op": "add", "path": "/normalModeDeathDrops/-", "value": "isogenbar"  },
+    { "op": "add", "path": "/normalModeDeathDrops/-", "value": "pyreitebar"  },
+    { "op": "add", "path": "/normalModeDeathDrops/-", "value": "nocxiumbar"  },
+    { "op": "add", "path": "/normalModeDeathDrops/-", "value": "tritaniumbar"  }
 ]

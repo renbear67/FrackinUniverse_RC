@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "steelbar", "count" : 1 },
+    { "item" : "tungstenbar", "count" : 1 },
     { "item" : "wire", "count" : 2 }
   ],
   "output" : { "item" : "coil", "count" : 1 },

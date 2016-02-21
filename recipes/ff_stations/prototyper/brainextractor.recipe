@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "wire", "count" : 2 },
     { "item" : "ff_silicon", "count" : 1 },
-    { "item" : "steelbar", "count" : 1 }
+    { "item" : "tungstenbar", "count" : 1 }
   ],
   "output" : {
     "item" : "brainextractor",

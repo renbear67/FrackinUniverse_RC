@@ -3,11 +3,11 @@
   "prerequisites" : [ "chemlab.gearup" ],
   "title" : "^#1693d5;DNA Sample",
   "text" : "^orange;DNA Samples^white; are an integral part to creating plant life in your lab. To make some, ^green;check your ^orange;Bio Chem Lab^green; and convert them^white; there.",
-  "completionText" : "Many other materials can be created in this fashion. Let's move on to mineral samples. Oh, and take this. It isn't much now, but once you upgrade it a bit...",
+  "completionText" : "Many other materials can be created in this fashion. Let's move on to mineral samples. Oh, and take this. You need a proper lab coat, after all!",
   "speaker" : "questGiver",
   "moneyRange" : [0, 0],
   "rewards" : [  
-    [ [ "basicminer" ] ]  
+    [ [ "scientistlegs" ] ]  
   ],
 
   "updateDelta" : 10,
