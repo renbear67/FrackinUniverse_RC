@@ -141,6 +141,7 @@ function isn_doSlotDecay(slot)
 	end
 	
 	if wastestack ~= nil then
+		world.spawnItem(wastestack.name,entity.position(),wastestack.count) --drop it on the ground
 		storage.radiation = storage.radiation + 5
 	end
 end
