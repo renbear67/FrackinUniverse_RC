@@ -1,6 +1,6 @@
 {
   "input" : [
-   { "item" : "pyreitebar", "count" : 4 },
+   { "item" : "quietusbar", "count" : 4 },
    { "item" : "scorchedcore", "count" : 2 },
    { "item" : "minirocketlauncher", "count" : 1 }
   ],
