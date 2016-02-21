@@ -2,7 +2,7 @@
   "objectName" : "yellowfootseed",
     "colonyTags" : [ "nature" ],
   "rarity" : "common",
-  "category" : "Farmable",
+  "category" : "farmable",
   "description" : "Boosts energy reserves.",
   "shortdescription" : "Yellowfoot Shroom",
   "objectType" : "farmable",

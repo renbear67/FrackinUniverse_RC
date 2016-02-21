@@ -2,7 +2,7 @@
   "objectName" : "guamseed",
     "colonyTags" : [ "nature" ],
   "rarity" : "common",
-  "category" : "Farmable",
+  "category" : "farmable",
   "description" : "This mutant strain of guam can filter any radiation.",
   "shortdescription" : "Rad Grass Seed",
   "objectType" : "farmable",

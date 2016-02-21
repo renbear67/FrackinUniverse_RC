@@ -1,0 +1,8 @@
+{
+  "itemName" : "tungstenbar",
+  "price" : 60,
+  "rarity" : "Common",
+  "inventoryIcon" : "tungstenbar.png",
+  "description" : "It's a tungsten bar. Tungsten ore is found primarily on Forest and Desert planets.",
+  "shortdescription" : "Tungsten Bar"
+}

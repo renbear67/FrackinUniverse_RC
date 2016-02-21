@@ -2,7 +2,7 @@
   "objectName" : "bloodrootseed",
     "colonyTags" : [ "nature" ],
   "rarity" : "common",
-  "category" : "Farmable",
+  "category" : "farmable",
   "description" : "Vitality-increasing plant.",
   "shortdescription" : "Blood Root Seed",
   "objectType" : "farmable",

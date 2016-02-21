@@ -2,7 +2,7 @@
   "objectName" : "vanusflowerseed",
     "colonyTags" : [ "nature" ],
   "rarity" : "uncommon",
-  "category" : "Farmable",
+  "category" : "farmable",
   "description" : "Protects the user from harm.",
   "shortdescription" : "Vanus Flower Seed",
   "objectType" : "farmable",

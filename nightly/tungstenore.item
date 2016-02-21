@@ -1,0 +1,8 @@
+{
+  "itemName" : "tungstenore",
+  "price" : 30,
+  "rarity" : "Common",
+  "inventoryIcon" : "tungstenore.png",
+  "description" : "It's tungsten. It can be used for smelting.",
+  "shortdescription" : "Tungsten Ore"
+}
