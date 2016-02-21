@@ -6,7 +6,7 @@
   "speaker" : "questGiver",
   "moneyRange" : [0, 0],
   "rewards" : [  
-    [ [ "basicminer" ] ]  
+    [ [ "biospore", 5 ] ]  
   ],
 
   "updateDelta" : 10,

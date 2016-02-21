@@ -1,6 +1,7 @@
 {
   "input" : [
-    { "item" : "steelbar", "count" : 10 },
+    { "item" : "tungstenbar", "count" : 5 },
+    { "item" : "goldbar", "count" : 5 },
     { "item" : "advcircuit", "count" : 1 },
     { "item" : "battery", "count" : 2 }
   ],

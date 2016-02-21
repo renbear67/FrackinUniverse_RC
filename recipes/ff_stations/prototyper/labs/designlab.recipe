@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "steelbar", "count" : 6 },
+    { "item" : "tungstenbar", "count" : 6 },
     { "item" : "cpu", "count" : 1 },
     { "item" : "apexpod2", "count" : 1 }
   ],

@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "glassmaterial", "count" : 1 },
-    { "item" : "steelbar", "count" : 4}
+    { "item" : "tungstenbar", "count" : 4}
   ],
   "output" : {
     "item" : "microscope",
