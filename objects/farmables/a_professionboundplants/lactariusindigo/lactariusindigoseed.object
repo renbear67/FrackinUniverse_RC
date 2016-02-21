@@ -2,7 +2,7 @@
   "objectName" : "lactariusindigoseed",
     "colonyTags" : [ "nature" ],
   "rarity" : "common",
-  "category" : "Farmable",
+  "category" : "farmable",
   "description" : "Increase health and energy.",
   "shortdescription" : "Lactarius Indigo",
   "objectType" : "farmable",

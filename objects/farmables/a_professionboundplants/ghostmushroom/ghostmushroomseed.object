@@ -2,7 +2,7 @@
   "objectName" : "ghostmushroomseed",
     "colonyTags" : [ "nature" ],
   "rarity" : "common",
-  "category" : "Farmable",
+  "category" : "farmable",
   "description" : "These buggers are almost invisible!",
   "shortdescription" : "Ghost Mushroom",
   "objectType" : "farmable",

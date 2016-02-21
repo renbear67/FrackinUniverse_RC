@@ -2,7 +2,7 @@
   "objectName" : "dragonsbeardseed",
     "colonyTags" : [ "nature" ],
   "rarity" : "common",
-  "category" : "Farmable",
+  "category" : "farmable",
   "description" : "Nearly immune to all forms of heat.",
   "shortdescription" : "Dragonsbeard",
   "objectType" : "farmable",

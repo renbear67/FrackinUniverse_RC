@@ -2,7 +2,7 @@
   "objectName" : "mintseed",
     "colonyTags" : [ "nature" ],
   "rarity" : "common",
-  "category" : "Farmable",
+  "category" : "farmable",
   "description" : "Restores natural energy reserves.",
   "shortdescription" : "Star Mint Seed",
   "objectType" : "farmable",
