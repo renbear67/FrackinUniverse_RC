@@ -120,26 +120,28 @@ function isn_doSlotDecay(slot)
 
 	world.containerConsumeAt(entity.id(),slot,1) --consume resource
 
-	local waste = world.containerItemAt(entity.id(),5)
+	local waste = world.containerItemAt(entity.id(),4)
 	
 	if waste ~= nil then
-		if waste.name ~= "toxicwaste" then
+		-- world.logInfo("Waste found in slot. Name is " .. waste.name)
+		if waste.name == "toxicwaste" then
 		  storage.radiation = storage.radiation + 5
 		else
-		  world.containerConsumeAt(entity.id(),slot,waste.count) --consume resource
-		  world.spawnItem(entity.position(),waste.name,waste.count)
+		  world.containerConsumeAt(entity.id(),4,waste.count) --delete waste
+		  world.spawnItem(waste.name,entity.position(),waste.count) --drop it on the ground
 		end
 	end
 
 	local wastestack
 	
 	if waste == nil then
-		wastestack = world.containerAddItems(entity.id(),{name = "toxicwaste", count = 1, data={}},5)
+		wastestack = world.containerSwapItems(entity.id(),{name = "toxicwaste", count = 1, data={}},4)
 	elseif waste.name == "toxicwaste" then
-		wastestack = world.containerStackItems(entity.id(),{name = "toxicwaste", count = 1, data={}},5)
+		wastestack = world.containerSwapItems(entity.id(),{name = "toxicwaste", count = 1, data={}},4)
 	end
 	
 	if wastestack ~= nil then
+		world.spawnItem(wastestack.name,entity.position(),wastestack.count) --drop it on the ground
 		storage.radiation = storage.radiation + 5
 	end
 end
