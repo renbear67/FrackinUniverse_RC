@@ -5,5 +5,6 @@
   "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
   "description" : "A bee queen.",
   "shortdescription" : "Honey Bee Queen",
-  "maxStack" : 1000
+  "maxStack" : 1000,
+  "learnBlueprintsOnPickup" : [ "fubeesuitchest", "fubeesuithead", "fubeesuitpants" ]
 }

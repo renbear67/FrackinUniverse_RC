@@ -4,5 +4,6 @@
   "rarity" : "uncommon",
   "inventoryIcon" : "syntheticmaterial.png",
   "description" : "A small square of synthetic material.",
-  "shortdescription" : "Synthetic Material"
+  "shortdescription" : "Synthetic Material",
+  "learnBlueprintsOnPickup" : [ "fieldscientistchest", "fieldscientisthead", "fieldscientistlegs" ]
 }

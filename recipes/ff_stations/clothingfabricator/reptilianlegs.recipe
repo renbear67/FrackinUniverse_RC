@@ -1,7 +1,5 @@
 {
   "input" : [
-    { "item" : "bone", "count" : 5 },
-    { "item" : "ff_resin", "count" : 4 },
     { "item" : "leather", "count" : 3 },
     { "item" : "sharpenedclaw", "count" : 2 }
   ],

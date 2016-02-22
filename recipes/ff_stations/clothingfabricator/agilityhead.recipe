@@ -3,7 +3,7 @@
     { "item" : "mutaviskthread", "count" : 3 },
     { "item" : "blooddiamond", "count" : 1 },
     { "item" : "syntheticmaterial", "count" : 3 },
-    { "item" : "biochip", "count" : 1 }
+    { "item" : "gene_agility", "count" : 3 }
   ],
   "output" : {
     "item" : "agilitysuithead",
