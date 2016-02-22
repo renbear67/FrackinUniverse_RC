@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Uncommon",
-  "description" : "A protective piece made of chitinous plates.",
+  "description" : "A protective piece made of acid-proof chitinous plates.",
   "shortdescription" : "Chitin Chest",
   "tooltipKind" : "armor",
 
@@ -23,23 +23,24 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "baseMultiplier" : 2.8
+      "baseMultiplier" : 2.25
     },
 
     {
       "stat" : "protection",
-      "amount" : 17
+      "amount" : 29
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 44
+      "amount" : 84
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 18
-    }
+      "amount" : 21
+    },
+     "sulphuricacidimmunity"
   ],
 
   "triggerKeys" : [ "durasteelarmor" ],

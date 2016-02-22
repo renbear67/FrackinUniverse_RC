@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "rare",
-  "description" : "Wonderful reptile hide protection.",
+  "description" : "Wonderful reptile hide protection. Immune to acid.",
   "shortdescription" : "Reptile Scale Chestpiece",
   "tooltipKind" : "armor",
   "maleFrames" : {
@@ -22,24 +22,25 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "baseMultiplier" : 2.55
+      "baseMultiplier" : 2.0
     },  
     {
       "stat" : "protection",
-      "amount" : 28
+      "amount" : 24
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 90
+      "amount" : 63
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 25
-    }
+      "amount" : 17
+    },
+     "sulphuricacidimmunity"
   ],
-  "questTags" : [ "tier5armor" ],  
+  "questTags" : [ "tier3armor" ],  
 
   "colorOptions" : [
     /* PURPLE DEFAULT */

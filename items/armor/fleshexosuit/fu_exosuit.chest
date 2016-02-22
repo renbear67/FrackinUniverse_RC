@@ -1,7 +1,7 @@
 {
   "itemName" : "fuexosuitchest",
   "shortdescription" : "Flesh Exo-Chest",
-  "description" : "The wearer will slowly regenerate up to half of their health.",
+  "description" : "The wearer will slowly regenerate up to half of their health when below 50%",
   "rarity" : "Rare",
   "tooltipKind" : "armor",
   "inventoryIcon" : "icons.png:chest",

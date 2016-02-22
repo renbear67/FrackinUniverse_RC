@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "ff_resin", "count" : 8 },
-    { "item" : "cottonwool", "count" : 4 },
-    { "item" : "bugshell", "count" : 4 },
+    { "item" : "ff_resin", "count" : 3 },
+    { "item" : "leather", "count" : 1 },
+    { "item" : "hardenedcarapace", "count" : 4 },
     { "item" : "biochip", "count" : 1 }
   ],
   "output" : {
