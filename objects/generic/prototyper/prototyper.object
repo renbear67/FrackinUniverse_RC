@@ -1,7 +1,7 @@
 {
   "objectName" : "prototyper",
   "colonyTags" : [ "fu", "science", "scienceoutpost", "combat", "laser" ],
-  "rarity" : "rare",
+  "rarity" : "common",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
     //"config" : "/interface/windowconfig/craftingtable.config",  
@@ -14,7 +14,7 @@
   "race" : "generic",
   "category" : "crafting",
   "price" : 450,
-  "learnBlueprintsOnPickup" : [ "clothingfabricator", "apexbrainjar", "powerpress", "apexpod2", "magneticshielding", "electronmicroscope", "extractionlab", "extractionlab_roof", "nanofabricator", "circuitboard", "biochipbase", "basicminer" ],
+  "learnBlueprintsOnPickup" : [ "clothingfabricator", "apexbrainjar", "apexpod2", "magneticshielding", "electronmicroscope", "extractionlab", "extractionlab_roof", "nanofabricator", "circuitboard", "biochipbase", "basicminer" ],
 
   "inventoryIcon" : "prototypericon.png",
   "orientations" : [
