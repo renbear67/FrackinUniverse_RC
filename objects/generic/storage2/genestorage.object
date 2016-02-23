@@ -2,7 +2,7 @@
   "objectName" : "genestorage",
   "colonyTags" : [ "fu", "science", "scienceoutpost" ],
   "printable" : false,
-  "rarity" : "rare",
+  "rarity" : "uncommon",
   "objectType" : "container",
 
   "category" : "storage",
