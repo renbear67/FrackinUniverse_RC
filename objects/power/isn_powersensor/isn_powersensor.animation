@@ -14,6 +14,16 @@
           "7" : {"frames" : 1},
           "8" : {"frames" : 1},
           "9" : {"frames" : 1},
+          "10" : {"frames" : 1},
+          "11" : {"frames" : 1},
+          "12" : {"frames" : 1},
+          "13" : {"frames" : 1},
+          "14" : {"frames" : 1},
+          "15" : {"frames" : 1},
+          "16" : {"frames" : 1},
+          "17" : {"frames" : 1},
+          "18" : {"frames" : 1},
+          "19" : {"frames" : 1},
           "excess" : {"frames" : 1},
           "invalid" : {"frames" : 1}
         }
@@ -39,6 +49,16 @@
             "7" : {"properties" : {"image" : "<partImage>:7"}},
             "8" : {"properties" : {"image" : "<partImage>:8"}},
             "9" : {"properties" : {"image" : "<partImage>:9"}},
+            "10" : {"properties" : {"image" : "<partImage>:10"}},
+            "11" : {"properties" : {"image" : "<partImage>:11"}},
+            "12" : {"properties" : {"image" : "<partImage>:12"}},
+            "13" : {"properties" : {"image" : "<partImage>:13"}},
+            "14" : {"properties" : {"image" : "<partImage>:14"}},
+            "15" : {"properties" : {"image" : "<partImage>:15"}},
+            "16" : {"properties" : {"image" : "<partImage>:16"}},
+            "17" : {"properties" : {"image" : "<partImage>:17"}},
+            "18" : {"properties" : {"image" : "<partImage>:18"}},
+            "19" : {"properties" : {"image" : "<partImage>:19"}},
             "excess" : {"properties" : {"image" : "<partImage>:excess"}},
             "invalid" : {"properties" : {"image" : "<partImage>:invalid"}}
           }
