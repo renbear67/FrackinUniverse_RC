@@ -1,6 +1,7 @@
 {
   "itemName" : "tyvokkhook",
   "rarity" : "Common",
+  "price" : 5,
   "inventoryIcon" : "tyvokkhook.png",
   "description" : "A powerful enhancement food.",
   "shortdescription" : "Tyvokk Hook",

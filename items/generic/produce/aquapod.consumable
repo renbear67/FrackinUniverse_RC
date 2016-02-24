@@ -1,6 +1,7 @@
 {
   "itemName" : "aquapod",
   "rarity" : "Common",
+  "price" : 5,
   "inventoryIcon" : "aquapod.png",
   "description" : "Increases your speed in liquids.",
   "shortdescription" : "Aquapod Bulb",

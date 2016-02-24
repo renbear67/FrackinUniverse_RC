@@ -1,6 +1,7 @@
 {
   "itemName" : "fayshroom",
   "rarity" : "uncommon",
+  "price" : 10,
   "inventoryIcon" : "fayshroom.png",
   "description" : "Stab those that harm you.",
   "shortdescription" : "Fayshroom",

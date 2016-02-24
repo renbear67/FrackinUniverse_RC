@@ -1,6 +1,7 @@
 {
   "itemName" : "capriole",
   "rarity" : "Common",
+  "price" : 5,
   "inventoryIcon" : "capriole.png",
   "description" : "Muscle enhancing. Eat for jumpy goodness.",
   "shortdescription" : "Capriole Flower",

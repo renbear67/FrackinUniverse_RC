@@ -1,6 +1,7 @@
 {
   "itemName" : "neuropod",
   "rarity" : "Common",
+  "price" : 5,
   "inventoryIcon" : "neuropod.png",
   "description" : "A powerhouse of effects.",
   "shortdescription" : "Neuropod Bulb",

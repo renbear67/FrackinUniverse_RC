@@ -1,6 +1,7 @@
 {
   "itemName" : "silverleaf",
   "rarity" : "uncommon",
+  "price" : 10,
   "inventoryIcon" : "silverleaf.png",
   "description" : "Fantastic energy booster",
   "shortdescription" : "Silverleaf Herb",

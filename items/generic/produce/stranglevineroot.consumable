@@ -1,6 +1,7 @@
 {
   "itemName" : "stranglevineroot",
   "rarity" : "Common",
+  "price" : 5,
   "inventoryIcon" : "stranglevineroot.png",
   "description" : "Thorns damage attackers",
   "shortdescription" : "Stranglevine Root",

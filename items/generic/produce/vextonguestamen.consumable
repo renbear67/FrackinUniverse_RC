@@ -1,6 +1,7 @@
 {
   "itemName" : "vextonguestamen",
   "rarity" : "Common",
+  "price" : 5,
   "inventoryIcon" : "vextonguestamen.png",
   "description" : "Increases healing rate.",
   "shortdescription" : "Vextongue Stamen",

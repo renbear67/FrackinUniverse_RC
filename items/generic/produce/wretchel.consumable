@@ -1,6 +1,7 @@
 {
   "itemName" : "wretchel",
   "rarity" : "Common",
+  "price" : 5,
   "inventoryIcon" : "wretchel.png",
   "description" : "Dimensional instability provides +40% protection from harm. It's a teency bit poisonous, though.",
   "shortdescription" : "Wretchel Fruit",

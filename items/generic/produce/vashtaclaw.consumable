@@ -1,6 +1,7 @@
 {
   "itemName" : "vashtaclaw",
   "rarity" : "Common",
+  "price" : 5,
   "inventoryIcon" : "vashtaclaw.png",
   "description" : "Grants +50% Rage",
   "shortdescription" : "Vashta Claw",

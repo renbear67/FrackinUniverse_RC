@@ -1,6 +1,7 @@
 {
   "itemName" : "blizzberry",
   "rarity" : "Common",
+  "price" : 5,
   "inventoryIcon" : "blizzberryicon.png",
   "description" : "Astounding protection against extreme cold.",
   "shortdescription" : "Blizzberry",

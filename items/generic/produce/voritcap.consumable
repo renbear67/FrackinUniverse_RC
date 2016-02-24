@@ -1,6 +1,7 @@
 {
   "itemName" : "voritcap",
   "rarity" : "Common",
+  "price" : 5,
   "inventoryIcon" : "voritcap.png",
   "description" : "Greatly increases swimming speed.",
   "shortdescription" : "Vorit Cap",
