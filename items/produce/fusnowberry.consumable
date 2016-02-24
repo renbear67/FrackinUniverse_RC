@@ -1,6 +1,7 @@
 {
   "itemName" : "fusnowberry",
   "rarity" : "uncommon",
+  "price" : 10,
   "inventoryIcon" : "snowberry.png",
   "description" : "Grants immunity to snow, slush and ice effects.",
   "shortdescription" : "Snowberry",
