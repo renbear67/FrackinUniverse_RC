@@ -122,7 +122,7 @@
 
   "mainBlock" : "bloodsand",
   "subBlocks" : [ "bloodstonetile", "ff_bloodstone", "bloodstonetile2" ],
-  "ores" : "surfaceOres",
+  "ores" : "bloodstonesurfaceOres",
 
   "parallax" : "/parallax/surface/bloodstone.parallax",
 

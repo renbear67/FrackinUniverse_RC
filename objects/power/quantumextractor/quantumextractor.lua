@@ -248,7 +248,7 @@ local recipes =
 {inputs = { biostonematerial=50 }, outputs = { geneticmaterial=4 }, time = 0.1},
 {inputs = { blaststone=50 }, outputs = { rawminerals=6 }, time = 0.1},
 {inputs = { bloodsandmaterial=50 }, outputs = { liquidoil=4 }, time = 0.1},
-{inputs = { bloodstonewall=50 }, outputs = { quietusore=2 }, time = 0.1},
+{inputs = { bloodstonewall=50 }, outputs = { blooddiamond=2 }, time = 0.1},
 {inputs = { bloodstonewall2=50 }, outputs = { rawminerals=4 }, time = 0.1},
 {inputs = { bloodstonewall3=50 }, outputs = { phosphorus=2 }, time = 0.1},
 {inputs = { bloodstonematerial=50 }, outputs = { phosphorus=3 }, time = 0.1},

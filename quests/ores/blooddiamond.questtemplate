@@ -1,7 +1,7 @@
 {
   "id" : "blooddiamond.gearup",
-  "title" : "^#1693d5;Bloody Roots",
-  "text" : "So, it seems that I have managed to make ^orange;Blood Diamond^white; while endeavoring to create a new ore. It could probably have some interesting uses.",
+  "title" : "^#1693d5;A Girls Most Bloody Friend",
+  "text" : "So, it seems that I have managed to get some ^orange;Blood Diamond^white;. It could probably have some interesting applications.",
   "completionText" : "It seems that Blood Diamonds are exceptionally resilient. I should try using some in weapons.",
   "speaker" : "player",
   "moneyRange" : [200,300],
