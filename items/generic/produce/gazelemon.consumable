@@ -1,6 +1,7 @@
 {
   "itemName" : "gazelemon",
   "rarity" : "Common",
+  "price" : 5,
   "inventoryIcon" : "gazelemon.png",
   "description" : "Focused light emits from your face. Also prevents poison effects.",
   "shortdescription" : "Gaze Lemon",

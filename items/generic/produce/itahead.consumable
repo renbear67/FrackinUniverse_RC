@@ -1,6 +1,7 @@
 {
   "itemName" : "itahead",
   "rarity" : "Common",
+  "price" : 5,
   "inventoryIcon" : "itahead.png",
   "description" : "Possesses potent anti-toxins. Cures poisons and pus infections.",
   "shortdescription" : "Ita Flower Head",

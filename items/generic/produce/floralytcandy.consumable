@@ -1,6 +1,7 @@
 {
   "itemName" : "floralytcandy",
   "rarity" : "Common",
+  "price" : 5,
   "inventoryIcon" : "floralytcandy.png",
   "description" : "Engineered to be regenerative candy. Heals 90% health",
   "shortdescription" : "Floralyt Candy",

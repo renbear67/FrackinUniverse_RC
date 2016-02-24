@@ -1,6 +1,7 @@
 {
   "itemName" : "onion",
   "rarity" : "Common",
+  "price" : 5,
   "inventoryIcon" : "onionicon.png",
   "description" : "An gurn onion. Tasty! Increases maximum health.",
   "shortdescription" : "Gurn Onion",

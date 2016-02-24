@@ -1,6 +1,7 @@
 {
   "itemName" : "genesiberry",
   "rarity" : "Common",
+  "price" : 5,
   "inventoryIcon" : "genesiberry.png",
   "description" : "Heals 90% health",
   "shortdescription" : "Genesiberry",

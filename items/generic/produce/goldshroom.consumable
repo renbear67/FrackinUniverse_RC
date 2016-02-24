@@ -1,6 +1,7 @@
 {
   "itemName" : "goldshroom",
   "rarity" : "uncommon",
+  "price" : 10,
   "inventoryIcon" : "goldshroom.png",
   "description" : "Provides glowing aura to the user.",
   "shortdescription" : "Gold Shroom",

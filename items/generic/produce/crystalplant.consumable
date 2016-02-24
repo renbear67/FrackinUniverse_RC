@@ -1,6 +1,7 @@
 {
   "itemName" : "crystalplant",
   "rarity" : "rare",
+  "price" : 20,
   "inventoryIcon" : "crystalplant.png",
   "description" : "Provides immunity to poison and acid for one minute.",
   "shortdescription" : "Crystal Shard",

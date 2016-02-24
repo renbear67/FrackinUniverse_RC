@@ -1,6 +1,7 @@
 {
   "itemName" : "rockroot",
   "rarity" : "Common",
+  "price" : 5,
   "inventoryIcon" : "rockrooticon.png",
   "description" : "Grants defense bonus",
   "shortdescription" : "Rockroot",

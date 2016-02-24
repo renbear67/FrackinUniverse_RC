@@ -1,6 +1,7 @@
 {
   "itemName" : "varanberry",
   "rarity" : "Common",
+  "price" : 5,
   "inventoryIcon" : "varanberry.png",
   "description" : "Heals 5% of your health.",
   "shortdescription" : "Varan Berries",

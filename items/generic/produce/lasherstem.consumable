@@ -1,6 +1,7 @@
 {
   "itemName" : "lasherstem",
   "rarity" : "Common",
+  "price" : 5,
   "inventoryIcon" : "lasherstem.png",
   "description" : "A stem loaded with concentrated rage. Will make you berserk.",
   "shortdescription" : "Lasher Stem",

@@ -1,6 +1,7 @@
 {
   "itemName" : "miraclegrass",
   "rarity" : "Common",
+  "price" : 5,
   "inventoryIcon" : "miraclegrass.png",
   "description" : "Long term, weak regeneration.",
   "shortdescription" : "Miracle Grass Clipping",

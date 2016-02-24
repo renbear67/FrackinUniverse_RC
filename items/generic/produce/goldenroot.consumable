@@ -1,6 +1,7 @@
 {
   "itemName" : "goldenroot",
   "rarity" : "Common",
+  "price" : 5,
   "inventoryIcon" : "goldenrooticon.png",
   "description" : "Increase hitpoints.", 
   "shortdescription" : "Golden Root",

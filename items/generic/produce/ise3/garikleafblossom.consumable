@@ -1,6 +1,7 @@
 {
   "itemName" : "garikleafblossom",
   "rarity" : "Common",
+  "price" : 5,
   "inventoryIcon" : "garikleafblossom.png",
   "description" : "Increases your ground speed a lot.",
   "shortdescription" : "Garikleaf Blossom",

@@ -1,6 +1,7 @@
 {
   "itemName" : "nailery",
   "rarity" : "Common",
+  "price" : 5,
   "inventoryIcon" : "naileryicon.png",
   "description" : "Nailery, a Glitch delicacy. Tastes a bit too much like iron. Makes nail bombs.",
   "shortdescription" : "Nailery",
