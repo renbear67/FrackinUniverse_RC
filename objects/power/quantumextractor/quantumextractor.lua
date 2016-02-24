@@ -355,6 +355,8 @@ local recipes =
 {inputs = { energywood=50 }, outputs = { penumbriteore=2 }, time = 0.1},
 {inputs = { vine=50 }, outputs = { plantfibre=4, fu_oxygen=1 }, time = 0.1},
 -- seeds
+{inputs = { cottonseed=1 }, outputs = { tissueculture=4 }, time = 0.1},
+{inputs = { cinnamonseed=1 }, outputs = { fu_nitrogen=4 }, time = 0.1},
 {inputs = { algaeseed=1 }, outputs = { geneticmaterial=5 }, time = 0.1},
 {inputs = { automatoseed=1 }, outputs = { geneticmaterial=5 }, time = 0.1},
 {inputs = { avesmingoseed=1 }, outputs = { geneticmaterial=5 }, time = 0.1},
@@ -604,11 +606,11 @@ local recipes =
 {inputs = { wildxaxseed=1 }, outputs = { tissueculture=7 }, time = 0.1},
 {inputs = { wildyellowfootseed=1 }, outputs = { tissueculture=7 }, time = 0.1},
 {inputs = { wildzathiseed=1 }, outputs = { geneticmaterial=9 }, time = 0.1},
-{inputs = { wildkamaranpodsplant=1 }, outputs = { geneticmaterial=8 }, time = 5},
-{inputs = { wildcellpodsplant=1 }, outputs = { geneticmaterial=7 }, time = 5},
-{inputs = { wildgoldenseaspongeplant=1 }, outputs = { tissueculture=7 }, time = 5},
-{inputs = { wildfusnowberryseed=1 }, outputs = { tissueculture=8 }, time = 5},
-{inputs = { wildspongeweedseed=1 }, outputs = { geneticmaterial=7 }, time = 5},
+{inputs = { wildkamaranpodsplant=1 }, outputs = { geneticmaterial=8 }, time = 0.1},
+{inputs = { wildcellpodsplant=1 }, outputs = { geneticmaterial=7 }, time = 0.1},
+{inputs = { wildgoldenseaspongeplant=1 }, outputs = { tissueculture=7 }, time = 0.1},
+{inputs = { wildfusnowberryseed=1 }, outputs = { tissueculture=8 }, time = 0.1},
+{inputs = { wildspongeweedseed=1 }, outputs = { geneticmaterial=7 }, time = 0.1},
 {inputs = { cellpods=1 }, outputs = { geneticmaterial=5 }, time = 0.1},
 {inputs = { aenemaflower=1 }, outputs = { geneticmaterial=5 }, time = 0.1},
 {inputs = { arkaentree=1 }, outputs = { geneticmaterial=5 }, time = 0.1},
@@ -626,11 +628,11 @@ local recipes =
 {inputs = { tinselbush=1 }, outputs = { geneticmaterial=5 }, time = 0.1},
 {inputs = { victorleaf=1 }, outputs = { geneticmaterial=5 }, time = 0.1},
 {inputs = { whitespine=1 }, outputs = { geneticmaterial=5 }, time = 0.1},
-
-
-
 -- food / produce / plant biproduct
 --from FU
+{inputs = { hops=1 }, outputs = { geneticmaterial=2 }, time = 0.1},
+{inputs = { cotton=1 }, outputs = { geneticmaterial=2 }, time = 0.1},
+{inputs = { cinnamon=1 }, outputs = { geneticmaterial=2 }, time = 0.1},
 {inputs = { aquapod=1 }, outputs = { tissueculture=6 }, time = 0.1},
 {inputs = { beetlesproutflower=1 }, outputs = { tissueculture=6 }, time = 0.1},
 {inputs = { biscorn=1 }, outputs = { tissueculture=9 }, time = 0.1},
