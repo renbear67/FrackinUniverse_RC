@@ -1,7 +1,7 @@
 {
   "id" : "quietus.gearup",
-  "title" : "^#1693d5;Bloody Handmade",
-  "text" : "I've created a new type of ore, which I have named ^orange;Quietus^white;, from some organically-rich bloodstone. This will certainly be useful ^green;in my lab^white;.",
+  "title" : "^#1693d5;Bloody Veins",
+  "text" : "I've found a new type of ore, which I have named ^orange;Quietus^white;. I bet it could be used ^green;in some bad-assed weapons^white;.",
   "completionText" : "This new metal is exceptionally durable, yet can be liquified to coat weapons and armor. Plates of this metal would be even stronger than the ore.",
   "speaker" : "player",
   "moneyRange" : [700, 1400],

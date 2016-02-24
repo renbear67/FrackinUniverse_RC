@@ -41,8 +41,8 @@
   },
 
     "mainBlock" : "ff_bloodstone",
-    "subBlocks" : [ "bloodstonetile", "obsidian", "hellstone" ],
-    "ores" : "surfaceOres",
+    "subBlocks" : [ "bloodstonetile", "bloodstonetile2", "hellstone" ],
+    "ores" : "bloodstonedeepOres",
 
   "parallax" : "/parallax/underground/bloodstoneunderground.parallax",
 

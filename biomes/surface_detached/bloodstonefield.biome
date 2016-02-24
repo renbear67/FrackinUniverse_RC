@@ -40,7 +40,7 @@
   },
     "mainBlock" : "bloodstonetile2",
     "subBlocks" : [ "bloodstonetile", "obsidian" ],
-    "ores" : "surfaceOres",
+    "ores" : "bloodstonesurfaceOres",
 
   "surfacePlaceables" : {
     "grassMod" : [ "bloodstonegrass" ],

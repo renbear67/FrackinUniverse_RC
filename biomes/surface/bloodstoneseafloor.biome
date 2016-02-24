@@ -125,7 +125,7 @@
 
   "mainBlock" : "bloodsand",
   "subBlocks" : [ "bloodstonetile", "ff_bloodstone", "bloodstonetile2" ],
-  "ores" : "surfaceOres",
+  "ores" : "bloodstonesurfaceOres",
 
   "surfacePlaceables" : {
     "grassMod" : [ "bloodstonegrass" ],
