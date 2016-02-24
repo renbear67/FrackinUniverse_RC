@@ -7,7 +7,7 @@
   "speaker" : "questGiver",
   "moneyRange" : [110, 330],
   "rewards" : [
-    [ [ "helium3gasliquid", 60 ] ]  
+    [ [ "ff_mercury", 60 ] ]  
   ],
 
   "updateDelta" : 10,
