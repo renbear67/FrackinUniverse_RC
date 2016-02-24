@@ -5,9 +5,9 @@ function update(dt)
 
   if not powerLevel then
     entity.setAnimationState("num", "invalid")
-  elseif powerLevel <= 9 then
+  elseif powerLevel <= 19 then
     entity.setAnimationState("num", tostring(math.floor(powerLevel)))
-  elseif powerLevel > 9 then
+  elseif powerLevel > 19 then
     entity.setAnimationState("num", "excess")
   end
   ---world.logInfo("POWER SENSOR RUN DEBUG END")
