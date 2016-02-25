@@ -7,7 +7,7 @@
     "spawnProfile" : {
     "groups" : [
       {
-        "select" : 3,
+        "select" : 1,
         "pool" : [ 
           [ 0.1111, "iguarmor" ],     
           [ 0.1111, "pteropod" ],
@@ -16,43 +16,47 @@
         ]
       },
       {
-        "select" : 2,
+        "select" : 1,
         "pool" : [ 
           [ 0.1311, "furaptor" ],     
           [ 0.1311, "furaptor2" ],
           [ 0.1511, "furaptor3" ],        
           [ 0.2111, "furaptor4" ],
-		  [ 0.2411, "furaptor5" ]
+          [ 0.2411, "furaptor5" ]
         ]
       },	  
       {
-        "select" : 3,
+        "select" : 2,
         "pool" : [
           [ 0.4, "blackbeetle" ],
           [ 0.4, "forestbee" ],
           [ 0.3, "normalbee" ],
-		  [ 0.3, "greentip" ],
-		  [ 0.3, "blueback" ],
-		  [ 0.3, "aurorabee" ]
-        ]
-      },
-      {
-        "select" : 3,
-        "pool" : [
-		  [ 0.3, "fireflyspawner" ],
-          [ 0.4, "birdcritter" ],
-          [ 0.3, "bunnycritter" ],
-          [ 0.3, "chevcritter" ],
-		  [ 0.3, "groopcritter" ],
-		  [ 0.3, "harecritter" ],
-		  [ 0.3, "hedgehogcritter" ],
-		  [ 0.3, "redbreastcritter" ],
-		  [ 0.3, "squirrelcritter" ]
+	  [ 0.3, "greentip" ],
+	  [ 0.3, "blueback" ],
+	  [ 0.3, "aurorabee" ]
         ]
       },
       {
         "select" : 2,
         "pool" : "generatedGround"
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedFlying"
+      },
+      {
+        "select" : 3,
+        "pool" : [
+	  [ 0.3, "fireflyspawner" ],
+          [ 0.4, "birdcritter" ],
+          [ 0.3, "bunnycritter" ],
+          [ 0.3, "chevcritter" ],
+          [ 0.3, "groopcritter" ],
+	  [ 0.3, "harecritter" ],
+	  [ 0.3, "hedgehogcritter" ],
+	  [ 0.3, "redbreastcritter" ],
+	  [ 0.3, "squirrelcritter" ]
+        ]
       }
     ]
   },

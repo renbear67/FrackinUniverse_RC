@@ -1,10 +1,10 @@
 {
-  "type" : "fugiantscorpion",
+  "type" : "bloodgiantscorpion",
 
-  "categories" : [ "fugiantscorpion" ],
+  "categories" : [ "bloodgiantscorpion" ],
   "parts" : [ "body" ],
 
-  "animation" : "fugiantscorpion.animation",
+  "animation" : "bloodgiantscorpion.animation",
   "colors" : "/monsters/colors.config",
   "reversed" : false,
 
@@ -26,7 +26,7 @@
     ],
 
     "baseSkills" : [ "meleeAttack" ],
-    "specialSkills" : [ "poisonVomitAttack", "digGritAttack" ],
+    "specialSkills" : [ "toxicgolemAttack" ],
 
     "projectileSourcePosition" : [1.75, -2.62],
 

@@ -1,10 +1,10 @@
 {
-  "type" : "fugiantscorpion",
+  "type" : "penumbragiantscorpion",
 
-  "categories" : [ "fugiantscorpion" ],
+  "categories" : [ "penumbragiantscorpion" ],
   "parts" : [ "body" ],
 
-  "animation" : "fugiantscorpion.animation",
+  "animation" : "penumbragiantscorpion.animation",
   "colors" : "/monsters/colors.config",
   "reversed" : false,
 
@@ -21,21 +21,20 @@
       "/monsters/fulegacyscripts/ground/approachState.lua",
       "/monsters/fulegacyscripts/ground/fleeState.lua",
       "/monsters/fulegacyscripts/ground/wanderState.lua",
-
       "/monsters/fulegacyscripts/ground/skills/createGroundRangedAttack.lua"
     ],
 
     "baseSkills" : [ "meleeAttack" ],
-    "specialSkills" : [ "poisonVomitAttack", "digGritAttack" ],
+    "specialSkills" : [ "starspawnSwarmAttack" ],
 
     "projectileSourcePosition" : [1.75, -2.62],
 
-    "attackStartDistance" : 3.5,
+    "attackStartDistance" : 5.5,
     "attackTime" : 0.75,
-    "attackCooldownTime" : 0.5,
+    "attackCooldownTime" : 0.35,
 
     "aggressive" : true,
-    "territoryDistance" : 10.0,
+    "territoryDistance" : 15.0,
     "territorialTargetRadius" : 20.0,
     "minimalTargetRadius" : 6.0,
     "targetSearchTime" : 0.5,
@@ -43,7 +42,7 @@
 
     "closeDistance" : 1.5,
 
-    "wanderTime" : [4.0, 6.0],
+    "wanderTime" : [6.0, 8.0],
     "wanderMovementTime" : [2.0, 3.0],
 
     "jumpTargetDistance" : 6,

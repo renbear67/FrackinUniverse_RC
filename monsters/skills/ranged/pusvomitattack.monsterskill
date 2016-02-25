@@ -1,19 +1,19 @@
 {
-  "name" : "poisonVomitAttack",
-  "label" : "POISON VOMIT",
+  "name" : "pusVomitAttack",
+  "label" : "PUS VOMIT",
   "image" : "/monsters/skills/defaultpoison.png",
 
   "parameters" : {
-    "poisonVomitAttack" : {
+    "pusVomitAttack" : {
       "factory" : "createRangedAttack",
-      "projectile" : "poisonvomit",
+      "projectile" : "pusvomit",
       "arc" : "low",
-      "range" : 12,
-      "power" : 8,
-      "speed" : 30,
-      "shots" : 5,
-      "fireInterval" : 0.066,
-      "castTime" : 0.9,
+      "range" : 15,
+      "power" : 12,
+      "speed" : 50,
+      "shots" : 6,
+      "fireInterval" : 0.036,
+      "castTime" : 0.32,
       "castEffect" : "castpoison",
       "castAnimation" : "charge"
     }
