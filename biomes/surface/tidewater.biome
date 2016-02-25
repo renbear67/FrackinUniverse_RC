@@ -5,7 +5,7 @@
     "spawnProfile" : {
     "groups" : [
       {
-        "select" : 2,
+        "select" : 1,
         "pool" : [ 
           [ 0.1111, "nautileech" ],     
           [ 0.1111, "lilodon" ],
@@ -26,6 +26,10 @@
       {
         "select" : 2,
         "pool" : "generatedGround"
+      },
+      {
+        "select" : 3,
+        "pool" : "generatedFlying"
       }
     ]
   },

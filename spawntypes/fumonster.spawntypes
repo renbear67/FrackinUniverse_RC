@@ -434,6 +434,22 @@
     }
   },
    {
+    "name" : "frostgiantscorpion",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "groupSize" : [1, 1],
+    "targetDensity" : 0.04,
+    "monsterType" : "frostgiantscorpion",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },  
+   {
     "name" : "blackgiantscorpion",
 
     "spawnParameters" : {

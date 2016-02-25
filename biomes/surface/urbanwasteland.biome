@@ -6,12 +6,13 @@
     "spawnProfile" : {
     "groups" : [
       {
-        "select" : 2,
+        "select" : 1,
         "pool" : [ 
           [ 0.1111, "tintix" ],     
           [ 0.1111, "triplod" ],
           [ 0.1111, "scandroid" ],        
-          [ 0.1111, "bobot" ]
+          [ 0.1111, "bobot" ],
+          [ 0.1111, "zombot" ]
         ]
       },
       {
@@ -24,6 +25,10 @@
       {
         "select" : 2,
         "pool" : "generatedGround"
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedFlying"
       }
     ]
   },

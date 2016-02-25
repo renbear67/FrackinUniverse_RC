@@ -26,6 +26,10 @@
       {
         "select" : 2,
         "pool" : "generatedGround"
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedFlying"
       }
     ],
     "monsterParameters" : {

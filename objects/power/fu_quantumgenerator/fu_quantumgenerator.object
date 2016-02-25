@@ -37,19 +37,19 @@
   "scripts" : [ "/objects/power/fu_quantumgenerator/fu_quantumgenerator.lua",
                 "/objects/power/isn_sharedpowerscripts.lua",
 		"/objects/isn_sharedobjectscripts.lua"],
-  "scriptDelta" : 50,
+  "scriptDelta" : 70,
   
   "inboundNodes" : [ [2, 4] ],
   "outboundNodes" : [ [2, 2] ],
   
   "isn_powerSupplier" : true,
   "acceptablefuel" : {
-    "biofuelcannister" : 60,
-    "biofuelcannisteradv" : 90,
-    "energiflower" : 120,
-    "vialproto" : 150,
-    "biofuelcannistermax" : 180,
-    "solariumstar" : 200,
-    "elderfluid" : 220
+    "biofuelcannister" : 10,
+    "biofuelcannisteradv" : 20,
+    "energiflower" : 30,
+    "vialproto" : 40,
+    "biofuelcannistermax" : 50,
+    "solariumstar" : 60,
+    "elderfluid" : 100
   }
 }

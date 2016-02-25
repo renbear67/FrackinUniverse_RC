@@ -29,7 +29,7 @@
   "scripts" : [ 
                 "/scripts/vec2.lua", 
                 "/objects/power/fu_upgrade/fu_upgrade.lua",
-                "/objects/power/fu_upgrade/fu_sharedpowerscripts.lua",
+                "/objects/power/isn_sharedpowerscripts.lua",
 		"/objects/isn_sharedobjectscripts.lua"
    	      ],
    	      

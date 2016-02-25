@@ -6,7 +6,7 @@
   "spawnProfile" : {
     "groups" : [
       {
-        "select" : 3,
+        "select" : 2,
         "pool" : [ 
           [ 0.1111, "fumoontant" ],     
           [ 0.1111, "swarpion" ],        
@@ -30,6 +30,10 @@
       {
         "select" : 2,
         "pool" : "generatedGround"
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedFlying"
       }
     ],
     "monsterParameters" : {
