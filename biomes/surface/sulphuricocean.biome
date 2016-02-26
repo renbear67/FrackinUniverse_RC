@@ -13,7 +13,7 @@
         ]
       },
       {
-        "select" : 2,
+        "select" : 1,
         "pool" : [
           [ 0.4, "fuscorpion" ],
           [ 0.3, "funewt" ]
@@ -22,6 +22,10 @@
       {
         "select" : 2,
         "pool" : "generatedGround"
+      },
+      {
+        "select" : 3,
+        "pool" : "generatedFlying"
       }
     ],
     "monsterParameters" : {

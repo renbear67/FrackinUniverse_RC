@@ -12,7 +12,7 @@
 
   "baseParameters" : {
     "scripts" : [
-      "/monsters/boss/fufatalcircuit/groundMonster.lua",
+      "/monsters/fulegacyscripts/ground/groundMonster.lua",
       "/scripts/pathing.lua",
       "/scripts/stateMachine.lua",
       "/scripts/util.lua",

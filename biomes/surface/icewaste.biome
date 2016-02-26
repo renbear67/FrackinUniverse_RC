@@ -11,12 +11,17 @@
       {
         "select" : 1,
         "pool" : [ 
-          [ 0.05, "orbide" ]
+          [ 0.05, "orbide" ],
+          [ 0.05, "frostgiantscorpion" ]
         ]
       },
       {
         "select" : 2,
         "pool" : "generatedGround"
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedFlying"
       }
     ],
     "monsterParameters" : {

@@ -7,8 +7,9 @@
     "spawnProfile" : {
     "groups" : [
       {
-        "select" : 1,
+        "select" : 3,
         "pool" : [
+        [ 0.4, "blackbeetle" ],
           [ 0.4, "forestbee" ],
           [ 0.3, "normalbee" ],
           [ 0.3, "fireflyspawner" ],
@@ -28,6 +29,10 @@
       {
         "select" : 2,
         "pool" : "generatedGround"
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedFlying"
       }
     ],
     "monsterParameters" : {

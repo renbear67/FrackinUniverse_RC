@@ -5,7 +5,7 @@
     "spawnProfile" : {
     "groups" : [
       {
-        "select" : 2,
+        "select" : 1,
         "pool" : [ 
           [ 0.1111, "fleshleech" ],     
           [ 0.1111, "paratail" ],
@@ -41,6 +41,10 @@
       {
         "select" : 2,
         "pool" : "generatedGround"
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedFlying"
       }
     ],
     "monsterParameters" : {

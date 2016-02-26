@@ -13,7 +13,7 @@
       "speed" : 30,
       "shots" : 5,
       "fireInterval" : 0.066,
-      "castTime" : 0.4,
+      "castTime" : 0.9,
       "castEffect" : "castpoison",
       "castAnimation" : "charge"
     }

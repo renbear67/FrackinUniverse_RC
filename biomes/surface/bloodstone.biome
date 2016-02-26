@@ -14,6 +14,7 @@
           [ 0.1111, "batong" ],
           [ 0.1111, "nautileech" ],     
           [ 0.1111, "squeem" ],
+          [ 0.1111, "bloodgiantscorpion" ],
           [ 0.1111, "hemogoblin" ]
         ]
       },
@@ -30,6 +31,10 @@
       {
         "select" : 2,
         "pool" : "generatedGround"
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedFlying"
       }
     ],
     "monsterParameters" : {
