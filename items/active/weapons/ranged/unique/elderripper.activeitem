@@ -78,7 +78,7 @@
     }
   },
 
-  "altAbilitySource" : "/items/active/weapons/ranged/altabilities/elderbomb.altability",
+  "altAbilitySource" : "/items/active/weapons/ranged/altabilities/eldergrenadelauncher/eldergrenadelauncher.altability",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }
