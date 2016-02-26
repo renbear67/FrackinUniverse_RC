@@ -25,6 +25,7 @@ function update(dt)
   entity.setLightColor(entity.configParameter("lightColor", {100, 176, 191}))	
 	if itemForUpgrade ~= nil and upgradebleItemsList[root.itemType(itemForUpgrade.name)] and itemForUpgrade.count ~= nil and itemForUpgrade.count == 1 then
 		local isUpgraded = false -- flag, upgrade is not possible or while not done
+		world.logInfo("Trying to upgrade. Name is '" .. itemForUpgrade.name .. "'. root.itemType returns '" .. root.itemType(itemForUpgrade.name) .. "'.")
 
 		-- Begin SHIELD Item Upgrade
 		if root.itemType(itemForUpgrade.name) == "shield" then
@@ -58,7 +59,7 @@ function update(dt)
 			if itemForUpgrade.parameters.statusEffects == nil then
 				world.logInfo("==> Armor is : %s", itemForUpgrade)
 				local itemConf = root.itemConfig(itemForUpgrade)
-				world.logInfo("==> ItemConf is : %s", itemConf)
+				-- world.logInfo("==> ItemConf is : %s", itemConf)
 				if itemConf.config == nil and itemConf.statusEffects ~= nil then  -- this for Starbound Stable version 
 					itemForUpgrade.parameters.statusEffects = itemConf.statusEffects
 				elseif itemConf.config.statusEffects ~= nil then -- this for Strbound Unstable nightly version
