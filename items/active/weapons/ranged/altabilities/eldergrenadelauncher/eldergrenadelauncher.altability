@@ -40,7 +40,7 @@
       "fire" : { "projectileType" : "firecloudgrenade" },
       "electric" : { "projectileType" : "elderblast1" },
       "ice" : { "projectileType" : "icecloudgrenade" },
-      "poison" : { "projectileType" : "protocluster" }
+      "poison" : { "projectileType" : "tentacleburst" }
     },
     "projectileParameters" : {},
     "projectileCount" : 3,
