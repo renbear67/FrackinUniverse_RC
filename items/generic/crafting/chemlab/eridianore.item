@@ -5,5 +5,5 @@
   "description" : "Eridian ore. A lab-built custom alloy.",
   "shortdescription" : "^#b84cbc;Eridian Chunk^white;",
   "pickupQuestTemplates" : [ "eridian.gearup" ],
-  "learnBlueprintsOnPickup" : [ "eridianbar", "isn_terawattlaser" ]
+  "learnBlueprintsOnPickup" : [ "eridianbar", "isn_terawattlaser", "heliosblade" ]
 }
