@@ -2,6 +2,6 @@
   "itemName" : "elderrelic4",
   "rarity" : "rare",
   "inventoryIcon" : "elderrelic4.png",
-  "description" : "This glowing device is marked with ancient script.",
-  "shortdescription" : "^#ffe50e;Marked Ampule^white;"
+  "description" : "This glowing device is marked with ancient, unknown script.",
+  "shortdescription" : "^#ffe50e;Engraved Device^white;"
 }
