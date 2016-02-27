@@ -1,9 +1,10 @@
 {
   "objectName" : "genestorage",
-  "colonyTags" : [ "fu", "science", "scienceoutpost" ],
+  "colonyTags" : [ "fu", "science", "scienceoutpost", "storage" ],
   "printable" : false,
   "rarity" : "uncommon",
   "objectType" : "container",
+  "tooltipKind" : "container",
 
   "category" : "storage",
   "price" : 1000,

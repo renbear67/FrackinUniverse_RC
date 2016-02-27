@@ -1,9 +1,10 @@
 {
   "objectName" : "genecabinet",
-  "colonyTags" : [ "fu", "science", "scienceoutpost" ],
+  "colonyTags" : [ "fu", "science", "scienceoutpost", "storage" ],
   "printable" : false,
-  "rarity" : "Uncommon",
+  "rarity" : "uncommon",
   "objectType" : "container",
+  "tooltipKind" : "container",
 
   "category" : "storage",
   "price" : 1000,
