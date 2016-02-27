@@ -26,5 +26,33 @@
         {"weight" : 1.0, "item" : ["cthulureward", 1]}
       ]
     }]
+  ], 
+  "evilbooktreasure1" : [
+    [1, {
+      "fill" : [
+        {"weight" : 1.0, "item" : ["blackbook1", 1]}
+      ]
+    }]
+  ],
+  "evilbooktreasure2" : [
+    [1, {
+      "fill" : [
+        {"weight" : 1.0, "item" : ["blackbook2", 1]}
+      ]
+    }]
+  ],
+  "evilbooktreasure3" : [
+    [1, {
+      "fill" : [
+        {"weight" : 1.0, "item" : ["blackbook3", 1]}
+      ]
+    }]
+  ],
+  "evilbooktreasure4" : [
+    [1, {
+      "fill" : [
+        {"weight" : 1.0, "item" : ["blackbook4", 1]}
+      ]
+    }]
   ] 
 }
