@@ -3205,7 +3205,7 @@
                  "name":"",
                  "properties":
                     {
-
+                     "parameters":"{\"treasurePools\":[\"evilbooktreasure1\"]}"
                     },
                  "rotation":0,
                  "type":"",
@@ -3221,7 +3221,7 @@
                  "name":"",
                  "properties":
                     {
-
+                     "parameters":"{\"treasurePools\":[\"evilbooktreasure2\"]}"
                     },
                  "rotation":0,
                  "type":"",
@@ -3237,7 +3237,7 @@
                  "name":"",
                  "properties":
                     {
-
+                     "parameters":"{\"treasurePools\":[\"evilbooktreasure3\"]}"
                     },
                  "rotation":0,
                  "type":"",
@@ -3253,7 +3253,7 @@
                  "name":"",
                  "properties":
                     {
-
+                     "parameters":"{\"treasurePools\":[\"evilbooktreasure4\"]}"
                     },
                  "rotation":0,
                  "type":"",
@@ -14116,7 +14116,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "width":0,
          "x":0,
          "y":0
