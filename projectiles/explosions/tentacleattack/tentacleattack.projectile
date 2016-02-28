@@ -11,5 +11,6 @@
   "flippable" : false,
   "universalDamage" : true,
   "damageKind" : "default",
-  "statusEffects" : [ "rootfu" ]
+  "statusEffects" : [ "rootfu" ],
+  "orientationLocked" : true
 }

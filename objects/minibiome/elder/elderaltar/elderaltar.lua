@@ -2,17 +2,19 @@ local recipes =
 {
 
 --liquids
-{inputs = { cthulureward=1,elderrelic7=1,elderrelic8=1 }, outputs = { elderripper=1 }, time = 15.0},
-{inputs = { cthulureward=1, elderrelic5=1, elderrelic6=1 }, outputs = { eldercarbine=1 }, time = 15.0},
-{inputs = { cthulureward=1, elderrelic12=1, elderrelic13=1 }, outputs = { elderpistol=1 }, time = 15.0 },
-{inputs = { eldertome=1,elderrelic14=1,elderrelic11=1 }, outputs = { elderspear=1 }, time = 15.0},
-{inputs = { eldertome=1, elderrelic9=1, elderrelic3=1 }, outputs = { elderblade=1 }, time = 15.0},
+{inputs = { cthulureward=1,elderrelic7=1,elderrelic11=1 }, outputs = { elderripper=1 }, time = 15.0},
+{inputs = { cthulureward=1, elderrelic5=1, elderrelic11=1 }, outputs = { eldercarbine=1 }, time = 15.0},
+{inputs = { cthulureward=1, elderrelic12=1, elderrelic11=1 }, outputs = { elderpistol=1 }, time = 15.0 },
+{inputs = { eldertome=1,elderrelic7=2,elderrelic3=3 }, outputs = { elderspear=1 }, time = 15.0},
+{inputs = { eldertome=1, elderrelic2=1, elderrelic3=5 }, outputs = { elderblade=1 }, time = 15.0},
 {inputs = { nocxiumbar=6, elderrelic12=1, elderrelic6=1 }, outputs = { elderarmorhead=1 }, time = 15.0 },
 {inputs = { nocxiumbar=7, elderrelic2=1, elderrelic14=1 }, outputs = { elderarmorchest=1 }, time = 15.0},
 {inputs = { nocxiumbar=5, elderrelic1=1, elderrelic5=1 }, outputs = { elderarmorpants=1 }, time = 15.0 },
 {inputs = { nocxiumbar=5, eldertome=1, elderrelic14=1 }, outputs = { eldershield=1 }, time = 15.0 },
 {inputs = { cthulureward=1, elderrelic8=1, elderrelic12=1 }, outputs = { eldergrappler=1 }, time = 15.0},
-{inputs = { nocxiumbar=5, elderrelic6=1, elderrelic3=1 }, outputs = { elderaxe=1 }, time = 15.0 }
+{inputs = { nocxiumbar=5, elderrelic6=1, elderrelic3=1 }, outputs = { elderaxe=1 }, time = 15.0 },
+{inputs = { cthulureward=5, eldertome=1, elderrelic14=1 }, outputs = { deathbringer=1 }, time = 15.0 },
+{inputs = { cthulureward=5, elderrelic6=1, elderrelic8=1 }, outputs = { elderrepeater=1 }, time = 15.0 }
 }
 
 function init(args)

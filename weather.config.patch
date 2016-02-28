@@ -299,14 +299,13 @@
 "op" : "add",
 "path" : "/mountainous",
 "value" : [     
-    [0.1, "rain"],
-    [0.05, "storm"],
-    [0.1, "snow"],
-    [0.1, "sandstorm"],
-    [0.025, "glowingrain"],
+    [0.2, "rain"],
+    [0.1, "storm"],
+    [0.13, "snow"],
+    [0.03, "glowingrain"],
     [0.125, "drizzle"],
-    [0.7, "clear"],
-    [0.05, "acidrain"]
+    [0.5, "clear"],
+    [0.15, "acidrain"]
   ]
 }
   

@@ -2,6 +2,6 @@
   "itemName" : "elderrelic3",
   "rarity" : "rare",
   "inventoryIcon" : "elderrelic3.png",
-  "description" : "Um...okay. Whatever this thing is, it could be useful.",
-  "shortdescription" : "^#ffe50e;Xitixic Converter^white;"
+  "description" : "A small shard from a larger blade. Ancient.",
+  "shortdescription" : "^#ffe50e;Blade Shard^white;"
 }
