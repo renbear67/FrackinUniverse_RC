@@ -6,5 +6,5 @@
   "itemName" : "elderbladebook",
   "rarity" : "common",
   "description" : "Horrible etchings in blood on a paper made of skin. Looks like a blueprint to a weapon.",
-  "shortdescription" : "Blade of the Vile"
+  "shortdescription" : "^cyan;Blade of the Vile^white;"
 }

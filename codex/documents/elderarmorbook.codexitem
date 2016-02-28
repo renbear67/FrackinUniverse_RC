@@ -6,5 +6,5 @@
   "itemName" : "elderarmorbook",
   "rarity" : "common",
   "description" : "I don't realy like the looks of this, but it might be useful...",
-  "shortdescription" : "Horrid Armor"
+  "shortdescription" : "^cyan;Horrid Armor^white;"
 }

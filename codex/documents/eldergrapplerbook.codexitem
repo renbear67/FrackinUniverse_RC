@@ -6,5 +6,5 @@
   "itemName" : "eldergrapplerbook",
   "rarity" : "common",
   "description" : "Blueprints for some sort of hi-tech grappler with biomechanical elements.",
-  "shortdescription" : "Best of its Kind"
+  "shortdescription" : "^cyan;Best of its Kind^white;"
 }

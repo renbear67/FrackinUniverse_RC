@@ -6,5 +6,5 @@
   "itemName" : "elderripperbook",
   "rarity" : "common",
   "description" : "A hastily scrawled bunch of notes detailing the creation of an energy weapon.",
-  "shortdescription" : "Piercing Death"
+  "shortdescription" : "^cyan;Piercing Death^white;"
 }

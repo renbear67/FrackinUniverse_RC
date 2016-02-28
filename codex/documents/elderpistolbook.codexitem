@@ -6,5 +6,5 @@
   "itemName" : "elderpistolbook",
   "rarity" : "common",
   "description" : "Well, the title is pretty self evident, I should think...",
-  "shortdescription" : "Hand Cannon"
+  "shortdescription" : "^cyan;Hand Cannon^white;"
 }

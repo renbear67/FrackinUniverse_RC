@@ -6,5 +6,5 @@
   "itemName" : "elderrepeaterbook",
   "rarity" : "common",
   "description" : "This cheery-sounding title is actually a cleverly cyphered blueprint for a weapon.",
-  "shortdescription" : "Pulse of the Maggots"
+  "shortdescription" : "^cyan;Pulse of the Maggots^white;"
 }

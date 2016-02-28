@@ -6,5 +6,5 @@
   "itemName" : "eldercarbinebook",
   "rarity" : "common",
   "description" : "A hastily scrawled bunch of notes detailing the creation of an energy weapon.",
-  "shortdescription" : "Astounding Engineering"
+  "shortdescription" : "^cyan;Astounding Engineering^white;"
 }
