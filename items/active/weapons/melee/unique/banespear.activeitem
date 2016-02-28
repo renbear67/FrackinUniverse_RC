@@ -4,8 +4,8 @@
   "level" : 6,
   "maxStack" : 1,
   "rarity" : "common",
-  "description" : "Razor sharp, reliable weapon of the deep.",
-  "shortdescription" : "Coral Spear",
+  "description" : "Bring deadly death to your enemies.",
+  "shortdescription" : "Bane Spear",
   "tooltipKind" : "sword",
   "weaponType" : "Spear",
   "twoHanded" : true,
@@ -25,7 +25,7 @@
 
   "scripts" : ["/items/active/weapons/melee/spear/spear.lua"],
 
-  "elementalType" : "physical",
+  "elementalType" : "fire",
 
   "aimOffset" : -1.0,
   "primaryAttack" : {
@@ -88,7 +88,7 @@
 
   "palette" : "/items/active/weapons/colors/tier6melee.weaponcolors",
 
-  "altAbilitySource" : "/items/active/weapons/melee/altabilities/spear/elementalspin/elementalspin.altability",
+  "altAbilitySource" : "/items/active/weapons/melee/altabilities/spear/charge/charge.altability",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }
