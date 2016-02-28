@@ -2,6 +2,6 @@
   "itemName" : "elderrelic3",
   "rarity" : "rare",
   "inventoryIcon" : "elderrelic3.png",
-  "description" : "Some sort of whispering liquid in a container.",
-  "shortdescription" : "^#ffe50e;Dreaming Salve^white;"
+  "description" : "A small shard from a larger blade. Ancient.",
+  "shortdescription" : "^#ffe50e;Blade Shard^white;"
 }

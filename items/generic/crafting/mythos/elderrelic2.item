@@ -2,6 +2,6 @@
   "itemName" : "elderrelic2",
   "rarity" : "rare",
   "inventoryIcon" : "elderrelic2.png",
-  "description" : "This pulsing worm jammed on a device is bizarre.",
-  "shortdescription" : "^#ffe50e;Pallis Worm^white;"
+  "description" : "A piece of the fabled Celaeno.",
+  "shortdescription" : "^#ffe50e;Celaeno Fragment^white;"
 }
