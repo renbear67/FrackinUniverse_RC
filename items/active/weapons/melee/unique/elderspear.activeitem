@@ -29,8 +29,8 @@
 
   "aimOffset" : -1.0,
   "primaryAttack" : {
-    "fireTime" : 0.81,
-    "baseDps" : 13.11,
+    "fireTime" : 0.9,
+    "baseDps" : 11.61,
     "damageConfig" : {
       "damageSourceKind" : "spear",
       "statusEffects" : [ ],
@@ -38,7 +38,7 @@
       "knockback" : 30,
       "timeoutGroup" : "primary"
     },
-    "holdDamageMultiplier" : 0.1,
+    "holdDamageMultiplier" : 0.4,
     "holdDamageConfig" : {
       "timeoutGroup" : "hold",
       "timeout" : 0.5

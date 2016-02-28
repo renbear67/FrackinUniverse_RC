@@ -29,8 +29,8 @@
 
   "aimOffset" : -1.0,
   "primaryAttack" : {
-    "fireTime" : 0.9,
-    "baseDps" : 15.11,
+    "fireTime" : 1.12,
+    "baseDps" : 12.21,
     "damageConfig" : {
       "damageSourceKind" : "spear",
       "statusEffects" : [ ],
