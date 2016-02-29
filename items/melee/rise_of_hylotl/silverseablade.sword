@@ -1,6 +1,6 @@
 {
   "itemName" : "silverseablade",
-  "level" : 1,
+  "level" : 3,
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "common",
@@ -46,7 +46,7 @@
     "projectileType" : "poisonshortsword",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 3
+      "power" : 4
     },
     "idle" : {
       "twoHanded" : false,

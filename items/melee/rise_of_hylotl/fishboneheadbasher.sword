@@ -1,6 +1,6 @@
 {
   "itemName" : "fishboneheadbasher",
-  "level" : 1,
+  "level" : 4,
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "uncommon",
