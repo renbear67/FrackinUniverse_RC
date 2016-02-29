@@ -18,7 +18,7 @@
     },  
     {
       "stat" : "protection",
-      "amount" : 10
+      "amount" : 14
     },
     {
       "stat" : "maxHealth",

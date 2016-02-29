@@ -1,21 +1,21 @@
 {
-  "itemName" : "elderspear",
+  "itemName" : "hellfirespear",
   "price" : 160,
   "level" : 6,
   "maxStack" : 1,
   "rarity" : "common",
-  "description" : "A deadly weapon of abhorrent design.",
-  "shortdescription" : "Elder Spear",
+  "description" : "This is hot and dangerous. Use caution.",
+  "shortdescription" : "Hellfire Spear",
   "tooltipKind" : "sword",
   "weaponType" : "Spear",
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","spear"],
 
-  "inventoryIcon" : "elderspear.png",
+  "inventoryIcon" : "hellfirespear.png",
 
   "animation" : "/items/active/weapons/melee/spear/tieredspear.animation",
   "animationParts" : {
-    "blade" : "/items/active/weapons/melee/unique/elderspear.png"
+    "blade" : "/items/active/weapons/melee/unique/hellfirespear.png"
   },
   "animationCustom" : {
     "sounds" : {
@@ -25,12 +25,12 @@
 
   "scripts" : ["/items/active/weapons/melee/spear/spear.lua"],
 
-  "elementalType" : "electric",
+  "elementalType" : "fire",
 
   "aimOffset" : -1.0,
   "primaryAttack" : {
-    "fireTime" : 0.9,
-    "baseDps" : 11.61,
+    "fireTime" : 0.666,
+    "baseDps" : 10.21,
     "damageConfig" : {
       "damageSourceKind" : "spear",
       "statusEffects" : [ ],
@@ -38,7 +38,7 @@
       "knockback" : 30,
       "timeoutGroup" : "primary"
     },
-    "holdDamageMultiplier" : 0.4,
+    "holdDamageMultiplier" : 0.1,
     "holdDamageConfig" : {
       "timeoutGroup" : "hold",
       "timeout" : 0.5
@@ -87,6 +87,6 @@
   },
 
   "palette" : "/items/active/weapons/colors/tier6melee.weaponcolors",
-  "altAbilitySource" : "/items/active/weapons/melee/altabilities/spear/flurry/flurry.altability",
+  "altAbilitySource" : "/items/active/weapons/melee/altabilities/spear/rocketspear/rocketspear.altability",
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

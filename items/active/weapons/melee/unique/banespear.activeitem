@@ -4,7 +4,7 @@
   "level" : 6,
   "maxStack" : 1,
   "rarity" : "common",
-  "description" : "A fast and nimble polearm.",
+  "description" : "Bring deadly death to your enemies.",
   "shortdescription" : "Bane Spear",
   "tooltipKind" : "sword",
   "weaponType" : "Spear",
@@ -25,12 +25,12 @@
 
   "scripts" : ["/items/active/weapons/melee/spear/spear.lua"],
 
-  "elementalType" : "physical",
+  "elementalType" : "fire",
 
   "aimOffset" : -1.0,
   "primaryAttack" : {
-    "fireTime" : 0.7,
-    "baseDps" : 10.11,
+    "fireTime" : 0.8,
+    "baseDps" : 11.51,
     "damageConfig" : {
       "damageSourceKind" : "spear",
       "statusEffects" : [ ],
@@ -88,7 +88,7 @@
 
   "palette" : "/items/active/weapons/colors/tier6melee.weaponcolors",
 
-  "altAbilitySource" : "/items/active/weapons/melee/altabilities/spear/barrier/barrier.altability",
+  "altAbilitySource" : "/items/active/weapons/melee/altabilities/spear/charge/charge.altability",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

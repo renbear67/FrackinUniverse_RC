@@ -1,6 +1,6 @@
 {
   "itemName" : "hylotlgreatscion",
-  "level" : 1,
+  "level" : 4,
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "uncommon",
@@ -46,7 +46,7 @@
     "projectileType" : "poisonbroadswordswoosh",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 9.7
+      "power" : 11.7
     },
     "idle" : {
       "twoHanded" : true,

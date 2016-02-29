@@ -90,7 +90,10 @@
 	"phosphorus" : 40,
 	"saltpeter" :  50,
 	"mineralsample" : 50 ,
-	"biochip" :  100
+	"biochip" :  100,
+	"corefragmentore" :  45,
+	"tungstenore" :  65,
+	"duresteelore" :  85
   },
   
   "isn_medicalVendor" : {
