@@ -37,7 +37,7 @@
     {
       "alts" : 5,
       "harvestPool" : "poetree",
-      "resetToStage" : 0
+      "resetToStage" : 1
     }
   ],
     "maxImmersion" : 0.125
