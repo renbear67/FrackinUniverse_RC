@@ -75,10 +75,10 @@
       "allowFlip" : false
     }
   },
-
+  "effectSources" : [ "burning" ],
   "palette" : "/items/active/weapons/colors/tier5melee.weaponcolors",
 
-  "altAbilitySource" : "/items/active/weapons/melee/altabilities/broadsword/traildash/traildash.altability",
+  "altAbilitySource" : "/items/active/weapons/melee/altabilities/broadsword/bladecharge/bladecharge.altability",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }
