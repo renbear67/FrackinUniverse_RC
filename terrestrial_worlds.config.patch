@@ -2448,8 +2448,8 @@
   "path" : "/regionTypes/moon_shadow",
   "value" : 
     {   
-      "caveLiquid" : [ "shadowgas" ],
-      "caveLiquidChanceRange" : [99, 100],
+      //"caveLiquid" : [ "shadowgas" ],
+      //"caveLiquidChanceRange" : [99, 100],
       "blockSelector" : [ "remixedMildSurface" ],
       "fgCaveSelector" : [ "moonSurfaceCaves" ],
       "biome" : [
@@ -2602,8 +2602,8 @@
   "path" : "/regionTypes/moon_toxic",
   "value" : 
     {
-      "caveLiquid" : [ "darkwater", "poison" ],
-      "caveLiquidChanceRange" : [20, 100],
+      //"caveLiquid" : [ "darkwater", "poison" ],
+      //"caveLiquidChanceRange" : [20, 100],
       "blockSelector" : [ "remixedMildSurface", "remixedMountainsSurface", "remixedStepsSurface" ],
       "fgCaveSelector" : [ "moonSurfaceCaves" ],
       "biome" : [
@@ -2654,8 +2654,8 @@
   "path" : "/regionTypes/moon_volcanic",
   "value" : 
     {
-      "caveLiquid" : [ "lava", "fuironliquid" ],
-      "caveLiquidChanceRange" : [20, 100],
+      //"caveLiquid" : [ "lava", "fuironliquid" ],
+      //"caveLiquidChanceRange" : [20, 100],
       "blockSelector" : [ "remixedMildSurface", "remixedMountainsSurface", "remixedStepsSurface" ],
       "fgCaveSelector" : [ "moonSurfaceCaves" ],
       "biome" : [
