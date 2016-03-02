@@ -12,7 +12,7 @@
   "itemTags" : ["weapon","melee","broadsword"],
   "image" : "solarisword.png",
   "firePosition" : [30.5, 0],
-  "fireTime" : 0.89,
+  "fireTime" : 1.49,
   "fireAfterWindup" : true,
   "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_twohanded.ogg" } ] },
 
@@ -21,7 +21,7 @@
     "projectileType" : "testswoosh2",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 9.5
+      "power" : 12.5
     },
     "idle" : {
       "twoHanded" : false,
