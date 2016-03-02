@@ -14,7 +14,7 @@ local recipes = {
 {inputs = { wildcottonseed=1 }, outputs = { gene_energy=1 }, time = 1.2},
 {inputs = { shroomblockglow=50 }, outputs = { gene_bioluminescent=1 }, time = 1.2},
 {inputs = { biospore=4 }, outputs = { gene_bioluminescent=1 }, time = 1.2},
-{inputs = { hopsseed=1 }, outputs = { gene_reactive=1 }, time = 1.2},
+{inputs = { hopsseed=1 }, outputs = { gene_stimulant=1 }, time = 1.2},
 {inputs = { cinnamonseed=1 }, outputs = { gene_stimulant=1 }, time = 1.2},
 {inputs = { automatoseed=1 }, outputs = { gene_harden=1 }, time = 1.2},
 {inputs = { avesmingoseed=1 }, outputs = { gene_chloroplast=1 }, time = 1.2},
