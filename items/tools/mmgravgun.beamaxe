@@ -5,7 +5,7 @@
   "rarity" : "legendary",
   "maxStack" : 1,
   "description" : "A vastly superior upgrade to the Matter Manipulator.",
-  "shortdescription" : "^#b84cbc;Quietus Manipulator^white;",
+  "shortdescription" : "^#b84cbc;Eridian Manipulator^white;",
   "largeImage" : "gravgunlarge.png",
   "tooltipKind" : "tool",
   "category" : "Matter Manipulator",

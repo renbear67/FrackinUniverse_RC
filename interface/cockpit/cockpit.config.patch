@@ -122,7 +122,7 @@
   }, 
 
 {"op":"add","path":"/planetTypeToDescription/chromatic",
-"value":"^#ffc2f9;Chromatic^white; worlds are strange and ^orange;highly radioactive^white; but rich in valuable ^green;Prisilite ore^white;."},
+"value":"^#ffc2f9;Chromatic^white; worlds are strange and ^orange;highly radioactive^white; but rich in valuable ^green;Prisilite Shards^white;."},
 
 {"op":"add","path":"/planetTypeToDescription/arboreal",
 "value":"^#59a849;Giant trees^white; are abundant on this ancient ^#59a849;primeval forest^white; world. Abundant ^orange;organic resources^white; detected."},
