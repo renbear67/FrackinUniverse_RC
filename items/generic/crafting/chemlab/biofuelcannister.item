@@ -4,5 +4,5 @@
   "inventoryIcon" : "biofuelcannister.png",
   "description" : "A decent biofuel.",
   "shortdescription" : "Biofuel Canister",
-  "fuelAmount" : 8
+  "fuelAmount" : 12
 }
