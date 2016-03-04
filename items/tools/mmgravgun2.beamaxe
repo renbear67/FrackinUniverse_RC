@@ -5,7 +5,7 @@
   "rarity" : "legendary",
   "maxStack" : 1,
   "description" : "It gets no better than this.",
-  "shortdescription" : "^#b84cbc;Quantum Matter Manipulator^white;",
+  "shortdescription" : "^#b84cbc;Quantum Manipulator^white;",
   "largeImage" : "gravgun2large.png",
   "tooltipKind" : "tool",
   "category" : "Matter Manipulator",

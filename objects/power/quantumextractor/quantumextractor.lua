@@ -192,7 +192,7 @@ local recipes =
 {inputs = { mutavisksilk=5 }, outputs = { dnasample=2 }, time = 0.1},
 {inputs = { obsidianshard=1 }, outputs = { ammoniumsulfate=2 }, time = 0.1},
 {inputs = { ff_bambooshoot=1 }, outputs = { geneticmaterial=4 }, time = 0.1},
-{inputs = { blooddiamond=1 }, outputs = { bloodore=4 }, time = 0.1},
+{inputs = { blooddiamond=1 }, outputs = { quietusore=3 }, time = 0.1},
 -- tiles
 {inputs = { geodeblock=50 }, outputs = { crystal=3 }, time = 0.1},
 {inputs = { geodestone=50 }, outputs = { crystal=3 }, time = 0.1},
@@ -822,7 +822,7 @@ local recipes =
 {inputs = { berliniteore=4 }, outputs = { phosphorus=3 }, time = 0.1},
 {inputs = { corruptionore=4 }, outputs = { rawminerals=7 }, time = 0.1},
 {inputs = { solarishard=20 }, outputs = { crystal=2 }, time = 0.1},
-{inputs = { solaricrystal=1 }, outputs = { solarishard=6 }, time = 0.1},
+{inputs = { solaricrystal=1 }, outputs = { solarishard=3 }, time = 0.1},
 {inputs = { matteritem=50 }, outputs = { unstableparticles=2 }, time = 0.1},
 {inputs = { zerchesiumore=4 }, outputs = { fu_carbon=12 }, time = 0.1},
 {inputs = { rawminerals=4 }, outputs = { lead=2 }, time = 0.1}
