@@ -4,7 +4,7 @@
     { "item" : "liquidlava", "count" : 20 },
     { "item" : "liquidironfu", "count" : 40 },
     { "item" : "zerchesiumbar", "count" : 3 },
-    { "item" : "magneticshielding", "count" : 2 }
+    { "item" : "electromagnet", "count" : 1 }
   ],
   "output" : {
     "item" : "moltencore",

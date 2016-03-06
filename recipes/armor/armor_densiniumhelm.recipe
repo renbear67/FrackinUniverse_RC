@@ -3,7 +3,7 @@
     { "item" : "densiniumbar", "count" : 3 },
     { "item" : "diamond", "count" : 4 },
     { "item" : "staticcell", "count" : 6 },
-    { "item" : "circuitboard", "count" : 1 }
+    { "item" : "fuprocessor", "count" : 1 }
   ],
   "output" : {
     "item" : "densiniumhead",

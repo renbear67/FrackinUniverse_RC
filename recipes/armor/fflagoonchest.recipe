@@ -3,7 +3,7 @@
     { "item" : "titaniumbar", "count" : 4 },
     { "item" : "thesauce", "count" : 2 },
     { "item" : "algaegreen", "count" : 18 },
-    { "item" : "biochip", "count" : 4 }
+    { "item" : "neptuniumrod", "count" : 4 }
   ],
   "output" : {
     "item" : "fflagoonchest",
