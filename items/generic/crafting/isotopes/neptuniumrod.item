@@ -3,7 +3,7 @@
   "price" : 40,
   "rarity" : "rare",
   "inventoryIcon" : "neptuniumrod.png",
-  "description" : "It's a uranium rod.",
+  "description" : "It's a neptunium rod.",
   "shortdescription" : "Neptunium Rod",
   "itemTags" : [ "reagent" ],
   "fuelAmount" : 45
