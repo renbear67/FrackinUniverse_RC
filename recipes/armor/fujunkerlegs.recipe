@@ -1,7 +1,6 @@
 {
   "input" : [
     { "item" : "densiniumbar", "count" : 4 },
-    { "item" : "thoriumrod", "count" : 3 },
     { "item" : "refinedrubium", "count" : 4 },
     { "item" : "solaricrystal", "count" : 2 }
   ],
