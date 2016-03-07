@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "rawminerals", "count" : 20 },
+    { "item" : "neptuniumrod", "count" : 4 },
     { "item" : "densealloy", "count" : 3 },
     { "item" : "scorchedcore", "count" : 3 },
     { "item" : "obsidianshard", "count" : 4 }

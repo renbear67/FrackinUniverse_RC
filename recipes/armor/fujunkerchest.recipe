@@ -1,7 +1,6 @@
 {
   "input" : [
     { "item" : "densiniumbar", "count" : 5 },
-    { "item" : "corefragmentore", "count" : 5 },
     { "item" : "refinedrubium", "count" : 4 },
     { "item" : "solaricrystal", "count" : 3 }
   ],

@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "feroziumcompound", "count" : 7 },
     { "item" : "moltencore", "count" : 1 },
-    { "item" : "diamond", "count" : 3 }
+    { "item" : "thoriumrod", "count" : 3 }
   ],
   "output" : {
     "item" : "fuintrepidchest",
