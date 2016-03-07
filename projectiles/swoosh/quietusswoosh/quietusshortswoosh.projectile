@@ -14,12 +14,8 @@
   "emitters" : [ "electricswoosh" ],
   "damageKind" : "electrichammer",
   "lightColor" : [25, 92, 107],
-  "knockback" : 135,
+  "knockback" : 15,
   "knockbackDirectional" : true,
 
   "statusEffects" : [ "maxhealthboostneg20" ]
 }
-
-
-
-  
