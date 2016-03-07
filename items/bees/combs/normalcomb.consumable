@@ -13,7 +13,7 @@
         "duration" :30  },
     {
         "effect" : "fedhoney",
-        "duration" : 60
+        "duration" : 30
     }
   ] ],
   "blockingEffects" : [
