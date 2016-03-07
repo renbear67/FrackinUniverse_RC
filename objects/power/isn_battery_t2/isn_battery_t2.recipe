@@ -1,9 +1,8 @@
 {
   "input" : [
     { "item" : "durasteelbar", "count" : 4 },
-    { "item" : "microchip", "count" : 5 },
     { "item" : "battery", "count" : 2 },
-    { "item" : "advcircuit", "count" : 2 }
+    { "item" : "advcircuit", "count" : 1 }
   ],
   "output" : {
     "item" : "isn_battery_t2",

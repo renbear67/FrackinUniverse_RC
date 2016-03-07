@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "zerchesiumbar", "count" : 8 },
-    { "item" : "microchip", "count" : 2 },
+    { "item" : "battery", "count" : 1 },
     { "item" : "electromagnet", "count" : 1 }
   ],
   "output" : { "item" : "lasrifle", "count" : 1 },

@@ -1,8 +1,7 @@
 {
   "input" : [
     { "item" : "protocitebar", "count" : 3 },
-    { "item" : "electromagnet", "count" : 1 },
-    { "item" : "microchip", "count" : 4 },
+    { "item" : "electromagnet", "count" : 1 }
     { "item" : "stickofram", "count" : 2 }
   ],
   "output" : {

@@ -3,7 +3,7 @@
     { "item" : "electromagnet", "count" : 4 },
     { "item" : "triangliumpyramid", "count" : 10 },
     { "item" : "particlecore", "count" : 1 },
-    { "item" : "fuprocessor", "count" : 1 },
+    { "item" : "stickofram", "count" : 2 },
     { "item" : "liquidgravrain", "count" : 100 }
   ],
   "output" : { "item" : "gravgun", "count" : 1 },

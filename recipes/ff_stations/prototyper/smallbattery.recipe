@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "staticcell", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "smallbattery",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "chemical", "all" ]
+}

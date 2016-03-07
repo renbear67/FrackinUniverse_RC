@@ -1,8 +1,7 @@
 {
   "input" : [
    { "item" : "titaniumbar", "count" : 4 },
-   { "item" : "volatilepowder", "count" : 6 },
-   { "item" : "coil", "count" : 4 }
+   { "item" : "volatilepowder", "count" : 6 }
   ],
   "output" : {
     "item" : "minirocketlauncher",

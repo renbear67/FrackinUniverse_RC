@@ -1,10 +1,9 @@
 {
   "input" : [
-   { "item" : "tungstenbar", "count" : 5 },
-   { "item" : "electromagnet", "count" : 1 },
+   { "item" : "tungstenbar", "count" : 4 },
+   { "item" : "battery", "count" : 1 },
    { "item" : "solaricrystal", "count" : 2 },
-   { "item" : "microchip", "count" : 2 },
-   { "item" : "coil", "count" : 1 }
+   { "item" : "coil", "count" : 2 }
   ],
   "output" : {
     "item" : "energyassault",

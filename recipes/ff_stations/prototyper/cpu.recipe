@@ -1,11 +1,11 @@
 {
   "input" : [
     { "item" : "circuitboard", "count" : 2 },
-    { "item" : "microchip", "count" : 2 }
+    { "item" : "tungstenbar", "count" : 1 }
   ],
   "output" : {
     "item" : "cpu",
-    "count" : 2
+    "count" : 1
   },
   "groups" : [ "prototyper", "chemical", "all" ]
 }

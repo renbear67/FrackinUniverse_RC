@@ -2,8 +2,7 @@
   "input" : [
     { "item" : "penumbriteshard", "count" : 3 },
     { "item" : "durasteelbar", "count" : 3 },
-    { "item" : "magneticshielding", "count" : 1 },
-    { "item" : "microchip", "count" : 2 }
+    { "item" : "magneticshielding", "count" : 1 }
   ],
   "output" : {
     "item" : "fuexplorerlegs",
