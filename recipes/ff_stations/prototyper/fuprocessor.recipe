@@ -1,8 +1,6 @@
 {
   "input" : [
-    { "item" : "advcircuit", "count" : 1 },
     { "item" : "cpu", "count" : 2 },
-    { "item" : "ff_silicon", "count" : 1 },
     { "item" : "protocitebar", "count" : 1 }
   ],
   "output" : {
