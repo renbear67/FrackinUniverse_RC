@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "circuitboard", "count" : 1 },
-    { "item" : "graphene", "count" : 2 }
+    { "item" : "circuitboard", "count" : 2 },
+    { "item" : "graphene", "count" : 1 }
   ],
   "output" : {
     "item" : "advcircuit",

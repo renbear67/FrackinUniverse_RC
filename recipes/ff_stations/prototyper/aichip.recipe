@@ -1,6 +1,5 @@
 {
   "input" : [
-    { "item" : "advcircuit", "count" : 1 },
     { "item" : "fuprocessor", "count" : 2 },
     { "item" : "eridianbar", "count" : 1 }
   ],

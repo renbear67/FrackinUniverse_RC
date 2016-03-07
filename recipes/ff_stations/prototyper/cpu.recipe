@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "circuitboard", "count" : 2 },
-    { "item" : "microchip", "count" : 2 }
+    { "item" : "tungstenbar", "count" : 1 }
   ],
   "output" : {
     "item" : "cpu",
