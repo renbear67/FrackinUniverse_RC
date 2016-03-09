@@ -6786,7 +6786,7 @@
           "npc",
           {
             "kind": "monster",
-            "typeName": "quadruped",
+            "typeName": "poptop",
             "seed": "stable",
             "parameters": {
               "aggressive": false
