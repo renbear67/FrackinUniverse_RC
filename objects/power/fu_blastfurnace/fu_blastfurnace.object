@@ -106,7 +106,9 @@
 "triangliumore" : "triangliumpyramid",
 "moonstoneore" : "moonstonebar",
 "durasteelore" : "durasteelbar",
-"tungstenore" : "tungstenbar"
+"tungstenore" : "tungstenbar",
+"thoriumore" : "thoriumrod",
+"neptuniumore" : "neptuniumrod"
   },
   
   "bonusOutputs" : {
