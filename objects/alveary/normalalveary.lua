@@ -94,6 +94,12 @@ end
 		if contents[39].name == "ironframe" then
 			ironcombs = true
 		end
+		if contents[39].name == "tungstenframe" then
+			tungstencombs = true
+		end	
+		if contents[39].name == "durasteelframe" then
+			durasteelcombs = true
+		end			
 		if contents[39].name == "titaniumframe" then
 			titaniumcombs = true
 		end
@@ -147,6 +153,9 @@ end
 		if contents[40].name == "ironframe" then
 			ironcombs = true
 		end
+		if contents[40].name == "durasteelframe" then
+			durasteelcombs = true
+		end		
 		if contents[40].name == "titaniumframe" then
 			titaniumcombs = true
 		end
@@ -620,6 +629,12 @@ function workingBees()
 				if ironcombs == true then
 					trySpawnHoney(1, "iron")
 				end
+				if tungstencombs == true then
+					trySpawnHoney(1, "tungsten")
+				end
+				if durasteelcombs == true then
+					trySpawnHoney(1, "durasteel")
+				end				
 				if titaniumcombs == true then
 					trySpawnHoney(1, "titanium")
 				end

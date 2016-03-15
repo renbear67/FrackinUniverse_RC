@@ -216,6 +216,11 @@
     "wubstemseed" : "wubstem",
     "xaxseed" : "xaxwing",
     "zathiseed" : "zathitails",
-    "cottonseed" : "cotton"
+    "cottonseed" : "cotton",
+    "reedseed" : "reed",
+    "nakatiseed" : "nakatibark",
+    "kirifruitseed" : "kirifruit",
+    "piruseed" : "pirufrond",
+    "isn_meatplant" : "fleshstrand"
   }
 }
