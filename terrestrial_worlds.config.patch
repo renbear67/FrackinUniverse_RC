@@ -1951,7 +1951,7 @@
       "caveLiquid" : [  "water", "healingliquid", "alienjuice", "crystalliquid", "bio_ooze", "blacktar" ],
       "blockSelector" : [ "remixedSurface", "remixedMildSurface","remixedMountainsSurface", "remixedMegaMountainsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
-      "bgOreSelector" : [ "commonVeins", "acidPoolCaves" ], 
+      "bgOreSelector" : [ "commonBackgroundVeins" ], 
       "biome" : [
         [0, [ "chromatic" ]]
       ]
@@ -1965,7 +1965,7 @@
       "caveLiquid" : [  "water", "tarliquid", "healingliquid" ],
       "blockSelector" : [ "remixedSurface", "remixedMildSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
-      "bgOreSelector" : [ "commonVeins", "denseVeins" ], 
+      "bgOreSelector" : [ "commonBackgroundVeins" ], 
       "biome" : [
         [0, [ "arboreal" ]]
       ]
@@ -1979,7 +1979,7 @@
       "caveLiquid" : [ "healingliquid" ],
       "blockSelector" : [ "remixedSurface", "remixedMildSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
-      "bgOreSelector" : [ "commonVeins", "denseVeins" ], 
+      "bgOreSelector" : [ "commonBackgroundVeins" ], 
       "biome" : [
         [0, [ "eden" ]]
       ]
@@ -1993,7 +1993,7 @@
       "caveLiquid" : [  "water", "blacktar", "lava" ],
       "blockSelector" : [ "remixedSurface", "remixedMildSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
-      "bgOreSelector" : [ "commonVeins", "denseVeins" ], 
+      "bgOreSelector" : [ "commonBackgroundVeins" ], 
       "biome" : [
         [0, [ "arboreal2" ]]
       ]
@@ -2006,7 +2006,7 @@
       "caveLiquid" : [  "wastewater", "blacktar", "water", "darkwater" ],
       "blockSelector" : [ "remixedSurface", "remixedMildSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
-      "bgOreSelector" : [ "commonVeins", "denseVeins" ], 
+      "bgOreSelector" : [ "commonBackgroundVeins" ], 
       "biome" : [
         [0, [ "arborealdark" ]]
       ]
@@ -2091,7 +2091,7 @@
   {
       "blockSelector" : [ "remixedSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
-      "bgOreSelector" : [ "commonVeins" ],       
+      "bgOreSelector" : [ "commonBackgroundVeins" ],       
 
       "biome" : [
         [0, [ "barren2" ]]
@@ -2104,7 +2104,7 @@
   {
       "blockSelector" : [ "remixedSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
-      "bgOreSelector" : [ "commonVeins" ],       
+      "bgOreSelector" : [ "commonBackgroundVeins" ],       
 
       "biome" : [
         [0, [ "barren3" ]]
@@ -2121,7 +2121,7 @@
       "caveLiquidSeedDensityRange" : [4.0, 4.0],
       "blockSelector" : [ "remixedSwampySurface", "remixedSurface", "remixedPoolsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
-      "bgOreSelector" : [ "commonVeins" ],       
+      "bgOreSelector" : [ "commonBackgroundVeins" ],       
 
       "biome" : [
         [0, [ "bog" ]]
@@ -2137,7 +2137,7 @@
       "caveLiquidChanceRange" : [20, 100],
       "blockSelector" : [ "remixedSwampySurface", "remixedSurface",  "remixedPoolsSurface"  ],
       "fgCaveSelector" : [ "surfaceCaves" ],
-      "bgOreSelector" : [ "commonVeins", "denseVeins" ], 
+      "bgOreSelector" : [ "commonBackgroundVeins" ], 
       "biome" : [
         [0, [ "corruptmoon" ]]
       ]
@@ -2750,7 +2750,7 @@
       "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [ "remixedSurface", "remixedMildSurface", "remixedStepsSurface", "remixedMountainsSurface" ],
       "fgCaveSelector" : [ "normalCaves" ],
-      "bgOreSelector" : [ "commonVeins", "denseVeins" ],       
+      "bgOreSelector" : [ "commonBackgroundVeins" ],       
       "biome" : [
         [0, [ "penumbra" ]]
       ]
@@ -2780,7 +2780,7 @@
       "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [ "remixedCanyonsSurface", "remixedSurface", "remixedMildSurface", "remixedStepsSurface" ],
       "fgCaveSelector" : [ "normalCaves" ],
-      "bgOreSelector" : [ "commonVeins" ],       
+      "bgOreSelector" : [ "commonBackgroundVeins" ],       
       "biome" : [
         [0, [ "slimeworld" ]]
       ]
@@ -2868,7 +2868,7 @@
       "caveLiquidChanceRange" : [25, 100],      
       "blockSelector" : [ "remixedSurface", "remixedMountainsSurface", "remixedSwampySurface" ],
       "fgCaveSelector" : [ "normalCaves" ],
-      "bgOreSelector" : [ "commonVeins" ], 
+      "bgOreSelector" : [ "commonBackgroundVeins" ], 
       "biome" : [
         [0, [ "thickjungle" ]]
       ]
@@ -2955,7 +2955,7 @@
 	"fgCaveSelector" : [ "normalCaves" ],
 	"bgCaveSelector" : [ "largeClumps" ],
 	"fgOreSelector" : [ "commonVeins" ],
-	"bgOreSelector" : [ "denseVeins" ],
+	"bgOreSelector" : [ "commonBackgroundVeins" ],
       "biome" : [
         [0, [ "cloudforest" ]]
       ]
@@ -3676,7 +3676,7 @@
  	{
        "blockSelector" : [ "remixedPoolsSurface", "remixedSwampySurface" ],
        "fgCaveSelector" : [ "surfaceCaves" ],
-       "bgOreSelector" : [ "commonVeins" ],      
+       "bgOreSelector" : [ "commonBackgroundVeins" ],      
        "caveLiquid" : [ "healingliquid" ],
        "caveLiquidChanceRange" : [100, 100],
        "biome" : [
@@ -3725,7 +3725,7 @@
        "oceanLevelOffset" : 0, 
        "blockSelector" : [ "remixedIslandsSurface", "submergedIslandsSurface", "spikeIslandsSurface" ],
        "fgCaveSelector" : [ "surfaceCaves" ],
-       "bgOreSelector" : [ "commonVeins" ], 
+       "bgOreSelector" : [ "commonBackgroundVeins" ], 
        "biome" : [
          [0, [ "tidewater" ]]
        ]
@@ -3742,7 +3742,7 @@
        "caveLiquidChanceRange" : [100, 100],
        "blockSelector" : [ "remixedIslandsSurface", "submergedIslandsSurface", "spikeIslandsSurface" ],
        "fgCaveSelector" : [ "surfaceCaves" ],
-       "bgOreSelector" : [ "commonVeins" ], 
+       "bgOreSelector" : [ "commonBackgroundVeins" ], 
        "biome" : [
          [0, [ "strangesea" ]]
        ]
@@ -3757,7 +3757,7 @@
        "oceanLevelOffset" : 0, 
        "blockSelector" : [ "breakwaterIslandsSurface" ],
        "fgCaveSelector" : [ "surfaceCaves" ],
-       "bgOreSelector" : [ "commonVeins" ], 
+       "bgOreSelector" : [ "commonBackgroundVeins" ], 
        "biome" : [
          [0, [ "breakwater" ]]
        ]
@@ -3772,7 +3772,7 @@
        "oceanLevelOffset" : 0, 
        "blockSelector" : [ "tidalflatsIslandsSurface" ],
        "fgCaveSelector" : [ "surfaceCaves" ],
-       "bgOreSelector" : [ "commonVeins" ], 
+       "bgOreSelector" : [ "commonBackgroundVeins" ], 
        "biome" : [
          [0, [ "estuary" ]]
        ]
@@ -3787,7 +3787,7 @@
        "oceanLevelOffset" : 0, 
        "blockSelector" : [ "floatingIslandsSurface", "submergedIslandsSurface" ],
        "fgCaveSelector" : [ "surfaceCaves" ],
-       "bgOreSelector" : [ "commonVeins" ], 
+       "bgOreSelector" : [ "commonBackgroundVeins" ], 
        "caveLiquid" : [ "darkwater" ],
        "caveLiquidChanceRange" : [100, 100],
        "biome" : [
@@ -3805,7 +3805,7 @@
        "blockSelector" : [  "remixedSurface", "remixedMildSurface", "remixedCanyonsSurface"  ],
        "fgCaveSelector" : [ "surfaceCaves" ],
        "bgCaveSelector" : [ "surfaceCaves" ],
-       "bgOreSelector" : [ "commonVeins" ], 
+       "bgOreSelector" : [ "commonBackgroundVeins" ], 
        "biome" : [
          [0, [ "coralreef" ]]
        ]
@@ -3820,7 +3820,7 @@
        "oceanLevelOffset" : 9999,
        "blockSelector" : [ "remixedSurface", "remixedMildSurface", "remixedCanyonsSurface"  ],
        "fgCaveSelector" : [ "surfaceCaves" ],
-       "bgOreSelector" : [ "commonVeins" ], 
+       "bgOreSelector" : [ "commonBackgroundVeins" ], 
        "biome" : [
          [0, [ "tidewaterfloor" ]]
        ]
@@ -3836,7 +3836,7 @@
        "blockSelector" : [ "remixedCanyonsSurface" ],
        "fgCaveSelector" : [ "surfaceCaves" ],
        "bgCaveSelector" : [ "surfaceCaves" ],
-       "bgOreSelector" : [ "commonVeins" ], 
+       "bgOreSelector" : [ "commonBackgroundVeins" ], 
        "caveLiquid" : [ "lava" ],
        "caveLiquidChanceRange" : [100, 100],
        "biome" : [
@@ -3854,7 +3854,7 @@
         "blockSelector" : [ "remixedCanyonsSurface", "remixedMildCanyonsSurface" ],
         "fgCaveSelector" : [ "surfaceCaves" ],
         "bgCaveSelector" : [ "surfaceCaves" ],
-        "bgOreSelector" : [ "commonVeins" ], 
+        "bgOreSelector" : [ "commonBackgroundVeins" ], 
         "caveLiquid" : [ "lava" ],
         "caveLiquidChanceRange" : [100, 100],
         "biome" : [
@@ -3872,7 +3872,7 @@
         "blockSelector" : [ "remixedCanyonsSurface", "remixedMildCanyonsSurface" ],
         "fgCaveSelector" : [ "surfaceCaves" ],
         "bgCaveSelector" : [ "surfaceCaves" ],
-        "bgOreSelector" : [ "commonVeins" ], 
+        "bgOreSelector" : [ "commonBackgroundVeins" ], 
         "caveLiquid" : [ "lava" ],
         "caveLiquidChanceRange" : [100, 100],
         "biome" : [
@@ -3890,7 +3890,7 @@
        "blockSelector" : [  "remixedSurface", "remixedCanyonsSurface"  ],
        "fgCaveSelector" : [ "surfaceCaves" ],
        "bgCaveSelector" : [ "surfaceCaves" ],
-       "bgOreSelector" : [ "commonVeins" ], 
+       "bgOreSelector" : [ "commonBackgroundVeins" ], 
        "biome" : [
          [0, [ "coralreef" ]]
        ]
@@ -3916,7 +3916,7 @@
  "value" : 
  	{
        "fgCaveSelector" : [ "denseCaves" ],
-       "bgOreSelector" : [ "commonVeins" ], 
+       "bgOreSelector" : [ "commonBackgroundVeins" ], 
        "caveLiquid" : [ "water" ],
        "caveLiquidChanceRange" : [20, 40],
        "biome" : [
@@ -3969,7 +3969,7 @@
 		    "fgCaveSelector" : [ "normalCaves" ],
 		    "bgCaveSelector" : [ "largeClumps" ],
 		    "fgOreSelector" : [ "commonVeins" ],
-		    "bgOreSelector" : [ "denseVeins" ],
+		    "bgOreSelector" : [ "commonBackgroundVeins" ],
 		    "subBlockSelector" : [ "largeClumps" ],
 		      "biome" : [
 		        [0, [ "tundra" ]]
@@ -3985,7 +3985,7 @@
 		    "fgCaveSelector" : [ "normalCaves" ],
 		    "bgCaveSelector" : [ "largeClumps" ],
 		    "fgOreSelector" : [ "commonVeins" ],
-		    "bgOreSelector" : [ "denseVeins" ],
+		    "bgOreSelector" : [ "commonBackgroundVeins" ],
 		    "subBlockSelector" : [ "largeClumps" ],
 		      "biome" : [
 		        [0, [ "iceclouds" ]]
@@ -4000,7 +4000,7 @@
 		    "fgCaveSelector" : [ "normalCaves" ],
 		    "bgCaveSelector" : [ "largeClumps" ],
 		    "fgOreSelector" : [ "commonVeins" ],
-		    "bgOreSelector" : [ "denseVeins" ],
+		    "bgOreSelector" : [ "commonBackgroundVeins" ],
 		    "subBlockSelector" : [ "largeClumps" ],
 		      "biome" : [
 		        [0, [ "clouds" ]]
@@ -4058,7 +4058,7 @@
        "caveLiquidChanceRange" : [99, 100],
        "blockSelector" : [ "remixedPoolsSurface", "remixedSwampySurface" ],
        "fgCaveSelector" : [ "surfaceCaves" ],
-       "bgOreSelector" : [ "commonVeins" ], 
+       "bgOreSelector" : [ "commonBackgroundVeins" ], 
        "biome" : [
          [0, [ "crystalswamp" ]]
        ]
@@ -4136,7 +4136,7 @@
   {
       "caveLiquid" : [ "organicsoup", "blacktar", "alienjuice", "helium3gas" ],
       "caveLiquidChanceRange" : [45, 75],
-            "bgOreSelector" : [ "commonVeins" ],  
+            "bgOreSelector" : [ "commonBackgroundVeins" ],  
       "biome" : [
         [0, [ "ffcrystalcavern"]]
       ]
@@ -4149,7 +4149,7 @@
   {
       "caveLiquid" : [ "water", "liquidnitrogen" ],
       "caveLiquidChanceRange" : [55, 75],
-            "bgOreSelector" : [ "commonVeins" ],  
+            "bgOreSelector" : [ "commonBackgroundVeins" ],  
       "biome" : [
         [0, [ "fffrostcavern"]]
       ]
@@ -4162,7 +4162,7 @@
   {
       "caveLiquid" : [ "poison", "bio_ooze", "shadowgas", "darkwater" ],
       "caveLiquidChanceRange" : [45, 75],
-            "bgOreSelector" : [ "commonVeins" ],  
+            "bgOreSelector" : [ "commonBackgroundVeins" ],  
       "biome" : [
         [0, [ "ffshadow"]]
       ]
@@ -4175,7 +4175,7 @@
   {
       "caveLiquid" : [ "lava", "blacktar" ],
       "caveLiquidChanceRange" : [55, 75],
-            "bgOreSelector" : [ "commonVeins" ],  
+            "bgOreSelector" : [ "commonBackgroundVeins" ],  
       "biome" : [
         [0, [ "ffvolcanic"]]
       ]
@@ -4200,7 +4200,7 @@
   {
       "caveLiquid" : [ "water", "swampwater", "poison", "blacktar" ],
       "caveLiquidChanceRange" : [5, 35],
-      "bgOreSelector" : [ "commonVeins" ],  
+      "bgOreSelector" : [ "commonBackgroundVeins" ],  
       "biome" : [
         [0, [ "arborealunderground"]]
       ]
@@ -4213,7 +4213,7 @@
   {
       "caveLiquid" : [ "water", "healingliquid", "poison" ],
       "caveLiquidChanceRange" : [5, 35],
-      "bgOreSelector" : [ "commonVeins" ],  
+      "bgOreSelector" : [ "commonBackgroundVeins" ],  
       "biome" : [
         [0, [ "mountainousunderground"]]
       ]
@@ -4252,7 +4252,7 @@
   {
       "caveLiquid" : [ "poison", "blacktar", "tarliquid", "swampwater" ],
       "caveLiquidChanceRange" : [95, 100],
-      "bgOreSelector" : [ "commonVeins" ],  
+      "bgOreSelector" : [ "commonBackgroundVeins" ],  
       "biome" : [
         [0, [ "bogunderground"]]
       ]
@@ -4266,7 +4266,7 @@
   {
       "caveLiquid" : [ "darkwater" ],
       "caveLiquidChanceRange" : [5, 35],
-      "bgOreSelector" : [ "commonVeins" ],  
+      "bgOreSelector" : [ "commonBackgroundVeins" ],  
       "biome" : [
         [0, [ "corruptmoonunderground"]]
       ]
@@ -4279,7 +4279,7 @@
   {
       "caveLiquid" : [ "poison", "blacktar", "tarliquid", "swampwater", "healingliquid", "slimeliquid" ],
       "caveLiquidChanceRange" : [35, 55],
-            "bgOreSelector" : [ "commonVeins" ],  
+            "bgOreSelector" : [ "commonBackgroundVeins" ],  
       "biome" : [
         [0, [ "fungusunderground"]]
       ]
@@ -4292,7 +4292,7 @@
   {
       "caveLiquid" : [ "lava" ],
       "caveLiquidChanceRange" : [35, 55],
-            "bgOreSelector" : [ "commonVeins" ],  
+            "bgOreSelector" : [ "commonBackgroundVeins" ],  
       "biome" : [
         [0, [ "frozenvolcanicunderground"]]
       ]
@@ -4305,7 +4305,7 @@
   {
       "caveLiquid" : [ "water", "poison", "alienjuice", "healingliquid", "slimeliquid" ],
       "caveLiquidChanceRange" : [65, 95],
-            "bgOreSelector" : [ "commonVeins" ],  
+            "bgOreSelector" : [ "commonBackgroundVeins" ],  
       "biome" : [
         [0, [ "shroomcave"]]
       ]
@@ -4474,7 +4474,7 @@
       "caveLiquid" : [ "swampwater", "poison","bio_ooze", "alienjuice", "slimeliquid" ], 
       "caveLiquidChanceRange" : [5, 15],
       "fgCaveSelector" : [ "acidPoolCaves", "denseCaves" ],
-      "bgOreSelector" : [ "commonVeins" ],  
+      "bgOreSelector" : [ "commonBackgroundVeins" ],  
       "biome" : [
         [0, [ "irradiatedunderground"]]
       ]
@@ -4487,7 +4487,7 @@
   {
       "caveLiquid" : [ "water", "blacktar", "organicsoup", "bio_ooze", "alienjuice" ],
       "caveLiquidChanceRange" : [5, 25],
-      "bgOreSelector" : [ "commonVeins" ],  
+      "bgOreSelector" : [ "commonBackgroundVeins" ],  
       "biome" : [
         [0, [ "penumbraunderground"]]
       ]
@@ -4578,7 +4578,7 @@
   {
       "caveLiquid" : [ "organicsoup", "alienjuice", "healingliquid" ],
       "caveLiquidChanceRange" : [45, 75],
-      "bgOreSelector" : [ "commonVeins" ],  
+      "bgOreSelector" : [ "commonBackgroundVeins" ],  
       "biome" : [
         [0, [ "ffsupermatter"]]
       ]
@@ -4629,7 +4629,7 @@
   {
       "caveLiquid" : [ "water", "healingliquid", "alienjuice" ],
       "caveLiquidChanceRange" : [25, 70],
-      "bgOreSelector" : [ "commonVeins" ],  
+      "bgOreSelector" : [ "commonBackgroundVeins" ],  
       "biome" : [
         [0, [ "chromaticunderground"]]
       ]
@@ -4641,7 +4641,7 @@
   {
       "caveLiquid" : [ "water", "tarliquid" ],
       "caveLiquidChanceRange" : [65, 100],
-      "bgOreSelector" : [ "commonVeins" ],  
+      "bgOreSelector" : [ "commonBackgroundVeins" ],  
       "biome" : [
         [0, [ "thickjungleunderground"]]
       ]
