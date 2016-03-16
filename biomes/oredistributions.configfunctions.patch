@@ -179,7 +179,6 @@
 { "op":"add", "path":"/core/3/1/-","value": [ "berlinite", 1.20] },
 { "op":"add", "path":"/core/4/1/-","value": [ "berlinite", 1.20] },
 { "op":"add", "path":"/core/5/1/-","value": [ "berlinite", 1.20] },
-{ "op":"add", "path":"/moondeepores/0/1/-","value": [ "moonstone", 0.85] },
 { "op":"add", "path":"/surfaceOres/1/1/-","value": [ "tungsten", 0.40] },
 { "op":"add", "path":"/surfaceOres/2/1/-","value": [ "tungsten", 0.40] },
 { "op":"add", "path":"/surfaceOres/3/1/-","value": [ "durasteel", 0.40] },
@@ -200,6 +199,9 @@
 { "op":"add", "path":"/core/2/1/-","value": [ "tungsten", 1.20] },
 { "op":"add", "path":"/core/3/1/-","value": [ "durasteel", 1.20] },
 { "op":"add", "path":"/core/4/1/-","value": [ "durasteel", 1.20] },
+{ "op":"add", "path":"/moonores/0/1/-","value": [ "moonstone", 0.25] },
+{ "op":"add", "path":"/moonores/0/1/-","value": [ "plutonium", 0.25] },
+{ "op":"add", "path":"/moondeepores/0/1/-","value": [ "moonstone", 0.85] },
 
 {"op":"add",
 "path":"/bloodstonesurfaceOres",
