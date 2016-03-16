@@ -737,6 +737,7 @@ local recipes =
 --from vanilla
 {inputs = { plantfibre=50 }, outputs = { tissueculture=2 }, time = 0.75},
 {inputs = { alienfruit=1 }, outputs = { tissueculture=3 }, time = 0.75},
+{inputs = { boltbulb=1 }, outputs = { rawminerals=3 }, time = 0.75},
 {inputs = { cacti=1 }, outputs = { tissueculture=3 }, time = 0.75},
 {inputs = { chili=1 }, outputs = { tissueculture=3 }, time = 0.75},
 {inputs = { carrot=1 }, outputs = { tissueculture=3 }, time = 0.75},

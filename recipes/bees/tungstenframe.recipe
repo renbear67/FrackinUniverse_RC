@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "durasteelbar", "count" : 8 }
+    { "item" : "tungstenbar", "count" : 8 }
   ],
   "output" : {
-    "item" : "durasteelframe",
+    "item" : "tungstenframe",
     "count" : 1
   },
   "groups" : [ "mod", "beestation", "frame", "all" ]
