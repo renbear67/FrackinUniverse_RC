@@ -10,11 +10,11 @@
       {
         "select" : 4,
         "pool" : [
-          [ 0.2, "fupenguintank" ],
-          //[ 0.3, "fupenguinminiufo" ],
-          [ 0.3, "fupenguingeneral" ],
-          [ 0.4, "fupenguinrockettrooper" ],
-          [ 0.5, "fupenguintrooper" ]
+          [ 0.111, "fupenguintank" ],
+          [ 0.05, "tentaclecometspore" ],
+          [ 0.111, "fupenguingeneral" ],
+          [ 0.111, "fupenguinrockettrooper" ],
+          [ 0.111, "fupenguintrooper" ]
         ]
       },    
       {
