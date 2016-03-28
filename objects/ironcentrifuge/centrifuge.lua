@@ -130,6 +130,14 @@ function deciding()
 			self.comboutput = "titaniumore"
 			itemchance = rarestitem
 		end
+		if contents[10].name == "tungstencomb" then
+			self.comboutput = "tungstenore"
+			itemchance = rarestitem
+		end		
+		if contents[10].name == "durasteelcomb" then
+			self.comboutput = "durasteelore"
+			itemchance = rarestitem
+		end
 end
  
 function update(dt)
