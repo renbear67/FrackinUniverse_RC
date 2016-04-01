@@ -10,6 +10,18 @@ function init(virtual)
 	self.timer = 0.25
 end
 
+function radMode(checkname)
+    local contents = world.containerItems(entity.id())
+      if contents[1] then
+        if contents[1].name == "plutoniumrod" then return true end
+        if contents[1].name == "uraniumrod" then return true end
+        if contents[1].name == "neptuniumrod" then return true end
+        if contents[1].name == "thoriumrod" then return true end
+        if contents[1].name == "solariumstar" then return true end
+        return false end
+      return false
+    end 
+    
 function update(dt)
   self.oresubtract = math.random(1,5)
   self.timer = self.timer - dt
@@ -50,7 +62,12 @@ function update(dt)
 			end
 		end
 		
-		world.containerAddItems(entity.id(), {name = storage.currentoutput, count = 1, data={}})
+        if radMode(storage.currentinput) == true then
+          world.containerAddItems(entity.id(), {name = storage.currentoutput, count = 2, data={}})
+        end
+        if radMode(storage.currentinput) == false then
+          world.containerAddItems(entity.id(), {name = storage.currentoutput, count = 1, data={}})
+        end		
 		self.timer = 0.15
 	end
   end	

@@ -72,16 +72,11 @@
     "liquidwastewater" : "liquidwater",
 //isotopes (only for advanced centrifuges)
     "toxicwaste" : "uraniumore",
-    "uraniumore" : "toxicwaste",
-    "uraniumrod" : "toxicwaste",
-    "neptuniumore" : "toxicwaste",
+    "uraniumrod" : "enricheduranium",
     "neptuniumrod" : "toxicwaste",
-    "thoriumore" : "toxicwaste",
     "thoriumrod" : "toxicwaste",
-    "plutoniumore" : "toxicwaste",
-    "plutoniumrod" : "toxicwaste",
-    "solariumore" : "toxicwaste",
-    "solariumstar" : "toxicwaste"
+    "plutoniumrod" : "enrichedplutonium",
+    "solariumstar" : "ultronium"
   },
   
   "bonusOutputs" : {
@@ -109,18 +104,18 @@
     "liquidalienjuice" : { "geneticmaterial" : 12,"ff_silicon" : 11 },
     "liquidnitrogenitem" : { "fu_nitrogen" : 12,"icecrystal" : 3 },
     "liquiddarkwater" : { "nutrientpaste" : 12,"liquidpoison" : 12,"rawminerals" : 9  },
-    "toxicwaste" : { "toxicwaste" : 12,"uraniumore" : 5  },
-    "uraniumore" : { "rawminerals" : 12,"fu_hydrogen" : 12,"enricheduranium" : 16  },
-    "uraniumrod" : { "rawminerals" : 12,"fu_hydrogen" : 12,"enricheduranium" : 25  },
-    "neptuniumore" : { "rawminerals" : 12,"fu_hydrogen" : 12,"ultronium" : 8  },
-    "neptuniumrod" : { "rawminerals" : 12,"fu_hydrogen" : 12,"ultronium" : 12  },
-    "thoriumore" : { "rawminerals" : 12,"fu_hydrogen" : 12,"ultronium" : 12  },
-    "thoriumrod" : { "rawminerals" : 12,"fu_hydrogen" : 12,"ultronium" : 20  },
-    "plutoniumore" : { "rawminerals" : 12,"fu_hydrogen" : 12,"enrichedplutonium" : 16  },
-    "plutoniumrod" : { "rawminerals" : 12,"fu_hydrogen" : 12,"enrichedplutonium" : 25  },
-    "solariumore" : { "rawminerals" : 12,"fu_hydrogen" : 12,"ultronium" : 20  },
-    "solariumstar" : { "rawminerals" : 12,"fu_hydrogen" : 12,"ultronium" : 35  },
-    "swampwater" : { "algaegreen" : 12, "nutrientpaste" : 12, "dnasample" : 5, "geneticmaterial" : 12 },
+    "toxicwaste" : { "uraniumore" : 5  },
+    "uraniumore" : { "toxicwaste" : 72,"fu_hydrogen" : 22 },
+    "uraniumrod" : { "toxicwaste" : 72,"fu_hydrogen" : 22 },
+    "neptuniumore" : { "toxicwaste" : 72,"fu_hydrogen" : 22 },
+    "neptuniumrod" : { "toxicwaste" : 72,"fu_hydrogen" : 22 },
+    "thoriumore" : { "toxicwaste" : 72,"fu_hydrogen" : 22  },
+    "thoriumrod" : { "toxicwaste" : 72,"fu_hydrogen" : 22  },
+    "plutoniumore" : { "toxicwaste" : 72,"fu_hydrogen" : 22 },
+    "plutoniumrod" : { "toxicwaste" : 72,"fu_hydrogen" : 22  },
+    "solariumore" : { "toxicwaste" : 72,"fu_hydrogen" : 22  },
+    "solariumstar" : { "toxicwaste" : 72,"fu_hydrogen" : 22 },
+    "swampwater" : { "algaegreen" : 22, "nutrientpaste" : 22, "dnasample" : 5, "geneticmaterial" : 12 },
     "liquidwastewater" : { "nutrientpaste" : 12,"liquidpoison" : 12,"rawminerals" : 9 }
   }
 }
