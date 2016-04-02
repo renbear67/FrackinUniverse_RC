@@ -4,6 +4,6 @@
   "inventoryIcon" : "enrichedplutonium.png",
   "description" : "An improved form of plutonium.",
   "shortdescription" : "^#88e25b;Enriched Plutonium Rod^white;",
-  "fuelAmount" : 350,
+  "fuelAmount" : 400,
   "learnBlueprintsOnPickup" : [ "chargecannon" ]
 }

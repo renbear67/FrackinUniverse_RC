@@ -110,7 +110,7 @@
     "neptuniumore" : { "toxicwaste" : 50,"fu_hydrogen" : 22 },
     "neptuniumrod" : { "ultronium" : 72,"fu_hydrogen" : 22 },
     "thoriumore" : { "toxicwaste" : 72,"fu_hydrogen" : 22  },
-    "thoriumrod" : { "ultronium" : 75,"fu_hydrogen" : 22  },
+    "thoriumrod" : { "ultronium" : 78,"fu_hydrogen" : 22  },
     "plutoniumore" : { "toxicwaste" : 72,"fu_hydrogen" : 22 },
     "plutoniumrod" : { "toxicwaste" : 72,"fu_hydrogen" : 22  },
     "solariumore" : { "toxicwaste" : 72,"fu_hydrogen" : 22  },
