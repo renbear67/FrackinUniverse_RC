@@ -1,11 +1,11 @@
 {
-  "type" : "tentaclecometspore",
+  "type" : "tentaclecometsporefu",
 
-  "categories" : [ "tentaclecometspore" ],
+  "categories" : [ "tentaclecometsporefu" ],
   "parts" : [ "chest" ],
-  "partParameters" : "tentaclecometspore.partparams",
+  "partParameters" : "tentaclecometsporefu.partparams",
 
-  "animation" : "tentaclecometspore.animation",
+  "animation" : "tentaclecometsporefu.animation",
   "reversed" : true,
 
   "dropPools" : [
