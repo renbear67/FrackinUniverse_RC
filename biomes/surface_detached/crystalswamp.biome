@@ -30,7 +30,7 @@
     ]
   },
     "mainBlock" : "geodeblock",
-    "subBlocks" : [ "swampdirtff", "purplecrystal", "geodestone" ],
+    "subBlocks" : [ "retexaetherdust", "purplecrystal", "geodestone" ],
     "ores" : "ff_crystalmoonOres",
 
   "surfacePlaceables" : {

@@ -115,6 +115,7 @@
       "baseImages" : "/celestial/system/terrestrial/horizon/textures/desert_wastes_<selector>.png",
       "maskPerPlanetRange" : [0, 0]
   }},  
+    
   {"op" : "add", 
   "path" : "/terrestrialHorizonGraphics/eden",
   "value" : 
@@ -500,6 +501,7 @@
       "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
       "dynamicsRange" : [1, 50]
   }},
+  
   {"op" : "add", 
   "path" : "/terrestrialGraphics/eden",
   "value" : 
