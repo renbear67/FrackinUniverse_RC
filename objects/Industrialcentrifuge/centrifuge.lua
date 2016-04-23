@@ -124,6 +124,14 @@ function deciding()
 			self.comboutput = "goldore"
 			itemchance = rarestitem
 		end
+		if contents[17].name == "durasteelcomb" then
+			self.comboutput = "durasteelore"
+			itemchance = rarestitem
+		end		
+		if contents[17].name == "tungstencomb" then
+			self.comboutput = "tungstenore"
+			itemchance = rarestitem
+		end
 		if contents[17].name == "titaniumcomb" then
 			self.comboutput = "titaniumore"
 			itemchance = rarestitem
@@ -259,6 +267,14 @@ function honeyCheck()
 	end
 	if contents[17] and contents[17].name == "radioactivecomb" then
 			honeyType = "radioactivehoneyjar"
+			return honeyType
+	end
+	if contents[17] and contents[17].name == "tungstencomb" then
+			honeyType = "honeyjar"
+			return honeyType
+	end
+	if contents[17] and contents[17].name == "durasteelcomb" then
+			honeyType = "honeyjar"
 			return honeyType
 	end
 end

@@ -1,6 +1,22 @@
 [
 //vanilla non-enabled spawns
   {
+    "name" : "tentaclecometspore",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "groupSize" : [1, 2],
+    "targetDensity" : 0.04,
+    "monsterType" : "tentaclecometspore",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+  {
     "name" : "pogolem",
 
     "spawnParameters" : {
@@ -385,6 +401,7 @@
   
   
   //OTHER
+
    {
     "name" : "furatthing",
 
