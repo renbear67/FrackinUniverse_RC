@@ -4,7 +4,7 @@
   "hueShiftOptions" : [-40, -25, 0, 25, 40],
 
     "mainBlock" : "floweryblock",
-    "subBlocks" : [ "dirt", "mud" ],
+    "subBlocks" : [ "retexdirt", "mud" ],
     "ores" : "surfaceOres",
 
   "spawnProfile" : {

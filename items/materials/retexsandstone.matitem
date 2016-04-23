@@ -1,0 +1,9 @@
+{
+  "itemName" : "retexsandstone",
+  "rarity" : "Common",
+  "inventoryIcon" : "retexsandstone.png",
+  "description" : "Sandstone",
+  "shortdescription" : "Sandstone",
+
+  "materialId" : 6620
+}

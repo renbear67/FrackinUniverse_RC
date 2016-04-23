@@ -114,7 +114,7 @@
   
   
     "mainBlock" : "drysand",
-    "subBlocks" : [ "ash", "rock15", "bonematerial", "brittlejunk" ],
+    "subBlocks" : [ "ash", "retexrock15", "bonematerial", "brittlejunk" ],
     "ores" : "surfaceOres",
     "parallax" : "/parallax/surface/urbanwasteland.parallax",
 

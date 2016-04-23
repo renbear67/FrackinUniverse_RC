@@ -1,0 +1,20 @@
+{
+  "materialId" : 6621,
+  "materialName" : "retexrock15",
+  "particleColor" : [160, 139, 117, 255],
+  "itemDrop" : "chertmaterial",
+  "description" : "Rough, unrefined stone.",
+  "shortdescription" : "Chert",
+  "health" : 8,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/FullTemplate.config",
+  "renderParameters" : {
+    "texture" : "retexrock15.png",
+    "variants" : 3,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 1600
+  }
+}

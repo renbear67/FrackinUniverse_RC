@@ -1,6 +1,23 @@
 [
 //Bees
   {
+    "name" : "metalbee",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "groupSize" : [1, 2],
+    "targetDensity" : 0.01,
+    "monsterType" : "metalbee",
+    "monsterParameters" : {
+      "aggressive" : false
+    }
+  },
+  
+  {
     "name" : "blackbeetle",
 
     "spawnParameters" : {

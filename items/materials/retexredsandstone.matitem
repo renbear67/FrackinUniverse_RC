@@ -1,0 +1,11 @@
+{
+  "itemName" : "retexredsandstone",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "redsandstone.png",
+  "description" : "Monumental!",
+  "shortdescription" : "Red Sandstone",
+  "glitchdescription" : "Statement. A red variant of sandstone.",
+  "florandescription" : "Sssandstone.",
+  "materialId" : 6618
+}

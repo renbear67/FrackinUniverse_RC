@@ -155,7 +155,7 @@
   ],
 
   "mainBlock" : "drydirt",
-  "subBlocks" : [ "drysand", "cobblestone", "rock15" ],
+  "subBlocks" : [ "drysand", "cobblestone", "retexrock15" ],
   "ores" : "none",
 
   "parallax" : "/parallax/surface/barren.parallax",

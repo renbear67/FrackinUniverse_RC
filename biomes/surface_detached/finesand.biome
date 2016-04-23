@@ -47,7 +47,7 @@
   "hueShiftOptions" : [-90, -45, 0, 45, 90],
 
   "mainBlock" : "sand",
-  "subBlocks" : [  ],
+  "subBlocks" : [ "retexsand2" ],
   "ores" : "surfaceOres",
 
   "surfacePlaceables" : {

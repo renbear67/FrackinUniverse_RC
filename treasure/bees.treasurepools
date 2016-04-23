@@ -1,5 +1,16 @@
 {
-
+   "metalqueen" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.75, "item" : [ "metaldrone", 1]},
+        {"weight" : 0.25, "item" : [ "metalqueen", 1]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
 //FU Beetles
    "elderbeetle" : [
     [0, {

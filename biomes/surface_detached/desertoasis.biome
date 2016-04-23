@@ -24,7 +24,7 @@
       "colors" : "desert"
     }
   },
-    "mainBlock" : "sand2",
+    "mainBlock" : "retexsand2",
     "subBlocks" : [ "wetdirt", "sandstone01" ],
     "ores" : "surfaceOres",
 

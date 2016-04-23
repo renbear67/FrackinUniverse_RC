@@ -715,7 +715,15 @@ function workingBees()
 				expellQueens("hunter")
                 return true
 			end
-
+			if equippedBees("metal") then					--METAL (FrackinUniverse addition )
+			    trySpawnHoney(0.80, "red")
+				trySpawnBee(  0.33, "metal")
+				trySpawnDrone(0.33, "metal")
+				trySpawnItems(0.33, "tungstenore")
+				expellQueens("metal")
+				beeNocturnalDiurnal = "diurnal"	
+				beeSting()
+                return true
 			if equippedBees("solarium") then					--SOLARIUM
                 spawnHoneyDronesBees("solarium")
 				beeNocturnalDiurnal = "diurnal"	

@@ -1,0 +1,25 @@
+{
+  "materialId" : 6615,
+  "materialName" : "retexdirt",
+  "particleColor" : [112, 72, 39, 255],
+  "itemDrop" : "retexdirt",
+  "description" : "Dirty looking dirt.",
+  "shortdescription" : "Dirt Block",
+  "glitchDescription" : "Statement. Dirt. Clarification. Just dirt.",
+  "floranDescription" : "Filthy dirt!",
+  "footstepSound" : "/sfx/blocks/footstep_dirt.ogg",
+  "tillableMod" : 32,
+  "soil" : true,
+  "health" : 2,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/FullTemplate.config",
+  "renderParameters" : {
+    "texture" : "retexdirt.png",
+    "variants" : 3,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 1920
+  }
+}
