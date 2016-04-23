@@ -21,8 +21,8 @@
     ]
   },
 
-    "mainBlock" : "cobblestone",
-    "subBlocks" : [ "dirt", "gravel", "rock03" ],
+    "mainBlock" : "retexcobblestone",
+    "subBlocks" : [ "retexdirt", "gravel", "retexrock15" ],
     "ores" : "ff_deepmountainousOres",
 
   "parallax" : "/parallax/underground/arborealunderground.parallax",

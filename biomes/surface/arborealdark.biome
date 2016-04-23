@@ -89,7 +89,7 @@
   ],
 
   "mainBlock" : "plantmatter",
-  "subBlocks" : [ "shroomblockglow", "stonerubble", "jungledirt1" ],
+  "subBlocks" : [ "shroomblockglow", "retexrock12", "jungledirt2" ],
   "ores" : "ff_surfacearborealOres",
 
   "parallax" : "/parallax/surface/forest.parallax",
