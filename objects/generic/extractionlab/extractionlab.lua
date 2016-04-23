@@ -196,6 +196,15 @@ local recipes =
 {inputs = { ff_bambooshoot=1 }, outputs = { geneticmaterial=2 }, time = 0.75},
 {inputs = { blooddiamond=1 }, outputs = { quietusore=2 }, time = 0.75},
 -- tiles
+{inputs = { redsand2=50 }, outputs = { tungstenore=2 }, time = 0.80},
+{inputs = { retexdirt=50 }, outputs = { tungstenore=2 }, time = 0.80},
+{inputs = { retexcobblestone=50 }, outputs = { tungstenore=2 }, time = 0.80},
+{inputs = { retexredsandstone=50 }, outputs = { tungstenore=2 }, time = 0.80},
+{inputs = { redsand2=50 }, outputs = { tungstenore=2 }, time = 0.80},
+{inputs = { redsand2=50 }, outputs = { tungstenore=2 }, time = 0.80},
+{inputs = { redsand2=50 }, outputs = { tungstenore=2 }, time = 0.80},
+{inputs = { redsand2=50 }, outputs = { tungstenore=2 }, time = 0.80},
+
 
 {inputs = { peglacigiantekblock=50 }, outputs = { durasteelore=1 }, time = 0.95},
 {inputs = { peglacihexpane=50 }, outputs = { ff_plastic=2 }, time = 0.95},

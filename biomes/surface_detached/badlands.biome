@@ -61,7 +61,7 @@
   "hueShiftOptions" : [-90, -45, 0, 45, 90],
 
   "mainBlock" : "retexsand2",
-  "subBlocks" : [ "drydirt", "sandstone01" ],
+  "subBlocks" : [ "drydirt", "retexsandstone01" ],
   "ores" : "surfaceOres",
 
   "surfacePlaceables" : {

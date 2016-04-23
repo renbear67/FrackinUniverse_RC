@@ -137,7 +137,7 @@
     }
   ],
 
-  "mainBlock" : "retexredsand",
+  "mainBlock" : "redsand2",
   "subBlocks" : [ "retexredsandstone", "retexrock17", "calichestone" ],
   "ores" : "surfaceOres",
 

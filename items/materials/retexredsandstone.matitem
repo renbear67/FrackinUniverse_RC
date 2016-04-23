@@ -2,10 +2,10 @@
   "itemName" : "retexredsandstone",
   "price" : 0,
   "rarity" : "Common",
-  "inventoryIcon" : "redsandstone.png",
-  "description" : "Monumental!",
-  "shortdescription" : "Red Sandstone",
-  "glitchdescription" : "Statement. A red variant of sandstone.",
+  "inventoryIcon" : "retexredsandstone.png",
+  "description" : "Tough sandstone.",
+  "shortdescription" : "Red Sandstone Block",
+  "glitchdescription" : "Statement. Sandstone.",
   "florandescription" : "Sssandstone.",
   "materialId" : 6618
 }
