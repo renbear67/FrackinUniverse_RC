@@ -209,6 +209,8 @@ local recipes =
 {inputs = { peglacipykreteblock=50 }, outputs = { tungstenore=2 }, time = 0.6},
 {inputs = { peglacipykretedecor=50 }, outputs = { tungstenore=2 }, time = 0.6},
 {inputs = { fumetalblockmaterial=50 }, outputs = { tungstenore=2 }, time = 0.6},
+{inputs = { violiumcrystal=50 }, outputs = { ff_silicon=2 }, time = 0.1},
+{inputs = { aegisaltcrystal=50 }, outputs = { ff_silicon=1 }, time = 0.75},
 {inputs = { springvines=50 }, outputs = { geneticmaterial=3 }, time = 0.1},
 {inputs = { andesite=50 }, outputs = { rawminerals=2 }, time = 0.1},
 {inputs = { jellyblock=50 }, outputs = { endomorphicjelly=2 }, time = 0.1},

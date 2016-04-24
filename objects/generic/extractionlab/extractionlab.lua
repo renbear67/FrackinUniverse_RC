@@ -213,6 +213,8 @@ local recipes =
 {inputs = { retexironblock=50 }, outputs = { tungstenore=2 }, time = 0.80},
 {inputs = { retexironpipe=50 }, outputs = { tungstenore=2 }, time = 0.80},
 {inputs = { fumetalblockmaterial=50 }, outputs = { tungstenore=1 }, time = 0.95},
+{inputs = { violiumcrystal=50 }, outputs = { ff_silicon=1 }, time = 0.75},
+{inputs = { aegisaltcrystal=50 }, outputs = { ff_silicon=1 }, time = 0.75},
 {inputs = { springvines=50 }, outputs = { geneticmaterial=1 }, time = 0.75},
 {inputs = { redhotcobblestone=50 }, outputs = { corefragmentore=1 }, time = 0.75},
 {inputs = { andesite=50 }, outputs = { rawminerals=1 }, time = 0.75},

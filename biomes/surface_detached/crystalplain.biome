@@ -29,7 +29,7 @@
       }
     ]
   },
-    "mainBlock" : "purplecrystal",
+    "mainBlock" : "violiumcrystal",
     "subBlocks" : [ "magmarock", "obsidian" ],
     "ores" : "ff_crystalmoonOres",
 
