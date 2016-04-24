@@ -2733,7 +2733,7 @@
   "path" : "/regionTypes/penumbra",
   "value" : 
   {
-      "caveLiquid" : [ "water", "swampwater", "blacktar", "alienjuice", "darkwater", "slimeliquid" ],
+      "caveLiquid" : [ "swampwater", "blacktar", "alienjuice", "darkwater", "liquidaether" ],
       "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [ "remixedSurface", "remixedMildSurface", "remixedStepsSurface", "remixedMountainsSurface" ],
       "fgCaveSelector" : [ "normalCaves" ],
@@ -2880,7 +2880,7 @@
   "path" : "/regionTypes/lightless",
   "value" : 
   {
-      "caveLiquid" : [ "blacktar", "pus", "bloodliquid", "darkwater", "slimeliquid" ],
+      "caveLiquid" : [ "blacktar", "pus", "bloodliquid", "darkwater", "liquidaether" ],
       "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [ "remixedSurface", "remixedMildSurface", "remixedSwampySurface", "remixedCanyonsSurface", "remixedMountainsSurface"  ],
       "fgCaveSelector" : [ "surfaceCaves", "denseCaves" ],
@@ -2895,7 +2895,7 @@
   "path" : "/regionTypes/alienforest",
   "value" : 
   {
-      "caveLiquid" : [ "water", "alienjuice", "gravrain", "fuironliquid", "crystalliquid" ],
+      "caveLiquid" : [ "water", "alienjuice", "gravrain", "liquidaether", "crystalliquid" ],
       "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [  "lowHillsSurface", "flatsSurface", "medHillsSurface", "remixedMountainsSurface"  ],
       "fgCaveSelector" : [ "surfaceCaves" ],
@@ -2951,7 +2951,7 @@
   "path" : "/regionTypes/blisterbushfield",
   "value" : 
   {
-      "caveLiquid" : [ "alienjuice", "healingliquid", "pus", "slimeliquid" ],
+      "caveLiquid" : [ "alienjuice", "liquidaether", "pus", "slimeliquid" ],
       "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [ "flatsSurface", "lowHillsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
@@ -2965,7 +2965,7 @@
   "path" : "/regionTypes/bloodstonefield",
   "value" : 
   {
-      "caveLiquid" : [ "bloodliquid", "poison", "shadowgas" ],
+      "caveLiquid" : [ "bloodliquid", "liquidaether", "shadowgas" ],
       "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [ "mixedSurface", "lowHillsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
@@ -3019,7 +3019,7 @@
   "path" : "/regionTypes/corruptedforest",
   "value" : 
   {
-      "caveLiquid" : [ "bio_ooze", "pus", "darkwater", "shadowgas" ],
+      "caveLiquid" : [ "bio_ooze", "pus", "darkwater", "liquidaether" ],
       "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [ "lowHillsSurface", "mixedSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
@@ -3033,7 +3033,7 @@
   "path" : "/regionTypes/crystalplain",
   "value" : 
   {
-      "caveLiquid" : [ "organicsoup", "lava", "elderfluid" ],
+      "caveLiquid" : [ "organicsoup", "lava", "elderfluid", "liquidaether" ],
       "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [ "remixedSurface", "remixedCanyonsSurface", "remixedSpikesSurface", "remixedSpikesSurface2" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
@@ -3097,7 +3097,7 @@
   "path" : "/regionTypes/elder",
   "value" : 
   {
-      "caveLiquid" : [ "elderfluid", "bio_ooze", "darkwater", "slimeliquid" ],
+      "caveLiquid" : [ "elderfluid", "bio_ooze", "darkwater", "liquidaether" ],
       "blockSelector" : [ "remixedMildSurface", "remixedSurface", "remixedMountainsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
@@ -3319,7 +3319,7 @@
   "path" : "/regionTypes/irradiatedwaste",
   "value" : 
   {
-      "caveLiquid" : [ "water", "poison", "darkwater", "slimeliquid" ],
+      "caveLiquid" : [ "liquidaether", "poison", "darkwater", "slimeliquid" ],
       "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [  "remixedSpikesSurface", "remixedMountainsSurface", "remixedCanyonsSurface", "remixedMildCanyonsSurface", "remixedSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
@@ -4511,7 +4511,7 @@
   "path" : "/regionTypes/penumbraunderground",
   "value" : 
   {
-      "caveLiquid" : [ "water", "blacktar", "organicsoup", "bio_ooze", "alienjuice" ],
+      "caveLiquid" : [ "liquidaether", "blacktar", "organicsoup", "bio_ooze", "alienjuice" ],
       "caveLiquidChanceRange" : [5, 25],
 
       "biome" : [
@@ -4641,7 +4641,7 @@
   "path" : "/regionTypes/lightlessunderground",
   "value" : 
   {
-      "caveLiquid" : [ "blacktar", "tarliquid", "darkwater" ],
+      "caveLiquid" : [ "blacktar", "tarliquid", "darkwater", "liquidaether" ],
       "caveLiquidChanceRange" : [5, 25],
 
       "biome" : [

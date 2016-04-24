@@ -134,7 +134,7 @@
   
   
     "mainBlock" : "slimedirt",
-    "subBlocks" : [ "slime", "retexrock12", "slime2" ],
+    "subBlocks" : [ "slime", "jellystone", "jellyblock" ],
     "ores" : "ff_surfaceslimeOres",
 
   "parallax" : "/parallax/surface/slimeworld.parallax",

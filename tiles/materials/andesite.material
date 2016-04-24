@@ -1,0 +1,21 @@
+{
+	"materialId" : 6629,
+	"materialName" : "andesite",
+	"particleColor" : [55, 55, 55, 255],
+	"itemDrop" : "andesite",
+	"description" : "a rough volcanic stone",
+	"shortdescription" : "Andesite",
+	"footstepSound" : "/sfx/blocks/footstep_stone.ogg",
+	"health" : 8.5,
+	"category": "materials",
+
+	"renderTemplate" : "/tiles/classicmaterialtemplate.config",
+	"renderParameters" : {
+		"texture" : "andesite.png",
+		"variants" : 5,
+		"lightTransparent" : false,
+		"multiColored" : false,
+		"occludesBelow" : true,
+		"zLevel" : 0
+	}
+}

@@ -54,7 +54,7 @@
     }
   },
     "mainBlock" : "iceblock3",
-    "subBlocks" : [ "magmarock", "snow", "iceblock4", "protorock" ],
+    "subBlocks" : [ "magmarock", "redhotcobblestone", "iceblock4", "protorock" ],
     "ores" : "depth3",
 
 

@@ -2,8 +2,8 @@
   "name" : "reddesert",
   "friendlyName" : "Red Waste",
   "hueShiftOptions" : [-40, -25, 0, 25, 40],
-    "mainBlock" : "redsand",
-    "subBlocks" : [ "wastestone" ],
+    "mainBlock" : "redsand2",
+    "subBlocks" : [ "wastestone", "retexredsandstone" ],
     "ores" : "surfaceOres",
 
   "spawnProfile" : {
