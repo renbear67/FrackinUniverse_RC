@@ -199,7 +199,7 @@ local recipes =
 {inputs = { retexdirt=50 }, outputs = { nutrientpaste=2 }, time = 0.45},
 {inputs = { retexcobblestone=50 }, outputs = { rawminerals=2 }, time = 0.45},
 {inputs = { retexredsandstone=50 }, outputs = { phosphorus=1 }, time = 0.45},
-{inputs = { retexaetherdust=50 }, outputs = { saltpeter=2 }, time = 0.70},
+{inputs = { retexaetherdust=50 }, outputs = { mineralsample=2 }, time = 0.70},
 {inputs = { retexsandstone=50 }, outputs = { phosphorus=1 }, time = 0.45},
 {inputs = { peglacigiantekblock=50 }, outputs = { durasteelore=1 }, time = 0.7},
 {inputs = { peglacihexpane=50 }, outputs = { ff_plastic=3 }, time = 0.7},
