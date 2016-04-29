@@ -3,5 +3,10 @@
   "op": "add",
   "path": "/wetToDryMods/hydrotilled",
   "value": "hydrotilled"
+  },
+  {
+  "op": "add",
+  "path": "/wetToDryMods/avaliaeroponics",
+  "value": "avaliaeroponics"
   }
 ]

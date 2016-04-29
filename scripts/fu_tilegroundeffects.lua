@@ -18,6 +18,7 @@ function tileMaterials()
   self.matCheck["redsand"] = {{"jungleslow"},1,1,1,14,101,0.5,1.9}
   self.matCheck["jungledirt2"] = {{"jungleslow"},1,1,1,14,100,0,1}
   self.matCheck["swampdirtff"] = {{"jungleslow"},1,1,1,14,100,0,1}
+  self.matCheck["swampdirtff"] = {{"springvines"},1,1,1,14,100,0,1}
   self.matCheck["frozenwater"] = {{"iceslip"},1,1,1,14,100,0,1}
   self.matCheck["ice"] = {{"iceslip"},1,1,1,14,100,0,1}
   self.matCheck["iceblock1"] = {{"iceslip"},1,1,1,14,100,0,1}
@@ -28,8 +29,11 @@ function tileMaterials()
   self.matCheck["slush"] = {{"slushslow"},1,1,1,14,100,0,1}
   self.matCheck["slime"] = {{"slimestick"},1,1,1,14,101,1,1.75}
   self.matCheck["slime2"] = {{"slimestick"},1,1,1,14,101,1,1.75}
+  self.matCheck["jellyblock"] = {{"slimestick"},1,1,1,14,101,1,1.75}
   self.matCheck["magmatile"] = {{"burning"},1,1,1,14,100,0,1}
   self.matCheck["magmatile2"] = {{"burning"},1,1,1,14,100,0,1}
+  self.matCheck["redhotcobblestone"] = {{"burning"},1,1,1,14,100,0,1}
+  self.matCheck["jellystone"] = {{"jumpboost15"},1,1,1,14,100,0,1}
   self.matCheck["blackslime"] = {{"slimestick","weakpoison"},1,1,1,14,101,1.5,1.65}
   self.matCheck["spidersilkblock"] = {{"webstick"},1,1,1,14,101,0,1.32}
   self.matCheck["irradiatedtile"] = {{"radiationburn"},1,1,1,14,100,0,1}

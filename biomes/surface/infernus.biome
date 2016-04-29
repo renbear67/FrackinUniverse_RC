@@ -156,7 +156,7 @@
   
   
     "mainBlock" : "magmatile4",
-    "subBlocks" : [ "magmatile3", "rock14", "magmatile1", "magmatile2" ],
+    "subBlocks" : [ "magmatile3", "rock14", "andesite", "magmatile1" ],
     "ores" : "ff_surfacevolcanicOres",
     "parallax" : "/parallax/surface/infernus.parallax",
 

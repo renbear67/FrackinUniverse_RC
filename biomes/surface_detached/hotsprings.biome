@@ -51,8 +51,8 @@
 
   "hueShiftOptions" : [0],
 
-  "mainBlock" : "cobblestone",
-  "subBlocks" : [ "gravel", "rock03", "wetdirt", "mud", "slush" ],
+  "mainBlock" : "retexcobblestone",
+  "subBlocks" : [ "gravel", "rock03", "wetdirt", "mud" ],
   "ores" : "surfaceOres",
 
   "surfacePlaceables" : {

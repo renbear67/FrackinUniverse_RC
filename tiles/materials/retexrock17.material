@@ -1,0 +1,22 @@
+{
+  "materialId" : 6622,
+  "materialName" : "retexrock17",
+  "particleColor" : [104, 108, 107, 255],
+  "itemDrop" : "gritstonematerial",
+  "description" : "Rough, unrefined stone.",
+  "shortdescription" : "Grit Stone",
+  "glitchDescription" : "Statement. Rock.",
+  "floranDescription" : "Rocksss.",
+  "health" : 12,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/FullTemplate.config",
+  "renderParameters" : {
+    "texture" : "retexrock17.png",
+    "variants" : 3,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 1600
+  }
+}

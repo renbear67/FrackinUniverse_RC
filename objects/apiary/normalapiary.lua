@@ -634,6 +634,16 @@ function workingBees()
 				beeSting()
                 return true
 			end
+			if equippedBees("metal") then					--METAL (FrackinUniverse addition)
+			    trySpawnHoney(0.80, "red")
+				trySpawnBee(  0.33, "metal")
+				trySpawnDrone(0.33, "metal")
+				trySpawnItems(0.33, "tungstenore")
+				expellQueens("metal")
+				beeNocturnalDiurnal = "diurnal"	
+				beeSting()
+                return true
+			end			
 			if equippedBees("morbid") then					--Morbid
                 spawnHoneyDronesBees("morbid")
 				trySpawnItems(0.60, "ghostlywax")
@@ -735,7 +745,8 @@ function breedingBees()
 					["flowerexceptional"] = "mythical",	["exceptionalflower"] = "mythical",
 					["minernocturnal"] = "moon",	["nocturnalminer"] = "moon",
 					["moonsolarium"] = "sun",	["solariummoon"] = "sun",
-					["sunmythical"] = "godly",	["mythicalsun"] = "godly"
+					["sunmythical"] = "godly",	["mythicalsun"] = "godly",
+					["metalsun"] = "mythical",
 				}
 	
 	ammendBeeName()   ----removes queen and drone from the item names. equippedBees() also does this, but this function is a simple version.

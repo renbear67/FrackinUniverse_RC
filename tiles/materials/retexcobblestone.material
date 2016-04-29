@@ -1,0 +1,23 @@
+{
+  "materialId" : 6614,
+  "materialName" : "retexcobblestone",
+  "particleColor" : [149, 149, 149, 255],
+  "itemDrop" : "retexcobblestone",
+  "shortdescription" : "Cobblestone",
+  "description" : "Hard stones, smooth to the touch.",
+  "glitchDescription" : "Statement. Cobblestones.",
+  "floranDescription" : "Cobblessstone.",
+  "footstepSound" : "/sfx/blocks/footstep_stone3.ogg",
+  "health" : 4,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/FullTemplate.config",
+  "renderParameters" : {
+    "texture" : "retexcobblestone.png",
+    "variants" : 3,
+    "lightTransparent" : false,
+    "multiColored" : false,
+    "occludesBelow" : true,
+    "zLevel" : 1640
+  }
+}

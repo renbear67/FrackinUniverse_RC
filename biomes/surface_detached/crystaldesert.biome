@@ -30,7 +30,7 @@
     ]
   },
     "mainBlock" : "crystalsand",
-    "subBlocks" : [ "purplecrystal", "supermatter" ],
+    "subBlocks" : [ "violiumcrystal", "wastestone" ],
     "ores" : "ff_crystalmoonOres",
 
   "surfacePlaceables" : {

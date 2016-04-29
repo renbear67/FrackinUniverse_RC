@@ -49,7 +49,7 @@
   },
 
     "mainBlock" : "magmatile4",
-    "subBlocks" : [ "obsidian", "blaststone", "magmatile1", "magmatile2", "magmatile3" ],
+    "subBlocks" : [ "obsidian", "magmatile2", "andesite", "magmatile3" ],
     "ores" : "ff_deepsurfacevolcanicOres",
 
   "parallax" : "/parallax/underground/infernusunderground.parallax",

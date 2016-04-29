@@ -33,7 +33,7 @@
 
 
     "mainBlock" : "plantmatter",
-    "subBlocks" : [ "dirt", "clay", "mud" ],
+    "subBlocks" : [ "retexdirt", "clay", "mud" ],
     "ores" : "ff_deepsurfacearborealOres",
 
   "parallax" : "/parallax/underground/arborealunderground.parallax",

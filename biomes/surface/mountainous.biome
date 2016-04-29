@@ -169,8 +169,8 @@
 
   ],
 
-  "mainBlock" : "cobblestone",
-  "subBlocks" : [ "dirt", "gravel", "rock03" ],
+  "mainBlock" : "retexcobblestone",
+  "subBlocks" : [ "retexdirt", "gravel", "rock03" ],
   "ores" : "ff_mountainousOres",
 
   "parallax" : "/parallax/surface/mountainous.parallax",

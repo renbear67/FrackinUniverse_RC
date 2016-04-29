@@ -3,7 +3,7 @@
   "friendlyName" : "Caniferous Forest",
   "hueShiftOptions" : [-40, -25, 0, 25, 40],
 
-    "mainBlock" : "dirt",
+    "mainBlock" : "retexdirt",
     "subBlocks" : [ "cobblestone" ],
     "ores" : "surfaceOres",
 

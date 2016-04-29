@@ -14,7 +14,7 @@
   "category" : "crafting",
   "price" : 450,
 
-  "learnBlueprintsOnPickup" : [ "clonelab" ],
+  "learnBlueprintsOnPickup" : [ "clonelab", "avaliaeroponics" ],
 
   "lightColor" : [60, 60, 100],
   "soundEffect" : "/sfx/objects/fridge_hum.ogg",

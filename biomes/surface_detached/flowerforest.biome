@@ -49,7 +49,7 @@
   },
 
     "mainBlock" : "jungledirt1",
-    "subBlocks" : [ "wetdirt", "dirt" ],
+    "subBlocks" : [ "wetdirt", "springvines" ],
     "ores" : "surfaceOres",
 
   "surfacePlaceables" : {

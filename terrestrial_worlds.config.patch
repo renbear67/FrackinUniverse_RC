@@ -167,37 +167,37 @@
        "layers" : {
         "surface" : {
           "primaryRegion" : [ "midnight", "chromatic", "arborealdark", "icewastedark", "sulphuricdark", "eden", "tarball", "arboreal2", "desert_wastes","mountainous", "tidewater", "arboreal", "atropus", "bloodstone", "bog", "crystalmoon", "icemoon", "icewaste", "infernus", "irradiated", "lightless", "metallicmoon", "nitrogensea", "penumbra", "protoworld", "sulphuric", "thickjungle", "urbanwasteland", "alien", "barren", "desert", "forest", "jungle", "savannah", "scorched", "snow", "tundra", "volcanic" ],
-          "secondaryRegion" : [ "magicsnowland", "eden", "fieldofbracken", "supermatterzone", "aliendesert", "goreforest", "cactiplace", "metalworks", "metalworks2", "crystalswamp", "ffhive", "corruptmoon", "birchforest", "alienforest", "sulphuricmagma", "cellfield", "reddesert", "finesand", "cloudforest", "hauntedforest", "hauntedgraveyard", "rainbowforest", "swamp", "mountainous", "tidewater", "estuary", "breakwater", "corrupt", "spring", "mushroom", "oasis", "tar", "alpine", "bioluminescence", "colourful", "bones", "giantflowers", "eyepatch", "ice", "rust", "crystalline", "alien", "arctic", "barren", "desert", "forest", "steamspring", "prism", "hive", "jungle", "magma", "ocean", "savannah", "scorched", "snow", "toxic", "tundra", "volcanic", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "calichefield", "bloodstonefield", "corruptedforest", "crystalplain", "deadwood", "desertoasis", "dryriverbed", "elder", "energyorbforest", "flowerforest", "hellfirefield", "hellhive", "icefire", "irradiatedwaste", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "pitchfield", "primevalforest", "snowyforest", "sulphuricplain", "taiga" ],
+          "secondaryRegion" : [ "magicsnowland", "eden", "fieldofbracken", "supermatterzone", "aliendesert", "goreforest", "cactiplace", "metalworks", "metalhive", "metalworks2", "metalworks3", "metalworks4", "metaljungle", "crystalswamp", "ffhive", "corruptmoon", "birchforest", "alienforest", "sulphuricmagma", "cellfield", "reddesert", "finesand", "cloudforest", "hauntedforest", "hauntedgraveyard", "rainbowforest", "swamp", "mountainous", "tidewater", "estuary", "breakwater", "corrupt", "spring", "mushroom", "oasis", "tar", "alpine", "bioluminescence", "colourful", "bones", "giantflowers", "eyepatch", "ice", "rust", "crystalline", "alien", "arctic", "barren", "desert", "forest", "steamspring", "prism", "hive", "jungle", "magma", "ocean", "savannah", "scorched", "snow", "toxic", "tundra", "volcanic", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "calichefield", "bloodstonefield", "corruptedforest", "crystalplain", "deadwood", "desertoasis", "dryriverbed", "elder", "energyorbforest", "flowerforest", "hellfirefield", "hellhive", "icefire", "irradiatedwaste", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "pitchfield", "primevalforest", "snowyforest", "sulphuricplain", "taiga" ],
           //"dungeonCountRange" : [0, 2],
           "dungeons" : [ "fuwreck", "wreck", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "avianairship", "aviantemple","humanbunker", "floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison", "naturalcave" ]
         },
         "subsurface" : {
           "primaryRegion" : [ "moonshadowunderground", "tarball", "arboreal2", "desert_wastes","ffpoopit", "ffcrystalrealm", "colorfulcave", "zen", "shadow", "crystalcave", "abandonedmines", "hive", "corruptmoonunderground", "moondesertunderground", "moonstoneunderground", "moonvolcanicunderground", "moontoxicunderground", "rainbowforest", "ffspidernest", "mountainous", "ffsupermatter", "deepseavent", "tidewater", "tidewaterfloor", "tidewaterunderground", "lightlessshadowsea", "metallicmoonshadowsea", "icemoonheliumsea", "metallicmoonheliumsea", "bloodstonesea", "sulphuricoceanfloor", "magmaoceanfloor", "arcticoceanfloor", "toxicoceanfloor", "oceanfloor", "nitrogenseafloor", "desertsubsurface", "barrenunderground", "shallowunderground", "arborealunderground", "atropusunderground", "bloodstoneunderground", "bogunderground", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "irradiatedunderground", "lightlessunderground", "metallicunderground", "penumbraunderground", "slimeworldunderground", "sulphuricunderground", "thickjungleunderground", "arboreal", "atropus", "bloodstone", "bog", "crystalmoon", "icemoon", "icewaste", "infernus", "irradiated", "lightless", "metallicmoon", "nitrogensea", "penumbra", "protoworld", "sulphuric", "thickjungle", "urbanwasteland", "alien", "barren", "desert", "forest", "jungle", "magma", "savannah", "scorched", "snow", "tundra", "volcanic", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "calichefield", "bloodstonefield", "corruptedforest", "crystalplain", "deadwood", "desertoasis", "dryriverbed", "elder", "energyorbforest", "flowerforest", "hellfirefield", "hellhive", "icefire", "irradiatedwaste", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "pitchfield", "primevalforest", "snowyforest", "sulphuricplain", "taiga"  ],
-	  "secondaryRegion" : [ "moonshadowunderground", "metalworksunderground1", "metalworksunderground2", "ffpoopit", "ffcrystalrealm", "colorfulcave", "zen", "shadow", "crystalcave", "abandonedmines", "hive", "moondesertunderground", "moonstoneunderground", "moonvolcanicunderground", "moontoxicunderground", "rainbowforest", "ffspidernest", "mountainous", "ffsupermatter", "deepseavent", "tidewater", "tidewaterfloor", "tidewaterunderground", "lightlessshadowsea", "metallicmoonshadowsea", "icemoonheliumsea", "metallicmoonheliumsea", "bloodstonesea", "sulphuricoceanfloor", "magmaoceanfloor", "arcticoceanfloor", "toxicoceanfloor", "oceanfloor", "nitrogenseafloor", "desertsubsurface", "barrenunderground", "shallowunderground", "arborealunderground", "atropusunderground", "bloodstoneunderground", "bogunderground", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "irradiatedunderground", "lightlessunderground", "metallicunderground", "penumbraunderground", "slimeworldunderground", "sulphuricunderground", "thickjungleunderground", "arboreal", "atropus", "bloodstone", "bog", "crystalmoon", "icemoon", "icewaste", "infernus", "irradiated", "lightless", "metallicmoon", "nitrogensea", "penumbra", "protoworld", "sulphuric", "thickjungle", "urbanwasteland", "alien", "barren", "desert", "forest", "garden", "jungle", "magma", "savannah", "scorched", "snow", "tundra", "volcanic", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "calichefield", "bloodstonefield", "corruptedforest", "crystalplain", "deadwood", "desertoasis", "dryriverbed", "elder", "energyorbforest", "flowerforest", "hellfirefield", "hellhive", "icefire", "irradiatedwaste", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "pitchfield", "primevalforest", "snowyforest", "sulphuricplain", "taiga"  ]        
+	  "secondaryRegion" : [ "moonshadowunderground", "metalworksunderground1", "metalworksunderground2", "metalworksunderground3", "metalworksunderground4", "ffpoopit", "ffcrystalrealm", "colorfulcave", "zen", "shadow", "crystalcave", "abandonedmines", "hive", "moondesertunderground", "moonstoneunderground", "moonvolcanicunderground", "moontoxicunderground", "rainbowforest", "ffspidernest", "mountainous", "ffsupermatter", "deepseavent", "tidewater", "tidewaterfloor", "tidewaterunderground", "lightlessshadowsea", "metallicmoonshadowsea", "icemoonheliumsea", "metallicmoonheliumsea", "bloodstonesea", "sulphuricoceanfloor", "magmaoceanfloor", "arcticoceanfloor", "toxicoceanfloor", "oceanfloor", "nitrogenseafloor", "desertsubsurface", "barrenunderground", "shallowunderground", "arborealunderground", "atropusunderground", "bloodstoneunderground", "bogunderground", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "irradiatedunderground", "lightlessunderground", "metallicunderground", "penumbraunderground", "slimeworldunderground", "sulphuricunderground", "thickjungleunderground", "arboreal", "atropus", "bloodstone", "bog", "crystalmoon", "icemoon", "icewaste", "infernus", "irradiated", "lightless", "metallicmoon", "nitrogensea", "penumbra", "protoworld", "sulphuric", "thickjungle", "urbanwasteland", "alien", "barren", "desert", "forest", "garden", "jungle", "magma", "savannah", "scorched", "snow", "tundra", "volcanic", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "calichefield", "bloodstonefield", "corruptedforest", "crystalplain", "deadwood", "desertoasis", "dryriverbed", "elder", "energyorbforest", "flowerforest", "hellfirefield", "hellhive", "icefire", "irradiatedwaste", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "pitchfield", "primevalforest", "snowyforest", "sulphuricplain", "taiga"  ]        
         },
         "underground1" : {
           "primaryRegion" : [ "tarball", "arboreal2", "desert_wastes","ffpoopit", "ffcrystalrealm", "colorfulcave", "zen", "shadow", "crystalcave", "abandonedmines", "hive", "corruptmoonunderground","moondesertunderground", "moonstoneunderground", "moonvolcanicunderground", "moontoxicunderground", "rainbowforest", "ffspidernest", "ffsupermatter", "deepseavent", "tidewater", "tidewaterfloor", "tidewaterunderground", "fftarunderground","tarunderground", "mushroomunderground", "wildernessunderground", "minivillageunderground", "icecaves", "bonecaves", "stonecaves", "luminouscaves", "fleshcaves", "cellcaves","fffleshcaves", "ffcellcaves", "arborealunderground", "atropusunderground", "bloodstoneunderground", "bogunderground", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "irradiatedunderground", "lightlessunderground", "metallicunderground", "penumbraunderground", "slimeworldunderground", "sulphuricunderground", "thickjungleunderground", "ffcoalmine", "ffcoppermine", "ffcoralcave", "ffcrystalcavern", "fffrostcavern", "ffgoldmine", "ffshadow", "ffvolcanic", "ffzen"],
-	  "secondaryRegion" : [ "metalworksunderground1", "metalworksunderground2", "ffpoopit", "ffcrystalrealm", "colorfulcave", "zen", "shadow", "crystalcave", "abandonedmines", "hive", "moondesertunderground", "moonstoneunderground", "moonvolcanicunderground", "moontoxicunderground", "rainbowforest", "ffspidernest", "mountainous", "ffsupermatter", "deepseavent", "tidewater", "tidewaterfloor", "tidewaterunderground", "lightlessshadowsea", "metallicmoonshadowsea", "icemoonheliumsea", "metallicmoonheliumsea", "bloodstonesea", "sulphuricoceanfloor", "magmaoceanfloor", "arcticoceanfloor", "toxicoceanfloor", "oceanfloor", "nitrogenseafloor", "desertsubsurface", "barrenunderground", "shallowunderground", "arborealunderground", "atropusunderground", "bloodstoneunderground", "bogunderground", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "irradiatedunderground", "lightlessunderground", "metallicunderground", "penumbraunderground", "slimeworldunderground", "sulphuricunderground", "thickjungleunderground", "arboreal", "atropus", "bloodstone", "bog", "crystalmoon", "icemoon", "icewaste", "infernus", "irradiated", "lightless", "metallicmoon", "nitrogensea", "penumbra", "protoworld", "sulphuric", "thickjungle", "urbanwasteland", "alien", "barren", "desert", "forest", "jungle", "magma", "savannah", "scorched", "snow", "tundra", "volcanic", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "calichefield", "bloodstonefield", "corruptedforest", "crystalplain", "deadwood", "desertoasis", "dryriverbed", "elder", "energyorbforest", "flowerforest", "hellfirefield", "hellhive", "icefire", "irradiatedwaste", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "pitchfield", "primevalforest", "snowyforest", "sulphuricplain", "taiga"  ]                
+	  "secondaryRegion" : [ "metalworksunderground1", "metalworksunderground2", "metalworksunderground3", "metalworksunderground4", "ffpoopit", "ffcrystalrealm", "colorfulcave", "zen", "shadow", "crystalcave", "abandonedmines", "hive", "moondesertunderground", "moonstoneunderground", "moonvolcanicunderground", "moontoxicunderground", "rainbowforest", "ffspidernest", "mountainous", "ffsupermatter", "deepseavent", "tidewater", "tidewaterfloor", "tidewaterunderground", "lightlessshadowsea", "metallicmoonshadowsea", "icemoonheliumsea", "metallicmoonheliumsea", "bloodstonesea", "sulphuricoceanfloor", "magmaoceanfloor", "arcticoceanfloor", "toxicoceanfloor", "oceanfloor", "nitrogenseafloor", "desertsubsurface", "barrenunderground", "shallowunderground", "arborealunderground", "atropusunderground", "bloodstoneunderground", "bogunderground", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "irradiatedunderground", "lightlessunderground", "metallicunderground", "penumbraunderground", "slimeworldunderground", "sulphuricunderground", "thickjungleunderground", "arboreal", "atropus", "bloodstone", "bog", "crystalmoon", "icemoon", "icewaste", "infernus", "irradiated", "lightless", "metallicmoon", "nitrogensea", "penumbra", "protoworld", "sulphuric", "thickjungle", "urbanwasteland", "alien", "barren", "desert", "forest", "jungle", "magma", "savannah", "scorched", "snow", "tundra", "volcanic", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "calichefield", "bloodstonefield", "corruptedforest", "crystalplain", "deadwood", "desertoasis", "dryriverbed", "elder", "energyorbforest", "flowerforest", "hellfirefield", "hellhive", "icefire", "irradiatedwaste", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "pitchfield", "primevalforest", "snowyforest", "sulphuricplain", "taiga"  ]                
         },
         "underground2" : {
           "primaryRegion" : [ "tarball", "arboreal2", "desert_wastes","ffpoopit", "ffcrystalrealm", "colorfulcave", "zen", "shadow", "crystalcave", "abandonedmines", "hive", "corruptmoonunderground","moondesertunderground", "moonstoneunderground", "moonvolcanicunderground", "moontoxicunderground", "rainbowforest", "ffspidernest", "ffsupermatter", "deepseavent", "tidewater", "tidewaterfloor", "tidewaterunderground", "fftarunderground","tarunderground", "mushroomunderground", "wildernessunderground", "minivillageunderground", "icecaves", "bonecaves", "stonecaves", "luminouscaves", "fleshcaves", "cellcaves", "fffleshcaves", "ffcellcaves","arborealunderground", "atropusunderground", "bloodstoneunderground", "bogunderground", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "irradiatedunderground", "lightlessunderground", "metallicunderground", "penumbraunderground", "slimeworldunderground", "sulphuricunderground", "thickjungleunderground", "ffcoalmine", "ffcoppermine", "ffcoralcave", "ffcrystalcavern", "fffrostcavern", "ffgoldmine", "ffshadow", "ffvolcanic", "ffzen" ],
-	  "secondaryRegion" : [ "metalworksunderground1", "metalworksunderground2", "ffpoopit", "ffcrystalrealm", "colorfulcave", "zen", "shadow", "crystalcave", "abandonedmines", "hive", "moondesertunderground", "moonstoneunderground", "moonvolcanicunderground", "moontoxicunderground", "rainbowforest", "ffspidernest", "mountainous", "ffsupermatter", "deepseavent", "tidewater", "tidewaterfloor", "tidewaterunderground", "lightlessshadowsea", "metallicmoonshadowsea", "icemoonheliumsea", "metallicmoonheliumsea", "bloodstonesea", "sulphuricoceanfloor", "magmaoceanfloor", "arcticoceanfloor", "toxicoceanfloor", "oceanfloor", "nitrogenseafloor", "desertsubsurface", "barrenunderground", "shallowunderground", "arborealunderground", "atropusunderground", "bloodstoneunderground", "bogunderground", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "irradiatedunderground", "lightlessunderground", "metallicunderground", "penumbraunderground", "slimeworldunderground", "sulphuricunderground", "thickjungleunderground", "arboreal", "atropus", "bloodstone", "bog", "crystalmoon", "icemoon", "icewaste", "infernus", "irradiated", "lightless", "metallicmoon", "nitrogensea", "penumbra", "protoworld", "sulphuric", "thickjungle", "urbanwasteland", "alien", "barren", "desert", "forest", "jungle", "magma", "savannah", "scorched", "snow", "tundra", "volcanic", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "calichefield", "bloodstonefield", "corruptedforest", "crystalplain", "deadwood", "desertoasis", "dryriverbed", "elder", "energyorbforest", "flowerforest", "hellfirefield", "hellhive", "icefire", "irradiatedwaste", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "pitchfield", "primevalforest", "snowyforest", "sulphuricplain", "taiga"  ]                  
+	  "secondaryRegion" : [ "metalworksunderground1", "metalworksunderground2", "metalworksunderground3", "metalworksunderground4", "ffpoopit", "ffcrystalrealm", "colorfulcave", "zen", "shadow", "crystalcave", "abandonedmines", "hive", "moondesertunderground", "moonstoneunderground", "moonvolcanicunderground", "moontoxicunderground", "rainbowforest", "ffspidernest", "mountainous", "ffsupermatter", "deepseavent", "tidewater", "tidewaterfloor", "tidewaterunderground", "lightlessshadowsea", "metallicmoonshadowsea", "icemoonheliumsea", "metallicmoonheliumsea", "bloodstonesea", "sulphuricoceanfloor", "magmaoceanfloor", "arcticoceanfloor", "toxicoceanfloor", "oceanfloor", "nitrogenseafloor", "desertsubsurface", "barrenunderground", "shallowunderground", "arborealunderground", "atropusunderground", "bloodstoneunderground", "bogunderground", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "irradiatedunderground", "lightlessunderground", "metallicunderground", "penumbraunderground", "slimeworldunderground", "sulphuricunderground", "thickjungleunderground", "arboreal", "atropus", "bloodstone", "bog", "crystalmoon", "icemoon", "icewaste", "infernus", "irradiated", "lightless", "metallicmoon", "nitrogensea", "penumbra", "protoworld", "sulphuric", "thickjungle", "urbanwasteland", "alien", "barren", "desert", "forest", "jungle", "magma", "savannah", "scorched", "snow", "tundra", "volcanic", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "calichefield", "bloodstonefield", "corruptedforest", "crystalplain", "deadwood", "desertoasis", "dryriverbed", "elder", "energyorbforest", "flowerforest", "hellfirefield", "hellhive", "icefire", "irradiatedwaste", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "pitchfield", "primevalforest", "snowyforest", "sulphuricplain", "taiga"  ]                  
         },
         "underground3" : {
           "primaryRegion" : [ "tarball", "arboreal2", "desert_wastes","ffpoopit", "ffcrystalrealm", "colorfulcave", "zen", "shadow", "crystalcave", "abandonedmines", "hive", "corruptmoonunderground","moondesertunderground", "moonstoneunderground", "moonvolcanicunderground", "moontoxicunderground", "rainbowforest", "ffspidernest", "ffsupermatter", "deepseavent", "tidewater", "tidewaterfloor", "tidewaterunderground", "fftarunderground","tarunderground", "mushroomunderground", "wildernessunderground", "minivillageunderground", "icecaves", "bonecaves", "stonecaves", "luminouscaves", "fleshcaves", "cellcaves", "fffleshcaves", "ffcellcaves","arborealunderground", "atropusunderground", "bloodstoneunderground", "bogunderground", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "irradiatedunderground", "lightlessunderground", "metallicunderground", "penumbraunderground", "slimeworldunderground", "sulphuricunderground", "thickjungleunderground", "ffcoalmine", "ffcoppermine", "ffcoralcave", "ffcrystalcavern", "fffrostcavern", "ffgoldmine", "ffshadow", "ffvolcanic", "ffzen" ],
-	  "secondaryRegion" : [ "metalworksunderground1", "metalworksunderground2", "ffpoopit", "ffcrystalrealm", "colorfulcave", "zen", "shadow", "crystalcave", "abandonedmines", "hive", "moondesertunderground", "moonstoneunderground", "moonvolcanicunderground", "moontoxicunderground", "rainbowforest", "ffspidernest", "mountainous", "ffsupermatter", "deepseavent", "tidewater", "tidewaterfloor", "tidewaterunderground", "lightlessshadowsea", "metallicmoonshadowsea", "icemoonheliumsea", "metallicmoonheliumsea", "bloodstonesea", "sulphuricoceanfloor", "magmaoceanfloor", "arcticoceanfloor", "toxicoceanfloor", "oceanfloor", "nitrogenseafloor", "desertsubsurface", "barrenunderground", "shallowunderground", "arborealunderground", "atropusunderground", "bloodstoneunderground", "bogunderground", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "irradiatedunderground", "lightlessunderground", "metallicunderground", "penumbraunderground", "slimeworldunderground", "sulphuricunderground", "thickjungleunderground", "arboreal", "atropus", "bloodstone", "bog", "crystalmoon", "icemoon", "icewaste", "infernus", "irradiated", "lightless", "metallicmoon", "nitrogensea", "penumbra", "protoworld", "sulphuric", "thickjungle", "urbanwasteland", "alien", "barren", "desert", "forest", "jungle", "magma", "savannah", "scorched", "snow", "tundra", "volcanic", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "calichefield", "bloodstonefield", "corruptedforest", "crystalplain", "deadwood", "desertoasis", "dryriverbed", "elder", "energyorbforest", "flowerforest", "hellfirefield", "hellhive", "icefire", "irradiatedwaste", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "pitchfield", "primevalforest", "snowyforest", "sulphuricplain", "taiga"  ]        
+	  "secondaryRegion" : [ "metalworksunderground1", "metalworksunderground2", "metalworksunderground3", "metalworksunderground4", "ffpoopit", "ffcrystalrealm", "colorfulcave", "zen", "shadow", "crystalcave", "abandonedmines", "hive", "moondesertunderground", "moonstoneunderground", "moonvolcanicunderground", "moontoxicunderground", "rainbowforest", "ffspidernest", "mountainous", "ffsupermatter", "deepseavent", "tidewater", "tidewaterfloor", "tidewaterunderground", "lightlessshadowsea", "metallicmoonshadowsea", "icemoonheliumsea", "metallicmoonheliumsea", "bloodstonesea", "sulphuricoceanfloor", "magmaoceanfloor", "arcticoceanfloor", "toxicoceanfloor", "oceanfloor", "nitrogenseafloor", "desertsubsurface", "barrenunderground", "shallowunderground", "arborealunderground", "atropusunderground", "bloodstoneunderground", "bogunderground", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "irradiatedunderground", "lightlessunderground", "metallicunderground", "penumbraunderground", "slimeworldunderground", "sulphuricunderground", "thickjungleunderground", "arboreal", "atropus", "bloodstone", "bog", "crystalmoon", "icemoon", "icewaste", "infernus", "irradiated", "lightless", "metallicmoon", "nitrogensea", "penumbra", "protoworld", "sulphuric", "thickjungle", "urbanwasteland", "alien", "barren", "desert", "forest", "jungle", "magma", "savannah", "scorched", "snow", "tundra", "volcanic", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "calichefield", "bloodstonefield", "corruptedforest", "crystalplain", "deadwood", "desertoasis", "dryriverbed", "elder", "energyorbforest", "flowerforest", "hellfirefield", "hellhive", "icefire", "irradiatedwaste", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "pitchfield", "primevalforest", "snowyforest", "sulphuricplain", "taiga"  ]        
         },
         "underground4" : {
           "primaryRegion" : [ "tarball", "arboreal2", "desert_wastes","ffpoopit", "ffcrystalrealm", "colorfulcave", "zen", "shadow", "crystalcave", "abandonedmines", "hive", "corruptmoonunderground","moondesertunderground", "moonstoneunderground", "moonvolcanicunderground", "moontoxicunderground", "rainbowforest", "ffspidernest", "ffsupermatter", "deepseavent", "tidewater", "tidewaterfloor", "tidewaterunderground", "fftarunderground","tarunderground", "mushroomunderground", "wildernessunderground", "minivillageunderground", "icecaves", "bonecaves", "stonecaves", "luminouscaves", "fleshcaves", "cellcaves", "fffleshcaves", "ffcellcaves","arborealunderground", "atropusunderground", "bloodstoneunderground", "bogunderground", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "irradiatedunderground", "lightlessunderground", "metallicunderground", "penumbraunderground", "slimeworldunderground", "sulphuricunderground", "thickjungleunderground", "ffcoalmine", "ffcoppermine", "ffcoralcave", "ffcrystalcavern", "fffrostcavern", "ffgoldmine", "ffshadow", "ffvolcanic", "ffzen" ],
-	  "secondaryRegion" : [ "metalworksunderground1", "metalworksunderground2", "ffpoopit", "ffcrystalrealm", "colorfulcave", "zen", "shadow", "crystalcave", "abandonedmines", "hive", "moondesertunderground", "moonstoneunderground", "moonvolcanicunderground", "moontoxicunderground", "rainbowforest", "ffspidernest", "mountainous", "ffsupermatter", "deepseavent", "tidewater", "tidewaterfloor", "tidewaterunderground", "lightlessshadowsea", "metallicmoonshadowsea", "icemoonheliumsea", "metallicmoonheliumsea", "bloodstonesea", "sulphuricoceanfloor", "magmaoceanfloor", "arcticoceanfloor", "toxicoceanfloor", "oceanfloor", "nitrogenseafloor", "desertsubsurface", "barrenunderground", "shallowunderground", "arborealunderground", "atropusunderground", "bloodstoneunderground", "bogunderground", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "irradiatedunderground", "lightlessunderground", "metallicunderground", "penumbraunderground", "slimeworldunderground", "sulphuricunderground", "thickjungleunderground", "arboreal", "atropus", "bloodstone", "bog", "crystalmoon", "icemoon", "icewaste", "infernus", "irradiated", "lightless", "metallicmoon", "nitrogensea", "penumbra", "protoworld", "sulphuric", "thickjungle", "urbanwasteland", "alien", "barren", "desert", "forest", "jungle", "magma", "savannah", "scorched", "snow", "tundra", "volcanic", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "calichefield", "bloodstonefield", "corruptedforest", "crystalplain", "deadwood", "desertoasis", "dryriverbed", "elder", "energyorbforest", "flowerforest", "hellfirefield", "hellhive", "icefire", "irradiatedwaste", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "pitchfield", "primevalforest", "snowyforest", "sulphuricplain", "taiga"  ]        
+	  "secondaryRegion" : [ "metalworksunderground1", "metalworksunderground2", "metalworksunderground3", "metalworksunderground4", "ffpoopit", "ffcrystalrealm", "colorfulcave", "zen", "shadow", "crystalcave", "abandonedmines", "hive", "moondesertunderground", "moonstoneunderground", "moonvolcanicunderground", "moontoxicunderground", "rainbowforest", "ffspidernest", "mountainous", "ffsupermatter", "deepseavent", "tidewater", "tidewaterfloor", "tidewaterunderground", "lightlessshadowsea", "metallicmoonshadowsea", "icemoonheliumsea", "metallicmoonheliumsea", "bloodstonesea", "sulphuricoceanfloor", "magmaoceanfloor", "arcticoceanfloor", "toxicoceanfloor", "oceanfloor", "nitrogenseafloor", "desertsubsurface", "barrenunderground", "shallowunderground", "arborealunderground", "atropusunderground", "bloodstoneunderground", "bogunderground", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "irradiatedunderground", "lightlessunderground", "metallicunderground", "penumbraunderground", "slimeworldunderground", "sulphuricunderground", "thickjungleunderground", "arboreal", "atropus", "bloodstone", "bog", "crystalmoon", "icemoon", "icewaste", "infernus", "irradiated", "lightless", "metallicmoon", "nitrogensea", "penumbra", "protoworld", "sulphuric", "thickjungle", "urbanwasteland", "alien", "barren", "desert", "forest", "jungle", "magma", "savannah", "scorched", "snow", "tundra", "volcanic", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "calichefield", "bloodstonefield", "corruptedforest", "crystalplain", "deadwood", "desertoasis", "dryriverbed", "elder", "energyorbforest", "flowerforest", "hellfirefield", "hellhive", "icefire", "irradiatedwaste", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "pitchfield", "primevalforest", "snowyforest", "sulphuricplain", "taiga"  ]        
         },
         "underground5" : {
           "primaryRegion" : [ "tarball", "arboreal2", "desert_wastes","ffpoopit", "ffcrystalrealm", "colorfulcave", "zen", "shadow", "crystalcave", "abandonedmines", "hive", "corruptmoonunderground","moondesertunderground", "moonstoneunderground", "moonvolcanicunderground", "moontoxicunderground", "rainbowforest", "ffspidernest", "ffsupermatter", "deepseavent", "tidewater", "tidewaterfloor", "tidewaterunderground", "fftarunderground","tarunderground", "mushroomunderground", "wildernessunderground", "minivillageunderground", "icecaves", "bonecaves", "stonecaves", "luminouscaves", "fleshcaves", "cellcaves", "fffleshcaves", "ffcellcaves","arborealunderground", "atropusunderground", "bloodstoneunderground", "bogunderground", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "irradiatedunderground", "lightlessunderground", "metallicunderground", "penumbraunderground", "slimeworldunderground", "sulphuricunderground", "thickjungleunderground", "ffcoalmine", "ffcoppermine", "ffcoralcave", "ffcrystalcavern", "fffrostcavern", "ffgoldmine", "ffshadow", "ffvolcanic", "ffzen" ],
-	  "secondaryRegion" : [ "metalworksunderground1", "metalworksunderground2", "ffpoopit", "ffcrystalrealm", "colorfulcave", "zen", "shadow", "crystalcave", "abandonedmines", "hive", "moondesertunderground", "moonstoneunderground", "moonvolcanicunderground", "moontoxicunderground", "rainbowforest", "ffspidernest", "mountainous", "ffsupermatter", "deepseavent", "tidewater", "tidewaterfloor", "tidewaterunderground", "lightlessshadowsea", "metallicmoonshadowsea", "icemoonheliumsea", "metallicmoonheliumsea", "bloodstonesea", "sulphuricoceanfloor", "magmaoceanfloor", "arcticoceanfloor", "toxicoceanfloor", "oceanfloor", "nitrogenseafloor", "desertsubsurface", "barrenunderground", "shallowunderground", "arborealunderground", "atropusunderground", "bloodstoneunderground", "bogunderground", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "irradiatedunderground", "lightlessunderground", "metallicunderground", "penumbraunderground", "slimeworldunderground", "sulphuricunderground", "thickjungleunderground", "arboreal", "atropus", "bloodstone", "bog", "crystalmoon", "icemoon", "icewaste", "infernus", "irradiated", "lightless", "metallicmoon", "nitrogensea", "penumbra", "protoworld", "sulphuric", "thickjungle", "urbanwasteland", "alien", "barren", "desert", "forest", "jungle", "magma", "savannah", "scorched", "snow", "tundra", "volcanic", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "calichefield", "bloodstonefield", "corruptedforest", "crystalplain", "deadwood", "desertoasis", "dryriverbed", "elder", "energyorbforest", "flowerforest", "hellfirefield", "hellhive", "icefire", "irradiatedwaste", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "pitchfield", "primevalforest", "snowyforest", "sulphuricplain", "taiga"  ]        
+	  "secondaryRegion" : [ "metalworksunderground1", "metalworksunderground2", "metalworksunderground3", "metalworksunderground4", "ffpoopit", "ffcrystalrealm", "colorfulcave", "zen", "shadow", "crystalcave", "abandonedmines", "hive", "moondesertunderground", "moonstoneunderground", "moonvolcanicunderground", "moontoxicunderground", "rainbowforest", "ffspidernest", "mountainous", "ffsupermatter", "deepseavent", "tidewater", "tidewaterfloor", "tidewaterunderground", "lightlessshadowsea", "metallicmoonshadowsea", "icemoonheliumsea", "metallicmoonheliumsea", "bloodstonesea", "sulphuricoceanfloor", "magmaoceanfloor", "arcticoceanfloor", "toxicoceanfloor", "oceanfloor", "nitrogenseafloor", "desertsubsurface", "barrenunderground", "shallowunderground", "arborealunderground", "atropusunderground", "bloodstoneunderground", "bogunderground", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "irradiatedunderground", "lightlessunderground", "metallicunderground", "penumbraunderground", "slimeworldunderground", "sulphuricunderground", "thickjungleunderground", "arboreal", "atropus", "bloodstone", "bog", "crystalmoon", "icemoon", "icewaste", "infernus", "irradiated", "lightless", "metallicmoon", "nitrogensea", "penumbra", "protoworld", "sulphuric", "thickjungle", "urbanwasteland", "alien", "barren", "desert", "forest", "jungle", "magma", "savannah", "scorched", "snow", "tundra", "volcanic", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "calichefield", "bloodstonefield", "corruptedforest", "crystalplain", "deadwood", "desertoasis", "dryriverbed", "elder", "energyorbforest", "flowerforest", "hellfirefield", "hellhive", "icefire", "irradiatedwaste", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "pitchfield", "primevalforest", "snowyforest", "sulphuricplain", "taiga"  ]        
         },
         "underground6" : {
           "primaryRegion" : [ "tarball", "arboreal2", "desert_wastes","ffpoopit", "ffcrystalrealm", "colorfulcave", "zen", "shadow", "crystalcave", "abandonedmines", "hive", "corruptmoonunderground","moondesertunderground", "moonstoneunderground", "moonvolcanicunderground", "moontoxicunderground", "rainbowforest", "ffspidernest", "ffsupermatter", "deepseavent", "tidewater", "tidewaterfloor", "tidewaterunderground", "fftarunderground","tarunderground", "mushroomunderground", "wildernessunderground", "minivillageunderground", "icecaves", "bonecaves", "stonecaves", "luminouscaves", "fleshcaves", "cellcaves", "fffleshcaves", "ffcellcaves","arborealunderground", "atropusunderground", "bloodstoneunderground", "bogunderground", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "irradiatedunderground", "lightlessunderground", "metallicunderground", "penumbraunderground", "slimeworldunderground", "sulphuricunderground", "thickjungleunderground", "ffcoalmine", "ffcoppermine", "ffcoralcave", "ffcrystalcavern", "fffrostcavern", "ffgoldmine", "ffshadow", "ffvolcanic", "ffzen" ],
-	  "secondaryRegion" : [ "metalworksunderground1", "metalworksunderground2", "ffpoopit", "ffcrystalrealm", "colorfulcave", "zen", "shadow", "crystalcave", "abandonedmines", "hive", "moondesertunderground", "moonstoneunderground", "moonvolcanicunderground", "moontoxicunderground", "rainbowforest", "ffspidernest", "mountainous", "ffsupermatter", "deepseavent", "tidewater", "tidewaterfloor", "tidewaterunderground", "lightlessshadowsea", "metallicmoonshadowsea", "icemoonheliumsea", "metallicmoonheliumsea", "bloodstonesea", "sulphuricoceanfloor", "magmaoceanfloor", "arcticoceanfloor", "toxicoceanfloor", "oceanfloor", "nitrogenseafloor", "desertsubsurface", "barrenunderground", "shallowunderground", "arborealunderground", "atropusunderground", "bloodstoneunderground", "bogunderground", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "irradiatedunderground", "lightlessunderground", "metallicunderground", "penumbraunderground", "slimeworldunderground", "sulphuricunderground", "thickjungleunderground", "arboreal", "atropus", "bloodstone", "bog", "crystalmoon", "icemoon", "icewaste", "infernus", "irradiated", "lightless", "metallicmoon", "nitrogensea", "penumbra", "protoworld", "sulphuric", "thickjungle", "urbanwasteland", "alien", "barren", "desert", "forest", "jungle", "magma", "savannah", "scorched", "snow", "tundra", "volcanic", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "calichefield", "bloodstonefield", "corruptedforest", "crystalplain", "deadwood", "desertoasis", "dryriverbed", "elder", "energyorbforest", "flowerforest", "hellfirefield", "hellhive", "icefire", "irradiatedwaste", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "pitchfield", "primevalforest", "snowyforest", "sulphuricplain", "taiga"  ]                  
+	  "secondaryRegion" : [ "metalworksunderground1", "metalworksunderground2", "metalworksunderground3", "metalworksunderground4", "ffpoopit", "ffcrystalrealm", "colorfulcave", "zen", "shadow", "crystalcave", "abandonedmines", "hive", "moondesertunderground", "moonstoneunderground", "moonvolcanicunderground", "moontoxicunderground", "rainbowforest", "ffspidernest", "mountainous", "ffsupermatter", "deepseavent", "tidewater", "tidewaterfloor", "tidewaterunderground", "lightlessshadowsea", "metallicmoonshadowsea", "icemoonheliumsea", "metallicmoonheliumsea", "bloodstonesea", "sulphuricoceanfloor", "magmaoceanfloor", "arcticoceanfloor", "toxicoceanfloor", "oceanfloor", "nitrogenseafloor", "desertsubsurface", "barrenunderground", "shallowunderground", "arborealunderground", "atropusunderground", "bloodstoneunderground", "bogunderground", "crystalmoonunderground", "icemoonunderground", "icewasteunderground", "infernusunderground", "irradiatedunderground", "lightlessunderground", "metallicunderground", "penumbraunderground", "slimeworldunderground", "sulphuricunderground", "thickjungleunderground", "arboreal", "atropus", "bloodstone", "bog", "crystalmoon", "icemoon", "icewaste", "infernus", "irradiated", "lightless", "metallicmoon", "nitrogensea", "penumbra", "protoworld", "sulphuric", "thickjungle", "urbanwasteland", "alien", "barren", "desert", "forest", "jungle", "magma", "savannah", "scorched", "snow", "tundra", "volcanic", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "calichefield", "bloodstonefield", "corruptedforest", "crystalplain", "deadwood", "desertoasis", "dryriverbed", "elder", "energyorbforest", "flowerforest", "hellfirefield", "hellhive", "icefire", "irradiatedwaste", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "pitchfield", "primevalforest", "snowyforest", "sulphuricplain", "taiga"  ]                  
         },
         "core" : {
           "primaryRegion" : [ "mooncore", "nitrogencore", "protocore", "core", "liquidprotocore", "irradiumcore" ]
@@ -215,7 +215,7 @@
        "layers" : {
         "surface" : {
           "primaryRegion" : [ "ocean", "magma", "toxic", "nitrogensea", "sulphuricocean", "tidewater", "bloodstonesea", "arctic" ],
-          "secondaryRegion" : [ "corruptmoon", "corruptedforest", "magicsnowland", "eden", "fieldofbracken", "supermatterzone", "aliendesert", "goreforest", "cactiplace", "metalworks", "metalworks2", "crystalswamp", "ffhive", "corruptmoon", "birchforest", "alienforest", "sulphuricmagma", "cellfield", "reddesert", "finesand", "cloudforest", "hauntedforest", "hauntedgraveyard", "rainbowforest", "swamp", "mountainous", "tidewater", "estuary", "breakwater", "corrupt", "spring", "mushroom", "oasis", "tar", "alpine", "bioluminescence", "colourful", "bones", "giantflowers", "eyepatch", "ice", "rust", "crystalline", "alien", "arctic", "barren", "desert", "forest", "jungle", "magma", "ocean", "savannah", "scorched", "snow", "toxic", "tundra", "volcanic", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "calichefield", "bloodstonefield", "crystalplain", "deadwood", "desertoasis", "dryriverbed", "elder", "energyorbforest", "flowerforest", "hellfirefield", "hellhive", "icefire", "irradiatedwaste", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "pitchfield", "primevalforest", "snowyforest", "sulphuricplain", "taiga" ],
+          "secondaryRegion" : [ "corruptmoon", "corruptedforest", "magicsnowland", "eden", "fieldofbracken", "supermatterzone", "aliendesert", "goreforest", "cactiplace", "metalworks", "metalhive", "metalworks2", "metalworks3", "metalworks4", "metaljungle", "crystalswamp", "ffhive", "corruptmoon", "birchforest", "alienforest", "sulphuricmagma", "cellfield", "reddesert", "finesand", "cloudforest", "hauntedforest", "hauntedgraveyard", "rainbowforest", "swamp", "mountainous", "tidewater", "estuary", "breakwater", "corrupt", "spring", "mushroom", "oasis", "tar", "alpine", "bioluminescence", "colourful", "bones", "giantflowers", "eyepatch", "ice", "rust", "crystalline", "alien", "arctic", "barren", "desert", "forest", "jungle", "magma", "ocean", "savannah", "scorched", "snow", "toxic", "tundra", "volcanic", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "calichefield", "bloodstonefield", "crystalplain", "deadwood", "desertoasis", "dryriverbed", "elder", "energyorbforest", "flowerforest", "hellfirefield", "hellhive", "icefire", "irradiatedwaste", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "pitchfield", "primevalforest", "snowyforest", "sulphuricplain", "taiga" ],
           //"dungeonCountRange" : [0, 2],
           "dungeons" : [ "fuwreck", "wreck", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "avianairship", "aviantemple","humanbunker", "floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison", "naturalcave" ]
         },
@@ -262,7 +262,7 @@
       },
         "surface" : {
           "primaryRegion" : [ "midnight", "metallicmoon", "penumbra", "lightless", "moon_shadow", "atropusdark", "arborealdark", "sulphuricdark", "icewastedark" ],
-          "secondaryRegion" : [ "midnight", "corruptmoon", "tarball", "atropus","supermatterzone", "metalworks", "metalworks2", "sulphuricmagma", "tar", "desert", "scorched", "volcanic", "elder", "pitchfield", "sulphuricplain" ],
+          "secondaryRegion" : [ "midnight", "corruptmoon", "tarball", "atropus","supermatterzone", "metalworks", "metalworks2", "metalworks3", "metalworks4", "metaljungle", "metalhive", "sulphuricmagma", "tar", "desert", "scorched", "volcanic", "elder", "pitchfield", "sulphuricplain" ],
           //"dungeonCountRange" : [0, 2],
           "dungeons" : [ "fuwreck", "wreck", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "avianairship", "aviantemple","humanbunker", "floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison", "naturalcave" ]
         },
@@ -314,7 +314,7 @@
       },
         "surface" : {
           "primaryRegion" : [ "mountainous", "atropus", "bloodstone", "crystalmoon", "icewaste", "infernus", "metallicmoon", "sulphuric", "urbanwasteland", "alien", "desert", "scorched", "volcanic" ],
-          "secondaryRegion" : [ "fieldofbracken", "supermatterzone", "aliendesert", "metalworks", "metalworks2", "sulphuricmagma","reddesert", "mountainous", "tar","crystalline", "alien", "desert", "scorched", "volcanic", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "calichefield", "bloodstonefield", "corruptedforest", "crystalplain", "deadwood", "desertoasis", "dryriverbed", "elder", "energyorbforest", "flowerforest", "hellfirefield", "hellhive", "icefire", "irradiatedwaste", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "pitchfield", "primevalforest", "snowyforest", "sulphuricplain", "taiga" ],
+          "secondaryRegion" : [ "fieldofbracken", "supermatterzone", "aliendesert", "metalworks", "metalworks2", "metalworks3", "metalworks4", "metalhive", "sulphuricmagma","reddesert", "mountainous", "tar","crystalline", "alien", "desert", "scorched", "volcanic", "ashgarden", "badlands", "blackslimebog", "blisterbushfield", "bloodgulch", "calichefield", "bloodstonefield", "corruptedforest", "crystalplain", "deadwood", "desertoasis", "dryriverbed", "elder", "energyorbforest", "flowerforest", "hellfirefield", "hellhive", "icefire", "irradiatedwaste", "meadow", "orchardapple", "orchardpeach", "orchardpear", "pineforest", "pitchfield", "primevalforest", "snowyforest", "sulphuricplain", "taiga" ],
           //"dungeonCountRange" : [0, 2],
           "dungeons" : [ "fuwreck", "wreck", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "avianairship", "aviantemple","humanbunker", "floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison", "naturalcave" ]
         },
@@ -1343,7 +1343,7 @@
       "layers" : {
         "surface" : {
           "primaryRegion" : [ "metallicmoon" ],
-          "secondaryRegion" : [ "metalworks", "metalworks2" ],
+          "secondaryRegion" : [ "metalworks", "metalworks2", "metalworks3", "metalworks4", "metaljungle", "metalhive" ],
           //"dungeonCountRange" : [0, 2],
           "dungeons" : [ "fuwreck", "wreck" ]
         },
@@ -1352,27 +1352,27 @@
         },
          "underground1" : {
            "primaryRegion" : [ "metallicunderground" ],
-          "secondaryRegion" : [ "metalworksunderground1", "metalworksunderground2", "ffsupermatter", "metallicmoonheliumsea", "metallicmoonshadowsea" ]
+          "secondaryRegion" : [ "metalworksunderground1", "metalworksunderground2", "metalworksunderground3", "metalworksunderground4", "ffsupermatter", "metallicmoonheliumsea", "metallicmoonshadowsea" ]
         },
         "underground2" : {
           "primaryRegion" : [ "metallicunderground" ],
-          "secondaryRegion" : [ "metalworksunderground1", "metalworksunderground2", "ffsupermatter", "metallicmoonheliumsea", "metallicmoonshadowsea" ]
+          "secondaryRegion" : [ "metalworksunderground1", "metalworksunderground2", "metalworksunderground3", "metalworksunderground4", "ffsupermatter", "metallicmoonheliumsea", "metallicmoonshadowsea" ]
         },
         "underground3" : {
           "primaryRegion" : [ "metallicunderground" ],
-          "secondaryRegion" : [ "metalworksunderground1", "metalworksunderground2", "ffsupermatter", "metallicmoonheliumsea", "metallicmoonshadowsea" ]
+          "secondaryRegion" : [ "metalworksunderground1", "metalworksunderground2", "metalworksunderground3", "metalworksunderground4", "ffsupermatter", "metallicmoonheliumsea", "metallicmoonshadowsea" ]
         },
         "underground4" : {
           "primaryRegion" : [ "metallicunderground" ],
-          "secondaryRegion" : [ "metalworksunderground1", "metalworksunderground2", "ffsupermatter", "metallicmoonheliumsea", "metallicmoonshadowsea" ]
+          "secondaryRegion" : [ "metalworksunderground1", "metalworksunderground2", "metalworksunderground3", "metalworksunderground4", "ffsupermatter", "metallicmoonheliumsea", "metallicmoonshadowsea" ]
         },
         "underground5" : {
           "primaryRegion" : [ "metallicunderground" ],
-          "secondaryRegion" : [ "metalworksunderground1", "metalworksunderground2", "ffsupermatter", "metallicmoonheliumsea", "metallicmoonshadowsea" ]
+          "secondaryRegion" : [ "metalworksunderground1", "metalworksunderground2", "metalworksunderground3", "metalworksunderground4", "ffsupermatter", "metallicmoonheliumsea", "metallicmoonshadowsea" ]
         },
         "underground6" : {
           "primaryRegion" : [ "metallicunderground" ],
-          "secondaryRegion" : [ "metalworksunderground1", "metalworksunderground2", "ffsupermatter", "metallicmoonheliumsea", "metallicmoonshadowsea" ]
+          "secondaryRegion" : [ "metalworksunderground1", "metalworksunderground2", "metalworksunderground3", "metalworksunderground4", "ffsupermatter", "metallicmoonheliumsea", "metallicmoonshadowsea" ]
         },
         "core" : {
           "primaryRegion" : [ "core" ]
@@ -1853,7 +1853,7 @@
       },
         "surface" : {
           "primaryRegion" : [ "thickjungle" ],
-          "secondaryRegion" : [ "fieldofbracken", "cactiplace", "crystalswamp", "ffhive", "birchforest", "alienforest", "reddesert", "cloudforest", "rainbowforest", "swamp", "hellhive", "corruptedforest", "desertoasis", "fieldofbanana", "fieldofbamboo", "fieldofwheat", "fieldofsugar",  "fieldofpotato", "fieldofcorn",  "fieldofgrape",  "fieldoftomato","pineforest", "flowerforest", "snowyforest",  "dryriverbed", "deadwood", "giantflowers", "desert", "forest", "jungle", "savannah", "snow",  "tundra", "volcanic" ],
+          "secondaryRegion" : [ "metaljungle", "fieldofbracken", "ffhive", "alienforest", "reddesert", "rainbowforest", "swamp", "corruptedforest", "fieldofbanana", "fieldofbamboo", "fieldofwheat", "fieldofsugar",  "fieldofpotato", "fieldofcorn",  "fieldofgrape",  "fieldoftomato", "flowerforest", "dryriverbed", "deadwood", "giantflowers", "desert", "forest", "jungle", "savannah", "volcanic" ],
           //"dungeonCountRange" : [0, 2],
           "dungeons" : [ "elderruins", "greenruins", "fuwreck", "wreck", "floranhuntinggrounds", "floranhell", "floranvillagetower" ]
         },
@@ -1895,7 +1895,7 @@
       "layers" : {
         "surface" : {
           "primaryRegion" : [ "urbanwasteland" ],
-          "secondaryRegion" : [ "parkinglot", "aliendesert", "metalworks", "metalworks2", "crystalswamp", "ffhive", "alienforest", "sulphuricmagma", "reddesert", "swamp", "bloodgulch", "hellhive", "corruptedforest", "deadwood",   "savannah"],
+          "secondaryRegion" : [ "metalworks4", "metalhive", "parkinglot", "aliendesert", "metalworks", "metaljungle", "crystalswamp", "ffhive", "alienforest", "sulphuricmagma", "reddesert", "swamp", "bloodgulch", "hellhive", "corruptedforest", "deadwood",   "savannah"],
           //"dungeonCountRange" : [0, 2],
           "dungeons" : [ "wastelandquests", "elderruins", "fuwreck", "wreck", "apexresearchlab", "apextestchamber", "apextowerblock", "humanbunker", "humanprison", "naturalcave" ]
         },
@@ -2733,7 +2733,7 @@
   "path" : "/regionTypes/penumbra",
   "value" : 
   {
-      "caveLiquid" : [ "water", "swampwater", "blacktar", "alienjuice", "darkwater", "slimeliquid" ],
+      "caveLiquid" : [ "swampwater", "blacktar", "alienjuice", "darkwater", "liquidaether" ],
       "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [ "remixedSurface", "remixedMildSurface", "remixedStepsSurface", "remixedMountainsSurface" ],
       "fgCaveSelector" : [ "normalCaves" ],
@@ -2880,7 +2880,7 @@
   "path" : "/regionTypes/lightless",
   "value" : 
   {
-      "caveLiquid" : [ "blacktar", "pus", "bloodliquid", "darkwater", "slimeliquid" ],
+      "caveLiquid" : [ "blacktar", "pus", "bloodliquid", "darkwater", "liquidaether" ],
       "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [ "remixedSurface", "remixedMildSurface", "remixedSwampySurface", "remixedCanyonsSurface", "remixedMountainsSurface"  ],
       "fgCaveSelector" : [ "surfaceCaves", "denseCaves" ],
@@ -2895,7 +2895,7 @@
   "path" : "/regionTypes/alienforest",
   "value" : 
   {
-      "caveLiquid" : [ "water", "alienjuice", "gravrain", "fuironliquid", "crystalliquid" ],
+      "caveLiquid" : [ "water", "alienjuice", "gravrain", "liquidaether", "crystalliquid" ],
       "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [  "lowHillsSurface", "flatsSurface", "medHillsSurface", "remixedMountainsSurface"  ],
       "fgCaveSelector" : [ "surfaceCaves" ],
@@ -2951,7 +2951,7 @@
   "path" : "/regionTypes/blisterbushfield",
   "value" : 
   {
-      "caveLiquid" : [ "alienjuice", "healingliquid", "pus", "slimeliquid" ],
+      "caveLiquid" : [ "alienjuice", "liquidaether", "pus", "slimeliquid" ],
       "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [ "flatsSurface", "lowHillsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
@@ -2965,7 +2965,7 @@
   "path" : "/regionTypes/bloodstonefield",
   "value" : 
   {
-      "caveLiquid" : [ "bloodliquid", "poison", "shadowgas" ],
+      "caveLiquid" : [ "bloodliquid", "liquidaether", "shadowgas" ],
       "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [ "mixedSurface", "lowHillsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
@@ -3019,7 +3019,7 @@
   "path" : "/regionTypes/corruptedforest",
   "value" : 
   {
-      "caveLiquid" : [ "bio_ooze", "pus", "darkwater", "shadowgas" ],
+      "caveLiquid" : [ "bio_ooze", "pus", "darkwater", "liquidaether" ],
       "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [ "lowHillsSurface", "mixedSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
@@ -3033,7 +3033,7 @@
   "path" : "/regionTypes/crystalplain",
   "value" : 
   {
-      "caveLiquid" : [ "organicsoup", "lava", "elderfluid" ],
+      "caveLiquid" : [ "organicsoup", "lava", "elderfluid", "liquidaether" ],
       "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [ "remixedSurface", "remixedCanyonsSurface", "remixedSpikesSurface", "remixedSpikesSurface2" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
@@ -3097,7 +3097,7 @@
   "path" : "/regionTypes/elder",
   "value" : 
   {
-      "caveLiquid" : [ "elderfluid", "bio_ooze", "darkwater", "slimeliquid" ],
+      "caveLiquid" : [ "elderfluid", "bio_ooze", "darkwater", "liquidaether" ],
       "blockSelector" : [ "remixedMildSurface", "remixedSurface", "remixedMountainsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
@@ -3319,7 +3319,7 @@
   "path" : "/regionTypes/irradiatedwaste",
   "value" : 
   {
-      "caveLiquid" : [ "water", "poison", "darkwater", "slimeliquid" ],
+      "caveLiquid" : [ "liquidaether", "poison", "darkwater", "slimeliquid" ],
       "caveLiquidChanceRange" : [25, 100],
       "blockSelector" : [  "remixedSpikesSurface", "remixedMountainsSurface", "remixedCanyonsSurface", "remixedMildCanyonsSurface", "remixedSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
@@ -3526,7 +3526,30 @@
       ]
     }
   },
-
+  {"op" : "add", 
+  "path" : "/regionTypes/metaljungle",
+  "value" : 
+  {
+      "caveLiquid" : [ "mercuryliquid", "tarliquid", "blacktar", "fuironliquid", "protociteliquid" ],
+      "blockSelector" : [ "remixedMildSurface", "remixedSurface", "remixedCanyonsSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "metaljungle" ]]
+      ]
+    }
+  },
+  {"op" : "add", 
+  "path" : "/regionTypes/metalhive",
+  "value" : 
+  {
+      "caveLiquid" : [ "mercuryliquid", "tarliquid", "blacktar", "fuironliquid", "protociteliquid" ],
+      "blockSelector" : [ "remixedMildSurface", "remixedSurface", "remixedCanyonsSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "metalhive" ]]
+      ]
+    }
+  },
   {"op" : "add", 
   "path" : "/regionTypes/metalworks",
   "value" : 
@@ -3548,7 +3571,32 @@
       "blockSelector" : [ "remixedMildSurface", "remixedSurface", "remixedCanyonsSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
-        [0, [ "metalworks" ]]
+        [0, [ "metalworks2" ]]
+      ]
+    }
+  },
+
+  {"op" : "add", 
+  "path" : "/regionTypes/metalworks3",
+  "value" : 
+  {
+      "caveLiquid" : [ "mercuryliquid", "tarliquid", "blacktar", "fuironliquid", "protociteliquid" ],
+      "blockSelector" : [ "remixedMildSurface", "remixedSurface", "remixedCanyonsSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "metalworks3" ]]
+      ]
+    }
+  },
+  {"op" : "add", 
+  "path" : "/regionTypes/metalworks4",
+  "value" : 
+  {
+      "caveLiquid" : [ "mercuryliquid", "tarliquid", "blacktar", "fuironliquid", "protociteliquid" ],
+      "blockSelector" : [ "remixedMildSurface", "remixedSurface", "remixedCanyonsSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "metalworks4" ]]
       ]
     }
   },
@@ -4463,7 +4511,7 @@
   "path" : "/regionTypes/penumbraunderground",
   "value" : 
   {
-      "caveLiquid" : [ "water", "blacktar", "organicsoup", "bio_ooze", "alienjuice" ],
+      "caveLiquid" : [ "liquidaether", "blacktar", "organicsoup", "bio_ooze", "alienjuice" ],
       "caveLiquidChanceRange" : [5, 25],
 
       "biome" : [
@@ -4593,7 +4641,7 @@
   "path" : "/regionTypes/lightlessunderground",
   "value" : 
   {
-      "caveLiquid" : [ "blacktar", "tarliquid", "darkwater" ],
+      "caveLiquid" : [ "blacktar", "tarliquid", "darkwater", "liquidaether" ],
       "caveLiquidChanceRange" : [5, 25],
 
       "biome" : [
@@ -4663,7 +4711,30 @@
 		      ]
 		    }
 	},
-	
+	{
+		"op" : "add",
+		"path" : "/regionTypes/metalworksunderground3",
+		"value" : {
+		    "fgCaveSelector" : [ "normalCaves" ],
+		    "bgCaveSelector" : [ "largeClumps" ],
+		    "subBlockSelector" : [ "largeClumps" ],
+		      "biome" : [
+		        [0, [ "metalworksunderground3" ]]
+		      ]
+		    }
+	},
+	{
+		"op" : "add",
+		"path" : "/regionTypes/metalworksunderground4",
+		"value" : {
+		    "fgCaveSelector" : [ "normalCaves" ],
+		    "bgCaveSelector" : [ "largeClumps" ],
+		    "subBlockSelector" : [ "largeClumps" ],
+		      "biome" : [
+		        [0, [ "metalworksunderground4" ]]
+		      ]
+		    }
+	},	
   {"op" : "add", 
   "path" : "/regionTypes/zen",
   "value" : 

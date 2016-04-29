@@ -207,7 +207,7 @@
   ],
 
   "mainBlock" : "chromadirt",
-  "subBlocks" : [ "rainbowsand", "rock17" ],
+  "subBlocks" : [ "rainbowsand", "retexrock17" ],
   "ores" : "ff_chromaticOres",
   "baseHueShiftMax" : 120,
   "modHueShiftMax" : 180,

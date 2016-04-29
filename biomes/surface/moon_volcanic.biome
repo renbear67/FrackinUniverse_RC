@@ -135,7 +135,7 @@
   ],
 
   "mainBlock" : "magmatile3",
-  "subBlocks" : [ "magmatile4", "magmarock", "moonstone" ],
+  "subBlocks" : [ "magmatile4", "magmarock", "redhotcobblestone" ],
   "ores" : "moonores",
 
   "parallax" : "/parallax/surface/moon.parallax",

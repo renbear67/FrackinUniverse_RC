@@ -46,7 +46,7 @@
   "hueShiftOptions" : [-165, -70, -25, 0, 25, 70, 165],
 
     "mainBlock" : "calichestone",
-    "subBlocks" : [ "sandstone01" ],
+    "subBlocks" : [ "retexsandstone01" ],
     "ores" : "surfaceOres",
 
   "surfacePlaceables" : {

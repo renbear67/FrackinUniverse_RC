@@ -56,8 +56,8 @@
       }
     }
   },
-    "mainBlock" : "waste",
-    "subBlocks" : [ "irradiatedtile2", "sewage", "biorock2" ],
+    "mainBlock" : "retexaetherdust",
+    "subBlocks" : [ "irradiatedtile2", "waste", "biorock2" ],
     "ores" : "ff_radioactiveOres",
 
 

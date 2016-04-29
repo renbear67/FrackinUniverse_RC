@@ -29,8 +29,8 @@
       }
     ]
   },
-    "mainBlock" : "geodeblock",
-    "subBlocks" : [ "swampdirtff", "purplecrystal", "geodestone" ],
+    "mainBlock" : "aegisaltcrystal",
+    "subBlocks" : [ "retexaetherdust", "geodeblock", "geodestone" ],
     "ores" : "ff_crystalmoonOres",
 
   "surfacePlaceables" : {

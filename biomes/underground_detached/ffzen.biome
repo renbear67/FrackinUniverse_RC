@@ -47,7 +47,7 @@
     }
   },
 
-  "mainBlock" : "dirt",
+  "mainBlock" : "retexdirt",
   "subBlocks" : [ "rock04" ],
   "ores" : "ff_deepicemoonOres",
 
