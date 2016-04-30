@@ -205,7 +205,7 @@
   },
 
   "surfacePlaceables" : {
-    "grassMod" : [ "metal" ],
+    "grassMod" : [ "metal", "metalgrass" ],
     "grassModDensity" : 0.9,
       "items" : [
            {
@@ -400,7 +400,7 @@
       ]
     },
     "undergroundPlaceables" : {
-      "grassMod" : [ "metal" ],
+      "grassMod" : [ "metal", "metalgrass" ],
       "grassModDensity" : 0.2,
       "items" : [
         {
