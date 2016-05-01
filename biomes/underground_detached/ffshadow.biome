@@ -52,7 +52,7 @@
   },
 
   "mainBlock" : "obsidian",
-  "subBlocks" : [ "tar", "direstone" ],
+  "subBlocks" : [ "tar", "direstone", "matterblock" ],
   "ores" : "ff_deepsurfaceshadowOres",
 
   "hueShiftOptions" : [0],

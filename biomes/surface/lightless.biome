@@ -76,7 +76,7 @@
   
   
   "mainBlock" : "darkness",
-  "subBlocks" : [ "darkstone", "blackslime" ],
+  "subBlocks" : [ "darkstone", "blackslime", "hiveold" ],
   "ores" : "ff_surfaceshadowOres",
 
   "parallax" : "/parallax/surface/lightless.parallax",

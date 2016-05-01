@@ -212,6 +212,7 @@ local recipes =
 {inputs = { peglacipykretedecor=50 }, outputs = { tungstenore=1 }, time = 0.95},
 {inputs = { retexironblock=50 }, outputs = { tungstenore=2 }, time = 0.80},
 {inputs = { retexironpipe=50 }, outputs = { tungstenore=2 }, time = 0.80},
+{inputs = { hiveoldmaterial=50 }, outputs = { geneticmaterial=2 }, time = 0.95},
 {inputs = { fumetalblockmaterial=50 }, outputs = { tungstenore=1 }, time = 0.95},
 {inputs = { violiumcrystal=50 }, outputs = { ff_silicon=1 }, time = 0.75},
 {inputs = { aegisaltcrystal=50 }, outputs = { ff_silicon=1 }, time = 0.75},
