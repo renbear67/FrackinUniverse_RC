@@ -43,10 +43,10 @@
           "material" : "elderpillar1"
       },
       "12" : {
-                "material" : "elderpillarcap"
+          "material" : "elderpillarcap"
       },
       "13" : {
-                "material" : "elderfloor"
+          "material" : "elderfloor"
       } 
  }, 
  "tiles":
