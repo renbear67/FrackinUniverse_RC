@@ -5,7 +5,7 @@
     "rules" : [
     ],
 
-    "anchor" : [ "sciencehouse1", "lab1", "peglaci1", "trashpile", "wasteland1", "wasteland2", "wasteland3", "crane", "hydroponic1", "crates1", "crates2", "crates3" ],
+    "anchor" : [ "wasteland1", "wasteland2", "wasteland3" ],
 
     "gravity" : 80,
     "maxRadius" : 1000000,
@@ -14,34 +14,6 @@
   },
 
   "parts" : [
-    {
-      "name" : "sciencehouse1",
-      "rules" : [
-        [ "maxSpawnCount", [1] ]
-      ],
-      "def" : [ "tmx", "sciencehouse1.json" ]
-    },
-    {
-      "name" : "lab1",
-      "rules" : [
-        [ "maxSpawnCount", [1] ]
-      ],
-      "def" : [ "tmx", "lab1.json" ]
-    },
-    {
-      "name" : "peglaci1",
-      "rules" : [
-        [ "maxSpawnCount", [1] ]
-      ],
-      "def" : [ "tmx", "peglaci1.json" ]
-    },
-    {
-      "name" : "trashpile",
-      "rules" : [
-        [ "maxSpawnCount", [1] ]
-      ],
-      "def" : [ "tmx", "trashpile.json" ]
-    },
     {
       "name" : "wasteland1",
       "rules" : [
@@ -62,41 +34,6 @@
         [ "maxSpawnCount", [1] ]
       ],
       "def" : [ "tmx", "wasteland3.json" ]
-    },
-    {
-      "name" : "crane",
-      "rules" : [
-        [ "maxSpawnCount", [1] ]
-      ],
-      "def" : [ "tmx", "crane.json" ]
-    },
-    {
-      "name" : "crates1",
-      "rules" : [
-        [ "maxSpawnCount", [1] ]
-      ],
-      "def" : [ "tmx", "crates1.json" ]
-    },
-    {
-      "name" : "crates2",
-      "rules" : [
-        [ "maxSpawnCount", [1] ]
-      ],
-      "def" : [ "tmx", "crates2.json" ]
-    },
-    {
-      "name" : "crates3",
-      "rules" : [
-        [ "maxSpawnCount", [1] ]
-      ],
-      "def" : [ "tmx", "crates3.json" ]
-    },
-    {
-      "name" : "hydroponic1",
-      "rules" : [
-        [ "maxSpawnCount", [1] ]
-      ],
-      "def" : [ "tmx", "hydroponic1.json" ]
     }
   ]
 }
