@@ -3,7 +3,7 @@
  "properties":
     {},
  "spacing":0,
- "tilecount":30,
+ "tilecount":31,
  "tileheight":8,
   "tileproperties" : {
       "0" : {
@@ -95,6 +95,9 @@
       },
       "29" : {
           "material" : "purpleconsole"
+      },
+      "30" : {
+          "material" : "junk"
       }
     },
       
@@ -219,6 +222,10 @@
      "9":
         {
          "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/peglacicablenexus.png"
+        },
+     "30":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/junk.png"
         }
     },
  "tilewidth":8
