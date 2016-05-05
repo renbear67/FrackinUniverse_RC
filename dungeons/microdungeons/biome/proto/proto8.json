@@ -288,7 +288,7 @@
                     {
                      "monster":"fumoontant"
                     },
-                 "rotation":-2,
+                 "rotation":0,
                  "type":"",
                  "visible":true,
                  "width":8,
@@ -303,7 +303,7 @@
                     {
                      "monster":"fumoontant"
                     },
-                 "rotation":-2,
+                 "rotation":0,
                  "type":"",
                  "visible":true,
                  "width":8,

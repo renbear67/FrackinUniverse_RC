@@ -80,12 +80,12 @@
                     {
                      "monster":"tentaclecometspore"
                     },
-                 "rotation":-2,
+                 "rotation":0,
                  "type":"",
                  "visible":true,
                  "width":8,
-                 "x":72,
-                 "y":24
+                 "x":200,
+                 "y":192
                 }],
          "opacity":1,
          "type":"objectgroup",
