@@ -81,7 +81,7 @@
                      "npc":"human",
                      "typeName":"bandit"
                     },
-                 "rotation":-2,
+                 "rotation":0,
                  "type":"",
                  "visible":true,
                  "width":8,
