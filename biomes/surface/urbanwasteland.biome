@@ -148,7 +148,7 @@
           "distribution" : "/biomes/distributions.config:randomEncounter",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "randomencounter" ] 
+          "microdungeons" : [ "randomencounter", "junkmini", "fulabs", "fushops", "fuwastelanddungeons" ] 
         },
         {
           "mode" : "floor",
@@ -299,15 +299,6 @@
 
           "type" : "microdungeon",
           "microdungeons" : [ "wastelandbuildings" ]
-        },
-        {
-          "mode" : "floor",
-          "priority" : 3.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:rareClumpySmall",
-
-          "type" : "microdungeon",
-          "microdungeons" : [ "junkmini", "fulabs", "fushops", "fuwastelanddungeons" ]
         },
         {
           "mode" : "floor",

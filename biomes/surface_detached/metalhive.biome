@@ -4,7 +4,7 @@
   "hueShiftOptions" : [-40, -25, 0, 25, 40],
 
     "mainBlock" : "steelhive",
-    "subBlocks" : [ "steelash", "steelsand", "steelrock" ],
+    "subBlocks" : [ "steelsand", "steelrock" ],
     "ores" : "ff_honeyOres",
   "spawnProfile" : {
     "groups" : [
