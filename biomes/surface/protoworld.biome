@@ -225,7 +225,7 @@
           "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "protomini", "protomini2" ]
+          "microdungeons" : [ "protomini", "protomini2", "furedhives" ]
         },
         {
           "mode" : "floor",

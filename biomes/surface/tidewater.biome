@@ -158,6 +158,15 @@
           }
         ]
       },
+        {
+          "mode" : "floor",
+          "priority" : 3.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:randomEncounter",
+
+          "type" : "microdungeon",
+          "microdungeons" : [ "newhumanmicro", "newavianmicro", "fuhives" ] 
+        },
       {
         "mode" : "floor",
         "priority" : 2.0,

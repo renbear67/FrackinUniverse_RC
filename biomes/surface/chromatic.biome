@@ -255,7 +255,7 @@
           "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "fleshmicrodungeons", "alpinemicrodungeons", "prismmicrodungeons" ]
+          "microdungeons" : [ "fleshmicrodungeons", "alpinemicrodungeons", "prismmicrodungeons", "fuhives", "furedhives" ]
         },    
       {
         "mode" : "floor",

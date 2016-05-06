@@ -256,7 +256,7 @@
         "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
 
         "type" : "microdungeon",
-        "microdungeons" : [ "forestmicrodungeons" ]
+        "microdungeons" : [ "forestmicrodungeons", "fuhives" ]
       },
 
       {

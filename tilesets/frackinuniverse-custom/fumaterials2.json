@@ -3,7 +3,7 @@
  "properties":
     {},
  "spacing":0,
- "tilecount":31,
+ "tilecount":70,
  "tileheight":8,
   "tileproperties" : {
       "0" : {
@@ -98,6 +98,123 @@
       },
       "30" : {
           "material" : "junk"
+      },
+      "31" : {
+          "material" : "goldenleaves"
+      },
+      "32" : {
+          "material" : "goldensand"
+      },      
+      "33" : {
+          "material" : "goldenglass"
+      },          
+      "34" : {
+          "material" : "goldenwood"
+      },      
+      "35" : {
+          "material" : "goldenplank"
+      },
+      "36" : {
+          "material" : "fu_honeycombblock"
+      },      
+      "37" : {
+          "material" : "honeycrystalblock"
+      },      
+      "38" : {
+          "material" : "honeystone"
+      },
+      "39" : {
+          "material" : "honeystonebrick"
+      },     
+      "40" : {
+          "material" : "fu_redhoneycombblock"
+      },
+      "41" : {
+          "material" : "redwax"
+      },
+      "42" : {
+          "material" : "frozenwaxblock"
+      },
+      "43" : {
+          "material" : "waxblock"
+      },
+      "44" : {
+          "material" : "whitewaxblock"
+      },
+      "45" : {
+          "material" : "bloodsand"
+      },
+      "46" : {
+          "material" : "bloodstonetile"
+      },
+      "47" : {
+          "material" : "bloodstonetile2"
+      },
+      "48" : {
+          "material" : "ff_bloodstone"
+      },
+      "49" : {
+          "material" : "bioblock"
+      },
+      "50" : {
+          "material" : "bioblock2"
+      },
+      "51" : {
+          "material" : "biodirt"
+      },
+      "52" : {
+          "material" : "biogravel"
+      },      
+      "53" : {
+          "material" : "biostone"
+      },
+      "54" : {
+          "material" : "calichestone"
+      },
+      "55" : {
+          "material" : "iceblock1"
+      },
+      "56" : {
+          "material" : "iceblock2"
+      },
+      "57" : {
+          "material" : "iceblock3"
+      },
+      "58" : {
+          "material" : "iceblock4"
+      },      
+      "59" : {
+          "material" : "irradiatedtile"
+      },      
+      "60" : {
+          "material" : "irradiatedtile2"
+      },      
+      "61" : {
+          "material" : "irradiatedtile3"
+      },      
+      "62" : {
+          "material" : "magmatile1"
+      },      
+      "63" : {
+          "material" : "magmatile2"
+      },      
+      "64" : {
+          "material" : "magmatile3"
+      },      
+      "65" : {
+          "material" : "magmatile4"
+      },      
+      "66" : {
+          "material" : "sulphurdirt"
+      },      
+      "67" : {
+          "material" : "sulphurstone"
+      },      
+      "68" : {
+          "material" : "veinblock"
+      },     
+      "69" : {
+          "material" : "blackslime"
       }
     },
       
@@ -226,6 +343,162 @@
      "30":
         {
          "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/junk.png"
+        },
+     "31":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/goldenleaves.png"
+        },
+     "32":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/goldensand.png"
+        },
+     "33":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/goldenglass.png"
+        },
+     "34":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/goldenwood.png"
+        },
+     "35":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/goldenplank.png"
+        },
+     "36":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/honeycombblock.png"
+        },
+     "37":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/honeycrystalblock.png"
+        },
+     "38":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/honeystone.png"
+        },
+     "39":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/honeystonebrick.png"
+        },
+     "40":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/redhoneycombblock.png"
+        },        
+      "41":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/redwax.png"
+        },       
+     "42":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/frozenwaxblock.png"
+        },  
+     "43":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/waxblock.png"
+        },  
+     "44":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/whitewaxblock.png"
+        },  
+     "45":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/bloodsand.png"
+        },  
+     "46":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/bloodstonetile.png"
+        },  
+     "47":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/bloodstonetile2.png"
+        },  
+     "48":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/ff_bloodstone.png"
+        },  
+     "49":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/bioblock.png"
+        },  
+     "50":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/bioblock2.png"
+        },  
+     "51":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/biodirt.png"
+        },  
+     "52":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/biogravel.png"
+        },  
+     "53":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/biostone.png"
+        },  
+     "54":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/calichestone.png"
+        },  
+     "55":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/iceblock1.png"
+        },  
+     "56":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/iceblock2.png"
+        },  
+     "57":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/iceblock3.png"
+        },  
+     "58":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/iceblock4.png"
+        },  
+     "59":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/irradiatedtile.png"
+        },  
+     "60":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/irradiatedtile2.png"
+        },  
+     "61":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/irradiatedtile3.png"
+        },  
+     "62":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/magmatile1.png"
+        },  
+     "63":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/magmatile2.png"
+        },  
+     "64":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/magmatile3.png"
+        },  
+     "65":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/magmatile4.png"
+        },  
+     "66":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/sulphurdirt.png"
+        },  
+     "67":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/sulphurstone.png"
+        },  
+     "68":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/veinblock.png"
+        },  
+     "69":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/blackslime.png"
         }
     },
  "tilewidth":8

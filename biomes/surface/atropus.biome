@@ -510,7 +510,7 @@
           "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "fleshmicrodungeons" ]
+          "microdungeons" : [ "fleshmicrodungeons", "furedhives" ]
         },
         {
           "mode" : "floor",

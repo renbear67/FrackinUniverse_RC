@@ -246,7 +246,7 @@
         "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
 
         "type" : "microdungeon",
-        "microdungeons" : [ "desertmicrodungeons" ]
+        "microdungeons" : [ "desertmicrodungeons", "fuhives", "furedhives" ]
       },
       {
         "mode" : "floor",

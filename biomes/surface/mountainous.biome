@@ -261,7 +261,7 @@
           "variants" : 1,
           "distribution" : "/biomes/distributions.config:randomEncounter",
           "type" : "microdungeon",
-          "microdungeons" : [ "alpinemicrodungeons" ]
+          "microdungeons" : [ "alpinemicrodungeons", "furedhives" ]
         },	
         {
           "mode" : "floor",

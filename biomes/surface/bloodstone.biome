@@ -285,7 +285,7 @@
           "distribution" : "/biomes/distributions.config:randomEncounter",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "randomencounter", "prismmicrodungeons", "fleshmicrodungeons" ]
+          "microdungeons" : [ "randomencounter", "prismmicrodungeons", "fleshmicrodungeons", "furedhives" ]
         },  
         {
           "mode" : "floor",
