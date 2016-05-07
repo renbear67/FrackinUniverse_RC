@@ -107,6 +107,19 @@
       "dayLightColor" : [184, 197, 182],
       "eveningLightColor" : [126, 166, 138],
       "nightLightColor" : [24, 28, 24]
+    },
+    {
+      "mainColor" : [255, 0, 0],
+
+      "morningColors" : [ [222, 12, 12], [222, 12, 12] ],
+      "dayColors" : [ [244, 24, 24], [244, 24, 24] ],
+      "eveningColors" : [ [186, 36, 36], [166, 36, 36] ],
+      "nightColors" : [ [50, 0, 0], [0, 0, 0] ],
+
+      "morningLightColor" : [222, 12, 12],
+      "dayLightColor" : [184, 24, 24],
+      "eveningLightColor" : [126, 36, 36],
+      "nightLightColor" : [40, 0, 0]
     }
 
 
@@ -114,7 +127,7 @@
   
   
     "mainBlock" : "drysand",
-    "subBlocks" : [ "ash", "retexrock15", "bonematerial", "brittlejunk" ],
+    "subBlocks" : [ "ash", "retexrock15", "brittlejunk" ],
     "ores" : "surfaceOres",
     "parallax" : "/parallax/surface/urbanwasteland.parallax",
 

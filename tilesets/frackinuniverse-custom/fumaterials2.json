@@ -3,7 +3,7 @@
  "properties":
     {},
  "spacing":0,
- "tilecount":70,
+ "tilecount":71,
  "tileheight":8,
   "tileproperties" : {
       "0" : {
@@ -215,6 +215,9 @@
       },     
       "69" : {
           "material" : "blackslime"
+      },
+      "70" : {
+          "material" : "honeycombmaterial"
       }
     },
       
@@ -366,7 +369,7 @@
         },
      "36":
         {
-         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/honeycombblock.png"
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/fuhoneycombblock.png"
         },
      "37":
         {
@@ -499,7 +502,11 @@
      "69":
         {
          "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/blackslime.png"
-        }
+        },
+      "70":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/honeycombblock.png"
+        }       
     },
  "tilewidth":8
 }

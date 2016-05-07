@@ -3,7 +3,7 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJzt2kGOwyAMBVAu0VvNoeYQXczF2l1yllHUIiHX4G8wkBJ\/yUonotSvkMyieYbw+\/S6VD1CCCvUlayIeXZvI82zexppjudWDGd27zpxr3tXinvdu1Lc696VcjXvEfe6d6W4d6z37\/aqUZnpjdZv8Fr0qfVafC8jvXS8dg6L73iUl1vLb\/Zyf3Pja\/u1utatvbSs+rW6r9V4ORPqlebLjbW4XxzRenMuxK+dD+l\/hLfUZ86Smwu1opHmsrh+ERPSVw+rpVcyIe9Hrg3NnLHumblqvVahPaaldXNzndVLrXelNc4lhXpzv\/\/2DDUeOY5bcrQqai393p3LBp6TkvaVO19rTMvCu5HXWi\/Xp4U3AF7NnkY+T+Olr7WfJ3k1z6tIvaa1v0sycr6Sdwd8NI\/kqHlGp9R3zltyl3pN54nOXEl7KfaufQarFMRM3agXsVp5U7cUjRndjxZerTUWQIa82muwdh+3WGPV\/E\/Yw6cd3a\/o2nLV4pSsP+8qmbk+W7yIe+S6SmuuMYxeY0uf1l7j7L2fW9cTsaH718LaYu95T7JeUwtzb+MIq8adOlo8Z7D2un+f1dliRt\/HjZvp1PrR8bP7bzHP7sPrevUPmeeepA==",
+         "data":"eJzt2mtqAzEMBGBfYu\/bY+xZco\/mX+5SQlnYGFuaGcl2yCYgCuk+\/K3GSqG5l\/Jz\/9al6reU8gl1JStiXr22mebVa5ppPt77xFfL\/PXOf+3bf2W\/Znlvm127U1mvEV7PhtYId6aX7d3t9JM99928Xj6tZ4DaV3oVA\/sMMvqc4a3zaTnVvlvuVV7Uyviz53fUy64X7XlrlvVyxJizvZaDmUVIPpReR7xejlErejyTccQc9XoO5W8Mdf9ne9WsRsy9a8zwIuu2ZpFiXuFlemb1KFLna430Mj1jfp\/5LLK8yDqZzxZ0jq3w1vdn1oVYlBkww8vsV7S\/6syLmLO8vTmS1Vvlmahetm\/ovGL6q2SB9Uay6h3H9nimF3FYeykjq4i3dd2IV50fK7zn90Z5mUyze2OVl1krk4fofUZ61Uz21m\/lg7mPlYcML5o3pJ9sz9Xn3\/KiewW5B5tfZV\/01tG6Xu19VpYXdSKmlgvZJy1v\/f9uxRqZwXVOkUyomYl4rf4yvUWuEdlPmV42Y5GMsNba27JGe8zOJ+aZePfyzrW82X2OeJkcWL33vn+lOtn3PWvLY2W3d90RXjbn2V7rOOQ7dpGMsebIs8mwWm5133nrZ83W71hjy6zmMDqXlN4\/nHls1fPcR3m9vzLLPLN3HHKtY60Z3qP27dXPZlmdB9Z16zVG86x6kd5E9kltzLDWdb4X6rVsjPWc2ZZ3VGV9frDWeo\/OsFqzDC3V2vLOsvbmGVOW1zt3tjNiPp\/Xm7H1ce\/gZP3o8avXHzGvXse3rld\/lt7J7w==",
          "encoding":"base64",
          "height":60,
          "name":"back",
@@ -16,7 +16,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt1GtugzAQBGAukZvnR5u7cZcqaq2uVvsYs7YpZUZaJYEY74cN28YwDMMwDMMwDMMwDMMwDMMwzJXy8fiuVePOTqXv1d7qfM16B6+0VvbzKnNlrs\/HtbzVuUZ7Z5uRed6mVtbxSr967EwzOof0NvNM6wwzMoc+p92WeUQPK71tHus44kX7zKyjzeh8s8xnea1eZ3uzOV4\/1X4\/g\/LSzuseo54r5qjHZ+L0vN51d8O7O+aR3qinHq83rx67b79leaXZc\/d49XUQp2fNvJG14kXdlrH9fqlPxBqV3Lf7hnkt81Gv3sO65DNonev1SpdlzbzvstamlX5nRPclsmZ1ZK3RtdVeadbPou4r8mp35KoYR3ibWfaMeHvW1HonZR5rbO9e9rzarL3Re3bWnpXPqrT2eiOzdFt9e9ae9UXW3LIeWVvEm5l1tTGZN7sHVh+eb7RX9x95onHos1yxIt7M3Lt+3vj2XR6L3rFHCw1qRdYNsUrzamtkzvZo9j\/v3ChjxYuYrTXrsc6qSjIvck+u4Oxxn12zcrZrlVPnLk6dOxiPJOr7P\/j+ar4AEsqj6w==",
+         "data":"eJztlwlqxDAMRX2J9hw97pwld5m7lEJDjdDytSVOmg+CWRJJz7Jle4xHjx49evTofto+ZEPevYI0xoitKinf16\/N3+n\/V2SW+CR+zhAfq8ji9HBzY7ASM80RkTQG9LPEfaZoTqgi82AFbi4Xj+Z30Lm\/GrNXM+\/8212Zueepn9X6GZcHKokXjXNmrSNzzcM7x+me2y\/Q51Fj3923PWN51P7RUeNof8z2bU9+VWOrnZ8izJ3zusqP5g+pX6Z3Hyn0bOzhWJnZcw9YmQOV995zZebIPW9\/70zmaOwMbyfzZuQTic3ttx517D\/0rlQZO8tL42bF3Q2t2OjZd34+s49X8Up3YCu2N34lb5Q5wrrH9saP9qr5c\/RMS9+r6Jvo+e\/Hvj554+JH7hUSb0XfjJx3JVYpB4kXYdZYI\/W1mLX6VDAjrBJvZk9FeaU6RfYH6zmL1bsmqI8389xbYabcmf4t5bgJsTy81M97\/JnFq62lKl5uDClfpt9ZvDszOucz0mpKn4v61HjHsHkrRVnnfKP+srzVzFzPy9RT8m\/1ql3zGu5g7up3s+8K3mrmTl5kL9o196xu5g5\/nrW760jmKj8ar6V5XLrXcoUPbd1GeTvrHBXCivCOwfOuwq2d5aO8Y8h11s640n25wjQ+jtPDyjFr94kudm8ts7weZok7wo5wWswZIawou9eO5OS4PcyZMUD8dXFSZnR+e5i1dVi9Riu4j7az9B8YI9LyvgPfqvoGTb1B5g==",
          "encoding":"base64",
          "height":60,
          "name":"front",
@@ -84,8 +84,8 @@
                  "type":"",
                  "visible":true,
                  "width":24,
-                 "x":136,
-                 "y":104
+                 "x":232,
+                 "y":224
                 }, 
                 {
                  "height":24,
@@ -98,8 +98,8 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":24,
-                 "x":352,
+                 "width":16,
+                 "x":312,
                  "y":168
                 }, 
                 {
@@ -113,9 +113,9 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":24,
-                 "x":248,
-                 "y":88
+                 "width":16,
+                 "x":344,
+                 "y":336
                 }, 
                 {
                  "height":24,
@@ -129,8 +129,8 @@
                  "type":"",
                  "visible":true,
                  "width":96,
-                 "x":192,
-                 "y":152
+                 "x":112,
+                 "y":336
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -423,115 +423,115 @@
  "tilesets":[
         {
          "firstgid":1,
-         "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/assets\/unpacked-stable\/tilesets\/packed\/materials.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/materials.json"
         }, 
         {
          "firstgid":179,
-         "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/assets\/unpacked-stable\/tilesets\/packed\/supports.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/supports.json"
         }, 
         {
          "firstgid":213,
-         "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/assets\/unpacked-stable\/tilesets\/packed\/miscellaneous.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/miscellaneous.json"
         }, 
         {
          "firstgid":231,
-         "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/assets\/unpacked-stable\/tilesets\/packed\/liquids.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/liquids.json"
         }, 
         {
          "firstgid":257,
-         "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-race\/generic.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-race\/generic.json"
         }, 
         {
          "firstgid":1556,
-         "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-race\/apex.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-race\/apex.json"
         }, 
         {
          "firstgid":1893,
-         "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-race\/human.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-race\/human.json"
         }, 
         {
          "firstgid":2153,
-         "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-race\/hylotl.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-race\/hylotl.json"
         }, 
         {
          "firstgid":2355,
-         "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/crafting.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/crafting.json"
         }, 
         {
          "firstgid":2415,
-         "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/decorative.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/decorative.json"
         }, 
         {
          "firstgid":3413,
-         "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/door.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/door.json"
         }, 
         {
          "firstgid":3506,
-         "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/farmable.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/farmable.json"
         }, 
         {
          "firstgid":3578,
-         "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/furniture.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/furniture.json"
         }, 
         {
          "firstgid":3859,
-         "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/light.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/light.json"
         }, 
         {
          "firstgid":4230,
-         "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/pot.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/pot.json"
         }, 
         {
          "firstgid":4490,
-         "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/sapling.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/sapling.json"
         }, 
         {
          "firstgid":4491,
-         "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/storage.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/storage.json"
         }, 
         {
          "firstgid":4686,
-         "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/teleporter.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/teleporter.json"
         }, 
         {
          "firstgid":4710,
-         "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/trap.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/trap.json"
         }, 
         {
          "firstgid":4885,
-         "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/wire.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/wire.json"
         }, 
         {
          "firstgid":5031,
-         "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-type\/container.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-type\/container.json"
         }, 
         {
          "firstgid":5269,
-         "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-type\/loungeable.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-type\/loungeable.json"
         }, 
         {
          "firstgid":5480,
-         "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/assets\/unpacked-stable\/tilesets\/packed\/huge-objects.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/huge-objects.json"
         }, 
         {
          "firstgid":5492,
-         "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/giraffe_storage\/mods\/FrackinUniverse\/tilesets\/frackinuniverse-custom\/fumaterials2.json"
+         "source":"..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/fumaterials2.json"
         }, 
         {
-         "firstgid":5562,
-         "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/giraffe_storage\/mods\/FrackinUniverse\/tilesets\/frackinuniverse-custom\/fu_labgear.json"
+         "firstgid":5563,
+         "source":"..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/fu_labgear.json"
         }, 
         {
-         "firstgid":5596,
-         "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/giraffe_storage\/mods\/FrackinUniverse\/tilesets\/frackinuniverse-custom\/fu_labmaterials.json"
+         "firstgid":5597,
+         "source":"..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/fu_labmaterials.json"
         }, 
         {
-         "firstgid":5608,
-         "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/giraffe_storage\/mods\/FrackinUniverse\/tilesets\/frackinuniverse-custom\/fu_stations.json"
+         "firstgid":5609,
+         "source":"..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/fu_stations.json"
         }, 
         {
-         "firstgid":5672,
-         "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/giraffe_storage\/mods\/FrackinUniverse\/tilesets\/frackinuniverse-custom\/fu_liquids.json"
+         "firstgid":5673,
+         "source":"..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/fu_liquids.json"
         }],
  "tilewidth":8,
  "version":1,
