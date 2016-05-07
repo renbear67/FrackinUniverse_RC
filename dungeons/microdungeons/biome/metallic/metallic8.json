@@ -3,7 +3,7 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJzt2kEKgzAQRuFcwvt2296v7rxLW0ppCUgzGcckf96DAYVB8oE7XVO6rMxUc08pKcxM1hKz57m9tmce4ey15WZV56f83Z7Rqxxe\/fBqh1c7vNrh1Q6vdkd4r8t7bsv3OmrHG157eON2vOG1hzduxxtee3jjdrzhtYc3bscbXnt443a8\/Xpfsz3vlSf\/3t36PHjx4sVb6lU27\/1\/1fpceOOsiuZ\/1hm9KuZSq4LXYlUw13hHNddaR\/R6rKOZj7COYj7S2rM5wtmrOdrai\/ksZ2tzC+dZ9sjzPgCc2YYo",
+         "data":"eJzt2sttAyEQBmCacFcpKtfkmGrSiH1b15KLR0FoHv\/wNoA0shXDej4Y2I3kRwifjxNbxT2EsELsZEXMo3PraR6dU0\/z6FzQ+LrZgZhHOzzebyVW9XLrerz53lka1e1vEqt6aS2Pd06vdA8pHT+rl3KO7x\/esTt636WeKefjxcfu6N1h\/1r\/J6zs3aGej3d+b8nzVY\/9O1OzvOncre5N98cM3h71TG0GL+Xd8ryidrzH6\/X+3P7Dk3fL52e6Zi1vbEyjpRc9r2p5NWdvr1bPJV7E6DVbXuk6rb2WRfrcciPe+LWH17Nu3GfaGMkrzSnnrbl\/vfUp9bFqMn2+8s6b1TSvVNPv3DRrzj34Av9mtSuKmn1beK\/kvdd7MWH1fb7CapbXU9Ncnjlmbs6s7yOv9T2W1buHOScy95JP8z6ZsOb2Hr16fqOj5S15NbdWC\/F1JKfX6\/0NltYQc+pGvYi1ljd2W81jRvd7Da\/XSgGQIW+aZ64ZPRNzrBTWeSytcWpH6xVdWy5KnJb14xWamcuzxIu4e66rteYeQ+81runz2nOcreu5dD0RG1q\/Nawl9pZnUu01rWFubexh9bhjR4lnBmur83tWZ4kZHcf1G+n0+tH+o\/MvMY\/O48R+8QfY0m+K",
          "encoding":"base64",
          "height":60,
          "name":"back",
@@ -16,7 +16,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt1cENgzAMhWGWaEfpju2hYkF26aVIaeQQF5Jnx3m\/ZKkXMB8guiyMMcYYY4wxxpjc82Y\/M1lR5n3Py8EgzLN7Ld5hevtaS97eIb2SFW1Ge1Pj+zu5u2cW3lXwrsG86Z6aF\/H9QHnTXaX3OYpX2iftjeDN983wf2S503I3vfRG2k0vvZF2l3Zuy+8gd7cqN1iP9l5rh15fQ69fb4tze\/bW8ujVXFeL8vN58yKS\/BZeVFv2O\/rzla5hFu9+Hdbfq8cdO\/Se99bepUjeWrXj6cVPK+soXq1bm3dvq2erdXsxtXJqzFfvw1lPD+MVewSn1L\/2UZ1HjeD5AMX1z34=",
+         "data":"eJzt2GEKwyAMhmEv0UP37+7Xu5SyDYrYxpgYY\/xe8M9wkoeWsi4lhBBCmu1b\/YpQrQPeOYNXts97M3k5z1bpc9eD92o1rzR4Zfu8B69sn\/fgTemzfRe1L1IreP\/XdZXrm3vv5kjekjM3w2uf1vvCTP\/n4H2hvtW8V\/DK9nkPXtk+hI7fit5RWHlP7ystaZ3TUsmau9\/eVzhpnCGJslK\/3zkzU9\/V\/t1J2bjOfLWex5mLug9bvFpGznkjvU+z3j\/jnmFxjSXeXvdcz1Vq9Ezw9rPCG2fBG9dMNXo+ePt6o5lrGz2npTWKuaXRM1taZzRrNtpi5fRstmoVZ94Kxpbe5o7g89oJwNf\/Dg==",
          "encoding":"base64",
          "height":60,
          "name":"front",
@@ -45,7 +45,135 @@
          "draworder":"topdown",
          "height":0,
          "name":"objects",
-         "objects":[],
+         "objects":[
+                {
+                 "gid":5556,
+                 "height":40,
+                 "id":863,
+                 "name":"",
+                 "properties":
+                    {
+
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":336,
+                 "y":288
+                }, 
+                {
+                 "gid":5556,
+                 "height":40,
+                 "id":864,
+                 "name":"",
+                 "properties":
+                    {
+
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":416,
+                 "y":288
+                }, 
+                {
+                 "gid":5556,
+                 "height":40,
+                 "id":865,
+                 "name":"",
+                 "properties":
+                    {
+
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":336,
+                 "y":192
+                }, 
+                {
+                 "gid":2147487586,
+                 "height":32,
+                 "id":869,
+                 "name":"",
+                 "properties":
+                    {
+
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":48,
+                 "x":352,
+                 "y":288
+                }, 
+                {
+                 "gid":4018,
+                 "height":16,
+                 "id":877,
+                 "name":"",
+                 "properties":
+                    {
+
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":24,
+                 "x":344,
+                 "y":216
+                }, 
+                {
+                 "gid":4018,
+                 "height":16,
+                 "id":878,
+                 "name":"",
+                 "properties":
+                    {
+
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":24,
+                 "x":384,
+                 "y":216
+                }, 
+                {
+                 "gid":4018,
+                 "height":16,
+                 "id":880,
+                 "name":"",
+                 "properties":
+                    {
+
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":24,
+                 "x":344,
+                 "y":64
+                }, 
+                {
+                 "gid":4018,
+                 "height":16,
+                 "id":881,
+                 "name":"",
+                 "properties":
+                    {
+
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":24,
+                 "x":384,
+                 "y":64
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -71,22 +199,7 @@
          "draworder":"topdown",
          "height":0,
          "name":"monsters & npcs",
-         "objects":[
-                {
-                 "height":8,
-                 "id":997,
-                 "name":"",
-                 "properties":
-                    {
-                     "monster":"spiderwalker"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":24,
-                 "x":184,
-                 "y":96
-                }],
+         "objects":[],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -191,6 +304,22 @@
                 {
                  "gid":229,
                  "height":8,
+                 "id":721,
+                 "name":"",
+                 "properties":
+                    {
+
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":448,
+                 "y":40
+                }, 
+                {
+                 "gid":229,
+                 "height":8,
                  "id":722,
                  "name":"",
                  "properties":
@@ -235,6 +364,22 @@
                  "width":8,
                  "x":464,
                  "y":296
+                }, 
+                {
+                 "gid":217,
+                 "height":8,
+                 "id":728,
+                 "name":"",
+                 "properties":
+                    {
+
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":448,
+                 "y":40
                 }, 
                 {
                  "gid":217,
@@ -367,7 +512,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":999,
+ "nextobjectid":882,
  "orientation":"orthogonal",
  "properties":
     {
@@ -473,19 +618,19 @@
          "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/giraffe_storage\/mods\/FrackinUniverse\/tilesets\/frackinuniverse-custom\/fumaterials2.json"
         }, 
         {
-         "firstgid":5562,
+         "firstgid":5523,
          "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/giraffe_storage\/mods\/FrackinUniverse\/tilesets\/frackinuniverse-custom\/fu_labgear.json"
         }, 
         {
-         "firstgid":5596,
+         "firstgid":5557,
          "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/giraffe_storage\/mods\/FrackinUniverse\/tilesets\/frackinuniverse-custom\/fu_labmaterials.json"
         }, 
         {
-         "firstgid":5608,
+         "firstgid":5569,
          "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/giraffe_storage\/mods\/FrackinUniverse\/tilesets\/frackinuniverse-custom\/fu_stations.json"
         }, 
         {
-         "firstgid":5672,
+         "firstgid":5633,
          "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/giraffe_storage\/mods\/FrackinUniverse\/tilesets\/frackinuniverse-custom\/fu_liquids.json"
         }],
  "tilewidth":8,

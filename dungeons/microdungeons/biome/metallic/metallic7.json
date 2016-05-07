@@ -3,7 +3,7 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJzt2kEKgzAQRuFcwvt2296v7rxLW0ppCUgzGcckf96DAYVB8oE7XVO6rMxUc08pKcxM1hKz57m9tmce4ey15WZV56f83Z7Rqxxe\/fBqh1c7vNrh1Q6vdkd4r8t7bsv3OmrHG157eON2vOG1hzduxxtee3jjdrzhtYc3bscbXnt443a8\/Xpfsz3vlSf\/3t36PHjx4sVb6lU27\/1\/1fpceOOsiuZ\/1hm9KuZSq4LXYlUw13hHNddaR\/R6rKOZj7COYj7S2rM5wtmrOdrai\/ksZ2tzC+dZ9sjzPgCc2YYo",
+         "data":"eJzt2lEKwjAMBuBeYuBxfe0eZJdzb95FhwqhrGubJmnT5ocfUevM56ZMdHfuvlun6tM5N0JnsuaYa7bba2JmDbNjE5pHdf4THtszekeOhNcv37bexhFJ7wbqF9ztFJHcvz6YfzspvA8+Tpv3zJZb8+JjxzNtZvq88gt9a8Pl5bBSmKm9cK6VobVujv0LvZT7da20cnmPwPkk16ViXpqUHM+l62rC7eX4vKqJ7V+azPz+lVyXinlpYl6ZdamYlyY585WcF2v3xs5HUuu1e3PPJ8yLi3lposF79PW5ftVb0NT6WGPfB2LbhN7Hr5jnDX\/vxs6P7Q1cXr2G8HWpeb5evFJt7ZWuedvPJOkd2Rz7\/1XruczLZx3RnLLO6B3FnGsdwVtiHcGM8Wo1Y60avTVWbWYKqxYzpbVnM4ezVzO3tRezlLO1uYVTys457xsvVPBg",
          "encoding":"base64",
          "height":60,
          "name":"back",
@@ -16,7 +16,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt1cENgzAMhWGWaEfpju2hYkF26aVIaeQQF5Jnx3m\/ZKkXMB8guiyMMcYYY4wxxpjc82Y\/M1lR5n3Py8EgzLN7Ld5hevtaS97eIb2SFW1Ge1Pj+zu5u2cW3lXwrsG86Z6aF\/H9QHnTXaX3OYpX2iftjeDN983wf2S503I3vfRG2k0vvZF2l3Zuy+8gd7cqN1iP9l5rh15fQ69fb4tze\/bW8ujVXFeL8vN58yKS\/BZeVFv2O\/rzla5hFu9+Hdbfq8cdO\/Se99bepUjeWrXj6cVPK+soXq1bm3dvq2erdXsxtXJqzFfvw1lPD+MVewSn1L\/2UZ1HjeD5AMX1z34=",
+         "data":"eJztllEOgyAQRL2EvUePWX9qej\/v0vpBQiiKC8syyLxk\/mSdByYyTYQQQu7Oe64fJF5z\/SAyiqfP3nFRSA+uO853\/eX5kGelLzT0pS99+\/Qd4f9rcZdEulP6Z6Fxz4jdO9DO2vfV\/JYXQFeHZr\/QFxHtfvTFgr5Y87ShL9Y8beiLNU8b+mLN04a+WPMkfObz1OjXwjflGUazn5tp4Sv1TJ19ybtTvrnv0faU+kvX5u7v5iWnf7hum\/5jsY9HHc58U\/1iz8XWp3I0U9NT4itxznEt3SNJl6u+sXPQcraMxLf0TBCS49tzYrTuRF\/60pe+9B3L94zW3Sxd6dt3rtC6o7XvXZxzaN3ZyrM351q09rLyDBnFM0ZvPl9d2OG7",
          "encoding":"base64",
          "height":60,
          "name":"front",
@@ -45,7 +45,23 @@
          "draworder":"topdown",
          "height":0,
          "name":"objects",
-         "objects":[],
+         "objects":[
+                {
+                 "gid":2757,
+                 "height":40,
+                 "id":1056,
+                 "name":"",
+                 "properties":
+                    {
+
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":32,
+                 "x":432,
+                 "y":296
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -74,18 +90,18 @@
          "objects":[
                 {
                  "height":8,
-                 "id":997,
+                 "id":999,
                  "name":"",
                  "properties":
                     {
-                     "monster":"spiderwalker"
+                     "monster":"warbot"
                     },
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":24,
-                 "x":184,
-                 "y":96
+                 "width":8,
+                 "x":88,
+                 "y":168
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -367,7 +383,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":999,
+ "nextobjectid":1057,
  "orientation":"orthogonal",
  "properties":
     {
