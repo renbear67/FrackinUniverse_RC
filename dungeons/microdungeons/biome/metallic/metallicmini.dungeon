@@ -5,7 +5,7 @@
     "rules" : [
     ],
 
-    "anchor" : [ "metallic1", "metallic2", "metallic3", "metallic4", "metallic5", "metallic6", "metallic7", "metallic8" ],
+    "anchor" : [ "metallic1", "metallic2", "metallic3", "metallic4", "metallic5", "metallic6", "metallic7", "metallic8", "metallic9", "metallic10", "metallic11", "metallic12", "metallic13", "metallic14", "metallic15" ],
 
     "gravity" : 80,
     "maxRadius" : 1000000,
@@ -69,6 +69,55 @@
         [ "maxSpawnCount", [1] ]
       ],
       "def" : [ "tmx", "metallic8.json" ]
-    }    
+    },
+    {
+      "name" : "metallic9",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "metallic9.json" ]
+    },
+    {
+      "name" : "metallic10",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "metallic10.json" ]
+    },
+    {
+      "name" : "metallic11",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "metallic11.json" ]
+    },
+    {
+      "name" : "metallic12",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "metallic12.json" ]
+    },
+    {
+      "name" : "metallic13",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "metallic13.json" ]
+    },
+    {
+      "name" : "metallic14",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "metallic14.json" ]
+    },
+    {
+      "name" : "metallic15",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "metallic15.json" ]
+    }                
   ]
 }

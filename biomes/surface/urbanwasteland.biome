@@ -57,7 +57,7 @@
       "nightLightColor" : [40, 17, 17]
     },
     {
-      "mainColor" : [255, 255, 255],
+      "mainColor" : [255, 255, 100],
 
       "morningColors" : [ [203, 167, 56], [203, 108, 56] ],
       "dayColors" : [ [213, 174, 93], [228, 190, 70] ],
@@ -70,7 +70,7 @@
       "nightLightColor" : [17, 19, 56]
     },
     {
-      "mainColor" : [255, 255, 255],
+      "mainColor" : [255, 24, 255],
 
       "morningColors" : [ [203, 167, 56], [203, 108, 56] ],
       "dayColors" : [ [179, 120, 125], [190, 140, 150] ],
@@ -96,7 +96,7 @@
       "nightLightColor" : [28, 14, 14]
     },
     {
-      "mainColor" : [255, 255, 255],
+      "mainColor" : [55, 255, 255],
 
       "morningColors" : [ [167, 255, 152], [163, 255, 208] ],
       "dayColors" : [ [152, 228, 169], [205, 243, 193] ],
@@ -120,6 +120,32 @@
       "dayLightColor" : [184, 24, 24],
       "eveningLightColor" : [126, 36, 36],
       "nightLightColor" : [40, 0, 0]
+    },
+    {
+      "mainColor" : [180, 30, 90],
+
+      "morningColors" : [ [222, 12, 12], [222, 12, 12] ],
+      "dayColors" : [ [244, 24, 24], [244, 24, 24] ],
+      "eveningColors" : [ [186, 36, 36], [166, 36, 36] ],
+      "nightColors" : [ [50, 0, 0], [0, 0, 0] ],
+
+      "morningLightColor" : [222, 12, 12],
+      "dayLightColor" : [184, 24, 24],
+      "eveningLightColor" : [126, 36, 36],
+      "nightLightColor" : [40, 0, 0]
+    },
+     {
+       "mainColor" : [60, 200, 60],
+ 
+       "morningColors" : [ [222, 12, 12], [222, 12, 12] ],
+       "dayColors" : [ [244, 24, 24], [244, 24, 24] ],
+       "eveningColors" : [ [186, 36, 36], [166, 36, 36] ],
+       "nightColors" : [ [50, 0, 0], [0, 0, 0] ],
+ 
+       "morningLightColor" : [222, 12, 12],
+       "dayLightColor" : [184, 24, 24],
+       "eveningLightColor" : [126, 36, 36],
+       "nightLightColor" : [40, 0, 0]
     }
 
 
