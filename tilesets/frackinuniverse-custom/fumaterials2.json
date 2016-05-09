@@ -3,7 +3,7 @@
  "properties":
     {},
  "spacing":0,
- "tilecount":71,
+ "tilecount":85,
  "tileheight":8,
   "tileproperties" : {
       "0" : {
@@ -218,7 +218,49 @@
       },
       "70" : {
           "material" : "honeycombmaterial"
-      }
+      },
+      "71" : {
+          "material" : "peglacimetalpanel"
+      },
+      "72" : {
+          "material" : "avalidarkmetal"
+      },
+      "73" : {
+          "material" : "avalidarkmetal3"
+      },      
+      "74" : {
+          "material" : "avalidisplay"
+      },      
+      "75" : {
+          "material" : "avaliglass"
+      },      
+      "76" : {
+          "material" : "avalipaneling"
+      },     
+      "77" : {
+          "material" : "avalipaneling2"
+      },      
+      "78" : {
+          "material" : "avaliplain"
+      },        
+      "79" : {
+          "material" : "avalitiles"
+      },  
+      "80" : {
+          "material" : "campbigpole"
+      },        
+      "81" : {
+          "material" : "campcanvas"
+      },        
+      "82" : {
+          "material" : "camppole"
+      },        
+      "83" : {
+          "material" : "camptapestry1"
+      },        
+      "84" : {
+          "material" : "camptapestry2"
+      }  
     },
       
  "tiles":
@@ -506,6 +548,62 @@
       "70":
         {
          "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/honeycombblock.png"
+        },
+      "71":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/peglacimetalpanel.png"
+        },
+      "72":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/avalidarkmetal.png"
+        },         
+      "73":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/avalidarkmetal3.png"
+        },         
+      "74":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/avalidisplay.png"
+        }, 
+      "75":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/avaliglass.png"
+        },         
+      "76":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/avalipaneling.png"
+        },         
+      "77":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/avalipaneling2.png"
+        },         
+      "78":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/avaliplain.png"
+        }, 
+      "79":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/avalitiles.png"
+        },         
+      "80":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/campbigpole.png"
+        }, 
+      "81":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/campcanvas.png"
+        },         
+      "82":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/camppole.png"
+        }, 
+      "83":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/camptapestry1.png"
+        }, 
+      "84":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/camptapestry2.png"
         }       
     },
  "tilewidth":8

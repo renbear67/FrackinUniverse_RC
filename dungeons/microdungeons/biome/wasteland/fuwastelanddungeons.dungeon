@@ -5,7 +5,7 @@
     "rules" : [
     ],
 
-    "anchor" : [ "wasteland1", "wasteland2", "wasteland3", "wasteland4" ],
+    "anchor" : [ "wasteland1", "wasteland2", "wasteland3", "wasteland4", "wasteland5" ],
 
     "gravity" : 80,
     "maxRadius" : 1000000,
@@ -41,6 +41,13 @@
         [ "maxSpawnCount", [1] ]
       ],
       "def" : [ "tmx", "wasteland4.json" ]
-    }
+    },
+    {
+      "name" : "wasteland5",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "wasteland5.json" ]
+    }    
   ]
 }
