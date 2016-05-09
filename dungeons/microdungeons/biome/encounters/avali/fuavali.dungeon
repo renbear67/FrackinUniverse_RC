@@ -1,0 +1,53 @@
+{
+  "metadata" : {
+    "name" : "fuavali",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ "avali1", "avali2", "avali3", "avali4", "avaliwell" ],
+
+    "gravity" : 90,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "avali1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "avali1.json" ]
+    },
+    {
+      "name" : "avali2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "avali2.json" ]
+    },    
+    {
+      "name" : "avali3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "avali3.json" ]
+    },
+    {
+      "name" : "avali4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "avali4.json" ]
+    },
+    {
+      "name" : "avaliwell",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "avaliwell.json" ]
+    }
+  ]
+}
