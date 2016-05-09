@@ -300,7 +300,7 @@
           "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "canyonmini", "icespikes", "icemini", "terrainfeatures" ]
+          "microdungeons" : [ "canyonmini", "icespikes", "terrainfeatures", "icemini", "icewastemini" ]
         },
         {
           "mode" : "floor",

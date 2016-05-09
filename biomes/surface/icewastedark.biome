@@ -232,7 +232,7 @@
           "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "canyonmini", "icespikes", "icemini", "terrainfeatures" ]
+          "microdungeons" : [ "canyonmini", "icespikes", "icemini", "terrainfeatures", "icewastemini" ]
         },
         {
           "mode" : "floor",

@@ -6827,24 +6827,24 @@
       "connector": false
     },
     {
-      "value": [
-        175,
-        0,
-        0,
-        255
-      ],
-      "comment": "glitch food merchant npc",
-      "brush": [
-        [
-          "npc",
+      "value" : [175, 0, 0, 255],
+      "comment" : "glitch merchant npc",
+      "brush" : [ [ "npc",
           {
-            "kind": "npc",
-            "species": "glitch",
-            "typeName": "merchant"
+            "kind" : "npc",
+            "species" : "glitch",
+            "typeName" : "wanderingmerchant",
+            // "seed" : "stable",
+            "parameters" : {
+              "scriptConfig" : {
+                "merchant" : {
+                  "categories" : [ "humanclothes" ],
+                  "numItems" : 10
+                }
+              }
+            }
           }
-        ]
-      ],
-      "connector": false
+        ] ]
     },
     {
       "value": [
@@ -6858,9 +6858,18 @@
         [
           "npc",
           {
-            "kind": "npc",
-            "species": "glitch",
-            "typeName": "merchant"
+            "kind" : "npc",
+            "species" : "glitch",
+            "typeName" : "wanderingmerchant",
+            // "seed" : "stable",
+            "parameters" : {
+              "scriptConfig" : {
+                "merchant" : {
+                  "categories" : [ "glitchclothes" ],
+                  "numItems" : 10
+                }
+              }
+            }
           }
         ]
       ],
@@ -6878,9 +6887,18 @@
         [
           "npc",
           {
-            "kind": "npc",
-            "species": "floran",
-            "typeName": "merchant"
+            "kind" : "npc",
+            "species" : "glitch",
+            "typeName" : "wanderingmerchant",
+            // "seed" : "stable",
+            "parameters" : {
+              "scriptConfig" : {
+                "merchant" : {
+                  "categories" : [ "humanclothes" ],
+                  "numItems" : 10
+                }
+              }
+            }
           }
         ]
       ],
@@ -6898,9 +6916,18 @@
         [
           "npc",
           {
-            "kind": "npc",
-            "species": "glitch",
-            "typeName": "merchant"
+            "kind" : "npc",
+            "species" : "glitch",
+            "typeName" : "wanderingmerchant",
+            // "seed" : "stable",
+            "parameters" : {
+              "scriptConfig" : {
+                "merchant" : {
+                  "categories" : [ "humanclothes" ],
+                  "numItems" : 10
+                }
+              }
+            }
           }
         ]
       ],
@@ -6918,9 +6945,18 @@
         [
           "npc",
           {
-            "kind": "npc",
-            "species": "glitch",
-            "typeName": "merchant"
+            "kind" : "npc",
+            "species" : "glitch",
+            "typeName" : "wanderingmerchant",
+            // "seed" : "stable",
+            "parameters" : {
+              "scriptConfig" : {
+                "merchant" : {
+                  "categories" : [ "humanclothes" ],
+                  "numItems" : 10
+                }
+              }
+            }
           }
         ]
       ],

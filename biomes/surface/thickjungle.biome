@@ -330,7 +330,7 @@
           "distribution" : "/biomes/distributions.config:randomEncounter",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "newhumanmicro", "newavianmicro", "minigreenruins", "junglemicrodungeons", "fuhives", "furandomencounter", "fuapexencounter", "fuglitchencounter", "fuavianencounter", "fuhumanencounter" ] 
+          "microdungeons" : [ "fuencounters", "fushops", "fulabs", "newhumanmicro", "newavianmicro", "minigreenruins", "junglemicrodungeons", "fuhives", "furandomencounter", "fuapexencounter", "fuglitchencounter", "fuavianencounter", "fuhumanencounter" ] 
         },
         {
           "mode" : "floor",

@@ -443,7 +443,7 @@
           "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "fleshmicrodungeons", "furedhives" ]
+          "microdungeons" : [ "fleshmicrodungeons", "furedhives", "atropusmini" ]
         },
         {
           "mode" : "floor",
@@ -452,7 +452,7 @@
           "distribution" : "/biomes/distributions.config:randomEncounter",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "fuencountercultist" ]
+          "microdungeons" : [ "fuencountercultist", "fuapexencounter", "furandomencounter" ]
         },      
         {
           "mode" : "floor",

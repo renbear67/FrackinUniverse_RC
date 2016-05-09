@@ -8234,9 +8234,18 @@
         [
           "npc",
           {
-            "kind": "npc",
-            "species": "avian",
-            "typeName": "merchant"
+            "kind" : "npc",
+            "species" : "avian",
+            "typeName" : "wanderingmerchant",
+            // "seed" : "stable",
+            "parameters" : {
+              "scriptConfig" : {
+                "merchant" : {
+                  "categories" : [ "avianclothes" ],
+                  "numItems" : 10
+                }
+              }
+            }
           }
         ]
       ],
@@ -8260,9 +8269,18 @@
         [
           "npc",
           {
-            "kind": "npc",
-            "species": "avian",
-            "typeName": "merchant"
+            "kind" : "npc",
+            "species" : "avian",
+            "typeName" : "wanderingmerchant",
+            // "seed" : "stable",
+            "parameters" : {
+              "scriptConfig" : {
+                "merchant" : {
+                  "categories" : [ "avianclothes" ],
+                  "numItems" : 10
+                }
+              }
+            }
           }
         ]
       ],
@@ -8286,9 +8304,18 @@
         [
           "npc",
           {
-            "kind": "npc",
-            "species": "avian",
-            "typeName": "merchant"
+            "kind" : "npc",
+            "species" : "avian",
+            "typeName" : "wanderingmerchant",
+            // "seed" : "stable",
+            "parameters" : {
+              "scriptConfig" : {
+                "merchant" : {
+                  "categories" : [ "avianclothes" ],
+                  "numItems" : 10
+                }
+              }
+            }
           }
         ]
       ],

@@ -165,7 +165,7 @@
           "distribution" : "/biomes/distributions.config:randomEncounter",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "newhumanmicro", "newavianmicro", "fuhives" ] 
+          "microdungeons" : [ "newhumanmicro", "newavianmicro", "fuhives", "furedhives", "fushops", "fuencounters" ] 
         },
       {
         "mode" : "floor",
