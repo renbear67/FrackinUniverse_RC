@@ -3,7 +3,7 @@
  "properties":
     {},
  "spacing":0,
- "tilecount":85,
+ "tilecount":86,
  "tileheight":8,
   "tileproperties" : {
       "0" : {
@@ -260,6 +260,9 @@
       },        
       "84" : {
           "material" : "camptapestry2"
+      },
+      "85" : {
+          "material" : "redhoneycombmaterial"
       }  
     },
       
@@ -604,7 +607,11 @@
       "84":
         {
          "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/camptapestry2.png"
-        }       
+        },
+      "85":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/redhoneycomb.png"
+        }         
     },
  "tilewidth":8
 }

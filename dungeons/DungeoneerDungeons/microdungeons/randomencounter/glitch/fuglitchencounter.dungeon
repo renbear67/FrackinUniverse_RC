@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "name": "glitchencounter",
+    "name": "fuglitchencounter",
     "species": "dummy",
     "rules": [],
     "maxRadius": 1000000,
@@ -6840,29 +6840,7 @@
           {
             "kind": "npc",
             "species": "glitch",
-            "typeName": "merchant",
-            "parameters": {
-              "scriptConfig": {
-                "noticePlayersRadius": 20.0,
-                "merchant": {
-                  "storeRadius": 15,
-                  "categories": [
-                    "glitchingredients"
-                  ],
-                  "priceVarianceRange": [
-                    0.8,
-                    1.2
-                  ],
-                  "numItems": 10
-                },
-                "sit": {
-                  "searchRadius": 10
-                },
-                "sleep": {
-                  "searchRadius": 20
-                }
-              }
-            }
+            "typeName": "merchant"
           }
         ]
       ],
@@ -6882,30 +6860,7 @@
           {
             "kind": "npc",
             "species": "glitch",
-            "typeName": "merchant",
-            "parameters": {
-              "scriptConfig": {
-                "noticePlayersRadius": 20.0,
-                "merchant": {
-                  "storeRadius": 15,
-                  "categories": [
-                    "glitchweaponblueprints",
-                    "randomswords"
-                  ],
-                  "priceVarianceRange": [
-                    0.8,
-                    1.2
-                  ],
-                  "numItems": 15
-                },
-                "sit": {
-                  "searchRadius": 8
-                },
-                "sleep": {
-                  "searchRadius": 20
-                }
-              }
-            }
+            "typeName": "merchant"
           }
         ]
       ],
@@ -6925,31 +6880,7 @@
           {
             "kind": "npc",
             "species": "floran",
-            "typeName": "merchant",
-            "parameters": {
-              "scriptConfig": {
-                "noticePlayersRadius": 20.0,
-                "merchant": {
-                  "storeRadius": 15,
-                  "categories": [
-                    "glitchweaponblueprints",
-                    "floranweaponblueprints",
-                    "randomswords"
-                  ],
-                  "priceVarianceRange": [
-                    0.8,
-                    1.2
-                  ],
-                  "numItems": 15
-                },
-                "sit": {
-                  "searchRadius": 8
-                },
-                "sleep": {
-                  "searchRadius": 20
-                }
-              }
-            }
+            "typeName": "merchant"
           }
         ]
       ],
@@ -6969,32 +6900,7 @@
           {
             "kind": "npc",
             "species": "glitch",
-            "typeName": "merchant",
-            "parameters": {
-              "scriptConfig": {
-                "noticePlayersRadius": 20.0,
-                "merchant": {
-                  "storeRadius": 15,
-                  "categories": [
-                    "glitcharmorblueprints",
-                    "floranarmorblueprints",
-                    "glitchclothes",
-                    "floranclothes"
-                  ],
-                  "priceVarianceRange": [
-                    0.8,
-                    1.2
-                  ],
-                  "numItems": 25
-                },
-                "sit": {
-                  "searchRadius": 8
-                },
-                "sleep": {
-                  "searchRadius": 20
-                }
-              }
-            }
+            "typeName": "merchant"
           }
         ]
       ],
@@ -7014,30 +6920,7 @@
           {
             "kind": "npc",
             "species": "glitch",
-            "typeName": "merchant",
-            "parameters": {
-              "scriptConfig": {
-                "noticePlayersRadius": 20.0,
-                "merchant": {
-                  "storeRadius": 15,
-                  "categories": [
-                    "glitcharmorblueprints",
-                    "glitchclothes"
-                  ],
-                  "priceVarianceRange": [
-                    0.8,
-                    1.2
-                  ],
-                  "numItems": 25
-                },
-                "sit": {
-                  "searchRadius": 8
-                },
-                "sleep": {
-                  "searchRadius": 20
-                }
-              }
-            }
+            "typeName": "merchant"
           }
         ]
       ],

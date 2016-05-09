@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "name": "minibossoverground",
+    "name": "fuminibossoverground",
     "species": "dummy",
     "rules": [],
     "maxRadius": 2000,
@@ -861,7 +861,7 @@
           "clear"
         ],
         [
-          "acid"
+          "bio_ooze"
         ]
       ],
       "connector": false,

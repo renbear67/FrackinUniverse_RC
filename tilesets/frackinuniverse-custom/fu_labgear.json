@@ -437,39 +437,33 @@
           "object" : "avalilightblock",
           "imagePositionX" : "0",
           "imagePositionY" : "0"
-      },      
+      },          
       "86" : {
-          "object" : "avalisolidlightblock",
-          "imagePositionX" : "0",
-          "imagePositionY" : "0"
-      },      
-      "87" : {
           "object" : "avalistriplight",
           "imagePositionX" : "0",
           "imagePositionY" : "0"
       },  
-      "88" : {
+      "87" : {
           "object" : "avalistriplight2",
           "imagePositionX" : "0",
           "imagePositionY" : "0"
       },    
-      
-      "89" : {
+      "88" : {
           "object" : "avalitable1",
           "imagePositionX" : "0",
           "imagePositionY" : "0"
       },        
-      "90" : {
+      "89" : {
           "object" : "avalitable2",
           "imagePositionX" : "0",
           "imagePositionY" : "0"
       },        
-      "91" : {
+      "90" : {
           "object" : "avalitable3",
           "imagePositionX" : "0",
           "imagePositionY" : "0"
       },        
-      "92" : {
+      "91" : {
           "object" : "avalitable4",
           "imagePositionX" : "0",
           "imagePositionY" : "0"
@@ -629,11 +623,6 @@
         {
          "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/labgear\/labdoor3.png"
         },
-        
-        
-        
-
-
      "34":
         {
          "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/aerostatsail1.png"
@@ -821,7 +810,7 @@
       "80":
         {
          "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/avalikitchenstove.png"
-        },         
+        },  
       "81":
         {
          "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/avalisample1.png"
@@ -833,7 +822,7 @@
       "83":
         {
          "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/avalisample3.png"
-        },     
+        },    
       "84":
         {
          "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/avaliaerogellight.png"
@@ -849,7 +838,7 @@
       "87":
         {
          "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/avalistriplight2.png"
-        },         
+        },   
       "88":
         {
          "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/avalitable1.png"
