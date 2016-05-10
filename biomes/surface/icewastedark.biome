@@ -250,7 +250,7 @@
           "distribution" : "/biomes/distributions.config:scatteredSmall",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "ice" ]
+          "microdungeons" : [ "ice", "fuelders", "icewastemini" ]
         },
         {
           "mode" : "floor",

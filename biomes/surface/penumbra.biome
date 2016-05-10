@@ -335,7 +335,7 @@
           "distribution" : "/biomes/distributions.config:randomEncounter",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "fuencounters", "furandomencounter", "fuhumanencounter", "fuapexencounter", "alienmicrodungeons", "furedhives" ]
+          "microdungeons" : [ "fuelders", "fubandits", "fuencounters", "furandomencounter", "fuhumanencounter", "fuapexencounter", "alienmicrodungeons", "furedhives" ]
         },     
         {
           "mode" : "floor",

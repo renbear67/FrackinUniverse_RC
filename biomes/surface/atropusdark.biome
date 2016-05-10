@@ -452,7 +452,7 @@
           "distribution" : "/biomes/distributions.config:randomEncounter",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "fuencountercultist", "fuapexencounter", "furandomencounter" ]
+          "microdungeons" : [ "fuelders", "fuencountercultist", "fuapexencounter", "furandomencounter" ]
         },      
         {
           "mode" : "floor",

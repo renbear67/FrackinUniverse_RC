@@ -5,7 +5,7 @@
     "rules" : [
     ],
 
-    "anchor" : [ "avaliwell", "avali2", "avali3", "avali4" ],
+    "anchor" : [ "avaliwell", "avali1", "avali2", "avali3", "avali4" ],
 
     "gravity" : 90,
     "maxRadius" : 1000000,
@@ -21,6 +21,13 @@
       ],
       "def" : [ "tmx", "avaliwell.json" ]
     },   
+    {
+      "name" : "avali1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "avali1.json" ]
+    },      
     {
       "name" : "avali2",
       "rules" : [

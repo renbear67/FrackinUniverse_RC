@@ -187,7 +187,7 @@
           "distribution" : "/biomes/distributions.config:randomEncounter",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "fuencounters", "randomencounter", "junkmini", "fulabs", "fushops", "fuwastelanddungeons", "furandomencounter", "fuhumanencounter", "fuapexencounter" ] 
+          "microdungeons" : [ "fuencounters", "fubandits", "randomencounter", "junkmini", "fulabs", "fushops", "fuwastelanddungeons", "furandomencounter", "fuhumanencounter", "fuapexencounter" ] 
         },
         {
           "mode" : "floor",
