@@ -1,9 +1,9 @@
 { "margin":0,
- "name":"FUmain",
+ "name":"ElderObjects",
  "properties":
     {},
  "spacing":0,
- "tilecount":61,
+ "tilecount":67,
  "tileheight":279,
   "tileproperties" : {
       "0" : {
@@ -103,7 +103,9 @@
           "object" : "elderthingstatue2"
       },
       "32" : {
-          "object" : "elderurn1"
+          "object" : "elderurn1",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0" 
       },
       "33" : {
           "object" : "elderurn2"
@@ -190,6 +192,32 @@
       },
       "60" : {
           "object" : "elderbookcase2"         
+      },
+      "61" : {
+          "object" : "starspawnstatue",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "0"   
+      },
+      "62" : {
+          "object" : "starspawnstatue2",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "0"   
+      },
+      "63" : {
+          "object" : "starspawnstatue3",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "0"   
+      },
+      "63" : {
+          "object" : "elderurn4",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0"   
+      } ,
+      "63" : {
+          "object" : "elderurn5" 
+      }, 
+      "63" : {
+          "object" : "elderurn6"
       } 
     },
       
@@ -438,6 +466,30 @@
      "60":
         {
          "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/elderbookcase2.png"
+        },
+     "61":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/starspawnstatue.png"
+        },
+     "62":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/starspawnstatue2.png"
+        },
+     "63":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/starspawnstatue3.png"
+        },
+     "64":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/elderurn4.png"
+        },
+     "65":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/elderurn5.png"
+        },
+     "66":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/elderurn6.png"
         }
     },
  "tilewidth":285

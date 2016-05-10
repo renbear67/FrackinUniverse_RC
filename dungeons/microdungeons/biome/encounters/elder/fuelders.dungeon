@@ -5,7 +5,7 @@
     "rules" : [
     ],
 
-    "anchor" : [ "eldercult1", "eldercult2", "eldercult3", "eldercult4", "eldercult5", "eldercult6", "eldercult7", "eldercult8", "eldercult9" ],
+    "anchor" : [ "eldercult1", "eldercult2", "eldercult3", "eldercult4", "eldercult5", "eldercult6", "eldercult7", "eldercult8", "eldercult9", "eldercult10", "eldercult11", "eldercult12", "eldercult13", "eldercult14" ],
 
     "gravity" : 90,
     "maxRadius" : 1000000,
@@ -76,6 +76,41 @@
         [ "maxSpawnCount", [1] ]
       ],
       "def" : [ "tmx", "eldercult9.json" ]
+    },
+    {
+      "name" : "eldercult10",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "eldercult10.json" ]
+    },
+    {
+      "name" : "eldercult11",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "eldercult11.json" ]
+    },
+    {
+      "name" : "eldercult12",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "eldercult12.json" ]
+    },
+    {
+      "name" : "eldercult13",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "eldercult13.json" ]
+    },
+    {
+      "name" : "eldercult14",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "eldercult14.json" ]
     }
   ]
 }

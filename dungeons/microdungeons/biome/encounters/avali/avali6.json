@@ -3,7 +3,7 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJzt2F1uwjAMB\/CcoqfaoXYCeOgT7FzsDc6yVSNSZOz478T5WKklayVtl\/xwmpZ+h\/D5feRb5S2EsId8JytiHj22nubRY+ppHj2W3mbavqc4vId3T3F4y72n5S\/Tz1z7yPDyfi16zhCe3ivxXRXnusip7V+X1z61\/jy9W1x++zonecn0Hed4Ta7PPtZkW4sW3lXxoh7u+Phd7tkrnRONp0m8Uki2Uq+lvqnZ05sLzpjuk9rpnC6p7xaj6otu0\/Ood4b6Itdv+pm2S88oM9e3xMu56Lk16\/MWs3hpSN6a9XmL3t503HGbi\/MiX8P\/sb7c\/SjdT72zr885r+Sm9x3u2Fmu3y28vWdhX+nvBW\/vFl7Pk1KumX1I9Kyv9hsPSeQ76eHNXb+1NbXmaO9M5hnuRz3NM3hz4W0e+XylWZH3gFzmzLN6W81tb6\/1fR0XpXVF6ky91IwG9z62lQOxSUmtXI01+x1s0+KepNRektTh4b2TbauXG6eHNwBeyYyOs8TMfWcl\/WlezmrxSmN4PFMzcr6c9wH4aNySv5LXslbnvDl3bqzp\/4lOKbW5FMees1rXasRM3agXsXp5U7cWFjM6Hz28VmtMgAx5rddg6TyuscYsuSc8wqsdna9obbmscWrWj2fmzNw4a7yIu2ddtZpbDL1r7Omz2kucredzbT0RGzp\/Paw19pZrkndNPcytjT2sFnfqqPHMYG21fs\/qrDGj53HHjXRa\/ejxo8dfYx49jiPfL38Akr8MvA==",
+         "data":"eJzt2jEOwyAQBEA+wVOjpMzD8g27818iCkuJBIew7rjzsittR8EULlZmT+m9s0t1SykhdCXrGcl6BLintrdlLtaz3nfVtNbMv9ajcR4hLS+qmV5sM730IoXe\/76ybr3T8z6zTiNYS3reR9ZrhFz9fj8D9x85ax166a2FXp2z1qGX3lro1TlrHXpt94L3hpi1F6JsiJl7IcKG4N6nFyn00osUenGtJSt5pf\/dK3pnbIWZ+0HyWu4Er\/0gea13gsd+WO29Sus9EmKk91eIaXlRQ+963lLve1lFeiPrfTeL0Itp7jlRzCPOO3uvOO\/o1nBGd1sYI7ln+Tz93jaEfgH+lnVm",
          "encoding":"base64",
          "height":60,
          "name":"back",
@@ -16,7 +16,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJztmGEKgzAMRj2Fxx6D\/XI7m55lKyiTktavaU2r\/R6E4ao1LymFOgyEEEIIIYS0w2OsEy3Qm+9ntAtCCCGEEEIIIfekp\/Ngy2f+5\/gPy\/N+jT7vXTfu+i1Lct14ez3wr6\/W55irY\/r9\/1pr736nwvlY9vnI1XG2r8Oiz4irw8LXcWafUVeHla8D7fO8BkKKq7Q\/WexXWywBrxmI5WBs2d3jX0v3SeOpIc0nzanxTX2n9H6kLsh8qKfWNzSXlGsob6ROmloia0QCWaehOoR6hjx\/lG+OZ6pvLCdkLSLPI56a8ZhryDe276C10exJJdZFjm9qvlrXknu3xjcncnK28C3pnNMjK9fSvjXWRS1fbX1KuiK+NZzPckV9LZ1L78UaV2vns0JD7ZwtXa\/oXJLaLlaeLTtb0YunTw+OGmJ538GvVb70YA7B",
+         "data":"eJzt18EJwzAQRFE1oXRqSCVpJ5Wol7AHQwiSY4wsrWb\/A939DyGzKQFQUGZ\/wEDl66krKXavenOt9\/WY+km3qvUqN7d6jWLzUa9Ra\/7Xa5Saz\/QaleZW7zP3fV60et+5z\/PUalq9W+73PDn7+1VBL71K2M\/sZyXs55j7uUahedS94OWGuPte8HZDjLgXPN0Q7Cv2lRL2FfvKqDSzr46t3nzlv3fl5qtbY9XmWbfCrPth5J3g4X6Ispt30XpNpFYTsTcSegEAAAD8+gCMrUyF",
          "encoding":"base64",
          "height":60,
          "name":"front",
@@ -47,9 +47,9 @@
          "name":"objects",
          "objects":[
                 {
-                 "gid":2147489515,
-                 "height":64,
-                 "id":1027,
+                 "gid":5672,
+                 "height":40,
+                 "id":1272,
                  "name":"",
                  "properties":
                     {
@@ -59,40 +59,8 @@
                  "type":"",
                  "visible":true,
                  "width":32,
-                 "x":248,
-                 "y":240
-                }, 
-                {
-                 "gid":2147489420,
-                 "height":48,
-                 "id":1034,
-                 "name":"",
-                 "properties":
-                    {
-
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":32,
-                 "x":296,
-                 "y":160
-                }, 
-                {
-                 "gid":5770,
-                 "height":48,
-                 "id":1035,
-                 "name":"",
-                 "properties":
-                    {
-
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":32,
-                 "x":200,
-                 "y":160
+                 "x":216,
+                 "y":216
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -119,55 +87,7 @@
          "draworder":"topdown",
          "height":0,
          "name":"monsters & npcs",
-         "objects":[
-                {
-                 "height":8,
-                 "id":1003,
-                 "name":"",
-                 "properties":
-                    {
-                     "npc":"human",
-                     "typeName":"fucultist2"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":184,
-                 "y":200
-                }, 
-                {
-                 "height":8,
-                 "id":1004,
-                 "name":"",
-                 "properties":
-                    {
-                     "npc":"human",
-                     "typeName":"fucultist2"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":328,
-                 "y":184
-                }, 
-                {
-                 "height":8,
-                 "id":1005,
-                 "name":"",
-                 "properties":
-                    {
-                     "npc":"human",
-                     "typeName":"fucultist2"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":216,
-                 "y":200
-                }],
+         "objects":[],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -218,7 +138,7 @@
                  "type":"",
                  "visible":true,
                  "width":8,
-                 "x":440,
+                 "x":32,
                  "y":320
                 }, 
                 {
@@ -234,8 +154,8 @@
                  "type":"",
                  "visible":true,
                  "width":8,
-                 "x":32,
-                 "y":320
+                 "x":40,
+                 "y":80
                 }, 
                 {
                  "gid":229,
@@ -250,39 +170,7 @@
                  "type":"",
                  "visible":true,
                  "width":8,
-                 "x":24,
-                 "y":40
-                }, 
-                {
-                 "gid":229,
-                 "height":8,
-                 "id":720,
-                 "name":"",
-                 "properties":
-                    {
-
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":240,
-                 "y":24
-                }, 
-                {
-                 "gid":229,
-                 "height":8,
-                 "id":721,
-                 "name":"",
-                 "properties":
-                    {
-
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":448,
+                 "x":32,
                  "y":40
                 }, 
                 {
@@ -298,8 +186,8 @@
                  "type":"",
                  "visible":true,
                  "width":8,
-                 "x":464,
-                 "y":296
+                 "x":448,
+                 "y":416
                 }, 
                 {
                  "gid":229,
@@ -314,8 +202,8 @@
                  "type":"",
                  "visible":true,
                  "width":8,
-                 "x":8,
-                 "y":296
+                 "x":24,
+                 "y":376
                 }, 
                 {
                  "gid":217,
@@ -330,40 +218,8 @@
                  "type":"",
                  "visible":true,
                  "width":8,
-                 "x":464,
-                 "y":296
-                }, 
-                {
-                 "gid":217,
-                 "height":8,
-                 "id":728,
-                 "name":"",
-                 "properties":
-                    {
-
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
                  "x":448,
-                 "y":40
-                }, 
-                {
-                 "gid":217,
-                 "height":8,
-                 "id":729,
-                 "name":"",
-                 "properties":
-                    {
-
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":240,
-                 "y":24
+                 "y":416
                 }, 
                 {
                  "gid":217,
@@ -378,7 +234,7 @@
                  "type":"",
                  "visible":true,
                  "width":8,
-                 "x":24,
+                 "x":32,
                  "y":40
                 }, 
                 {
@@ -394,8 +250,8 @@
                  "type":"",
                  "visible":true,
                  "width":8,
-                 "x":8,
-                 "y":296
+                 "x":24,
+                 "y":376
                 }, 
                 {
                  "gid":229,
@@ -410,7 +266,7 @@
                  "type":"",
                  "visible":true,
                  "width":8,
-                 "x":8,
+                 "x":464,
                  "y":176
                 }, 
                 {
@@ -426,8 +282,8 @@
                  "type":"",
                  "visible":true,
                  "width":8,
-                 "x":464,
-                 "y":176
+                 "x":440,
+                 "y":32
                 }, 
                 {
                  "gid":217,
@@ -442,8 +298,8 @@
                  "type":"",
                  "visible":true,
                  "width":8,
-                 "x":464,
-                 "y":176
+                 "x":440,
+                 "y":32
                 }, 
                 {
                  "gid":217,
@@ -458,7 +314,7 @@
                  "type":"",
                  "visible":true,
                  "width":8,
-                 "x":8,
+                 "x":464,
                  "y":176
                 }],
          "opacity":1,
@@ -480,7 +336,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":1036,
+ "nextobjectid":1273,
  "orientation":"orthogonal",
  "properties":
     {
@@ -603,19 +459,7 @@
         }, 
         {
          "firstgid":5770,
-         "source":"..\/..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/fu_elderceiling.json"
-        }, 
-        {
-         "firstgid":5774,
-         "source":"..\/..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/elder_materials.json"
-        }, 
-        {
-         "firstgid":5788,
-         "source":"..\/..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/elder_deco2.json"
-        }, 
-        {
-         "firstgid":5805,
-         "source":"..\/..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/elder_objects.json"
+         "source":"..\/..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/fuplatforms.json"
         }],
  "tilewidth":8,
  "version":1,
