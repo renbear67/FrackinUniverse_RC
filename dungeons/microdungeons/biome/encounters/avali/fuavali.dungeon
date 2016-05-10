@@ -5,7 +5,7 @@
     "rules" : [
     ],
 
-    "anchor" : [ "avali1", "avali2", "avali3", "avali4", "avaliwell" ],
+    "anchor" : [ "avaliwell", "avali2", "avali3", "avali4" ],
 
     "gravity" : 90,
     "maxRadius" : 1000000,
@@ -15,12 +15,12 @@
 
   "parts" : [
     {
-      "name" : "avali1",
+      "name" : "avaliwell",
       "rules" : [
         [ "maxSpawnCount", [1] ]
       ],
-      "def" : [ "tmx", "avali1.json" ]
-    },
+      "def" : [ "tmx", "avaliwell.json" ]
+    },   
     {
       "name" : "avali2",
       "rules" : [
@@ -34,20 +34,13 @@
         [ "maxSpawnCount", [1] ]
       ],
       "def" : [ "tmx", "avali3.json" ]
-    },
+    },    
     {
       "name" : "avali4",
       "rules" : [
         [ "maxSpawnCount", [1] ]
       ],
       "def" : [ "tmx", "avali4.json" ]
-    },
-    {
-      "name" : "avaliwell",
-      "rules" : [
-        [ "maxSpawnCount", [1] ]
-      ],
-      "def" : [ "tmx", "avaliwell.json" ]
     }
   ]
 }

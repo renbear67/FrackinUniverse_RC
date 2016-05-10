@@ -5,7 +5,7 @@
     "rules" : [
     ],
 
-    "anchor" : [ "fubandit1", "fubandit2", "fubandit3", "fubandit4", "fubandit5", "fubandit6", "fubandit7", "fubandit8", "fubandit9" ],
+    "anchor" : [ "fubandit1", "fubandit2", "fubandit3", "fubandit4", "fubandit5", "fubandit6", "fubandit7", "fubandit8" ],
 
     "gravity" : 90,
     "maxRadius" : 1000000,
@@ -69,13 +69,6 @@
         [ "maxSpawnCount", [1] ]
       ],
       "def" : [ "tmx", "fubandit8.json" ]
-    },
-    {
-      "name" : "fubandit9",
-      "rules" : [
-        [ "maxSpawnCount", [1] ]
-      ],
-      "def" : [ "tmx", "fubandit9.json" ]
     }
   ]
 }
