@@ -298,7 +298,7 @@
           "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "canyonmini", "icespikes", "terrainfeatures", "icemini", "icewastemini", "miniiceruins", "fuhumanencounter", "fuapexencounter" ]
+          "microdungeons" : [ "canyonmini", "icespikes", "terrainfeatures", "icemini", "icewastemini", "fuhumanencounter", "fuapexencounter" ]
         },
         {
           "mode" : "floor",

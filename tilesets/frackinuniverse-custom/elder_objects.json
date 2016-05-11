@@ -3,7 +3,7 @@
  "properties":
     {},
  "spacing":0,
- "tilecount":67,
+ "tilecount":72,
  "tileheight":279,
   "tileproperties" : {
       "0" : {
@@ -208,17 +208,42 @@
           "imagePositionX" : "-16",
           "imagePositionY" : "0"   
       },
-      "63" : {
+      "64" : {
           "object" : "elderurn4",
           "imagePositionX" : "-8",
           "imagePositionY" : "0"   
       } ,
-      "63" : {
+      "65" : {
           "object" : "elderurn5" 
       }, 
-      "63" : {
+      "66" : {
           "object" : "elderurn6"
-      } 
+      },
+      "67" : {
+          "object" : "fukluexstatue2",
+          "imagePositionX" : "-51",
+          "imagePositionY" : "0"          
+      },
+      "68" : {
+          "object" : "fukluexstatue3",
+          "imagePositionX" : "-51",
+          "imagePositionY" : "0"          
+      },
+      "69" : {
+          "object" : "fukluexstatue4",
+          "imagePositionX" : "-51",
+          "imagePositionY" : "0"          
+      },
+      "70" : {
+          "object" : "fukluexstatue5",
+          "imagePositionX" : "-51",
+          "imagePositionY" : "0"          
+      },
+      "71" : {
+          "object" : "fukluexstatue6",
+          "imagePositionX" : "-51",
+          "imagePositionY" : "0"          
+      }
     },
       
  "tiles":
@@ -490,6 +515,26 @@
      "66":
         {
          "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/elderurn6.png"
+        },
+     "67":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/fukluexstatue2.png"
+        },
+     "68":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/fukluexstatue3.png"
+        },
+     "69":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/fukluexstatue4.png"
+        },
+     "70":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/fukluexstatue5.png"
+        },
+     "71":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/fukluexstatue6.png"
         }
     },
  "tilewidth":285

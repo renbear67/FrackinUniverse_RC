@@ -65,7 +65,7 @@
   "ores" : "surfaceOres",
 
   "surfacePlaceables" : {
-    "grassMod" : [ "sand" ],
+    "grassMod" : [ "savannahgrass" ],
     "grassModDensity" : 0.9,
 
     "items" : [
@@ -78,6 +78,25 @@
         "type" : "treasureBox",
         "treasureBoxSets" : [ "desertChest" ]
       },
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:ffunCommon",
+
+          "type" : "object",
+          "objectSets" : [
+            {
+              "pool" : [ 
+              [0.65, "badlandsrock1" ],
+              [0.65, "badlandsrock2" ],
+              [0.65, "badlandsrock3" ],
+              [0.65, "badlandsrock4" ]
+              ],
+              "parameters" : { }
+            }
+          ]
+        },
         {
           "mode" : "floor",
           "priority" : 1.0,

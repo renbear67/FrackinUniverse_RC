@@ -158,7 +158,7 @@
 "value":"This ^#00f0ff;eden ^white;has very little in the way of hostile life and very little darkness. A lovely place to build a home. ^#9dbeef;Healing waters^white; dot the surface."},
 
 {"op":"add","path":"/planetTypeToDescription/frozenvolcanic",
-"value":"^#b86c00;Frozen Volcanic^white; worlds are relatively rare, and possess a dangerous mix of ice and lava. ^green;Many useful resources^white; detected."},
+"value":"^#b86c00;Frozen Volcanic^white; worlds are relatively rare, and possess a dangerous mix of ice, burning rock and lava. ^green;Many useful resources^white; detected."},
 
 {"op":"add","path":"/planetTypeToDescription/fungus",
 "value":"This planet seems to be covered in a giant ^#7fe96e;fungal^white; colony. Abundant ^#green;organic resources^white; detected."},
