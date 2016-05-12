@@ -4,5 +4,6 @@
   "rarity" : "Common",
   "inventoryIcon" : "volatilepowder.png",
   "description" : "A dangerous powder, useful for crafting explosives.",
-  "shortdescription" : "Volatile Powder"
+  "shortdescription" : "Volatile Powder",
+  "learnBlueprintsOnPickup" : [ "k3rifle", "moltenaxe" ]
 }

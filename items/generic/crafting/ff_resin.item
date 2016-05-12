@@ -4,5 +4,5 @@
   "inventoryIcon" : "ff_resin.png",
   "description" : "Useful for adhesives, and hardening certain materials.",
   "shortdescription" : "Resin",
-  "learnBlueprintsOnPickup" : [ "fubonearmorhead", "fubonearmorchest", "fubonearmorlegs" ]
+  "learnBlueprintsOnPickup" : [ "fubeewings", "bonepickaxe" ]
 }

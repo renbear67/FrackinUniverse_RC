@@ -194,7 +194,7 @@
           "type" : "bush",
           "bushes" : [
             {
-              "name" : "tarbulb",
+              "name" : "lightless",
               "baseHueShiftMax" : 0,
               "modHueShiftMax" : 0
             }

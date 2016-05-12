@@ -2,7 +2,7 @@
   "modId" : 6757,
   "modName" : "metalgrass",
   "Description" : "Metal Debris",
-  "footstepSound" : "/sfx/blocks/footstep_metal.ogg",
+  "footstepSound" : "/sfx/blocks/footstep_metallic.ogg",
   "grass" : true,
   "health" : 0,
 

@@ -1,21 +1,21 @@
 {
-  "itemName" : "banespear",
+  "itemName" : "pincerspear",
   "price" : 160,
   "level" : 6,
   "maxStack" : 1,
   "rarity" : "common",
-  "description" : "Bring deadly death to your enemies.",
-  "shortdescription" : "Bane Spear",
+  "description" : "This thing is gorgeously pincer-y",
+  "shortdescription" : "Pincer Spear",
   "tooltipKind" : "sword",
   "weaponType" : "Spear",
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","spear"],
 
-  "inventoryIcon" : "banespear.png",
+  "inventoryIcon" : "pincerspear.png",
 
   "animation" : "/items/active/weapons/melee/spear/tieredspear.animation",
   "animationParts" : {
-    "blade" : "/items/active/weapons/melee/unique/banespear.png"
+    "blade" : "/items/active/weapons/melee/unique/pincerspear.png"
   },
   "animationCustom" : {
     "sounds" : {
@@ -25,17 +25,17 @@
 
   "scripts" : ["/items/active/weapons/melee/spear/spear.lua"],
 
-  "elementalType" : "fire",
+  "elementalType" : "poison",
 
   "aimOffset" : -1.0,
   "primaryAttack" : {
-    "fireTime" : 0.8,
-    "baseDps" : 11.51,
+    "fireTime" : 0.45,
+    "baseDps" : 7.31,
     "damageConfig" : {
       "damageSourceKind" : "spear",
       "statusEffects" : [ ],
       "knockbackMode" : "aim",
-      "knockback" : 30,
+      "knockback" : 50,
       "timeoutGroup" : "primary"
     },
     "holdDamageMultiplier" : 0.1,
@@ -86,9 +86,9 @@
     }
   },
 
-  "palette" : "/items/active/weapons/colors/tier6melee.weaponcolors",
+  "palette" : "/items/active/weapons/colors/tier5melee.weaponcolors",
 
-  "altAbilitySource" : "/items/active/weapons/melee/altabilities/spear/fucharge/fucharge.altability",
+  "altAbilitySource" : "/items/active/weapons/melee/altabilities/spear/barrier/barrier.altability",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

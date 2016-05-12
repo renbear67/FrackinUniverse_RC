@@ -203,7 +203,7 @@
           "type" : "bush",
           "bushes" : [
             {
-              "name" : "tarcrystal",
+              "name" : "lightless",
               "baseHueShiftMax" : 0,
               "modHueShiftMax" : 0
             }
