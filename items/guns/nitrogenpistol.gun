@@ -21,7 +21,7 @@
 
   "projectileType" : "fuicebreath",
   "projectile" : { 
-  "speed" : 50, 
+  "speed" : 65, 
   "power" : 2.15 , 
   "color" : [255, 141, 40] 
   },

@@ -41,7 +41,7 @@
     "projectileCount" : 1,
     "fireType" : "auto",
 
-    "projectileType" : "iceblade2",
+    "projectileType" : "funitrogencannonshot",
     "projectileParameters" : { 
       "speed" : 50,
       "knockback" : 32

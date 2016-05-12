@@ -39,6 +39,7 @@
       }
     ],
     "monsterParameters" : {
+    "colors" : "shadow",
       "statusSettings" : {
         "stats" : {
           "poisonImmunity" : {

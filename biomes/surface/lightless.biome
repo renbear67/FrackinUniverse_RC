@@ -34,7 +34,7 @@
       }
     ],
     "monsterParameters" : {
-	  "colors" : "ice",
+	  "colors" : "shadow",
       "statusSettings" : {
         "stats" : {
             "biooozeImmunity" : {
