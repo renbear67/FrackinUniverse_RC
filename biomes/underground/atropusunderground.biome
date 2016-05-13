@@ -59,7 +59,7 @@
   },
 
     "mainBlock" : "rottingflesh",
-    "subBlocks" : [ "rottingflesh", "brains", "hellstone" ],
+    "subBlocks" : [ "boneyflesh", "brains", "hellstone" ],
     "ores" : "depth3",
 
   "parallax" : "/parallax/underground/atropusunderground.parallax",

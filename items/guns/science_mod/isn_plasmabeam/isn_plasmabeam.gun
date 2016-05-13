@@ -17,14 +17,14 @@
     "fireSound" : [ { "file" : "/sfx/weapons/megagun.ogg" } ]
   },
   "itemTags" : ["weapon","ranged","assaultrifle"],
-  "fireTime" : 1,
+  "fireTime" : 1.37,
   "twoHanded" : true,
   "level" : 4,
-  "classMultiplier" : 1,
+  "classMultiplier" : 3.4,
 
   "projectileType" : "isn_plasmabeam_starter",
   "projectile" : {
-    "speed" : 60,
+    "speed" : 70,
     "power" : 16,
     "color" : [150, 255, 150]
   }

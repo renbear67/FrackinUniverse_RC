@@ -10,15 +10,16 @@
   "power" : 2,
   "speed" : 65,
   "timeToLive" : 0.6,
-  "knockback" : 4,
+  "knockback" : 74,
   "knockbackDirectional" : true,
   "actionOnReap" : [
     {
       "action" : "config",
-      "file" : "/projectiles/explosions/coldsplosion/coldsplosion.config"
+      "file" : "/projectiles/explosions/iceexplosion3/iceexplosion3.config"
     }
   ],
   "damageKind" : "ice",
   "physics" : "bullet",
-  "emitters" : [ "defaultwhite" ]
+  "emitters" : [ "defaultwhite" ],
+  "statusEffects" : [ "freeze" ]
 }

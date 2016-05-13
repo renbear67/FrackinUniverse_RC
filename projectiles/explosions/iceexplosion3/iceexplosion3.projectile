@@ -1,0 +1,55 @@
+{
+  "projectileName" : "iceexplosion3",
+  "frames" : "iceexplosion3.png",
+  "animationCycle" : 0.4,
+  "level" : 1,
+  "frameNumber" : 8,
+  "speed" : 0,
+  "fallSpeed" : 0,
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+  "universalDamage" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/iceexplosion2/iceexplosion2.config"
+    },
+    {
+      "action" : "projectile",
+      "type" : "fuiceshot",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.35,
+      "angleAdjust" : 90
+    },
+    {
+      "action" : "projectile",
+      "type" : "fuiceshot",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.35,
+      "angleAdjust" : -90
+    },
+    {
+      "action" : "projectile",
+      "type" : "fuiceshot",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.35,
+      "angleAdjust" : 45
+    },
+    {
+      "action" : "projectile",
+      "type" : "fuiceshot",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.35,
+      "angleAdjust" : -45
+    },
+    {
+      "action" : "projectile",
+      "type" : "fuiceshot",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.35,
+      "angleAdjust" : 0
+    }
+  ],
+  "damageKind" : "ice"
+}

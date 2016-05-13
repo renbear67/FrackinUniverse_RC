@@ -51,7 +51,7 @@
     }
   },
 
-  "mainBlock" : "obsidian",
+  "mainBlock" : "hiveold",
   "subBlocks" : [ "tar", "direstone", "matterblock" ],
   "ores" : "ff_deepsurfaceshadowOres",
 

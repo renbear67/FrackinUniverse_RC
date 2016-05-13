@@ -48,8 +48,8 @@
     }
   },
   
-    "mainBlock" : "alienrock",
-    "subBlocks" : [ "eyepiles", "biodirt", "bioblock2" ],
+    "mainBlock" : "aliensoil",
+    "subBlocks" : [ "alienrock", "eyepiles" ],
     "ores" : "surfaceOres",
 
   "surfacePlaceables" : {

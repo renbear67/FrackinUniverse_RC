@@ -196,6 +196,8 @@ local recipes =
 {inputs = { ff_bambooshoot=1 }, outputs = { geneticmaterial=2 }, time = 0.75},
 {inputs = { blooddiamond=1 }, outputs = { quietusore=2 }, time = 0.75},
 -- tiles
+{inputs = { boneyflesh=50 }, outputs = { bone=2 }, time = 0.45},
+{inputs = { aliensoil=50 }, outputs = { algaegreen=2 }, time = 0.75},
 {inputs = { redsand2=50 }, outputs = { ff_silicon=1 }, time = 0.75},
 {inputs = { retexdirt=50 }, outputs = { nutrientpaste=2 }, time = 0.75},
 {inputs = { retexcobblestone=50 }, outputs = { rawminerals=2 }, time = 0.75},

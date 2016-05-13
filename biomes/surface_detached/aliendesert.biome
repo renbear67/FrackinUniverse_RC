@@ -50,7 +50,7 @@
   "hueShiftOptions" : [-165, -70, -25, 0, 25, 70, 125, 165],
 
     "mainBlock" : "glowsand",
-    "subBlocks" : [ "alienrock", "biorock", "bioblock2" ],
+    "subBlocks" : [ "aliensoil", "alienrock" ],
     "ores" : "surfaceOres",
 
   "surfacePlaceables" : {

@@ -7,7 +7,7 @@
   "orientationLocked" : true,
   "damagePoly" : [ [-40, 24.5], [3.5, 24.5], [15.5, 21.5], [28.5, 15.5], [36.5, 7.5], [40.5, -1.5], [40.5, -12.5], [32.5, -24.5], [-12, -24.5] ],
   "animationLoops" : false,
-  "piercing" : true,
+  "piercing" : false,
   "flippable" : true,
   "damageKind" : "slash",
   "effectSources" : [ "sparkles" ],
@@ -17,59 +17,59 @@
     {
       "action" : "projectile",
       "type" : "bloodvomit", 
-      "inheritDamageFactor" : 0.5,
+      "inheritDamageFactor" : 0,
       "angleAdjust" : 20
     },
     {
       "action" : "projectile",
       "type" : "bloodvomit",
-      "inheritDamageFactor" : 0.5,
+      "inheritDamageFactor" : 0,
       "angleAdjust" : -20
     },
 	 {
       "action" : "projectile",
       "type" : "bloodvomit",
-      "inheritDamageFactor" : 0.5,
+      "inheritDamageFactor" : 0,
       "angleAdjust" : -15
     },
 	    {
       "action" : "projectile",
       "type" : "bloodvomit",
-      "inheritDamageFactor" : 0.5,
+      "inheritDamageFactor" : 0,
       "angleAdjust" : -10
     },
 	    {
       "action" : "projectile",
       "type" : "bloodvomit",
-      "inheritDamageFactor" : 0.5,
+      "inheritDamageFactor" : 0,
       "angleAdjust" : 15
     },
 	    {
       "action" : "projectile",
       "type" : "bloodvomit",
-      "inheritDamageFactor" : 0.5,
+      "inheritDamageFactor" : 0,
       "angleAdjust" : 10
     },
 	    {
       "action" : "projectile",
       "type" : "bloodvomit",
-      "inheritDamageFactor" : 0.5,
+      "inheritDamageFactor" : 0,
       "angleAdjust" : -25
     },
 	    {
       "action" : "projectile",
       "type" : "bloodvomit",
-      "inheritDamageFactor" : 0.5,
+      "inheritDamageFactor" : 0,
       "angleAdjust" : -30
     },
 	      {
       "action" : "sound",
-      "options" : [ "/sfx/npc/quadruped/arrowhead_death.wav", "/sfx/npc/quadruped/arrowhead_pain1.wav", "/sfx/npc/quadruped/arrowhead_pain2.wav" ]
+      "options" : [ "/sfx/npc/quadruped/arrowhead_death.ogg", "/sfx/npc/quadruped/arrowhead_pain1.ogg", "/sfx/npc/quadruped/arrowhead_pain2.ogg" ]
     },
     {
       "action" : "projectile",
       "type" : "bonechain1",
-      "inheritDamageFactor" : 3,
+      "inheritDamageFactor" : 0.4,
       "angleAdjust" : 0
     }
   ]

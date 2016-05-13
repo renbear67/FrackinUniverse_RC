@@ -3,7 +3,7 @@
   "price" : 160,
   "inventoryIcon" : "nitrogengun.png",
   "maxStack" : 1,
-  "rarity" : "common",
+  "rarity" : "rare",
   "description" : "Freezes enemies in place.",
   "shortdescription" : "Nitrogen Cannon",
   "level" : 3,
@@ -44,7 +44,7 @@
     "projectileType" : "funitrogencannonshot",
     "projectileParameters" : { 
       "speed" : 50,
-      "knockback" : 32
+      "knockback" : 52
     }
   },
 

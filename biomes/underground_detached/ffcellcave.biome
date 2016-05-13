@@ -32,7 +32,7 @@
   },
 
   "mainBlock" : "slime",
-  "subBlocks" : [ "mud" ],
+  "subBlocks" : [ "mud", "aliensoil" ],
   "ores" : "ff_deepradioactiveOres",
 
   "ambientNoises" : {

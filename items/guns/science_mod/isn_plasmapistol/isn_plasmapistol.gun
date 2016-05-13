@@ -13,7 +13,7 @@
   "level" : 3,
   "tooltipKind" : "gun",
   "weaponType" : "Pistol",
-  "fireTime" : 0.21,
+  "fireTime" : 0.41,
   "inaccuracy" : 0.01,
   "twoHanded" : false,
   "walkWhileFiring" : false,

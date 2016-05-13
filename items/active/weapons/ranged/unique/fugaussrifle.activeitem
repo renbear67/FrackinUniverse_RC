@@ -41,7 +41,7 @@
     "projectileCount" : 1,
     "fireType" : "auto",
 
-    "projectileType" : "gausspistolshot",
+    "projectileType" : "gaussrifleshot",
     "projectileParameters" : { 
       "speed" : 72,
       "knockback" : 4
