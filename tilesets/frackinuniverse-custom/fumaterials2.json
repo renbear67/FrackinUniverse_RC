@@ -3,7 +3,7 @@
  "properties":
     {},
  "spacing":0,
- "tilecount":86,
+ "tilecount":87,
  "tileheight":8,
   "tileproperties" : {
       "0" : {
@@ -263,7 +263,10 @@
       },
       "85" : {
           "material" : "redhoneycombmaterial"
-      }  
+      },
+      "86" : {
+          "material" : "retexgreenhouse"
+      } 
     },
       
  "tiles":
@@ -611,7 +614,11 @@
       "85":
         {
          "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/redhoneycomb.png"
-        }         
+        },
+      "85":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/retexgreenhouse.png"
+        }  
     },
  "tilewidth":8
 }

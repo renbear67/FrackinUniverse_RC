@@ -24,7 +24,7 @@
             "legs" : [ { "name" : "fudesertwalkerpants", "parameters" : { "colorIndex" : 1 } } ],
             "back" : [ { "name" : "tribalfeathers", "parameters" : { "colorIndex" : 1 } } ],
             "primary" : [
-              "bonepickaxe", "bloodyknife", "spikesword", "npcdagger", "deathbringer"
+              "nomadaxe", "bonepickaxe", "bloodyknife", "spikesword", "npcdagger", "deathbringer"
             ]
           },          
           {
@@ -38,7 +38,8 @@
               "npcshortsword",
               "npcbroadsword",
               "npchammer",
-              "npcspear"
+              "npcspear",
+              "nomadaxe"
             ]
           },
           {
@@ -56,7 +57,7 @@
             "legs" : [ { "name" : "fudesertwalkerpants", "parameters" : { "colorIndex" : 12 } } ],
             "back" : [ { "name" : "tribalfeathers", "parameters" : { "colorIndex" : 12 } } ],
             "primary" : [
-              "bonepickaxe", "bloodyknife", "spikesword", "npcdagger", "deathbringer"
+              "nomadaxe", "bonepickaxe", "bloodyknife", "spikesword", "npcdagger", "deathbringer"
             ]
           },          
           {
@@ -67,6 +68,7 @@
             "primary" : [
               "npcdagger",
               "npcaxe",
+              "nomadaxe", 
               "npcshortsword",
               "npcbroadsword",
               "npchammer",
@@ -88,7 +90,7 @@
             "legs" : [ { "name" : "fudesertwalkerpants", "parameters" : { "colorIndex" : 8 } } ],
             "back" : [ { "name" : "tribalfeathers", "parameters" : { "colorIndex" : 8 } } ],
             "primary" : [
-              "bonepickaxe", "bloodyknife", "spikesword", "npcdagger", "deathbringer"
+              "nomadaxe", "bonepickaxe", "bloodyknife", "spikesword", "npcdagger", "deathbringer"
             ]
           },          
           {
@@ -98,6 +100,7 @@
             "back" : [ { "name" : "predatoryback", "parameters" : { "colorIndex" : 8 } } ],
             "primary" : [
               "npcdagger",
+              "nomadaxe", 
               "npcaxe",
               "npcshortsword",
               "npcbroadsword",
