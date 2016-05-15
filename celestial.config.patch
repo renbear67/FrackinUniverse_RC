@@ -1615,11 +1615,11 @@
           "orbitRange" : [1, 2],
           "bodyProbability" : 0.7,
           "planetaryTypes" : [
-            {"weight" : 0.8, "item" : "scorchingWorlds"},
+            {"weight" : 0.8, "item" : "scorchedWorlds"},
             {"weight" : 0.2, "item" : "AsteroidField"}
           ],
           "satelliteTypes" : [
-            {"weight" : 0.7, "item" : "scorchingMoons"},
+            {"weight" : 0.7, "item" : "scorchedMoons"},
             {"weight" : 0.15, "item" : "hotMoons"}
           ]
         },
@@ -1771,11 +1771,11 @@
           "orbitRange" : [1, 2],
           "bodyProbability" : 0.7,
           "planetaryTypes" : [
-            {"weight" : 0.8, "item" : "scorchingWorlds"},
+            {"weight" : 0.8, "item" : "scorchedWorlds"},
             {"weight" : 0.04, "item" : "AsteroidField"}
           ],
           "satelliteTypes" : [
-            {"weight" : 0.6, "item" : "scorchingMoons"},
+            {"weight" : 0.6, "item" : "scorchedMoons"},
             {"weight" : 0.2, "item" : "hotMoons"}
           ]
         },
@@ -1925,11 +1925,11 @@
           "orbitRange" : [2, 3],
           "bodyProbability" : 0.7,
           "planetaryTypes" : [
-            {"weight" : 0.8, "item" : "scorchingWorlds"},
+            {"weight" : 0.8, "item" : "scorchedWorlds"},
             {"weight" : 0.04, "item" : "AsteroidField"}
           ],
           "satelliteTypes" : [
-            {"weight" : 0.6, "item" : "scorchingMoons"},
+            {"weight" : 0.6, "item" : "scorchedMoons"},
             {"weight" : 0.05, "item" : "Moon"}
           ]
         },
