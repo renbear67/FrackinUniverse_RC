@@ -3,7 +3,7 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJzt2WEKgzAMBWDv4IV3Ay\/jP8+wOzmQQimpbZq0SdcXeCC1dvk2UZnntn1OBEEQBEEQBEFUszmvFYy5WsWZlgfrsT+htt\/2t1Zv63d\/QlXcO7Vd2s\/5rLh6\/7ahjzSHILk1a6r3eVzrzX0HubmtXso82isZh5fn1bR69cZmeP+zenkl9x1u4IV3lJf7PFEzlo7DCy+88MILL7zwevRqmaneRoVjhXc+b8ms\/R\/lbFaJ19ra6m0xWztLXs13SNbGklfzPaG1783LdZbs1rbe3uu3xuXUGRJ61LLO4pWY4zVmykpezfPZa0KfGtflGezaTs\/mnlZv7lFWa\/Nop8Rcexw1z9LJ9dfOt+5fYrbuA1kvN5giob8=",
+         "data":"eJzt2X0KwjAMh+HdoRf2BrvM\/tsZ9EwKpVBKun4kbVL7C7wg2xx9dKi46zheF0IIIYQQQki0w\/jsYMzNLs50LFhP56MeP+3vndHWj\/NRE6+delzan87b+Uoz+r0N5rSTUe6cNTP6Oq715l6D3LG9Xso828vZDm+bV9Jq1Rub4f3PGeXlfO+0Bi+8s7ytvydqtqXb4YUXXnjhhRdeeC16pczU2mbVYoV3PW\/JLP0f5WpWjlfb2uvtMWs7S17Je0jaxpJX8j6htu\/J2+os2bVto7337xy3UWcorFHKuoqXY47PsVI7eSWvZ6uFdUp8Lq9gl3ZaNo+0WnPPsmqbZzs55trnUcdpOlv9tcdrr59j1l4H2q8vSbqiVQ==",
          "encoding":"base64",
          "height":60,
          "name":"back",
@@ -16,7 +16,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt17sNwzAMRVHt4MGziRfQDNkpRVK4oz4Un6jcA7AzQF0rKVwKAAAAAADo9b6+c9ou6xwn7bHQm3uPhd7ceyz\/1Pu64gcAAAAAgEiKb1\/VNzCtZ\/aqWyN71Z2RverGyF513+re+ht1lzXVsTVL70xzdZq74ax3w7TuU\/bOnr13ZkW1zryXUnxaPdtb2kbvf6WdOle3Pnk0qv+rvbx+37t3Po2edeS5HfXeyU53Nyrz2ZHbBzrlyvM=",
+         "data":"eJzt17sNwzAMRVHt4MGziRfQDpkpRVK4oz4Un6jcA7AzQF0rKVwKAAAAAADo9b6+c9ou6xwn7bHQm3uPhd7ceyz\/1Pu64gcAAAAAgEiKb1\/VNzCtZ\/aqWyN71Z2RverGyF513+re+ht1lzXVsTVL70xzdZq74ax3w7TuU\/bOnr13ZkW1zryXUnxaPdtb2kbvf6WdOle3Pnk0qv+rvbx+37t3Po2edeS5HfXeyU53Nyrz2ZHbB58jywM=",
          "encoding":"base64",
          "height":60,
          "name":"front",
@@ -530,7 +530,7 @@
          "source":"..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/fumaterials2.json"
         }, 
         {
-         "firstgid":5070,
+         "firstgid":5071,
          "source":"..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/fuplatforms.json"
         }],
  "tilewidth":8,

@@ -3,7 +3,7 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJzt1VEOwiAQBNAeo1fyVv55Lf68ljaRpIlAd3F3B3A2mY82hs4LtqRtuyeGYRiGYRiGYUyzDT5pIONj9\/ltbRJ4L0uG417tvtUkB6ukX7ZJY\/HMPMl4X7UWq2iG3v53Vtvz9knt2sNbMtO7rrfXesxtl0Xqla7XMxbex\/69P61riVeyFtobGaQ3P1+zx7X3Vnod+X8+Pyt6X2vvsNTf683r93xXrXLuEOEdLV7eEc3SoVdnrp2vrXP3Kto1NYP0Su6v4i19a1f1ts4XeumlV+\/tMc\/mPVvpXd+rNc\/kLVl7vCPkF6\/UjDZqzC2rxIy2acwS65Ub7ZJ4tc5Snu91Ro6FcRarpRvdP9KM7k2vn3Umc+75q3UWu7VzZLOndTR3lBVtjnZGmEvrI51efnT\/SDO6d7Qb3TfajO5Kr68Z3ZNeX+8q7n87m+hd16rxontGetEdubf0WnjR\/ej186K7RZvRvSK96E6RXnQfev286C7\/lhcwHEvj",
+         "data":"eJzt1dENwjAMBNCO0ZXYik\/Gyh9rQSUqVSJp7WD7nHCW7qOoSu8ppSnLci8MwzAMwzAMw5hmST4lkfGx+tzbmuLolPTb7tHE4pnbFIc9zezdphi\/v1qLVTRDb\/+3Sdvz9knr2sNbM9M7r7fXus1tlUXqla7XMxbex\/q9P2fXEq9kLbQ3Mkjv\/nzNHrf+t9LryPf5+KzofW39h6X+Xu++fs931SrHDhHebPHyZjRLh16duXW+np27V9GuqRmkV\/L7LN7at3ZW79n5Qi+99Oq9PebRvEcrvfN7teaRvDVrjzdDfvFKzWijxnxmlZjRNo1ZYr1yo10Sr9ZZy\/O9TuZYGEexWrrR\/SPN6N70+llHMu89f7WOYrd2ZjZ7WrO5o6xoc7QzwlxbH+n08qP7R5rRvaPd6L7RZnRXen3N6J70+npncf\/b2UTvvFaNF90z0ovuyL2l18KL7kevnxfdLdqM7hXpRXeK9KL70OvnRXf5t7wACm9T9Q==",
          "encoding":"base64",
          "height":80,
          "name":"back",
@@ -16,7 +16,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt12EKgzAMhmGP4ZV2sh1t1xphCKXIpi5pYr\/3gf6Tpq+K4LIAAAAAQJ7nGnNthiPns2vOLI+ZURR7PRqi9vOWMZveuWfTO\/dseueePWrmY\/2sjNnfZu6dy0vV3ij9vczujXy27f7VFr0AAAAAEC\/7X2jkv1F228jmfsZrOb48mn7t6+FMU4Wl1PpPc\/aZ6aWZ3uutd+z2lt0zqrOX3Teqs6XS2VPpbKl0ttR6jVKrUWo19NI7SzPf5nmbI1ur9Ua30ptLrdd4t1Vu3Xg+x+qte+7+zp6l1GqUWlv0zttqlFqNUutGqbWaNz0cD3I=",
+         "data":"eJzt12EKgzAMhmGP4ZV2s91s1xphCKXIpi5pYr\/3gf6Tpq+K4LIAAAAAQJ7nGnNthiPns2vOLI+ZURR7PRqi9vOWMZveuWfTO\/dseueePWrmY\/2sjNnfZu6dy0vV3ij9vczujXy27f7VFr0AAAAAEC\/7X2jkv1F228jmfsZrOb48mn7t6+FMU4Wl1PpPc\/aZ6aWZ3uutd+z2lt0zqrOX3Teqs6XS2VPpbKl0ttR6jVKrUWo19NI7SzPf5nmbI1ur9Ua30ptLrdd4t1Vu3Xg+x+qte+7+zp6l1GqUWlv0zttqlFqNUutGqbWaN0qQD7g=",
          "encoding":"base64",
          "height":80,
          "name":"front",
@@ -47,7 +47,7 @@
          "name":"objects",
          "objects":[
                 {
-                 "gid":2147489941,
+                 "gid":2147489942,
                  "height":16,
                  "id":779,
                  "name":"",
@@ -63,7 +63,7 @@
                  "y":216
                 }, 
                 {
-                 "gid":6293,
+                 "gid":6294,
                  "height":16,
                  "id":781,
                  "name":"",
@@ -80,7 +80,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "width":0,
          "x":0,
          "y":0
@@ -602,11 +602,11 @@
          "source":"..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/fumaterials2.json"
         }, 
         {
-         "firstgid":6280,
+         "firstgid":6281,
          "source":"..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/fuplatforms.json"
         }, 
         {
-         "firstgid":6293,
+         "firstgid":6294,
          "source":"..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/storage.json"
         }],
  "tilewidth":8,
