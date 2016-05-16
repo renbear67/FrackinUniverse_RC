@@ -6,6 +6,6 @@
   "description" : "It's a neptunium rod.",
   "shortdescription" : "Neptunium Rod",
   "itemTags" : [ "reagent" ],
-  "learnBlueprintOnPickup" : [ "garpberryseed" ],
+  "learnBlueprintsOnPickup" : [ "garpberryseed" ],
   "fuelAmount" : 45
 }

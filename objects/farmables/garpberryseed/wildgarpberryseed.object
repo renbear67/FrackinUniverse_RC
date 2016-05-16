@@ -8,7 +8,7 @@
   "objectType" : "farmable",
   "printable" : false, 
   "lightColor" : [0, 66, 0],
-
+"learbBlueprintsOnPickup": [ "garpberryseed" ],
   "inventoryIcon" : "garpberryseedicon.png",
   "orientations" : [
     {

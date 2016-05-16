@@ -10,8 +10,8 @@
   "price" : 300,
   
   "lightColor" : [0, 66, 0],
-
-  "inventoryIcon" : "garpberryseedicon.png",
+"learbBlueprintsOnPickup": [ "garpberryseed" ],
+"inventoryIcon" : "garpberryseedicon.png",
   "orientations" : [
     {
       "dualImage" : "garpberryseed.png:<color>.<stage>.<alt>",
