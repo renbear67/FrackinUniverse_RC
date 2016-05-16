@@ -716,7 +716,7 @@ function workingBees()
                 return true
 			end
 			if equippedBees("metal") then					--METAL (FrackinUniverse addition )
-			    trySpawnHoney(0.80, "red")
+			    trySpawnHoney(0.80, "tungsten")
 				trySpawnBee(  0.33, "metal")
 				trySpawnDrone(0.33, "metal")
 				trySpawnItems(0.33, "tungstenore")
