@@ -724,6 +724,7 @@ function workingBees()
 				beeNocturnalDiurnal = "diurnal"	
 				beeSting()
                 return true
+                        end
 			if equippedBees("solarium") then					--SOLARIUM
                 spawnHoneyDronesBees("solarium")
 				beeNocturnalDiurnal = "diurnal"	
