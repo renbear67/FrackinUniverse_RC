@@ -300,6 +300,34 @@
 },
 
 
+
+{"op":"add",
+"path":"/ff_wastelandOres",
+"value": 
+  [
+    [0.5, [ [ "coal", 1.40], [ "copper", 0.20], [ "silverore", 0.00], [ "gold", 0.00], [ "platinum", 0.00], [ "diamond", 0.20], [ "iron", 0.20], [ "junkmod", 1.10] ] ],
+    [1.5, [ [ "coal", 1.40], [ "copper", 0.20], [ "silverore", 0.00], [ "gold", 0.00], [ "platinum", 0.00], [ "diamond", 0.20], [ "iron", 0.20], [ "tungsten", 0.20], [ "junkmod", 1.10] ] ],
+    [2.5, [ [ "coal", 1.40], [ "copper", 0.20], [ "silverore", 0.20], [ "gold", 0.00], [ "platinum", 0.00], [ "diamond", 0.20], [ "iron", 0.20], [ "titanium", 0.20], [ "junkmod", 1.10] ] ],
+    [3.5, [ [ "coal", 1.40], [ "copper", 0.20], [ "silverore", 0.20], [ "gold", 0.00], [ "platinum", 0.00], [ "diamond", 0.20], [ "iron", 0.20], [ "zerchesium", 0.20], [ "junkmod", 1.10] ] ],
+    [4.5, [ [ "coal", 1.40], [ "copper", 0.20], [ "silverore", 0.20], [ "gold", 0.20], [ "platinum", 0.20], [ "diamond", 0.20], [ "iron", 0.20], [ "durasteel", 0.20], [ "aegisalt", 0.20], [ "rubium", 0.20], [ "violium", 0.20], [ "junkmod", 1.20] ] ], 
+    [5.5, [ [ "coal", 1.40], [ "copper", 0.20], [ "silverore", 0.20], [ "gold", 0.20], [ "platinum", 0.20], [ "diamond", 0.20], [ "iron", 0.20], [ "durasteel", 0.20], [ "aegisalt", 0.20], [ "rubium", 0.20], [ "violium", 0.20], [ "junkmod", 1.20] ] ]
+]
+},
+
+{"op":"add",
+"path":"/ff_wastelandundergroundOres",
+"value": 
+  [
+    [0.5, [ [ "coal", 1.15], [ "copper", 1.30], [ "silverore", 0.00], [ "gold", 0.00], [ "platinum", 0.00], [ "diamond", 0.95], ["fossil", 0.79], [ "iron", 1.40], [ "junkmod", 1.10] ] ],
+    [1.5, [ [ "coal", 1.15], [ "copper", 1.40], [ "silverore", 0.00], [ "gold", 0.00], [ "platinum", 0.00], [ "diamond", 1.00], ["fossil", 0.79], [ "iron", 1.40], [ "tungsten", 1.20], [ "junkmod", 1.10] ] ],
+    [2.5, [ [ "coal", 1.15], [ "copper", 1.25], [ "silverore", 1.30], [ "gold", 0.00], [ "platinum", 0.00], [ "diamond", 1.05], ["fossil", 0.79], [ "iron", 1.25], [ "titanium", 1.20], [ "junkmod", 1.10] ] ],
+    [3.5, [ [ "coal", 1.15], [ "copper", 1.25], [ "silverore", 1.40], [ "gold", 0.00], [ "platinum", 0.00], [ "diamond", 1.10], ["fossil", 0.79], [ "iron", 1.25], [ "zerchesium", 0.95], [ "durasteel", 1.20], [ "junkmod", 1.10] ] ],
+    [4.5, [ [ "coal", 1.15], [ "copper", 1.25], [ "silverore", 1.25], [ "gold", 1.30], [ "platinum", 1.30], [ "diamond", 1.15], ["fossil", 0.79], [ "iron", 1.25], [ "zerchesium", 1.05], [ "durasteel", 1.25], [ "aegisalt", 1.40], [ "rubium", 1.40], [ "violium", 1.40], [ "junkmod", 1.10] ] ],
+    [5.5, [ [ "coal", 1.15], [ "copper", 1.25], [ "silverore", 1.25], [ "gold", 1.40], [ "platinum", 1.40], [ "diamond", 1.25], ["fossil", 0.79], [ "iron", 1.25], [ "zerchesium", 1.10], [ "durasteel", 1.25], [ "aegisalt", 1.40], [ "rubium", 1.40], [ "violium", 1.40], [ "junkmod", 1.10] ] ]
+]
+},
+
+
 {"op":"add",
 "path":"/ff_surfacesulfurOres",
 "value": 
