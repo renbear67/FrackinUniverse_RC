@@ -172,7 +172,7 @@ local recipes =
 {inputs = { petalyellow=1 }, outputs = { tissueculture=1 }, time = 0.75},
 {inputs = { reed=1 }, outputs = { tissueculture=1 }, time = 0.75},
 {inputs = { seaweed=1 }, outputs = { tissueculture=1 }, time = 0.75},
-{inputs = { spareparts=1 }, outputs = { rawminerals=2 }, time = 0.75},
+{inputs = { ff_spareparts=2 }, outputs = { tungstenore=1 }, time = 0.75},
 {inputs = { toxicwaste=1 }, outputs = { tissueculture=1 }, time = 0.75},
 {inputs = { flesh=1 }, outputs = { tissueculture=1 }, time = 0.75},
 {inputs = { florangiantpod=1 }, outputs = { agaranichor=4,geneticmaterial=24 }, time = 0.75},
