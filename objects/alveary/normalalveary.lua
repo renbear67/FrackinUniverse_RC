@@ -824,7 +824,7 @@ function breedingBees()
 				beeNocturnalDiurnal = "diurnal"	
                 return true
 			end
-
+			
 			-------Miner Branch
 			if equippedBees("arid","adaptive") then	
                 trySpawnHoney(0.40,"arid")
