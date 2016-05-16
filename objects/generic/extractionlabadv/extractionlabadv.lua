@@ -397,6 +397,8 @@ local recipes =
 {inputs = { beakseedseed=1 }, outputs = { geneticmaterial=3 }, time = 0.45},
 {inputs = { biscornseed=1 }, outputs = { tissueculture=3 }, time = 0.45},
 {inputs = { blizzberryseed=1 }, outputs = { tissueculture=2 }, time = 0.45},
+{inputs = { garpberryseed=1 }, outputs = { tissueculture=2 }, time = 0.45},
+{inputs = { garpberry=4 }, outputs = { aliencompound=2 }, time = 0.45},
 {inputs = { bloodrootseed=1 }, outputs = { liquidblood=4 }, time = 0.45},
 {inputs = { bluemelonseed=1 }, outputs = { geneticmaterial=2 }, time = 0.45},
 {inputs = { blexplantseed=1 }, outputs = { ff_resin=2 }, time = 0.45},

@@ -1,6 +1,16 @@
 [
 {
 	"op":"add",
+	"path":"/garpberryHarvest",
+	"value":[[0,{
+			"fill":[{"item":"garpberryseed"}],
+			"pool":[
+			{"weight":0.7, "item":"garpberry"},
+			{"weight":0.2,"item":"plantfibre"}],
+			"poolRounds":[[0.7,2],[0.3,3]]}]]
+},
+{
+	"op":"add",
 	"path":"/reedseedHarvest",
 	"value":[[0,{
 			"fill":[{"item":"reedseed"}],

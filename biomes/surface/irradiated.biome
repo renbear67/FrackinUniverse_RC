@@ -201,6 +201,7 @@
               [0.35, "wildvanusflowerseed" ],
               [0.35, "wildporphisplantseed" ],
               [0.35, "wildenergiflowerseed" ],
+              [0.35, "wildgarpberryseed" ],
               [0.35, "wilddragonsbeardseed" ]
               ],
               "parameters" : { "startingStage" : 3 }
