@@ -157,7 +157,7 @@
   
     "mainBlock" : "petalblock",
     "subBlocks" : [ "jungledirt2", "jungledirt1", "junglestone" ],
-    "ores" : "ff_surfacearborealOres",
+    "ores" : "ff_surfacerainforestOres",
 
   "parallax" : "/parallax/surface/thickjungle.parallax",
 

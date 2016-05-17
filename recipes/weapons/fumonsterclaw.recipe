@@ -2,7 +2,7 @@
   "input" : [
    { "item" : "bone", "count" : 8 },
    { "item" : "fleshstrand", "count" : 6 },
-   { "item" : "cellmatter", "count" : 8 },
+   { "item" : "biosample", "count" : 8 },
    { "item" : "corruptionseed", "count" : 2 }
   ],
   "output" : {

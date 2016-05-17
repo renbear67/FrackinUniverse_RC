@@ -141,7 +141,7 @@ local recipes =
 {inputs = { ancientbones=1 }, outputs = { tissueculture=1 }, time = 0.45},
 {inputs = { artificialbrain=1 }, outputs = { tissueculture=1 }, time = 0.45},
 {inputs = { pelt=1 }, outputs = { tissueculture=1 }, time = 0.45},
-{inputs = { biosample=1 }, outputs = { tissueculture=1 }, time = 0.45},
+{inputs = { biosample=3 }, outputs = { dnasample=1 }, time = 0.45},
 {inputs = { bolt=1 }, outputs = { tissueculture=1 }, time = 0.45},
 {inputs = { bone=1 }, outputs = { liquidoil=5 }, time = 0.45},
 {inputs = { bottle=1 }, outputs = { tissueculture=1 }, time = 0.45},

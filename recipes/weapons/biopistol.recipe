@@ -1,6 +1,6 @@
 {
   "input" : [
-   { "item" : "aliencompound", "count" : 1 },
+   { "item" : "biosample", "count" : 12 },
    { "item" : "mutagene4", "count" : 1 },
    { "item" : "larva", "count" : 8 },
    { "item" : "corruptionseed", "count" : 2 },
