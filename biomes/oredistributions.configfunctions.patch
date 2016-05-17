@@ -324,15 +324,15 @@
 "path":"/ff_deepsurfaceshadowOres",
 "value": 
   [
-    [0.5, [ [ "iron", 0.90], [ "lead", 0.90], [ "sulphur", 0.90],[ "mascagnite", 0.90],[ "lazulite", 0.70],[ "magnesium", 0.80],[ "berlinite", 0.80],[ "trianglium", 0.80], [ "densinium", 0.70],[ "thorium", 0.75] ] ],
-    [1.5, [ [ "tungsten", 0.90], [ "lead", 0.90], [ "sulphur", 0.90],[ "mascagnite", 0.90],[ "lazulite", 0.70],[ "magnesium", 0.80],[ "berlinite",  1.0],[ "trianglium", 0.80], [ "densinium", 0.75],[ "thorium", 0.75] ] ],
-    [2.5, [ [ "titanium", 1.15],[ "lead", 1.15], [ "sulphur", 1.15],[ "mascagnite",  1.15],[ "lazulite", 0.80],[ "magnesium", 0.80],[ "berlinite",  1.15],[ "trianglium", 1.0], [ "densinium", 0.70],[ "thorium", 0.75] ] ],
-    [3.5, [ [ "durasteel", 1.15],[ "lead", 1.15], [ "sulphur", 1.15],[ "mascagnite",  1.15],[ "lazulite", 0.80],[ "magnesium", 0.80],[ "berlinite",  1.15],[ "trianglium", 1.0], [ "densinium", 0.85],[ "thorium", 0.75] ] ],
-    [4.5, [ [ "aegisalt", 1.20], [ "rubium", 1.20], [ "violium", 1.20], [ "lead", 1.25], [ "sulphur", 1.0],[ "mascagnite", 1.00],[ "lazulite", 1.00],[ "magnesium", 1.20],[ "berlinite", 1.20],[ "trianglium", 1.15], [ "densinium", 1.00],[ "thorium", 0.75] ] ],
-    [5.5, [ [ "aegisalt", 1.20], [ "rubium", 1.20], [ "violium", 1.20], [ "lead", 1.25], [ "sulphur", 1.0],[ "mascagnite", 1.00],[ "lazulite", 1.00],[ "magnesium", 1.20],[ "berlinite", 1.20],[ "trianglium", 1.20], [ "densinium", 1.15],[ "thorium", 0.75] ] ],  
-    [6.5, [ [ "aegisalt", 1.20], [ "rubium", 1.20], [ "violium", 1.20], [ "lead", 1.25], [ "sulphur", 1.0],[ "mascagnite", 1.00],[ "lazulite", 1.00],[ "magnesium", 1.20],[ "berlinite", 1.20],[ "trianglium", 1.20], [ "densinium", 1.15],[ "thorium", 0.75] ] ],  
-    [7.5, [ [ "aegisalt", 1.20], [ "rubium", 1.20], [ "violium", 1.20], [ "lead", 1.25], [ "sulphur", 1.0],[ "mascagnite", 1.00],[ "lazulite", 1.00],[ "magnesium", 1.20],[ "berlinite", 1.20],[ "trianglium", 1.20], [ "densinium", 1.15],[ "thorium", 0.75] ] ],  
-    [8.5, [ [ "aegisalt", 1.20], [ "rubium", 1.20], [ "violium", 1.20], [ "lead", 1.25], [ "sulphur", 1.0],[ "mascagnite", 1.00],[ "lazulite", 1.00],[ "magnesium", 1.20],[ "berlinite", 1.20],[ "trianglium", 1.20], [ "densinium", 1.15],[ "thorium", 0.75] ] ]  
+    [0.5, [ [ "iron", 0.90], [ "lead", 0.90], [ "sulphur", 0.90],[ "mascagnite", 0.90],[ "lazulite", 0.70],[ "magnesium", 0.80],[ "berlinite", 0.80],[ "trianglium", 0.80], [ "densinium", 0.70],[ "thorium", 1.05] ] ],
+    [1.5, [ [ "tungsten", 0.90], [ "lead", 0.90], [ "sulphur", 0.90],[ "mascagnite", 0.90],[ "lazulite", 0.70],[ "magnesium", 0.80],[ "berlinite",  1.0],[ "trianglium", 0.80], [ "densinium", 0.75],[ "thorium", 1.05] ] ],
+    [2.5, [ [ "titanium", 1.15],[ "lead", 1.15], [ "sulphur", 1.15],[ "mascagnite",  1.15],[ "lazulite", 0.80],[ "magnesium", 0.80],[ "berlinite",  1.15],[ "trianglium", 1.0], [ "densinium", 0.70],[ "thorium", 1.15] ] ],
+    [3.5, [ [ "durasteel", 1.15],[ "lead", 1.15], [ "sulphur", 1.15],[ "mascagnite",  1.15],[ "lazulite", 0.80],[ "magnesium", 0.80],[ "berlinite",  1.15],[ "trianglium", 1.0], [ "densinium", 0.85],[ "thorium", 1.15] ] ],
+    [4.5, [ [ "aegisalt", 1.20], [ "rubium", 1.20], [ "violium", 1.20], [ "lead", 1.25], [ "sulphur", 1.0],[ "mascagnite", 1.00],[ "lazulite", 1.00],[ "magnesium", 1.20],[ "berlinite", 1.20],[ "trianglium", 1.15], [ "densinium", 1.00],[ "thorium", 1.25] ] ],
+    [5.5, [ [ "aegisalt", 1.20], [ "rubium", 1.20], [ "violium", 1.20], [ "lead", 1.25], [ "sulphur", 1.0],[ "mascagnite", 1.00],[ "lazulite", 1.00],[ "magnesium", 1.20],[ "berlinite", 1.20],[ "trianglium", 1.20], [ "densinium", 1.15],[ "thorium", 1.25] ] ],  
+    [6.5, [ [ "aegisalt", 1.20], [ "rubium", 1.20], [ "violium", 1.20], [ "lead", 1.25], [ "sulphur", 1.0],[ "mascagnite", 1.00],[ "lazulite", 1.00],[ "magnesium", 1.20],[ "berlinite", 1.20],[ "trianglium", 1.20], [ "densinium", 1.15],[ "thorium", 1.25] ] ],  
+    [7.5, [ [ "aegisalt", 1.20], [ "rubium", 1.20], [ "violium", 1.20], [ "lead", 1.25], [ "sulphur", 1.0],[ "mascagnite", 1.00],[ "lazulite", 1.00],[ "magnesium", 1.20],[ "berlinite", 1.20],[ "trianglium", 1.20], [ "densinium", 1.15],[ "thorium", 1.35] ] ],  
+    [8.5, [ [ "aegisalt", 1.20], [ "rubium", 1.20], [ "violium", 1.20], [ "lead", 1.25], [ "sulphur", 1.0],[ "mascagnite", 1.00],[ "lazulite", 1.00],[ "magnesium", 1.20],[ "berlinite", 1.20],[ "trianglium", 1.20], [ "densinium", 1.15],[ "thorium", 1.35] ] ]  
     ]
 },
 
