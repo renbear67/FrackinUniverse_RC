@@ -364,7 +364,7 @@
       },
       "surface" : {
           "primaryRegion" : [ "arboreal" ],
-          "secondaryRegion" : [ "steamspring", "fieldofbracken", "ffhive", "aliendesert", "cactiplace", "crystalswamp", "birchforest", "alienforest", "cloudforest", "rainbowforest", "swamp", "elder", "corruptedforest", "fieldofwheat", "fieldofsugar",  "fieldofpotato", "fieldofcorn",  "fieldofgrape",  "fieldoftomato", "pineforest", "flowerforest", "snowyforest", "giantflowers", "forest", "jungle", "savannah", "snow",  "tundra" ],
+          "secondaryRegion" : [ "fieldofbracken", "ffhive", "aliendesert", "cactiplace", "crystalswamp", "birchforest", "alienforest", "cloudforest", "rainbowforest", "swamp", "elder", "corruptedforest", "fieldofwheat", "fieldofsugar",  "fieldofpotato", "fieldofcorn",  "fieldofgrape",  "fieldoftomato", "pineforest", "flowerforest", "snowyforest", "giantflowers", "forest", "jungle", "savannah", "snow",  "tundra" ],
           "dungeonCountRange" : [2, 10],
              "dungeons" : [ "shipwreck", "avianfloatingislands", "avianpyramid", "glitchfarm", "glitchjoust", "uscmbase", "lakes", "volcano", "greenruins", "glitchsewer", "glitchvillage", "apexresearchlab", "apextestchamber", "apextowerblock", "aviantomb", "aviantower", "avianvillage", "avianairship", "aviantemple","humanbunker", "floranhuntinggrounds", "floranvillagetower", "floranhell", "humanprison", "naturalcave" ]
         },
@@ -1964,7 +1964,7 @@
   "path" : "/regionTypes/arboreal",
   "value" : 
   {
-      "caveLiquid" : [  "water", "tarliquid", "healingliquid" ],
+      "caveLiquid" : [  "water", "tarliquid", "blacktar", "wastewater" ],
       "blockSelector" : [ "remixedSurface", "remixedMildSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
@@ -1990,7 +1990,7 @@
   "path" : "/regionTypes/arboreal2",
   "value" : 
   {
-      "caveLiquid" : [  "water", "blacktar", "lava" ],
+      "caveLiquid" : [  "water", "tarliquid", "blacktar", "lava" ],
       "blockSelector" : [ "remixedSurface", "remixedMildSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ], 
       "biome" : [
@@ -2002,7 +2002,7 @@
   "path" : "/regionTypes/arborealdark",
   "value" : 
   {
-      "caveLiquid" : [  "wastewater", "blacktar", "water", "darkwater" ],
+      "caveLiquid" : [  "tarliquid", "blacktar", "alienjuice", "darkwater" ],
       "blockSelector" : [ "remixedSurface", "remixedMildSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "biome" : [
