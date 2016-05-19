@@ -50,7 +50,7 @@
   "airless" : true,
   "breathable" : false,
 
-  "hueShiftOptions" : [-120, -60, -40, 0, 20, 40, 60, 120],
+  "hueShiftOptions" : [ 0 ],
 
   "weather" : [
     [0, [
