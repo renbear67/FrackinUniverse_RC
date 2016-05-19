@@ -21,5 +21,17 @@
     "occludesBelow" : true,
     "multiColored" : false,
     "zLevel" : 0
-  }
+  },
+  "liquidInteractions" : [
+    {
+      "liquidId" : 2,
+      "consumeLiquid" : 0.55,
+      "transformMaterialId" : 6540
+    },
+    {
+      "liquidId" : 52,
+      "consumeLiquid" : 0.55,
+      "transformMaterialId" : 6540
+    }
+  ]
 }

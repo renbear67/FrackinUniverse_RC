@@ -1,8 +1,8 @@
 {
-  "materialId" : 6592,
-  "materialName" : "steelsand",
+  "materialId" : 6639,
+  "materialName" : "moltensand",
   "particleColor" : [176, 174, 168, 255],
-  "itemDrop" : "steelsand",
+  "itemDrop" : "moltensand",
   "description" : "Fine grains of metal.",
   "shortdescription" : "Steel Sand",
   "footstepSound" : "/sfx/blocks/footstep_ash.ogg",
@@ -12,7 +12,7 @@
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "steelsand.png",
+    "texture" : "moltensand.png",
     "variants" : 5,
     "lightTransparent" : false,
     "multiColored" : false,
@@ -21,14 +21,9 @@
   },
   "liquidInteractions" : [
     {
-      "liquidId" : 2,
+      "liquidId" : 1,
       "consumeLiquid" : 0.15,
-      "transformMaterialId" : 6639
-    },
-    {
-      "liquidId" : 52,
-      "consumeLiquid" : 0.15,
-      "transformMaterialId" : 6639
+      "transformMaterialId" : 6592
     }
   ]
 }

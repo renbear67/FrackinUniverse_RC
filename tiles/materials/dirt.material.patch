@@ -83,6 +83,11 @@
         "liquidId": 56,
         "consumeLiquid": 0.45,
         "transformMaterialId": 6533
+      },
+      {
+        "liquidId": 52,
+        "consumeLiquid": 0.15,
+        "transformMaterialId": 6540
       }
     ]
   }

@@ -1,35 +1,28 @@
 {
-  "materialId" : 6590,
-  "materialName" : "steelmetal",
+  "materialId" : 6638,
+  "materialName" : "moltenmetal",
   "particleColor" : [111, 98, 90, 255],
-  "itemDrop" : "steelmetal",
-  "description" : "Metal.",
-  "shortdescription" : "Metal",
+  "itemDrop" : "moltenmetal",
+  "description" : "Metal parts for some unknown purpose.",
+  "shortdescription" : "Metal Parts",
   "footstepSound" : "/sfx/blocks/footstep_girder.ogg",
-  "health" : 32,
+  "health" : 10,
   "category": "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "steelmetal.png",
+    "texture" : "moltenmetal.png",
     "variants" : 3,
     "lightTransparent" : false,
     "occludesBelow" : true,
     "multiColored" : true,
-    "zLevel" : 3000
+    "zLevel" : 2560
   },
-
   "liquidInteractions" : [
     {
-      "liquidId" : 2,
+      "liquidId" : 1,
       "consumeLiquid" : 0.15,
-      "transformMaterialId" : 6641
-    },
-    {
-      "liquidId" : 52,
-      "consumeLiquid" : 0.15,
-      "transformMaterialId" : 6641
+      "transformMaterialId" : 6591
     }
   ]
-  
 }
