@@ -1,6 +1,6 @@
 {
-  "materialId" : 6633,
-  "materialName" : "boneyflesh",
+  "materialId" : 6643,
+  "materialName" : "cookedboneyflesh",
   "particleColor" : [199, 36, 63, 225],
   "itemDrop" : "boneyflesh",
   "description" : "Oh boy. This is pleasant.",
@@ -11,24 +11,18 @@
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "boneyflesh.png",
+    "texture" : "cookedboneyflesh.png",
     "variants" : 10,
     "lightTransparent" : false,
     "occludesBelow" : true,
     "multiColored" : false,
     "zLevel" : 1570
   },
-  
   "liquidInteractions" : [
       {
-        "liquidId": 2,
+        "liquidId": 40,
         "consumeLiquid": 0.45,
-        "transformMaterialId": 6643
-      },
-      {
-        "liquidId": 3,
-        "consumeLiquid": 0.45,
-        "transformMaterialId": 6583
+        "transformMaterialId": 6633
       }
   ]
 }
