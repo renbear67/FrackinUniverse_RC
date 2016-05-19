@@ -22,12 +22,10 @@
     },
     {
       "action" : "liquid",
-      "liquid" : "bio_ooze",
-      "quantity" : 1
+      "liquid" : "slimeliquid",
+      "quantity" : 1.53
     }
   ],
-  //"power" : 5.0,
   "speed" : 15,
-  //"damageType" : "hitTest",
   "damageKind" : "poisonplasma"
 }

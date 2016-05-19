@@ -20,5 +20,14 @@
     "occludesBelow" : true,
     "zLevel" : 1640,
     "radiantLight" : [115, 43, 0]
-  }
+  },
+
+  "liquidInteractions" : [
+    {
+      "liquidId" : 2,
+      "consumeLiquid" : 0.5,
+      "transformMaterialId" : 6539
+    }
+  ]
+  
 }

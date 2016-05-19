@@ -4,9 +4,19 @@
     "path": "/liquidInteractions",
     "value": [
       {
+        "liquidId": 2,
+        "consumeLiquid": 0.45,
+        "transformMaterialId": 42293
+      },
+      {
         "liquidId": 46,
         "consumeLiquid": 0.45,
         "transformMaterialId": 6543
+      },
+      {
+        "liquidId": 13,
+        "consumeLiquid": 0.45,
+        "transformMaterialId": 42
       },
       {
         "liquidId": 56,
