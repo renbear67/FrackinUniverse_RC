@@ -5,7 +5,7 @@
    { "item" : "leather", "count" : 1 }
   ],
   "output" : {
-    "item" : "bonepickaxe",
+    "item" : "fubonepickaxe",
     "count" : 1
   },
   "groups" : [ "armory", "melee", "all" ]

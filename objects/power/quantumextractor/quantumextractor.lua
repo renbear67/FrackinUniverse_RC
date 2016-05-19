@@ -237,6 +237,8 @@ local recipes =
 {inputs = { grassy=50 }, outputs = { geneticmaterial=4 }, time = 0.1},
 {inputs = { waste=50 }, outputs = { nutrientpaste=4 }, time = 0.1},
 {inputs = { cactiblock=50 }, outputs = { tissueculture=4 }, time = 0.1},
+{inputs = { fumossyrock=50 }, outputs = { rawminerals=3 }, time = 0.1},
+{inputs = { fumossyrock2=50 }, outputs = { rawminerals=3 }, time = 0.1},
 {inputs = { biorock=50 }, outputs = { geneticmaterial=5 }, time = 0.1},
 {inputs = { biorock2=50 }, outputs = { geneticmaterial=5 }, time = 0.1},
 {inputs = { frozendirt=50 }, outputs = { nutrientpaste=5 }, time = 0.1},

@@ -51,5 +51,6 @@
       "angleAdjust" : 0
     }
   ],
-  "damageKind" : "ice"
+  "damageKind" : "ice",
+  "statusEffects" : [ "freeze" ]
 }

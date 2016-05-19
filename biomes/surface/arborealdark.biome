@@ -85,6 +85,34 @@
       "dayLightColor" : [30, 30, 30],
       "eveningLightColor" : [10, 20, 10],
       "nightLightColor" : [0, 22, 0]
+    },
+    // green tinted bright
+    {
+      "mainColor" : [30, 30, 30],
+
+      "morningColors" : [ [123, 224, 150], [124, 230, 164] ],
+      "dayColors" : [ [130, 255, 190], [135, 255, 195] ],
+      "eveningColors" : [ [100, 200, 130], [111, 211, 150] ],
+      "nightColors" : [ [0, 50, 0], [0, 50, 0] ],
+
+      "morningLightColor" : [90, 250, 110],
+      "dayLightColor" : [45, 200, 55],
+      "eveningLightColor" : [25, 150, 30],
+      "nightLightColor" : [32, 72, 0]
+    },
+    // green tinted bright
+    {
+      "mainColor" : [40, 90, 40],
+
+      "morningColors" : [ [123, 224, 150], [124, 230, 164] ],
+      "dayColors" : [ [130, 255, 190], [135, 255, 195] ],
+      "eveningColors" : [ [100, 200, 130], [111, 211, 150] ],
+      "nightColors" : [ [0, 50, 0], [0, 50, 0] ],
+
+      "morningLightColor" : [90, 180, 110],
+      "dayLightColor" : [45, 120, 55],
+      "eveningLightColor" : [25, 80, 30],
+      "nightLightColor" : [20, 42, 0]
     }
   ],
 

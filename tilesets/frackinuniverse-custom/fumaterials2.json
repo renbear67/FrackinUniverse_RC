@@ -3,7 +3,7 @@
  "properties":
     {},
  "spacing":0,
- "tilecount":87,
+ "tilecount":90,
  "tileheight":8,
   "tileproperties" : {
       "0" : {
@@ -266,6 +266,15 @@
       },
       "86" : {
           "material" : "retexgreenhouse"
+      },
+      "87" : {
+          "material" : "fumossyrock"
+      },
+      "88" : {
+          "material" : "fumossyrock2"
+      },
+      "89" : {
+          "material" : "elderroof"
       } 
     },
       
@@ -618,7 +627,19 @@
       "86":
         {
          "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/retexgreenhouse.png"
-        }  
+        },
+      "87":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/fumossyrock.png"
+        },
+      "88":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/fumossyrock2.png"
+        },
+      "89":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/elderroof.png"
+        } 
     },
  "tilewidth":8
 }

@@ -71,7 +71,7 @@
           {"weight" : 0.04, "item" : [ "crunchychick", 1]},
           {"weight" : 0.01, "item" : [ "honeyboon", 1]},                
           {"weight" : 0.01, "item" : [ "pincerspear", 1]},
-          {"weight" : 0.01, "item" : [ "bonepickaxe", 1]},
+          {"weight" : 0.01, "item" : [ "fubonepickaxe", 1]},
           {"weight" : 0.01, "item" : [ "ffwizardhat", 1]},          
           {"weight" : 0.007, "item" : [ "bloodyknife", 1]},      
 	  {"weight" : 0.04, "item" : "randomharpoongun"},
