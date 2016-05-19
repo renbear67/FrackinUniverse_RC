@@ -3,7 +3,7 @@
 	"materialName" : "coral",
 	"particleColor" : [146, 156, 170, 255],
 	"itemDrop" : "coralmaterial",
-	"description" : "Ancient coral.",
+	"description" : "live coral",
 	"shortdescription" : "Coral",
 	"footstepSound" : "/sfx/blocks/footstep_stone.ogg",
 	"health" : 10,

@@ -6,7 +6,9 @@
   "description" : "Strange neon-like soil",
   "shortdescription" : "Alien Soil",
   "footstepSound" : "/sfx/blocks/footstep_crystal.ogg",
-  "health" : 2,
+  "health" : 1.5,
+  "tillableMod" : 31,
+  "soil" : true,
   "category": "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
