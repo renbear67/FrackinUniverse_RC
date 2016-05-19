@@ -50,4 +50,9 @@ function tileMaterials()
   self.matCheck["honeycombmaterial"] = {{"honeyslow"},1,1,1,14,101,0,1.7}  
   self.matCheck["speedblock"] = {{"runboost35"},1,1,1,14,101,0,1.75} 
   self.matCheck["jumpblock"] = {{"jumpboost35"},1,1,1,14,101,0,1.75} 
+  
+  self.matCheck["moltensteel"] = {{"burning"},1,1,1,14,101,0,1.75} 
+  self.matCheck["moltentile"] = {{"burning"},1,1,1,14,101,0,1.75} 
+  self.matCheck["moltensand"] = {{"burning"},1,1,1,14,101,0,1.75} 
+  self.matCheck["moltenmetal"] = {{"burning"},1,1,1,14,101,0,1.75} 
 end

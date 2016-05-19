@@ -6,7 +6,6 @@
   "description" : "Fine grains of metal.",
   "shortdescription" : "Steel Sand",
   "footstepSound" : "/sfx/blocks/footstep_ash.ogg",
-  "soil" : false,
   "health" : 2.5,
   "category": "materials",
 
