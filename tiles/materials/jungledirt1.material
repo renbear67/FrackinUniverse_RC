@@ -22,6 +22,16 @@
   },
 
   "liquidInteractions" : [
+      {
+        "liquidId": 54,
+        "consumeLiquid": 0.45,
+        "transformMaterialId": 6566
+      },
+      {
+        "liquidId": 57,
+        "consumeLiquid": 0.45,
+        "transformMaterialId": 6580
+      },
     {
       "liquidId" : 2,
       "consumeLiquid" : 0.14,

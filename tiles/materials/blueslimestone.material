@@ -16,7 +16,8 @@
     "lightTransparent" : false,
     "multiColored" : false,
     "occludesBelow" : true,
-    "zLevel" : 1640
+    "zLevel" : 1640,
+    "radiantLight" : [15, 35, 55]
   },
   
   "liquidInteractions" : [
