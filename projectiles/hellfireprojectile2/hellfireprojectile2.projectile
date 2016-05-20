@@ -54,6 +54,11 @@
       "fuzzAngle" : 0,
       "inheritDamageFactor" : 0.12,
       "angleAdjust" : 35
+    },
+    {
+      "action" : "liquid",
+      "liquid" : "lava",
+      "quantity" : 0.4
     }
   ],
   "power" : 12.0,

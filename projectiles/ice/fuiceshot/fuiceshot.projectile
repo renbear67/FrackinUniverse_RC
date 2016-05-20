@@ -13,6 +13,11 @@
     {
       "action" : "config",
       "file" : "/projectiles/explosions/mediumsnowballexplosion/mediumsnowballexplosion.config"
+    },
+    {
+      "action" : "liquid",
+      "liquid" : "liquidnitrogen",
+      "quantity" : 0.45
     }
   ],
   "statusEffects" : [ "nitrogenfreeze3" ]

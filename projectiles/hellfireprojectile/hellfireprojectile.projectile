@@ -15,6 +15,11 @@
       "file" : "/projectiles/explosions/regularexplosion2/regularexplosion2.config"
     },
     {
+      "action" : "liquid",
+      "liquid" : "lava",
+      "quantity" : 0.45
+    },
+    {
       "action" : "projectile",
       "type" : "molotovflame",
       "fuzzAngle" : 0,
