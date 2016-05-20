@@ -22,6 +22,11 @@
       {
         "liquidId": 2,
         "consumeLiquid": 0.45,
+        "transformModId": 302
+      },   
+      {
+        "liquidId": 2,
+        "consumeLiquid": 0.45,
         "transformMaterialId": 6642
       },
       {
