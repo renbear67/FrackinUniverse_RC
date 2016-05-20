@@ -1,10 +1,10 @@
 {
-  "materialId" : 6586,
-  "materialName" : "slimedirt",
+  "materialId" : 6645,
+  "materialName" : "blueslimeslimedirt",
   "particleColor" : [81, 150, 81, 200],
   "itemDrop" : "slimedirtmaterial",
   "description" : "Ew. Slimy.",
-  "shortdescription" : "Slimey Soil",
+  "shortdescription" : "Healing Slime",
   "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
   "health" : 3,
   "tillableMod" : 31,
@@ -13,7 +13,7 @@
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "slimedirt.png",
+    "texture" : "blueslime.png",
     "variants" : 5,
     "lightTransparent" : false,
     "occludesBelow" : true,
@@ -49,7 +49,7 @@
       {
         "liquidId": 6,
         "consumeLiquid": 0.45,
-        "transformMaterialId": 6645
+        "transformMaterialId": 1431
       } 
   ]
 }

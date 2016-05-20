@@ -1,9 +1,9 @@
 {
-  "materialId" : 6630,
-  "materialName" : "jellystone",
+  "materialId" : 6647,
+  "materialName" : "blueslimestone",
   "particleColor" : [80, 236, 4, 255],
   "itemDrop" : "jellystone",
-  "shortdescription" : "Gelatinous Stone",
+  "shortdescription" : "Healing Slime Stone",
   "description" : "Unsure how this is possible, but okay.",
   "footstepSound" : "/sfx/blocks/footstep_stone3.ogg",
   "health" : 6,
@@ -11,7 +11,7 @@
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "jellystone.png",
+    "texture" : "blueslimestone.png",
     "variants" : 5,
     "lightTransparent" : false,
     "multiColored" : false,
@@ -29,11 +29,6 @@
       "liquidId" : 60,
       "consumeLiquid" : 0.5,
       "transformMaterialId" : 6544
-    },
-    {
-      "liquidId" : 6,
-      "consumeLiquid" : 0.5,
-      "transformMaterialId" : 6647
     }
   ]
   

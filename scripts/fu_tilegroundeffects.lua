@@ -54,4 +54,7 @@ function tileMaterials()
   self.matCheck["moltentile"] = {{"burning"},1,1,1,14,101,0,1.75} 
   self.matCheck["moltensand"] = {{"burning"},1,1,1,14,101,0,1.75} 
   self.matCheck["moltenmetal"] = {{"burning"},1,1,1,14,101,0,1.75} 
+  self.matCheck["blueslimedirt"] = {{"regenerationminor","slimestick"},1,1,1,14,100,0,1.1}
+  self.matCheck["blueslime"] = {{"regenerationminor","slimestick"},1,1,1,14,100,0,1.1}
+  self.matCheck["blueslimestone"] = {{"regenerationminor","slimestick"},1,1,1,14,100,0,1.1}
 end
