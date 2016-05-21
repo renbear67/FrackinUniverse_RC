@@ -3,7 +3,7 @@
   "physics" : "bullet",
   "frames" : "fuiceshot.png",
   "damageKindImage" : "icon.png",
-  "speed" : 19,
+  "speed" : 50,
   "animationCycle" : 0.5,
   "frameNumber" : 4,
   "power" : 6,
@@ -13,6 +13,12 @@
     {
       "action" : "config",
       "file" : "/projectiles/explosions/mediumsnowballexplosion/mediumsnowballexplosion.config"
+    },
+    {
+      "action" : "liquid",
+      "liquid" : "liquidnitrogen",
+      "quantity" : 0.45
     }
-  ]
+  ],
+  "statusEffects" : [ "nitrogenfreeze3" ]
 }

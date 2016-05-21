@@ -248,6 +248,15 @@
         "type" : "microdungeon",
         "microdungeons" : [ "desertmicrodungeons" ]
       },
+        {
+          "mode" : "floor",
+          "priority" : 2.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:randomEncounter",
+
+          "type" : "microdungeon",
+          "microdungeons" : [ "fuelders", "fuhives", "furedhives", "fuencounters", "newhumanmicro", "newavianmicro", "minigreenruins", "furandomencounter", "fuglitchencounter", "fuavianencounter" ]
+        },      
       {
         "mode" : "floor",
         "priority" : 3.0,

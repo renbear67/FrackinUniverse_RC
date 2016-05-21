@@ -4,7 +4,7 @@
   "hueShiftOptions" : [-40, -25, 0, 25, 40],
 
     "mainBlock" : "steelhive",
-    "subBlocks" : [ "steelash", "steelsand", "steelrock" ],
+    "subBlocks" : [ "steelsand", "steelstone" ],
     "ores" : "ff_honeyOres",
   "spawnProfile" : {
     "groups" : [
@@ -42,6 +42,15 @@
           "type" : "microdungeon",
           "microdungeons" : [ "block1platforms", "loops", "spiralspikes", "blocks", "stripeblocks", "blockpile", "reversepyramids", "flats", "spikes", "rods", "wiggles", "rockyshapes", "layeredspire", "blank", "none" ]
         },
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
+
+          "type" : "microdungeon",
+          "microdungeons" : [ "metallicmini", "junkmini", "steamspringmicrodungeons", "alienmicrodungeons" ]
+        },                
         {
           "mode" : "floor",
           "priority" : 1.0,

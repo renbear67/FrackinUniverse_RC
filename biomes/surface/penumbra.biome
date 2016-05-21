@@ -39,6 +39,7 @@
       }
     ],
     "monsterParameters" : {
+    "colors" : "shadow",
       "statusSettings" : {
         "stats" : {
           "poisonImmunity" : {
@@ -335,7 +336,7 @@
           "distribution" : "/biomes/distributions.config:randomEncounter",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "alienmicrodungeons" ]
+          "microdungeons" : [ "fuelders", "fubandits", "fuencounters", "furandomencounter", "fuhumanencounter", "fuapexencounter", "alienmicrodungeons", "furedhives" ]
         },     
         {
           "mode" : "floor",

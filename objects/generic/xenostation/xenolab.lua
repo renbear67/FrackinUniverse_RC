@@ -72,6 +72,7 @@ local recipes = {
 {inputs = { goldenseaspongeplant=1 }, outputs = { gene_fish=1 }, time = 5},
 {inputs = { fuspongeweedseed=1 }, outputs = { gene_fish=1 }, time = 5},
 {inputs = { fusnowberryseed=1 }, outputs = { gene_cryo=1 }, time = 5},
+{inputs = { garpberryseed=1 }, outputs = { gene_resist=1 }, time = 4.4},
 {inputs = { varanberryseed=1 }, outputs = { gene_regen=1 }, time = 5.5},
 {inputs = { cellpodsplant=1 }, outputs = { gene_insectoid=5 }, time = 5},
 {inputs = { kamaranpodsplant=1 }, outputs = { gene_mimetic=4 }, time = 5},

@@ -135,6 +135,15 @@
           "mode" : "floor",
           "priority" : 1.0,
           "variants" : 1,
+          "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
+
+          "type" : "microdungeon",
+          "microdungeons" : [ "metallicmini", "junkmini", "steamspringmicrodungeons", "alienmicrodungeons" ]
+        },        
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
           "distribution" : "/biomes/distributions.config:overgroundChests",
 
           "type" : "object",

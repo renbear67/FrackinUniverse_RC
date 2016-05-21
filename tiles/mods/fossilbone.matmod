@@ -3,14 +3,14 @@
   "modName" : "fossilbone",
   "description" : "A fossilized bone.",
   "footstepSound" : "/sfx/blocks/footstep_bone.ogg",
-  "health" : 7.5,
+  "health" : 4.5,
   "breaksWithTile" : true,
   "harvestLevel" : 1,
   "itemDrop" : "bone",
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
     "texture" : "fossilbone.png",
-    "variants" : 16,
+    "variants" : 32,
     "multiColored" : false,
     "zLevel" : 0
   }

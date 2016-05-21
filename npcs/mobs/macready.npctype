@@ -2,7 +2,7 @@
   "type" : "macready",
   "baseType" : "hostile",
 
-  "levelVariance" : [0, 0],
+  "levelVariance" : [0, 1],
 
   "dropPools" : [ "ffbanditTreasure", "macreadyTreasure" ],
   
@@ -13,7 +13,7 @@
             "head" : [ { "name" : "brainslug" } ],
             "chest" : [ { "name" : "fieldscientistchest" } ],
             "legs" : [ { "name" : "fieldscientistlegs" } ],
-            "primary" : [ "fuenergymachinegun" ]
+            "primary" : [ "goregun" ]
           }
       ] ]
     ]

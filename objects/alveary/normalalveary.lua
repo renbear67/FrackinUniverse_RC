@@ -716,7 +716,7 @@ function workingBees()
                 return true
 			end
 			if equippedBees("metal") then					--METAL (FrackinUniverse addition )
-			    trySpawnHoney(0.80, "red")
+			    trySpawnHoney(0.80, "tungsten")
 				trySpawnBee(  0.33, "metal")
 				trySpawnDrone(0.33, "metal")
 				trySpawnItems(0.33, "tungstenore")
@@ -724,6 +724,7 @@ function workingBees()
 				beeNocturnalDiurnal = "diurnal"	
 				beeSting()
                 return true
+                        end
 			if equippedBees("solarium") then					--SOLARIUM
                 spawnHoneyDronesBees("solarium")
 				beeNocturnalDiurnal = "diurnal"	
@@ -823,7 +824,7 @@ function breedingBees()
 				beeNocturnalDiurnal = "diurnal"	
                 return true
 			end
-
+			
 			-------Miner Branch
 			if equippedBees("arid","adaptive") then	
                 trySpawnHoney(0.40,"arid")

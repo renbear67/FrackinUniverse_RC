@@ -18,7 +18,6 @@
       "file" : "/projectiles/explosions/smallregularexplosion/smallregularexplosion.config"
     }
   ],
-  "damagePoly" : [ [-64, 0], [-64, -13], [0, -13], [64, -13], [64, 0], [64, 13], [0, 13], [-64, 13] ],
   "damageKind" : "fireplasma",
   "physics" : "bullet",
   "emitters" : [ "sparks" ]

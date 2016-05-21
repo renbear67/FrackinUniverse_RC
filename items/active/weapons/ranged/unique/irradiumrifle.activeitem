@@ -21,7 +21,7 @@
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : [ "/sfx/gun/irradiumrifle.ogg" ]
+      "fire" : [ "/sfx/weapons/irradiumrifle.ogg" ]
     }
   },
 

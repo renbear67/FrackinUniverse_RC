@@ -343,12 +343,12 @@
         },        
         {
           "mode" : "floor",
-          "priority" : 3.0,
+          "priority" : 2.0,
           "variants" : 1,
           "distribution" : "/biomes/distributions.config:randomEncounter",
 
           "type" : "microdungeon",
-          "microdungeons" : [  "fuencountercultist", "newhumanmicro", "newavianmicro", "minigreenruins" ]
+          "microdungeons" : [ "fuencounters", "newhumanmicro", "newavianmicro", "minigreenruins", "furandomencounter", "fuglitchencounter", "fuavianencounter" ]
         },
         {
           "mode" : "floor",

@@ -18,7 +18,7 @@ function tileMaterials()
   self.matCheck["redsand"] = {{"jungleslow"},1,1,1,14,101,0.5,1.9}
   self.matCheck["jungledirt2"] = {{"jungleslow"},1,1,1,14,100,0,1}
   self.matCheck["swampdirtff"] = {{"jungleslow"},1,1,1,14,100,0,1}
-  self.matCheck["swampdirtff"] = {{"springvines"},1,1,1,14,100,0,1}
+  self.matCheck["springvines"] = {{"jungleslow"},1,1,1,14,100,0,1}
   self.matCheck["frozenwater"] = {{"iceslip"},1,1,1,14,100,0,1}
   self.matCheck["ice"] = {{"iceslip"},1,1,1,14,100,0,1}
   self.matCheck["iceblock1"] = {{"iceslip"},1,1,1,14,100,0,1}
@@ -50,4 +50,11 @@ function tileMaterials()
   self.matCheck["honeycombmaterial"] = {{"honeyslow"},1,1,1,14,101,0,1.7}  
   self.matCheck["speedblock"] = {{"runboost35"},1,1,1,14,101,0,1.75} 
   self.matCheck["jumpblock"] = {{"jumpboost35"},1,1,1,14,101,0,1.75} 
+  self.matCheck["moltensteel"] = {{"burning"},1,1,1,14,101,0,1.75} 
+  self.matCheck["moltentile"] = {{"burning"},1,1,1,14,101,0,1.75} 
+  self.matCheck["moltensand"] = {{"burning"},1,1,1,14,101,0,1.75} 
+  self.matCheck["moltenmetal"] = {{"burning"},1,1,1,14,101,0,1.75} 
+  self.matCheck["blueslimedirt"] = {{"regenerationminor","slimestick"},1,1,1,14,100,0,1.1}
+  self.matCheck["blueslime"] = {{"regenerationminor","slimestick"},1,1,1,14,100,0,1.1}
+  self.matCheck["blueslimestone"] = {{"regenerationminor","slimestick"},1,1,1,14,100,0,1.1}
 end

@@ -3,8 +3,7 @@
   "rarity" : "Common",
   "inventoryIcon" : "penumbradirtmaterial.png",
   "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
-  "shortdescription" : "Void dirt",
+  "shortdescription" : "Umbral dirt",
   "description" : "This dirt absorbs all light",
-
   "materialId" : 6574
 }

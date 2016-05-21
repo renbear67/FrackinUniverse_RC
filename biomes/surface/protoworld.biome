@@ -225,7 +225,7 @@
           "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "protomini" ]
+          "microdungeons" : [ "protomini", "protomini2" ]
         },
         {
           "mode" : "floor",
@@ -432,7 +432,7 @@
           "distribution" : "/biomes/distributions.config:randomEncounter",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "newhumanmicro", "newavianmicro", "alienmicrodungeons", "wastelandbuildings", "rarebuildings" ]
+          "microdungeons" : [ "newhumanmicro", "newavianmicro", "alienmicrodungeons", "wastelandbuildings", "rarebuildings", "furedhives", "fuencounters", "fushops", "fulabs", "fuhives", "fuelders", "fuavali", "fubandits" ]
         },
         {
           "mode" : "floor",

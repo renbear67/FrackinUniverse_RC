@@ -2,7 +2,8 @@
   "input" : [
     { "item" : "aliencompound", "count" : 3 },
     { "item" : "fu_salt", "count" : 8 },
-    { "item" : "liquidelderfluid", "count" : 1 }
+    { "item" : "liquidelderfluid", "count" : 1 },
+    { "item" : "syringe", "count" : 1 }
   ],
   "output" : {
     "item" : "thesauce",

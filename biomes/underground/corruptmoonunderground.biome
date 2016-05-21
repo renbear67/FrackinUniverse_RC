@@ -59,7 +59,7 @@
   },
 
     "mainBlock" : "corruptslime",
-    "subBlocks" : [ "darkstone", "corruptdirt", "mud" ],
+    "subBlocks" : [ "darkstone", "corruptdirt", "hiveold" ],
     "ores" : "ff_deepsurfacecorruptionOres",
 
   "parallax" : "/parallax/underground/arborealunderground.parallax",

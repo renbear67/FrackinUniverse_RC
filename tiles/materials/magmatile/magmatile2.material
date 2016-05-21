@@ -18,5 +18,19 @@
     "multiColored" : false,
     "zLevel" : 0,
     "radiantLight" : [72, 37, 16]
-  }
+  },
+  
+  "liquidInteractions" : [
+    {
+      "liquidId" : 1,
+      "consumeLiquid" : 0.5,
+      "transformMaterialId" : 81
+    },
+    {
+      "liquidId" : 60,
+      "consumeLiquid" : 0.5,
+      "transformMaterialId" : 6631
+    }
+  ]
+  
 }

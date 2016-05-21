@@ -1,9 +1,9 @@
 { "margin":0,
- "name":"FUmain",
+ "name":"ElderObjects",
  "properties":
     {},
  "spacing":0,
- "tilecount":61,
+ "tilecount":72,
  "tileheight":279,
   "tileproperties" : {
       "0" : {
@@ -103,7 +103,9 @@
           "object" : "elderthingstatue2"
       },
       "32" : {
-          "object" : "elderurn1"
+          "object" : "elderurn1",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0" 
       },
       "33" : {
           "object" : "elderurn2"
@@ -190,7 +192,58 @@
       },
       "60" : {
           "object" : "elderbookcase2"         
-      } 
+      },
+      "61" : {
+          "object" : "starspawnstatue",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "0"   
+      },
+      "62" : {
+          "object" : "starspawnstatue2",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "0"   
+      },
+      "63" : {
+          "object" : "starspawnstatue3",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "0"   
+      },
+      "64" : {
+          "object" : "elderurn4",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0"   
+      } ,
+      "65" : {
+          "object" : "elderurn5" 
+      }, 
+      "66" : {
+          "object" : "elderurn6"
+      },
+      "67" : {
+          "object" : "fukluexstatue2",
+          "imagePositionX" : "-51",
+          "imagePositionY" : "0"          
+      },
+      "68" : {
+          "object" : "fukluexstatue3",
+          "imagePositionX" : "-51",
+          "imagePositionY" : "0"          
+      },
+      "69" : {
+          "object" : "fukluexstatue4",
+          "imagePositionX" : "-51",
+          "imagePositionY" : "0"          
+      },
+      "70" : {
+          "object" : "fukluexstatue5",
+          "imagePositionX" : "-51",
+          "imagePositionY" : "0"          
+      },
+      "71" : {
+          "object" : "fukluexstatue6",
+          "imagePositionX" : "-51",
+          "imagePositionY" : "0"          
+      }
     },
       
  "tiles":
@@ -438,6 +491,50 @@
      "60":
         {
          "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/elderbookcase2.png"
+        },
+     "61":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/starspawnstatue.png"
+        },
+     "62":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/starspawnstatue2.png"
+        },
+     "63":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/starspawnstatue3.png"
+        },
+     "64":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/elderurn4.png"
+        },
+     "65":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/elderurn5.png"
+        },
+     "66":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/elderurn6.png"
+        },
+     "67":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/fukluexstatue2.png"
+        },
+     "68":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/fukluexstatue3.png"
+        },
+     "69":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/fukluexstatue4.png"
+        },
+     "70":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/fukluexstatue5.png"
+        },
+     "71":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/fukluexstatue6.png"
         }
     },
  "tilewidth":285

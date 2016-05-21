@@ -391,12 +391,12 @@
         },
         {
           "mode" : "floor",
-          "priority" : 3.0,
+          "priority" : 2.0,
           "variants" : 1,
           "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "bogmini" ]
+          "microdungeons" : [ "bogmini", "swampmicrodungeons" ]
         },
         {
           "mode" : "floor",
@@ -409,21 +409,12 @@
         },
         {
           "mode" : "floor",
-          "priority" : 3.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
-
-          "type" : "microdungeon",
-          "microdungeons" : [ "swampmicrodungeons" ]
-        },
-        {
-          "mode" : "floor",
-          "priority" : 3.0,
+          "priority" : 2.0,
           "variants" : 1,
           "distribution" : "/biomes/distributions.config:randomEncounter",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "newhumanmicro", "newavianmicro", "minigreenruins" ]
+          "microdungeons" : [ "fushops", "fulabs", "fuencounters", "fuavali", "fubandits", "fuelders", "fuencountercultist", "newhumanmicro", "newavianmicro", "minigreenruins", "fuhives", "furandomencounter", "fuapexencounter", "fuglitchencounter", "fuavianencounter", "fuhumanencounter" ]
         },
         {
           "mode" : "floor",

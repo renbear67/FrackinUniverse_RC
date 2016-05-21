@@ -43,7 +43,7 @@
 
   "hueShiftOptions" : [-165, -70, -25, 0, 25, 70, 165],
 
-    "mainBlock" : "penumbradirt",
+    "mainBlock" : "hiveold",
     "subBlocks" : [ "blackslime", "penumbrastone", "clay" ],
     "ores" : "ff_surfacesulfurOres",
 

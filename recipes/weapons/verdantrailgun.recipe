@@ -3,7 +3,7 @@
     { "item" : "vanusflower", "count" : 4 },
     { "item" : "energywood", "count" : 7 },
     { "item" : "biochip", "count" : 4 },
-    { "item" : "algaegreen", "count" : 25 }
+    { "item" : "biosample", "count" : 25 }
   ],
   "output" : {
     "item" : "verdantrailgun",

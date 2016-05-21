@@ -3,7 +3,7 @@
   "price" : 160,
   "inventoryIcon" : "nitrogengun.png",
   "maxStack" : 1,
-  "rarity" : "common",
+  "rarity" : "rare",
   "description" : "Freezes enemies in place.",
   "shortdescription" : "Nitrogen Cannon",
   "level" : 3,
@@ -26,7 +26,7 @@
   },
 
   "baseOffset" : [1.3, 0.2],
-  "muzzleOffset" : [2.445, 0.325],
+  "muzzleOffset" : [2.245, 0.325],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
@@ -41,10 +41,10 @@
     "projectileCount" : 1,
     "fireType" : "auto",
 
-    "projectileType" : "iceblade2",
+    "projectileType" : "funitrogencannonshot",
     "projectileParameters" : { 
       "speed" : 50,
-      "knockback" : 32
+      "knockback" : 52
     }
   },
 

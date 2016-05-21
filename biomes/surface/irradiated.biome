@@ -201,6 +201,7 @@
               [0.35, "wildvanusflowerseed" ],
               [0.35, "wildporphisplantseed" ],
               [0.35, "wildenergiflowerseed" ],
+              [0.35, "wildgarpberryseed" ],
               [0.35, "wilddragonsbeardseed" ]
               ],
               "parameters" : { "startingStage" : 3 }
@@ -311,7 +312,7 @@
           "distribution" : "/biomes/distributions.config:randomEncounter",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "fuencountercultist", "newhumanmicro", "newavianmicro", "minigreenruins" ]
+          "microdungeons" : [ "fulabs", "fuelders", "fubandits", "fuavali", "fushops", "fuencounters", "fuencountercultist", "newhumanmicro", "newavianmicro", "minigreenruins", "fuhives", "furedhives" ]
         },
         {
           "mode" : "floor",

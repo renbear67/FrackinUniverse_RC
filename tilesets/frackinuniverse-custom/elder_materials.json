@@ -3,7 +3,7 @@
  "properties":
     {},
  "spacing":0,
- "tilecount":14,
+ "tilecount":15,
  "tileheight":8,
   "tileproperties" : {
       "0" : {
@@ -43,10 +43,13 @@
           "material" : "elderpillar1"
       },
       "12" : {
-                "material" : "elderpillarcap"
+          "material" : "elderpillarcap"
       },
       "13" : {
-                "material" : "elderfloor"
+          "material" : "elderfloor"
+      },
+      "14" : {
+          "material" : "elderroof"
       } 
  }, 
  "tiles":
@@ -106,7 +109,11 @@
      "13":
         {
          "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/elderfloorblock.png"
-        }     
+        },
+     "14":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/elderroof.png"
+        } 
     },
  "tilewidth":8
 }

@@ -46,7 +46,7 @@
   },
     "mainBlock" : "mud",
     "subBlocks" : [ "petalblock", "clay", "junglestone" ],
-    "ores" : "ff_deepsurfacearborealOres",
+    "ores" : "ff_deepsurfacerainforestOres",
 
   "parallax" : "/parallax/underground/thickjungleunderground.parallax",
 

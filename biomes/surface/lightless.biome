@@ -34,7 +34,7 @@
       }
     ],
     "monsterParameters" : {
-	  "colors" : "ice",
+	  "colors" : "shadow",
       "statusSettings" : {
         "stats" : {
             "biooozeImmunity" : {
@@ -48,7 +48,7 @@
     }
   },
 
-  "hueShiftOptions" : [ -65, -35, 0, 35, 65],
+  "hueShiftOptions" : [ -125, -105, -85, -65, -35, 0, 35, 65, 85, 105, 125],
   
   "weather" : [
     [0, [
@@ -76,7 +76,7 @@
   
   
   "mainBlock" : "darkness",
-  "subBlocks" : [ "darkstone", "blackslime" ],
+  "subBlocks" : [ "darkstone", "blackslime", "hiveold" ],
   "ores" : "ff_surfaceshadowOres",
 
   "parallax" : "/parallax/surface/lightless.parallax",
@@ -203,7 +203,7 @@
           "type" : "bush",
           "bushes" : [
             {
-              "name" : "tarcrystal",
+              "name" : "lightless",
               "baseHueShiftMax" : 0,
               "modHueShiftMax" : 0
             }

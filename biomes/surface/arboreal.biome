@@ -72,6 +72,125 @@
   
   
   "skyOptions" : [
+    {
+      "mainColor" : [255, 255, 255],
+
+      "morningColors" : [ [255, 224, 129], [252, 230, 164] ],
+      "dayColors" : [ [255, 152, 107], [255, 183, 152] ],
+      "eveningColors" : [ [254, 121, 69], [254, 165, 129] ],
+      "nightColors" : [ [70, 50, 50], [70, 50, 50] ],
+
+      "morningLightColor" : [190, 190, 190],
+      "dayLightColor" : [150, 138, 140],
+      "eveningLightColor" : [100, 100, 100],
+      "nightLightColor" : [40, 40, 40]
+    },
+    {
+      "mainColor" : [225, 100, 225],
+
+      "morningColors" : [ [255, 224, 129], [252, 230, 164] ],
+      "dayColors" : [ [255, 152, 107], [255, 183, 152] ],
+      "eveningColors" : [ [254, 121, 69], [254, 165, 129] ],
+      "nightColors" : [ [70, 50, 50], [70, 50, 50] ],
+
+      "morningLightColor" : [160, 160, 160],
+      "dayLightColor" : [150, 138, 140],
+      "eveningLightColor" : [100, 100, 100],
+      "nightLightColor" : [40, 40, 40]
+    },
+    {
+      "mainColor" : [205, 205, 205],
+
+      "morningColors" : [ [255, 224, 129], [252, 230, 164] ],
+      "dayColors" : [ [255, 152, 107], [255, 183, 152] ],
+      "eveningColors" : [ [254, 121, 69], [254, 165, 129] ],
+      "nightColors" : [ [70, 50, 50], [70, 50, 50] ],
+
+      "morningLightColor" : [170, 170, 170],
+      "dayLightColor" : [150, 138, 140],
+      "eveningLightColor" : [100, 100, 100],
+      "nightLightColor" : [40, 40, 40]
+    },
+    {
+      "mainColor" : [200, 250, 205],
+
+      "morningColors" : [ [130, 205, 130], [130, 205, 130] ],
+      "dayColors" : [ [100, 180, 100], [100, 189, 100] ],
+      "eveningColors" : [ [80, 150, 80], [80, 150, 80] ],
+      "nightColors" : [ [50, 100, 50], [50, 100, 50] ],
+
+      "morningLightColor" : [125, 205, 125],
+      "dayLightColor" : [100, 175, 100],
+      "eveningLightColor" : [70, 90, 70],
+      "nightLightColor" : [50, 70, 50]
+    },
+     {
+       "mainColor" : [255, 0, 255],
+ 
+       "morningColors" : [ [255, 224, 129], [252, 230, 164] ],
+       "dayColors" : [ [255, 152, 107], [255, 183, 152] ],
+       "eveningColors" : [ [254, 121, 69], [254, 165, 129] ],
+       "nightColors" : [ [60, 0, 0], [20, 0, 0] ],
+ 
+       "morningLightColor" : [202, 177, 100],
+       "dayLightColor" : [202, 138, 100],
+       "eveningLightColor" : [202, 100, 100],
+       "nightLightColor" : [40, 17, 17]
+    },
+    {
+      "mainColor" : [79, 200, 200],
+
+      "morningColors" : [ [255, 224, 129], [252, 230, 164] ],
+      "dayColors" : [ [255, 152, 107], [255, 183, 152] ],
+      "eveningColors" : [ [254, 121, 69], [254, 165, 129] ],
+      "nightColors" : [ [60, 0, 0], [20, 0, 0] ],
+
+      "morningLightColor" : [202, 177, 100],
+      "dayLightColor" : [202, 138, 100],
+      "eveningLightColor" : [202, 100, 100],
+      "nightLightColor" : [40, 17, 17]
+    },
+    {
+      "mainColor" : [255, 255, 80],
+
+      "morningColors" : [ [255, 224, 129], [252, 230, 164] ],
+      "dayColors" : [ [255, 152, 107], [255, 183, 152] ],
+      "eveningColors" : [ [254, 121, 69], [254, 165, 129] ],
+      "nightColors" : [ [60, 0, 0], [20, 0, 0] ],
+
+      "morningLightColor" : [202, 177, 100],
+      "dayLightColor" : [202, 138, 100],
+      "eveningLightColor" : [202, 100, 100],
+      "nightLightColor" : [40, 17, 17]
+    },
+    // green tinted bright
+    {
+      "mainColor" : [120, 255, 120],
+
+      "morningColors" : [ [123, 224, 150], [124, 230, 164] ],
+      "dayColors" : [ [130, 255, 190], [135, 255, 195] ],
+      "eveningColors" : [ [100, 200, 130], [111, 211, 150] ],
+      "nightColors" : [ [0, 50, 0], [0, 50, 0] ],
+
+      "morningLightColor" : [90, 250, 110],
+      "dayLightColor" : [45, 200, 55],
+      "eveningLightColor" : [25, 150, 30],
+      "nightLightColor" : [32, 72, 0]
+    },
+    // green tinted bright
+    {
+      "mainColor" : [170, 255, 170],
+
+      "morningColors" : [ [123, 224, 150], [124, 230, 164] ],
+      "dayColors" : [ [130, 255, 190], [135, 255, 195] ],
+      "eveningColors" : [ [100, 200, 130], [111, 211, 150] ],
+      "nightColors" : [ [0, 50, 0], [0, 50, 0] ],
+
+      "morningLightColor" : [90, 250, 110],
+      "dayLightColor" : [45, 200, 55],
+      "eveningLightColor" : [25, 150, 30],
+      "nightLightColor" : [32, 72, 0]
+    },
     // green tinted bright
     {
       "mainColor" : [255, 255, 255],
@@ -145,7 +264,7 @@
   ],
 
   "mainBlock" : "plantmatter",
-  "subBlocks" : [ "retexdirt", "floweryblock", "grassyrock" ],
+  "subBlocks" : [ "retexdirt", "floweryblock", "fumossyrock2" ],
   "ores" : "ff_surfacearborealOres",
 
   "parallax" : "/parallax/surface/forest.parallax",
@@ -474,7 +593,7 @@
           "distribution" : "/biomes/distributions.config:randomEncounter",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "fuencountercultist", "newhumanmicro", "newavianmicro", "minigreenruins" ]
+          "microdungeons" : [ "fushops", "fulabs", "fuencounters", "fubandits", "newhumanmicro", "newavianmicro", "minigreenruins", "fuhives", "furandomencounter", "fuapexencounter", "fuglitchencounter", "fuavianencounter", "fuhumanencounter" ]
         },
         {
           "mode" : "floor",

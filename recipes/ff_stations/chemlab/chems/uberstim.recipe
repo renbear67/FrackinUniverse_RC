@@ -2,7 +2,8 @@
   "input" : [
     { "item" : "corefragmentore", "count" : 4 },
     { "item" : "fu_salt", "count" : 8 },
-    { "item" : "moonstonebar", "count" : 1 }
+    { "item" : "moonstonebar", "count" : 1 },
+    { "item" : "syringe", "count" : 1 }
   ],
   "output" : {
     "item" : "uberstim",

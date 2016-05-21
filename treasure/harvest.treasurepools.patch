@@ -1,6 +1,30 @@
 [
 {
 	"op":"add",
+	"path":"/bughouseHarvest",
+	"value":[[0,{
+			"pool":[
+			{"weight":0.33, "item":"bugshell"},
+			{"weight":0.33, "item":"larva"},
+			{"weight":0.33,"item":"ff_resin"},
+			{"weight":0.03,"item":"venomsample"},
+			{"weight":0.04,"item":"hardenedcarapace"}
+			],
+			"poolRounds":[[0.7,2],[0.3,3]]}]]
+},
+
+{
+	"op":"add",
+	"path":"/garpberryHarvest",
+	"value":[[0,{
+			"fill":[{"item":"garpberryseed"}],
+			"pool":[
+			{"weight":0.7, "item":"garpberry"},
+			{"weight":0.2,"item":"plantfibre"}],
+			"poolRounds":[[0.7,2],[0.3,3]]}]]
+},
+{
+	"op":"add",
 	"path":"/reedseedHarvest",
 	"value":[[0,{
 			"fill":[{"item":"reedseed"}],

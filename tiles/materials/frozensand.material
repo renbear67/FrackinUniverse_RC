@@ -18,6 +18,18 @@
     "lightTransparent" : false,
     "occludesBelow" : true,
     "multiColored" : false
-  }
+  },
+  "liquidInteractions" : [
+    {
+      "liquidId" : 2,
+      "consumeLiquid" : 0.65,
+      "transformMaterialId" : 31
+    },
+    {
+      "liquidId" : 52,
+      "consumeLiquid" : 0.65,
+      "transformMaterialId" : 31
+    }
+  ]
 }
 

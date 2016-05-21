@@ -19,6 +19,38 @@
     "occludesBelow" : true,
     "multiColored" : false,
     "zLevel" : 0
-  }
+  },
+  "liquidInteractions" : [
+    {
+      "liquidId" : 60,
+      "consumeLiquid" : 0.5,
+      "transformMaterialId" : 6544
+    },
+    {
+      "liquidId" : 100,
+      "consumeLiquid" : 0.5,
+      "transformMaterialId" : 6628
+    },
+      {
+        "liquidId": 59,
+        "consumeLiquid": 0.35,
+        "transformMaterialId": 6585
+      },
+      {
+        "liquidId": 43,
+        "consumeLiquid": 0.25,
+        "transformMaterialId": 6630
+      },
+      {
+        "liquidId": 40,
+        "consumeLiquid": 0.45,
+        "transformMaterialId": 165
+      },
+      {
+        "liquidId": 6,
+        "consumeLiquid": 0.45,
+        "transformMaterialId": 6645
+      } 
+  ]
 }
 

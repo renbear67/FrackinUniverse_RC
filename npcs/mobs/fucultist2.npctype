@@ -2,7 +2,7 @@
   "type" : "fucultist2",
   "baseType" : "hostile",
 
-  "levelVariance" : [0, 0],
+  "levelVariance" : [0, 1],
 
   "dropPools" : [ "ffbanditTreasure" ],
   

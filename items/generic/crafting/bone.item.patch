@@ -1,8 +1,10 @@
 [
-  {"op":"add","path":"/learnBlueprintsOnPickup","value": [ 
+  {"op":"add","path":"/learnBlueprintsOnPickup","value": [
+    "whitedye",
     "bonematerial",
     "throwingbones",
     "fubonearmorchest",
     "fubonearmorhead", 
-    "fubonearmorlegs" ] }
+    "fubonearmorlegs",
+    "fuboneshield"] }
 ]  

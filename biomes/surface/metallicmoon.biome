@@ -50,7 +50,7 @@
   "airless" : true,
   "breathable" : false,
 
-  "hueShiftOptions" : [-120, -60, -40, 0, 20, 40, 60, 120],
+  "hueShiftOptions" : [ 0 ],
 
   "weather" : [
     [0, [
@@ -205,7 +205,7 @@
   },
 
   "surfacePlaceables" : {
-    "grassMod" : [ "metal" ],
+    "grassMod" : [ "metal", "metalgrass" ],
     "grassModDensity" : 0.9,
       "items" : [
            {
@@ -237,6 +237,15 @@
                }
              ]
            },
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
+
+          "type" : "microdungeon",
+          "microdungeons" : [ "metallicmini", "junkmini", "steamspringmicrodungeons", "alienmicrodungeons", "fulabs", "fushops", "corrupt" ]
+        },           
         {
           "mode" : "floor",
           "priority" : 3.0,
@@ -400,7 +409,7 @@
       ]
     },
     "undergroundPlaceables" : {
-      "grassMod" : [ "metal" ],
+      "grassMod" : [ "metal", "metalgrass" ],
       "grassModDensity" : 0.2,
       "items" : [
         {

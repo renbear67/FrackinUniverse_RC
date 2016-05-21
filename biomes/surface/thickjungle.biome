@@ -75,7 +75,7 @@
       "nightLightColor" : [40, 40, 40]
     },
     {
-      "mainColor" : [225, 225, 225],
+      "mainColor" : [225, 100, 225],
 
       "morningColors" : [ [255, 224, 129], [252, 230, 164] ],
       "dayColors" : [ [255, 152, 107], [255, 183, 152] ],
@@ -157,7 +157,7 @@
   
     "mainBlock" : "petalblock",
     "subBlocks" : [ "jungledirt2", "jungledirt1", "junglestone" ],
-    "ores" : "ff_surfacearborealOres",
+    "ores" : "ff_surfacerainforestOres",
 
   "parallax" : "/parallax/surface/thickjungle.parallax",
 
@@ -330,7 +330,7 @@
           "distribution" : "/biomes/distributions.config:randomEncounter",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "newhumanmicro", "newavianmicro", "minigreenruins", "junglemicrodungeons" ] 
+          "microdungeons" : [ "furainforest", "fuencounters", "fuavali", "fushops", "fulabs", "newhumanmicro", "newavianmicro", "minigreenruins", "junglemicrodungeons", "fuhives", "furandomencounter", "fuapexencounter", "fuglitchencounter", "fuavianencounter", "fuhumanencounter" ] 
         },
         {
           "mode" : "floor",

@@ -44,7 +44,7 @@
   },
 
     "mainBlock" : "darkstone",
-    "subBlocks" : [ "darkness", "matterblock" ],
+    "subBlocks" : [ "darkness", "hiveold" ],
     "ores" : "ff_deepsurfaceshadowOres",
     
   "parallax" : "/parallax/underground/penumbraunderground.parallax",
@@ -194,7 +194,7 @@
           "type" : "bush",
           "bushes" : [
             {
-              "name" : "tarbulb",
+              "name" : "lightless",
               "baseHueShiftMax" : 0,
               "modHueShiftMax" : 0
             }
