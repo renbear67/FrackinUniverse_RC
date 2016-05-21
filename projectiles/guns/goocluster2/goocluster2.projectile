@@ -23,7 +23,7 @@
     {
       "action" : "liquid",
       "liquid" : "slimeliquid",
-      "quantity" : 1.53
+      "quantity" : 2
     }
   ],
   "speed" : 15,

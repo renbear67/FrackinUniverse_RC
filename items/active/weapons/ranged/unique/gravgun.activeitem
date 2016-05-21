@@ -1,49 +1,51 @@
 {
-  "itemName" : "isn_magmavulcan",
+  "itemName" : "gravgun",
   "price" : 160,
-  "inventoryIcon" : "isn_magmavulcan.png",
+  "inventoryIcon" : "gravgun.png",
   "maxStack" : 1,
-  "rarity" : "uncommon",
-  "description" : "A rapid-fire magma ball launcher. May cause extreme collateral damage. Use caution",
-  "shortdescription" : "Pyre Vulcan",
+  "rarity" : "rare",
+  "description" : "Launches gravity-altering blasts.",
+  "shortdescription" : "Gravity Gun",
   "level" : 3,
   "tooltipKind" : "gun",
-  "weaponType" : "Energy",
-  "itemTags" : ["weapon","ranged","grenadelauncher"],
+  "weaponType" : "Gravity Weapon",
+  "itemTags" : ["weapon","ranged","sniperrifle"],
   "twoHanded" : true,
 
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
     "butt" : "",
-    "middle" : "isn_magmavulcan.png",
+    "middle" : "gravgun.png",
     "barrel" : "",
     "muzzleFlash" : "/items/active/weapons/ranged/plasmamuzzle1.png"
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : [ "/sfx/weapons/magmablast.ogg" ]
+      "fire" : [ "/sfx/projectiles/goo_spit2.ogg" ]
     }
   },
 
-  "baseOffset" : [-0.2, 0.62],
-  "muzzleOffset" : [2.845, 0.325],
+  "baseOffset" : [0.25, 0.35],
+  "muzzleOffset" : [2.25, 0.125],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
-  "elementalType" : "fire",
+  "elementalType" : "physical",
 
   "primaryAttack" : {
-    "fireTime" : 0.3,
-    "baseDps" : 7.158,
-    "energyUsage" : 32,
-    "inaccuracy" : 0.07,
+    "fireTime" : 0.31,
+    "baseDps" : 0.2,
+    "energyUsage" : 5,
+    "inaccuracy" : 0.01,
+    "burstTime" : 0.065,
+    "burstCount" : 3,
     "projectileCount" : 1,
-    "fireType" : "auto",
+    "fireType" : "burst",
 
-    "projectileType" : "isn_magmavulcan",
+    "projectileType" : "squirtgrav",
     "projectileParameters" : { 
-      "speed" : 60,
-      "knockback" : 2.5
+      "speed" : 45,
+      "knockback" : 2
     }
   },
 
@@ -66,7 +68,7 @@
       "allowFlip" : false
     },
     "cooldown" : {
-      "duration" : 0.002,
+      "duration" : 0.025,
       "armRotation" : 5,
       "weaponRotation" : 5,
       "twoHanded" : true,
@@ -76,7 +78,7 @@
     }
   },
 
-  "altAbilitySource" : "/items/active/weapons/ranged/altabilities/magmagrenadelauncher/magmagrenadelauncher.altability",
+  "altAbilitySource" : "/items/active/weapons/ranged/altabilities/shockburstshot/shockburstshot.altability",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

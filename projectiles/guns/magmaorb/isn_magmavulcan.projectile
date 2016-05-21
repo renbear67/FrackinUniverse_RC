@@ -20,6 +20,10 @@
     {
       "action" : "config",
       "file" : "/projectiles/guns/magmaorb/isn_magmavulcan.config"
+    },
+    { 
+      "action" : "liquid", 
+      "liquid" : "fuironliquid", "quantity" : 1 
     }
   ]
 }
