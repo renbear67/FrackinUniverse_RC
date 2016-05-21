@@ -63,8 +63,8 @@
     "energyUsage" : 50.0,
     "cooldownTime" : 1.0,
     "damageConfig" : {
-      "baseDamage" : 3,
-      "knockback" : 40,
+      "baseDamage" : 8,
+      "knockback" : 90,
       "knockbackMode" : "aim",
       "timeout" : 0.5,
       "timeoutGroup" : "alt"
@@ -72,7 +72,7 @@
 
     "stances" : {
       "fire" : {
-        "duration" : 0.10,
+        "duration" : 0.20,
         "armRotation" : 0,
         "weaponRotation" : 0,
         "twoHanded" : true,

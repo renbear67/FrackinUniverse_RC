@@ -15,6 +15,7 @@
       "action" : "config",
       "file" : "/projectiles/explosions/iceexplosion2/iceexplosion2.config"
     },
+    
     {
       "action" : "projectile",
       "type" : "fuiceshot",

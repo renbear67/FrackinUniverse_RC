@@ -13,7 +13,7 @@
   "level" : 3,
   "tooltipKind" : "gun",
   "weaponType" : "Water Gun",
-  "fireTime" : 0.33,
+  "fireTime" : 0.13,
   "inaccuracy" : 0.025,
   "twoHanded" : true,
   "walkWhileFiring" : false,

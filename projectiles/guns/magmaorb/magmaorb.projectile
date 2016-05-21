@@ -15,8 +15,8 @@
       "action" : "config",
       "file" : "/projectiles/explosions/magmaorbboom/magmaorbboom.config"
     },
-    { "action" : "liquid", "liquid" : "fuironliquid", "quantity" : 12 }
-    //{ "action" : "liquid", "liquid" : "lava", "quantity" : 12 }
+    { "action" : "liquid", "liquid" : "fuironliquid", "quantity" : 18 },
+    { "action" : "liquid", "liquid" : "lava", "quantity" : 4 }
   ],
   "damagePoly" : [ [-40, 0], [-40, -12], [0, -12], [40, -12], [40, 0], [40, 12], [0, 12], [-40, 12] ],
   "damageKind" : "fire",
