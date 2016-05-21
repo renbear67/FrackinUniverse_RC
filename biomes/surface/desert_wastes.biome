@@ -11,10 +11,11 @@
         "pool" : [ 
           [ 0.1111, "fennix" ],     
           [ 0.1111, "fugiantscorpion" ],
+          [ 0.1111, "blackgiantscorpion" ], 
           [ 0.1111, "fuheadcrab" ],        
-          [ 0.1111, "ignome" ],
+          [ 0.1111, "fugiantredbee2" ],
           [ 0.1111, "pyromantle" ],     
-          [ 0.1111, "smoglin" ],
+          [ 0.1111, "futargolem" ],
           [ 0.1111, "trictus" ]
         ]
       },
@@ -24,7 +25,7 @@
           [ 0.4, "sunskipper" ],
           [ 0.3, "goldbuck" ],
           [ 0.4, "hellbeetle" ],
-          [ 0.3, "sandclown" ]
+          [ 0.3, "volcanicbee" ]
         ]
       },
       {
@@ -35,9 +36,11 @@
         "select" : 2,
         "pool" : [
           [ 1, "armadillocritter" ],
-          [ 1, "mousecritter" ],
+          [ 1, "deserttortoisecritter" ],
+          [ 1, "birdcritter" ],
+          [ 1, "fufireball" ],
           [ 1, "groopcritter" ],
-          [ 1, "ravencritter" ],
+          [ 1, "fuscorpion" ],
           [ 1, "wurmcritter" ]   
         ]
       }
@@ -97,7 +100,7 @@
       "nightLightColor" : [40, 17, 17]
     },
     {
-      "mainColor" : [255, 200, 200],
+      "mainColor" : [255, 120, 70],
 
       "morningColors" : [ [255, 150, 129], [252, 150, 164] ],
       "dayColors" : [ [255, 152, 107], [255, 183, 152] ],
@@ -123,7 +126,7 @@
       "nightLightColor" : [40, 5, 5]
     },
     {
-      "mainColor" : [255, 255, 255],
+      "mainColor" : [255, 80, 125],
 
       "morningColors" : [ [255, 167, 152], [255, 163, 208] ],
       "dayColors" : [ [228, 152, 169], [243, 205, 193] ],
@@ -134,7 +137,47 @@
       "dayLightColor" : [197, 184, 182],
       "eveningLightColor" : [197, 98, 126],
       "nightLightColor" : [28, 14, 14]
-    }
+    },
+    {
+      "mainColor" : [255, 33, 10],
+
+      "morningColors" : [ [255, 150, 129], [252, 150, 164] ],
+      "dayColors" : [ [255, 152, 107], [255, 183, 152] ],
+      "eveningColors" : [ [254, 121, 69], [254, 165, 129] ],
+      "nightColors" : [ [160, 17, 17, 80], [160, 17, 17, 160] ],
+
+      "morningLightColor" : [202, 90, 100],
+      "dayLightColor" : [202, 90, 100],
+      "eveningLightColor" : [202, 90, 100],
+      "nightLightColor" : [40, 17, 17]
+    },
+    {
+      "mainColor" : [125, 0, 0],
+
+      "morningColors" : [ [255, 70, 70], [252, 70, 70] ],
+      "dayColors" : [ [255, 60, 60], [255, 60, 60] ],
+      "eveningColors" : [ [254, 50, 50], [254, 50, 50] ],
+      "nightColors" : [ [70, 17, 17, 80], [70, 17, 17, 160] ],
+
+      "morningLightColor" : [202, 50, 50],
+      "dayLightColor" : [202, 40, 40],
+      "eveningLightColor" : [202, 30, 30],
+      "nightLightColor" : [40, 5, 5]
+    },
+    {
+      "mainColor" : [125, 30, 20],
+
+      "morningColors" : [ [255, 167, 152], [255, 163, 208] ],
+      "dayColors" : [ [228, 152, 169], [243, 205, 193] ],
+      "eveningColors" : [ [221, 186, 235], [247, 73, 121] ],
+      "nightColors" : [ [28, 14, 14, 60], [28, 14, 14, 180] ],
+
+      "morningLightColor" : [195, 156, 149],
+      "dayLightColor" : [197, 184, 182],
+      "eveningLightColor" : [197, 98, 126],
+      "nightLightColor" : [28, 14, 14]
+    }    
+    
   ],
 
   "mainBlock" : "redsand2",
@@ -275,8 +318,8 @@
         "type" : "tree",
         "treeFoliageHueShiftMax" : 180,
         "treeStemHueShiftMax" : 15,
-        "treeStemList" : [ "desertpalm", "alienpalm", "bark", "beach", "blank", "cactus", "cross", "palm", "plain", "twirl" ],
-        "treeFoliageList" : [ "palmleaves", "palmy", "roseleaves", "lushleaves", "palmlush", "elegant" ]
+        "treeStemList" : [ "pearlwood", "nyanistem", "bananatreestem", "desertpalm", "alienpalm", "bark", "beach", "blank", "cross", "palm", "plain", "twirl" ],
+        "treeFoliageList" : [ "pearlfoliage", "nyanifoliage", "bananatreeleaf", "palmleaves", "palmy", "roseleaves", "lushleaves", "palmlush", "elegant" ]
       },
       {
         "mode" : "floor",
@@ -293,22 +336,29 @@
 
       // CROPS
 
-      {
-        "mode" : "floor",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:surfaceCrops",
-
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [1, "wildbeakseedseed" ] ],
-            "parameters" : {
-              "startingStage" : 3
-            }
-          }
-        ]
-      }
+           {
+             "mode" : "floor",
+             "priority" : 1.0,
+             "variants" : 1,
+             "distribution" : "/biomes/distributions.config:ffunCommon",
+   
+             "type" : "object",
+             "objectSets" : [
+               {
+                 "pool" : [ 
+                   [0.50, "wildcrystalplantseed" ],
+                   [0.50, "fuwildavikanspiceplantseed" ],
+                   [0.50, "fuwildavikancactusseed" ],
+                   [0.50, "energiflowerseed" ],
+                   [0.50, "wildquellstem" ],
+                   [0.50, "wildignuschiliseed" ]
+                 ],
+                 "parameters" : { "startingStage" : 3 }
+               }
+             ]
+           }
+           
+           
     ]
   },
 

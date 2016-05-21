@@ -498,8 +498,8 @@
           "type" : "tree",
           "treeFoliageHueShiftMax" : 180,
           "treeStemHueShiftMax" : 15,
-          "treeStemList" : [ "twisty", "woody", "oldwood", "crackly", "palmlike" ],
-          "treeFoliageList" : [ "lushy", "junglepalm", "jungly", "jungleleaf" ]
+          "treeStemList" : [ "nyanistem", "coconutwood", "bananatreestem", "twisty", "woody", "oldwood", "crackly", "palmlike" ],
+          "treeFoliageList" : [ "nyanifoliage", "coconut", "bananatreeleaf", "lushy", "junglepalm", "jungly", "jungleleaf" ]
         },  
         {
           "mode" : "floor",

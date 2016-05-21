@@ -1040,6 +1040,38 @@
     }
   }, 
    {
+    "name" : "fugiantredbee",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "groupSize" : [1, 3],
+    "targetDensity" : 0.04,
+    "monsterType" : "fugiantredbee",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },   
+   {
+    "name" : "fugiantredbee2",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "groupSize" : [1, 3],
+    "targetDensity" : 0.04,
+    "monsterType" : "fugiantredbee2",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  }, 
+   {
     "name" : "fugiantmetalbee",
 
     "spawnParameters" : {
