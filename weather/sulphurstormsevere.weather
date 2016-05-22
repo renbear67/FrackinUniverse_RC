@@ -1,11 +1,11 @@
 {
-  "name" : "sulphurstorm",
+  "name" : "sulphurstormsevere",
   "icon" : "/interface/cockpit/weather/sulphurstorm.png",
 
   "particles" : [
     {
 
-      "density" : 0.05,
+      "density" : 0.09,
       "autoRotate" : true,
 
       "particle" : {
@@ -20,7 +20,7 @@
       }
     },
     {
-      "density" : 0.05,
+      "density" : 0.09,
       "particle" : {
         "type" : "textured",
         "image" : "/particles/sand/1.png",
@@ -32,7 +32,7 @@
       }
     },
     {
-      "density" : 0.05,
+      "density" : 0.09,
       "particle" : {
         "type" : "textured",
         "image" : "/particles/sand/2.png",
@@ -44,7 +44,7 @@
       }
     },
     {
-      "density" : 0.09,
+      "density" : 0.12,
       "particle" : {
         "type" : "textured",
         "image" : "/particles/sand/3.png",
@@ -60,10 +60,10 @@
     {
       "projectile" : "sulphurstone",
       "parameters" : {
-        "power" : 6
+        "power" : 9
       },
       "velocity" : [0, -50],
-      "ratePerX" : 0.004,
+      "ratePerX" : 0.006,
       "spawnAboveRegion" : 20,
       "spawnHorizontalPad" : 20,
       "windAffectAmount" : 0.5
@@ -74,7 +74,7 @@
         "power" : 5
       },
       "velocity" : [0, -50],
-      "ratePerX" : 0.005,
+      "ratePerX" : 0.007,
       "spawnAboveRegion" : 15,
       "spawnHorizontalPad" : 30,
       "windAffectAmount" : 0.5
@@ -85,7 +85,7 @@
         "power" : 4
       },
       "velocity" : [0, -50],
-      "ratePerX" : 0.007,
+      "ratePerX" : 0.008,
       "spawnAboveRegion" : 10,
       "spawnHorizontalPad" : 30,
       "windAffectAmount" : 0.5
@@ -96,7 +96,7 @@
         "power" : 3
       },
       "velocity" : [0, -50],
-      "ratePerX" : 0.007,
+      "ratePerX" : 0.009,
       "spawnAboveRegion" : 5,
       "spawnHorizontalPad" : 30,
       "windAffectAmount" : 0.5
@@ -104,7 +104,7 @@
     {
       "projectile" : "sand",
       "parameters" : {
-        "power" : 2
+        "power" : 3
       },
       "velocity" : [0, -15],
       "ratePerX" : 0.08,
@@ -115,7 +115,7 @@
   ],
 
   "duration" : [40, 120],
-  "maximumWind" : 72.0,
-  "lightningFrequency" : 0.042,
+  "maximumWind" : 92.0,
+  "lightningFrequency" : 0.142,
   "weatherNoises" : [ "/sfx/weather/snowstorm.ogg" ]
 }

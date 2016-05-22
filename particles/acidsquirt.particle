@@ -3,7 +3,7 @@
   "definition" : {
     "type" : "ember",
     "size" : 3.0,
-    "color" : [220, 230, 62, 200],
+    "color" : [175, 207, 26, 200],
     "fade" : 0.3,
     "initialVelocity" : [0, 0],
     "finalVelocity" : [0, 0],

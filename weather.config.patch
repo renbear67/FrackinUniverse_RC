@@ -8,6 +8,7 @@
    [0.25, "sandstorm"],
    [0.25, "ashstorm"],
    [0.50, "sulphurstormlesser"],
+   [0.05, "sulphurstormsevere"],
    [0.20, "firestorm"]
    ]
 },

@@ -1,6 +1,6 @@
 {
   "materialId" : 6647,
-  "materialName" : "blueslimestone",
+  "materialName" : "fublueslimestone",
   "particleColor" : [80, 236, 4, 255],
   "itemDrop" : "jellystone",
   "shortdescription" : "Healing Slime Stone",
@@ -11,7 +11,7 @@
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "blueslimestone.png",
+    "texture" : "fublueslimestone.png",
     "variants" : 5,
     "lightTransparent" : false,
     "multiColored" : false,

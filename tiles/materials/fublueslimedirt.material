@@ -1,6 +1,6 @@
 {
   "materialId" : 6645,
-  "materialName" : "blueslimeslimedirt",
+  "materialName" : "fublueslimeslimedirt",
   "particleColor" : [81, 150, 81, 200],
   "itemDrop" : "slimedirtmaterial",
   "description" : "Ew. Slimy.",
@@ -13,7 +13,7 @@
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "blueslime.png",
+    "texture" : "fublueslime.png",
     "variants" : 5,
     "lightTransparent" : false,
     "occludesBelow" : true,

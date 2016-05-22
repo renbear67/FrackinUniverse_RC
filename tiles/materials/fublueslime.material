@@ -1,6 +1,6 @@
 {
   "materialId" : 6646,
-  "materialName" : "blueslime",
+  "materialName" : "fublueslime",
   "particleColor" : [44, 38, 46, 255],
   "itemDrop" : "jellyblock",
   "description" : "extremely viscous blue slime.",
@@ -11,7 +11,7 @@
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "blueslime.png",
+    "texture" : "fublueslime.png",
     "variants" : 5,
     "lightTransparent" : false,
     "occludesBelow" : true,

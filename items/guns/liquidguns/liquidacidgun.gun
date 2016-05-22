@@ -1,26 +1,26 @@
 {
   "itemName" : "liquidacidgun",
   "price" : 0,
-  "inventoryIcon" : "liquidpoisongun.png",
+  "inventoryIcon" : "liquidacidgun.png",
   "maxStack" : 1,
   "rarity" : "uncommon",
-  "description" : "This gun shoots poison!",
+  "description" : "This gun shoots sulphuric acid! Fun!",
   "shortdescription" : "Acid Gun",
-  "image" : "liquidpoisongun.png",
+  "image" : "liquidacidgun.png",
   "handPosition" : [-6, -3],
   "firePosition" : [11, 0],
   "recoilTime" : 0.1,
   "level" : 3,
   "tooltipKind" : "gun",
   "weaponType" : "Water Gun",
-  "fireTime" : 0.13,
+  "fireTime" : 0.156,
   "inaccuracy" : 0.025,
   "twoHanded" : true,
   "walkWhileFiring" : false,
 
   "projectileType" : "squirtacid",
   "projectile" : {
-    "power" : 0.5,
+    "power" : 1,
     "speed" : 40
   },
   "muzzleEffect" : {
