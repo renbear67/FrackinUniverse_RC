@@ -1,5 +1,5 @@
 {
-  "name" : "desert_wastes",
+  "name" : "desertwastes",
   "friendlyName" : "Red Wastes",
   
   "statusEffects" : [ "biomeheat" ],
@@ -68,7 +68,7 @@
 
   "weather" : [
     [0, [
-      "/weather.config:desert"
+      "/weather.config:desertwastes"
     ]]
   ],
 
