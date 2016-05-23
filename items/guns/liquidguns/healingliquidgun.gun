@@ -20,7 +20,7 @@
 
   "projectileType" : "squirtheal",
   "projectile" : {
-    "power" : 1,
+    "power" : 0.45,
     "speed" : 40
   },
   "muzzleEffect" : {

@@ -143,7 +143,7 @@
 "value":"Scanners show strange ^#ba3b04;bloodstone^white; formations and ^#8e5ca6;unknown organic^white; elements. A source of ^red;blood diamonds and quietus ore^white;."},
 
 {"op":"add","path":"/planetTypeToDescription/bloodstonesea",
-"value":"Scanners show strange ^#ba3b04;blood seas^white; and ^#8e5ca6;unknown organic^white; elements. A source of ^red;blood diamonds and quietus ore^white;."},
+"value":"Scanners show disgusting ^#ba3b04;Atropus Seas^white; ripe with ^#8e5ca6;unknown organic^white; elements. A source of ^red;blood diamonds and quietus ore^white;."},
 
 {"op":"add","path":"/planetTypeToDescription/bog",
 "value":"A deep, thick ^#97be6a;bog^white; covers nearly all of this world. Rich in ^green;Algae^white; and other organic resources."},

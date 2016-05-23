@@ -561,27 +561,27 @@
         },
         "underground1" : {
           "primaryRegion" : [ "atropusunderground" ],
-          "secondaryRegion" : [ "corruptmoonunderground", "ffhellhiveunderground", "ffpoopit", "heck", "shadow", "hive", "ffspidernest", "fffleshcaves", "ffcellcaves", "ffshadow" ]
+          "secondaryRegion" : [ "bloodstoneunderground", "corruptmoonunderground", "ffhellhiveunderground", "ffpoopit", "heck", "shadow", "hive", "ffspidernest", "fffleshcaves", "ffcellcaves", "ffshadow" ]
         },
         "underground2" : {
           "primaryRegion" : [ "atropusunderground" ],
-          "secondaryRegion" : [ "corruptmoonunderground", "ffhellhiveunderground", "ffpoopit", "heck", "shadow", "hive", "ffspidernest", "fffleshcaves", "ffcellcaves", "ffshadow" ]
+          "secondaryRegion" : [ "bloodstoneunderground", "corruptmoonunderground", "ffhellhiveunderground", "ffpoopit", "heck", "shadow", "hive", "ffspidernest", "fffleshcaves", "ffcellcaves", "ffshadow" ]
         },
         "underground3" : {
           "primaryRegion" : [ "atropusunderground" ],
-          "secondaryRegion" : [ "corruptmoonunderground", "ffhellhiveunderground", "ffpoopit", "heck", "shadow", "hive", "ffspidernest", "fffleshcaves", "ffcellcaves", "ffshadow" ]
+          "secondaryRegion" : [ "bloodstoneunderground", "corruptmoonunderground", "ffhellhiveunderground", "ffpoopit", "heck", "shadow", "hive", "ffspidernest", "fffleshcaves", "ffcellcaves", "ffshadow" ]
         },
         "underground4" : {
           "primaryRegion" : [ "atropusunderground" ],
-          "secondaryRegion" : [ "corruptmoonunderground", "ffhellhiveunderground", "ffpoopit", "heck", "shadow", "hive", "ffspidernest", "fffleshcaves", "ffcellcaves", "ffshadow" ]
+          "secondaryRegion" : [ "bloodstoneunderground", "corruptmoonunderground", "ffhellhiveunderground", "ffpoopit", "heck", "shadow", "hive", "ffspidernest", "fffleshcaves", "ffcellcaves", "ffshadow" ]
         },
         "underground5" : {
           "primaryRegion" : [ "atropusunderground" ],
-          "secondaryRegion" : [ "corruptmoonunderground", "ffpoopit", "heck", "shadow", "hive", "ffspidernest", "fffleshcaves", "ffcellcaves", "ffshadow" ]
+          "secondaryRegion" : [ "bloodstoneunderground", "corruptmoonunderground", "ffpoopit", "heck", "shadow", "hive", "ffspidernest", "fffleshcaves", "ffcellcaves", "ffshadow" ]
         },
         "underground6" : {
           "primaryRegion" : [ "atropusunderground" ],
-          "secondaryRegion" : [ "corruptmoonunderground", "ffpoopit", "heck", "shadow", "hive", "ffspidernest", "fffleshcaves", "ffcellcaves", "ffshadow" ]
+          "secondaryRegion" : [ "bloodstoneunderground", "corruptmoonunderground", "ffpoopit", "heck", "shadow", "hive", "ffspidernest", "fffleshcaves", "ffcellcaves", "ffshadow" ]
         },
         "core" : {
           "primaryRegion" : [ "puscore" ]
@@ -610,27 +610,27 @@
         },
         "underground1" : {
           "primaryRegion" : [ "atropusunderground" ],
-          "secondaryRegion" : [ "corruptmoonunderground", "ffhellhiveunderground", "ffpoopit", "heck", "shadow", "hive", "ffspidernest", "fffleshcaves", "ffcellcaves", "ffshadow" ]
+          "secondaryRegion" : [ "bloodstoneunderground", "corruptmoonunderground", "ffhellhiveunderground", "ffpoopit", "heck", "shadow", "hive", "ffspidernest", "fffleshcaves", "ffcellcaves", "ffshadow" ]
         },
         "underground2" : {
           "primaryRegion" : [ "atropusunderground" ],
-          "secondaryRegion" : [ "corruptmoonunderground", "ffhellhiveunderground", "ffpoopit", "heck", "shadow", "hive", "ffspidernest", "fffleshcaves", "ffcellcaves", "ffshadow" ]
+          "secondaryRegion" : [ "bloodstoneunderground", "corruptmoonunderground", "ffhellhiveunderground", "ffpoopit", "heck", "shadow", "hive", "ffspidernest", "fffleshcaves", "ffcellcaves", "ffshadow" ]
         },
         "underground3" : {
           "primaryRegion" : [ "atropusunderground" ],
-          "secondaryRegion" : [ "corruptmoonunderground", "ffhellhiveunderground", "ffpoopit", "heck", "shadow", "hive", "ffspidernest", "fffleshcaves", "ffcellcaves", "ffshadow" ]
+          "secondaryRegion" : [ "bloodstoneunderground", "corruptmoonunderground", "ffhellhiveunderground", "ffpoopit", "heck", "shadow", "hive", "ffspidernest", "fffleshcaves", "ffcellcaves", "ffshadow" ]
         },
         "underground4" : {
           "primaryRegion" : [ "atropusunderground" ],
-          "secondaryRegion" : [ "corruptmoonunderground", "ffhellhiveunderground", "ffpoopit", "heck", "shadow", "hive", "ffspidernest", "fffleshcaves", "ffcellcaves", "ffshadow" ]
+          "secondaryRegion" : [ "bloodstoneunderground", "corruptmoonunderground", "ffhellhiveunderground", "ffpoopit", "heck", "shadow", "hive", "ffspidernest", "fffleshcaves", "ffcellcaves", "ffshadow" ]
         },
         "underground5" : {
           "primaryRegion" : [ "atropusunderground" ],
-          "secondaryRegion" : [ "corruptmoonunderground", "ffpoopit", "heck", "shadow", "hive", "ffspidernest", "fffleshcaves", "ffcellcaves", "ffshadow" ]
+          "secondaryRegion" : [ "bloodstoneunderground", "corruptmoonunderground", "ffpoopit", "heck", "shadow", "hive", "ffspidernest", "fffleshcaves", "ffcellcaves", "ffshadow" ]
         },
         "underground6" : {
           "primaryRegion" : [ "atropusunderground" ],
-          "secondaryRegion" : [ "corruptmoonunderground", "ffpoopit", "heck", "shadow", "hive", "ffspidernest", "fffleshcaves", "ffcellcaves", "ffshadow" ]
+          "secondaryRegion" : [ "bloodstoneunderground", "corruptmoonunderground", "ffpoopit", "heck", "shadow", "hive", "ffspidernest", "fffleshcaves", "ffcellcaves", "ffshadow" ]
         },
         "core" : {
           "primaryRegion" : [ "puscore" ]
@@ -705,28 +705,28 @@
           "secondaryRegion" : [ "deepseaventblood" ]
         },
         "underground1" : {
-          "primaryRegion" : [ "bloodstoneunderground" ],
-          "secondaryRegion" : [ "ffpoopit", "ffcrystalrealm", "ffspidernest", "ffsupermatter", "coralcavern", "ffshadow", "fffleshcaves", "ffvolcanic", "ffcrystalcavern" ]
+          "primaryRegion" : [ "atropusunderground" ],
+          "secondaryRegion" : [ "bloodstoneunderground", "corruptmoonunderground", "ffhellhiveunderground", "ffpoopit", "heck", "shadow", "hive", "ffspidernest", "fffleshcaves", "ffcellcaves", "ffshadow" ]
         },
         "underground2" : {
-          "primaryRegion" : [ "bloodstoneunderground" ],
-          "secondaryRegion" : [ "ffpoopit", "ffcrystalrealm", "ffspidernest", "ffsupermatter", "coralcavern", "ffshadow", "fffleshcaves", "ffvolcanic", "ffcrystalcavern" ]
+          "primaryRegion" : [ "atropusunderground" ],
+          "secondaryRegion" : [ "bloodstoneunderground", "corruptmoonunderground", "ffhellhiveunderground", "ffpoopit", "heck", "shadow", "hive", "ffspidernest", "fffleshcaves", "ffcellcaves", "ffshadow" ]
         },
         "underground3" : {
-          "primaryRegion" : [ "bloodstoneunderground" ],
-          "secondaryRegion" : [ "ffpoopit", "ffcrystalrealm", "ffspidernest", "ffsupermatter", "coralcavern", "ffshadow", "fffleshcaves", "ffvolcanic", "ffcrystalcavern" ]
+          "primaryRegion" : [ "atropusunderground" ],
+          "secondaryRegion" : [ "bloodstoneunderground", "corruptmoonunderground", "ffhellhiveunderground", "ffpoopit", "heck", "shadow", "hive", "ffspidernest", "fffleshcaves", "ffcellcaves", "ffshadow" ]
         },
         "underground4" : {
-          "primaryRegion" : [ "bloodstoneunderground" ],
-          "secondaryRegion" : [ "ffpoopit", "ffcrystalrealm", "ffspidernest", "ffsupermatter", "coralcavern", "ffshadow", "fffleshcaves", "ffvolcanic", "ffcrystalcavern" ]
+          "primaryRegion" : [ "atropusunderground" ],
+          "secondaryRegion" : [ "bloodstoneunderground", "corruptmoonunderground", "ffhellhiveunderground", "ffpoopit", "heck", "shadow", "hive", "ffspidernest", "fffleshcaves", "ffcellcaves", "ffshadow" ]
         },
         "underground5" : {
-          "primaryRegion" : [ "bloodstoneunderground" ],
-          "secondaryRegion" : [ "ffpoopit", "ffcrystalrealm", "ffspidernest", "ffsupermatter", "coralcavern", "ffshadow", "fffleshcaves", "ffvolcanic", "ffcrystalcavern" ]
+          "primaryRegion" : [ "atropusunderground" ],
+          "secondaryRegion" : [ "bloodstoneunderground", "corruptmoonunderground", "ffhellhiveunderground", "ffpoopit", "heck", "shadow", "hive", "ffspidernest", "fffleshcaves", "ffcellcaves", "ffshadow" ]
         },
         "underground6" : {
-          "primaryRegion" : [ "bloodstoneunderground" ],
-          "secondaryRegion" : [ "ffpoopit", "ffcrystalrealm", "ffspidernest", "ffsupermatter", "coralcavern", "ffshadow", "fffleshcaves", "ffvolcanic", "ffcrystalcavern" ]
+          "primaryRegion" : [ "atropusunderground" ],
+          "secondaryRegion" : [ "bloodstoneunderground", "corruptmoonunderground", "ffhellhiveunderground", "ffpoopit", "heck", "shadow", "hive", "ffspidernest", "fffleshcaves", "ffcellcaves", "ffshadow" ]
         },
         "core" : {
           "primaryRegion" : [ "core" ]
@@ -2053,8 +2053,8 @@
   "path" : "/regionTypes/bloodstonesea",
   "value" : 
   {
-      "oceanLiquid" : [ "bloodliquid", "alienjuice", "darkwater" ],
-      "caveLiquid" : [ "bloodliquid", "alienjuice", "darkwater" ],
+      "oceanLiquid" : [ "bloodliquid", "alienjuice", "darkwater", "pus" ],
+      "caveLiquid" : [ "bloodliquid", "alienjuice", "darkwater", "pus" ],
       "blockSelector" : [ "remixedIslandsSurface", "remixedFlatIslandsSurface", "remixedIslandTowersSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],     
       "biome" : [

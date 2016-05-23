@@ -58,9 +58,9 @@
     }
   },
 
-    "mainBlock" : "rottingflesh",
-    "subBlocks" : [ "boneyflesh", "brains", "hellstone" ],
-    "ores" : "depth3",
+    "mainBlock" : "fleshblock",
+    "subBlocks" : [ "boneyflesh", "brains", "hellstone", "rottingflesh" ],
+    "ores" : "ff_deepsurfaceatropusOres",
 
   "parallax" : "/parallax/underground/atropusunderground.parallax",
 
@@ -185,8 +185,20 @@
           "type" : "tree",
           "treeFoliageHueShiftMax" : 220,
           "treeStemHueShiftMax" : 220,
-          "treeStemList" : [ "fleshvine_atropus", "fleshvine2", "podvine"],
+          "treeStemList" : [ "fleshvine_atropus", "fleshvine2", "podvine", "bloodvine"],
           "treeFoliageList" : [ "nofoliagevine" ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:potsRare",
+
+          "type" : "tree",
+          "treeFoliageHueShiftMax" : 35,
+          "treeStemHueShiftMax" : 35,
+          "treeStemList" : [ "fleshstem", "fleshstem2", "bloodkelp" ],
+          "treeFoliageList" : [ "fleshfoliage", "fleshfoliage2", "bloodkelpy" ]
         },
         {
           "mode" : "ceiling",

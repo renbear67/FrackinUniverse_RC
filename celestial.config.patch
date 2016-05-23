@@ -2473,7 +2473,7 @@
         "dynamicsImages" : "/celestial/system/terrestrial/dynamics/<num>.png",
         "dynamicsRange" : [1, 40],
 
-        "terrestrialType" : [ "bloodstone", "chromatic", "strangesea", "desert", "tarball", "desertwastes", "mountainous", "fungus", "barren", "infernus", "magma", "volcanic", "sulphuric", "sulphuricocean", "ocean", "ffunknown" ]
+        "terrestrialType" : [ "chromatic", "strangesea", "desert", "tarball", "desertwastes", "mountainous", "fungus", "barren", "infernus", "magma", "volcanic", "sulphuric", "sulphuricocean", "ocean", "ffunknown" ]
       },
 
       "variationParameters" : [
@@ -2530,7 +2530,7 @@
         "dynamicsImages" : "/celestial/system/terrestrial/dynamics/<num>.png",
         "dynamicsRange" : [1, 40],
 
-        "terrestrialType" : [ "strangesea", "eden", "forest", "desert", "tarball", "desertwastes", "mountainous", "tidewater", "fungus", "barren", "irradiated", "volcanic", "arboreal", "arboreal2","atropus", "protoworld", "alien", "ocean", "toxic", "bloodstone", "bloodstonesea", "slimeworld", "ffunknown" ]
+        "terrestrialType" : [ "strangesea", "eden", "forest", "desert", "tarball", "desertwastes", "mountainous", "tidewater", "fungus", "barren", "irradiated", "volcanic", "arboreal", "arboreal2","atropus", "protoworld", "alien", "ocean", "toxic", "bloodstonesea", "slimeworld", "ffunknown" ]
       },
 
       "variationParameters" : [
@@ -2587,7 +2587,7 @@
         "dynamicsImages" : "/celestial/system/terrestrial/dynamics/<num>.png",
         "dynamicsRange" : [1, 40],
 
-        "terrestrialType" : [ "strangesea", "eden", "forest", "desert",  "mountainous", "tidewater", "fungus", "urbanwasteland", "ocean",  "barren", "desertwastes", "atropus", "arboreal2", "savannah", "jungle", "alien", "toxic", "bog", "arboreal", "bloodstone","bloodstonesea", "irradiated", "protoworld", "penumbra", "slimeworld", "thickjungle", "ffunknown" ]
+        "terrestrialType" : [ "strangesea", "eden", "forest", "desert",  "mountainous", "tidewater", "fungus", "urbanwasteland", "ocean",  "barren", "desertwastes", "atropus", "arboreal2", "savannah", "jungle", "alien", "toxic", "bog", "arboreal", "bloodstonesea", "irradiated", "protoworld", "penumbra", "slimeworld", "thickjungle", "ffunknown" ]
       },
 
       "variationParameters" : [
@@ -2815,7 +2815,7 @@
         "dynamicsImages" : "/celestial/system/terrestrial/dynamics/<num>.png",
         "dynamicsRange" : [1, 40],
 
-        "terrestrialType" : [ "chromatic", "strangesea", "superdense", "tarball", "fungus", "irradiated", "penumbra", "protoworld", "atropus", "alien", "urbanwasteland", "ffunknown", "bloodstone" ]
+        "terrestrialType" : [ "chromatic", "strangesea", "superdense", "tarball", "fungus", "irradiated", "penumbra", "protoworld", "atropus", "alien", "urbanwasteland", "ffunknown" ]
       },
 
       "variationParameters" : [
@@ -3117,7 +3117,7 @@
         "dynamicsImages" : "/celestial/system/terrestrial/dynamics/<num>.png",
         "dynamicsRange" : [1, 40],
 
-        "terrestrialType" : [ "strangesea", "eden", "moon_desert", "moon_volcanic", "moon_toxic", "moon_stone" ,"desert", "forest", "metallicmoon", "tarball", "mountainous", "tidewater", "fungus", "moon", "barren", "irradiated", "volcanic", "arboreal", "arboreal2", "atropus", "desertwastes", "protoworld", "alien", "ocean", "toxic", "bloodstone","bloodstonesea", "slimeworld" ]
+        "terrestrialType" : [ "strangesea", "eden", "moon_desert", "moon_volcanic", "moon_toxic", "moon_stone" ,"desert", "forest", "metallicmoon", "tarball", "mountainous", "tidewater", "fungus", "moon", "barren", "irradiated", "volcanic", "arboreal", "arboreal2", "atropus", "desertwastes", "protoworld", "alien", "ocean", "toxic", "bloodstonesea", "slimeworld" ]
       },
 
       "variationParameters" : [
@@ -3152,7 +3152,7 @@
         "dynamicsImages" : "/celestial/system/terrestrial/dynamics/<num>.png",
         "dynamicsRange" : [1, 40],
 
-        "terrestrialType" : [ "strangesea", "eden", "moon_desert", "moon_volcanic", "moon_toxic", "moon_stone" ,"forest", "mountainous", "tidewater", "fungus", "moon", "urbanwasteland", "ocean",  "metallicmoon", "desertwastes", "atropus", "savannah", "jungle", "alien", "toxic", "bog", "arboreal", "arboreal2", "bloodstone","bloodstonesea", "irradiated", "protoworld", "penumbra", "slimeworld", "thickjungle" ]
+        "terrestrialType" : [ "strangesea", "eden", "moon_desert", "moon_volcanic", "moon_toxic", "moon_stone" ,"forest", "mountainous", "tidewater", "fungus", "moon", "urbanwasteland", "ocean",  "metallicmoon", "desertwastes", "atropus", "savannah", "jungle", "alien", "toxic", "bog", "arboreal", "arboreal2", "bloodstonesea", "irradiated", "protoworld", "penumbra", "slimeworld", "thickjungle" ]
       },
 
       "variationParameters" : [
