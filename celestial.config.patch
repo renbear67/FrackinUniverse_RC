@@ -2473,7 +2473,7 @@
         "dynamicsImages" : "/celestial/system/terrestrial/dynamics/<num>.png",
         "dynamicsRange" : [1, 40],
 
-        "terrestrialType" : [ "chromatic", "strangesea", "desert", "tarball", "desertwastes", "mountainous", "fungus", "barren", "infernus", "magma", "volcanic", "sulphuric", "sulphuricocean", "ocean", "ffunknown" ]
+        "terrestrialType" : [ "bloodstone", "chromatic", "strangesea", "desert", "tarball", "desertwastes", "mountainous", "fungus", "barren", "infernus", "magma", "volcanic", "sulphuric", "sulphuricocean", "ocean", "ffunknown" ]
       },
 
       "variationParameters" : [

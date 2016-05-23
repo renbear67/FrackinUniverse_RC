@@ -444,8 +444,8 @@
           "type" : "tree",
           "treeFoliageHueShiftMax" : 90,
           "treeStemHueShiftMax" : 15,
-          "treeStemList" : [ "mushroomstalkfu", "mushroomstalkbio", "mushroomstalkfu" ],
-          "treeFoliageList" : [ "mushroomyellowtopfu", "mushroomredtopfu", "mushroomyellowtopbio", "mushroomredtopbio", "mushroomtopfu", "mushroomtopfu2" ]
+          "treeStemList" : [ "mushroomstalkfu", "mushroomstalkfu2","mushroomstalkbio", "mushroomstalkfu" ],
+          "treeFoliageList" : [ "mushroomyellowtopfu", "mushroomyellowtopfu2", "mushroomredtopfu2", "mushroomredtopfu", "mushroomyellowtopbio", "mushroomredtopbio", "mushroomtopfu", "mushroomtopfu2" ]
         },
         {
           "mode" : "floor",

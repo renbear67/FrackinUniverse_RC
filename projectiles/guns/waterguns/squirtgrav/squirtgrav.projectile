@@ -7,8 +7,7 @@
   "power" : 50,
   "speed" : 50,
   "bounces" : 0,
-  "piercing" : true,
-  "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],
+  "piercing" : false,
   "damageKind" : "default",
   "statusEffects" : [
     "slow"

@@ -157,6 +157,14 @@
         "by" : -28,
         "h" : 40
       }
+    },
+    "branch4" : {
+      "image" : "branch4.png",
+      "attachment" : {
+        "bx" : -75,
+        "by" : -28,
+        "h" : 40
+      }
     }
   }
 }
