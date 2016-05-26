@@ -9,7 +9,7 @@
   "description" : "A thick jelly. It's tempting to eat it.",
   "shortdescription" : "Gelatinous Block",
   "category": "materials",  
-  "footstepSound" : "/sfx/blocks/footstep_brains.wav",
+  "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {

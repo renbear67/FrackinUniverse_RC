@@ -261,7 +261,7 @@
           "variants" : 1,
           "distribution" : "/biomes/distributions.config:randomEncounter",
           "type" : "microdungeon",
-          "microdungeons" : [ "fushops", "fulabs", "fuencounters", "fuavali", "fubandits", "fuelder", "alpinemicrodungeons", "furedhives", "furandomencounter", "fuapexencounter", "fuglitchencounter", "fuavianencounter", "fuhumanencounter", "fushops" ]
+          "microdungeons" : [ "fushops", "fulabs", "fuencounters", "fuavali", "fubandits", "fuelders", "alpinemicrodungeons", "furedhives", "furandomencounter", "fuapexencounter", "fuglitchencounter", "fuavianencounter", "fuhumanencounter", "fushops" ]
         },	
         {
           "mode" : "floor",
