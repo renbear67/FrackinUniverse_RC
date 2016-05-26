@@ -124,12 +124,14 @@
   "hueShiftOptions" : [ 0 ],
 
   "mainBlock" : "bloodsand",
-  "subBlocks" : [ "bloodstonetile", "ff_bloodstone", "bloodstonetile2" ],
+  "subBlocks" : [ "fleshblock", "ff_bloodstone", "brains" ],
   "ores" : "bloodstonesurfaceOres",
 
   "surfacePlaceables" : {
-    "grassMod" : [ "bloodstonegrass" ],
+    "grassMod" : [ "fleshgrass2", "tentaclegrass", "fleshgrass", "bloodstonegrass" ],
     "grassModDensity" : 0.9,
+      "ceilingGrassMod" : [ "veingrowth" ],
+      "ceilingGrassModDensity" : 0.5,
       "items" : [
         {
           "mode" : "floor",
@@ -280,6 +282,18 @@
             }
           ]
         },
+        {
+          "mode" : "ceiling",
+          "priority" : 2.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:denseMedium",
+
+          "type" : "tree",
+          "treeFoliageHueShiftMax" : 220,
+          "treeStemHueShiftMax" : 220,
+          "treeStemList" : [ "vein", "bluevein"],
+          "treeFoliageList" : [ "blueveiny", "veiny" ]
+        },
       {
         "mode" : "floor",
         "priority" : 2.0,
@@ -301,7 +315,7 @@
           "type" : "tree",
           "treeFoliageHueShiftMax" : 220,
           "treeStemHueShiftMax" : 220,
-          "treeStemList" : [ "bloodvine" ],
+          "treeStemList" : [ "bloodvine", "fleshvine_atropus", "fleshvine2", "podvine" ],
           "treeFoliageList" : [ "nofoliagevine"  ]
         },
       {
@@ -318,7 +332,43 @@
             "modHueShiftMax" : 0
           }
         ]
-      }
+      },
+        {
+          "mode" : "floor",
+          "priority" : 2.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+          "type" : "object",
+          "objectSets" : [
+            {
+              "pool" : 
+              [ 
+              [0.55, "atropus1" ], 
+              [0.55, "atropus2" ], 
+              [0.55, "atropus3" ],
+              [0.15, "fleshbush1" ], 
+              [0.15, "fleshbush2" ], 
+              [0.15, "fleshbush3" ], 
+              [0.15, "fleshbush4" ], 
+              [0.15, "fleshbush5" ], 
+              [0.15, "fleshbush6" ],
+              [0.15, "heckaltar" ], 
+              [0.15, "heckbush1" ], 
+              [0.15, "heckbush2" ], 
+              [0.15, "heckbush3" ], 
+              [0.15, "heckbush4" ], 
+              [0.15, "heckbush5" ],
+              [0.15, "heckbush6" ], 
+              [0.15, "heckbush7" ], 
+              [0.15, "heckbush8" ], 
+              [0.15, "heckbush9" ], 
+              [0.15, "heckbush10" ]
+              ],
+              "parameters" : { }
+            }
+          ]
+        }
       ]
     }
 }

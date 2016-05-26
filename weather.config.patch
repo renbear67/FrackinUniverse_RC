@@ -1,6 +1,17 @@
 [
-
-
+{
+"op" : "add",
+"path" : "/desertwastes",
+"value" : [     
+   [0.50, "clear"],
+   [0.05, "tarrain" ],
+   [0.25, "sandstorm"],
+   [0.25, "ashstorm"],
+   [0.50, "sulphurstormlesser"],
+   [0.05, "sulphurstormsevere"],
+   [0.20, "firestorm"]
+   ]
+},
 {
 "op" : "add",
 "path" : "/arboreal",
@@ -217,10 +228,11 @@
 "op" : "add",
 "path" : "/sulphuric",
 "value" : [     
-    [0.2, "clear"],
-    [0.6, "sulphurstormlesser"],
-    [0.5, "sulphurstorm"],
-    [0.12, "tarrain" ],
+    [0.3, "clear"],
+    [0.2, "tarrain" ],
+    [0.2, "sulphurstormlesser"],
+    [0.1, "sulphurstorm"],
+    [0.3, "sulphuracidrain" ],
     [0.005, "meteorshower"],
     [0.001, "largemeteor"]
     ]

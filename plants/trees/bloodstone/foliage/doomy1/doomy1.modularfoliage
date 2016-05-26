@@ -107,6 +107,14 @@
         "bx" : 0,
         "by" : 0
       }
+    },
+    "branch4" : {
+      "image" : "branch4.png",
+      "backimage" : "",
+      "attachment" : {
+        "bx" : 0,
+        "by" : 0
+      }
     }
   }
 }

@@ -13,7 +13,11 @@
   "actionOnReap" : [
     {
       "action" : "sound",
-      "options" : [ "/sfx/projectiles/goocluster_pop.ogg" ]
+      "options" : [ "/sfx/projectiles/acidburn.ogg" ]
+    },
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/weather/acidburn.ogg" ]
     },
     {
       "action" : "liquid",

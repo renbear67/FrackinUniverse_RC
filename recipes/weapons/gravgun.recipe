@@ -1,10 +1,9 @@
 {
   "input" : [
-    { "item" : "electromagnet", "count" : 4 },
-    { "item" : "triangliumpyramid", "count" : 10 },
+    { "item" : "triangliumpyramid", "count" : 6 },
     { "item" : "particlecore", "count" : 1 },
     { "item" : "stickofram", "count" : 2 },
-    { "item" : "liquidgravrain", "count" : 100 }
+    { "item" : "liquidgravrain", "count" : 50 }
   ],
   "output" : { "item" : "gravgun", "count" : 1 },
   "groups" : [ "armory", "ranged", "all" ]

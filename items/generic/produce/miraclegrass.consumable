@@ -5,6 +5,7 @@
   "inventoryIcon" : "miraclegrass.png",
   "description" : "Long term, weak regeneration.",
   "shortdescription" : "Miracle Grass Clipping",
+  "learnBlueprintsOnPickup" : [ "healingliquidgun" ],
   "effects" : [ [
       {
         "effect" : "regenerationmiraclegrass",

@@ -1,6 +1,6 @@
 {
   "name" : "bloodstonesea",
-  "friendlyName" : "Bloodstone Sea",
+  "friendlyName" : "Atropus Sea",
 
     "spawnProfile" : {
     "groups" : [
@@ -17,13 +17,25 @@
         ]
       },
       {
-        "select" : 1,
+        "select" : 2,
         "pool" : [
-          [ 0.4, "fawnfly" ],
-          [ 0.3, "brightstripe" ],
-          [ 0.4, "blackbeetle" ],
-          [ 0.4, "hellbeetle" ],
-          [ 0.3, "bloodtoadcritter" ]
+          [ 0.4, "shardwing" ],
+          [ 0.3, "stinkjack" ],
+	  [ 0.3, "xenofly" ]
+        ]
+      },
+      {
+        "select" : 3,
+        "pool" : [
+	  [ 0.3, "apexscabcritter" ],
+          [ 0.4, "avianscabcritter" ],
+          [ 0.3, "eyefriendcritter" ],
+          [ 0.3, "eyepodcritter" ],
+	  [ 0.3, "floranscabcritter" ],
+	  [ 0.3, "glitchscabcritter" ],
+	  [ 0.3, "humanscabcritter" ],
+	  [ 0.3, "hylotlscabcritter" ],
+	  [ 0.3, "maggotcritter" ]
         ]
       },
       {
@@ -125,33 +137,47 @@
   ],
 
   "mainBlock" : "bloodsand",
-  "subBlocks" : [ "bloodstonetile", "ff_bloodstone", "bloodstonetile2" ],
-  "ores" : "bloodstonesurfaceOres",
+  "subBlocks" : [ "fleshblock", "brains", "boneyflesh", "bloodstonetile" ],
+  "ores" : "ff_surfaceatropusOres",
 
-  "parallax" : "/parallax/surface/bloodstone.parallax",
+  "parallax" : "/parallax/surface/atropus.parallax",
 
-  "ambientNoises" : {
-    "day" : {
-      "tracks" : [ "/sfx/environmental/arid_day.ogg" ]
+    "ambientNoises" : {
+      "day" : {
+        "tracks" : [ "/sfx/ambiance/atropusambiance2.ogg" ]
+      },
+      "night" : {
+        "tracks" : [ "/sfx/ambiance/atropusambiance.ogg" ]
+      }
     },
-    "night" : {
-      "tracks" : [ "/sfx/environmental/arid_night.ogg" ]
-    }
-  },
 
-  "musicTrack" : {
-    "day" : {
-      "tracks" : [ "/music/epsilon-indi.ogg", "/music/hymn-to-the-stars.ogg", "/music/planetarium.ogg", "/music/procyon.ogg", "/music/stellarformation.ogg", "/music/vastimmortalsuns.ogg", "/music/atlas.ogg", "/music/blue-straggler.ogg", "/music/cygnus-x1.ogg", "/music/europa.ogg", "/music/haiku.ogg", "/music/M54.ogg", "/music/on-the-beach-at-night.ogg" ]
+    "musicTrack" : {
+      "day" : {
+        "tracks" : [ ]
+      },
+      "night" : {
+        "tracks" : [ ]
+      }
     },
-    "night" : {
-      "tracks" : [ "/music/jupiter.ogg", "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/procyon.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-Disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/M54.ogg", "/music/Nomads.ogg", "/music/on-the-beach-at-night.ogg" ]
-    }
-  },
-
+    
   "surfacePlaceables" : {
-    "grassMod" : [ "bloodstonegrass" ],
+    "grassMod" : [ "fleshgrass2", "tentaclegrass", "fleshgrass", "bloodstonegrass" ],
     "grassModDensity" : 0.9,
+      "ceilingGrassMod" : [ "veingrowth" ],
+      "ceilingGrassModDensity" : 0.5,
       "items" : [
+        {
+          "mode" : "ceiling",
+          "priority" : 2.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:denseMedium",
+
+          "type" : "tree",
+          "treeFoliageHueShiftMax" : 220,
+          "treeStemHueShiftMax" : 220,
+          "treeStemList" : [ "vein", "bluevein"],
+          "treeFoliageList" : [ "blueveiny", "veiny" ]
+        },
         {
           "mode" : "floor",
           "priority" : 3.0,
@@ -203,16 +229,18 @@
             }
           ]
         },   
-        {
+         {
           "mode" : "floor",
-          "priority" : 2.0,
+          "priority" : 1.0,
           "variants" : 1,
-          "distribution" : "/biomes/distributions.config:denseLarge",
+          "distribution" : "/biomes/distributions.config:ffunCommon",
 
           "type" : "tree",
-          "treeStemList" : [ "doomwood" ],
-          "treeFoliageList" : [ "doomy1" ]
-        },        
+          "treeFoliageHueShiftMax" : 35,
+          "treeStemHueShiftMax" : 35,
+          "treeStemList" : [ "bloodkelp", "doomwood" ],
+          "treeFoliageList" : [ "bloodkelpy", "doomy1" ]
+        },       
         {
           "mode" : "floor",
           "priority" : 1.0,
@@ -234,16 +262,7 @@
           "distribution" : "/biomes/distributions.config:overgroundChests",
 
           "type" : "treasureBox",
-          "treasureBoxSets" : [ "basicChest" ]
-        },
-        {
-          "mode" : "floor",
-          "priority" : 0.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:overgroundChests",
-
-          "type" : "treasureBox",
-          "treasureBoxSets" : [ "ffbasicChest2" ]
+          "treasureBoxSets" : [ "ffbasicChest2", "ffatropusChest" ]
         },
         {
           "mode" : "floor",
@@ -363,18 +382,6 @@
           ]
         },
         {
-          "mode" : "floor",
-          "priority" : 2.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:scatteredLarge",
-
-          "type" : "tree",
-          "treeFoliageHueShiftMax" : 180,
-          "treeStemHueShiftMax" : 15,
-          "treeStemList" : [ "slimey", "underwood", "alienpalm", "deadtree1", "eyestem", "fleshstem" ],
-          "treeFoliageList" : [ "hanging", "red", "spikeyfoliage" , "grey", "eyefoliage", "fleshfoliage" ]
-        },
-        {
           "mode" : "ceiling",
           "priority" : 2.0,
           "variants" : 1,
@@ -383,7 +390,7 @@
           "type" : "tree",
           "treeFoliageHueShiftMax" : 220,
           "treeStemHueShiftMax" : 220,
-          "treeStemList" : [ "bloodvine" ],
+          "treeStemList" : [ "bloodvine", "fleshvine_atropus", "fleshvine2", "podvine"  ],
           "treeFoliageList" : [ "nofoliagevine"  ]
         }
       ]

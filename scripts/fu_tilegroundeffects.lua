@@ -30,9 +30,6 @@ function tileMaterials()
   self.matCheck["slime"] = {{"slimestick"},1,1,1,14,101,1,1.75}
   self.matCheck["slime2"] = {{"slimestick"},1,1,1,14,101,1,1.75}
   self.matCheck["jellyblock"] = {{"slimestick"},1,1,1,14,101,1,1.75}
-  self.matCheck["magmatile"] = {{"burning"},1,1,1,14,100,0,1}
-  self.matCheck["magmatile2"] = {{"burning"},1,1,1,14,100,0,1}
-  self.matCheck["redhotcobblestone"] = {{"burning"},1,1,1,14,100,0,1}
   self.matCheck["jellystone"] = {{"jumpboost15"},1,1,1,14,100,0,1}
   self.matCheck["blackslime"] = {{"slimestick","weakpoison"},1,1,1,14,101,1.5,1.65}
   self.matCheck["spidersilkblock"] = {{"webstick"},1,1,1,14,101,0,1.32}
@@ -40,9 +37,9 @@ function tileMaterials()
   self.matCheck["irradiatedtile2"] = {{"radiationburn"},1,1,1,14,100,0,1}
   self.matCheck["irradiatedtile3"] = {{"radiationburn"},1,1,1,14,100,0,1}
   self.matCheck["protorock"] = {{"ffextremeradiation"},1,1,1,14,100,0,1.3}
-  self.matCheck["bioblock"] = {{"regenerationminor"},1,1,1,14,100,0,1.1}
-  self.matCheck["bioblock2"] = {{"regenerationminor"},1,1,1,14,100,0,1.2}
-  self.matCheck["biodirt"] = {{"regenerationminor"},1,1,1,14,101,1,1.85}
+  self.matCheck["bioblock"] = {{"regenerationblock"},1,1,1,14,100,0,1.1}
+  self.matCheck["bioblock2"] = {{"regenerationblock"},1,1,1,14,100,0,1.2}
+  self.matCheck["biodirt"] = {{"regenerationblock"},1,1,1,14,101,1,1.85}
   self.matCheck["metallic"] = {{"metalspeed"},1,1,1,14,100,0,1.3}
   self.matCheck["asphalt"] = {{"metalspeed"},1,1,1,14,100,0,1.4}
   self.matCheck["cloudblock"] = {{"lowgrav"},1,1,1,14,101,1,1.2}
@@ -54,7 +51,10 @@ function tileMaterials()
   self.matCheck["moltentile"] = {{"burning"},1,1,1,14,101,0,1.75} 
   self.matCheck["moltensand"] = {{"burning"},1,1,1,14,101,0,1.75} 
   self.matCheck["moltenmetal"] = {{"burning"},1,1,1,14,101,0,1.75} 
-  self.matCheck["blueslimedirt"] = {{"regenerationminor","slimestick"},1,1,1,14,100,0,1.1}
-  self.matCheck["blueslime"] = {{"regenerationminor","slimestick"},1,1,1,14,100,0,1.1}
-  self.matCheck["blueslimestone"] = {{"regenerationminor","slimestick"},1,1,1,14,100,0,1.1}
+  self.matCheck["magmatile"] = {{"burning"},1,1,1,14,100,0,1}
+  self.matCheck["magmatile2"] = {{"burning"},1,1,1,14,100,0,1}
+  self.matCheck["redhotcobblestone"] = {{"burning"},1,1,1,14,100,0,1}  
+  self.matCheck["fublueslimedirt"] = {{"regenerationblock","slimestick"},1,1,1,14,100,0,1.1}
+  self.matCheck["fublueslime"] = {{"regenerationblock","slimestick"},1,1,1,14,100,0,1.1}
+  self.matCheck["fublueslimestone"] = {{"regenerationblock","slimestick"},1,1,1,14,100,0,1.1}
 end

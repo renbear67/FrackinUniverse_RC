@@ -143,7 +143,7 @@
 "value":"Scanners show strange ^#ba3b04;bloodstone^white; formations and ^#8e5ca6;unknown organic^white; elements. A source of ^red;blood diamonds and quietus ore^white;."},
 
 {"op":"add","path":"/planetTypeToDescription/bloodstonesea",
-"value":"Scanners show strange ^#ba3b04;blood seas^white; and ^#8e5ca6;unknown organic^white; elements. A source of ^red;blood diamonds and quietus ore^white;."},
+"value":"Scanners show disgusting ^#ba3b04;Atropus Seas^white; ripe with ^#8e5ca6;unknown organic^white; elements. A source of ^red;blood diamonds and quietus ore^white;."},
 
 {"op":"add","path":"/planetTypeToDescription/bog",
 "value":"A deep, thick ^#97be6a;bog^white; covers nearly all of this world. Rich in ^green;Algae^white; and other organic resources."},
@@ -151,8 +151,8 @@
 {"op":"add","path":"/planetTypeToDescription/crystalmoon",
 "value":"A ^#a56caf;crystalline moon^white;. These worlds are the sole source of ^#e6c011;lunari crystals^white;. Silicate ^e43774;crystal formations^white; detected."},
 
-{"op":"add","path":"/planetTypeToDescription/desert_wastes",
-"value":"The majority of the planet's surface is ^#c80000;scorching red desert ^white;with very little plant life."},
+{"op":"add","path":"/planetTypeToDescription/desertwastes",
+"value":"The majority of the planet's surface is a scorching ^#c80000;red desert^white;. Bio-scans reveal interesting flora and fauna."},
 
 {"op":"add","path":"/planetTypeToDescription/eden",
 "value":"This ^#00f0ff;eden ^white;has very little in the way of hostile life and very little darkness. A lovely place to build a home. ^#9dbeef;Healing waters^white; dot the surface."},

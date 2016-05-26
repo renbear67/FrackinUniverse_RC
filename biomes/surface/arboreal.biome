@@ -267,7 +267,7 @@
   "subBlocks" : [ "retexdirt", "floweryblock", "fumossyrock2" ],
   "ores" : "ff_surfacearborealOres",
 
-  "parallax" : "/parallax/surface/forest.parallax",
+  "parallax" : "/parallax/surface/arboreal.parallax",
 
 
     "ambientNoises" : {

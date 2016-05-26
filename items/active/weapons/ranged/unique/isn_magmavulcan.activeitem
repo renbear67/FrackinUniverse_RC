@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "uncommon",
   "description" : "A rapid-fire magma ball launcher. May cause extreme collateral damage. Use caution",
-  "shortdescription" : "Magma Vulcan",
+  "shortdescription" : "Pyre Vulcan",
   "level" : 3,
   "tooltipKind" : "gun",
   "weaponType" : "Energy",

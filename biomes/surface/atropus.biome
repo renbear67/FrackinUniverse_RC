@@ -9,6 +9,8 @@
       {
         "select" : 2,
         "pool" : [ 
+          [ 0.1111, "fubloodgolem" ],     
+          [ 0.1111, "headcrab" ],
           [ 0.1111, "fleshleech" ],     
           [ 0.1111, "paratail" ],
           [ 0.1111, "fuheckblob" ],
@@ -164,7 +166,7 @@
 
   "mainBlock" : "fleshblock",
   "subBlocks" : [ "brains", "rottingflesh", "boneyflesh", "hellstone" ],
-  "ores" : "ff_surfacearborealOres",
+  "ores" : "ff_surfaceatropusOres",
 
   "parallax" : "/parallax/surface/atropus.parallax",
 
@@ -243,19 +245,41 @@
             }
           ]
         },
-        
-        
         {
+          "mode" : "ceiling",
+          "priority" : 2.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:ffunCommon",
+
+          "type" : "tree",
+          "treeFoliageHueShiftMax" : 220,
+          "treeStemHueShiftMax" : 220,
+          "treeStemList" : [ "eyevein" ],
+          "treeFoliageList" : [ "eyeveiny"  ]
+        },                
+         {
           "mode" : "floor",
           "priority" : 1.0,
           "variants" : 1,
-          "distribution" : "/biomes/distributions.config:scatteredLarge",
+          "distribution" : "/biomes/distributions.config:ffunCommon",
 
           "type" : "tree",
           "treeFoliageHueShiftMax" : 35,
           "treeStemHueShiftMax" : 35,
-          "treeStemList" : [ "fleshstem" ],
-          "treeFoliageList" : [ "fleshfoliage" ]
+          "treeStemList" : [ "bloodkelp", "doomwood" ],
+          "treeFoliageList" : [ "bloodkelpy", "doomy1" ]
+        },       
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:denseLarge",
+
+          "type" : "tree",
+          "treeFoliageHueShiftMax" : 35,
+          "treeStemHueShiftMax" : 35,
+          "treeStemList" : [ "fleshstem", "fleshstem2", "bloodkelp" ],
+          "treeFoliageList" : [ "fleshfoliage", "fleshfoliage2", "bloodkelpy" ]
         },
         {
           "mode" : "ceiling",
@@ -266,7 +290,7 @@
           "type" : "tree",
           "treeFoliageHueShiftMax" : 220,
           "treeStemHueShiftMax" : 220,
-          "treeStemList" : [ "fleshvine_atropus", "fleshvine2", "podvine"],
+          "treeStemList" : [ "fleshvine_atropus", "fleshvine2", "podvine", "bloodvine"],
           "treeFoliageList" : [ "nofoliagevine" ]
         },
         {
@@ -685,7 +709,7 @@
           "type" : "tree",
           "treeFoliageHueShiftMax" : 220,
           "treeStemHueShiftMax" : 220,
-          "treeStemList" : [ "fleshvine_atropus", "fleshvine2", "podvine" ],
+          "treeStemList" : [ "fleshvine_atropus", "fleshvine2", "podvine", "bloodvine" ],
           "treeFoliageList" : [ "nofoliagevine" ]
         },
         {

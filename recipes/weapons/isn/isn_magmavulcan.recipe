@@ -1,7 +1,6 @@
 {
   "input" : [
-    { "item" : "pyreitebar", "count" : 12 },
-    { "item" : "liquidlava", "count" : 50 },
+    { "item" : "pyreitebar", "count" : 6 },
     { "item" : "scorchedcore", "count" : 3 },
     { "item" : "moltencore", "count" : 1 }
   ],

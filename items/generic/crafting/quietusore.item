@@ -2,7 +2,7 @@
   "itemName" : "quietusore",
   "rarity" : "uncommon",
   "inventoryIcon" : "quietusore.png",
-  "description" : "Odd, crystallized and metal-infused blood plasma.",
+  "description" : "A strange ore that is both mineral and biological.",
   "shortdescription" : "Quietus Ore",
   "pickupQuestTemplates" : [ "quietus.gearup" ],
   "learnBlueprintsOnPickup" : [ "blooddiamond", "quietusknave", "quietusassassin", "quietusrogue", "quietusmercenary", "quietuscaptain", "quietusknight", "quietusgeneral", "quietusemperor" ]
