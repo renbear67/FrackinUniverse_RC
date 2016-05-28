@@ -164,7 +164,7 @@
   ],
   
     "mainBlock" : "drysand",
-    "subBlocks" : [ "drydirt", "retexrock15", "brittlejunk", "stonerubble", ],
+    "subBlocks" : [ "drydirt", "retexrock15", "brittlejunk", "stonerubble" ],
     //"mainBlock" : "drysand",
     //"subBlocks" : [ "ash", "retexrock15", "brittlejunk" ],
     "ores" : "ff_wastelandOres",
