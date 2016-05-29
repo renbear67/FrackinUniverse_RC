@@ -227,15 +227,12 @@
           "mode" : "floor",
           "priority" : 1.0,
           "variants" : 1,
-          "distribution" : "/biomes/distributions.config:denseSmall",
+          "distribution" : "/biomes/distributions.config:ffunCommon",
 
           "type" : "object",
           "objectSets" : [
             {
               "pool" : [ 
-              [0.35, "flowerred" ], 
-              [0.35, "flowerblue" ], 
-              [0.35, "floweryellow" ], 
               [0.35, "junglebush1" ], 
               [0.35, "junglebush2" ], 
               [0.35, "junglebush3" ], 
@@ -259,6 +256,40 @@
             }
           ]
         },
+        
+        
+        
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:surfaceCrops",
+
+          "type" : "object",
+          "objectSets" : [
+            {
+              "pool" : [ 
+            [0.35, "flowerred" ], 
+            [0.35, "flowerblue" ], 
+            [0.35, "floweryellow" ], 
+            [0.35, "flowerspring" ], 
+            [0.35, "flowerblack" ],
+            [0.35, "flowerbrown" ],
+            [0.35, "flowergreen" ],
+            [0.35, "flowergrey" ],
+            [0.35, "flowerorange" ],
+            [0.35, "flowerorchid" ],
+            [0.35, "flowerorchid2" ],
+            [0.35, "flowerorchid3" ],
+            [0.35, "flowerpink" ],
+            [0.35, "flowerpurple" ],
+            [0.35, "flowerwhite" ]
+          ],
+              "parameters" : { "startingStage" : 3 }
+            }
+          ]
+        },        
+        
         {
           "mode" : "floor",
           "priority" : 1.0,

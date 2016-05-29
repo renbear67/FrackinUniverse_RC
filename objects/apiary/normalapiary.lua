@@ -290,6 +290,17 @@ function flowerCheck()
 	local flowerRed = world.objectQuery(entity.position(), 80, {name="flowerred"})
 	local flowerYellow = world.objectQuery(entity.position(), 80, {name="floweryellow"})
 	local flowerBlue = world.objectQuery(entity.position(), 80, {name="flowerblue"})
+	local flowerBlack = world.objectQuery(entity.position(), 80, {name="flowerblack"})
+	local flowerBrown = world.objectQuery(entity.position(), 80, {name="flowerbrown"})
+	local flowerGreen = world.objectQuery(entity.position(), 80, {name="flowergreen"})	
+	local flowerGrey = world.objectQuery(entity.position(), 80, {name="flowergrey"})
+	local flowerOrange = world.objectQuery(entity.position(), 80, {name="flowerorange"})
+	local flowerOrchid = world.objectQuery(entity.position(), 80, {name="flowerorchid"})	
+	local flowerOrchid2 = world.objectQuery(entity.position(), 80, {name="flowerorchid2"})
+	local flowerOrchid3 = world.objectQuery(entity.position(), 80, {name="flowerorchid3"})
+	local flowerPink = world.objectQuery(entity.position(), 80, {name="flowerpink"})	
+	local flowerPurple = world.objectQuery(entity.position(), 80, {name="flowerpurple"})
+	local flowerWhite = world.objectQuery(entity.position(), 80, {name="flowerwhite"})
 	local flowerSpring = world.objectQuery(entity.position(), 80, {name="flowerspring"})
 	local FFenergiflower = world.objectQuery(entity.position(), 80, {name="energiflowerseed"})   ----Frackin Flora/Universe 'Flowers'
 	local FFfloralytplant = world.objectQuery(entity.position(), 80, {name="floralytplantseed"})
@@ -345,7 +356,42 @@ function flowerCheck()
 	if flowerSpring ~= nil then	
 		self.beePower = self.beePower + math.ceil(math.sqrt(#flowerSpring) / 2)
 	end
+	
+	
 	---FrackinUniverse---
+	if flowerBlack ~= nil then	
+		self.beePower = self.beePower + math.ceil(math.sqrt(#flowerSpring) / 2)
+	end	
+	if flowerBrown ~= nil then	
+		self.beePower = self.beePower + math.ceil(math.sqrt(#flowerSpring) / 2)
+	end	
+	if flowerGreen ~= nil then	
+		self.beePower = self.beePower + math.ceil(math.sqrt(#flowerSpring) / 2)
+	end	
+	if flowerGrey ~= nil then	
+		self.beePower = self.beePower + math.ceil(math.sqrt(#flowerSpring) / 2)
+	end
+	if flowerOrange ~= nil then	
+		self.beePower = self.beePower + math.ceil(math.sqrt(#flowerSpring) / 2)
+	end	
+	if flowerOrchid ~= nil then	
+		self.beePower = self.beePower + math.ceil(math.sqrt(#flowerSpring) / 2)
+	end
+	if flowerOrchid2 ~= nil then	
+		self.beePower = self.beePower + math.ceil(math.sqrt(#flowerSpring) / 2)
+	end
+	if flowerOrchid3 ~= nil then	
+		self.beePower = self.beePower + math.ceil(math.sqrt(#flowerSpring) / 2)
+	end
+	if flowerPink ~= nil then	
+		self.beePower = self.beePower + math.ceil(math.sqrt(#flowerSpring) / 2)
+	end
+	if flowerPurple ~= nil then	
+		self.beePower = self.beePower + math.ceil(math.sqrt(#flowerSpring) / 2)
+	end
+	if flowerWhite ~= nil then	
+		self.beePower = self.beePower + math.ceil(math.sqrt(#flowerSpring) / 2)
+	end	
 	if FFenergiflower ~= nil then	
 		self.beePower = self.beePower + math.ceil(math.sqrt(#FFenergiflower) / 2)
 	end

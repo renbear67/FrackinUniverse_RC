@@ -177,15 +177,30 @@
               [0.35, "wildlactariusindigoseed" ],
               [0.35, "wildgoldshroomseed" ],
               [0.35, "wildfayshroomseed" ],
-              [0.35, "flowerred" ], 
-              [0.35, "flowerblue" ], 
-              [0.35, "floweryellow" ],
-              [0.35, "flowerspring" ]
+            [0.15, "flowerred" ], 
+            [0.15, "flowerblue" ], 
+            [0.15, "floweryellow" ], 
+            [0.15, "flowerspring" ], 
+            [0.15, "flowerblack" ],
+            [0.15, "flowerbrown" ],
+            [0.15, "flowergreen" ],
+            [0.15, "flowergrey" ],
+            [0.15, "flowerorange" ],
+            [0.15, "flowerorchid" ],
+            [0.15, "flowerorchid2" ],
+            [0.15, "flowerorchid3" ],
+            [0.15, "flowerpink" ],
+            [0.15, "flowerpurple" ],
+            [0.15, "flowerwhite" ]
           ],
               "parameters" : { "startingStage" : 3 }
             }
           ]
         },
+        
+       
+        
+        
         {
           "mode" : "floor",
           "priority" : 1.0,

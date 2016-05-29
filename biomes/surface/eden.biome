@@ -177,20 +177,30 @@
           }
         ]
       },
-      {
-        "mode" : "floor",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:potsRare",
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:ffunCommon",
 
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [0.35, "flowerred" ], [0.35, "flowerblue" ], [0.35, "floweryellow" ] ],
-            "parameters" : { }
-          }
-        ]
-      },
+          "type" : "object",
+          "objectSets" : [
+            {
+              "pool" : [ 
+            [0.35, "flowerred" ], 
+            [0.35, "flowerblue" ], 
+            [0.35, "floweryellow" ], 
+            [0.35, "flowerspring" ], 
+            [0.35, "flowergreen" ],
+            [0.35, "flowerorange" ],
+            [0.35, "flowerpink" ],
+            [0.35, "flowerpurple" ],
+            [0.35, "flowerwhite" ]
+          ],
+              "parameters" : { "startingStage" : 3 }
+            }
+          ]
+        },
 
       {
         "mode" : "floor",
