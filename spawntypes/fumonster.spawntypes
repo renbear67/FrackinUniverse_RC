@@ -81,6 +81,22 @@
     }
   },
   {
+    "name" : "pteropod3",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "groupSize" : [1, 2],
+    "targetDensity" : 0.04,
+    "monsterType" : "pteropod3",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },    
+  {
     "name" : "pteropod2",
 
     "spawnParameters" : {
