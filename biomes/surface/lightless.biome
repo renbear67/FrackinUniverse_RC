@@ -7,11 +7,10 @@
       {
         "select" : 2,
         "pool" : [     
-          [ 0.1111, "fugiantbee" ],
+          [ 0.1111, "pteropod2" ],
           [ 0.1111, "seedspawn2" ],        
-          [ 0.1111, "furatthing" ],
-          [ 0.1111, "pyromantle" ],     
-          [ 0.1111, "fuashgolem" ],
+          [ 0.1111, "furatthing" ],    
+          [ 0.1111, "crutter2" ],
           [ 0.1111, "fleshreaper" ],
           [ 0.1111, "fleshreaper2" ],
           [ 0.1111, "fleshreaper3" ],
