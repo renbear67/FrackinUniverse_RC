@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "description" : "Awesome. It feels like soggy underwear. Immunity to sticky slime. Grants energy regen.",
-  "shortdescription" : "Red Gelatinous Greaves",
+  "shortdescription" : "Red Gelatin Greaves",
   "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",

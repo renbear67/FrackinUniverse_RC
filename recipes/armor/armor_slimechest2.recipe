@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "pyreitebar", "count" : 4 },
-    { "item" : "corruptionseed", "count" : 4 },
+    { "item" : "protocitebar", "count" : 4 },
+    { "item" : "blisterextract", "count" : 4 },
     { "item" : "ff_slimechest", "count" : 1 }
   ],
   "output" : {

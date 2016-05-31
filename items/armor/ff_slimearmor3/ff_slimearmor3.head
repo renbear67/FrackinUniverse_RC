@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "description" : "A..slimey helm. Lovely. Immune to Insanity",
-  "shortdescription" : "Red Gelatinous Helm",
+  "shortdescription" : "Red Gelatin Helm",
   "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
