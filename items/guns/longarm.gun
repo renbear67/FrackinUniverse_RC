@@ -8,7 +8,7 @@
   "shortdescription" : "Longarm Shotgun",
   "image" : "longarm.png",
   "handPosition" : [-7, -1],
-  "firePosition" : [20, 0],
+  "firePosition" : [11, 0],
   "weaponType" : "Ballistic",
   "recoilTime" : 0.1,
   "level" : 5,

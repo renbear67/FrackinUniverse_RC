@@ -1,6 +1,22 @@
 [
 //vanilla non-enabled spawns
   {
+    "name" : "wisper7",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "groupSize" : [1, 2],
+    "targetDensity" : 0.04,
+    "monsterType" : "wisper7",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+  {
     "name" : "snaunt2",
 
     "spawnParameters" : {

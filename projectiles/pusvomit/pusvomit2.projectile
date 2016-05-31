@@ -18,7 +18,6 @@
     { "action" : "liquid", "liquid" : "pus", "quantity" : 3 }
   ],
   "damageKind" : "poison",
-  "emitters" : [ "defaultwhite" ],
   "statusEffects" : [ "puseffect" ]
 }
 

@@ -3,9 +3,9 @@
   "rarity" : "Common",
   "price" : 5,
   "inventoryIcon" : "onionicon.png",
-  "description" : "An gurn onion. Tasty! Increases maximum health.",
+  "description" : "An gurn onion. Tasty! Regenerates when well lit!",
   "shortdescription" : "Gurn Onion",
   "effects" : [ [
-      "maxhealthboost1"
+      "lightregenproduce"
     ] ]
 }

@@ -11,7 +11,7 @@
   "firePosition" : [14, 2],
   "weaponType" : "Bio-Tech",
   "recoilTime" : 0.1,
-  "level" : 3,
+  "level" : 4,
   "itemTags" : ["weapon","ranged","pistol"],
   "tooltipKind" : "gun",
   "fireTime" : 0.55,
@@ -21,7 +21,7 @@
   "learnBlueprintsOnPickup" : [ "blistergun" ],
 
   "projectileType" : "blisterpistolshot",
-  "projectile" : { "speed" : 52, "power" : 3.45 , "color" : [255, 0, 235] },
+  "projectile" : { "speed" : 52, "power" : 1.05 , "color" : [255, 0, 235] },
   "muzzleEffect" : {
        "fireSound" : [ { "file" : "/sfx/projectiles/goo_spit2.ogg" } ],
        "animation" :  "/animations/muzzleflash/plasmamuzzle3pink/plasmamuzzle3pink.animation"

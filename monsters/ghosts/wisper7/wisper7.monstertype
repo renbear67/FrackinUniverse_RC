@@ -163,7 +163,6 @@
         "nitrogenfreezeImmunity" : {
           "baseValue" : 1.0
         }
-
       },
 
       "resources" : {
