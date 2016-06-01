@@ -3,7 +3,7 @@
  "properties":
     {},
  "spacing":0,
- "tilecount":72,
+ "tilecount":78,
  "tileheight":279,
   "tileproperties" : {
       "0" : {
@@ -243,7 +243,25 @@
           "object" : "fukluexstatue6",
           "imagePositionX" : "-51",
           "imagePositionY" : "0"          
-      }
+      },
+      "72" : {
+          "object" : "catacombs1"         
+      },
+      "73" : {
+          "object" : "catacombs2"         
+      },
+      "74" : {
+          "object" : "catacombs3"         
+      },
+      "75" : {
+          "object" : "catacombs4"        
+      },
+      "76" : {
+          "object" : "catacombs5"       
+      },
+      "77" : {
+          "object" : "catacombs6"        
+      }  
     },
       
  "tiles":
@@ -535,7 +553,31 @@
      "71":
         {
          "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/fukluexstatue6.png"
-        }
+        },
+     "72":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/catacombs1.png"
+        },
+     "73":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/catacombs2.png"
+        },
+     "74":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/catacombs3.png"
+        },
+     "75":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/catacombs4.png"
+        },
+     "76":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/catacombs5.png"
+        },
+     "77":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/catacombs6.png"
+        }  
     },
  "tilewidth":285
 }

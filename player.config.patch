@@ -128,6 +128,7 @@
     { "op": "add", "path": "/normalModeDeathDrops/-", "value": "mascagniteore" },
     { "op": "add", "path": "/normalModeDeathDrops/-", "value": "methanol" },
     { "op": "add", "path": "/normalModeDeathDrops/-", "value": "prisiliteore" },
+    { "op": "add", "path": "/normalModeDeathDrops/-", "value": "prismshard" },
     { "op": "add", "path": "/normalModeDeathDrops/-", "value": "moonstoneore" },
     { "op": "add", "path": "/normalModeDeathDrops/-", "value": "moonstonebar" },
     { "op": "add", "path": "/normalModeDeathDrops/-", "value": "protociteore" },
