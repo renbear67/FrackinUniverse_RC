@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "imperviumcompound", "count" : 7 },
+    { "item" : "xithricitecrystal", "count" : 7 },
     { "item" : "wretchel", "count" : 2 },
     { "item" : "phasematter", "count" : 7 },
     { "item" : "graphene", "count" : 4 }

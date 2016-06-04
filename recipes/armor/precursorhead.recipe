@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "refinedrubium", "count" : 5 },
-    { "item" : "blooddiamond", "count" : 5 },
+    { "item" : "xithricitecrystal", "count" : 3 },
     { "item" : "aichip", "count" : 1 }
   ],
   "output" : {
