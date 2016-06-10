@@ -20,5 +20,6 @@
 
   "lightColor" : [120, 0, 130],
   "damageType" : "NoDamage",
-  "damageKind" : "default"
+  "damageKind" : "default",
+  "statusEffects" : [ "biooozepoison" ]
 }

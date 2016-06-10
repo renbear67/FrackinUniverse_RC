@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "tritaniumbar", "count" : 4 },
-    { "item" : "unstableparticles", "count" : 14 },
+    { "item" : "unstableparticles", "count" : 8 },
     { "item" : "nuclearcore", "count" : 2 }
   ],
   "output" : {

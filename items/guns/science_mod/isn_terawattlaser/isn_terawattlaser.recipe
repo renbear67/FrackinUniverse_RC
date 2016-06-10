@@ -2,6 +2,7 @@
   "input" : [
     { "item" : "eridianbar", "count" : 5 },
     { "item" : "ff_focusingarray", "count" : 1 },
+    { "item" : "unstableparticles", "count" : 2 },
     { "item" : "diamond", "count" : 4 }
   ],
   "output" : {

@@ -1,11 +1,10 @@
 {
   "input" : [
-    { "item" : "dnasample", "count" : 4 },
-    { "item" : "algaegreen", "count" : 4 },
-    { "item" : "neptuniumrod", "count" : 2 }
+    { "item" : "dnasample", "count" : 1 },
+    { "item" : "algaegreen", "count" : 2 }
   ],
   "output" : {
-    "item" : "garpberryseed",
+    "item" : "algaeseed",
     "count" : 3
   },
   "groups" : [ "designlab", "flower", "all", "tools" ]

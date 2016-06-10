@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "durasteelbar", "count" : 5 },
     { "item" : "protocitebar", "count" : 2 },
-    { "item" : "unstableparticles", "count" : 2 }
+    { "item" : "unstableparticles", "count" : 3 }
   ],
   "output" : {
     "item" : "isn_plasmapistol",
