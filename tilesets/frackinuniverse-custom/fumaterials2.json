@@ -3,7 +3,7 @@
  "properties":
     {},
  "spacing":0,
- "tilecount":90,
+ "tilecount":95,
  "tileheight":8,
   "tileproperties" : {
       "0" : {
@@ -275,6 +275,21 @@
       },
       "89" : {
           "material" : "elderroof"
+      }, 
+      "90" : {
+          "material" : "fumonasteryroofing"
+      },
+      "91" : {
+          "material" : "fumonasterytile"
+      },
+      "92" : {
+          "material" : "fumonasterywall"
+      },
+      "93" : {
+          "material" : "fumonasterybeam"
+      },
+      "94" : {
+          "material" : "fumonasteryflooring"
       } 
     },
       
@@ -639,7 +654,27 @@
       "89":
         {
          "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/elderroof.png"
-        } 
+        },
+      "90":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/fumonasteryroofing.png"
+        },         
+      "91":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/fumonasterytile.png"
+        },         
+      "92":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/fumonasterywall.png"
+        },         
+      "93":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/fumonasterybeam.png"
+        },
+      "94":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/fumonasteryflooring.png"
+        }         
     },
  "tilewidth":8
 }

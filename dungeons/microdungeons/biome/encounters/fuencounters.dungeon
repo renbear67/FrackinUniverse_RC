@@ -5,7 +5,7 @@
     "rules" : [
     ],
 
-    "anchor" : [ "encounter1", "encounter2", "goldenleaf1", "hugeloot1", "radioactive1", "radioactive2" ],
+    "anchor" : [ "deathcamp1", "encounter1", "encounter2", "encounter3", "encounter4", "encounter5", "encounter6", "encounter7", "goldenleaf1", "hugeloot1", "radioactive1", "radioactive2" ],
 
     "gravity" : 90,
     "maxRadius" : 1000000,
@@ -14,6 +14,13 @@
   },
 
   "parts" : [
+    {
+      "name" : "deathcamp1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "deathcamp1.json" ]
+    },  
     {
       "name" : "encounter1",
       "rules" : [
@@ -27,6 +34,41 @@
         [ "maxSpawnCount", [1] ]
       ],
       "def" : [ "tmx", "encounter2.json" ]
+    },
+    {
+      "name" : "encounter3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "encounter3.json" ]
+    },
+    {
+      "name" : "encounter4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "encounter4.json" ]
+    }, 
+    {
+      "name" : "encounter5",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "encounter5.json" ]
+    },   
+    {
+      "name" : "encounter6",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "encounter6.json" ]
+    },  
+    {
+      "name" : "encounter7",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "encounter7.json" ]
     },
     {
       "name" : "goldenleaf1",
