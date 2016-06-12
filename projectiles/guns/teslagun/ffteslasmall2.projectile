@@ -22,7 +22,6 @@
       "options" : [ "/sfx/gun/lightningcoil1.ogg" ]
     }
   ],
-  "lightColor" : [28, 181, 238],
   "pointLight" : true
 }
 
