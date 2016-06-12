@@ -13,7 +13,7 @@
   "damagePoly" : [ [-29, 0], [-29, -32], [0, -32], [29, -32], [29, 0], [29, 32], [0, 32], [-29, 32] ],
   "damageKind" : "electricplasma",
   "physics" : "laser",
-  "emitters" : [ "defaultblue" ],
+  "emitters" : [ "peglacitrail", "lightningthrowertrail" ],
   "actionOnReap" : [
     {
       "action" : "config",

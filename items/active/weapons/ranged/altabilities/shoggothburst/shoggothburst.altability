@@ -19,12 +19,15 @@
   },
 
   "altAbility" : {
-    "name" : "Toxic Burst",
+    "name" : "Biomorphic Fire",
     "type" : "shoggothburst",
     "scripts" : ["/items/active/weapons/ranged/altabilities/rocketburst/rocketburst.lua"],
 
     "projectileType" : "corrosiveparticle",
-    "projectileParameters" : {},
+    "projectileParameters" : {
+      "speed" : 50,
+      "knockback" : 22    
+    },
     "baseDps" : 8,
     "energyUsage" : 30,
     "fireTime" : 0.35,
