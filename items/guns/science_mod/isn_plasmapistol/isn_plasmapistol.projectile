@@ -18,6 +18,10 @@
       "fuzzAngle" : 0,
       "inheritDamageFactor" : 1,
       "angleAdjust" : 0
+    },
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmaboomsmall2/plasmaboomsmall2.config"
     }
   ],
   "lightColor" : [35, 0, 70],

@@ -31,7 +31,7 @@
   },
 
   "altAbility" : {
-    "name" : "Raw Chaos",
+    "name" : "Omega Burst",
     "type" : "grenadelauncher",
     "scripts" : ["/items/active/weapons/ranged/altabilities/altfire.lua"],
     

@@ -1,6 +1,6 @@
 {
   "projectileName" : "fuicecloudburst2",
-  "frames" : "fuicecloud.png",
+  "frames" : "fuicecloudburst.png",
   "physics" : "gas",
   "animationCycle" : 1,
   "speed" : 10,
