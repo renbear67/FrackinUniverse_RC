@@ -34,17 +34,17 @@
 
   "primaryAttack" : {
     "fireTime" : 0.22,
-    "baseDps" : 5.8,
+    "baseDps" : 9.8,
     "energyUsage" : 18.0,
     "inaccuracy" : 0.1,
 
     "projectileCount" : 1,
     "fireType" : "auto",
 
-    "projectileType" : "lunarangshard",
+    "projectileType" : "vashtashard",
     "projectileParameters" : { 
       "speed" : 50,
-      "knockback" : 20
+      "knockback" : 8
     }
   },
     "particleEmitters" : {

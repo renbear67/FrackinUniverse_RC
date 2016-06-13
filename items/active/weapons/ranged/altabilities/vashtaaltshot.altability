@@ -23,16 +23,18 @@
   },
 
   "altAbility" : {
-    "name" : "Thorn Claw",
+    "name" : "Thorn Spiral",
     "type" : "piercingshot",
     "scripts" : ["/items/active/weapons/ranged/altabilities/altfire.lua"],
 
     "projectileType" : "vashtagunshot",
     "projectileParameters" : {
-      "piercing" : true
+      "piercing" : true,
+      "speed" : 67,
+      "knockback" : 24
     },
-    "fireTime" : 1.0,
-    "baseDps" : 5.5,
+    "fireTime" : 2.0,
+    "baseDps" : 3.5,
     // use baseDps and fireTime from primary fire
 
     "energyUsage" : 50.0,
