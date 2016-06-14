@@ -17,11 +17,11 @@
     "butt" : "",
     "middle" : "vashtagun.png",
     "barrel" : "",
-    "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
+    "muzzleFlash" : "/items/active/weapons/ranged/blankmuzzle.png"
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : [ "/sfx/weapons/vashtagun.ogg" ]
+      "fire" : [ "/sfx/weapons/energyassault.ogg" ]
     }
   },
 
@@ -33,7 +33,7 @@
   "elementalType" : "poison",
 
   "primaryAttack" : {
-    "fireTime" : 0.22,
+    "fireTime" : 0.12,
     "baseDps" : 9.8,
     "energyUsage" : 18.0,
     "inaccuracy" : 0.1,

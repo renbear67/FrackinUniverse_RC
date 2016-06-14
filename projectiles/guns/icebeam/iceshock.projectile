@@ -10,5 +10,6 @@
   "piercing" : true,
   "universalDamage" : false,
   "damageKind" : "ice",
-  "lightColor" : [0, 0, 123]
+  "lightColor" : [0, 0, 123],
+  "statusEffects" : [ "freezefu" ]
 }

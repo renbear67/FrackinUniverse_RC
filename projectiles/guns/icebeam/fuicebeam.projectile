@@ -19,5 +19,6 @@
     }
   ],
   "lightColor" : [0, 0, 123],
-  "damageKind" : "ice"
+  "damageKind" : "ice",
+  "statusEffects" : [ "slow" ]
 }

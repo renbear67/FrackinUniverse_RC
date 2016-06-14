@@ -18,12 +18,12 @@
   "piercing" : true,
   "timeToLive" : 6,
   "emitters" : [ "spectralsparkle" ],
-  "persistentAudio" : "/sfx/melee/spear_twirl_loop.ogg",
+  "persistentAudio" : "/sfx/weapons/branchswoosh.ogg",
 
   "scripts" : [ "boomerangprojectile.lua" ],
 
   "ignoreTerrain" : false,
-  "controlForce" : 40,
-  "pickupDistance" : 2.0,
-  "snapDistance" : 2.5
+  "controlForce" : 35,
+  "pickupDistance" : 1.5,
+  "snapDistance" : 3.5
 }
