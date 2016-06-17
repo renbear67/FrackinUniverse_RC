@@ -547,11 +547,11 @@
         }, 
         {
          "firstgid":7900,
-         "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/giraffe_storage\/mods\/FrackinUniverse\/tilesets\/frackinuniverse-custom\/elder_materials.json"
+         "source":"..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/elder_materials.json"
         }, 
         {
          "firstgid":7914,
-         "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/giraffe_storage\/mods\/FrackinUniverse\/tilesets\/frackinuniverse-custom\/elder_objects.json"
+         "source":"..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/elder_objects.json"
         }],
  "tilewidth":8,
  "version":1,

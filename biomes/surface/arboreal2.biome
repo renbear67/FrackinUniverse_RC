@@ -612,7 +612,7 @@
           "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "fubandits", "fushops", "fulabs", "fuencounters", "forestmicrodungeons", "gardenmicrodungeons", "arborealmini" ]
+          "microdungeons" : [ "fuencounters", "forestmicrodungeons", "gardenmicrodungeons", "junglemicrodungeons", "arborealmini" ]
         },
         {
           "mode" : "floor",
@@ -621,7 +621,7 @@
           "distribution" : "/biomes/distributions.config:randomEncounter",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "newhumanmicro", "newavianmicro", "minigreenruins", "fuencountercultist", "fuhives", "furandomencounter", "fuapexencounter", "fuglitchencounter", "fuavianencounter", "fuhumanencounter" ]
+          "microdungeons" : [ "fushops", "fulabs", "fubandits", "newhumanmicro", "newavianmicro", "minigreenruins", "fuhives", "furandomencounter", "fuapexencounter", "fuglitchencounter", "fuavianencounter", "fuhumanencounter" ]
         },
         {
           "mode" : "floor",

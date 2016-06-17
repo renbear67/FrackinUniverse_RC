@@ -170,10 +170,10 @@
           "mode" : "floor",
           "priority" : 3.0,
           "variants" : 1,
-          "distribution" : "/biomes/distributions.config:randomEncounter",
+          "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "darkmicrodungeons" ]
+          "microdungeons" : [ "darkmicrodungeons", "hivemicrodungeons" ]
         },        
         {
           "mode" : "floor",
@@ -182,7 +182,7 @@
           "distribution" : "/biomes/distributions.config:randomEncounter",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "randomencounter", "treasureroom", "avianencounter", "glitchencounter", "shroomencounter" ]
+          "microdungeons" : [ "alienmicrodungeons", "furedhives", "fuelders", "fuencountercultist", "randomencounter", "shroomencounter", "tarpitsmicrodungeons" ]
         },       
         {
           "mode" : "floor",

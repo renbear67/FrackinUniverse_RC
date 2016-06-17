@@ -5,7 +5,7 @@
     "rules" : [
     ],
 
-    "anchor" : [ "deathcamp1", "goldenleaf1", "hugeloot1", "radioactive1", "radioactive2", "encounter1","encounter2","encounter3","encounter4","encounter5","encounter6","encounter7","encounter8","encounter9","encounter10" ],
+    "anchor" : [ "encounter-junkpile1","encounter-junkpile2","encounter-deathcamp1", "encounter-deathcamp2", "encounter-deathcamp3", "encounter-goldenleaf1", "encounter-house1", "encounter-house2", "encounter-house3", "encounter-house4", "encounter-house5", "encounter-house6", "encounter-hugeloot1", "encounter-radioactive1", "encounter-radioactive2", "encounter-radioactive3" ],
 
     "gravity" : 90,
     "maxRadius" : 1000000,
@@ -15,109 +15,116 @@
 
   "parts" : [
     {
-      "name" : "deathcamp1",
+      "name" : "encounter-junkpile1",
       "rules" : [
         [ "maxSpawnCount", [1] ]
       ],
-      "def" : [ "tmx", "deathcamp1.json" ]
+      "def" : [ "tmx", "encounter-junkpile1.json" ]
+    }, 
+    {
+      "name" : "encounter-junkpile2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "encounter-junkpile2.json" ]
     },  
     {
-      "name" : "encounter1",
+      "name" : "encounter-deathcamp1",
       "rules" : [
         [ "maxSpawnCount", [1] ]
       ],
-      "def" : [ "tmx", "encounter1.json" ]
+      "def" : [ "tmx", "encounter-deathcamp1.json" ]
     },
     {
-      "name" : "encounter2",
+      "name" : "encounter-deathcamp2",
       "rules" : [
         [ "maxSpawnCount", [1] ]
       ],
-      "def" : [ "tmx", "encounter2.json" ]
+      "def" : [ "tmx", "encounter-deathcamp2.json" ]
+    },    
+    {
+      "name" : "encounter-deathcamp3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "encounter-deathcamp3.json" ]
+    },    
+    {
+      "name" : "encounter-goldenleaf1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "encounter-goldenleaf1.json" ]
+    },    
+    {
+      "name" : "encounter-house1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "encounter-house1.json" ]
+    },       
+    {
+      "name" : "encounter-house2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "encounter-house2.json" ]
+    },      
+    {
+      "name" : "encounter-house3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "encounter-house3.json" ]
     },
     {
-      "name" : "encounter3",
+      "name" : "encounter-house4",
       "rules" : [
         [ "maxSpawnCount", [1] ]
       ],
-      "def" : [ "tmx", "encounter3.json" ]
-    },
-    {
-      "name" : "encounter4",
-      "rules" : [
-        [ "maxSpawnCount", [1] ]
-      ],
-      "def" : [ "tmx", "encounter4.json" ]
+      "def" : [ "tmx", "encounter-house4.json" ]
     }, 
     {
-      "name" : "encounter5",
+      "name" : "encounter-house5",
       "rules" : [
         [ "maxSpawnCount", [1] ]
       ],
-      "def" : [ "tmx", "encounter5.json" ]
-    },   
-    {
-      "name" : "encounter6",
-      "rules" : [
-        [ "maxSpawnCount", [1] ]
-      ],
-      "def" : [ "tmx", "encounter6.json" ]
+      "def" : [ "tmx", "encounter-house5.json" ]
     }, 
     {
-      "name" : "encounter7",
+      "name" : "encounter-house6",
       "rules" : [
         [ "maxSpawnCount", [1] ]
       ],
-      "def" : [ "tmx", "encounter7.json" ]
-    }, 
-    {
-      "name" : "encounter8",
-      "rules" : [
-        [ "maxSpawnCount", [1] ]
-      ],
-      "def" : [ "tmx", "encounter8.json" ]
-    },   
-    {
-      "name" : "encounter9",
-      "rules" : [
-        [ "maxSpawnCount", [1] ]
-      ],
-      "def" : [ "tmx", "encounter9.json" ]
+      "def" : [ "tmx", "encounter-house6.json" ]
     },     
     {
-      "name" : "encounter10",
+      "name" : "encounter-hugeloot1",
       "rules" : [
         [ "maxSpawnCount", [1] ]
       ],
-      "def" : [ "tmx", "encounter10.json" ]
-    }, 
+      "def" : [ "tmx", "encounter-hugeloot1.json" ]
+    },  
     {
-      "name" : "goldenleaf1",
+      "name" : "encounter-radioactive1",
       "rules" : [
         [ "maxSpawnCount", [1] ]
       ],
-      "def" : [ "tmx", "goldenleaf1.json" ]
-    }, 
+      "def" : [ "tmx", "encounter-radioactive1.json" ]
+    },  
     {
-      "name" : "hugeloot1",
+      "name" : "encounter-radioactive2",
       "rules" : [
         [ "maxSpawnCount", [1] ]
       ],
-      "def" : [ "tmx", "hugeloot1.json" ]
+      "def" : [ "tmx", "encounter-radioactive2.json" ]
     },
     {
-      "name" : "radioactive1",
+      "name" : "encounter-radioactive3",
       "rules" : [
         [ "maxSpawnCount", [1] ]
       ],
-      "def" : [ "tmx", "radioactive1.json" ]
-    },
-    {
-      "name" : "radioactive2",
-      "rules" : [
-        [ "maxSpawnCount", [1] ]
-      ],
-      "def" : [ "tmx", "radioactive2.json" ]
+      "def" : [ "tmx", "encounter-radioactive3.json" ]
     }
   ]
 }

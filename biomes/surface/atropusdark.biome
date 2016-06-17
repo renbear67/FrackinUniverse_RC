@@ -468,7 +468,7 @@
           "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "fleshmicrodungeons", "furedhives", "atropusmini" ]
+          "microdungeons" : [ "fleshmicrodungeons", "atropusmini", "darkmicrodungeons", "eyepatchmicrodungeons" ]
         },
         {
           "mode" : "floor",
@@ -477,7 +477,7 @@
           "distribution" : "/biomes/distributions.config:randomEncounter",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "fuelders", "fuencountercultist", "fuapexencounter", "furandomencounter" ]
+          "microdungeons" : [ "furedhives", "fuelders", "fuencountercultist", "fuapexencounter", "furandomencounter" ]
         },      
         {
           "mode" : "floor",

@@ -934,7 +934,7 @@
           "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "fleshmicrodungeons", "furedhives", "atropusmini" ]
+          "microdungeons" : [ "fleshmicrodungeons", "furedhives", "atropusmini", "eyepatchmicrodungeons" ]
         },
         {
           "mode" : "floor",

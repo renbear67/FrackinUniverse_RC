@@ -166,17 +166,9 @@
         "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
 
         "type" : "microdungeon",
-        "microdungeons" : [ "alpinemicrodungeons", "fuhives", "furainforest", "fuencounters", "minigreenruins", "oceanislandsmicrodungeons" ]
+        "microdungeons" : [ "oceanislandsmicrodungeons" ]
       },
-        {
-          "mode" : "floor",
-          "priority" : 3.0,
-          "variants" : 1,
-          "distribution" : "/biomes/distributions.config:randomEncounter",
 
-          "type" : "microdungeon",
-          "microdungeons" : [ "newhumanmicro", "newavianmicro", "fuhives", "fushops" ] 
-        },
       {
         "mode" : "floor",
         "priority" : 2.0,

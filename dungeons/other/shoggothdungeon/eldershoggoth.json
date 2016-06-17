@@ -17213,15 +17213,15 @@
         }, 
         {
          "firstgid":3696,
-         "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/giraffe_storage\/mods\/FrackinUniverse\/tilesets\/frackinuniverse-custom\/elder_materials.json"
+         "source":"..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/elder_materials.json"
         }, 
         {
          "firstgid":3711,
-         "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/giraffe_storage\/mods\/FrackinUniverse\/tilesets\/frackinuniverse-custom\/elder_objects.json"
+         "source":"..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/elder_objects.json"
         }, 
         {
          "firstgid":3789,
-         "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/giraffe_storage\/mods\/FrackinUniverse\/tilesets\/frackinuniverse-custom\/elder_fluids.json"
+         "source":"..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/elder_fluids.json"
         }, 
         {
          "firstgid":3795,
@@ -17229,19 +17229,19 @@
         }, 
         {
          "firstgid":4132,
-         "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/giraffe_storage\/mods\/FrackinUniverse\/tilesets\/frackinuniverse-custom\/elder_objects.json"
+         "source":"..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/elder_objects.json"
         }, 
         {
          "firstgid":4210,
-         "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/giraffe_storage\/mods\/FrackinUniverse\/tilesets\/frackinuniverse-custom\/fu_quests.json"
+         "source":"..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/fu_quests.json"
         }, 
         {
          "firstgid":4212,
-         "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/giraffe_storage\/mods\/FrackinUniverse\/tilesets\/frackinuniverse-custom\/fu_elderswitches.json"
+         "source":"..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/fu_elderswitches.json"
         }, 
         {
          "firstgid":4214,
-         "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/giraffe_storage\/mods\/FrackinUniverse\/tilesets\/frackinuniverse-custom\/elder_deco2.json"
+         "source":"..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/elder_deco2.json"
         }, 
         {
          "firstgid":4231,
@@ -17253,15 +17253,15 @@
         }, 
         {
          "firstgid":4828,
-         "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/giraffe_storage\/mods\/FrackinUniverse\/tilesets\/frackinuniverse-custom\/fu_liquids.json"
+         "source":"..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/fu_liquids.json"
         }, 
         {
          "firstgid":4849,
-         "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/giraffe_storage\/mods\/FrackinUniverse\/tilesets\/frackinuniverse-custom\/fu_elderceiling.json"
+         "source":"..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/fu_elderceiling.json"
         }, 
         {
          "firstgid":4853,
-         "source":"F:\/Games\/SteamLibrary\/SteamApps\/common\/Starbound\/giraffe_storage\/mods\/FrackinUniverse\/tilesets\/frackinuniverse-custom\/cthulurewardstatue.json"
+         "source":"..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/cthulurewardstatue.json"
         }],
  "tilewidth":8,
  "version":1,

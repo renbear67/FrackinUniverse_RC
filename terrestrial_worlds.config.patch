@@ -1298,7 +1298,7 @@
           "primaryRegion" : [ "lightless" ],
           "secondaryRegion" : [ "midnight", "goreforest", "corruptedforest", "alienforest", "sulphuricmagma", "cellfield", "reddesert", "hauntedforest", "hauntedgraveyard", "swamp", "bloodgulch", "hellhive", "elder", "protoworld", "irradiated", "hellhive" ],
           //"dungeonCountRange" : [0, 2],
-          "dungeons" : [ "elderruins", "crystalcavern", "fuwreck", "wreck", "glitchsewer", "glitchvillage", "avianairship", "humanprison" ]
+          "dungeons" : [ "elderruins", "crystalcavern", "fuwreck", "wreck", "glitchsewer" ]
         },
         "subsurface" : {
           "primaryRegion" : [ "lightlessunderground" ]
