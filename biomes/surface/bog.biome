@@ -422,7 +422,7 @@
           "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "bogmini", "swampmicrodungeons" ]
+          "microdungeons" : [ "fubandits", "fushops", "fulabs", "fuencounters", "bogmini", "swampmicrodungeons" ]
         },
         {
           "mode" : "floor",
@@ -431,7 +431,7 @@
           "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "fubandits", "fushops", "fulabs", "fuencounters", "terrainfeatures", "rockclimb","rocktunnel",  "toxicmicrodungeons", "sandstone", "blockpile", "loops", "flats", "reversepyramids" ]
+          "microdungeons" : [ "terrainfeatures", "rockclimb","rocktunnel",  "toxicmicrodungeons", "sandstone", "blockpile", "loops", "flats", "reversepyramids" ]
         },
         {
           "mode" : "floor",

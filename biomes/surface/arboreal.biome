@@ -610,10 +610,10 @@
           "mode" : "floor",
           "priority" : 1.0,
           "variants" : 1,
-          "distribution" : "/biomes/distributions.config:superCommon",
+          "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "fubandits", "fuencounters", "forestmicrodungeons", "gardenmicrodungeons", "arborealmini" ]
+          "microdungeons" : [ "fubandits", "fushops", "fulabs", "fuencounters", "forestmicrodungeons", "gardenmicrodungeons", "arborealmini" ]
         },
         {
           "mode" : "floor",

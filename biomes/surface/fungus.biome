@@ -356,7 +356,7 @@
           "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "shroommicrodungeons", "forestmicrodungeons" ]
+          "microdungeons" : [ "fubandits", "fushops", "fulabs", "fuencounters", "shroommicrodungeons", "forestmicrodungeons" ]
         },        
         {
           "mode" : "floor",
@@ -365,7 +365,7 @@
           "distribution" : "/biomes/distributions.config:randomEncounter",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "fuencounters", "newhumanmicro", "newavianmicro", "minigreenruins", "furandomencounter", "fuglitchencounter", "fuavianencounter" ]
+          "microdungeons" : [ "newhumanmicro", "newavianmicro", "minigreenruins", "furandomencounter", "fuglitchencounter", "fuavianencounter" ]
         },
         {
           "mode" : "floor",

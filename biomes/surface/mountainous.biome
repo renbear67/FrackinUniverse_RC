@@ -257,6 +257,15 @@
         },
         {
           "mode" : "floor",
+          "priority" : 3.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
+
+          "type" : "microdungeon",
+          "microdungeons" : [ "fubandits", "fushops", "fulabs", "fuencounters", "alpinemicrodungeons", "fuhives" ]
+        }, 
+        {
+          "mode" : "floor",
           "priority" : 0.5,
           "variants" : 1,
           "distribution" : "/biomes/distributions.config:randomEncounter",
