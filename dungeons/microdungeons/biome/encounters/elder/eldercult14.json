@@ -570,107 +570,107 @@
  "tilesets":[
         {
          "firstgid":1,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/materials.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/materials.json"
         }, 
         {
          "firstgid":191,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/miscellaneous.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/miscellaneous.json"
         }, 
         {
          "firstgid":210,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/liquids.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/liquids.json"
         }, 
         {
          "firstgid":238,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/supports.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/supports.json"
         }, 
         {
          "firstgid":274,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/objects-by-race\/generic.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/objects-by-race\/generic.json"
         }, 
         {
          "firstgid":1969,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/objects-by-category\/crafting.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/objects-by-category\/crafting.json"
         }, 
         {
          "firstgid":2044,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/objects-by-category\/decorative.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/objects-by-category\/decorative.json"
         }, 
         {
          "firstgid":3320,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/objects-by-category\/door.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/objects-by-category\/door.json"
         }, 
         {
          "firstgid":3428,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/objects-by-category\/farmable.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/objects-by-category\/farmable.json"
         }, 
         {
          "firstgid":3503,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/objects-by-category\/furniture.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/objects-by-category\/furniture.json"
         }, 
         {
          "firstgid":3828,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/objects-by-category\/light.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/objects-by-category\/light.json"
         }, 
         {
          "firstgid":4234,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/objects-by-category\/other.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/objects-by-category\/other.json"
         }, 
         {
          "firstgid":4505,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/objects-by-category\/pot.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/objects-by-category\/pot.json"
         }, 
         {
          "firstgid":4802,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/objects-by-category\/sapling.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/objects-by-category\/sapling.json"
         }, 
         {
          "firstgid":4803,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/objects-by-category\/spawner.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/objects-by-category\/spawner.json"
         }, 
         {
          "firstgid":4818,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/objects-by-category\/storage.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/objects-by-category\/storage.json"
         }, 
         {
          "firstgid":5033,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/objects-by-category\/teleporter.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/objects-by-category\/teleporter.json"
         }, 
         {
          "firstgid":5063,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/objects-by-category\/tools.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/objects-by-category\/tools.json"
         }, 
         {
          "firstgid":5068,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/objects-by-category\/trap.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/objects-by-category\/trap.json"
         }, 
         {
          "firstgid":5270,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/objects-by-category\/wire.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/objects-by-category\/wire.json"
         }, 
         {
          "firstgid":5455,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/objects-by-type\/container.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/objects-by-type\/container.json"
         }, 
         {
          "firstgid":5721,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/objects-by-type\/farmable.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/objects-by-type\/farmable.json"
         }, 
         {
          "firstgid":5797,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/objects-by-type\/loungeable.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/objects-by-type\/loungeable.json"
         }, 
         {
          "firstgid":6043,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/objects-by-type\/noisy.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/objects-by-type\/noisy.json"
         }, 
         {
          "firstgid":6084,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/objects-by-type\/teleporter.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/objects-by-type\/teleporter.json"
         }, 
         {
          "firstgid":6108,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/huge-objects.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/huge-objects.json"
         }, 
         {
          "firstgid":6183,

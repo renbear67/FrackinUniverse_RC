@@ -3,7 +3,7 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJzt1dENwjAMBNCO0ZXYik\/Gyh9rQSUqVSJp7WD7nHCW7qOoSu8ppSnLci8MwzAMwzAMw5hmST4lkfGx+tzbmuLolPTb7tHE4pnbFIc9zezdphi\/v1qLVTRDb\/+3Sdvz9knr2sNbM9M7r7fXus1tlUXqla7XMxbex\/q9P2fXEq9kLbQ3Mkjv\/nzNHrf+t9LryPf5+KzofW39h6X+Xu++fs931SrHDhHebPHyZjRLh16duXW+np27V9GuqRmkV\/L7LN7at3ZW79n5Qi+99Oq9PebRvEcrvfN7teaRvDVrjzdDfvFKzWijxnxmlZjRNo1ZYr1yo10Sr9ZZy\/O9TuZYGEexWrrR\/SPN6N70+llHMu89f7WOYrd2ZjZ7WrO5o6xoc7QzwlxbH+n08qP7R5rRvaPd6L7RZnRXen3N6J70+npncf\/b2UTvvFaNF90z0ovuyL2l18KL7kevnxfdLdqM7hXpRXeK9KL70OvnRXf5t7wACm9T9Q==",
+         "data":"eJzt1dENwjAMBNDuAFuwJEP1j5UYAioUqUJJawfb54SzdB9FVXpPKem6LPeVYRiGYRiGYRjTLMknk\/F29bm3NZ5OSb\/tHk0snrmNx55m9m5j\/f5qLVbRDL39Z5O25\/PySevaw1sz0zuvt9e6Tel7FqlXul7PWHhLx+89bF1LvJK10N7IIL3l+Zo9bv1vpdeR7\/P+WdH72voPS\/293rJ+z7lqlX2HCG+2eHkzmqVDr87c+r4efXfPol1TM0iv5PdZvLWzdlbv0feFXnrp1Xt7zKN591Z65\/dqzSN5a9Yeb4b84pWa0UaN+cgqMaNtGrPEeuZGuyRerbOWx3udzLEwjmK1dKP7R5rRven1s45kLj0tz6zMdmtnZrOnNZs7yoo2RzsjzLX1kU4vP7p\/pBndO9qN7httRnel19eM7kmvr3cW9799m+id16rxontGetEdubf0WnjR\/ej186K7RZvRvSK96E6RXnQfev286C7\/lhfatlch",
          "encoding":"base64",
          "height":80,
          "name":"back",
@@ -16,7 +16,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt12EKgzAMhmGP4ZV2s91s1xphCKXIpi5pYr\/3gf6Tpq+K4LIAAAAAQJ7nGnNthiPns2vOLI+ZURR7PRqi9vOWMZveuWfTO\/dseueePWrmY\/2sjNnfZu6dy0vV3ij9vczujXy27f7VFr0AAAAAEC\/7X2jkv1F228jmfsZrOb48mn7t6+FMU4Wl1PpPc\/aZ6aWZ3uutd+z2lt0zqrOX3Teqs6XS2VPpbKl0ttR6jVKrUWo19NI7SzPf5nmbI1ur9Ua30ptLrdd4t1Vu3Xg+x+qte+7+zp6l1GqUWlv0zttqlFqNUutGqbWaN0qQD7g=",
+         "data":"eJzt11EKgzAQRVH30O6i+\/\/qlrqIMhQhBGnVzmTGvHsgf5LJVRFcFgAAAADI87jHXJthz\/nsmiPLY2YUxV6Phqj9vGXMpnfu2fTOPZveuWePmvm6fVbG7G8zt87lpWpvlP5eZvdGPtt2\/2qLXgAAAACIl\/0vNPLfKLttZHM\/47nsXx5Nv\/b1cKSpwlJq\/ac5+8z00kzv+dYrdnvL7hnV2cvuG9XZUunsqXS2VDpbar1GqdUotRp66Z2lmW\/zvM2RrdV6o1vpzaXWa7zbKreuPJ9j9dYtV39nj1JqNUqtLXrnbTVKrUapdaXUWs0bGb4+Wg==",
          "encoding":"base64",
          "height":80,
          "name":"front",
@@ -47,7 +47,7 @@
          "name":"objects",
          "objects":[
                 {
-                 "gid":2147489942,
+                 "gid":2147488833,
                  "height":16,
                  "id":779,
                  "name":"",
@@ -63,7 +63,7 @@
                  "y":216
                 }, 
                 {
-                 "gid":6294,
+                 "gid":5185,
                  "height":16,
                  "id":781,
                  "name":"",
@@ -77,10 +77,74 @@
                  "width":16,
                  "x":328,
                  "y":216
+                }, 
+                {
+                 "gid":1562,
+                 "height":40,
+                 "id":788,
+                 "name":"",
+                 "properties":
+                    {
+
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":32,
+                 "x":112,
+                 "y":336
+                }, 
+                {
+                 "gid":2147485210,
+                 "height":40,
+                 "id":789,
+                 "name":"",
+                 "properties":
+                    {
+
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":32,
+                 "x":352,
+                 "y":336
+                }, 
+                {
+                 "gid":1628,
+                 "height":24,
+                 "id":795,
+                 "name":"",
+                 "properties":
+                    {
+
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":24,
+                 "x":200,
+                 "y":312
+                }, 
+                {
+                 "gid":1628,
+                 "height":24,
+                 "id":796,
+                 "name":"",
+                 "properties":
+                    {
+
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":24,
+                 "x":272,
+                 "y":312
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "width":0,
          "x":0,
          "y":0
@@ -206,7 +270,7 @@
          "name":"anchors etc",
          "objects":[
                 {
-                 "gid":196,
+                 "gid":184,
                  "height":8,
                  "id":713,
                  "name":"",
@@ -222,7 +286,7 @@
                  "y":400
                 }, 
                 {
-                 "gid":196,
+                 "gid":184,
                  "height":8,
                  "id":714,
                  "name":"",
@@ -238,7 +302,7 @@
                  "y":400
                 }, 
                 {
-                 "gid":207,
+                 "gid":195,
                  "height":8,
                  "id":719,
                  "name":"",
@@ -254,7 +318,7 @@
                  "y":104
                 }, 
                 {
-                 "gid":207,
+                 "gid":195,
                  "height":8,
                  "id":720,
                  "name":"",
@@ -270,7 +334,7 @@
                  "y":104
                 }, 
                 {
-                 "gid":207,
+                 "gid":195,
                  "height":8,
                  "id":721,
                  "name":"",
@@ -286,7 +350,7 @@
                  "y":104
                 }, 
                 {
-                 "gid":207,
+                 "gid":195,
                  "height":8,
                  "id":722,
                  "name":"",
@@ -302,7 +366,7 @@
                  "y":240
                 }, 
                 {
-                 "gid":207,
+                 "gid":195,
                  "height":8,
                  "id":723,
                  "name":"",
@@ -318,7 +382,7 @@
                  "y":240
                 }, 
                 {
-                 "gid":207,
+                 "gid":195,
                  "height":8,
                  "id":724,
                  "name":"",
@@ -334,7 +398,7 @@
                  "y":360
                 }, 
                 {
-                 "gid":207,
+                 "gid":195,
                  "height":8,
                  "id":725,
                  "name":"",
@@ -350,7 +414,7 @@
                  "y":360
                 }, 
                 {
-                 "gid":195,
+                 "gid":183,
                  "height":8,
                  "id":726,
                  "name":"",
@@ -366,7 +430,7 @@
                  "y":360
                 }, 
                 {
-                 "gid":195,
+                 "gid":183,
                  "height":8,
                  "id":727,
                  "name":"",
@@ -382,7 +446,7 @@
                  "y":240
                 }, 
                 {
-                 "gid":195,
+                 "gid":183,
                  "height":8,
                  "id":728,
                  "name":"",
@@ -398,7 +462,7 @@
                  "y":104
                 }, 
                 {
-                 "gid":195,
+                 "gid":183,
                  "height":8,
                  "id":729,
                  "name":"",
@@ -414,7 +478,7 @@
                  "y":104
                 }, 
                 {
-                 "gid":195,
+                 "gid":183,
                  "height":8,
                  "id":730,
                  "name":"",
@@ -430,7 +494,7 @@
                  "y":104
                 }, 
                 {
-                 "gid":195,
+                 "gid":183,
                  "height":8,
                  "id":731,
                  "name":"",
@@ -446,7 +510,7 @@
                  "y":240
                 }, 
                 {
-                 "gid":195,
+                 "gid":183,
                  "height":8,
                  "id":732,
                  "name":"",
@@ -480,7 +544,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":786,
+ "nextobjectid":797,
  "orientation":"orthogonal",
  "properties":
     {
@@ -491,123 +555,123 @@
  "tilesets":[
         {
          "firstgid":1,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/materials.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/materials.json"
         }, 
         {
-         "firstgid":191,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/miscellaneous.json"
+         "firstgid":179,
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/miscellaneous.json"
         }, 
         {
-         "firstgid":210,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/liquids.json"
+         "firstgid":197,
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/liquids.json"
         }, 
         {
-         "firstgid":238,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/supports.json"
+         "firstgid":223,
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/supports.json"
         }, 
         {
-         "firstgid":274,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/objects-by-race\/generic.json"
+         "firstgid":257,
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-race\/generic.json"
         }, 
         {
-         "firstgid":1969,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/objects-by-category\/decorative.json"
+         "firstgid":1556,
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/decorative.json"
         }, 
         {
-         "firstgid":3245,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/objects-by-category\/door.json"
+         "firstgid":2554,
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/door.json"
         }, 
         {
-         "firstgid":3353,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/objects-by-category\/farmable.json"
+         "firstgid":2647,
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/farmable.json"
         }, 
         {
-         "firstgid":3428,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/objects-by-category\/furniture.json"
+         "firstgid":2719,
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/furniture.json"
         }, 
         {
-         "firstgid":3753,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/objects-by-category\/light.json"
+         "firstgid":3000,
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/light.json"
         }, 
         {
-         "firstgid":4159,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/objects-by-category\/other.json"
+         "firstgid":3371,
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/other.json"
         }, 
         {
-         "firstgid":4430,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/objects-by-category\/pot.json"
+         "firstgid":3565,
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/pot.json"
         }, 
         {
-         "firstgid":4727,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/objects-by-category\/sapling.json"
+         "firstgid":3825,
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/sapling.json"
         }, 
         {
-         "firstgid":4728,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/objects-by-category\/spawner.json"
+         "firstgid":3826,
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/spawner.json"
         }, 
         {
-         "firstgid":4743,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/objects-by-category\/storage.json"
+         "firstgid":3841,
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/storage.json"
         }, 
         {
-         "firstgid":4958,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/objects-by-category\/teleporter.json"
+         "firstgid":4036,
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/teleporter.json"
         }, 
         {
-         "firstgid":4988,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/objects-by-category\/tools.json"
+         "firstgid":4060,
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/tools.json"
         }, 
         {
-         "firstgid":4993,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/objects-by-category\/trap.json"
+         "firstgid":4065,
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/trap.json"
         }, 
         {
-         "firstgid":5195,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/objects-by-category\/wire.json"
+         "firstgid":4240,
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/wire.json"
         }, 
         {
-         "firstgid":5380,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/objects-by-type\/container.json"
+         "firstgid":4386,
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-type\/container.json"
         }, 
         {
-         "firstgid":5646,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/objects-by-type\/farmable.json"
+         "firstgid":4624,
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-type\/farmable.json"
         }, 
         {
-         "firstgid":5722,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/objects-by-type\/loungeable.json"
+         "firstgid":4697,
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-type\/loungeable.json"
         }, 
         {
-         "firstgid":5968,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/objects-by-type\/noisy.json"
+         "firstgid":4908,
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-type\/noisy.json"
         }, 
         {
-         "firstgid":6009,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/objects-by-type\/teleporter.json"
+         "firstgid":4949,
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-type\/teleporter.json"
         }, 
         {
-         "firstgid":6033,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/huge-objects.json"
+         "firstgid":4972,
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/huge-objects.json"
         }, 
         {
-         "firstgid":6108,
+         "firstgid":4984,
          "source":"..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/elder_materials.json"
         }, 
         {
-         "firstgid":6122,
+         "firstgid":4999,
          "source":"..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/elder_objects.json"
         }, 
         {
-         "firstgid":6194,
+         "firstgid":5077,
          "source":"..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/fumaterials2.json"
         }, 
         {
-         "firstgid":6281,
+         "firstgid":5172,
          "source":"..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/fuplatforms.json"
         }, 
         {
-         "firstgid":6294,
-         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/storage.json"
+         "firstgid":5185,
+         "source":"..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/storage.json"
         }],
  "tilewidth":8,
  "version":1,

@@ -431,7 +431,7 @@
           "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "terrainfeatures", "rockclimb","rocktunnel",  "toxicmicrodungeons", "sandstone", "blockpile", "loops", "flats", "reversepyramids" ]
+          "microdungeons" : [ "fubandits", "fushops", "fulabs", "fuencounters", "terrainfeatures", "rockclimb","rocktunnel",  "toxicmicrodungeons", "sandstone", "blockpile", "loops", "flats", "reversepyramids" ]
         },
         {
           "mode" : "floor",
@@ -440,7 +440,7 @@
           "distribution" : "/biomes/distributions.config:randomEncounter",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "fushops", "fulabs", "fuencounters", "fuavali", "fubandits", "fuelders", "fuencountercultist", "newhumanmicro", "newavianmicro", "minigreenruins", "fuhives", "furandomencounter", "fuapexencounter", "fuglitchencounter", "fuavianencounter", "fuhumanencounter" ]
+          "microdungeons" : [ "fuavali", "fuelders", "fuencountercultist", "newhumanmicro", "newavianmicro", "minigreenruins", "fuhives", "furandomencounter", "fuapexencounter", "fuglitchencounter", "fuavianencounter", "fuhumanencounter" ]
         },
         {
           "mode" : "floor",
