@@ -5,7 +5,7 @@
     "rules" : [
     ],
 
-    "anchor" : [ "encounter-junkpile1","encounter-junkpile2","encounter-deathcamp1", "encounter-deathcamp2", "encounter-deathcamp3", "encounter-goldenleaf1", "encounter-house1", "encounter-house2", "encounter-house3", "encounter-house4", "encounter-house5", "encounter-house6", "encounter-hugeloot1", "encounter-radioactive1", "encounter-radioactive2", "encounter-radioactive3" ],
+    "anchor" : [ "encounter-misc1", "encounter-misc2", "encounter-misc3", "encounter-smithy", "encounter-junkpile1","encounter-junkpile2","encounter-deathcamp1", "encounter-deathcamp2", "encounter-deathcamp3", "encounter-goldenleaf1", "encounter-house1", "encounter-house2", "encounter-house3", "encounter-house4", "encounter-house5", "encounter-house6", "encounter-hugeloot1", "encounter-radioactive1", "encounter-radioactive2", "encounter-radioactive3" ],
 
     "gravity" : 90,
     "maxRadius" : 1000000,
@@ -14,6 +14,34 @@
   },
 
   "parts" : [
+    {
+      "name" : "encounter-misc1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "encounter-misc1.json" ]
+    },
+    {
+      "name" : "encounter-misc2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "encounter-misc2.json" ]
+    },   
+    {
+      "name" : "encounter-misc3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "encounter-misc3.json" ]
+    },      
+    {
+      "name" : "encounter-smithy",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "encounter-smithy.json" ]
+    },  
     {
       "name" : "encounter-junkpile1",
       "rules" : [
