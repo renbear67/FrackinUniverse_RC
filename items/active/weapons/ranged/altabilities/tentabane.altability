@@ -8,8 +8,8 @@
         "transformationGroups" : ["muzzle"],
         "offsetRegion" : [0, 0, 0, 0],
         "particles" : [
-          { "particle" : "gausssmoke"},
-          { "particle" : "gausssmoke"},
+          { "particle" : "cloudtrail"},
+          { "particle" : "peglacilasertrail"},
           { "particle" : "gausssmoke"}
         ]
       }
@@ -24,14 +24,14 @@
     "type" : "piercingshot",
     "scripts" : ["/items/active/weapons/ranged/altabilities/altfire.lua"],
 
-    "projectileType" : "fuicebeam",
+    "projectileType" : "iceexplosion3",
     "projectileParameters" : {
       "piercing" : true,
-      "speed" : 65,
+      "speed" : 12,
       "knockback" : 22 
     },
     "fireTime" : 2.0,
-    "baseDps" : 3.5,
+    "baseDps" : 2.5,
     // use baseDps and fireTime from primary fire
 
     "energyUsage" : 30.0,

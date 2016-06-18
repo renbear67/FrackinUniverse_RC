@@ -10,6 +10,7 @@
   "piercing" : true,
   "flippable" : true,
   "universalDamage" : true,
+    "damagePoly" : [ [-16, 0], [-10, -10], [0, -16], [10, -10], [16, 0], [10, 10], [0, 16], [-10, 10] ],
   "actionOnReap" : [
     {
       "action" : "config",
