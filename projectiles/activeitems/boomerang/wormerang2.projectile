@@ -10,10 +10,10 @@
   "statusEffects" : [ ],
   "periodicActions" : [
     {
-      "time" : 0.02,
+      "time" : 0.3,
       "loop" : true,
       "action" : "projectile",
-      "type" : "wormtrail2",
+      "type" : "shoggothbeamgun",
       "fuzzAngle" : 0
    }
   ],

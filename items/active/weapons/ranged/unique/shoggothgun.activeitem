@@ -4,7 +4,7 @@
   "inventoryIcon" : "shoggothgun.png",
   "maxStack" : 1,
   "rarity" : "legendary",
-  "description" : "Yea, this seems perfectly safe.",
+  "description" : "Fires organic drones and biomorphic fire.",
   "shortdescription" : "Biomorphic Cannon",
   "level" : 3,
   "tooltipKind" : "gun",
@@ -21,7 +21,7 @@
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : [ "/sfx/weapons/densiniumrifle.ogg" ]
+      "fire" : [ "/sfx/gun/splat.ogg" ]
     }
   },
 
@@ -32,22 +32,22 @@
   "elementalType" : "poison",
 
   "primaryAttack" : {
-    "fireTime" : 0.442,
-    "baseDps" : 7.0,
+    "fireTime" : 0.35,
+    "baseDps" : 8.42,
     "energyUsage" : 32.0,
-    "inaccuracy" : 0.1,
+    "inaccuracy" : 0.01,
 
-    "projectileCount" : 2,
+    "projectileCount" : 1,
     "fireType" : "auto",
 
-    "projectileType" : "lunarang2",
+    "projectileType" : "corrosiveparticle",
     "projectileParameters" : { 
-      "speed" : 40,
+      "speed" : 52,
       "knockback" : 8,
     "statusEffects" : [ "weakpoison" ],
 
     "ignoreTerrain" : false,
-    "controlForce" : 20,
+    "controlForce" : 40,
     "pickupDistance" : 1.5,
     "snapDistance" : 3.0,
 
@@ -58,8 +58,6 @@
     "particleEmitters" : {
       "muzzleFlash" : {
         "particles" : [
-          { "particle" : "fastrisingpoison1", "offset" : [0.0, 0.0] },
-          { "particle" : "fastrisingpoison1", "offset" : [0.0, 0.0] },
           { "particle" : "fastrisingpoison1", "offset" : [0.0, 0.0] }
         ]
       }

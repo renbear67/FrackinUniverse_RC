@@ -14,7 +14,7 @@
             "chest" : [ { "name" : "larvachest", "parameters" : { "colorIndex" : 1 } } ],
             "legs" : [ { "name" : "larvalegs", "parameters" : { "colorIndex" : 1 } } ],
             "primary" : [
-              "swarmgun", "corruptspear", "biopistol", "blisterpistol", "nitrogenpistol", "randomharpoongun"
+              "swarmgun", "corruptspear", "biopistol", "blisterpistol", "goregun", "vashtagun"
             ]
           }
         ] ]
