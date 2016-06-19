@@ -1,7 +1,7 @@
 function init()
 	effect.addStatModifierGroup({
-		{stat = "maxEnergy", amount = 65},
-		{stat = "maxHealth", amount = 40}
+		{stat = "maxEnergy", amount = 75},
+		{stat = "maxHealth", amount = 50}
 	})
 		
   script.setUpdateDelta(0)

@@ -1,6 +1,6 @@
 {
   "name" : "racehuman",
-  "effectConfig" : {"energyAmount" : 170},
+  "effectConfig" : {},
   "defaultDuration" : 300,
 
   "scripts" : [

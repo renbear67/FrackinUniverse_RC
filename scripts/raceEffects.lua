@@ -73,7 +73,7 @@ function update(dt)
 	--Hylotl
 	if world.entitySpecies(entity.id()) == "hylotl" then
 		status.addEphemeralEffect("racehylotl",math.huge)
-		status.addEphemeralEffect("swimboost2",math.huge)
+		status.addEphemeralEffect("swimboosthylotl",math.huge)
 	end
 	
 	--Glitch
@@ -86,7 +86,26 @@ function update(dt)
 		status.addEphemeralEffect("racenovakid",math.huge)
 		status.addEphemeralEffect("yellowguardian",math.huge)
 	end
-	
+
+
+	--avali
+	if world.entitySpecies(entity.id()) == "avali" then
+		status.addEphemeralEffect("racenovakid",math.huge)
+		status.addEphemeralEffect("yellowguardian",math.huge)
+	end
+	--peglaci
+	if world.entitySpecies(entity.id()) == "peglaci" then
+		status.addEphemeralEffect("racenovakid",math.huge)
+		status.addEphemeralEffect("yellowguardian",math.huge)
+	end
+	--felins
+	if world.entitySpecies(entity.id()) == "felins" then
+		status.addEphemeralEffect("damagebonusfelin",math.huge)
+		mcontroller.controlModifiers({
+				runModifier = 1.25,
+				jumpModifier = 1.20
+			})
+	end	
 
   local mouthPosition = vec2.add(mcontroller.position(), status.statusProperty("mouthPosition"))
   if status.statPositive("breathProtection") or world.breathable(mouthPosition) 
