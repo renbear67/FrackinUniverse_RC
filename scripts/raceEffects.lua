@@ -52,7 +52,7 @@ function update(dt)
 	--Avian
 	if world.entitySpecies(entity.id()) == "avian" then
 		status.addEphemeralEffect("raceavian",math.huge)
-		status.addEphemeralEffect("damagebonus01",math.huge)
+		status.addEphemeralEffect("damagebonusavian",math.huge)
 	end
 
 	--Apex
@@ -73,7 +73,7 @@ function update(dt)
 	--Hylotl
 	if world.entitySpecies(entity.id()) == "hylotl" then
 		status.addEphemeralEffect("racehylotl",math.huge)
-		status.addEphemeralEffect("swimboost",math.huge)
+		status.addEphemeralEffect("swimboost2",math.huge)
 	end
 	
 	--Glitch

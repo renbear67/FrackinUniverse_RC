@@ -1,0 +1,15 @@
+{
+  "name" : "damagebonusavian",
+  "effectConfig" : {
+    "powerModifier" : 0.07
+  },
+  "defaultDuration" : 300,
+
+  "scripts" : [
+    "damagebonusavian.lua"
+  ],
+
+  "animationConfig" : "damagebonusavian.animation",
+
+  "label" : "Dmg+"
+}
