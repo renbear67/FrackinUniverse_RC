@@ -109,9 +109,9 @@ function update(dt)
 	end
 	--felins
 	if world.entitySpecies(entity.id()) == "felins" then
-		status.addEphemeralEffect("damagebonusfelin",math.huge)
+		status.addEphemeralEffect("racefelins",math.huge)
 		mcontroller.controlModifiers({
-				runModifier = 1.20,
+				runModifier = 1.10,
 				jumpModifier = 1.20
 			})
 	end	
@@ -120,6 +120,13 @@ function update(dt)
 		status.addEphemeralEffect("raceorcana",math.huge)
 		status.addEphemeralEffect("swimboostorcana",math.huge)
 	end
+	--ponex
+	if world.entitySpecies(entity.id()) == "ponex" then
+		status.addEphemeralEffect("raceponex",math.huge)
+		mcontroller.controlModifiers({
+				runModifier = 1.25
+			})
+	end	
 	
   local mouthPosition = vec2.add(mcontroller.position(), status.statusProperty("mouthPosition"))
   if status.statPositive("breathProtection") or world.breathable(mouthPosition) 
