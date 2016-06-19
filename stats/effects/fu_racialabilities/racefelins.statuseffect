@@ -1,0 +1,10 @@
+{
+  "name" : "racefelins",
+  "effectConfig" : {},
+  "defaultDuration" : 300,
+
+  "scripts" : [
+    "racefelins.lua"
+  ]
+
+}

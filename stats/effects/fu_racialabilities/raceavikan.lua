@@ -1,8 +1,8 @@
 function init()
 effect.addStatModifierGroup({
-		{stat = "snowslowImmunity", amount = 1},
-		{stat = "slushslowImmunity", amount = 1},
-		{stat = "biomecoldImmunity", amount = 1}
+		{stat = "fireImmunity", amount = 1},
+		{stat = "biomeheatImmunity", amount = 1},
+		{stat = "maxHealth", amount = 20}
 	})
 
   script.setUpdateDelta(0)

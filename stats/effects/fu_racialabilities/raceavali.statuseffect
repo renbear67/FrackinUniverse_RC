@@ -1,0 +1,10 @@
+{
+  "name" : "raceavali",
+  "effectConfig" : {},
+  "defaultDuration" : 300,
+
+  "scripts" : [
+    "raceavali.lua"
+  ]
+
+}

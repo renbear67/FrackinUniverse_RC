@@ -59,8 +59,8 @@ function update(dt)
 	if world.entitySpecies(entity.id()) == "apex" then
 		status.addEphemeralEffect("percenthealthboost5",math.huge)
 		mcontroller.controlModifiers({
-				runModifier = 1.20,
-				jumpModifier = 1.15
+				runModifier = 1.15,
+				jumpModifier = 1.10
 			})
 	end
 	
@@ -90,9 +90,18 @@ function update(dt)
 
 	--avali
 	if world.entitySpecies(entity.id()) == "avali" then
-		status.addEphemeralEffect("racenovakid",math.huge)
-		status.addEphemeralEffect("yellowguardian",math.huge)
+		status.addEphemeralEffect("raceavali",math.huge)
+		mcontroller.controlModifiers({
+				runModifier = 1.16,
+				jumpModifier = 1.08
+			})
 	end
+	
+	--avikan
+	if world.entitySpecies(entity.id()) == "avikan" then
+		status.addEphemeralEffect("raceavikan",math.huge)
+	end
+	
 	--peglaci
 	if world.entitySpecies(entity.id()) == "peglaci" then
 		status.addEphemeralEffect("racenovakid",math.huge)
@@ -102,11 +111,16 @@ function update(dt)
 	if world.entitySpecies(entity.id()) == "felins" then
 		status.addEphemeralEffect("damagebonusfelin",math.huge)
 		mcontroller.controlModifiers({
-				runModifier = 1.25,
+				runModifier = 1.20,
 				jumpModifier = 1.20
 			})
 	end	
-
+	--Orcana
+	if world.entitySpecies(entity.id()) == "orcana" then
+		status.addEphemeralEffect("raceorcana",math.huge)
+		status.addEphemeralEffect("swimboostorcana",math.huge)
+	end
+	
   local mouthPosition = vec2.add(mcontroller.position(), status.statusProperty("mouthPosition"))
   if status.statPositive("breathProtection") or world.breathable(mouthPosition) 
 	or status.statPositive("waterbreathProtection") and world.liquidAt(mouthPosition) 
