@@ -17,23 +17,9 @@ function update(dt)
   local fallDistanceDamageFactor = 3
   local minimumFallVel = 40
   local baseGravity = 80
-  local gravityDiffFactor = 1 / 30.0
-
-	-- Adjusts avian fall damage
---	if world.entitySpecies(entity.id()) == "avian" then
---		local minimumFallDistance = 21
---		local minimumFallVel = 60
---	end
-	
-	-- Adjusts apex fall damage
---	if world.entitySpecies(entity.id()) == "apex" then
---		local minimumFallDistance = 17.5
---		local minimumFallVel = 50
---	end
-	
+  local gravityDiffFactor = 1 / 30.0	
   local curYPosition = mcontroller.yPosition()
   local yPosChange = curYPosition - (self.lastYPosition or curYPosition)
-
   local curYVelocity = yPosChange / dt
   local yVelChange = curYVelocity - self.lastYVelocity
 
@@ -66,20 +52,22 @@ function update(dt)
 	--Avian
 	if world.entitySpecies(entity.id()) == "avian" then
 		status.addEphemeralEffect("raceavian",math.huge)
+		status.addEphemeralEffect("damagebonus01",math.huge)
 	end
 
 	--Apex
 	if world.entitySpecies(entity.id()) == "apex" then
-		--status.addEphemeralEffect("raceapex",math.huge)
+		status.addEphemeralEffect("percenthealthboost5",math.huge)
 		mcontroller.controlModifiers({
-				runModifier = 1.25,
-				jumpModifier = 1.25
+				runModifier = 1.20,
+				jumpModifier = 1.15
 			})
 	end
 	
 	--Floran
 	if world.entitySpecies(entity.id()) == "floran" then
 		status.addEphemeralEffect("racefloran",math.huge)
+		status.addEphemeralEffect("maxenergyboost3",math.huge)
 	end
 	
 	--Hylotl
@@ -91,23 +79,14 @@ function update(dt)
 	--Glitch
 	if world.entitySpecies(entity.id()) == "glitch" then
 		status.addEphemeralEffect("raceglitch",math.huge)
-		mcontroller.controlModifiers({
-				runModifier = .90,
-				jumpModifier = .75
-			})
 	end
 	
 	--Novakid
 	if world.entitySpecies(entity.id()) == "novakid" then
 		status.addEphemeralEffect("racenovakid",math.huge)
-		status.addEphemeralEffect("xenonglow",math.huge)
+		status.addEphemeralEffect("yellowguardian",math.huge)
 	end
 	
-
- -- if status.resourceLocked("energy") and status.resourcePercentage("energy") == 1 then
- --   animator.playSound("energyRegenDone")
- -- end
-
 
   local mouthPosition = vec2.add(mcontroller.position(), status.statusProperty("mouthPosition"))
   if status.statPositive("breathProtection") or world.breathable(mouthPosition) 
