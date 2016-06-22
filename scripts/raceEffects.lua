@@ -57,7 +57,7 @@ function update(dt)
 
 	--Apex
 	if world.entitySpecies(entity.id()) == "apex" then
-		status.addEphemeralEffect("percenthealthboost5",math.huge)
+		status.addEphemeralEffect("percenthealthboostapex",math.huge)
 		mcontroller.controlModifiers({
 				runModifier = 1.15,
 				jumpModifier = 1.10
@@ -67,7 +67,7 @@ function update(dt)
 	--Floran
 	if world.entitySpecies(entity.id()) == "floran" then
 		status.addEphemeralEffect("racefloran",math.huge)
-		status.addEphemeralEffect("maxenergyboost3",math.huge)
+		status.addEphemeralEffect("maxenergyboostfloran",math.huge)
 	end
 	
 	--Hylotl
@@ -84,7 +84,7 @@ function update(dt)
 	--Novakid
 	if world.entitySpecies(entity.id()) == "novakid" then
 		status.addEphemeralEffect("racenovakid",math.huge)
-		status.addEphemeralEffect("yellowguardian",math.huge)
+		status.addEphemeralEffect("novakidglow",math.huge)
 	end
 
 
@@ -104,8 +104,7 @@ function update(dt)
 	
 	--peglaci
 	if world.entitySpecies(entity.id()) == "peglaci" then
-		status.addEphemeralEffect("racenovakid",math.huge)
-		status.addEphemeralEffect("yellowguardian",math.huge)
+		status.addEphemeralEffect("racepeglaci",math.huge)
 	end
 	--felins
 	if world.entitySpecies(entity.id()) == "felins" then
@@ -125,6 +124,13 @@ function update(dt)
 		status.addEphemeralEffect("raceponex",math.huge)
 		mcontroller.controlModifiers({
 				runModifier = 1.25
+			})
+	end
+	--viera
+	if world.entitySpecies(entity.id()) == "viera" then
+		status.addEphemeralEffect("raceviera",math.huge)
+		mcontroller.controlModifiers({
+				runModifier = 1.05
 			})
 	end	
 	

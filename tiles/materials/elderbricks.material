@@ -1,22 +1,22 @@
 {
-  "materialId" : 6608,
-  "materialName" : "elderpillar1",
+  "materialId" : 6654,
+  "materialName" : "elderbricks",
   "particleColor" : [138, 155, 113, 255],
-  "itemDrop" : "elderpillar1material",
+  "itemDrop" : "elderbrickmaterial",
   "description" : "Covered in madenning, horrid glyphs.",
-  "shortdescription" : "Elder Support",
+  "shortdescription" : "Elder Brickwork",
   "footstepSound" : "/sfx/blocks/footstep_stone3.ogg",
-  "health" : 10,
+  "health" : 5,
   "category": "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "elderpillar1.png",
-    "variants" : 18,
+    "texture" : "elderbricks.png",
+    "variants" : 6,
     "lightTransparent" : false,
     "occludesBelow" : true,
     "multiColored" : false,
-    "zLevel" : 11
+    "zLevel" : 9
   }
 }
 

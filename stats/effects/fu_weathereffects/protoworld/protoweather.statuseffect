@@ -1,0 +1,21 @@
+{
+  "name" : "protoweather",
+  "blockingStat" : "biomeprotoImmunity",
+
+  "effectConfig" : {
+    "biomeDay" : 10,
+    "biomeNight" : 30,
+    "biomeTemp" : 10,
+    "biomeRate" : 20
+  },
+  "defaultDuration" : 120,
+
+  "scripts" : [
+    "protoweather.lua"
+  ],
+
+  "animationConfig" : "protoweather.animation",
+
+  "label" : "Cold",
+  "icon" : "/interface/statuses/cold.png"
+}
