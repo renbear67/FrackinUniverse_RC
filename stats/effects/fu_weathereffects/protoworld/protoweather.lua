@@ -26,37 +26,16 @@ end
   
   
 function update(dt)
-
-
 	--Checks if Day has changed to set new temperature values--
-	biomeTimerRV = biomeTimerRV - dt
-	
-	if biomeTimerRV <= 0 then
-		biomeTimerRV = 45
-		if world.time() <= 0.5 and biomeDmg <= biomeDay then
-			biomeTemp = biomeDmg + math.random(biomeTempRate - 10, biomeRate + 10)
-			else
-			biomeTemp = biomeDmg - math.random(biomeTempRate - 10, biomeRate + 10)
-		end
-		if world.time() > 0.5 and biomeDmg <= biomeNight then
-			biomeTemp = biomeDmg + math.random(biomeTempRate - 10, biomeRate + 10)
-			else
-			biomeTemp = biomeDmg - math.random(biomeTempRate - 10, biomeRate + 10)
-		end
-		world.setProperty("biomeDamage", biomeDmg)
-		world.logInfo(tostring(biomeDmg).." BiomeDamage")
-	end	
 	
 	
-	
-
 	-- we apply the effect here
 	biomeTimer = biomeTimer - dt
-  if biomeTimer <= 0 then
-    biomeTimer = 10
-    status.applySelfDamageRequest({
+      if biomeTimer <= 0 then
+        biomeTimer = 10
+        status.applySelfDamageRequest({
         damageType = "IgnoresDef",
-        damage = math.floor(status.resourceMax("health") * biomeTemp) + 2,
+        damage = math.floor(status.resourceMax("health") * biomeDmg) + 2,
         damageSourceKind = "nitrogenweapon",
         sourceEntityId = entity.id()
       })

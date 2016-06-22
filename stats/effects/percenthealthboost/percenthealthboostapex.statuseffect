@@ -1,5 +1,5 @@
 {
-  "name" : "percenthealthboost5",
+  "name" : "percenthealthboostapex",
   "effectConfig" : {
     "healthDown" : 0.05
   },
