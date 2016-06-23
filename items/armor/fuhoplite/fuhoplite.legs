@@ -5,7 +5,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "Provides weak regeneration of wounds.",
+  "description" : "Provides weak regeneration of wounds and blocks proto-poison.",
   "shortdescription" : "Hoplite Greaves",
   "tooltipKind" : "armor",
 
@@ -32,6 +32,7 @@
       "stat" : "maxHealth",
       "amount" : 6
     },
+    "protoimmunity",
     "regenerationminor"
   ],
 

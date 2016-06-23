@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "uncommon",
-  "description" : "Fantastic science wear. This piece grants energy regeneration.",
+  "description" : "Fantastic science wear. This piece grants energy regeneration and proto immunity.",
   "shortdescription" : "Field Science Coat",
   "tooltipKind" : "armor",
 
@@ -29,6 +29,7 @@
       "stat" : "maxHealth",
       "amount" : 5
     },
+    "protoimmunity",
       "energyregenfu_armor50"
   ],
 
