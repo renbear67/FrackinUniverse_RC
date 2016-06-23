@@ -28,8 +28,8 @@
       "stat" : "maxEnergy",
       "amount" : 36
     },
-    "protoimmunity"
-   "glowpurple"
+    "protoimmunity",
+    "glowpurple"
   ],
     "questTags" : [ "tier4armor" ]
 
