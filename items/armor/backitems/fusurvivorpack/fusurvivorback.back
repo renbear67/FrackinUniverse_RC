@@ -3,7 +3,7 @@
   "inventoryIcon" : "icon.png",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "rarity" : "common",
-  "description" : "A gene-infused survival pack. Grants +15 HP and Energy, and a mild glow.",
+  "description" : "A gene-infused survival pack. Grants +15 HP and Energy, and a mild glow. Also prevents proto-poison.",
   "shortdescription" : "Type-S Survival Pack",
 
   "maleFrames" : "back.png",
@@ -11,6 +11,7 @@
 
   "statusEffects" : [
     "glow",
+    "protoimmunity",
     {
       "stat" : "maxEnergy",
       "amount" : 15

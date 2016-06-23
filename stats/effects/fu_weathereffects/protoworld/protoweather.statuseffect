@@ -1,14 +1,15 @@
 {
   "name" : "protoweather",
-  "blockingStat" : "biomeprotoImmunity",
+  "blockingStat" : "protoImmunity",
 
   "effectConfig" : {
-    "biomeDay" : 10,
-    "biomeNight" : 30,
+    "biomeDay" : 3,
+    "biomeNight" : 20,
     "biomeTemp" : 10,
-    "biomeRate" : 20
+    "biomeRate" : 1,
+    "biomeDmgPerTick" : 4
   },
-  "defaultDuration" : 120,
+  "defaultDuration" : 1,
 
   "scripts" : [
     "protoweather.lua"
@@ -16,6 +17,6 @@
 
   "animationConfig" : "protoweather.animation",
 
-  "label" : "Cold",
-  "icon" : "/interface/statuses/cold.png"
+  "label" : "Sap Health",
+  "icon" : "/interface/statuses/hpdown.png"
 }

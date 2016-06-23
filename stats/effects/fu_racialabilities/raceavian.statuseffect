@@ -1,6 +1,8 @@
 {
   "name" : "raceavian",
-  "effectConfig" : {"gravityModifier" : 0.6},
+  "effectConfig" : {
+    "gravityModifier" : 0.7
+  },
   "defaultDuration" : 300,
 
   "scripts" : [
