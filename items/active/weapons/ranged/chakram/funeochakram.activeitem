@@ -32,8 +32,8 @@
 
     "returnOnHit" : false,
     "pickupDistance" : 1.0,
-    "maxDistance" : 20,
-    "hoverMaxDistance" : 20,
+    "maxDistance" : 25,
+    "hoverMaxDistance" : 25,
     "hoverTime" : 0.05
   },
   "level" : 6,
