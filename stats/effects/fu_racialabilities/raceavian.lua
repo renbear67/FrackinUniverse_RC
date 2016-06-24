@@ -8,9 +8,9 @@ function init()
   script.setUpdateDelta(5)
 
   self.liquidMovementParameter = {
-    airForce = 40,
+    airForce = 34,
     airJumpProfile = {
-      jumpSpeed = 40.0,
+      jumpSpeed = 35.5,
       jumpControlForce = 420.0
     }
   }  

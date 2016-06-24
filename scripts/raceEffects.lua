@@ -1,9 +1,10 @@
+require("/scripts/vec2.lua")
 local fuoldInit = init
 local fuoldUpdate = update
 local fuoldUninit = uninit
 
 function init()
-	fuoldInit()
+  fuoldInit()
   self.lastYPosition = 0
   self.lastYVelocity = 0
   self.fallDistance = 0
@@ -26,16 +27,14 @@ function update(dt)
 
 	--Apex
 	if world.entitySpecies(entity.id()) == "apex" then
-		mcontroller.controlModifiers({
-				runModifier = 1.15,
-				jumpModifier = 1.10
-			})
+	       status.addEphemeralEffect("raceapex",math.huge)
 	end
 	
 	--Floran
 	if world.entitySpecies(entity.id()) == "floran" then
 		status.addEphemeralEffect("racefloran",math.huge)
 		status.addEphemeralEffect("maxenergyboostfloran",math.huge)
+		status.addEphemeralEffect("thornsfloran",math.huge)
 	end
 	
 	--Hylotl
@@ -59,10 +58,6 @@ function update(dt)
 	--avali
 	if world.entitySpecies(entity.id()) == "avali" then
 		status.addEphemeralEffect("raceavali",math.huge)
-		mcontroller.controlModifiers({
-				runModifier = 1.16,
-				jumpModifier = 1.08
-			})
 	end
 	
 	--avikan
@@ -77,10 +72,6 @@ function update(dt)
 	--felins
 	if world.entitySpecies(entity.id()) == "felins" then
 		status.addEphemeralEffect("racefelins",math.huge)
-		mcontroller.controlModifiers({
-				runModifier = 1.10,
-				jumpModifier = 1.20
-			})
 	end	
 	--Orcana
 	if world.entitySpecies(entity.id()) == "orcana" then
@@ -90,17 +81,12 @@ function update(dt)
 	--ponex
 	if world.entitySpecies(entity.id()) == "ponex" then
 		status.addEphemeralEffect("raceponex",math.huge)
-		mcontroller.controlModifiers({
-				runModifier = 1.25
-			})
 	end
 	--viera
 	if world.entitySpecies(entity.id()) == "viera" then
 		status.addEphemeralEffect("raceviera",math.huge)
-		mcontroller.controlModifiers({
-				runModifier = 1.05
-			})
 	end	
+
 	
   local mouthPosition = vec2.add(mcontroller.position(), status.statusProperty("mouthPosition"))
   if status.statPositive("breathProtection") or world.breathable(mouthPosition) 

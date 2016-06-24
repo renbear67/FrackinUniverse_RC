@@ -2,23 +2,32 @@ function init()
   animator.setParticleEmitterOffsetRegion("drips", mcontroller.boundBox())
   animator.setParticleEmitterActive("drips", true)
   effect.setParentDirectives("fade=0072ff=0.1")
-
-  local slows = status.statusProperty("slows", {})
-  slows["waterslow"] = 0.8
-  status.setStatusProperty("slows", slows)
+  script.setUpdateDelta(5)
 end
 
 function update(dt)
+		  mcontroller.controlModifiers({
+		      runModifier = 0.9,
+		      jumpModifier = 0.9
+		    })
 	if world.entitySpecies(entity.id()) ~= "hylotl" then
 		mcontroller.controlModifiers({
-				runModifier = -0.05,
-				jumpModifier = -0.05
+				runModifier = 1.3,
+				jumpModifier = 1.3
 			})
 	end
+	if world.entitySpecies(entity.id()) == "floran" then
+		mcontroller.controlModifiers({
+				runModifier = 1.2,
+				jumpModifier = 1.2
+			})
+        end 
+
 end
 
 function uninit()
-  local slows = status.statusProperty("slows", {})
-  slows["waterslow"] = nil
-  status.setStatusProperty("slows", slows)
+
 end
+
+
+

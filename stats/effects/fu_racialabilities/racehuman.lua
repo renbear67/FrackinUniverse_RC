@@ -12,7 +12,7 @@ function init()
   
   self.liquidMovementParameter = {
     liquidJumpProfile = {
-      jumpHoldTime = 0.3
+      jumpHoldTime = 0.275
     }
   }  
 end
