@@ -1,7 +1,3 @@
--- proto worlds cause a status effect that increases your overall energy but
--- lowers your Max HP by a percentage based on the weather. This is largely
--- randomized values
-
 function init()
   script.setUpdateDelta(5)
 
@@ -37,41 +33,49 @@ function update(dt)
       biomeTimer = biomeTimer - dt
       if biomeTimer <= 0 then
         effect.addStatModifierGroup({{stat = "maxHealth", amount = baseValue* (-1) }})
-		if lightLevel > 95 then
+		--if lightLevel > 95 then
+		--	biomeDmg = biomeDmg +1
+		--	biomeTimer = 35
+ 
+		if world.time() <= 0.8 then
 			biomeDmg = biomeDmg +1
 			biomeTimer = 35
-		elseif lightLevel > 90 then
+		elseif world.time() <= 0.7 then
  			biomeDmg = biomeDmg +1
  			biomeTimer = 33
-		elseif lightLevel > 80 then
+		elseif world.time() <= 0.6 then
 			biomeDmg = biomeDmg +2
 			biomeTimer = 31
-		elseif lightLevel > 70 then
+		elseif world.time() <= 0.5 then
 			biomeDmg = biomeDmg +2
 			biomeTimer = 29
-		elseif lightLevel > 65 then
+		elseif world.time() <= 0.4 then
 			biomeDmg = biomeDmg +3
 			biomeTimer = 27
-		elseif lightLevel > 55 then
+		elseif world.time() <= 0.3 then
 			biomeDmg = biomeDmg +3
 			biomeTimer = 25
-		elseif lightLevel > 45 then
+		elseif world.time() <= 0.2 then
 			biomeDmg = biomeDmg +4
 			biomeTimer = 22
-		elseif lightLevel > 35 then
+		elseif world.time() <= 0.1 then
 			biomeDmg = biomeDmg +4
 			biomeTimer = 19
-		elseif lightLevel > 25 then
+		elseif world.time() <= 0.05 then
 			biomeDmg = biomeDmg +5
 			biomeTimer = 17
 		else
 			biomeDmg = biomeDmg +5
 			biomeTimer = 15		
-		end      
-		
+		end 		
         if world.time() <= 0.5 and biomeDmg <= biomeDay then
-          status.addEphemeralEffect("contaminatedpoison",math.huge)
-          biomeTimer = 15
+          status.applySelfDamageRequest ({
+          damageType = "IgnoresDef",
+          damage = biomeDmg+5,
+          damageSourceKind = "nitrogenweapon",
+          sourceEntityId = entity.id(),  
+          biomeTimer = 15	
+          })       
         end
         
         if world.time() > 0.5 and biomeDmg <= biomeNight then

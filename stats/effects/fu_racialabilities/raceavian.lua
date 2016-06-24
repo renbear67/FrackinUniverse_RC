@@ -1,41 +1,27 @@
 function init()
-  effect.addStatModifierGroup({ {stat = "gravrainImmunity", amount = 1} })
-  self.gravityModifier = effect.configParameter("gravityModifier")
-  self.movementParams = mcontroller.baseParameters()
-  setGravityMultiplier()
-end
+  self.powerModifier = effect.configParameter("powerModifier", 0)
+  effect.addStatModifierGroup({{stat = "powerMultiplier", baseMultiplier = self.powerModifier}})
+  effect.addStatModifierGroup({{stat = "fallDamageMultiplier", effectiveMultiplier = 0.5}})
+  self.movementParams = mcontroller.baseParameters()  
+  
+  local bounds = mcontroller.boundBox()
+  script.setUpdateDelta(5)
 
-function setGravityMultiplier()
-  local oldGravityMultiplier = self.movementParams.gravityMultiplier or 1
-  self.newGravityMultiplier = self.gravityModifier
+  self.liquidMovementParameter = {
+    airForce = 40,
+    airJumpProfile = {
+      jumpSpeed = 40.0,
+      jumpControlForce = 420.0
+    }
+  }  
 end
 
 function update(dt)
-  mcontroller.controlParameters({
-     gravityMultiplier = self.newGravityMultiplier
-  })
+mcontroller.controlParameters(self.liquidMovementParameter)
 end
 
 function uninit()
   
 end
-
-
---function init()
---    effect.addStatModifierGroup({ {stat = "gravrainImmunity", amount = 1} })
---    local bounds = mcontroller.boundBox()
---end
- 
---function update()
-
---     self.newGravityMultiplier = status.resource("customGravity")
---     mcontroller.controlParameters({
---       gravityMultiplier = self.newGravityMultiplier
---     })
---end
--- 
---function unit()
---
---end
 
 

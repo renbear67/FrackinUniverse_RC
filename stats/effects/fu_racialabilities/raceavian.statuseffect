@@ -1,12 +1,14 @@
 {
   "name" : "raceavian",
   "effectConfig" : {
-    "gravityModifier" : 0.7
+    "powerModifier" : 1.075
   },
   "defaultDuration" : 300,
 
   "scripts" : [
     "raceavian.lua"
-  ]
+  ],
+
+  "animationConfig" : "raceavian.animation"
 
 }

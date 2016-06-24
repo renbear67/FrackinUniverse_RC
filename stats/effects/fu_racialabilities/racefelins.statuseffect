@@ -1,6 +1,8 @@
 {
   "name" : "racefelins",
-  "effectConfig" : {},
+  "effectConfig" : {
+      "powerModifier" : 1.08
+      },
   "defaultDuration" : 300,
 
   "scripts" : [

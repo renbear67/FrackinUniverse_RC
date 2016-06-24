@@ -18,9 +18,9 @@
   "physics" : "laser",
   "bounces" : -1,
   "piercing" : true,
-  "timeToLive" : 5,
+  "timeToLive" : 3,
 
-  "persistentAudio" : "/sfx/melee/spear_twirl_loop.ogg",
+    "persistentAudio" : "/sfx/objects/sawblade.ogg",
 
-  "scripts" : [ "hoverchakramprojectile.lua" ]
+    "scripts" : [ "hoverchakramprojectile.lua" ]
 }

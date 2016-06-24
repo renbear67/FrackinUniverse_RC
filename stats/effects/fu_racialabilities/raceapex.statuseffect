@@ -1,6 +1,9 @@
 {
   "name" : "raceapex",
-  "effectConfig" : {},
+  "effectConfig" : {
+    "healthDown" : 0.08
+  },
+  
   "defaultDuration" : 300,
 
   "scripts" : [

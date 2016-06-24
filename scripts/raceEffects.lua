@@ -13,37 +13,6 @@ end
 function update(dt)
   fuoldUpdate(dt)
   
-  local minimumFallDistance = 14
-  local fallDistanceDamageFactor = 3
-  local minimumFallVel = 40
-  local baseGravity = 80
-  local gravityDiffFactor = 1 / 30.0	
-  local curYPosition = mcontroller.yPosition()
-  local yPosChange = curYPosition - (self.lastYPosition or curYPosition)
-  local curYVelocity = yPosChange / dt
-  local yVelChange = curYVelocity - self.lastYVelocity
-
-  if self.fallDistance > minimumFallDistance and yVelChange > minimumFallVel  and mcontroller.onGround() then
-    local damage = (self.fallDistance - minimumFallDistance) * fallDistanceDamageFactor
-    damage = damage * (1.0 + (world.gravity(mcontroller.position()) - baseGravity) * gravityDiffFactor)
-    damage = damage * status.stat("fallDamageMultiplier")
-    status.applySelfDamageRequest({
-        damageType = "IgnoresDef",
-        damage = damage,
-        damageSourceKind = "falling",
-        sourceEntityId = entity.id()
-      })
-  end
-
-  if curYVelocity < -minimumFallVel then
-    self.fallDistance = self.fallDistance + -yPosChange
-  else
-    self.fallDistance = 0
-  end
-
-  self.lastYPosition = curYPosition
-  self.lastYVelocity = curYVelocity
-  
 	--Human
 	if world.entitySpecies(entity.id()) == "human" then
 		status.addEphemeralEffect("racehuman",math.huge)
@@ -52,12 +21,11 @@ function update(dt)
 	--Avian
 	if world.entitySpecies(entity.id()) == "avian" then
 		status.addEphemeralEffect("raceavian",math.huge)
-		status.addEphemeralEffect("damagebonusavian",math.huge)
+		status.addEphemeralEffect("lowgravavian",math.huge)
 	end
 
 	--Apex
 	if world.entitySpecies(entity.id()) == "apex" then
-		status.addEphemeralEffect("percenthealthboostapex",math.huge)
 		mcontroller.controlModifiers({
 				runModifier = 1.15,
 				jumpModifier = 1.10

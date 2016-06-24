@@ -1,7 +1,7 @@
 {
   "name" : "damagebonusfelin",
   "effectConfig" : {
-    "powerModifier" : 0.08
+    "powerModifier" : 1.08
   },
   "defaultDuration" : 300,
 

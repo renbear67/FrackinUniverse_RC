@@ -4,7 +4,6 @@ effect.addStatModifierGroup({
 		{stat = "slushslowImmunity", amount = 1},
 		{stat = "biomecoldImmunity", amount = 1}
 	})
-
   script.setUpdateDelta(0)
 end
 
