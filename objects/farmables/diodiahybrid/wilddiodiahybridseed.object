@@ -7,7 +7,7 @@
   "shortdescription" : "Diodia Hybrid Seed",
   "objectType" : "farmable",
   "printable" : false,
-     
+    "learnBlueprintsOnPickup" : [ "darklightflower" ],   
   "inventoryIcon" : "diodiahybridseedicon.png",
   "orientations" : [
     {

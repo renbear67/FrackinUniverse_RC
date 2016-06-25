@@ -2,8 +2,7 @@
   "input" : [
    { "item" : "aliencompound", "count" : 3 },
    { "item" : "monsterplating", "count" : 6 },
-   { "item" : "refinedrubium", "count" : 5 },
-    { "item" : "biochip", "count" : 1 }
+   { "item" : "refinedrubium", "count" : 5 }
   ],
   "output" : {
     "item" : "warcleaver",

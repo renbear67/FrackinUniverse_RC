@@ -2,8 +2,7 @@
   "input" : [
     { "item" : "isogenbar", "count" : 1 },
     { "item" : "cellmatter", "count" : 3 },
-    { "item" : "graphene", "count" : 2 },
-    { "item" : "biochip", "count" : 1 }
+    { "item" : "graphene", "count" : 2 }
   ],
   "output" : {
     "item" : "cellulararmorpants",

@@ -1,8 +1,7 @@
 {
   "input" : [
     { "item" : "eridianbar", "count" : 2 },
-    { "item" : "caprioleplantseed", "count" : 2 },
-    { "item" : "biochip", "count" : 1 }
+    { "item" : "caprioleplantseed", "count" : 2 }
   ],
   "output" : {
     "item" : "bmcjumpscoutvisor",

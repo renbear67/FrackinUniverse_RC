@@ -2,8 +2,7 @@
   "input" : [
     { "item" : "ff_resin", "count" : 5 },
     { "item" : "leather", "count" : 3 },
-    { "item" : "hardenedcarapace", "count" : 5 },
-    { "item" : "biochip", "count" : 3 }
+    { "item" : "hardenedcarapace", "count" : 5 }
   ],
   "output" : {
     "item" : "chitinchest",

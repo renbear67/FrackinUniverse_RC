@@ -2,8 +2,7 @@
   "input" : [
     { "item" : "biospore", "count" : 8 },
     { "item" : "protocitebar", "count" : 3 },
-    { "item" : "densealloy", "count" : 3 },
-    { "item" : "biochip", "count" : 2 }
+    { "item" : "densealloy", "count" : 3 }
   ],
   "output" : {
     "item" : "hytalisarmorchest",

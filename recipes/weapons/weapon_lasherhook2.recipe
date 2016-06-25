@@ -2,8 +2,7 @@
   "input" : [
     { "item" : "mutaviskthread", "count" : 6 },
     { "item" : "lasherhook", "count" : 1 },
-    { "item" : "liquiddarkwater", "count" : 8 },
-    { "item" : "biochip", "count" : 5 }
+    { "item" : "liquiddarkwater", "count" : 8 }
   ],
   "output" : {
     "item" : "lasherhook2",

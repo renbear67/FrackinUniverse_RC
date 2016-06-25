@@ -2,8 +2,7 @@
   "input" : [
     { "item" : "coralfragment", "count" : 4 },
     { "item" : "fu_carbon", "count" : 20 },
-    { "item" : "liquidsulphuricacid", "count" : 12 },
-    { "item" : "biochip", "count" : 2 }
+    { "item" : "liquidsulphuricacid", "count" : 12 }
   ],
   "output" : {
     "item" : "goldenseascion",

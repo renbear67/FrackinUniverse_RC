@@ -2,8 +2,7 @@
   "input" : [
     { "item" : "mutaviskthread", "count" : 4 },
     { "item" : "fabric", "count" : 2 },
-    { "item" : "polymer", "count" : 2 },
-    { "item" : "biochip", "count" : 1 }
+    { "item" : "polymer", "count" : 2 }
   ],
   "output" : {
     "item" : "fuoperativechest",

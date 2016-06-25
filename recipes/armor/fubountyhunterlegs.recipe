@@ -2,8 +2,7 @@
   "input" : [
     { "item" : "tritaniumbar", "count" : 3 },
     { "item" : "refinedaegisalt", "count" : 1 },
-    { "item" : "mutaviskthread", "count" : 3 },
-    { "item" : "biochip", "count" : 2 }
+    { "item" : "mutaviskthread", "count" : 3 }
   ],
   "output" : {
     "item" : "fubountyhunterpants",

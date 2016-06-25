@@ -2,8 +2,7 @@
   "input" : [
     { "item" : "coralfragment", "count" : 6 },
     { "item" : "goldbar", "count" : 4 },
-    { "item" : "graphene", "count" : 3 },
-    { "item" : "biochip", "count" : 1 }
+    { "item" : "graphene", "count" : 3 }
   ],
   "output" : {
     "item" : "hylotlgreatscion",
