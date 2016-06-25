@@ -1,6 +1,5 @@
 [
-    { "op" : "add", "path" : "/statusControllerSettings/resources/customGravity", "value" : { "customGravity" : "55.6"} },
-    { "op": "add", "path" : "/statusControllerSettings/primaryScriptSources/-" , "value" : "/scripts/raceEffects.lua" },
+    //{ "op": "add", "path" : "/statusControllerSettings/primaryScriptSources/-" , "value" : "/scripts/raceEffects.lua" },
     { "op": "add", "path" : "/statusControllerSettings/primaryScriptSources/-" , "value" : "/scripts/basicTileGroundEffects.lua" },
     { "op": "add", "path" : "/statusControllerSettings/primaryScriptSources/-" , "value" : "/scripts/fu_tileGroundEffects.lua" },
     { "op": "add", "path" : "/statusControllerSettings/primaryScriptSources/-" , "value":  "/scripts/isn_geldetection.lua" },
