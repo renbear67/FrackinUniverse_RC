@@ -4,8 +4,8 @@
   "maxStack" : 1,
   "level" : 7,
   "rarity" : "rare",
-  "description" : "A mysterious sword created with Eridian and other rare elements.",
-  "shortdescription" : "Eridian Blade",
+  "description" : "A mysterious sword created with Morphite and other rare elements.",
+  "shortdescription" : "Morphite Blade",
   "tooltipKind" : "sword",
   "kind" : "Broadsword",
 

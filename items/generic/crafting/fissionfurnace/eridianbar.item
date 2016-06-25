@@ -2,7 +2,7 @@
   "itemName" : "eridianbar",
   "rarity" : "Legendary",
   "inventoryIcon" : "eridianbar.png",
-  "description" : "This metal is lab-built, and extremely useful.",
-  "shortdescription" : "Eridian Bar",
+  "description" : "Lab-created and highly malleable. Great for many uses.",
+  "shortdescription" : "Morphite Bar",
   "learnBlueprintsOnPickup" : [ "shadowblade", "fuquantumhead", "fuquantumchest", "fuquantumlegs", "fuquantumhammer", "splittergun" ]
 }

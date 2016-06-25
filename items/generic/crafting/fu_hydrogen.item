@@ -4,5 +4,6 @@
   "inventoryIcon" : "fu_hydrogen.png",
   "description" : "Wonderful applications exist for this element.",
   "shortdescription" : "Hydrogen",
-  "learnBlueprintsOnPickup" : [ "isn_flamethrower" ]
+  "learnBlueprintsOnPickup" : [ "isn_flamethrower" ],
+  "fuelAmount" : 20
 }

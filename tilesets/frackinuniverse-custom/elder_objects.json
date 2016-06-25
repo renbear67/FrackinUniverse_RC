@@ -3,7 +3,7 @@
  "properties":
     {},
  "spacing":0,
- "tilecount":78,
+ "tilecount":82,
  "tileheight":279,
   "tileproperties" : {
       "0" : {
@@ -261,7 +261,27 @@
       },
       "77" : {
           "object" : "catacombs6"        
-      }  
+      },
+      "78" : {
+          "object" : "elderscrolldesk",
+          "imagePositionX" : "-20",
+          "imagePositionY" : "0"  
+      },      
+      "79" : {
+          "object" : "elderbookstand",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "0"  
+      },      
+      "80" : {
+          "object" : "elderbookstand_normal",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "0"            
+      },
+      "81" : {
+          "object" : "wagnertwo",
+          "imagePositionX" : "-25",
+          "imagePositionY" : "0"            
+      } 
     },
       
  "tiles":
@@ -577,7 +597,23 @@
      "77":
         {
          "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/catacombs6.png"
-        }  
+        },
+     "78":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/elderscrolldesk.png"
+        },
+     "79":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/elderbookstand.png"
+        },
+     "80":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/elderbookstand_normal.png"
+        },
+     "81":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/wagnertwo.png"
+        }              
     },
  "tilewidth":285
 }
