@@ -10,7 +10,7 @@
   "price" : 300,
   "lightColor" : [22, 34, 176],
   "inventoryIcon" : "darklightflowericon.png",
-  "learnBlueprintsOnPickup" : [ "darklightflower" ],
+  "learnBlueprintsOnPickup" : [ "bellamorte", "darklightflower" ],
   "orientations" : [
     {
       "dualImage" : "darklightflower.png:<color>.<stage>.<alt>",
