@@ -1,9 +1,9 @@
 {
   "name" : "lightregenenergy",
   "effectConfig" : {
-    "healTime" : 120
+    "healTime" : 420
   },
-  "defaultDuration" : 1,
+  "defaultDuration" : 60,
 
   "scripts" : [
     "lightregenenergy.lua"

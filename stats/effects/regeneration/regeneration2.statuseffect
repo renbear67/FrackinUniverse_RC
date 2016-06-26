@@ -1,7 +1,7 @@
 {
   "name" : "regeneration2",
   "effectConfig" : {
-    "healTime" : 60
+    "healTime" : 250
   },
   "defaultDuration" : 15,
 

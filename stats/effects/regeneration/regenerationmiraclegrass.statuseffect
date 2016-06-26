@@ -1,7 +1,7 @@
 {
   "name" : "regenerationmiraclegrass",
   "effectConfig" : {
-    "healTime" : 60
+    "healTime" : 500
   },
   "defaultDuration" : 15,
 

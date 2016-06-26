@@ -1,7 +1,7 @@
 {
   "name" : "regenerationminor3",
   "effectConfig" : {
-    "healTime" : 60
+    "healTime" : 300
   },
   "defaultDuration" : 15,
 
