@@ -34,6 +34,7 @@ function update(dt)
 	if world.entitySpecies(entity.id()) == "floran" then
 		status.addEphemeralEffect("racefloran",math.huge)
 		status.addEphemeralEffect("maxenergyboostfloran",math.huge)
+		status.addEphemeralEffect("lightregenfloran",math.huge)
 		
 	end
 	

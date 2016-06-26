@@ -1,0 +1,11 @@
+{
+  "name" : "lightregenfloran",
+  "effectConfig" : {
+    "healTime" : 420
+  },
+  "defaultDuration" : 1,
+
+  "scripts" : [
+    "lightregen.lua"
+  ]
+}
