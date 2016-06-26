@@ -1,8 +1,7 @@
 function init()
   local bounds = mcontroller.boundBox()
-  effect.setParentDirectives("fade=000000=0.15")
-  self.healingRate = 1.05 / effect.configParameter("healTime", 60)
-  script.setUpdateDelta(5)
+  self.healingRate = 1.01 / effect.configParameter("healTime", 120)
+  script.setUpdateDelta(10)
 end
 
 
@@ -26,31 +25,31 @@ end
 function update(dt)
   local lightLevel = getLight()
 		if lightLevel > 95 then
-    self.healingRate = 1.01 / effect.configParameter("healTime", 60)
+    self.healingRate = 1.01 / effect.configParameter("healTime", 120)
     status.modifyResourcePercentage("energy", self.healingRate * dt)
 		elseif lightLevel > 90 then
-    self.healingRate = 1.008 / effect.configParameter("healTime", 60)
+    self.healingRate = 1.008 / effect.configParameter("healTime", 120)
     status.modifyResourcePercentage("energy", self.healingRate * dt)
 		elseif lightLevel > 80 then
-    self.healingRate = 1.007 / effect.configParameter("healTime", 60)
+    self.healingRate = 1.007 / effect.configParameter("healTime", 120)
     status.modifyResourcePercentage("energy", self.healingRate * dt)
 		elseif lightLevel > 70 then
-    self.healingRate = 1.006 / effect.configParameter("healTime", 60)
+    self.healingRate = 1.006 / effect.configParameter("healTime", 120)
     status.modifyResourcePercentage("energy", self.healingRate * dt)
 		elseif lightLevel > 65 then
-    self.healingRate = 1.005 / effect.configParameter("healTime", 60)
+    self.healingRate = 1.005 / effect.configParameter("healTime", 120)
     status.modifyResourcePercentage("energy", self.healingRate * dt)
 		elseif lightLevel > 55 then
-    self.healingRate = 1.004 / effect.configParameter("healTime", 60)
+    self.healingRate = 1.004 / effect.configParameter("healTime", 120)
     status.modifyResourcePercentage("energy", self.healingRate * dt)
 		elseif lightLevel > 45 then
-    self.healingRate = 1.003 / effect.configParameter("healTime", 60)
+    self.healingRate = 1.003 / effect.configParameter("healTime", 120)
     status.modifyResourcePercentage("energy", self.healingRate * dt)
 		elseif lightLevel > 35 then
-    self.healingRate = 1.002 / effect.configParameter("healTime", 60)
+    self.healingRate = 1.002 / effect.configParameter("healTime", 120)
     status.modifyResourcePercentage("energy", self.healingRate * dt)
 		elseif lightLevel > 25 then
-    self.healingRate = 1.001 / effect.configParameter("healTime", 60)
+    self.healingRate = 1.001 / effect.configParameter("healTime", 120)
     status.modifyResourcePercentage("energy", self.healingRate * dt)
 		end  
 end

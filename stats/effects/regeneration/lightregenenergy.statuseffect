@@ -1,7 +1,7 @@
 {
   "name" : "lightregenenergy",
   "effectConfig" : {
-    "healTime" : 60
+    "healTime" : 120
   },
   "defaultDuration" : 1,
 

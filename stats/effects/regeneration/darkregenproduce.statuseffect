@@ -1,7 +1,7 @@
 {
   "name" : "darkregenproduce",
   "effectConfig" : {
-    "healTime" : 60
+    "healTime" : 120
   },
   "defaultDuration" : 40,
 
