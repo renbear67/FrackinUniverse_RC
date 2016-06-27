@@ -2,7 +2,7 @@
   "materialId" : 6748,
   "materialName" : "labbeam",
   "particleColor" : [20, 20, 20, 255],
-  "itemDrop" : "hitechmetalblock",
+  "itemDrop" : "labbeam",
   "description" : "Advanced metals form a fantastic building alloy.",
   "shortdescription" : "Plasteel Beam",
   "health" : 20,

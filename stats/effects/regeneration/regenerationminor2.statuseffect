@@ -1,7 +1,7 @@
 {
   "name" : "regenerationminor2",
   "effectConfig" : {
-    "healTime" : 380
+    "healTime" : 200
   },
   "defaultDuration" : 15,
 

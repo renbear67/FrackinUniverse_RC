@@ -1,7 +1,7 @@
 {
   "name" : "lightregenproduce",
   "effectConfig" : {
-    "healTime" : 420
+    "healTime" : 120
   },
   "defaultDuration" : 60,
 

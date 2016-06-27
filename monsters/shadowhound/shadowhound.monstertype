@@ -52,14 +52,14 @@
       "canOpenDoors" : false
     },
     "metaBoundBox" : [-3.0, -1.0, 3.0, 1.0],
-    "scale" : 1.4,
+    "scale" : 1.2,
 
     "movementSettings" : {
       "collisionPoly" : [ [-1.75, -1.0], [1.75, -1.0], [1.75, 1.0], [-1.75, 1.0] ],
 
       "mass" : 0.35,
       "walkSpeed" : 8,
-      "runSpeed" : 12,
+      "runSpeed" : 14,
       "flySpeed" : 15,
       "airForce" : 70.0,
       
