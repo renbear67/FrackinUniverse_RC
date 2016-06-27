@@ -12,7 +12,12 @@
   "actionOnReap" : [
     {
       "action" : "config",
-      "file" : "/projectiles/explosions/acidexplosion/acidexplosion.config"
+      "file" : "/projectiles/explosions/acidexplosion3/acidexplosion3.config"
+    },
+    {
+      "action" : "liquid",
+      "liquid" : "pus",
+      "quantity" : 5
     }
   ],
   "power" : 50,
