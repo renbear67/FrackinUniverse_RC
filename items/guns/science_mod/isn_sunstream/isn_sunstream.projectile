@@ -8,11 +8,20 @@
   "power" : 0.2,
   "level" : 6,
   "speed" : 40,
-  "timeToLive" : 10,
-  "bounces" : 12,
+  "timeToLive" : 4,
+  "bounces" : 5,
   "piercing" : false,
   "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],
   "lightColor" : [100, 100, 0],
   "damageKind" : "flamethrower",
-  "statusEffects" : [ "burning" ]
+  "statusEffects" : [ "burning" ],
+  "periodicActions" : [
+    {
+      "time" : 0.35,
+      "loop" : true,
+      "action" : "projectile",
+      "type" : "fuelairignition",
+      "fuzzAngle" : 360
+   }
+  ]
 }

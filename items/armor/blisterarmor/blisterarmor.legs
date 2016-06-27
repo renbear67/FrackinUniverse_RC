@@ -32,6 +32,7 @@
       "stat" : "maxHealth",
       "amount" : 8
     },
+    "protoimmunity",
    "glowpurple"
   ],
     "questTags" : [ "tier4armor" ]

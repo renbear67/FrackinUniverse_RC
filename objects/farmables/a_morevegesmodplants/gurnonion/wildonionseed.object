@@ -3,7 +3,7 @@
     "colonyTags" : [ "nature" ],
   "rarity" : "Common",
   "category" : "farmable",
-  "description" : "An gurn onion! Great for washing all those tears away.",
+  "description" : "A sun-powered Gurn Onion. Quite useful, actually.",
   "shortdescription" : "Gurn Onion Seed",
   "objectType" : "farmable",
   "printable" : false, 

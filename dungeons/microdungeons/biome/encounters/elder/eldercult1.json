@@ -3,7 +3,7 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJzt2m1uwjAMBuCcobcCIX51cB0uCf\/aswwEEZ6XOLbjfKiNpVftSgl+ltBVWh\/O3R4ju8rdObeF7MnKMbfuraa5dU81za17qW3Gx7dUwzu8W6rhHd4t1fAOL6eu0zvaqvV+y\/nFn4n3Yz\/7\/dAxzdhUWXhxv63DNVus59bh1Jhfvre1TWPWelubtGaNV\/qdqVmp3qTenq2+qB418\/vzHOcyfbc9BfYWKo13fo51mN7bM5HU6yXOm8G2lPcQyUy8VuK88\/S3t+Ed3treI0ivXngNzPF656s4Zo63xPX5Ne5p+l4Tc7ywLLywtxLeI5E58XrImzteaW\/OfFjPr5\/jnr04vXt7u7+SerEZF75HbX2\/TN0\/X5B5CVip\/wHHamEeS9UCEjuuCXZYeBe0L\/WG+rTwOoY3Zub2qTGHfmeaz0t5Jc+rpHqFWT9JGUM+yrsyfLjuYCt5RofqO+al3FSvcBzvjCW1lnzv0mewqOKYsZvr5VitvNCdKomZux4tvFKrD4PM8kq\/g9p1nGP10fxNWN1\/O3e9cuc2lBxnynr6hDKH+szxctw15zU15xJD7Tm29EntGmfp9Zw7nxwbd\/1aWHPsJa9J1nNqYS5trGGVuKEjx9ODtdT1u1dnjpn7vtB5LZ1SP\/f81v3nmFv3MbK\/\/ALzcI2F",
+         "data":"eJzt2llugzAQBmCfgXP1IVGVJ7odpZdM3uAsTRSsTl17PJsXgUf6BQXizFc7pFK5Ofd9GzlUrs65PeRIVoq5dW81za17qmlu3Uttc3h8TzW8w7unGt7h3VMN7\/BS6mN6Rlq1Xm85v+F7hvupn\/1+7JhkbKwsvGG\/rUM1W6zn1qHUmF+6t7VNYpZ6W5ukZomX+5mpWbneuN6erb6wHiXz+3Yf53P63fYU2FusJN75PtZpem4v93wlMiPnSlx3AT3NBb2nRGbkXInrLtPf3oZ3eGt7zyC9euE9UOP1zkdRzBRvifvzY9zXbXytF5aFF\/ZWwntGMmfOx7za8Up7NfNhPb9+jnv2hundW+PvJs51XG9oDut9et774LanhL3BWiJW7H\/AqVqIx3K1gKSOSxI6LLxLsM\/1xvq08DqCN2Wm9ikxx35nkvfLeTnPq+R6hVm35IwxH+ZdCb6wrmDLeUYH6zvlxdxYr3Ac70wlt5Z879xnsLCimEM31UuxWnmhO1ccM3U9Wni5Vh8CmeTlfgal61hj9ZF8J6zuv526XqlzG4vGmbO+bMHMsT41Xoq75rzm5pxjqD3Hlj6uXeIsvZ6180mxUdevhVVjL3lPsp5TC3NpYw0rxw0dGk8P1lL3716dGjP1dbHrWjq5fur1rfvXmFv3MXK8\/ACbgKVP",
          "encoding":"base64",
          "height":60,
          "name":"back",
@@ -16,7 +16,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJztlmEOgjAMRj0Dt\/I\/4unhLJqIkSzt6LquHe57SSM41vWVZeF2AwAAAAAAAAAAAMdz+sRV51usmV5z999r6j9N7tak9UbHSM4juXo4R7t5Okc7eTof8947C2vnnl1bOT\/eeZbp99tTHGuzYt77OBvmtKJFbfDtB\/j2mdOKFrW1OAOt6Lk2AACoZd2DIv1Gjf5ezn0\/L8kZvTFeqyC2k7Ht8Ex6Tz1HjZcGlY\/KqfEtXZNaX9IXST6pp9aXy0XVytUt6ZOml5I9QiHZp1wfuHcmmX9Wb41nqW+uJslelMyXeGrGc66cb+7ckfZGcyZZ7Isa39J6ta6WZ7fGtyZqavbwtXSueUderta+EfsiylfbH0tXiW+EcytXqa+ns\/VZrHH1dm4VGqJr9nS9orMl0S5enj07ezGKZ8oIjhpydf+DX6+8ANgg81E=",
+         "data":"eJztlm0OgyAMhj2DJ9v\/fZ1cz7IlcxkhLZZSSp3vkzTTIaVPJcRpAgAAAAAAAAAAAMdj\/sRR51usmV9z999r6j9N7t7k9Y6OMzmfydXDebSbp\/NoJ0\/nNO8lWFg7R3bt5Xx753nOv99IkdZmxXXr49UwpxU9aoNvHOAbM6cVPWrrcQZaEbk2AABoZdmCIv9GvQeL\/Ns+ZWW8FkGsO2Nr8kx+Tz1HjdcGlY\/KqfGtXZNaX9IXST6pp9aXy0XVytUt6ZOml5I9QiHZp1wfuHcmmb9Xb4tnrW+pJslelMyXeGrGS66cb+nckfZGcyZZ7IsW39p6ta6WZ7fGtyVaavbwtXRueUderta+I\/bFKF9tfyxdJb4jnHu5Sn09na3PYo2rt3Ov0DC6Zk\/XIzpbMtrFyzOysxdn8cw5g6OGUt3\/4BeVF0zG\/wk=",
          "encoding":"base64",
          "height":60,
          "name":"front",
@@ -47,7 +47,7 @@
          "name":"objects",
          "objects":[
                 {
-                 "gid":4719,
+                 "gid":4728,
                  "height":32,
                  "id":1007,
                  "name":"",
@@ -63,7 +63,7 @@
                  "y":296
                 }, 
                 {
-                 "gid":4719,
+                 "gid":4728,
                  "height":32,
                  "id":1009,
                  "name":"",
@@ -79,7 +79,7 @@
                  "y":296
                 }, 
                 {
-                 "gid":4724,
+                 "gid":4733,
                  "height":48,
                  "id":1011,
                  "name":"",
@@ -95,7 +95,7 @@
                  "y":264
                 }, 
                 {
-                 "gid":4729,
+                 "gid":4738,
                  "height":48,
                  "id":1012,
                  "name":"",
@@ -111,7 +111,7 @@
                  "y":264
                 }, 
                 {
-                 "gid":4772,
+                 "gid":4781,
                  "height":40,
                  "id":1013,
                  "name":"",
@@ -127,7 +127,7 @@
                  "y":296
                 }, 
                 {
-                 "gid":4772,
+                 "gid":4781,
                  "height":40,
                  "id":1014,
                  "name":"",
@@ -143,7 +143,7 @@
                  "y":296
                 }, 
                 {
-                 "gid":4756,
+                 "gid":4765,
                  "height":35,
                  "id":1015,
                  "name":"",
@@ -159,7 +159,7 @@
                  "y":296
                 }, 
                 {
-                 "gid":4678,
+                 "gid":4685,
                  "height":96,
                  "id":1018,
                  "name":"",
@@ -175,7 +175,7 @@
                  "y":304
                 }, 
                 {
-                 "gid":4677,
+                 "gid":4684,
                  "height":48,
                  "id":1020,
                  "name":"",
@@ -191,7 +191,7 @@
                  "y":256
                 }, 
                 {
-                 "gid":4777,
+                 "gid":4786,
                  "height":16,
                  "id":1021,
                  "name":"",
@@ -207,7 +207,7 @@
                  "y":296
                 }, 
                 {
-                 "gid":4777,
+                 "gid":4786,
                  "height":16,
                  "id":1022,
                  "name":"",
@@ -223,7 +223,7 @@
                  "y":296
                 }, 
                 {
-                 "gid":4777,
+                 "gid":4786,
                  "height":16,
                  "id":1023,
                  "name":"",
@@ -239,7 +239,7 @@
                  "y":296
                 }, 
                 {
-                 "gid":4779,
+                 "gid":4788,
                  "height":12,
                  "id":1025,
                  "name":"",
@@ -255,7 +255,7 @@
                  "y":296
                 }, 
                 {
-                 "gid":4779,
+                 "gid":4788,
                  "height":12,
                  "id":1027,
                  "name":"",
@@ -271,7 +271,7 @@
                  "y":296
                 }, 
                 {
-                 "gid":4779,
+                 "gid":4788,
                  "height":12,
                  "id":1028,
                  "name":"",
@@ -287,7 +287,7 @@
                  "y":296
                 }, 
                 {
-                 "gid":4779,
+                 "gid":4788,
                  "height":12,
                  "id":1029,
                  "name":"",
@@ -303,7 +303,7 @@
                  "y":296
                 }, 
                 {
-                 "gid":4778,
+                 "gid":4787,
                  "height":16,
                  "id":1030,
                  "name":"",
@@ -319,7 +319,7 @@
                  "y":296
                 }, 
                 {
-                 "gid":4778,
+                 "gid":4787,
                  "height":16,
                  "id":1031,
                  "name":"",
@@ -335,7 +335,7 @@
                  "y":296
                 }, 
                 {
-                 "gid":4778,
+                 "gid":4787,
                  "height":16,
                  "id":1032,
                  "name":"",
@@ -763,110 +763,110 @@
  "tilesets":[
         {
          "firstgid":1,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/materials.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/materials.json"
         }, 
         {
          "firstgid":179,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/supports.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/supports.json"
         }, 
         {
          "firstgid":213,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/miscellaneous.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/miscellaneous.json"
         }, 
         {
          "firstgid":231,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/liquids.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/liquids.json"
         }, 
         {
          "firstgid":257,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-race\/generic.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-race\/generic.json"
         }, 
         {
          "firstgid":1556,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/decorative.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/decorative.json"
         }, 
         {
          "firstgid":2554,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/door.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/door.json"
         }, 
         {
          "firstgid":2647,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/farmable.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/farmable.json"
         }, 
         {
          "firstgid":2719,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/furniture.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/furniture.json"
         }, 
         {
          "firstgid":3000,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/light.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/light.json"
         }, 
         {
          "firstgid":3371,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/pot.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/pot.json"
         }, 
         {
          "firstgid":3631,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/sapling.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/sapling.json"
         }, 
         {
          "firstgid":3632,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/storage.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/storage.json"
         }, 
         {
          "firstgid":3827,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/teleporter.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/teleporter.json"
         }, 
         {
          "firstgid":3851,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/trap.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/trap.json"
         }, 
         {
          "firstgid":4026,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/wire.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/wire.json"
         }, 
         {
          "firstgid":4172,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-type\/loungeable.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-type\/loungeable.json"
         }, 
         {
          "firstgid":4383,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/huge-objects.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/huge-objects.json"
         }, 
         {
          "firstgid":4395,
          "source":"..\/..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/fumaterials2.json"
         }, 
         {
-         "firstgid":4485,
+         "firstgid":4490,
          "source":"..\/..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/fu_labgear.json"
         }, 
         {
-         "firstgid":4580,
+         "firstgid":4587,
          "source":"..\/..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/fu_labmaterials.json"
         }, 
         {
-         "firstgid":4592,
+         "firstgid":4599,
          "source":"..\/..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/fu_stations.json"
         }, 
         {
-         "firstgid":4656,
+         "firstgid":4663,
          "source":"..\/..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/fu_liquids.json"
         }, 
         {
-         "firstgid":4677,
+         "firstgid":4684,
          "source":"..\/..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/fu_elderceiling.json"
         }, 
         {
-         "firstgid":4681,
+         "firstgid":4688,
          "source":"..\/..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/elder_materials.json"
         }, 
         {
-         "firstgid":4696,
+         "firstgid":4705,
          "source":"..\/..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/elder_deco2.json"
         }, 
         {
-         "firstgid":4713,
+         "firstgid":4722,
          "source":"..\/..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/elder_objects.json"
         }],
  "tilewidth":8,

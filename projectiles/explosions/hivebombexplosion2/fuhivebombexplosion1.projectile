@@ -5,7 +5,7 @@
   "animationCycle" : 0,
   "frameNumber" : 1,
   "speed" : 15,
-  "timeToLive" : 0.5,
+  "timeToLive" : 1,
   "fallSpeed" : 0,
   "damagePoly" : [ ],
   "animationLoops" : false,

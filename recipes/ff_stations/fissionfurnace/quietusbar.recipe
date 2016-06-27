@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "blooddiamond", "count" : 2 }
+    { "item" : "quietusore", "count" : 2 }
   ],
   "output" : {
     "item" : "quietusbar",

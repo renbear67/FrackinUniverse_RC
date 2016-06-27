@@ -3,13 +3,13 @@
   "price" : 160,
   "inventoryIcon" : "shoggothgun.png",
   "maxStack" : 1,
-  "rarity" : "rare",
-  "description" : "Yea, this seems perfectly safe.",
+  "rarity" : "legendary",
+  "description" : "Fires organic drones and biomorphic fire.",
   "shortdescription" : "Biomorphic Cannon",
   "level" : 3,
   "tooltipKind" : "gun",
-  "weaponType" : "Rifle",
-  "itemTags" : ["weapon","ranged","rocketlauncher"],
+  "weaponType" : "Bio-Weapon",
+  "itemTags" : [ "weapon","ranged","assaultrifle" ],
   "twoHanded" : true,
 
   "animation" : "/items/active/weapons/ranged/gun.animation",
@@ -21,7 +21,7 @@
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : [ "/sfx/weapons/densiniumrifle.ogg" ]
+      "fire" : [ "/sfx/gun/splat.ogg" ]
     }
   },
 
@@ -32,25 +32,32 @@
   "elementalType" : "poison",
 
   "primaryAttack" : {
-    "fireTime" : 0.3,
-    "baseDps" : 11.0,
+    "fireTime" : 0.35,
+    "baseDps" : 8.42,
     "energyUsage" : 32.0,
     "inaccuracy" : 0.01,
 
     "projectileCount" : 1,
     "fireType" : "auto",
 
-    "projectileType" : "shoggothblast",
+    "projectileType" : "corrosiveparticle",
     "projectileParameters" : { 
-      "speed" : 50,
-      "knockback" : 8
+      "speed" : 52,
+      "knockback" : 8,
+    "statusEffects" : [ "weakpoison" ],
+
+    "ignoreTerrain" : false,
+    "controlForce" : 40,
+    "pickupDistance" : 1.5,
+    "snapDistance" : 3.0,
+
+    "wobbleRate" : 1.5,
+    "wobbleIntensity" : 2.0
     }
   },
     "particleEmitters" : {
       "muzzleFlash" : {
         "particles" : [
-          { "particle" : "fastrisingpoison1", "offset" : [0.0, 0.0] },
-          { "particle" : "fastrisingpoison1", "offset" : [0.0, 0.0] },
           { "particle" : "fastrisingpoison1", "offset" : [0.0, 0.0] }
         ]
       }
@@ -85,6 +92,5 @@
   },
 
   "altAbilitySource" : "/items/active/weapons/ranged/altabilities/shoggothburst/shoggothburst.altability",
-
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

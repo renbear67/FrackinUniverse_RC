@@ -3,7 +3,7 @@
  "properties":
     {},
  "spacing":0,
- "tilecount":95,
+ "tilecount":97,
  "tileheight":279,
   "tileproperties" : {
       "0" : {
@@ -482,7 +482,17 @@
           "object" : "avaliterminal3",
           "imagePositionX" : "-16",
           "imagePositionY" : "0"
-      }
+      },
+      "95" : {
+          "object" : "fuokeaglitchwagon",
+          "imagePositionX" : "-52",
+          "imagePositionY" : "0"
+      },
+      "96" : {
+          "object" : "fugallows",
+          "imagePositionX" : "-40",
+          "imagePositionY" : "0"
+      } 
     },
       
  "tiles":
@@ -866,7 +876,15 @@
       "94":
         {
          "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/avaliterminal3.png"
-        }        
+        },
+      "95":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/fuokeaglitchwagon.png"
+        },
+      "96":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/objects\/fugallows.png"
+        } 
     },
  "tilewidth":285
 }      

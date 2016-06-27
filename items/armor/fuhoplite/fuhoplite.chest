@@ -5,7 +5,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "Increases shield regen speed.",
+  "description" : "Increases shield regen speed and blocks proto-poison.",
   "shortdescription" : "Hoplite Plate",
   "tooltipKind" : "armor",
 
@@ -41,6 +41,7 @@
       "stat" : "maxHealth",
       "amount" : 14
     },
+    "protoimmunity",
     "shieldregen3"
   ],
 

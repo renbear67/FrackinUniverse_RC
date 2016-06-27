@@ -5,12 +5,14 @@
   "spawnProfile" : {
     "groups" : [
       {
-        "select" : 1,
+        "select" : 2,
         "pool" : [ 
-          [ 0.1111, "snaunt" ],     
+          [ 0.1111, "snaunt" ],  
+          [ 0.1111, "snaunt2" ],
           [ 0.1111, "sporgus" ],
-          [ 0.1111, "voltip" ],        
-          [ 0.1111, "fucaterpillar" ],     
+          [ 0.1111, "sporgus2" ],
+          [ 0.1111, "sporgus3" ],
+          [ 0.1111, "fucaterpillar" ],
           [ 0.1111, "seedspawn" ]
         ]
       },
@@ -177,15 +179,30 @@
               [0.35, "wildlactariusindigoseed" ],
               [0.35, "wildgoldshroomseed" ],
               [0.35, "wildfayshroomseed" ],
-              [0.35, "flowerred" ], 
-              [0.35, "flowerblue" ], 
-              [0.35, "floweryellow" ],
-              [0.35, "flowerspring" ]
+            [0.15, "flowerred" ], 
+            [0.15, "flowerblue" ], 
+            [0.15, "floweryellow" ], 
+            [0.15, "flowerspring" ], 
+            [0.15, "flowerblack" ],
+            [0.15, "flowerbrown" ],
+            [0.15, "flowergreen" ],
+            [0.15, "flowergrey" ],
+            [0.15, "flowerorange" ],
+            [0.15, "flowerorchid" ],
+            [0.15, "flowerorchid2" ],
+            [0.15, "flowerorchid3" ],
+            [0.15, "flowerpink" ],
+            [0.15, "flowerpurple" ],
+            [0.15, "flowerwhite" ]
           ],
               "parameters" : { "startingStage" : 3 }
             }
           ]
         },
+        
+       
+        
+        
         {
           "mode" : "floor",
           "priority" : 1.0,
@@ -339,7 +356,7 @@
           "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "shroommicrodungeons", "forestmicrodungeons" ]
+          "microdungeons" : [ "fuencounters", "shroommicrodungeons", "forestmicrodungeons" ]
         },        
         {
           "mode" : "floor",
@@ -348,7 +365,7 @@
           "distribution" : "/biomes/distributions.config:randomEncounter",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "fuencounters", "newhumanmicro", "newavianmicro", "minigreenruins", "furandomencounter", "fuglitchencounter", "fuavianencounter" ]
+          "microdungeons" : [ "fubandits", "fushops", "fulabs", "newhumanmicro", "newavianmicro", "minigreenruins", "furandomencounter", "fuglitchencounter", "fuavianencounter" ]
         },
         {
           "mode" : "floor",
@@ -590,6 +607,18 @@
           "priority" : 2.0,
           "variants" : 1,
           "distribution" : "/biomes/distributions.config:denseMedium",
+
+          "type" : "tree",
+          "treeFoliageHueShiftMax" : 180,
+          "treeStemHueShiftMax" : 180,
+          "treeStemList" : [ "stalk" ],
+          "treeFoliageList" : [ "shroomy" ]
+        },
+        {
+          "mode" : "ceiling",
+          "priority" : 2.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:ffunCommon",
 
           "type" : "tree",
           "treeFoliageHueShiftMax" : 180,

@@ -34,17 +34,17 @@
 
   "primaryAttack" : {
     "fireTime" : 0.80,
-    "baseDps" : 7.4,
-    "energyUsage" : 27.5,
+    "baseDps" : 12.4,
+    "energyUsage" : 25.0,
     "inaccuracy" : 0.20,
 
-    "projectileCount" : 5,
+    "projectileCount" : 3,
     "fireType" : "auto",
 
     "projectileType" : "protoshot3",
     "projectileParameters" : { 
       "speed" : 50,
-      "knockback" : 15
+      "knockback" : 25
     }
   },
 

@@ -3,7 +3,7 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJzt2mFqwzAMBWDfwXewofm1G+6S67\/eZTOdQQh5IZlfJDl68CgNpeRDjZviPlP6fEZv1a+UktW+DtS79ah3z6xtQXhHZm0H0svN2oarzfz9rCe84Q1veL14W8Ib3vCG14P3kcMbXt\/eZqRd2cutK3sl6x29Z8wevFLOzDa8PrxnreEN74x8\/KyjW34\/FtKekvc7w6rp7dnyfmm8eVuot+Z3R\/OcOVstb8\/2a+2uQuxVsHv3Fva8Cl4a715+bXYnyqrpLcJaVImXZxWvtHZx7ywr9XLzld5ulqzl5O++Petfe8Bob2Uzpq9Z2cvni\/aOzGiv9Hmmx1FWTS+\/t5r9fXTkPzpIL79PHt0\/o6yItXrkHc1VOo72UreVoK29GjYpV1gtma\/yquAGuZO1ZXUv3UtoQV+3FswtR\/ZS\/uu16kZaLbmbi3oRRktm9DytuTWcWmZNJ9qsbUK6tc87uk6\/AdLYUH8=",
+         "data":"eJzt2kGOwjAMBdDcISdJJbqaBcrJuCTs5i4zEY0wVgJKG8d26i99oVKE+jAthfJw7vawnqp355zU\/jZUu7XV+83MbaHw1szcDkovNnMbRpvx80mPec1rXvNq8aaY17zmNa8G78Wb17y6vckIO7MXW2f2lqxn9O4xj\/Jefb+6RqO2+ZZyJu9eq3nl778avD\/\/27n6523cGvxrffDvjehx8LFHrBxevP2r\/14Ybd4U6F38s3imObHjbLm8Oetmza64LQf0GsziDWh5QV68XrsX75t5vlRWTm8oHIsW4MWZxVs6dmFvLyv0YvNIbzaXrGkdhfXTNWAKbwTeBc0YWmf24vlSe2tmam\/p\/Qzvp7JyegOy9\/48avmPDqUXnyfXzp+prBTH6po3VuZamje1F7p7hOt7b4s1txP5cEZYJZlHeVlwlWix9vr9Sot3b+C1hBTq\/VaCOaXlWspRr1Q3pVWSO7mgl8IoyUw9T2luDieXmdNJbeY2Ubq5t9s6T\/8AtuRxlw==",
          "encoding":"base64",
          "height":60,
          "name":"back",
@@ -16,7 +16,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt2UsOwjAMhOHegTtQFVbA\/Y\/CXYgXlaIoPJJYJTOeX\/KqG39KQSIsi1Lz9GwYhlq8DOZWL7q5xyszVvLKKy9u8sorL27RvJeTvKxes0bx7tYI3tzK7i2tzN6atdc9e9+s24Tee9rp4Ti5dWs0H9Et7bOmOVdm\/fDs3XMEr+15dZrSOqPX63xLJ\/vnt9eJ8v2cZ\/tG8o6+y0je8mwjeHNzz7uM4s33jejttSJ6RwcheXmtlrzyslgteXmte0hej9+\/KFbL634DwWp53V8heY8+33\/meX+F4B2p5\/8ThlrMLP3iZavmZS+S1YriVEqpF0CYjOc=",
+         "data":"eJzt2UEKwjAUhOHewZNYqisL4v2v4F3MWxRCiLFJQ83Mmx\/eKpt8pClYp0mpcXpXDEM1XgZzrRfd3OKVGSt55ZUXN3nllRc3b97bRV5Wr1m9eDerB29sZfemVmZvztrqHr1f1mVA7xr29Ow4sXWpNJ\/RI+xnDvPKzFxY+7aO4LV93jtNah3R2+t8Uyf7\/W11oryf42y\/nrxHn2Ukb3q2HryxueVZRvHG+\/XobbUieo8OQvLyWi155WWxWvLyWreQvGvh9\/zeQbFa2\/eNa2bmwlq6jmC1en2\/QvKefb7\/rMf9rb3HqLX8f8JQjZmlPV62cl72PFktL06llPoAk8Gbgg==",
          "encoding":"base64",
          "height":60,
          "name":"front",
@@ -47,7 +47,7 @@
          "name":"objects",
          "objects":[
                 {
-                 "gid":2147488642,
+                 "gid":2147488657,
                  "height":64,
                  "id":1037,
                  "name":"",
@@ -63,7 +63,7 @@
                  "y":352
                 }, 
                 {
-                 "gid":4939,
+                 "gid":4954,
                  "height":32,
                  "id":1041,
                  "name":"",
@@ -79,7 +79,7 @@
                  "y":352
                 }, 
                 {
-                 "gid":4998,
+                 "gid":5013,
                  "height":16,
                  "id":1042,
                  "name":"",
@@ -95,7 +95,7 @@
                  "y":352
                 }, 
                 {
-                 "gid":4997,
+                 "gid":5012,
                  "height":16,
                  "id":1043,
                  "name":"",
@@ -427,110 +427,110 @@
  "tilesets":[
         {
          "firstgid":1,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/materials.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/materials.json"
         }, 
         {
          "firstgid":179,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/supports.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/supports.json"
         }, 
         {
          "firstgid":213,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/miscellaneous.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/miscellaneous.json"
         }, 
         {
          "firstgid":231,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/liquids.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/liquids.json"
         }, 
         {
          "firstgid":257,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-race\/generic.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-race\/generic.json"
         }, 
         {
          "firstgid":1556,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/crafting.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/crafting.json"
         }, 
         {
          "firstgid":1616,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/decorative.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/decorative.json"
         }, 
         {
          "firstgid":2614,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/door.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/door.json"
         }, 
         {
          "firstgid":2707,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/furniture.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/furniture.json"
         }, 
         {
          "firstgid":2988,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/light.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/light.json"
         }, 
         {
          "firstgid":3359,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/pot.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/pot.json"
         }, 
         {
          "firstgid":3619,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/storage.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/storage.json"
         }, 
         {
          "firstgid":3814,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/teleporter.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/teleporter.json"
         }, 
         {
          "firstgid":3838,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/trap.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/trap.json"
         }, 
         {
          "firstgid":4013,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-category\/wire.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/wire.json"
         }, 
         {
          "firstgid":4159,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-type\/container.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-type\/container.json"
         }, 
         {
          "firstgid":4397,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/objects-by-type\/loungeable.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-type\/loungeable.json"
         }, 
         {
          "firstgid":4608,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/unpacked-stable\/tilesets\/packed\/huge-objects.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/huge-objects.json"
         }, 
         {
          "firstgid":4620,
          "source":"..\/..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/fumaterials2.json"
         }, 
         {
-         "firstgid":4706,
+         "firstgid":4715,
          "source":"..\/..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/fu_labgear.json"
         }, 
         {
-         "firstgid":4801,
+         "firstgid":4812,
          "source":"..\/..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/fu_labmaterials.json"
         }, 
         {
-         "firstgid":4813,
+         "firstgid":4824,
          "source":"..\/..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/fu_stations.json"
         }, 
         {
-         "firstgid":4877,
+         "firstgid":4888,
          "source":"..\/..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/fu_liquids.json"
         }, 
         {
-         "firstgid":4898,
+         "firstgid":4909,
          "source":"..\/..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/fu_elderceiling.json"
         }, 
         {
-         "firstgid":4902,
+         "firstgid":4913,
          "source":"..\/..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/elder_materials.json"
         }, 
         {
-         "firstgid":4916,
+         "firstgid":4931,
          "source":"..\/..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/elder_deco2.json"
         }, 
         {
-         "firstgid":4933,
+         "firstgid":4948,
          "source":"..\/..\/..\/..\/..\/tilesets\/frackinuniverse-custom\/elder_objects.json"
         }],
  "tilewidth":8,

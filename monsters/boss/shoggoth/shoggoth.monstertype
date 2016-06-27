@@ -35,7 +35,7 @@
       {
         "trigger" : "healthPercentage",
         "healthPercentage" : 0.60,
-        "skills" : [ "eyeBeamAttack" ]
+        "skills" : [ "fleshBombAttack" ]
       },      
       {
         "trigger" : "healthPercentage",

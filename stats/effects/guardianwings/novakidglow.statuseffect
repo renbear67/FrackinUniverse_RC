@@ -1,0 +1,11 @@
+{
+  "name" : "novakidglow",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "yellowguardian.lua"
+  ],
+
+  "animationConfig" : "yellowguardian.animation"
+}

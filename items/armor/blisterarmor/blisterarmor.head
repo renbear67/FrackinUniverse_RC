@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "rare",
-  "description" : "An effective lightsource and decent radiation shield",
+  "description" : "An effective lightsource and decent proto shield.",
   "shortdescription" : "Blister Helm",
   "tooltipKind" : "armor",
   "learnBlueprintsOnPickup" : [ "blisterhelmalt"],
@@ -28,11 +28,8 @@
       "stat" : "maxEnergy",
       "amount" : 36
     },
-    {
-      "stat" : "biomeradiationImmunity",
-      "amount" : 1
-    },
-   "glowpurple"
+    "protoimmunity",
+    "glowpurple"
   ],
     "questTags" : [ "tier4armor" ]
 

@@ -1,0 +1,10 @@
+{
+  "name" : "raceponex",
+  "effectConfig" : {},
+  "defaultDuration" : 300,
+
+  "scripts" : [
+    "raceponex.lua"
+  ]
+
+}

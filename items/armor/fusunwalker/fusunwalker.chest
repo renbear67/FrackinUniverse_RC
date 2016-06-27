@@ -25,24 +25,17 @@
       "stat" : "powerMultiplier",
       "baseMultiplier" : 2.05
     },
-
     {
       "stat" : "protection",
       "amount" : 34
     },
-
     {
       "stat" : "maxEnergy",
       "amount" : 64
     },
-
     {
       "stat" : "maxHealth",
       "amount" : 35
-    },
-    {
-      "stat" : "wetImmunity",
-      "amount" : 1
     },
     "defense2"
   ],

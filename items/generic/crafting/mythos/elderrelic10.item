@@ -2,6 +2,6 @@
   "itemName" : "elderrelic10",
   "rarity" : "rare",
   "inventoryIcon" : "elderrelic10.png",
-  "description" : "This stone reads as organic, yet bleeds if cut.",
+  "description" : "This stone reads as inorganic, yet bleeds if cut.",
   "shortdescription" : "^#ffe50e;Akashic Stone^white;"
 }

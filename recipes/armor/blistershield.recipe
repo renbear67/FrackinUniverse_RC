@@ -2,8 +2,7 @@
   "input" : [
     { "item" : "blisterextract", "count" : 4 },
     { "item" : "titaniumbar", "count" : 2 },
-    { "item" : "gene_harden", "count" : 2 },
-    { "item" : "biochip", "count" : 4 }
+    { "item" : "gene_harden", "count" : 2 }
   ],
   "output" : {
     "item" : "blistershield",

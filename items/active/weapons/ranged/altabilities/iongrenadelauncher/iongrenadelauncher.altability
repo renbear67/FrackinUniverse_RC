@@ -36,7 +36,7 @@
     "scripts" : ["/items/active/weapons/ranged/altabilities/altfire.lua"],
     
     "elementalConfig" : {
-      "physical" : { "projectileType" : "impactgrenade" },
+      "physical" : { "projectileType" : "ocucannonshot" },
       "fire" : { "projectileType" : "firecloudgrenade" },
       "electric" : { "projectileType" : "electriccloudgrenade" },
       "ice" : { "projectileType" : "icecloudgrenade" },

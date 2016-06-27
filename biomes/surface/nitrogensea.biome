@@ -11,7 +11,9 @@
       {
         "select" : 1,
         "pool" : [ 
-          [ 0.1111, "icetroll" ]
+          [ 0.1111, "icetroll" ],
+          [ 0.1111, "wisper" ],
+          [ 0.1111, "wisper7" ]
         ]
       },
       {

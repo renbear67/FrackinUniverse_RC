@@ -307,10 +307,19 @@
           "mode" : "floor",
           "priority" : 3.0,
           "variants" : 1,
+          "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
+
+          "type" : "microdungeon",
+          "microdungeons" : [ "fuencounters", "toxicmicrodungeons", "alienmicrodungeons" ]
+        }, 
+        {
+          "mode" : "floor",
+          "priority" : 3.0,
+          "variants" : 1,
           "distribution" : "/biomes/distributions.config:randomEncounter",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "fulabs", "fushops", "fubandits", "fuelders", "fuavali", "fuencounters", "randomencounter", "treasureroom", "avianencounter", "glitchencounter", "shroomencounter", "furedhives", "furandomencounter" ]
+          "microdungeons" : [ "fubandits", "fushops", "fulabs", "fuelders", "fuavali", "randomencounter", "treasureroom", "avianencounter", "glitchencounter", "shroomencounter", "furedhives", "furandomencounter" ]
         },       
         {
           "mode" : "floor",

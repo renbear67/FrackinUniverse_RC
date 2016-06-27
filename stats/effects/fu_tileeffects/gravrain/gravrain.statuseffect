@@ -1,5 +1,6 @@
 {
   "name" : "gravrain",
+  "blockingStat" : "gravrainImmunity",
   "effectConfig" : {
     "gravityModifier" : -1.0
   },

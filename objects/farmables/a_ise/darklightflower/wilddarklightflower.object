@@ -9,7 +9,7 @@
   "printable" : false, 
   "lightColor" : [22, 34, 176],
   "inventoryIcon" : "darklightflowericon.png",
-    "learnBlueprintsOnPickup" : [ "bellamorte" ],
+    "learnBlueprintsOnPickup" : [ "bellamorte", "darklightflower" ],
   "orientations" : [
     {
       "dualImage" : "darklightflower.png:<color>.<stage>.<alt>",

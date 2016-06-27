@@ -2,8 +2,7 @@
   "input" : [
     { "item" : "carbonplate", "count" : 4 },
     { "item" : "moonstonebar", "count" : 5 },
-    { "item" : "mutaviskthread", "count" : 5 },
-    { "item" : "biochip", "count" : 1 }
+    { "item" : "mutaviskthread", "count" : 5 }
   ],
   "output" : {
     "item" : "xenochest",

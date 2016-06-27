@@ -7,7 +7,7 @@
   "description" : "Slimy, oozing protection. Immune to Bio-ooze.",
   "shortdescription" : "Gelatinous Chest II",
   "tooltipKind" : "armor",
-
+  "learnBlueprintsOnPickup" : [ "ff_slimechest2" ],
   "maleFrames" : {
     "body" : "chestm.png",
     "backSleeve" : "bsleeve.png",

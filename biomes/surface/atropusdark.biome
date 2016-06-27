@@ -10,9 +10,9 @@
           [ 0.1111, "fubloodgolem" ],     
           [ 0.1111, "headcrab" ],
           [ 0.1111, "fleshleech" ],     
-          [ 0.1111, "paratail" ],
+          [ 0.1111, "pteropod3" ],
           [ 0.1111, "fuheckblob" ],
-	  [ 0.1111, "hemogoblin" ],
+	  [ 0.1111, "snaunt2" ],
 	  [ 0.1111, "fleshreaper" ],
 	  [ 0.1111, "fleshreaper2" ],
 	  [ 0.1111, "fleshreaper3" ]
@@ -468,7 +468,7 @@
           "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "fleshmicrodungeons", "furedhives", "atropusmini" ]
+          "microdungeons" : [ "fleshmicrodungeons", "atropusmini", "darkmicrodungeons", "eyepatchmicrodungeons" ]
         },
         {
           "mode" : "floor",
@@ -477,7 +477,7 @@
           "distribution" : "/biomes/distributions.config:randomEncounter",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "fuelders", "fuencountercultist", "fuapexencounter", "furandomencounter" ]
+          "microdungeons" : [ "furedhives", "fuelders", "fuencountercultist", "fuapexencounter", "furandomencounter" ]
         },      
         {
           "mode" : "floor",

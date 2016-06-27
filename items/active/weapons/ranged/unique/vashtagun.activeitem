@@ -17,15 +17,15 @@
     "butt" : "",
     "middle" : "vashtagun.png",
     "barrel" : "",
-    "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
+    "muzzleFlash" : "/items/active/weapons/ranged/blankmuzzle.png"
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : [ "/sfx/weapons/vashtagun.ogg" ]
+      "fire" : [ "/sfx/weapons/energyassault.ogg" ]
     }
   },
 
-  "baseOffset" : [1.0, 0.2],
+  "baseOffset" : [1.3, 0.2],
   "muzzleOffset" : [1.645, 0.125],
   "learnBlueprintsOnPickup" : [ "minirocketlauncher2" ],
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
@@ -33,18 +33,18 @@
   "elementalType" : "poison",
 
   "primaryAttack" : {
-    "fireTime" : 0.22,
-    "baseDps" : 5.8,
+    "fireTime" : 0.12,
+    "baseDps" : 9.8,
     "energyUsage" : 18.0,
     "inaccuracy" : 0.1,
 
     "projectileCount" : 1,
     "fireType" : "auto",
 
-    "projectileType" : "lunarangshard",
+    "projectileType" : "vashtashard",
     "projectileParameters" : { 
       "speed" : 50,
-      "knockback" : 20
+      "knockback" : 8
     }
   },
     "particleEmitters" : {

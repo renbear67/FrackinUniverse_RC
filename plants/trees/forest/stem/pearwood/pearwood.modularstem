@@ -70,6 +70,60 @@
         "x" : 5,
         "y" : 20
       }
+    },
+    "base4" : {
+      "image" : "base4.png",
+      "attachment" : {
+        "bx" : 0,
+        "by" : 0,
+        "x" : 5,
+        "y" : 20
+      }
+    },
+    "base5" : {
+      "image" : "base5.png",
+      "attachment" : {
+        "bx" : 0,
+        "by" : 0,
+        "x" : 5,
+        "y" : 20
+      }
+    },
+    "base6" : {
+      "image" : "base6.png",
+      "attachment" : {
+        "bx" : 0,
+        "by" : 0,
+        "x" : 5,
+        "y" : 20
+      }
+    },
+    "base7" : {
+      "image" : "base7.png",
+      "attachment" : {
+        "bx" : 0,
+        "by" : 0,
+        "x" : 5,
+        "y" : 20
+      }
+    },
+    "base8" : {
+      "image" : "base8.png",
+      "attachment" : {
+        "bx" : 0,
+        "by" : 0,
+        "x" : 5,
+        "y" : 20
+      }
+    },
+    "base9" : {
+      "image" : "base9.png",
+      "attachment" : {
+        "bx" : 0,
+        "by" : 0,
+        "x" : 5,
+        "y" : 20
+      }
     }
   },
   "crown" : {

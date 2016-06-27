@@ -5,6 +5,7 @@
   "bounces" : 0,
   "timeToLive" : 0.65,
   "frames" : "fuhivebugx.png",
+  "damageKindImage" : "icon.png",
   "animationCycle" : 1.5,
   "animationLoops" : false,
   "orientationLocked" : true,
@@ -13,19 +14,15 @@
   "frameNumber" : 24,
   "actionOnReap" : [
     {
-      "action" : "config",
-      "file" : "/projectiles/explosions/vsmallregularexplosionnosound/vsmallregularexplosionnosound.config"
-    },    
-    {
       "action" : "sound",
       "options" : [ "/sfx/npc/smallbiped/bulbouseyehead_small_idle1.ogg", "/sfx/npc/smallbiped/bulbouseyehead_small_idle2.ogg", "/sfx/npc/smallbiped/bulbouseyehead_small_attack1.ogg", "/sfx/npc/smallbiped/bulbouseyehead_small_attack2.ogg" ]
     },
-        {
+    {
       "action" : "projectile",
       "type" : "xtermite2",
       "firePosition" : [-10, 5],
       "fuzzAngle" : 0,
-      "inheritDamageFactor" : 0.8,
+      "inheritDamageFactor" : 0.5,
       "angleAdjust" : 0
     },
     {
@@ -33,7 +30,7 @@
       "type" : "fuhivebuggibx",
       "firePosition" : [-10, 5],
       "fuzzAngle" : 180,
-      "inheritDamageFactor" : 0.20,
+      "inheritDamageFactor" : 0.15,
       "angleAdjust" : 0
     },
     {
@@ -41,7 +38,7 @@
       "type" : "fuhivebuggibx",
       "firePosition" : [-10, 5],
       "fuzzAngle" : 180,
-      "inheritDamageFactor" : 0.20,
+      "inheritDamageFactor" : 0.15,
       "angleAdjust" : 0
     },    
     {
@@ -49,7 +46,7 @@
       "type" : "fuhiveclusterx",
       "firePosition" : [-10, 5],
       "fuzzAngle" : 180,
-      "inheritDamageFactor" : 0.20,
+      "inheritDamageFactor" : 0.15,
       "angleAdjust" : 0
     },
     {
@@ -72,5 +69,5 @@
   "power" : 1.5,
   "damageType" : "NoDamage",
   "damageKind" : "poisonplasma",
-  "statusEffects" : [ "biooozepoison" ]
+  "statusEffects" : [ "weakpoison" ]
 }

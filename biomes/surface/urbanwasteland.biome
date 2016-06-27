@@ -146,14 +146,26 @@
        "dayLightColor" : [184, 24, 24],
        "eveningLightColor" : [126, 36, 36],
        "nightLightColor" : [40, 0, 0]
-    }
+    },
+    {
+      // dark peachy massacre
+      "mainColor" : [255, 255, 255],
 
+      "morningColors" : [ [221, 119, 51], [252, 30, 0] ],
+      "dayColors" : [ [200, 52, 7], [255, 83, 52] ],
+      "eveningColors" : [ [200, 21, 0], [254, 65, 29] ],
+      "nightColors" : [ [40, 17, 17, 60], [40, 17, 17, 160] ],
 
+      "morningLightColor" : [100, 77, 0],
+      "dayLightColor" : [194, 113, 59],
+      "eveningLightColor" : [180, 0, 0],
+      "nightLightColor" : [40, 17, 17]
+    }    
   ],
   
-  
     "mainBlock" : "drysand",
-    "subBlocks" : [ "ash", "retexrock15", "brittlejunk" ],
+    "subBlocks" : [ "drydirt", "retexrock15", "brittlejunk", "stonerubble" ],
+    
     "ores" : "ff_wastelandOres",
     "parallax" : "/parallax/surface/urbanwasteland.parallax",
 

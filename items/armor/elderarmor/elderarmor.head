@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "legendary",
-  "description" : "An abhorrent helm that empowers, but drives the user mad.",
+  "description" : "An abhorrent helm that provides regeneration in darkness.",
   "shortdescription" : "Elder Helmet",
   "tooltipKind" : "armor",
   "maleFrames" : "head.png",
@@ -30,7 +30,7 @@
       "stat" : "maxHealth",
       "amount" : 35
     },
-      "elderarmorimmunity"
+    "darkregen"
   ],
   "questTags" : [ "elderarmor" ],
   "colorOptions" : [

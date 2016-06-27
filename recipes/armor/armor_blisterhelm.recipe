@@ -2,8 +2,7 @@
   "input" : [
     { "item" : "blisterextract", "count" : 3 },
     { "item" : "titaniumbar", "count" : 2 },
-    { "item" : "polymer", "count" : 3 },
-    { "item" : "biochip", "count" : 3 }
+    { "item" : "polymer", "count" : 3 }
   ],
   "output" : {
     "item" : "blisterhelm",

@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Rare",
-  "description" : "Superior plating grants additional protection.",
+  "description" : "Regenerates flesh when highly illuminated.",
   "shortdescription" : "Sunwalker Helm",
   "tooltipKind" : "armor",
 
@@ -17,26 +17,19 @@
       "stat" : "powerMultiplier",
       "baseMultiplier" : 1.75
     },
-
     {
       "stat" : "protection",
       "amount" : 21
     },
-
     {
       "stat" : "maxEnergy",
       "amount" : 40
     },
-
     {
       "stat" : "maxHealth",
       "amount" : 19
     },
-    {
-      "stat" : "wetImmunity",
-      "amount" : 1
-    },
-    "defense2"
+    "lightregen"
   ],
 
   "colorOptions" : [

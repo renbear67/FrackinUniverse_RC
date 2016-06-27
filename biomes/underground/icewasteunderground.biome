@@ -5,6 +5,14 @@
     "spawnProfile" : {
     "groups" : [
       {
+        "select" : 1,
+        "pool" : [ 
+          [ 0.05, "orbide" ],
+          [ 0.05, "icecrab" ],
+          [ 0.05, "frostgiantscorpion" ]
+        ]
+      },    
+      {
         "select" : 3,
         "pool" : [
           [ 0.3, "fusnowball" ]

@@ -1,6 +1,6 @@
 {
   "objectName" : "fugoldenoakdoor",
-  "colonyTags" : [ "bees", "insects" ],
+  "colonyTags" : [ "bees", "insects", "door" ],
   "rarity" : "Common",
   "printable" : false,
   "category" : "door",

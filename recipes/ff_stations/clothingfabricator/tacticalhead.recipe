@@ -1,8 +1,7 @@
 {
   "input" : [
     { "item" : "eridianbar", "count" : 3 },
-    { "item" : "mutaviskthread", "count" : 7 },
-    { "item" : "biochip", "count" : 2 }
+    { "item" : "mutaviskthread", "count" : 7 }
   ],
   "output" : {
     "item" : "tacticalhead",

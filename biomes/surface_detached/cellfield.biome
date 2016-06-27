@@ -26,8 +26,8 @@
   },
   "hueShiftOptions" : [-165, -70, -25, 0, 25, 70, 165],
 
-    "mainBlock" : "fleshblock",
-    "subBlocks" : [ "corruptdirt", "brains", "bonematerial" ],
+    "mainBlock" : "genetile",
+    "subBlocks" : [ "corruptdirt", "bonematerial" ],
     "ores" : "ff_deepsurfaceshadowOres",
 
   "surfacePlaceables" : {

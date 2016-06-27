@@ -50,6 +50,6 @@
     "vialproto" : 40,
     "biofuelcannistermax" : 50,
     "solariumstar" : 60,
-    "elderfluid" : 100
+    "liquidelderfluid" : 100
   }
 }

@@ -3,7 +3,7 @@
  "properties":
     {},
  "spacing":0,
- "tilecount":15,
+ "tilecount":18,
  "tileheight":8,
   "tileproperties" : {
       "0" : {
@@ -50,7 +50,16 @@
       },
       "14" : {
           "material" : "elderroof"
-      } 
+      },
+      "15" : {
+          "material" : "elderbricks"
+      },
+      "16" : {
+          "material" : "elderbaseboard"
+      },
+      "17" : {
+          "material" : "elderbricks2"
+      }        
  }, 
  "tiles":
     {
@@ -113,7 +122,19 @@
      "14":
         {
          "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/elderroof.png"
-        } 
+        },
+     "15":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/elderbricks.png"
+        },
+     "16":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/elderbaseboard.png"
+        },
+     "17":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/elderbricks2.png"
+        }         
     },
  "tilewidth":8
 }

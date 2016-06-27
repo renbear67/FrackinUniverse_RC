@@ -1,0 +1,13 @@
+{
+  "name" : "raceapex",
+  "effectConfig" : {
+    "healthDown" : 0.08
+  },
+  
+  "defaultDuration" : 300,
+
+  "scripts" : [
+    "raceapex.lua"
+  ]
+
+}

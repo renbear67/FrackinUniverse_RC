@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "description" : "Slimy, oozing protection. Immune to Bio-ooze.",
-  "shortdescription" : "Red Gelatinous Chest",
+  "shortdescription" : "Red Gelatin Chest",
   "tooltipKind" : "armor",
 
   "maleFrames" : {

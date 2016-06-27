@@ -1,0 +1,10 @@
+{
+  "name" : "racehuman",
+  "effectConfig" : {},
+  "defaultDuration" : 300,
+
+  "scripts" : [
+    "racehuman.lua"
+  ]
+
+}

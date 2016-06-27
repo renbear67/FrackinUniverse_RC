@@ -1,8 +1,7 @@
 {
   "input" : [
     { "item" : "blisterextract", "count" : 12 },
-    { "item" : "ironbar", "count" : 6 },
-    { "item" : "biochip", "count" : 1 }
+    { "item" : "ironbar", "count" : 6 }
   ],
   "output" : {
     "item" : "ff_blisterlight3",

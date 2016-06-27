@@ -5,6 +5,6 @@
   "inventoryIcon" : "retexaetherdust.png",
   "description" : "Strangely glittering dust",
   "shortdescription" : "Aether Dust",
-  "learnBlueprintsOnPickup" : [ "aetherdustpillar"],
+  "learnBlueprintsOnPickup" : [ "retexaetherdustpillar"],
   "materialId" : 6626
 }

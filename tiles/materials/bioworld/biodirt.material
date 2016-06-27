@@ -18,7 +18,7 @@
     "lightTransparent" : false,
     "occludesBelow" : true,
     "multiColored" : false,
-    "zLevel" : 0
+    "zLevel" : 1200
   },
 
   "liquidInteractions" : [

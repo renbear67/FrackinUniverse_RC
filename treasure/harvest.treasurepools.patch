@@ -924,7 +924,120 @@
 {"op":"replace","path":"/flowerredHarvest/0","value":[0,{"pool":[{"weight":0.5,"item":"petalred"},{"weight":0.3,"item":"flowerred"},{"weight":0.15,"item":"flowerred"},{"weight":0.05,"item":"flowerspring"}],"poolRounds":[[0.5,2],[0.4,3],[0.1,4]]}]},
 {"op":"replace","path":"/flowerblueHarvest/0","value":[0,{"pool":[{"weight":0.5,"item":"petalblue"},{"weight":0.3,"item":"flowerblue"},{"weight":0.15,"item":"flowerblue"},{"weight":0.05,"item":"floweryellow"}],"poolRounds":[[0.5,2],[0.4,3],[0.1,4]]}]},
 {"op":"replace","path":"/flowerspringHarvest/0","value":[0,{"pool":[{"weight":0.5,"item":"petalblue"},{"weight":0.3,"item":"flowerspring"},{"weight":0.15,"item":"flowerspring"},{"weight":0.05,"item":"flowerblue"}],"poolRounds":[[0.5,2],[0.4,3],[0.1,4]]}]},
-{"op":"replace","path":"/floweryellowHarvest/0","value":[0,{"pool":[{"weight":0.5,"item":"petalyellow"},{"weight":0.3,"item":"floweryellow"},{"weight":0.15,"item":"floweryellow"},{"weight":0.05,"item":"flowerred"}],"poolRounds":[[0.5,2],[0.4,3],[0.1,4]]}]},
+{"op":"add","path":"/floweryellowHarvest/0","value":[0,{"pool":[{"weight":0.5,"item":"petalyellow"},{"weight":0.3,"item":"floweryellow"},{"weight":0.15,"item":"floweryellow"},{"weight":0.05,"item":"flowerred"}],"poolRounds":[[0.5,2],[0.4,3],[0.1,4]]}]},
+
+
+
+{
+	"op" : "add",
+	"path" : "/flowerblackHarvest",
+	"value" : [ [0, {
+			"fill" : [{"item" : "flowerblack"}],
+			"pool" : [
+			{"weight" : 0.01, "item" : "flowerblack"},
+			{"weight" : 0.10, "item" : "plantfibre"}],
+			"poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+},
+{
+	"op" : "add",
+	"path" : "/flowerbrownHarvest",
+	"value" : [ [0, {
+			"fill" : [{"item" : "flowerbrown"}],
+			"pool" : [
+			{"weight" : 0.01, "item" : "flowerbrown"},
+			{"weight" : 0.10, "item" : "plantfibre"}],
+			"poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+},
+{
+	"op" : "add",
+	"path" : "/flowergreenHarvest",
+	"value" : [ [0, {
+			"fill" : [{"item" : "flowergreen"}],
+			"pool" : [
+			{"weight" : 0.01, "item" : "flowergreen"},
+			{"weight" : 0.10, "item" : "plantfibre"}],
+			"poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+},
+{
+	"op" : "add",
+	"path" : "/flowergreyHarvest",
+	"value" : [ [0, {
+			"fill" : [{"item" : "flowergrey"}],
+			"pool" : [
+			{"weight" : 0.01, "item" : "flowergrey"},
+			{"weight" : 0.10, "item" : "plantfibre"}],
+			"poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+},
+{
+	"op" : "add",
+	"path" : "/flowerorangeHarvest",
+	"value" : [ [0, {
+			"fill" : [{"item" : "flowerorange"}],
+			"pool" : [
+			{"weight" : 0.01, "item" : "flowerorange"},
+			{"weight" : 0.10, "item" : "plantfibre"}],
+			"poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+},
+{
+	"op" : "add",
+	"path" : "/flowerorchidHarvest",
+	"value" : [ [0, {
+			"fill" : [{"item" : "flowerorchid"}],
+			"pool" : [
+			{"weight" : 0.01, "item" : "flowerorchid"},
+			{"weight" : 0.10, "item" : "plantfibre"}],
+			"poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+},
+{
+	"op" : "add",
+	"path" : "/flowerorchid2Harvest",
+	"value" : [ [0, {
+			"fill" : [{"item" : "flowerorchid2"}],
+			"pool" : [
+			{"weight" : 0.01, "item" : "flowerorchid2"},
+			{"weight" : 0.10, "item" : "plantfibre"}],
+			"poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+},
+{
+	"op" : "add",
+	"path" : "/flowerorchid3Harvest",
+	"value" : [ [0, {
+			"fill" : [{"item" : "flowerorchid3"}],
+			"pool" : [
+			{"weight" : 0.01, "item" : "flowerorchid3"},
+			{"weight" : 0.10, "item" : "plantfibre"}],
+			"poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+},
+{
+	"op" : "add",
+	"path" : "/flowerpinkHarvest",
+	"value" : [ [0, {
+			"fill" : [{"item" : "flowerpink"}],
+			"pool" : [
+			{"weight" : 0.01, "item" : "flowerpink"},
+			{"weight" : 0.10, "item" : "plantfibre"}],
+			"poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+},
+{
+	"op" : "add",
+	"path" : "/flowerpurpleHarvest",
+	"value" : [ [0, {
+			"fill" : [{"item" : "flowerpurple"}],
+			"pool" : [
+			{"weight" : 0.01, "item" : "flowerpurple"},
+			{"weight" : 0.10, "item" : "plantfibre"}],
+			"poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+},
+{
+	"op" : "add",
+	"path" : "/flowerwhiteHarvest",
+	"value" : [ [0, {
+			"fill" : [{"item" : "flowerwhite"}],
+			"pool" : [
+			{"weight" : 0.01, "item" : "flowerwhite"},
+			{"weight" : 0.10, "item" : "plantfibre"}],
+			"poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ] } ] ]
+},
 
 {
 	"op" : "add",

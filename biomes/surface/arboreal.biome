@@ -72,6 +72,35 @@
   
   
   "skyOptions" : [
+    //varied
+    {
+      "mainColor" : [255, 255, 255],
+
+      "morningColors" : [ [255, 77, 129], [252, 77, 164] ],
+      "dayColors" : [ [255, 152, 88], [255, 183, 88] ],
+      "eveningColors" : [ [188, 99, 69], [188, 121, 69] ],
+      "nightColors" : [ [70, 50, 50], [70, 50, 50] ],
+
+      "morningLightColor" : [255, 77, 190],
+      "dayLightColor" : [255, 138, 140],
+      "eveningLightColor" : [188, 100, 65],
+      "nightLightColor" : [77, 40, 40]
+    },
+    // no red at all
+     {
+      "mainColor" : [255, 255, 255],
+
+      "morningColors" : [ [0, 177, 129], [0, 177, 164] ],
+      "dayColors" : [ [0, 152, 88], [0, 183, 88] ],
+      "eveningColors" : [ [0, 99, 69], [0, 121, 69] ],
+      "nightColors" : [ [0, 50, 50], [0, 50, 50] ],
+
+      "morningLightColor" : [0, 77, 190],
+      "dayLightColor" : [0, 138, 140],
+      "eveningLightColor" : [0, 100, 65],
+      "nightLightColor" : [0, 40, 40]
+    },
+       
     {
       "mainColor" : [255, 255, 255],
 
@@ -584,7 +613,7 @@
           "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "forestmicrodungeons", "gardenmicrodungeons", "arborealmini" ]
+          "microdungeons" : [ "fuencounters", "forestmicrodungeons", "gardenmicrodungeons", "arborealmini" ]
         },
         {
           "mode" : "floor",
@@ -593,7 +622,7 @@
           "distribution" : "/biomes/distributions.config:randomEncounter",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "fushops", "fulabs", "fuencounters", "fubandits", "newhumanmicro", "newavianmicro", "minigreenruins", "fuhives", "furandomencounter", "fuapexencounter", "fuglitchencounter", "fuavianencounter", "fuhumanencounter" ]
+          "microdungeons" : [ "fushops", "fulabs", "fubandits", "newhumanmicro", "newavianmicro", "minigreenruins", "fuhives", "furandomencounter", "fuapexencounter", "fuglitchencounter", "fuavianencounter", "fuhumanencounter" ]
         },
         {
           "mode" : "floor",
